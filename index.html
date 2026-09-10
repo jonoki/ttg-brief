@@ -1,0 +1,511 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+<title>Pre-Market Brief — The Tilted Gent</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@500;600;700&family=IBM+Plex+Sans:wght@400;500;600&family=JetBrains+Mono:wght@400;500;600&display=swap">
+<style>
+:root{
+  --bg:#F4F6F5; --panel:#FFFFFF; --ink:#171C21; --ink-2:#4B5560; --mute:#7C8791; --line:#D9DEDC; --line-2:#E9ECEB;
+  --accent:#C8891A; --accent-ink:#8A5A0B; --accent-soft:#FBF1DE;
+  --hi:#C43C3C; --hi-soft:#F9E3E3; --med:#B7791F; --med-soft:#F8ECD6; --ok:#2F8F5B; --ok-soft:#DFF1E6;
+  --g-prior:#3A6EA5; --g-on:#7A5AB8; --g-prof:#2A8C82; --g-week:#5E6B7A; --g-round:#9AA3AB; --g-range:#A0763B; --g-today:#B5443F;
+  --last:#171C21;
+  --sans:"IBM Plex Sans",system-ui,-apple-system,"Segoe UI",sans-serif; --cond:"Barlow Condensed","Arial Narrow",sans-serif; --mono:"JetBrains Mono",ui-monospace,Menlo,Consolas,monospace;
+}
+@media (prefers-color-scheme: dark){ :root:not([data-theme="light"]){
+  --bg:#111518; --panel:#181D21; --ink:#E6EAED; --ink-2:#B4BCC3; --mute:#7F8A93; --line:#2B333A; --line-2:#222930;
+  --accent:#E0A03A; --accent-ink:#F0C070; --accent-soft:#2E2412;
+  --hi:#E25A5A; --hi-soft:#3A1E1E; --med:#D79A3D; --med-soft:#33271A; --ok:#4FB57B; --ok-soft:#1B3125;
+  --g-prior:#6C9CD0; --g-on:#A78BE0; --g-prof:#4FB3A8; --g-week:#8B99A8; --g-round:#6F7A83; --g-range:#C69A5C; --g-today:#E06A64;
+  --last:#E6EAED;
+}}
+:root[data-theme="dark"]{
+  --bg:#111518; --panel:#181D21; --ink:#E6EAED; --ink-2:#B4BCC3; --mute:#7F8A93; --line:#2B333A; --line-2:#222930;
+  --accent:#E0A03A; --accent-ink:#F0C070; --accent-soft:#2E2412;
+  --hi:#E25A5A; --hi-soft:#3A1E1E; --med:#D79A3D; --med-soft:#33271A; --ok:#4FB57B; --ok-soft:#1B3125;
+  --g-prior:#6C9CD0; --g-on:#A78BE0; --g-prof:#4FB3A8; --g-week:#8B99A8; --g-round:#6F7A83; --g-range:#C69A5C; --g-today:#E06A64;
+  --last:#E6EAED;
+}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);font:14px/1.5 var(--sans);-webkit-font-smoothing:antialiased}
+a{color:inherit}
+.wrap{max-width:1180px;margin:0 auto;padding:20px 22px 48px}
+h1,h2,h3{font-family:var(--cond);font-weight:600;letter-spacing:.01em;margin:0;text-wrap:balance}
+h1{font-size:30px;line-height:1.05}
+h2{font-size:15px;text-transform:uppercase;letter-spacing:.09em;color:var(--ink-2)}
+.eyebrow{font-family:var(--cond);font-size:12px;letter-spacing:.14em;text-transform:uppercase;color:var(--mute)}
+.mono{font-family:var(--mono);font-variant-numeric:tabular-nums}
+
+/* status strip */
+.strip{display:grid;grid-template-columns:1.6fr 1fr 1fr 1.4fr;gap:14px;align-items:stretch;border-top:2px solid var(--ink);border-bottom:1px solid var(--line);padding:14px 0 12px;margin-bottom:22px}
+.strip .cell{display:flex;flex-direction:column;gap:3px;min-width:0}
+.strip .big{font-family:var(--cond);font-size:26px;line-height:1;font-weight:600}
+.strip .sub{color:var(--ink-2);font-size:13px}
+.countdown{background:var(--accent-soft);border-left:3px solid var(--accent);padding:8px 12px}
+.countdown .big{color:var(--accent-ink)}
+.countdown.soon{background:var(--hi-soft);border-left-color:var(--hi)} .countdown.soon .big{color:var(--hi)}
+.countdown.none{background:transparent;border-left-color:var(--line)}
+.stale{display:inline-block;padding:1px 7px;border-radius:3px;font-family:var(--mono);font-size:11px;background:var(--hi-soft);color:var(--hi);margin-left:6px}
+
+/* grids */
+.two{display:grid;grid-template-columns:1.25fr 1fr;gap:22px;margin-bottom:26px}
+.ladders{display:grid;grid-template-columns:1fr 1fr;gap:22px;margin-bottom:26px}
+@media (max-width:860px){.two,.ladders,.strip{grid-template-columns:1fr}}
+section>h2{margin-bottom:8px;padding-bottom:6px;border-bottom:1px solid var(--line)}
+
+/* calendar table */
+table{border-collapse:collapse;width:100%}
+.cal td{padding:5px 8px 5px 0;border-bottom:1px solid var(--line-2);vertical-align:top}
+.cal tr.day td{padding-top:12px;border-bottom:none}
+.cal .when{white-space:nowrap;width:1%}
+.cal .when small{color:var(--mute);margin-left:6px}
+.cal .name{font-weight:500}
+.cal .nums{white-space:nowrap;color:var(--ink-2);font-size:12.5px}
+.cal .nums b{color:var(--ink);font-weight:600}
+.imp{display:inline-block;width:8px;height:8px;border-radius:2px;margin-right:8px;vertical-align:1px;background:var(--line)}
+.imp.high{background:var(--hi)} .imp.medium{background:var(--med)} .imp.holiday{background:var(--g-week)}
+tr.past td{color:var(--mute)} tr.past .imp{opacity:.5} tr.past .nums b{color:var(--ink-2)}
+.src{color:var(--mute);font-size:11px;white-space:nowrap}
+.src.one{color:var(--med)}
+.cal .name{position:relative}
+.info{display:inline-block;margin-left:6px;width:14px;height:14px;line-height:13px;text-align:center;border-radius:50%;border:1px solid var(--line);color:var(--mute);font-size:10px;font-family:var(--mono);cursor:help;vertical-align:1px;background:transparent;padding:0}
+.info:hover,.info:focus-visible{border-color:var(--accent);color:var(--accent-ink)}
+.card{display:none;position:absolute;left:0;top:calc(100% + 4px);z-index:5;width:min(46ch,70vw);background:var(--panel);border:1px solid var(--line);box-shadow:0 4px 14px rgba(0,0,0,.10);padding:8px 10px;font-size:12px;line-height:1.45;color:var(--ink);font-weight:400;white-space:normal}
+.card b{display:block;font-family:var(--cond);font-size:11px;letter-spacing:.1em;text-transform:uppercase;color:var(--mute);margin-bottom:2px}
+.card p{margin:0 0 6px} .card p:last-child{margin:0}
+.name:hover .card,.name:focus-within .card{display:block}
+
+/* what matters */
+.matters ol{margin:0;padding-left:0;list-style:none;display:flex;flex-direction:column;gap:9px}
+.matters li{padding-left:14px;border-left:2px solid var(--line);max-width:62ch}
+.matters li:first-child{border-left-color:var(--accent)}
+.matters .cite{color:var(--mute);font-family:var(--mono);font-size:10.5px;margin-left:4px}
+.matters .meta{color:var(--mute);font-size:12px;margin-top:10px}
+.heads{margin-top:14px}
+.heads li{display:grid;grid-template-columns:auto 1fr;gap:10px;padding:5px 0;border-bottom:1px solid var(--line-2);font-size:13px}
+.heads .sc{font-family:var(--mono);color:var(--mute);font-size:11px;padding-top:2px}
+.heads a{text-decoration:none} .heads a:hover{text-decoration:underline}
+.heads .m{color:var(--mute);font-size:11px}
+
+/* earnings */
+.earn table td{padding:4px 8px 4px 0;border-bottom:1px solid var(--line-2);font-size:13px;vertical-align:top}
+.earn .sym{font-family:var(--mono);font-weight:600;white-space:nowrap}
+.earn .co{color:var(--ink-2);font-size:12px}
+.earn .eps{font-family:var(--mono);font-variant-numeric:tabular-nums;white-space:nowrap;text-align:right}
+.earn .tag{display:inline-block;padding:0 6px;border-radius:3px;font-family:var(--cond);font-size:11px;letter-spacing:.08em;text-transform:uppercase;margin-left:6px}
+.earn .beat{background:var(--ok-soft);color:var(--ok)} .earn .miss{background:var(--hi-soft);color:var(--hi)} .earn .inline{background:var(--line-2);color:var(--ink-2)}
+.earn .when{color:var(--mute);font-size:11px;white-space:nowrap}
+.earn .grp{font-family:var(--cond);font-size:11px;letter-spacing:.12em;text-transform:uppercase;color:var(--mute);padding-top:10px}
+
+/* charts */
+.charts{display:grid;grid-template-columns:1fr 1fr;gap:22px;margin-bottom:26px}
+@media (max-width:860px){.charts{grid-template-columns:1fr}}
+.chart{position:relative}
+.chart svg{width:100%;height:auto;display:block;font-family:var(--mono);font-variant-numeric:tabular-nums}
+.chart .grid{stroke:var(--line-2);stroke-width:1}
+.chart .axis{fill:var(--mute);font-size:10px}
+.chart .rth{fill:var(--ink);opacity:.045}
+.chart .sess{stroke:var(--line);stroke-width:1;stroke-dasharray:2 3}
+.chart .wick{stroke-width:1}
+.chart .up{stroke:var(--ok);fill:var(--ok)} .chart .dn{stroke:var(--hi);fill:var(--hi)}
+.chart .lvl{stroke-width:1.25;stroke-dasharray:5 3;opacity:.9}
+.chart .lvl.last{stroke:var(--last);stroke-dasharray:none;stroke-width:1.5;opacity:1}
+.chart .lbl{font-size:10px;fill:var(--ink-2)} .chart .lbl.last{fill:var(--ink);font-weight:600}
+.chart .lbl-bg{fill:var(--bg);opacity:.85}
+.chart .xh{stroke:var(--mute);stroke-width:1;stroke-dasharray:3 3}
+.chart .hit{fill:transparent}
+.tip{position:absolute;pointer-events:none;background:var(--panel);border:1px solid var(--line);padding:5px 8px;font:11px/1.4 var(--mono);color:var(--ink);white-space:nowrap;box-shadow:0 2px 8px rgba(0,0,0,.08);display:none}
+.chart h2 .src{float:right;font-family:var(--mono);font-weight:500;text-transform:none;letter-spacing:0;color:var(--mute);font-size:11px}
+
+/* ladders */
+.ladder h2 .last{float:right;font-family:var(--mono);font-weight:500;text-transform:none;letter-spacing:0;color:var(--ink)}
+.ladder table td{padding:3px 6px;border-bottom:1px solid var(--line-2);font-size:13px}
+.ladder .px{font-family:var(--mono);font-variant-numeric:tabular-nums;font-weight:500;width:1%;white-space:nowrap;text-align:right}
+.ladder .d{font-family:var(--mono);font-variant-numeric:tabular-nums;color:var(--mute);width:1%;white-space:nowrap;text-align:right;font-size:12px}
+.ladder .lb{white-space:nowrap}
+.ladder .lb::before{content:"";display:inline-block;width:10px;height:3px;margin-right:8px;vertical-align:3px;background:var(--c)}
+.ladder .nt{color:var(--mute);font-size:11.5px}
+.ladder tr.last td{border-top:2px solid var(--last);border-bottom:2px solid var(--last);background:var(--panel);font-weight:600}
+.ladder tr.last .lb::before{display:none}
+.ladder .stats{margin-top:8px;color:var(--ink-2);font-size:12px;display:flex;flex-wrap:wrap;gap:6px 16px}
+.ladder .stats b{font-family:var(--mono);font-weight:500;color:var(--ink)}
+.legend{display:flex;flex-wrap:wrap;gap:6px 14px;font-size:11.5px;color:var(--mute);margin:-14px 0 22px}
+.legend span::before{content:"";display:inline-block;width:10px;height:3px;margin-right:6px;vertical-align:3px;background:var(--c)}
+
+/* flags & foot */
+.flags{margin-bottom:22px}
+.flags ul{margin:0;padding-left:0;list-style:none;display:flex;flex-direction:column;gap:4px}
+.flags li{font-size:12.5px;padding:5px 10px;background:var(--med-soft);border-left:3px solid var(--med);color:var(--ink)}
+.flags li.down{background:var(--hi-soft);border-left-color:var(--hi)}
+.foot{color:var(--mute);font-size:11.5px;display:flex;flex-wrap:wrap;gap:6px 18px;border-top:1px solid var(--line);padding-top:10px}
+.foot .ok{color:var(--ok)} .foot .bad{color:var(--hi)}
+.empty{color:var(--mute);font-style:italic}
+:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+@media (prefers-reduced-motion:no-preference){.countdown .big{transition:color .3s}}
+.brand,.disclaimer{display:none}
+/* The Tilted Gent skin — black / gold / crimson, Cinzel display. One committed dark look. */
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@600;700&family=IBM+Plex+Sans:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap');
+:root, :root:not([data-theme="light"]), :root[data-theme="dark"], :root[data-theme="light"]{
+  --bg:#0B0A0A; --panel:#141212; --ink:#F3EBDD; --ink-2:#CBBFA8; --mute:#8E8474; --line:#2C2620; --line-2:#1E1A17;
+  --accent:#D4AF37; --accent-ink:#E9C85A; --accent-soft:#1E1A0E;
+  --hi:#C8102E; --hi-soft:#2A0D12; --med:#D4AF37; --med-soft:#241E0E; --ok:#5FB57B; --ok-soft:#12261A;
+  --g-prior:#D4AF37; --g-on:#C97B84; --g-prof:#8FBFB5; --g-week:#9A8F7C; --g-round:#6B6257; --g-range:#B08A4A; --g-today:#C8102E;
+  --last:#F3EBDD;
+  --cond:"Cinzel","Times New Roman",serif; --sans:"IBM Plex Sans",system-ui,-apple-system,"Segoe UI",sans-serif; --mono:"JetBrains Mono",ui-monospace,Menlo,Consolas,monospace;
+  color-scheme:dark;
+}
+body{background:radial-gradient(1200px 500px at 50% -120px, #1C1608 0%, var(--bg) 60%) fixed var(--bg)}
+h1{font-family:var(--cond);font-weight:700;letter-spacing:.04em;color:var(--accent-ink);text-transform:uppercase;font-size:28px}
+h2{font-family:var(--cond);font-weight:600;letter-spacing:.14em;color:var(--accent);font-size:13px}
+section>h2{border-bottom:1px solid var(--accent);border-image:linear-gradient(90deg,var(--accent),transparent 70%) 1}
+.eyebrow{color:var(--mute);font-family:var(--sans);letter-spacing:.18em}
+.strip{border-top:2px solid var(--accent);border-bottom:1px solid var(--line);box-shadow:0 -1px 0 rgba(212,175,55,.25), 0 -6px 18px -8px rgba(212,175,55,.45)}
+.strip .big{font-family:var(--cond);font-size:22px;letter-spacing:.02em}
+.countdown{background:var(--accent-soft);border-left:3px solid var(--accent)}
+.countdown.soon{background:var(--hi-soft);border-left-color:var(--hi)} .countdown.soon .big{color:#FF4D64}
+.ladder tr.last td{background:var(--accent-soft);color:var(--accent-ink)}
+.ladder .px{color:var(--ink)}
+.cal .name{color:var(--ink)}
+.imp.high{background:var(--hi);box-shadow:0 0 6px rgba(200,16,46,.7)} .imp.medium{background:var(--accent);box-shadow:0 0 6px rgba(212,175,55,.6)}
+a{color:var(--accent-ink)} .heads a{color:var(--ink)} .heads a:hover{color:var(--accent-ink)}
+.earn .tag.inline{background:var(--accent-soft);color:var(--accent-ink)}
+.card{background:var(--panel);border:1px solid var(--accent);box-shadow:0 0 0 1px rgba(200,16,46,.35) inset, 0 10px 30px rgba(0,0,0,.6)}
+.info{border-color:var(--accent);color:var(--accent)}
+
+/* brand header */
+.brand{display:flex;align-items:center;gap:14px;margin:4px 0 18px}
+.brand .logo{display:inline-flex;align-items:center;gap:12px;text-decoration:none;color:var(--ink)}
+.brand .card-mark{display:inline-grid;place-items:center;width:44px;height:58px;border:2px solid var(--accent);border-radius:6px;transform:rotate(-8deg);font-family:var(--cond);font-weight:700;font-size:18px;color:var(--accent-ink);background:linear-gradient(160deg,#171310,#0B0A0A);box-shadow:0 0 0 1px rgba(200,16,46,.6) inset,0 0 14px rgba(212,175,55,.45);letter-spacing:-.04em}
+.brand .card-mark::after{content:"♠";position:relative;top:-16px;left:14px;font-size:10px;color:var(--hi)}
+.brand .wordmark{font-family:var(--cond);font-weight:700;font-size:20px;letter-spacing:.16em;text-transform:uppercase;color:var(--accent-ink);text-shadow:0 0 10px rgba(212,175,55,.35)}
+.brand .tag{margin-left:auto;font-family:var(--cond);font-size:12px;letter-spacing:.2em;text-transform:uppercase;color:var(--mute)}
+.disclaimer{display:block;margin:0 0 16px;padding:8px 12px;border-left:3px solid var(--hi);background:var(--hi-soft);color:var(--ink-2);font-size:12.5px}
+.foot{border-top:1px solid var(--line)}
+@media (max-width:600px){.brand .tag{display:none}.brand .wordmark{font-size:16px}}
+
+</style>
+
+<div class="wrap" id="app">
+  <div class="brand" id="brand"></div>
+  <div class="eyebrow" id="eyebrow">Day Trading Aid · ES / NQ</div>
+  <h1 id="title">Pre-market brief</h1>
+  <div class="disclaimer" id="disclaimer"></div>
+  <div class="strip" id="strip"></div>
+  <div class="two">
+    <section class="calendar"><h2>Calendar</h2><div id="cal"></div></section>
+    <section class="matters"><h2>What matters today</h2><div id="matters"></div>
+      <h2 style="margin-top:22px">Earnings · index movers</h2><div id="earn"></div></section>
+  </div>
+  <div class="charts" id="charts"></div>
+  <div class="ladders" id="ladders"></div>
+  <div class="legend" id="legend"></div>
+  <section class="flags" id="flags"></section>
+  <div class="foot" id="foot"></div>
+</div>
+
+<script>
+window.__BRIEF__ = null;
+window.__PUBLIC__ = true;      // public site variant: no provider data, no connector
+(function(){
+  const PUBLIC = !!window.__PUBLIC__;
+  const $ = (id) => document.getElementById(id);
+  const esc = (s) => String(s ?? "").replace(/[&<>"']/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
+  const GROUP = {prior_day:"--g-prior", overnight:"--g-on", profile:"--g-prof", week:"--g-week", round:"--g-round", range:"--g-range", today:"--g-today"};
+  const GROUP_LABEL = {prior_day:"prior day (PDH/PDL/PDC)", overnight:"overnight (ONH/ONL)", profile:"profile (POC / VAH / VAL)", week:"week", round:"round numbers", range:"ATR range", today:"today (HOD/LOD)"};
+  const fmtLocal = (iso, tz) => iso ? new Date(iso).toLocaleTimeString("en-CA", {hour:"2-digit", minute:"2-digit", hour12:false, timeZone: tz}) : "";
+  const px = (n) => n == null ? "" : n.toLocaleString("en-US", {minimumFractionDigits:2, maximumFractionDigits:2});
+
+  // The levels worth drawing on the chart, by tag. Everything else stays in the ladder.
+  const CHART_TAGS = {pdh:"PDH", pdl:"PDL", pdc:"PDC", onh:"ONH", onl:"ONL", poc:"POC", vah:"VAH", val:"VAL", tdh:"HOD", tdl:"LOD"};
+
+  function etParts(iso){
+    const d = new Date(iso);
+    const p = new Intl.DateTimeFormat("en-US", {timeZone:"America/New_York", hour:"2-digit", minute:"2-digit", hour12:false, weekday:"short"}).formatToParts(d);
+    const get = (k) => (p.find(x => x.type === k) || {}).value;
+    return {h: +get("hour") % 24, m: +get("minute"), wd: get("weekday")};
+  }
+
+  function drawChart(ls, host, tip, tz){
+    const bars = ls.bars || [];
+    if (!bars.length){ host.innerHTML = PUBLIC ? "" : `<p class="empty">No bars in this brief — chart needs the local run.</p>`; return; }
+    const W = 600, H = 300, padL = 8, padR = 96, padT = 10, padB = 22;
+    const iw = W - padL - padR, ih = H - padT - padB;
+    const lv = ls.levels.filter(l => CHART_TAGS[l.tag]);
+    const prices = bars.flatMap(b => [b.h, b.l]).concat(lv.map(l => l.price), ls.last_price != null ? [ls.last_price] : []);
+    let lo = Math.min(...prices), hi = Math.max(...prices);
+    const span = (hi - lo) || 1; lo -= span * 0.04; hi += span * 0.04;
+    const y = (p) => padT + (hi - p) / (hi - lo) * ih;
+    const n = bars.length, slot = iw / n, cw = Math.max(1.5, Math.min(6, slot * 0.7));
+    const x = (i) => padL + i * slot + slot / 2;
+    let s = "";
+    // RTH shading + session boundaries + hour ticks
+    let rthStart = null, lastLblX = -1e9;
+    const xlbl = (xx, text) => { if (xx - lastLblX < 46) return; lastLblX = xx; s += `<text class="axis" x="${xx + 3}" y="${padT + ih + 14}">${esc(text)}</text>`; };
+    bars.forEach((b, i) => {
+      const e = etParts(b.t);
+      const inRth = (e.h > 9 || (e.h === 9 && e.m >= 30)) && e.h < 16;
+      if (inRth && rthStart === null) rthStart = i;
+      if ((!inRth || i === n - 1) && rthStart !== null){ const end = inRth ? i + 1 : i; s += `<rect class="rth" x="${padL + rthStart * slot}" y="${padT}" width="${(end - rthStart) * slot}" height="${ih}"/>`; rthStart = null; }
+      if (e.h === 18 && e.m === 0){ s += `<line class="sess" x1="${x(i) - slot/2}" x2="${x(i) - slot/2}" y1="${padT}" y2="${padT + ih}"/>`; xlbl(x(i) - slot/2, `18:00 ${e.wd}`); }
+      else if (e.h === 9 && e.m === 30) xlbl(x(i) - slot/2, `09:30 ${e.wd}`);
+      else if (e.h === 16 && e.m === 0) xlbl(x(i) - slot/2, "16:00");
+      else if (e.m === 0 && e.h % 4 === 0 && e.h !== 0 && e.h !== 16) xlbl(x(i) - slot/2, `${String(e.h).padStart(2,"0")}:00`);
+    });
+    // price grid: 5 lines at round values
+    const step = niceStep((hi - lo) / 5);
+    for (let p = Math.ceil(lo / step) * step; p < hi; p += step){
+      s += `<line class="grid" x1="${padL}" x2="${padL + iw}" y1="${y(p)}" y2="${y(p)}"/><text class="axis" x="${padL + 3}" y="${y(p) - 2}">${p.toLocaleString("en-US", {maximumFractionDigits: 0})}</text>`;
+    }
+    // candles
+    bars.forEach((b, i) => {
+      const cls = b.c >= b.o ? "up" : "dn";
+      const top = y(Math.max(b.o, b.c)), bot = y(Math.min(b.o, b.c));
+      s += `<line class="wick ${cls}" x1="${x(i)}" x2="${x(i)}" y1="${y(b.h)}" y2="${y(b.l)}"/>`;
+      s += `<rect class="${cls}" x="${x(i) - cw/2}" y="${top}" width="${cw}" height="${Math.max(1, bot - top)}"/>`;
+    });
+    // level lines with de-collided labels at the right edge
+    const items = lv.map(l => ({tag: l.tag, label: CHART_TAGS[l.tag], price: l.price, color: `var(${GROUP[l.group] || "--g-round"})`, last: false}));
+    if (ls.last_price != null) items.push({tag: "last", label: "LAST", price: ls.last_price, color: "var(--last)", last: true});
+    items.sort((a, b) => b.price - a.price);                         // top of screen first
+    const placed = items.map(it => ({...it, ly: y(it.price)}));
+    let prevY = -Infinity;
+    for (const it of placed){ if (it.ly - prevY < 11) it.ly = prevY + 11; prevY = it.ly; }      // push DOWN when crowded
+    const overflow = placed.length ? placed[placed.length - 1].ly - (padT + ih) : 0;             // if the stack ran off the bottom, lift it
+    if (overflow > 0) placed.forEach(it => it.ly -= overflow);
+    placed.forEach(it => {
+      s += `<line class="lvl ${it.last ? "last" : ""}" style="stroke:${it.color}" x1="${padL}" x2="${padL + iw}" y1="${y(it.price)}" y2="${y(it.price)}"/>`;
+      const txt = `${it.label} ${it.price.toLocaleString("en-US", {minimumFractionDigits: 2, maximumFractionDigits: 2})}`;
+      if (Math.abs(it.ly - y(it.price)) > 2) s += `<line class="grid" x1="${padL + iw}" x2="${padL + iw + 3}" y1="${y(it.price)}" y2="${it.ly}"/>`;   // leader when the label was moved
+      s += `<rect class="lbl-bg" x="${padL + iw + 3}" y="${it.ly - 8}" width="${padR - 6}" height="11"/><text class="lbl ${it.last ? "last" : ""}" x="${padL + iw + 5}" y="${it.ly + 1}">${esc(txt)}</text>`;
+    });
+    // hover crosshair + tooltip
+    s += `<line class="xh" id="xh" x1="0" x2="0" y1="${padT}" y2="${padT + ih}" style="display:none"/>`;
+    s += `<rect class="hit" x="${padL}" y="${padT}" width="${iw}" height="${ih}"/>`;
+    host.innerHTML = `<svg viewBox="0 0 ${W} ${H}" role="img" aria-label="${esc(ls.root)} 15-minute candles with key levels">${s}</svg>`;
+    const svg = host.querySelector("svg"), xh = host.querySelector("#xh");
+    const fmt = (v) => v.toLocaleString("en-US", {minimumFractionDigits: 2, maximumFractionDigits: 2});
+    svg.addEventListener("mousemove", (ev) => {
+      const r = svg.getBoundingClientRect(); const px = (ev.clientX - r.left) * W / r.width;
+      const i = Math.max(0, Math.min(n - 1, Math.floor((px - padL) / slot)));
+      const b = bars[i]; if (!b) return;
+      xh.setAttribute("x1", x(i)); xh.setAttribute("x2", x(i)); xh.style.display = "";
+      tip.style.display = "block"; tip.innerHTML = `${esc(fmtLocal(b.t, tz))} · O ${fmt(b.o)} H ${fmt(b.h)} L ${fmt(b.l)} C ${fmt(b.c)}`;
+      const hr = host.getBoundingClientRect();
+      tip.style.left = Math.min(ev.clientX - hr.left + 12, hr.width - tip.offsetWidth - 4) + "px"; tip.style.top = (ev.clientY - hr.top - 30) + "px";
+    });
+    svg.addEventListener("mouseleave", () => { xh.style.display = "none"; tip.style.display = "none"; });
+  }
+  function niceStep(raw){ const p = Math.pow(10, Math.floor(Math.log10(raw))); const m = raw / p; return (m < 1.5 ? 1 : m < 3.5 ? 2.5 : m < 7.5 ? 5 : 10) * p; }
+
+  function render(b){
+    const tz = b.meta.display_tz || "America/Halifax";
+    const now = new Date();
+    document.title = "Pre-Market Brief";
+    $("title").textContent = "Pre-market brief — " + b.meta.trading_day;
+
+    // status strip
+    const genAge = (now - new Date(b.meta.generated_at_utc)) / 60000;
+    const stale = genAge > 240 ? `<span class="stale">${Math.round(genAge/60)} h old</span>` : "";
+    const ne = b.calendar.next_event;
+    let cd = `<div class="cell countdown none"><div class="eyebrow">Next release</div><div class="big">none scheduled</div><div class="sub">no high/medium events left in the window</div></div>`;
+    // most recent release that already has an actual — shown until the next one is within 30 min
+    const released = b.calendar.events.filter(e => e.actual && e.time_utc && new Date(e.time_utc) <= now).sort((a, c) => new Date(c.time_utc) - new Date(a.time_utc));
+    const nextMins = ne ? Math.round((new Date(ne.time_utc) - now) / 60000) : Infinity;
+    if (released.length && nextMins > 30){
+      const r = released[0]; const ago = Math.round((now - new Date(r.time_utc)) / 60000);
+      const sib = released.filter(e => e.time_utc === r.time_utc).slice(0, 3).map(e => `${esc(e.name)} <b>${esc(e.actual)}</b>${e.consensus ? " vs " + esc(e.consensus) : ""}`).join(" · ");
+      cd = `<div class="cell countdown"><div class="eyebrow">Released ${ago} min ago</div><div class="big">${esc(r.actual)}${r.consensus ? ` <span style="font-size:14px;color:var(--ink-2)">vs ${esc(r.consensus)} cons</span>` : ""}</div><div class="sub">${sib}</div></div>`;
+    }
+    else if (ne){
+      const mins = Math.round((new Date(ne.time_utc) - now) / 60000);
+      const soon = mins >= 0 && mins <= 30;
+      const inTxt = mins < 0 ? "released " + Math.abs(mins) + " min ago" : (mins >= 60 ? `in ${Math.floor(mins/60)}h ${String(mins%60).padStart(2,"0")}m` : `in ${mins} min`);
+      cd = `<div class="cell countdown ${soon ? "soon" : ""}"><div class="eyebrow">Next release · ${esc(ne.impact)}</div><div class="big">${esc(inTxt)}</div><div class="sub">${esc(ne.name)} · ${esc(ne.local)} (${esc(ne.et)})${ne.consensus ? " · cons " + esc(ne.consensus) : ""}</div></div>`;
+    }
+    const ms = (b.levels[0] && b.levels[0].stats.market_state) || "";
+    $("strip").innerHTML = `
+      <div class="cell"><div class="eyebrow">Trading day</div><div class="big">${esc(b.meta.trading_day)}</div><div class="sub">${esc(b.meta.run)} run · ${esc((b.levels[0]||{}).stats?.front_month || "")}</div></div>
+      <div class="cell"><div class="eyebrow">Generated</div><div class="big mono" style="font-size:20px">${esc(fmtLocal(b.meta.generated_at_utc, tz))}${stale}</div><div class="sub">${esc(b.meta.generated_at_local)}</div></div>
+      <div class="cell"><div class="eyebrow">Market</div><div class="big">${esc(ms.replace("_"," ") || "—")}</div><div class="sub">${esc(b.levels.map(l => l.root + " " + (l.last_price ?? "—")).join(" · "))}</div></div>
+      ${cd}`;
+
+    // calendar
+    let html = "", day = null;
+    if (!b.calendar.events.length) html = `<p class="empty">No US high/medium events in the window.</p>`;
+    html += `<table class="cal"><tbody>`;
+    for (const e of b.calendar.events){
+      if (e.date !== day){ day = e.date; html += `<tr class="day"><td colspan="4"><span class="eyebrow">${esc(new Date(e.date + "T12:00:00").toLocaleDateString("en-US",{weekday:"long", month:"short", day:"numeric"}))}</span></td></tr>`; }
+      const past = e.time_utc && new Date(e.time_utc) < now;
+      const when = e.time_utc ? `${fmtLocal(e.time_utc, tz)}<small>${fmtLocal(e.time_utc, "America/New_York")} ET</small>` : `all day`;
+      const nums = [e.consensus ? `cons ${esc(e.consensus)}` : "", e.prior ? `prior ${esc(e.prior)}` : "", e.actual ? `<b>actual ${esc(e.actual)}</b>` : ""].filter(Boolean).join(" · ");
+      const srcs = (e.sources_agreeing && e.sources_agreeing.length) ? e.sources_agreeing : [e.source];
+      const ex = e.explain;
+      const info = ex ? `<button class="info" type="button" aria-label="What is ${esc(e.name)}?">i</button><span class="card" role="tooltip"><b>What it is</b><p>${esc(ex.what)}</p><b>Why it matters for NQ/ES</b><p>${esc(ex.why)}</p></span>` : "";
+      const srcCell = PUBLIC ? "" : `<td class="src ${srcs.length === 1 && e.kind === "release" ? "one" : ""}" title="${esc(e.source_url||"")}">${esc(srcs.join("+"))}</td>`;
+      html += `<tr class="${past ? "past" : ""}"><td class="when mono">${when}</td><td class="name"><span class="imp ${esc(e.impact)}"></span>${esc(e.name)}${info}</td><td class="nums">${nums}</td>${srcCell}</tr>`;
+    }
+    html += `</tbody></table>`;
+    $("cal").innerHTML = html;
+
+    // what matters
+    const s = b.news.summary || {lines:[]};
+    const byId = Object.fromEntries((b.news.headlines||[]).map(h => [h.id, h]));
+    let m = "";
+    if (s.lines && s.lines.length){
+      m += `<ol>` + s.lines.map(line => {
+        const ids = [...line.matchAll(/\[([0-9a-f]{10})\]/g)].map(x => x[1]);
+        const text = line.replace(/\s*\[[0-9a-f]{10}\]/g, "");
+        const cites = ids.map((id, i) => byId[id] ? `<a class="cite" href="${esc(byId[id].link)}" target="_blank" rel="noopener">[${i+1}]</a>` : "").join("");
+        return `<li>${esc(text)}${cites}</li>`;
+      }).join("") + `</ol>`;
+      m += `<div class="meta">summary: ${esc(s.backend)}${s.model ? " · " + esc(s.model) : ""}${s.dropped && s.dropped.length ? ` · ${s.dropped.length} line(s) dropped by the grounding check` : ""}</div>`;
+    } else {
+      m += `<p class="empty">${b.news.headlines && b.news.headlines.length ? "No summary (backend: " + esc(s.backend) + ")." : "No headlines fetched."}</p>`;
+    }
+    if (b.news.headlines && b.news.headlines.length){
+      m += `<ul class="heads" style="padding:0;list-style:none">` + b.news.headlines.slice(0, 10).map(h =>
+        `<li><span class="sc">${h.score.toFixed(1)}</span><span><a href="${esc(h.link)}" target="_blank" rel="noopener">${esc(h.title)}</a> <span class="m">${esc(h.source)}${h.duplicates ? " +" + h.duplicates : ""}${h.published_utc ? " · " + fmtLocal(h.published_utc, tz) : ""}</span></span></li>`).join("") + `</ul>`;
+    }
+    $("matters").innerHTML = m;
+
+    // earnings
+    const E = b.earnings || {};
+    const fmtE = (v) => v == null ? "—" : (v < 0 ? "(" + Math.abs(v).toFixed(2) + ")" : v.toFixed(2));
+    const eRow = (r, when) => {
+      let res = "";
+      if (PUBLIC){
+        res = `<td class="eps">${r.reported ? `<span class="tag inline">reported</span>` : `<span class="co">pending</span>`}</td>`;
+      } else if (r.eps_actual != null){
+        const d = r.eps_est != null ? r.eps_actual - r.eps_est : null;
+        const cls = d == null ? "" : d > 0.0001 ? "beat" : d < -0.0001 ? "miss" : "inline";
+        const lbl = d == null ? "" : d > 0.0001 ? "beat" : d < -0.0001 ? "miss" : "in line";
+        res = `<td class="eps"><b>${fmtE(r.eps_actual)}</b> <span class="co">vs ${fmtE(r.eps_est)}</span>${cls ? `<span class="tag ${cls}">${lbl}${r.surprise_pct != null ? " " + (r.surprise_pct > 0 ? "+" : "") + r.surprise_pct.toFixed(1) + "%" : ""}</span>` : ""}</td>`;
+      } else {
+        res = `<td class="eps"><span class="co">est</span> ${fmtE(r.eps_est)}${r.n_est ? ` <span class="co">(${r.n_est})</span>` : ""}</td>`;
+      }
+      return `<tr><td class="sym">${esc(r.symbol)}${r.watch ? "" : ""}</td><td class="co">${esc(r.name)}</td>${res}<td class="when">${esc(when)}</td></tr>`;
+    };
+    let eh = "";
+    if ((E.reported||[]).length) eh += `<tr><td class="grp" colspan="4">Reported</td></tr>` + E.reported.map(r => eRow(r, r.reported_at || r.date)).join("");
+    if ((E.today||[]).length) eh += `<tr><td class="grp" colspan="4">Today</td></tr>` + E.today.map(r => eRow(r, {pre:"before open", post:"after close"}[r.timing] || "time n/a")).join("");
+    if ((E.tomorrow_pre||[]).length) eh += `<tr><td class="grp" colspan="4">Tomorrow before open</td></tr>` + E.tomorrow_pre.map(r => eRow(r, r.timing === "pre" ? "pre-market" : "time n/a")).join("");
+    $("earn").innerHTML = eh ? `<div class="earn"><table><tbody>${eh}</tbody></table></div>` : `<p class="empty">No index-moving earnings in the window${(E.warnings||[]).length ? " — " + esc(E.warnings.join("; ")) : ""}.</p>`;
+
+    // charts
+    $("charts").innerHTML = b.levels.some(ls => (ls.bars||[]).length) ? b.levels.map((ls, i) => `<section class="chart"><h2>${esc(ls.root)} · 15-min <span class="src">${esc(ls.stats.prior_day ? "prior session + overnight" : "")}</span></h2><div id="chart-${i}"></div><div class="tip" id="tip-${i}"></div></section>`).join("") : "";
+    b.levels.forEach((ls, i) => { if ($("chart-" + i)) drawChart(ls, $("chart-" + i), $("tip-" + i), tz); });
+
+    // ladders
+    $("ladders").innerHTML = b.levels.map(ls => {
+      const rows = [...ls.levels.map(l => ({...l, kind:"lvl"}))];
+      if (ls.last_price != null) rows.push({tag:"last", label:"LAST", price: ls.last_price, group:"last", note: ls.stats.last_bar_utc ? "bar " + fmtLocal(ls.stats.last_bar_utc, tz) : "", kind:"last"});
+      rows.sort((a,b) => b.price - a.price || (a.kind === "last" ? -1 : 1));
+      const tr = rows.map(l => l.kind === "last"
+        ? `<tr class="last"><td class="px">${px(l.price)}</td><td class="d"></td><td class="lb">${esc(l.label)}</td><td class="nt">${esc(l.note)}</td></tr>`
+        : `<tr><td class="px">${px(l.price)}</td><td class="d">${ls.last_price != null ? ((l.price - ls.last_price) >= 0 ? "+" : "") + (l.price - ls.last_price).toFixed(2) : ""}</td><td class="lb" style="--c:var(${GROUP[l.group]||"--g-round"})">${esc(l.label)}</td><td class="nt">${esc(l.note)}</td></tr>`).join("");
+      const st = ls.stats;
+      const stats = [
+        st.gap_vs_prior_close != null ? `gap vs prior close <b>${st.gap_vs_prior_close > 0 ? "+" : ""}${st.gap_vs_prior_close}</b> · ${esc(st.gap_basis)}` : "",
+        st.overnight_range != null ? `overnight range <b>${st.overnight_range}</b>` : "",
+        st.prior_day_rth_range != null ? `prior RTH range <b>${st.prior_day_rth_range}</b>` : "",
+        st.atr14 != null ? `ATR <b>${st.atr14}</b> (${st.atr_days}d)` : "",
+        st.profile_volume != null ? `profile vol <b>${Math.round(st.profile_volume).toLocaleString()}</b>` : "",
+      ].filter(Boolean).join("<span>·</span>");
+      return `<section class="ladder"><h2>${esc(ls.root)} · ${esc(st.front_month||"")} <span class="last">${esc(ls.source)}${ls.delayed ? " · delayed" : ""}</span></h2>
+        ${rows.length ? `<table><tbody>${tr}</tbody></table>` : `<p class="empty">No levels — ${esc((ls.flags||[]).join("; "))}</p>`}
+        <div class="stats">${stats}</div></section>`;
+    }).join("") || `<p class="empty">No levels in this brief.</p>`;
+    $("legend").innerHTML = Object.entries(GROUP).map(([g, v]) => `<span style="--c:var(${v})">${esc(GROUP_LABEL[g])}</span>`).join("");
+
+    // flags
+    const fl = b.flags || [];
+    $("flags").innerHTML = fl.length ? `<h2>Flags</h2><ul>${fl.map(f => `<li class="${/DOWN|FAILED|UNAVAILABLE/.test(f) ? "down" : ""}">${esc(f)}</li>`).join("")}</ul>` : "";
+
+    // foot
+    const srcs = (b.calendar.sources||[]).map(s => `<span class="${s.ok ? "ok" : "bad"}">${esc(s.name)} ${s.ok ? "✓" : "✗"}</span>`).join("");
+    const feeds = (b.news.feeds||[]);
+    const feedOk = feeds.filter(f => f.ok).length;
+    $("foot").innerHTML = PUBLIC
+      ? `<span>Release schedule from the issuing agencies (BLS, Census, Fed) · actuals from the BLS API · levels computed from delayed index-futures data · headlines link to their publishers</span><span>Updated ${esc(fmtLocal(b.meta.generated_at_utc, tz))} ${esc(tz)}</span><span>© The Tilted Gent</span>`
+      : `${srcs}<span>news feeds ${feedOk}/${feeds.length}</span><span>dta ${esc(b.meta.version)}</span><span>${esc(tz)}</span>`;
+    if (PUBLIC){
+      $("brand").innerHTML = `<a class="logo" href="/" aria-label="The Tilted Gent"><span class="card-mark" aria-hidden="true">TG</span><span class="wordmark">The Tilted Gent</span></a><span class="tag">Pre-Market Brief</span>`;
+      $("eyebrow").textContent = "ES / NQ futures · trading day " + b.meta.trading_day;
+      $("disclaimer").innerHTML = `Educational content, not trading advice. Levels are computed from delayed data and can be wrong; verify on your own platform before you trade. Futures involve substantial risk of loss.`;
+    }
+  }
+
+  // Hosted page: where brief.json lives (a private GitHub repo the runner pushes to).
+  const SOURCE = {owner: "jonoki", repo: "dta-brief", path: "brief.json"};
+  const REFETCH_MS = 60 * 1000;                 // the watcher republishes within a minute of a print
+
+  function status(msg, sub){ $("strip").innerHTML = `<div class="cell"><div class="big">${esc(msg)}</div><div class="sub">${esc(sub||"")}</div></div>`; }
+
+  // Decode a GitHub get_file_contents result. Observed shape (one real call, 4 Sep 2026): a text block
+  // "successfully downloaded text file (SHA: …)" followed by an embedded resource block whose text is the file.
+  function decodeGithub(result){
+    const blocks = (result && result.content) || [];
+    for (const b of blocks){
+      const txt = b && b.resource && typeof b.resource.text === "string" ? b.resource.text : (b && b.type === "resource" && typeof b.text === "string" ? b.text : null);
+      if (txt){ try { const j = JSON.parse(txt); if (j && j.meta) return j; } catch (e) {} }
+    }
+    if (result && result.payload && typeof result.payload === "object" && result.payload.meta) return result.payload;
+    for (const b of blocks){
+      if (b && b.type === "text" && typeof b.text === "string"){ try { const j = JSON.parse(b.text); if (j && j.meta) return j; } catch (e) {} }
+    }
+    return null;
+  }
+
+  async function loadViaConnector(){
+    if (!window.claude || typeof window.claude.use !== "function") return false;
+    const mcp = await window.claude.use("mcp");
+    if (!mcp) return false;
+    status("Loading brief…", `reading ${SOURCE.owner}/${SOURCE.repo}/${SOURCE.path} through your GitHub connector`);
+    let got = false;
+    mcp.watchTool("GitHub", "get_file_contents", SOURCE, (ev) => {
+      if (ev.type === "data"){
+        const brief = decodeGithub(ev.result);
+        if (brief){ got = true; window.__BRIEF__ = brief; render(brief); return; }
+        status("Brief file unreadable", "get_file_contents answered but no brief JSON was found in the response — check that brief.json exists in the repo.");
+        return;
+      }
+      const e = ev.error || {};
+      const fix = {
+        needs_reauth: "Reconnect GitHub in claude.ai Settings → Connectors, then reload.",
+        server_not_connected: "Add the GitHub connector in claude.ai Settings → Connectors, then reload.",
+        selection_required: "Choose which GitHub connector to use when prompted, then reload.",
+        not_in_manifest: "This page is only allowed to call get_file_contents — republish if the manifest changed.",
+        tool_error: "GitHub reported an error — most likely the repo or brief.json does not exist yet.",
+        server_unavailable: "GitHub is briefly unreachable; the page will retry.",
+      }[e.code] || ("Could not read the brief (" + (e.code || "unknown") + ").");
+      if (!got) status("Brief not loaded", fix + (e.message ? " — " + e.message : ""));
+      else $("foot").insertAdjacentHTML("beforeend", `<span class="bad">refresh failed: ${esc(e.code||"")}</span>`);
+    }, {refetchInterval: REFETCH_MS});
+    return true;
+  }
+
+  async function loadStatic(first){             // GitHub Pages / any static host: brief.json beside the page
+    try {
+      const r = await fetch("./brief.json?t=" + Date.now(), {cache:"no-store"});
+      if (r.ok){ const j = await r.json(); if (j && j.meta){ window.__BRIEF__ = j; render(j); return true; } }
+    } catch (e) {}
+    if (first) status("No brief loaded", PUBLIC ? "The brief has not been published yet — check back shortly." : "Open the generated brief.html, serve brief.json next to this page, or view the hosted page with the GitHub connector.");
+    return false;
+  }
+  async function load(){
+    if (window.__BRIEF__) return render(window.__BRIEF__);
+    if (!PUBLIC){ try { if (await loadViaConnector()) return; } catch (e) {} }
+    await loadStatic(true);
+    setInterval(() => loadStatic(false), REFETCH_MS);
+  }
+  load();
+  setInterval(() => { if (window.__BRIEF__) render(window.__BRIEF__); }, 30000);   // keep the countdown honest
+})();
+</script>
+
+</body>
+</html>
