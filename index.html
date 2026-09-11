@@ -109,6 +109,8 @@ tr.past td{color:var(--mute)} tr.past .imp{opacity:.5} tr.past .nums b{color:var
 .chart .grid{stroke:var(--line-2);stroke-width:1}
 .chart .axis{fill:var(--mute);font-size:10px}
 .chart .rth{fill:var(--ink);opacity:.045}
+.chart .gap{fill:url(#hatch);opacity:.9}
+.chart .gaplbl{fill:var(--ink-2);font-size:10px;letter-spacing:.06em;text-transform:uppercase}
 .chart .sess{stroke:var(--line);stroke-width:1;stroke-dasharray:2 3}
 .chart .wick{stroke-width:1}
 .chart .up{stroke:var(--ok);fill:var(--ok)} .chart .dn{stroke:var(--hi);fill:var(--hi)}
@@ -239,21 +241,43 @@ window.__PUBLIC__ = true;      // public site variant: no provider data, no conn
     let lo = Math.min(...prices), hi = Math.max(...prices);
     const span = (hi - lo) || 1; lo -= span * 0.04; hi += span * 0.04;
     const y = (p) => padT + (hi - p) / (hi - lo) * ih;
-    const n = bars.length, slot = iw / n, cw = Math.max(1.5, Math.min(6, slot * 0.7));
-    const x = (i) => padL + i * slot + slot / 2;
+    // Bar positions in slot units. The market is closed 17:00→18:00 ET daily and Fri 17:00→Sun 18:00; instead of
+    // hiding that, any gap wider than one candle gets a fixed-width hatched band with the reason and length.
+    const GAPW = 3, pos = [], gaps = [];
+    bars.forEach((b, i) => {
+      if (i === 0){ pos.push(0); return; }
+      const mins = (new Date(b.t) - new Date(bars[i-1].t)) / 60000;
+      if (mins > 15){
+        const h = Math.round((mins - 15) / 60), prevDay = etParts(bars[i-1].t).wd;
+        const why = h >= 40 ? "weekend" : h >= 20 ? "holiday" : "closed";
+        gaps.push({at: pos[i-1] + 1, label: `${why} · ${h >= 24 ? Math.round(h/24*10)/10 + "d" : h + "h"}`, from: prevDay});
+        pos.push(pos[i-1] + 1 + GAPW);
+      } else pos.push(pos[i-1] + 1);
+    });
+    const n = bars.length, units = pos[n-1] + 1, slot = iw / units, cw = Math.max(1.5, Math.min(6, slot * 0.7));
+    const xl = (i) => padL + pos[i] * slot;               // left edge of bar i
+    const x = (i) => xl(i) + slot / 2;                    // centre of bar i
     let s = "";
     // RTH shading + session boundaries + hour ticks
     let rthStart = null, lastLblX = -1e9;
-    const xlbl = (xx, text) => { if (xx - lastLblX < 46) return; lastLblX = xx; s += `<text class="axis" x="${xx + 3}" y="${padT + ih + 14}">${esc(text)}</text>`; };
+    const lbls = [];                                     // session-open labels win over hour ticks when crowded
+    const xlbl = (xx, text, force) => { if (!force && xx - lastLblX < 46) return; if (force) while (lbls.length && xx - lbls[lbls.length-1].x < 46) lbls.pop(); lastLblX = xx; lbls.push({x: xx, text}); };
     bars.forEach((b, i) => {
       const e = etParts(b.t);
       const inRth = (e.h > 9 || (e.h === 9 && e.m >= 30)) && e.h < 16;
       if (inRth && rthStart === null) rthStart = i;
-      if ((!inRth || i === n - 1) && rthStart !== null){ const end = inRth ? i + 1 : i; s += `<rect class="rth" x="${padL + rthStart * slot}" y="${padT}" width="${(end - rthStart) * slot}" height="${ih}"/>`; rthStart = null; }
-      if (e.h === 18 && e.m === 0){ s += `<line class="sess" x1="${x(i) - slot/2}" x2="${x(i) - slot/2}" y1="${padT}" y2="${padT + ih}"/>`; xlbl(x(i) - slot/2, `18:00 ${e.wd}`); }
+      if ((!inRth || i === n - 1) && rthStart !== null){ const endX = inRth ? xl(i) + slot : xl(i); s += `<rect class="rth" x="${xl(rthStart)}" y="${padT}" width="${endX - xl(rthStart)}" height="${ih}"/>`; rthStart = null; }
+      if (e.h === 18 && e.m === 0){ s += `<line class="sess" x1="${xl(i)}" x2="${xl(i)}" y1="${padT}" y2="${padT + ih}"/>`; xlbl(xl(i), `18:00 ${e.wd}`, true); }
       else if (e.h === 9 && e.m === 30) xlbl(x(i) - slot/2, `09:30 ${e.wd}`);
       else if (e.h === 16 && e.m === 0) xlbl(x(i) - slot/2, "16:00");
       else if (e.m === 0 && e.h % 4 === 0 && e.h !== 0 && e.h !== 16) xlbl(x(i) - slot/2, `${String(e.h).padStart(2,"0")}:00`);
+    });
+    lbls.forEach(l => { s += `<text class="axis" x="${l.x + 3}" y="${padT + ih + 14}">${esc(l.text)}</text>`; });
+    // closed-market gaps
+    gaps.forEach(g => {
+      const gx = padL + g.at * slot, gw = GAPW * slot;
+      s += `<rect class="gap" x="${gx}" y="${padT}" width="${gw}" height="${ih}"/>`;
+      s += `<text class="axis gaplbl" transform="translate(${gx + gw/2 + 3} ${padT + 6}) rotate(90)">${esc(g.label)}</text>`;
     });
     // price grid: 5 lines at round values
     const step = niceStep((hi - lo) / 5);
@@ -285,12 +309,14 @@ window.__PUBLIC__ = true;      // public site variant: no provider data, no conn
     // hover crosshair + tooltip
     s += `<line class="xh" id="xh" x1="0" x2="0" y1="${padT}" y2="${padT + ih}" style="display:none"/>`;
     s += `<rect class="hit" x="${padL}" y="${padT}" width="${iw}" height="${ih}"/>`;
-    host.innerHTML = `<svg viewBox="0 0 ${W} ${H}" role="img" aria-label="${esc(ls.root)} 15-minute candles with key levels">${s}</svg>`;
+    const defs = `<defs><pattern id="hatch" width="6" height="6" patternUnits="userSpaceOnUse" patternTransform="rotate(45)"><line x1="0" y1="0" x2="0" y2="6" stroke="var(--line)" stroke-width="1.5"/></pattern></defs>`;
+    host.innerHTML = `<svg viewBox="0 0 ${W} ${H}" role="img" aria-label="${esc(ls.root)} 15-minute candles with key levels">${defs}${s}</svg>`;
     const svg = host.querySelector("svg"), xh = host.querySelector("#xh");
     const fmt = (v) => v.toLocaleString("en-US", {minimumFractionDigits: 2, maximumFractionDigits: 2});
     svg.addEventListener("mousemove", (ev) => {
       const r = svg.getBoundingClientRect(); const px = (ev.clientX - r.left) * W / r.width;
-      const i = Math.max(0, Math.min(n - 1, Math.floor((px - padL) / slot)));
+      const u = (px - padL) / slot; let i = 0;
+      for (let k = 1; k < n; k++){ if (Math.abs(pos[k] + 0.5 - u) < Math.abs(pos[i] + 0.5 - u)) i = k; }
       const b = bars[i]; if (!b) return;
       xh.setAttribute("x1", x(i)); xh.setAttribute("x2", x(i)); xh.style.display = "";
       tip.style.display = "block"; tip.innerHTML = `${esc(fmtLocal(b.t, tz))} · O ${fmt(b.o)} H ${fmt(b.h)} L ${fmt(b.l)} C ${fmt(b.c)}`;
@@ -396,7 +422,7 @@ window.__PUBLIC__ = true;      // public site variant: no provider data, no conn
     $("earn").innerHTML = eh ? `<div class="earn"><table><tbody>${eh}</tbody></table></div>` : `<p class="empty">No index-moving earnings in the window${(E.warnings||[]).length ? " — " + esc(E.warnings.join("; ")) : ""}.</p>`;
 
     // charts
-    $("charts").innerHTML = b.levels.some(ls => (ls.bars||[]).length) ? b.levels.map((ls, i) => `<section class="chart"><h2>${esc(ls.root)} · 15-min <span class="src">${esc(ls.stats.prior_day ? "prior session + overnight" : "")}</span></h2><div id="chart-${i}"></div><div class="tip" id="tip-${i}"></div></section>`).join("") : "";
+    $("charts").innerHTML = b.levels.some(ls => (ls.bars||[]).length) ? b.levels.map((ls, i) => `<section class="chart"><h2>${esc(ls.root)} · 15-min <span class="src">${esc(ls.stats.prior_day ? "full prior session (18:00→17:00 ET) + current" : "")}</span></h2><div id="chart-${i}"></div><div class="tip" id="tip-${i}"></div></section>`).join("") : "";
     b.levels.forEach((ls, i) => { if ($("chart-" + i)) drawChart(ls, $("chart-" + i), $("tip-" + i), tz); });
 
     // ladders
