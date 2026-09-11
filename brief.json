@@ -1,7 +1,7 @@
 {
  "meta": {
-  "generated_at_utc": "2026-09-11T14:18:46.728414+00:00",
-  "generated_at_local": "Fri 11 Sep 2026 11:18 ADT",
+  "generated_at_utc": "2026-09-11T14:25:39.480517+00:00",
+  "generated_at_local": "Fri 11 Sep 2026 11:25 ADT",
   "trading_day": "2026-09-11",
   "display_tz": "America/Halifax",
   "version": "0.1.0",
@@ -93,10 +93,10 @@
   {
    "root": "ES",
    "trading_day": "2026-09-11",
-   "as_of_utc": "2026-09-11T14:18:46.728414+00:00",
+   "as_of_utc": "2026-09-11T14:25:39.480517+00:00",
    "source": "yahoo",
    "delayed": true,
-   "last_price": 7670.5,
+   "last_price": 7666.25,
    "levels": [
     {
      "tag": "wh",
@@ -247,8 +247,8 @@
     }
    ],
    "stats": {
-    "last_bar_utc": "2026-09-11T14:08:00+00:00",
-    "last_bar_age_min": 10.8,
+    "last_bar_utc": "2026-09-11T14:15:00+00:00",
+    "last_bar_age_min": 10.7,
     "market_state": "open",
     "profile_volume": 1267165.0,
     "prior_day": "2026-09-10",
@@ -1515,19 +1515,27 @@
      "t": "2026-09-11T14:00:00+00:00",
      "o": 7681.0,
      "h": 7681.25,
-     "l": 7667.0,
-     "c": 7670.5,
-     "v": 47814.0
+     "l": 7664.5,
+     "c": 7666.5,
+     "v": 87200.0
+    },
+    {
+     "t": "2026-09-11T14:15:00+00:00",
+     "o": 7666.75,
+     "h": 7669.25,
+     "l": 7666.0,
+     "c": 7666.25,
+     "v": 0.0
     }
    ]
   },
   {
    "root": "NQ",
    "trading_day": "2026-09-11",
-   "as_of_utc": "2026-09-11T14:18:46.728414+00:00",
+   "as_of_utc": "2026-09-11T14:25:39.480517+00:00",
    "source": "yahoo",
    "delayed": true,
-   "last_price": 29382.5,
+   "last_price": 29400.0,
    "levels": [
     {
      "tag": "wh",
@@ -1558,11 +1566,25 @@
      "note": "since 18:00 ET, 920 bars"
     },
     {
+     "tag": "rn_major_up",
+     "label": "Round 100 above",
+     "price": 29500.0,
+     "group": "round",
+     "note": ""
+    },
+    {
      "tag": "tdh",
      "label": "Today's RTH high",
      "price": 29480.75,
      "group": "today",
      "note": "so far"
+    },
+    {
+     "tag": "rn_minor_up",
+     "label": "Round 50 above",
+     "price": 29450.0,
+     "group": "round",
+     "note": ""
     },
     {
      "tag": "rtho",
@@ -1572,16 +1594,9 @@
      "note": "09:30 bar open"
     },
     {
-     "tag": "rn_major_up",
-     "label": "Round 100 above",
+     "tag": "rn_major_dn",
+     "label": "Round 100 below",
      "price": 29400.0,
-     "group": "round",
-     "note": ""
-    },
-    {
-     "tag": "rn_minor_dn",
-     "label": "Round 50 below",
-     "price": 29350.0,
      "group": "round",
      "note": ""
     },
@@ -1590,13 +1605,6 @@
      "label": "Today's RTH low",
      "price": 29347.25,
      "group": "today",
-     "note": ""
-    },
-    {
-     "tag": "rn_major_dn",
-     "label": "Round 100 below",
-     "price": 29300.0,
-     "group": "round",
      "note": ""
     },
     {
@@ -1685,8 +1693,8 @@
     }
    ],
    "stats": {
-    "last_bar_utc": "2026-09-11T14:08:00+00:00",
-    "last_bar_age_min": 10.8,
+    "last_bar_utc": "2026-09-11T14:15:00+00:00",
+    "last_bar_age_min": 10.7,
     "market_state": "open",
     "profile_volume": 395612.0,
     "prior_day": "2026-09-10",
@@ -2954,8 +2962,16 @@
      "o": 29473.0,
      "h": 29473.25,
      "l": 29365.0,
-     "c": 29382.5,
-     "v": 18329.0
+     "c": 29397.75,
+     "v": 32699.0
+    },
+    {
+     "t": "2026-09-11T14:15:00+00:00",
+     "o": 29397.0,
+     "h": 29407.75,
+     "l": 29392.5,
+     "c": 29400.0,
+     "v": 0.0
     }
    ]
   }
@@ -2968,7 +2984,7 @@
     "link": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxPZGdpMlBVbExibHozSndzcGVmRE9SOVdnMnJDbmFSX2NSbjRQamJhd3R6dEkxX2tlaTkwdWRjVlplWkpsQTJoamljRzhQcXZkUmhDTmgtRWY0U1RwRUlEYUdoRmVmVkktM3FDNWpyVXRFNkpEWGl5ZlhHaGNadmVKTUx5NlhlQXE1ejdTUlowM0dGM1lPRkdTb2xRV2pKczR6aWtoLXRMWG11RDlUaXRuZDc3eUh1SDBmQ2NZQ2laTzBXMGtVQ0NpVjNhU2FvZ1ItWDhQWV9n?oc=5",
     "source": "gnews_futures",
     "published_utc": "2026-09-11T12:01:00+00:00",
-    "score": 11.62,
+    "score": 11.6,
     "duplicates": 1
    },
    {
@@ -2977,8 +2993,26 @@
     "link": "https://www.cnbc.com/2026/09/11/cpi-inflation-report-august-2026.html",
     "source": "cnbc_markets",
     "published_utc": "2026-09-11T13:46:36+00:00",
-    "score": 10.91,
+    "score": 10.89,
     "duplicates": 1
+   },
+   {
+    "id": "ab118b7a18",
+    "title": "US inflation continues to rise as Fed considers rate hike following August price surge - KTVB",
+    "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxOY1pkRDdDcmU0cXNGWnBNRG9zb21DVjVlQzI1Ylhrb05SSmxsZ3B1NmxySmhIbnlKeHF0a2NmM0szMml4amMxU1BKeUlCaTVsTml6SUdEV0VpaTVFTVRUOWpLRlpoMklna0xDdTdJOERlR1pLTU1yZjB4Ums0VDRZQWZTWWRTd0QxUnR2b3BIdEtPSjZvQnFNN0ZaRW9KSDI3b2N5eXBrQkRFVEZhbUI0WjhkaW9GdG52dUZ6V2JHekdwWlIzbG9ub3ZoOGl6RmpyMWgw?oc=5",
+    "source": "gnews_fed",
+    "published_utc": "2026-09-11T14:22:00+00:00",
+    "score": 9.49,
+    "duplicates": 1
+   },
+   {
+    "id": "2b63005b15",
+    "title": "August consumer inflation cements Fed rate hike odds. What Wall Street is saying - CNBC",
+    "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNOHI3YTVOTTNMcjhkSnFLZERuSkptV1I2ZFdNTTlibmdKLVZfOXA2X1JmcnM2YkY3TGU5Q2IyekFwaXJpVHc5UDdLaWl0ak9ZYVlFZUVNT2wxZ050U0h5dXZscEJXd0N6TmVNcUpWM1RtdDlYYk92T3BsQnpwbVFySEdaQzl0eDRJZy1rMXBUeVp4clhHbXo5Uk9tekdtczhSX0Y3N2g2OVFPLThmYnJpRDZDNUszcDQ?oc=5",
+    "source": "gnews_macro",
+    "published_utc": "2026-09-11T14:17:56+00:00",
+    "score": 9.48,
+    "duplicates": 0
    },
    {
     "id": "6ffd3c64d6",
@@ -2986,8 +3020,17 @@
     "link": "https://www.cnbc.com/2026/09/11/kevin-warsh-fed-cpi-inflation-rate-hike-analysis.html",
     "source": "cnbc_markets",
     "published_utc": "2026-09-11T13:34:08+00:00",
-    "score": 9.38,
+    "score": 9.36,
     "duplicates": 2
+   },
+   {
+    "id": "496cc1c025",
+    "title": "Inflation report lands in a time of spiking oil prices, rising interest rates and Fed on fence - Santa Cruz Sentinel",
+    "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE9mZTB6UVhaalF3NjZjT1g4N0hoazFuLVhMQlozUUJBOTU5MmxxdWJXejdQdmZpbVM4V1RlLURMcXloMTNMSHYzTGxfbVJyQ2RxRTJiNTI3U2V1QkNYZVBMa1pJR01MYWQ3MU9ZTE1sYXRGbmhjUFBrX2tnR2JBdw?oc=5",
+    "source": "gnews_macro",
+    "published_utc": "2026-09-11T12:37:18+00:00",
+    "score": 8.7,
+    "duplicates": 1
    },
    {
     "id": "b10def9d57",
@@ -2995,16 +3038,7 @@
     "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNRUMwWDc4cl9hb01vdDFHVWZFNTZVa3U2YlpsQU1yNDhuRVlZZGZIQ0NubExkaFhvUXpYZzlVa2RzQ3NUblA1V1M4R014UEVpZEgtR19mQ2JSb18yaG5rVFhNN1g5UVpTWEk5clNISkFHNDF1NUxfa2xQRjR2N2huZVd0Si1PdnM1bzhUTmJqRS1pMWN4?oc=5",
     "source": "gnews_futures",
     "published_utc": "2026-09-11T12:22:52+00:00",
-    "score": 9.18,
-    "duplicates": 2
-   },
-   {
-    "id": "c2b8d530f2",
-    "title": "Inflation report lands in a time of spiking oil prices, rising interest rates and Fed on fence - The Mercury News",
-    "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9Jd0Y2eVQzdWQyYWZoYjl3cm8zVDhRQ19OLUhuZmlXei1wMl9XZUJaOUVfUFZmTDdtb3pPUEdRbkN3N0NzTVZuTmViWGsxMktrQ1RqWUpTM2RpZWFsM1BlcndSbmM5U1hCRDh3cG1UakRkZ1l6bFHSAXtBVV95cUxQT1dLNHpHUG0xdUZ3Vy1RQksxVnA2Y2R3b2xuYUVHWFR1RmUwdzJ3YWhJb3d1T2NESzA1RkpxMmxKRmhTN0R6VmtPN2pFemwyOHNyVUpwQkdrMWx2ckx5UW9OOHNRUVFBSGg5a2ZrMTBDRS1ZZzZqODZ6dE0?oc=5",
-    "source": "gnews_macro",
-    "published_utc": "2026-09-11T12:25:46+00:00",
-    "score": 8.69,
+    "score": 8.66,
     "duplicates": 1
    },
    {
@@ -3013,7 +3047,7 @@
     "link": "https://www.investors.com/market-trend/stock-market-today/dow-jones-sp500-nasdaq-cpi-inflation-report-oracle-stock-orcl/?src=A00220&yptr=yahoo",
     "source": "yahoo_finance",
     "published_utc": "2026-09-11T13:47:11+00:00",
-    "score": 8.41,
+    "score": 8.39,
     "duplicates": 0
    },
    {
@@ -3022,8 +3056,17 @@
     "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPZDNKYjh3ejFyNHJPdEdzcm56NEo5SXZ4dHp4Z1lKS0phY2xOTDFPYUVxZVBEdUtxN0t4MDZJckJHQjFSN3hXREpCQ0locjJMMF9hVTFfbFhvQWUyZ1h2OGFTUHlYNkVoNnlWOHN1c0MwSml1V3E1ZHVJT1paeExZdG9sLVFwbzhFYjBQcE1vQkRYbmdtRUdBdk9IckdIQVRCWFhLMmFMaFUyWVFDN01mUXBaTEtiLXhFOEc0?oc=5",
     "source": "gnews_macro",
     "published_utc": "2026-09-11T12:41:53+00:00",
-    "score": 8.23,
+    "score": 8.21,
     "duplicates": 0
+   },
+   {
+    "id": "3986753ac8",
+    "title": "Stock futures rise as consumer inflation comes in line - TradingView",
+    "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOYkN6TWVKenRSU0JjS2ZFSmxJYnVMZTAxRElHNVltMGVtWF9kUWdyTDdFX1VOT2hUaC1qQU5jaXRkTTlWY0F2NjBPQkpyTnUyMTQySW9hdW8xVS12SklFLWlSc2cxRERMWGZtVXdUdV9mcnNCejY4by1WcTkyUmtFaUV6bUZsVWV4aHlTWG5XNll3bDVZdm01dlZKVk90a3FEbEp4dnJLMDNHdmgtVkZRbmM5eDREWVk?oc=5",
+    "source": "gnews_futures",
+    "published_utc": "2026-09-11T12:39:11+00:00",
+    "score": 8.2,
+    "duplicates": 2
    },
    {
     "id": "fad807b6fa",
@@ -3031,7 +3074,7 @@
     "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOSHdJYXRmTHFkODRLdnVQQlpYNUpSaERrWV9OWDZEM0Q5Z2xMQV92ZVB2ak1uSHJaZ1I2cmdnWVpoZ1JfVU9CdUNNRnRUMHdDalBmbjdxTzVIa1VoWWlSb050MlRrXzRwMXNCYnZUY0dvUDBscUtfeExQNC1LRHBtdGJZYzJwb2hEUjM1UTc0Wnk1X0RoSmVtU3dUSG5qcHMtSVhQRl9VQnkxc3JTTkZXcXJ3aFJ5ZEtmY25SZU5n?oc=5",
     "source": "gnews_futures",
     "published_utc": "2026-09-11T12:20:00+00:00",
-    "score": 8.17,
+    "score": 8.15,
     "duplicates": 0
    },
    {
@@ -3040,44 +3083,17 @@
     "link": "https://news.google.com/rss/articles/CBMikAJBVV95cUxOOXNXYmg1R0NPdnd2cVZPMmNFM0NsNGJDOTFtRndQVjVYN1owZEpyUmpGamVjRWE2cFQ2dmVKZVJRaTZOalpVT1l3S18xX1BURnF0aTdrdFdZN2h5d0dCenpDY01JeE9JUk1XSmN6RGRWQUVzdjdjR3dwTUJGZDBUc2Vwc0NoTk5pRGdBdU1UQjlGS1lDZUlnSzY4Y3dkUEZnTHZ3WDJhaTU5Y3RfZm5qdVN3Y29jc09meUhYaHdjaVNGWkZhc25PQWVOQ29mWk94aGc4S1NoY1ZFR0I2dURTRFNFeGxQclpnZG5abV9nZ3hvcE9heXVOV0pQWWI3NDZtc3BmcE96c2JmQWd1WEFVaw?oc=5",
     "source": "gnews_futures",
     "published_utc": "2026-09-11T05:38:28+00:00",
-    "score": 8.05,
+    "score": 8.04,
     "duplicates": 0
-   },
-   {
-    "id": "aa83a6c7f4",
-    "title": "August CPI shows sticky core inflation ahead of Fed meeting - HousingWire",
-    "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTFBpRVJtdlVac28tVnFNUzNfcmVPb0JRQ0NUc2xZeW1qMnk3TC0xSEVJby1iVzZYcEdQbzkyM0FPaDM3cmtJN3ptRkpaNG1ZMVRHRktja2tacXNvdl92ZTdUN3VEYnlFbVQ2UnVxVEhsSkw5cmZpbGI3eGgtaWo?oc=5",
-    "source": "gnews_fed",
-    "published_utc": "2026-09-11T14:14:43+00:00",
-    "score": 7.99,
-    "duplicates": 1
-   },
-   {
-    "id": "f0e90ec51f",
-    "title": "August inflation data demands rate hikes from the Fed - The Real Economy Blog",
-    "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPRFppdGdIUThsMkpJNk1Ba2ZXLUoySmVqanZIVGVUVWNwV3FfenB5UWFuLVAtQ1VPV3BLeVl4VDRPcmQxZFctYUF3Qm5qUm1zako2U1BzX0IzX1dRb0VHa2NyREVYV2Z0UEJWdlpIV3cxekJGcmRqUHVQR0VEMElpTmFxTEt6XzRMU3NyNA?oc=5",
-    "source": "gnews_fed",
-    "published_utc": "2026-09-11T14:10:37+00:00",
-    "score": 7.98,
-    "duplicates": 1
-   },
-   {
-    "id": "2bfb377124",
-    "title": "Inflation stayed hot in August with annual pace of 3.4%, raising the odds of a Fed hike - CBS News",
-    "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5LTU1TOTRNdWpDME5UU2d4Rm44aDB0a1ptLVVSMjNzWUlmRjc0N1p2UlNVVU1IVHZxWWhBWEtQUHpCcVhzU3pha1BEWXk0U3l0VkVKQjJ2VzY3Ylhsek5id2tBN2tsN2NMQmQtR1M5MkdXRnR6VHc?oc=5",
-    "source": "gnews_fed",
-    "published_utc": "2026-09-11T14:07:16+00:00",
-    "score": 7.97,
-    "duplicates": 1
    }
   ],
   "summary": {
    "lines": [
-    "Core CPI rose 0.3% in August versus 0.2% expected, beating forecasts and raising odds of a Fed rate hike at the upcoming meeting. [ef341c9193][752862c1a6][2bfb377124]",
-    "August CPI came in at 0.4% month-over-month as expected, with the annual pace holding at 3.4%, keeping pressure on the Fed to act on inflation warnings. [752862c1a6][6ffd3c64d6][2bfb377124]",
-    "The hotter-than-expected core inflation print puts Fed Chair Kevin Warsh's credibility on the line ahead of the rate decision, forcing a choice between hiking or risking doubts about his inflation commitment. [6ffd3c64d6]",
-    "Stock futures rose ahead of the CPI release after a 4-day market slide, with Oracle jumping and oil prices retreating providing some relief. [580a8c0144][c2ac29587f][fad807b6fa]",
-    "The Dow rallied following the inflation data release, with Nvidia rebounding alongside Oracle's jump. [8bb8bdda6c]"
+    "Core CPI rose 0.3% in August versus 0.2% consensus, setting up possible Fed rate hike while headline CPI met expectations at 0.4% monthly. [ef341c9193] [752862c1a6]",
+    "Markets rallied after the CPI print despite the hotter core number, with Dow futures rising and stock futures gaining as traders assessed Fed rate hike odds. [8bb8bdda6c] [3986753ac8] [580a8c0144]",
+    "Oil prices retreated ahead of and following the inflation data, providing a tailwind for equity futures. [580a8c0144] [b10def9d57] [fad807b6fa]",
+    "Kevin Warsh faces a credibility test at the upcoming rate decision after the hot CPI data. [6ffd3c64d6]",
+    "Oracle jumped in pre-market trading alongside the broader futures move higher. [580a8c0144] [c2ac29587f]"
    ],
    "backend": "anthropic",
    "model": "claude-sonnet-4-5",
