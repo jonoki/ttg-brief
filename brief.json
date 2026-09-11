@@ -1,71 +1,17 @@
 {
  "meta": {
-  "generated_at_utc": "2026-09-10T21:10:33.138354+00:00",
-  "generated_at_local": "Thu 10 Sep 2026 18:10 ADT",
-  "trading_day": "2026-09-10",
+  "generated_at_utc": "2026-09-11T13:23:47.181780+00:00",
+  "generated_at_local": "Fri 11 Sep 2026 10:23 ADT",
+  "trading_day": "2026-09-11",
   "display_tz": "America/Halifax",
   "version": "0.1.0",
-  "run": "post-close",
+  "run": "post-data",
   "variant": "public"
  },
  "calendar": {
-  "start": "2026-09-10",
+  "start": "2026-09-11",
   "days": 2,
   "events": [
-   {
-    "name": "Core PPI m/m",
-    "date": "2026-09-10",
-    "time_utc": "2026-09-10T12:30:00+00:00",
-    "kind": "release",
-    "impact": "high",
-    "explain": {
-     "what": "Producer prices excluding food and energy.",
-     "why": "Pipeline inflation; feeds into PCE forecasts, so a hot core PPI hardens the inflation narrative."
-    },
-    "actual": null,
-    "note": null,
-    "consensus": null,
-    "prior": null,
-    "source": "",
-    "sources_agreeing": [],
-    "source_url": null
-   },
-   {
-    "name": "PPI m/m",
-    "date": "2026-09-10",
-    "time_utc": "2026-09-10T12:30:00+00:00",
-    "kind": "release",
-    "impact": "high",
-    "explain": {
-     "what": "Prices received by producers — inflation upstream of consumers (08:30 ET).",
-     "why": "Second-tier inflation print; matters most the day before CPI or when it surprises by a lot."
-    },
-    "actual": null,
-    "note": null,
-    "consensus": null,
-    "prior": null,
-    "source": "",
-    "sources_agreeing": [],
-    "source_url": null
-   },
-   {
-    "name": "Roll day — volume moves to Z26 (NQ/ES/MNQ/MES)",
-    "date": "2026-09-10",
-    "time_utc": null,
-    "kind": "roll",
-    "impact": "high",
-    "explain": {
-     "what": "Volume migrates from the expiring quarterly contract to the next one (Thursday before the third Friday).",
-     "why": "Trade the new front month from today; levels computed on the old contract are off by the roll spread."
-    },
-    "actual": null,
-    "note": null,
-    "consensus": null,
-    "prior": null,
-    "source": "",
-    "sources_agreeing": [],
-    "source_url": null
-   },
    {
     "name": "Core CPI m/m",
     "date": "2026-09-11",
@@ -78,8 +24,8 @@
     },
     "actual": null,
     "note": null,
-    "consensus": null,
-    "prior": null,
+    "consensus": "0.2%",
+    "prior": "0.2%",
     "source": "",
     "sources_agreeing": [],
     "source_url": null
@@ -96,8 +42,8 @@
     },
     "actual": null,
     "note": null,
-    "consensus": null,
-    "prior": null,
+    "consensus": "2.4%",
+    "prior": "2.5%",
     "source": "",
     "sources_agreeing": [],
     "source_url": null
@@ -114,8 +60,8 @@
     },
     "actual": null,
     "note": null,
-    "consensus": null,
-    "prior": null,
+    "consensus": "0.4%",
+    "prior": "0.1%",
     "source": "",
     "sources_agreeing": [],
     "source_url": null
@@ -132,33 +78,25 @@
     },
     "actual": null,
     "note": null,
-    "consensus": null,
-    "prior": null,
+    "consensus": "3.4%",
+    "prior": "3.4%",
     "source": "",
     "sources_agreeing": [],
     "source_url": null
    }
   ],
-  "next_event": {
-   "name": "Core CPI m/m",
-   "impact": "high",
-   "time_utc": "2026-09-11T12:30:00+00:00",
-   "local": "09:30 ADT",
-   "et": "08:30 ET",
-   "in": "15h 19m",
-   "prior": "0.2%"
-  },
+  "next_event": null,
   "sources": [],
   "warnings": []
  },
  "levels": [
   {
    "root": "ES",
-   "trading_day": "2026-09-10",
-   "as_of_utc": "2026-09-10T21:10:33.138354+00:00",
+   "trading_day": "2026-09-11",
+   "as_of_utc": "2026-09-11T13:23:47.181780+00:00",
    "source": "yahoo",
    "delayed": true,
-   "last_price": 7602.0,
+   "last_price": 7667.5,
    "levels": [
     {
      "tag": "wh",
@@ -168,137 +106,109 @@
      "note": "since 2026-09-07"
     },
     {
-     "tag": "exp_hi",
-     "label": "Expected-range high (close + ATR)",
-     "price": 7709.11,
-     "group": "range",
-     "note": "ATR over 14 days"
-    },
-    {
-     "tag": "pgh",
-     "label": "Prior Globex-session high",
-     "price": 7691.25,
-     "group": "prior_day",
-     "note": "full 18:00→17:00 session"
+     "tag": "rn_major_up",
+     "label": "Round 50 above",
+     "price": 7700.0,
+     "group": "round",
+     "note": ""
     },
     {
      "tag": "onh",
      "label": "Overnight high",
-     "price": 7666.25,
+     "price": 7683.5,
      "group": "overnight",
-     "note": "since 18:00 ET, 919 bars"
+     "note": "since 18:00 ET, 904 bars"
     },
     {
-     "tag": "pdh",
-     "label": "Prior-day high (RTH)",
-     "price": 7665.0,
+     "tag": "rn_minor_up",
+     "label": "Round 25 above",
+     "price": 7675.0,
+     "group": "round",
+     "note": ""
+    },
+    {
+     "tag": "pgh",
+     "label": "Prior Globex-session high",
+     "price": 7666.25,
      "group": "prior_day",
-     "note": "2026-09-09"
+     "note": "full 18:00→17:00 session"
     },
     {
-     "tag": "pdo",
-     "label": "Prior-day RTH open",
-     "price": 7660.75,
-     "group": "prior_day",
-     "note": "2026-09-09"
+     "tag": "exp_hi",
+     "label": "Expected-range high (close + ATR)",
+     "price": 7662.54,
+     "group": "range",
+     "note": "ATR over 14 days"
     },
     {
-     "tag": "vah",
-     "label": "Prior-day VAH",
-     "price": 7653.75,
-     "group": "profile",
-     "note": "70 % value area"
-    },
-    {
-     "tag": "rn_major_up",
-     "label": "Round 50 above",
+     "tag": "rn_major_dn",
+     "label": "Round 50 below",
      "price": 7650.0,
      "group": "round",
      "note": ""
     },
     {
-     "tag": "poc",
-     "label": "Prior-day POC",
-     "price": 7647.88,
-     "group": "profile",
-     "note": "2026-09-09 RTH, bin 0.25"
-    },
-    {
-     "tag": "pdc",
-     "label": "Prior-day close (16:00 bar)",
-     "price": 7644.5,
-     "group": "prior_day",
-     "note": "2026-09-09"
-    },
-    {
-     "tag": "val",
-     "label": "Prior-day VAL",
-     "price": 7634.25,
-     "group": "profile",
-     "note": "70 % value area"
-    },
-    {
      "tag": "onvwap",
      "label": "Overnight VWAP",
-     "price": 7629.85,
+     "price": 7636.84,
      "group": "overnight",
      "note": "typical-price VWAP"
     },
     {
-     "tag": "pdl",
-     "label": "Prior-day low (RTH)",
-     "price": 7628.75,
-     "group": "prior_day",
-     "note": "2026-09-09"
-    },
-    {
-     "tag": "rn_minor_up",
-     "label": "Round 25 above",
-     "price": 7625.0,
-     "group": "round",
-     "note": ""
-    },
-    {
-     "tag": "tdh",
-     "label": "Today's RTH high",
+     "tag": "pdh",
+     "label": "Prior-day high (RTH)",
      "price": 7620.0,
-     "group": "today",
-     "note": "session complete"
+     "group": "prior_day",
+     "note": "2026-09-10"
     },
     {
-     "tag": "rn_major_dn",
-     "label": "Round 50 below",
-     "price": 7600.0,
-     "group": "round",
-     "note": ""
+     "tag": "vah",
+     "label": "Prior-day VAH",
+     "price": 7609.75,
+     "group": "profile",
+     "note": "70 % value area"
     },
     {
-     "tag": "rtho",
-     "label": "Today's RTH open",
+     "tag": "pdo",
+     "label": "Prior-day RTH open",
      "price": 7599.0,
-     "group": "today",
-     "note": "09:30 bar open"
+     "group": "prior_day",
+     "note": "2026-09-10"
     },
     {
-     "tag": "tdc",
-     "label": "Today's RTH close (16:00 bar)",
+     "tag": "pdc",
+     "label": "Prior-day close (16:00 bar)",
      "price": 7598.5,
-     "group": "today",
-     "note": "becomes next session's prior-day close"
+     "group": "prior_day",
+     "note": "2026-09-10"
+    },
+    {
+     "tag": "poc",
+     "label": "Prior-day POC",
+     "price": 7598.12,
+     "group": "profile",
+     "note": "2026-09-10 RTH, bin 0.25"
     },
     {
      "tag": "onl",
      "label": "Overnight low",
-     "price": 7595.0,
+     "price": 7594.25,
      "group": "overnight",
      "note": ""
     },
     {
-     "tag": "tdl",
-     "label": "Today's RTH low",
+     "tag": "val",
+     "label": "Prior-day VAL",
+     "price": 7594.0,
+     "group": "profile",
+     "note": "70 % value area"
+    },
+    {
+     "tag": "pdl",
+     "label": "Prior-day low (RTH)",
      "price": 7585.5,
-     "group": "today",
-     "note": ""
+     "group": "prior_day",
+     "note": "2026-09-10"
     },
     {
      "tag": "wl",
@@ -310,44 +220,36 @@
     {
      "tag": "exp_lo",
      "label": "Expected-range low (close − ATR)",
-     "price": 7579.89,
+     "price": 7534.46,
      "group": "range",
      "note": ""
     }
    ],
    "stats": {
-    "last_bar_utc": "2026-09-10T20:59:00+00:00",
-    "last_bar_age_min": 11.6,
-    "market_state": "daily_halt",
-    "note": "market closed (daily halt); levels are for the next session",
-    "profile_volume": 1090440.0,
-    "prior_day": "2026-09-09",
-    "prior_day_rth_range": 36.25,
-    "overnight_range": 71.25,
-    "gap_vs_prior_close": -45.5,
-    "gap_basis": "RTH open",
-    "atr14": 64.61,
+    "last_bar_utc": "2026-09-11T13:13:00+00:00",
+    "last_bar_age_min": 10.8,
+    "market_state": "open",
+    "profile_volume": 1267165.0,
+    "prior_day": "2026-09-10",
+    "prior_day_rth_range": 34.5,
+    "overnight_range": 89.25,
+    "gap_vs_prior_close": 69.0,
+    "gap_basis": "last price (pre-market)",
+    "atr14": 64.04,
     "atr_days": 14,
-    "avg_daily_range": 63.88,
+    "avg_daily_range": 64.83,
     "front_month": "ESZ26"
    },
    "flags": []
   },
   {
    "root": "NQ",
-   "trading_day": "2026-09-10",
-   "as_of_utc": "2026-09-10T21:10:33.138354+00:00",
+   "trading_day": "2026-09-11",
+   "as_of_utc": "2026-09-11T13:23:47.181780+00:00",
    "source": "yahoo",
    "delayed": true,
-   "last_price": 29143.25,
+   "last_price": 29439.75,
    "levels": [
-    {
-     "tag": "exp_hi",
-     "label": "Expected-range high (close + ATR)",
-     "price": 29840.09,
-     "group": "range",
-     "note": "ATR over 14 days"
-    },
     {
      "tag": "wh",
      "label": "Week high",
@@ -356,144 +258,116 @@
      "note": "since 2026-09-07"
     },
     {
+     "tag": "exp_hi",
+     "label": "Expected-range high (close + ATR)",
+     "price": 29522.02,
+     "group": "range",
+     "note": "ATR over 14 days"
+    },
+    {
      "tag": "pgh",
      "label": "Prior Globex-session high",
-     "price": 29633.75,
+     "price": 29508.25,
      "group": "prior_day",
      "note": "full 18:00→17:00 session"
-    },
-    {
-     "tag": "pdh",
-     "label": "Prior-day high (RTH)",
-     "price": 29593.75,
-     "group": "prior_day",
-     "note": "2026-09-09"
-    },
-    {
-     "tag": "vah",
-     "label": "Prior-day VAH",
-     "price": 29518.0,
-     "group": "profile",
-     "note": "70 % value area"
     },
     {
      "tag": "onh",
      "label": "Overnight high",
-     "price": 29508.25,
+     "price": 29500.25,
      "group": "overnight",
-     "note": "since 18:00 ET, 920 bars"
-    },
-    {
-     "tag": "pdo",
-     "label": "Prior-day RTH open",
-     "price": 29455.0,
-     "group": "prior_day",
-     "note": "2026-09-09"
-    },
-    {
-     "tag": "pdc",
-     "label": "Prior-day close (16:00 bar)",
-     "price": 29454.5,
-     "group": "prior_day",
-     "note": "2026-09-09"
-    },
-    {
-     "tag": "poc",
-     "label": "Prior-day POC",
-     "price": 29442.5,
-     "group": "profile",
-     "note": "2026-09-09 RTH, bin 1.0"
-    },
-    {
-     "tag": "val",
-     "label": "Prior-day VAL",
-     "price": 29422.0,
-     "group": "profile",
-     "note": "70 % value area"
-    },
-    {
-     "tag": "pdl",
-     "label": "Prior-day low (RTH)",
-     "price": 29358.0,
-     "group": "prior_day",
-     "note": "2026-09-09"
-    },
-    {
-     "tag": "pgl",
-     "label": "Prior Globex-session low",
-     "price": 29333.0,
-     "group": "prior_day",
-     "note": "full 18:00→17:00 session"
-    },
-    {
-     "tag": "onvwap",
-     "label": "Overnight VWAP",
-     "price": 29293.58,
-     "group": "overnight",
-     "note": "typical-price VWAP"
-    },
-    {
-     "tag": "tdh",
-     "label": "Today's RTH high",
-     "price": 29275.0,
-     "group": "today",
-     "note": "session complete"
+     "note": "since 18:00 ET, 904 bars"
     },
     {
      "tag": "rn_major_up",
      "label": "Round 100 above",
-     "price": 29200.0,
+     "price": 29500.0,
      "group": "round",
      "note": ""
     },
     {
      "tag": "rn_minor_up",
      "label": "Round 50 above",
-     "price": 29150.0,
+     "price": 29450.0,
      "group": "round",
      "note": ""
-    },
-    {
-     "tag": "tdc",
-     "label": "Today's RTH close (16:00 bar)",
-     "price": 29138.0,
-     "group": "today",
-     "note": "becomes next session's prior-day close"
     },
     {
      "tag": "rn_major_dn",
      "label": "Round 100 below",
-     "price": 29100.0,
+     "price": 29400.0,
      "group": "round",
      "note": ""
     },
     {
-     "tag": "rtho",
-     "label": "Today's RTH open",
+     "tag": "pdh",
+     "label": "Prior-day high (RTH)",
+     "price": 29275.0,
+     "group": "prior_day",
+     "note": "2026-09-10"
+    },
+    {
+     "tag": "onvwap",
+     "label": "Overnight VWAP",
+     "price": 29251.16,
+     "group": "overnight",
+     "note": "typical-price VWAP"
+    },
+    {
+     "tag": "vah",
+     "label": "Prior-day VAH",
+     "price": 29226.0,
+     "group": "profile",
+     "note": "70 % value area"
+    },
+    {
+     "tag": "poc",
+     "label": "Prior-day POC",
+     "price": 29156.5,
+     "group": "profile",
+     "note": "2026-09-10 RTH, bin 1.0"
+    },
+    {
+     "tag": "pdc",
+     "label": "Prior-day close (16:00 bar)",
+     "price": 29138.0,
+     "group": "prior_day",
+     "note": "2026-09-10"
+    },
+    {
+     "tag": "val",
+     "label": "Prior-day VAL",
+     "price": 29111.0,
+     "group": "profile",
+     "note": "70 % value area"
+    },
+    {
+     "tag": "pdo",
+     "label": "Prior-day RTH open",
      "price": 29089.5,
-     "group": "today",
-     "note": "09:30 bar open"
+     "group": "prior_day",
+     "note": "2026-09-10"
     },
     {
-     "tag": "exp_lo",
-     "label": "Expected-range low (close − ATR)",
-     "price": 29068.91,
-     "group": "range",
-     "note": ""
-    },
-    {
-     "tag": "tdl",
-     "label": "Today's RTH low",
+     "tag": "pdl",
+     "label": "Prior-day low (RTH)",
      "price": 29057.5,
-     "group": "today",
-     "note": ""
+     "group": "prior_day",
+     "note": "2026-09-10"
     },
     {
      "tag": "onl",
      "label": "Overnight low",
-     "price": 29043.25,
+     "price": 29048.5,
      "group": "overnight",
      "note": ""
+    },
+    {
+     "tag": "pgl",
+     "label": "Prior Globex-session low",
+     "price": 29043.25,
+     "group": "prior_day",
+     "note": "full 18:00→17:00 session"
     },
     {
      "tag": "wl",
@@ -501,22 +375,28 @@
      "price": 29043.25,
      "group": "week",
      "note": ""
+    },
+    {
+     "tag": "exp_lo",
+     "label": "Expected-range low (close − ATR)",
+     "price": 28753.98,
+     "group": "range",
+     "note": ""
     }
    ],
    "stats": {
-    "last_bar_utc": "2026-09-10T20:59:00+00:00",
-    "last_bar_age_min": 11.6,
-    "market_state": "daily_halt",
-    "note": "market closed (daily halt); levels are for the next session",
-    "profile_volume": 345334.0,
-    "prior_day": "2026-09-09",
-    "prior_day_rth_range": 235.75,
-    "overnight_range": 465.0,
-    "gap_vs_prior_close": -365.0,
-    "gap_basis": "RTH open",
-    "atr14": 385.59,
+    "last_bar_utc": "2026-09-11T13:13:00+00:00",
+    "last_bar_age_min": 10.8,
+    "market_state": "open",
+    "profile_volume": 395612.0,
+    "prior_day": "2026-09-10",
+    "prior_day_rth_range": 217.5,
+    "overnight_range": 451.75,
+    "gap_vs_prior_close": 301.75,
+    "gap_basis": "last price (pre-market)",
+    "atr14": 384.02,
     "atr_days": 14,
-    "avg_daily_range": 377.83,
+    "avg_daily_range": 383.4,
     "front_month": "NQZ26"
    },
    "flags": []
@@ -525,125 +405,123 @@
  "news": {
   "headlines": [
    {
-    "id": "a6ed35ec35",
-    "title": "10-year Treasury yield tops 4.9%, highest since 2023, as oil surge raises inflation fears",
-    "link": "https://www.cnbc.com/2026/09/10/us-treasurys-bonds-yield.html",
-    "source": "cnbc_markets",
-    "published_utc": "2026-09-10T19:37:31+00:00",
-    "score": 10.24,
-    "duplicates": 1
-   },
-   {
-    "id": "479bb4670c",
-    "title": "Inflation won’t die. Now the bond market is daring the Fed to do something about it - Fortune",
-    "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTFBKOHNmeHNOcEY0UkNUdTBEZDRVdjZmSWxfQ3V4RTdfdFl2YklaQzlDODdsbzktQ2FNdG9WdjF6akx0UXowT205MGFrNElvQWdDRm41S01sZU15U3N4bG9FUy01WWRpY1dzemJwR21Xd2N4U3FvNUVF?oc=5",
-    "source": "gnews_fed",
-    "published_utc": "2026-09-10T17:37:00+00:00",
-    "score": 9.41,
-    "duplicates": 1
-   },
-   {
-    "id": "67ae69f267",
-    "title": "US Stock Futures: S&P 500, Dow edge higher ahead of inflation data; oil, Treasury yields in focus - CNBC TV18",
-    "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQVkR5b3NxR2dZdngxMm9pZE5XSjR1ckJXdFV1YlVvbUh3TkNkdjkxckk2T3RSSG9VeEFBbE1kRGVrOFNWY21JZGlnMVE0bDdmemxsNkt3d19IaktNVDZraWM3MWJBLUw1YlJuU3J5aml5RlFwcjBNTkdJVkNsTFFlbFVOYVZraXAyN09veWN0S200Nzg2UlEySjBBLV9uRmxuVEhJdFBZZ0ktczVYdW8tc0VNUkhOQ3JPdF9qamFUcEZaQm9vSTE3VjBR0gHPAUFVX3lxTE1wekZ3SmJHU3o0Mng2a0wyLWljc19CYlVwUFhtQjZpaWpsUlpXbVZYOUt0OEVNeW5EQnM2RFlsTHd1TFNoT0lDMEV3Q0lTYmlHWjhmQTZ6eFkyTE9SY0JFSEVLaEpxOE9CeFpEZ1RlZ1B5d1lrZDc3R1VZLTBuRTBSdVN5OW16SEMwTU5IT051Umx5RFdXdFltcUlFaVRfYTY4ZkV0ck53UXRUM1ZGdEtocnZqQ0FtZVZCcDhwREtVUS0yWC10d1ZFLUs4UFBCcw?oc=5",
+    "id": "580a8c0144",
+    "title": "Dow Jones Futures Rise, Oil Prices Fall, Oracle Jumps; CPI Inflation Data To Inform Fed - Investor's Business Daily",
+    "link": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxPZGdpMlBVbExibHozSndzcGVmRE9SOVdnMnJDbmFSX2NSbjRQamJhd3R6dEkxX2tlaTkwdWRjVlplWkpsQTJoamljRzhQcXZkUmhDTmgtRWY0U1RwRUlEYUdoRmVmVkktM3FDNWpyVXRFNkpEWGl5ZlhHaGNadmVKTUx5NlhlQXE1ejdTUlowM0dGM1lPRkdTb2xRV2pKczR6aWtoLXRMWG11RDlUaXRuZDc3eUh1SDBmQ2NZQ2laTzBXMGtVQ0NpVjNhU2FvZ1ItWDhQWV9n?oc=5",
     "source": "gnews_futures",
-    "published_utc": "2026-09-10T12:14:19+00:00",
-    "score": 9.01,
-    "duplicates": 0
+    "published_utc": "2026-09-11T12:01:00+00:00",
+    "score": 11.77,
+    "duplicates": 1
    },
    {
-    "id": "467091b24c",
-    "title": "S&P 500 ends down as Treasury yields rise and traders fret about inflation - Reuters",
-    "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPVUNZS2ZwczJmM0x1aEM5ZFJMbUhWckRSOE54a1NyTFZjb1NaNFNCZDFwOFJiMk40b1RJelZsVnhKOVNObGNGenNkZzVhUWtZRlktVzhTWk9Qc1EybkRweDk4RFRRUjh2bk1TU0lJazBncUFnUlcwcTlPVWY3NjBzdWVUd3JGTDlLeF9EMU1aTnEzSDctTVcxZVdzT1RZclZjanRhbkl3?oc=5",
+    "id": "752862c1a6",
+    "title": "Inflation persisted in August, potentially locking in a Fed interest rate hike",
+    "link": "https://www.cnbc.com/2026/09/11/cpi-inflation-report-august-2026.html",
+    "source": "cnbc_markets",
+    "published_utc": "2026-09-11T12:57:56+00:00",
+    "score": 10.93,
+    "duplicates": 1
+   },
+   {
+    "id": "b10def9d57",
+    "title": "Stock Futures Rise Ahead of August CPI as Oil Prices Retreat - IndexBox",
+    "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNRUMwWDc4cl9hb01vdDFHVWZFNTZVa3U2YlpsQU1yNDhuRVlZZGZIQ0NubExkaFhvUXpYZzlVa2RzQ3NUblA1V1M4R014UEVpZEgtR19mQ2JSb18yaG5rVFhNN1g5UVpTWEk5clNISkFHNDF1NUxfa2xQRjR2N2huZVd0Si1PdnM1bzhUTmJqRS1pMWN4?oc=5",
+    "source": "gnews_futures",
+    "published_utc": "2026-09-11T12:22:52+00:00",
+    "score": 9.33,
+    "duplicates": 2
+   },
+   {
+    "id": "e25080f711",
+    "title": "Inflation report lands in a time of spiking oil prices, rising interest rates and Fed on fence - Daily Camera",
+    "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9aaklyUDI3THFiRlFPQ1pocTlZSnV4Vjc0R2poYlFTbUp6OW9VdkdFbmRxNkFHVTZJSmRCVERMNzZnR01iYWYzRm1GZUZDNW9DZS11VWlXQmRnTFBqb2dpQ2FQWlNKUDhXZUlTLXBMVy1HSjcyYnc?oc=5",
     "source": "gnews_macro",
-    "published_utc": "2026-09-10T20:16:48+00:00",
+    "published_utc": "2026-09-11T12:30:49+00:00",
     "score": 8.85,
     "duplicates": 1
    },
    {
-    "id": "c5b6091319",
-    "title": "Wholesale inflation stirred up by Iran war and high oil prices. What does it mean for the Fed? - MarketWatch",
-    "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQMW9RbmVRaThIdzAyQUF0ZTh5bUtsQUNlaTJXRkNsV3pwb2VEU19kcC1XeUpxR3NQVmIzSi05S0RmS2NTNXRDNlZqbTFnMDFSV3JPYXRWS2I3RWhpQnVwRWlHRF9valo3ZDRiSHRMdlRSMnlNTVpWR296NlQyOWtCOF9SZUVVNlBHMk1taFU5anBPdXUxZExYcXJNTGVXQUdkQS1zVTNuRGRJSmNDckRSSDNGRmtEV25DalE?oc=5",
+    "id": "ef341c9193",
+    "title": "Core CPI rose a faster-than-forecast 0.3% in August, setting up possible Fed rate hike - CoinDesk",
+    "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPZDNKYjh3ejFyNHJPdEdzcm56NEo5SXZ4dHp4Z1lKS0phY2xOTDFPYUVxZVBEdUtxN0t4MDZJckJHQjFSN3hXREpCQ0locjJMMF9hVTFfbFhvQWUyZ1h2OGFTUHlYNkVoNnlWOHN1c0MwSml1V3E1ZHVJT1paeExZdG9sLVFwbzhFYjBQcE1vQkRYbmdtRUdBdk9IckdIQVRCWFhLMmFMaFUyWVFDN01mUXBaTEtiLXhFOEc0?oc=5",
     "source": "gnews_macro",
-    "published_utc": "2026-09-10T13:37:00+00:00",
-    "score": 8.74,
+    "published_utc": "2026-09-11T12:41:53+00:00",
+    "score": 8.38,
     "duplicates": 0
    },
    {
-    "id": "2399a7b633",
-    "title": "Limitless Metals: $105 Oil, Rising Treasury Yields and Fed Rate-Hike Expectations Reshape 2026 Gold Outlook - markets.businessinsider.com",
-    "link": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxQVUxBVG5YMlQtV2pabFFMMnZlU3ZDS0ZrTTZ4ZC12anJtcVFid1ZOdWhxWHBxUE9GenpsYVVhZmo3WUl0T1QxN3Z2b2xoc3kxZjA4Ul9ydElkd0RFamNvazBSNVIwdUFkY1hnTmFHMkV3ZDRuYnU5QlFBcVMtYnIzOF8zSWF1TjZKM3RfRnRkdExNMnBzajhBaDVKWEMwRHhzNElPQmpuUW1iUGY2b0FpNUFFaXFrT1l1c0hwaUlwaFNBYWpBM2U3eU9kSGU0WEVhUjRkTU1ieGVXbW5EbDVFb19VV0xWMjFkNmg1c0hmWEdlZGRHUnc?oc=5",
-    "source": "gnews_fed",
-    "published_utc": "2026-09-10T17:23:50+00:00",
-    "score": 8.37,
+    "id": "fad807b6fa",
+    "title": "S&P 500: Oil Retreat Lifts US Stock Futures Ahead of Critical CPI Report - FXEmpire",
+    "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOSHdJYXRmTHFkODRLdnVQQlpYNUpSaERrWV9OWDZEM0Q5Z2xMQV92ZVB2ak1uSHJaZ1I2cmdnWVpoZ1JfVU9CdUNNRnRUMHdDalBmbjdxTzVIa1VoWWlSb050MlRrXzRwMXNCYnZUY0dvUDBscUtfeExQNC1LRHBtdGJZYzJwb2hEUjM1UTc0Wnk1X0RoSmVtU3dUSG5qcHMtSVhQRl9VQnkxc3JTTkZXcXJ3aFJ5ZEtmY25SZU5n?oc=5",
+    "source": "gnews_futures",
+    "published_utc": "2026-09-11T12:20:00+00:00",
+    "score": 8.32,
     "duplicates": 0
    },
    {
-    "id": "79a169ffab",
-    "title": "The CPI report arrives tomorrow. It could determine whether the Fed hikes rates next week. - CBS News",
-    "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE42M1BqZk9GWEg5c2JPeXdqUlM2N2pTWVhhX0dXUjJ0RkpXNjVyWExpblFYeE1LcHRKWWE5MXJoUTBmcU9kWmVQY0dqY1RteGZIMXo2TmN5T3RoSDFSWnhfR3BucTBxbE5PdzFfaHl3?oc=5",
+    "id": "c2ac29587f",
+    "title": "Nasdaq, Dow, S&P 500 Futures Rise After 4-Day Market Slide As CPI Looms Large: ORCL, ADBE, MU, TSLA, RKLB, IBRX, HOOD, GME In Focus - Stocktwits",
+    "link": "https://news.google.com/rss/articles/CBMikAJBVV95cUxOOXNXYmg1R0NPdnd2cVZPMmNFM0NsNGJDOTFtRndQVjVYN1owZEpyUmpGamVjRWE2cFQ2dmVKZVJRaTZOalpVT1l3S18xX1BURnF0aTdrdFdZN2h5d0dCenpDY01JeE9JUk1XSmN6RGRWQUVzdjdjR3dwTUJGZDBUc2Vwc0NoTk5pRGdBdU1UQjlGS1lDZUlnSzY4Y3dkUEZnTHZ3WDJhaTU5Y3RfZm5qdVN3Y29jc09meUhYaHdjaVNGWkZhc25PQWVOQ29mWk94aGc4S1NoY1ZFR0I2dURTRFNFeGxQclpnZG5abV9nZ3hvcE9heXVOV0pQWWI3NDZtc3BmcE96c2JmQWd1WEFVaw?oc=5",
+    "source": "gnews_futures",
+    "published_utc": "2026-09-11T05:38:28+00:00",
+    "score": 8.21,
+    "duplicates": 0
+   },
+   {
+    "id": "bfd4a38966",
+    "title": "Inflation ticked up in August, setting the stage for Fed to hike interest rates - NBC News",
+    "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxQWm44cERNRk96Tm5Mc3JwMzZKLUJFYzctbDFTLUZqRFJRbTM2N1hjOXIzZzlFWnJtSlFRcDRZZzhjQWQyM1lyR0ZHSUhJLTJ2Z3JiVG84d0E3d25IYndacXR4MHllaGtCTUhYNUhZT0xiTjdJZ0NNa2gtZGZ0d3ZTUmowQ0R1RGxnRUVGMzZodlo1X2txUk5PeUZjSjBOUQ?oc=5",
     "source": "gnews_fed",
-    "published_utc": "2026-09-10T20:11:00+00:00",
-    "score": 7.83,
+    "published_utc": "2026-09-11T12:37:14+00:00",
+    "score": 7.87,
     "duplicates": 1
    },
    {
-    "id": "7da79da143",
-    "title": "Investors price in hot August CPI reading; big surprise could sway upcoming FOMC decision - Seeking Alpha",
-    "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOT0RTVWJnanZvdEV4dEtVRW9OYnZXbEsyLTlmVEU0U3JBdFZhR0JlQm9ZeDF5Sl9qT2lxelJUU2RObVNVZ3VrczM0UVI3REJ1RklhV3VEYmVWblZOUWVOdjMyNno2dzNCbGR3T3hVRkNhcVZnR1R1Z0ZhWk9qQ1hsR25SRVZ1UlVlR0loOU9QRm9MWVdaSlItc3NmQ29UdUxRZXlxcmNLSUI4eGJlZ2R6TkRwZUE5TnNKYWNfcXFvUzZOZnlK?oc=5",
+    "id": "74b55c681c",
+    "title": "USD/JPY signal: forecast ahead of US inflation data, BoJ, and Fed decisions - TradingView",
+    "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPMlAtZUVjRHpYVGtibnREQTUtcFd0c0J4Q1M4M29rNHJzNUdiWkhFY2ZPbU5uLTNhNkxCQlZUZVV2QkptNzQtOFE5aUx3UDhDWHdzT0xUaHdxQVhEZWNOb2dnNnZjWDVuZVpZVlJLSU5qLTUwTk0zX2xtU0EtUHpnZzhaSHpqR2tJeFRnLWRDLTgxckVRdUJNOUFxc3N1ckVXYmJKa2d3eEN5MS1ZU1VFUW44dy1SSjlwZ2VaQVFmNWJ2aWUwOTUwQQ?oc=5",
     "source": "gnews_fed",
-    "published_utc": "2026-09-10T18:31:18+00:00",
-    "score": 7.56,
+    "published_utc": "2026-09-11T08:04:10+00:00",
+    "score": 7.61,
+    "duplicates": 0
+   },
+   {
+    "id": "416d8503b1",
+    "title": "Stock futures edge higher as key consumer inflation report looms ahead - cnbc.com",
+    "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOb19Cc1E3QUpVWE0wRTNDbkZoV2hldGZ4dHZJS09DZE80ekRCT2pRNUtfaTRmcjNDVWNhU2hfdUk2UTllN1RBcE1CWDhMTGhTWUlPRFBVaWRPOHhndXdFRHQwNVVMakVuc3hEREROaWxDZFZJRmVTQlM2akhhSWtQcmZ0QzBWS0RGTHIzSllmaHVIODVCdjhXV2I3a0pNcjZiSHBFa2xORVZNVXRNMWN5bG1ZNA?oc=5",
+    "source": "gnews_futures",
+    "published_utc": "2026-09-11T11:02:38+00:00",
+    "score": 7.61,
     "duplicates": 1
    },
    {
-    "id": "76eb3e07b6",
-    "title": "Oil Prices Keep Soaring And Treasury Yields Remain High. Chances Of a Fed Hike Are Greater. - International Business Times",
-    "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPYjJnN3E5YlRjV0FTM2UyRFVQQm9yWXVJN2NFOGtuOGUxQjB6S1EwVWtwVFAtdWpUQXBzdGFDZDFIUEtGZ2Q0cVJHRHczdGxDbGlXWTMtZVUwNEJ0RmQtd3FQZkg4azg4X0xHV1JiZjYwcm41UnpSaWVZQkJVNFNNbk5JWFFYOHh6VXBBWFZDOGtvZTdfbjlXTE9sOWFrdHl6bzctRWxCRkpCT09Uakh4M0hn?oc=5",
-    "source": "gnews_fed",
-    "published_utc": "2026-09-10T18:19:12+00:00",
-    "score": 7.52,
+    "id": "91f7b8a259",
+    "title": "US Core CPI Tops Forecasts, Bolstering Case for Rate Hike - Advisor Perspectives",
+    "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxPTjZjVGdNbTdJUDlJVnd1WUsyaW5TaGh0MFVYVnRMMWl5dWMwVE44bVo3LWU3UFJwWFpMZ3NDOTJRT1QxVkhrZDduN2FEWXNSbWxDYlFoYWNxX0tiYkdpLUFpVUNmNDE0aTlMUGZfQUhHa3pEbUtxZnAtZ0RLa0RwaklPUy1OQXdSb1FBbS1DZGZKUk9FX0FJRGtrNzFnZw?oc=5",
+    "source": "gnews_macro",
+    "published_utc": "2026-09-11T13:21:04+00:00",
+    "score": 7.49,
     "duplicates": 0
    },
    {
-    "id": "96d9c467f8",
-    "title": "Oil Tops $100 as US Stock Futures Recover Under Rate Hike Pressure - Межа. Новини України.",
-    "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBsNHZ2em92U3hnTXVDb000b2dkQTUxXzVQMFZzS3c1ZXZCX2hOc2RrQ1YwN0l4OEZfU0h1Y0NOWGdjdVNQWWpIZFBxY2Q4QlFSejh4aDZabnJqUWc3UXlR?oc=5",
-    "source": "gnews_futures",
-    "published_utc": "2026-09-10T12:18:47+00:00",
-    "score": 7.52,
-    "duplicates": 0
-   },
-   {
-    "id": "1e68ad2e11",
-    "title": "Dow, S&P 500, Nasdaq Futures Edge Higher Ahead Of PPI, Jobless Claims: NVDA, AAPL, META, ORCL, TSM, TSLA, SLS In Focus - Yahoo Finance",
-    "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNMl9uX0NzdjlVeFJ6TlJwOUllLUZWbG1HUzNKbVhiQjZSSV9hWkhkN2xXUjZXU3JGY1JVNVNtV2toSS10UUFBQXhmUnhOalhVZHNmZGlHWU5ZNGExY2ZMR21tazZMYzJyU0ZXYTdkR3BjeURwb19rU2RhYVRvcXZxT2JtTmpKMEdrNzBWd2FPdTM0Sms?oc=5",
-    "source": "gnews_futures",
-    "published_utc": "2026-09-10T08:45:46+00:00",
-    "score": 7.5,
-    "duplicates": 0
-   },
-   {
-    "id": "f4e9919c27",
-    "title": "U.S. stock futures tick up after Wall St falls on higher yields; PPI, CPI awaited By Investing.com - Investing.com South Africa",
-    "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPMW8zMmNiY0JnMk12MDN6Y3h5Sy03ZkQ5UHNNdDRoVC1MSXByS2xsUmhBV2lfVmkwem5zSWpOd2lfbWVoeENBUlZYR3hDNk9MdXZFOTZjSXNUT0hrNzB6VXItTk1zRnVidnNPOU9mSWF5TWRNOW84Qk1yX3g1ZFpyaVI5em5fOXUtc3A3d3FPWTUyRmFhVy1DYW8wTkh4U3NOeEFIOFhpOTdLbjlMV3pFaXpHZ1JWb05MQTJRWVFaczdkTUNsZm1jMzlWRWw?oc=5",
-    "source": "gnews_futures",
-    "published_utc": "2026-09-10T08:48:45+00:00",
-    "score": 7.5,
+    "id": "690ec24fd4",
+    "title": "Cooling inflation strengthens bets on another Brazil rate cut - WTVB",
+    "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQTkxoZlJvaVVtdWNMUXZ6Z292elBhb05EbmR3UVJ5WnY5S1MteEN3NmQwd2ZjaTVuYXMxT1N3TmMwRklGbExTcjNHWE94cVE5UTY3OTh4WDBOTWg4eG1xSUNleG1mQ2RvV092QUZ4VU1BY3F0NzlTaEdHSklLbUQ4YlZZbUx4TEVfME5VUS1UcmVRZmtVNFVr?oc=5",
+    "source": "gnews_macro",
+    "published_utc": "2026-09-11T13:20:31+00:00",
+    "score": 7.49,
     "duplicates": 0
    }
   ],
   "summary": {
    "lines": [
-    "Treasury yields hit 4.9% overnight, highest since 2023, driven by oil surge above $100 and renewed inflation concerns that pressured equities into the close. [a6ed35ec35] [96d9c467f8] [467091b24c]",
-    "PPI data at 08:30 ET (consensus 0.4% headline, 0.3% core) will set the tone for tomorrow's CPI and could shift Fed rate hike expectations for next week's meeting. [c5b6091319] [79a169ffab] [7da79da143]",
-    "Fed hike speculation is rising as oil and yields stay elevated, making the inflation prints critical for near-term FOMC policy pricing. [76eb3e07b6] [2399a7b633] [479bb4670c]"
+    "Core CPI came in at 0.3% for August, above the 0.2% consensus, strengthening the case for a Fed rate hike and likely driving initial volatility at the 08:30 release. [ef341c9193] [91f7b8a259] [752862c1a6]",
+    "Stock futures rose into the data despite a four-day market slide, with oil prices retreating which may affect energy sector moves and overall sentiment during the morning session. [c2ac29587f] [fad807b6fa] [b10def9d57]",
+    "The hotter-than-expected core print puts the Fed decision in focus, creating potential for rate-hike volatility and dollar strength that traders will scalp around policy-sensitive levels. [bfd4a38966] [ef341c9193] [e25080f711]"
    ],
    "backend": "anthropic",
    "model": "claude-sonnet-4-5",
-   "dropped": [
-    "no valid citation: Roll day volume shifts to Z26 contracts, likely bringing technical noise and liquidity gaps during the open that can amplify scalp volatility. [calendar]"
-   ],
+   "dropped": [],
    "warnings": []
   },
   "feeds": [],
@@ -651,25 +529,25 @@
  },
  "flags": [],
  "earnings": {
-  "reported": [],
-  "today": [
+  "reported": [
    {
     "symbol": "ORCL",
     "name": "Oracle Corporation",
-    "timing": "post",
+    "timing": "unknown",
     "date": "2026-09-10",
-    "reported_at": null,
-    "reported": false
+    "reported_at": "9/10/2026",
+    "reported": true
    },
    {
     "symbol": "ADBE",
     "name": "Adobe Inc.",
-    "timing": "post",
+    "timing": "unknown",
     "date": "2026-09-10",
-    "reported_at": null,
-    "reported": false
+    "reported_at": "9/10/2026",
+    "reported": true
    }
   ],
+  "today": [],
   "tomorrow_pre": [],
   "warnings": []
  }
