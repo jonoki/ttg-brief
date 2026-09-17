@@ -1,7 +1,7 @@
 {
  "meta": {
-  "generated_at_utc": "2026-09-17T13:41:19.565451+00:00",
-  "generated_at_local": "Thu 17 Sep 2026 10:41 ADT",
+  "generated_at_utc": "2026-09-17T13:56:42.469797+00:00",
+  "generated_at_local": "Thu 17 Sep 2026 10:56 ADT",
   "trading_day": "2026-09-17",
   "display_tz": "America/Halifax",
   "version": "0.1.0",
@@ -75,25 +75,11 @@
   {
    "root": "ES",
    "trading_day": "2026-09-17",
-   "as_of_utc": "2026-09-17T13:41:19.565451+00:00",
+   "as_of_utc": "2026-09-17T13:56:42.469797+00:00",
    "source": "yahoo",
    "delayed": true,
-   "last_price": 7709.25,
+   "last_price": 7692.5,
    "levels": [
-    {
-     "tag": "rn_major_up",
-     "label": "Round 50 above",
-     "price": 7750.0,
-     "group": "round",
-     "note": ""
-    },
-    {
-     "tag": "rn_minor_up",
-     "label": "Round 25 above",
-     "price": 7725.0,
-     "group": "round",
-     "note": ""
-    },
     {
      "tag": "onh",
      "label": "Overnight high",
@@ -123,15 +109,8 @@
      "note": "09:30 bar open"
     },
     {
-     "tag": "tdl",
-     "label": "Today's RTH low",
-     "price": 7703.25,
-     "group": "today",
-     "note": ""
-    },
-    {
-     "tag": "rn_major_dn",
-     "label": "Round 50 below",
+     "tag": "rn_major_up",
+     "label": "Round 50 above",
      "price": 7700.0,
      "group": "round",
      "note": ""
@@ -156,6 +135,13 @@
      "price": 7696.29,
      "group": "range",
      "note": "ATR over 14 days"
+    },
+    {
+     "tag": "tdl",
+     "label": "Today's RTH low",
+     "price": 7688.25,
+     "group": "today",
+     "note": ""
     },
     {
      "tag": "onvwap",
@@ -186,11 +172,25 @@
      "note": "2026-09-16"
     },
     {
+     "tag": "rn_minor_dn",
+     "label": "Round 25 below",
+     "price": 7675.0,
+     "group": "round",
+     "note": ""
+    },
+    {
      "tag": "pwl",
      "label": "Prior-week low",
      "price": 7653.25,
      "group": "week",
      "note": "1 session(s) of data — PARTIAL"
+    },
+    {
+     "tag": "rn_major_dn",
+     "label": "Round 50 below",
+     "price": 7650.0,
+     "group": "round",
+     "note": ""
     },
     {
      "tag": "val",
@@ -236,8 +236,8 @@
     }
    ],
    "stats": {
-    "last_bar_utc": "2026-09-17T13:31:00+00:00",
-    "last_bar_age_min": 10.3,
+    "last_bar_utc": "2026-09-17T13:46:00+00:00",
+    "last_bar_age_min": 10.7,
     "market_state": "open",
     "profile_volume": 1426923.0,
     "prior_day": "2026-09-16",
@@ -1488,27 +1488,28 @@
      "t": "2026-09-17T13:30:00+00:00",
      "o": 7713.5,
      "h": 7716.25,
-     "l": 7703.25,
-     "c": 7709.25,
-     "v": 15230.0
+     "l": 7688.25,
+     "c": 7690.5,
+     "v": 91229.0
+    },
+    {
+     "t": "2026-09-17T13:45:00+00:00",
+     "o": 7690.75,
+     "h": 7692.5,
+     "l": 7688.25,
+     "c": 7692.5,
+     "v": 6310.0
     }
    ]
   },
   {
    "root": "NQ",
    "trading_day": "2026-09-17",
-   "as_of_utc": "2026-09-17T13:41:19.565451+00:00",
+   "as_of_utc": "2026-09-17T13:56:42.469797+00:00",
    "source": "yahoo",
    "delayed": true,
-   "last_price": 29708.0,
+   "last_price": 29650.5,
    "levels": [
-    {
-     "tag": "rn_major_up",
-     "label": "Round 100 above",
-     "price": 29800.0,
-     "group": "round",
-     "note": ""
-    },
     {
      "tag": "onh",
      "label": "Overnight high",
@@ -1522,13 +1523,6 @@
      "price": 29753.25,
      "group": "week",
      "note": "since 2026-09-14"
-    },
-    {
-     "tag": "rn_minor_up",
-     "label": "Round 50 above",
-     "price": 29750.0,
-     "group": "round",
-     "note": ""
     },
     {
      "tag": "tdh",
@@ -1545,17 +1539,10 @@
      "note": "09:30 bar open"
     },
     {
-     "tag": "rn_major_dn",
-     "label": "Round 100 below",
+     "tag": "rn_major_up",
+     "label": "Round 100 above",
      "price": 29700.0,
      "group": "round",
-     "note": ""
-    },
-    {
-     "tag": "tdl",
-     "label": "Today's RTH low",
-     "price": 29673.0,
-     "group": "today",
      "note": ""
     },
     {
@@ -1564,6 +1551,27 @@
      "price": 29652.34,
      "group": "range",
      "note": "ATR over 14 days"
+    },
+    {
+     "tag": "rn_minor_dn",
+     "label": "Round 50 below",
+     "price": 29650.0,
+     "group": "round",
+     "note": ""
+    },
+    {
+     "tag": "tdl",
+     "label": "Today's RTH low",
+     "price": 29605.75,
+     "group": "today",
+     "note": ""
+    },
+    {
+     "tag": "rn_major_dn",
+     "label": "Round 100 below",
+     "price": 29600.0,
+     "group": "round",
+     "note": ""
     },
     {
      "tag": "pdh",
@@ -1658,8 +1666,8 @@
     }
    ],
    "stats": {
-    "last_bar_utc": "2026-09-17T13:31:00+00:00",
-    "last_bar_age_min": 10.3,
+    "last_bar_utc": "2026-09-17T13:46:00+00:00",
+    "last_bar_age_min": 10.7,
     "market_state": "open",
     "profile_volume": 464879.0,
     "prior_day": "2026-09-16",
@@ -2910,9 +2918,17 @@
      "t": "2026-09-17T13:30:00+00:00",
      "o": 29718.25,
      "h": 29737.25,
-     "l": 29673.0,
-     "c": 29708.0,
-     "v": 6606.0
+     "l": 29605.75,
+     "c": 29641.0,
+     "v": 41663.0
+    },
+    {
+     "t": "2026-09-17T13:45:00+00:00",
+     "o": 29641.75,
+     "h": 29654.5,
+     "l": 29623.75,
+     "c": 29650.5,
+     "v": 2572.0
     }
    ]
   }
@@ -2925,7 +2941,7 @@
     "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOOC1YOEFjQ0hfeDNZYnBQVDlNSl9BZFNzZWtUd09OcXhNS2tFVEtMWi1odkEyMmlNNlJBaTBPQ2p4YVFYNHhiZGUzN2c5aWNkOUxndTlFeEI1N0F5TnNqekN6T2pmV3VheFAybUhHYXZRUy1qRVNtYUZ2Wnc1SHppZkx5NmhhOFNXR1NNSEtvbXdobHI0cDMzcXFYN3VwTzFWVkpUX0JfUElMbjhBSk8xLTBNTQ?oc=5",
     "source": "gnews_futures",
     "published_utc": "2026-09-17T10:32:49+00:00",
-    "score": 13.98,
+    "score": 13.93,
     "duplicates": 1
    },
    {
@@ -2934,7 +2950,7 @@
     "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE9BMzVISi1CQzk3OGJoRFdjV05CTWZNUlUwb2tYVzlBMzRqSWQzM3M1aUFTX3M2cDRQZzBmOUxORk5oN3A5QU1vc1dxcTAyVklaLTV1MzRNTV9ueFE1MGY1dzVuTQ?oc=5",
     "source": "gnews_futures",
     "published_utc": "2026-09-17T12:23:02+00:00",
-    "score": 11.78,
+    "score": 11.74,
     "duplicates": 0
    },
    {
@@ -2943,8 +2959,8 @@
     "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPOWhOS0YtWWwwMkNsUTAxVmJJUnFra1dvNGxvM0VwV2pGb1Y3ekJ2TnVPcHp4STFGQm9Xd24ta0RTLXRrZjBHa0NfalAzU0o4a3FyRjBRM3hjYndzZ0RsM2xNWUF5djV4Qy00bEppVHREbl9PZkRRMHl1UDlLbUNxczNyOVpfTG9URHRROTB3?oc=5",
     "source": "gnews_macro",
     "published_utc": "2026-09-17T12:38:23+00:00",
-    "score": 10.33,
-    "duplicates": 6
+    "score": 9.78,
+    "duplicates": 5
    },
    {
     "id": "d7c7647ec5",
@@ -2952,7 +2968,7 @@
     "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQMF9qTGxlZi11U1o3ZUtXR3ExbDdJaUhvMmdiZVBWWE9NeVBEa2pZcjZ1Wm9VejdXM1lHM0dkTEJqaVVFSEVZZTk2Z3NsV0wxYkhFOUZITXp1UnlJVWdWNkNLZlpnQmRxRC1jQ0VRLWpKbmJTZHBuRklVXzQ1S29TZGppS1l5NDlObHhwM1lyNWVOMWM?oc=5",
     "source": "gnews_futures",
     "published_utc": "2026-09-17T11:49:03+00:00",
-    "score": 9.19,
+    "score": 9.15,
     "duplicates": 1
    },
    {
@@ -2961,7 +2977,7 @@
     "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPMGRJLU1oRjNHRFB0aUNvbXh6TW9rOHlMREVCcGthU1NCb0xMdkhCMDJxLWQyaVpaQl9rX1BubWFiMWtXSklDZGxJX1hXanZsMUt5d1haa0h6YW9lQkxXTlRxS0ZZb09QeWF4ZVN0WUNfTWZhVFc5YUFBNG1fYzd1M2RBek5LUnE1TjVIWW9jdXJ3S2E5b05zOUhnQWhRYnBVOG9RY3h4WV9QQQ?oc=5",
     "source": "gnews_futures",
     "published_utc": "2026-09-17T10:57:20+00:00",
-    "score": 9.04,
+    "score": 9.0,
     "duplicates": 0
    },
    {
@@ -2970,7 +2986,7 @@
     "link": "https://www.cnbc.com/2026/09/17/bank-of-england-interest-rate-decision-fed-rate-hike-uk-inflation.html",
     "source": "cnbc_markets",
     "published_utc": "2026-09-17T12:27:10+00:00",
-    "score": 8.79,
+    "score": 8.75,
     "duplicates": 1
    },
    {
@@ -2979,7 +2995,7 @@
     "link": "https://www.investors.com/market-trend/stock-market-today/dow-jones-futures-sp-500-fed-rate-hike-warsh-amd-bloom-energy-stocks-to-watch/?src=A00220&yptr=yahoo",
     "source": "yahoo_finance",
     "published_utc": "2026-09-17T12:16:34+00:00",
-    "score": 8.76,
+    "score": 8.72,
     "duplicates": 0
    },
    {
@@ -2988,7 +3004,7 @@
     "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNVER1UFJ0ZVpGNjRWcnkxSU96Z01OUHY4MVVqQmcyZDYwZVhkNFdpMWlyU1NnNjhSQmZpSG5FODhMLXktd1laTjRESnhfc2pLenBvckhkWmRSNDFxMEw0Yi1DenJEc3l0bzExaGVZaDc3RDFUT3FkN2dmZGEzOVI4WkxadmZ4ZGtaaFVNUGFPeHhlNnQ5UkZXQkx0OVFPcWdVWWtVR0FISmRXb0s5dUI4aThxSmQ2dGktYTdySlJFcldQMEhOWkE?oc=5",
     "source": "gnews_macro",
     "published_utc": "2026-09-17T08:49:00+00:00",
-    "score": 8.69,
+    "score": 8.65,
     "duplicates": 0
    },
    {
@@ -2997,7 +3013,7 @@
     "link": "https://finance.yahoo.com/markets/live/stock-market-today-thursday-september-17-dow-sp-500-nasdaq-081248626.html",
     "source": "yahoo_finance",
     "published_utc": "2026-09-17T08:12:48+00:00",
-    "score": 8.59,
+    "score": 8.54,
     "duplicates": 0
    },
    {
@@ -3006,7 +3022,7 @@
     "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxObGFzVWQxdzFjM19HLVVrNWUzMW1MRGhGTktGOWlMUEd6UmdhdzUwa0pXTU9UdldiOVluZzBkQUx4anFaSTNzNHMwMzd4SnlGa2lOWlFqeWEtVVpVcXpwd0dTRGNQVlUzZXF2akRXd3h6VEdQOXFRNkV2eWNXNFNQZ2NodU9JaTNIQ1E?oc=5",
     "source": "gnews_macro",
     "published_utc": "2026-09-17T11:01:00+00:00",
-    "score": 8.55,
+    "score": 8.51,
     "duplicates": 0
    },
    {
@@ -3015,7 +3031,7 @@
     "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPUnVZSloyS0Y5b0hoTGU1NjZoNklmVDU5NVpYMFVGRDl2Z0x1ZmctMGxNb1lxdXpfaVFKOUZiRks1U0J0YjlJT0djV1kzOVVwNDBGaHU5WWx0YVNKQXNtdFNuMFkzZkJjMmxWMV9YTWNqdEVNblhJVG1ZTlp5UjRaOXo0WE9acnNCRkdfeFU3cWpSclk2?oc=5",
     "source": "gnews_futures",
     "published_utc": "2026-09-17T12:57:00+00:00",
-    "score": 8.38,
+    "score": 8.33,
     "duplicates": 1
    },
    {
@@ -3024,7 +3040,7 @@
     "link": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxOUXJEaHROQVZGQ1piWlVodkxVX2tnRFR3ZVZJbXo3SzlsYXdwTERsVzhvSlhFbzlBYTA1blhkaXEzMnF1X29CREEtN2Y2S3Q2dWZzckJ2dmh6d2Y5NGV1bl9lb2FlSjhKaWFaZC1zVS1KNTR5U1lNTjUzRTZRb2U0WDNTSTFtTkhXa1ltbFBfMmdQbnAyN2RVSm9QbDhxUGJPWnRaVUNZVEpVSjV5cVg4bXFCMmd1VkM5YU1weDZPQTRYdFF6OHY5dE5OSTZsam45aElaVW41ZWpHMjE5bjJlWl8wUFU0eVc1eE1mdw?oc=5",
     "source": "gnews_futures",
     "published_utc": "2026-09-17T03:43:35+00:00",
-    "score": 8.34,
+    "score": 8.3,
     "duplicates": 0
    }
   ],
@@ -3038,7 +3054,9 @@
    ],
    "backend": "anthropic",
    "model": "claude-sonnet-5",
-   "dropped": [],
+   "dropped": [
+    "no valid citation: Fed delivered a rate hike with a hawkish inflation tone"
+   ],
    "warnings": [
     "summariser produced no valid lines; showing digest"
    ]
