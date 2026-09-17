@@ -1,7 +1,7 @@
 {
  "meta": {
-  "generated_at_utc": "2026-09-17T11:11:06.227658+00:00",
-  "generated_at_local": "Thu 17 Sep 2026 08:11 ADT",
+  "generated_at_utc": "2026-09-17T11:26:25.037242+00:00",
+  "generated_at_local": "Thu 17 Sep 2026 08:26 ADT",
   "trading_day": "2026-09-17",
   "display_tz": "America/Halifax",
   "version": "0.1.0",
@@ -73,7 +73,7 @@
    "time_utc": "2026-09-17T12:30:00+00:00",
    "local": "09:30 ADT",
    "et": "08:30 ET",
-   "in": "1h 18m",
+   "in": "1h 03m",
    "consensus": "31.3",
    "prior": "47.4"
   },
@@ -84,10 +84,10 @@
   {
    "root": "ES",
    "trading_day": "2026-09-17",
-   "as_of_utc": "2026-09-17T11:11:06.227658+00:00",
+   "as_of_utc": "2026-09-17T11:26:25.037242+00:00",
    "source": "yahoo",
    "delayed": true,
-   "last_price": 7690.25,
+   "last_price": 7687.25,
    "levels": [
     {
      "tag": "wh",
@@ -129,7 +129,7 @@
      "label": "Overnight high",
      "price": 7690.75,
      "group": "overnight",
-     "note": "since 18:00 ET, 772 bars"
+     "note": "since 18:00 ET, 787 bars"
     },
     {
      "tag": "pwh",
@@ -162,7 +162,7 @@
     {
      "tag": "onvwap",
      "label": "Overnight VWAP",
-     "price": 7668.74,
+     "price": 7669.57,
      "group": "overnight",
      "note": "typical-price VWAP"
     },
@@ -224,14 +224,14 @@
     }
    ],
    "stats": {
-    "last_bar_utc": "2026-09-17T11:01:00+00:00",
-    "last_bar_age_min": 10.1,
+    "last_bar_utc": "2026-09-17T11:16:00+00:00",
+    "last_bar_age_min": 10.4,
     "market_state": "open",
     "profile_volume": 1426923.0,
     "prior_day": "2026-09-16",
     "prior_day_rth_range": 124.0,
     "overnight_range": 73.25,
-    "gap_vs_prior_close": 68.0,
+    "gap_vs_prior_close": 65.0,
     "gap_basis": "last price (pre-market)",
     "atr14": 74.04,
     "atr_days": 14,
@@ -1396,27 +1396,28 @@
      "t": "2026-09-17T11:00:00+00:00",
      "o": 7687.75,
      "h": 7690.75,
-     "l": 7687.75,
-     "c": 7690.25,
-     "v": 1445.0
+     "l": 7685.75,
+     "c": 7688.0,
+     "v": 9737.0
+    },
+    {
+     "t": "2026-09-17T11:15:00+00:00",
+     "o": 7688.25,
+     "h": 7688.75,
+     "l": 7685.75,
+     "c": 7687.25,
+     "v": 253.0
     }
    ]
   },
   {
    "root": "NQ",
    "trading_day": "2026-09-17",
-   "as_of_utc": "2026-09-17T11:11:06.227658+00:00",
+   "as_of_utc": "2026-09-17T11:26:25.037242+00:00",
    "source": "yahoo",
    "delayed": true,
-   "last_price": 29605.5,
+   "last_price": 29583.0,
    "levels": [
-    {
-     "tag": "rn_major_up",
-     "label": "Round 100 above",
-     "price": 29700.0,
-     "group": "round",
-     "note": ""
-    },
     {
      "tag": "exp_hi",
      "label": "Expected-range high (close + ATR)",
@@ -1425,18 +1426,11 @@
      "note": "ATR over 14 days"
     },
     {
-     "tag": "rn_minor_up",
-     "label": "Round 50 above",
-     "price": 29650.0,
-     "group": "round",
-     "note": ""
-    },
-    {
      "tag": "onh",
      "label": "Overnight high",
      "price": 29614.0,
      "group": "overnight",
-     "note": "since 18:00 ET, 772 bars"
+     "note": "since 18:00 ET, 787 bars"
     },
     {
      "tag": "wh",
@@ -1446,9 +1440,16 @@
      "note": "since 2026-09-14"
     },
     {
-     "tag": "rn_major_dn",
-     "label": "Round 100 below",
+     "tag": "rn_major_up",
+     "label": "Round 100 above",
      "price": 29600.0,
+     "group": "round",
+     "note": ""
+    },
+    {
+     "tag": "rn_minor_dn",
+     "label": "Round 50 below",
+     "price": 29550.0,
      "group": "round",
      "note": ""
     },
@@ -1474,6 +1475,13 @@
      "note": "1 session(s) of data — PARTIAL"
     },
     {
+     "tag": "rn_major_dn",
+     "label": "Round 100 below",
+     "price": 29500.0,
+     "group": "round",
+     "note": ""
+    },
+    {
      "tag": "poc",
      "label": "Prior-day POC",
      "price": 29468.5,
@@ -1483,7 +1491,7 @@
     {
      "tag": "onvwap",
      "label": "Overnight VWAP",
-     "price": 29461.88,
+     "price": 29465.19,
      "group": "overnight",
      "note": "typical-price VWAP"
     },
@@ -1545,14 +1553,14 @@
     }
    ],
    "stats": {
-    "last_bar_utc": "2026-09-17T11:01:00+00:00",
-    "last_bar_age_min": 10.1,
+    "last_bar_utc": "2026-09-17T11:16:00+00:00",
+    "last_bar_age_min": 10.4,
     "market_state": "open",
     "profile_volume": 464879.0,
     "prior_day": "2026-09-16",
     "prior_day_rth_range": 496.75,
     "overnight_range": 366.25,
-    "gap_vs_prior_close": 351.25,
+    "gap_vs_prior_close": 328.75,
     "gap_basis": "last price (pre-market)",
     "atr14": 398.09,
     "atr_days": 14,
@@ -2717,9 +2725,17 @@
      "t": "2026-09-17T11:00:00+00:00",
      "o": 29586.75,
      "h": 29614.0,
-     "l": 29585.0,
-     "c": 29605.5,
-     "v": 490.0
+     "l": 29575.5,
+     "c": 29589.0,
+     "v": 2722.0
+    },
+    {
+     "t": "2026-09-17T11:15:00+00:00",
+     "o": 29589.5,
+     "h": 29592.0,
+     "l": 29573.75,
+     "c": 29583.0,
+     "v": 127.0
     }
    ]
   }
@@ -2728,11 +2744,11 @@
   "headlines": [
    {
     "id": "b20e1a7945",
-    "title": "U.S. Stock Futures Rally as Bond Yields Fall on Fed’s Inflation Resolve - Barchart.com",
+    "title": "U.S. Stock Futures Rally as Bond Yields Fall on Fed’s Inflation Resolve - barchart.com",
     "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOOC1YOEFjQ0hfeDNZYnBQVDlNSl9BZFNzZWtUd09OcXhNS2tFVEtMWi1odkEyMmlNNlJBaTBPQ2p4YVFYNHhiZGUzN2c5aWNkOUxndTlFeEI1N0F5TnNqekN6T2pmV3VheFAybUhHYXZRUy1qRVNtYUZ2Wnc1SHppZkx5NmhhOFNXR1NNSEtvbXdobHI0cDMzcXFYN3VwTzFWVkpUX0JfUElMbjhBSk8xLTBNTQ?oc=5",
     "source": "gnews_futures",
     "published_utc": "2026-09-17T10:32:49+00:00",
-    "score": 14.39,
+    "score": 14.35,
     "duplicates": 1
    },
    {
@@ -2741,7 +2757,7 @@
     "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQdExtV0JaSHlwNXo0UF9McGVOYXZqZkR5ckxEb2hvZldJaWtaMjg0dU9aWDlZY1BoV3AtMWZHbFUwTnd5WWdIOU90TGtEZzE2Smw2THJKSTJ3TkhoVjFPd2RUbVoyZDlaaGNUSFBjUEFXa3dNbURPWjNReFZ4YnluZ2NXMm5jX3d0M2NROHVmcnIwUjl5MDh6bzZvUGgtMUxubnFfZWlGam5mTW5YeGYw?oc=5",
     "source": "gnews_futures",
     "published_utc": "2026-09-17T08:38:31+00:00",
-    "score": 9.58,
+    "score": 9.53,
     "duplicates": 1
    },
    {
@@ -2750,7 +2766,7 @@
     "link": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxOUXJEaHROQVZGQ1piWlVodkxVX2tnRFR3ZVZJbXo3SzlsYXdwTERsVzhvSlhFbzlBYTA1blhkaXEzMnF1X29CREEtN2Y2S3Q2dWZzckJ2dmh6d2Y5NGV1bl9lb2FlSjhKaWFaZC1zVS1KNTR5U1lNTjUzRTZRb2U0WDNTSTFtTkhXa1ltbFBfMmdQbnAyN2RVSm9QbDhxUGJPWnRaVUNZVEpVSjV5cVg4bXFCMmd1VkM5YU1weDZPQTRYdFF6OHY5dE5OSTZsam45aElaVW41ZWpHMjE5bjJlWl8wUFU0eVc1eE1mdw?oc=5",
     "source": "gnews_futures",
     "published_utc": "2026-09-17T08:25:36+00:00",
-    "score": 9.54,
+    "score": 9.5,
     "duplicates": 0
    },
    {
@@ -2759,7 +2775,7 @@
     "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPMGRJLU1oRjNHRFB0aUNvbXh6TW9rOHlMREVCcGthU1NCb0xMdkhCMDJxLWQyaVpaQl9rX1BubWFiMWtXSklDZGxJX1hXanZsMUt5d1haa0h6YW9lQkxXTlRxS0ZZb09QeWF4ZVN0WUNfTWZhVFc5YUFBNG1fYzd1M2RBek5LUnE1TjVIWW9jdXJ3S2E5b05zOUhnQWhRYnBVOG9RY3h4WV9QQQ?oc=5",
     "source": "gnews_futures",
     "published_utc": "2026-09-17T10:57:20+00:00",
-    "score": 9.46,
+    "score": 9.42,
     "duplicates": 0
    },
    {
@@ -2768,7 +2784,7 @@
     "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNVER1UFJ0ZVpGNjRWcnkxSU96Z01OUHY4MVVqQmcyZDYwZVhkNFdpMWlyU1NnNjhSQmZpSG5FODhMLXktd1laTjRESnhfc2pLenBvckhkWmRSNDFxMEw0Yi1DenJEc3l0bzExaGVZaDc3RDFUT3FkN2dmZGEzOVI4WkxadmZ4ZGtaaFVNUGFPeHhlNnQ5UkZXQkx0OVFPcWdVWWtVR0FISmRXb0s5dUI4aThxSmQ2dGktYTdySlJFcldQMEhOWkE?oc=5",
     "source": "gnews_macro",
     "published_utc": "2026-09-17T08:49:00+00:00",
-    "score": 9.11,
+    "score": 9.06,
     "duplicates": 0
    },
    {
@@ -2777,7 +2793,7 @@
     "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPalVXWERINnk3ZHBEbnV0QW5xS3lxTXZMQWtnbXhsS3o3WVAtcHVTQmg4VnhTVUlzWjRid0xFbXRudVVGeDVMU2djbjBFZmZLVW4yTDA5bEV0UTlaeHZST0YtZlJyU3JYZnFrTzBEdWtTdlRoZno0WENabWdTRTFmeUpfby1yREhEZVhfN0lpQzk?oc=5",
     "source": "gnews_fed",
     "published_utc": "2026-09-17T09:35:03+00:00",
-    "score": 8.73,
+    "score": 8.69,
     "duplicates": 8
    },
    {
@@ -2786,7 +2802,7 @@
     "link": "https://www.cnbc.com/2026/09/17/bank-of-england-interest-rate-decision-fed-rate-hike-uk-inflation.html",
     "source": "cnbc_markets",
     "published_utc": "2026-09-17T11:01:41+00:00",
-    "score": 8.47,
+    "score": 8.43,
     "duplicates": 0
    },
    {
@@ -2795,7 +2811,7 @@
     "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxObGFzVWQxdzFjM19HLVVrNWUzMW1MRGhGTktGOWlMUEd6UmdhdzUwa0pXTU9UdldiOVluZzBkQUx4anFaSTNzNHMwMzd4SnlGa2lOWlFqeWEtVVpVcXpwd0dTRGNQVlUzZXF2akRXd3h6VEdQOXFRNkV2eWNXNFNQZ2NodU9JaTNIQ1E?oc=5",
     "source": "gnews_macro",
     "published_utc": "2026-09-17T07:40:00+00:00",
-    "score": 8.41,
+    "score": 8.37,
     "duplicates": 0
    },
    {
@@ -2804,16 +2820,16 @@
     "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPUnVZSloyS0Y5b0hoTGU1NjZoNklmVDU5NVpYMFVGRDl2Z0x1ZmctMGxNb1lxdXpfaVFKOUZiRks1U0J0YjlJT0djV1kzOVVwNDBGaHU5WWx0YVNKQXNtdFNuMFkzZkJjMmxWMV9YTWNqdEVNblhJVG1ZTlp5UjRaOXo0WE9acnNCRkdfeFU3cWpSclk2?oc=5",
     "source": "gnews_futures",
     "published_utc": "2026-09-17T08:30:49+00:00",
-    "score": 8.05,
+    "score": 8.01,
     "duplicates": 1
    },
    {
     "id": "8ce2e0d337",
-    "title": "US Stock Futures Rise After Fed Rate Increase as Investors Await Bank of England Decision: Dow Jones, S&P, Nasdaq, Wall Street - Yahoo Finance",
+    "title": "US Stock Futures Rise After Fed Rate Increase as Investors Await Bank of England Decision: Dow Jones, S&P, Nasdaq, Wall Street - finance.yahoo.com",
     "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNdXYycmNSWVh6SE1jb2JxQkh6WUwzTjRiS1ZPYjdBV2h6dVdHaTZHYXV1cThZUnV3aG4zc3lmVkpNZFhrTnNmaEZITEhVRW5tYkluNm5SZGd1WWdaOEg0Y0E2dnQxaDRlTXVvTzNENXpCZGZMMElMeEdLeEFfSDJwdDhOYkUya19hUU5iMGdwYWNUT1RS?oc=5",
     "source": "gnews_futures",
     "published_utc": "2026-09-17T09:09:36+00:00",
-    "score": 7.66,
+    "score": 7.62,
     "duplicates": 0
    },
    {
@@ -2822,7 +2838,7 @@
     "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQaVNPTXRrYVhnSEZiY1VyVlIxSElzY2R6SzNPOXA4Tlh3Tl9wak9Rd2VsU29Wdmg0eGFCYk9sRkpuSVZ0Q0dJajg0ZUE0bjFKM0xQQjl5RnE4NWNzYnRIRUc5cnR3Xzc0X0ZCcTRxbC1heFdVd28yTjNCWm9lTkwySC02eWY1b041LTNwNmJxcW1QdWpTZmVwNDZkM0FkSExhNG52Sl9WVzEyb1RhSkRGM04xNmZxcWV1YWlTaHBTVS1kQmpLYWFYUVNnSWLSAdIBQVVfeXFMUFZxYm9NSVhaZEQxZWhtSTNjWEc2WllGbXl1a09IcTZHNjVjWTNDakxVMXVmTUY2d0VGSGhWTHpBdFNTSkFrblBaWDhIVjlJOWdKVEVtUkp6QW01T2xWdUMzNGF2MFpSdFJuUmo4SGE4a19nQXNoeVpuRENYWjlaWTdaRFAwY2d2bHFGSkhnUEdTMEFJc1RnYVJjUm84Qm1rT2FIa3hEV3Jpcm52aURzX196dlJLQ1JxVW1LZXdqcS1QYnBxY3NYZWp4ck1hcG4tMU5n?oc=5",
     "source": "gnews_futures",
     "published_utc": "2026-09-17T08:39:16+00:00",
-    "score": 7.58,
+    "score": 7.54,
     "duplicates": 0
    },
    {
@@ -2837,15 +2853,15 @@
   ],
   "summary": {
    "lines": [
-    "Fed hiked rates for the first time in three years, and futures rose/rebounded afterward despite the initial hawkish reaction, so expect volatility around the digestion of the decision. [3a1b50c57f][8de63d338c][970af2e5b2][1774abd047][10211c7216][8ce2e0d337][d4f8d49342][3c8a6a15e5]",
-    "Treasury yields fell as markets regained trust in the Fed's inflation resolve, a factor cited alongside the futures rally. [b20e1a7945][c7f952e0f9]",
-    "Bank of England is expected to hold rates steady despite UK inflation at 3.1%, diverging from the Fed's hike, with the decision still pending. [0c22620d73][8ce2e0d337]",
-    "Barron's frames the Fed/BOE divergence against inflation pressure tied to the Iran war. [a113274217]"
+    "Fed raised interest rates for the first time in three years, and Nasdaq/S&P futures rebounded/rose in the aftermath even as the hike had earlier triggered a Wall Street sell-off, a headline swing scalpers should watch for follow-through or fade [3a1b50c57f][8de63d338c][3c8a6a15e5][970af2e5b2][1774abd047][10211c7216][8ce2e0d337][d4f8d49342].",
+    "Treasury yields fell as markets said they regained trust in the Fed's inflation resolve, a bond move that's feeding the futures bid [b20e1a7945][c7f952e0f9].",
+    "Bank of England is expected to hold rates steady Thursday despite UK inflation at 3.1%, diverging from the Fed's hike and adding a cross-asset/FX data point to watch into the decision [0c22620d73][8ce2e0d337].",
+    "Barron's frames the BOE-Fed divergence against Iran war-driven inflation pressure, a geopolitical inflation angle traders should keep on the radar [a113274217]."
    ],
    "backend": "anthropic",
    "model": "claude-sonnet-5",
    "dropped": [
-    "no valid citation: Philly Fed Manufacturing Index (cons 31.3, prior 47.4) and Unemployment Claims (cons 207K, prior 206K) are due at 08:30 ET, adding to post-Fed data flow."
+    "no valid citation: Today's data ("
    ],
    "warnings": []
   },
