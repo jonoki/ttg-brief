@@ -1,7 +1,7 @@
 {
  "meta": {
-  "generated_at_utc": "2026-09-17T13:10:35.230575+00:00",
-  "generated_at_local": "Thu 17 Sep 2026 10:10 ADT",
+  "generated_at_utc": "2026-09-17T13:25:57.007184+00:00",
+  "generated_at_local": "Thu 17 Sep 2026 10:25 ADT",
   "trading_day": "2026-09-17",
   "display_tz": "America/Halifax",
   "version": "0.1.0",
@@ -75,10 +75,10 @@
   {
    "root": "ES",
    "trading_day": "2026-09-17",
-   "as_of_utc": "2026-09-17T13:10:35.230575+00:00",
+   "as_of_utc": "2026-09-17T13:25:57.007184+00:00",
    "source": "yahoo",
    "delayed": true,
-   "last_price": 7719.75,
+   "last_price": 7715.75,
    "levels": [
     {
      "tag": "rn_major_up",
@@ -99,7 +99,7 @@
      "label": "Overnight high",
      "price": 7722.25,
      "group": "overnight",
-     "note": "since 18:00 ET, 891 bars"
+     "note": "since 18:00 ET, 906 bars"
     },
     {
      "tag": "wh",
@@ -137,18 +137,18 @@
      "note": "ATR over 14 days"
     },
     {
+     "tag": "onvwap",
+     "label": "Overnight VWAP",
+     "price": 7683.5,
+     "group": "overnight",
+     "note": "typical-price VWAP"
+    },
+    {
      "tag": "pwh",
      "label": "Prior-week high",
      "price": 7682.0,
      "group": "week",
      "note": "1 session(s) of data — PARTIAL"
-    },
-    {
-     "tag": "onvwap",
-     "label": "Overnight VWAP",
-     "price": 7681.91,
-     "group": "overnight",
-     "note": "typical-price VWAP"
     },
     {
      "tag": "poc",
@@ -215,14 +215,14 @@
     }
    ],
    "stats": {
-    "last_bar_utc": "2026-09-17T13:00:00+00:00",
-    "last_bar_age_min": 10.6,
+    "last_bar_utc": "2026-09-17T13:15:00+00:00",
+    "last_bar_age_min": 11.0,
     "market_state": "open",
     "profile_volume": 1426923.0,
     "prior_day": "2026-09-16",
     "prior_day_rth_range": 124.0,
     "overnight_range": 104.75,
-    "gap_vs_prior_close": 97.5,
+    "gap_vs_prior_close": 93.5,
     "gap_basis": "last price (pre-market)",
     "atr14": 74.04,
     "atr_days": 14,
@@ -1450,9 +1450,17 @@
     {
      "t": "2026-09-17T13:00:00+00:00",
      "o": 7717.75,
-     "h": 7721.75,
-     "l": 7716.5,
-     "c": 7719.75,
+     "h": 7722.0,
+     "l": 7714.75,
+     "c": 7716.0,
+     "v": 13885.0
+    },
+    {
+     "t": "2026-09-17T13:15:00+00:00",
+     "o": 7716.0,
+     "h": 7716.5,
+     "l": 7715.5,
+     "c": 7715.75,
      "v": 0.0
     }
    ]
@@ -1460,10 +1468,10 @@
   {
    "root": "NQ",
    "trading_day": "2026-09-17",
-   "as_of_utc": "2026-09-17T13:10:35.230575+00:00",
+   "as_of_utc": "2026-09-17T13:25:57.007184+00:00",
    "source": "yahoo",
    "delayed": true,
-   "last_price": 29736.5,
+   "last_price": 29732.5,
    "levels": [
     {
      "tag": "rn_major_up",
@@ -1477,7 +1485,7 @@
      "label": "Overnight high",
      "price": 29753.25,
      "group": "overnight",
-     "note": "since 18:00 ET, 891 bars"
+     "note": "since 18:00 ET, 906 bars"
     },
     {
      "tag": "wh",
@@ -1524,7 +1532,7 @@
     {
      "tag": "onvwap",
      "label": "Overnight VWAP",
-     "price": 29518.22,
+     "price": 29528.24,
      "group": "overnight",
      "note": "typical-price VWAP"
     },
@@ -1600,14 +1608,14 @@
     }
    ],
    "stats": {
-    "last_bar_utc": "2026-09-17T13:00:00+00:00",
-    "last_bar_age_min": 10.6,
+    "last_bar_utc": "2026-09-17T13:15:00+00:00",
+    "last_bar_age_min": 11.0,
     "market_state": "open",
     "profile_volume": 464879.0,
     "prior_day": "2026-09-16",
     "prior_day_rth_range": 496.75,
     "overnight_range": 505.5,
-    "gap_vs_prior_close": 482.25,
+    "gap_vs_prior_close": 478.25,
     "gap_basis": "last price (pre-market)",
     "atr14": 398.09,
     "atr_days": 14,
@@ -2835,9 +2843,17 @@
     {
      "t": "2026-09-17T13:00:00+00:00",
      "o": 29724.25,
-     "h": 29749.5,
-     "l": 29715.75,
-     "c": 29736.5,
+     "h": 29750.0,
+     "l": 29714.0,
+     "c": 29730.75,
+     "v": 6081.0
+    },
+    {
+     "t": "2026-09-17T13:15:00+00:00",
+     "o": 29730.25,
+     "h": 29735.75,
+     "l": 29726.0,
+     "c": 29732.5,
      "v": 0.0
     }
    ]
@@ -2851,7 +2867,7 @@
     "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOOC1YOEFjQ0hfeDNZYnBQVDlNSl9BZFNzZWtUd09OcXhNS2tFVEtMWi1odkEyMmlNNlJBaTBPQ2p4YVFYNHhiZGUzN2c5aWNkOUxndTlFeEI1N0F5TnNqekN6T2pmV3VheFAybUhHYXZRUy1qRVNtYUZ2Wnc1SHppZkx5NmhhOFNXR1NNSEtvbXdobHI0cDMzcXFYN3VwTzFWVkpUX0JfUElMbjhBSk8xLTBNTQ?oc=5",
     "source": "gnews_futures",
     "published_utc": "2026-09-17T10:32:49+00:00",
-    "score": 14.06,
+    "score": 14.02,
     "duplicates": 1
    },
    {
@@ -2860,7 +2876,7 @@
     "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE9BMzVISi1CQzk3OGJoRFdjV05CTWZNUlUwb2tYVzlBMzRqSWQzM3M1aUFTX3M2cDRQZzBmOUxORk5oN3A5QU1vc1dxcTAyVklaLTV1MzRNTV9ueFE1MGY1dzVuTQ?oc=5",
     "source": "gnews_futures",
     "published_utc": "2026-09-17T12:23:02+00:00",
-    "score": 11.87,
+    "score": 11.83,
     "duplicates": 0
    },
    {
@@ -2869,16 +2885,16 @@
     "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPOWhOS0YtWWwwMkNsUTAxVmJJUnFra1dvNGxvM0VwV2pGb1Y3ekJ2TnVPcHp4STFGQm9Xd24ta0RTLXRrZjBHa0NfalAzU0o4a3FyRjBRM3hjYndzZ0RsM2xNWUF5djV4Qy00bEppVHREbl9PZkRRMHl1UDlLbUNxczNyOVpfTG9URHRROTB3?oc=5",
     "source": "gnews_macro",
     "published_utc": "2026-09-17T12:38:23+00:00",
-    "score": 9.91,
-    "duplicates": 5
+    "score": 10.87,
+    "duplicates": 7
    },
    {
     "id": "d7c7647ec5",
-    "title": "US stock futures rise as oil pullback amplifies Fed rate-hike boost - finance.yahoo.com",
+    "title": "US stock futures rise as oil pullback amplifies Fed rate-hike boost - Yahoo Finance",
     "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQMF9qTGxlZi11U1o3ZUtXR3ExbDdJaUhvMmdiZVBWWE9NeVBEa2pZcjZ1Wm9VejdXM1lHM0dkTEJqaVVFSEVZZTk2Z3NsV0wxYkhFOUZITXp1UnlJVWdWNkNLZlpnQmRxRC1jQ0VRLWpKbmJTZHBuRklVXzQ1S29TZGppS1l5NDlObHhwM1lyNWVOMWM?oc=5",
     "source": "gnews_futures",
     "published_utc": "2026-09-17T11:49:03+00:00",
-    "score": 9.27,
+    "score": 9.23,
     "duplicates": 1
    },
    {
@@ -2887,7 +2903,7 @@
     "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPMGRJLU1oRjNHRFB0aUNvbXh6TW9rOHlMREVCcGthU1NCb0xMdkhCMDJxLWQyaVpaQl9rX1BubWFiMWtXSklDZGxJX1hXanZsMUt5d1haa0h6YW9lQkxXTlRxS0ZZb09QeWF4ZVN0WUNfTWZhVFc5YUFBNG1fYzd1M2RBek5LUnE1TjVIWW9jdXJ3S2E5b05zOUhnQWhRYnBVOG9RY3h4WV9QQQ?oc=5",
     "source": "gnews_futures",
     "published_utc": "2026-09-17T10:57:20+00:00",
-    "score": 9.13,
+    "score": 9.09,
     "duplicates": 0
    },
    {
@@ -2896,8 +2912,17 @@
     "link": "https://www.cnbc.com/2026/09/17/bank-of-england-interest-rate-decision-fed-rate-hike-uk-inflation.html",
     "source": "cnbc_markets",
     "published_utc": "2026-09-17T12:27:10+00:00",
-    "score": 8.88,
+    "score": 8.84,
     "duplicates": 1
+   },
+   {
+    "id": "a7205456ea",
+    "title": "Dow Jones Futures Rise After Hawkish Fed, Warsh Hit Stocks, Trump Fumes; AMD, Bloom Energy Eye Buy Points",
+    "link": "https://www.investors.com/market-trend/stock-market-today/dow-jones-futures-sp-500-fed-rate-hike-warsh-amd-bloom-energy-stocks-to-watch/?src=A00220&yptr=yahoo",
+    "source": "yahoo_finance",
+    "published_utc": "2026-09-17T12:16:34+00:00",
+    "score": 8.81,
+    "duplicates": 0
    },
    {
     "id": "c7f952e0f9",
@@ -2905,7 +2930,16 @@
     "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNVER1UFJ0ZVpGNjRWcnkxSU96Z01OUHY4MVVqQmcyZDYwZVhkNFdpMWlyU1NnNjhSQmZpSG5FODhMLXktd1laTjRESnhfc2pLenBvckhkWmRSNDFxMEw0Yi1DenJEc3l0bzExaGVZaDc3RDFUT3FkN2dmZGEzOVI4WkxadmZ4ZGtaaFVNUGFPeHhlNnQ5UkZXQkx0OVFPcWdVWWtVR0FISmRXb0s5dUI4aThxSmQ2dGktYTdySlJFcldQMEhOWkE?oc=5",
     "source": "gnews_macro",
     "published_utc": "2026-09-17T08:49:00+00:00",
-    "score": 8.77,
+    "score": 8.73,
+    "duplicates": 0
+   },
+   {
+    "id": "06283f0c34",
+    "title": "Stock market today: Dow, S&P 500, Nasdaq rise as Fed rate hike pacifies markets' inflation worries",
+    "link": "https://finance.yahoo.com/markets/live/stock-market-today-thursday-september-17-dow-sp-500-nasdaq-081248626.html",
+    "source": "yahoo_finance",
+    "published_utc": "2026-09-17T08:12:48+00:00",
+    "score": 8.63,
     "duplicates": 0
    },
    {
@@ -2914,7 +2948,7 @@
     "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxObGFzVWQxdzFjM19HLVVrNWUzMW1MRGhGTktGOWlMUEd6UmdhdzUwa0pXTU9UdldiOVluZzBkQUx4anFaSTNzNHMwMzd4SnlGa2lOWlFqeWEtVVpVcXpwd0dTRGNQVlUzZXF2akRXd3h6VEdQOXFRNkV2eWNXNFNQZ2NodU9JaTNIQ1E?oc=5",
     "source": "gnews_macro",
     "published_utc": "2026-09-17T11:01:00+00:00",
-    "score": 8.64,
+    "score": 8.6,
     "duplicates": 0
    },
    {
@@ -2923,7 +2957,7 @@
     "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPUnVZSloyS0Y5b0hoTGU1NjZoNklmVDU5NVpYMFVGRDl2Z0x1ZmctMGxNb1lxdXpfaVFKOUZiRks1U0J0YjlJT0djV1kzOVVwNDBGaHU5WWx0YVNKQXNtdFNuMFkzZkJjMmxWMV9YTWNqdEVNblhJVG1ZTlp5UjRaOXo0WE9acnNCRkdfeFU3cWpSclk2?oc=5",
     "source": "gnews_futures",
     "published_utc": "2026-09-17T12:57:00+00:00",
-    "score": 8.46,
+    "score": 8.42,
     "duplicates": 1
    },
    {
@@ -2932,44 +2966,20 @@
     "link": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxOUXJEaHROQVZGQ1piWlVodkxVX2tnRFR3ZVZJbXo3SzlsYXdwTERsVzhvSlhFbzlBYTA1blhkaXEzMnF1X29CREEtN2Y2S3Q2dWZzckJ2dmh6d2Y5NGV1bl9lb2FlSjhKaWFaZC1zVS1KNTR5U1lNTjUzRTZRb2U0WDNTSTFtTkhXa1ltbFBfMmdQbnAyN2RVSm9QbDhxUGJPWnRaVUNZVEpVSjV5cVg4bXFCMmd1VkM5YU1weDZPQTRYdFF6OHY5dE5OSTZsam45aElaVW41ZWpHMjE5bjJlWl8wUFU0eVc1eE1mdw?oc=5",
     "source": "gnews_futures",
     "published_utc": "2026-09-17T03:43:35+00:00",
-    "score": 8.42,
-    "duplicates": 0
-   },
-   {
-    "id": "fe9757d85c",
-    "title": "Fed raises interest rates by a quarter point as inflation remains stubborn - ConsumerAffairs",
-    "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNaWMtZC1CdVJlSVktWWxqcnBXYzZJNjVBSllOZE45TXJiWmxELWFDaGRCRHZHNXNCMjg4Ym40dWlWVlBHWk5tTzljZHVNWXhqMmdPNUVSUEQ0SXI0c3JzOHpuR255SEdVM0UwMmNOei1tNDVyaFluSnU1Z2w2UGExczRwRm5IQWNFaVpxcUNDZGV0TmF1X0xyWEl0V3NFREE5ZEhxdjAyd01YNjdaX3piR2FuZG5vYzJTR0w3d1RmZjQ?oc=5",
-    "source": "gnews_macro",
-    "published_utc": "2026-09-17T13:03:01+00:00",
-    "score": 7.98,
-    "duplicates": 1
-   },
-   {
-    "id": "bf2c5d2de3",
-    "title": "【US Pre-Market】US Stock Futures Rise as Fed Delivers Rate Hike; Generac Surges 33%, Nebius Jumps Over 9% - TradingKey",
-    "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQUlNDcDBETVJTUTkweVFLbE4wVzhlMlk0eEg3ZTVLYWVoZy1yM3RJMW9zOHlzSXRzM1gxdk5BUDV0UnNOSmZ0ZVRrWE5RUm0wcVJJZDBpbW9kOV9Ia09XS2hjdmtQWmtlNUJkOVB6aGdOc0lKX1hzV0kxU1JsbzcxRjJyMktTWlJVcEdlU0g1QzM?oc=5",
-    "source": "gnews_futures",
-    "published_utc": "2026-09-17T12:05:18+00:00",
-    "score": 7.82,
+    "score": 8.38,
     "duplicates": 0
    }
   ],
   "summary": {
    "lines": [
-    "U.S. Stock Futures Rally as Bond Yields Fall on Fed’s Inflation Resolve - Barchart.com [b20e1a7945]",
-    "US Stock Futures Rally as Oil Prices Fall After Federal Reserve Rate Hike | Ukraine news - #Mezha - Межа. Новини України. [c5103af360]",
-    "US futures climb after Fed takes a hawkish turn on inflation - Greeley Tribune [40c32611c6]",
-    "US stock futures rise as oil pullback amplifies Fed rate-hike boost - finance.yahoo.com [d7c7647ec5]",
-    "Stock futures rise after Fed’s rate hike spurs a market sell-off - CNBC [3c8a6a15e5]"
+    "Fed delivered a rate hike with a hawkish tone, and futures (Dow, S&P 500, Nasdaq) are pointing higher into the open despite the initial sell-off reaction [3c8a6a15e5][40c32611c6][10211c7216][a7205456ea][1774abd047]."
    ],
    "backend": "anthropic",
    "model": "claude-sonnet-5",
    "dropped": [
-    "ungrounded number(s) ['7']: Fed delivered a quarter-point rate hike and futures rallied while Treasury yields fell as markets read it as reaffirming inflation resolve. [fe9757d85c][b20e1a7945][c7f"
+    "no valid citation: Treasury yields are falling as the market regains confidence in the Fed's inflation resolve, a"
    ],
-   "warnings": [
-    "summariser produced no valid lines; showing digest"
-   ]
+   "warnings": []
   },
   "feeds": [],
   "warnings": []
