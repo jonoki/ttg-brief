@@ -1,11 +1,11 @@
 {
  "meta": {
-  "generated_at_utc": "2026-09-17T13:25:57.007184+00:00",
-  "generated_at_local": "Thu 17 Sep 2026 10:25 ADT",
+  "generated_at_utc": "2026-09-17T13:41:19.565451+00:00",
+  "generated_at_local": "Thu 17 Sep 2026 10:41 ADT",
   "trading_day": "2026-09-17",
   "display_tz": "America/Halifax",
   "version": "0.1.0",
-  "run": "post-data",
+  "run": "intraday",
   "variant": "public"
  },
  "calendar": {
@@ -75,10 +75,10 @@
   {
    "root": "ES",
    "trading_day": "2026-09-17",
-   "as_of_utc": "2026-09-17T13:25:57.007184+00:00",
+   "as_of_utc": "2026-09-17T13:41:19.565451+00:00",
    "source": "yahoo",
    "delayed": true,
-   "last_price": 7715.75,
+   "last_price": 7709.25,
    "levels": [
     {
      "tag": "rn_major_up",
@@ -99,7 +99,7 @@
      "label": "Overnight high",
      "price": 7722.25,
      "group": "overnight",
-     "note": "since 18:00 ET, 906 bars"
+     "note": "since 18:00 ET, 920 bars"
     },
     {
      "tag": "wh",
@@ -107,6 +107,27 @@
      "price": 7722.25,
      "group": "week",
      "note": "since 2026-09-14"
+    },
+    {
+     "tag": "tdh",
+     "label": "Today's RTH high",
+     "price": 7716.25,
+     "group": "today",
+     "note": "so far"
+    },
+    {
+     "tag": "rtho",
+     "label": "Today's RTH open",
+     "price": 7713.5,
+     "group": "today",
+     "note": "09:30 bar open"
+    },
+    {
+     "tag": "tdl",
+     "label": "Today's RTH low",
+     "price": 7703.25,
+     "group": "today",
+     "note": ""
     },
     {
      "tag": "rn_major_dn",
@@ -139,7 +160,7 @@
     {
      "tag": "onvwap",
      "label": "Overnight VWAP",
-     "price": 7683.5,
+     "price": 7684.99,
      "group": "overnight",
      "note": "typical-price VWAP"
     },
@@ -215,15 +236,15 @@
     }
    ],
    "stats": {
-    "last_bar_utc": "2026-09-17T13:15:00+00:00",
-    "last_bar_age_min": 11.0,
+    "last_bar_utc": "2026-09-17T13:31:00+00:00",
+    "last_bar_age_min": 10.3,
     "market_state": "open",
     "profile_volume": 1426923.0,
     "prior_day": "2026-09-16",
     "prior_day_rth_range": 124.0,
     "overnight_range": 104.75,
-    "gap_vs_prior_close": 93.5,
-    "gap_basis": "last price (pre-market)",
+    "gap_vs_prior_close": 91.25,
+    "gap_basis": "RTH open",
     "atr14": 74.04,
     "atr_days": 14,
     "avg_daily_range": 70.38,
@@ -1458,20 +1479,28 @@
     {
      "t": "2026-09-17T13:15:00+00:00",
      "o": 7716.0,
-     "h": 7716.5,
-     "l": 7715.5,
-     "c": 7715.75,
-     "v": 0.0
+     "h": 7718.5,
+     "l": 7712.5,
+     "c": 7713.25,
+     "v": 15470.0
+    },
+    {
+     "t": "2026-09-17T13:30:00+00:00",
+     "o": 7713.5,
+     "h": 7716.25,
+     "l": 7703.25,
+     "c": 7709.25,
+     "v": 15230.0
     }
    ]
   },
   {
    "root": "NQ",
    "trading_day": "2026-09-17",
-   "as_of_utc": "2026-09-17T13:25:57.007184+00:00",
+   "as_of_utc": "2026-09-17T13:41:19.565451+00:00",
    "source": "yahoo",
    "delayed": true,
-   "last_price": 29732.5,
+   "last_price": 29708.0,
    "levels": [
     {
      "tag": "rn_major_up",
@@ -1485,7 +1514,7 @@
      "label": "Overnight high",
      "price": 29753.25,
      "group": "overnight",
-     "note": "since 18:00 ET, 906 bars"
+     "note": "since 18:00 ET, 920 bars"
     },
     {
      "tag": "wh",
@@ -1502,10 +1531,31 @@
      "note": ""
     },
     {
+     "tag": "tdh",
+     "label": "Today's RTH high",
+     "price": 29737.25,
+     "group": "today",
+     "note": "so far"
+    },
+    {
+     "tag": "rtho",
+     "label": "Today's RTH open",
+     "price": 29718.25,
+     "group": "today",
+     "note": "09:30 bar open"
+    },
+    {
      "tag": "rn_major_dn",
      "label": "Round 100 below",
      "price": 29700.0,
      "group": "round",
+     "note": ""
+    },
+    {
+     "tag": "tdl",
+     "label": "Today's RTH low",
+     "price": 29673.0,
+     "group": "today",
      "note": ""
     },
     {
@@ -1523,18 +1573,18 @@
      "note": "2026-09-16"
     },
     {
+     "tag": "onvwap",
+     "label": "Overnight VWAP",
+     "price": 29537.99,
+     "group": "overnight",
+     "note": "typical-price VWAP"
+    },
+    {
      "tag": "vah",
      "label": "Prior-day VAH",
      "price": 29537.0,
      "group": "profile",
      "note": "70 % value area"
-    },
-    {
-     "tag": "onvwap",
-     "label": "Overnight VWAP",
-     "price": 29528.24,
-     "group": "overnight",
-     "note": "typical-price VWAP"
     },
     {
      "tag": "pwh",
@@ -1608,15 +1658,15 @@
     }
    ],
    "stats": {
-    "last_bar_utc": "2026-09-17T13:15:00+00:00",
-    "last_bar_age_min": 11.0,
+    "last_bar_utc": "2026-09-17T13:31:00+00:00",
+    "last_bar_age_min": 10.3,
     "market_state": "open",
     "profile_volume": 464879.0,
     "prior_day": "2026-09-16",
     "prior_day_rth_range": 496.75,
     "overnight_range": 505.5,
-    "gap_vs_prior_close": 478.25,
-    "gap_basis": "last price (pre-market)",
+    "gap_vs_prior_close": 464.0,
+    "gap_basis": "RTH open",
     "atr14": 398.09,
     "atr_days": 14,
     "avg_daily_range": 381.25,
@@ -2851,10 +2901,18 @@
     {
      "t": "2026-09-17T13:15:00+00:00",
      "o": 29730.25,
-     "h": 29735.75,
-     "l": 29726.0,
-     "c": 29732.5,
-     "v": 0.0
+     "h": 29743.0,
+     "l": 29709.75,
+     "c": 29718.25,
+     "v": 6805.0
+    },
+    {
+     "t": "2026-09-17T13:30:00+00:00",
+     "o": 29718.25,
+     "h": 29737.25,
+     "l": 29673.0,
+     "c": 29708.0,
+     "v": 6606.0
     }
    ]
   }
@@ -2867,7 +2925,7 @@
     "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOOC1YOEFjQ0hfeDNZYnBQVDlNSl9BZFNzZWtUd09OcXhNS2tFVEtMWi1odkEyMmlNNlJBaTBPQ2p4YVFYNHhiZGUzN2c5aWNkOUxndTlFeEI1N0F5TnNqekN6T2pmV3VheFAybUhHYXZRUy1qRVNtYUZ2Wnc1SHppZkx5NmhhOFNXR1NNSEtvbXdobHI0cDMzcXFYN3VwTzFWVkpUX0JfUElMbjhBSk8xLTBNTQ?oc=5",
     "source": "gnews_futures",
     "published_utc": "2026-09-17T10:32:49+00:00",
-    "score": 14.02,
+    "score": 13.98,
     "duplicates": 1
    },
    {
@@ -2876,7 +2934,7 @@
     "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE9BMzVISi1CQzk3OGJoRFdjV05CTWZNUlUwb2tYVzlBMzRqSWQzM3M1aUFTX3M2cDRQZzBmOUxORk5oN3A5QU1vc1dxcTAyVklaLTV1MzRNTV9ueFE1MGY1dzVuTQ?oc=5",
     "source": "gnews_futures",
     "published_utc": "2026-09-17T12:23:02+00:00",
-    "score": 11.83,
+    "score": 11.78,
     "duplicates": 0
    },
    {
@@ -2885,8 +2943,8 @@
     "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPOWhOS0YtWWwwMkNsUTAxVmJJUnFra1dvNGxvM0VwV2pGb1Y3ekJ2TnVPcHp4STFGQm9Xd24ta0RTLXRrZjBHa0NfalAzU0o4a3FyRjBRM3hjYndzZ0RsM2xNWUF5djV4Qy00bEppVHREbl9PZkRRMHl1UDlLbUNxczNyOVpfTG9URHRROTB3?oc=5",
     "source": "gnews_macro",
     "published_utc": "2026-09-17T12:38:23+00:00",
-    "score": 10.87,
-    "duplicates": 7
+    "score": 10.33,
+    "duplicates": 6
    },
    {
     "id": "d7c7647ec5",
@@ -2894,7 +2952,7 @@
     "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQMF9qTGxlZi11U1o3ZUtXR3ExbDdJaUhvMmdiZVBWWE9NeVBEa2pZcjZ1Wm9VejdXM1lHM0dkTEJqaVVFSEVZZTk2Z3NsV0wxYkhFOUZITXp1UnlJVWdWNkNLZlpnQmRxRC1jQ0VRLWpKbmJTZHBuRklVXzQ1S29TZGppS1l5NDlObHhwM1lyNWVOMWM?oc=5",
     "source": "gnews_futures",
     "published_utc": "2026-09-17T11:49:03+00:00",
-    "score": 9.23,
+    "score": 9.19,
     "duplicates": 1
    },
    {
@@ -2903,7 +2961,7 @@
     "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPMGRJLU1oRjNHRFB0aUNvbXh6TW9rOHlMREVCcGthU1NCb0xMdkhCMDJxLWQyaVpaQl9rX1BubWFiMWtXSklDZGxJX1hXanZsMUt5d1haa0h6YW9lQkxXTlRxS0ZZb09QeWF4ZVN0WUNfTWZhVFc5YUFBNG1fYzd1M2RBek5LUnE1TjVIWW9jdXJ3S2E5b05zOUhnQWhRYnBVOG9RY3h4WV9QQQ?oc=5",
     "source": "gnews_futures",
     "published_utc": "2026-09-17T10:57:20+00:00",
-    "score": 9.09,
+    "score": 9.04,
     "duplicates": 0
    },
    {
@@ -2912,7 +2970,7 @@
     "link": "https://www.cnbc.com/2026/09/17/bank-of-england-interest-rate-decision-fed-rate-hike-uk-inflation.html",
     "source": "cnbc_markets",
     "published_utc": "2026-09-17T12:27:10+00:00",
-    "score": 8.84,
+    "score": 8.79,
     "duplicates": 1
    },
    {
@@ -2921,7 +2979,7 @@
     "link": "https://www.investors.com/market-trend/stock-market-today/dow-jones-futures-sp-500-fed-rate-hike-warsh-amd-bloom-energy-stocks-to-watch/?src=A00220&yptr=yahoo",
     "source": "yahoo_finance",
     "published_utc": "2026-09-17T12:16:34+00:00",
-    "score": 8.81,
+    "score": 8.76,
     "duplicates": 0
    },
    {
@@ -2930,7 +2988,7 @@
     "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNVER1UFJ0ZVpGNjRWcnkxSU96Z01OUHY4MVVqQmcyZDYwZVhkNFdpMWlyU1NnNjhSQmZpSG5FODhMLXktd1laTjRESnhfc2pLenBvckhkWmRSNDFxMEw0Yi1DenJEc3l0bzExaGVZaDc3RDFUT3FkN2dmZGEzOVI4WkxadmZ4ZGtaaFVNUGFPeHhlNnQ5UkZXQkx0OVFPcWdVWWtVR0FISmRXb0s5dUI4aThxSmQ2dGktYTdySlJFcldQMEhOWkE?oc=5",
     "source": "gnews_macro",
     "published_utc": "2026-09-17T08:49:00+00:00",
-    "score": 8.73,
+    "score": 8.69,
     "duplicates": 0
    },
    {
@@ -2939,7 +2997,7 @@
     "link": "https://finance.yahoo.com/markets/live/stock-market-today-thursday-september-17-dow-sp-500-nasdaq-081248626.html",
     "source": "yahoo_finance",
     "published_utc": "2026-09-17T08:12:48+00:00",
-    "score": 8.63,
+    "score": 8.59,
     "duplicates": 0
    },
    {
@@ -2948,7 +3006,7 @@
     "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxObGFzVWQxdzFjM19HLVVrNWUzMW1MRGhGTktGOWlMUEd6UmdhdzUwa0pXTU9UdldiOVluZzBkQUx4anFaSTNzNHMwMzd4SnlGa2lOWlFqeWEtVVpVcXpwd0dTRGNQVlUzZXF2akRXd3h6VEdQOXFRNkV2eWNXNFNQZ2NodU9JaTNIQ1E?oc=5",
     "source": "gnews_macro",
     "published_utc": "2026-09-17T11:01:00+00:00",
-    "score": 8.6,
+    "score": 8.55,
     "duplicates": 0
    },
    {
@@ -2957,7 +3015,7 @@
     "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPUnVZSloyS0Y5b0hoTGU1NjZoNklmVDU5NVpYMFVGRDl2Z0x1ZmctMGxNb1lxdXpfaVFKOUZiRks1U0J0YjlJT0djV1kzOVVwNDBGaHU5WWx0YVNKQXNtdFNuMFkzZkJjMmxWMV9YTWNqdEVNblhJVG1ZTlp5UjRaOXo0WE9acnNCRkdfeFU3cWpSclk2?oc=5",
     "source": "gnews_futures",
     "published_utc": "2026-09-17T12:57:00+00:00",
-    "score": 8.42,
+    "score": 8.38,
     "duplicates": 1
    },
    {
@@ -2966,20 +3024,24 @@
     "link": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxOUXJEaHROQVZGQ1piWlVodkxVX2tnRFR3ZVZJbXo3SzlsYXdwTERsVzhvSlhFbzlBYTA1blhkaXEzMnF1X29CREEtN2Y2S3Q2dWZzckJ2dmh6d2Y5NGV1bl9lb2FlSjhKaWFaZC1zVS1KNTR5U1lNTjUzRTZRb2U0WDNTSTFtTkhXa1ltbFBfMmdQbnAyN2RVSm9QbDhxUGJPWnRaVUNZVEpVSjV5cVg4bXFCMmd1VkM5YU1weDZPQTRYdFF6OHY5dE5OSTZsam45aElaVW41ZWpHMjE5bjJlWl8wUFU0eVc1eE1mdw?oc=5",
     "source": "gnews_futures",
     "published_utc": "2026-09-17T03:43:35+00:00",
-    "score": 8.38,
+    "score": 8.34,
     "duplicates": 0
    }
   ],
   "summary": {
    "lines": [
-    "Fed delivered a rate hike with a hawkish tone, and futures (Dow, S&P 500, Nasdaq) are pointing higher into the open despite the initial sell-off reaction [3c8a6a15e5][40c32611c6][10211c7216][a7205456ea][1774abd047]."
+    "U.S. Stock Futures Rally as Bond Yields Fall on Fed’s Inflation Resolve - Barchart.com [b20e1a7945]",
+    "US Stock Futures Rally as Oil Prices Fall After Federal Reserve Rate Hike | Ukraine news - #Mezha - Межа. Новини України. [c5103af360]",
+    "US futures climb after Fed takes a hawkish turn on inflation - Greeley Tribune [40c32611c6]",
+    "US stock futures rise as oil pullback amplifies Fed rate-hike boost - Yahoo Finance [d7c7647ec5]",
+    "Stock futures rise after Fed’s rate hike spurs a market sell-off - CNBC [3c8a6a15e5]"
    ],
    "backend": "anthropic",
    "model": "claude-sonnet-5",
-   "dropped": [
-    "no valid citation: Treasury yields are falling as the market regains confidence in the Fed's inflation resolve, a"
-   ],
-   "warnings": []
+   "dropped": [],
+   "warnings": [
+    "summariser produced no valid lines; showing digest"
+   ]
   },
   "feeds": [],
   "warnings": []
