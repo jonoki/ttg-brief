@@ -1,6 +1,6 @@
 {
  "meta": {
-  "generated_at_utc": "2026-09-17T18:53:07.680949+00:00",
+  "generated_at_utc": "2026-09-17T18:53:34.047181+00:00",
   "generated_at_local": "Thu 17 Sep 2026 15:53 ADT",
   "trading_day": "2026-09-17",
   "display_tz": "America/Halifax",
@@ -75,10 +75,10 @@
   {
    "root": "ES",
    "trading_day": "2026-09-17",
-   "as_of_utc": "2026-09-17T18:53:07.680949+00:00",
+   "as_of_utc": "2026-09-17T18:53:34.047181+00:00",
    "source": "yahoo",
    "delayed": true,
-   "last_price": 7704.75,
+   "last_price": 7704.25,
    "levels": [
     {
      "tag": "rn_major_up",
@@ -237,7 +237,7 @@
    ],
    "stats": {
     "last_bar_utc": "2026-09-17T18:43:00+00:00",
-    "last_bar_age_min": 10.1,
+    "last_bar_age_min": 10.6,
     "market_state": "open",
     "profile_volume": 1426923.0,
     "prior_day": "2026-09-16",
@@ -1649,7 +1649,7 @@
      "o": 7708.75,
      "h": 7710.25,
      "l": 7702.75,
-     "c": 7704.75,
+     "c": 7704.25,
      "v": 21467.0
     }
    ]
@@ -1657,10 +1657,10 @@
   {
    "root": "NQ",
    "trading_day": "2026-09-17",
-   "as_of_utc": "2026-09-17T18:53:07.680949+00:00",
+   "as_of_utc": "2026-09-17T18:53:34.047181+00:00",
    "source": "yahoo",
    "delayed": true,
-   "last_price": 29714.25,
+   "last_price": 29712.25,
    "levels": [
     {
      "tag": "rn_major_up",
@@ -1819,7 +1819,7 @@
    ],
    "stats": {
     "last_bar_utc": "2026-09-17T18:43:00+00:00",
-    "last_bar_age_min": 10.1,
+    "last_bar_age_min": 10.6,
     "market_state": "open",
     "profile_volume": 464879.0,
     "prior_day": "2026-09-16",
@@ -3231,7 +3231,7 @@
      "o": 29726.75,
      "h": 29734.25,
      "l": 29705.0,
-     "c": 29714.25,
+     "c": 29712.25,
      "v": 7615.0
     }
    ]
@@ -3350,14 +3350,20 @@
   ],
   "summary": {
    "lines": [
-    "Futures extended gains after the Fed's rate hike as Treasury yields fell and oil pulled back, a background traders will watch for follow-through at the open [3b652db247][9f34822fc7][1a809091d2][f7588867fe]."
+    "U.S. Stock Futures Rally as Bond Yields Fall on Fed’s Inflation Resolve - Yahoo Finance [3b652db247]",
+    "US Stock Futures Rally as Oil Prices Fall After Federal Reserve Rate Hike | Ukraine news - #Mezha - Межа. Новини України. [c5103af360]",
+    "US stock futures rise as oil pullback amplifies Fed rate-hike boost - TradingView [9f34822fc7]",
+    "Nasdaq, S&P 500 Futures Rebound After Fed Rate Hike: NVDA, NBIS, SNAP, SPCX, BE, GNRC Stocks In Focus - Yahoo Finance [ea2c2d9a33]",
+    "Stock futures rise after Fed’s rate hike spurs a market sell-off - CNBC [3c8a6a15e5]"
    ],
    "backend": "anthropic",
    "model": "claude-sonnet-5",
    "dropped": [
-    "no valid citation: The debate now cent"
+    "ungrounded number(s) ['8']: Futures extended their post-Fed-hike rebound as Treasury yields and oil prices pulled back, a combination that has been the dominant driver of the overnight bid into the open [3b652db247][c5103af360][9f34822fc7][ea2c2d9a33][3c8a6a15e5][1a809091d2][f7588867fe][e8"
    ],
-   "warnings": []
+   "warnings": [
+    "summariser produced no valid lines; showing digest"
+   ]
   },
   "feeds": [],
   "warnings": []
