@@ -1,11 +1,11 @@
 {
  "meta": {
-  "generated_at_utc": "2026-09-17T18:53:34.047181+00:00",
-  "generated_at_local": "Thu 17 Sep 2026 15:53 ADT",
+  "generated_at_utc": "2026-09-17T20:05:00.729061+00:00",
+  "generated_at_local": "Thu 17 Sep 2026 17:05 ADT",
   "trading_day": "2026-09-17",
   "display_tz": "America/Halifax",
   "version": "0.1.0",
-  "run": "intraday",
+  "run": "post-close",
   "variant": "public"
  },
  "calendar": {
@@ -75,10 +75,10 @@
   {
    "root": "ES",
    "trading_day": "2026-09-17",
-   "as_of_utc": "2026-09-17T18:53:34.047181+00:00",
+   "as_of_utc": "2026-09-17T20:05:00.729061+00:00",
    "source": "yahoo",
    "delayed": true,
-   "last_price": 7704.25,
+   "last_price": 7711.0,
    "levels": [
     {
      "tag": "rn_major_up",
@@ -113,7 +113,7 @@
      "label": "Today's RTH high",
      "price": 7716.25,
      "group": "today",
-     "note": "so far"
+     "note": "session complete"
     },
     {
      "tag": "rtho",
@@ -121,6 +121,13 @@
      "price": 7713.5,
      "group": "today",
      "note": "09:30 bar open"
+    },
+    {
+     "tag": "tdc",
+     "label": "Today's RTH close (16:00 bar)",
+     "price": 7711.0,
+     "group": "today",
+     "note": "becomes next session's prior-day close"
     },
     {
      "tag": "rn_major_dn",
@@ -181,14 +188,14 @@
     {
      "tag": "pwh",
      "label": "Prior-week high",
-     "price": 7670.5,
+     "price": 7663.5,
      "group": "week",
      "note": "1 session(s) of data — PARTIAL"
     },
     {
      "tag": "pwl",
      "label": "Prior-week low",
-     "price": 7657.5,
+     "price": 7659.5,
      "group": "week",
      "note": "1 session(s) of data — PARTIAL"
     },
@@ -236,8 +243,8 @@
     }
    ],
    "stats": {
-    "last_bar_utc": "2026-09-17T18:43:00+00:00",
-    "last_bar_age_min": 10.6,
+    "last_bar_utc": "2026-09-17T19:55:00+00:00",
+    "last_bar_age_min": 10.0,
     "market_state": "open",
     "profile_volume": 1426923.0,
     "prior_day": "2026-09-16",
@@ -1649,18 +1656,58 @@
      "o": 7708.75,
      "h": 7710.25,
      "l": 7702.75,
-     "c": 7704.25,
-     "v": 21467.0
+     "c": 7704.75,
+     "v": 24791.0
+    },
+    {
+     "t": "2026-09-17T18:45:00+00:00",
+     "o": 7705.0,
+     "h": 7708.0,
+     "l": 7703.25,
+     "c": 7705.75,
+     "v": 21123.0
+    },
+    {
+     "t": "2026-09-17T19:00:00+00:00",
+     "o": 7705.75,
+     "h": 7711.75,
+     "l": 7705.5,
+     "c": 7709.0,
+     "v": 27000.0
+    },
+    {
+     "t": "2026-09-17T19:15:00+00:00",
+     "o": 7709.0,
+     "h": 7710.5,
+     "l": 7706.25,
+     "c": 7706.75,
+     "v": 18285.0
+    },
+    {
+     "t": "2026-09-17T19:30:00+00:00",
+     "o": 7706.75,
+     "h": 7712.0,
+     "l": 7706.75,
+     "c": 7711.75,
+     "v": 30735.0
+    },
+    {
+     "t": "2026-09-17T19:45:00+00:00",
+     "o": 7711.5,
+     "h": 7715.5,
+     "l": 7707.75,
+     "c": 7711.0,
+     "v": 39688.0
     }
    ]
   },
   {
    "root": "NQ",
    "trading_day": "2026-09-17",
-   "as_of_utc": "2026-09-17T18:53:34.047181+00:00",
+   "as_of_utc": "2026-09-17T20:05:00.729061+00:00",
    "source": "yahoo",
    "delayed": true,
-   "last_price": 29712.25,
+   "last_price": 29767.75,
    "levels": [
     {
      "tag": "rn_major_up",
@@ -1672,16 +1719,23 @@
     {
      "tag": "tdh",
      "label": "Today's RTH high",
-     "price": 29762.5,
+     "price": 29793.25,
      "group": "today",
-     "note": "so far"
+     "note": "session complete"
     },
     {
      "tag": "wh",
      "label": "Week high",
-     "price": 29762.5,
+     "price": 29793.25,
      "group": "week",
      "note": "since 2026-09-14"
+    },
+    {
+     "tag": "tdc",
+     "label": "Today's RTH close (16:00 bar)",
+     "price": 29767.75,
+     "group": "today",
+     "note": "becomes next session's prior-day close"
     },
     {
      "tag": "onh",
@@ -1691,8 +1745,8 @@
      "note": "since 18:00 ET, 920 bars"
     },
     {
-     "tag": "rn_minor_up",
-     "label": "Round 50 above",
+     "tag": "rn_minor_dn",
+     "label": "Round 50 below",
      "price": 29750.0,
      "group": "round",
      "note": ""
@@ -1756,7 +1810,7 @@
     {
      "tag": "pwh",
      "label": "Prior-week high",
-     "price": 29438.25,
+     "price": 29397.5,
      "group": "week",
      "note": "1 session(s) of data — PARTIAL"
     },
@@ -1818,8 +1872,8 @@
     }
    ],
    "stats": {
-    "last_bar_utc": "2026-09-17T18:43:00+00:00",
-    "last_bar_age_min": 10.6,
+    "last_bar_utc": "2026-09-17T19:55:00+00:00",
+    "last_bar_age_min": 10.0,
     "market_state": "open",
     "profile_volume": 464879.0,
     "prior_day": "2026-09-16",
@@ -3231,8 +3285,48 @@
      "o": 29726.75,
      "h": 29734.25,
      "l": 29705.0,
-     "c": 29712.25,
-     "v": 7615.0
+     "c": 29717.0,
+     "v": 8353.0
+    },
+    {
+     "t": "2026-09-17T18:45:00+00:00",
+     "o": 29716.5,
+     "h": 29728.5,
+     "l": 29715.0,
+     "c": 29722.0,
+     "v": 6332.0
+    },
+    {
+     "t": "2026-09-17T19:00:00+00:00",
+     "o": 29722.0,
+     "h": 29751.0,
+     "l": 29720.0,
+     "c": 29740.0,
+     "v": 9209.0
+    },
+    {
+     "t": "2026-09-17T19:15:00+00:00",
+     "o": 29740.25,
+     "h": 29746.5,
+     "l": 29728.25,
+     "c": 29732.0,
+     "v": 6605.0
+    },
+    {
+     "t": "2026-09-17T19:30:00+00:00",
+     "o": 29732.0,
+     "h": 29770.0,
+     "l": 29730.75,
+     "c": 29763.25,
+     "v": 10574.0
+    },
+    {
+     "t": "2026-09-17T19:45:00+00:00",
+     "o": 29763.5,
+     "h": 29793.25,
+     "l": 29749.5,
+     "c": 29767.75,
+     "v": 13004.0
     }
    ]
   }
@@ -3245,8 +3339,8 @@
     "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOZGFXQTJteGtueExYa3c4SmRYeUVpQXc1ZmtSY25iQ2Qyck1wS0lEc0NGOUpKR1pvY0VUUzlxZ0RSeVN6UlZCVU5BVHBad1lnNnZOaDF6T01LQ3BDbDZHX1BUcjRvcVBoSDRyT1dvN1d3cTU3UTJpLXN6MGsteGxVcFFkOVdrZVBwTk1RUHl4NmFhaUdzUEE?oc=5",
     "source": "gnews_futures",
     "published_utc": "2026-09-17T10:32:49+00:00",
-    "score": 13.11,
-    "duplicates": 1
+    "score": 12.41,
+    "duplicates": 0
    },
    {
     "id": "c5103af360",
@@ -3254,8 +3348,17 @@
     "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE9BMzVISi1CQzk3OGJoRFdjV05CTWZNUlUwb2tYVzlBMzRqSWQzM3M1aUFTX3M2cDRQZzBmOUxORk5oN3A5QU1vc1dxcTAyVklaLTV1MzRNTV9ueFE1MGY1dzVuTQ?oc=5",
     "source": "gnews_futures",
     "published_utc": "2026-09-17T12:23:02+00:00",
-    "score": 10.92,
+    "score": 10.72,
     "duplicates": 0
+   },
+   {
+    "id": "d385f1dc76",
+    "title": "Wall St rebounds after Fed's first rate hike in years as oil, Treasury yields dip - reuters.com",
+    "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxORkVra0Q0cjNkbjlDN0N2SENMZHYyeVVFSU1tcG5LOXhBTk5leFlZNjFNRGpad3NoWmhnaWZVd2I3N19oa2hQSERYZzBQWFcxaUJQNDZaSHMwVjFrNGlKbGRUNjg5TEt2WENpMUJiUFRVTjR6WlQyc0IzY2V2M05FanNlWExPdUZ2bTJFUlp4YW5HdTAwTExfNTI3MWkwVEVTMTRZUURlR01lVHA5?oc=5",
+    "source": "gnews_fed",
+    "published_utc": "2026-09-17T19:43:26+00:00",
+    "score": 8.44,
+    "duplicates": 1
    },
    {
     "id": "9f34822fc7",
@@ -3263,16 +3366,16 @@
     "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxQeU5IeFNDVXVvU2JUb2xBbERpemVKNm13VjBQbUxhbHpJbkFmb2c2YmJPbWZ3TVV5SXM5MlViU1BqQVJ6dzhtaTY2SC00Y29mQklOVk04eTdvdjZhMlA5WlBpN25wQ3BtaTBxU2JpVllyZ1JPQ1VicXJVMEZNR1FLNFg2WWdtUW0zNnpGMFZUM1d4T2RBSlFDS1czaUgtYmtpYllZbUJpbVNlN0ZTdWtLRTRidV83MUFCOV9uSW01WkhDLUFkYnZCZm9keWkwOHFOZHo0?oc=5",
     "source": "gnews_futures",
     "published_utc": "2026-09-17T11:48:57+00:00",
-    "score": 8.32,
+    "score": 8.12,
     "duplicates": 1
    },
    {
-    "id": "ea2c2d9a33",
-    "title": "Nasdaq, S&P 500 Futures Rebound After Fed Rate Hike: NVDA, NBIS, SNAP, SPCX, BE, GNRC Stocks In Focus - Yahoo Finance",
-    "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQQXlRTVA1RzFBR0xGcEh0Z1g1TjUta01PcS0xd0ItREZYS1ZJX0RvM21rNnFKYXZ4V2JuRE1HUEY2MXhyWk5ZaUczRFFUbUlNN24tRmtlRHlrMEYtOXZwZHBTZjZZRGVpNjg2YVhzU0ZVbWYwUVM3OGhfVVBuWGpLZmlXUXVoLVNKbGhWV0l6WmZPaE5TRzFSTw?oc=5",
+    "id": "1774abd047",
+    "title": "Nasdaq, S&P 500 Futures Rebound After Fed Rate Hike: NVDA, NBIS, SNAP, SPCX, BE, GNRC Stocks In Focus - Stocktwits",
+    "link": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxOUXJEaHROQVZGQ1piWlVodkxVX2tnRFR3ZVZJbXo3SzlsYXdwTERsVzhvSlhFbzlBYTA1blhkaXEzMnF1X29CREEtN2Y2S3Q2dWZzckJ2dmh6d2Y5NGV1bl9lb2FlSjhKaWFaZC1zVS1KNTR5U1lNTjUzRTZRb2U0WDNTSTFtTkhXa1ltbFBfMmdQbnAyN2RVSm9QbDhxUGJPWnRaVUNZVEpVSjV5cVg4bXFCMmd1VkM5YU1weDZPQTRYdFF6OHY5dE5OSTZsam45aElaVW41ZWpHMjE5bjJlWl8wUFU0eVc1eE1mdw?oc=5",
     "source": "gnews_futures",
-    "published_utc": "2026-09-17T08:34:15+00:00",
-    "score": 8.28,
+    "published_utc": "2026-09-17T08:35:54+00:00",
+    "score": 8.09,
     "duplicates": 0
    },
    {
@@ -3281,16 +3384,16 @@
     "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPMGRJLU1oRjNHRFB0aUNvbXh6TW9rOHlMREVCcGthU1NCb0xMdkhCMDJxLWQyaVpaQl9rX1BubWFiMWtXSklDZGxJX1hXanZsMUt5d1haa0h6YW9lQkxXTlRxS0ZZb09QeWF4ZVN0WUNfTWZhVFc5YUFBNG1fYzd1M2RBek5LUnE1TjVIWW9jdXJ3S2E5b05zOUhnQWhRYnBVOG9RY3h4WV9QQQ?oc=5",
     "source": "gnews_futures",
     "published_utc": "2026-09-17T10:57:20+00:00",
-    "score": 8.18,
+    "score": 7.98,
     "duplicates": 0
    },
    {
-    "id": "a2dad5fde0",
-    "title": "Fed's inflation fight shifts to how far rates will have to rise - KATV",
-    "link": "https://news.google.com/rss/articles/CBMi_wFBVV95cUxNRkFHVnNmRVV2M01ScVlSVVljVzhBWHFGZXFWNGE5WUJHYjlpY25DLTFuRzh3YVoyc29TdDVxVTJWd3pZOWhTRXh4dFYwblhKUm9IcmYtNXFJclVCc3JBai1wQV9RNXdfNENpbFUwQlNnbldGNldUMEQ3X1dFTmN4MlVOb01oby12UGVSSGpyeDNIUl9TdVE2cXpwNU16T1ZWX2Uwc21xb1c3TnV2cVdBamRwZ3RicGtsUUhub3F3UVpXX0ZMTVM0UGFGc3FBbS1YU196aFZ4dlVuR3RDaUx5TGw3eHVRY0dBNlBsOXVRM2dYMFdxVjM3NURjR0tOekE?oc=5",
+    "id": "a3de056288",
+    "title": "Fed's inflation fight shifts to how far rates will have to rise - WBFF",
+    "link": "https://news.google.com/rss/articles/CBMiigJBVV95cUxQLW42dVFZWWRNUGhmcUhwdVRyTmgzc0N3azZ0MDl0dWpsRzQ1Y0pqWVNFeG1VT3VneUY0RDljOFlMSkp4a1RibVVDZjlyUGFzSmRyQTVpMXdybVd2b29iM0gxbkJTclI2SDJ5Rk9UeWdDVkEzMzBiaHh6dDVKZ1JLUjMtMG1ma1JiWW9ibUNBTDZQeG1ZV3dZRGViRWczZjlfNnMzcEloS3c0U3ZmODBrZDY3UV9iaXk3ZDZVMjQ4RnFtQ2tfaXpSRWpLY1Z4TjVJMTNGMXo5Z3VJSm5rTlY2eGlYalhrOXpRX0o1d3RfWTVyZXExZXIyN19HTUs3dWJ5aHVNcXdOd1BIUQ?oc=5",
     "source": "gnews_fed",
-    "published_utc": "2026-09-17T18:32:53+00:00",
-    "score": 7.94,
+    "published_utc": "2026-09-17T18:37:44+00:00",
+    "score": 7.76,
     "duplicates": 1
    },
    {
@@ -3299,7 +3402,16 @@
     "link": "https://www.cnbc.com/2026/09/17/bank-of-england-interest-rate-decision-fed-rate-hike-uk-inflation.html",
     "source": "cnbc_markets",
     "published_utc": "2026-09-17T12:27:10+00:00",
-    "score": 7.93,
+    "score": 7.73,
+    "duplicates": 1
+   },
+   {
+    "id": "2d928cb16f",
+    "title": "What the Fed's interest rate hike reveals about Warsh, Trump and inflation - CBS News",
+    "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTFA2VV9UQmpBQ3FGMkc5T0hkeEs2SVZvZnQ1RDhicVlpYW9DOExfRC1yNExuMnhpdjdjdmR3UGowekxSYU9mRUdPSlc4YzNUTV9ZNEhucXJiMHlLcVFENjVxU0JQcWNhVC0xR3FwUkNaUVExblk?oc=5",
+    "source": "gnews_fed",
+    "published_utc": "2026-09-17T18:12:31+00:00",
+    "score": 7.69,
     "duplicates": 1
    },
    {
@@ -3308,8 +3420,17 @@
     "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTFBZemJaQ0N5aDRGWlN1R3dqTVROMndIVzZfdF9NRHBvZmRGa3g3LTU5bmdFNVpTSjlqOFdaVDVPS0VRWl8td2JESXFiRno5cllmUmQ5Q1JtTFNCbDliS1djM0ZaTzFWdzhuQUFGazZHVW5MZ0dj?oc=5",
     "source": "gnews_fed",
     "published_utc": "2026-09-17T18:00:01+00:00",
-    "score": 7.85,
+    "score": 7.65,
     "duplicates": 1
+   },
+   {
+    "id": "c7f952e0f9",
+    "title": "U.S. Treasury Yields Fall as Market Regains Trust in Fed’s Inflation Resolve - wsj.com",
+    "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNVER1UFJ0ZVpGNjRWcnkxSU96Z01OUHY4MVVqQmcyZDYwZVhkNFdpMWlyU1NnNjhSQmZpSG5FODhMLXktd1laTjRESnhfc2pLenBvckhkWmRSNDFxMEw0Yi1DenJEc3l0bzExaGVZaDc3RDFUT3FkN2dmZGEzOVI4WkxadmZ4ZGtaaFVNUGFPeHhlNnQ5UkZXQkx0OVFPcWdVWWtVR0FISmRXb0s5dUI4aThxSmQ2dGktYTdySlJFcldQMEhOWkE?oc=5",
+    "source": "gnews_macro",
+    "published_utc": "2026-09-17T08:49:00+00:00",
+    "score": 7.62,
+    "duplicates": 0
    },
    {
     "id": "f7588867fe",
@@ -3317,49 +3438,22 @@
     "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE8xNGhpbThSd3dRVThwUXNIS2NnZFVxQUtZS2JETkFHbUItMHlYbDRXNGduemJESHQ1Mmk4SWtuMm5fM2RaeFFRZFVIZXdscG5GNlNUTmlNR2gzZDVuc3N4SHo4QnRSbTBFbXpYZ1BMVFlTNmtIUmdkdzFIMmowTGM?oc=5",
     "source": "gnews_macro",
     "published_utc": "2026-09-17T14:20:59+00:00",
-    "score": 7.74,
+    "score": 7.54,
     "duplicates": 0
-   },
-   {
-    "id": "a113274217",
-    "title": "BOE Holds Rates. Why It’s on a Different Path From the Fed as the Iran War Spikes Inflation. - Barron's",
-    "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxObGFzVWQxdzFjM19HLVVrNWUzMW1MRGhGTktGOWlMUEd6UmdhdzUwa0pXTU9UdldiOVluZzBkQUx4anFaSTNzNHMwMzd4SnlGa2lOWlFqeWEtVVpVcXpwd0dTRGNQVlUzZXF2akRXd3h6VEdQOXFRNkV2eWNXNFNQZ2NodU9JaTNIQ1E?oc=5",
-    "source": "gnews_macro",
-    "published_utc": "2026-09-17T11:01:00+00:00",
-    "score": 7.69,
-    "duplicates": 0
-   },
-   {
-    "id": "1a809091d2",
-    "title": "US Stock Futures Rise as Oil Prices and Treasury Yields Decline: Dow Jones, S&P, Nasdaq, Wall Street - Yahoo Finance",
-    "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNMVJCdWp2REtuM0ZyMmd3d0hzSmtSS2UwZ01sRjJuRjhKX3F6ZndpbUtPTm9wdVFURnZTVnJKVThwV3ZmWjQtcDFiVl90b0lhbGZmVzZhQ0cyMmk2VFZBQU1LU3Atazh6dkhCX0NFakxXR3VlYlAyRXROZ1U0ZERtRHQ1UXVpMGtlbHJBWmtDMEllVW1s?oc=5",
-    "source": "gnews_futures",
-    "published_utc": "2026-09-17T13:19:29+00:00",
-    "score": 7.57,
-    "duplicates": 1
-   },
-   {
-    "id": "e8f1d978c6",
-    "title": "Amid Inflation, Fed raises interest rates - Missoula Current",
-    "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBQU0RRSVd2ZFk4aERjVGQ5eGo3S2o2Q2lLVWt3MlJLOG1RT05wZ3M5QjRxV2J2N0p5OHNORUpNMGUya3JnOVU3N1YtWk0tcmVmaDRTMGpYdG52Z2M?oc=5",
-    "source": "gnews_macro",
-    "published_utc": "2026-09-17T15:20:23+00:00",
-    "score": 7.41,
-    "duplicates": 1
    }
   ],
   "summary": {
    "lines": [
     "U.S. Stock Futures Rally as Bond Yields Fall on Fed’s Inflation Resolve - Yahoo Finance [3b652db247]",
     "US Stock Futures Rally as Oil Prices Fall After Federal Reserve Rate Hike | Ukraine news - #Mezha - Межа. Новини України. [c5103af360]",
+    "Wall St rebounds after Fed's first rate hike in years as oil, Treasury yields dip - reuters.com [d385f1dc76]",
     "US stock futures rise as oil pullback amplifies Fed rate-hike boost - TradingView [9f34822fc7]",
-    "Nasdaq, S&P 500 Futures Rebound After Fed Rate Hike: NVDA, NBIS, SNAP, SPCX, BE, GNRC Stocks In Focus - Yahoo Finance [ea2c2d9a33]",
-    "Stock futures rise after Fed’s rate hike spurs a market sell-off - CNBC [3c8a6a15e5]"
+    "Nasdaq, S&P 500 Futures Rebound After Fed Rate Hike: NVDA, NBIS, SNAP, SPCX, BE, GNRC Stocks In Focus - Stocktwits [1774abd047]"
    ],
    "backend": "anthropic",
    "model": "claude-sonnet-5",
    "dropped": [
-    "ungrounded number(s) ['8']: Futures extended their post-Fed-hike rebound as Treasury yields and oil prices pulled back, a combination that has been the dominant driver of the overnight bid into the open [3b652db247][c5103af360][9f34822fc7][ea2c2d9a33][3c8a6a15e5][1a809091d2][f7588867fe][e8"
+    "no valid citation: Futures rallied broadly (Nasdaq/S&P) as Treasury yields and oil pulled back following"
    ],
    "warnings": [
     "summariser produced no valid lines; showing digest"
