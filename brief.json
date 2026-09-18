@@ -1,7 +1,7 @@
 {
  "meta": {
-  "generated_at_utc": "2026-09-18T14:23:44.500014+00:00",
-  "generated_at_local": "Fri 18 Sep 2026 11:23 ADT",
+  "generated_at_utc": "2026-09-18T14:39:08.756656+00:00",
+  "generated_at_local": "Fri 18 Sep 2026 11:39 ADT",
   "trading_day": "2026-09-18",
   "display_tz": "America/Halifax",
   "version": "0.1.0",
@@ -39,10 +39,10 @@
   {
    "root": "ES",
    "trading_day": "2026-09-18",
-   "as_of_utc": "2026-09-18T14:23:44.500014+00:00",
+   "as_of_utc": "2026-09-18T14:39:08.756656+00:00",
    "source": "yahoo",
    "delayed": true,
-   "last_price": 7690.5,
+   "last_price": 7689.25,
    "levels": [
     {
      "tag": "exp_hi",
@@ -152,7 +152,7 @@
     {
      "tag": "tdl",
      "label": "Today's RTH low",
-     "price": 7684.0,
+     "price": 7683.25,
      "group": "today",
      "note": ""
     },
@@ -200,8 +200,8 @@
     }
    ],
    "stats": {
-    "last_bar_utc": "2026-09-18T14:13:00+00:00",
-    "last_bar_age_min": 10.7,
+    "last_bar_utc": "2026-09-18T14:29:00+00:00",
+    "last_bar_age_min": 10.1,
     "market_state": "open",
     "profile_volume": 980690.0,
     "prior_day": "2026-09-17",
@@ -1469,18 +1469,26 @@
      "o": 7693.0,
      "h": 7695.25,
      "l": 7684.0,
-     "c": 7690.5,
-     "v": 61545.0
+     "c": 7688.0,
+     "v": 70448.0
+    },
+    {
+     "t": "2026-09-18T14:15:00+00:00",
+     "o": 7687.75,
+     "h": 7692.0,
+     "l": 7683.25,
+     "c": 7689.25,
+     "v": 41360.0
     }
    ]
   },
   {
    "root": "NQ",
    "trading_day": "2026-09-18",
-   "as_of_utc": "2026-09-18T14:23:44.500014+00:00",
+   "as_of_utc": "2026-09-18T14:39:08.756656+00:00",
    "source": "yahoo",
    "delayed": true,
-   "last_price": 29733.25,
+   "last_price": 29730.25,
    "levels": [
     {
      "tag": "exp_hi",
@@ -1574,17 +1582,17 @@
      "note": "2026-09-17"
     },
     {
-     "tag": "tdl",
-     "label": "Today's RTH low",
-     "price": 29711.75,
-     "group": "today",
-     "note": ""
-    },
-    {
      "tag": "rn_major_dn",
      "label": "Round 100 below",
      "price": 29700.0,
      "group": "round",
+     "note": ""
+    },
+    {
+     "tag": "tdl",
+     "label": "Today's RTH low",
+     "price": 29692.75,
+     "group": "today",
      "note": ""
     },
     {
@@ -1631,8 +1639,8 @@
     }
    ],
    "stats": {
-    "last_bar_utc": "2026-09-18T14:13:00+00:00",
-    "last_bar_age_min": 10.7,
+    "last_bar_utc": "2026-09-18T14:29:00+00:00",
+    "last_bar_age_min": 10.1,
     "market_state": "open",
     "profile_volume": 349402.0,
     "prior_day": "2026-09-17",
@@ -2900,8 +2908,16 @@
      "o": 29776.25,
      "h": 29783.75,
      "l": 29711.75,
-     "c": 29733.25,
-     "v": 24432.0
+     "c": 29719.25,
+     "v": 27968.0
+    },
+    {
+     "t": "2026-09-18T14:15:00+00:00",
+     "o": 29719.25,
+     "h": 29747.75,
+     "l": 29692.75,
+     "c": 29730.25,
+     "v": 19539.0
     }
    ]
   }
@@ -2914,7 +2930,7 @@
     "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPZVJuSzBpVHpEQ0tSbFVNcGc4S3F3STBsdFB3ZE9sYmZQYzBjTkdQekxYUkJCRUttSC1iWkZXS2NhTkd6dDJkZ2xHeUZFc3RVWGptX2VQdmlXdWJpRmpwMFgwTzdGUG8yUnFHMmtuZ3hHcFdfQnh2OHNuYUlURm8ydlNhb01mVDRYdjRCZ0xBYjFrV3hjZ01iRA?oc=5",
     "source": "gnews_futures",
     "published_utc": "2026-09-18T11:56:00+00:00",
-    "score": 10.59,
+    "score": 10.55,
     "duplicates": 1
    },
    {
@@ -2923,7 +2939,7 @@
     "link": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxQNTZCczlmd3lPc0tIY2k5VnhwYVZHZTRsYldfM2hpdHQzdE1pMjRjUnVsaW9NSWZIeWFDdTgyaTNtOWUyeVN5c2s3WXpka2dNMFJ5bzFLN1VWbjhLZnZJQ2taQlhzMGxNa3pPTjltcTdXNzRidnFXbE5wZ2g2UVotbzNsYkF4dU8zWjBTWGh6bVhxX1k5X3p6VkJmbDE3emZaeFhITVdyMHAycnhoV2k4WTdGUnRGYkxONGFmNW53MUlCenlKWlJ4WWp1Z2kwUGgxOWZyNnBQR2FXdw?oc=5",
     "source": "gnews_futures",
     "published_utc": "2026-09-18T11:37:42+00:00",
-    "score": 9.54,
+    "score": 9.5,
     "duplicates": 3
    },
    {
@@ -2932,7 +2948,7 @@
     "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQZTZHRWo3WmNPbExWRmt6NXRxbUhtYUpxNEVEdFFnQ09IRDgxdzFRYWljUkx1QzZDNk1pY1huMF9QWU1oOEdYSVMzcWd4RVhuemd5VFVPOFFuazNKWnNPdFVDZTA1d2lWVVJkcDkzb05fTkljYTU0WGhSM25IS3VfalV4UmYzX1Zp?oc=5",
     "source": "gnews_futures",
     "published_utc": "2026-09-18T08:09:10+00:00",
-    "score": 8.96,
+    "score": 8.92,
     "duplicates": 1
    },
    {
@@ -2941,7 +2957,7 @@
     "link": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxOUXJEaHROQVZGQ1piWlVodkxVX2tnRFR3ZVZJbXo3SzlsYXdwTERsVzhvSlhFbzlBYTA1blhkaXEzMnF1X29CREEtN2Y2S3Q2dWZzckJ2dmh6d2Y5NGV1bl9lb2FlSjhKaWFaZC1zVS1KNTR5U1lNTjUzRTZRb2U0WDNTSTFtTkhXa1ltbFBfMmdQbnAyN2RVSm9QbDhxUGJPWnRaVUNZVEpVSjV5cVg4bXFCMmd1VkM5YU1weDZPQTRYdFF6OHY5dE5OSTZsam45aElaVW41ZWpHMjE5bjJlWl8wUFU0eVc1eE1mdw?oc=5",
     "source": "gnews_futures",
     "published_utc": "2026-09-18T07:23:25+00:00",
-    "score": 8.83,
+    "score": 8.79,
     "duplicates": 0
    },
    {
@@ -2950,7 +2966,7 @@
     "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNRXA0T0RVa3FhR3N3MmVldzhfM1dNcTlQMjl2M2hzY1gweUdjcFFfMGJvRFQxMC11UWlITEt0TFY2TjdRbHdGTVBDR251bjZPUi0tRmF3U1pPNHlIcDctaGhXYWtIWWFiNHNGR19QdTh5VjlFOUdoRmJGb0NvV1pyekJKZVJJWmRyaEY1RDdFdEdIdFlCZkowZ2gyd1VVeXJoUVNkYVZLaDg5YTBNWVpxcnlibjZvUQ?oc=5",
     "source": "gnews_fed",
     "published_utc": "2026-09-18T11:06:31+00:00",
-    "score": 8.45,
+    "score": 8.41,
     "duplicates": 1
    },
    {
@@ -2968,7 +2984,7 @@
     "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPYjc4aG5qZHdvX3JiQk5WMDRidFFURnNxdHlxdi1UN3lIeXI1VENPWkhscUdhT1hDMkxlSnI1RkFReFZzRzdmd0ZYU3ZBUFFMVzZqWHFnTkZTaDFjYnh1Z2QxT2R6Nk9vNEY3c2ZJOVBaa3kxcVoyNUVzMzdRbU4zZC1TTXhIRVFvZWRnWl81Ym5fSlYzOG1fd3FOOFVwXzAzckY1UGNPU0hjc1JnUlg4Z1BFMndwdw?oc=5",
     "source": "gnews_fed",
     "published_utc": "2026-09-18T11:35:48+00:00",
-    "score": 7.53,
+    "score": 7.49,
     "duplicates": 1
    },
    {
@@ -2977,7 +2993,7 @@
     "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPZzhYLWFDZGhqaUF5VWN1Y25fSVMwN3hpNnI4NnMySmgyQzBrYmpQVUlDMThYcW5XQ1NwNHZmYzVOM3Z5M0lEZktUc0xuS0laa0FTa1RQTXhVazFPR1p1bjJrYWVTaldyVEMwUm5aRWFJSjkzM2l1VncyZU5MTjlZeElzZGNoZnhPWEJLWnZrc1A0ZGJ0elQyMjFKaGRxZlAzYTBhbzdtZ295Sk1DVzFVSlM1dzgtM1hXZGplVExaaFpsVWNRci1OWNIBzgFBVV95cUxNLXI4M2M4UTFTUFlQZ0dPSGQtemlOU19iU0h3RHEyZUdtNWVWeVBjSERBbVFVM2hBM05TMk1BVGZLb09xVG1CN1JsRndUNWVDay1iT2UwNUVEUVNIcHpINGM4ME94NGR3czZUSWVMOTlVZUYxZnpkMkNqck1jLWRfdndQNUM2TUtKSnVMd0FyOUVnbXJXMlVRcGRQMGZZeVB2b0pHOC12SF8zclN2OGd5dFhKb1ZqZ2M1NWM5NTV2YUlXNzRWbkJ3djlCdUFtdw?oc=5",
     "source": "gnews_futures",
     "published_utc": "2026-09-18T08:35:06+00:00",
-    "score": 7.53,
+    "score": 7.49,
     "duplicates": 1
    },
    {
@@ -2986,16 +3002,16 @@
     "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE51TzZMVFdJZnJJemRDMk5HZEFQc0ZmVnhXZkRBYUg2d1RYcTVZQkRVR0FFODhsVVpHUEw5MGU2aW1HbFk3cG9FLXR2QUNkMjBGdmtvX2E3VFpuMFd0Tk16Q2FQeVdKVHFBTHlfYnJueE92cUlFa1HSAXtBVV95cUxPel9tdEtEOEl4X1hNdzJNNmFsOHVIM1ljdkVrbElCUUJ0SzlQWVRxSElGQS1QVDdCdU5PMk91T1BpaWJXdE9XVUVweHNpR2JPX2U5MzFyVzJpNlM1YVRfTlhTcklxUzItZFpoQmNVUmVWN2prQ0tjeFg1TDQ?oc=5",
     "source": "gnews_macro",
     "published_utc": "2026-09-18T14:00:00+00:00",
-    "score": 7.43,
+    "score": 7.39,
     "duplicates": 0
    },
    {
     "id": "d7609c9447",
-    "title": "Stock Market Today (Sept. 18, 2026): Nasdaq futures rise after Fed rate hike lifts stocks - fresnobee.com",
+    "title": "Stock Market Today (Sept. 18, 2026): Nasdaq futures rise after Fed rate hike lifts stocks - Fresno Bee",
     "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTFAtcEo1Y0hteUFOTmRNSnlKUU1IY1I5REhrTm5hdUpxMWlQSGctWUhtdklMeGtsbW94X3dsOG5iT0FVX01sS0dQbElRd2F5Uzl5UnJZSjl4SWFzZzV5TzJxQ0hGSTVvVlFpZ2E1enJn?oc=5",
     "source": "gnews_futures",
     "published_utc": "2026-09-18T10:45:00+00:00",
-    "score": 7.39,
+    "score": 7.35,
     "duplicates": 0
    },
    {
@@ -3004,7 +3020,7 @@
     "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQazVGQ1lybi1TVnZocGM0RDk1N1VOZzQ0ZnN3RzVtSm1yZ1l6UWNPRUMyT3JQXzlqN2NJUm5PNHdkRjl4TkJwRDBJZHk5OTVTQldCUW5TdmVhdVNfcDZMQ1drdGMyUnZ4a2J2U1I1OVhfVWRCSmR5Y0ljd2lnM1VoQXdRRlFQUXRFd21WUU9NclpkYkVKQzA5SzR3?oc=5",
     "source": "gnews_fed",
     "published_utc": "2026-09-18T10:30:38+00:00",
-    "score": 7.35,
+    "score": 7.31,
     "duplicates": 1
    },
    {
@@ -3013,22 +3029,21 @@
     "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQdjdNNEdZekx5Z2lNdUo3NXhvc3hrNlBfOGtCX3ZTRE1WVnppNDFwaVdaRWFnUWstbVRGb3VzWnR6c3RVV0dGU1d0NDZLMjJSdjJTSDNwc0hPeTZSZzlUX1M2ejhheHp0eFNBVzZmakFNRHNMQ3BBZncyUGpMS2pYYk9GclpsRnJpaVBHQVFMOVkyNGtQenBZc1RCbXQ1Z3RBSUxHRHk5U3g?oc=5",
     "source": "gnews_futures",
     "published_utc": "2026-09-18T12:29:00+00:00",
-    "score": 7.18,
+    "score": 7.14,
     "duplicates": 1
    }
   ],
   "summary": {
    "lines": [
-    "Futures are extending gains after this week's Fed rate hike, with traders now focused on Fed speakers and how far rates still need to rise, keeping headline-driven two-way risk into the open [80117d1f65][fd999fa4d5][d7609c9447][59ec1c15a7][0d3adad66b][1774abd047].",
-    "Nasdaq futures are outperforming as an oil price retreat eases inflation-expectation pressure, a tailwind for rate-sensitive tech/growth names traded via NQ [813edf651f].",
-    "Gold holding gains on lower oil and the Fed hike signals inflation-fear repricing across correlated macro assets, worth watching alongside index futures [b0aa9e46c7].",
-    "Treasury yields are ticking up even as stock futures edge higher, a divergence that can pressure risk sentiment if the move extends [a40a7d6ac3]."
+    "Fed delivered a rate hike and futures extended gains into the cash open, with Wall Street rallying on the decision and Fed speakers still on deck. [1774abd047] [fd999fa4d5] [80117d1f65] [d7609c9447] [a40a7d6ac3]",
+    "Today is quad witching with ESZ26 and NQ expiry at 09:30 ET, a setup that typically brings elevated volume and volatility around the open and into the close. [0d3adad66b]",
+    "Nasdaq futures outperformed as an oil price retreat helped ease inflation concerns tied to the Fed decision. [813edf651f] [b0aa9e46c7]",
+    "Commentary is split on whether the Fed has tamed inflation, with pieces questioning the rate path, tariffs' role, and Congress's stance on the central bank. [0d3adad66b] [59ec1c15a7] [10fa589ead] [af5bb61ef5] [18673e17f7]",
+    "Treasury yields ticked up alongside the futures gain, a cross-asset signal worth watching against equity strength. [a40a7d6ac3]"
    ],
    "backend": "anthropic",
    "model": "claude-sonnet-5",
-   "dropped": [
-    "no valid citation: Quad witching plus the ESZ26/NQ expiry at 09:30 ET adds mechanical volume, price pinning and possible late-morning unwind risk for MNQ/MES scalpers."
-   ],
+   "dropped": [],
    "warnings": []
   },
   "feeds": [],
