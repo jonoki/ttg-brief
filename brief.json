@@ -1,7 +1,7 @@
 {
  "meta": {
-  "generated_at_utc": "2026-09-18T15:25:14.309756+00:00",
-  "generated_at_local": "Fri 18 Sep 2026 12:25 ADT",
+  "generated_at_utc": "2026-09-18T15:40:35.286323+00:00",
+  "generated_at_local": "Fri 18 Sep 2026 12:40 ADT",
   "trading_day": "2026-09-18",
   "display_tz": "America/Halifax",
   "version": "0.1.0",
@@ -39,10 +39,10 @@
   {
    "root": "ES",
    "trading_day": "2026-09-18",
-   "as_of_utc": "2026-09-18T15:25:14.309756+00:00",
+   "as_of_utc": "2026-09-18T15:40:35.286323+00:00",
    "source": "yahoo",
    "delayed": true,
-   "last_price": 7691.5,
+   "last_price": 7696.0,
    "levels": [
     {
      "tag": "exp_hi",
@@ -200,8 +200,8 @@
     }
    ],
    "stats": {
-    "last_bar_utc": "2026-09-18T15:15:00+00:00",
-    "last_bar_age_min": 10.2,
+    "last_bar_utc": "2026-09-18T15:30:00+00:00",
+    "last_bar_age_min": 10.6,
     "market_state": "open",
     "profile_volume": 980690.0,
     "prior_day": "2026-09-17",
@@ -1507,9 +1507,17 @@
     {
      "t": "2026-09-18T15:15:00+00:00",
      "o": 7691.25,
-     "h": 7692.75,
-     "l": 7691.0,
-     "c": 7691.5,
+     "h": 7696.25,
+     "l": 7690.0,
+     "c": 7695.5,
+     "v": 24461.0
+    },
+    {
+     "t": "2026-09-18T15:30:00+00:00",
+     "o": 7695.5,
+     "h": 7697.0,
+     "l": 7691.5,
+     "c": 7696.0,
      "v": 0.0
     }
    ]
@@ -1517,10 +1525,10 @@
   {
    "root": "NQ",
    "trading_day": "2026-09-18",
-   "as_of_utc": "2026-09-18T15:25:14.309756+00:00",
+   "as_of_utc": "2026-09-18T15:40:35.286323+00:00",
    "source": "yahoo",
    "delayed": true,
-   "last_price": 29731.75,
+   "last_price": 29751.0,
    "levels": [
     {
      "tag": "exp_hi",
@@ -1586,8 +1594,8 @@
      "note": "70 % value area"
     },
     {
-     "tag": "rn_minor_up",
-     "label": "Round 50 above",
+     "tag": "rn_minor_dn",
+     "label": "Round 50 below",
      "price": 29750.0,
      "group": "round",
      "note": ""
@@ -1671,8 +1679,8 @@
     }
    ],
    "stats": {
-    "last_bar_utc": "2026-09-18T15:15:00+00:00",
-    "last_bar_age_min": 10.2,
+    "last_bar_utc": "2026-09-18T15:30:00+00:00",
+    "last_bar_age_min": 10.6,
     "market_state": "open",
     "profile_volume": 349402.0,
     "prior_day": "2026-09-17",
@@ -2978,9 +2986,17 @@
     {
      "t": "2026-09-18T15:15:00+00:00",
      "o": 29730.25,
-     "h": 29735.75,
-     "l": 29725.75,
-     "c": 29731.75,
+     "h": 29754.5,
+     "l": 29720.25,
+     "c": 29749.25,
+     "v": 9625.0
+    },
+    {
+     "t": "2026-09-18T15:30:00+00:00",
+     "o": 29749.5,
+     "h": 29755.5,
+     "l": 29731.5,
+     "c": 29751.0,
      "v": 0.0
     }
    ]
@@ -2994,16 +3010,16 @@
     "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOZHVEZlJnV290UXp2RTFHZW0wbVhUaENwOUFqWXJyZFBwMF96RmtnaFp2YTFJVXdDS0UzMEFhR1JRWVRqNEFBcDFBcjhVT3Z1b0R5UEhpRlZvNVNXNFRGSHNQSktCRHM4S21hc0ZjMTBjQkZvNl9Jek14VVRLbFN2N1VvNA?oc=5",
     "source": "gnews_futures",
     "published_utc": "2026-09-18T11:56:00+00:00",
-    "score": 10.42,
+    "score": 10.38,
     "duplicates": 1
    },
    {
-    "id": "4d37670e1a",
-    "title": "Nasdaq futures lead Wall St gains as oil retreat eases inflation worries By Reuters - Investing.com",
-    "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOOXhRMHRCOWxwQVctSm13Q05fV0Q1N3dDQUoxQ0dNMk43OS1vY092QklpbkZQSDBJREpkNkZ5MFRIdnFLYTBtT09IY2pRT0Y0U1ByemlLWXlnRVczTTNHMEhSZi1uWFFSZ2dNaUpHY2wzLWN0YVdZUzVyMWRsVzdPVXV0OWtDQTRQM055NnZobHR4YVpPUHpwQ1F3MWZzaWdRX1phWVdxYTktMWg5U0RPaXIxSHhka2tUOGpqWlhmNFNoUQ?oc=5",
+    "id": "efa74d0fb4",
+    "title": "Nasdaq futures lead Wall Street gains as oil retreat eases inflation worries - Free Malaysia Today",
+    "link": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxPVFV6YXFVSnBHNnRUZHZoMmxUX3o1clMwU3J6cl9hSm5kVFltYS1wQWRiZjVpOS1pbllMeGVKc3BCSXpkZEJMZFZWTUtOY3ItZkt5MTFPUmdwQ3VlcS02ZXdveEJLcUF4NktQcmI5QVV5d0JfNnJPLXVlNk9EemgyMTVwX29mMWQyUmw2dHk5WTZrbDByaTl1NXItY3ZpWFdZdEpmT3ZUWk44YnQybkZLbjM0WlVhVExqVEdhak1qdzNCRUgtZTVzcFdGOHZSUDMtMnc2V1lJYTAxVXZVY2c?oc=5",
     "source": "gnews_futures",
-    "published_utc": "2026-09-18T11:24:14+00:00",
-    "score": 9.33,
+    "published_utc": "2026-09-18T12:15:00+00:00",
+    "score": 9.43,
     "duplicates": 3
    },
    {
@@ -3012,7 +3028,7 @@
     "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQZTZHRWo3WmNPbExWRmt6NXRxbUhtYUpxNEVEdFFnQ09IRDgxdzFRYWljUkx1QzZDNk1pY1huMF9QWU1oOEdYSVMzcWd4RVhuemd5VFVPOFFuazNKWnNPdFVDZTA1d2lWVVJkcDkzb05fTkljYTU0WGhSM25IS3VfalV4UmYzX1Zp?oc=5",
     "source": "gnews_futures",
     "published_utc": "2026-09-18T08:09:10+00:00",
-    "score": 8.79,
+    "score": 8.75,
     "duplicates": 1
    },
    {
@@ -3021,7 +3037,7 @@
     "link": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxOUXJEaHROQVZGQ1piWlVodkxVX2tnRFR3ZVZJbXo3SzlsYXdwTERsVzhvSlhFbzlBYTA1blhkaXEzMnF1X29CREEtN2Y2S3Q2dWZzckJ2dmh6d2Y5NGV1bl9lb2FlSjhKaWFaZC1zVS1KNTR5U1lNTjUzRTZRb2U0WDNTSTFtTkhXa1ltbFBfMmdQbnAyN2RVSm9QbDhxUGJPWnRaVUNZVEpVSjV5cVg4bXFCMmd1VkM5YU1weDZPQTRYdFF6OHY5dE5OSTZsam45aElaVW41ZWpHMjE5bjJlWl8wUFU0eVc1eE1mdw?oc=5",
     "source": "gnews_futures",
     "published_utc": "2026-09-18T07:23:25+00:00",
-    "score": 8.66,
+    "score": 8.62,
     "duplicates": 0
    },
    {
@@ -3039,7 +3055,7 @@
     "link": "https://www.federalreserve.gov/newsevents/pressreleases/enforcement20260918b.htm",
     "source": "fed_press",
     "published_utc": "2026-09-18T15:00:00+00:00",
-    "score": 7.93,
+    "score": 7.89,
     "duplicates": 0
    },
    {
@@ -3048,7 +3064,7 @@
     "link": "https://www.federalreserve.gov/newsevents/pressreleases/enforcement20260918a.htm",
     "source": "fed_press",
     "published_utc": "2026-09-18T15:00:00+00:00",
-    "score": 7.93,
+    "score": 7.89,
     "duplicates": 0
    },
    {
@@ -3057,7 +3073,7 @@
     "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNRXA0T0RVa3FhR3N3MmVldzhfM1dNcTlQMjl2M2hzY1gweUdjcFFfMGJvRFQxMC11UWlITEt0TFY2TjdRbHdGTVBDR251bjZPUi0tRmF3U1pPNHlIcDctaGhXYWtIWWFiNHNGR19QdTh5VjlFOUdoRmJGb0NvV1pyekJKZVJJWmRyaEY1RDdFdEdIdFlCZkowZ2gyd1VVeXJoUVNkYVZLaDg5YTBNWVpxcnlibjZvUQ?oc=5",
     "source": "gnews_macro",
     "published_utc": "2026-09-18T11:06:31+00:00",
-    "score": 7.78,
+    "score": 7.74,
     "duplicates": 0
    },
    {
@@ -3066,7 +3082,7 @@
     "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPYjc4aG5qZHdvX3JiQk5WMDRidFFURnNxdHlxdi1UN3lIeXI1VENPWkhscUdhT1hDMkxlSnI1RkFReFZzRzdmd0ZYU3ZBUFFMVzZqWHFnTkZTaDFjYnh1Z2QxT2R6Nk9vNEY3c2ZJOVBaa3kxcVoyNUVzMzdRbU4zZC1TTXhIRVFvZWRnWl81Ym5fSlYzOG1fd3FOOFVwXzAzckY1UGNPU0hjc1JnUlg4Z1BFMndwdw?oc=5",
     "source": "gnews_fed",
     "published_utc": "2026-09-18T11:35:48+00:00",
-    "score": 7.36,
+    "score": 7.32,
     "duplicates": 1
    },
    {
@@ -3075,7 +3091,7 @@
     "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPZzhYLWFDZGhqaUF5VWN1Y25fSVMwN3hpNnI4NnMySmgyQzBrYmpQVUlDMThYcW5XQ1NwNHZmYzVOM3Z5M0lEZktUc0xuS0laa0FTa1RQTXhVazFPR1p1bjJrYWVTaldyVEMwUm5aRWFJSjkzM2l1VncyZU5MTjlZeElzZGNoZnhPWEJLWnZrc1A0ZGJ0elQyMjFKaGRxZlAzYTBhbzdtZ295Sk1DVzFVSlM1dzgtM1hXZGplVExaaFpsVWNRci1OWNIBzgFBVV95cUxNLXI4M2M4UTFTUFlQZ0dPSGQtemlOU19iU0h3RHEyZUdtNWVWeVBjSERBbVFVM2hBM05TMk1BVGZLb09xVG1CN1JsRndUNWVDay1iT2UwNUVEUVNIcHpINGM4ME94NGR3czZUSWVMOTlVZUYxZnpkMkNqck1jLWRfdndQNUM2TUtKSnVMd0FyOUVnbXJXMlVRcGRQMGZZeVB2b0pHOC12SF8zclN2OGd5dFhKb1ZqZ2M1NWM5NTV2YUlXNzRWbkJ3djlCdUFtdw?oc=5",
     "source": "gnews_futures",
     "published_utc": "2026-09-18T08:35:06+00:00",
-    "score": 7.36,
+    "score": 7.32,
     "duplicates": 1
    },
    {
@@ -3084,23 +3100,23 @@
     "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE51TzZMVFdJZnJJemRDMk5HZEFQc0ZmVnhXZkRBYUg2d1RYcTVZQkRVR0FFODhsVVpHUEw5MGU2aW1HbFk3cG9FLXR2QUNkMjBGdmtvX2E3VFpuMFd0Tk16Q2FQeVdKVHFBTHlfYnJueE92cUlFa1HSAXtBVV95cUxPel9tdEtEOEl4X1hNdzJNNmFsOHVIM1ljdkVrbElCUUJ0SzlQWVRxSElGQS1QVDdCdU5PMk91T1BpaWJXdE9XVUVweHNpR2JPX2U5MzFyVzJpNlM1YVRfTlhTcklxUzItZFpoQmNVUmVWN2prQ0tjeFg1TDQ?oc=5",
     "source": "gnews_macro",
     "published_utc": "2026-09-18T14:00:00+00:00",
-    "score": 7.26,
+    "score": 7.22,
     "duplicates": 0
    },
    {
-    "id": "d7609c9447",
-    "title": "Stock Market Today (Sept. 18, 2026): Nasdaq futures rise after Fed rate hike lifts stocks - fresnobee.com",
-    "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTFAtcEo1Y0hteUFOTmRNSnlKUU1IY1I5REhrTm5hdUpxMWlQSGctWUhtdklMeGtsbW94X3dsOG5iT0FVX01sS0dQbElRd2F5Uzl5UnJZSjl4SWFzZzV5TzJxQ0hGSTVvVlFpZ2E1enJn?oc=5",
+    "id": "3527ded1e3",
+    "title": "Stock Market Today (Sept. 18, 2026): Nasdaq futures rise after Fed rate hike lifts stocks - Kansas City Star",
+    "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE1VcURZTW5CX1hrNDVONzhuVWdLaVhUc0pXYzFmcDNSWGgtOUtfVm0yUjJPUC1ZWEhyLTNyOTFVemxkcmVSdmhPdDZoWkxoTmphaFlaTi1ybGxxYUthdV9ZTjFpWVZKN2VMdUh4bU0tMA?oc=5",
     "source": "gnews_futures",
     "published_utc": "2026-09-18T10:45:00+00:00",
-    "score": 7.22,
+    "score": 7.18,
     "duplicates": 0
    }
   ],
   "summary": {
    "lines": [
     "US stock futures edge higher, but has the Fed really slayed inflation? - Yahoo! Finance Canada [bd5d75d0b7]",
-    "Nasdaq futures lead Wall St gains as oil retreat eases inflation worries By Reuters - Investing.com [4d37670e1a]",
+    "Nasdaq futures lead Wall Street gains as oil retreat eases inflation worries - Free Malaysia Today [efa74d0fb4]",
     "Stock futures rise after Wall Street rally; Fed speakers in focus (SPX:) - Seeking Alpha [80117d1f65]",
     "Nasdaq, S&P 500 Futures Rebound After Fed Rate Hike: NVDA, NBIS, SNAP, SPCX, BE, GNRC Stocks In Focus - Stocktwits [1774abd047]",
     "After rate hike, economists weigh tariffs’ role in inflation - thecentersquare.com [10fa589ead]"
