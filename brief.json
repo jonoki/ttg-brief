@@ -1,7 +1,7 @@
 {
  "meta": {
-  "generated_at_utc": "2026-09-18T13:37:34.723586+00:00",
-  "generated_at_local": "Fri 18 Sep 2026 10:37 ADT",
+  "generated_at_utc": "2026-09-18T13:52:59.418354+00:00",
+  "generated_at_local": "Fri 18 Sep 2026 10:52 ADT",
   "trading_day": "2026-09-18",
   "display_tz": "America/Halifax",
   "version": "0.1.0",
@@ -39,10 +39,10 @@
   {
    "root": "ES",
    "trading_day": "2026-09-18",
-   "as_of_utc": "2026-09-18T13:37:34.723586+00:00",
+   "as_of_utc": "2026-09-18T13:52:59.418354+00:00",
    "source": "yahoo",
    "delayed": true,
-   "last_price": 7695.0,
+   "last_price": 7707.0,
    "levels": [
     {
      "tag": "exp_hi",
@@ -52,11 +52,18 @@
      "note": "ATR over 14 days"
     },
     {
+     "tag": "rn_major_up",
+     "label": "Round 50 above",
+     "price": 7750.0,
+     "group": "round",
+     "note": ""
+    },
+    {
      "tag": "onh",
      "label": "Overnight high",
      "price": 7739.25,
      "group": "overnight",
-     "note": "since 18:00 ET, 918 bars"
+     "note": "since 18:00 ET, 920 bars"
     },
     {
      "tag": "wh",
@@ -64,6 +71,13 @@
      "price": 7739.25,
      "group": "week",
      "note": "since 2026-09-14"
+    },
+    {
+     "tag": "rn_minor_up",
+     "label": "Round 25 above",
+     "price": 7725.0,
+     "group": "round",
+     "note": ""
     },
     {
      "tag": "pgh",
@@ -80,11 +94,11 @@
      "note": "2026-09-17"
     },
     {
-     "tag": "onvwap",
-     "label": "Overnight VWAP",
-     "price": 7713.85,
-     "group": "overnight",
-     "note": "typical-price VWAP"
+     "tag": "tdh",
+     "label": "Today's RTH high",
+     "price": 7714.5,
+     "group": "today",
+     "note": "so far"
     },
     {
      "tag": "pdo",
@@ -94,11 +108,25 @@
      "note": "2026-09-17"
     },
     {
+     "tag": "onvwap",
+     "label": "Overnight VWAP",
+     "price": 7713.03,
+     "group": "overnight",
+     "note": "typical-price VWAP"
+    },
+    {
      "tag": "vah",
      "label": "Prior-day VAH",
      "price": 7712.0,
      "group": "profile",
      "note": "70 % value area"
+    },
+    {
+     "tag": "rtho",
+     "label": "Today's RTH open",
+     "price": 7710.0,
+     "group": "today",
+     "note": "09:30 bar open"
     },
     {
      "tag": "pdc",
@@ -115,8 +143,15 @@
      "note": "2026-09-17 RTH, bin 0.25"
     },
     {
-     "tag": "rn_major_up",
-     "label": "Round 50 above",
+     "tag": "tdl",
+     "label": "Today's RTH low",
+     "price": 7701.75,
+     "group": "today",
+     "note": ""
+    },
+    {
+     "tag": "rn_major_dn",
+     "label": "Round 50 below",
      "price": 7700.0,
      "group": "round",
      "note": ""
@@ -143,20 +178,6 @@
      "note": "2026-09-17"
     },
     {
-     "tag": "rn_minor_dn",
-     "label": "Round 25 below",
-     "price": 7675.0,
-     "group": "round",
-     "note": ""
-    },
-    {
-     "tag": "rn_major_dn",
-     "label": "Round 50 below",
-     "price": 7650.0,
-     "group": "round",
-     "note": ""
-    },
-    {
      "tag": "exp_lo",
      "label": "Expected-range low (close − ATR)",
      "price": 7630.54,
@@ -179,15 +200,15 @@
     }
    ],
    "stats": {
-    "last_bar_utc": "2026-09-18T13:27:00+00:00",
-    "last_bar_age_min": 10.6,
+    "last_bar_utc": "2026-09-18T13:42:00+00:00",
+    "last_bar_age_min": 11.0,
     "market_state": "open",
     "profile_volume": 980690.0,
     "prior_day": "2026-09-17",
     "prior_day_rth_range": 35.75,
     "overnight_range": 47.0,
-    "gap_vs_prior_close": -12.25,
-    "gap_basis": "last price (pre-market)",
+    "gap_vs_prior_close": 2.75,
+    "gap_basis": "RTH open",
     "atr14": 76.71,
     "atr_days": 14,
     "avg_daily_range": 74.62,
@@ -1422,20 +1443,28 @@
     {
      "t": "2026-09-18T13:15:00+00:00",
      "o": 7701.5,
-     "h": 7703.25,
+     "h": 7710.0,
      "l": 7692.25,
-     "c": 7695.0,
-     "v": 15737.0
+     "c": 7709.75,
+     "v": 36743.0
+    },
+    {
+     "t": "2026-09-18T13:30:00+00:00",
+     "o": 7710.0,
+     "h": 7714.5,
+     "l": 7701.75,
+     "c": 7707.0,
+     "v": 69561.0
     }
    ]
   },
   {
    "root": "NQ",
    "trading_day": "2026-09-18",
-   "as_of_utc": "2026-09-18T13:37:34.723586+00:00",
+   "as_of_utc": "2026-09-18T13:52:59.418354+00:00",
    "source": "yahoo",
    "delayed": true,
-   "last_price": 29751.0,
+   "last_price": 29831.0,
    "levels": [
     {
      "tag": "exp_hi",
@@ -1449,7 +1478,7 @@
      "label": "Overnight high",
      "price": 29966.75,
      "group": "overnight",
-     "note": "since 18:00 ET, 918 bars"
+     "note": "since 18:00 ET, 920 bars"
     },
     {
      "tag": "wh",
@@ -1459,17 +1488,52 @@
      "note": "since 2026-09-14"
     },
     {
+     "tag": "rn_major_up",
+     "label": "Round 100 above",
+     "price": 29900.0,
+     "group": "round",
+     "note": ""
+    },
+    {
+     "tag": "rn_minor_up",
+     "label": "Round 50 above",
+     "price": 29850.0,
+     "group": "round",
+     "note": ""
+    },
+    {
+     "tag": "tdh",
+     "label": "Today's RTH high",
+     "price": 29844.75,
+     "group": "today",
+     "note": "so far"
+    },
+    {
+     "tag": "rtho",
+     "label": "Today's RTH open",
+     "price": 29814.0,
+     "group": "today",
+     "note": "09:30 bar open"
+    },
+    {
      "tag": "onvwap",
      "label": "Overnight VWAP",
-     "price": 29808.73,
+     "price": 29807.9,
      "group": "overnight",
      "note": "typical-price VWAP"
     },
     {
-     "tag": "rn_major_up",
-     "label": "Round 100 above",
+     "tag": "rn_major_dn",
+     "label": "Round 100 below",
      "price": 29800.0,
      "group": "round",
+     "note": ""
+    },
+    {
+     "tag": "tdl",
+     "label": "Today's RTH low",
+     "price": 29798.0,
+     "group": "today",
      "note": ""
     },
     {
@@ -1485,13 +1549,6 @@
      "price": 29761.0,
      "group": "profile",
      "note": "70 % value area"
-    },
-    {
-     "tag": "rn_minor_dn",
-     "label": "Round 50 below",
-     "price": 29750.0,
-     "group": "round",
-     "note": ""
     },
     {
      "tag": "pdc",
@@ -1513,13 +1570,6 @@
      "price": 29718.25,
      "group": "prior_day",
      "note": "2026-09-17"
-    },
-    {
-     "tag": "rn_major_dn",
-     "label": "Round 100 below",
-     "price": 29700.0,
-     "group": "round",
-     "note": ""
     },
     {
      "tag": "val",
@@ -1565,15 +1615,15 @@
     }
    ],
    "stats": {
-    "last_bar_utc": "2026-09-18T13:27:00+00:00",
-    "last_bar_age_min": 10.6,
+    "last_bar_utc": "2026-09-18T13:42:00+00:00",
+    "last_bar_age_min": 11.0,
     "market_state": "open",
     "profile_volume": 349402.0,
     "prior_day": "2026-09-17",
     "prior_day_rth_range": 187.5,
     "overnight_range": 318.75,
-    "gap_vs_prior_close": 6.5,
-    "gap_basis": "last price (pre-market)",
+    "gap_vs_prior_close": 69.5,
+    "gap_basis": "RTH open",
     "atr14": 406.8,
     "atr_days": 14,
     "avg_daily_range": 394.5,
@@ -2808,10 +2858,18 @@
     {
      "t": "2026-09-18T13:15:00+00:00",
      "o": 29786.75,
-     "h": 29796.25,
+     "h": 29819.5,
      "l": 29744.75,
-     "c": 29751.0,
-     "v": 5443.0
+     "c": 29814.25,
+     "v": 13346.0
+    },
+    {
+     "t": "2026-09-18T13:30:00+00:00",
+     "o": 29814.0,
+     "h": 29844.75,
+     "l": 29798.0,
+     "c": 29831.0,
+     "v": 30263.0
     }
    ]
   }
@@ -2824,16 +2882,16 @@
     "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPZVJuSzBpVHpEQ0tSbFVNcGc4S3F3STBsdFB3ZE9sYmZQYzBjTkdQekxYUkJCRUttSC1iWkZXS2NhTkd6dDJkZ2xHeUZFc3RVWGptX2VQdmlXdWJpRmpwMFgwTzdGUG8yUnFHMmtuZ3hHcFdfQnh2OHNuYUlURm8ydlNhb01mVDRYdjRCZ0xBYjFrV3hjZ01iRA?oc=5",
     "source": "gnews_futures",
     "published_utc": "2026-09-18T11:56:00+00:00",
-    "score": 10.72,
+    "score": 10.68,
     "duplicates": 1
    },
    {
-    "id": "4d37670e1a",
-    "title": "Nasdaq futures lead Wall St gains as oil retreat eases inflation worries By Reuters - Investing.com",
-    "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOOXhRMHRCOWxwQVctSm13Q05fV0Q1N3dDQUoxQ0dNMk43OS1vY092QklpbkZQSDBJREpkNkZ5MFRIdnFLYTBtT09IY2pRT0Y0U1ByemlLWXlnRVczTTNHMEhSZi1uWFFSZ2dNaUpHY2wzLWN0YVdZUzVyMWRsVzdPVXV0OWtDQTRQM055NnZobHR4YVpPUHpwQ1F3MWZzaWdRX1phWVdxYTktMWg5U0RPaXIxSHhka2tUOGpqWlhmNFNoUQ?oc=5",
+    "id": "813edf651f",
+    "title": "Nasdaq futures lead Wall St gains as oil retreat eases inflation worries - TradingView",
+    "link": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxQNTZCczlmd3lPc0tIY2k5VnhwYVZHZTRsYldfM2hpdHQzdE1pMjRjUnVsaW9NSWZIeWFDdTgyaTNtOWUyeVN5c2s3WXpka2dNMFJ5bzFLN1VWbjhLZnZJQ2taQlhzMGxNa3pPTjltcTdXNzRidnFXbE5wZ2g2UVotbzNsYkF4dU8zWjBTWGh6bVhxX1k5X3p6VkJmbDE3emZaeFhITVdyMHAycnhoV2k4WTdGUnRGYkxONGFmNW53MUlCenlKWlJ4WWp1Z2kwUGgxOWZyNnBQR2FXdw?oc=5",
     "source": "gnews_futures",
-    "published_utc": "2026-09-18T11:24:14+00:00",
-    "score": 9.63,
+    "published_utc": "2026-09-18T11:37:42+00:00",
+    "score": 9.62,
     "duplicates": 3
    },
    {
@@ -2842,7 +2900,7 @@
     "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQZTZHRWo3WmNPbExWRmt6NXRxbUhtYUpxNEVEdFFnQ09IRDgxdzFRYWljUkx1QzZDNk1pY1huMF9QWU1oOEdYSVMzcWd4RVhuemd5VFVPOFFuazNKWnNPdFVDZTA1d2lWVVJkcDkzb05fTkljYTU0WGhSM25IS3VfalV4UmYzX1Zp?oc=5",
     "source": "gnews_futures",
     "published_utc": "2026-09-18T08:09:10+00:00",
-    "score": 9.09,
+    "score": 9.04,
     "duplicates": 1
    },
    {
@@ -2851,7 +2909,7 @@
     "link": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxOUXJEaHROQVZGQ1piWlVodkxVX2tnRFR3ZVZJbXo3SzlsYXdwTERsVzhvSlhFbzlBYTA1blhkaXEzMnF1X29CREEtN2Y2S3Q2dWZzckJ2dmh6d2Y5NGV1bl9lb2FlSjhKaWFaZC1zVS1KNTR5U1lNTjUzRTZRb2U0WDNTSTFtTkhXa1ltbFBfMmdQbnAyN2RVSm9QbDhxUGJPWnRaVUNZVEpVSjV5cVg4bXFCMmd1VkM5YU1weDZPQTRYdFF6OHY5dE5OSTZsam45aElaVW41ZWpHMjE5bjJlWl8wUFU0eVc1eE1mdw?oc=5",
     "source": "gnews_futures",
     "published_utc": "2026-09-18T07:23:25+00:00",
-    "score": 8.96,
+    "score": 8.92,
     "duplicates": 0
    },
    {
@@ -2860,7 +2918,7 @@
     "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNRXA0T0RVa3FhR3N3MmVldzhfM1dNcTlQMjl2M2hzY1gweUdjcFFfMGJvRFQxMC11UWlITEt0TFY2TjdRbHdGTVBDR251bjZPUi0tRmF3U1pPNHlIcDctaGhXYWtIWWFiNHNGR19QdTh5VjlFOUdoRmJGb0NvV1pyekJKZVJJWmRyaEY1RDdFdEdIdFlCZkowZ2gyd1VVeXJoUVNkYVZLaDg5YTBNWVpxcnlibjZvUQ?oc=5",
     "source": "gnews_macro",
     "published_utc": "2026-09-18T11:06:31+00:00",
-    "score": 8.08,
+    "score": 8.04,
     "duplicates": 0
    },
    {
@@ -2874,11 +2932,11 @@
    },
    {
     "id": "59ec1c15a7",
-    "title": "Federal Reserve’s inflation fight shifts to how far rates will have to rise - Baltimore Sun",
+    "title": "Federal Reserve’s inflation fight shifts to how far rates will have to rise - baltimoresun.com",
     "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPYjc4aG5qZHdvX3JiQk5WMDRidFFURnNxdHlxdi1UN3lIeXI1VENPWkhscUdhT1hDMkxlSnI1RkFReFZzRzdmd0ZYU3ZBUFFMVzZqWHFnTkZTaDFjYnh1Z2QxT2R6Nk9vNEY3c2ZJOVBaa3kxcVoyNUVzMzdRbU4zZC1TTXhIRVFvZWRnWl81Ym5fSlYzOG1fd3FOOFVwXzAzckY1UGNPU0hjc1JnUlg4Z1BFMndwdw?oc=5",
     "source": "gnews_fed",
     "published_utc": "2026-09-18T11:35:48+00:00",
-    "score": 7.66,
+    "score": 7.62,
     "duplicates": 1
    },
    {
@@ -2887,7 +2945,7 @@
     "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPZzhYLWFDZGhqaUF5VWN1Y25fSVMwN3hpNnI4NnMySmgyQzBrYmpQVUlDMThYcW5XQ1NwNHZmYzVOM3Z5M0lEZktUc0xuS0laa0FTa1RQTXhVazFPR1p1bjJrYWVTaldyVEMwUm5aRWFJSjkzM2l1VncyZU5MTjlZeElzZGNoZnhPWEJLWnZrc1A0ZGJ0elQyMjFKaGRxZlAzYTBhbzdtZ295Sk1DVzFVSlM1dzgtM1hXZGplVExaaFpsVWNRci1OWNIBzgFBVV95cUxNLXI4M2M4UTFTUFlQZ0dPSGQtemlOU19iU0h3RHEyZUdtNWVWeVBjSERBbVFVM2hBM05TMk1BVGZLb09xVG1CN1JsRndUNWVDay1iT2UwNUVEUVNIcHpINGM4ME94NGR3czZUSWVMOTlVZUYxZnpkMkNqck1jLWRfdndQNUM2TUtKSnVMd0FyOUVnbXJXMlVRcGRQMGZZeVB2b0pHOC12SF8zclN2OGd5dFhKb1ZqZ2M1NWM5NTV2YUlXNzRWbkJ3djlCdUFtdw?oc=5",
     "source": "gnews_futures",
     "published_utc": "2026-09-18T08:35:06+00:00",
-    "score": 7.66,
+    "score": 7.62,
     "duplicates": 1
    },
    {
@@ -2896,7 +2954,7 @@
     "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTFAtcEo1Y0hteUFOTmRNSnlKUU1IY1I5REhrTm5hdUpxMWlQSGctWUhtdklMeGtsbW94X3dsOG5iT0FVX01sS0dQbElRd2F5Uzl5UnJZSjl4SWFzZzV5TzJxQ0hGSTVvVlFpZ2E1enJn?oc=5",
     "source": "gnews_futures",
     "published_utc": "2026-09-18T10:45:00+00:00",
-    "score": 7.52,
+    "score": 7.48,
     "duplicates": 0
    },
    {
@@ -2905,7 +2963,7 @@
     "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQazVGQ1lybi1TVnZocGM0RDk1N1VOZzQ0ZnN3RzVtSm1yZ1l6UWNPRUMyT3JQXzlqN2NJUm5PNHdkRjl4TkJwRDBJZHk5OTVTQldCUW5TdmVhdVNfcDZMQ1drdGMyUnZ4a2J2U1I1OVhfVWRCSmR5Y0ljd2lnM1VoQXdRRlFQUXRFd21WUU9NclpkYkVKQzA5SzR3?oc=5",
     "source": "gnews_fed",
     "published_utc": "2026-09-18T10:30:38+00:00",
-    "score": 7.48,
+    "score": 7.44,
     "duplicates": 1
    },
    {
@@ -2914,7 +2972,7 @@
     "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQdjdNNEdZekx5Z2lNdUo3NXhvc3hrNlBfOGtCX3ZTRE1WVnppNDFwaVdaRWFnUWstbVRGb3VzWnR6c3RVV0dGU1d0NDZLMjJSdjJTSDNwc0hPeTZSZzlUX1M2ejhheHp0eFNBVzZmakFNRHNMQ3BBZncyUGpMS2pYYk9GclpsRnJpaVBHQVFMOVkyNGtQenBZc1RCbXQ1Z3RBSUxHRHk5U3g?oc=5",
     "source": "gnews_futures",
     "published_utc": "2026-09-18T12:29:00+00:00",
-    "score": 7.31,
+    "score": 7.27,
     "duplicates": 1
    },
    {
@@ -2923,21 +2981,19 @@
     "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPOEtKX2JkWDlFVUlIS09OdXFNZDZUMTdqNWJKLXRiMENwN25mc2IwbHl0b2JYX3FRNTJIMUpRdjZ0Q0YxcmtocHZpVDJPT0Zjb0tsTEY1Q1RBaGMtZjdMOUk5YVRTUEpzTG11UTl2b2JqRVVCaHk5UVZoV2sxcU5UVkhBcFpEbjNFVHBBdjJXaU9tVzRyNlAyY0Z2enRRbjcwQ09CVXRwT3JnWEdBTjdra3pGeFU?oc=5",
     "source": "gnews_futures",
     "published_utc": "2026-09-18T09:03:12+00:00",
-    "score": 7.24,
+    "score": 7.2,
     "duplicates": 0
    }
   ],
   "summary": {
    "lines": [
-    "Quad witching with ESZ26 and NQ expiry at 09:30 ET adds mechanical volume and pinning risk into the cash open, layered on top of a market still digesting the Fed rate hike from the prior session [1774abd047][d7609c9447][fd999fa4d5].",
-    "Futures are edging higher as a retreat in oil prices eases inflation worries, a key driver behind the post-hike bounce in Nasdaq and S&P futures [4d37670e1a][fd518eda4d][0d3adad66b].",
-    "Treasury yields are ticking up alongside the futures gain, a cross-asset signal worth watching against equity strength [a40a7d6ac3][fd518eda4d].",
-    "Fed speakers remain in focus today, with commentary likely to move rate-path expectations intraday [80117d1f65][59ec1c15a7].",
-    "Gold holding gains on lower oil and the Fed hike reflects the same inflation-cooling narrative currently supporting risk assets [e8059ce7a4]."
+    "Fed rate hike overnight, with S&P 500 and Nasdaq futures extending gains into the cash open and Fed speakers still on deck today [1774abd047][fd999fa4d5][d7609c9447][80117d1f65][a40a7d6ac3]."
    ],
    "backend": "anthropic",
    "model": "claude-sonnet-5",
-   "dropped": [],
+   "dropped": [
+    "no valid citation: Quad"
+   ],
    "warnings": []
   },
   "feeds": [],
