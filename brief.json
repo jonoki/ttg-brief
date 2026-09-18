@@ -1,7 +1,7 @@
 {
  "meta": {
-  "generated_at_utc": "2026-09-18T15:40:35.286323+00:00",
-  "generated_at_local": "Fri 18 Sep 2026 12:40 ADT",
+  "generated_at_utc": "2026-09-18T15:55:57.372855+00:00",
+  "generated_at_local": "Fri 18 Sep 2026 12:55 ADT",
   "trading_day": "2026-09-18",
   "display_tz": "America/Halifax",
   "version": "0.1.0",
@@ -39,10 +39,10 @@
   {
    "root": "ES",
    "trading_day": "2026-09-18",
-   "as_of_utc": "2026-09-18T15:40:35.286323+00:00",
+   "as_of_utc": "2026-09-18T15:55:57.372855+00:00",
    "source": "yahoo",
    "delayed": true,
-   "last_price": 7696.0,
+   "last_price": 7687.0,
    "levels": [
     {
      "tag": "exp_hi",
@@ -200,8 +200,8 @@
     }
    ],
    "stats": {
-    "last_bar_utc": "2026-09-18T15:30:00+00:00",
-    "last_bar_age_min": 10.6,
+    "last_bar_utc": "2026-09-18T15:45:00+00:00",
+    "last_bar_age_min": 11.0,
     "market_state": "open",
     "profile_volume": 980690.0,
     "prior_day": "2026-09-17",
@@ -1516,8 +1516,16 @@
      "t": "2026-09-18T15:30:00+00:00",
      "o": 7695.5,
      "h": 7697.0,
-     "l": 7691.5,
-     "c": 7696.0,
+     "l": 7686.5,
+     "c": 7688.25,
+     "v": 40765.0
+    },
+    {
+     "t": "2026-09-18T15:45:00+00:00",
+     "o": 7688.5,
+     "h": 7689.5,
+     "l": 7686.5,
+     "c": 7687.0,
      "v": 0.0
     }
    ]
@@ -1525,10 +1533,10 @@
   {
    "root": "NQ",
    "trading_day": "2026-09-18",
-   "as_of_utc": "2026-09-18T15:40:35.286323+00:00",
+   "as_of_utc": "2026-09-18T15:55:57.372855+00:00",
    "source": "yahoo",
    "delayed": true,
-   "last_price": 29751.0,
+   "last_price": 29716.0,
    "levels": [
     {
      "tag": "exp_hi",
@@ -1594,8 +1602,8 @@
      "note": "70 % value area"
     },
     {
-     "tag": "rn_minor_dn",
-     "label": "Round 50 below",
+     "tag": "rn_minor_up",
+     "label": "Round 50 above",
      "price": 29750.0,
      "group": "round",
      "note": ""
@@ -1679,8 +1687,8 @@
     }
    ],
    "stats": {
-    "last_bar_utc": "2026-09-18T15:30:00+00:00",
-    "last_bar_age_min": 10.6,
+    "last_bar_utc": "2026-09-18T15:45:00+00:00",
+    "last_bar_age_min": 11.0,
     "market_state": "open",
     "profile_volume": 349402.0,
     "prior_day": "2026-09-17",
@@ -2995,8 +3003,16 @@
      "t": "2026-09-18T15:30:00+00:00",
      "o": 29749.5,
      "h": 29755.5,
-     "l": 29731.5,
-     "c": 29751.0,
+     "l": 29710.25,
+     "c": 29723.5,
+     "v": 12285.0
+    },
+    {
+     "t": "2026-09-18T15:45:00+00:00",
+     "o": 29723.75,
+     "h": 29727.0,
+     "l": 29712.25,
+     "c": 29716.0,
      "v": 0.0
     }
    ]
@@ -3010,7 +3026,7 @@
     "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOZHVEZlJnV290UXp2RTFHZW0wbVhUaENwOUFqWXJyZFBwMF96RmtnaFp2YTFJVXdDS0UzMEFhR1JRWVRqNEFBcDFBcjhVT3Z1b0R5UEhpRlZvNVNXNFRGSHNQSktCRHM4S21hc0ZjMTBjQkZvNl9Jek14VVRLbFN2N1VvNA?oc=5",
     "source": "gnews_futures",
     "published_utc": "2026-09-18T11:56:00+00:00",
-    "score": 10.38,
+    "score": 10.33,
     "duplicates": 1
    },
    {
@@ -3019,8 +3035,17 @@
     "link": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxPVFV6YXFVSnBHNnRUZHZoMmxUX3o1clMwU3J6cl9hSm5kVFltYS1wQWRiZjVpOS1pbllMeGVKc3BCSXpkZEJMZFZWTUtOY3ItZkt5MTFPUmdwQ3VlcS02ZXdveEJLcUF4NktQcmI5QVV5d0JfNnJPLXVlNk9EemgyMTVwX29mMWQyUmw2dHk5WTZrbDByaTl1NXItY3ZpWFdZdEpmT3ZUWk44YnQybkZLbjM0WlVhVExqVEdhak1qdzNCRUgtZTVzcFdGOHZSUDMtMnc2V1lJYTAxVXZVY2c?oc=5",
     "source": "gnews_futures",
     "published_utc": "2026-09-18T12:15:00+00:00",
-    "score": 9.43,
-    "duplicates": 3
+    "score": 9.89,
+    "duplicates": 4
+   },
+   {
+    "id": "ed8b230e0d",
+    "title": "Dow Slides as Treasury Yields Near 5% After Fed Rate Hike - Yahoo Finance",
+    "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPV19IM09VeURsTUJLRWt6eDl1T1I2MmFrUXpMNUp2eWFHYy02bm5hZXZGenF5a0FYNDFKMUd6SDFReFl1d1FJem1MakIwaHJTdEVPV0sxaXVSVHEzdlR3bUdjY0lVbDJNQVM3ZUJwYl9wd3N5RWRjNjJfNWktVzJuWllVZFdVYzBvWWlDeHRMVDl6a1BwMWdna1RIMXo?oc=5",
+    "source": "gnews_macro",
+    "published_utc": "2026-09-18T15:33:50+00:00",
+    "score": 8.94,
+    "duplicates": 0
    },
    {
     "id": "80117d1f65",
@@ -3028,7 +3053,7 @@
     "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQZTZHRWo3WmNPbExWRmt6NXRxbUhtYUpxNEVEdFFnQ09IRDgxdzFRYWljUkx1QzZDNk1pY1huMF9QWU1oOEdYSVMzcWd4RVhuemd5VFVPOFFuazNKWnNPdFVDZTA1d2lWVVJkcDkzb05fTkljYTU0WGhSM25IS3VfalV4UmYzX1Zp?oc=5",
     "source": "gnews_futures",
     "published_utc": "2026-09-18T08:09:10+00:00",
-    "score": 8.75,
+    "score": 8.7,
     "duplicates": 1
    },
    {
@@ -3037,7 +3062,7 @@
     "link": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxOUXJEaHROQVZGQ1piWlVodkxVX2tnRFR3ZVZJbXo3SzlsYXdwTERsVzhvSlhFbzlBYTA1blhkaXEzMnF1X29CREEtN2Y2S3Q2dWZzckJ2dmh6d2Y5NGV1bl9lb2FlSjhKaWFaZC1zVS1KNTR5U1lNTjUzRTZRb2U0WDNTSTFtTkhXa1ltbFBfMmdQbnAyN2RVSm9QbDhxUGJPWnRaVUNZVEpVSjV5cVg4bXFCMmd1VkM5YU1weDZPQTRYdFF6OHY5dE5OSTZsam45aElaVW41ZWpHMjE5bjJlWl8wUFU0eVc1eE1mdw?oc=5",
     "source": "gnews_futures",
     "published_utc": "2026-09-18T07:23:25+00:00",
-    "score": 8.62,
+    "score": 8.58,
     "duplicates": 0
    },
    {
@@ -3050,12 +3075,21 @@
     "duplicates": 0
    },
    {
+    "id": "cb952834e6",
+    "title": "Fed’s Schmid Backed Rate Hike, Says Inflation Goes Beyond Energy - Bloomberg.com",
+    "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNY00wRTJtdmlTZU81cGxKUF8tUndFUkVjUGFXRGFNemFjeXFpX0RlbGFvYXpieXZRUkZqLTVxa2l6dWVGUklMQVRMZkdxRWp2VS1FX2xSSUlqSnlqQ3FUcjdnQzlrVWNKOVBZaF9taGlqTkRZTzIxVDVOQ1NZX2pQWk1lY0dYb1BGZGxSYTA0Vzlab1kwaXZlamV1dTRIVGttLURvcTBDeTBVY3Bxa1pYOXdGdGI?oc=5",
+    "source": "gnews_fed",
+    "published_utc": "2026-09-18T15:33:21+00:00",
+    "score": 7.94,
+    "duplicates": 1
+   },
+   {
     "id": "cf165d603b",
     "title": "Federal Reserve Board announces termination of enforcement action with SNB Bancshares and Bank of Eufaula",
     "link": "https://www.federalreserve.gov/newsevents/pressreleases/enforcement20260918b.htm",
     "source": "fed_press",
     "published_utc": "2026-09-18T15:00:00+00:00",
-    "score": 7.89,
+    "score": 7.84,
     "duplicates": 0
    },
    {
@@ -3064,7 +3098,7 @@
     "link": "https://www.federalreserve.gov/newsevents/pressreleases/enforcement20260918a.htm",
     "source": "fed_press",
     "published_utc": "2026-09-18T15:00:00+00:00",
-    "score": 7.89,
+    "score": 7.84,
     "duplicates": 0
    },
    {
@@ -3073,7 +3107,7 @@
     "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNRXA0T0RVa3FhR3N3MmVldzhfM1dNcTlQMjl2M2hzY1gweUdjcFFfMGJvRFQxMC11UWlITEt0TFY2TjdRbHdGTVBDR251bjZPUi0tRmF3U1pPNHlIcDctaGhXYWtIWWFiNHNGR19QdTh5VjlFOUdoRmJGb0NvV1pyekJKZVJJWmRyaEY1RDdFdEdIdFlCZkowZ2gyd1VVeXJoUVNkYVZLaDg5YTBNWVpxcnlibjZvUQ?oc=5",
     "source": "gnews_macro",
     "published_utc": "2026-09-18T11:06:31+00:00",
-    "score": 7.74,
+    "score": 7.7,
     "duplicates": 0
    },
    {
@@ -3082,7 +3116,7 @@
     "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPYjc4aG5qZHdvX3JiQk5WMDRidFFURnNxdHlxdi1UN3lIeXI1VENPWkhscUdhT1hDMkxlSnI1RkFReFZzRzdmd0ZYU3ZBUFFMVzZqWHFnTkZTaDFjYnh1Z2QxT2R6Nk9vNEY3c2ZJOVBaa3kxcVoyNUVzMzdRbU4zZC1TTXhIRVFvZWRnWl81Ym5fSlYzOG1fd3FOOFVwXzAzckY1UGNPU0hjc1JnUlg4Z1BFMndwdw?oc=5",
     "source": "gnews_fed",
     "published_utc": "2026-09-18T11:35:48+00:00",
-    "score": 7.32,
+    "score": 7.28,
     "duplicates": 1
    },
    {
@@ -3091,42 +3125,20 @@
     "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPZzhYLWFDZGhqaUF5VWN1Y25fSVMwN3hpNnI4NnMySmgyQzBrYmpQVUlDMThYcW5XQ1NwNHZmYzVOM3Z5M0lEZktUc0xuS0laa0FTa1RQTXhVazFPR1p1bjJrYWVTaldyVEMwUm5aRWFJSjkzM2l1VncyZU5MTjlZeElzZGNoZnhPWEJLWnZrc1A0ZGJ0elQyMjFKaGRxZlAzYTBhbzdtZ295Sk1DVzFVSlM1dzgtM1hXZGplVExaaFpsVWNRci1OWNIBzgFBVV95cUxNLXI4M2M4UTFTUFlQZ0dPSGQtemlOU19iU0h3RHEyZUdtNWVWeVBjSERBbVFVM2hBM05TMk1BVGZLb09xVG1CN1JsRndUNWVDay1iT2UwNUVEUVNIcHpINGM4ME94NGR3czZUSWVMOTlVZUYxZnpkMkNqck1jLWRfdndQNUM2TUtKSnVMd0FyOUVnbXJXMlVRcGRQMGZZeVB2b0pHOC12SF8zclN2OGd5dFhKb1ZqZ2M1NWM5NTV2YUlXNzRWbkJ3djlCdUFtdw?oc=5",
     "source": "gnews_futures",
     "published_utc": "2026-09-18T08:35:06+00:00",
-    "score": 7.32,
+    "score": 7.28,
     "duplicates": 1
-   },
-   {
-    "id": "af5bb61ef5",
-    "title": "The Fed is fighting the wrong war on inflation - The Hill",
-    "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE51TzZMVFdJZnJJemRDMk5HZEFQc0ZmVnhXZkRBYUg2d1RYcTVZQkRVR0FFODhsVVpHUEw5MGU2aW1HbFk3cG9FLXR2QUNkMjBGdmtvX2E3VFpuMFd0Tk16Q2FQeVdKVHFBTHlfYnJueE92cUlFa1HSAXtBVV95cUxPel9tdEtEOEl4X1hNdzJNNmFsOHVIM1ljdkVrbElCUUJ0SzlQWVRxSElGQS1QVDdCdU5PMk91T1BpaWJXdE9XVUVweHNpR2JPX2U5MzFyVzJpNlM1YVRfTlhTcklxUzItZFpoQmNVUmVWN2prQ0tjeFg1TDQ?oc=5",
-    "source": "gnews_macro",
-    "published_utc": "2026-09-18T14:00:00+00:00",
-    "score": 7.22,
-    "duplicates": 0
-   },
-   {
-    "id": "3527ded1e3",
-    "title": "Stock Market Today (Sept. 18, 2026): Nasdaq futures rise after Fed rate hike lifts stocks - Kansas City Star",
-    "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE1VcURZTW5CX1hrNDVONzhuVWdLaVhUc0pXYzFmcDNSWGgtOUtfVm0yUjJPUC1ZWEhyLTNyOTFVemxkcmVSdmhPdDZoWkxoTmphaFlaTi1ybGxxYUthdV9ZTjFpWVZKN2VMdUh4bU0tMA?oc=5",
-    "source": "gnews_futures",
-    "published_utc": "2026-09-18T10:45:00+00:00",
-    "score": 7.18,
-    "duplicates": 0
    }
   ],
   "summary": {
    "lines": [
-    "US stock futures edge higher, but has the Fed really slayed inflation? - Yahoo! Finance Canada [bd5d75d0b7]",
-    "Nasdaq futures lead Wall Street gains as oil retreat eases inflation worries - Free Malaysia Today [efa74d0fb4]",
-    "Stock futures rise after Wall Street rally; Fed speakers in focus (SPX:) - Seeking Alpha [80117d1f65]",
-    "Nasdaq, S&P 500 Futures Rebound After Fed Rate Hike: NVDA, NBIS, SNAP, SPCX, BE, GNRC Stocks In Focus - Stocktwits [1774abd047]",
-    "After rate hike, economists weigh tariffs’ role in inflation - thecentersquare.com [10fa589ead]"
+    "Quad witching adds ESZ26/NQ contract expiry at 09:30 ET, which typically brings elevated volume and volatility into the cash open [bd5d75d0b7]."
    ],
    "backend": "anthropic",
    "model": "claude-sonnet-5",
-   "dropped": [],
-   "warnings": [
-    "summariser produced no valid lines; showing digest"
-   ]
+   "dropped": [
+    "no valid citation: Futures reports diverge on the Fed hike reaction: some cite gains while Treasury yields near 5% and the Dow slides, others cite a rebound and rise after Wall Street's rally [efa74d0"
+   ],
+   "warnings": []
   },
   "feeds": [],
   "warnings": []
