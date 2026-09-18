@@ -1,11 +1,11 @@
 {
  "meta": {
-  "generated_at_utc": "2026-09-18T15:55:57.372855+00:00",
-  "generated_at_local": "Fri 18 Sep 2026 12:55 ADT",
+  "generated_at_utc": "2026-09-18T20:05:00.847668+00:00",
+  "generated_at_local": "Fri 18 Sep 2026 17:05 ADT",
   "trading_day": "2026-09-18",
   "display_tz": "America/Halifax",
   "version": "0.1.0",
-  "run": "intraday",
+  "run": "post-close",
   "variant": "public"
  },
  "calendar": {
@@ -39,10 +39,10 @@
   {
    "root": "ES",
    "trading_day": "2026-09-18",
-   "as_of_utc": "2026-09-18T15:55:57.372855+00:00",
+   "as_of_utc": "2026-09-18T20:05:00.847668+00:00",
    "source": "yahoo",
    "delayed": true,
-   "last_price": 7687.0,
+   "last_price": 7712.75,
    "levels": [
     {
      "tag": "exp_hi",
@@ -50,6 +50,13 @@
      "price": 7783.96,
      "group": "range",
      "note": "ATR over 14 days"
+    },
+    {
+     "tag": "rn_major_up",
+     "label": "Round 50 above",
+     "price": 7750.0,
+     "group": "round",
+     "note": ""
     },
     {
      "tag": "onh",
@@ -66,6 +73,13 @@
      "note": "since 2026-09-14"
     },
     {
+     "tag": "rn_minor_up",
+     "label": "Round 25 above",
+     "price": 7725.0,
+     "group": "round",
+     "note": ""
+    },
+    {
      "tag": "pgh",
      "label": "Prior Globex-session high",
      "price": 7722.25,
@@ -73,18 +87,18 @@
      "note": "full 18:00→17:00 session"
     },
     {
+     "tag": "tdh",
+     "label": "Today's RTH high",
+     "price": 7716.75,
+     "group": "today",
+     "note": "session complete"
+    },
+    {
      "tag": "pdh",
      "label": "Prior-day high (RTH)",
      "price": 7716.25,
      "group": "prior_day",
      "note": "2026-09-17"
-    },
-    {
-     "tag": "tdh",
-     "label": "Today's RTH high",
-     "price": 7714.5,
-     "group": "today",
-     "note": "so far"
     },
     {
      "tag": "pdo",
@@ -99,6 +113,13 @@
      "price": 7713.03,
      "group": "overnight",
      "note": "typical-price VWAP"
+    },
+    {
+     "tag": "tdc",
+     "label": "Today's RTH close (16:00 bar)",
+     "price": 7712.75,
+     "group": "today",
+     "note": "becomes next session's prior-day close"
     },
     {
      "tag": "vah",
@@ -129,8 +150,8 @@
      "note": "2026-09-17 RTH, bin 0.25"
     },
     {
-     "tag": "rn_major_up",
-     "label": "Round 50 above",
+     "tag": "rn_major_dn",
+     "label": "Round 50 below",
      "price": 7700.0,
      "group": "round",
      "note": ""
@@ -150,13 +171,6 @@
      "note": ""
     },
     {
-     "tag": "tdl",
-     "label": "Today's RTH low",
-     "price": 7683.25,
-     "group": "today",
-     "note": ""
-    },
-    {
      "tag": "pdl",
      "label": "Prior-day low (RTH)",
      "price": 7680.5,
@@ -164,17 +178,10 @@
      "note": "2026-09-17"
     },
     {
-     "tag": "rn_minor_dn",
-     "label": "Round 25 below",
+     "tag": "tdl",
+     "label": "Today's RTH low",
      "price": 7675.0,
-     "group": "round",
-     "note": ""
-    },
-    {
-     "tag": "rn_major_dn",
-     "label": "Round 50 below",
-     "price": 7650.0,
-     "group": "round",
+     "group": "today",
      "note": ""
     },
     {
@@ -200,7 +207,7 @@
     }
    ],
    "stats": {
-    "last_bar_utc": "2026-09-18T15:45:00+00:00",
+    "last_bar_utc": "2026-09-18T19:54:00+00:00",
     "last_bar_age_min": 11.0,
     "market_state": "open",
     "profile_volume": 980690.0,
@@ -1524,19 +1531,147 @@
      "t": "2026-09-18T15:45:00+00:00",
      "o": 7688.5,
      "h": 7689.5,
-     "l": 7686.5,
-     "c": 7687.0,
-     "v": 0.0
+     "l": 7683.75,
+     "c": 7685.5,
+     "v": 23227.0
+    },
+    {
+     "t": "2026-09-18T16:00:00+00:00",
+     "o": 7685.25,
+     "h": 7687.75,
+     "l": 7682.0,
+     "c": 7685.75,
+     "v": 23314.0
+    },
+    {
+     "t": "2026-09-18T16:15:00+00:00",
+     "o": 7685.75,
+     "h": 7687.25,
+     "l": 7675.0,
+     "c": 7683.25,
+     "v": 43003.0
+    },
+    {
+     "t": "2026-09-18T16:30:00+00:00",
+     "o": 7683.25,
+     "h": 7689.0,
+     "l": 7681.25,
+     "c": 7686.75,
+     "v": 30454.0
+    },
+    {
+     "t": "2026-09-18T16:45:00+00:00",
+     "o": 7686.75,
+     "h": 7691.5,
+     "l": 7683.5,
+     "c": 7689.75,
+     "v": 23463.0
+    },
+    {
+     "t": "2026-09-18T17:00:00+00:00",
+     "o": 7690.0,
+     "h": 7691.5,
+     "l": 7686.25,
+     "c": 7689.25,
+     "v": 17010.0
+    },
+    {
+     "t": "2026-09-18T17:15:00+00:00",
+     "o": 7689.25,
+     "h": 7692.0,
+     "l": 7688.5,
+     "c": 7690.0,
+     "v": 12877.0
+    },
+    {
+     "t": "2026-09-18T17:30:00+00:00",
+     "o": 7690.25,
+     "h": 7694.0,
+     "l": 7688.25,
+     "c": 7694.0,
+     "v": 15490.0
+    },
+    {
+     "t": "2026-09-18T17:45:00+00:00",
+     "o": 7694.0,
+     "h": 7695.0,
+     "l": 7692.25,
+     "c": 7694.5,
+     "v": 14452.0
+    },
+    {
+     "t": "2026-09-18T18:00:00+00:00",
+     "o": 7694.75,
+     "h": 7696.0,
+     "l": 7693.0,
+     "c": 7694.5,
+     "v": 16085.0
+    },
+    {
+     "t": "2026-09-18T18:15:00+00:00",
+     "o": 7694.5,
+     "h": 7703.25,
+     "l": 7694.5,
+     "c": 7701.75,
+     "v": 27844.0
+    },
+    {
+     "t": "2026-09-18T18:30:00+00:00",
+     "o": 7701.75,
+     "h": 7702.75,
+     "l": 7699.0,
+     "c": 7702.5,
+     "v": 17663.0
+    },
+    {
+     "t": "2026-09-18T18:45:00+00:00",
+     "o": 7702.25,
+     "h": 7715.75,
+     "l": 7702.25,
+     "c": 7710.0,
+     "v": 48447.0
+    },
+    {
+     "t": "2026-09-18T19:00:00+00:00",
+     "o": 7709.75,
+     "h": 7712.0,
+     "l": 7707.75,
+     "c": 7709.0,
+     "v": 22970.0
+    },
+    {
+     "t": "2026-09-18T19:15:00+00:00",
+     "o": 7709.0,
+     "h": 7710.5,
+     "l": 7705.75,
+     "c": 7706.25,
+     "v": 19215.0
+    },
+    {
+     "t": "2026-09-18T19:30:00+00:00",
+     "o": 7706.25,
+     "h": 7712.25,
+     "l": 7704.25,
+     "c": 7712.0,
+     "v": 29189.0
+    },
+    {
+     "t": "2026-09-18T19:45:00+00:00",
+     "o": 7712.25,
+     "h": 7716.75,
+     "l": 7710.25,
+     "c": 7712.75,
+     "v": 32398.0
     }
    ]
   },
   {
    "root": "NQ",
    "trading_day": "2026-09-18",
-   "as_of_utc": "2026-09-18T15:55:57.372855+00:00",
+   "as_of_utc": "2026-09-18T20:05:00.847668+00:00",
    "source": "yahoo",
    "delayed": true,
-   "last_price": 29716.0,
+   "last_price": 29907.5,
    "levels": [
     {
      "tag": "exp_hi",
@@ -1544,6 +1679,13 @@
      "price": 30151.3,
      "group": "range",
      "note": "ATR over 14 days"
+    },
+    {
+     "tag": "rn_major_up",
+     "label": "Round 100 above",
+     "price": 30000.0,
+     "group": "round",
+     "note": ""
     },
     {
      "tag": "onh",
@@ -1560,11 +1702,32 @@
      "note": "since 2026-09-14"
     },
     {
+     "tag": "rn_minor_up",
+     "label": "Round 50 above",
+     "price": 29950.0,
+     "group": "round",
+     "note": ""
+    },
+    {
      "tag": "tdh",
      "label": "Today's RTH high",
-     "price": 29844.75,
+     "price": 29928.0,
      "group": "today",
-     "note": "so far"
+     "note": "session complete"
+    },
+    {
+     "tag": "tdc",
+     "label": "Today's RTH close (16:00 bar)",
+     "price": 29907.5,
+     "group": "today",
+     "note": "becomes next session's prior-day close"
+    },
+    {
+     "tag": "rn_major_dn",
+     "label": "Round 100 below",
+     "price": 29900.0,
+     "group": "round",
+     "note": ""
     },
     {
      "tag": "rtho",
@@ -1581,13 +1744,6 @@
      "note": "typical-price VWAP"
     },
     {
-     "tag": "rn_major_up",
-     "label": "Round 100 above",
-     "price": 29800.0,
-     "group": "round",
-     "note": ""
-    },
-    {
      "tag": "pdh",
      "label": "Prior-day high (RTH)",
      "price": 29793.25,
@@ -1600,13 +1756,6 @@
      "price": 29761.0,
      "group": "profile",
      "note": "70 % value area"
-    },
-    {
-     "tag": "rn_minor_up",
-     "label": "Round 50 above",
-     "price": 29750.0,
-     "group": "round",
-     "note": ""
     },
     {
      "tag": "pdc",
@@ -1630,25 +1779,18 @@
      "note": "2026-09-17"
     },
     {
-     "tag": "rn_major_dn",
-     "label": "Round 100 below",
-     "price": 29700.0,
-     "group": "round",
-     "note": ""
-    },
-    {
-     "tag": "tdl",
-     "label": "Today's RTH low",
-     "price": 29692.75,
-     "group": "today",
-     "note": ""
-    },
-    {
      "tag": "val",
      "label": "Prior-day VAL",
      "price": 29679.0,
      "group": "profile",
      "note": "70 % value area"
+    },
+    {
+     "tag": "tdl",
+     "label": "Today's RTH low",
+     "price": 29659.25,
+     "group": "today",
+     "note": ""
     },
     {
      "tag": "onl",
@@ -1687,8 +1829,8 @@
     }
    ],
    "stats": {
-    "last_bar_utc": "2026-09-18T15:45:00+00:00",
-    "last_bar_age_min": 11.0,
+    "last_bar_utc": "2026-09-18T19:55:00+00:00",
+    "last_bar_age_min": 10.0,
     "market_state": "open",
     "profile_volume": 349402.0,
     "prior_day": "2026-09-17",
@@ -3010,10 +3152,138 @@
     {
      "t": "2026-09-18T15:45:00+00:00",
      "o": 29723.75,
-     "h": 29727.0,
-     "l": 29712.25,
+     "h": 29730.5,
+     "l": 29702.75,
+     "c": 29708.25,
+     "v": 8520.0
+    },
+    {
+     "t": "2026-09-18T16:00:00+00:00",
+     "o": 29708.25,
+     "h": 29724.25,
+     "l": 29699.25,
+     "c": 29709.0,
+     "v": 7754.0
+    },
+    {
+     "t": "2026-09-18T16:15:00+00:00",
+     "o": 29709.25,
+     "h": 29722.75,
+     "l": 29659.25,
+     "c": 29699.75,
+     "v": 14899.0
+    },
+    {
+     "t": "2026-09-18T16:30:00+00:00",
+     "o": 29700.0,
+     "h": 29722.5,
+     "l": 29692.5,
      "c": 29716.0,
-     "v": 0.0
+     "v": 10174.0
+    },
+    {
+     "t": "2026-09-18T16:45:00+00:00",
+     "o": 29716.5,
+     "h": 29735.0,
+     "l": 29701.0,
+     "c": 29727.5,
+     "v": 7652.0
+    },
+    {
+     "t": "2026-09-18T17:00:00+00:00",
+     "o": 29728.0,
+     "h": 29743.25,
+     "l": 29719.75,
+     "c": 29741.25,
+     "v": 7581.0
+    },
+    {
+     "t": "2026-09-18T17:15:00+00:00",
+     "o": 29741.5,
+     "h": 29751.5,
+     "l": 29738.0,
+     "c": 29741.75,
+     "v": 6132.0
+    },
+    {
+     "t": "2026-09-18T17:30:00+00:00",
+     "o": 29741.5,
+     "h": 29762.5,
+     "l": 29731.75,
+     "c": 29762.0,
+     "v": 6484.0
+    },
+    {
+     "t": "2026-09-18T17:45:00+00:00",
+     "o": 29761.75,
+     "h": 29768.0,
+     "l": 29756.5,
+     "c": 29763.25,
+     "v": 5309.0
+    },
+    {
+     "t": "2026-09-18T18:00:00+00:00",
+     "o": 29763.0,
+     "h": 29768.75,
+     "l": 29748.0,
+     "c": 29753.75,
+     "v": 5749.0
+    },
+    {
+     "t": "2026-09-18T18:15:00+00:00",
+     "o": 29753.25,
+     "h": 29788.0,
+     "l": 29753.0,
+     "c": 29780.75,
+     "v": 8065.0
+    },
+    {
+     "t": "2026-09-18T18:30:00+00:00",
+     "o": 29780.5,
+     "h": 29792.5,
+     "l": 29773.25,
+     "c": 29790.75,
+     "v": 5582.0
+    },
+    {
+     "t": "2026-09-18T18:45:00+00:00",
+     "o": 29791.25,
+     "h": 29849.5,
+     "l": 29790.5,
+     "c": 29832.0,
+     "v": 13636.0
+    },
+    {
+     "t": "2026-09-18T19:00:00+00:00",
+     "o": 29832.25,
+     "h": 29852.25,
+     "l": 29829.75,
+     "c": 29835.0,
+     "v": 8629.0
+    },
+    {
+     "t": "2026-09-18T19:15:00+00:00",
+     "o": 29834.75,
+     "h": 29846.0,
+     "l": 29829.25,
+     "c": 29831.25,
+     "v": 6357.0
+    },
+    {
+     "t": "2026-09-18T19:30:00+00:00",
+     "o": 29831.5,
+     "h": 29853.25,
+     "l": 29822.75,
+     "c": 29852.25,
+     "v": 8498.0
+    },
+    {
+     "t": "2026-09-18T19:45:00+00:00",
+     "o": 29852.75,
+     "h": 29928.0,
+     "l": 29850.0,
+     "c": 29907.5,
+     "v": 14104.0
     }
    ]
   }
@@ -3026,7 +3296,7 @@
     "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOZHVEZlJnV290UXp2RTFHZW0wbVhUaENwOUFqWXJyZFBwMF96RmtnaFp2YTFJVXdDS0UzMEFhR1JRWVRqNEFBcDFBcjhVT3Z1b0R5UEhpRlZvNVNXNFRGSHNQSktCRHM4S21hc0ZjMTBjQkZvNl9Jek14VVRLbFN2N1VvNA?oc=5",
     "source": "gnews_futures",
     "published_utc": "2026-09-18T11:56:00+00:00",
-    "score": 10.33,
+    "score": 9.64,
     "duplicates": 1
    },
    {
@@ -3035,7 +3305,7 @@
     "link": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxPVFV6YXFVSnBHNnRUZHZoMmxUX3o1clMwU3J6cl9hSm5kVFltYS1wQWRiZjVpOS1pbllMeGVKc3BCSXpkZEJMZFZWTUtOY3ItZkt5MTFPUmdwQ3VlcS02ZXdveEJLcUF4NktQcmI5QVV5d0JfNnJPLXVlNk9EemgyMTVwX29mMWQyUmw2dHk5WTZrbDByaTl1NXItY3ZpWFdZdEpmT3ZUWk44YnQybkZLbjM0WlVhVExqVEdhak1qdzNCRUgtZTVzcFdGOHZSUDMtMnc2V1lJYTAxVXZVY2c?oc=5",
     "source": "gnews_futures",
     "published_utc": "2026-09-18T12:15:00+00:00",
-    "score": 9.89,
+    "score": 9.19,
     "duplicates": 4
    },
    {
@@ -3044,16 +3314,16 @@
     "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPV19IM09VeURsTUJLRWt6eDl1T1I2MmFrUXpMNUp2eWFHYy02bm5hZXZGenF5a0FYNDFKMUd6SDFReFl1d1FJem1MakIwaHJTdEVPV0sxaXVSVHEzdlR3bUdjY0lVbDJNQVM3ZUJwYl9wd3N5RWRjNjJfNWktVzJuWllVZFdVYzBvWWlDeHRMVDl6a1BwMWdna1RIMXo?oc=5",
     "source": "gnews_macro",
     "published_utc": "2026-09-18T15:33:50+00:00",
-    "score": 8.94,
+    "score": 8.25,
     "duplicates": 0
    },
    {
-    "id": "80117d1f65",
-    "title": "Stock futures rise after Wall Street rally; Fed speakers in focus (SPX:) - Seeking Alpha",
-    "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQZTZHRWo3WmNPbExWRmt6NXRxbUhtYUpxNEVEdFFnQ09IRDgxdzFRYWljUkx1QzZDNk1pY1huMF9QWU1oOEdYSVMzcWd4RVhuemd5VFVPOFFuazNKWnNPdFVDZTA1d2lWVVJkcDkzb05fTkljYTU0WGhSM25IS3VfalV4UmYzX1Zp?oc=5",
-    "source": "gnews_futures",
-    "published_utc": "2026-09-18T08:09:10+00:00",
-    "score": 8.7,
+    "id": "9cfd70ff61",
+    "title": "Three words from Kevin Warsh have Wall Street wondering how far the Fed will go with rate hikes",
+    "link": "https://www.cnbc.com/2026/09/18/three-words-from-kevin-warsh-have-wall-street-wondering-how-far-the-fed-will-go-with-rate-hikes.html",
+    "source": "cnbc_markets",
+    "published_utc": "2026-09-18T18:28:31+00:00",
+    "score": 8.23,
     "duplicates": 1
    },
    {
@@ -3062,16 +3332,16 @@
     "link": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxOUXJEaHROQVZGQ1piWlVodkxVX2tnRFR3ZVZJbXo3SzlsYXdwTERsVzhvSlhFbzlBYTA1blhkaXEzMnF1X29CREEtN2Y2S3Q2dWZzckJ2dmh6d2Y5NGV1bl9lb2FlSjhKaWFaZC1zVS1KNTR5U1lNTjUzRTZRb2U0WDNTSTFtTkhXa1ltbFBfMmdQbnAyN2RVSm9QbDhxUGJPWnRaVUNZVEpVSjV5cVg4bXFCMmd1VkM5YU1weDZPQTRYdFF6OHY5dE5OSTZsam45aElaVW41ZWpHMjE5bjJlWl8wUFU0eVc1eE1mdw?oc=5",
     "source": "gnews_futures",
     "published_utc": "2026-09-18T07:23:25+00:00",
-    "score": 8.58,
+    "score": 8.0,
     "duplicates": 0
    },
    {
-    "id": "10fa589ead",
-    "title": "After rate hike, economists weigh tariffs’ role in inflation - thecentersquare.com",
-    "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNUko5SGVvN29fdWh6YWFOdFVEWm8wdmEtczR1VHRQS0hfTEdoLWlwdXozS2twT2swMkV5X0hMQU1IaFJGUG5TM0hDaWMwNFczdW9HU2VsdzJ2bi1WazFweXRmQVpTYS04R3o3MFd5NFRNcThLSGxCZ2x3eVBUTGZhY1VOWHR2SjFDcW9pTld0ZWtOM0h30gGaAUFVX3lxTE9Od2NpUzRhZTBNUk9oWDhQcFIxVjdjODg5dTByVHhORUZmLTlSeGxxd195X04wT0hBSlhXTlUzV3BaNkNJVGh5WmxYMnhQZjJWaXh4RzdkVVdPa1RVNHNaOWtZSm9iaEJmSzdzYWFneXdra3JBOG84bWVkR1dRRGNMb3NiZy0xT2gzdy1IaVlmUTJXZHAzSV9fYkE?oc=5",
+    "id": "c5d66b7d3d",
+    "title": "Inflation Running Too Hot Even Without Oil, Fed’s Schmid Says - WSJ",
+    "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPRVJ1dTdKLVNGM0FXclVzbnFMSVFqckxXSF9KdWtyOEJLVUdGSjZSa3N0YURpMFF3TmNUcjV3bEFweWNIYWVrdjI4T2tNOTJoS3RxSWxWQkppbTRYZ0MwaDhMb2FscDRPaFdySXpJNnFwd1NQc21nWnZfazhBOVdLVS1jWV9mRUlrXzIxM3d4dVpUVTZweVFOQ2VVYmF1OGZKOEJxdWNEc3VaaGph?oc=5",
     "source": "gnews_macro",
-    "published_utc": "2026-09-17T22:55:00+00:00",
-    "score": 8.0,
+    "published_utc": "2026-09-18T16:30:00+00:00",
+    "score": 7.9,
     "duplicates": 0
    },
    {
@@ -3080,8 +3350,35 @@
     "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNY00wRTJtdmlTZU81cGxKUF8tUndFUkVjUGFXRGFNemFjeXFpX0RlbGFvYXpieXZRUkZqLTVxa2l6dWVGUklMQVRMZkdxRWp2VS1FX2xSSUlqSnlqQ3FUcjdnQzlrVWNKOVBZaF9taGlqTkRZTzIxVDVOQ1NZX2pQWk1lY0dYb1BGZGxSYTA0Vzlab1kwaXZlamV1dTRIVGttLURvcTBDeTBVY3Bxa1pYOXdGdGI?oc=5",
     "source": "gnews_fed",
     "published_utc": "2026-09-18T15:33:21+00:00",
-    "score": 7.94,
-    "duplicates": 1
+    "score": 7.75,
+    "duplicates": 2
+   },
+   {
+    "id": "e8059ce7a4",
+    "title": "Gold Holds Gain as Lower Oil and Fed Hike Temper Inflation Fears - Bloomberg.com",
+    "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNRXA0T0RVa3FhR3N3MmVldzhfM1dNcTlQMjl2M2hzY1gweUdjcFFfMGJvRFQxMC11UWlITEt0TFY2TjdRbHdGTVBDR251bjZPUi0tRmF3U1pPNHlIcDctaGhXYWtIWWFiNHNGR19QdTh5VjlFOUdoRmJGb0NvV1pyekJKZVJJWmRyaEY1RDdFdEdIdFlCZkowZ2gyd1VVeXJoUVNkYVZLaDg5YTBNWVpxcnlibjZvUQ?oc=5",
+    "source": "gnews_macro",
+    "published_utc": "2026-09-18T15:31:16+00:00",
+    "score": 7.74,
+    "duplicates": 0
+   },
+   {
+    "id": "a572e9e067",
+    "title": "Stock futures rise after Wall Street rally; Fed speakers in focus - TradingView",
+    "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNOGZoWm54U1N3dzN1NG0xbWtEVHdWVFlONUZxbWdwYWpXejQxWldSUDJuWXBCYXM2a2ZOZ3JqSFQzdUV1U1NIRkQ5R2dnSEYzSVJTRUlMZFJ5WmdhRnZYeTE2cnBtMTJrQzgwbk5jdnVFU0h2VE5qSEFyalNycVdQSDNTSUVsQzM5RHc3QjJ2cnhNV2NXX01iOVQzRTgyUW16SnNDSXJBZWx1YTdIQkFhQklmb0t4WmotWnZKdmZrMURCamNzelE?oc=5",
+    "source": "gnews_futures",
+    "published_utc": "2026-09-18T08:09:10+00:00",
+    "score": 7.51,
+    "duplicates": 0
+   },
+   {
+    "id": "385b3b6cfd",
+    "title": "Nasdaq futures rise as oil prices ease inflation worries - grafa.com",
+    "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOemZtZVU0UG50ZVpfZm9yV3lpbDRlelhJWTJMMFQ2djJXeXlVdVRVMG9kd3NNT1JHSnEyWF9mamhHRkszTlFVQ2prTm5Cd2VWRXlERkZxRE5GamRJTnVKUkZtc0NsZHFWMW1FV2lfTVFVR2VDeUxERWZhZHlwMHdwMjNJbklfcW9KMnQ1SjFUVzVhT0VvX3VtM2JR?oc=5",
+    "source": "gnews_futures",
+    "published_utc": "2026-09-18T13:55:00+00:00",
+    "score": 7.47,
+    "duplicates": 0
    },
    {
     "id": "cf165d603b",
@@ -3089,7 +3386,7 @@
     "link": "https://www.federalreserve.gov/newsevents/pressreleases/enforcement20260918b.htm",
     "source": "fed_press",
     "published_utc": "2026-09-18T15:00:00+00:00",
-    "score": 7.84,
+    "score": 7.15,
     "duplicates": 0
    },
    {
@@ -3098,46 +3395,21 @@
     "link": "https://www.federalreserve.gov/newsevents/pressreleases/enforcement20260918a.htm",
     "source": "fed_press",
     "published_utc": "2026-09-18T15:00:00+00:00",
-    "score": 7.84,
+    "score": 7.15,
     "duplicates": 0
-   },
-   {
-    "id": "e8059ce7a4",
-    "title": "Gold Holds Gain as Lower Oil and Fed Hike Temper Inflation Fears - Bloomberg.com",
-    "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNRXA0T0RVa3FhR3N3MmVldzhfM1dNcTlQMjl2M2hzY1gweUdjcFFfMGJvRFQxMC11UWlITEt0TFY2TjdRbHdGTVBDR251bjZPUi0tRmF3U1pPNHlIcDctaGhXYWtIWWFiNHNGR19QdTh5VjlFOUdoRmJGb0NvV1pyekJKZVJJWmRyaEY1RDdFdEdIdFlCZkowZ2gyd1VVeXJoUVNkYVZLaDg5YTBNWVpxcnlibjZvUQ?oc=5",
-    "source": "gnews_macro",
-    "published_utc": "2026-09-18T11:06:31+00:00",
-    "score": 7.7,
-    "duplicates": 0
-   },
-   {
-    "id": "59ec1c15a7",
-    "title": "Federal Reserve’s inflation fight shifts to how far rates will have to rise - baltimoresun.com",
-    "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPYjc4aG5qZHdvX3JiQk5WMDRidFFURnNxdHlxdi1UN3lIeXI1VENPWkhscUdhT1hDMkxlSnI1RkFReFZzRzdmd0ZYU3ZBUFFMVzZqWHFnTkZTaDFjYnh1Z2QxT2R6Nk9vNEY3c2ZJOVBaa3kxcVoyNUVzMzdRbU4zZC1TTXhIRVFvZWRnWl81Ym5fSlYzOG1fd3FOOFVwXzAzckY1UGNPU0hjc1JnUlg4Z1BFMndwdw?oc=5",
-    "source": "gnews_fed",
-    "published_utc": "2026-09-18T11:35:48+00:00",
-    "score": 7.28,
-    "duplicates": 1
-   },
-   {
-    "id": "fd999fa4d5",
-    "title": "US Stock Market Today: S&P 500 Futures Climb On Fed Hike And Firm Spending - simplywall.st",
-    "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPZzhYLWFDZGhqaUF5VWN1Y25fSVMwN3hpNnI4NnMySmgyQzBrYmpQVUlDMThYcW5XQ1NwNHZmYzVOM3Z5M0lEZktUc0xuS0laa0FTa1RQTXhVazFPR1p1bjJrYWVTaldyVEMwUm5aRWFJSjkzM2l1VncyZU5MTjlZeElzZGNoZnhPWEJLWnZrc1A0ZGJ0elQyMjFKaGRxZlAzYTBhbzdtZ295Sk1DVzFVSlM1dzgtM1hXZGplVExaaFpsVWNRci1OWNIBzgFBVV95cUxNLXI4M2M4UTFTUFlQZ0dPSGQtemlOU19iU0h3RHEyZUdtNWVWeVBjSERBbVFVM2hBM05TMk1BVGZLb09xVG1CN1JsRndUNWVDay1iT2UwNUVEUVNIcHpINGM4ME94NGR3czZUSWVMOTlVZUYxZnpkMkNqck1jLWRfdndQNUM2TUtKSnVMd0FyOUVnbXJXMlVRcGRQMGZZeVB2b0pHOC12SF8zclN2OGd5dFhKb1ZqZ2M1NWM5NTV2YUlXNzRWbkJ3djlCdUFtdw?oc=5",
-    "source": "gnews_futures",
-    "published_utc": "2026-09-18T08:35:06+00:00",
-    "score": 7.28,
-    "duplicates": 1
    }
   ],
   "summary": {
    "lines": [
-    "Quad witching adds ESZ26/NQ contract expiry at 09:30 ET, which typically brings elevated volume and volatility into the cash open [bd5d75d0b7]."
+    "Fed hiked rates this week, with Treasury yields near 5% and Warsh's remarks and Schmid's comments fueling debate on further hikes and inflation beyond energy, keeping rate-path uncertainty elevated for futures [ed8b230e0d][9cfd70ff61][c5d66b7d3d][cb952834e6].",
+    "Quad witching with ESZ26 and NQ expiry at 09:30 ET adds positioning-driven volatility and volume around the open and into the close [efa74d0fb4][385b3b6cfd].",
+    "Nasdaq and S&P futures have been swinging on oil price moves, with lower oil easing inflation worries and supporting rebounds after the Fed decision [1774abd047][a572e9e067][385b3b6cfd][efa74d0fb4].",
+    "Gold holding gains on lower oil and the Fed hike reflects the same inflation-temperance narrative influencing cross-asset positioning [e8059ce7a4].",
+    "Fed enforcement actions announced today involve individual banks/employees and are not macro-market relevant for index futures [cf165d603b][44d761ce0b]."
    ],
    "backend": "anthropic",
    "model": "claude-sonnet-5",
-   "dropped": [
-    "no valid citation: Futures reports diverge on the Fed hike reaction: some cite gains while Treasury yields near 5% and the Dow slides, others cite a rebound and rise after Wall Street's rally [efa74d0"
-   ],
+   "dropped": [],
    "warnings": []
   },
   "feeds": [],
