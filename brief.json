@@ -1,7 +1,7 @@
 {
  "meta": {
-  "generated_at_utc": "2026-09-21T10:25:01.110465+00:00",
-  "generated_at_local": "Mon 21 Sep 2026 07:25 ADT",
+  "generated_at_utc": "2026-09-21T10:40:24.337443+00:00",
+  "generated_at_local": "Mon 21 Sep 2026 07:40 ADT",
   "trading_day": "2026-09-21",
   "display_tz": "America/Halifax",
   "version": "0.1.0",
@@ -37,7 +37,7 @@
    "time_utc": "2026-09-22T17:00:00+00:00",
    "local": "14:00 ADT",
    "et": "13:00 ET",
-   "in": "30h 34m",
+   "in": "30h 19m",
    "consensus": null,
    "prior": null
   },
@@ -48,10 +48,10 @@
   {
    "root": "ES",
    "trading_day": "2026-09-21",
-   "as_of_utc": "2026-09-21T10:25:01.110465+00:00",
+   "as_of_utc": "2026-09-21T10:40:24.337443+00:00",
    "source": "yahoo",
    "delayed": true,
-   "last_price": 7765.5,
+   "last_price": 7766.0,
    "levels": [
     {
      "tag": "rn_major_up",
@@ -77,14 +77,14 @@
     {
      "tag": "onh",
      "label": "Overnight high",
-     "price": 7765.5,
+     "price": 7767.5,
      "group": "overnight",
-     "note": "since 18:00 ET, 724 bars"
+     "note": "since 18:00 ET, 740 bars"
     },
     {
      "tag": "wh",
      "label": "Week high",
-     "price": 7765.5,
+     "price": 7767.5,
      "group": "week",
      "note": "since 2026-09-21"
     },
@@ -98,7 +98,7 @@
     {
      "tag": "onvwap",
      "label": "Overnight VWAP",
-     "price": 7748.86,
+     "price": 7749.22,
      "group": "overnight",
      "note": "typical-price VWAP"
     },
@@ -195,14 +195,14 @@
     }
    ],
    "stats": {
-    "last_bar_utc": "2026-09-21T10:14:00+00:00",
-    "last_bar_age_min": 11.0,
+    "last_bar_utc": "2026-09-21T10:30:00+00:00",
+    "last_bar_age_min": 10.4,
     "market_state": "open",
     "profile_volume": 968606.0,
     "prior_day": "2026-09-18",
     "prior_day_rth_range": 43.25,
-    "overnight_range": 44.25,
-    "gap_vs_prior_close": 53.0,
+    "overnight_range": 46.25,
+    "gap_vs_prior_close": 53.5,
     "gap_basis": "last price (pre-market)",
     "atr14": 74.88,
     "atr_days": 14,
@@ -1337,17 +1337,33 @@
      "h": 7765.5,
      "l": 7762.25,
      "c": 7765.5,
-     "v": 2344.0
+     "v": 2515.0
+    },
+    {
+     "t": "2026-09-21T10:15:00+00:00",
+     "o": 7765.75,
+     "h": 7767.0,
+     "l": 7764.75,
+     "c": 7766.25,
+     "v": 2535.0
+    },
+    {
+     "t": "2026-09-21T10:30:00+00:00",
+     "o": 7766.25,
+     "h": 7767.5,
+     "l": 7765.25,
+     "c": 7766.0,
+     "v": 0.0
     }
    ]
   },
   {
    "root": "NQ",
    "trading_day": "2026-09-21",
-   "as_of_utc": "2026-09-21T10:25:01.110465+00:00",
+   "as_of_utc": "2026-09-21T10:40:24.337443+00:00",
    "source": "yahoo",
    "delayed": true,
-   "last_price": 30245.75,
+   "last_price": 30240.75,
    "levels": [
     {
      "tag": "exp_hi",
@@ -1368,7 +1384,7 @@
      "label": "Overnight high",
      "price": 30264.0,
      "group": "overnight",
-     "note": "since 18:00 ET, 724 bars"
+     "note": "since 18:00 ET, 740 bars"
     },
     {
      "tag": "wh",
@@ -1394,7 +1410,7 @@
     {
      "tag": "onvwap",
      "label": "Overnight VWAP",
-     "price": 30110.84,
+     "price": 30112.51,
      "group": "overnight",
      "note": "typical-price VWAP"
     },
@@ -1498,14 +1514,14 @@
     }
    ],
    "stats": {
-    "last_bar_utc": "2026-09-21T10:14:00+00:00",
-    "last_bar_age_min": 11.0,
+    "last_bar_utc": "2026-09-21T10:30:00+00:00",
+    "last_bar_age_min": 10.4,
     "market_state": "open",
     "profile_volume": 340173.0,
     "prior_day": "2026-09-18",
     "prior_day_rth_range": 278.5,
     "overnight_range": 319.0,
-    "gap_vs_prior_close": 330.0,
+    "gap_vs_prior_close": 325.0,
     "gap_basis": "last price (pre-market)",
     "atr14": 402.32,
     "atr_days": 14,
@@ -2639,8 +2655,24 @@
      "o": 30234.0,
      "h": 30247.75,
      "l": 30232.75,
-     "c": 30245.75,
+     "c": 30246.5,
      "v": 1163.0
+    },
+    {
+     "t": "2026-09-21T10:15:00+00:00",
+     "o": 30246.75,
+     "h": 30253.75,
+     "l": 30239.0,
+     "c": 30245.75,
+     "v": 982.0
+    },
+    {
+     "t": "2026-09-21T10:30:00+00:00",
+     "o": 30247.0,
+     "h": 30250.5,
+     "l": 30237.0,
+     "c": 30240.75,
+     "v": 0.0
     }
    ]
   }
@@ -2653,8 +2685,17 @@
     "link": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxNTjdBUm80YWdTLWJxekhleTJ2M0RBR21KdUVfVVhlc2JQU2FVMzllQWZ4cDFCeGgtNTl1aC12Nl9uWU5UVS1QeTdjR1g3aUxNenJYd19LeVJ3X0FJV2RfUGRJdjRSWkIwaXFMTVMwVmt1Z1JCYUVNTnI3TEp4NDhKNzFIUHdqc2tkTno3TkNuaFFwOGlMbGtteEJSVW1MX0dkM091ejRTUEF6R3NsSnM1ek1MZE5vQW0wRDI2NVNJUWtwVDI4X2Y5cHdzNy1ZWG1pYUVxYTRNMVJRN1J0X0VuTmc0d3RIZw?oc=5",
     "source": "gnews_futures",
     "published_utc": "2026-09-21T07:14:40+00:00",
-    "score": 9.97,
+    "score": 9.93,
     "duplicates": 0
+   },
+   {
+    "id": "8cba8f4169",
+    "title": "Gold Steadies as Traders Weigh Inflation and Fed Hike Outlook - Bloomberg.com",
+    "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPM2REa3hXVWU5cXFtbTZYS2xfaGUtc2lLVUEtdzdNNGdHT0lfRGpFZXRGYUhqZUh3ZGg4V29GdEswUUpaand5VG1ZSVE2aWV2OWdfeEgxRU5YVk9JUExZcXB5a2FQdWhmSUg3d0R2aW5qREVlYlFLX1VObE1BY2J2R1c0dmllU3NaLURKNDVHM09GbkcwWXJJTTRtcWdESmo2ckVyak1BZ1VPdThvdVhBOEJR?oc=5",
+    "source": "gnews_fed",
+    "published_utc": "2026-09-21T10:24:51+00:00",
+    "score": 8.96,
+    "duplicates": 1
    },
    {
     "id": "e2d9a832b2",
@@ -2662,7 +2703,7 @@
     "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFA4SzJ0b0UzaDZ2cWZWQVUyY3E1cmpMNks0SFdydnUxUlhRUGp1WjVWZXdvckdVbXZwVU9hcU1zSXZpYW5ISExRM2VLbmE0WGc2QnprTGk0QV9wRGk4MERCWTkyWGpaWkE?oc=5",
     "source": "gnews_futures",
     "published_utc": "2026-09-21T09:17:18+00:00",
-    "score": 8.81,
+    "score": 8.77,
     "duplicates": 0
    },
    {
@@ -2671,7 +2712,7 @@
     "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNcFFVdkNxSG5WV2ZVZUxwaEZWa0pKc2JPZWlGSndlSHc0LXRRM3VUMjBKYUZJWUlOX2tXZHZBRFUybl9iTThiak16cHF5WXFRZEpFV0dSQmc0WU1fNFE4dWZJRWtHcGpHaGd6MGFPalVKVGtXU055VmpKSlNUOUVraHdJTkRzTTJLV09OSTJIbXlfcFhVaW9XLWM3RTBNMUFFR3FQdDJZdDNLWFFfcVlOeF9iTzhhZWt2bXhackMtVVQ?oc=5",
     "source": "gnews_macro",
     "published_utc": "2026-09-21T06:05:48+00:00",
-    "score": 7.78,
+    "score": 7.74,
     "duplicates": 0
    },
    {
@@ -2680,7 +2721,7 @@
     "link": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxPaHBCaEJNd09QUUlXZU13VWgzaDB0bXczbXpUcFphTWdkLUQ4QzFpYk4wMUhEMUN1U0dkOUFuS044WS1tZjNjTHExMC1zRG5Yay1SS1dDd0VMeklhOFFtOTVoelZ0MDJBOUpSNTAtNURJU09pZndvQmpYOE5oaV9sVlBxalU2cUdlMGdmOWgxWjdGS1dMMFFWdHI5cDFKSzU3Z3UxMUowajR6RVZpYkl6RUpVMFlCMlVTUTFFVXBnai1SZkVTbjhBcDhKWHVWNHBBb1AwTkFmYzhWd1hDX05tbWhrbm1ROGZzVUdDZTBaY0I0dw?oc=5",
     "source": "gnews_futures",
     "published_utc": "2026-09-21T02:27:54+00:00",
-    "score": 7.67,
+    "score": 7.63,
     "duplicates": 1
    },
    {
@@ -2689,7 +2730,7 @@
     "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQVnVuX0FFRkc4R09IRFlJRGhoN3pqclVvTEJkOFVXUHM5dWsyWFU3MGFhNzRqOTZOWmUxUmJMOTNjSG9nZ1B3bDJDQmdIa05XMmRRSFU2ZjVjaW5UbXl1aUU4SDk1VUo3N1BwT3VMZGRHODJxREIycTFvZ0hiQUdMZ2RvcTFWTjB2NmdvQ3p3UnY3WUJ2NHNpMlZOaUNJQU52ZkQycFZWSmRZaWE0M1E?oc=5",
     "source": "gnews_futures",
     "published_utc": "2026-09-21T08:14:19+00:00",
-    "score": 7.64,
+    "score": 7.59,
     "duplicates": 0
    },
    {
@@ -2698,17 +2739,26 @@
     "link": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxOODlGZ0Rydm5FZFhEWVd5Q3dOOHpJZS1OZkdaTkdFTExXdUxQRC00d2xTM1V5VWVPOWc3Um9wZEFTZHo3Z2tPMEw3V0k3ZlpDUGRuLWdweDZZd1kxYVhyNllaRUdrVVZOTWtJSzdhMXFsU05wT19PYTgtUE13N1NreHRDRkg0b2ViNExWWWFiVXFBem5mNzZ0OGlmaXlrWWNhYXFmaG93VUM3ZzVGTnZTbm1VcXcyUzFoVUk1UFUtcjFNTUw3VmV5NWNkR2ltczdvOWxCb29JNnM1UQ?oc=5",
     "source": "gnews_macro",
     "published_utc": "2026-09-21T02:03:00+00:00",
-    "score": 7.61,
+    "score": 7.56,
     "duplicates": 0
    },
    {
-    "id": "8cba8f4169",
-    "title": "Gold Erases Weekly Gain as Traders Weigh Inflation and Fed Path - Bloomberg.com",
-    "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPM2REa3hXVWU5cXFtbTZYS2xfaGUtc2lLVUEtdzdNNGdHT0lfRGpFZXRGYUhqZUh3ZGg4V29GdEswUUpaand5VG1ZSVE2aWV2OWdfeEgxRU5YVk9JUExZcXB5a2FQdWhmSUg3d0R2aW5qREVlYlFLX1VObE1BY2J2R1c0dmllU3NaLURKNDVHM09GbkcwWXJJTTRtcWdESmo2ckVyak1BZ1VPdThvdVhBOEJR?oc=5",
-    "source": "gnews_fed",
-    "published_utc": "2026-09-21T07:29:51+00:00",
-    "score": 7.51,
-    "duplicates": 1
+    "id": "3d6e7a0347",
+    "title": "Fed’s Goolsbee Says Road to 2% Inflation May Not Be Painless - Bloomberg.com",
+    "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxQd3FoUENNSE5TTTN6VnZSXzNqRnhsRzZmYUFGRnZRZjRZYlVNUEkxSHhxTUQzRzN4M3BOR0p5RklvTkxDZ2VaelpOMU9DZTk1bkRWR1ZqcjI3ei1SR0JxZFZsakc5OE4tYU90YWIyY0swSGl4SThhWUtveDlXaDY5SXUxTnByb2NCanlQMWFXRlBpMDdYd3dRbXp0eEQySjVoZVdrVGUtS210cVFFaTlMMTZSV2ltX2lXRDJjdkZiaVdXbUl2dlcyY0l1TjM0UQ?oc=5",
+    "source": "gnews_macro",
+    "published_utc": "2026-09-21T10:30:00+00:00",
+    "score": 7.47,
+    "duplicates": 0
+   },
+   {
+    "id": "c7f9f6ffa7",
+    "title": "Fed's Goolsbee: Strong demand may be adding to US inflation, 'no ambiguity' how Fed would react - TradingView",
+    "link": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxQZ1k1U201SlJlZ3Y0aC1ERjhOSHh0LTZLc21vRkhFN3BTS0dySDlkSEFrNDJQM0d5N1c2SkZrSGptWEIxV2NKZ20xUGtoUVpKd3JZNkV3X3hSc0NHOENFcl84RHJYZzlFU0dPczVuRHNrbVB1dU1zeDdoZ21RMVEtQUJHMTRCemJ5QW5NM3ZtSWFzZlpwWWNTRnpGMm5Tb2dHY1ZUNFpxNlZzR1pHczlBRDJpX1hMdDhsQl80aDU3MmVubGpLMGxUOU9scENlS3l5dXJ4MDFaZ3FfWkRxTWx3aTZkZFJSaUwyRUNKNVB1RUVwNVk?oc=5",
+    "source": "gnews_macro",
+    "published_utc": "2026-09-21T10:30:00+00:00",
+    "score": 7.47,
+    "duplicates": 0
    },
    {
     "id": "56c653b30a",
@@ -2716,7 +2766,7 @@
     "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPenJZM0o2UXNES0pSMUNnbGJTQ18yMHY3UGVYdUpIV3lpdWJZQy1jRGRmQmg2c0twN016M2lsa3dmTnB1YzZBT2lLZ3A4U1l0ZnVXcGwzRlhBemZxVEs3SURwZDNPbDRkcW9SWjd1V1NVSlZlYU8wc2hOLXQwMkpDZ016YTMyNHVJTmplb0JhOXQzWVgxdnM3ZF9sZUFrb3ItN0FzQ0tn?oc=5",
     "source": "gnews_macro",
     "published_utc": "2026-09-21T09:25:46+00:00",
-    "score": 7.34,
+    "score": 7.29,
     "duplicates": 0
    },
    {
@@ -2725,7 +2775,7 @@
     "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQemdVX28xQjBCRkZLWndlRDB5RExlQURtNXU0aWJ3dkZDZk5iR3l2LWV1TDdLN2NzSUxkR0hhaXNzR25XT1ZQTkpsV3pDXzAxYlo3c0hZTUN4aDZrekpYTFZHYVByN0NpUzFNZ19yWnY2cGpyQS14ZGw2bEk0blZadXFnXzZNVHRMN1VOcGJWTXFJeDRfN05RVFhJaGhUSFBSeUlJU18yemFWeGkzYlRxQjBrNXRzUQ?oc=5",
     "source": "gnews_fed",
     "published_utc": "2026-09-21T08:29:02+00:00",
-    "score": 7.18,
+    "score": 7.14,
     "duplicates": 0
    },
    {
@@ -2734,38 +2784,24 @@
     "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNVGlrUlFiSC1IbFZpU18xR3ZLSVVFTkRKVmx1R1JRT3kxX0RRSFFXWHg3Z2hVRnVvYVhPYXJfSFdkVzJ0R0JBRWplWFRfT3owUzIybk0zMnkzU1Rkclk5ZktZeTFwTGZCSTVBTVdfRl9WX2hIT1gtcEV3dUptWGZRb0Q2V0F1V1RodTdlZnlYcllUUGVrTWlLd0NEZmxvWE1V?oc=5",
     "source": "gnews_macro",
     "published_utc": "2026-09-21T06:32:05+00:00",
-    "score": 6.85,
+    "score": 6.81,
     "duplicates": 0
-   },
-   {
-    "id": "3c3a211ec8",
-    "title": "US Stock Market Today: S&P 500 Futures Edge Up As Rising Yields Test Growth - Yahoo Finance",
-    "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOU09DczFSckJJNHlBR1NNZnQ1UkdBdERfbmF1NzQ1VjFwVXI3T0FwZ1phZkNyZ1pzbjBYcXc2QkpPcVh6ZlZPMl92dWczeV9WbUJHT0JQSDBZS2FHdFcxN0IwR09xbnp2aDh0b0J6QkdwcFMyT0M2ejJGLXBPV3R6Tlo0aHZoV3NaZWNFeXItVU5Bdw?oc=5",
-    "source": "gnews_futures",
-    "published_utc": "2026-09-21T08:12:54+00:00",
-    "score": 6.63,
-    "duplicates": 0
-   },
-   {
-    "id": "3f8d3f0d1d",
-    "title": "Europe's gas price surge may feed into inflation more quickly, ECB finds - Reuters",
-    "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPYlZORjIxVTNxX0RoX2h1WS1idFNvSGFRN09nZ0dmRGtfbm9wR0thb01MbnNpUkZWU0lNSFdNU28tQWp3UndBMFNBQ0tQQm9KaGwzYjVkSmVselNOb3EwQ1U2MU1yUFhSTC1HM0FadE5NV2UwWi1Ya1BjYkFZUnFyZmRlYU43bTN1Z1JPT1pjcGtMZWY2b1I0SEp3eVE4aHpZMmNHRFFsZTVmRlVDeU5OWnpNWU80ZDNhWVZmaF9PVQ?oc=5",
-    "source": "gnews_macro",
-    "published_utc": "2026-09-21T08:08:17+00:00",
-    "score": 6.62,
-    "duplicates": 2
    }
   ],
   "summary": {
    "lines": [
-    "Reports conflict on Fed action: one cites a rate hike amid worsening inflation outlook while others frame the Fed as fighting inflation and debate whether it's solely the Fed's problem, plus a prediction-market bet on an October hike — watch for volatility around any Fed-speak or data surprises [a5ef9d3506][b7e7bf8965][9638e5499a][e187395da7]."
+    "IXIC: Nasdaq Futures Rise as Asia Chip Rally Downplays Hawkish Fed. What to Watch This Week - TradingView [147f776252]",
+    "Gold Steadies as Traders Weigh Inflation and Fed Hike Outlook - Bloomberg.com [8cba8f4169]",
+    "US Stock Futures Rise Following Geopolitical Tensions and Inflation - SuaraGarut.ID [e2d9a832b2]",
+    "Fed raises rates for first time since 2023 as inflation outlook worsens - The Asian Banker [a5ef9d3506]",
+    "Dow, S&P 500, Nasdaq Futures Climb Ahead Of Key China Summit: CRML, APLD, GME, AMD Stocks In Focus - Stocktwits [b831c56b16]"
    ],
    "backend": "anthropic",
    "model": "claude-sonnet-5",
-   "dropped": [
-    "ungrounded number(s) ['831']: Nasdaq/S&P futures are shown higher pre-open, attributed to an Asia chip-sector rally, geopolitical tension, and positioning ahead of a China summit — a gap-up bias into the open [147f776252][e2d9a832b2][b831"
-   ],
-   "warnings": []
+   "dropped": [],
+   "warnings": [
+    "summariser produced no valid lines; showing digest"
+   ]
   },
   "feeds": [],
   "warnings": []
