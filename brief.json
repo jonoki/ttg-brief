@@ -1,11 +1,11 @@
 {
  "meta": {
-  "generated_at_utc": "2026-09-21T16:03:06.181434+00:00",
-  "generated_at_local": "Mon 21 Sep 2026 13:03 ADT",
+  "generated_at_utc": "2026-09-21T20:05:01.464079+00:00",
+  "generated_at_local": "Mon 21 Sep 2026 17:05 ADT",
   "trading_day": "2026-09-21",
   "display_tz": "America/Halifax",
   "version": "0.1.0",
-  "run": "intraday",
+  "run": "post-close",
   "variant": "public"
  },
  "calendar": {
@@ -37,7 +37,7 @@
    "time_utc": "2026-09-22T17:00:00+00:00",
    "local": "14:00 ADT",
    "et": "13:00 ET",
-   "in": "24h 56m",
+   "in": "20h 54m",
    "consensus": null,
    "prior": null
   },
@@ -48,10 +48,10 @@
   {
    "root": "ES",
    "trading_day": "2026-09-21",
-   "as_of_utc": "2026-09-21T16:03:06.181434+00:00",
+   "as_of_utc": "2026-09-21T20:05:01.464079+00:00",
    "source": "yahoo",
    "delayed": true,
-   "last_price": 7806.5,
+   "last_price": 7834.75,
    "levels": [
     {
      "tag": "rn_major_up",
@@ -61,25 +61,32 @@
      "note": ""
     },
     {
-     "tag": "rn_minor_up",
-     "label": "Round 25 above",
-     "price": 7825.0,
-     "group": "round",
-     "note": ""
-    },
-    {
      "tag": "tdh",
      "label": "Today's RTH high",
-     "price": 7811.5,
+     "price": 7847.25,
      "group": "today",
-     "note": "so far"
+     "note": "session complete"
     },
     {
      "tag": "wh",
      "label": "Week high",
-     "price": 7811.5,
+     "price": 7847.25,
      "group": "week",
      "note": "since 2026-09-21"
+    },
+    {
+     "tag": "tdc",
+     "label": "Today's RTH close (16:00 bar)",
+     "price": 7834.75,
+     "group": "today",
+     "note": "becomes next session's prior-day close"
+    },
+    {
+     "tag": "rn_minor_dn",
+     "label": "Round 25 below",
+     "price": 7825.0,
+     "group": "round",
+     "note": ""
     },
     {
      "tag": "rn_major_dn",
@@ -216,8 +223,8 @@
     }
    ],
    "stats": {
-    "last_bar_utc": "2026-09-21T15:53:00+00:00",
-    "last_bar_age_min": 10.1,
+    "last_bar_utc": "2026-09-21T19:55:00+00:00",
+    "last_bar_age_min": 10.0,
     "market_state": "open",
     "profile_volume": 968606.0,
     "prior_day": "2026-09-18",
@@ -1540,52 +1547,187 @@
      "t": "2026-09-21T15:45:00+00:00",
      "o": 7804.75,
      "h": 7811.5,
-     "l": 7804.75,
-     "c": 7806.5,
-     "v": 27703.0
+     "l": 7803.0,
+     "c": 7805.25,
+     "v": 42127.0
+    },
+    {
+     "t": "2026-09-21T16:00:00+00:00",
+     "o": 7805.25,
+     "h": 7816.5,
+     "l": 7802.75,
+     "c": 7813.25,
+     "v": 44845.0
+    },
+    {
+     "t": "2026-09-21T16:15:00+00:00",
+     "o": 7813.5,
+     "h": 7818.25,
+     "l": 7812.0,
+     "c": 7816.0,
+     "v": 29815.0
+    },
+    {
+     "t": "2026-09-21T16:30:00+00:00",
+     "o": 7816.0,
+     "h": 7824.75,
+     "l": 7815.75,
+     "c": 7818.0,
+     "v": 37978.0
+    },
+    {
+     "t": "2026-09-21T16:45:00+00:00",
+     "o": 7818.0,
+     "h": 7821.25,
+     "l": 7817.25,
+     "c": 7821.0,
+     "v": 21998.0
+    },
+    {
+     "t": "2026-09-21T17:00:00+00:00",
+     "o": 7821.25,
+     "h": 7827.0,
+     "l": 7819.5,
+     "c": 7826.0,
+     "v": 25250.0
+    },
+    {
+     "t": "2026-09-21T17:15:00+00:00",
+     "o": 7826.25,
+     "h": 7828.0,
+     "l": 7822.0,
+     "c": 7826.0,
+     "v": 27879.0
+    },
+    {
+     "t": "2026-09-21T17:30:00+00:00",
+     "o": 7826.25,
+     "h": 7827.25,
+     "l": 7820.0,
+     "c": 7826.75,
+     "v": 29195.0
+    },
+    {
+     "t": "2026-09-21T17:45:00+00:00",
+     "o": 7826.75,
+     "h": 7830.0,
+     "l": 7825.25,
+     "c": 7826.75,
+     "v": 25718.0
+    },
+    {
+     "t": "2026-09-21T18:00:00+00:00",
+     "o": 7827.0,
+     "h": 7832.5,
+     "l": 7827.0,
+     "c": 7830.75,
+     "v": 26410.0
+    },
+    {
+     "t": "2026-09-21T18:15:00+00:00",
+     "o": 7830.75,
+     "h": 7838.25,
+     "l": 7829.75,
+     "c": 7837.0,
+     "v": 28024.0
+    },
+    {
+     "t": "2026-09-21T18:30:00+00:00",
+     "o": 7837.0,
+     "h": 7839.75,
+     "l": 7833.75,
+     "c": 7839.75,
+     "v": 25581.0
+    },
+    {
+     "t": "2026-09-21T18:45:00+00:00",
+     "o": 7839.5,
+     "h": 7844.75,
+     "l": 7839.0,
+     "c": 7841.25,
+     "v": 37079.0
+    },
+    {
+     "t": "2026-09-21T19:00:00+00:00",
+     "o": 7841.5,
+     "h": 7843.5,
+     "l": 7837.75,
+     "c": 7842.75,
+     "v": 30656.0
+    },
+    {
+     "t": "2026-09-21T19:15:00+00:00",
+     "o": 7842.75,
+     "h": 7843.0,
+     "l": 7838.25,
+     "c": 7839.25,
+     "v": 25656.0
+    },
+    {
+     "t": "2026-09-21T19:30:00+00:00",
+     "o": 7839.25,
+     "h": 7847.25,
+     "l": 7838.75,
+     "c": 7842.5,
+     "v": 41007.0
+    },
+    {
+     "t": "2026-09-21T19:45:00+00:00",
+     "o": 7842.25,
+     "h": 7843.5,
+     "l": 7834.5,
+     "c": 7834.75,
+     "v": 48248.0
     }
    ]
   },
   {
    "root": "NQ",
    "trading_day": "2026-09-21",
-   "as_of_utc": "2026-09-21T16:03:06.181434+00:00",
+   "as_of_utc": "2026-09-21T20:05:01.464079+00:00",
    "source": "yahoo",
    "delayed": true,
-   "last_price": 30622.5,
+   "last_price": 30789.0,
    "levels": [
-    {
-     "tag": "rn_major_up",
-     "label": "Round 100 above",
-     "price": 30700.0,
-     "group": "round",
-     "note": ""
-    },
-    {
-     "tag": "rn_minor_up",
-     "label": "Round 50 above",
-     "price": 30650.0,
-     "group": "round",
-     "note": ""
-    },
     {
      "tag": "tdh",
      "label": "Today's RTH high",
-     "price": 30639.25,
+     "price": 30862.75,
      "group": "today",
-     "note": "so far"
+     "note": "session complete"
     },
     {
      "tag": "wh",
      "label": "Week high",
-     "price": 30639.25,
+     "price": 30862.75,
      "group": "week",
      "note": "since 2026-09-21"
     },
     {
+     "tag": "rn_major_up",
+     "label": "Round 100 above",
+     "price": 30800.0,
+     "group": "round",
+     "note": ""
+    },
+    {
+     "tag": "tdc",
+     "label": "Today's RTH close (16:00 bar)",
+     "price": 30789.0,
+     "group": "today",
+     "note": "becomes next session's prior-day close"
+    },
+    {
+     "tag": "rn_minor_dn",
+     "label": "Round 50 below",
+     "price": 30750.0,
+     "group": "round",
+     "note": ""
+    },
+    {
      "tag": "rn_major_dn",
      "label": "Round 100 below",
-     "price": 30600.0,
+     "price": 30700.0,
      "group": "round",
      "note": ""
     },
@@ -1724,8 +1866,8 @@
     }
    ],
    "stats": {
-    "last_bar_utc": "2026-09-21T15:53:00+00:00",
-    "last_bar_age_min": 10.1,
+    "last_bar_utc": "2026-09-21T19:55:00+00:00",
+    "last_bar_age_min": 10.0,
     "market_state": "open",
     "profile_volume": 340173.0,
     "prior_day": "2026-09-18",
@@ -3048,9 +3190,137 @@
      "t": "2026-09-21T15:45:00+00:00",
      "o": 30613.25,
      "h": 30639.25,
-     "l": 30613.25,
-     "c": 30622.5,
-     "v": 9347.0
+     "l": 30601.5,
+     "c": 30609.75,
+     "v": 13957.0
+    },
+    {
+     "t": "2026-09-21T16:00:00+00:00",
+     "o": 30610.25,
+     "h": 30661.25,
+     "l": 30601.5,
+     "c": 30652.5,
+     "v": 15330.0
+    },
+    {
+     "t": "2026-09-21T16:15:00+00:00",
+     "o": 30653.5,
+     "h": 30687.5,
+     "l": 30648.0,
+     "c": 30678.25,
+     "v": 11532.0
+    },
+    {
+     "t": "2026-09-21T16:30:00+00:00",
+     "o": 30677.75,
+     "h": 30704.25,
+     "l": 30665.75,
+     "c": 30670.25,
+     "v": 12590.0
+    },
+    {
+     "t": "2026-09-21T16:45:00+00:00",
+     "o": 30670.25,
+     "h": 30682.5,
+     "l": 30665.0,
+     "c": 30680.5,
+     "v": 7153.0
+    },
+    {
+     "t": "2026-09-21T17:00:00+00:00",
+     "o": 30680.5,
+     "h": 30694.25,
+     "l": 30675.75,
+     "c": 30689.0,
+     "v": 7308.0
+    },
+    {
+     "t": "2026-09-21T17:15:00+00:00",
+     "o": 30689.0,
+     "h": 30693.0,
+     "l": 30664.25,
+     "c": 30687.75,
+     "v": 9251.0
+    },
+    {
+     "t": "2026-09-21T17:30:00+00:00",
+     "o": 30688.0,
+     "h": 30716.5,
+     "l": 30670.75,
+     "c": 30714.0,
+     "v": 9265.0
+    },
+    {
+     "t": "2026-09-21T17:45:00+00:00",
+     "o": 30714.25,
+     "h": 30724.5,
+     "l": 30708.25,
+     "c": 30712.5,
+     "v": 7706.0
+    },
+    {
+     "t": "2026-09-21T18:00:00+00:00",
+     "o": 30712.75,
+     "h": 30736.75,
+     "l": 30712.5,
+     "c": 30730.25,
+     "v": 7989.0
+    },
+    {
+     "t": "2026-09-21T18:15:00+00:00",
+     "o": 30730.75,
+     "h": 30759.0,
+     "l": 30729.5,
+     "c": 30753.5,
+     "v": 9449.0
+    },
+    {
+     "t": "2026-09-21T18:30:00+00:00",
+     "o": 30753.75,
+     "h": 30767.5,
+     "l": 30737.0,
+     "c": 30765.25,
+     "v": 9928.0
+    },
+    {
+     "t": "2026-09-21T18:45:00+00:00",
+     "o": 30765.0,
+     "h": 30797.25,
+     "l": 30762.0,
+     "c": 30786.5,
+     "v": 11417.0
+    },
+    {
+     "t": "2026-09-21T19:00:00+00:00",
+     "o": 30786.75,
+     "h": 30802.5,
+     "l": 30773.0,
+     "c": 30801.75,
+     "v": 10268.0
+    },
+    {
+     "t": "2026-09-21T19:15:00+00:00",
+     "o": 30801.5,
+     "h": 30813.5,
+     "l": 30794.75,
+     "c": 30803.75,
+     "v": 9776.0
+    },
+    {
+     "t": "2026-09-21T19:30:00+00:00",
+     "o": 30803.0,
+     "h": 30862.75,
+     "l": 30800.25,
+     "c": 30835.5,
+     "v": 16803.0
+    },
+    {
+     "t": "2026-09-21T19:45:00+00:00",
+     "o": 30835.0,
+     "h": 30837.75,
+     "l": 30786.75,
+     "c": 30789.0,
+     "v": 14666.0
     }
    ]
   }
@@ -3058,13 +3328,13 @@
  "news": {
   "headlines": [
    {
-    "id": "a7e49e03e6",
-    "title": "Federal Reserve official says fighting inflation likely to be ‘painful’ - WTVG",
-    "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPdlpnbC1UbVh1Y2hBX043ZTRnbldBOC1LMWlzcFROeW4xcTNoZkludklsNmo5NVdtOERoUFUtbUN0cFNFTE5zb09VMUw5RV9uUjJHcG9qb0RJejI0NWxRcnhobThhakc3ZGZGTWxybks1VHdoanNNNU54eXp6VmJkRmJib0hmWG9yTzF4MzZCekFoNktwRGlvc0JtWXF3c3owS1HSAbYBQVVfeXFMTkF4VjRGZXBxTUlDQnR6TXpXVk5ldk5BU0FQNFhSTzZ5QXBFU1E0VHp1V3VJMDFFU1p0T0hMaVpMandRR1RQVHhaQlBCbGVfeE1zQWFPaEtlVEhfLTdGdkdkR3h0ek1XaEFwZEJNaGJ1SkVoLVFJaDhpV0xwN3FUY0dYMWh2QUZaYUE0aUtGczZGWlYyTUkxSk5QckJSRlNEUTVPNFRwQW1WZkFCeUxwM0xBMS1BMGc?oc=5",
-    "source": "gnews_fed",
-    "published_utc": "2026-09-21T15:28:00+00:00",
-    "score": 10.9,
-    "duplicates": 7
+    "id": "5db32d7d68",
+    "title": "Federal Reserve Official Says Fighting Inflation Likely To Be ‘Painful’ - washingtonsun.com",
+    "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQUm40WFNSY0ZEUHU3WjRvZUtVSElQZnR6ZEw1WGtrazU0aVBMeE50MHROSmR1Z0EzUmVQdjVES2E4N3k1WjMtNURsYlM2bDJ4WnFNdlprRjRHZjl1a3hpVWMzTHRGS1hBc0pia090azZtdWRyZzUzYWhoYXR2ZWM4NjZB?oc=5",
+    "source": "gnews_macro",
+    "published_utc": "2026-09-21T19:36:42+00:00",
+    "score": 11.42,
+    "duplicates": 8
    },
    {
     "id": "3237b79f30",
@@ -3072,7 +3342,34 @@
     "link": "https://news.google.com/rss/articles/CBMirwJBVV95cUxQeTB4MEtUa0xqdElyU1RDSHlWVGpsYmZncGZkZWg4THExcURTNzg3ZjMyRzZWcnNlNkRRSlFMSTBMalBLWkw5a2RzMFFGVGRLWXl4ajRLR3ZkdlBoNWpoX0ZkODVjNmdtZG9FUkJUNDFzZmgxM012eHA3N191aGptOVM3dzQ5OF85aWY5bmwwQW1XRDZRLXFQWnFJT0NUT3FBNXlHMFpXemI4QnVOaDNTWUNVeW5EaUlUblZ0NXNoMjJTTzlDTjJfSTlvM3BJbkNHT2JwNWxUalBVVzhfR3Z1LVpIdVBoTUtVOF90OW9oZFBiSHVFQ1FKQ1NETC14QXVNNnNLeTh1cmlreUQzSFlvamc2cTJ6YWJxUFZsYnJMT21ZUjNpa0RzV3JqbHYwMjjSAbQCQVVfeXFMTWs5ZWZ4elZqMjdNR3psendkNlJiS19ITGMxeWhoZlVJbkpfRmtvV09xUWE1LW03TEx3R1pMUlhmaksweXVxY05rLTBuOUMzeEI5OW5rNFB1cDF6QlpPbWRhNnRQR0dleG9DWmJVY0dXYjh6c29qX2FiN0JHdjVmbjFyQlB1SmZWaUdyMldCZlZlS3NTUUIydjEtcFRaTVFTWDB0M1QzcklyanlnMXpJaEoxTTBCVTRQYVVuVThCb3NtalZFejBKelFMczRHdm54M3EwWE5jU0VFUDc3X282dE5yRjhIaktRVW1IOGpqc1U0RW11a0M2MUtmcmthQ0FKWUJEUk9scUNnbElIcnBuYUJXQVNOQlRXSnlZMV9pQWV0enBZdTVwbDlWTjJiLWdaZ2NBMEQ?oc=5",
     "source": "gnews_futures",
     "published_utc": "2026-09-21T13:04:03+00:00",
-    "score": 10.0,
+    "score": 9.33,
+    "duplicates": 0
+   },
+   {
+    "id": "5c229d1af3",
+    "title": "EXCLUSIVE: Fed's Musalem says more rate hikes likely needed to quell inflation - Reuters",
+    "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPVjJsZS0wTVZyNThsTkszYWk2c2xqN19RbzlWSnpqQ3cwZ0xCLWFTT0xaVkpkWkE5MmhDZFg1bHZzUW9EYlBuQVpUOVIydEJoVmR6OVl0ME5WNllZZTRVWXFMYy0yX19mNG9nYU5GbFpMdXdaeTA3ZDFiOXlTTlBGNDBmZ2VxR0I3UzE4M25hVGNZcDZXU0pXSFdXV1FIRVQ3dEh4XzRnLUZDN3do?oc=5",
+    "source": "gnews_fed",
+    "published_utc": "2026-09-21T18:54:06+00:00",
+    "score": 9.3,
+    "duplicates": 4
+   },
+   {
+    "id": "d67af32895",
+    "title": "Wall Street ends sharply higher as AI optimism reignites and Treasury yields retreat - marketscreener.com",
+    "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxQaGF6MHZOM0tIV2F5R3ZNVDVqbHJEZkQ0ZndUM01YSWVBRnRtZ2NRZ3k2NU96RFduakNONlB2WFh3S2FsOEczbHhqNFZuRklyQVBoVmJlZGwxTWQ2dldnRWtrQmNJeFByN19hTEVkM0dKREVrdHZZNG1PN3E5a2JwQUdMeUlJZnlkc0JLWnczQ1ZRSF9UeFpSclVLdDNad2F0d1pvbGpIb2VFWExCQkVaWU55bk1PRFdGZmY1M3Y0V2NkeHROOER2U01rdFg1bTk5SmVJ?oc=5",
+    "source": "gnews_macro",
+    "published_utc": "2026-09-21T20:01:26+00:00",
+    "score": 8.99,
+    "duplicates": 4
+   },
+   {
+    "id": "16f862a7a5",
+    "title": "US-Iran War Puts Oil, Inflation and Wall Street on a Collision Course - finchannel",
+    "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNRjR2S1Y1VndSbnF0UDdnMDBCT2x0RlJPRHlZSUZfT043ejFqLWlJZUVfVzFvd3FwZWM2bUVLNGlRbXJCQmZMazVqdFp6X1ZRMVNFUnkzTUZwZ1pjNUNGbEM0WmtWSUNHUzd5LXNoWEU0N2lSWDVJUmdwUlVEem5OcU8wLU93ajVIVkIxZmNMYUZ1Y1U2YnhidzdBNmgxb0lHcGxCUURubXZ0TC0zcE9HM19HdVpxZw?oc=5",
+    "source": "gnews_macro",
+    "published_utc": "2026-09-21T19:10:33+00:00",
+    "score": 8.85,
     "duplicates": 0
    },
    {
@@ -3081,102 +3378,74 @@
     "link": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxNTjdBUm80YWdTLWJxekhleTJ2M0RBR21KdUVfVVhlc2JQU2FVMzllQWZ4cDFCeGgtNTl1aC12Nl9uWU5UVS1QeTdjR1g3aUxNenJYd19LeVJ3X0FJV2RfUGRJdjRSWkIwaXFMTVMwVmt1Z1JCYUVNTnI3TEp4NDhKNzFIUHdqc2tkTno3TkNuaFFwOGlMbGtteEJSVW1MX0dkM091ejRTUEF6R3NsSnM1ek1MZE5vQW0wRDI2NVNJUWtwVDI4X2Y5cHdzNy1ZWG1pYUVxYTRNMVJRN1J0X0VuTmc0d3RIZw?oc=5",
     "source": "gnews_futures",
     "published_utc": "2026-09-21T07:14:40+00:00",
-    "score": 9.03,
+    "score": 8.5,
     "duplicates": 0
    },
    {
-    "id": "868e318278",
-    "title": "Chicago Fed’s Goolsbee says road to 2% inflation may not be painless - Crain's Chicago Business",
-    "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPSjFvb1JQSmFTeUI5SkRuSGI3TEVQQXppRW5hN0pCR2dGVDdyaE1HdUZWbWUxWWIySzJNU0F1dHNPY09VRy1mcVEtSC1LTU9HVWRSbTVFeVRJVXBzVFNiZ3RHOHkzcmpwWmpCQTB1aUI0UkhVZFk1YmRSY3h2N3RnRDl1WmtOOEd1ZEtPYUVBRktzVEJXRXYxby1qVQ?oc=5",
-    "source": "gnews_fed",
-    "published_utc": "2026-09-21T15:24:00+00:00",
-    "score": 8.89,
-    "duplicates": 3
-   },
-   {
-    "id": "40bb736096",
-    "title": "Fed's Goolsbee says strong demand may be adding to US inflation - reuters.com",
-    "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPZ0hYN2ZsV3h2enhYZkdSaVlTUFRLQnFaNnRmYVJ6LTZxdGN1SGowVDdHUUNRR3pCdXExRG9MdGFRN0dlWEdnWTVfd0NaWnRDRFo5T0pZSnZmRnJWdWxqdEljUVV3LUItRjdjbF9uUzBucjNUeWNBdlZXMDdWbE42elpySFJ6eURzTm02S0xqQWQ3bVFrVU4xLUp4MlpicnN6c19Qc1JTQzVUc1ZBVkVYV2wwS3BwRHNyZXZsZw?oc=5",
-    "source": "gnews_fed",
-    "published_utc": "2026-09-21T14:14:26+00:00",
-    "score": 8.7,
-    "duplicates": 3
-   },
-   {
-    "id": "6da888b595",
-    "title": "Stock Market Today: Dow Up As Alphabet Shines, Tech Fund Offers Entry; Oil Dips On Iran Hopes (Live Coverage)",
-    "link": "https://www.investors.com/market-trend/stock-market-today/dow-jones-sp500-nasdaq-oil-prices-treasury-yields-nvidia-stock-nvda-buy-point/?src=A00220&yptr=yahoo",
-    "source": "yahoo_finance",
-    "published_utc": "2026-09-21T15:07:46+00:00",
-    "score": 8.35,
-    "duplicates": 0
-   },
-   {
-    "id": "7671d7df37",
-    "title": "Kevin Mahn's 'Air 7' AI stock picks, Neel Kashkari's inflation warnings and Fed rate decisions - Fox Business",
-    "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5ScHdhWms4MndHc2NxUGRqQUdJaFExOWlCbXM0LWEwdkpyM2NBXzcybXppc2hBUDJIdTdGbmxRc2pLUG8yV19YbmVJSEFLWDZlVkpDMG9OVUFUWmM?oc=5",
+    "id": "d767e1f1d6",
+    "title": "The Fed Is Watching AI Inflation. Here's What ETF Investors Should Watch - TradingView",
+    "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPaVc1RjRrOHBjWEhiRERQakx1Z2pHaUc1Ml9NS3pua2RCLTF1TDZpc0tfLURMTHJTRkRwdk5NbzBSSlpSNGtNVnFKdy1kZkhXM3NLcWtybnV3Rmg1Mml4TFN3SDluZmlmYlRhUkoxMi0wZlFwa2FObVdza3dxUnVZX0ptMUdFekhmeWdRNTJIYkx3ZDhyTEVMS29nZ1dodFBYcS1SVGljX3drVE0zMzExQkJfczNlMmFkRUpzcEtMMmp3WnRUdnd3Z1VB?oc=5",
     "source": "gnews_macro",
-    "published_utc": "2026-09-21T14:14:45+00:00",
-    "score": 8.2,
+    "published_utc": "2026-09-21T15:54:23+00:00",
+    "score": 7.8,
     "duplicates": 0
    },
    {
-    "id": "05000a28d3",
-    "title": "Federal Reserve raises interest rates in an effort to cut inflation - KTVE – myarklamiss.com – Your ArkLaMiss News Source",
-    "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPSzNMRW55MWdIQXAwa2oxaThubEJrY21HdXQ0VUJmSWN1UlZDWVlydzZMM0VhZ1hCM25EZEtzTnpSanpnMmV4dk5MU0FJTmJMelJYczA2SGJQclBja0RiQzZtUHlzV1NOeWFoM0tZMG9lUkFNUnRDbHpmSXY1dHVzamd3cTByaVJTMFlMakZBeWlWM1hTZGhzTm1DUjZqT2tPd01QYW5OVzdqblltUW13VVNBa2_SAboBQVVfeXFMTjVSalVZQ1BwUzgzNWVfeVZmUHVCbEVlX1AtaXZud2xOQzB0YzZEUndaQ1hvWmtaRFVPZzE4bm9LblRJai1wSVM2NnBzb3FsS0hteEdvQ0xpb2xBMkU1V2tSOUJaUFY3ZFpwQVlpV0l2cUpoNGNIUEpwYnBrLVhNb3V4OGtqTUtnMFBqT1BaLXNTWEVLTkdoZGtrQ3EtM0V3UzM2bVlJOTFUOUp5eVJrTWFOeE5jWWw5bklR?oc=5",
-    "source": "gnews_fed",
-    "published_utc": "2026-09-21T13:24:20+00:00",
-    "score": 8.06,
-    "duplicates": 2
-   },
-   {
-    "id": "1774abd047",
-    "title": "Nasdaq, S&P 500 Futures Rebound After Fed Rate Hike: NVDA, NBIS, SNAP, SPCX, BE, GNRC Stocks In Focus - Stocktwits",
-    "link": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxOUXJEaHROQVZGQ1piWlVodkxVX2tnRFR3ZVZJbXo3SzlsYXdwTERsVzhvSlhFbzlBYTA1blhkaXEzMnF1X29CREEtN2Y2S3Q2dWZzckJ2dmh6d2Y5NGV1bl9lb2FlSjhKaWFaZC1zVS1KNTR5U1lNTjUzRTZRb2U0WDNTSTFtTkhXa1ltbFBfMmdQbnAyN2RVSm9QbDhxUGJPWnRaVUNZVEpVSjV5cVg4bXFCMmd1VkM5YU1weDZPQTRYdFF6OHY5dE5OSTZsam45aElaVW41ZWpHMjE5bjJlWl8wUFU0eVc1eE1mdw?oc=5",
-    "source": "gnews_futures",
-    "published_utc": "2026-09-21T00:35:32+00:00",
-    "score": 8.0,
+    "id": "8a58f09ef4",
+    "title": "The Fed Hikes Rates Amid Sticky Inflation and Strong Economic Data - Investing.com",
+    "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNdFhqN1dIUUY0N3F2OUc0dnRLd3hrMkhzZ21CenVOaHU2d1Z5YlhDT1FMcFpTNnVFX1ZwaHh6R3pibkV6b19mODFneEh4VWFJR2p0bGlHeDAwT2JLdElJMWFSNEdIajlWZEtzNmJnSGZDUGs2SWNGVThyLTVHS0UzOVVUak90U1FCOGFXbUI2SHVQQ0VrN2IwcTZqbjNZZW5KckVDcGoyUm5uOTdqaTdPZg?oc=5",
+    "source": "gnews_macro",
+    "published_utc": "2026-09-21T19:54:54+00:00",
+    "score": 7.47,
     "duplicates": 0
    },
    {
-    "id": "e2d9a832b2",
-    "title": "US Stock Futures Rise Following Geopolitical Tensions and Inflation - SuaraGarut.ID",
-    "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFA4SzJ0b0UzaDZ2cWZWQVUyY3E1cmpMNks0SFdydnUxUlhRUGp1WjVWZXdvckdVbXZwVU9hcU1zSXZpYW5ISExRM2VLbmE0WGc2QnprTGk0QV9wRGk4MERCWTkyWGpaWkE?oc=5",
-    "source": "gnews_futures",
-    "published_utc": "2026-09-21T09:17:18+00:00",
-    "score": 7.87,
+    "id": "63b08fa0ae",
+    "title": "The Federal Reserve Is Shadowboxing Inflation - LinkedIn",
+    "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQbng5MXVVSUt5cVBNWW45TlotU1kySGFNTlBrbjF4MEZPN21EWU9hVjVtUW1DY19zZ29oVHV5Q2gyYzlFeHU4QUFHWWY3a1g1cUJub1d4dDUzVkIxZUljVDFwTFZBZG9BTl9maWN2ZWlLRkhpRjN5elY4d0xWZ3RfTmhTQnJNX1hXSnlINnd4bFpnUQ?oc=5",
+    "source": "gnews_fed",
+    "published_utc": "2026-09-21T19:48:19+00:00",
+    "score": 7.45,
     "duplicates": 0
    },
    {
-    "id": "ba6690a2c6",
-    "title": "Federal Reserve’s inflation response may need to be more ‘aggressive’, says official - Financial Times",
-    "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQTmdmb192UXVHb3NNUmJxNDRyWHp0aVU0ZTc3R19vTGNhZFlSSm9ZVnhoSTBrbURqcnFOSERTdlVfbHlNWGZmbk1zSTc0WHRaY2pqUVlWZGlhUXNyVkpIWXRjOHpyTjh3SnhOM2M2TU1NR2Mzcm9WWnJXeloyME0wUDM0dmc?oc=5",
-    "source": "gnews_fed",
-    "published_utc": "2026-09-21T15:10:13+00:00",
-    "score": 7.85,
-    "duplicates": 1
+    "id": "f8e6580569",
+    "title": "Nvidia: One Of 5 AI Stocks Down Big (Relative To Earnings) (NASDAQ:NVDA) - Seeking Alpha",
+    "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQVkFzZnNYM1lkbEY0NmhobjRZaDdXMXlaUjZrS3gxMk1fUnVGM2RxWlFfQmtTaFlsSEc4bW1WOVBJZ2xJM2dEakpYOTJCMm1DN0o1RldsX2hadDFqZlVZU3U2TkpxQTJINzhTdmJoZGhpQVVsakFsM3MwTUhkWXFqdE9YQ1dqemNWUEVwc1dYSkxTNzlvdHBzbE5Jdm8?oc=5",
+    "source": "gnews_megacap",
+    "published_utc": "2026-09-21T16:46:26+00:00",
+    "score": 7.45,
+    "duplicates": 0
    },
    {
-    "id": "04416b1ea8",
-    "title": "How Are Firms Using Their Tariff Refunds? - Atlanta - Federal Reserve Bank",
-    "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNekZrRUhNVEhvWTRVV2NYMV95bV9JWVZmX25mWW5xbHRHNnRDanlEc2JfSGh3d0dmOGdzS2Frc1g2ZnB5ZjdzWWRnM21Ycko4QkdlV1ZvQml5LW03NGNLVWVCR0hUSnN5ZXF3N09xOWxmZC1ZTHZ6MTF5eFp2TFZDRzFZRHhUTnhhYm94elNEaTdPS1hXQ1cwc29qMzVIVXJuMXdyWF9TZXVpWGcySlNsMnl3MngtN05XMzRxTC0zYTlmdw?oc=5",
-    "source": "gnews_fed",
-    "published_utc": "2026-09-21T14:03:50+00:00",
-    "score": 7.67,
-    "duplicates": 1
+    "id": "16f27489d6",
+    "title": "AI stocks lift Wall Street as oil falls, Treasury yields decline - The Detroit News",
+    "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPaGlBN0FhMlF1YkNLTThJRjB1OTl2Rk9SMWQ4cHl4TFBKVVJTcFViMFVQdkk2ckpaRkQwVFBtYTVuV1R6WklQdzU5SE9vcVpRVXRUOWQybEx2cVRYM1RKYncxRmw2U2VOOEd3RUhhMVlJa2FUOUlyQS1aYm5RVGNnd1FIT0tfdXc4Tlc1WWxwM1BMbjE3Z3pidFJqUXhTUF9WQmhRdEZqU2FuNENZYVFwMjVZT1ZrM0dHQ3doU3l6TER1V1gzb0FmMHJ3?oc=5",
+    "source": "gnews_macro",
+    "published_utc": "2026-09-21T15:46:00+00:00",
+    "score": 7.28,
+    "duplicates": 0
+   },
+   {
+    "id": "ec52f8c317",
+    "title": "St. Louis Fed’s Musalem: Interest rates likely need to rise further to tame inflation - investingLive",
+    "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNSVluaGx4SUdzWVRxeFVDMUVsOFVTS2VPc2h0aWRQQUVQbVdFZy11bjBBODRCZG1wZlJJZmFiemowT2tEYzNKXzZ0bGprcG0yZjdodThNODRpajBoOXdwdTNrT1hhMXZidGViZ2x5bnNsVEV3ZE9QVlRObEY2YS1RQWFFWkdFLWV6T05RVTVMdGl2dVdKTUlQTWF1eHRCTDRPeDBTQ28yMHM2TUpMNmtSWHp5MFo1d0ZrTVBzNmM1Z3RiZw?oc=5",
+    "source": "gnews_macro",
+    "published_utc": "2026-09-21T18:29:16+00:00",
+    "score": 7.23,
+    "duplicates": 0
    }
   ],
   "summary": {
    "lines": [
-    "Futures rebounded after the Fed rate hike, with S&P 500 futures up 0.63% and Nasdaq futures up 1.09% as Treasury yields eased and oil prices fell [1774abd047][3237b79f30].",
-    "Multiple Fed officials (Goolsbee, and others citing \"aggressive\" and \"painful\" language) reinforced hawkish inflation messaging, a scalping risk factor around any Fed-speak headlines [a7e49e03e6][868e318278][40bb736096][ba6690a2c6].",
-    "Asia chip rally helped lift Nasdaq futures even as the Fed stance is characterized as hawkish, keeping AI/semis in focus for tape sensitivity [147f776252].",
-    "Oil prices dipped on Iran-related hopes, a factor for energy-sensitive index moves intraday [6da888b595][e2d9a832b2].",
-    "Broader macro commentary mixed Fed rate-decision talk with AI stock picks, underscoring headline-driven two-way chop risk into the open [7671d7df37]."
+    "Futures opened higher into the session, with S&P 500 futures up 0.63% and Nasdaq futures up 1.09% as oil prices fell and Treasury yields eased, a backdrop scalpers should note for early volatility [3237b79f30][d67af32895][16f27489d6][147f776252].",
+    "Multiple Fed speakers (Musalem, plus general Fed commentary) reiterated that further rate hikes may be needed and that taming inflation will be \"painful,\" keeping rate-hike risk on the radar for intraday reaction [5c229d1af3][ec52f8c317][5db32d7d68][63b08fa0ae][8a58f09ef4]."
    ],
    "backend": "anthropic",
    "model": "claude-sonnet-5",
-   "dropped": [],
+   "dropped": [
+    "no valid citation: Headlines flag the US-Iran conflict as a factor pushing oil, inflation, and equities toward a \"collision course"
+   ],
    "warnings": []
   },
   "feeds": [],
