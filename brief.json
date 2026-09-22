@@ -1,7 +1,7 @@
 {
  "meta": {
-  "generated_at_utc": "2026-09-22T13:59:48.352156+00:00",
-  "generated_at_local": "Tue 22 Sep 2026 10:59 ADT",
+  "generated_at_utc": "2026-09-22T14:15:12.389789+00:00",
+  "generated_at_local": "Tue 22 Sep 2026 11:15 ADT",
   "trading_day": "2026-09-22",
   "display_tz": "America/Halifax",
   "version": "0.1.0",
@@ -73,7 +73,7 @@
    "time_utc": "2026-09-22T17:00:00+00:00",
    "local": "14:00 ADT",
    "et": "13:00 ET",
-   "in": "3h 00m",
+   "in": "2h 44m",
    "consensus": null,
    "prior": null
   },
@@ -84,10 +84,10 @@
   {
    "root": "ES",
    "trading_day": "2026-09-22",
-   "as_of_utc": "2026-09-22T13:59:48.352156+00:00",
+   "as_of_utc": "2026-09-22T14:15:12.389789+00:00",
    "source": "yahoo",
    "delayed": true,
-   "last_price": 7839.0,
+   "last_price": 7837.5,
    "levels": [
     {
      "tag": "exp_hi",
@@ -153,18 +153,18 @@
      "note": "2026-09-21 RTH, bin 0.25"
     },
     {
-     "tag": "tdl",
-     "label": "Today's RTH low",
-     "price": 7835.5,
-     "group": "today",
-     "note": ""
-    },
-    {
      "tag": "pdc",
      "label": "Prior-day close (16:00 bar)",
      "price": 7833.25,
      "group": "prior_day",
      "note": "2026-09-21"
+    },
+    {
+     "tag": "tdl",
+     "label": "Today's RTH low",
+     "price": 7833.25,
+     "group": "today",
+     "note": ""
     },
     {
      "tag": "onvwap",
@@ -252,8 +252,8 @@
     }
    ],
    "stats": {
-    "last_bar_utc": "2026-09-22T13:49:00+00:00",
-    "last_bar_age_min": 10.8,
+    "last_bar_utc": "2026-09-22T14:05:00+00:00",
+    "last_bar_age_min": 10.2,
     "market_state": "open",
     "profile_volume": 1044110.0,
     "prior_day": "2026-09-21",
@@ -1512,19 +1512,27 @@
      "t": "2026-09-22T13:45:00+00:00",
      "o": 7842.75,
      "h": 7843.75,
-     "l": 7835.5,
-     "c": 7839.0,
-     "v": 17597.0
+     "l": 7833.25,
+     "c": 7835.0,
+     "v": 56395.0
+    },
+    {
+     "t": "2026-09-22T14:00:00+00:00",
+     "o": 7835.0,
+     "h": 7839.5,
+     "l": 7834.5,
+     "c": 7837.5,
+     "v": 13903.0
     }
    ]
   },
   {
    "root": "NQ",
    "trading_day": "2026-09-22",
-   "as_of_utc": "2026-09-22T13:59:48.352156+00:00",
+   "as_of_utc": "2026-09-22T14:15:12.389789+00:00",
    "source": "yahoo",
    "delayed": true,
-   "last_price": 30903.75,
+   "last_price": 30930.5,
    "levels": [
     {
      "tag": "exp_hi",
@@ -1550,14 +1558,14 @@
     {
      "tag": "tdh",
      "label": "Today's RTH high",
-     "price": 30927.5,
+     "price": 30945.0,
      "group": "today",
      "note": "so far"
     },
     {
      "tag": "wh",
      "label": "Week high",
-     "price": 30927.5,
+     "price": 30945.0,
      "group": "week",
      "note": "since 2026-09-21"
     },
@@ -1689,8 +1697,8 @@
     }
    ],
    "stats": {
-    "last_bar_utc": "2026-09-22T13:49:00+00:00",
-    "last_bar_age_min": 10.8,
+    "last_bar_utc": "2026-09-22T14:05:00+00:00",
+    "last_bar_age_min": 10.2,
     "market_state": "open",
     "profile_volume": 396902.0,
     "prior_day": "2026-09-21",
@@ -2948,10 +2956,18 @@
     {
      "t": "2026-09-22T13:45:00+00:00",
      "o": 30902.75,
-     "h": 30925.0,
+     "h": 30945.0,
      "l": 30884.25,
-     "c": 30903.75,
-     "v": 9047.0
+     "c": 30930.0,
+     "v": 27572.0
+    },
+    {
+     "t": "2026-09-22T14:00:00+00:00",
+     "o": 30929.5,
+     "h": 30937.5,
+     "l": 30909.25,
+     "c": 30930.5,
+     "v": 6008.0
     }
    ]
   }
@@ -2973,7 +2989,7 @@
     "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOVnJJMDBMTEg4VGN4dG9keDRaSWdDZHVNM005bmxHTFYwRGU3SFJZVkNiZHowbGZ1a2ZGWmgtcG5MTDY5eGs1dmFhTDhBM3FPOGRnWmVvVmdiV1Y5LTdtVUVTX01fRGdydVE3WmUzekg0S0hZcWNFUlJVUzBqdzc5ZHRGeGRLVVBMa2xJSm1HMGEtXzZMM2c?oc=5",
     "source": "gnews_futures",
     "published_utc": "2026-09-22T08:32:18+00:00",
-    "score": 8.59,
+    "score": 8.55,
     "duplicates": 0
    },
    {
@@ -2982,7 +2998,7 @@
     "link": "https://www.cnbc.com/2026/09/22/treasury-yield-us-bond-market-trump.html",
     "source": "cnbc_markets",
     "published_utc": "2026-09-22T13:48:52+00:00",
-    "score": 8.47,
+    "score": 8.43,
     "duplicates": 1
    },
    {
@@ -2990,8 +3006,8 @@
     "title": "Stock Market Today: Dow Rises On U.S.-Iran Peace Hopes; Oil Prices, Treasury Yields Extend Losses (Live Coverage)",
     "link": "https://www.investors.com/market-trend/stock-market-today/dow-jones-sp500-nasdaq-us-iran-peace-hopes-oil-prices-treasury-yields/?src=A00220&yptr=yahoo",
     "source": "yahoo_finance",
-    "published_utc": "2026-09-22T12:55:25+00:00",
-    "score": 8.32,
+    "published_utc": "2026-09-22T13:40:10+00:00",
+    "score": 8.4,
     "duplicates": 0
    },
    {
@@ -3000,7 +3016,16 @@
     "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPcm80SUgwLTExNXdITWt1UExnX1F6M0xvV2c4VVJpYzJyRmFTTm5UOWM5VmpEVDNsM05RQmFiR0Nfa25teG5XOUlBZ29EcjFyNTFoQTRTZ0JIU2NMWWdVRVBVbEdQNDRqclVKOEdZXzdFYmpHeHdhUWVpbDk3NXVkSnd4cHhkWVJ4UlJqN3VHVXRHS050N0Q0NmdIZG91MDVKWjlGc1Z2dFAtOGJIZ1lVaFhRcGZ6cnBITW4tX3BFUEZid3ZK?oc=5",
     "source": "gnews_futures",
     "published_utc": "2026-09-22T12:29:15+00:00",
-    "score": 8.25,
+    "score": 8.21,
+    "duplicates": 0
+   },
+   {
+    "id": "80d031c658",
+    "title": "The PCE-CPI Gap and the Outlook for Further Fed Tightening - Forex Factory",
+    "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNc0hfb3NheXVHQ3h3eVJhd3hMVDZzd1hJSXNsM2RYV0J6aWR5RGYtcjFoRFlQQTA5LVdBR2VJOWpxalRjQ2dNR3JTTVVJRDlHZ2kwQzJpa0daN295OVc0NWRhQ09kOU9XUy10MV9Fbm1ManFrWm90VENBdmIyN0t4a3JLLVFWakRwRzVVMklR0gGTAUFVX3lxTE9mc3ZYOXU0alRKZ2NQMUQ0T2RvSm1Id25ueUlwa0hDM0tsUjF2N0U5TEJmWmJ5NUZFZ2toYXFvSWRlODREeGVzVkFaMnFOQmJlRVJiMmx0TkQwWDhNeGJKQ2NtR3Y3ZDZBeWcxS2N6S1AzSmd4NkIta0hNcUY5MktVMGctQ3hyMHZyNDZNeGh3WDNITQ?oc=5",
+    "source": "gnews_macro",
+    "published_utc": "2026-09-22T10:45:00+00:00",
+    "score": 7.92,
     "duplicates": 0
    },
    {
@@ -3009,7 +3034,7 @@
     "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxPekY1aWRZZ1VnSzhpUmVkLUFHNlhMVUdvNjUtMmJwejVFZGNDQXRJOFRLN3ZHX3h6emZIMEJ2SUVRZzRwSktFdEVTM3ZzVlNLWjNYcjB0S3dlLXlDU1p6TkFqM291WHdaaWdfUUxSUUxnV0NkeEMzc043UHNJcjZMTndfa0NNVVREMU5aVUVvclZEMjJaOHd6S25PVlpnbGxEdWFQSTlydUFNQkpqXzFJX2VrU3RBdEIzcDFqV2dvX2w4SF9GanRiNHZKbE5ZblgtdVE?oc=5",
     "source": "gnews_macro",
     "published_utc": "2026-09-22T13:03:21+00:00",
-    "score": 7.84,
+    "score": 7.8,
     "duplicates": 0
    },
    {
@@ -3018,7 +3043,16 @@
     "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOZW9MczQ5eU5PM2tvT01QNlpUZU90ejZheGhlTnhQd1VEU2phYVZpTjB0cmN6XzFPQ3Zac3ZrOU9Kc1B2MGs5bzM4YkF3NHozS25mRGU2eE85Tnd0WWt5bWNxZGJsUWJVUk5weTFNT3hGbllPR2Etem1OU3lVY3l2S3ZYQ29ITm1WWkRVUnZqNDFPeWM?oc=5",
     "source": "gnews_futures",
     "published_utc": "2026-09-22T02:44:00+00:00",
-    "score": 7.62,
+    "score": 7.58,
+    "duplicates": 0
+   },
+   {
+    "id": "4600f80274",
+    "title": "Iran reportedly says it can reopen Strait of Hormuz within 7 days if U.S. eases military pressure",
+    "link": "https://www.cnbc.com/2026/09/22/us-iran-war-trump-hormuz.html",
+    "source": "cnbc_markets",
+    "published_utc": "2026-09-22T14:05:04+00:00",
+    "score": 7.47,
     "duplicates": 0
    },
    {
@@ -3027,7 +3061,7 @@
     "link": "https://www.cnbc.com/2026/09/22/september-surge-october-offload-jobs-experts-on-fall-2026-hiring-trends.html",
     "source": "cnbc_markets",
     "published_utc": "2026-09-22T13:47:12+00:00",
-    "score": 7.46,
+    "score": 7.42,
     "duplicates": 0
    },
    {
@@ -3036,15 +3070,6 @@
     "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOa0hySHR1QXR0VW9EV1NvZjdTVVVUUGs5UXZMN2d0aGdfUEdzMmExYWx0RG5jTVYzM3pPMkFYUnBoVzZQVUktQVJJTWQ3VVBQclJKaUNDa2ZwLXByOG9SZnpLeXR3cFN6VEhWckJrMU1BZkNYb1VVc0YycU56NXE2ODBlWmtuNC1zbVZnYnEySkU2ZTEyMnBNYTFaSFd4ZnMy?oc=5",
     "source": "gnews_macro",
     "published_utc": "2026-09-22T13:44:30+00:00",
-    "score": 7.46,
-    "duplicates": 0
-   },
-   {
-    "id": "4600f80274",
-    "title": "Iran reportedly says it can reopen Strait of Hormuz within 7 days if U.S. eases military pressure",
-    "link": "https://www.cnbc.com/2026/09/22/us-iran-war-trump-hormuz.html",
-    "source": "cnbc_markets",
-    "published_utc": "2026-09-22T13:27:53+00:00",
     "score": 7.41,
     "duplicates": 0
    },
@@ -3054,31 +3079,20 @@
     "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE1Uc2JpeHRaQVRiRlRMdUhXN3VrMnhKb0xUejFFakRuUnlmQ3BiRlNsQm9kZHotMVYyTGNkRVNEVk9BdHBEZ2ZpcGtrbXVVSlpCRURqRUlTVEl4N3pOWEJlVFJn?oc=5",
     "source": "gnews_macro",
     "published_utc": "2026-09-22T13:07:31+00:00",
-    "score": 7.35,
-    "duplicates": 0
-   },
-   {
-    "id": "60a882153a",
-    "title": "Meta Shares Surge More Than 20% as Muse AI Agent Fuels Revenue Hopes - Межа. Новини України.",
-    "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE43b1FKSkZ5dDU1UktSS2hWVHBPaTVKcWtaUHRqWUJwUG5UaFVCaFNZSW1aQ0d6VGRCSXViWUswV0NzOWM2VVV0dmEwa1VYNHFVbzJMSWxlQnhWN2NpZ0dLOTVRTnY?oc=5",
-    "source": "gnews_megacap",
-    "published_utc": "2026-09-22T12:51:10+00:00",
     "score": 7.31,
     "duplicates": 0
    }
   ],
   "summary": {
    "lines": [
-    "Stock futures drift after the AI-driven rally as traders digest Meta shares surging more than 20% on its Muse AI agent, keeping megacap tech in focus for direction [c8d4992526][60a882153a][00439b0363].",
-    "Note the calendar's 09:55 ET Trump speech as a scheduled headline-risk window given ongoing Iran-related commentary [0d8f953c95].",
-    "The 13:00 ET 2-year note auction lands amid a hawkish Fed backdrop and soaring bond yield narrative, relevant for rate-sensitive futures moves [84629c63d4].",
-    "A Fed study finding 75% of firms are keeping cash from tariff refunds, alongside reports inflation is outpacing wages, keeps inflation-policy debate in the background [a2986595cb][d4c4593b36]."
+    "Equity futures are drifting after the recent AI-driven rally, with focus on how AMD, META, BABA, GME, HOOD, GRAB, VKTX trade and whether the move extends or fades into the cash open [00439b0363][c8d4992526][6fe6d2070b].",
+    "Iran-related headlines continue to move oil and yields, with reports Iran could reopen the Strait of Hormuz within 7 days easing tensions and pressuring oil while the 10-year yield slips further below 5% into Fed commentary [4600f80274][dea8bfa605][f61a2107d1].",
+    "President Trump is scheduled to speak at 09:55 ET, a headline-risk window for futures given the ongoing Iran-war and tariff backdrop referenced in today's coverage [0d8f953c95][a2986595cb].",
+    "Fed-focused commentary (hawkish-Fed narrative, PCE-CPI gap debate, wage/inflation pressure) keeps rate-path uncertainty in play ahead of the 13:00 ET 2-Year note auction [84629c63d4][80d031c658][d4c4593b36][715e0fbcb5]."
    ],
    "backend": "anthropic",
    "model": "claude-sonnet-5",
-   "dropped": [
-    "ungrounded number(s) ['7']: Iran reportedly says it can reopen the Strait of Hormuz within 7 days if U.S. military pressure eases, extending declines in oil prices and pushing the 10-year Treasury yield further below 5% [4600f80605][f61a2107d1][dea8bfa605]."
-   ],
+   "dropped": [],
    "warnings": []
   },
   "feeds": [],
