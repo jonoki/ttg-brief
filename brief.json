@@ -1,7 +1,7 @@
 {
  "meta": {
-  "generated_at_utc": "2026-09-22T13:13:41.415917+00:00",
-  "generated_at_local": "Tue 22 Sep 2026 10:13 ADT",
+  "generated_at_utc": "2026-09-22T13:29:03.380030+00:00",
+  "generated_at_local": "Tue 22 Sep 2026 10:29 ADT",
   "trading_day": "2026-09-22",
   "display_tz": "America/Halifax",
   "version": "0.1.0",
@@ -12,6 +12,24 @@
   "start": "2026-09-22",
   "days": 2,
   "events": [
+   {
+    "name": "President Trump Speaks",
+    "date": "2026-09-22",
+    "time_utc": "2026-09-22T13:55:00+00:00",
+    "kind": "release",
+    "impact": "medium",
+    "explain": {
+     "what": "A scheduled speech or remarks by a Fed official.",
+     "why": "Usually minor, but voters signalling a change of view can move rate expectations mid-session."
+    },
+    "actual": null,
+    "note": null,
+    "consensus": null,
+    "prior": null,
+    "source": "",
+    "sources_agreeing": [],
+    "source_url": null
+   },
    {
     "name": "2-Year note auction",
     "date": "2026-09-22",
@@ -50,12 +68,12 @@
    }
   ],
   "next_event": {
-   "name": "2-Year note auction",
+   "name": "President Trump Speaks",
    "impact": "medium",
-   "time_utc": "2026-09-22T17:00:00+00:00",
-   "local": "14:00 ADT",
-   "et": "13:00 ET",
-   "in": "3h 46m",
+   "time_utc": "2026-09-22T13:55:00+00:00",
+   "local": "10:55 ADT",
+   "et": "09:55 ET",
+   "in": "25 min",
    "consensus": null,
    "prior": null
   },
@@ -66,10 +84,10 @@
   {
    "root": "ES",
    "trading_day": "2026-09-22",
-   "as_of_utc": "2026-09-22T13:13:41.415917+00:00",
+   "as_of_utc": "2026-09-22T13:29:03.380030+00:00",
    "source": "yahoo",
    "delayed": true,
-   "last_price": 7839.25,
+   "last_price": 7840.75,
    "levels": [
     {
      "tag": "exp_hi",
@@ -111,7 +129,7 @@
      "label": "Overnight high",
      "price": 7843.75,
      "group": "overnight",
-     "note": "since 18:00 ET, 894 bars"
+     "note": "since 18:00 ET, 910 bars"
     },
     {
      "tag": "poc",
@@ -130,7 +148,7 @@
     {
      "tag": "onvwap",
      "label": "Overnight VWAP",
-     "price": 7832.57,
+     "price": 7832.89,
      "group": "overnight",
      "note": "typical-price VWAP"
     },
@@ -213,14 +231,14 @@
     }
    ],
    "stats": {
-    "last_bar_utc": "2026-09-22T13:03:00+00:00",
-    "last_bar_age_min": 10.7,
+    "last_bar_utc": "2026-09-22T13:19:00+00:00",
+    "last_bar_age_min": 10.1,
     "market_state": "open",
     "profile_volume": 1044110.0,
     "prior_day": "2026-09-21",
     "prior_day_rth_range": 89.0,
     "overnight_range": 33.25,
-    "gap_vs_prior_close": 6.0,
+    "gap_vs_prior_close": 7.5,
     "gap_basis": "last price (pre-market)",
     "atr14": 84.92,
     "atr_days": 14,
@@ -1448,20 +1466,28 @@
     {
      "t": "2026-09-22T13:00:00+00:00",
      "o": 7837.0,
-     "h": 7840.25,
+     "h": 7842.0,
      "l": 7836.5,
-     "c": 7839.25,
-     "v": 2506.0
+     "c": 7841.0,
+     "v": 10863.0
+    },
+    {
+     "t": "2026-09-22T13:15:00+00:00",
+     "o": 7840.75,
+     "h": 7843.25,
+     "l": 7839.75,
+     "c": 7840.75,
+     "v": 2836.0
     }
    ]
   },
   {
    "root": "NQ",
    "trading_day": "2026-09-22",
-   "as_of_utc": "2026-09-22T13:13:41.415917+00:00",
+   "as_of_utc": "2026-09-22T13:29:03.380030+00:00",
    "source": "yahoo",
    "delayed": true,
-   "last_price": 30767.75,
+   "last_price": 30756.0,
    "levels": [
     {
      "tag": "exp_hi",
@@ -1475,7 +1501,7 @@
      "label": "Overnight high",
      "price": 30916.5,
      "group": "overnight",
-     "note": "since 18:00 ET, 894 bars"
+     "note": "since 18:00 ET, 910 bars"
     },
     {
      "tag": "wh",
@@ -1501,7 +1527,7 @@
     {
      "tag": "onvwap",
      "label": "Overnight VWAP",
-     "price": 30812.85,
+     "price": 30811.6,
      "group": "overnight",
      "note": "typical-price VWAP"
     },
@@ -1605,14 +1631,14 @@
     }
    ],
    "stats": {
-    "last_bar_utc": "2026-09-22T13:03:00+00:00",
-    "last_bar_age_min": 10.7,
+    "last_bar_utc": "2026-09-22T13:19:00+00:00",
+    "last_bar_age_min": 10.1,
     "market_state": "open",
     "profile_volume": 396902.0,
     "prior_day": "2026-09-21",
     "prior_day_rth_range": 646.25,
     "overnight_range": 246.5,
-    "gap_vs_prior_close": -15.75,
+    "gap_vs_prior_close": -27.5,
     "gap_basis": "last price (pre-market)",
     "atr14": 472.06,
     "atr_days": 14,
@@ -2840,10 +2866,18 @@
     {
      "t": "2026-09-22T13:00:00+00:00",
      "o": 30753.0,
-     "h": 30771.75,
+     "h": 30780.75,
      "l": 30748.75,
-     "c": 30767.75,
-     "v": 831.0
+     "c": 30769.75,
+     "v": 3648.0
+    },
+    {
+     "t": "2026-09-22T13:15:00+00:00",
+     "o": 30769.5,
+     "h": 30774.5,
+     "l": 30755.25,
+     "c": 30756.0,
+     "v": 777.0
     }
    ]
   }
@@ -2865,7 +2899,7 @@
     "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOVnJJMDBMTEg4VGN4dG9keDRaSWdDZHVNM005bmxHTFYwRGU3SFJZVkNiZHowbGZ1a2ZGWmgtcG5MTDY5eGs1dmFhTDhBM3FPOGRnWmVvVmdiV1Y5LTdtVUVTX01fRGdydVE3WmUzekg0S0hZcWNFUlJVUzBqdzc5ZHRGeGRLVVBMa2xJSm1HMGEtXzZMM2c?oc=5",
     "source": "gnews_futures",
     "published_utc": "2026-09-22T08:32:18+00:00",
-    "score": 8.72,
+    "score": 8.68,
     "duplicates": 0
    },
    {
@@ -2874,7 +2908,7 @@
     "link": "https://www.investors.com/market-trend/stock-market-today/dow-jones-sp500-nasdaq-us-iran-peace-hopes-oil-prices-treasury-yields/?src=A00220&yptr=yahoo",
     "source": "yahoo_finance",
     "published_utc": "2026-09-22T12:55:25+00:00",
-    "score": 8.45,
+    "score": 8.41,
     "duplicates": 0
    },
    {
@@ -2883,16 +2917,16 @@
     "link": "https://www.cnbc.com/2026/09/22/treasury-yield-us-bond-market-trump.html",
     "source": "cnbc_markets",
     "published_utc": "2026-09-22T12:45:15+00:00",
-    "score": 8.42,
+    "score": 8.38,
     "duplicates": 1
    },
    {
     "id": "c8d4992526",
-    "title": "US Stock Futures Drift After AI-Driven Rally, Oil Prices Slip - Bloomberg.com",
+    "title": "US Stock Futures Drift After AI-Driven Rally, Oil Prices Slip - bloomberg.com",
     "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPcm80SUgwLTExNXdITWt1UExnX1F6M0xvV2c4VVJpYzJyRmFTTm5UOWM5VmpEVDNsM05RQmFiR0Nfa25teG5XOUlBZ29EcjFyNTFoQTRTZ0JIU2NMWWdVRVBVbEdQNDRqclVKOEdZXzdFYmpHeHdhUWVpbDk3NXVkSnd4cHhkWVJ4UlJqN3VHVXRHS050N0Q0NmdIZG91MDVKWjlGc1Z2dFAtOGJIZ1lVaFhRcGZ6cnBITW4tX3BFUEZid3ZK?oc=5",
     "source": "gnews_futures",
     "published_utc": "2026-09-22T12:29:15+00:00",
-    "score": 8.38,
+    "score": 8.33,
     "duplicates": 0
    },
    {
@@ -2901,7 +2935,7 @@
     "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxPekY1aWRZZ1VnSzhpUmVkLUFHNlhMVUdvNjUtMmJwejVFZGNDQXRJOFRLN3ZHX3h6emZIMEJ2SUVRZzRwSktFdEVTM3ZzVlNLWjNYcjB0S3dlLXlDU1p6TkFqM291WHdaaWdfUUxSUUxnV0NkeEMzc043UHNJcjZMTndfa0NNVVREMU5aVUVvclZEMjJaOHd6S25PVlpnbGxEdWFQSTlydUFNQkpqXzFJX2VrU3RBdEIzcDFqV2dvX2w4SF9GanRiNHZKbE5ZblgtdVE?oc=5",
     "source": "gnews_macro",
     "published_utc": "2026-09-22T13:03:21+00:00",
-    "score": 7.97,
+    "score": 7.93,
     "duplicates": 0
    },
    {
@@ -2910,7 +2944,7 @@
     "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOZW9MczQ5eU5PM2tvT01QNlpUZU90ejZheGhlTnhQd1VEU2phYVZpTjB0cmN6XzFPQ3Zac3ZrOU9Kc1B2MGs5bzM4YkF3NHozS25mRGU2eE85Tnd0WWt5bWNxZGJsUWJVUk5weTFNT3hGbllPR2Etem1OU3lVY3l2S3ZYQ29ITm1WWkRVUnZqNDFPeWM?oc=5",
     "source": "gnews_futures",
     "published_utc": "2026-09-22T02:44:00+00:00",
-    "score": 7.75,
+    "score": 7.71,
     "duplicates": 0
    },
    {
@@ -2919,25 +2953,25 @@
     "link": "https://news.google.com/rss/articles/CBMihwJBVV95cUxOcFlrX2gxYW5fUWo2MTVHcnpBQ1FDcThFS0swTE55Y1F2bkJLTVhoX0Ryems5eTczSXZOT0pkNm0xbHc2eHh1dmhmdnU4MUVROUVNVG5iTUV4d0ZMdjBxTzNQVG5RZVkyb3FFODJoZG0wMjF4QlpKVUV6QUhyNUZmakJRYzVtdnJzVWRJX3d1Q3N4emozVFBjcWk5VDFFTlRIejF1dzFlUVNwVlVpWklFeG11YTc2Ul9McmIyTmMwd2dVR0JKamVlRnZJc1pyX3kzcHkyX2pBbF9OdjhPczV0N1F2LWpYTTNoeWZ2c1NqNGlqMTNhaWM5TFBwa0htR3JRdF9JVVNNbw?oc=5",
     "source": "gnews_fed",
     "published_utc": "2026-09-22T01:53:00+00:00",
-    "score": 7.61,
+    "score": 7.57,
     "duplicates": 4
-   },
-   {
-    "id": "d4c4593b36",
-    "title": "Inflation Outpaces Wages: Senators and Fed Push for Action - Forth.News",
-    "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE1Uc2JpeHRaQVRiRlRMdUhXN3VrMnhKb0xUejFFakRuUnlmQ3BiRlNsQm9kZHotMVYyTGNkRVNEVk9BdHBEZ2ZpcGtrbXVVSlpCRURqRUlTVEl4N3pOWEJlVFJn?oc=5",
-    "source": "gnews_macro",
-    "published_utc": "2026-09-22T13:08:08+00:00",
-    "score": 7.48,
-    "duplicates": 0
    },
    {
     "id": "4600f80274",
     "title": "Iran reportedly says it can reopen Strait of Hormuz within 7 days if U.S. eases military pressure",
     "link": "https://www.cnbc.com/2026/09/22/us-iran-war-trump-hormuz.html",
     "source": "cnbc_markets",
-    "published_utc": "2026-09-22T12:56:37+00:00",
-    "score": 7.45,
+    "published_utc": "2026-09-22T13:27:53+00:00",
+    "score": 7.5,
+    "duplicates": 0
+   },
+   {
+    "id": "d4c4593b36",
+    "title": "Inflation Outpaces Wages: Senators and Fed Push for Action - Forth.News",
+    "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE1Uc2JpeHRaQVRiRlRMdUhXN3VrMnhKb0xUejFFakRuUnlmQ3BiRlNsQm9kZHotMVYyTGNkRVNEVk9BdHBEZ2ZpcGtrbXVVSlpCRURqRUlTVEl4N3pOWEJlVFJn?oc=5",
+    "source": "gnews_macro",
+    "published_utc": "2026-09-22T13:07:31+00:00",
+    "score": 7.44,
     "duplicates": 0
    },
    {
@@ -2946,7 +2980,7 @@
     "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE43b1FKSkZ5dDU1UktSS2hWVHBPaTVKcWtaUHRqWUJwUG5UaFVCaFNZSW1aQ0d6VGRCSXViWUswV0NzOWM2VVV0dmEwa1VYNHFVbzJMSWxlQnhWN2NpZ0dLOTVRTnY?oc=5",
     "source": "gnews_megacap",
     "published_utc": "2026-09-22T12:51:10+00:00",
-    "score": 7.44,
+    "score": 7.39,
     "duplicates": 0
    },
    {
@@ -2955,17 +2989,17 @@
     "link": "https://www.cnbc.com/2026/09/22/taiwans-taiex-hits-record-intraday-high-as-tech-stocks-advance.html",
     "source": "cnbc_markets",
     "published_utc": "2026-09-22T03:33:20+00:00",
-    "score": 7.39,
+    "score": 7.35,
     "duplicates": 0
    }
   ],
   "summary": {
    "lines": [
-    "Nasdaq/S&P futures are pausing/drifting after the recent AI-driven rally, with AMD, META, BABA, GME, HOOD, GRAB, VKTX and GME/IBRX/AMD/PSKY named as stocks in focus [00439b0363][c8d4992526][6fe6d2070b].",
-    "Reports that Iran could reopen the Strait of Hormuz within 7 days if U.S. military pressure eases are lifting U.S.-Iran peace hopes, with oil prices and Treasury yields extending losses and the 10-year yield slipping further below 5% [dea8bfa605][4600f80274][f61a2107d1].",
-    "A Fed official said inflation persistence led her to support the recent rate hike, adding a hawkish data point for traders watching the 13:00 ET 2-Year note auction [8c1082744c].",
-    "Meta shares are reported up more than 20% on hopes tied to its Muse AI agent, a single-name mover worth watching for index impact [60a882153a].",
-    "Broader commentary continues to flag inflation, the Iran war, hawkish Fed expectations, and AI-related valuation concerns as the key cross-currents for equities today [84629c63d4][d4c4593b36]."
+    "Nasdaq and S&P futures are drifting after the prior AI-driven rally, with AMD, META, BABA and other megacaps in focus ahead of the 09:55 ET Trump speech [00439b0363][c8d4992526][6fe6d2070b].",
+    "Reports that Iran could reopen the Strait of Hormuz within 7 days have lifted U.S.-Iran peace hopes, pulling oil prices and Treasury yields lower, with the 10-year yield slipping further below 5% [dea8bfa605][4600f80274][f61a2107d1].",
+    "A Fed official cited inflation persistence as her reason for supporting the recent rate hike, keeping the hawkish-Fed narrative alive into today's 13:00 ET 2-year note auction [8c1082744c][84629c63d4][d4c4593b36].",
+    "Meta shares are reported up more than 20% on AI agent revenue hopes, adding to megacap-driven volatility in index futures [60a882153a].",
+    "Broader Asia tech strength, with Taiwan's Taiex at a record intraday high, underscores continued AI-sector momentum feeding into U.S. futures [a88b7e29f3]."
    ],
    "backend": "anthropic",
    "model": "claude-sonnet-5",
