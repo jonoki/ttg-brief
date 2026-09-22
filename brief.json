@@ -1,11 +1,11 @@
 {
  "meta": {
-  "generated_at_utc": "2026-09-22T12:27:41.073717+00:00",
-  "generated_at_local": "Tue 22 Sep 2026 09:27 ADT",
+  "generated_at_utc": "2026-09-22T12:42:59.484407+00:00",
+  "generated_at_local": "Tue 22 Sep 2026 09:42 ADT",
   "trading_day": "2026-09-22",
   "display_tz": "America/Halifax",
   "version": "0.1.0",
-  "run": "overnight",
+  "run": "post-data",
   "variant": "public"
  },
  "calendar": {
@@ -55,7 +55,7 @@
    "time_utc": "2026-09-22T17:00:00+00:00",
    "local": "14:00 ADT",
    "et": "13:00 ET",
-   "in": "4h 32m",
+   "in": "4h 17m",
    "consensus": null,
    "prior": null
   },
@@ -66,10 +66,10 @@
   {
    "root": "ES",
    "trading_day": "2026-09-22",
-   "as_of_utc": "2026-09-22T12:27:41.073717+00:00",
+   "as_of_utc": "2026-09-22T12:42:59.484407+00:00",
    "source": "yahoo",
    "delayed": true,
-   "last_price": 7836.25,
+   "last_price": 7840.75,
    "levels": [
     {
      "tag": "exp_hi",
@@ -111,7 +111,7 @@
      "label": "Overnight high",
      "price": 7843.75,
      "group": "overnight",
-     "note": "since 18:00 ET, 848 bars"
+     "note": "since 18:00 ET, 863 bars"
     },
     {
      "tag": "poc",
@@ -130,7 +130,7 @@
     {
      "tag": "onvwap",
      "label": "Overnight VWAP",
-     "price": 7832.05,
+     "price": 7832.2,
      "group": "overnight",
      "note": "typical-price VWAP"
     },
@@ -213,14 +213,14 @@
     }
    ],
    "stats": {
-    "last_bar_utc": "2026-09-22T12:17:00+00:00",
-    "last_bar_age_min": 10.7,
+    "last_bar_utc": "2026-09-22T12:32:00+00:00",
+    "last_bar_age_min": 11.0,
     "market_state": "open",
     "profile_volume": 1044110.0,
     "prior_day": "2026-09-21",
     "prior_day_rth_range": 89.0,
     "overnight_range": 33.25,
-    "gap_vs_prior_close": 3.0,
+    "gap_vs_prior_close": 7.5,
     "gap_basis": "last price (pre-market)",
     "atr14": 84.92,
     "atr_days": 14,
@@ -1424,20 +1424,28 @@
     {
      "t": "2026-09-22T12:15:00+00:00",
      "o": 7837.0,
-     "h": 7839.0,
+     "h": 7840.25,
      "l": 7835.25,
-     "c": 7836.25,
-     "v": 819.0
+     "c": 7840.0,
+     "v": 5265.0
+    },
+    {
+     "t": "2026-09-22T12:30:00+00:00",
+     "o": 7840.0,
+     "h": 7842.5,
+     "l": 7839.25,
+     "c": 7840.75,
+     "v": 1285.0
     }
    ]
   },
   {
    "root": "NQ",
    "trading_day": "2026-09-22",
-   "as_of_utc": "2026-09-22T12:27:41.073717+00:00",
+   "as_of_utc": "2026-09-22T12:42:59.484407+00:00",
    "source": "yahoo",
    "delayed": true,
-   "last_price": 30758.0,
+   "last_price": 30778.25,
    "levels": [
     {
      "tag": "exp_hi",
@@ -1451,7 +1459,7 @@
      "label": "Overnight high",
      "price": 30916.5,
      "group": "overnight",
-     "note": "since 18:00 ET, 848 bars"
+     "note": "since 18:00 ET, 863 bars"
     },
     {
      "tag": "wh",
@@ -1477,7 +1485,7 @@
     {
      "tag": "onvwap",
      "label": "Overnight VWAP",
-     "price": 30815.49,
+     "price": 30814.78,
      "group": "overnight",
      "note": "typical-price VWAP"
     },
@@ -1581,14 +1589,14 @@
     }
    ],
    "stats": {
-    "last_bar_utc": "2026-09-22T12:17:00+00:00",
-    "last_bar_age_min": 10.7,
+    "last_bar_utc": "2026-09-22T12:32:00+00:00",
+    "last_bar_age_min": 11.0,
     "market_state": "open",
     "profile_volume": 396902.0,
     "prior_day": "2026-09-21",
     "prior_day_rth_range": 646.25,
     "overnight_range": 246.5,
-    "gap_vs_prior_close": -25.5,
+    "gap_vs_prior_close": -5.25,
     "gap_basis": "last price (pre-market)",
     "atr14": 472.06,
     "atr_days": 14,
@@ -2792,10 +2800,18 @@
     {
      "t": "2026-09-22T12:15:00+00:00",
      "o": 30760.75,
-     "h": 30769.5,
+     "h": 30784.25,
      "l": 30749.0,
-     "c": 30758.0,
-     "v": 297.0
+     "c": 30783.5,
+     "v": 1826.0
+    },
+    {
+     "t": "2026-09-22T12:30:00+00:00",
+     "o": 30783.25,
+     "h": 30787.25,
+     "l": 30772.0,
+     "c": 30778.25,
+     "v": 373.0
     }
    ]
   }
@@ -2812,21 +2828,12 @@
     "duplicates": 0
    },
    {
-    "id": "f61a2107d1",
-    "title": "U.S. Treasury yields ease as investors await fresh jobs data, Fed comments",
-    "link": "https://www.cnbc.com/2026/09/22/treasury-yield-us-bond-market-trump.html",
-    "source": "cnbc_markets",
-    "published_utc": "2026-09-22T09:16:10+00:00",
-    "score": 9.47,
-    "duplicates": 1
-   },
-   {
     "id": "00439b0363",
     "title": "Nasdaq, S&P 500 Futures Pause After Record AI-Driven Rally: AMD, META, BABA, GME, HOOD, GRAB, VKTX Stocks In Focus - Yahoo Finance",
     "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOVnJJMDBMTEg4VGN4dG9keDRaSWdDZHVNM005bmxHTFYwRGU3SFJZVkNiZHowbGZ1a2ZGWmgtcG5MTDY5eGs1dmFhTDhBM3FPOGRnWmVvVmdiV1Y5LTdtVUVTX01fRGdydVE3WmUzekg0S0hZcWNFUlJVUzBqdzc5ZHRGeGRLVVBMa2xJSm1HMGEtXzZMM2c?oc=5",
     "source": "gnews_futures",
     "published_utc": "2026-09-22T08:32:18+00:00",
-    "score": 8.85,
+    "score": 8.8,
     "duplicates": 0
    },
    {
@@ -2835,8 +2842,35 @@
     "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPdUV4YjE2SDJDckRZV2oxOWl3eDNCdjJiMDY3VlFrUy1yT0tiMkktemUtbVNxRWExOHkzN1JZOGZPX1hLX2JSaDM3LXEtSVhydXBxLVBEUEd0cEZQbFNRdnQ3OGVscGxmUWZGQXhUUzEyVEhPZVBMeklmSmZ2MXFEcWJ5dDhTOW1feE9kSU5NNF9zYkZlVnBNZGdtQUNBNjJWQ2NjNUl4Mm1xYXJkSFNMbUxSV2ptTEkxS1hiRw?oc=5",
     "source": "gnews_futures",
     "published_utc": "2026-09-22T06:55:55+00:00",
-    "score": 8.58,
+    "score": 8.54,
     "duplicates": 1
+   },
+   {
+    "id": "c8d4992526",
+    "title": "US Stock Futures Drift After AI-Driven Rally, Oil Prices Slip - Bloomberg.com",
+    "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPcm80SUgwLTExNXdITWt1UExnX1F6M0xvV2c4VVJpYzJyRmFTTm5UOWM5VmpEVDNsM05RQmFiR0Nfa25teG5XOUlBZ29EcjFyNTFoQTRTZ0JIU2NMWWdVRVBVbEdQNDRqclVKOEdZXzdFYmpHeHdhUWVpbDk3NXVkSnd4cHhkWVJ4UlJqN3VHVXRHS050N0Q0NmdIZG91MDVKWjlGc1Z2dFAtOGJIZ1lVaFhRcGZ6cnBITW4tX3BFUEZid3ZK?oc=5",
+    "source": "gnews_futures",
+    "published_utc": "2026-09-22T12:29:15+00:00",
+    "score": 8.46,
+    "duplicates": 0
+   },
+   {
+    "id": "dea8bfa605",
+    "title": "Stock Market Today: Dow Rises On U.S.-Iran Peace Hopes; Oil Prices, Treasury Yields Extend Losses (Live Coverage)",
+    "link": "https://www.investors.com/market-trend/stock-market-today/dow-jones-sp500-nasdaq-us-iran-peace-hopes-oil-prices-treasury-yields/?src=A00220&yptr=yahoo",
+    "source": "yahoo_finance",
+    "published_utc": "2026-09-22T12:01:55+00:00",
+    "score": 8.39,
+    "duplicates": 0
+   },
+   {
+    "id": "f61a2107d1",
+    "title": "10-year Treasury yield slips further below 5% as traders await Fed comments",
+    "link": "https://www.cnbc.com/2026/09/22/treasury-yield-us-bond-market-trump.html",
+    "source": "cnbc_markets",
+    "published_utc": "2026-09-22T12:33:19+00:00",
+    "score": 7.97,
+    "duplicates": 0
    },
    {
     "id": "6fe6d2070b",
@@ -2844,7 +2878,7 @@
     "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOZW9MczQ5eU5PM2tvT01QNlpUZU90ejZheGhlTnhQd1VEU2phYVZpTjB0cmN6XzFPQ3Zac3ZrOU9Kc1B2MGs5bzM4YkF3NHozS25mRGU2eE85Tnd0WWt5bWNxZGJsUWJVUk5weTFNT3hGbllPR2Etem1OU3lVY3l2S3ZYQ29ITm1WWkRVUnZqNDFPeWM?oc=5",
     "source": "gnews_futures",
     "published_utc": "2026-09-22T02:44:00+00:00",
-    "score": 7.88,
+    "score": 7.84,
     "duplicates": 0
    },
    {
@@ -2853,7 +2887,7 @@
     "link": "https://news.google.com/rss/articles/CBMihwJBVV95cUxOcFlrX2gxYW5fUWo2MTVHcnpBQ1FDcThFS0swTE55Y1F2bkJLTVhoX0Ryems5eTczSXZOT0pkNm0xbHc2eHh1dmhmdnU4MUVROUVNVG5iTUV4d0ZMdjBxTzNQVG5RZVkyb3FFODJoZG0wMjF4QlpKVUV6QUhyNUZmakJRYzVtdnJzVWRJX3d1Q3N4emozVFBjcWk5VDFFTlRIejF1dzFlUVNwVlVpWklFeG11YTc2Ul9McmIyTmMwd2dVR0JKamVlRnZJc1pyX3kzcHkyX2pBbF9OdjhPczV0N1F2LWpYTTNoeWZ2c1NqNGlqMTNhaWM5TFBwa0htR3JRdF9JVVNNbw?oc=5",
     "source": "gnews_fed",
     "published_utc": "2026-09-22T01:53:00+00:00",
-    "score": 7.74,
+    "score": 7.69,
     "duplicates": 4
    },
    {
@@ -2862,7 +2896,7 @@
     "link": "https://www.cnbc.com/2026/09/22/taiwans-taiex-hits-record-intraday-high-as-tech-stocks-advance.html",
     "source": "cnbc_markets",
     "published_utc": "2026-09-22T03:33:20+00:00",
-    "score": 7.52,
+    "score": 7.47,
     "duplicates": 0
    },
    {
@@ -2871,7 +2905,7 @@
     "link": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxOSnE5NTFrVWF2RHdqTFNJeTBicUY2ZU15SFNwUVBmSGZURVJtNy1rWXJyOVBqWU04c2NXUm1vdUZWUS1RZktrVjVBd2pKUmxSVTJuWjhFOEtUUk9vM0hNVnFxUS1jeTR5eC1YNzZNM0MxXzBvR0VkeTlVZ3BaTFZYUVVHV2VONVluQVhtcVBkYkw5V2pLRWRrdi1mTGwyUGlpUFBSUVpaNGZLRktsOS1hNUpMVUNKblZyZENod2ZwTGhJYzMyMUxzaXIwdWpPT1Z1NzRkV2R6OUNlby1DYlBz?oc=5",
     "source": "gnews_fed",
     "published_utc": "2026-09-22T05:07:00+00:00",
-    "score": 7.28,
+    "score": 7.23,
     "duplicates": 2
    },
    {
@@ -2880,7 +2914,7 @@
     "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxQbGZtZE9ETGU5dXlRYmxUZlcxZ3JoTU5MWDVnbHJ1emxsbmxUZ2tUdjNDTmdfSVRHNDFabUJIY2doeWhqR3NWS3EtWU05N1liMkM2bV9MM2NrNmVtZGtQd0FRaVZJLU1FSGthc1psVEZoVk0yQ1hvb0tiTWVlVVJ4aXQ3XzJ0ZDR3ZlR5V0FkaTE2ZEs5N2RmR0JjMHB2dnE3TWRXSWFjQ3JtRkJYM2ZiemFPaXZlSEhZSTdvb3ljR0dWc3Q2TmhDamdlSi1fQlk?oc=5",
     "source": "gnews_macro",
     "published_utc": "2026-09-22T11:00:00+00:00",
-    "score": 7.26,
+    "score": 7.21,
     "duplicates": 0
    },
    {
@@ -2889,35 +2923,17 @@
     "link": "https://www.cnbc.com/2026/09/22/us-iran-war-trump-hormuz.html",
     "source": "cnbc_markets",
     "published_utc": "2026-09-22T10:28:17+00:00",
-    "score": 7.17,
-    "duplicates": 0
-   },
-   {
-    "id": "f2e9462dba",
-    "title": "Nasdaq futures lead Wall St gains as oil retreat eases inflation worries - The Edge Malaysia",
-    "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTFA2alhwdkFHQllFNlVFbHpYS2dmT3dheUFjZzdSZ0loLU9aTmJtZUhxY1MzZTNobERjREk5eHJNTFB2UXY0c2NSUm5wN2tIM0po?oc=5",
-    "source": "gnews_futures",
-    "published_utc": "2026-09-22T03:35:32+00:00",
-    "score": 7.02,
-    "duplicates": 0
-   },
-   {
-    "id": "5f02971468",
-    "title": "Why Cathie Wood Says Forget Inflation and Growth Worries, as the Chip Rally Stalls - Barron's",
-    "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9BOHFsbUNtQ0FQaFA5VTJIVE9xX0NYYnZiSnUtS3hkeDFzVlozWFRDQU1YcmVkYTlDZ1NDNnV3djJ5Z3VZQjA5eDRCMU0xN2M4NjFtdHRmREMwQmluZHdXNnBtWnc5cU1wT1VmZE1LbVNWSVZWOWRYaW40R1dpOGs?oc=5",
-    "source": "gnews_macro",
-    "published_utc": "2026-09-22T12:14:00+00:00",
-    "score": 6.96,
+    "score": 7.13,
     "duplicates": 0
    }
   ],
   "summary": {
    "lines": [
-    "AI-driven rally in Nasdaq/S&P futures has paused after a record run, with AMD, META, BABA, GME, HOOD, GRAB, VKTX, IBRX and PSKY names in focus. [00439b0363][6fe6d2070b][d34a6d08de]",
-    "Treasury yields eased as investors await fresh jobs data and Fed comments, with a 2-Year note auction due at 13:00 ET. [f61a2107d1]",
-    "Fed officials have flagged inflation persistence behind a rate hike and warned fighting inflation will be \"painful,\" reinforcing a hawkish Fed narrative. [8c1082744c][b270f75c5c]",
-    "Iran reportedly says it can reopen the Strait of Hormuz within 7 days if U.S. eases military pressure, with oil prices lower and futures mixed on the headline. [4600f80274]",
-    "Broader macro commentary continues to weigh Fed hawkishness, Iran war risk, bond yields and AI concerns as the key cross-currents for stocks. [84629c63d4][d1e97db737][5f02971468]"
+    "Futures are pausing/drifting after the AI-driven rally, with focus on AMD, META, BABA, GME, HOOD, GRAB, VKTX [00439b0363][c8d4992526][d34a6d08de][6fe6d2070b].",
+    "Oil prices are slipping and Treasury yields extending losses, with the 10-year yield below 5%, on U.S.-Iran peace hopes and reports Iran could reopen the Strait of Hormuz within 7 days [dea8bfa605][f61a2107d1][4600f80274].",
+    "Fed officials have flagged inflation persistence as a reason for supporting a rate hike and called fighting inflation likely to be \"painful,\" keeping rate-path uncertainty in play ahead of the 13:00 ET 2-Year note auction [8c1082744c][b270f75c5c][d1e97db737].",
+    "A U.S.-China summit is awaited, a factor cited alongside the steadying in futures [d34a6d08de].",
+    "Asian tech strength continued as Taiwan's Taiex hit a record intraday high on AI-related gains, echoing the Wall Street AI rally theme [a88b7e29f3]."
    ],
    "backend": "anthropic",
    "model": "claude-sonnet-5",
