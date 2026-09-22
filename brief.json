@@ -1,7 +1,7 @@
 {
  "meta": {
-  "generated_at_utc": "2026-09-22T15:01:17.774215+00:00",
-  "generated_at_local": "Tue 22 Sep 2026 12:01 ADT",
+  "generated_at_utc": "2026-09-22T15:16:39.640209+00:00",
+  "generated_at_local": "Tue 22 Sep 2026 12:16 ADT",
   "trading_day": "2026-09-22",
   "display_tz": "America/Halifax",
   "version": "0.1.0",
@@ -73,7 +73,7 @@
    "time_utc": "2026-09-22T17:00:00+00:00",
    "local": "14:00 ADT",
    "et": "13:00 ET",
-   "in": "1h 58m",
+   "in": "1h 43m",
    "consensus": null,
    "prior": null
   },
@@ -84,10 +84,10 @@
   {
    "root": "ES",
    "trading_day": "2026-09-22",
-   "as_of_utc": "2026-09-22T15:01:17.774215+00:00",
+   "as_of_utc": "2026-09-22T15:16:39.640209+00:00",
    "source": "yahoo",
    "delayed": true,
-   "last_price": 7833.25,
+   "last_price": 7832.5,
    "levels": [
     {
      "tag": "exp_hi",
@@ -252,8 +252,8 @@
     }
    ],
    "stats": {
-    "last_bar_utc": "2026-09-22T14:51:00+00:00",
-    "last_bar_age_min": 10.3,
+    "last_bar_utc": "2026-09-22T15:06:00+00:00",
+    "last_bar_age_min": 10.7,
     "market_state": "open",
     "profile_volume": 1044110.0,
     "prior_day": "2026-09-21",
@@ -1545,18 +1545,26 @@
      "o": 7829.5,
      "h": 7835.75,
      "l": 7826.5,
-     "c": 7833.25,
-     "v": 21149.0
+     "c": 7831.0,
+     "v": 36896.0
+    },
+    {
+     "t": "2026-09-22T15:00:00+00:00",
+     "o": 7831.0,
+     "h": 7834.5,
+     "l": 7830.25,
+     "c": 7832.5,
+     "v": 16522.0
     }
    ]
   },
   {
    "root": "NQ",
    "trading_day": "2026-09-22",
-   "as_of_utc": "2026-09-22T15:01:17.774215+00:00",
+   "as_of_utc": "2026-09-22T15:16:39.640209+00:00",
    "source": "yahoo",
    "delayed": true,
-   "last_price": 30945.0,
+   "last_price": 30916.75,
    "levels": [
     {
      "tag": "exp_hi",
@@ -1721,8 +1729,8 @@
     }
    ],
    "stats": {
-    "last_bar_utc": "2026-09-22T14:51:00+00:00",
-    "last_bar_age_min": 10.3,
+    "last_bar_utc": "2026-09-22T15:06:00+00:00",
+    "last_bar_age_min": 10.7,
     "market_state": "open",
     "profile_volume": 396902.0,
     "prior_day": "2026-09-21",
@@ -3014,8 +3022,16 @@
      "o": 30914.0,
      "h": 30955.75,
      "l": 30890.5,
-     "c": 30945.0,
-     "v": 9347.0
+     "c": 30924.75,
+     "v": 17203.0
+    },
+    {
+     "t": "2026-09-22T15:00:00+00:00",
+     "o": 30925.75,
+     "h": 30930.25,
+     "l": 30905.25,
+     "c": 30916.75,
+     "v": 5835.0
     }
    ]
   }
@@ -3028,7 +3044,7 @@
     "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOVnJJMDBMTEg4VGN4dG9keDRaSWdDZHVNM005bmxHTFYwRGU3SFJZVkNiZHowbGZ1a2ZGWmgtcG5MTDY5eGs1dmFhTDhBM3FPOGRnWmVvVmdiV1Y5LTdtVUVTX01fRGdydVE3WmUzekg0S0hZcWNFUlJVUzBqdzc5ZHRGeGRLVVBMa2xJSm1HMGEtXzZMM2c?oc=5",
     "source": "gnews_futures",
     "published_utc": "2026-09-22T08:32:18+00:00",
-    "score": 8.42,
+    "score": 8.38,
     "duplicates": 0
    },
    {
@@ -3037,7 +3053,7 @@
     "link": "https://www.cnbc.com/2026/09/22/treasury-yield-us-bond-market-trump.html",
     "source": "cnbc_markets",
     "published_utc": "2026-09-22T14:21:23+00:00",
-    "score": 8.39,
+    "score": 8.35,
     "duplicates": 1
    },
    {
@@ -3046,16 +3062,16 @@
     "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPcm80SUgwLTExNXdITWt1UExnX1F6M0xvV2c4VVJpYzJyRmFTTm5UOWM5VmpEVDNsM05RQmFiR0Nfa25teG5XOUlBZ29EcjFyNTFoQTRTZ0JIU2NMWWdVRVBVbEdQNDRqclVKOEdZXzdFYmpHeHdhUWVpbDk3NXVkSnd4cHhkWVJ4UlJqN3VHVXRHS050N0Q0NmdIZG91MDVKWjlGc1Z2dFAtOGJIZ1lVaFhRcGZ6cnBITW4tX3BFUEZid3ZK?oc=5",
     "source": "gnews_futures",
     "published_utc": "2026-09-22T12:29:15+00:00",
-    "score": 8.08,
+    "score": 8.03,
     "duplicates": 0
    },
    {
-    "id": "3e6d9920c7",
-    "title": "Federal Reserve’s Collins says tighter policy needed as inflation risks rise - Investing.com",
-    "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOZEpydk1wcFhFb19IXzV4Rmp0WGdWb01ZcFBwUTV1eXFmY1J2Y0FqRjhvcXJMVWFfT2NsZTBOTmg0QjI4M3pLNXNSenRxTGJjV09naldPQWt3cW1iTmxEWWFVNnZTamc5bEV4VVVLbGJ2c2lmYzdDTU5ROXBqb3ZTU2tlVXZkMk04Z09MRDdQN1hLUWE1OFVqc3hRODJsMmxIVGFNZ0QzRTVCNjMzdmIxR0NpYWdlc0o1NHJ0UDRNek9ZQjNpYnc?oc=5",
+    "id": "fdf55f3804",
+    "title": "Fed's Collins says she supported rate hike, warns of elevated inflation risks - Reuters",
+    "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOT0JDdC05Wl9XNzhQVmlyMnBJTmNMYVQtZXM4SmJkeFFBWGFhSmV5eDBTeGdySWtvbEk4VTVpUl9CaGVoYUt0N19qRVF5NldOWVg5dFN3NlJrNW9HSlIwekJralVaNWFEdFhJa3BxYUFQQVRnUkVwb3p0WTRYRV9oTmZCamE5bTJ1WlN0ME1wcVRobDJnLTZqMkMxVlkwOUdoNTU3ZmVQSlZpQ2k1M2E1TFQ4MVlsMFRo?oc=5",
     "source": "gnews_fed",
-    "published_utc": "2026-09-22T14:40:50+00:00",
-    "score": 7.94,
+    "published_utc": "2026-09-22T15:01:38+00:00",
+    "score": 7.96,
     "duplicates": 1
    },
    {
@@ -3063,8 +3079,8 @@
     "title": "Fed’s Collins Says Rate Hike Will Help Return Inflation to Goal - Bloomberg.com",
     "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOUUg0S2c2bFdubmFVS09hZE9vYXgzSXg5SVQzU0pCMThjSHVlR0pCRlUwS0VCS0I0RWctN1NLdzJDZ2M5OFMtX2dpbjQ3WlJfMnc0VmFJUlV3U2RrdmIzY3JpdjdETXc4d0t0QkhFTXp0NXdORE5mUXlBZU94eVFHTWIxTGlsZkVVNDZORW5EQ0JaVE1tUFJjS3l0NHNGZlNMRFNDcE9CYkFzRVA0eHVyd2hJcXg?oc=5",
     "source": "gnews_fed",
-    "published_utc": "2026-09-22T14:10:34+00:00",
-    "score": 7.86,
+    "published_utc": "2026-09-22T14:41:15+00:00",
+    "score": 7.9,
     "duplicates": 1
    },
    {
@@ -3073,7 +3089,7 @@
     "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNc0hfb3NheXVHQ3h3eVJhd3hMVDZzd1hJSXNsM2RYV0J6aWR5RGYtcjFoRFlQQTA5LVdBR2VJOWpxalRjQ2dNR3JTTVVJRDlHZ2kwQzJpa0daN295OVc0NWRhQ09kOU9XUy10MV9Fbm1ManFrWm90VENBdmIyN0t4a3JLLVFWakRwRzVVMklR0gGTAUFVX3lxTE9mc3ZYOXU0alRKZ2NQMUQ0T2RvSm1Id25ueUlwa0hDM0tsUjF2N0U5TEJmWmJ5NUZFZ2toYXFvSWRlODREeGVzVkFaMnFOQmJlRVJiMmx0TkQwWDhNeGJKQ2NtR3Y3ZDZBeWcxS2N6S1AzSmd4NkIta0hNcUY5MktVMGctQ3hyMHZyNDZNeGh3WDNITQ?oc=5",
     "source": "gnews_macro",
     "published_utc": "2026-09-22T10:45:00+00:00",
-    "score": 7.79,
+    "score": 7.75,
     "duplicates": 0
    },
    {
@@ -3082,7 +3098,7 @@
     "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxPekY1aWRZZ1VnSzhpUmVkLUFHNlhMVUdvNjUtMmJwejVFZGNDQXRJOFRLN3ZHX3h6emZIMEJ2SUVRZzRwSktFdEVTM3ZzVlNLWjNYcjB0S3dlLXlDU1p6TkFqM291WHdaaWdfUUxSUUxnV0NkeEMzc043UHNJcjZMTndfa0NNVVREMU5aVUVvclZEMjJaOHd6S25PVlpnbGxEdWFQSTlydUFNQkpqXzFJX2VrU3RBdEIzcDFqV2dvX2w4SF9GanRiNHZKbE5ZblgtdVE?oc=5",
     "source": "gnews_macro",
     "published_utc": "2026-09-22T13:03:21+00:00",
-    "score": 7.67,
+    "score": 7.63,
     "duplicates": 0
    },
    {
@@ -3095,12 +3111,21 @@
     "duplicates": 0
    },
    {
+    "id": "8a2363d037",
+    "title": "Federal Reserve’s Collins says tighter policy needed as inflation risks rise - Investing.com Nigeria",
+    "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQVkJHOEk1RlVTNlZfRDZ4TzFXaXE2cmYyRGhkYlVOZzR2ZVBnemtHOFpqeGNyb0R4bzEtMWJnQklqanB5bnVNeGJKOTl5dkNRWEI3QTBNZFFpNWxkdkJjR1Q1cG0tc01PaFVTbEFnMVlPMmZYNkhiWlZqdERIQlM0Q2NzQUJaU1FFMjNZR21uSTFKeWFaenZId2lTT3A4LTMteUoyS2lsRThhLXNqZy01bGM4MC1xUGJHWnB1b0t6RXR1Y0Jl?oc=5",
+    "source": "gnews_fed",
+    "published_utc": "2026-09-22T14:48:45+00:00",
+    "score": 7.42,
+    "duplicates": 0
+   },
+   {
     "id": "4600f80274",
     "title": "Iran reportedly says it can reopen Strait of Hormuz within 7 days if U.S. eases military pressure",
     "link": "https://www.cnbc.com/2026/09/22/us-iran-war-trump-hormuz.html",
     "source": "cnbc_markets",
     "published_utc": "2026-09-22T14:05:04+00:00",
-    "score": 7.34,
+    "score": 7.3,
     "duplicates": 0
    },
    {
@@ -3109,7 +3134,7 @@
     "link": "https://www.cnbc.com/2026/09/22/september-surge-october-offload-jobs-experts-on-fall-2026-hiring-trends.html",
     "source": "cnbc_markets",
     "published_utc": "2026-09-22T13:47:12+00:00",
-    "score": 7.29,
+    "score": 7.25,
     "duplicates": 0
    },
    {
@@ -3118,26 +3143,17 @@
     "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOa0hySHR1QXR0VW9EV1NvZjdTVVVUUGs5UXZMN2d0aGdfUEdzMmExYWx0RG5jTVYzM3pPMkFYUnBoVzZQVUktQVJJTWQ3VVBQclJKaUNDa2ZwLXByOG9SZnpLeXR3cFN6VEhWckJrMU1BZkNYb1VVc0YycU56NXE2ODBlWmtuNC1zbVZnYnEySkU2ZTEyMnBNYTFaSFd4ZnMy?oc=5",
     "source": "gnews_macro",
     "published_utc": "2026-09-22T13:44:30+00:00",
-    "score": 7.29,
-    "duplicates": 0
-   },
-   {
-    "id": "278b033528",
-    "title": "Fed's Collins warns in LinkedIn post of elevated inflation risks - tradingview.com",
-    "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxOa2Q2MnZkNTUzcGtVWDRsNDlSZ3ZDekNORVFPNmhnRE1zYXk4YVg2NXozZ1lHUUItTUZWbHFndER4NnY1V3MwNTFKOE9pY1hDd3J0Q1ZsVzJaQW1JTGlReWQtdlFMRlRJRWtBZEVVSGN5TnRtX0ZtaGQ1UVFMVHJIVEZFQ2F3NlIxdDBEeFd5b0YzVFNXMmtiTDNxcnN2UjBpVmxoWW1Dd2o4UUV6QTNoRC05cU1pdFJYU0VMeGkwQzR2anBsNWl2RkNBQlBxblU?oc=5",
-    "source": "gnews_macro",
-    "published_utc": "2026-09-22T13:35:18+00:00",
-    "score": 7.26,
+    "score": 7.24,
     "duplicates": 0
    }
   ],
   "summary": {
    "lines": [
-    "Futures are pausing/drifting after the recent AI-driven rally, with AMD, META, BABA, GME, HOOD, GRAB, VKTX, IBRX, PSKY, AMD and PSKY names in focus, and Dow futures diverging from S&P/Nasdaq — relevant for gap risk into the open [00439b0363][c8d4992526][6fe6d2070b].",
-    "Fed's Collins said tighter policy is needed as inflation risks rise and framed a rate hike as helping return inflation to goal, adding hawkish repricing risk ahead of the 09:55 ET Trump speech [3e6d9920c7][be1025fef6][278b033528].",
-    "10-year Treasury yield slipped further below 5% as traders await Fed comments, a backdrop worth watching into today's 13:00 ET 2-year note auction [f61a2107d1].",
-    "Iran reportedly said it can reopen the Strait of Hormuz within 7 days if U.S. eases military pressure, coinciding with lower oil prices and mixed U.S. stock futures [4600f80274][c8d4992526].",
-    "A Fed study found 75% of firms are keeping cash from tariff refunds, and separate commentary flagged a PCE-CPI gap feeding the further-tightening debate [a2986595cb][80d031c658]."
+    "Futures are pausing/drifting after the recent AI-driven rally, with AMD, META, BABA, GME, HOOD, GRAB, VKTX and oil prices in focus [00439b0363][c8d4992526][6fe6d2070b].",
+    "Fed's Collins says she supported a rate hike and cites elevated inflation risks, a hawkish data point ahead of the 09:55 ET Trump speech and 13:00 ET 2-year auction [fdf55f3804][be1025fef6][8a2363d037].",
+    "10-year Treasury yield eased further below 5% as traders await further Fed comments, relevant for rate-sensitive Nasdaq names [f61a2107d1].",
+    "Iran reportedly says the Strait of Hormuz could reopen within 7 days if U.S. eases military pressure, with stock futures mixed and oil prices lower on the report [4600f80274].",
+    "Macro backdrop includes discussion of the PCE-CPI gap for Fed tightening outlook and a Fed study showing 75% of firms are keeping cash from tariff refunds [80d031c658][a2986595cb]."
    ],
    "backend": "anthropic",
    "model": "claude-sonnet-5",
