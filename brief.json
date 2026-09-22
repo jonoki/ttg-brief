@@ -1,7 +1,7 @@
 {
  "meta": {
-  "generated_at_utc": "2026-09-22T11:26:23.530603+00:00",
-  "generated_at_local": "Tue 22 Sep 2026 08:26 ADT",
+  "generated_at_utc": "2026-09-22T11:41:43.915861+00:00",
+  "generated_at_local": "Tue 22 Sep 2026 08:41 ADT",
   "trading_day": "2026-09-22",
   "display_tz": "America/Halifax",
   "version": "0.1.0",
@@ -55,7 +55,7 @@
    "time_utc": "2026-09-22T17:00:00+00:00",
    "local": "14:00 ADT",
    "et": "13:00 ET",
-   "in": "5h 33m",
+   "in": "5h 18m",
    "consensus": null,
    "prior": null
   },
@@ -66,10 +66,10 @@
   {
    "root": "ES",
    "trading_day": "2026-09-22",
-   "as_of_utc": "2026-09-22T11:26:23.530603+00:00",
+   "as_of_utc": "2026-09-22T11:41:43.915861+00:00",
    "source": "yahoo",
    "delayed": true,
-   "last_price": 7835.0,
+   "last_price": 7836.0,
    "levels": [
     {
      "tag": "exp_hi",
@@ -111,7 +111,7 @@
      "label": "Overnight high",
      "price": 7843.75,
      "group": "overnight",
-     "note": "since 18:00 ET, 787 bars"
+     "note": "since 18:00 ET, 802 bars"
     },
     {
      "tag": "poc",
@@ -130,7 +130,7 @@
     {
      "tag": "onvwap",
      "label": "Overnight VWAP",
-     "price": 7831.56,
+     "price": 7831.63,
      "group": "overnight",
      "note": "typical-price VWAP"
     },
@@ -213,14 +213,14 @@
     }
    ],
    "stats": {
-    "last_bar_utc": "2026-09-22T11:16:00+00:00",
-    "last_bar_age_min": 10.4,
+    "last_bar_utc": "2026-09-22T11:31:00+00:00",
+    "last_bar_age_min": 10.7,
     "market_state": "open",
     "profile_volume": 1044110.0,
     "prior_day": "2026-09-21",
     "prior_day_rth_range": 89.0,
     "overnight_range": 33.25,
-    "gap_vs_prior_close": 1.75,
+    "gap_vs_prior_close": 2.75,
     "gap_basis": "last price (pre-market)",
     "atr14": 84.92,
     "atr_days": 14,
@@ -1392,20 +1392,28 @@
     {
      "t": "2026-09-22T11:15:00+00:00",
      "o": 7833.75,
-     "h": 7835.25,
-     "l": 7833.75,
-     "c": 7835.0,
-     "v": 242.0
+     "h": 7838.25,
+     "l": 7833.5,
+     "c": 7835.75,
+     "v": 3511.0
+    },
+    {
+     "t": "2026-09-22T11:30:00+00:00",
+     "o": 7835.75,
+     "h": 7837.0,
+     "l": 7835.25,
+     "c": 7836.0,
+     "v": 264.0
     }
    ]
   },
   {
    "root": "NQ",
    "trading_day": "2026-09-22",
-   "as_of_utc": "2026-09-22T11:26:23.530603+00:00",
+   "as_of_utc": "2026-09-22T11:41:43.915861+00:00",
    "source": "yahoo",
    "delayed": true,
-   "last_price": 30796.0,
+   "last_price": 30786.5,
    "levels": [
     {
      "tag": "exp_hi",
@@ -1419,7 +1427,7 @@
      "label": "Overnight high",
      "price": 30916.5,
      "group": "overnight",
-     "note": "since 18:00 ET, 787 bars"
+     "note": "since 18:00 ET, 802 bars"
     },
     {
      "tag": "wh",
@@ -1445,7 +1453,7 @@
     {
      "tag": "onvwap",
      "label": "Overnight VWAP",
-     "price": 30817.38,
+     "price": 30817.06,
      "group": "overnight",
      "note": "typical-price VWAP"
     },
@@ -1549,14 +1557,14 @@
     }
    ],
    "stats": {
-    "last_bar_utc": "2026-09-22T11:16:00+00:00",
-    "last_bar_age_min": 10.4,
+    "last_bar_utc": "2026-09-22T11:31:00+00:00",
+    "last_bar_age_min": 10.7,
     "market_state": "open",
     "profile_volume": 396902.0,
     "prior_day": "2026-09-21",
     "prior_day_rth_range": 646.25,
     "overnight_range": 246.5,
-    "gap_vs_prior_close": 12.5,
+    "gap_vs_prior_close": 3.0,
     "gap_basis": "last price (pre-market)",
     "atr14": 472.06,
     "atr_days": 14,
@@ -2728,10 +2736,18 @@
     {
      "t": "2026-09-22T11:15:00+00:00",
      "o": 30795.5,
-     "h": 30801.75,
-     "l": 30790.5,
-     "c": 30796.0,
-     "v": 254.0
+     "h": 30803.0,
+     "l": 30777.5,
+     "c": 30778.75,
+     "v": 1536.0
+    },
+    {
+     "t": "2026-09-22T11:30:00+00:00",
+     "o": 30779.5,
+     "h": 30789.75,
+     "l": 30776.25,
+     "c": 30786.5,
+     "v": 133.0
     }
    ]
   }
@@ -2753,7 +2769,7 @@
     "link": "https://www.cnbc.com/2026/09/22/treasury-yield-us-bond-market-trump.html",
     "source": "cnbc_markets",
     "published_utc": "2026-09-22T09:16:10+00:00",
-    "score": 9.64,
+    "score": 9.6,
     "duplicates": 1
    },
    {
@@ -2762,7 +2778,7 @@
     "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOVnJJMDBMTEg4VGN4dG9keDRaSWdDZHVNM005bmxHTFYwRGU3SFJZVkNiZHowbGZ1a2ZGWmgtcG5MTDY5eGs1dmFhTDhBM3FPOGRnWmVvVmdiV1Y5LTdtVUVTX01fRGdydVE3WmUzekg0S0hZcWNFUlJVUzBqdzc5ZHRGeGRLVVBMa2xJSm1HMGEtXzZMM2c?oc=5",
     "source": "gnews_futures",
     "published_utc": "2026-09-22T08:32:18+00:00",
-    "score": 9.02,
+    "score": 8.97,
     "duplicates": 0
    },
    {
@@ -2771,17 +2787,8 @@
     "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPdUV4YjE2SDJDckRZV2oxOWl3eDNCdjJiMDY3VlFrUy1yT0tiMkktemUtbVNxRWExOHkzN1JZOGZPX1hLX2JSaDM3LXEtSVhydXBxLVBEUEd0cEZQbFNRdnQ3OGVscGxmUWZGQXhUUzEyVEhPZVBMeklmSmZ2MXFEcWJ5dDhTOW1feE9kSU5NNF9zYkZlVnBNZGdtQUNBNjJWQ2NjNUl4Mm1xYXJkSFNMbUxSV2ptTEkxS1hiRw?oc=5",
     "source": "gnews_futures",
     "published_utc": "2026-09-22T06:55:55+00:00",
-    "score": 8.75,
+    "score": 8.71,
     "duplicates": 1
-   },
-   {
-    "id": "8c1082744c",
-    "title": "Federal Reserve official says inflation persistence led her to support interest rate hike - niagara-gazette.com",
-    "link": "https://news.google.com/rss/articles/CBMihwJBVV95cUxOcFlrX2gxYW5fUWo2MTVHcnpBQ1FDcThFS0swTE55Y1F2bkJLTVhoX0Ryems5eTczSXZOT0pkNm0xbHc2eHh1dmhmdnU4MUVROUVNVG5iTUV4d0ZMdjBxTzNQVG5RZVkyb3FFODJoZG0wMjF4QlpKVUV6QUhyNUZmakJRYzVtdnJzVWRJX3d1Q3N4emozVFBjcWk5VDFFTlRIejF1dzFlUVNwVlVpWklFeG11YTc2Ul9McmIyTmMwd2dVR0JKamVlRnZJc1pyX3kzcHkyX2pBbF9OdjhPczV0N1F2LWpYTTNoeWZ2c1NqNGlqMTNhaWM5TFBwa0htR3JRdF9JVVNNbw?oc=5",
-    "source": "gnews_fed",
-    "published_utc": "2026-09-22T01:53:00+00:00",
-    "score": 8.41,
-    "duplicates": 5
    },
    {
     "id": "6fe6d2070b",
@@ -2789,8 +2796,17 @@
     "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOZW9MczQ5eU5PM2tvT01QNlpUZU90ejZheGhlTnhQd1VEU2phYVZpTjB0cmN6XzFPQ3Zac3ZrOU9Kc1B2MGs5bzM4YkF3NHozS25mRGU2eE85Tnd0WWt5bWNxZGJsUWJVUk5weTFNT3hGbllPR2Etem1OU3lVY3l2S3ZYQ29ITm1WWkRVUnZqNDFPeWM?oc=5",
     "source": "gnews_futures",
     "published_utc": "2026-09-22T02:44:00+00:00",
-    "score": 8.05,
+    "score": 8.01,
     "duplicates": 0
+   },
+   {
+    "id": "8c1082744c",
+    "title": "Federal Reserve official says inflation persistence led her to support interest rate hike - niagara-gazette.com",
+    "link": "https://news.google.com/rss/articles/CBMihwJBVV95cUxOcFlrX2gxYW5fUWo2MTVHcnpBQ1FDcThFS0swTE55Y1F2bkJLTVhoX0Ryems5eTczSXZOT0pkNm0xbHc2eHh1dmhmdnU4MUVROUVNVG5iTUV4d0ZMdjBxTzNQVG5RZVkyb3FFODJoZG0wMjF4QlpKVUV6QUhyNUZmakJRYzVtdnJzVWRJX3d1Q3N4emozVFBjcWk5VDFFTlRIejF1dzFlUVNwVlVpWklFeG11YTc2Ul9McmIyTmMwd2dVR0JKamVlRnZJc1pyX3kzcHkyX2pBbF9OdjhPczV0N1F2LWpYTTNoeWZ2c1NqNGlqMTNhaWM5TFBwa0htR3JRdF9JVVNNbw?oc=5",
+    "source": "gnews_fed",
+    "published_utc": "2026-09-22T01:53:00+00:00",
+    "score": 7.86,
+    "duplicates": 4
    },
    {
     "id": "a88b7e29f3",
@@ -2798,7 +2814,7 @@
     "link": "https://www.cnbc.com/2026/09/22/taiwans-taiex-hits-record-intraday-high-as-tech-stocks-advance.html",
     "source": "cnbc_markets",
     "published_utc": "2026-09-22T03:33:20+00:00",
-    "score": 7.69,
+    "score": 7.64,
     "duplicates": 0
    },
    {
@@ -2807,7 +2823,7 @@
     "link": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxOSnE5NTFrVWF2RHdqTFNJeTBicUY2ZU15SFNwUVBmSGZURVJtNy1rWXJyOVBqWU04c2NXUm1vdUZWUS1RZktrVjVBd2pKUmxSVTJuWjhFOEtUUk9vM0hNVnFxUS1jeTR5eC1YNzZNM0MxXzBvR0VkeTlVZ3BaTFZYUVVHV2VONVluQVhtcVBkYkw5V2pLRWRrdi1mTGwyUGlpUFBSUVpaNGZLRktsOS1hNUpMVUNKblZyZENod2ZwTGhJYzMyMUxzaXIwdWpPT1Z1NzRkV2R6OUNlby1DYlBz?oc=5",
     "source": "gnews_fed",
     "published_utc": "2026-09-22T05:07:00+00:00",
-    "score": 7.45,
+    "score": 7.4,
     "duplicates": 2
    },
    {
@@ -2816,7 +2832,7 @@
     "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxQbGZtZE9ETGU5dXlRYmxUZlcxZ3JoTU5MWDVnbHJ1emxsbmxUZ2tUdjNDTmdfSVRHNDFabUJIY2doeWhqR3NWS3EtWU05N1liMkM2bV9MM2NrNmVtZGtQd0FRaVZJLU1FSGthc1psVEZoVk0yQ1hvb0tiTWVlVVJ4aXQ3XzJ0ZDR3ZlR5V0FkaTE2ZEs5N2RmR0JjMHB2dnE3TWRXSWFjQ3JtRkJYM2ZiemFPaXZlSEhZSTdvb3ljR0dWc3Q2TmhDamdlSi1fQlk?oc=5",
     "source": "gnews_macro",
     "published_utc": "2026-09-22T11:00:00+00:00",
-    "score": 7.43,
+    "score": 7.38,
     "duplicates": 0
    },
    {
@@ -2825,7 +2841,7 @@
     "link": "https://www.cnbc.com/2026/09/22/us-iran-war-trump-hormuz.html",
     "source": "cnbc_markets",
     "published_utc": "2026-09-22T10:28:17+00:00",
-    "score": 7.34,
+    "score": 7.3,
     "duplicates": 0
    },
    {
@@ -2834,7 +2850,7 @@
     "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTFA2alhwdkFHQllFNlVFbHpYS2dmT3dheUFjZzdSZ0loLU9aTmJtZUhxY1MzZTNobERjREk5eHJNTFB2UXY0c2NSUm5wN2tIM0po?oc=5",
     "source": "gnews_futures",
     "published_utc": "2026-09-22T03:35:32+00:00",
-    "score": 7.19,
+    "score": 7.15,
     "duplicates": 0
    },
    {
@@ -2843,17 +2859,17 @@
     "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOQWlDV2J2dHgyaHFISkpoaUJnbjM5Mmo0R1dsZ19UUTVZbGg2SC1KdW5SV0RZYUxJZF9MWjRHWFpKUXJHb19SdzNtT2plMjFzRnd1Z3JKZzlDU0Fua2kxUmhKQmhKdkczT00yZTVUaWJqZTdGR0Z5aWEyOXhlQ19ITGJzbjZUVmFCX0l3TjByeHpqMXMxR0p3SXNUcE1GMDJ6Z0x1cnYwMGlYTWxuSkxzWmVDTE53Wjln?oc=5",
     "source": "gnews_macro",
     "published_utc": "2026-09-22T09:00:00+00:00",
-    "score": 7.09,
+    "score": 7.05,
     "duplicates": 0
    }
   ],
   "summary": {
    "lines": [
-    "AI-driven rally has stock futures pausing/steady after recent record gains, with AMD, META, BABA, GME, HOOD, GRAB, VKTX, IBRX, PSKY named as movers to watch [00439b0363][d34a6d08de][6fe6d2070b][f2e9462dba].",
-    "Treasury yields easing as investors await fresh jobs data and Fed comments ahead of the 13:00 ET 2-Year note auction [f61a2107d1].",
-    "Iran reportedly says it can reopen the Strait of Hormuz within 7 days if U.S. eases military pressure, leaving stock futures mixed and oil prices lower on renewed diplomacy hopes [4600f80274].",
-    "Fed officials continue to stress inflation persistence and describe the inflation fight as \"painful,\" with one Fed projection citing elevated inflation lasting \"better part of a decade\" [8c1082744c][b270f75c5c][40c3e6db97].",
-    "Taiwan's Taiex hit a record intraday high on tech-sector gains, underscoring the same AI-rally theme spilling into overnight/Asia trade [a88b7e29f3]."
+    "AI-driven rally that pushed Nasdaq/S&P futures to records is pausing, with AMD, META, BABA, GME, HOOD, GRAB, VKTX and GME, IBRX, PSKY named as stocks in focus [00439b0363][d34a6d08de][6fe6d2070b].",
+    "Treasury yields eased as investors await fresh jobs data and Fed comments, with a 2-Year note auction at 13:00 ET a likely catalyst for rate-sensitive futures [f61a2107d1].",
+    "Fed officials continue to stress inflation persistence and describe the fight against it as \"painful,\" with one report saying the Fed projects elevated inflation lasting \"better part of a decade\" [8c1082744c][b270f75c5c][40c3e6db97].",
+    "Reports that Iran could reopen the Strait of Hormuz within 7 days if U.S. military pressure eases left stock futures mixed and oil prices lower [4600f80274].",
+    "Oil's retreat is cited as easing inflation worries and helping lead Nasdaq futures gains [f2e9462dba]."
    ],
    "backend": "anthropic",
    "model": "claude-sonnet-5",
