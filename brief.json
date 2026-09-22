@@ -1,7 +1,7 @@
 {
  "meta": {
-  "generated_at_utc": "2026-09-22T12:42:59.484407+00:00",
-  "generated_at_local": "Tue 22 Sep 2026 09:42 ADT",
+  "generated_at_utc": "2026-09-22T12:58:19.555906+00:00",
+  "generated_at_local": "Tue 22 Sep 2026 09:58 ADT",
   "trading_day": "2026-09-22",
   "display_tz": "America/Halifax",
   "version": "0.1.0",
@@ -55,7 +55,7 @@
    "time_utc": "2026-09-22T17:00:00+00:00",
    "local": "14:00 ADT",
    "et": "13:00 ET",
-   "in": "4h 17m",
+   "in": "4h 01m",
    "consensus": null,
    "prior": null
   },
@@ -66,10 +66,10 @@
   {
    "root": "ES",
    "trading_day": "2026-09-22",
-   "as_of_utc": "2026-09-22T12:42:59.484407+00:00",
+   "as_of_utc": "2026-09-22T12:58:19.555906+00:00",
    "source": "yahoo",
    "delayed": true,
-   "last_price": 7840.75,
+   "last_price": 7839.25,
    "levels": [
     {
      "tag": "exp_hi",
@@ -111,7 +111,7 @@
      "label": "Overnight high",
      "price": 7843.75,
      "group": "overnight",
-     "note": "since 18:00 ET, 863 bars"
+     "note": "since 18:00 ET, 879 bars"
     },
     {
      "tag": "poc",
@@ -130,7 +130,7 @@
     {
      "tag": "onvwap",
      "label": "Overnight VWAP",
-     "price": 7832.2,
+     "price": 7832.42,
      "group": "overnight",
      "note": "typical-price VWAP"
     },
@@ -213,14 +213,14 @@
     }
    ],
    "stats": {
-    "last_bar_utc": "2026-09-22T12:32:00+00:00",
-    "last_bar_age_min": 11.0,
+    "last_bar_utc": "2026-09-22T12:48:00+00:00",
+    "last_bar_age_min": 10.3,
     "market_state": "open",
     "profile_volume": 1044110.0,
     "prior_day": "2026-09-21",
     "prior_day_rth_range": 89.0,
     "overnight_range": 33.25,
-    "gap_vs_prior_close": 7.5,
+    "gap_vs_prior_close": 6.0,
     "gap_basis": "last price (pre-market)",
     "atr14": 84.92,
     "atr_days": 14,
@@ -1432,20 +1432,28 @@
     {
      "t": "2026-09-22T12:30:00+00:00",
      "o": 7840.0,
-     "h": 7842.5,
-     "l": 7839.25,
-     "c": 7840.75,
-     "v": 1285.0
+     "h": 7842.75,
+     "l": 7838.0,
+     "c": 7839.0,
+     "v": 6809.0
+    },
+    {
+     "t": "2026-09-22T12:45:00+00:00",
+     "o": 7839.0,
+     "h": 7839.75,
+     "l": 7838.0,
+     "c": 7839.25,
+     "v": 1324.0
     }
    ]
   },
   {
    "root": "NQ",
    "trading_day": "2026-09-22",
-   "as_of_utc": "2026-09-22T12:42:59.484407+00:00",
+   "as_of_utc": "2026-09-22T12:58:19.555906+00:00",
    "source": "yahoo",
    "delayed": true,
-   "last_price": 30778.25,
+   "last_price": 30765.0,
    "levels": [
     {
      "tag": "exp_hi",
@@ -1459,7 +1467,7 @@
      "label": "Overnight high",
      "price": 30916.5,
      "group": "overnight",
-     "note": "since 18:00 ET, 863 bars"
+     "note": "since 18:00 ET, 879 bars"
     },
     {
      "tag": "wh",
@@ -1485,7 +1493,7 @@
     {
      "tag": "onvwap",
      "label": "Overnight VWAP",
-     "price": 30814.78,
+     "price": 30814.03,
      "group": "overnight",
      "note": "typical-price VWAP"
     },
@@ -1589,14 +1597,14 @@
     }
    ],
    "stats": {
-    "last_bar_utc": "2026-09-22T12:32:00+00:00",
-    "last_bar_age_min": 11.0,
+    "last_bar_utc": "2026-09-22T12:48:00+00:00",
+    "last_bar_age_min": 10.3,
     "market_state": "open",
     "profile_volume": 396902.0,
     "prior_day": "2026-09-21",
     "prior_day_rth_range": 646.25,
     "overnight_range": 246.5,
-    "gap_vs_prior_close": -5.25,
+    "gap_vs_prior_close": -18.5,
     "gap_basis": "last price (pre-market)",
     "atr14": 472.06,
     "atr_days": 14,
@@ -2808,10 +2816,18 @@
     {
      "t": "2026-09-22T12:30:00+00:00",
      "o": 30783.25,
-     "h": 30787.25,
-     "l": 30772.0,
-     "c": 30778.25,
-     "v": 373.0
+     "h": 30788.5,
+     "l": 30763.0,
+     "c": 30764.0,
+     "v": 2394.0
+    },
+    {
+     "t": "2026-09-22T12:45:00+00:00",
+     "o": 30764.75,
+     "h": 30769.5,
+     "l": 30761.75,
+     "c": 30765.0,
+     "v": 280.0
     }
    ]
   }
@@ -2833,25 +2849,25 @@
     "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOVnJJMDBMTEg4VGN4dG9keDRaSWdDZHVNM005bmxHTFYwRGU3SFJZVkNiZHowbGZ1a2ZGWmgtcG5MTDY5eGs1dmFhTDhBM3FPOGRnWmVvVmdiV1Y5LTdtVUVTX01fRGdydVE3WmUzekg0S0hZcWNFUlJVUzBqdzc5ZHRGeGRLVVBMa2xJSm1HMGEtXzZMM2c?oc=5",
     "source": "gnews_futures",
     "published_utc": "2026-09-22T08:32:18+00:00",
-    "score": 8.8,
+    "score": 8.76,
     "duplicates": 0
    },
    {
-    "id": "d34a6d08de",
-    "title": "U.S. stock futures steady after AI rally boosts Wall St; China summit awaited - Investing.com Canada",
-    "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPdUV4YjE2SDJDckRZV2oxOWl3eDNCdjJiMDY3VlFrUy1yT0tiMkktemUtbVNxRWExOHkzN1JZOGZPX1hLX2JSaDM3LXEtSVhydXBxLVBEUEd0cEZQbFNRdnQ3OGVscGxmUWZGQXhUUzEyVEhPZVBMeklmSmZ2MXFEcWJ5dDhTOW1feE9kSU5NNF9zYkZlVnBNZGdtQUNBNjJWQ2NjNUl4Mm1xYXJkSFNMbUxSV2ptTEkxS1hiRw?oc=5",
-    "source": "gnews_futures",
-    "published_utc": "2026-09-22T06:55:55+00:00",
-    "score": 8.54,
+    "id": "f61a2107d1",
+    "title": "10-year Treasury yield slips further below 5% as traders await Fed comments",
+    "link": "https://www.cnbc.com/2026/09/22/treasury-yield-us-bond-market-trump.html",
+    "source": "cnbc_markets",
+    "published_utc": "2026-09-22T12:45:15+00:00",
+    "score": 8.46,
     "duplicates": 1
    },
    {
     "id": "c8d4992526",
-    "title": "US Stock Futures Drift After AI-Driven Rally, Oil Prices Slip - Bloomberg.com",
+    "title": "US Stock Futures Drift After AI-Driven Rally, Oil Prices Slip - bloomberg.com",
     "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPcm80SUgwLTExNXdITWt1UExnX1F6M0xvV2c4VVJpYzJyRmFTTm5UOWM5VmpEVDNsM05RQmFiR0Nfa25teG5XOUlBZ29EcjFyNTFoQTRTZ0JIU2NMWWdVRVBVbEdQNDRqclVKOEdZXzdFYmpHeHdhUWVpbDk3NXVkSnd4cHhkWVJ4UlJqN3VHVXRHS050N0Q0NmdIZG91MDVKWjlGc1Z2dFAtOGJIZ1lVaFhRcGZ6cnBITW4tX3BFUEZid3ZK?oc=5",
     "source": "gnews_futures",
     "published_utc": "2026-09-22T12:29:15+00:00",
-    "score": 8.46,
+    "score": 8.42,
     "duplicates": 0
    },
    {
@@ -2860,16 +2876,16 @@
     "link": "https://www.investors.com/market-trend/stock-market-today/dow-jones-sp500-nasdaq-us-iran-peace-hopes-oil-prices-treasury-yields/?src=A00220&yptr=yahoo",
     "source": "yahoo_finance",
     "published_utc": "2026-09-22T12:01:55+00:00",
-    "score": 8.39,
+    "score": 8.34,
     "duplicates": 0
    },
    {
-    "id": "f61a2107d1",
-    "title": "10-year Treasury yield slips further below 5% as traders await Fed comments",
-    "link": "https://www.cnbc.com/2026/09/22/treasury-yield-us-bond-market-trump.html",
-    "source": "cnbc_markets",
-    "published_utc": "2026-09-22T12:33:19+00:00",
-    "score": 7.97,
+    "id": "d34a6d08de",
+    "title": "U.S. stock futures steady after AI rally boosts Wall St; China summit awaited - Investing.com Canada",
+    "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPdUV4YjE2SDJDckRZV2oxOWl3eDNCdjJiMDY3VlFrUy1yT0tiMkktemUtbVNxRWExOHkzN1JZOGZPX1hLX2JSaDM3LXEtSVhydXBxLVBEUEd0cEZQbFNRdnQ3OGVscGxmUWZGQXhUUzEyVEhPZVBMeklmSmZ2MXFEcWJ5dDhTOW1feE9kSU5NNF9zYkZlVnBNZGdtQUNBNjJWQ2NjNUl4Mm1xYXJkSFNMbUxSV2ptTEkxS1hiRw?oc=5",
+    "source": "gnews_futures",
+    "published_utc": "2026-09-22T06:55:55+00:00",
+    "score": 7.99,
     "duplicates": 0
    },
    {
@@ -2878,7 +2894,7 @@
     "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOZW9MczQ5eU5PM2tvT01QNlpUZU90ejZheGhlTnhQd1VEU2phYVZpTjB0cmN6XzFPQ3Zac3ZrOU9Kc1B2MGs5bzM4YkF3NHozS25mRGU2eE85Tnd0WWt5bWNxZGJsUWJVUk5weTFNT3hGbllPR2Etem1OU3lVY3l2S3ZYQ29ITm1WWkRVUnZqNDFPeWM?oc=5",
     "source": "gnews_futures",
     "published_utc": "2026-09-22T02:44:00+00:00",
-    "score": 7.84,
+    "score": 7.79,
     "duplicates": 0
    },
    {
@@ -2887,8 +2903,26 @@
     "link": "https://news.google.com/rss/articles/CBMihwJBVV95cUxOcFlrX2gxYW5fUWo2MTVHcnpBQ1FDcThFS0swTE55Y1F2bkJLTVhoX0Ryems5eTczSXZOT0pkNm0xbHc2eHh1dmhmdnU4MUVROUVNVG5iTUV4d0ZMdjBxTzNQVG5RZVkyb3FFODJoZG0wMjF4QlpKVUV6QUhyNUZmakJRYzVtdnJzVWRJX3d1Q3N4emozVFBjcWk5VDFFTlRIejF1dzFlUVNwVlVpWklFeG11YTc2Ul9McmIyTmMwd2dVR0JKamVlRnZJc1pyX3kzcHkyX2pBbF9OdjhPczV0N1F2LWpYTTNoeWZ2c1NqNGlqMTNhaWM5TFBwa0htR3JRdF9JVVNNbw?oc=5",
     "source": "gnews_fed",
     "published_utc": "2026-09-22T01:53:00+00:00",
-    "score": 7.69,
+    "score": 7.65,
     "duplicates": 4
+   },
+   {
+    "id": "4600f80274",
+    "title": "Iran reportedly says it can reopen Strait of Hormuz within 7 days if U.S. eases military pressure",
+    "link": "https://www.cnbc.com/2026/09/22/us-iran-war-trump-hormuz.html",
+    "source": "cnbc_markets",
+    "published_utc": "2026-09-22T12:56:37+00:00",
+    "score": 7.5,
+    "duplicates": 0
+   },
+   {
+    "id": "60a882153a",
+    "title": "Meta Shares Surge More Than 20% as Muse AI Agent Fuels Revenue Hopes - Межа. Новини України.",
+    "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE43b1FKSkZ5dDU1UktSS2hWVHBPaTVKcWtaUHRqWUJwUG5UaFVCaFNZSW1aQ0d6VGRCSXViWUswV0NzOWM2VVV0dmEwa1VYNHFVbzJMSWxlQnhWN2NpZ0dLOTVRTnY?oc=5",
+    "source": "gnews_megacap",
+    "published_utc": "2026-09-22T12:51:10+00:00",
+    "score": 7.48,
+    "duplicates": 0
    },
    {
     "id": "a88b7e29f3",
@@ -2896,17 +2930,8 @@
     "link": "https://www.cnbc.com/2026/09/22/taiwans-taiex-hits-record-intraday-high-as-tech-stocks-advance.html",
     "source": "cnbc_markets",
     "published_utc": "2026-09-22T03:33:20+00:00",
-    "score": 7.47,
+    "score": 7.43,
     "duplicates": 0
-   },
-   {
-    "id": "b270f75c5c",
-    "title": "Federal Reserve official: Fighting inflation to be 'painful' - timesdaily.com",
-    "link": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxOSnE5NTFrVWF2RHdqTFNJeTBicUY2ZU15SFNwUVBmSGZURVJtNy1rWXJyOVBqWU04c2NXUm1vdUZWUS1RZktrVjVBd2pKUmxSVTJuWjhFOEtUUk9vM0hNVnFxUS1jeTR5eC1YNzZNM0MxXzBvR0VkeTlVZ3BaTFZYUVVHV2VONVluQVhtcVBkYkw5V2pLRWRrdi1mTGwyUGlpUFBSUVpaNGZLRktsOS1hNUpMVUNKblZyZENod2ZwTGhJYzMyMUxzaXIwdWpPT1Z1NzRkV2R6OUNlby1DYlBz?oc=5",
-    "source": "gnews_fed",
-    "published_utc": "2026-09-22T05:07:00+00:00",
-    "score": 7.23,
-    "duplicates": 2
    },
    {
     "id": "d1e97db737",
@@ -2914,26 +2939,16 @@
     "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxQbGZtZE9ETGU5dXlRYmxUZlcxZ3JoTU5MWDVnbHJ1emxsbmxUZ2tUdjNDTmdfSVRHNDFabUJIY2doeWhqR3NWS3EtWU05N1liMkM2bV9MM2NrNmVtZGtQd0FRaVZJLU1FSGthc1psVEZoVk0yQ1hvb0tiTWVlVVJ4aXQ3XzJ0ZDR3ZlR5V0FkaTE2ZEs5N2RmR0JjMHB2dnE3TWRXSWFjQ3JtRkJYM2ZiemFPaXZlSEhZSTdvb3ljR0dWc3Q2TmhDamdlSi1fQlk?oc=5",
     "source": "gnews_macro",
     "published_utc": "2026-09-22T11:00:00+00:00",
-    "score": 7.21,
-    "duplicates": 0
-   },
-   {
-    "id": "4600f80274",
-    "title": "Iran reportedly says it can reopen Strait of Hormuz within 7 days if U.S. eases military pressure",
-    "link": "https://www.cnbc.com/2026/09/22/us-iran-war-trump-hormuz.html",
-    "source": "cnbc_markets",
-    "published_utc": "2026-09-22T10:28:17+00:00",
-    "score": 7.13,
+    "score": 7.17,
     "duplicates": 0
    }
   ],
   "summary": {
    "lines": [
-    "Futures are pausing/drifting after the AI-driven rally, with focus on AMD, META, BABA, GME, HOOD, GRAB, VKTX [00439b0363][c8d4992526][d34a6d08de][6fe6d2070b].",
-    "Oil prices are slipping and Treasury yields extending losses, with the 10-year yield below 5%, on U.S.-Iran peace hopes and reports Iran could reopen the Strait of Hormuz within 7 days [dea8bfa605][f61a2107d1][4600f80274].",
-    "Fed officials have flagged inflation persistence as a reason for supporting a rate hike and called fighting inflation likely to be \"painful,\" keeping rate-path uncertainty in play ahead of the 13:00 ET 2-Year note auction [8c1082744c][b270f75c5c][d1e97db737].",
-    "A U.S.-China summit is awaited, a factor cited alongside the steadying in futures [d34a6d08de].",
-    "Asian tech strength continued as Taiwan's Taiex hit a record intraday high on AI-related gains, echoing the Wall Street AI rally theme [a88b7e29f3]."
+    "Nasdaq and S&P futures pause/drift after the prior AI-driven rally, with AMD, META, BABA, GME, HOOD, GRAB, VKTX in focus [00439b0363][c8d4992526][d34a6d08de][6fe6d2070b].",
+    "Meta shares reported surging more than 20% on Muse AI agent revenue hopes, a megacap driver for index futures [60a882153a].",
+    "Iran reportedly says it can reopen the Strait of Hormuz within 7 days if U.S. eases military pressure, fueling U.S.-Iran peace hopes that pushed oil and Treasury yields lower, with the 10-year yield slipping further below 5% [4600f80274][dea8bfa605][f61a2107d1].",
+    "A Fed official cited inflation persistence as her reason for supporting a rate hike, keeping a hawkish Fed narrative in play alongside broader inflation commentary [8c1082744c][84629c63d4][d1"
    ],
    "backend": "anthropic",
    "model": "claude-sonnet-5",
