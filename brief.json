@@ -1,7 +1,7 @@
 {
  "meta": {
-  "generated_at_utc": "2026-09-22T10:55:42.360580+00:00",
-  "generated_at_local": "Tue 22 Sep 2026 07:55 ADT",
+  "generated_at_utc": "2026-09-22T11:11:03.756247+00:00",
+  "generated_at_local": "Tue 22 Sep 2026 08:11 ADT",
   "trading_day": "2026-09-22",
   "display_tz": "America/Halifax",
   "version": "0.1.0",
@@ -55,7 +55,7 @@
    "time_utc": "2026-09-22T17:00:00+00:00",
    "local": "14:00 ADT",
    "et": "13:00 ET",
-   "in": "6h 04m",
+   "in": "5h 48m",
    "consensus": null,
    "prior": null
   },
@@ -66,10 +66,10 @@
   {
    "root": "ES",
    "trading_day": "2026-09-22",
-   "as_of_utc": "2026-09-22T10:55:42.360580+00:00",
+   "as_of_utc": "2026-09-22T11:11:03.756247+00:00",
    "source": "yahoo",
    "delayed": true,
-   "last_price": 7839.5,
+   "last_price": 7837.25,
    "levels": [
     {
      "tag": "exp_hi",
@@ -109,9 +109,9 @@
     {
      "tag": "onh",
      "label": "Overnight high",
-     "price": 7843.0,
+     "price": 7843.75,
      "group": "overnight",
-     "note": "since 18:00 ET, 756 bars"
+     "note": "since 18:00 ET, 772 bars"
     },
     {
      "tag": "poc",
@@ -130,7 +130,7 @@
     {
      "tag": "onvwap",
      "label": "Overnight VWAP",
-     "price": 7831.16,
+     "price": 7831.4,
      "group": "overnight",
      "note": "typical-price VWAP"
     },
@@ -213,14 +213,14 @@
     }
    ],
    "stats": {
-    "last_bar_utc": "2026-09-22T10:45:00+00:00",
-    "last_bar_age_min": 10.7,
+    "last_bar_utc": "2026-09-22T11:01:00+00:00",
+    "last_bar_age_min": 10.1,
     "market_state": "open",
     "profile_volume": 1044110.0,
     "prior_day": "2026-09-21",
     "prior_day_rth_range": 89.0,
-    "overnight_range": 32.5,
-    "gap_vs_prior_close": 6.25,
+    "overnight_range": 33.25,
+    "gap_vs_prior_close": 4.0,
     "gap_basis": "last price (pre-market)",
     "atr14": 84.92,
     "atr_days": 14,
@@ -1376,20 +1376,28 @@
     {
      "t": "2026-09-22T10:45:00+00:00",
      "o": 7840.75,
-     "h": 7841.0,
-     "l": 7839.25,
-     "c": 7839.5,
-     "v": 0.0
+     "h": 7843.75,
+     "l": 7838.0,
+     "c": 7838.25,
+     "v": 4098.0
+    },
+    {
+     "t": "2026-09-22T11:00:00+00:00",
+     "o": 7838.25,
+     "h": 7839.5,
+     "l": 7835.25,
+     "c": 7837.25,
+     "v": 926.0
     }
    ]
   },
   {
    "root": "NQ",
    "trading_day": "2026-09-22",
-   "as_of_utc": "2026-09-22T10:55:42.360580+00:00",
+   "as_of_utc": "2026-09-22T11:11:03.756247+00:00",
    "source": "yahoo",
    "delayed": true,
-   "last_price": 30817.25,
+   "last_price": 30808.75,
    "levels": [
     {
      "tag": "exp_hi",
@@ -1403,7 +1411,7 @@
      "label": "Overnight high",
      "price": 30916.5,
      "group": "overnight",
-     "note": "since 18:00 ET, 756 bars"
+     "note": "since 18:00 ET, 772 bars"
     },
     {
      "tag": "wh",
@@ -1443,7 +1451,7 @@
     {
      "tag": "onvwap",
      "label": "Overnight VWAP",
-     "price": 30818.52,
+     "price": 30818.59,
      "group": "overnight",
      "note": "typical-price VWAP"
     },
@@ -1533,14 +1541,14 @@
     }
    ],
    "stats": {
-    "last_bar_utc": "2026-09-22T10:45:00+00:00",
-    "last_bar_age_min": 10.7,
+    "last_bar_utc": "2026-09-22T11:01:00+00:00",
+    "last_bar_age_min": 10.1,
     "market_state": "open",
     "profile_volume": 396902.0,
     "prior_day": "2026-09-21",
     "prior_day_rth_range": 646.25,
     "overnight_range": 246.5,
-    "gap_vs_prior_close": 33.75,
+    "gap_vs_prior_close": 25.25,
     "gap_basis": "last price (pre-market)",
     "atr14": 472.06,
     "atr_days": 14,
@@ -2696,10 +2704,18 @@
     {
      "t": "2026-09-22T10:45:00+00:00",
      "o": 30821.5,
-     "h": 30821.5,
-     "l": 30812.75,
-     "c": 30817.25,
-     "v": 0.0
+     "h": 30834.25,
+     "l": 30807.75,
+     "c": 30814.25,
+     "v": 1707.0
+    },
+    {
+     "t": "2026-09-22T11:00:00+00:00",
+     "o": 30814.0,
+     "h": 30829.0,
+     "l": 30801.75,
+     "c": 30808.75,
+     "v": 237.0
     }
    ]
   }
@@ -2712,8 +2728,8 @@
     "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOTEJ2bHo5ZzNxOWtDc2pnMVh2YllPeGFCTVlSXzQtOTgxOFg1UTlnVEhKeG9jWFYwQkxaSDctTk1ZOHlvenZ5LWg0QXFYcm04N3duTVlhNzBFODUtb2tBSkVzdlZyUElsT1RzVklJRXBrN0VRSDljUGFzWTY2V200OVg1ajNDMmtqWVA0ZHdIT0RVNkx6QTdn?oc=5",
     "source": "gnews_macro",
     "published_utc": "2026-09-21T22:15:00+00:00",
-    "score": 10.5,
-    "duplicates": 1
+    "score": 10.0,
+    "duplicates": 0
    },
    {
     "id": "f61a2107d1",
@@ -2721,16 +2737,16 @@
     "link": "https://www.cnbc.com/2026/09/22/treasury-yield-us-bond-market-trump.html",
     "source": "cnbc_markets",
     "published_utc": "2026-09-22T09:16:10+00:00",
-    "score": 9.72,
+    "score": 9.68,
     "duplicates": 1
    },
    {
     "id": "00439b0363",
-    "title": "Nasdaq, S&P 500 Futures Pause After Record AI-Driven Rally: AMD, META, BABA, GME, HOOD, GRAB, VKTX Stocks In Focus - finance.yahoo.com",
+    "title": "Nasdaq, S&P 500 Futures Pause After Record AI-Driven Rally: AMD, META, BABA, GME, HOOD, GRAB, VKTX Stocks In Focus - Yahoo Finance",
     "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOVnJJMDBMTEg4VGN4dG9keDRaSWdDZHVNM005bmxHTFYwRGU3SFJZVkNiZHowbGZ1a2ZGWmgtcG5MTDY5eGs1dmFhTDhBM3FPOGRnWmVvVmdiV1Y5LTdtVUVTX01fRGdydVE3WmUzekg0S0hZcWNFUlJVUzBqdzc5ZHRGeGRLVVBMa2xJSm1HMGEtXzZMM2c?oc=5",
     "source": "gnews_futures",
     "published_utc": "2026-09-22T08:32:18+00:00",
-    "score": 9.1,
+    "score": 9.06,
     "duplicates": 0
    },
    {
@@ -2739,7 +2755,7 @@
     "link": "https://news.google.com/rss/articles/CBMihwJBVV95cUxOcFlrX2gxYW5fUWo2MTVHcnpBQ1FDcThFS0swTE55Y1F2bkJLTVhoX0Ryems5eTczSXZOT0pkNm0xbHc2eHh1dmhmdnU4MUVROUVNVG5iTUV4d0ZMdjBxTzNQVG5RZVkyb3FFODJoZG0wMjF4QlpKVUV6QUhyNUZmakJRYzVtdnJzVWRJX3d1Q3N4emozVFBjcWk5VDFFTlRIejF1dzFlUVNwVlVpWklFeG11YTc2Ul9McmIyTmMwd2dVR0JKamVlRnZJc1pyX3kzcHkyX2pBbF9OdjhPczV0N1F2LWpYTTNoeWZ2c1NqNGlqMTNhaWM5TFBwa0htR3JRdF9JVVNNbw?oc=5",
     "source": "gnews_fed",
     "published_utc": "2026-09-22T01:53:00+00:00",
-    "score": 8.49,
+    "score": 8.45,
     "duplicates": 5
    },
    {
@@ -2748,16 +2764,16 @@
     "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNb2RxV3h6VGdyMW92ZWluWXlDUTVrQ1pIUURvQVp4YTVrcFVxNkl3NEg0UGZ5LVJTazByTTJGelBHRXRCVFFDNkxndG1wTE1aMlBFYmFtWnN3MlFqY1otNFNVNXdScjR4UEc4Y2RZX05NX0xrRlNRUXFXVHlHOENyM1ZMaHYzeGIycUY5dWZ5TFdSUzFndmdGZnE1cEVaMG85aW9aM0V0VzBHQkkxOHVQeVRhLXR6VmhobEV5blVn?oc=5",
     "source": "gnews_futures",
     "published_utc": "2026-09-22T06:51:49+00:00",
-    "score": 8.32,
+    "score": 8.28,
     "duplicates": 0
    },
    {
     "id": "6fe6d2070b",
-    "title": "Dow Futures Slip While S&P 500, Nasdaq Futures Climb After AI Rally: GME, IBRX, AMD, PSKY Stocks In Focus - finance.yahoo.com",
+    "title": "Dow Futures Slip While S&P 500, Nasdaq Futures Climb After AI Rally: GME, IBRX, AMD, PSKY Stocks In Focus - Yahoo Finance",
     "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOZW9MczQ5eU5PM2tvT01QNlpUZU90ejZheGhlTnhQd1VEU2phYVZpTjB0cmN6XzFPQ3Zac3ZrOU9Kc1B2MGs5bzM4YkF3NHozS25mRGU2eE85Tnd0WWt5bWNxZGJsUWJVUk5weTFNT3hGbllPR2Etem1OU3lVY3l2S3ZYQ29ITm1WWkRVUnZqNDFPeWM?oc=5",
     "source": "gnews_futures",
     "published_utc": "2026-09-22T02:44:00+00:00",
-    "score": 8.13,
+    "score": 8.09,
     "duplicates": 0
    },
    {
@@ -2766,7 +2782,7 @@
     "link": "https://www.cnbc.com/2026/09/22/taiwans-taiex-hits-record-intraday-high-as-tech-stocks-advance.html",
     "source": "cnbc_markets",
     "published_utc": "2026-09-22T03:33:20+00:00",
-    "score": 7.77,
+    "score": 7.73,
     "duplicates": 0
    },
    {
@@ -2775,8 +2791,17 @@
     "link": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxOSnE5NTFrVWF2RHdqTFNJeTBicUY2ZU15SFNwUVBmSGZURVJtNy1rWXJyOVBqWU04c2NXUm1vdUZWUS1RZktrVjVBd2pKUmxSVTJuWjhFOEtUUk9vM0hNVnFxUS1jeTR5eC1YNzZNM0MxXzBvR0VkeTlVZ3BaTFZYUVVHV2VONVluQVhtcVBkYkw5V2pLRWRrdi1mTGwyUGlpUFBSUVpaNGZLRktsOS1hNUpMVUNKblZyZENod2ZwTGhJYzMyMUxzaXIwdWpPT1Z1NzRkV2R6OUNlby1DYlBz?oc=5",
     "source": "gnews_fed",
     "published_utc": "2026-09-22T05:07:00+00:00",
-    "score": 7.53,
+    "score": 7.49,
     "duplicates": 2
+   },
+   {
+    "id": "d1e97db737",
+    "title": "Americans are right: Inflation not just Fed’s problem - Antelope Valley Press",
+    "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxQbGZtZE9ETGU5dXlRYmxUZlcxZ3JoTU5MWDVnbHJ1emxsbmxUZ2tUdjNDTmdfSVRHNDFabUJIY2doeWhqR3NWS3EtWU05N1liMkM2bV9MM2NrNmVtZGtQd0FRaVZJLU1FSGthc1psVEZoVk0yQ1hvb0tiTWVlVVJ4aXQ3XzJ0ZDR3ZlR5V0FkaTE2ZEs5N2RmR0JjMHB2dnE3TWRXSWFjQ3JtRkJYM2ZiemFPaXZlSEhZSTdvb3ljR0dWc3Q2TmhDamdlSi1fQlk?oc=5",
+    "source": "gnews_macro",
+    "published_utc": "2026-09-22T11:00:00+00:00",
+    "score": 7.47,
+    "duplicates": 0
    },
    {
     "id": "4600f80274",
@@ -2784,7 +2809,7 @@
     "link": "https://www.cnbc.com/2026/09/22/us-iran-war-trump-hormuz.html",
     "source": "cnbc_markets",
     "published_utc": "2026-09-22T10:28:17+00:00",
-    "score": 7.42,
+    "score": 7.38,
     "duplicates": 0
    },
    {
@@ -2793,7 +2818,7 @@
     "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTFA2alhwdkFHQllFNlVFbHpYS2dmT3dheUFjZzdSZ0loLU9aTmJtZUhxY1MzZTNobERjREk5eHJNTFB2UXY0c2NSUm5wN2tIM0po?oc=5",
     "source": "gnews_futures",
     "published_utc": "2026-09-22T03:35:32+00:00",
-    "score": 7.28,
+    "score": 7.23,
     "duplicates": 0
    },
    {
@@ -2802,31 +2827,21 @@
     "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOQWlDV2J2dHgyaHFISkpoaUJnbjM5Mmo0R1dsZ19UUTVZbGg2SC1KdW5SV0RZYUxJZF9MWjRHWFpKUXJHb19SdzNtT2plMjFzRnd1Z3JKZzlDU0Fua2kxUmhKQmhKdkczT00yZTVUaWJqZTdGR0Z5aWEyOXhlQ19ITGJzbjZUVmFCX0l3TjByeHpqMXMxR0p3SXNUcE1GMDJ6Z0x1cnYwMGlYTWxuSkxzWmVDTE53Wjln?oc=5",
     "source": "gnews_macro",
     "published_utc": "2026-09-22T09:00:00+00:00",
-    "score": 7.18,
-    "duplicates": 0
-   },
-   {
-    "id": "d0db17a4d5",
-    "title": "Americans are right: Inflation is not just the Fed's Problem - Daily Herald",
-    "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQQmVTRmFRaVJKdFNGS0QzbFl0b0djMFNpX29LNXdCYnR5akVILXpCc1R6ZmdxZ0dVTU5PRjFDZUwwT1RXRzVfbnRDTW5vckVCYWw0UElNdDRjY2NiMTJwMzlmXzZSVzdIVlRBcWluUG5vUkFQbDFsZWg4Wk5Nbk1UcDhEQ0R6NzF4V2xXRFdXeW4wVjc1cmE1WjNXYkZwSWxPcFk5cXJ6SHdzN3JYQ0lmYy01dmtZck1Zc1E?oc=5",
-    "source": "gnews_macro",
-    "published_utc": "2026-09-22T09:00:00+00:00",
-    "score": 7.18,
+    "score": 7.14,
     "duplicates": 0
    }
   ],
   "summary": {
    "lines": [
-    "Nasdaq/S&P futures are pausing after the prior session's AI-driven rally, with traders watching AMD, META, BABA, GME, HOOD, GRAB, VKTX for follow-through [00439b0363][d3b41abb7d][6fe6d2070b].",
-    "Iran reportedly says it can reopen the Strait of Hormuz within 7 days if U.S. military pressure eases, a headline that moved oil lower and left futures mixed [4600f80274].",
-    "Fed officials continue to stress inflation persistence and warn that fighting it will be \"painful,\" keeping a hawkish rate-hike backdrop in play [8c1082744c][b270f75c5c][40c3e6db97].",
-    "Treasury yields have eased as investors await fresh jobs data and further Fed commentary, a factor to watch into today's 13:00 ET 2-Year note auction [f61a2107d1]."
+    "Nasdaq and S&P 500 futures pause after a record AI-driven rally, with AMD, META, BABA and other AI-linked names in focus for gap risk. [00439b0363][d3b41abb7d][6fe6d2070b][f2e9462dba]",
+    "Iran reportedly says it can reopen the Strait of Hormuz within 7 days if U.S. eases military pressure, keeping oil headlines and futures mixed. [4600f80274]",
+    "Fed officials reiterated inflation persistence and called fighting inflation \"painful,\" a hawkish backdrop for rate-sensitive tech futures. [8c1082744c][b270f75c5c][40c3e6db97]",
+    "Treasury yields eased as traders await fresh jobs data and more Fed comments, a driver of pre-market rate expectations. [f61a2107d1]",
+    "The 13:00 ET 2-Year note auction adds a rates catalyst into the session, with yields already in focus this morning. [f61a2107d1]"
    ],
    "backend": "anthropic",
    "model": "claude-sonnet-5",
-   "dropped": [
-    "no valid citation: Broader AI-rally follow-through is also visible overseas, with Taiwan's Taiex hitting a record intra"
-   ],
+   "dropped": [],
    "warnings": []
   },
   "feeds": [],
