@@ -1,7 +1,7 @@
 {
  "meta": {
-  "generated_at_utc": "2026-09-22T15:32:00.566864+00:00",
-  "generated_at_local": "Tue 22 Sep 2026 12:32 ADT",
+  "generated_at_utc": "2026-09-22T15:47:24.112572+00:00",
+  "generated_at_local": "Tue 22 Sep 2026 12:47 ADT",
   "trading_day": "2026-09-22",
   "display_tz": "America/Halifax",
   "version": "0.1.0",
@@ -73,7 +73,7 @@
    "time_utc": "2026-09-22T17:00:00+00:00",
    "local": "14:00 ADT",
    "et": "13:00 ET",
-   "in": "1h 27m",
+   "in": "1h 12m",
    "consensus": null,
    "prior": null
   },
@@ -84,10 +84,10 @@
   {
    "root": "ES",
    "trading_day": "2026-09-22",
-   "as_of_utc": "2026-09-22T15:32:00.566864+00:00",
+   "as_of_utc": "2026-09-22T15:47:24.112572+00:00",
    "source": "yahoo",
    "delayed": true,
-   "last_price": 7832.5,
+   "last_price": 7824.25,
    "levels": [
     {
      "tag": "exp_hi",
@@ -167,17 +167,17 @@
      "note": "typical-price VWAP"
     },
     {
-     "tag": "tdl",
-     "label": "Today's RTH low",
-     "price": 7826.5,
-     "group": "today",
+     "tag": "rn_minor_up",
+     "label": "Round 25 above",
+     "price": 7825.0,
+     "group": "round",
      "note": ""
     },
     {
-     "tag": "rn_minor_dn",
-     "label": "Round 25 below",
-     "price": 7825.0,
-     "group": "round",
+     "tag": "tdl",
+     "label": "Today's RTH low",
+     "price": 7824.0,
+     "group": "today",
      "note": ""
     },
     {
@@ -252,8 +252,8 @@
     }
    ],
    "stats": {
-    "last_bar_utc": "2026-09-22T15:21:00+00:00",
-    "last_bar_age_min": 11.0,
+    "last_bar_utc": "2026-09-22T15:37:00+00:00",
+    "last_bar_age_min": 10.4,
     "market_state": "open",
     "profile_volume": 1044110.0,
     "prior_day": "2026-09-21",
@@ -1559,20 +1559,28 @@
     {
      "t": "2026-09-22T15:15:00+00:00",
      "o": 7832.5,
-     "h": 7833.75,
-     "l": 7830.75,
-     "c": 7832.5,
-     "v": 9961.0
+     "h": 7834.25,
+     "l": 7829.75,
+     "c": 7830.25,
+     "v": 23171.0
+    },
+    {
+     "t": "2026-09-22T15:30:00+00:00",
+     "o": 7830.25,
+     "h": 7830.5,
+     "l": 7824.0,
+     "c": 7824.25,
+     "v": 18355.0
     }
    ]
   },
   {
    "root": "NQ",
    "trading_day": "2026-09-22",
-   "as_of_utc": "2026-09-22T15:32:00.566864+00:00",
+   "as_of_utc": "2026-09-22T15:47:24.112572+00:00",
    "source": "yahoo",
    "delayed": true,
-   "last_price": 30942.0,
+   "last_price": 30905.25,
    "levels": [
     {
      "tag": "exp_hi",
@@ -1737,8 +1745,8 @@
     }
    ],
    "stats": {
-    "last_bar_utc": "2026-09-22T15:21:00+00:00",
-    "last_bar_age_min": 11.0,
+    "last_bar_utc": "2026-09-22T15:37:00+00:00",
+    "last_bar_age_min": 10.4,
     "market_state": "open",
     "profile_volume": 396902.0,
     "prior_day": "2026-09-21",
@@ -3045,9 +3053,17 @@
      "t": "2026-09-22T15:15:00+00:00",
      "o": 30937.75,
      "h": 30949.0,
-     "l": 30924.25,
-     "c": 30942.0,
-     "v": 4873.0
+     "l": 30920.25,
+     "c": 30928.25,
+     "v": 9039.0
+    },
+    {
+     "t": "2026-09-22T15:30:00+00:00",
+     "o": 30928.5,
+     "h": 30934.0,
+     "l": 30904.0,
+     "c": 30905.25,
+     "v": 5426.0
     }
    ]
   }
@@ -3060,7 +3076,7 @@
     "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOVnJJMDBMTEg4VGN4dG9keDRaSWdDZHVNM005bmxHTFYwRGU3SFJZVkNiZHowbGZ1a2ZGWmgtcG5MTDY5eGs1dmFhTDhBM3FPOGRnWmVvVmdiV1Y5LTdtVUVTX01fRGdydVE3WmUzekg0S0hZcWNFUlJVUzBqdzc5ZHRGeGRLVVBMa2xJSm1HMGEtXzZMM2c?oc=5",
     "source": "gnews_futures",
     "published_utc": "2026-09-22T08:32:18+00:00",
-    "score": 8.33,
+    "score": 8.29,
     "duplicates": 0
    },
    {
@@ -3069,16 +3085,16 @@
     "link": "https://www.cnbc.com/2026/09/22/treasury-yield-us-bond-market-trump.html",
     "source": "cnbc_markets",
     "published_utc": "2026-09-22T14:21:23+00:00",
-    "score": 8.3,
+    "score": 8.26,
     "duplicates": 1
    },
    {
-    "id": "c8d4992526",
+    "id": "c82e70f48a",
     "title": "US Stock Futures Drift After AI-Driven Rally, Oil Prices Slip - Bloomberg.com",
-    "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPcm80SUgwLTExNXdITWt1UExnX1F6M0xvV2c4VVJpYzJyRmFTTm5UOWM5VmpEVDNsM05RQmFiR0Nfa25teG5XOUlBZ29EcjFyNTFoQTRTZ0JIU2NMWWdVRVBVbEdQNDRqclVKOEdZXzdFYmpHeHdhUWVpbDk3NXVkSnd4cHhkWVJ4UlJqN3VHVXRHS050N0Q0NmdIZG91MDVKWjlGc1Z2dFAtOGJIZ1lVaFhRcGZ6cnBITW4tX3BFUEZid3ZK?oc=5",
+    "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPN3F4QU5fVFkxTF9YWVljZDlMajJxZEdSYVhURzlFd296QnBqeWo5R2RmR2xWcmFGVGRObzM3MDZNZGs3ZENrcWRjd3g3M003ZDJkWGMwQXZuUXFoLWZBWmY0WVZzd2NiNDZRYllldEtkdmVFZ2ExajFsSlFFUEVsMHNLZE9ZMGJmLWVBR3U5Zk1saGtqcnkzSFM2ZkNGTUZhY29uRTItbE9feDlydWUzaw?oc=5",
     "source": "gnews_futures",
     "published_utc": "2026-09-22T12:29:15+00:00",
-    "score": 7.99,
+    "score": 7.95,
     "duplicates": 0
    },
    {
@@ -3087,7 +3103,7 @@
     "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOT0JDdC05Wl9XNzhQVmlyMnBJTmNMYVQtZXM4SmJkeFFBWGFhSmV5eDBTeGdySWtvbEk4VTVpUl9CaGVoYUt0N19qRVF5NldOWVg5dFN3NlJrNW9HSlIwekJralVaNWFEdFhJa3BxYUFQQVRnUkVwb3p0WTRYRV9oTmZCamE5bTJ1WlN0ME1wcVRobDJnLTZqMkMxVlkwOUdoNTU3ZmVQSlZpQ2k1M2E1TFQ4MVlsMFRo?oc=5",
     "source": "gnews_macro",
     "published_utc": "2026-09-22T15:01:38+00:00",
-    "score": 7.92,
+    "score": 7.87,
     "duplicates": 1
    },
    {
@@ -3096,7 +3112,7 @@
     "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOZEpydk1wcFhFb19IXzV4Rmp0WGdWb01ZcFBwUTV1eXFmY1J2Y0FqRjhvcXJMVWFfT2NsZTBOTmg0QjI4M3pLNXNSenRxTGJjV09naldPQWt3cW1iTmxEWWFVNnZTamc5bEV4VVVLbGJ2c2lmYzdDTU5ROXBqb3ZTU2tlVXZkMk04Z09MRDdQN1hLUWE1OFVqc3hRODJsMmxIVGFNZ0QzRTVCNjMzdmIxR0NpYWdlc0o1NHJ0UDRNek9ZQjNpYnc?oc=5",
     "source": "gnews_fed",
     "published_utc": "2026-09-22T14:40:50+00:00",
-    "score": 7.86,
+    "score": 7.82,
     "duplicates": 1
    },
    {
@@ -3105,7 +3121,7 @@
     "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOUUg0S2c2bFdubmFVS09hZE9vYXgzSXg5SVQzU0pCMThjSHVlR0pCRlUwS0VCS0I0RWctN1NLdzJDZ2M5OFMtX2dpbjQ3WlJfMnc0VmFJUlV3U2RrdmIzY3JpdjdETXc4d0t0QkhFTXp0NXdORE5mUXlBZU94eVFHTWIxTGlsZkVVNDZORW5EQ0JaVE1tUFJjS3l0NHNGZlNMRFNDcE9CYkFzRVA0eHVyd2hJcXg?oc=5",
     "source": "gnews_fed",
     "published_utc": "2026-09-22T14:10:34+00:00",
-    "score": 7.77,
+    "score": 7.73,
     "duplicates": 1
    },
    {
@@ -3114,7 +3130,16 @@
     "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNc0hfb3NheXVHQ3h3eVJhd3hMVDZzd1hJSXNsM2RYV0J6aWR5RGYtcjFoRFlQQTA5LVdBR2VJOWpxalRjQ2dNR3JTTVVJRDlHZ2kwQzJpa0daN295OVc0NWRhQ09kOU9XUy10MV9Fbm1ManFrWm90VENBdmIyN0t4a3JLLVFWakRwRzVVMklR0gGTAUFVX3lxTE9mc3ZYOXU0alRKZ2NQMUQ0T2RvSm1Id25ueUlwa0hDM0tsUjF2N0U5TEJmWmJ5NUZFZ2toYXFvSWRlODREeGVzVkFaMnFOQmJlRVJiMmx0TkQwWDhNeGJKQ2NtR3Y3ZDZBeWcxS2N6S1AzSmd4NkIta0hNcUY5MktVMGctQ3hyMHZyNDZNeGh3WDNITQ?oc=5",
     "source": "gnews_macro",
     "published_utc": "2026-09-22T10:45:00+00:00",
-    "score": 7.7,
+    "score": 7.66,
+    "duplicates": 0
+   },
+   {
+    "id": "3f9de68ed1",
+    "title": "Wall Street expects Meta's AI agent to shape into a new revenue engine - Reuters",
+    "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOSHZ3dUF2a3BDZVdNNW00Rm5jekRCZUlNeTdabXRaQUdNaHpqZG95QnlISWVGQTJYR3F0bWJ5MmkxUUZkYndqUkZsSG1EdXU4MFcwdE5taHp4UU1DTk16OWV0bWJDU0drdEVVb0FmMnJWUVdLbm5SRFdMdWtRMzd4NnRlUDB4bnVQd3d1Q1VmSmdVOFJQdlJtVTBQUExDeFVFdXRWbTRvVE9yTDFZdVE?oc=5",
+    "source": "gnews_megacap",
+    "published_utc": "2026-09-22T13:40:59+00:00",
+    "score": 7.65,
     "duplicates": 0
    },
    {
@@ -3123,7 +3148,7 @@
     "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxPekY1aWRZZ1VnSzhpUmVkLUFHNlhMVUdvNjUtMmJwejVFZGNDQXRJOFRLN3ZHX3h6emZIMEJ2SUVRZzRwSktFdEVTM3ZzVlNLWjNYcjB0S3dlLXlDU1p6TkFqM291WHdaaWdfUUxSUUxnV0NkeEMzc043UHNJcjZMTndfa0NNVVREMU5aVUVvclZEMjJaOHd6S25PVlpnbGxEdWFQSTlydUFNQkpqXzFJX2VrU3RBdEIzcDFqV2dvX2w4SF9GanRiNHZKbE5ZblgtdVE?oc=5",
     "source": "gnews_macro",
     "published_utc": "2026-09-22T13:03:21+00:00",
-    "score": 7.59,
+    "score": 7.54,
     "duplicates": 0
    },
    {
@@ -3136,45 +3161,40 @@
     "duplicates": 0
    },
    {
+    "id": "100b75a176",
+    "title": "Boston Fed President Susan Collins Supports Fed Rate Hike as Inflation Risks Stay Elevated - Межа. Новини України.",
+    "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1hNF9pc1l3a1I5YWtOOU1kbnJlOGtPNnpEQXcxZGJ6NVQ5b0ktQmFnZEcyd3N4SEtSWEhGXzZkd2l2UzhOMTJPSHdxN1U4ejFHUzRvOHdRaXc2N05WdHZrc2Raai11U09h?oc=5",
+    "source": "gnews_macro",
+    "published_utc": "2026-09-22T15:16:47+00:00",
+    "score": 7.41,
+    "duplicates": 0
+   },
+   {
     "id": "4600f80274",
     "title": "Iran reportedly says it can reopen Strait of Hormuz within 7 days if U.S. eases military pressure",
     "link": "https://www.cnbc.com/2026/09/22/us-iran-war-trump-hormuz.html",
     "source": "cnbc_markets",
     "published_utc": "2026-09-22T14:05:04+00:00",
-    "score": 7.26,
-    "duplicates": 0
-   },
-   {
-    "id": "715e0fbcb5",
-    "title": "September surge or October offload? Jobs experts weigh in on this fall’s hiring trends",
-    "link": "https://www.cnbc.com/2026/09/22/september-surge-october-offload-jobs-experts-on-fall-2026-hiring-trends.html",
-    "source": "cnbc_markets",
-    "published_utc": "2026-09-22T13:47:12+00:00",
-    "score": 7.21,
-    "duplicates": 0
-   },
-   {
-    "id": "a2986595cb",
-    "title": "Fed Study: 75% of Firms Keeping Cash from Tariff Refunds - Modern Distribution Management",
-    "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOa0hySHR1QXR0VW9EV1NvZjdTVVVUUGs5UXZMN2d0aGdfUEdzMmExYWx0RG5jTVYzM3pPMkFYUnBoVzZQVUktQVJJTWQ3VVBQclJKaUNDa2ZwLXByOG9SZnpLeXR3cFN6VEhWckJrMU1BZkNYb1VVc0YycU56NXE2ODBlWmtuNC1zbVZnYnEySkU2ZTEyMnBNYTFaSFd4ZnMy?oc=5",
-    "source": "gnews_macro",
-    "published_utc": "2026-09-22T13:44:30+00:00",
-    "score": 7.2,
+    "score": 7.22,
     "duplicates": 0
    }
   ],
   "summary": {
    "lines": [
-    "Futures are drifting/pausing after the prior AI-driven rally, with oil prices slipping, leaving indices without a fresh directional catalyst into the cash open [00439b0363][c8d4992526][6fe6d2070b].",
-    "Fed's Collins says she supported a rate hike and that tighter policy is needed given elevated inflation risks, a hawkish data point ahead of any Trump remarks at 09:55 ET [24a18925d1][3e6d9920c7][be1025fef6].",
-    "10-year Treasury yield eased further below 5% as traders await further Fed comments, a bond move worth watching alongside the 13:00 ET 2-Year note auction [f61a2107d1].",
-    "Reports that Iran could reopen the Strait of Hormuz within 7 days if US military pressure eases have left oil prices lower and futures mixed, a geopolitical/oil headline that can move risk sentiment quickly [4600f80274].",
-    "Secondary macro items on hiring trends and a Fed study on firms retaining tariff-refund cash are background context, not immediate catalysts [715e0fbcb5][a2986595cb]."
+    "Nasdaq, S&P 500 Futures Pause After Record AI-Driven Rally: AMD, META, BABA, GME, HOOD, GRAB, VKTX Stocks In Focus - Yahoo Finance [00439b0363]",
+    "10-year Treasury yield slips further below 5% as traders await Fed comments [f61a2107d1]",
+    "US Stock Futures Drift After AI-Driven Rally, Oil Prices Slip - Bloomberg.com [c82e70f48a]",
+    "Fed's Collins says she supported rate hike, warns of elevated inflation risks - Reuters [24a18925d1]",
+    "Federal Reserve’s Collins says tighter policy needed as inflation risks rise - Investing.com [3e6d9920c7]"
    ],
    "backend": "anthropic",
    "model": "claude-sonnet-5",
-   "dropped": [],
-   "warnings": []
+   "dropped": [
+    "no valid citation: Boston Fed's"
+   ],
+   "warnings": [
+    "summariser produced no valid lines; showing digest"
+   ]
   },
   "feeds": [],
   "warnings": []
