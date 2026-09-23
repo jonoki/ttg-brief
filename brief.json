@@ -1,11 +1,11 @@
 {
  "meta": {
-  "generated_at_utc": "2026-09-23T14:46:08.790789+00:00",
-  "generated_at_local": "Wed 23 Sep 2026 11:46 ADT",
+  "generated_at_utc": "2026-09-23T20:05:01.926531+00:00",
+  "generated_at_local": "Wed 23 Sep 2026 17:05 ADT",
   "trading_day": "2026-09-23",
   "display_tz": "America/Halifax",
   "version": "0.1.0",
-  "run": "intraday",
+  "run": "post-close",
   "variant": "public"
  },
  "calendar": {
@@ -68,14 +68,14 @@
    }
   ],
   "next_event": {
-   "name": "5-Year note auction",
+   "name": "Unemployment Claims",
    "impact": "medium",
-   "time_utc": "2026-09-23T17:00:00+00:00",
-   "local": "14:00 ADT",
-   "et": "13:00 ET",
-   "in": "2h 13m",
-   "consensus": null,
-   "prior": null
+   "time_utc": "2026-09-24T12:30:00+00:00",
+   "local": "09:30 ADT",
+   "et": "08:30 ET",
+   "in": "16h 24m",
+   "consensus": "201K",
+   "prior": "196K"
   },
   "sources": [],
   "warnings": []
@@ -84,10 +84,10 @@
   {
    "root": "ES",
    "trading_day": "2026-09-23",
-   "as_of_utc": "2026-09-23T14:46:08.790789+00:00",
+   "as_of_utc": "2026-09-23T20:05:01.926531+00:00",
    "source": "yahoo",
    "delayed": true,
-   "last_price": 7791.5,
+   "last_price": 7767.75,
    "levels": [
     {
      "tag": "exp_hi",
@@ -164,7 +164,7 @@
      "label": "Today's RTH high",
      "price": 7826.25,
      "group": "today",
-     "note": "so far"
+     "note": "session complete"
     },
     {
      "tag": "rtho",
@@ -202,17 +202,24 @@
      "note": ""
     },
     {
-     "tag": "tdl",
-     "label": "Today's RTH low",
-     "price": 7778.0,
-     "group": "today",
+     "tag": "rn_minor_up",
+     "label": "Round 25 above",
+     "price": 7775.0,
+     "group": "round",
      "note": ""
     },
     {
-     "tag": "rn_minor_dn",
-     "label": "Round 25 below",
-     "price": 7775.0,
-     "group": "round",
+     "tag": "tdc",
+     "label": "Today's RTH close (16:00 bar)",
+     "price": 7767.75,
+     "group": "today",
+     "note": "becomes next session's prior-day close"
+    },
+    {
+     "tag": "tdl",
+     "label": "Today's RTH low",
+     "price": 7758.75,
+     "group": "today",
      "note": ""
     },
     {
@@ -252,8 +259,8 @@
     }
    ],
    "stats": {
-    "last_bar_utc": "2026-09-23T14:36:00+00:00",
-    "last_bar_age_min": 10.1,
+    "last_bar_utc": "2026-09-23T19:55:00+00:00",
+    "last_bar_age_min": 10.0,
     "market_state": "open",
     "profile_volume": 947779.0000000001,
     "prior_day": "2026-09-22",
@@ -1535,20 +1542,188 @@
     {
      "t": "2026-09-23T14:30:00+00:00",
      "o": 7783.0,
-     "h": 7793.25,
-     "l": 7782.5,
-     "c": 7791.5,
-     "v": 33048.0
+     "h": 7793.5,
+     "l": 7781.0,
+     "c": 7786.0,
+     "v": 78475.0
+    },
+    {
+     "t": "2026-09-23T14:45:00+00:00",
+     "o": 7786.0,
+     "h": 7800.75,
+     "l": 7783.0,
+     "c": 7797.25,
+     "v": 79490.0
+    },
+    {
+     "t": "2026-09-23T15:00:00+00:00",
+     "o": 7797.25,
+     "h": 7797.5,
+     "l": 7790.25,
+     "c": 7791.25,
+     "v": 38558.0
+    },
+    {
+     "t": "2026-09-23T15:15:00+00:00",
+     "o": 7791.5,
+     "h": 7795.0,
+     "l": 7784.25,
+     "c": 7785.0,
+     "v": 37650.0
+    },
+    {
+     "t": "2026-09-23T15:30:00+00:00",
+     "o": 7785.0,
+     "h": 7787.25,
+     "l": 7780.75,
+     "c": 7786.25,
+     "v": 36664.0
+    },
+    {
+     "t": "2026-09-23T15:45:00+00:00",
+     "o": 7786.25,
+     "h": 7787.0,
+     "l": 7776.5,
+     "c": 7780.5,
+     "v": 36646.0
+    },
+    {
+     "t": "2026-09-23T16:00:00+00:00",
+     "o": 7780.5,
+     "h": 7781.25,
+     "l": 7777.0,
+     "c": 7780.25,
+     "v": 23751.0
+    },
+    {
+     "t": "2026-09-23T16:15:00+00:00",
+     "o": 7780.0,
+     "h": 7781.5,
+     "l": 7775.25,
+     "c": 7778.25,
+     "v": 26639.0
+    },
+    {
+     "t": "2026-09-23T16:30:00+00:00",
+     "o": 7778.25,
+     "h": 7781.5,
+     "l": 7772.0,
+     "c": 7772.25,
+     "v": 25712.0
+    },
+    {
+     "t": "2026-09-23T16:45:00+00:00",
+     "o": 7772.25,
+     "h": 7775.25,
+     "l": 7764.25,
+     "c": 7768.5,
+     "v": 55776.0
+    },
+    {
+     "t": "2026-09-23T17:00:00+00:00",
+     "o": 7768.5,
+     "h": 7771.5,
+     "l": 7758.75,
+     "c": 7765.5,
+     "v": 52661.0
+    },
+    {
+     "t": "2026-09-23T17:15:00+00:00",
+     "o": 7765.5,
+     "h": 7774.0,
+     "l": 7763.75,
+     "c": 7767.0,
+     "v": 37573.0
+    },
+    {
+     "t": "2026-09-23T17:30:00+00:00",
+     "o": 7767.25,
+     "h": 7780.5,
+     "l": 7764.75,
+     "c": 7779.25,
+     "v": 47617.0
+    },
+    {
+     "t": "2026-09-23T17:45:00+00:00",
+     "o": 7779.25,
+     "h": 7785.25,
+     "l": 7776.5,
+     "c": 7784.25,
+     "v": 40644.0
+    },
+    {
+     "t": "2026-09-23T18:00:00+00:00",
+     "o": 7784.25,
+     "h": 7784.75,
+     "l": 7774.75,
+     "c": 7779.0,
+     "v": 32265.0
+    },
+    {
+     "t": "2026-09-23T18:15:00+00:00",
+     "o": 7779.0,
+     "h": 7781.75,
+     "l": 7776.25,
+     "c": 7777.25,
+     "v": 22965.0
+    },
+    {
+     "t": "2026-09-23T18:30:00+00:00",
+     "o": 7777.0,
+     "h": 7778.0,
+     "l": 7770.25,
+     "c": 7773.5,
+     "v": 24311.0
+    },
+    {
+     "t": "2026-09-23T18:45:00+00:00",
+     "o": 7773.5,
+     "h": 7778.25,
+     "l": 7772.5,
+     "c": 7776.75,
+     "v": 20448.0
+    },
+    {
+     "t": "2026-09-23T19:00:00+00:00",
+     "o": 7777.0,
+     "h": 7778.25,
+     "l": 7771.75,
+     "c": 7774.5,
+     "v": 25490.0
+    },
+    {
+     "t": "2026-09-23T19:15:00+00:00",
+     "o": 7774.5,
+     "h": 7775.0,
+     "l": 7769.25,
+     "c": 7771.75,
+     "v": 25875.0
+    },
+    {
+     "t": "2026-09-23T19:30:00+00:00",
+     "o": 7771.75,
+     "h": 7777.0,
+     "l": 7768.25,
+     "c": 7771.0,
+     "v": 40988.0
+    },
+    {
+     "t": "2026-09-23T19:45:00+00:00",
+     "o": 7771.0,
+     "h": 7775.75,
+     "l": 7761.0,
+     "c": 7767.75,
+     "v": 52507.0
     }
    ]
   },
   {
    "root": "NQ",
    "trading_day": "2026-09-23",
-   "as_of_utc": "2026-09-23T14:46:08.790789+00:00",
+   "as_of_utc": "2026-09-23T20:05:01.926531+00:00",
    "source": "yahoo",
    "delayed": true,
-   "last_price": 30727.75,
+   "last_price": 30742.25,
    "levels": [
     {
      "tag": "exp_hi",
@@ -1590,7 +1765,7 @@
      "label": "Today's RTH high",
      "price": 31013.0,
      "group": "today",
-     "note": "so far"
+     "note": "session complete"
     },
     {
      "tag": "onvwap",
@@ -1663,6 +1838,13 @@
      "note": ""
     },
     {
+     "tag": "tdc",
+     "label": "Today's RTH close (16:00 bar)",
+     "price": 30742.25,
+     "group": "today",
+     "note": "becomes next session's prior-day close"
+    },
+    {
      "tag": "rn_major_dn",
      "label": "Round 100 below",
      "price": 30700.0,
@@ -1713,8 +1895,8 @@
     }
    ],
    "stats": {
-    "last_bar_utc": "2026-09-23T14:36:00+00:00",
-    "last_bar_age_min": 10.1,
+    "last_bar_utc": "2026-09-23T19:55:00+00:00",
+    "last_bar_age_min": 10.0,
     "market_state": "open",
     "profile_volume": 346757.00000000006,
     "prior_day": "2026-09-22",
@@ -2998,8 +3180,176 @@
      "o": 30678.75,
      "h": 30738.75,
      "l": 30657.75,
-     "c": 30727.75,
-     "v": 11930.0
+     "c": 30718.75,
+     "v": 24150.0
+    },
+    {
+     "t": "2026-09-23T14:45:00+00:00",
+     "o": 30720.0,
+     "h": 30826.25,
+     "l": 30713.25,
+     "c": 30822.5,
+     "v": 27836.0
+    },
+    {
+     "t": "2026-09-23T15:00:00+00:00",
+     "o": 30823.25,
+     "h": 30827.75,
+     "l": 30782.5,
+     "c": 30787.5,
+     "v": 14686.0
+    },
+    {
+     "t": "2026-09-23T15:15:00+00:00",
+     "o": 30788.25,
+     "h": 30817.75,
+     "l": 30755.0,
+     "c": 30773.25,
+     "v": 15267.0
+    },
+    {
+     "t": "2026-09-23T15:30:00+00:00",
+     "o": 30772.75,
+     "h": 30784.0,
+     "l": 30754.0,
+     "c": 30780.25,
+     "v": 11149.0
+    },
+    {
+     "t": "2026-09-23T15:45:00+00:00",
+     "o": 30781.25,
+     "h": 30786.0,
+     "l": 30723.25,
+     "c": 30746.5,
+     "v": 14067.0
+    },
+    {
+     "t": "2026-09-23T16:00:00+00:00",
+     "o": 30747.0,
+     "h": 30751.0,
+     "l": 30726.75,
+     "c": 30744.75,
+     "v": 6928.0
+    },
+    {
+     "t": "2026-09-23T16:15:00+00:00",
+     "o": 30744.25,
+     "h": 30756.25,
+     "l": 30715.5,
+     "c": 30723.5,
+     "v": 8337.0
+    },
+    {
+     "t": "2026-09-23T16:30:00+00:00",
+     "o": 30723.75,
+     "h": 30751.5,
+     "l": 30695.25,
+     "c": 30695.25,
+     "v": 9754.0
+    },
+    {
+     "t": "2026-09-23T16:45:00+00:00",
+     "o": 30695.0,
+     "h": 30721.0,
+     "l": 30667.75,
+     "c": 30686.75,
+     "v": 14773.0
+    },
+    {
+     "t": "2026-09-23T17:00:00+00:00",
+     "o": 30687.5,
+     "h": 30709.25,
+     "l": 30646.5,
+     "c": 30670.75,
+     "v": 14988.0
+    },
+    {
+     "t": "2026-09-23T17:15:00+00:00",
+     "o": 30669.75,
+     "h": 30724.75,
+     "l": 30665.5,
+     "c": 30681.75,
+     "v": 11800.0
+    },
+    {
+     "t": "2026-09-23T17:30:00+00:00",
+     "o": 30682.0,
+     "h": 30756.25,
+     "l": 30671.25,
+     "c": 30748.5,
+     "v": 13183.0
+    },
+    {
+     "t": "2026-09-23T17:45:00+00:00",
+     "o": 30748.25,
+     "h": 30774.5,
+     "l": 30736.25,
+     "c": 30771.0,
+     "v": 9830.0
+    },
+    {
+     "t": "2026-09-23T18:00:00+00:00",
+     "o": 30771.0,
+     "h": 30772.0,
+     "l": 30725.0,
+     "c": 30745.0,
+     "v": 8759.0
+    },
+    {
+     "t": "2026-09-23T18:15:00+00:00",
+     "o": 30745.5,
+     "h": 30769.0,
+     "l": 30740.5,
+     "c": 30755.25,
+     "v": 7617.0
+    },
+    {
+     "t": "2026-09-23T18:30:00+00:00",
+     "o": 30755.0,
+     "h": 30758.0,
+     "l": 30727.25,
+     "c": 30747.5,
+     "v": 6464.0
+    },
+    {
+     "t": "2026-09-23T18:45:00+00:00",
+     "o": 30747.75,
+     "h": 30768.5,
+     "l": 30741.0,
+     "c": 30762.0,
+     "v": 6833.0
+    },
+    {
+     "t": "2026-09-23T19:00:00+00:00",
+     "o": 30762.25,
+     "h": 30782.5,
+     "l": 30741.0,
+     "c": 30762.75,
+     "v": 8770.0
+    },
+    {
+     "t": "2026-09-23T19:15:00+00:00",
+     "o": 30762.75,
+     "h": 30765.5,
+     "l": 30741.25,
+     "c": 30753.75,
+     "v": 6789.0
+    },
+    {
+     "t": "2026-09-23T19:30:00+00:00",
+     "o": 30753.75,
+     "h": 30775.25,
+     "l": 30729.25,
+     "c": 30747.25,
+     "v": 9918.0
+    },
+    {
+     "t": "2026-09-23T19:45:00+00:00",
+     "o": 30746.75,
+     "h": 30772.5,
+     "l": 30710.0,
+     "c": 30742.25,
+     "v": 14070.0
     }
    ]
   }
@@ -3007,31 +3357,103 @@
  "news": {
   "headlines": [
    {
+    "id": "56be7858a4",
+    "title": "Bond yields surge above 5% as Wall Street fears more Fed rate hikes",
+    "link": "https://www.marketwatch.com/story/bond-yields-surge-as-wall-street-fears-more-potential-federal-reserve-rate-hikes-eabcd3da?mod=mw_rss_topstories",
+    "source": "marketwatch_top",
+    "published_utc": "2026-09-23T19:48:00+00:00",
+    "score": 12.45,
+    "duplicates": 3
+   },
+   {
+    "id": "748861a177",
+    "title": "Fed’s Barr Sees Further Policy Adjustments As Inflation Risks Rise — Flags AI Buildout, Tariffs And Geopolitical Shocks - Stocktwits",
+    "link": "https://news.google.com/rss/articles/CBMijAJBVV95cUxOZmFESm9BOXBra1ZDczltTHFHc3p1SGZCNlhuUkdLMVdVSVZKVjFqRHpNMy0yT0Z0SUM5SlpaTzZTVUtzTWpWRV84MF96ak4yV21tblZlTXJDd1ZsbDluRkp2eWFtU1o1dldlaXZlemZjOTRENFJkcS1leHhYUHNOQzFuel84TjhuSFIxeGtmRFE3c21fd0ZsbThkdloyR21sWTdBRnZMbFNtV01UTzZKb3JlUV9VYzYwR3RWVUotbFlEblk0M1RhNUdKVmp0REdSRXBzOThZbjR6eEp1TS1fMDZ1cmlyNmRDbTBtVHNKMWQ3UWdfRGgtSGJZYTJsREJNX085RU00WHd3Zk1u?oc=5",
+    "source": "gnews_macro",
+    "published_utc": "2026-09-23T15:07:00+00:00",
+    "score": 11.67,
+    "duplicates": 0
+   },
+   {
     "id": "4df488921f",
-    "title": "US stock futures edge higher as oil eases, yields soften and December rate hike risk looms - VT Markets",
+    "title": "US stock futures edge higher as oil eases, yields soften and December rate hike risk looms - vtmarkets.com",
     "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxNbUtZODc3b3dvN1FNRGpMa0ZnNG02cVgwNUlERm5hNW01NkVaMkRkV3B4OVdMVUswZUpzbUZfamtHVHVNWW01a0lxN2ZxeFRubXliT1dtdGpsSVN5cVhpSmV5Uno1Q1NjYWhKQTFNTnJybV9GUVBVVjdENmpXOVJycS1lbU5JSzRCbjdzc25NSEs1OEhPS0JCV1JjQ1kwUk15eThlMl9IN3hYTHd1QUdwNFlFS19ITUo3Y2g4LUttVzZ2Qmo4OHhnVFRiQVdZRGFEOTdv?oc=5",
     "source": "gnews_futures",
     "published_utc": "2026-09-23T11:20:09+00:00",
-    "score": 10.43,
+    "score": 9.54,
     "duplicates": 0
    },
    {
-    "id": "7eebc15653",
-    "title": "More rate adjustments are likely needed to lower inflation, Fed Governor Barr says (TLT:NASDAQ) - Seeking Alpha",
-    "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNY084WmNpbkk1SkdVVEl4YUY1SzVvTnBJQm1fekhpeUtIUWRjYXN2Sk0wUU9fS3UxUTkwOXVkNHFydl9xczFjSXJrZ084cDkxdXZiX2hWVnR6ZXpoUjl5RlA5NWtXQTI4NUM3OU5fNW84cVBjNXBVN1hIdkdGZFBwTVNuYkxMRmROUEdnakE0WUtMR2tLa0VpZGVTZlR3T0tYLUl6M29nSGxuSVdhdUVpMjRCN2R6N2pEZXVn?oc=5",
+    "id": "206520ce34",
+    "title": "Market sees next Fed hike in October, following Barr comments and hot inflation reading",
+    "link": "https://www.cnbc.com/2026/09/23/market-sees-next-fed-hike-in-october-following-barr-comments-hot-inflation.html",
+    "source": "cnbc_markets",
+    "published_utc": "2026-09-23T18:12:18+00:00",
+    "score": 9.19,
+    "duplicates": 2
+   },
+   {
+    "id": "5f14ada1d3",
+    "title": "Wall Street fears that the Federal Reserve may raise interest rates further, as U.S. Treasury yields hit multi-year highs. - 富途牛牛",
+    "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOX1lDdHYzVHZleS00Q0VmLXhub253LV92TzJibFVCelBhNUgwS1Vvbk4wUnRkaDhPdS1jQmpLdTZCMnp0cXRZdVhwSVRhb2hVcHp5NFBVS1dvSWx6c0RLVUpoZ29SYUpEdTd4aVJOYWE0ZDdVQTItbG9Tc0daeDdMbHNLWlUtd1ctTVZ0dTM4bXlBb0VudEw4dVJ0TnJtWF8ydmhlQlo5MA?oc=5",
+    "source": "gnews_fed",
+    "published_utc": "2026-09-23T16:41:52+00:00",
+    "score": 8.44,
+    "duplicates": 0
+   },
+   {
+    "id": "e611e8657d",
+    "title": "Pressure from the bond market hits a new level on Wall Street, and stocks slide on inflation worries - Union-Bulletin",
+    "link": "https://news.google.com/rss/articles/CBMi_wFBVV95cUxNaVFkS3o1R3hmcWJYcmFMeEVDTkFOcUNVNHVjTVRPcFh3NTdiNURfNE5oemk3SXZ5cEtyQk1UNE03WDltMExlaEQ5UENXQ1Y2enYzQi1aUEM0YzNsVHBQaVZHczZNaTUtTEdGampET1kyNkZ3U2lkUTJpNmVsZGNDb0NBU2Q3RDFBaUExY2VNX0ppVXJ2S3k2aEtwMlQ2ekExNnM1WUdwMFFCUi0xcGJiUkFsdzYxSEdTUUoxSlpBcnIwRXl5QUp2eEhZWkNfNXotaEZOVnkwTG9HSm9tQVhNZ3ZvNlJ4aEdZREtkdzBWR05lUmY2Y1pZQ1lwUmJCaDA?oc=5",
     "source": "gnews_macro",
-    "published_utc": "2026-09-23T14:16:30+00:00",
-    "score": 9.42,
+    "published_utc": "2026-09-23T18:58:35+00:00",
+    "score": 8.32,
     "duplicates": 0
    },
    {
-    "id": "2788ff85a1",
-    "title": "Wall Street Futures Gain as Meta’s Muse, Oil and U.S. PMI Data Take Focus: Dow Jones, S&P, Nasdaq - Yahoo Finance UK",
-    "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPN3lFbV9OQTJ4ek1nY2FpVFJCUWRQY18tSGR6dGRkYmxYMGVuMFgxMUJIRm5YSlhVQXl5WHJVYlFIeWR1Vy1rTWc1YkxCZ2tSUlpMdWxlZ0N0bXVGcVJWaDZqQlRkaHN3NExJNl9JMWE1MXkwU1owZ0tjMnVJV1hmQmY5SVI?oc=5",
-    "source": "gnews_megacap",
-    "published_utc": "2026-09-23T09:29:17+00:00",
-    "score": 8.62,
-    "duplicates": 0
+    "id": "77cb565f4a",
+    "title": "Inflation pressures raise prospect of Fed rate hike on eve of elections - Reuters",
+    "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNU0ZXSlEta0N4WGxzcHJBNUM1cUI0d0U4TGFwa2NMbDM4U0Q3MWt0YXY5TGpQQ2xxdmJWNm0yeGl0ckJNanVPOU5HOUd5R0hNc19pZXcyd3FwWkFkY1hyUEpOdTZyMVZoN3R0eHZLdkxUYzRXV1hoRDctTXhUa3pvckNvLUktNDBmWm1OV3lhOTluQVRDQzUyQTN3Q0V0YmN2Q1E?oc=5",
+    "source": "gnews_fed",
+    "published_utc": "2026-09-23T18:57:18+00:00",
+    "score": 8.31,
+    "duplicates": 2
+   },
+   {
+    "id": "1948382f7c",
+    "title": "Wall Street falls as oil prices, Treasury yields rise - USA Today",
+    "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOUG0zaWJtaG5fOXJURWNGNTdqdndycHVZeXJJMXdPUURUZ05VOTJvMDU1NlR2NUdsU29vSVNyR0NtVUFOaHhtZEtMWEM2cGUwdzJaTVJNVGtZcHBlcUptOVF4MFE3MlpiV3NLTGsxRXUycG0xelI3NnFkRGN3RmNvMnlHV0VDV1U2alo3OE5pYnlKZw?oc=5",
+    "source": "gnews_macro",
+    "published_utc": "2026-09-23T18:49:00+00:00",
+    "score": 7.79,
+    "duplicates": 2
+   },
+   {
+    "id": "fe55efed7b",
+    "title": "Mounting inflation pressures put more Fed rate hikes in view - The Lufkin Daily News",
+    "link": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxPVzk3NXdOUUQxR1Fma0FFY0hhajktZElFUzJlOHdnNkRPd3pTeFVWUms0clp2NTJWR1pLNWZvLVBpQWo1T3ptUldjbjk4TlpSeFV3YVMyVTJ6VnItWUxuWVFNUTZHTVExYXhxQjNHQ3A5NFYxZ3FpSS11c2k0S0lIWEFtWFpiMmRQZ1Z2Ty1MMkZ4Sy13cDhRemVLTUl4NGVQZ3RsSjdFWkRhd1RmYW16Tjh3RndnNnlkWWpHV1R3RVcwLVg3WDE3bzZ2cWlncWtiV3NGZWR4MHlZUG5FZE1kYXoybkJBWko2N3BEWXVyRUlidw?oc=5",
+    "source": "gnews_fed",
+    "published_utc": "2026-09-23T17:55:54+00:00",
+    "score": 7.64,
+    "duplicates": 1
+   },
+   {
+    "id": "5c63735f4b",
+    "title": "Fed's Michael Barr backs more rate hikes as PMI hits 5-year high - qz.com",
+    "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBSRUY2TmE4VXJzSTdZMmpldGtVR1U2WDUyS1YwejJGUnNPN2g3QWtFbnRxZXpJVEVxcjB3ampoMi15NmZIQmNlNHhrWC1qZy13ZS12S1ZUYmFmODFTTFd2NFdnM1QxQXNCVzVkS056dEo?oc=5",
+    "source": "gnews_fed",
+    "published_utc": "2026-09-23T17:22:43+00:00",
+    "score": 7.55,
+    "duplicates": 1
+   },
+   {
+    "id": "5d4c4e42eb",
+    "title": "Fed’s Barr Says More Rate Hikes Likely Needed to Return Inflation to Target - WSJ",
+    "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNZmpaOE4xMEZ3WDYxQlMxQktMckE5bmpGYWp1QUN5aHo4VjVBYkxYQjNwWmc0WEwyVG9CNDZuRVlrWWlHUlZOdjNEdjlaX1dLZ0FBa2dyU2ZiNV9uLXJHMWo2M2VlMmwxM2E3NjRvRDFuOWFyVG1LYUxyRm41SThOUFRQTTZyLThNMlBtaDR3Z3AzYkZkNm4wVXVXcVdwdTRxUzNOV0VJc2VjUXV3Mk1XeHBodDdSWWdqSHZ0TTJldDE?oc=5",
+    "source": "gnews_macro",
+    "published_utc": "2026-09-23T14:18:56+00:00",
+    "score": 7.54,
+    "duplicates": 2
    },
    {
     "id": "b2043794f7",
@@ -3039,89 +3461,17 @@
     "link": "https://www.cnbc.com/2026/09/23/federal-reserve-inflation-interest-rates-ecb.html",
     "source": "cnbc_markets",
     "published_utc": "2026-09-23T07:33:14+00:00",
-    "score": 8.3,
+    "score": 7.5,
     "duplicates": 2
-   },
-   {
-    "id": "6bb0413a20",
-    "title": "US Stock Market Today S&P 500 Futures Flat As Traders Weigh Fed Outlook - simplywall.st",
-    "link": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxQaDdNSkRKRXBmZWprQ1R0MWdvTEFLOWpmeGIwSE9lOHRRWGRPN2hNdUxRS0RaLVAzVEs0ME00emsxd1k3ekRlSEFyUFVUcGtSNm9LQkNEX0FtRF9RUUF6VG42WWRtcXdrX2pYVjFwM1RPR190QzNpdWs4aUFEUlQ4TnlZUE96VjN5VFRPOWYwN1RJS3hyRFdzV09HeUVIdmVIVXlzUXNrWkY0Si0wb0J4WWlTZ0V3WHRTOUlSbWxESUJ2RTJKNUFVdHRNRkN3U1VXVDY5VlpVSVo0a2Z5Y0dza09Fa9IB6AFBVV95cUxQbURiOUZYd2RpWkRUQzRGZWg4NnVtOTdzYVVmRG9WeloxYWdKZmtzV2tzSWlrSDF1bkFTdHVWNDgxczlnY0ZqWndNeTZQcjZ1RE9WQ0h2amJkaTJRNDZ0cGpyYlZFNEtpRjBST2tzZjhVR1E2UGpkT3RmSWd2RXN1c2M0MEFtVzNDWXpWZ01NU2NtVEdrc0h1bHBaSWtYVjVEN0VlM1Z2Ny0wRF9pUHhGQVJpeEwwaHRQcFdPVGpOMWxxT3F3Uklkc0hjVWxxdFBYOTF4WS1WWC12Zkg5Y2pUaVJJMkV4SXBr?oc=5",
-    "source": "gnews_futures",
-    "published_utc": "2026-09-23T08:36:09+00:00",
-    "score": 7.97,
-    "duplicates": 0
-   },
-   {
-    "id": "98747b9843",
-    "title": "Corporate finance chiefs lift inflation outlook, cite rates as concern - Fed survey - Reuters",
-    "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNelhqRThhbXZqTkJzQVlVU2JFM1dfMG81V0x1cXBYZVBqeXI5Wjl3dER6OGRDRTJzZmNuemsteXp4aFJxX29MRzNpM3hfXzhkNEVnUkFGSFlmWU9GX0F2eFdKT053cjkxQzVXUEJQWERQUmtFQ1BJVkxoLTBTV3VOODlPcFA2QkZIaWZDbmhhWDZnajhQYmhyenVsZS1xYXBDeU85QUpJV2czMUxyWGlnYWZjYWZVLVg2OC1IQlZWRQ?oc=5",
-    "source": "gnews_fed",
-    "published_utc": "2026-09-23T11:21:48+00:00",
-    "score": 7.93,
-    "duplicates": 0
-   },
-   {
-    "id": "5d4c4e42eb",
-    "title": "Fed’s Barr Says More Rate Hikes Likely Needed to Return Inflation to Target - WSJ",
-    "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNZmpaOE4xMEZ3WDYxQlMxQktMckE5bmpGYWp1QUN5aHo4VjVBYkxYQjNwWmc0WEwyVG9CNDZuRVlrWWlHUlZOdjNEdjlaX1dLZ0FBa2dyU2ZiNV9uLXJHMWo2M2VlMmwxM2E3NjRvRDFuOWFyVG1LYUxyRm41SThOUFRQTTZyLThNMlBtaDR3Z3AzYkZkNm4wVXVXcVdwdTRxUzNOV0VJc2VjUXV3Mk1XeHBodDdSWWdqSHZ0TTJldDE?oc=5",
-    "source": "gnews_macro",
-    "published_utc": "2026-09-23T14:18:00+00:00",
-    "score": 7.92,
-    "duplicates": 1
-   },
-   {
-    "id": "538e48966f",
-    "title": "Business inflation expectations drift higher in September: Atlanta Fed - TradingView",
-    "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNelVaRE1scmtFM2tsVEhiQXo4RXY3SXNuMEpLQWRWeDcxWnpOTDd4M2lpQ3RkbGFiTHQtM3BwcWoxUGg5TkZ1OW1mdnltYVA5R05udzN2TkNiTnJNcU5yNEhHQXFoa3Q4amQ3SWUxMS02QUlPdUR3c2oyYzE0cDU0WU1CS3FYVHZKY3RkczN6Nk1OdElVRGcxRjc1MG9yWlJRVXFtYjJVOVNrTFc1WlAxUHFzMlZlV2VaTVFGRDlkZ3d0amVXNU5laFpuNEQ?oc=5",
-    "source": "gnews_macro",
-    "published_utc": "2026-09-23T14:04:52+00:00",
-    "score": 7.89,
-    "duplicates": 1
-   },
-   {
-    "id": "16e493de9b",
-    "title": "Global inflation to linger and Fed to hike again, OECD says - The Japan Times",
-    "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNZE9pNzNrbGUyM0w1bWdzNllyM3IyMXFfeGhzNlhpeDBsOFMweDJRMjZMZmQ5MGpIeHdnM0NFMXZNWFRoTXloTl9WaFRQXzVhdHcwNGRDTW1uMEpwNEZyOUJUckZqWTZWQ3BqSzBQRTVuWHNyamVNdWZhYUNQNnJnTQ?oc=5",
-    "source": "gnews_macro",
-    "published_utc": "2026-09-23T10:36:00+00:00",
-    "score": 7.81,
-    "duplicates": 2
-   },
-   {
-    "id": "af80257662",
-    "title": "US stock futures muted as oil prices swing amid Iran war uncertainty - CNBC TV18 - linkedin.com",
-    "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOWWhFR1ZpM0phWmhSYkRkUkhHS0s4a244d0lCT1Robk40ejV5UDVBSDkzYTVUY3NzYkppMzBka2JCMXF5bGhhNXAydjljWkdLTWgxai1GOXhQWkxSUE5UZE5jaHVaT1V6NkdxWVRsZU9XcG5sM2g2M215d2c0RWNlZktXZEZySHdKa1MzcmI2b2lncU5vQlJJQUVmQjFMaGRHVW1CX21DNXBCVVRKVlNOOHdRcHMyQnls?oc=5",
-    "source": "gnews_futures",
-    "published_utc": "2026-09-23T12:48:05+00:00",
-    "score": 7.67,
-    "duplicates": 1
-   },
-   {
-    "id": "64ef57ce11",
-    "title": "US ATLANTA FED DISTRICT BUSINESS 1-YEAR INFLATION EXPECTATIONS 2.4% IN SEPT. VS. 2.2% IN AUGUST - TradingView",
-    "link": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxPdUU5X3RIRW5XQ3ItakRlcUN3Q1pWSUE0VGpnSlQ4QWxkaDhyTVRFcHVtNzRvQ3ZXVWhLREJIc25sV0txZWZoQ3JCeDVzVG1LUmxwT0xBbjVmRHBXWjJLc1BPa29xc3ZyZHR6VTBhR2pVQnpGSktMajhKUkZITExMUUFxVklkcGR0VF85OEsyRlJYdEZ4a1RHX19HNndJOGhqZ0RuamVUR1FwMEFHTXR4R2F4NFAzbXBHLU1mUkRKUjJSeGRVUndKNVRWRkFiM1Fxbl94M21wMHdwNVA4elZPc2h5b0o?oc=5",
-    "source": "gnews_macro",
-    "published_utc": "2026-09-23T14:00:00+00:00",
-    "score": 7.37,
-    "duplicates": 0
-   },
-   {
-    "id": "7329fb7e7d",
-    "title": "South African inflation rises modestly; most analysts still expect rate hike - Belleville News-Democrat",
-    "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE41dFVHWUFfTWhPNjRLM0xtUnZCbEVzLTNjYTJrX1JIQW1HMExvSDFTUnVqLVp1Wi0xWmhhd1g5R1Y4QW5EYUZDOEJlS2JhLXhqR2FVT1J3eXdxTnpQT19BVzFudlBXOUpzLWUxTF9pbUIyTFFfT1ow?oc=5",
-    "source": "gnews_macro",
-    "published_utc": "2026-09-23T09:56:09+00:00",
-    "score": 7.19,
-    "duplicates": 1
    }
   ],
   "summary": {
    "lines": [
-    "Fed speakers Barr and Collins both flagged more rate hikes may be needed as inflation risks stay elevated, reinforcing a hawkish backdrop into today's session [7eebc15653][5d4c4e42eb][b2043794f7].",
-    "Atlanta Fed data showed business 1-year inflation expectations rising to 2.4% in September from 2.2% in August, while a separate Fed survey found corporate finance chiefs also lifting inflation outlooks [64ef57ce11][538e48966f][98747b9843].",
-    "The OECD said global inflation will linger and the Fed is likely to hike again, adding another hawkish data point for rate-sensitive futures [16e493de9b].",
-    "Oil price swings tied to Iran war uncertainty are being cited as a driver of choppy, muted futures moves this morning [af80257662][4df488921f].",
-    "Headlines are mixed on futures direction, with some citing gains on Meta/PMI focus and softer yields, others describing futures as flat, reflecting a noisy, two-sided tape ahead of the 13:00 ET 5-Year auction [2788ff85a1][6bb0413a20][4df488921f]."
+    "Treasury yields surged above 5% intraday, pressuring Nasdaq and S&P 500 futures out of record territory and raising volatility risk into the open [56be7858a4].",
+    "Fed's Barr said further policy adjustments are likely as inflation risks rise, citing AI buildout, tariffs, and geopolitical shocks, with markets now pricing the next hike in October [748861a177][206520ce34][5d4c4e42eb][5c63735f4b][fe55efed7b][77cb565f4a].",
+    "Boston Fed's Collins separately warned inflation could stay notably above the 2% target after backing a rate hike, adding to the hawkish tone from Fed speakers [b2043794f7].",
+    "Stocks fell as rising oil prices and Treasury yields combined with inflation worries to weigh on sentiment [1948382f7c][e611e8657d].",
+    "A 5-Year note auction at 13:00 ET follows a session already dominated by yield-driven volatility, keeping rate-sensitive flows in focus [4df488921f][5f14ada1d3]."
    ],
    "backend": "anthropic",
    "model": "claude-sonnet-5",
