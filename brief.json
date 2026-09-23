@@ -1,7 +1,7 @@
 {
  "meta": {
-  "generated_at_utc": "2026-09-23T13:44:41.681924+00:00",
-  "generated_at_local": "Wed 23 Sep 2026 10:44 ADT",
+  "generated_at_utc": "2026-09-23T14:00:01.128136+00:00",
+  "generated_at_local": "Wed 23 Sep 2026 11:00 ADT",
   "trading_day": "2026-09-23",
   "display_tz": "America/Halifax",
   "version": "0.1.0",
@@ -73,7 +73,7 @@
    "time_utc": "2026-09-23T17:00:00+00:00",
    "local": "14:00 ADT",
    "et": "13:00 ET",
-   "in": "3h 15m",
+   "in": "2h 59m",
    "consensus": null,
    "prior": null
   },
@@ -84,10 +84,10 @@
   {
    "root": "ES",
    "trading_day": "2026-09-23",
-   "as_of_utc": "2026-09-23T13:44:41.681924+00:00",
+   "as_of_utc": "2026-09-23T14:00:01.128136+00:00",
    "source": "yahoo",
    "delayed": true,
-   "last_price": 7821.5,
+   "last_price": 7806.5,
    "levels": [
     {
      "tag": "exp_hi",
@@ -195,13 +195,6 @@
      "note": "2026-09-22"
     },
     {
-     "tag": "tdl",
-     "label": "Today's RTH low",
-     "price": 7819.75,
-     "group": "today",
-     "note": ""
-    },
-    {
      "tag": "onl",
      "label": "Overnight low",
      "price": 7818.75,
@@ -214,6 +207,13 @@
      "price": 7810.5,
      "group": "prior_day",
      "note": "full 18:00→17:00 session"
+    },
+    {
+     "tag": "tdl",
+     "label": "Today's RTH low",
+     "price": 7805.0,
+     "group": "today",
+     "note": ""
     },
     {
      "tag": "rn_major_dn",
@@ -252,8 +252,8 @@
     }
    ],
    "stats": {
-    "last_bar_utc": "2026-09-23T13:34:00+00:00",
-    "last_bar_age_min": 10.7,
+    "last_bar_utc": "2026-09-23T13:49:00+00:00",
+    "last_bar_age_min": 11.0,
     "market_state": "open",
     "profile_volume": 947779.0000000001,
     "prior_day": "2026-09-22",
@@ -1504,19 +1504,27 @@
      "t": "2026-09-23T13:30:00+00:00",
      "o": 7823.5,
      "h": 7826.25,
-     "l": 7819.75,
-     "c": 7821.5,
-     "v": 20771.0
+     "l": 7814.5,
+     "c": 7814.5,
+     "v": 55609.0
+    },
+    {
+     "t": "2026-09-23T13:45:00+00:00",
+     "o": 7814.75,
+     "h": 7815.0,
+     "l": 7805.0,
+     "c": 7806.5,
+     "v": 20579.0
     }
    ]
   },
   {
    "root": "NQ",
    "trading_day": "2026-09-23",
-   "as_of_utc": "2026-09-23T13:44:41.681924+00:00",
+   "as_of_utc": "2026-09-23T14:00:01.128136+00:00",
    "source": "yahoo",
    "delayed": true,
-   "last_price": 30932.0,
+   "last_price": 30880.25,
    "levels": [
     {
      "tag": "exp_hi",
@@ -1575,32 +1583,11 @@
      "note": "09:30 bar open"
     },
     {
-     "tag": "rn_major_up",
-     "label": "Round 100 above",
-     "price": 31000.0,
-     "group": "round",
-     "note": ""
-    },
-    {
      "tag": "vah",
      "label": "Prior-day VAH",
      "price": 30984.0,
      "group": "profile",
      "note": "70 % value area"
-    },
-    {
-     "tag": "rn_minor_up",
-     "label": "Round 50 above",
-     "price": 30950.0,
-     "group": "round",
-     "note": ""
-    },
-    {
-     "tag": "tdl",
-     "label": "Today's RTH low",
-     "price": 30926.25,
-     "group": "today",
-     "note": ""
     },
     {
      "tag": "poc",
@@ -1617,8 +1604,8 @@
      "note": ""
     },
     {
-     "tag": "rn_major_dn",
-     "label": "Round 100 below",
+     "tag": "rn_major_up",
+     "label": "Round 100 above",
      "price": 30900.0,
      "group": "round",
      "note": ""
@@ -1629,6 +1616,27 @@
      "price": 30891.0,
      "group": "profile",
      "note": "70 % value area"
+    },
+    {
+     "tag": "tdl",
+     "label": "Today's RTH low",
+     "price": 30860.75,
+     "group": "today",
+     "note": ""
+    },
+    {
+     "tag": "rn_minor_dn",
+     "label": "Round 50 below",
+     "price": 30850.0,
+     "group": "round",
+     "note": ""
+    },
+    {
+     "tag": "rn_major_dn",
+     "label": "Round 100 below",
+     "price": 30800.0,
+     "group": "round",
+     "note": ""
     },
     {
      "tag": "pdo",
@@ -1675,14 +1683,14 @@
     {
      "tag": "pwl",
      "label": "Prior-week low",
-     "price": 29623.75,
+     "price": 29639.5,
      "group": "week",
      "note": "2 session(s) of data — PARTIAL"
     }
    ],
    "stats": {
-    "last_bar_utc": "2026-09-23T13:34:00+00:00",
-    "last_bar_age_min": 10.7,
+    "last_bar_utc": "2026-09-23T13:49:00+00:00",
+    "last_bar_age_min": 11.0,
     "market_state": "open",
     "profile_volume": 346757.00000000006,
     "prior_day": "2026-09-22",
@@ -2933,9 +2941,17 @@
      "t": "2026-09-23T13:30:00+00:00",
      "o": 31005.5,
      "h": 31013.0,
-     "l": 30926.25,
-     "c": 30932.0,
-     "v": 14035.0
+     "l": 30902.0,
+     "c": 30910.0,
+     "v": 33986.0
+    },
+    {
+     "t": "2026-09-23T13:45:00+00:00",
+     "o": 30910.0,
+     "h": 30922.25,
+     "l": 30860.75,
+     "c": 30880.25,
+     "v": 12110.0
     }
    ]
   }
@@ -2948,7 +2964,7 @@
     "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxNbUtZODc3b3dvN1FNRGpMa0ZnNG02cVgwNUlERm5hNW01NkVaMkRkV3B4OVdMVUswZUpzbUZfamtHVHVNWW01a0lxN2ZxeFRubXliT1dtdGpsSVN5cVhpSmV5Uno1Q1NjYWhKQTFNTnJybV9GUVBVVjdENmpXOVJycS1lbU5JSzRCbjdzc25NSEs1OEhPS0JCV1JjQ1kwUk15eThlMl9IN3hYTHd1QUdwNFlFS19ITUo3Y2g4LUttVzZ2Qmo4OHhnVFRiQVdZRGFEOTdv?oc=5",
     "source": "gnews_futures",
     "published_utc": "2026-09-23T11:20:09+00:00",
-    "score": 10.6,
+    "score": 10.56,
     "duplicates": 0
    },
    {
@@ -2957,7 +2973,7 @@
     "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPN3lFbV9OQTJ4ek1nY2FpVFJCUWRQY18tSGR6dGRkYmxYMGVuMFgxMUJIRm5YSlhVQXl5WHJVYlFIeWR1Vy1rTWc1YkxCZ2tSUlpMdWxlZ0N0bXVGcVJWaDZqQlRkaHN3NExJNl9JMWE1MXkwU1owZ0tjMnVJV1hmQmY5SVI?oc=5",
     "source": "gnews_megacap",
     "published_utc": "2026-09-23T09:29:17+00:00",
-    "score": 8.79,
+    "score": 8.75,
     "duplicates": 0
    },
    {
@@ -2966,7 +2982,7 @@
     "link": "https://www.cnbc.com/2026/09/23/federal-reserve-inflation-interest-rates-ecb.html",
     "source": "cnbc_markets",
     "published_utc": "2026-09-23T07:33:14+00:00",
-    "score": 8.47,
+    "score": 8.43,
     "duplicates": 2
    },
    {
@@ -2975,7 +2991,7 @@
     "link": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxQaDdNSkRKRXBmZWprQ1R0MWdvTEFLOWpmeGIwSE9lOHRRWGRPN2hNdUxRS0RaLVAzVEs0ME00emsxd1k3ekRlSEFyUFVUcGtSNm9LQkNEX0FtRF9RUUF6VG42WWRtcXdrX2pYVjFwM1RPR190QzNpdWs4aUFEUlQ4TnlZUE96VjN5VFRPOWYwN1RJS3hyRFdzV09HeUVIdmVIVXlzUXNrWkY0Si0wb0J4WWlTZ0V3WHRTOUlSbWxESUJ2RTJKNUFVdHRNRkN3U1VXVDY5VlpVSVo0a2Z5Y0dza09Fa9IB6AFBVV95cUxQbURiOUZYd2RpWkRUQzRGZWg4NnVtOTdzYVVmRG9WeloxYWdKZmtzV2tzSWlrSDF1bkFTdHVWNDgxczlnY0ZqWndNeTZQcjZ1RE9WQ0h2amJkaTJRNDZ0cGpyYlZFNEtpRjBST2tzZjhVR1E2UGpkT3RmSWd2RXN1c2M0MEFtVzNDWXpWZ01NU2NtVEdrc0h1bHBaSWtYVjVEN0VlM1Z2Ny0wRF9pUHhGQVJpeEwwaHRQcFdPVGpOMWxxT3F3Uklkc0hjVWxxdFBYOTF4WS1WWC12Zkg5Y2pUaVJJMkV4SXBr?oc=5",
     "source": "gnews_futures",
     "published_utc": "2026-09-23T08:36:09+00:00",
-    "score": 8.14,
+    "score": 8.1,
     "duplicates": 0
    },
    {
@@ -2984,7 +3000,7 @@
     "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNelhqRThhbXZqTkJzQVlVU2JFM1dfMG81V0x1cXBYZVBqeXI5Wjl3dER6OGRDRTJzZmNuemsteXp4aFJxX29MRzNpM3hfXzhkNEVnUkFGSFlmWU9GX0F2eFdKT053cjkxQzVXUEJQWERQUmtFQ1BJVkxoLTBTV3VOODlPcFA2QkZIaWZDbmhhWDZnajhQYmhyenVsZS1xYXBDeU85QUpJV2czMUxyWGlnYWZjYWZVLVg2OC1IQlZWRQ?oc=5",
     "source": "gnews_fed",
     "published_utc": "2026-09-23T11:21:48+00:00",
-    "score": 8.1,
+    "score": 8.06,
     "duplicates": 0
    },
    {
@@ -2993,7 +3009,7 @@
     "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNZE9pNzNrbGUyM0w1bWdzNllyM3IyMXFfeGhzNlhpeDBsOFMweDJRMjZMZmQ5MGpIeHdnM0NFMXZNWFRoTXloTl9WaFRQXzVhdHcwNGRDTW1uMEpwNEZyOUJUckZqWTZWQ3BqSzBQRTVuWHNyamVNdWZhYUNQNnJnTQ?oc=5",
     "source": "gnews_macro",
     "published_utc": "2026-09-23T10:36:00+00:00",
-    "score": 7.98,
+    "score": 7.93,
     "duplicates": 2
    },
    {
@@ -3002,7 +3018,7 @@
     "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOWWhFR1ZpM0phWmhSYkRkUkhHS0s4a244d0lCT1Robk40ejV5UDVBSDkzYTVUY3NzYkppMzBka2JCMXF5bGhhNXAydjljWkdLTWgxai1GOXhQWkxSUE5UZE5jaHVaT1V6NkdxWVRsZU9XcG5sM2g2M215d2c0RWNlZktXZEZySHdKa1MzcmI2b2lncU5vQlJJQUVmQjFMaGRHVW1CX21DNXBCVVRKVlNOOHdRcHMyQnls?oc=5",
     "source": "gnews_futures",
     "published_utc": "2026-09-23T12:48:05+00:00",
-    "score": 7.84,
+    "score": 7.8,
     "duplicates": 1
    },
    {
@@ -3011,7 +3027,7 @@
     "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE41dFVHWUFfTWhPNjRLM0xtUnZCbEVzLTNjYTJrX1JIQW1HMExvSDFTUnVqLVp1Wi0xWmhhd1g5R1Y4QW5EYUZDOEJlS2JhLXhqR2FVT1J3eXdxTnpQT19BVzFudlBXOUpzLWUxTF9pbUIyTFFfT1ow?oc=5",
     "source": "gnews_macro",
     "published_utc": "2026-09-23T09:56:09+00:00",
-    "score": 7.37,
+    "score": 7.32,
     "duplicates": 1
    },
    {
@@ -3020,7 +3036,7 @@
     "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNWGp3d0c5LUhfREUtVEpfSjZoUTRHUjVwWkhqdzRNY1hJcG1vVnFmODVoNm5tSzJCY1ZZbXZza3VTNTAyUmJZREJnQk5WVFpuWHBmRll6bzdlbGxaaHJEM1dRZ2NLWVJjMVY3Y25TTW9VVi1PYUVBRzQyandWRVhNVEZQU1JVZXNCMXN3dzgxM2ljNzVuV2hkX1BmZXgxVl9fNGxMLVROSTRhU1UzUWU4dTI5Z1RjX2ZYeTBiNDVqN2pJUQ?oc=5",
     "source": "gnews_fed",
     "published_utc": "2026-09-23T12:50:40+00:00",
-    "score": 7.35,
+    "score": 7.31,
     "duplicates": 0
    },
    {
@@ -3029,7 +3045,7 @@
     "link": "https://news.google.com/rss/articles/CBMi_gFBVV95cUxNTWNJVm9Ja25TYVd6ZklJZkcxYk40Y3UyRWJYa1pJQW5EdlZ3eENjU3BpeWMxQ1JyUkpCMktiSGJNZjl1T0hISjFDbmU4VU42Mi1aWWJhQjFuakw1czBOOUc1YXNOeEpVOTVkV0VQQ0s2R3RfUHpVcmRQMWRmMHQwT2tKTWRIYzV4LUsyYUtTcmJ5bmZHYkZwU2tZUDJJRnk3NTQ4NkpNR1ktbDVhLVF6Z09iVXc3bko3ZHRqSmlYeWUtMXlJbl9uaG9ObEtvX2FxaUt5MGZSLTRUVk8yWVpMSU5iclJwV19zZ1R4ODZjSGtSVGhEWTlzS1R5U1M2UQ?oc=5",
     "source": "gnews_futures",
     "published_utc": "2026-09-23T02:18:00+00:00",
-    "score": 7.09,
+    "score": 7.05,
     "duplicates": 0
    },
    {
@@ -3038,7 +3054,7 @@
     "link": "https://www.cnbc.com/2026/09/23/treasury-yields-oil-inflation-fed.html",
     "source": "cnbc_markets",
     "published_utc": "2026-09-23T13:38:46+00:00",
-    "score": 6.48,
+    "score": 6.44,
     "duplicates": 1
    },
    {
@@ -3047,17 +3063,17 @@
     "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPbkdxd3BfVEw4UWYweEFZc3VGdTFOeDNYZ1JGSGdLZWNlSlc2bjJ5N3p6YmNTSTdOdDdQbkxEY2piQ0R0MjFnYWZ0OGxtNUVsYjhMbkx5V0lzWnFPSkVyZFJZTDBBYm1tVDVZU3lBQjRyZTFsMzlqaENEaUk1Uy1FY01CUVhIUExBQ0RwWkhhbWxZbE5HOGdwVzF2TW4wRUsydWF2a1J4MGJBMkNOWVFxSDln?oc=5",
     "source": "gnews_futures",
     "published_utc": "2026-09-23T12:40:00+00:00",
-    "score": 6.32,
+    "score": 6.28,
     "duplicates": 0
    }
   ],
   "summary": {
    "lines": [
-    "Oil price swings tied to Iran/Middle East diplomacy are whipsawing futures direction, with headlines flipping between \"muted,\" \"slip,\" and \"climb\" through the morning [be51cce475][5d3340a50b][af80257662][4df488921f].",
-    "Fed speak is hawkish-leaning as Boston Fed's Collins says inflation could stay \"notably\" above the 2% target after backing the latest rate hike, reinforcing December rate hike risk [b2043794f7][ba23d0fba0][4df488921f].",
-    "A Fed survey shows corporate finance chiefs lifting their inflation outlook and citing rates as a concern, while the OECD also sees inflation lingering and expects another Fed hike [98747b9843][16e493de9b].",
-    "Treasury yields are described as little changed to soft this morning even as oil oscillates, a factor to watch into the 13:00 ET 5-Year note auction [ff760967b7][4df488921f].",
-    "Megacap/AI-linked names and U.S. PMI data are cited as a focus alongside Meta, adding a stock-specific driver on top of the macro/oil narrative [2788ff85a1]."
+    "Stock futures have swung between gains and losses through the session as oil prices oscillate on Iran-related headlines, with futures described as muted, slipping, and climbing at different points [be51cce475][5d3340a50b][af80257662][2788ff85a1].",
+    "Boston Fed's Collins said there is an increased likelihood inflation stays notably above the 2% target after backing the recent rate hike, keeping Fed-hawkishness in focus for rate-sensitive tech names [b2043794f7][ba23d0fba0].",
+    "The OECD said global inflation will linger and the Fed will hike again, while a separate Fed survey showed corporate finance chiefs lifting inflation outlooks and citing rates as a concern [16e493de9b][98747b9843].",
+    "Treasury yields were little changed early in the session even as oil prices oscillated, a setup traders will watch into the 13:00 ET 5-Year note auction [ff760967b7].",
+    "Earlier futures commentary cited softer yields and oil easing alongside December rate-hike risk as the session's key cross-currents [4df488921f][6bb0413a20]."
    ],
    "backend": "anthropic",
    "model": "claude-sonnet-5",
