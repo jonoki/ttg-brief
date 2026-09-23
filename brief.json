@@ -1,7 +1,7 @@
 {
  "meta": {
-  "generated_at_utc": "2026-09-23T11:41:45.905927+00:00",
-  "generated_at_local": "Wed 23 Sep 2026 08:41 ADT",
+  "generated_at_utc": "2026-09-23T11:57:07.966729+00:00",
+  "generated_at_local": "Wed 23 Sep 2026 08:57 ADT",
   "trading_day": "2026-09-23",
   "display_tz": "America/Halifax",
   "version": "0.1.0",
@@ -73,7 +73,7 @@
    "time_utc": "2026-09-23T17:00:00+00:00",
    "local": "14:00 ADT",
    "et": "13:00 ET",
-   "in": "5h 18m",
+   "in": "5h 02m",
    "consensus": null,
    "prior": null
   },
@@ -84,10 +84,10 @@
   {
    "root": "ES",
    "trading_day": "2026-09-23",
-   "as_of_utc": "2026-09-23T11:41:45.905927+00:00",
+   "as_of_utc": "2026-09-23T11:57:07.966729+00:00",
    "source": "yahoo",
    "delayed": true,
-   "last_price": 7826.5,
+   "last_price": 7826.25,
    "levels": [
     {
      "tag": "exp_hi",
@@ -122,7 +122,7 @@
      "label": "Overnight high",
      "price": 7843.25,
      "group": "overnight",
-     "note": "since 18:00 ET, 802 bars"
+     "note": "since 18:00 ET, 818 bars"
     },
     {
      "tag": "vah",
@@ -141,7 +141,7 @@
     {
      "tag": "onvwap",
      "label": "Overnight VWAP",
-     "price": 7835.37,
+     "price": 7834.28,
      "group": "overnight",
      "note": "typical-price VWAP"
     },
@@ -167,13 +167,6 @@
      "note": "70 % value area"
     },
     {
-     "tag": "onl",
-     "label": "Overnight low",
-     "price": 7825.0,
-     "group": "overnight",
-     "note": ""
-    },
-    {
      "tag": "rn_minor_dn",
      "label": "Round 25 below",
      "price": 7825.0,
@@ -186,6 +179,13 @@
      "price": 7822.25,
      "group": "prior_day",
      "note": "2026-09-22"
+    },
+    {
+     "tag": "onl",
+     "label": "Overnight low",
+     "price": 7819.0,
+     "group": "overnight",
+     "note": ""
     },
     {
      "tag": "pgl",
@@ -231,14 +231,14 @@
     }
    ],
    "stats": {
-    "last_bar_utc": "2026-09-23T11:31:00+00:00",
-    "last_bar_age_min": 10.8,
+    "last_bar_utc": "2026-09-23T11:47:00+00:00",
+    "last_bar_age_min": 10.1,
     "market_state": "open",
     "profile_volume": 947779.0000000001,
     "prior_day": "2026-09-22",
     "prior_day_rth_range": 26.25,
-    "overnight_range": 18.25,
-    "gap_vs_prior_close": -4.5,
+    "overnight_range": 24.25,
+    "gap_vs_prior_close": -4.75,
     "gap_basis": "last price (pre-market)",
     "atr14": 81.46,
     "atr_days": 14,
@@ -1419,19 +1419,27 @@
      "t": "2026-09-23T11:30:00+00:00",
      "o": 7827.0,
      "h": 7827.25,
-     "l": 7825.0,
-     "c": 7826.5,
-     "v": 359.0
+     "l": 7819.0,
+     "c": 7821.75,
+     "v": 8213.0
+    },
+    {
+     "t": "2026-09-23T11:45:00+00:00",
+     "o": 7821.5,
+     "h": 7827.0,
+     "l": 7821.5,
+     "c": 7826.25,
+     "v": 1629.0
     }
    ]
   },
   {
    "root": "NQ",
    "trading_day": "2026-09-23",
-   "as_of_utc": "2026-09-23T11:41:45.905927+00:00",
+   "as_of_utc": "2026-09-23T11:57:07.966729+00:00",
    "source": "yahoo",
    "delayed": true,
-   "last_price": 30951.0,
+   "last_price": 30955.75,
    "levels": [
     {
      "tag": "exp_hi",
@@ -1445,7 +1453,7 @@
      "label": "Overnight high",
      "price": 31094.75,
      "group": "overnight",
-     "note": "since 18:00 ET, 802 bars"
+     "note": "since 18:00 ET, 818 bars"
     },
     {
      "tag": "wh",
@@ -1462,18 +1470,18 @@
      "note": "2026-09-22"
     },
     {
-     "tag": "onvwap",
-     "label": "Overnight VWAP",
-     "price": 31030.47,
-     "group": "overnight",
-     "note": "typical-price VWAP"
-    },
-    {
      "tag": "pdc",
      "label": "Prior-day close (16:00 bar)",
      "price": 31030.25,
      "group": "prior_day",
      "note": "2026-09-22"
+    },
+    {
+     "tag": "onvwap",
+     "label": "Overnight VWAP",
+     "price": 31025.14,
+     "group": "overnight",
+     "note": "typical-price VWAP"
     },
     {
      "tag": "rn_major_up",
@@ -1497,18 +1505,18 @@
      "note": ""
     },
     {
-     "tag": "onl",
-     "label": "Overnight low",
-     "price": 30938.5,
-     "group": "overnight",
-     "note": ""
-    },
-    {
      "tag": "poc",
      "label": "Prior-day POC",
      "price": 30924.5,
      "group": "profile",
      "note": "2026-09-22 RTH, bin 1.0"
+    },
+    {
+     "tag": "onl",
+     "label": "Overnight low",
+     "price": 30910.75,
+     "group": "overnight",
+     "note": ""
     },
     {
      "tag": "rn_major_dn",
@@ -1569,20 +1577,20 @@
     {
      "tag": "pwl",
      "label": "Prior-week low",
-     "price": 29555.5,
+     "price": 29581.75,
      "group": "week",
      "note": "2 session(s) of data — PARTIAL"
     }
    ],
    "stats": {
-    "last_bar_utc": "2026-09-23T11:31:00+00:00",
-    "last_bar_age_min": 10.8,
+    "last_bar_utc": "2026-09-23T11:47:00+00:00",
+    "last_bar_age_min": 10.1,
     "market_state": "open",
     "profile_volume": 346757.00000000006,
     "prior_day": "2026-09-22",
     "prior_day_rth_range": 302.0,
-    "overnight_range": 156.25,
-    "gap_vs_prior_close": -79.25,
+    "overnight_range": 184.0,
+    "gap_vs_prior_close": -74.5,
     "gap_basis": "last price (pre-market)",
     "atr14": 459.65,
     "atr_days": 14,
@@ -2763,9 +2771,17 @@
      "t": "2026-09-23T11:30:00+00:00",
      "o": 30952.5,
      "h": 30954.5,
-     "l": 30938.5,
-     "c": 30951.0,
-     "v": 357.0
+     "l": 30910.75,
+     "c": 30925.75,
+     "v": 3633.0
+    },
+    {
+     "t": "2026-09-23T11:45:00+00:00",
+     "o": 30925.5,
+     "h": 30959.5,
+     "l": 30925.5,
+     "c": 30955.75,
+     "v": 699.0
     }
    ]
   }
@@ -2774,11 +2790,11 @@
   "headlines": [
    {
     "id": "4df488921f",
-    "title": "US stock futures edge higher as oil eases, yields soften and December rate hike risk looms - VT Markets",
+    "title": "US stock futures edge higher as oil eases, yields soften and December rate hike risk looms - vtmarkets.com",
     "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxNbUtZODc3b3dvN1FNRGpMa0ZnNG02cVgwNUlERm5hNW01NkVaMkRkV3B4OVdMVUswZUpzbUZfamtHVHVNWW01a0lxN2ZxeFRubXliT1dtdGpsSVN5cVhpSmV5Uno1Q1NjYWhKQTFNTnJybV9GUVBVVjdENmpXOVJycS1lbU5JSzRCbjdzc25NSEs1OEhPS0JCV1JjQ1kwUk15eThlMl9IN3hYTHd1QUdwNFlFS19ITUo3Y2g4LUttVzZ2Qmo4OHhnVFRiQVdZRGFEOTdv?oc=5",
     "source": "gnews_futures",
     "published_utc": "2026-09-23T11:20:09+00:00",
-    "score": 10.94,
+    "score": 10.9,
     "duplicates": 0
    },
    {
@@ -2787,7 +2803,7 @@
     "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNelhqRThhbXZqTkJzQVlVU2JFM1dfMG81V0x1cXBYZVBqeXI5Wjl3dER6OGRDRTJzZmNuemsteXp4aFJxX29MRzNpM3hfXzhkNEVnUkFGSFlmWU9GX0F2eFdKT053cjkxQzVXUEJQWERQUmtFQ1BJVkxoLTBTV3VOODlPcFA2QkZIaWZDbmhhWDZnajhQYmhyenVsZS1xYXBDeU85QUpJV2czMUxyWGlnYWZjYWZVLVg2OC1IQlZWRQ?oc=5",
     "source": "gnews_fed",
     "published_utc": "2026-09-23T11:03:45+00:00",
-    "score": 9.39,
+    "score": 9.35,
     "duplicates": 2
    },
    {
@@ -2796,7 +2812,7 @@
     "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPN3lFbV9OQTJ4ek1nY2FpVFJCUWRQY18tSGR6dGRkYmxYMGVuMFgxMUJIRm5YSlhVQXl5WHJVYlFIeWR1Vy1rTWc1YkxCZ2tSUlpMdWxlZ0N0bXVGcVJWaDZqQlRkaHN3NExJNl9JMWE1MXkwU1owZ0tjMnVJV1hmQmY5SVI?oc=5",
     "source": "gnews_megacap",
     "published_utc": "2026-09-23T09:29:17+00:00",
-    "score": 9.13,
+    "score": 9.09,
     "duplicates": 0
    },
    {
@@ -2805,7 +2821,7 @@
     "link": "https://www.cnbc.com/2026/09/23/federal-reserve-inflation-interest-rates-ecb.html",
     "source": "cnbc_markets",
     "published_utc": "2026-09-23T07:33:14+00:00",
-    "score": 8.81,
+    "score": 8.77,
     "duplicates": 2
    },
    {
@@ -2814,7 +2830,7 @@
     "link": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxQaDdNSkRKRXBmZWprQ1R0MWdvTEFLOWpmeGIwSE9lOHRRWGRPN2hNdUxRS0RaLVAzVEs0ME00emsxd1k3ekRlSEFyUFVUcGtSNm9LQkNEX0FtRF9RUUF6VG42WWRtcXdrX2pYVjFwM1RPR190QzNpdWs4aUFEUlQ4TnlZUE96VjN5VFRPOWYwN1RJS3hyRFdzV09HeUVIdmVIVXlzUXNrWkY0Si0wb0J4WWlTZ0V3WHRTOUlSbWxESUJ2RTJKNUFVdHRNRkN3U1VXVDY5VlpVSVo0a2Z5Y0dza09Fa9IB6AFBVV95cUxQbURiOUZYd2RpWkRUQzRGZWg4NnVtOTdzYVVmRG9WeloxYWdKZmtzV2tzSWlrSDF1bkFTdHVWNDgxczlnY0ZqWndNeTZQcjZ1RE9WQ0h2amJkaTJRNDZ0cGpyYlZFNEtpRjBST2tzZjhVR1E2UGpkT3RmSWd2RXN1c2M0MEFtVzNDWXpWZ01NU2NtVEdrc0h1bHBaSWtYVjVEN0VlM1Z2Ny0wRF9pUHhGQVJpeEwwaHRQcFdPVGpOMWxxT3F3Uklkc0hjVWxxdFBYOTF4WS1WWC12Zkg5Y2pUaVJJMkV4SXBr?oc=5",
     "source": "gnews_futures",
     "published_utc": "2026-09-23T08:36:09+00:00",
-    "score": 8.48,
+    "score": 8.44,
     "duplicates": 0
    },
    {
@@ -2823,16 +2839,16 @@
     "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNZE9pNzNrbGUyM0w1bWdzNllyM3IyMXFfeGhzNlhpeDBsOFMweDJRMjZMZmQ5MGpIeHdnM0NFMXZNWFRoTXloTl9WaFRQXzVhdHcwNGRDTW1uMEpwNEZyOUJUckZqWTZWQ3BqSzBQRTVuWHNyamVNdWZhYUNQNnJnTQ?oc=5",
     "source": "gnews_macro",
     "published_utc": "2026-09-23T10:36:00+00:00",
-    "score": 8.32,
+    "score": 8.27,
     "duplicates": 2
    },
    {
-    "id": "7329fb7e7d",
-    "title": "South African inflation rises modestly; most analysts still expect rate hike - Belleville News-Democrat",
-    "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE41dFVHWUFfTWhPNjRLM0xtUnZCbEVzLTNjYTJrX1JIQW1HMExvSDFTUnVqLVp1Wi0xWmhhd1g5R1Y4QW5EYUZDOEJlS2JhLXhqR2FVT1J3eXdxTnpQT19BVzFudlBXOUpzLWUxTF9pbUIyTFFfT1ow?oc=5",
+    "id": "6d87f902b6",
+    "title": "South African inflation rises modestly; most analysts still expect rate hike - Reuters",
+    "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNZzQwUEpPanE0RHFxd19MR1pRSEdqSlFhc1JiMjBMOEtQSlhQVFhMemp4bUROS3h5Vzh5R1BoMDl1dVdsNmJtN1NRLW11aTlZRHZyT014bDZxWjloSzB0eTRNV2Jpa05iNWNZMC13SVNEZmo0cXNIUW9ySzF5YU05dW9WSmtSSEI2UWROQVg2dlhucGlNU2FESEt5RjluM2w0VEllVk1WdDg1NnM?oc=5",
     "source": "gnews_macro",
-    "published_utc": "2026-09-23T09:56:09+00:00",
-    "score": 7.71,
+    "published_utc": "2026-09-23T09:44:06+00:00",
+    "score": 7.63,
     "duplicates": 1
    },
    {
@@ -2841,7 +2857,7 @@
     "link": "https://news.google.com/rss/articles/CBMi_gFBVV95cUxNTWNJVm9Ja25TYVd6ZklJZkcxYk40Y3UyRWJYa1pJQW5EdlZ3eENjU3BpeWMxQ1JyUkpCMktiSGJNZjl1T0hISjFDbmU4VU42Mi1aWWJhQjFuakw1czBOOUc1YXNOeEpVOTVkV0VQQ0s2R3RfUHpVcmRQMWRmMHQwT2tKTWRIYzV4LUsyYUtTcmJ5bmZHYkZwU2tZUDJJRnk3NTQ4NkpNR1ktbDVhLVF6Z09iVXc3bko3ZHRqSmlYeWUtMXlJbl9uaG9ObEtvX2FxaUt5MGZSLTRUVk8yWVpMSU5iclJwV19zZ1R4ODZjSGtSVGhEWTlzS1R5U1M2UQ?oc=5",
     "source": "gnews_futures",
     "published_utc": "2026-09-23T02:22:48+00:00",
-    "score": 7.45,
+    "score": 7.4,
     "duplicates": 0
    },
    {
@@ -2850,7 +2866,7 @@
     "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOSE9ldllodXZMeE5kTmV3anF6ai1VRmJGdUI5SUc4dUxUMVljaDBnWlluQUdjcEFPNGFmS3Fub3kyQnRRaFlMNWdGNWs5dkxPMGRWRGZmZkhNVS1ESTJiLUh6aDhfcm5PVGktYXZGSlZoSDhBejNMVEYtdUlsZHlWVFVDSjFhY2NjX3h1ZlBpZW53S09LRVNSaU15UHRhck1FS2tDWXNyR2kxbEhTMkVNNXVnNkJyNDJZ?oc=5",
     "source": "gnews_futures",
     "published_utc": "2026-09-23T07:38:35+00:00",
-    "score": 6.82,
+    "score": 6.78,
     "duplicates": 0
    },
    {
@@ -2859,7 +2875,7 @@
     "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQOWdFMVRXOUxpQnZnN3BNYzZvN0Jrd21iVWtDcVRvQ2Q2Wjk2TkpFZnlUcGxzc2hiR3VtOG83MThvekxzYnpKRFBHbUsyTVBkNTNTZHUxUmtEWklDNGJoQVhBcGJ3NzNDUXIzTXBpQU90OGcwWi13R0hmTU5nczNJOHhHc0lrQ2tIZ29pZ1Uza2xKZDJDRWRDQ2ZYMko3UHBPTGdCZGJKaVJUWkxoaTRMS3Fnbw?oc=5",
     "source": "gnews_macro",
     "published_utc": "2026-09-23T06:32:00+00:00",
-    "score": 6.64,
+    "score": 6.6,
     "duplicates": 0
    },
    {
@@ -2868,30 +2884,31 @@
     "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNZEJCS3dCNmtnRTFKNlU5aXRoTEV3STB0ZWdJTHFVRS1DbUJsdEltS0xhbU8tUzEycW16cVZIMlhRdWtQTmRjRE1kYTZZcTBOUnYzR292RFBpY1M3QjNIeVdKalBzUUxhSUNiMFpUWFNSLVBkSUFqRF9xanZ1dmk5TlByNUh1cmE5?oc=5",
     "source": "gnews_macro",
     "published_utc": "2026-09-23T11:15:00+00:00",
-    "score": 6.43,
+    "score": 6.38,
     "duplicates": 0
    },
    {
-    "id": "b3e1bd4ab8",
-    "title": "Stock Market Today: Dow Jones, S&P 500 Futures Gain After Trump Threatens to 'Annihilate' Iran at UNGA—KB Home, Worthington, IONQ in Focus - TradingView",
-    "link": "https://news.google.com/rss/articles/CBMimwJBVV95cUxQeUVxb0NyZzFZb20xTnpaV09BT3lUcVFOendrWHNoeWFWZ1VoX0tZa2wxT25XMms1T0Q2VVVnRnRzZGFNZU5iZTBuT3NFV2puUUdWZEszeEVibmJQT1B3MzdQSXNxbk5TVHJtdFpneGdNQ1F5bUdfbmplWl9qTmRVb2o1UnZEckFCaHpYdlpPRmR6S05WN19SVGwtU0x4NzB2VW1PUmh2WFVVREkxMTJJZUdTUzdIdzBITERPZ3U3RVhPNU5SbWtOTk44QkhtMXRzYmlEOEljTzBEOVQxOWhzWDdMRkkwUmlPaWgzWGFPOERUeHlUa3MwS0xYRUtELWFrNE8yUkxjZkcwWFp1QVVYeWF5ZHhWb1NTM3BJ?oc=5",
+    "id": "29e702eb84",
+    "title": "Stock Market Today: Dow Jones, S&P 500 Futures Gain as Trump Threatens to 'Annihilate' Iran at UNGA—KB Ho - Benzinga",
+    "link": "https://news.google.com/rss/articles/CBMikwJBVV95cUxNZnJESGowQVpLQ0JfSGF6VlU0S0YtTGNkSG5KUkxkV3hwWUxxM2NleFpkWG82bjFXZVR4RmZlUWJoQUEtUXQ2UjVqcVFmalNvb3AxRGFJdWZIVXVWTWk1TTJNTU9pYkdBOXNtYUMxOUtBUFpPM1gwbkxDVUJlNmprQ21ISVVIbkJGamlSMnBOTy1DOTY5U0loalFWaVZESEp1RWItVTBTa01lNmYtaDRrWWdwVk1CT01tMXZmUDBONnk4dnpXQ3hkemVnUFJ2aUpLcGZRcXBfSDNrb1BJYkktejZ3R2k3SjZrazJSLUJJeUY2TWtBbVpBOGRWdE5SQ20zQnU1SkJJc2MzSk0zRW01U0Nvdw?oc=5",
     "source": "gnews_futures",
-    "published_utc": "2026-09-23T09:31:52+00:00",
-    "score": 6.14,
+    "published_utc": "2026-09-23T09:32:14+00:00",
+    "score": 6.1,
     "duplicates": 0
    }
   ],
   "summary": {
    "lines": [
-    "Fed speak stays hawkish-leaning as Collins flags inflation risk after backing a rate hike and the OECD sees the Fed hiking again, while a Fed survey shows finance chiefs lifting their inflation outlook — keep an eye on rate-sensitive tech/Nasdaq reaction. [b2043794f7] [16e493de9b] [98747b9843]",
-    "Futures headlines are mixed on direction and magnitude (edge higher / flat / gain), citing oil easing, softer yields, PMI data, and Meta's AI news as drivers — expect choppy, headline-driven price action into the open. [4df488921f] [6bb0413a20] [2788ff85a1] [b3e1bd4ab8]",
-    "Geopolitical headlines cite Iran diplomacy hopes and Trump's UNGA comments on Iran alongside the Trump-Xi summit as focus points, a source of intraday volatility risk. [be51cce475] [4f5f2a7a71] [b3e1bd4ab8]",
-    "The 5-Year note auction at 13:00 ET is on today's calendar and could move yields into the early afternoon, relevant given the yield-sensitive tone in futures headlines. [4df488921f]",
-    "South African inflation and rand headlines are noted but are not directly relevant to US index futures trading. [7329fb7e7d] [ebb6a7a547]"
+    "Fed officials (Collins) and OECD flag persistent above-target inflation with more hikes seen, while corporate CFOs also lifted inflation outlook per Fed survey, keeping rate-path risk in focus for futures. [b2043794f7][16e493de9b][98747b9843]",
+    "Futures are mixed-to-higher across reports, with moves tied to oil easing, softer yields, Meta/AI headlines, and PMI data. [4df488921f][2788ff85a1][6bb0413a20]",
+    "Geopolitical headlines cite Iran diplomacy hopes alongside Trump's UNGA \"annihilate\" comment on Iran, and a Trump-Xi summit is noted as a watch item. [be51cce475][29e702eb84][4f5f2a7a71]",
+    "South African inflation and rand items, plus Ontario housing data, are non-US and not directly relevant to US index futures today. [6d87f902b6][ebb6a7a547][e4e30e7b0a]"
    ],
    "backend": "anthropic",
    "model": "claude-sonnet-5",
-   "dropped": [],
+   "dropped": [
+    "no valid citation: A 5-Year note auction is scheduled for 13:00 ET, relevant to rate-sensitive futures positioning later in the session."
+   ],
    "warnings": []
   },
   "feeds": [],
