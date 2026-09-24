@@ -1,7 +1,7 @@
 {
  "meta": {
-  "generated_at_utc": "2026-09-24T12:12:23.734804+00:00",
-  "generated_at_local": "Thu 24 Sep 2026 09:12 ADT",
+  "generated_at_utc": "2026-09-24T12:27:45.110965+00:00",
+  "generated_at_local": "Thu 24 Sep 2026 09:27 ADT",
   "trading_day": "2026-09-24",
   "display_tz": "America/Halifax",
   "version": "0.1.0",
@@ -91,7 +91,7 @@
    "time_utc": "2026-09-24T12:30:00+00:00",
    "local": "09:30 ADT",
    "et": "08:30 ET",
-   "in": "17 min",
+   "in": "2 min",
    "consensus": "201K",
    "prior": "196K"
   },
@@ -102,10 +102,10 @@
   {
    "root": "ES",
    "trading_day": "2026-09-24",
-   "as_of_utc": "2026-09-24T12:12:23.734804+00:00",
+   "as_of_utc": "2026-09-24T12:27:45.110965+00:00",
    "source": "yahoo",
    "delayed": true,
-   "last_price": 7727.75,
+   "last_price": 7736.75,
    "levels": [
     {
      "tag": "exp_hi",
@@ -154,7 +154,7 @@
      "label": "Overnight high",
      "price": 7779.25,
      "group": "overnight",
-     "note": "since 18:00 ET, 833 bars"
+     "note": "since 18:00 ET, 848 bars"
     },
     {
      "tag": "poc",
@@ -194,7 +194,7 @@
     {
      "tag": "onvwap",
      "label": "Overnight VWAP",
-     "price": 7738.0,
+     "price": 7737.79,
      "group": "overnight",
      "note": "typical-price VWAP"
     },
@@ -249,14 +249,14 @@
     }
    ],
    "stats": {
-    "last_bar_utc": "2026-09-24T12:02:00+00:00",
-    "last_bar_age_min": 10.4,
+    "last_bar_utc": "2026-09-24T12:17:00+00:00",
+    "last_bar_age_min": 10.8,
     "market_state": "open",
     "profile_volume": 1285090.0,
     "prior_day": "2026-09-23",
     "prior_day_rth_range": 67.5,
     "overnight_range": 72.0,
-    "gap_vs_prior_close": -46.0,
+    "gap_vs_prior_close": -37.0,
     "gap_basis": "last price (pre-market)",
     "atr14": 82.3,
     "atr_days": 14,
@@ -1452,20 +1452,28 @@
     {
      "t": "2026-09-24T12:00:00+00:00",
      "o": 7732.0,
-     "h": 7732.5,
+     "h": 7734.5,
      "l": 7726.5,
-     "c": 7727.75,
-     "v": 1697.0
+     "c": 7733.75,
+     "v": 7676.0
+    },
+    {
+     "t": "2026-09-24T12:15:00+00:00",
+     "o": 7733.75,
+     "h": 7737.75,
+     "l": 7733.0,
+     "c": 7736.75,
+     "v": 1449.0
     }
    ]
   },
   {
    "root": "NQ",
    "trading_day": "2026-09-24",
-   "as_of_utc": "2026-09-24T12:12:23.734804+00:00",
+   "as_of_utc": "2026-09-24T12:27:45.110965+00:00",
    "source": "yahoo",
    "delayed": true,
-   "last_price": 30434.0,
+   "last_price": 30493.25,
    "levels": [
     {
      "tag": "exp_hi",
@@ -1507,7 +1515,7 @@
      "label": "Overnight high",
      "price": 30813.0,
      "group": "overnight",
-     "note": "since 18:00 ET, 833 bars"
+     "note": "since 18:00 ET, 848 bars"
     },
     {
      "tag": "vah",
@@ -1547,7 +1555,7 @@
     {
      "tag": "onvwap",
      "label": "Overnight VWAP",
-     "price": 30577.34,
+     "price": 30574.54,
      "group": "overnight",
      "note": "typical-price VWAP"
     },
@@ -1559,8 +1567,8 @@
      "note": ""
     },
     {
-     "tag": "rn_minor_up",
-     "label": "Round 50 above",
+     "tag": "rn_minor_dn",
+     "label": "Round 50 below",
      "price": 30450.0,
      "group": "round",
      "note": ""
@@ -1609,14 +1617,14 @@
     }
    ],
    "stats": {
-    "last_bar_utc": "2026-09-24T12:02:00+00:00",
-    "last_bar_age_min": 10.4,
+    "last_bar_utc": "2026-09-24T12:17:00+00:00",
+    "last_bar_age_min": 10.8,
     "market_state": "open",
     "profile_volume": 419300.0,
     "prior_day": "2026-09-23",
     "prior_day_rth_range": 370.25,
     "overnight_range": 443.0,
-    "gap_vs_prior_close": -336.5,
+    "gap_vs_prior_close": -277.25,
     "gap_basis": "last price (pre-market)",
     "atr14": 471.52,
     "atr_days": 14,
@@ -2812,10 +2820,18 @@
     {
      "t": "2026-09-24T12:00:00+00:00",
      "o": 30462.5,
-     "h": 30468.25,
+     "h": 30487.25,
      "l": 30420.25,
-     "c": 30434.0,
-     "v": 967.0
+     "c": 30482.0,
+     "v": 3712.0
+    },
+    {
+     "t": "2026-09-24T12:15:00+00:00",
+     "o": 30482.0,
+     "h": 30501.0,
+     "l": 30478.25,
+     "c": 30493.25,
+     "v": 370.0
     }
    ]
   }
@@ -2828,7 +2844,7 @@
     "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPbEZNM09ad3VEQ3VxUnVfdHRpYmlkZDlWMHFpdlZtcjZpV1B5M0RRNnJxVkxGQ01ybHVoZEw2QVNva3RzelFRNllOQ1lod002TklRMjZVd0dFZGZrNVJ6NHlNZWk4X3hKME56RkY4V2M5V3Y4TkpaNjFHSlhKTTdjRThBenNMUk9mQTlOeFVDVFE0UnFtNFVWRkhKa1h1dWdPNHFTTUlxX2xMcFND?oc=5",
     "source": "gnews_macro",
     "published_utc": "2026-09-24T10:51:47+00:00",
-    "score": 9.78,
+    "score": 9.73,
     "duplicates": 0
    },
    {
@@ -2837,7 +2853,16 @@
     "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxOT0R5YTVhYUo2Z2JHSWIxdlp0Q1EzMHBVb2w2S0JCQVlPbkh1U1hlUTRSd1dVSjUwbldQejUtbFFZdExLV0I5cFNLbUYwQ0VZSk9zWW9pa0ZCZ2x1ZUM5SF8zdUVfdlUyWXZXU0xIS2U0RGJCamNVNnBTTVZVRzU3a3h2TWxGTDdBNUlrUDFMSWlWaTV5Ti1DamV0eUoyMXg3VmtKcWxJWS10MnZ6WXkwNGJGY0RwZFUtRmkwOE5Sb1dyWjZQZ2RUYjZpVVA?oc=5",
     "source": "gnews_futures",
     "published_utc": "2026-09-24T10:36:30+00:00",
-    "score": 9.23,
+    "score": 9.19,
+    "duplicates": 0
+   },
+   {
+    "id": "1c5d940f36",
+    "title": "Dow Jones Futures Fall As Treasury Yields, Oil Prices Keep Rising. Meta, Everpure, Grail Are Early Movers. - Investor's Business Daily",
+    "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQMlZpMGFZbnA2RlZoLUZKekplM1RyZ0pabm00eWhrb21qbDNxV1ZpdHQ2aFA3M1hkdVI4d1ZiUmhVdUJwNGZnakxTVUVYVzAwekdLQkFsYXZjeWdGRWVlY2pSYWRJRUtlWkN6YUpiSDZTSXlqLVg4R1NBUEtCdHlzRlRaN0lPS1JoMWY2YnN2bzFHYXFZWUN6OVdkdGVzNTE3dG9ZUDZOUnlEVVo4Vmpwc2dsQ1J1ZUJNMVdBX0EwMG9UdWhMM2c?oc=5",
+    "source": "gnews_macro",
+    "published_utc": "2026-09-24T12:04:00+00:00",
+    "score": 8.93,
     "duplicates": 0
    },
    {
@@ -2846,7 +2871,7 @@
     "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQT2FYY1JZZ2hxTVMyaGlka29EN3NoMFlzS0d1N1JEMXZ3RUVQZDF4cWEweFQwc0pKVlRVTlZlRzdEVHJYaHpGaUtCV0xKcGl2M1k1WjNEWjRUcEgwT0FET3dBQzlPVDBTbDNFTGkxR01iZmFidndsVjFQSGU4VHNzU3VScHlsdWdGcW9GdGt5cjhyZlpIdVE?oc=5",
     "source": "gnews_futures",
     "published_utc": "2026-09-24T08:25:55+00:00",
-    "score": 8.87,
+    "score": 8.83,
     "duplicates": 1
    },
    {
@@ -2864,7 +2889,7 @@
     "link": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxNMU5UdVR2eUhlV2sydG8zZ3kyeWdMYlRieTZtUWFiakVUSDNTNnpRTVJ5ekZhZGlZOTN6V3R4ZFlvRUpzNUN6Um5oVjRXMW9OOEZBR2wyUHlqaEtVa1pydFVsYVBlUDY5YzNVMy1EMHNCRmF3UFROek1lYW40NnFmUzJZeWhMNW02UC1PNGlCQ0stRW1iSko2TnhhUlV1QTNKVjExM2xwUDVYMWEyZ2l4UzdnTkF4cG05b09NaV85aEpxVmNLanMtNGZ3VXU5UTFoYnJsdF9B0gHbAUFVX3lxTFA0ZnFSN2FGX1llTFQ5a0FPWWh5ZGxIaDRUU3hiUElWNEpkSF8xNWFUWExub1c4eTRrU1FpY2hOTGFDV1RCRE9faklJU3FlQmxRaTdsWkl4RHRtTXdVTHpzeXYxamVBNnp5cV9fNWN6b2tRbDdmSUxIeVpEbHJsS0NGdHFNV1NGX3dha0hqZUhDblA5T0Z2NUJaVEl4NzlCUG5RQ2VxQnh6RzhYdkdVa3E1cF94UmY2cUp1NjYzZ1RxQU0yZkktZU5mMk9PSEt5cjg0V0JheTNaeWMtNA?oc=5",
     "source": "gnews_futures",
     "published_utc": "2026-09-24T11:17:43+00:00",
-    "score": 8.35,
+    "score": 8.31,
     "duplicates": 0
    },
    {
@@ -2873,7 +2898,7 @@
     "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNVEdqRWM4a0F4RzFFbXNqVURoNzRmRTBRUmc5UlBPakNaTEZJSktvLU9nWU9KNGU2aGRWSVVUUG10cWVULWxGdWVMZzRsNXRsekFSYzB3MjlQNEFQNUU1WDFWcE5MdW5oeXBRaU9VbTh2SlRZekVTdkxFY2JVaHJRYXpLcWlPbU80d0FLbmNHb19TaUhHTW95b1ZkanhGVEU3YXJ2aEExTGdPTzlGN2ZwMkw4RVl5Z2F1M2Y1YzVsQ21fYTFtNUt2Xw?oc=5",
     "source": "gnews_futures",
     "published_utc": "2026-09-24T10:37:08+00:00",
-    "score": 8.24,
+    "score": 8.19,
     "duplicates": 0
    },
    {
@@ -2882,7 +2907,7 @@
     "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQV0s2SFpiMVNST19kb1JkeFZraXlVX3hBMWtSQ2U1XzVBelNESkUtUjdIb2t5QjBRVGo0ZE9qeGMzdjZTbkdYWjAzSjBzQnVYMlpJV1VZUUo1d2tKVGtIRjQ2bm8wVkFOVnJsclY3cHpkQy1QQTZfQ2VwZ0pZanlFVmRMS3lxbmJxb3pQZS1kdGlUSldVei1wT1Z2a2h0ZGFXb05XYmsyNmZaVElUcEU1ZnY0MWM?oc=5",
     "source": "gnews_fed",
     "published_utc": "2026-09-24T10:03:50+00:00",
-    "score": 8.14,
+    "score": 8.1,
     "duplicates": 2
    },
    {
@@ -2891,7 +2916,7 @@
     "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOd3ZMbU5FQ0R4c05IN01wbUpvamhqLXVkR1djVk1WSzB0OFd4bHFsc2x0U2FWT2h6RHVWdTJPczh0bVRYYVZiUk5Lb3ROV3RGVElnWkM4aHUwQ2JHbWNPQVZvRjliY1c4bm1hUnlibzhUMFltX2lyQ3owYW0wQnp3aXdwLV9TRFdhcFM5cVBaR2FjMVdoeWhQdEpWb0tZS2FBTUVSU0FrbEpDQQ?oc=5",
     "source": "gnews_futures",
     "published_utc": "2026-09-24T11:45:04+00:00",
-    "score": 7.92,
+    "score": 7.88,
     "duplicates": 0
    },
    {
@@ -2900,49 +2925,42 @@
     "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNa2h5S3V3MHFDaUV6b1FoYVVsQ2xwUWxlYUw2akJScGs5ejVVbDM1dmRGTzhCbnM4Tk93MU9GUGxnMmYtY3FaUDdJeklLa1JRS2pvQ3htaDNFSFdRdkZUT2E5UEdkNXFRMVM4SzlDbnVJd3lmZk5TaW1Zck5DeUtFZ2lNYS1Ocktpa3cwVVpuckQ0a1hEQUF1MXNPTC1HbVB0cmVuWXFZQVE5a0F1MUl1enZqbm81blRrcWxLU21oeW1FbGh2aG9wZnBfYnlIUQ?oc=5",
     "source": "gnews_futures",
     "published_utc": "2026-09-24T04:32:37+00:00",
-    "score": 7.72,
+    "score": 7.68,
     "duplicates": 0
    },
    {
-    "id": "e917904872",
-    "title": "Dow, S&P 500, Nasdaq Futures Dip As Bond Yields Bite And Trump-Xi Meet Grabs Spotlight: Why META, MCD, GOOG, U Stocks Are Trending - Stocktwits",
-    "link": "https://news.google.com/rss/articles/CBMinAJBVV95cUxOcEdYM20wZG82cnozbW9aaXNhaDNOMXItYUdOalBaM2hIS0x6OVotVlVOZWs0ZFNRR2YtV25GM2tRUkJuYmZJVWN4WFB5eWpXLWswams3MW0wc0E1NzNhZWEwUU1OejI0UnhLMnlKc29DbWpKTEk4S1FiZWswN3IzUzM2VWdCY284b0VIVTVwRTBabGQtbGMwbkVVSXE4UWhMWGFrc2h4T2s1SFlUOTBxajFwX1NxTTZ5Y3A5QS1ZdXBiWmNfX3RfQmt2ZGJvd1RmSVJ2cUVaWlBsa2lMOGNldFY1RUt1RXI3MFRQSTJiYjhXU1dhLUgtd2tNcmIzUXk2OXhsckQ2dE04UWo0c1FvSmZzUEdRTDJnQjMwVQ?oc=5",
-    "source": "gnews_futures",
-    "published_utc": "2026-09-24T03:05:00+00:00",
-    "score": 7.48,
-    "duplicates": 0
-   },
-   {
-    "id": "97b483639b",
-    "title": "Stock futures fall as 30-year Treasury yield hits 2004 high - qz.com",
-    "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE9BVGtQNFhUclpTVFlDZTdfUmNvdXhxQ2RyMWgtcFREY0JRM3Z0WFY5RjJPLTFXTkZfQWdyVklJbEc1ZjAzaHVnYXRrNUNuODJhUVZxMFJoamYtZWlfY3hzTkMtNllrb3NJcVBfTDNqVmJwT1BlcVlmc0NwNA?oc=5",
-    "source": "gnews_futures",
-    "published_utc": "2026-09-24T11:21:51+00:00",
-    "score": 7.36,
+    "id": "049169d8d1",
+    "title": "Fed again hoping for a pain-free landing from current inflation spike - Reuters",
+    "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQai1uWS0xUEd6VnlJN1ppcHAxNDdCa2dsTmtFTWJxRGticDVkQmJCM0FIVi04VUkxOU5jQVM4d18xVjNDWlJ1djZfa0ZSZkxSXzB1SkJqUVJxanVZci1jTEt3eVMwZWNBSnFpUWNXdHlGeWdITVVILXZwdlZxdnM3SFU3WFNZZzNmMU0yemM4VlNGcUxBajBfQ2tnU1M5UWlxejFfZTZ3?oc=5",
+    "source": "gnews_fed",
+    "published_utc": "2026-09-24T10:24:09+00:00",
+    "score": 7.66,
     "duplicates": 1
    },
    {
-    "id": "d667d1dab9",
-    "title": "US Stock Futures Decline as Investors Track Middle East and AI - SuaraGarut.ID",
-    "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE5tNkctNU5rZGpSZWh1d3VYUWlyeUZPb3lWYngwNDhaUWEwQXJrYUJYcHdMcGRURWNRSW5EZzFsY1VQaGJMUjNha1BSOUhPQ2NwcTZ1SGI4MzhPN1hPLU40V01RbXotMXpEXzk4THhRMVY0dw?oc=5",
+    "id": "7c45c14459",
+    "title": "Rising Oil Prices and Middle East Tensions Push US Stock Futures Lower - Межа. Новини України.",
+    "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE1yN29UaVdWbnlnTWQwRDRWZEpjYWpBRTVMN2J0NWZTLTFjUy1IWmt1R0ZZc19uZjNPd1E1cTJ6eHdieTA5ekN6Ulc1YkZmNTdoT3VBeElRbElxam9JNjdXM0tXcmo?oc=5",
     "source": "gnews_futures",
-    "published_utc": "2026-09-24T10:34:52+00:00",
-    "score": 7.23,
+    "published_utc": "2026-09-24T12:23:42+00:00",
+    "score": 7.49,
     "duplicates": 0
    }
   ],
   "summary": {
    "lines": [
-    "Treasury yields surge with the 30-year hitting a 2004 high and yields cited above 5%, pressuring futures and raising cross-asset volatility risk into the cash open [d82f58547c][97b483639b][b0715ebfa2].",
-    "Nasdaq futures lead declines as the chip selloff deepens alongside the bond selloff, a sector to watch for outsized moves in MNQ [9e48c84aa2][1bda07638d].",
-    "Trump-Xi summit headlines are running alongside the yield story and are being cited as a co-driver of futures weakness, adding event-risk uncertainty during the session [9e48c84aa2][77d8ef9a00][2036a7ae0a][e917904872].",
-    "Fed's Williams said more work is needed to bring down inflation, reinforcing the rate-hike-fear narrative behind the yield move ahead of the 08:30 ET claims print [e9ea0933ca].",
-    "Stock names in focus per the wires include META, GOOGL, SNAP, MCD, GOOG, BB, VKTX, SPCX, and U, useful for watching related single-stock/index correlation moves [77d8ef9a00][e917904872]."
+    "Stock Market Today (Sept. 24, 2026): Dow futures sinks as Treasury yields surge, inflation fears rise - thestreet.com [9bbc8fd7cc]",
+    "Nasdaq Futures Plunge as Rising Bond Yields Deepen Chip Selloff, Trump-Xi Summit in Focus - Barchart.com [9e48c84aa2]",
+    "Dow Jones Futures Fall As Treasury Yields, Oil Prices Keep Rising. Meta, Everpure, Grail Are Early Movers. - Investor's Business Daily [1c5d940f36]",
+    "Nasdaq, S&P 500 Futures Slide As Treasury Yields, Trump-Xi Summit Keep Traders On Edge: META, GOOGL, SPCX, VKTX, SNAP, MCD, BB Stocks In Focus - Yahoo Finance [77d8ef9a00]",
+    "Bond yields surge above 5% as Wall Street fears more Fed rate hikes - MarketWatch [d82f58547c]"
    ],
    "backend": "anthropic",
    "model": "claude-sonnet-5",
    "dropped": [],
-   "warnings": []
+   "warnings": [
+    "summariser produced no valid lines; showing digest"
+   ]
   },
   "feeds": [],
   "warnings": []
