@@ -1,7 +1,7 @@
 {
  "meta": {
-  "generated_at_utc": "2026-09-24T10:25:02.023101+00:00",
-  "generated_at_local": "Thu 24 Sep 2026 07:25 ADT",
+  "generated_at_utc": "2026-09-24T10:40:23.013468+00:00",
+  "generated_at_local": "Thu 24 Sep 2026 07:40 ADT",
   "trading_day": "2026-09-24",
   "display_tz": "America/Halifax",
   "version": "0.1.0",
@@ -91,7 +91,7 @@
    "time_utc": "2026-09-24T12:30:00+00:00",
    "local": "09:30 ADT",
    "et": "08:30 ET",
-   "in": "2h 04m",
+   "in": "1h 49m",
    "consensus": "201K",
    "prior": "196K"
   },
@@ -102,10 +102,10 @@
   {
    "root": "ES",
    "trading_day": "2026-09-24",
-   "as_of_utc": "2026-09-24T10:25:02.023101+00:00",
+   "as_of_utc": "2026-09-24T10:40:23.013468+00:00",
    "source": "yahoo",
    "delayed": true,
-   "last_price": 7725.25,
+   "last_price": 7721.75,
    "levels": [
     {
      "tag": "exp_hi",
@@ -154,7 +154,7 @@
      "label": "Overnight high",
      "price": 7779.25,
      "group": "overnight",
-     "note": "since 18:00 ET, 726 bars"
+     "note": "since 18:00 ET, 741 bars"
     },
     {
      "tag": "poc",
@@ -194,7 +194,7 @@
     {
      "tag": "onvwap",
      "label": "Overnight VWAP",
-     "price": 7740.9,
+     "price": 7739.94,
      "group": "overnight",
      "note": "typical-price VWAP"
     },
@@ -206,8 +206,8 @@
      "note": "1 session(s) of data — PARTIAL"
     },
     {
-     "tag": "rn_minor_dn",
-     "label": "Round 25 below",
+     "tag": "rn_minor_up",
+     "label": "Round 25 above",
      "price": 7725.0,
      "group": "round",
      "note": ""
@@ -249,14 +249,14 @@
     }
    ],
    "stats": {
-    "last_bar_utc": "2026-09-24T10:15:00+00:00",
-    "last_bar_age_min": 10.0,
+    "last_bar_utc": "2026-09-24T10:30:00+00:00",
+    "last_bar_age_min": 10.4,
     "market_state": "open",
     "profile_volume": 1285090.0,
     "prior_day": "2026-09-23",
     "prior_day_rth_range": 67.5,
     "overnight_range": 72.0,
-    "gap_vs_prior_close": -48.5,
+    "gap_vs_prior_close": -52.0,
     "gap_basis": "last price (pre-market)",
     "atr14": 82.3,
     "atr_days": 14,
@@ -1396,9 +1396,17 @@
     {
      "t": "2026-09-24T10:15:00+00:00",
      "o": 7725.0,
-     "h": 7725.5,
-     "l": 7724.5,
-     "c": 7725.25,
+     "h": 7728.25,
+     "l": 7719.0,
+     "c": 7721.75,
+     "v": 10870.0
+    },
+    {
+     "t": "2026-09-24T10:30:00+00:00",
+     "o": 7721.75,
+     "h": 7723.75,
+     "l": 7719.5,
+     "c": 7721.75,
      "v": 0.0
     }
    ]
@@ -1406,10 +1414,10 @@
   {
    "root": "NQ",
    "trading_day": "2026-09-24",
-   "as_of_utc": "2026-09-24T10:25:02.023101+00:00",
+   "as_of_utc": "2026-09-24T10:40:23.013468+00:00",
    "source": "yahoo",
    "delayed": true,
-   "last_price": 30442.0,
+   "last_price": 30430.0,
    "levels": [
     {
      "tag": "exp_hi",
@@ -1451,7 +1459,7 @@
      "label": "Overnight high",
      "price": 30813.0,
      "group": "overnight",
-     "note": "since 18:00 ET, 726 bars"
+     "note": "since 18:00 ET, 741 bars"
     },
     {
      "tag": "vah",
@@ -1491,7 +1499,7 @@
     {
      "tag": "onvwap",
      "label": "Overnight VWAP",
-     "price": 30601.25,
+     "price": 30595.5,
      "group": "overnight",
      "note": "typical-price VWAP"
     },
@@ -1553,14 +1561,14 @@
     }
    ],
    "stats": {
-    "last_bar_utc": "2026-09-24T10:15:00+00:00",
-    "last_bar_age_min": 10.0,
+    "last_bar_utc": "2026-09-24T10:30:00+00:00",
+    "last_bar_age_min": 10.4,
     "market_state": "open",
     "profile_volume": 419300.0,
     "prior_day": "2026-09-23",
     "prior_day_rth_range": 370.25,
     "overnight_range": 443.0,
-    "gap_vs_prior_close": -328.5,
+    "gap_vs_prior_close": -340.5,
     "gap_basis": "last price (pre-market)",
     "atr14": 471.52,
     "atr_days": 14,
@@ -2700,9 +2708,17 @@
     {
      "t": "2026-09-24T10:15:00+00:00",
      "o": 30437.25,
-     "h": 30443.0,
-     "l": 30435.25,
-     "c": 30442.0,
+     "h": 30460.0,
+     "l": 30415.0,
+     "c": 30432.75,
+     "v": 3816.0
+    },
+    {
+     "t": "2026-09-24T10:30:00+00:00",
+     "o": 30432.5,
+     "h": 30445.25,
+     "l": 30420.75,
+     "c": 30430.0,
      "v": 0.0
     }
    ]
@@ -2716,7 +2732,7 @@
     "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQT2FYY1JZZ2hxTVMyaGlka29EN3NoMFlzS0d1N1JEMXZ3RUVQZDF4cWEweFQwc0pKVlRVTlZlRzdEVHJYaHpGaUtCV0xKcGl2M1k1WjNEWjRUcEgwT0FET3dBQzlPVDBTbDNFTGkxR01iZmFidndsVjFQSGU4VHNzU3VScHlsdWdGcW9GdGt5cjhyZlpIdVE?oc=5",
     "source": "gnews_futures",
     "published_utc": "2026-09-24T08:25:55+00:00",
-    "score": 9.17,
+    "score": 9.13,
     "duplicates": 1
    },
    {
@@ -2734,17 +2750,8 @@
     "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQV0s2SFpiMVNST19kb1JkeFZraXlVX3hBMWtSQ2U1XzVBelNESkUtUjdIb2t5QjBRVGo0ZE9qeGMzdjZTbkdYWjAzSjBzQnVYMlpJV1VZUUo1d2tKVGtIRjQ2bm8wVkFOVnJsclY3cHpkQy1QQTZfQ2VwZ0pZanlFVmRMS3lxbmJxb3pQZS1kdGlUSldVei1wT1Z2a2h0ZGFXb05XYmsyNmZaVElUcEU1ZnY0MWM?oc=5",
     "source": "gnews_fed",
     "published_utc": "2026-09-24T09:38:31+00:00",
-    "score": 8.37,
+    "score": 8.33,
     "duplicates": 2
-   },
-   {
-    "id": "357c3894dc",
-    "title": "Wall Street falls as Treasury yields and oil prices rise - Riviera Radio",
-    "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQcDRtRUZmVHRVRkhpNlJfYS14WnBtUzNYOF8xZ2tmdjZGTnI1bnF0dUtpemtDRTRyY3lRUjBkaUROb1J2UTh0VHBaVjVEa1FLSldETGVtREdGbGpSaS1kbmV4QTkwZ0RhWU5Vdk5GdFkzcG82dGNQYXVCenRJS1ZSYXZlOEh4U0lLMXdIWmlUN0o4SnpmdFlublVBRjE0b3NCdUltRWRR?oc=5",
-    "source": "gnews_macro",
-    "published_utc": "2026-09-24T08:03:10+00:00",
-    "score": 8.11,
-    "duplicates": 3
    },
    {
     "id": "489ce57d91",
@@ -2752,8 +2759,17 @@
     "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNa2h5S3V3MHFDaUV6b1FoYVVsQ2xwUWxlYUw2akJScGs5ejVVbDM1dmRGTzhCbnM4Tk93MU9GUGxnMmYtY3FaUDdJeklLa1JRS2pvQ3htaDNFSFdRdkZUT2E5UEdkNXFRMVM4SzlDbnVJd3lmZk5TaW1Zck5DeUtFZ2lNYS1Ocktpa3cwVVpuckQ0a1hEQUF1MXNPTC1HbVB0cmVuWXFZQVE5a0F1MUl1enZqbm81blRrcWxLU21oeW1FbGh2aG9wZnBfYnlIUQ?oc=5",
     "source": "gnews_futures",
     "published_utc": "2026-09-24T04:32:37+00:00",
-    "score": 8.02,
+    "score": 7.98,
     "duplicates": 0
+   },
+   {
+    "id": "049169d8d1",
+    "title": "Fed again hoping for a pain-free landing from current inflation spike - Reuters",
+    "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQai1uWS0xUEd6VnlJN1ppcHAxNDdCa2dsTmtFTWJxRGticDVkQmJCM0FIVi04VUkxOU5jQVM4d18xVjNDWlJ1djZfa0ZSZkxSXzB1SkJqUVJxanVZci1jTEt3eVMwZWNBSnFpUWNXdHlGeWdITVVILXZwdlZxdnM3SFU3WFNZZzNmMU0yemM4VlNGcUxBajBfQ2tnU1M5UWlxejFfZTZ3?oc=5",
+    "source": "gnews_fed",
+    "published_utc": "2026-09-24T10:24:09+00:00",
+    "score": 7.95,
+    "duplicates": 1
    },
    {
     "id": "e917904872",
@@ -2761,7 +2777,16 @@
     "link": "https://news.google.com/rss/articles/CBMinAJBVV95cUxOcEdYM20wZG82cnozbW9aaXNhaDNOMXItYUdOalBaM2hIS0x6OVotVlVOZWs0ZFNRR2YtV25GM2tRUkJuYmZJVWN4WFB5eWpXLWswams3MW0wc0E1NzNhZWEwUU1OejI0UnhLMnlKc29DbWpKTEk4S1FiZWswN3IzUzM2VWdCY284b0VIVTVwRTBabGQtbGMwbkVVSXE4UWhMWGFrc2h4T2s1SFlUOTBxajFwX1NxTTZ5Y3A5QS1ZdXBiWmNfX3RfQmt2ZGJvd1RmSVJ2cUVaWlBsa2lMOGNldFY1RUt1RXI3MFRQSTJiYjhXU1dhLUgtd2tNcmIzUXk2OXhsckQ2dE04UWo0c1FvSmZzUEdRTDJnQjMwVQ?oc=5",
     "source": "gnews_futures",
     "published_utc": "2026-09-24T03:05:00+00:00",
-    "score": 7.78,
+    "score": 7.74,
+    "duplicates": 0
+   },
+   {
+    "id": "d667d1dab9",
+    "title": "US Stock Futures Decline as Investors Track Middle East and AI - SuaraGarut.ID",
+    "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE5tNkctNU5rZGpSZWh1d3VYUWlyeUZPb3lWYngwNDhaUWEwQXJrYUJYcHdMcGRURWNRSW5EZzFsY1VQaGJMUjNha1BSOUhPQ2NwcTZ1SGI4MzhPN1hPLU40V01RbXotMXpEXzk4THhRMVY0dw?oc=5",
+    "source": "gnews_futures",
+    "published_utc": "2026-09-24T10:34:52+00:00",
+    "score": 7.48,
     "duplicates": 0
    },
    {
@@ -2770,7 +2795,16 @@
     "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQdjZBcmhmWFdVYTN0ZkRWRlo1LWI4VjFoXzdZd3p4MWZDaG1pUzZqMVUyMG8zZ2RIUFh1RlQzVjZwU3pTTFJSOXNuWnBwWWk2TFNRckliRVBRSVpNNFpsN3dlUDgtaW43a1Rqc1BDTlBEOGNiR2FpNzYzaEFseHU1b040MTNBMS1GTUdaaGI2cGwxQk9rSDVQYk5RZUhRa2F6TWtzRnY5cVVfRy1VdFZ4cVdQOA?oc=5",
     "source": "gnews_macro",
     "published_utc": "2026-09-24T10:11:45+00:00",
-    "score": 7.46,
+    "score": 7.42,
+    "duplicates": 0
+   },
+   {
+    "id": "067f3aab14",
+    "title": "Rupee declines to one-week low as oil rally fans global rate hike worries - Reuters",
+    "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQYWxRcGJGem9jUEZ0dXY2NDVGblVTZElHakV4bmVHQXl5SHpyemdjME1vZFlOMldrWk5uWm5ncFI3dHNpdUJpS2FPUHFxTGc3bVFFQjF3bmR2ckdpaU1NUXl6OUNudzlYLWE4ZEVHelRFNk5GdzRRQzV2ZFRlNmJUSGtZSFhTWEFmMmdIdlRTVjlucjVhTEE3STJtdGppemZpM2Vka0RsTE1qbjZJZHlZ?oc=5",
+    "source": "gnews_macro",
+    "published_utc": "2026-09-24T10:09:35+00:00",
+    "score": 7.41,
     "duplicates": 0
    },
    {
@@ -2779,7 +2813,7 @@
     "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOc3YzSmpoMERBVVJzY0FLczRKS0dlX1JyZm9MZzEzaHZVVHRBUldpYjdWemJOSThVRHl4MDA2QkFiTEI3Y20wT3NCbVltRHIxWk5UUFFaSE5Gc09pc3lOaElZQVdqYXh6TTVObW5fNTlYbHRGVlh1anY4Rk1TVFlZWEZjSnJLTTZaemlNVmFGR0xCbU1qcnVjdVdTaw?oc=5",
     "source": "gnews_macro",
     "published_utc": "2026-09-24T09:44:07+00:00",
-    "score": 7.39,
+    "score": 7.34,
     "duplicates": 0
    },
    {
@@ -2788,7 +2822,7 @@
     "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNRzVKRzhWZTU1Vlh0ZVFnUnRpaV9mQ2d0YlBRalJsZ29HVWRhZW9td3RXcEJQdEJpcmk2OGE1WVMzRjd3UkppS3BBalBLVnhheVUzNEd3dzZMYWZfRHJWUXJqdVgzQzYyazMwN05naDdIdmFLY0RmeWJJaVdMaUhJc1pnUDI5eXdvem1hcEZQZk9qZEFvZnlydHVfQnhSSU9QN2FR?oc=5",
     "source": "gnews_fed",
     "published_utc": "2026-09-24T09:39:00+00:00",
-    "score": 7.37,
+    "score": 7.33,
     "duplicates": 0
    },
    {
@@ -2797,39 +2831,21 @@
     "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNQ3ZnSlByRTNzbnFpNVBZbW83WFlWMXN3R2d0cTNBQmItVlRETzEyT3piM0FXRXgwaHgxbzlZdy1GS2VOZlMtQ3BFLWRkQ2dLUmh6TkFrWTdUMzMxNlBSSDUwQkowWVNpMDNmOHUzWTQyMW5rY2xGVE4zT1c2X2VnRjlwbDdKYkRmWnlmMzk4SzBROV9yTU9vY3hUMkNhczJVdXlvWXFrbFVYSy02SjBFT2lDRkQ5cUtocDdn?oc=5",
     "source": "gnews_macro",
     "published_utc": "2026-09-24T09:34:28+00:00",
-    "score": 7.36,
-    "duplicates": 0
-   },
-   {
-    "id": "6c76b5380f",
-    "title": "The market is pricing in too many Fed hikes, says the former Dallas Fed chief",
-    "link": "https://www.marketwatch.com/story/the-market-is-pricing-in-too-many-fed-hikes-says-the-former-dallas-fed-chief-5de8cc3c?mod=mw_rss_topstories",
-    "source": "marketwatch_top",
-    "published_utc": "2026-09-24T08:42:00+00:00",
-    "score": 7.21,
-    "duplicates": 0
-   },
-   {
-    "id": "5f65d4ac9d",
-    "title": "Zambia Inflation Slows Further, Sets Stage for Fourth Rate Cut - Bloomberg.com",
-    "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPbWswTEthQVNuc1hQWGl3S01TQ3JfbUlrY3lSZm9TY01YXzdkWGJ4Rm12RkJyTURwR01lZEhsUEo2QjlKS1VkbUJaQjNrYm5ld01Ubmdxa1VYaG12Q2RjX0lJZmt1bzBNM3REblFZMnBjYTBpc1V1SVM2N2pzaHBjYVF4VFZuY0ZJZGoxYlZlV1JIb2drckpYMmhaUmxibFV0c1VhbnBsWF9HNWh1a0lzY1JR?oc=5",
-    "source": "gnews_macro",
-    "published_utc": "2026-09-24T08:38:03+00:00",
-    "score": 7.2,
+    "score": 7.32,
     "duplicates": 0
    }
   ],
   "summary": {
    "lines": [
-    "Fed officials Williams and Barkin both signaled more rate hikes may be needed to bring down inflation, reinforcing the hawkish tone driving the yield move [e9ea0933ca][378b99d6af][b02eb47792].",
-    "A former Dallas Fed official countered that the bond market may be pricing in too many hikes, a source of two-way headline risk around rate expectations [6c76b5380f].",
-    "The Trump-Xi summit is cited alongside yields as a factor keeping futures on edge, adding a geopolitical variable to today's tape [77d8ef9a00][e917904872][489ce57d91].",
-    "Oil prices rising alongside yields is flagged as a joint drag on stocks, relevant given today's Claims data and 7-Year auction as additional rate catalysts [357c3894dc][489ce57d91]."
+    "Treasury yields surging above 5% alongside hawkish Fed commentary from Williams and Barkin is pressuring Nasdaq and S&P futures, a key rates-sensitive backdrop for the session. [d82f58547c][e9ea0933ca][378b99d6af][b02eb47792]",
+    "Multiple Fed speakers (Williams, Barkin) are signaling more rate hikes may be needed to bring inflation to target, keeping rate-hike risk in focus ahead of today's data. [e9ea0933ca][378b99d6af][b02eb47792][049169d8d1]",
+    "The Trump-Xi summit is cited alongside yields as a factor keeping futures traders on edge, adding a geopolitical/trade headline risk to the session. [77d8ef9a00][e917904872]",
+    "Middle East concerns and an oil rally are also weighing on futures and fanning global rate-hike worries. [489ce57d91][d667d1dab9][067f3aab14]"
    ],
    "backend": "anthropic",
    "model": "claude-sonnet-5",
    "dropped": [
-    "ungrounded number(s) ['500']: Treasury yields surged above 5%, pressuring Nasdaq and S&P 500 futures and keeping index risk sensitive to rate moves into the open [d82f58547c][357c3894dc][489ce57d91]."
+    "no valid citation: Unemployment Claims at 08:30 ET (cons 201K, prior 196K) and the 13:00 ET 7-Year note auction are the session's scheduled catalysts layered on top of this yield-driven tape."
    ],
    "warnings": []
   },
