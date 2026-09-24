@@ -1,11 +1,11 @@
 {
  "meta": {
-  "generated_at_utc": "2026-09-24T12:27:45.110965+00:00",
-  "generated_at_local": "Thu 24 Sep 2026 09:27 ADT",
+  "generated_at_utc": "2026-09-24T12:40:03.755978+00:00",
+  "generated_at_local": "Thu 24 Sep 2026 09:40 ADT",
   "trading_day": "2026-09-24",
   "display_tz": "America/Halifax",
   "version": "0.1.0",
-  "run": "overnight",
+  "run": "post-data",
   "variant": "public"
  },
  "calendar": {
@@ -86,14 +86,14 @@
    }
   ],
   "next_event": {
-   "name": "Unemployment Claims",
+   "name": "7-Year note auction",
    "impact": "medium",
-   "time_utc": "2026-09-24T12:30:00+00:00",
-   "local": "09:30 ADT",
-   "et": "08:30 ET",
-   "in": "2 min",
-   "consensus": "201K",
-   "prior": "196K"
+   "time_utc": "2026-09-24T17:00:00+00:00",
+   "local": "14:00 ADT",
+   "et": "13:00 ET",
+   "in": "4h 19m",
+   "consensus": null,
+   "prior": null
   },
   "sources": [],
   "warnings": []
@@ -102,10 +102,10 @@
   {
    "root": "ES",
    "trading_day": "2026-09-24",
-   "as_of_utc": "2026-09-24T12:27:45.110965+00:00",
+   "as_of_utc": "2026-09-24T12:40:03.755978+00:00",
    "source": "yahoo",
    "delayed": true,
-   "last_price": 7736.75,
+   "last_price": 7734.0,
    "levels": [
     {
      "tag": "exp_hi",
@@ -154,7 +154,7 @@
      "label": "Overnight high",
      "price": 7779.25,
      "group": "overnight",
-     "note": "since 18:00 ET, 848 bars"
+     "note": "since 18:00 ET, 861 bars"
     },
     {
      "tag": "poc",
@@ -194,7 +194,7 @@
     {
      "tag": "onvwap",
      "label": "Overnight VWAP",
-     "price": 7737.79,
+     "price": 7737.69,
      "group": "overnight",
      "note": "typical-price VWAP"
     },
@@ -249,14 +249,14 @@
     }
    ],
    "stats": {
-    "last_bar_utc": "2026-09-24T12:17:00+00:00",
-    "last_bar_age_min": 10.8,
+    "last_bar_utc": "2026-09-24T12:30:00+00:00",
+    "last_bar_age_min": 10.1,
     "market_state": "open",
     "profile_volume": 1285090.0,
     "prior_day": "2026-09-23",
     "prior_day_rth_range": 67.5,
     "overnight_range": 72.0,
-    "gap_vs_prior_close": -37.0,
+    "gap_vs_prior_close": -39.75,
     "gap_basis": "last price (pre-market)",
     "atr14": 82.3,
     "atr_days": 14,
@@ -1460,20 +1460,28 @@
     {
      "t": "2026-09-24T12:15:00+00:00",
      "o": 7733.75,
-     "h": 7737.75,
-     "l": 7733.0,
-     "c": 7736.75,
-     "v": 1449.0
+     "h": 7739.5,
+     "l": 7731.25,
+     "c": 7734.0,
+     "v": 12859.0
+    },
+    {
+     "t": "2026-09-24T12:30:00+00:00",
+     "o": 7733.75,
+     "h": 7735.25,
+     "l": 7731.75,
+     "c": 7734.0,
+     "v": 0.0
     }
    ]
   },
   {
    "root": "NQ",
    "trading_day": "2026-09-24",
-   "as_of_utc": "2026-09-24T12:27:45.110965+00:00",
+   "as_of_utc": "2026-09-24T12:40:03.755978+00:00",
    "source": "yahoo",
    "delayed": true,
-   "last_price": 30493.25,
+   "last_price": 30473.75,
    "levels": [
     {
      "tag": "exp_hi",
@@ -1515,7 +1523,7 @@
      "label": "Overnight high",
      "price": 30813.0,
      "group": "overnight",
-     "note": "since 18:00 ET, 848 bars"
+     "note": "since 18:00 ET, 861 bars"
     },
     {
      "tag": "vah",
@@ -1555,7 +1563,7 @@
     {
      "tag": "onvwap",
      "label": "Overnight VWAP",
-     "price": 30574.54,
+     "price": 30570.99,
      "group": "overnight",
      "note": "typical-price VWAP"
     },
@@ -1617,14 +1625,14 @@
     }
    ],
    "stats": {
-    "last_bar_utc": "2026-09-24T12:17:00+00:00",
-    "last_bar_age_min": 10.8,
+    "last_bar_utc": "2026-09-24T12:30:00+00:00",
+    "last_bar_age_min": 10.1,
     "market_state": "open",
     "profile_volume": 419300.0,
     "prior_day": "2026-09-23",
     "prior_day_rth_range": 370.25,
     "overnight_range": 443.0,
-    "gap_vs_prior_close": -277.25,
+    "gap_vs_prior_close": -296.75,
     "gap_basis": "last price (pre-market)",
     "atr14": 471.52,
     "atr_days": 14,
@@ -2828,10 +2836,18 @@
     {
      "t": "2026-09-24T12:15:00+00:00",
      "o": 30482.0,
-     "h": 30501.0,
-     "l": 30478.25,
-     "c": 30493.25,
-     "v": 370.0
+     "h": 30509.5,
+     "l": 30454.75,
+     "c": 30471.75,
+     "v": 5690.0
+    },
+    {
+     "t": "2026-09-24T12:30:00+00:00",
+     "o": 30473.0,
+     "h": 30482.5,
+     "l": 30465.0,
+     "c": 30473.75,
+     "v": 0.0
     }
    ]
   }
