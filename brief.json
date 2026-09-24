@@ -1,7 +1,7 @@
 {
  "meta": {
-  "generated_at_utc": "2026-09-24T10:55:41.320046+00:00",
-  "generated_at_local": "Thu 24 Sep 2026 07:55 ADT",
+  "generated_at_utc": "2026-09-24T11:11:02.243128+00:00",
+  "generated_at_local": "Thu 24 Sep 2026 08:11 ADT",
   "trading_day": "2026-09-24",
   "display_tz": "America/Halifax",
   "version": "0.1.0",
@@ -91,7 +91,7 @@
    "time_utc": "2026-09-24T12:30:00+00:00",
    "local": "09:30 ADT",
    "et": "08:30 ET",
-   "in": "1h 34m",
+   "in": "1h 18m",
    "consensus": "201K",
    "prior": "196K"
   },
@@ -102,10 +102,10 @@
   {
    "root": "ES",
    "trading_day": "2026-09-24",
-   "as_of_utc": "2026-09-24T10:55:41.320046+00:00",
+   "as_of_utc": "2026-09-24T11:11:02.243128+00:00",
    "source": "yahoo",
    "delayed": true,
-   "last_price": 7730.5,
+   "last_price": 7733.5,
    "levels": [
     {
      "tag": "exp_hi",
@@ -154,7 +154,7 @@
      "label": "Overnight high",
      "price": 7779.25,
      "group": "overnight",
-     "note": "since 18:00 ET, 756 bars"
+     "note": "since 18:00 ET, 772 bars"
     },
     {
      "tag": "poc",
@@ -194,7 +194,7 @@
     {
      "tag": "onvwap",
      "label": "Overnight VWAP",
-     "price": 7739.4,
+     "price": 7739.08,
      "group": "overnight",
      "note": "typical-price VWAP"
     },
@@ -249,14 +249,14 @@
     }
    ],
    "stats": {
-    "last_bar_utc": "2026-09-24T10:45:00+00:00",
-    "last_bar_age_min": 10.7,
+    "last_bar_utc": "2026-09-24T11:01:00+00:00",
+    "last_bar_age_min": 10.0,
     "market_state": "open",
     "profile_volume": 1285090.0,
     "prior_day": "2026-09-23",
     "prior_day_rth_range": 67.5,
     "overnight_range": 72.0,
-    "gap_vs_prior_close": -43.25,
+    "gap_vs_prior_close": -40.25,
     "gap_basis": "last price (pre-market)",
     "atr14": 82.3,
     "atr_days": 14,
@@ -1412,20 +1412,28 @@
     {
      "t": "2026-09-24T10:45:00+00:00",
      "o": 7730.75,
-     "h": 7731.0,
-     "l": 7730.0,
-     "c": 7730.5,
-     "v": 0.0
+     "h": 7737.75,
+     "l": 7728.75,
+     "c": 7733.0,
+     "v": 10154.0
+    },
+    {
+     "t": "2026-09-24T11:00:00+00:00",
+     "o": 7733.0,
+     "h": 7735.5,
+     "l": 7732.25,
+     "c": 7733.5,
+     "v": 1106.0
     }
    ]
   },
   {
    "root": "NQ",
    "trading_day": "2026-09-24",
-   "as_of_utc": "2026-09-24T10:55:41.320046+00:00",
+   "as_of_utc": "2026-09-24T11:11:02.243128+00:00",
    "source": "yahoo",
    "delayed": true,
-   "last_price": 30475.25,
+   "last_price": 30492.0,
    "levels": [
     {
      "tag": "exp_hi",
@@ -1467,7 +1475,7 @@
      "label": "Overnight high",
      "price": 30813.0,
      "group": "overnight",
-     "note": "since 18:00 ET, 756 bars"
+     "note": "since 18:00 ET, 772 bars"
     },
     {
      "tag": "vah",
@@ -1507,7 +1515,7 @@
     {
      "tag": "onvwap",
      "label": "Overnight VWAP",
-     "price": 30592.03,
+     "price": 30588.18,
      "group": "overnight",
      "note": "typical-price VWAP"
     },
@@ -1569,14 +1577,14 @@
     }
    ],
    "stats": {
-    "last_bar_utc": "2026-09-24T10:45:00+00:00",
-    "last_bar_age_min": 10.7,
+    "last_bar_utc": "2026-09-24T11:01:00+00:00",
+    "last_bar_age_min": 10.0,
     "market_state": "open",
     "profile_volume": 419300.0,
     "prior_day": "2026-09-23",
     "prior_day_rth_range": 370.25,
     "overnight_range": 443.0,
-    "gap_vs_prior_close": -295.25,
+    "gap_vs_prior_close": -278.5,
     "gap_basis": "last price (pre-market)",
     "atr14": 471.52,
     "atr_days": 14,
@@ -2732,10 +2740,18 @@
     {
      "t": "2026-09-24T10:45:00+00:00",
      "o": 30478.25,
-     "h": 30478.75,
+     "h": 30523.75,
      "l": 30471.75,
-     "c": 30475.25,
-     "v": 0.0
+     "c": 30488.75,
+     "v": 4233.0
+    },
+    {
+     "t": "2026-09-24T11:00:00+00:00",
+     "o": 30487.75,
+     "h": 30503.75,
+     "l": 30479.0,
+     "c": 30492.0,
+     "v": 420.0
     }
    ]
   }
@@ -2748,7 +2764,7 @@
     "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxOT0R5YTVhYUo2Z2JHSWIxdlp0Q1EzMHBVb2w2S0JCQVlPbkh1U1hlUTRSd1dVSjUwbldQejUtbFFZdExLV0I5cFNLbUYwQ0VZSk9zWW9pa0ZCZ2x1ZUM5SF8zdUVfdlUyWXZXU0xIS2U0RGJCamNVNnBTTVZVRzU3a3h2TWxGTDdBNUlrUDFMSWlWaTV5Ti1DamV0eUoyMXg3VmtKcWxJWS10MnZ6WXkwNGJGY0RwZFUtRmkwOE5Sb1dyWjZQZ2RUYjZpVVA?oc=5",
     "source": "gnews_futures",
     "published_utc": "2026-09-24T10:36:30+00:00",
-    "score": 9.45,
+    "score": 9.4,
     "duplicates": 0
    },
    {
@@ -2757,7 +2773,7 @@
     "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQT2FYY1JZZ2hxTVMyaGlka29EN3NoMFlzS0d1N1JEMXZ3RUVQZDF4cWEweFQwc0pKVlRVTlZlRzdEVHJYaHpGaUtCV0xKcGl2M1k1WjNEWjRUcEgwT0FET3dBQzlPVDBTbDNFTGkxR01iZmFidndsVjFQSGU4VHNzU3VScHlsdWdGcW9GdGt5cjhyZlpIdVE?oc=5",
     "source": "gnews_futures",
     "published_utc": "2026-09-24T08:25:55+00:00",
-    "score": 9.08,
+    "score": 9.04,
     "duplicates": 1
    },
    {
@@ -2775,7 +2791,7 @@
     "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNVEdqRWM4a0F4RzFFbXNqVURoNzRmRTBRUmc5UlBPakNaTEZJSktvLU9nWU9KNGU2aGRWSVVUUG10cWVULWxGdWVMZzRsNXRsekFSYzB3MjlQNEFQNUU1WDFWcE5MdW5oeXBRaU9VbTh2SlRZekVTdkxFY2JVaHJRYXpLcWlPbU80d0FLbmNHb19TaUhHTW95b1ZkanhGVEU3YXJ2aEExTGdPTzlGN2ZwMkw4RVl5Z2F1M2Y1YzVsQ21fYTFtNUt2Xw?oc=5",
     "source": "gnews_futures",
     "published_utc": "2026-09-24T10:37:08+00:00",
-    "score": 8.45,
+    "score": 8.41,
     "duplicates": 0
    },
    {
@@ -2784,8 +2800,17 @@
     "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQV0s2SFpiMVNST19kb1JkeFZraXlVX3hBMWtSQ2U1XzVBelNESkUtUjdIb2t5QjBRVGo0ZE9qeGMzdjZTbkdYWjAzSjBzQnVYMlpJV1VZUUo1d2tKVGtIRjQ2bm8wVkFOVnJsclY3cHpkQy1QQTZfQ2VwZ0pZanlFVmRMS3lxbmJxb3pQZS1kdGlUSldVei1wT1Z2a2h0ZGFXb05XYmsyNmZaVElUcEU1ZnY0MWM?oc=5",
     "source": "gnews_fed",
     "published_utc": "2026-09-24T09:38:31+00:00",
-    "score": 8.29,
+    "score": 8.24,
     "duplicates": 2
+   },
+   {
+    "id": "81983f3737",
+    "title": "Fed again hoping for a pain-free landing from current inflation spike By Reuters - Investing.com",
+    "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNalB0QXlwaE5Uc0VHWDFDS2l6SUtvWjdjdWxYVFp0cEtqRkxMZkw2VlAxRWVYY180NUVjZkNuSGdBQnFBM3RoWGlMMlEyNGhxaGRTdENnSnM1TGxqWVVtMmpEV29XQzFfREpOSkxyX0Q3OHdLalZSVHB0ZzVUR0kzUFNCZnVHbjVXYjF5NkN1UXFUQUEtRHhkSXNQcnJYS3dmOHRzZmFJMW12bVdMamxtRldObmhNYXNkcm14UQ?oc=5",
+    "source": "gnews_macro",
+    "published_utc": "2026-09-24T10:58:58+00:00",
+    "score": 7.97,
+    "duplicates": 1
    },
    {
     "id": "489ce57d91",
@@ -2793,17 +2818,8 @@
     "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNa2h5S3V3MHFDaUV6b1FoYVVsQ2xwUWxlYUw2akJScGs5ejVVbDM1dmRGTzhCbnM4Tk93MU9GUGxnMmYtY3FaUDdJeklLa1JRS2pvQ3htaDNFSFdRdkZUT2E5UEdkNXFRMVM4SzlDbnVJd3lmZk5TaW1Zck5DeUtFZ2lNYS1Ocktpa3cwVVpuckQ0a1hEQUF1MXNPTC1HbVB0cmVuWXFZQVE5a0F1MUl1enZqbm81blRrcWxLU21oeW1FbGh2aG9wZnBfYnlIUQ?oc=5",
     "source": "gnews_futures",
     "published_utc": "2026-09-24T04:32:37+00:00",
-    "score": 7.94,
+    "score": 7.89,
     "duplicates": 0
-   },
-   {
-    "id": "049169d8d1",
-    "title": "Fed again hoping for a pain-free landing from current inflation spike - Reuters",
-    "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQai1uWS0xUEd6VnlJN1ppcHAxNDdCa2dsTmtFTWJxRGticDVkQmJCM0FIVi04VUkxOU5jQVM4d18xVjNDWlJ1djZfa0ZSZkxSXzB1SkJqUVJxanVZci1jTEt3eVMwZWNBSnFpUWNXdHlGeWdITVVILXZwdlZxdnM3SFU3WFNZZzNmMU0yemM4VlNGcUxBajBfQ2tnU1M5UWlxejFfZTZ3?oc=5",
-    "source": "gnews_fed",
-    "published_utc": "2026-09-24T10:24:09+00:00",
-    "score": 7.91,
-    "duplicates": 1
    },
    {
     "id": "e917904872",
@@ -2811,7 +2827,7 @@
     "link": "https://news.google.com/rss/articles/CBMinAJBVV95cUxOcEdYM20wZG82cnozbW9aaXNhaDNOMXItYUdOalBaM2hIS0x6OVotVlVOZWs0ZFNRR2YtV25GM2tRUkJuYmZJVWN4WFB5eWpXLWswams3MW0wc0E1NzNhZWEwUU1OejI0UnhLMnlKc29DbWpKTEk4S1FiZWswN3IzUzM2VWdCY284b0VIVTVwRTBabGQtbGMwbkVVSXE4UWhMWGFrc2h4T2s1SFlUOTBxajFwX1NxTTZ5Y3A5QS1ZdXBiWmNfX3RfQmt2ZGJvd1RmSVJ2cUVaWlBsa2lMOGNldFY1RUt1RXI3MFRQSTJiYjhXU1dhLUgtd2tNcmIzUXk2OXhsckQ2dE04UWo0c1FvSmZzUEdRTDJnQjMwVQ?oc=5",
     "source": "gnews_futures",
     "published_utc": "2026-09-24T03:05:00+00:00",
-    "score": 7.69,
+    "score": 7.65,
     "duplicates": 0
    },
    {
@@ -2820,7 +2836,7 @@
     "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE5tNkctNU5rZGpSZWh1d3VYUWlyeUZPb3lWYngwNDhaUWEwQXJrYUJYcHdMcGRURWNRSW5EZzFsY1VQaGJMUjNha1BSOUhPQ2NwcTZ1SGI4MzhPN1hPLU40V01RbXotMXpEXzk4THhRMVY0dw?oc=5",
     "source": "gnews_futures",
     "published_utc": "2026-09-24T10:34:52+00:00",
-    "score": 7.44,
+    "score": 7.4,
     "duplicates": 0
    },
    {
@@ -2829,7 +2845,7 @@
     "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQdjZBcmhmWFdVYTN0ZkRWRlo1LWI4VjFoXzdZd3p4MWZDaG1pUzZqMVUyMG8zZ2RIUFh1RlQzVjZwU3pTTFJSOXNuWnBwWWk2TFNRckliRVBRSVpNNFpsN3dlUDgtaW43a1Rqc1BDTlBEOGNiR2FpNzYzaEFseHU1b040MTNBMS1GTUdaaGI2cGwxQk9rSDVQYk5RZUhRa2F6TWtzRnY5cVVfRy1VdFZ4cVdQOA?oc=5",
     "source": "gnews_macro",
     "published_utc": "2026-09-24T10:11:45+00:00",
-    "score": 7.38,
+    "score": 7.34,
     "duplicates": 0
    },
    {
@@ -2838,7 +2854,7 @@
     "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQYWxRcGJGem9jUEZ0dXY2NDVGblVTZElHakV4bmVHQXl5SHpyemdjME1vZFlOMldrWk5uWm5ncFI3dHNpdUJpS2FPUHFxTGc3bVFFQjF3bmR2ckdpaU1NUXl6OUNudzlYLWE4ZEVHelRFNk5GdzRRQzV2ZFRlNmJUSGtZSFhTWEFmMmdIdlRTVjlucjVhTEE3STJtdGppemZpM2Vka0RsTE1qbjZJZHlZ?oc=5",
     "source": "gnews_macro",
     "published_utc": "2026-09-24T10:09:35+00:00",
-    "score": 7.37,
+    "score": 7.33,
     "duplicates": 0
    },
    {
@@ -2847,22 +2863,21 @@
     "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOc3YzSmpoMERBVVJzY0FLczRKS0dlX1JyZm9MZzEzaHZVVHRBUldpYjdWemJOSThVRHl4MDA2QkFiTEI3Y20wT3NCbVltRHIxWk5UUFFaSE5Gc09pc3lOaElZQVdqYXh6TTVObW5fNTlYbHRGVlh1anY4Rk1TVFlZWEZjSnJLTTZaemlNVmFGR0xCbU1qcnVjdVdTaw?oc=5",
     "source": "gnews_macro",
     "published_utc": "2026-09-24T09:44:07+00:00",
-    "score": 7.3,
+    "score": 7.26,
     "duplicates": 0
    }
   ],
   "summary": {
    "lines": [
-    "Treasury yields surged above 5%, pressuring Nasdaq and S&P futures and deepening the chip-sector selloff into the cash open [d82f58547c][9e48c84aa2][77d8ef9a00][1bda07638d].",
-    "The Trump-Xi summit remains a headline risk keeping futures on edge alongside the yield move [9e48c84aa2][77d8ef9a00][1bda07638d][e917904872].",
-    "Fed speak stayed hawkish-leaning, with Williams saying more work is needed on inflation and other officials still eyeing a \"pain-free\" landing, reinforcing the higher-for-longer rate narrative ahead of today's claims data and 7-Year auction [e9ea0933ca][049169d8d1].",
-    "Middle East tensions and an oil rally are cited as added macro headwinds for futures and global rate expectations [489ce57d91][d667d1dab9][067f3aab14]."
+    "Bond yields surged above 5%, pressuring Nasdaq and S&P futures and deepening the chip selloff, keeping rate-sensitive tech and index futures volatile into the open [d82f58547c][9e48c84aa2][1bda07638d].",
+    "The Trump-Xi summit remains a headline focus alongside the yield move, adding event risk for futures direction around the meeting [9e48c84aa2][77d8ef9a00][e917904872].",
+    "Fed officials Williams reiterated more work is needed on inflation, while Reuters coverage notes the Fed is still hoping for a pain-free landing, keeping rate-path uncertainty in play ahead of the 08:30 ET Claims data [e9ea0933ca][81983f3737].",
+    "Middle East tensions and an oil rally are cited alongside inflation and rate-hike worries, a cross-asset factor traders are watching alongside the bond selloff [489ce57d91][d667d1dab9][067f3aab14].",
+    "BofA now sees an ECB December rate hike on energy-driven inflation, adding to the global rate-hike backdrop feeding into the yield-driven selloff [11d60c41d0]."
    ],
    "backend": "anthropic",
    "model": "claude-sonnet-5",
-   "dropped": [
-    "no valid citation: Broader global inflation"
-   ],
+   "dropped": [],
    "warnings": []
   },
   "feeds": [],
