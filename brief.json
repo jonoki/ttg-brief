@@ -1,11 +1,11 @@
 {
  "meta": {
-  "generated_at_utc": "2026-09-24T13:25:56.936527+00:00",
-  "generated_at_local": "Thu 24 Sep 2026 10:25 ADT",
+  "generated_at_utc": "2026-09-24T13:41:20.095470+00:00",
+  "generated_at_local": "Thu 24 Sep 2026 10:41 ADT",
   "trading_day": "2026-09-24",
   "display_tz": "America/Halifax",
   "version": "0.1.0",
-  "run": "post-data",
+  "run": "intraday",
   "variant": "public"
  },
  "calendar": {
@@ -91,7 +91,7 @@
    "time_utc": "2026-09-24T17:00:00+00:00",
    "local": "14:00 ADT",
    "et": "13:00 ET",
-   "in": "3h 34m",
+   "in": "3h 18m",
    "consensus": null,
    "prior": null
   },
@@ -102,10 +102,10 @@
   {
    "root": "ES",
    "trading_day": "2026-09-24",
-   "as_of_utc": "2026-09-24T13:25:56.936527+00:00",
+   "as_of_utc": "2026-09-24T13:41:20.095470+00:00",
    "source": "yahoo",
    "delayed": true,
-   "last_price": 7737.75,
+   "last_price": 7732.5,
    "levels": [
     {
      "tag": "exp_hi",
@@ -154,7 +154,7 @@
      "label": "Overnight high",
      "price": 7779.25,
      "group": "overnight",
-     "note": "since 18:00 ET, 906 bars"
+     "note": "since 18:00 ET, 920 bars"
     },
     {
      "tag": "poc",
@@ -192,11 +192,32 @@
      "note": ""
     },
     {
+     "tag": "tdh",
+     "label": "Today's RTH high",
+     "price": 7738.0,
+     "group": "today",
+     "note": "so far"
+    },
+    {
      "tag": "onvwap",
      "label": "Overnight VWAP",
-     "price": 7737.28,
+     "price": 7737.31,
      "group": "overnight",
      "note": "typical-price VWAP"
+    },
+    {
+     "tag": "rtho",
+     "label": "Today's RTH open",
+     "price": 7734.0,
+     "group": "today",
+     "note": "09:30 bar open"
+    },
+    {
+     "tag": "tdl",
+     "label": "Today's RTH low",
+     "price": 7730.0,
+     "group": "today",
+     "note": ""
     },
     {
      "tag": "pwh",
@@ -249,15 +270,15 @@
     }
    ],
    "stats": {
-    "last_bar_utc": "2026-09-24T13:15:00+00:00",
-    "last_bar_age_min": 10.9,
+    "last_bar_utc": "2026-09-24T13:31:00+00:00",
+    "last_bar_age_min": 10.3,
     "market_state": "open",
     "profile_volume": 1285090.0,
     "prior_day": "2026-09-23",
     "prior_day_rth_range": 67.5,
     "overnight_range": 72.0,
-    "gap_vs_prior_close": -36.0,
-    "gap_basis": "last price (pre-market)",
+    "gap_vs_prior_close": -39.75,
+    "gap_basis": "RTH open",
     "atr14": 82.3,
     "atr_days": 14,
     "avg_daily_range": 77.4,
@@ -1492,20 +1513,28 @@
     {
      "t": "2026-09-24T13:15:00+00:00",
      "o": 7737.75,
-     "h": 7738.75,
-     "l": 7737.25,
-     "c": 7737.75,
-     "v": 0.0
+     "h": 7741.5,
+     "l": 7734.0,
+     "c": 7734.0,
+     "v": 14991.0
+    },
+    {
+     "t": "2026-09-24T13:30:00+00:00",
+     "o": 7734.0,
+     "h": 7738.0,
+     "l": 7730.0,
+     "c": 7732.5,
+     "v": 12281.0
     }
    ]
   },
   {
    "root": "NQ",
    "trading_day": "2026-09-24",
-   "as_of_utc": "2026-09-24T13:25:56.936527+00:00",
+   "as_of_utc": "2026-09-24T13:41:20.095470+00:00",
    "source": "yahoo",
    "delayed": true,
-   "last_price": 30504.25,
+   "last_price": 30505.0,
    "levels": [
     {
      "tag": "exp_hi",
@@ -1547,7 +1576,7 @@
      "label": "Overnight high",
      "price": 30813.0,
      "group": "overnight",
-     "note": "since 18:00 ET, 906 bars"
+     "note": "since 18:00 ET, 920 bars"
     },
     {
      "tag": "vah",
@@ -1594,7 +1623,7 @@
     {
      "tag": "onvwap",
      "label": "Overnight VWAP",
-     "price": 30561.31,
+     "price": 30559.59,
      "group": "overnight",
      "note": "typical-price VWAP"
     },
@@ -1606,10 +1635,31 @@
      "note": ""
     },
     {
+     "tag": "tdh",
+     "label": "Today's RTH high",
+     "price": 30532.5,
+     "group": "today",
+     "note": "so far"
+    },
+    {
+     "tag": "rtho",
+     "label": "Today's RTH open",
+     "price": 30519.0,
+     "group": "today",
+     "note": "09:30 bar open"
+    },
+    {
      "tag": "rn_major_dn",
      "label": "Round 100 below",
      "price": 30500.0,
      "group": "round",
+     "note": ""
+    },
+    {
+     "tag": "tdl",
+     "label": "Today's RTH low",
+     "price": 30493.25,
+     "group": "today",
      "note": ""
     },
     {
@@ -1649,15 +1699,15 @@
     }
    ],
    "stats": {
-    "last_bar_utc": "2026-09-24T13:15:00+00:00",
-    "last_bar_age_min": 10.9,
+    "last_bar_utc": "2026-09-24T13:31:00+00:00",
+    "last_bar_age_min": 10.3,
     "market_state": "open",
     "profile_volume": 419300.0,
     "prior_day": "2026-09-23",
     "prior_day_rth_range": 370.25,
     "overnight_range": 443.0,
-    "gap_vs_prior_close": -266.25,
-    "gap_basis": "last price (pre-market)",
+    "gap_vs_prior_close": -251.5,
+    "gap_basis": "RTH open",
     "atr14": 471.52,
     "atr_days": 14,
     "avg_daily_range": 434.18,
@@ -2892,10 +2942,18 @@
     {
      "t": "2026-09-24T13:15:00+00:00",
      "o": 30509.5,
-     "h": 30512.25,
-     "l": 30504.0,
-     "c": 30504.25,
-     "v": 0.0
+     "h": 30526.5,
+     "l": 30499.5,
+     "c": 30519.25,
+     "v": 5810.0
+    },
+    {
+     "t": "2026-09-24T13:30:00+00:00",
+     "o": 30519.0,
+     "h": 30532.5,
+     "l": 30493.25,
+     "c": 30505.0,
+     "v": 6695.0
     }
    ]
   }
@@ -2908,7 +2966,7 @@
     "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPbEZNM09ad3VEQ3VxUnVfdHRpYmlkZDlWMHFpdlZtcjZpV1B5M0RRNnJxVkxGQ01ybHVoZEw2QVNva3RzelFRNllOQ1lod002TklRMjZVd0dFZGZrNVJ6NHlNZWk4X3hKME56RkY4V2M5V3Y4TkpaNjFHSlhKTTdjRThBenNMUk9mQTlOeFVDVFE0UnFtNFVWRkhKa1h1dWdPNHFTTUlxX2xMcFND?oc=5",
     "source": "gnews_macro",
     "published_utc": "2026-09-24T10:51:47+00:00",
-    "score": 9.57,
+    "score": 9.53,
     "duplicates": 0
    },
    {
@@ -2917,7 +2975,7 @@
     "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxOT0R5YTVhYUo2Z2JHSWIxdlp0Q1EzMHBVb2w2S0JCQVlPbkh1U1hlUTRSd1dVSjUwbldQejUtbFFZdExLV0I5cFNLbUYwQ0VZSk9zWW9pa0ZCZ2x1ZUM5SF8zdUVfdlUyWXZXU0xIS2U0RGJCamNVNnBTTVZVRzU3a3h2TWxGTDdBNUlrUDFMSWlWaTV5Ti1DamV0eUoyMXg3VmtKcWxJWS10MnZ6WXkwNGJGY0RwZFUtRmkwOE5Sb1dyWjZQZ2RUYjZpVVA?oc=5",
     "source": "gnews_futures",
     "published_utc": "2026-09-24T10:36:30+00:00",
-    "score": 9.03,
+    "score": 8.99,
     "duplicates": 0
    },
    {
@@ -2926,16 +2984,16 @@
     "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQMlZpMGFZbnA2RlZoLUZKekplM1RyZ0pabm00eWhrb21qbDNxV1ZpdHQ2aFA3M1hkdVI4d1ZiUmhVdUJwNGZnakxTVUVYVzAwekdLQkFsYXZjeWdGRWVlY2pSYWRJRUtlWkN6YUpiSDZTSXlqLVg4R1NBUEtCdHlzRlRaN0lPS1JoMWY2YnN2bzFHYXFZWUN6OVdkdGVzNTE3dG9ZUDZOUnlEVVo4Vmpwc2dsQ1J1ZUJNMVdBX0EwMG9UdWhMM2c?oc=5",
     "source": "gnews_macro",
     "published_utc": "2026-09-24T12:04:00+00:00",
-    "score": 8.77,
+    "score": 8.73,
     "duplicates": 0
    },
    {
     "id": "77d8ef9a00",
-    "title": "Nasdaq, S&P 500 Futures Slide As Treasury Yields, Trump-Xi Summit Keep Traders On Edge: META, GOOGL, SPCX, VKTX, SNAP, MCD, BB Stocks In Focus - finance.yahoo.com",
+    "title": "Nasdaq, S&P 500 Futures Slide As Treasury Yields, Trump-Xi Summit Keep Traders On Edge: META, GOOGL, SPCX, VKTX, SNAP, MCD, BB Stocks In Focus - Yahoo Finance",
     "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQT2FYY1JZZ2hxTVMyaGlka29EN3NoMFlzS0d1N1JEMXZ3RUVQZDF4cWEweFQwc0pKVlRVTlZlRzdEVHJYaHpGaUtCV0xKcGl2M1k1WjNEWjRUcEgwT0FET3dBQzlPVDBTbDNFTGkxR01iZmFidndsVjFQSGU4VHNzU3VScHlsdWdGcW9GdGt5cjhyZlpIdVE?oc=5",
     "source": "gnews_futures",
     "published_utc": "2026-09-24T08:25:55+00:00",
-    "score": 8.67,
+    "score": 8.62,
     "duplicates": 1
    },
    {
@@ -2953,7 +3011,7 @@
     "link": "https://www.cnbc.com/2026/09/24/citi-family-offices-inflation-investing.html",
     "source": "cnbc_markets",
     "published_utc": "2026-09-24T12:30:01+00:00",
-    "score": 8.34,
+    "score": 8.3,
     "duplicates": 1
    },
    {
@@ -2962,8 +3020,17 @@
     "link": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxNMU5UdVR2eUhlV2sydG8zZ3kyeWdMYlRieTZtUWFiakVUSDNTNnpRTVJ5ekZhZGlZOTN6V3R4ZFlvRUpzNUN6Um5oVjRXMW9OOEZBR2wyUHlqaEtVa1pydFVsYVBlUDY5YzNVMy1EMHNCRmF3UFROek1lYW40NnFmUzJZeWhMNW02UC1PNGlCQ0stRW1iSko2TnhhUlV1QTNKVjExM2xwUDVYMWEyZ2l4UzdnTkF4cG05b09NaV85aEpxVmNLanMtNGZ3VXU5UTFoYnJsdF9B0gHbAUFVX3lxTFA0ZnFSN2FGX1llTFQ5a0FPWWh5ZGxIaDRUU3hiUElWNEpkSF8xNWFUWExub1c4eTRrU1FpY2hOTGFDV1RCRE9faklJU3FlQmxRaTdsWkl4RHRtTXdVTHpzeXYxamVBNnp5cV9fNWN6b2tRbDdmSUxIeVpEbHJsS0NGdHFNV1NGX3dha0hqZUhDblA5T0Z2NUJaVEl4NzlCUG5RQ2VxQnh6RzhYdkdVa3E1cF94UmY2cUp1NjYzZ1RxQU0yZkktZU5mMk9PSEt5cjg0V0JheTNaeWMtNA?oc=5",
     "source": "gnews_futures",
     "published_utc": "2026-09-24T11:17:43+00:00",
-    "score": 8.14,
+    "score": 8.1,
     "duplicates": 0
+   },
+   {
+    "id": "3ac2d87bcd",
+    "title": "Fed's Hammack warns inflation pressures remain tilted to upside - Reuters",
+    "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNYlVqSjJvQ2s1ODRSZU9yeU5qZ0t1VkVhYjVtVjVoWmxSR29mWTVybXRPUzhBcFBib1lKOVZuUXpyaWxGanlzRUJObEVmd1E2OGZpTE85RXRXMHNQa05HZU1xSEc0QzRSZnNRTjd0T09rZFkwMjktcHpCWC11ZDQ3OEJud29VejF4SzQ1Q1ltdXpOUjgxRnJjeHlSM3NBdVZYYkRMTW9jRlhWUQ?oc=5",
+    "source": "gnews_macro",
+    "published_utc": "2026-09-24T13:22:02+00:00",
+    "score": 7.95,
+    "duplicates": 1
    },
    {
     "id": "e9ea0933ca",
@@ -2971,7 +3038,7 @@
     "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQV0s2SFpiMVNST19kb1JkeFZraXlVX3hBMWtSQ2U1XzVBelNESkUtUjdIb2t5QjBRVGo0ZE9qeGMzdjZTbkdYWjAzSjBzQnVYMlpJV1VZUUo1d2tKVGtIRjQ2bm8wVkFOVnJsclY3cHpkQy1QQTZfQ2VwZ0pZanlFVmRMS3lxbmJxb3pQZS1kdGlUSldVei1wT1Z2a2h0ZGFXb05XYmsyNmZaVElUcEU1ZnY0MWM?oc=5",
     "source": "gnews_fed",
     "published_utc": "2026-09-24T10:03:50+00:00",
-    "score": 7.94,
+    "score": 7.9,
     "duplicates": 2
    },
    {
@@ -2980,7 +3047,16 @@
     "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOd3ZMbU5FQ0R4c05IN01wbUpvamhqLXVkR1djVk1WSzB0OFd4bHFsc2x0U2FWT2h6RHVWdTJPczh0bVRYYVZiUk5Lb3ROV3RGVElnWkM4aHUwQ2JHbWNPQVZvRjliY1c4bm1hUnlibzhUMFltX2lyQ3owYW0wQnp3aXdwLV9TRFdhcFM5cVBaR2FjMVdoeWhQdEpWb0tZS2FBTUVSU0FrbEpDQQ?oc=5",
     "source": "gnews_futures",
     "published_utc": "2026-09-24T11:45:04+00:00",
-    "score": 7.72,
+    "score": 7.68,
+    "duplicates": 0
+   },
+   {
+    "id": "b694114eb5",
+    "title": "Nvidia leads tech stocks lower as Treasury yields surge: AlphaCheck - Yahoo Finance Singapore",
+    "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPa2QzZWptN1YzV3NtZ2RjQTYwcmVoOXRBeVpqb28yZ3cyX3Vhc3hvV2l2TDE3bkxlRTBMLWEyZWgzTS13RVJ0RkpRazFZWVNQXzlXQUVkakNMMW1pMkFYS0k4dHg4akUzX3NYMllLVExwaUk4V0ptZlh2TEF0eXM0VVhkX0Y3VjdpY0FfRmd3SC1GZVl4MVd3RHdjNDEwSkdQcGEzWmVZRWlOSEpNaGRFNnlRRXJWZw?oc=5",
+    "source": "gnews_macro",
+    "published_utc": "2026-09-24T13:37:44+00:00",
+    "score": 7.49,
     "duplicates": 0
    },
    {
@@ -2989,44 +3065,23 @@
     "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQai1uWS0xUEd6VnlJN1ppcHAxNDdCa2dsTmtFTWJxRGticDVkQmJCM0FIVi04VUkxOU5jQVM4d18xVjNDWlJ1djZfa0ZSZkxSXzB1SkJqUVJxanVZci1jTEt3eVMwZWNBSnFpUWNXdHlGeWdITVVILXZwdlZxdnM3SFU3WFNZZzNmMU0yemM4VlNGcUxBajBfQ2tnU1M5UWlxejFfZTZ3?oc=5",
     "source": "gnews_fed",
     "published_utc": "2026-09-24T10:36:10+00:00",
-    "score": 7.53,
+    "score": 7.49,
     "duplicates": 1
-   },
-   {
-    "id": "489ce57d91",
-    "title": "EMEA Morning Briefing : Stock Futures Fall as Inflation, Middle East Concerns Weigh - marketscreener.com",
-    "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNa2h5S3V3MHFDaUV6b1FoYVVsQ2xwUWxlYUw2akJScGs5ejVVbDM1dmRGTzhCbnM4Tk93MU9GUGxnMmYtY3FaUDdJeklLa1JRS2pvQ3htaDNFSFdRdkZUT2E5UEdkNXFRMVM4SzlDbnVJd3lmZk5TaW1Zck5DeUtFZ2lNYS1Ocktpa3cwVVpuckQ0a1hEQUF1MXNPTC1HbVB0cmVuWXFZQVE5a0F1MUl1enZqbm81blRrcWxLU21oeW1FbGh2aG9wZnBfYnlIUQ?oc=5",
-    "source": "gnews_futures",
-    "published_utc": "2026-09-24T04:32:37+00:00",
-    "score": 7.52,
-    "duplicates": 0
-   },
-   {
-    "id": "123e34d0b7",
-    "title": "Inflation risks are tilted to the upside, says Cleveland Fed's Hammack - TradingView",
-    "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxOVmtXQ3JmeWVxdms0dGNCdk1yUUFtd0JzQnkzRGg1NE1TLUdRR000WG9PNEtQa050TjdpSUQxU29COTkybVdzSFE2Z1ZBYXR5NVpzMUltOTNtODk1STg0VHlnbzAzb1RSWTdhZjVyeE13YWozbzRVbElLNWtQYjFuX1RmV2l4V25BWFZzeFVHdmNGR1ZQckdvdm4tRlJDd05Xd3hCR041aTNjT2ZRLTRjLTBaWnJnZ3RzNmxmczZrNGhsQ3FDVlhhbTV4T24?oc=5",
-    "source": "gnews_macro",
-    "published_utc": "2026-09-24T13:16:47+00:00",
-    "score": 7.47,
-    "duplicates": 0
    }
   ],
   "summary": {
    "lines": [
-    "Stock Market Today (Sept. 24, 2026): Dow futures sinks as Treasury yields surge, inflation fears rise - thestreet.com [9bbc8fd7cc]",
-    "Nasdaq Futures Plunge as Rising Bond Yields Deepen Chip Selloff, Trump-Xi Summit in Focus - Barchart.com [9e48c84aa2]",
-    "Dow Jones Futures Fall As Treasury Yields, Oil Prices Keep Rising. Meta, Everpure, Grail Are Early Movers. - Investor's Business Daily [1c5d940f36]",
-    "Nasdaq, S&P 500 Futures Slide As Treasury Yields, Trump-Xi Summit Keep Traders On Edge: META, GOOGL, SPCX, VKTX, SNAP, MCD, BB Stocks In Focus - finance.yahoo.com [77d8ef9a00]",
-    "Bond yields surge above 5% as Wall Street fears more Fed rate hikes - MarketWatch [d82f58547c]"
+    "Treasury yields surged above 5% and are cited as the main driver pressuring Nasdaq and S&P futures, with chip names leading declines. [d82f58547c][9e48c84aa2][b694114eb5][1c5d940f36][b0715ebfa2]",
+    "Multiple Fed speakers (Hammack, Williams) flagged inflation pressures still tilted to the upside, reinforcing the rate-hike repricing behind the yield move. [3ac2d87bcd][e9ea0933ca][049169d8d1]",
+    "The Trump-Xi summit is being watched alongside the yield/rate story as a second driver of futures weakness. [9e48c84aa2][77d8ef9a00][2036a7ae0a]",
+    "Oil prices rising alongside yields is cited as an additional headwind for futures. [1c5d940f36][b0715ebfa2]"
    ],
    "backend": "anthropic",
    "model": "claude-sonnet-5",
    "dropped": [
-    "ungrounded number(s) ['2']: Treasury yields surging above 5% are cited as the primary driver of Dow, S&P 500 and Nasdaq futures declines, with chip stocks noted as most affected, ahead of today's jobless claims and 7-year auction. [d82f58547c][9bbc8fd7cc][9e48c84aa2][1c5d940f36][77d8ef9a00][2"
+    "no valid citation: 08:30 ET Unemployment Claims (cons 201K, prior 196K) and the 13:00 ET 7-Year note auction are the day's scheduled catalysts that could move yields further intraday."
    ],
-   "warnings": [
-    "summariser produced no valid lines; showing digest"
-   ]
+   "warnings": []
   },
   "feeds": [],
   "warnings": []
