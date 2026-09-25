@@ -1,7 +1,7 @@
 {
  "meta": {
-  "generated_at_utc": "2026-09-25T13:59:51.389845+00:00",
-  "generated_at_local": "Fri 25 Sep 2026 10:59 ADT",
+  "generated_at_utc": "2026-09-25T14:10:04.785573+00:00",
+  "generated_at_local": "Fri 25 Sep 2026 11:10 ADT",
   "trading_day": "2026-09-25",
   "display_tz": "America/Halifax",
   "version": "0.1.0",
@@ -49,16 +49,7 @@
     "source_url": null
    }
   ],
-  "next_event": {
-   "name": "Revised UoM Consumer Sentiment",
-   "impact": "medium",
-   "time_utc": "2026-09-25T14:00:00+00:00",
-   "local": "11:00 ADT",
-   "et": "10:00 ET",
-   "in": "0 min",
-   "consensus": "47.4",
-   "prior": "47.8"
-  },
+  "next_event": null,
   "sources": [],
   "warnings": []
  },
@@ -66,10 +57,10 @@
   {
    "root": "ES",
    "trading_day": "2026-09-25",
-   "as_of_utc": "2026-09-25T13:59:51.389845+00:00",
+   "as_of_utc": "2026-09-25T14:10:04.785573+00:00",
    "source": "yahoo",
    "delayed": true,
-   "last_price": 7784.75,
+   "last_price": 7787.0,
    "levels": [
     {
      "tag": "wh",
@@ -102,7 +93,7 @@
     {
      "tag": "tdh",
      "label": "Today's RTH high",
-     "price": 7790.75,
+     "price": 7793.75,
      "group": "today",
      "note": "so far"
     },
@@ -220,8 +211,8 @@
     }
    ],
    "stats": {
-    "last_bar_utc": "2026-09-25T13:49:00+00:00",
-    "last_bar_age_min": 10.9,
+    "last_bar_utc": "2026-09-25T14:00:00+00:00",
+    "last_bar_age_min": 10.1,
     "market_state": "open",
     "profile_volume": 1318025.0,
     "prior_day": "2026-09-24",
@@ -1479,20 +1470,28 @@
     {
      "t": "2026-09-25T13:45:00+00:00",
      "o": 7785.25,
-     "h": 7787.0,
+     "h": 7793.75,
      "l": 7780.0,
-     "c": 7784.75,
-     "v": 16745.0
+     "c": 7787.5,
+     "v": 57030.0
+    },
+    {
+     "t": "2026-09-25T14:00:00+00:00",
+     "o": 7787.5,
+     "h": 7788.25,
+     "l": 7781.5,
+     "c": 7787.0,
+     "v": 0.0
     }
    ]
   },
   {
    "root": "NQ",
    "trading_day": "2026-09-25",
-   "as_of_utc": "2026-09-25T13:59:51.389845+00:00",
+   "as_of_utc": "2026-09-25T14:10:04.785573+00:00",
    "source": "yahoo",
    "delayed": true,
-   "last_price": 30874.5,
+   "last_price": 30892.0,
    "levels": [
     {
      "tag": "exp_hi",
@@ -1516,18 +1515,18 @@
      "note": "since 18:00 ET, 920 bars"
     },
     {
+     "tag": "tdh",
+     "label": "Today's RTH high",
+     "price": 30926.5,
+     "group": "today",
+     "note": "so far"
+    },
+    {
      "tag": "rn_major_up",
      "label": "Round 100 above",
      "price": 30900.0,
      "group": "round",
      "note": ""
-    },
-    {
-     "tag": "tdh",
-     "label": "Today's RTH high",
-     "price": 30890.0,
-     "group": "today",
-     "note": "so far"
     },
     {
      "tag": "onvwap",
@@ -1643,8 +1642,8 @@
     }
    ],
    "stats": {
-    "last_bar_utc": "2026-09-25T13:49:00+00:00",
-    "last_bar_age_min": 10.9,
+    "last_bar_utc": "2026-09-25T14:00:00+00:00",
+    "last_bar_age_min": 10.1,
     "market_state": "open",
     "profile_volume": 482001.0,
     "prior_day": "2026-09-24",
@@ -2902,10 +2901,18 @@
     {
      "t": "2026-09-25T13:45:00+00:00",
      "o": 30877.0,
-     "h": 30888.75,
+     "h": 30926.5,
      "l": 30847.5,
-     "c": 30874.5,
-     "v": 7612.0
+     "c": 30900.0,
+     "v": 23604.0
+    },
+    {
+     "t": "2026-09-25T14:00:00+00:00",
+     "o": 30900.25,
+     "h": 30905.0,
+     "l": 30866.5,
+     "c": 30892.0,
+     "v": 0.0
     }
    ]
   }
