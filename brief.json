@@ -1,7 +1,7 @@
 {
  "meta": {
-  "generated_at_utc": "2026-09-25T15:41:59.504344+00:00",
-  "generated_at_local": "Fri 25 Sep 2026 12:41 ADT",
+  "generated_at_utc": "2026-09-25T15:57:19.777022+00:00",
+  "generated_at_local": "Fri 25 Sep 2026 12:57 ADT",
   "trading_day": "2026-09-25",
   "display_tz": "America/Halifax",
   "version": "0.1.0",
@@ -57,10 +57,10 @@
   {
    "root": "ES",
    "trading_day": "2026-09-25",
-   "as_of_utc": "2026-09-25T15:41:59.504344+00:00",
+   "as_of_utc": "2026-09-25T15:57:19.777022+00:00",
    "source": "yahoo",
    "delayed": true,
-   "last_price": 7786.0,
+   "last_price": 7770.75,
    "levels": [
     {
      "tag": "wh",
@@ -126,8 +126,8 @@
      "note": "09:30 bar open"
     },
     {
-     "tag": "rn_minor_dn",
-     "label": "Round 25 below",
+     "tag": "rn_minor_up",
+     "label": "Round 25 above",
      "price": 7775.0,
      "group": "round",
      "note": ""
@@ -211,8 +211,8 @@
     }
    ],
    "stats": {
-    "last_bar_utc": "2026-09-25T15:31:00+00:00",
-    "last_bar_age_min": 11.0,
+    "last_bar_utc": "2026-09-25T15:47:00+00:00",
+    "last_bar_age_min": 10.3,
     "market_state": "open",
     "profile_volume": 1318025.0,
     "prior_day": "2026-09-24",
@@ -1526,20 +1526,28 @@
     {
      "t": "2026-09-25T15:30:00+00:00",
      "o": 7778.0,
-     "h": 7786.5,
-     "l": 7778.0,
-     "c": 7786.0,
-     "v": 12769.0
+     "h": 7788.75,
+     "l": 7767.0,
+     "c": 7767.75,
+     "v": 55906.0
+    },
+    {
+     "t": "2026-09-25T15:45:00+00:00",
+     "o": 7767.5,
+     "h": 7772.0,
+     "l": 7764.5,
+     "c": 7770.75,
+     "v": 6915.0
     }
    ]
   },
   {
    "root": "NQ",
    "trading_day": "2026-09-25",
-   "as_of_utc": "2026-09-25T15:41:59.504344+00:00",
+   "as_of_utc": "2026-09-25T15:57:19.777022+00:00",
    "source": "yahoo",
    "delayed": true,
-   "last_price": 30853.5,
+   "last_price": 30767.25,
    "levels": [
     {
      "tag": "exp_hi",
@@ -1570,25 +1578,11 @@
      "note": "so far"
     },
     {
-     "tag": "rn_major_up",
-     "label": "Round 100 above",
-     "price": 30900.0,
-     "group": "round",
-     "note": ""
-    },
-    {
      "tag": "onvwap",
      "label": "Overnight VWAP",
      "price": 30852.39,
      "group": "overnight",
      "note": "typical-price VWAP"
-    },
-    {
-     "tag": "rn_minor_dn",
-     "label": "Round 50 below",
-     "price": 30850.0,
-     "group": "round",
-     "note": ""
     },
     {
      "tag": "pdh",
@@ -1612,8 +1606,8 @@
      "note": "70 % value area"
     },
     {
-     "tag": "rn_major_dn",
-     "label": "Round 100 below",
+     "tag": "rn_major_up",
+     "label": "Round 100 above",
      "price": 30800.0,
      "group": "round",
      "note": ""
@@ -1631,6 +1625,20 @@
      "price": 30757.0,
      "group": "prior_day",
      "note": "2026-09-24"
+    },
+    {
+     "tag": "rn_minor_dn",
+     "label": "Round 50 below",
+     "price": 30750.0,
+     "group": "round",
+     "note": ""
+    },
+    {
+     "tag": "rn_major_dn",
+     "label": "Round 100 below",
+     "price": 30700.0,
+     "group": "round",
+     "note": ""
     },
     {
      "tag": "tdl",
@@ -1690,8 +1698,8 @@
     }
    ],
    "stats": {
-    "last_bar_utc": "2026-09-25T15:31:00+00:00",
-    "last_bar_age_min": 11.0,
+    "last_bar_utc": "2026-09-25T15:47:00+00:00",
+    "last_bar_age_min": 10.3,
     "market_state": "open",
     "profile_volume": 482001.0,
     "prior_day": "2026-09-24",
@@ -3005,10 +3013,18 @@
     {
      "t": "2026-09-25T15:30:00+00:00",
      "o": 30813.5,
-     "h": 30853.75,
-     "l": 30811.75,
-     "c": 30853.5,
-     "v": 3473.0
+     "h": 30860.5,
+     "l": 30749.5,
+     "c": 30751.75,
+     "v": 19361.0
+    },
+    {
+     "t": "2026-09-25T15:45:00+00:00",
+     "o": 30751.5,
+     "h": 30772.0,
+     "l": 30735.0,
+     "c": 30767.25,
+     "v": 2422.0
     }
    ]
   }
@@ -3021,7 +3037,7 @@
     "link": "https://www.cnbc.com/2026/09/24/surging-treasury-yields-are-posing-a-brand-new-problem-for-kevin-warsh-and-the-fed.html",
     "source": "cnbc_markets",
     "published_utc": "2026-09-25T11:08:05+00:00",
-    "score": 9.74,
+    "score": 9.7,
     "duplicates": 0
    },
    {
@@ -3030,7 +3046,7 @@
     "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNbVlhNGU2T21TRXdoMURGYkVVLWFsTmFVQ1M0NmxhVmFqU3FmM1RyWko4Q3Jlbk5zQi0yYUZXaTZjZmZ2enJ0RTVqWUZEOWc1US1QbDNKNnZUWUhSWWRBcHo5M2F5bGJQZ0hhemdqWVRja1FOQmVPd0cwd3RfOVhrZTlTb01RMGU2UGlJc0ZkN0lMdi1sbUd1U0VMamd3MC1vOGJaYkozektMTVRfOGJuN3hIamtibzJwYXdacndLdHJBYS0xaGc?oc=5",
     "source": "gnews_futures",
     "published_utc": "2026-09-25T12:28:32+00:00",
-    "score": 8.46,
+    "score": 8.42,
     "duplicates": 1
    },
    {
@@ -3039,7 +3055,7 @@
     "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQUnlSZk84RVFpMHlSb29GTnppcnA5SmVJQ29sS1BtM3Q4bG1Mb2ZjZFJsTHBVcXM1ZXE1dzdqX2J4ck4zd0lMSWtsdlhydWtiMy05MnQxMjJvQm5rcklsLVZmNEdnQmFPNlFFamRSd3NjTzBVQkEwc2tCLWVfdkxBY2ZoblRidnM1R1dBcnhiSWhkc2hm?oc=5",
     "source": "gnews_futures",
     "published_utc": "2026-09-25T08:29:10+00:00",
-    "score": 8.3,
+    "score": 8.26,
     "duplicates": 1
    },
    {
@@ -3048,7 +3064,7 @@
     "link": "https://www.cnbc.com/2026/09/25/treasury-yields-bonds-debt.html",
     "source": "cnbc_markets",
     "published_utc": "2026-09-25T14:27:33+00:00",
-    "score": 8.29,
+    "score": 8.25,
     "duplicates": 1
    },
    {
@@ -3057,7 +3073,7 @@
     "link": "https://www.marketwatch.com/story/we-were-wrong-why-morgan-stanley-changed-its-tune-on-the-u-s-dollar-and-what-it-expects-now-7826fb96?mod=mw_rss_topstories",
     "source": "marketwatch_top",
     "published_utc": "2026-09-25T13:30:00+00:00",
-    "score": 8.13,
+    "score": 8.09,
     "duplicates": 0
    },
    {
@@ -3066,7 +3082,7 @@
     "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE9MUUtfZWtKSUZidFNhMzdIdzdQNjRzckF2dGVFQkN6RXd1Vk56NDA3NWRZZ0Yya0ViTlBkdjlTYmlqRzNIcnlUdnJOTmdudWV0T1BGcjNTMC1zWklIRUtvQ01kdw?oc=5",
     "source": "gnews_futures",
     "published_utc": "2026-09-25T12:17:08+00:00",
-    "score": 7.93,
+    "score": 7.89,
     "duplicates": 0
    },
    {
@@ -3075,7 +3091,7 @@
     "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPWjh0cGgwQ1lYdGNva0lyUGRYZDNWZUZTcE4wblRSYnhkS2VTMk1zbHRCTTBiWkNNeC0wSjR2elpUOE1IRnRabVF1RURBRFhBUFF2dlc4R3B4RDJkTTNuYW1ieWo0VkNFMk9oeUtTcE9ZRzlzcGhzVkxkS0V3Qkw2NGd4ZDJCU2ltUmdKRkRmSnNPNnU5aWRLSGZtTVJEN3VwcktrQmM0Z0JWdFA4dUNQRVR1R00zZw?oc=5",
     "source": "gnews_macro",
     "published_utc": "2026-09-25T14:00:00+00:00",
-    "score": 7.22,
+    "score": 7.17,
     "duplicates": 0
    },
    {
@@ -3084,7 +3100,7 @@
     "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTFBSWVFoN0V3M1M5TTR3RVFONUNXNlRFWHRTQmFCT3lic25ZaUR2QWlmY0FaSV8xLTNkdWtyajNHQ0ZQMS12Rm9ZdDl3b3RyeldCS1lvNklUMHNFeVlpMktfZmVUdC1FTWZrcW9GbDhzQ0VKbzA?oc=5",
     "source": "gnews_macro",
     "published_utc": "2026-09-25T13:46:34+00:00",
-    "score": 7.18,
+    "score": 7.14,
     "duplicates": 0
    },
    {
@@ -3102,7 +3118,7 @@
     "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPdmZqdHZWbHdUSVdBNVhQWGR0YTZOZnZsZXRNaV9JNFRsVDBJUmR2T0tSa3VsR0g2ZkVWNmFqc2N6QXJlSHNNNTVKMkxsUmM3MmN1RFdTLXJyOHdpcldLYlRBSWdOZzdPcF9RUUVCdFVMZXByX2s4c3BiNENBMFVoSXhqYkFqSVpRM2cycTVWOVJheG9NdXc4RA?oc=5",
     "source": "gnews_megacap",
     "published_utc": "2026-09-25T12:15:00+00:00",
-    "score": 6.93,
+    "score": 6.88,
     "duplicates": 1
    },
    {
@@ -3111,7 +3127,7 @@
     "link": "https://news.google.com/rss/articles/CBMi_AFBVV95cUxObVpiQ1FnYU9GQ3pvMXhRa0I0YmxKdkFOUWZQT01aMFBIaU5ocUktZ2U5Z01xUWgwVlJET1dZbGU5QThycEE5dUlUTmJ1WjFIT0V0YWhGUTh5V1dkSWxaWmZ4MzRkOTd2XzUtMHFFS1hrcW45c2FFZzJ6bG1fdGh0bmJ6TTJPRHZYRlF1bHF5U3Y4SVk3ZzNUYlFEbEhVVXdTcWl4UWxjb04yak4xNktNRFpNbXliWTF5Sy1zTDI0d0lBM1FRdlVGa0JScndoRk5QQkc1UkFpam5zeFNHOWR6R0RjTzY0SFQ3OVdxRDdDelBvNU5jVTJlZFAwUjQ?oc=5",
     "source": "gnews_futures",
     "published_utc": "2026-09-25T14:44:04+00:00",
-    "score": 6.84,
+    "score": 6.8,
     "duplicates": 0
    },
    {
@@ -3120,21 +3136,22 @@
     "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxObEVfTDBUVVU2Wmp4eWtINzhhTndqSlRBVkpjek9HREhvNVljTkVMZS1BRml3WEVYOVh0WklyeHhvSVI5OUxISGNPaFlCWVp3VzRlMVJvVmk2Ym50a2VuaW9GYmdWcWxPdExwUXdkVFN6eGNyejhqenNSNDhkbWM4QkJabEVDbnhmb0ktLXFrclE2ZXN6cWZ1SHVET3g0Ym1fd3d6UGRGNEtJLUhPQ0JFb2t1Y1ZVYV9BenlCdlJGdENTOFZweWdTRFUwMTVmSDFtQ0HSAdcBQVVfeXFMT2l1ZnA2d3FwYUZVNFVlTFlyVGZYSy1qVkxRMVY2ODNwbG80ZVVQWFdiTzRIYmxBY0RNeE1feEpVZHRvY1pDNFM4YkNBazhWeno3QlNtbmNJUUx2Rms0eklhY0dmZUU5S1E5VGVacTlyNVBHTVBiUG5oa2piMlBRZ3BYQlByckd2d1dxUlhMbzRFNGp0MFlONU16TzZzbEFFUmczT19VZzV6RWhKUmlUcGJzNVU0ekw3VGltZE1fYVdzZG1UeDBzT3JWVjVQNkNTclh3UGxTSnc?oc=5",
     "source": "gnews_futures",
     "published_utc": "2026-09-25T08:44:46+00:00",
-    "score": 6.84,
+    "score": 6.8,
     "duplicates": 1
    }
   ],
   "summary": {
    "lines": [
-    "Treasury yields surged through the week on hawkish Fed commentary and strong data, then eased intraday, whipsawing futures direction and volatility for MNQ/MES. [23d122a6a2] [23721769bc] [986f6c1a93] [a4718f08a7] [f027a442d9]",
-    "Richmond Fed's Barkin said it's time to push back on inflation, and markets expect Warsh's Fed to take a firmer stance, keeping rate-path repricing risk live into the session. [a1e1b1dac4] [e1b2d96aae]",
-    "Futures also tracked AI-driven tech strength alongside the inflation-fear narrative, a factor for Nasdaq-heavy MNQ moves. [c62463baec]",
-    "Morgan Stanley reversed its dollar forecast on rising yields and expected Fed hikes, a cross-asset signal worth watching alongside rates-sensitive equity futures. [62bd19ec68]",
-    "Stock-specific flow to watch: AMD, TSLA, SPCX, AKAM, BE, ORCL, META, GOOGL, MGM named in futures-focus headlines amid the yield-driven tape. [a4718f08a7] [f027a442d9]"
+    "Treasury yields surged through the week on hawkish Fed commentary and strong data, then eased this morning, whipsawing futures direction into the open [23d122a6a2][23721769bc][f027a442d9][986f6c1a93][a4718f08a7].",
+    "Richmond Fed chief said it's time to push back on inflation, and markets are watching whether Kevin Warsh takes a firmer hand at the Fed, keeping rate-path uncertainty in play for rate-sensitive tech [a1e1b1dac4][e1b2d96aae].",
+    "AI optimism is lifting tech shares even as inflation fears persist, a cross-current for Nasdaq-heavy futures [c62463baec].",
+    "Trump-Xi summit headlines are also being cited as a driver of futures moves alongside the bond-yield story [c931981ef3]."
    ],
    "backend": "anthropic",
    "model": "claude-sonnet-5",
-   "dropped": [],
+   "dropped": [
+    "no valid citation: At 10:00 ET, Revised UoM Consumer Sentiment (cons 47.4, prior 47.8) and Inflation Expectations (prior 4.6%) land mid-session and could move rates-sensitive futures given the yield backdrop."
+   ],
    "warnings": []
   },
   "feeds": [],
