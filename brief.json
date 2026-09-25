@@ -1,7 +1,7 @@
 {
  "meta": {
-  "generated_at_utc": "2026-09-25T11:56:57.994460+00:00",
-  "generated_at_local": "Fri 25 Sep 2026 08:56 ADT",
+  "generated_at_utc": "2026-09-25T12:12:19.555731+00:00",
+  "generated_at_local": "Fri 25 Sep 2026 09:12 ADT",
   "trading_day": "2026-09-25",
   "display_tz": "America/Halifax",
   "version": "0.1.0",
@@ -55,7 +55,7 @@
    "time_utc": "2026-09-25T14:00:00+00:00",
    "local": "11:00 ADT",
    "et": "10:00 ET",
-   "in": "2h 03m",
+   "in": "1h 47m",
    "consensus": "47.4",
    "prior": "47.8"
   },
@@ -66,10 +66,10 @@
   {
    "root": "ES",
    "trading_day": "2026-09-25",
-   "as_of_utc": "2026-09-25T11:56:57.994460+00:00",
+   "as_of_utc": "2026-09-25T12:12:19.555731+00:00",
    "source": "yahoo",
    "delayed": true,
-   "last_price": 7795.0,
+   "last_price": 7795.75,
    "levels": [
     {
      "tag": "wh",
@@ -90,7 +90,7 @@
      "label": "Overnight high",
      "price": 7800.75,
      "group": "overnight",
-     "note": "since 18:00 ET, 817 bars"
+     "note": "since 18:00 ET, 833 bars"
     },
     {
      "tag": "rn_major_up",
@@ -114,18 +114,18 @@
      "note": "70 % value area"
     },
     {
+     "tag": "onvwap",
+     "label": "Overnight VWAP",
+     "price": 7775.47,
+     "group": "overnight",
+     "note": "typical-price VWAP"
+    },
+    {
      "tag": "rn_minor_dn",
      "label": "Round 25 below",
      "price": 7775.0,
      "group": "round",
      "note": ""
-    },
-    {
-     "tag": "onvwap",
-     "label": "Overnight VWAP",
-     "price": 7774.82,
-     "group": "overnight",
-     "note": "typical-price VWAP"
     },
     {
      "tag": "poc",
@@ -199,14 +199,14 @@
     }
    ],
    "stats": {
-    "last_bar_utc": "2026-09-25T11:46:00+00:00",
-    "last_bar_age_min": 11.0,
+    "last_bar_utc": "2026-09-25T12:02:00+00:00",
+    "last_bar_age_min": 10.3,
     "market_state": "open",
     "profile_volume": 1318025.0,
     "prior_day": "2026-09-24",
     "prior_day_rth_range": 58.25,
     "overnight_range": 52.25,
-    "gap_vs_prior_close": 29.5,
+    "gap_vs_prior_close": 30.25,
     "gap_basis": "last price (pre-market)",
     "atr14": 80.22,
     "atr_days": 14,
@@ -1394,20 +1394,28 @@
     {
      "t": "2026-09-25T11:45:00+00:00",
      "o": 7794.75,
-     "h": 7795.5,
-     "l": 7794.25,
-     "c": 7795.0,
-     "v": 200.0
+     "h": 7796.25,
+     "l": 7792.5,
+     "c": 7792.5,
+     "v": 3587.0
+    },
+    {
+     "t": "2026-09-25T12:00:00+00:00",
+     "o": 7792.5,
+     "h": 7795.75,
+     "l": 7792.0,
+     "c": 7795.75,
+     "v": 2071.0
     }
    ]
   },
   {
    "root": "NQ",
    "trading_day": "2026-09-25",
-   "as_of_utc": "2026-09-25T11:56:57.994460+00:00",
+   "as_of_utc": "2026-09-25T12:12:19.555731+00:00",
    "source": "yahoo",
    "delayed": true,
-   "last_price": 30971.25,
+   "last_price": 30976.75,
    "levels": [
     {
      "tag": "exp_hi",
@@ -1435,7 +1443,7 @@
      "label": "Overnight high",
      "price": 30999.5,
      "group": "overnight",
-     "note": "since 18:00 ET, 817 bars"
+     "note": "since 18:00 ET, 833 bars"
     },
     {
      "tag": "rn_minor_dn",
@@ -1454,7 +1462,7 @@
     {
      "tag": "onvwap",
      "label": "Overnight VWAP",
-     "price": 30836.11,
+     "price": 30839.14,
      "group": "overnight",
      "note": "typical-price VWAP"
     },
@@ -1537,14 +1545,14 @@
     }
    ],
    "stats": {
-    "last_bar_utc": "2026-09-25T11:46:00+00:00",
-    "last_bar_age_min": 11.0,
+    "last_bar_utc": "2026-09-25T12:02:00+00:00",
+    "last_bar_age_min": 10.3,
     "market_state": "open",
     "profile_volume": 482001.0,
     "prior_day": "2026-09-24",
     "prior_day_rth_range": 334.25,
     "overnight_range": 320.5,
-    "gap_vs_prior_close": 214.25,
+    "gap_vs_prior_close": 219.75,
     "gap_basis": "last price (pre-market)",
     "atr14": 467.83,
     "atr_days": 14,
@@ -2732,10 +2740,18 @@
     {
      "t": "2026-09-25T11:45:00+00:00",
      "o": 30971.25,
-     "h": 30973.0,
-     "l": 30967.75,
-     "c": 30971.25,
-     "v": 57.0
+     "h": 30981.25,
+     "l": 30960.25,
+     "c": 30961.5,
+     "v": 1295.0
+    },
+    {
+     "t": "2026-09-25T12:00:00+00:00",
+     "o": 30960.5,
+     "h": 30978.0,
+     "l": 30956.75,
+     "c": 30976.75,
+     "v": 561.0
     }
    ]
   }
@@ -2748,7 +2764,7 @@
     "link": "https://www.cnbc.com/2026/09/24/surging-treasury-yields-are-posing-a-brand-new-problem-for-kevin-warsh-and-the-fed.html",
     "source": "cnbc_markets",
     "published_utc": "2026-09-25T11:08:05+00:00",
-    "score": 11.36,
+    "score": 11.32,
     "duplicates": 2
    },
    {
@@ -2757,7 +2773,7 @@
     "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQUnlSZk84RVFpMHlSb29GTnppcnA5SmVJQ29sS1BtM3Q4bG1Mb2ZjZFJsTHBVcXM1ZXE1dzdqX2J4ck4zd0lMSWtsdlhydWtiMy05MnQxMjJvQm5rcklsLVZmNEdnQmFPNlFFamRSd3NjTzBVQkEwc2tCLWVfdkxBY2ZoblRidnM1R1dBcnhiSWhkc2hm?oc=5",
     "source": "gnews_futures",
     "published_utc": "2026-09-25T08:29:10+00:00",
-    "score": 8.92,
+    "score": 8.88,
     "duplicates": 1
    },
    {
@@ -2766,16 +2782,16 @@
     "link": "https://www.marketwatch.com/story/we-were-wrong-why-morgan-stanley-changed-its-tune-on-the-u-s-dollar-and-what-it-expects-now-7826fb96?mod=mw_rss_topstories",
     "source": "marketwatch_top",
     "published_utc": "2026-09-25T10:46:00+00:00",
-    "score": 8.3,
+    "score": 8.26,
     "duplicates": 0
    },
    {
     "id": "56aa0a6761",
-    "title": "US Stock Futures Rise as Investors See Relief in Yields, Oil - Bloomberg",
+    "title": "US Stock Futures Rise as Investors See Relief in Yields, Oil - Bloomberg.com",
     "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPRFVHZWNmbk5oMTFYdThLVmMwWGR1VEI3dUFRdzEwNjQyRnJSNHl0clNGZ3YtZkFhSUJUN2k5Y28yZ0RKLVU5RU5ueFZnODk0TXpPbV9jczU1NGFGeE5OVWRtUW8yTkgzOVFaZ18ySVJCMTZvcGdzQnV4WWFiYmNUdEpGZ1ltSmdzU0h3WnVjLURaX2NndVB0YWVzbTdINU9hWEF2Mmp1RFFoLWFrdXdB?oc=5",
     "source": "gnews_futures",
     "published_utc": "2026-09-25T11:35:50+00:00",
-    "score": 7.94,
+    "score": 7.9,
     "duplicates": 0
    },
    {
@@ -2784,7 +2800,7 @@
     "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNRnFfWmo3cUVQR2Frd0hJLTBKRVo4RTlaV0VJT09QMmRzbGJfT0pFNjd2UjRXSUNhRWxiS0JRLWR4ZkVnMHUxZjNnMnpnRmU0THltRWVFTjNVOUtPSU1xVkFRQ0QzcVhQRGxidU1Zck9nYUFWOEdCZzBUeUdnb0Y5ZzVHZy1GNjRoeFJ0SXIwU0JqMlp4YjNMaGQ3UE1DUmlobjhUc0U2Q3pxZGdfNndac0hjM29ndzNkaWFiSUtkdU5kcFVfNlE?oc=5",
     "source": "gnews_futures",
     "published_utc": "2026-09-25T00:12:00+00:00",
-    "score": 7.54,
+    "score": 7.5,
     "duplicates": 1
    },
    {
@@ -2793,7 +2809,7 @@
     "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOUVV0NzRZdU5uQ1l6cm11ZFJGNXRWWDZDalJBYUdaTnQ3RzhEd19kdF9vODc2aGliU3Zxd1lnelNieEJPVXRsR1h4ejA5RmZwa0NTYmRIQlZKVnFMek1BWXdXT2h5UUVBVmpkd2hHWGFKYmhsNENtd1JlekJmREhuUUREai1MRTBvRjFwdHJaalpCbHR0Rndic2l1X3NNZFVSdFdndXI1SQ?oc=5",
     "source": "gnews_macro",
     "published_utc": "2026-09-25T06:03:19+00:00",
-    "score": 7.52,
+    "score": 7.47,
     "duplicates": 0
    },
    {
@@ -2802,7 +2818,7 @@
     "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxQSU1uWWJIdm5EUHBzZnduMFVqbXUzNl9ZTVFvR0cwNzduOFdJdU5wVnZOQUU2NFFmTlB1MzBIM1R1OW51NE5VNE5PYkhXTjBuNDZtb0phckVfVG5FSGF3UlhXV3lSMFRSRnprZmYtNWZhV3BNVE1qNzFoNGlUYm5DVWhvLUpzT19XdmdTVlJndkJMdmVEcEtrS2otZENEMndEbWQwRkJ2VVJqTWF6TG5lNXc0eXRBTUZucHRiV0VsRFBlU3doY0xPbTZBaWlJMTFHZ2M4?oc=5",
     "source": "gnews_macro",
     "published_utc": "2026-09-25T06:03:00+00:00",
-    "score": 7.52,
+    "score": 7.47,
     "duplicates": 0
    },
    {
@@ -2811,7 +2827,7 @@
     "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxObEVfTDBUVVU2Wmp4eWtINzhhTndqSlRBVkpjek9HREhvNVljTkVMZS1BRml3WEVYOVh0WklyeHhvSVI5OUxISGNPaFlCWVp3VzRlMVJvVmk2Ym50a2VuaW9GYmdWcWxPdExwUXdkVFN6eGNyejhqenNSNDhkbWM4QkJabEVDbnhmb0ktLXFrclE2ZXN6cWZ1SHVET3g0Ym1fd3d6UGRGNEtJLUhPQ0JFb2t1Y1ZVYV9BenlCdlJGdENTOFZweWdTRFUwMTVmSDFtQ0HSAdcBQVVfeXFMT2l1ZnA2d3FwYUZVNFVlTFlyVGZYSy1qVkxRMVY2ODNwbG80ZVVQWFdiTzRIYmxBY0RNeE1feEpVZHRvY1pDNFM4YkNBazhWeno3QlNtbmNJUUx2Rms0eklhY0dmZUU5S1E5VGVacTlyNVBHTVBiUG5oa2piMlBRZ3BYQlByckd2d1dxUlhMbzRFNGp0MFlONU16TzZzbEFFUmczT19VZzV6RWhKUmlUcGJzNVU0ekw3VGltZE1fYVdzZG1UeDBzT3JWVjVQNkNTclh3UGxTSnc?oc=5",
     "source": "gnews_futures",
     "published_utc": "2026-09-25T08:44:46+00:00",
-    "score": 7.47,
+    "score": 7.42,
     "duplicates": 1
    },
    {
@@ -2820,16 +2836,16 @@
     "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQSm95dFZ6V185aDhFQkxYTjJwSUFaV3VnelhabjJNTi1McmQzNTBVODBUUWM3alBOc0tiV3MyLWtrX0NGMkZJNDZwTXFLc2ZkOThIeDJrV3RyVS1wNDQ5bFNBbERTWm9idWNVa1hyQjk5bjU4dWQ2UHVwSERjSkhseExxNDdKRU56U1h0U1NkbVp4UUdxN1l6NTlraUViZU0?oc=5",
     "source": "gnews_megacap",
     "published_utc": "2026-09-25T11:35:00+00:00",
-    "score": 7.44,
+    "score": 7.4,
     "duplicates": 1
    },
    {
     "id": "f375dc269f",
-    "title": "Manulife Sees Canada Rate Hike Next Month as Inflation Pressures Build - Bloomberg",
+    "title": "Manulife Sees Canada Rate Hike Next Month as Inflation Pressures Build - Bloomberg.com",
     "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQeTgtWXRLR1RFMW9OT3Q4X29wSEJJX0tsdDdETUY1WWdzd013MXhhLTNkN0tFM1pteGpWWU1YY3l4cUtOZ0RIZEJaRWdNelE1bFhNTy12N0ZlaW5QUUU2YXpTYXFGMWhXRXpaYjAwc0lLNzY5cGVqUHRIa1B1aUs0QnBnc1BpN3ZMOW1MY1dBc09BQjdLYVdqNUswcFcxOW42Nm9tVWE0LS1RdGZ3SjFTQzhJaTdqaXllbmlqSDV3?oc=5",
     "source": "gnews_macro",
     "published_utc": "2026-09-25T11:00:00+00:00",
-    "score": 7.34,
+    "score": 7.3,
     "duplicates": 0
    },
    {
@@ -2838,7 +2854,7 @@
     "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQaWN5cGtKdVh6dGNYVU9YdkRTRjhtRWU5Z2lsM0tqZFplMWRlREVxZlhnMVBWeVFFZFI2X0VrZUMwYXBheDRmOGdvUXJZdlJnRGZKUTUyOHJFZ01ocExLd0Y4eDRKLVRnTFhqX2ZnZkhQa3lLMkU1ZldYN28zcUVPZjZRVzI0X2ZId3JNWWVvbTRQckhTQ2tYQzNTa2MyQzdVM1VLbWNtNmRYSWZDYVNOWTBOV2ozd2hkeFpyag?oc=5",
     "source": "gnews_futures",
     "published_utc": "2026-09-25T10:28:53+00:00",
-    "score": 7.26,
+    "score": 7.21,
     "duplicates": 0
    },
    {
@@ -2847,18 +2863,21 @@
     "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNSVJGTVRtaWc1WTN0enJ2anA3ZzNiZFRSel80bXozUGRnQXJGb2dUMWVOeFQxMnVnZGNUdHNYaDJIWEkxVjhGd1BqZ2ItRlphMXUxTXlkbDVRTU9mdW1wLXNMZ2FZT2dtVkZuWEE4ZUtSMWU4eTl5Qy1PUjBxc2dYd05WYW5qd1M5QlJ1R2luNXpZSXVqVWt1QUdBaw?oc=5",
     "source": "gnews_macro",
     "published_utc": "2026-09-25T10:03:53+00:00",
-    "score": 7.19,
+    "score": 7.14,
     "duplicates": 0
    }
   ],
   "summary": {
    "lines": [
-    "Treasury yields continued to spike overnight, pressuring futures before a pullback in oil offered some relief and futures ticked back up, so expect continued sensitivity to yield moves through the session [f027a442d9] [d21eeb08f3] [56aa0a6761] [a680d46925] [a4718f08a7]."
+    "Treasury yields keep surging overnight, a headwind cited as the main driver behind both early futures weakness and the later relief bounce, so intraday direction is tracking the bond market tick for tick [f027a442d9][d21eeb08f3][b00c1c12fe][e1b2d96aae].",
+    "Futures reversed from softer levels to gains as oil pulled back and yields found some relief, a combination traders will watch for follow-through into the cash open [56aa0a6761][a680d46925][a4718f08a7].",
+    "The dollar is on pace for weekly gains as the same yield surge feeds Fed rate-hike bets, a cross-asset signal worth watching alongside equity futures [c6e4380139][b045a4191c].",
+    "Morgan Stanley reversed its dollar forecast, citing rising bond yields and expected Fed hikes, reinforcing that rates repricing is the dominant cross-asset theme today [62bd19ec68]."
    ],
    "backend": "anthropic",
    "model": "claude-sonnet-5",
    "dropped": [
-    "no valid citation: Fed leadership is under fresh scrutiny as surging Treasury yields complicate the outlook for incoming Fed chair Kevin Warsh, a headline risk for rate-sensit"
+    "no valid citation: At 10:00 ET, Revised UoM Consumer Sentiment (cons 47.4, prior 47.8) and Inflation Expectations (prior 4.6%) land into a market already jumpy about yields, so a surprise could amplify the rates-driven volatility."
    ],
    "warnings": []
   },
