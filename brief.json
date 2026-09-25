@@ -1,7 +1,7 @@
 {
  "meta": {
-  "generated_at_utc": "2026-09-25T13:44:28.238696+00:00",
-  "generated_at_local": "Fri 25 Sep 2026 10:44 ADT",
+  "generated_at_utc": "2026-09-25T13:59:51.389845+00:00",
+  "generated_at_local": "Fri 25 Sep 2026 10:59 ADT",
   "trading_day": "2026-09-25",
   "display_tz": "America/Halifax",
   "version": "0.1.0",
@@ -55,7 +55,7 @@
    "time_utc": "2026-09-25T14:00:00+00:00",
    "local": "11:00 ADT",
    "et": "10:00 ET",
-   "in": "15 min",
+   "in": "0 min",
    "consensus": "47.4",
    "prior": "47.8"
   },
@@ -66,10 +66,10 @@
   {
    "root": "ES",
    "trading_day": "2026-09-25",
-   "as_of_utc": "2026-09-25T13:44:28.238696+00:00",
+   "as_of_utc": "2026-09-25T13:59:51.389845+00:00",
    "source": "yahoo",
    "delayed": true,
-   "last_price": 7784.5,
+   "last_price": 7784.75,
    "levels": [
     {
      "tag": "wh",
@@ -102,7 +102,7 @@
     {
      "tag": "tdh",
      "label": "Today's RTH high",
-     "price": 7785.25,
+     "price": 7790.75,
      "group": "today",
      "note": "so far"
     },
@@ -220,8 +220,8 @@
     }
    ],
    "stats": {
-    "last_bar_utc": "2026-09-25T13:34:00+00:00",
-    "last_bar_age_min": 10.5,
+    "last_bar_utc": "2026-09-25T13:49:00+00:00",
+    "last_bar_age_min": 10.9,
     "market_state": "open",
     "profile_volume": 1318025.0,
     "prior_day": "2026-09-24",
@@ -1471,20 +1471,28 @@
     {
      "t": "2026-09-25T13:30:00+00:00",
      "o": 7777.75,
-     "h": 7785.25,
+     "h": 7790.75,
      "l": 7767.25,
-     "c": 7784.5,
-     "v": 32676.0
+     "c": 7785.25,
+     "v": 78549.0
+    },
+    {
+     "t": "2026-09-25T13:45:00+00:00",
+     "o": 7785.25,
+     "h": 7787.0,
+     "l": 7780.0,
+     "c": 7784.75,
+     "v": 16745.0
     }
    ]
   },
   {
    "root": "NQ",
    "trading_day": "2026-09-25",
-   "as_of_utc": "2026-09-25T13:44:28.238696+00:00",
+   "as_of_utc": "2026-09-25T13:59:51.389845+00:00",
    "source": "yahoo",
    "delayed": true,
-   "last_price": 30838.0,
+   "last_price": 30874.5,
    "levels": [
     {
      "tag": "exp_hi",
@@ -1515,6 +1523,13 @@
      "note": ""
     },
     {
+     "tag": "tdh",
+     "label": "Today's RTH high",
+     "price": 30890.0,
+     "group": "today",
+     "note": "so far"
+    },
+    {
      "tag": "onvwap",
      "label": "Overnight VWAP",
      "price": 30852.39,
@@ -1522,15 +1537,8 @@
      "note": "typical-price VWAP"
     },
     {
-     "tag": "tdh",
-     "label": "Today's RTH high",
-     "price": 30852.0,
-     "group": "today",
-     "note": "so far"
-    },
-    {
-     "tag": "rn_minor_up",
-     "label": "Round 50 above",
+     "tag": "rn_minor_dn",
+     "label": "Round 50 below",
      "price": 30850.0,
      "group": "round",
      "note": ""
@@ -1635,8 +1643,8 @@
     }
    ],
    "stats": {
-    "last_bar_utc": "2026-09-25T13:34:00+00:00",
-    "last_bar_age_min": 10.5,
+    "last_bar_utc": "2026-09-25T13:49:00+00:00",
+    "last_bar_age_min": 10.9,
     "market_state": "open",
     "profile_volume": 482001.0,
     "prior_day": "2026-09-24",
@@ -2886,10 +2894,18 @@
     {
      "t": "2026-09-25T13:30:00+00:00",
      "o": 30819.0,
-     "h": 30852.0,
+     "h": 30890.0,
      "l": 30767.5,
-     "c": 30838.0,
-     "v": 18078.0
+     "c": 30876.75,
+     "v": 39664.0
+    },
+    {
+     "t": "2026-09-25T13:45:00+00:00",
+     "o": 30877.0,
+     "h": 30888.75,
+     "l": 30847.5,
+     "c": 30874.5,
+     "v": 7612.0
     }
    ]
   }
@@ -2902,7 +2918,7 @@
     "link": "https://www.cnbc.com/2026/09/24/surging-treasury-yields-are-posing-a-brand-new-problem-for-kevin-warsh-and-the-fed.html",
     "source": "cnbc_markets",
     "published_utc": "2026-09-25T11:08:05+00:00",
-    "score": 10.07,
+    "score": 10.02,
     "duplicates": 0
    },
    {
@@ -2911,7 +2927,7 @@
     "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNbVlhNGU2T21TRXdoMURGYkVVLWFsTmFVQ1M0NmxhVmFqU3FmM1RyWko4Q3Jlbk5zQi0yYUZXaTZjZmZ2enJ0RTVqWUZEOWc1US1QbDNKNnZUWUhSWWRBcHo5M2F5bGJQZ0hhemdqWVRja1FOQmVPd0cwd3RfOVhrZTlTb01RMGU2UGlJc0ZkN0lMdi1sbUd1U0VMamd3MC1vOGJaYkozektMTVRfOGJuN3hIamtibzJwYXdacndLdHJBYS0xaGc?oc=5",
     "source": "gnews_futures",
     "published_utc": "2026-09-25T12:28:32+00:00",
-    "score": 8.79,
+    "score": 8.75,
     "duplicates": 1
    },
    {
@@ -2920,7 +2936,7 @@
     "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQUnlSZk84RVFpMHlSb29GTnppcnA5SmVJQ29sS1BtM3Q4bG1Mb2ZjZFJsTHBVcXM1ZXE1dzdqX2J4ck4zd0lMSWtsdlhydWtiMy05MnQxMjJvQm5rcklsLVZmNEdnQmFPNlFFamRSd3NjTzBVQkEwc2tCLWVfdkxBY2ZoblRidnM1R1dBcnhiSWhkc2hm?oc=5",
     "source": "gnews_futures",
     "published_utc": "2026-09-25T08:29:10+00:00",
-    "score": 8.62,
+    "score": 8.58,
     "duplicates": 1
    },
    {
@@ -2929,7 +2945,7 @@
     "link": "https://www.marketwatch.com/story/we-were-wrong-why-morgan-stanley-changed-its-tune-on-the-u-s-dollar-and-what-it-expects-now-7826fb96?mod=mw_rss_topstories",
     "source": "marketwatch_top",
     "published_utc": "2026-09-25T13:30:00+00:00",
-    "score": 8.46,
+    "score": 8.42,
     "duplicates": 0
    },
    {
@@ -2938,16 +2954,25 @@
     "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE9MUUtfZWtKSUZidFNhMzdIdzdQNjRzckF2dGVFQkN6RXd1Vk56NDA3NWRZZ0Yya0ViTlBkdjlTYmlqRzNIcnlUdnJOTmdudWV0T1BGcjNTMC1zWklIRUtvQ01kdw?oc=5",
     "source": "gnews_futures",
     "published_utc": "2026-09-25T12:17:08+00:00",
-    "score": 8.26,
+    "score": 8.21,
+    "duplicates": 0
+   },
+   {
+    "id": "23d122a6a2",
+    "title": "Treasury yields rise tick higher again to end a volatile week",
+    "link": "https://www.cnbc.com/2026/09/25/treasury-yields-bonds-debt.html",
+    "source": "cnbc_markets",
+    "published_utc": "2026-09-25T13:58:48+00:00",
+    "score": 8.0,
     "duplicates": 0
    },
    {
     "id": "56aa0a6761",
-    "title": "US Stock Futures Rise as Investors See Relief in Yields, Oil - Bloomberg",
+    "title": "US Stock Futures Rise as Investors See Relief in Yields, Oil - bloomberg.com",
     "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPRFVHZWNmbk5oMTFYdThLVmMwWGR1VEI3dUFRdzEwNjQyRnJSNHl0clNGZ3YtZkFhSUJUN2k5Y28yZ0RKLVU5RU5ueFZnODk0TXpPbV9jczU1NGFGeE5OVWRtUW8yTkgzOVFaZ18ySVJCMTZvcGdzQnV4WWFiYmNUdEpGZ1ltSmdzU0h3WnVjLURaX2NndVB0YWVzbTdINU9hWEF2Mmp1RFFoLWFrdXdB?oc=5",
     "source": "gnews_futures",
     "published_utc": "2026-09-25T11:35:50+00:00",
-    "score": 7.64,
+    "score": 7.6,
     "duplicates": 0
    },
    {
@@ -2960,12 +2985,30 @@
     "duplicates": 1
    },
    {
+    "id": "23721769bc",
+    "title": "Dow set for fourth losing week as Treasury yields surge - qz.com",
+    "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTFBSWVFoN0V3M1M5TTR3RVFONUNXNlRFWHRTQmFCT3lic25ZaUR2QWlmY0FaSV8xLTNkdWtyajNHQ0ZQMS12Rm9ZdDl3b3RyeldCS1lvNklUMHNFeVlpMktfZmVUdC1FTWZrcW9GbDhzQ0VKbzA?oc=5",
+    "source": "gnews_macro",
+    "published_utc": "2026-09-25T13:46:34+00:00",
+    "score": 7.46,
+    "duplicates": 0
+   },
+   {
+    "id": "275be91c78",
+    "title": "Update: US Equity Futures Higher Pre-Bell as Treasury Yields Remain Elevated, Oil Prices Decline - Yahoo! Finance Canada",
+    "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQT25DY3dsS1E0Q1dYZHI1WVRUblN2bElIQVZsSmZXWXJPWjZJNllFRlBSajN6QnFHZXdUR09DaFZEaE1SS2hZTmxpcjA3b2VRaUNkOHhqV2R1LVRnbWhLcVUzS1QxR0NYZk1oMlpQTUFVd0JSSU5Gdi1mbDRsSlEtS0F1TQ?oc=5",
+    "source": "gnews_macro",
+    "published_utc": "2026-09-25T13:15:52+00:00",
+    "score": 7.38,
+    "duplicates": 1
+   },
+   {
     "id": "c6e4380139",
     "title": "Dollar set for weekly gains as Treasury yields surge, Fed bets build - Euronext Markets: Real-time Stock Market Data | live",
     "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOUVV0NzRZdU5uQ1l6cm11ZFJGNXRWWDZDalJBYUdaTnQ3RzhEd19kdF9vODc2aGliU3Zxd1lnelNieEJPVXRsR1h4ejA5RmZwa0NTYmRIQlZKVnFMek1BWXdXT2h5UUVBVmpkd2hHWGFKYmhsNENtd1JlekJmREhuUUREai1MRTBvRjFwdHJaalpCbHR0Rndic2l1X3NNZFVSdFdndXI1SQ?oc=5",
     "source": "gnews_macro",
     "published_utc": "2026-09-25T06:03:19+00:00",
-    "score": 7.22,
+    "score": 7.18,
     "duplicates": 0
    },
    {
@@ -2974,48 +3017,22 @@
     "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxObEVfTDBUVVU2Wmp4eWtINzhhTndqSlRBVkpjek9HREhvNVljTkVMZS1BRml3WEVYOVh0WklyeHhvSVI5OUxISGNPaFlCWVp3VzRlMVJvVmk2Ym50a2VuaW9GYmdWcWxPdExwUXdkVFN6eGNyejhqenNSNDhkbWM4QkJabEVDbnhmb0ktLXFrclE2ZXN6cWZ1SHVET3g0Ym1fd3d6UGRGNEtJLUhPQ0JFb2t1Y1ZVYV9BenlCdlJGdENTOFZweWdTRFUwMTVmSDFtQ0HSAdcBQVVfeXFMT2l1ZnA2d3FwYUZVNFVlTFlyVGZYSy1qVkxRMVY2ODNwbG80ZVVQWFdiTzRIYmxBY0RNeE1feEpVZHRvY1pDNFM4YkNBazhWeno3QlNtbmNJUUx2Rms0eklhY0dmZUU5S1E5VGVacTlyNVBHTVBiUG5oa2piMlBRZ3BYQlByckd2d1dxUlhMbzRFNGp0MFlONU16TzZzbEFFUmczT19VZzV6RWhKUmlUcGJzNVU0ekw3VGltZE1fYVdzZG1UeDBzT3JWVjVQNkNTclh3UGxTSnc?oc=5",
     "source": "gnews_futures",
     "published_utc": "2026-09-25T08:44:46+00:00",
-    "score": 7.17,
+    "score": 7.12,
     "duplicates": 1
-   },
-   {
-    "id": "3579881f08",
-    "title": "Alphabet Trades for 17 Times Earnings. The S&P 500 Trades for 25 Times Earnings. Is This the Best Stock to Buy in the Market? - Yahoo Finance",
-    "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQSm95dFZ6V185aDhFQkxYTjJwSUFaV3VnelhabjJNTi1McmQzNTBVODBUUWM3alBOc0tiV3MyLWtrX0NGMkZJNDZwTXFLc2ZkOThIeDJrV3RyVS1wNDQ5bFNBbERTWm9idWNVa1hyQjk5bjU4dWQ2UHVwSERjSkhseExxNDdKRU56U1h0U1NkbVp4UUdxN1l6NTlraUViZU0?oc=5",
-    "source": "gnews_megacap",
-    "published_utc": "2026-09-25T11:35:00+00:00",
-    "score": 7.14,
-    "duplicates": 1
-   },
-   {
-    "id": "f375dc269f",
-    "title": "Manulife Sees Canada Rate Hike Next Month as Inflation Pressures Build - Bloomberg",
-    "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQeTgtWXRLR1RFMW9OT3Q4X29wSEJJX0tsdDdETUY1WWdzd013MXhhLTNkN0tFM1pteGpWWU1YY3l4cUtOZ0RIZEJaRWdNelE1bFhNTy12N0ZlaW5QUUU2YXpTYXFGMWhXRXpaYjAwc0lLNzY5cGVqUHRIa1B1aUs0QnBnc1BpN3ZMOW1MY1dBc09BQjdLYVdqNUswcFcxOW42Nm9tVWE0LS1RdGZ3SjFTQzhJaTdqaXllbmlqSDV3?oc=5",
-    "source": "gnews_macro",
-    "published_utc": "2026-09-25T11:00:00+00:00",
-    "score": 7.04,
-    "duplicates": 0
-   },
-   {
-    "id": "b00c1c12fe",
-    "title": "S&P 500 Divergence Deepens as Treasury Yields Surge - Investing.com",
-    "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNSVJGTVRtaWc1WTN0enJ2anA3ZzNiZFRSel80bXozUGRnQXJGb2dUMWVOeFQxMnVnZGNUdHNYaDJIWEkxVjhGd1BqZ2ItRlphMXUxTXlkbDVRTU9mdW1wLXNMZ2FZT2dtVkZuWEE4ZUtSMWU4eTl5Qy1PUjBxc2dYd05WYW5qd1M5QlJ1R2luNXpZSXVqVWt1QUdBaw?oc=5",
-    "source": "gnews_macro",
-    "published_utc": "2026-09-25T10:57:07+00:00",
-    "score": 7.04,
-    "duplicates": 0
    }
   ],
   "summary": {
    "lines": [
-    "Treasury yields have been the dominant driver overnight, spiking through the session before easing into the morning, which whipsawed futures from lower to higher and keeps rate-sensitive tech levered to any further yield moves [f027a442d9][d21eeb08f3][a4718f08a7][986f6c1a93][56aa0a6761].",
-    "Fed policy uncertainty is in focus as markets weigh how a Warsh-led Fed responds to the yield surge, a backdrop relevant into today's 10:00 ET UoM Consumer Sentiment (cons 47.4, prior 47.8) and Inflation Expectations (prior 4.6%) prints [e1b2d96aae].",
-    "AI-driven mega-cap strength is offsetting inflation worries and lifting tech futures, a factor for Nasdaq-heavy positioning [c62463baec][3579881f08].",
-    "Dollar positioning is shifting as Morgan Stanley reverses its bearish call and other desks flag a weekly dollar gain on the yield surge, relevant for cross-asset flows into the open [62bd19ec68][c6e4380139].",
-    "Broader S&P internals show a widening divergence alongside the yield surge, a signal of uneven participation under the index-level move [b00c1c12fe]."
+    "Treasury yields spiked through the week on hawkish Fed commentary and strong economic data, then eased somewhat Friday morning, whipsawing index futures between gains and losses [23d122a6a2] [f027a442d9] [c6e4380139] [23721769bc] [986f6c1a93] [56aa0a6761].",
+    "Futures were higher pre-bell even as yields stayed elevated, with AI-related tech strength cited alongside inflation concerns [275be91c78] [c62463baec] [a4718f08a7].",
+    "Markets are pricing a firmer Fed stance on inflation under Kevin Warsh, adding to rate-path uncertainty [e1b2d96aae].",
+    "Morgan Stanley reversed its dollar forecast, citing rising bond yields and expected Fed rate hikes [62bd19ec68]."
    ],
    "backend": "anthropic",
    "model": "claude-sonnet-5",
-   "dropped": [],
+   "dropped": [
+    "no valid citation: The 10:00 ET Revised UoM Consumer Sentiment (cons 47.4, prior 47.8) and Inflation Expectations (prior 4.6%) print lands into this yield-driven tape."
+   ],
    "warnings": []
   },
   "feeds": [],
