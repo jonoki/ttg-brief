@@ -1,7 +1,7 @@
 {
  "meta": {
-  "generated_at_utc": "2026-09-25T15:11:15.664225+00:00",
-  "generated_at_local": "Fri 25 Sep 2026 12:11 ADT",
+  "generated_at_utc": "2026-09-25T15:26:38.196171+00:00",
+  "generated_at_local": "Fri 25 Sep 2026 12:26 ADT",
   "trading_day": "2026-09-25",
   "display_tz": "America/Halifax",
   "version": "0.1.0",
@@ -57,10 +57,10 @@
   {
    "root": "ES",
    "trading_day": "2026-09-25",
-   "as_of_utc": "2026-09-25T15:11:15.664225+00:00",
+   "as_of_utc": "2026-09-25T15:26:38.196171+00:00",
    "source": "yahoo",
    "delayed": true,
-   "last_price": 7779.75,
+   "last_price": 7779.5,
    "levels": [
     {
      "tag": "wh",
@@ -211,8 +211,8 @@
     }
    ],
    "stats": {
-    "last_bar_utc": "2026-09-25T15:01:00+00:00",
-    "last_bar_age_min": 10.3,
+    "last_bar_utc": "2026-09-25T15:16:00+00:00",
+    "last_bar_age_min": 10.6,
     "market_state": "open",
     "profile_volume": 1318025.0,
     "prior_day": "2026-09-24",
@@ -1510,20 +1510,28 @@
     {
      "t": "2026-09-25T15:00:00+00:00",
      "o": 7778.25,
-     "h": 7783.25,
-     "l": 7776.75,
+     "h": 7789.0,
+     "l": 7773.5,
      "c": 7779.75,
-     "v": 3566.0
+     "v": 56082.0
+    },
+    {
+     "t": "2026-09-25T15:15:00+00:00",
+     "o": 7780.0,
+     "h": 7781.75,
+     "l": 7778.0,
+     "c": 7779.5,
+     "v": 2673.0
     }
    ]
   },
   {
    "root": "NQ",
    "trading_day": "2026-09-25",
-   "as_of_utc": "2026-09-25T15:11:15.664225+00:00",
+   "as_of_utc": "2026-09-25T15:26:38.196171+00:00",
    "source": "yahoo",
    "delayed": true,
-   "last_price": 30826.0,
+   "last_price": 30828.75,
    "levels": [
     {
      "tag": "exp_hi",
@@ -1674,8 +1682,8 @@
     }
    ],
    "stats": {
-    "last_bar_utc": "2026-09-25T15:01:00+00:00",
-    "last_bar_age_min": 10.3,
+    "last_bar_utc": "2026-09-25T15:16:00+00:00",
+    "last_bar_age_min": 10.6,
     "market_state": "open",
     "profile_volume": 482001.0,
     "prior_day": "2026-09-24",
@@ -2973,10 +2981,18 @@
     {
      "t": "2026-09-25T15:00:00+00:00",
      "o": 30823.0,
-     "h": 30843.0,
-     "l": 30814.0,
-     "c": 30826.0,
-     "v": 1154.0
+     "h": 30871.5,
+     "l": 30806.0,
+     "c": 30820.5,
+     "v": 18511.0
+    },
+    {
+     "t": "2026-09-25T15:15:00+00:00",
+     "o": 30821.0,
+     "h": 30837.75,
+     "l": 30816.5,
+     "c": 30828.75,
+     "v": 754.0
     }
    ]
   }
@@ -2989,7 +3005,7 @@
     "link": "https://www.cnbc.com/2026/09/24/surging-treasury-yields-are-posing-a-brand-new-problem-for-kevin-warsh-and-the-fed.html",
     "source": "cnbc_markets",
     "published_utc": "2026-09-25T11:08:05+00:00",
-    "score": 9.82,
+    "score": 9.78,
     "duplicates": 0
    },
    {
@@ -2998,7 +3014,7 @@
     "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNbVlhNGU2T21TRXdoMURGYkVVLWFsTmFVQ1M0NmxhVmFqU3FmM1RyWko4Q3Jlbk5zQi0yYUZXaTZjZmZ2enJ0RTVqWUZEOWc1US1QbDNKNnZUWUhSWWRBcHo5M2F5bGJQZ0hhemdqWVRja1FOQmVPd0cwd3RfOVhrZTlTb01RMGU2UGlJc0ZkN0lMdi1sbUd1U0VMamd3MC1vOGJaYkozektMTVRfOGJuN3hIamtibzJwYXdacndLdHJBYS0xaGc?oc=5",
     "source": "gnews_futures",
     "published_utc": "2026-09-25T12:28:32+00:00",
-    "score": 8.55,
+    "score": 8.51,
     "duplicates": 1
    },
    {
@@ -3007,7 +3023,7 @@
     "link": "https://www.cnbc.com/2026/09/25/treasury-yields-bonds-debt.html",
     "source": "cnbc_markets",
     "published_utc": "2026-09-25T14:27:33+00:00",
-    "score": 8.38,
+    "score": 8.34,
     "duplicates": 1
    },
    {
@@ -3016,7 +3032,7 @@
     "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQUnlSZk84RVFpMHlSb29GTnppcnA5SmVJQ29sS1BtM3Q4bG1Mb2ZjZFJsTHBVcXM1ZXE1dzdqX2J4ck4zd0lMSWtsdlhydWtiMy05MnQxMjJvQm5rcklsLVZmNEdnQmFPNlFFamRSd3NjTzBVQkEwc2tCLWVfdkxBY2ZoblRidnM1R1dBcnhiSWhkc2hm?oc=5",
     "source": "gnews_futures",
     "published_utc": "2026-09-25T08:29:10+00:00",
-    "score": 8.38,
+    "score": 8.34,
     "duplicates": 1
    },
    {
@@ -3025,7 +3041,7 @@
     "link": "https://www.marketwatch.com/story/we-were-wrong-why-morgan-stanley-changed-its-tune-on-the-u-s-dollar-and-what-it-expects-now-7826fb96?mod=mw_rss_topstories",
     "source": "marketwatch_top",
     "published_utc": "2026-09-25T13:30:00+00:00",
-    "score": 8.22,
+    "score": 8.18,
     "duplicates": 0
    },
    {
@@ -3034,16 +3050,16 @@
     "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE9MUUtfZWtKSUZidFNhMzdIdzdQNjRzckF2dGVFQkN6RXd1Vk56NDA3NWRZZ0Yya0ViTlBkdjlTYmlqRzNIcnlUdnJOTmdudWV0T1BGcjNTMC1zWklIRUtvQ01kdw?oc=5",
     "source": "gnews_futures",
     "published_utc": "2026-09-25T12:17:08+00:00",
-    "score": 8.02,
+    "score": 7.97,
     "duplicates": 0
    },
    {
-    "id": "4d39f441f6",
-    "title": "Richmond Fed chief says it's time to push back on inflation - dailyprogress.com",
-    "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPUE5fbUJRbV9qN0xaRVhFWGs3TU1MRUFtcURnN09HcTJCUTNNS2lodUNsMk1rZXhtTDkxQ3VsbE9Yamg0eENGc2o2TFNrNmFpTmxNRkdTRXZEOENsMzFXRks1a2V2Q2lzSGtwN2lRVU1iM2praFlnN3Nib2pURGVQR2tkeDhkc3p6bmNvTEhwbHNLdy1yRl8xWFhlWG1LQU5uSjhSSmtZRlZxRHBqUi1TWkZld083SWEydkJB?oc=5",
+    "id": "a1e1b1dac4",
+    "title": "Richmond Fed chief says it's time to push back on inflation - The Daily Progress",
+    "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPWjh0cGgwQ1lYdGNva0lyUGRYZDNWZUZTcE4wblRSYnhkS2VTMk1zbHRCTTBiWkNNeC0wSjR2elpUOE1IRnRabVF1RURBRFhBUFF2dlc4R3B4RDJkTTNuYW1ieWo0VkNFMk9oeUtTcE9ZRzlzcGhzVkxkS0V3Qkw2NGd4ZDJCU2ltUmdKRkRmSnNPNnU5aWRLSGZtTVJEN3VwcktrQmM0Z0JWdFA4dUNQRVR1R00zZw?oc=5",
     "source": "gnews_macro",
     "published_utc": "2026-09-25T14:00:00+00:00",
-    "score": 7.3,
+    "score": 7.26,
     "duplicates": 0
    },
    {
@@ -3052,7 +3068,7 @@
     "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTFBSWVFoN0V3M1M5TTR3RVFONUNXNlRFWHRTQmFCT3lic25ZaUR2QWlmY0FaSV8xLTNkdWtyajNHQ0ZQMS12Rm9ZdDl3b3RyeldCS1lvNklUMHNFeVlpMktfZmVUdC1FTWZrcW9GbDhzQ0VKbzA?oc=5",
     "source": "gnews_macro",
     "published_utc": "2026-09-25T13:46:34+00:00",
-    "score": 7.26,
+    "score": 7.22,
     "duplicates": 0
    },
    {
@@ -3061,16 +3077,7 @@
     "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQT25DY3dsS1E0Q1dYZHI1WVRUblN2bElIQVZsSmZXWXJPWjZJNllFRlBSajN6QnFHZXdUR09DaFZEaE1SS2hZTmxpcjA3b2VRaUNkOHhqV2R1LVRnbWhLcVUzS1QxR0NYZk1oMlpQTUFVd0JSSU5Gdi1mbDRsSlEtS0F1TQ?oc=5",
     "source": "gnews_macro",
     "published_utc": "2026-09-25T13:15:52+00:00",
-    "score": 7.18,
-    "duplicates": 1
-   },
-   {
-    "id": "4af0c0345a",
-    "title": "Alphabet Trades for 17 Times Earnings. The S&P 500 Trades for 25 Times Earnings. Is This the Best Stock to Buy in the Market? - The Motley Fool",
-    "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPdmZqdHZWbHdUSVdBNVhQWGR0YTZOZnZsZXRNaV9JNFRsVDBJUmR2T0tSa3VsR0g2ZkVWNmFqc2N6QXJlSHNNNTVKMkxsUmM3MmN1RFdTLXJyOHdpcldLYlRBSWdOZzdPcF9RUUVCdFVMZXByX2s4c3BiNENBMFVoSXhqYkFqSVpRM2cycTVWOVJheG9NdXc4RA?oc=5",
-    "source": "gnews_megacap",
-    "published_utc": "2026-09-25T12:15:00+00:00",
-    "score": 7.01,
+    "score": 7.14,
     "duplicates": 1
    },
    {
@@ -3083,26 +3090,35 @@
     "duplicates": 0
    },
    {
-    "id": "d21eeb08f3",
-    "title": "US Stock Market Today: S&P 500 Futures Slip As Hot Growth Fuels Inflation Worries - simplywall.st",
-    "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxObEVfTDBUVVU2Wmp4eWtINzhhTndqSlRBVkpjek9HREhvNVljTkVMZS1BRml3WEVYOVh0WklyeHhvSVI5OUxISGNPaFlCWVp3VzRlMVJvVmk2Ym50a2VuaW9GYmdWcWxPdExwUXdkVFN6eGNyejhqenNSNDhkbWM4QkJabEVDbnhmb0ktLXFrclE2ZXN6cWZ1SHVET3g0Ym1fd3d6UGRGNEtJLUhPQ0JFb2t1Y1ZVYV9BenlCdlJGdENTOFZweWdTRFUwMTVmSDFtQ0HSAdcBQVVfeXFMT2l1ZnA2d3FwYUZVNFVlTFlyVGZYSy1qVkxRMVY2ODNwbG80ZVVQWFdiTzRIYmxBY0RNeE1feEpVZHRvY1pDNFM4YkNBazhWeno3QlNtbmNJUUx2Rms0eklhY0dmZUU5S1E5VGVacTlyNVBHTVBiUG5oa2piMlBRZ3BYQlByckd2d1dxUlhMbzRFNGp0MFlONU16TzZzbEFFUmczT19VZzV6RWhKUmlUcGJzNVU0ekw3VGltZE1fYVdzZG1UeDBzT3JWVjVQNkNTclh3UGxTSnc?oc=5",
-    "source": "gnews_futures",
-    "published_utc": "2026-09-25T08:44:46+00:00",
-    "score": 6.93,
+    "id": "4af0c0345a",
+    "title": "Alphabet Trades for 17 Times Earnings. The S&P 500 Trades for 25 Times Earnings. Is This the Best Stock to Buy in the Market? - The Motley Fool",
+    "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPdmZqdHZWbHdUSVdBNVhQWGR0YTZOZnZsZXRNaV9JNFRsVDBJUmR2T0tSa3VsR0g2ZkVWNmFqc2N6QXJlSHNNNTVKMkxsUmM3MmN1RFdTLXJyOHdpcldLYlRBSWdOZzdPcF9RUUVCdFVMZXByX2s4c3BiNENBMFVoSXhqYkFqSVpRM2cycTVWOVJheG9NdXc4RA?oc=5",
+    "source": "gnews_megacap",
+    "published_utc": "2026-09-25T12:15:00+00:00",
+    "score": 6.97,
     "duplicates": 1
+   },
+   {
+    "id": "c931981ef3",
+    "title": "How S&P 500, Dow, Nasdaq Futures Are Moving Amid Rising Bond Yields, Trump-Xi Summit - Stocktwits",
+    "link": "https://news.google.com/rss/articles/CBMi_AFBVV95cUxObVpiQ1FnYU9GQ3pvMXhRa0I0YmxKdkFOUWZQT01aMFBIaU5ocUktZ2U5Z01xUWgwVlJET1dZbGU5QThycEE5dUlUTmJ1WjFIT0V0YWhGUTh5V1dkSWxaWmZ4MzRkOTd2XzUtMHFFS1hrcW45c2FFZzJ6bG1fdGh0bmJ6TTJPRHZYRlF1bHF5U3Y4SVk3ZzNUYlFEbEhVVXdTcWl4UWxjb04yak4xNktNRFpNbXliWTF5Sy1zTDI0d0lBM1FRdlVGa0JScndoRk5QQkc1UkFpam5zeFNHOWR6R0RjTzY0SFQ3OVdxRDdDelBvNU5jVTJlZFAwUjQ?oc=5",
+    "source": "gnews_futures",
+    "published_utc": "2026-09-25T14:44:04+00:00",
+    "score": 6.88,
+    "duplicates": 0
    }
   ],
   "summary": {
    "lines": [
-    "Treasury yields have been volatile all week, rising again Friday after hawkish Fed commentary and strong data, then easing in early futures trade, which matters for rate-sensitive Nasdaq names given the swing between risk-off and risk-on tape. [23d122a6a2] [986f6c1a93] [23721769bc] [275be91c78]",
-    "Futures are mixed-to-higher pre-bell despite elevated yields, with AI optimism and tech strength cited as an offset to inflation fears. [c62463baec] [a4718f08a7] [f027a442d9]",
-    "Fed speakers are in focus: Richmond Fed chief said it's time to push back on inflation, and markets are watching how Kevin Warsh would handle a firmer policy stance amid the yield surge. [4d39f441f6] [e1b2d96aae]",
-    "Dollar-focused desks note Morgan Stanley revised its dollar forecast, citing rising bond yields and expected Fed rate hikes as the driver. [62bd19ec68]"
+    "Treasury yields whipsawed overnight into the morning, easing early then rising again to cap a volatile week, with hawkish Fed commentary and stronger data cited as drivers — this is the dominant cross-asset driver for index futures today [986f6c1a93] [23d122a6a2] [a4718f08a7] [f027a442d9].",
+    "Fed speak in focus: Richmond Fed chief said it's time to push back on inflation, and coverage flagged Kevin Warsh facing pressure for a firmer Fed hand on inflation amid the yield surge [a1e1b1dac4] [e1b2d96aae].",
+    "Equity futures were mixed-to-higher pre-bell even as yields stayed elevated, with AI optimism in tech cited as an offsetting force and Dow on pace for a fourth losing week [c62463baec] [275be91c78] [23721769bc] [c931981ef3].",
+    "Dollar-related commentary noted Morgan Stanley reversed its bearish buck call, tying the shift to rising bond yields and expected Fed rate hikes — relevant for cross-asset positioning into the open [62bd19ec68]."
    ],
    "backend": "anthropic",
    "model": "claude-sonnet-5",
    "dropped": [
-    "no valid citation: 10:00 ET brings Revised UoM Consumer Sentiment (cons 47.4, prior 47.8) and Revised UoM Inflation Expectations (prior 4.6%), both relevant to the inflation-and-yields narrative driving futures moves this week."
+    "no valid citation: 10:00 ET brings revised UoM Sentiment (cons 47.4, prior 47.8) and Inflation Expectations (prior 4.6%), a potential volatility trigger given the active yields narrative."
    ],
    "warnings": []
   },
