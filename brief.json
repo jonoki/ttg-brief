@@ -1,7 +1,7 @@
 {
  "meta": {
-  "generated_at_utc": "2026-09-28T14:15:06.062719+00:00",
-  "generated_at_local": "Mon 28 Sep 2026 11:15 ADT",
+  "generated_at_utc": "2026-09-28T14:30:27.047061+00:00",
+  "generated_at_local": "Mon 28 Sep 2026 11:30 ADT",
   "trading_day": "2026-09-28",
   "display_tz": "America/Halifax",
   "version": "0.1.0",
@@ -55,7 +55,7 @@
    "time_utc": "2026-09-29T14:00:00+00:00",
    "local": "11:00 ADT",
    "et": "10:00 ET",
-   "in": "23h 44m",
+   "in": "23h 29m",
    "consensus": "90.1",
    "prior": "89.4"
   },
@@ -66,10 +66,10 @@
   {
    "root": "ES",
    "trading_day": "2026-09-28",
-   "as_of_utc": "2026-09-28T14:15:06.062719+00:00",
+   "as_of_utc": "2026-09-28T14:30:27.047061+00:00",
    "source": "yahoo",
    "delayed": true,
-   "last_price": 7766.75,
+   "last_price": 7763.25,
    "levels": [
     {
      "tag": "exp_hi",
@@ -234,8 +234,8 @@
     }
    ],
    "stats": {
-    "last_bar_utc": "2026-09-28T14:05:00+00:00",
-    "last_bar_age_min": 10.1,
+    "last_bar_utc": "2026-09-28T14:20:00+00:00",
+    "last_bar_age_min": 10.5,
     "market_state": "open",
     "profile_volume": 1296922.0,
     "prior_day": "2026-09-25",
@@ -1502,19 +1502,27 @@
      "t": "2026-09-28T14:00:00+00:00",
      "o": 7773.0,
      "h": 7773.75,
-     "l": 7763.75,
-     "c": 7766.75,
-     "v": 15413.0
+     "l": 7759.25,
+     "c": 7762.0,
+     "v": 47653.0
+    },
+    {
+     "t": "2026-09-28T14:15:00+00:00",
+     "o": 7762.25,
+     "h": 7766.75,
+     "l": 7760.0,
+     "c": 7763.25,
+     "v": 18002.0
     }
    ]
   },
   {
    "root": "NQ",
    "trading_day": "2026-09-28",
-   "as_of_utc": "2026-09-28T14:15:06.062719+00:00",
+   "as_of_utc": "2026-09-28T14:30:27.047061+00:00",
    "source": "yahoo",
    "delayed": true,
-   "last_price": 30593.75,
+   "last_price": 30560.5,
    "levels": [
     {
      "tag": "exp_hi",
@@ -1636,13 +1644,6 @@
      "note": ""
     },
     {
-     "tag": "tdl",
-     "label": "Today's RTH low",
-     "price": 30573.5,
-     "group": "today",
-     "note": ""
-    },
-    {
      "tag": "rn_minor_dn",
      "label": "Round 50 below",
      "price": 30550.0,
@@ -1657,9 +1658,16 @@
      "note": ""
     },
     {
+     "tag": "tdl",
+     "label": "Today's RTH low",
+     "price": 30503.0,
+     "group": "today",
+     "note": ""
+    },
+    {
      "tag": "wl",
      "label": "Week low",
-     "price": 30531.0,
+     "price": 30503.0,
      "group": "week",
      "note": ""
     },
@@ -1686,8 +1694,8 @@
     }
    ],
    "stats": {
-    "last_bar_utc": "2026-09-28T14:05:00+00:00",
-    "last_bar_age_min": 10.1,
+    "last_bar_utc": "2026-09-28T14:20:00+00:00",
+    "last_bar_age_min": 10.5,
     "market_state": "open",
     "profile_volume": 416353.0,
     "prior_day": "2026-09-25",
@@ -2962,9 +2970,17 @@
      "t": "2026-09-28T14:00:00+00:00",
      "o": 30651.25,
      "h": 30658.0,
-     "l": 30573.5,
-     "c": 30593.75,
-     "v": 7704.0
+     "l": 30503.0,
+     "c": 30522.0,
+     "v": 27926.0
+    },
+    {
+     "t": "2026-09-28T14:15:00+00:00",
+     "o": 30521.5,
+     "h": 30584.0,
+     "l": 30520.5,
+     "c": 30560.5,
+     "v": 9176.0
     }
    ]
   }
@@ -2977,8 +2993,17 @@
     "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9hM1RqVzhUbW40b0o2dm1GUUROUS1rQ05qNVpUQ3Fndmp3VUlZYkdxTnJTWEpfeGYtb2hFX0c0ZW5hNWNWaEppa2hDUUhGRmhMZnZrcVlyUC1CQTU4LTEzU3ZYWVRGZ1lISGVZRXBRYWNqRmtu?oc=5",
     "source": "gnews_futures",
     "published_utc": "2026-09-28T11:53:47+00:00",
-    "score": 9.61,
+    "score": 9.56,
     "duplicates": 1
+   },
+   {
+    "id": "4b856607d4",
+    "title": "Are investors still confident the Fed can tame inflation as yields sell off further? - Yahoo Finance",
+    "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQcndFbDY5TnA0aHg5V0RlZlpZYmQ0azJubGtEcmI5VThOclFUX2hRYThoRWFSdjZJV01PdVZheU5YYmpVMmJIYm5kanUyd29sdUhJYkNZMXlCa1RpclgxekJ2VWhVNlgzZ01rVk1laHZtTDNVMFU0U1J3c21QMG53d2Nmb2xDUXNS?oc=5",
+    "source": "gnews_macro",
+    "published_utc": "2026-09-28T14:15:37+00:00",
+    "score": 9.46,
+    "duplicates": 0
    },
    {
     "id": "08d2231de6",
@@ -2986,7 +3011,7 @@
     "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQQzVSOW5Hbm50bW5GTlJ6cWlwMkRrbl9HQWJfQmhOZ2t6ZTBZY3ByQWdqaUhLc1h6bFJmczNGVElYQXFPOWs5ejlNUmNKTHBGVEI1S0RLdnM0TDRuSzJSNlRteWhjTl9qTmhEdXc4dHd4anRNdjhIVDBTbWhXbXlIOTg0blcza1lPTl9FZ1RLYUp0UzVMTUFzUnlMMWlpTlM5SjlrdVN2NFQzb29GaGNIUFA5VG9Nd183ajhqN2pUXzc?oc=5",
     "source": "gnews_macro",
     "published_utc": "2026-09-28T08:07:41+00:00",
-    "score": 8.98,
+    "score": 8.94,
     "duplicates": 0
    },
    {
@@ -2995,7 +3020,7 @@
     "link": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxQWVZ1b3ZCcC1TRy1tYWp6d2lPQWttclJUMkVGbGFxV0FlSUxxd0N6VWhEQ2IwX1BvMEExci12Wk5uZU5HSzQ5aGJ1Wm51d3hZb0hTRE9VNXpYY2NPeHpELUl0MWU5Yl9rQ2dXZF9YZGZBMmZrRDQtWkdyMWhOMzRyeFJLWC1CaEFJRTRxckRYdkowbkd4QVJOd292Zy1xVHFkZUY1QTZRWG9kMDdTcnIzTS1wQWJyQkc5YnJpLTltT0xhRDBYcXNNVVBBX193eGRObmFZRU0tdVkxZ2lkaUFmWXdR0gHnAUFVX3lxTE5vT3NmZDJHV3lVWHZHZ3FVVHI4MzVPR0U4emlacFg4YS15TjhCTkt5eXc1YlNNTjV2UWpVNVZ2U2dGdm5qcWNKb2RZdXlnaHV6RE0tMHFVQ3Y3XzFObzVKSEJGbWxReFN2b3pCbUxiMXV4bHNHdmU1dEhZNndnX1IzeTNVSjFMdkI4Y1A4akY2YmNPSmU2UDJTLUY3UUxpZ1VnODhZczdHN1lKSUdLa0wzYTZGeTlqN2syQ0M3bFR0WG53SW9XSVRvS1pZakhaYnZyTlZIc2JNSjRVSmtlRUFEdVJWQ2NHSQ?oc=5",
     "source": "gnews_futures",
     "published_utc": "2026-09-28T10:26:09+00:00",
-    "score": 8.86,
+    "score": 8.82,
     "duplicates": 0
    },
    {
@@ -3004,25 +3029,25 @@
     "link": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxQM1o2S00xMGJUM3R4ZG9kZ2ZsR0NnR0x3UHhvb0VtSHE0STVob2l4X2llaFF1el9Fa2lvaXF1NU5jV0tUTjBua3pBcE84ZlJPeUZhY3plc0xaRzBKTzZOTEphNlVnY3ZmRTQtSE9CVFpMenFQRHBUUUpwY3lTRkRJQXp1TnFSbWQ3aUdwaEd6V3Z1dmZEa0NzeTNOeVRwc0dGZE9IV2lPZUV1NVVrRGJmRE56cGNXVW5ObFkwOHdvdXplUUFMTllEYU9acElub0kwZGgwcUFDREFERTA2TVBBeThOSVJTVzh4QzN0NUtvUExfNXFxbEE?oc=5",
     "source": "gnews_futures",
     "published_utc": "2026-09-28T08:39:29+00:00",
-    "score": 8.57,
+    "score": 8.53,
     "duplicates": 0
    },
    {
     "id": "292461bfba",
-    "title": "Gold’s Inflation Hedge Falters as Oil Lifts Fed Bets, Highlighting Low-Cost Miners’ Margin Edge - Crux Investor",
+    "title": "Gold’s Inflation Hedge Falters as Oil Lifts Fed Bets, Highlighting Low-Cost Miners’ Margin Edge - cruxinvestor.com",
     "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPamJLY3J0RktzREJIM2FnTDYtTFpyazBhSmlmS2ZLYlZoSVhlWENsWGhIRnN4ZE5qcGhiMnduNVpoQlVhWTVmT0tOWGR5dFcyVkNtQ0JfQ0hpbVc5ZG5ISE1fc0JxTXB1bEl3c0tYRVZRdzUteFV4dk9yb185MVF1VlNBYlloajNxOXI2bXpYQl9LT1h1WGRhd0pnUmY2Z19GbWtlek5GUkdIYm5BOXlFYTVrUWZEUENIdUNYMkxvYUp0RTVnY3c?oc=5",
     "source": "gnews_macro",
     "published_utc": "2026-09-28T13:56:12+00:00",
-    "score": 8.45,
+    "score": 8.4,
     "duplicates": 0
    },
    {
     "id": "74293fb8af",
-    "title": "Nasdaq 100 Forecast: NDX falls as oil jumps and Treasury yields rise - FOREX.com",
+    "title": "Nasdaq 100 Forecast: NDX falls as oil jumps and Treasury yields rise - forex.com",
     "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQa216SEQwT0ppQkpueW1uR1pyMlV4NWtLU3JLdVJkeTYzeV9qSFI0bnAwZjBKeHRKdjZmSFhuaU81UTg3OEZCZkNTY196SlNjd3NhQU1VNDFNU3d5Y3Btem1mM01kckd5TEp1QzFqRWtwVWhTSE1VcjBISmVVTG91SFhlX3MtSTFpX21xQXd0V01SUUJCTzlBYVBYZThwNl9qMndfUERKa1hjUjNwRGtUb1dtc1E?oc=5",
     "source": "gnews_macro",
     "published_utc": "2026-09-28T13:49:09+00:00",
-    "score": 8.43,
+    "score": 8.39,
     "duplicates": 1
    },
    {
@@ -3031,7 +3056,7 @@
     "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNc3Q4ZUs1VmE0dld6TVJWM0JPem5yWFJGSWo2N25UNW5MZ3dBQXQ2OXRGY2pIT0JIS0tILVRTZFhCbEdYNmNsNWpHdlZYaUNiQXBNc2I1RGczdWU4TE5reXozU0paY0lfZVNNeXl2SC1tSWctQm5NVXl3MG9CQm5HSy15UlcxR2c0Ym5SUXQxVlZ2NVNmMGREM2VTdWo0T29vaU5ZcWtqaHIxVlRpdGIzODh0bw?oc=5",
     "source": "gnews_futures",
     "published_utc": "2026-09-28T13:05:10+00:00",
-    "score": 8.31,
+    "score": 8.26,
     "duplicates": 0
    },
    {
@@ -3040,7 +3065,7 @@
     "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPbEY3MWZlLU5Td1VqZ1RFc1R6Q1RYLXJtZXVrWmRCa25aQk1MblNUeXQwWEdLRnVhbnFwSVR3Q0FDc0FVdW5hV3lPQ1R6b1g5V0E3Nm91bk5IRFpvNlRWVWVnYlJ1dVVLRnVpMDh1dmNIbGpldzdBXzFhbWliRDE0RU9TemRvMk5jaVpWQm1Va1RuekRUc3NmbzVkSTJlbVE2MmVISVBvM25uR1ZLSVh5YkFB?oc=5",
     "source": "gnews_futures",
     "published_utc": "2026-09-28T13:04:10+00:00",
-    "score": 7.8,
+    "score": 7.76,
     "duplicates": 0
    },
    {
@@ -3049,7 +3074,7 @@
     "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQd1hHcnpXN0QwTHN4MXQwQUxqQ2hfQUQycEJoR21sZldJaEtNU21YUDFzcHBLamZqdm5QeEc5SDdiY2Z1YkxUd0VGM0tPSEZEVWRuRUROR2EydkI2bXlHZ0NMS25Ca0tSUFZ4TEhMOS0xekpjd0V6T19fcFdCTTc1aWJGUGJqdWpZUXR6R0ZCMk91SDd3c3c?oc=5",
     "source": "gnews_futures",
     "published_utc": "2026-09-28T09:44:19+00:00",
-    "score": 7.75,
+    "score": 7.71,
     "duplicates": 0
    },
    {
@@ -3058,7 +3083,7 @@
     "link": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxORUFjRG9oQXpISWlXd2VJeGRQTVBONExzbUtkdzRMUDNiSnJkQWM3UUludlRTTDY4Vk5tR29FblVwQlFwZEozQ0ZCOC1sWjJwSTJ3NDhhOHFWMXg4SUs5SWNocmJXQlZRcGFrU2JHTnNsczh3QjR3UEV5cnA3b1lOYkpjd3Q1Rm9iMVI5N09NaHBkc0NJR0U5WTBuWTNlRDliZ1NKWTkwRV9uR0JWUUFPSWRhOUczNHlaWjRmeWxsMDdkX2NBdlYzZ1liRWpuUzVucFpUM0NFSl9Vdw?oc=5",
     "source": "gnews_futures",
     "published_utc": "2026-09-28T12:06:02+00:00",
-    "score": 7.64,
+    "score": 7.6,
     "duplicates": 0
    },
    {
@@ -3067,25 +3092,16 @@
     "link": "https://news.google.com/rss/articles/CBMihwJBVV95cUxOUU5iQmx2VE1mdExSYlZ4c0xKa3lra2M1TTRyQjY3RmMtX1EydU9yR0sxNFNjR2NCVW1Jd3F0RmZrV0tiUVdfNzhoSmNDRlVBdk9KWG9ndEVNNkdqTGZkbzFndzkwTUNFSk1UeHFsZzZHdDhZd1F6QkJ2SGcxM1J3bUVfSzZvdURQX3l1bVhNS283U3JOLXpyVUo3NE1DRk1FYmdFVXhsRlM3bktEdlJHbm5tYW1CdzQ3T1hEdUlBYjExaGczYWdUMVZtVHUyTm1fR0ROQ3dqazVBNXJTQVNSbDc2UFFMUGp5RVhxSGVZRkZXOTRWemg3c2ZKSXZET2R3Nl82ZnJNMA?oc=5",
     "source": "gnews_futures",
     "published_utc": "2026-09-28T03:04:00+00:00",
-    "score": 7.64,
-    "duplicates": 0
-   },
-   {
-    "id": "2b79da38e0",
-    "title": "Micron could dethrone Nvidia and become the biggest driver of S&P 500 profit growth",
-    "link": "https://www.marketwatch.com/story/micron-could-dethrone-nvidia-and-become-the-biggest-driver-of-s-p-500-profit-growth-d62e0e68?mod=mw_rss_topstories",
-    "source": "marketwatch_top",
-    "published_utc": "2026-09-28T11:47:00+00:00",
-    "score": 7.09,
+    "score": 7.59,
     "duplicates": 0
    }
   ],
   "summary": {
    "lines": [
-    "Futures are down as oil jumps (Brent above $106) and Treasury yields extend their selloff after Trump rejected Iran's peace proposal, a macro combo that pressures risk assets and raises Fed rate-hike concerns heading into jobs week [9b6db5ac05][08d2231de6][68c8d3084a][4916ca333b][dd503d06de][336bb39094][dfcc28183b][f95518fce0][74293fb8af]",
-    "Nasdaq futures specifically are noted falling nearly 1% with tech stocks under pressure, adding AI-related concerns and Nvidia news to the mix for MNQ traders [77844987fa][4916ca333b][dfcc28183b]",
-    "Micron is flagged as an increasingly significant driver of S&P 500 profit growth, with its earnings report described as a standalone market event, relevant given MU appears across the Iran/oil headlines too [2b79da38e0][4916ca333b][f95518fce0]",
-    "Gold's inflation-hedge dynamic is shifting as oil moves lift Fed rate expectations, a cross-asset signal worth watching alongside the yield selloff [292461bfba]"
+    "Oil prices jumped after Trump rejected Iran's peace proposal, with Brent topping $106, pressuring risk assets into the open [68c8d3084a][4916ca333b][f95518fce0][dfcc28183b].",
+    "Treasury yields extended their selloff, reviving Fed rate-hike fears and dragging futures lower as jobs week begins [08d2231de6][dd503d06de][336bb39094][4b856607d4][9b6db5ac05].",
+    "Nasdaq/Nasdaq 100 futures fell nearly 1% with tech under pressure and Nvidia in focus amid AI concerns [77844987fa][74293fb8af][dfcc28183b].",
+    "Gold's inflation-hedge trade weakened as rising oil boosts Fed rate-hike bets, a cross-asset signal worth watching alongside equities [292461bfba]."
    ],
    "backend": "anthropic",
    "model": "claude-sonnet-5",
