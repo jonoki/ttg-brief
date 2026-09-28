@@ -1,7 +1,7 @@
 {
  "meta": {
-  "generated_at_utc": "2026-09-28T10:40:27.139552+00:00",
-  "generated_at_local": "Mon 28 Sep 2026 07:40 ADT",
+  "generated_at_utc": "2026-09-28T10:55:45.630328+00:00",
+  "generated_at_local": "Mon 28 Sep 2026 07:55 ADT",
   "trading_day": "2026-09-28",
   "display_tz": "America/Halifax",
   "version": "0.1.0",
@@ -55,7 +55,7 @@
    "time_utc": "2026-09-29T14:00:00+00:00",
    "local": "11:00 ADT",
    "et": "10:00 ET",
-   "in": "27h 19m",
+   "in": "27h 04m",
    "consensus": "90.1",
    "prior": "89.4"
   },
@@ -66,10 +66,10 @@
   {
    "root": "ES",
    "trading_day": "2026-09-28",
-   "as_of_utc": "2026-09-28T10:40:27.139552+00:00",
+   "as_of_utc": "2026-09-28T10:55:45.630328+00:00",
    "source": "yahoo",
    "delayed": true,
-   "last_price": 7760.25,
+   "last_price": 7761.5,
    "levels": [
     {
      "tag": "exp_hi",
@@ -125,7 +125,7 @@
      "label": "Overnight high",
      "price": 7792.25,
      "group": "overnight",
-     "note": "since 18:00 ET, 740 bars"
+     "note": "since 18:00 ET, 755 bars"
     },
     {
      "tag": "wh",
@@ -158,7 +158,7 @@
     {
      "tag": "onvwap",
      "label": "Overnight VWAP",
-     "price": 7774.47,
+     "price": 7774.3,
      "group": "overnight",
      "note": "typical-price VWAP"
     },
@@ -213,14 +213,14 @@
     }
    ],
    "stats": {
-    "last_bar_utc": "2026-09-28T10:30:00+00:00",
-    "last_bar_age_min": 10.5,
+    "last_bar_utc": "2026-09-28T10:45:00+00:00",
+    "last_bar_age_min": 10.8,
     "market_state": "open",
     "profile_volume": 1296922.0,
     "prior_day": "2026-09-25",
     "prior_day_rth_range": 62.0,
     "overnight_range": 35.25,
-    "gap_vs_prior_close": -44.25,
+    "gap_vs_prior_close": -43.0,
     "gap_basis": "last price (pre-market)",
     "atr14": 81.19,
     "atr_days": 14,
@@ -1368,9 +1368,17 @@
     {
      "t": "2026-09-28T10:30:00+00:00",
      "o": 7761.75,
-     "h": 7762.5,
+     "h": 7762.75,
      "l": 7759.5,
-     "c": 7760.25,
+     "c": 7760.75,
+     "v": 2259.0
+    },
+    {
+     "t": "2026-09-28T10:45:00+00:00",
+     "o": 7761.0,
+     "h": 7761.75,
+     "l": 7760.75,
+     "c": 7761.5,
      "v": 0.0
     }
    ]
@@ -1378,10 +1386,10 @@
   {
    "root": "NQ",
    "trading_day": "2026-09-28",
-   "as_of_utc": "2026-09-28T10:40:27.139552+00:00",
+   "as_of_utc": "2026-09-28T10:55:45.630328+00:00",
    "source": "yahoo",
    "delayed": true,
-   "last_price": 30567.0,
+   "last_price": 30578.5,
    "levels": [
     {
      "tag": "exp_hi",
@@ -1430,7 +1438,7 @@
      "label": "Overnight high",
      "price": 30898.25,
      "group": "overnight",
-     "note": "since 18:00 ET, 740 bars"
+     "note": "since 18:00 ET, 755 bars"
     },
     {
      "tag": "wh",
@@ -1463,7 +1471,7 @@
     {
      "tag": "onvwap",
      "label": "Overnight VWAP",
-     "price": 30698.08,
+     "price": 30696.89,
      "group": "overnight",
      "note": "typical-price VWAP"
     },
@@ -1532,14 +1540,14 @@
     }
    ],
    "stats": {
-    "last_bar_utc": "2026-09-28T10:30:00+00:00",
-    "last_bar_age_min": 10.5,
+    "last_bar_utc": "2026-09-28T10:45:00+00:00",
+    "last_bar_age_min": 10.8,
     "market_state": "open",
     "profile_volume": 416353.0,
     "prior_day": "2026-09-25",
     "prior_day_rth_range": 267.5,
     "overnight_range": 367.25,
-    "gap_vs_prior_close": -324.5,
+    "gap_vs_prior_close": -313.0,
     "gap_basis": "last price (pre-market)",
     "atr14": 473.83,
     "atr_days": 14,
@@ -2695,9 +2703,17 @@
     {
      "t": "2026-09-28T10:30:00+00:00",
      "o": 30575.25,
-     "h": 30581.25,
+     "h": 30585.5,
      "l": 30561.5,
-     "c": 30567.0,
+     "c": 30576.25,
+     "v": 982.0
+    },
+    {
+     "t": "2026-09-28T10:45:00+00:00",
+     "o": 30575.5,
+     "h": 30579.25,
+     "l": 30573.75,
+     "c": 30578.5,
      "v": 0.0
     }
    ]
@@ -2711,7 +2727,7 @@
     "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQQzVSOW5Hbm50bW5GTlJ6cWlwMkRrbl9HQWJfQmhOZ2t6ZTBZY3ByQWdqaUhLc1h6bFJmczNGVElYQXFPOWs5ejlNUmNKTHBGVEI1S0RLdnM0TDRuSzJSNlRteWhjTl9qTmhEdXc4dHd4anRNdjhIVDBTbWhXbXlIOTg0blcza1lPTl9FZ1RLYUp0UzVMTUFzUnlMMWlpTlM5SjlrdVN2NFQzb29GaGNIUFA5VG9Nd183ajhqN2pUXzc?oc=5",
     "source": "gnews_macro",
     "published_utc": "2026-09-28T08:07:41+00:00",
-    "score": 9.58,
+    "score": 9.53,
     "duplicates": 0
    },
    {
@@ -2720,7 +2736,7 @@
     "link": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxQWVZ1b3ZCcC1TRy1tYWp6d2lPQWttclJUMkVGbGFxV0FlSUxxd0N6VWhEQ2IwX1BvMEExci12Wk5uZU5HSzQ5aGJ1Wm51d3hZb0hTRE9VNXpYY2NPeHpELUl0MWU5Yl9rQ2dXZF9YZGZBMmZrRDQtWkdyMWhOMzRyeFJLWC1CaEFJRTRxckRYdkowbkd4QVJOd292Zy1xVHFkZUY1QTZRWG9kMDdTcnIzTS1wQWJyQkc5YnJpLTltT0xhRDBYcXNNVVBBX193eGRObmFZRU0tdVkxZ2lkaUFmWXdR0gHnAUFVX3lxTE5vT3NmZDJHV3lVWHZHZ3FVVHI4MzVPR0U4emlacFg4YS15TjhCTkt5eXc1YlNNTjV2UWpVNVZ2U2dGdm5qcWNKb2RZdXlnaHV6RE0tMHFVQ3Y3XzFObzVKSEJGbWxReFN2b3pCbUxiMXV4bHNHdmU1dEhZNndnX1IzeTNVSjFMdkI4Y1A4akY2YmNPSmU2UDJTLUY3UUxpZ1VnODhZczdHN1lKSUdLa0wzYTZGeTlqN2syQ0M3bFR0WG53SW9XSVRvS1pZakhaYnZyTlZIc2JNSjRVSmtlRUFEdVJWQ2NHSQ?oc=5",
     "source": "gnews_futures",
     "published_utc": "2026-09-28T10:26:09+00:00",
-    "score": 9.46,
+    "score": 9.42,
     "duplicates": 0
    },
    {
@@ -2729,7 +2745,16 @@
     "link": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxQM1o2S00xMGJUM3R4ZG9kZ2ZsR0NnR0x3UHhvb0VtSHE0STVob2l4X2llaFF1el9Fa2lvaXF1NU5jV0tUTjBua3pBcE84ZlJPeUZhY3plc0xaRzBKTzZOTEphNlVnY3ZmRTQtSE9CVFpMenFQRHBUUUpwY3lTRkRJQXp1TnFSbWQ3aUdwaEd6V3Z1dmZEa0NzeTNOeVRwc0dGZE9IV2lPZUV1NVVrRGJmRE56cGNXVW5ObFkwOHdvdXplUUFMTllEYU9acElub0kwZGgwcUFDREFERTA2TVBBeThOSVJTVzh4QzN0NUtvUExfNXFxbEE?oc=5",
     "source": "gnews_futures",
     "published_utc": "2026-09-28T08:39:29+00:00",
-    "score": 9.16,
+    "score": 9.12,
+    "duplicates": 0
+   },
+   {
+    "id": "dfcc28183b",
+    "title": "US Stock Futures Fall as Iran Tensions, Higher Oil and AI Concerns Weigh: Dow Jones, S&P, Nasdaq, Wall Street - Yahoo Finance",
+    "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQd1hHcnpXN0QwTHN4MXQwQUxqQ2hfQUQycEJoR21sZldJaEtNU21YUDFzcHBLamZqdm5QeEc5SDdiY2Z1YkxUd0VGM0tPSEZEVWRuRUROR2EydkI2bXlHZ0NMS25Ca0tSUFZ4TEhMOS0xekpjd0V6T19fcFdCTTc1aWJGUGJqdWpZUXR6R0ZCMk91SDd3c3c?oc=5",
+    "source": "gnews_futures",
+    "published_utc": "2026-09-28T09:44:19+00:00",
+    "score": 8.3,
     "duplicates": 0
    },
    {
@@ -2738,7 +2763,7 @@
     "link": "https://news.google.com/rss/articles/CBMihwJBVV95cUxOUU5iQmx2VE1mdExSYlZ4c0xKa3lra2M1TTRyQjY3RmMtX1EydU9yR0sxNFNjR2NCVW1Jd3F0RmZrV0tiUVdfNzhoSmNDRlVBdk9KWG9ndEVNNkdqTGZkbzFndzkwTUNFSk1UeHFsZzZHdDhZd1F6QkJ2SGcxM1J3bUVfSzZvdURQX3l1bVhNS283U3JOLXpyVUo3NE1DRk1FYmdFVXhsRlM3bktEdlJHbm5tYW1CdzQ3T1hEdUlBYjExaGczYWdUMVZtVHUyTm1fR0ROQ3dqazVBNXJTQVNSbDc2UFFMUGp5RVhxSGVZRkZXOTRWemg3c2ZKSXZET2R3Nl82ZnJNMA?oc=5",
     "source": "gnews_futures",
     "published_utc": "2026-09-28T03:04:00+00:00",
-    "score": 8.23,
+    "score": 8.19,
     "duplicates": 0
    },
    {
@@ -2747,16 +2772,16 @@
     "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNc3Q4ZUs1VmE0dld6TVJWM0JPem5yWFJGSWo2N25UNW5MZ3dBQXQ2OXRGY2pIT0JIS0tILVRTZFhCbEdYNmNsNWpHdlZYaUNiQXBNc2I1RGczdWU4TE5reXozU0paY0lfZVNNeXl2SC1tSWctQm5NVXl3MG9CQm5HSy15UlcxR2c0Ym5SUXQxVlZ2NVNmMGREM2VTdWo0T29vaU5ZcWtqaHIxVlRpdGIzODh0bw?oc=5",
     "source": "gnews_futures",
     "published_utc": "2026-09-28T08:37:00+00:00",
-    "score": 8.16,
+    "score": 8.11,
     "duplicates": 0
    },
    {
-    "id": "d892086341",
-    "title": "US and China release reciprocal $30 billion product lists for tariff cuts after Trump-Xi meeting - bozemandailychronicle.com",
-    "link": "https://news.google.com/rss/articles/CBMimAJBVV95cUxORUxOZXdWNEJOQXlIdVFnbzIxendmVVdncWFVM1VwNDFKdFJIYk55X1gtMmlkX0ZNYjBqSHM5dTA2X2k5dlZJUG5UWVc4YlRtcGNYN0ZKOUFBNUp5U0JwVE5Db0hfMjZ5ampBZ3V0Rk94N1BLWkk0UEpwWTYyT1ZQU252T2VoQ3JMelkzMnplSjRURHhLbHdDdTNZUHlHUDBtUkQ0TlRBWjhZVUZvVGkzUWxTdURPeWVxZnJXSks3NmFhcFlHc3hVTF9tUlBDbzJZVExNYy1tNFpLM2FJV0Z0eW5DcjZibjBOODJ1akJiSFJEaUI4UTZ4VUUxR2tMQnBtejlBMnJTMS1lN1ZuUWhNWlN2OVBFR0Jj?oc=5",
+    "id": "b15157a662",
+    "title": "U.S., China release reciprocal $30 billion product lists for tariff cuts after Trump-Xi meeting - The Tribune-Democrat",
+    "link": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxQOE13RW1VX3JfTkdSREFvUjFhUWtDRHFLRTRUTkowb3dUYnNXVklUajVwbUhkTEx2aFQwTTVXUUd1R3FmaDJTOW9jMnU3UVFncUttNW1VVFFsc0l3WEdfcWxieXhQWTV6VFZVXzAzbC1ZaHl1TE51Vy13WTc2enpCeXpZNU5KNEs5UjJVVnN4azRCcjI2UWwzSmtOYjNzdndvOFFXZlJ1YzI5VHFHd0NiZUlOXzJSdWxRLVlDT2drUm5ON3VheXJ3VlN6TEhTbHJjVjBJWFJTOWxLTGNKcFUyd3dnT3NUdFZnM3gxVVhlM2oyMmNmZXc?oc=5",
     "source": "gnews_macro",
-    "published_utc": "2026-09-28T09:25:00+00:00",
-    "score": 7.79,
+    "published_utc": "2026-09-28T10:35:00+00:00",
+    "score": 7.94,
     "duplicates": 4
    },
    {
@@ -2765,8 +2790,17 @@
     "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxOZU9VYTZLVHpqZzlQXzJjUTQzZjV4M0FyYWpJUEoyWVlEMUdzWGlxMFllZ1JUMklPcFJuOHBnQnFJM1ZCMUxKNERfZjRsODJxS1prQzE4VEtuLXVyRDJ6TUNRbjl6d3ZJRUh5bEhHRTlSRkNaaVlNOU5rdGdPdllOazJJX0pEM2NiYzA5Z29ZaDcwNnQ2Sy1ZaUlLOEUxbHQxN2pseU1tOFZqem9NZGUxNHBKd1JkblFVU282cXkzOUpYWEpFeDhpTnFUbE3SAdIBQVVfeXFMUF9HV2ZMaGF2TzJtYXhNbXFBR3ZYRzdZQ0JKVGhyZlM4NWdsWXhrVjdEeWR6dW03Qi10MTAxWFJ0TEROblhRLS0xVVZCb0ZaRThOX2thR0FkTVdaNlhzWkw5NmtYN3RFU1EtWEppcWY3MXFvZkgtNUhKU2tmNjBVbUt0aUFQb0RhbXM4dXFSVmpTSmN2VWNJNE9tQWFON2Ita25ocmVxWmpfRGhkMHQ3MWIzdDRtNTVGUFAzV0FLOHg0b1JwaU0zTEdCcGg4RUN3UjBB?oc=5",
     "source": "gnews_futures",
     "published_utc": "2026-09-28T08:26:18+00:00",
-    "score": 7.63,
+    "score": 7.58,
     "duplicates": 1
+   },
+   {
+    "id": "f426393f44",
+    "title": "The Federal Reserve takes strong action against inflation, accelerating the repricing of short-end U.S. Treasuries! The challenge is once again thrown to Bessent. - news.futunn.com",
+    "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNY295ODRiU2pCNnBpdk1rVEhRMThjXzlkU3pIYjNCTXJ3ZmRqYVBpUjJheTcza1ZTYVRjcXlsdGxiZGJvNllEcmZLRXNkTk9TWTJ2ZlQzb09XdjV4N3FaUXM0TFRjTjhJdERON2lJTEUyMzR6R1ktaXlwYjBSVEVCS3Uydkp6TDUxV1FQalNfZHphN2pYODhvQlZoRU00QU9EbURpRWtEWjN5amJQRU13bFJfR1NPRlR5?oc=5",
+    "source": "gnews_fed",
+    "published_utc": "2026-09-28T10:46:49+00:00",
+    "score": 7.48,
+    "duplicates": 0
    },
    {
     "id": "b33db243e6",
@@ -2774,7 +2808,7 @@
     "link": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxOQ2RVMjVjTTNJeWZSQ2xCQVJaeGJZYWVlQ0dWMUdkUjBrU3JCMGQ3X1dEZmRERlZmMGRlZC1HWHRCSk13bHlYWUtZRms1bWdmSU15Z3Q2RmNpUDhsMWZSa19mUDVQaFhnMUo1MmJ4V2dfSGdaa1VwRjZsWVJVd3dDcjM3Y0pOcDBKNkRHdXZkV29jWm1DaERqLVdRaE1CandxaUxWRHJjampFejk1RkphOS1KYVlFVS00WkxuQS0yeXhVUWNTLTVHT0tDSGtvS0pwWjNIYU1XZkE5Rkk?oc=5",
     "source": "gnews_futures",
     "published_utc": "2026-09-28T10:31:36+00:00",
-    "score": 7.48,
+    "score": 7.43,
     "duplicates": 0
    },
    {
@@ -2783,7 +2817,7 @@
     "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPTUVlTUxwRnZ2Y1NMdW5XWnpJWEN3SDZmaUVaaW9TeThPd3BjbWRzc1hTaGZCYmxrOXJOcnRNT09HYmg2NG1DOGIzMUxpNGNDR3l2c0hXN3U1Q0ZTNDNTakUwanNQODhUZTQwSVY3YUxvRlFZV01LVFB4dEs0dkh1Yng1c1hNSWg0cUNJaUI3TFNDa0NicVo0MGVwZ3BYWnVhNE1BZkNtS1hFcnVYVllTYjlpZUprcTlHdGRFeFllUlZOelA3c3VVXw?oc=5",
     "source": "gnews_futures",
     "published_utc": "2026-09-28T09:56:15+00:00",
-    "score": 7.38,
+    "score": 7.33,
     "duplicates": 2
    },
    {
@@ -2792,35 +2826,17 @@
     "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxPcmpsa1RwWHBSalVZaTZZOXA5U3BER2hubm1sY1VIb0VMTVpwb2JkaGl4UVZKLXRydkdKNWVHRVlQMHdvcEF3OVlCMmhlei1YMGNjLUcwTmdYdkNXQmpZUXkyUTdLeWh0VFIydmlkb3hQdW51LS1xcWlGUWxuMDhDZnNYMU9NLVliTVpSNUM3UUVpejlITm4yeU5wY2RUYk5nSW9velFWMlhnZlRkczg4T1VETmhMWVBXemwxY3h4ZTlrSWxjb3pqRTNHZFgxUTBYb3BfcQ?oc=5",
     "source": "gnews_futures",
     "published_utc": "2026-09-28T05:44:00+00:00",
-    "score": 7.18,
-    "duplicates": 0
-   },
-   {
-    "id": "d7a66012f7",
-    "title": "Why Hasn't The Fed Been Able To Defeat Inflation? And What Does It Mean? - News Radio 1200 WOAI",
-    "link": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxOSFBoNzFPTjZmOVY4RGlSbENMdjV4ZEZ6VWo4QUMxbkRlUFRRamtNODZzOGdiYWgxUDF6bW4wYl9nMHk0NnY2U3BPVDhaajVkOTRqeEp4dy1TNDRLZ0FLV2RTTUY3YnBCV2E2cHhZWTMxZlFiYy1Ocm9XWjRKTE9hODhKNWZ0ZmlzTGl0N3FudmhGd3NMYzE1VmRHamF6NjlYdWZOajhaSGFrcjN2M2xxZnNyNjZzMzltd1B4bFp4WFRCb0kycnJCV1VNOHZlQnB5RWMyV3QyUmx3UzJ3S01V?oc=5",
-    "source": "gnews_macro",
-    "published_utc": "2026-09-28T08:38:14+00:00",
-    "score": 7.16,
-    "duplicates": 0
-   },
-   {
-    "id": "b1e0f17d91",
-    "title": "US Stock Futures Slip as Trump Refuses Iran's Hormuz Proposal, Oil Climbs Above $100 - finance.biggo.com",
-    "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBUelRQU0dJeWpuNk4wVnNIMzJjeF9tamlhc21YNkRhV283VDR1NjV4T3VtVENwSlZIdmp6Z2Y1dlM5QW94TXRWelgzUW10VkFNa095U0hqNWhVam9jUnpSTExiaVJHVk9jam45b2djMU50MmhUOGc?oc=5",
-    "source": "gnews_futures",
-    "published_utc": "2026-09-28T07:55:00+00:00",
-    "score": 7.04,
+    "score": 7.13,
     "duplicates": 0
    }
   ],
   "summary": {
    "lines": [
-    "Trump's rejection of Iran's Hormuz/peace proposal pushed oil higher (Brent above $106, other reports above $100) and pressured Nasdaq/S&P/Dow futures across multiple headlines [68c8d3084a][4916ca333b][f95518fce0][b33db243e6][b1e0f17d91][c6f6b04c87].",
-    "Rising US Treasury yields alongside the oil move added to Fed rate-hike concerns and weighed on futures [08d2231de6][dd503d06de][0d53992e1d].",
-    "Traders are positioning into jobs-week data, with one report noting futures rising as markets eye jobs and PCE data [e6b04b3d6a][dd503d06de].",
-    "US and China released reciprocal $30 billion tariff-cut product lists following the Trump-Xi meeting, a trade-policy datapoint for macro-sensitive names [d892086341].",
-    "Separate commentary questioned why the Fed hasn't defeated inflation, and markets are also parsing an OpenAI training halt alongside Iran tensions [d7a66012f7][c6f6b04c87]."
+    "Trump's rejection of an Iran peace proposal pushed oil higher and Brent above $106, pressuring Nasdaq and S&P 500 futures into the open [68c8d3084a][4916ca333b][f95518fce0][b33db243e6][c6f6b04c87].",
+    "Treasury yields extended their selloff alongside rising oil, reinforcing Fed rate-hike concerns and weighing on Dow futures [08d2231de6][dd503d06de][0d53992e1d].",
+    "Traders are positioning ahead of jobs and PCE data due this week, a key input for Fed policy expectations [dd503d06de][e6b04b3d6a].",
+    "The US and China released reciprocal $30 billion product lists for tariff cuts following the Trump-Xi meeting, a trade-policy development to watch [b15157a662].",
+    "Separate commentary flagged Fed action on inflation accelerating repricing in short-end Treasuries, alongside a mention of an OpenAI training halt weighing on AI-related sentiment [f426393f44][c6f6b04c87]."
    ],
    "backend": "anthropic",
    "model": "claude-sonnet-5",
