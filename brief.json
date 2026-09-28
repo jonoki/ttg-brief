@@ -1,7 +1,7 @@
 {
  "meta": {
-  "generated_at_utc": "2026-09-28T13:59:46.319359+00:00",
-  "generated_at_local": "Mon 28 Sep 2026 10:59 ADT",
+  "generated_at_utc": "2026-09-28T14:15:06.062719+00:00",
+  "generated_at_local": "Mon 28 Sep 2026 11:15 ADT",
   "trading_day": "2026-09-28",
   "display_tz": "America/Halifax",
   "version": "0.1.0",
@@ -55,7 +55,7 @@
    "time_utc": "2026-09-29T14:00:00+00:00",
    "local": "11:00 ADT",
    "et": "10:00 ET",
-   "in": "24h 00m",
+   "in": "23h 44m",
    "consensus": "90.1",
    "prior": "89.4"
   },
@@ -66,10 +66,10 @@
   {
    "root": "ES",
    "trading_day": "2026-09-28",
-   "as_of_utc": "2026-09-28T13:59:46.319359+00:00",
+   "as_of_utc": "2026-09-28T14:15:06.062719+00:00",
    "source": "yahoo",
    "delayed": true,
-   "last_price": 7769.75,
+   "last_price": 7766.75,
    "levels": [
     {
      "tag": "exp_hi",
@@ -234,8 +234,8 @@
     }
    ],
    "stats": {
-    "last_bar_utc": "2026-09-28T13:49:00+00:00",
-    "last_bar_age_min": 10.8,
+    "last_bar_utc": "2026-09-28T14:05:00+00:00",
+    "last_bar_age_min": 10.1,
     "market_state": "open",
     "profile_volume": 1296922.0,
     "prior_day": "2026-09-25",
@@ -1493,20 +1493,28 @@
     {
      "t": "2026-09-28T13:45:00+00:00",
      "o": 7765.0,
-     "h": 7772.75,
+     "h": 7774.75,
      "l": 7762.75,
-     "c": 7769.75,
-     "v": 18042.0
+     "c": 7773.0,
+     "v": 63401.0
+    },
+    {
+     "t": "2026-09-28T14:00:00+00:00",
+     "o": 7773.0,
+     "h": 7773.75,
+     "l": 7763.75,
+     "c": 7766.75,
+     "v": 15413.0
     }
    ]
   },
   {
    "root": "NQ",
    "trading_day": "2026-09-28",
-   "as_of_utc": "2026-09-28T13:59:46.319359+00:00",
+   "as_of_utc": "2026-09-28T14:15:06.062719+00:00",
    "source": "yahoo",
    "delayed": true,
-   "last_price": 30628.5,
+   "last_price": 30593.75,
    "levels": [
     {
      "tag": "exp_hi",
@@ -1600,13 +1608,6 @@
      "note": "09:30 bar open"
     },
     {
-     "tag": "rn_major_up",
-     "label": "Round 100 above",
-     "price": 30700.0,
-     "group": "round",
-     "note": ""
-    },
-    {
      "tag": "onvwap",
      "label": "Overnight VWAP",
      "price": 30690.69,
@@ -1628,15 +1629,8 @@
      "note": "full 18:00→17:00 session"
     },
     {
-     "tag": "rn_minor_up",
-     "label": "Round 50 above",
-     "price": 30650.0,
-     "group": "round",
-     "note": ""
-    },
-    {
-     "tag": "rn_major_dn",
-     "label": "Round 100 below",
+     "tag": "rn_major_up",
+     "label": "Round 100 above",
      "price": 30600.0,
      "group": "round",
      "note": ""
@@ -1644,8 +1638,15 @@
     {
      "tag": "tdl",
      "label": "Today's RTH low",
-     "price": 30592.5,
+     "price": 30573.5,
      "group": "today",
+     "note": ""
+    },
+    {
+     "tag": "rn_minor_dn",
+     "label": "Round 50 below",
+     "price": 30550.0,
+     "group": "round",
      "note": ""
     },
     {
@@ -1660,6 +1661,13 @@
      "label": "Week low",
      "price": 30531.0,
      "group": "week",
+     "note": ""
+    },
+    {
+     "tag": "rn_major_dn",
+     "label": "Round 100 below",
+     "price": 30500.0,
+     "group": "round",
      "note": ""
     },
     {
@@ -1678,8 +1686,8 @@
     }
    ],
    "stats": {
-    "last_bar_utc": "2026-09-28T13:49:00+00:00",
-    "last_bar_age_min": 10.8,
+    "last_bar_utc": "2026-09-28T14:05:00+00:00",
+    "last_bar_age_min": 10.1,
     "market_state": "open",
     "profile_volume": 416353.0,
     "prior_day": "2026-09-25",
@@ -2945,10 +2953,18 @@
     {
      "t": "2026-09-28T13:45:00+00:00",
      "o": 30612.25,
-     "h": 30650.0,
-     "l": 30592.5,
-     "c": 30628.5,
-     "v": 9838.0
+     "h": 30668.5,
+     "l": 30583.0,
+     "c": 30650.75,
+     "v": 32255.0
+    },
+    {
+     "t": "2026-09-28T14:00:00+00:00",
+     "o": 30651.25,
+     "h": 30658.0,
+     "l": 30573.5,
+     "c": 30593.75,
+     "v": 7704.0
     }
    ]
   }
@@ -2961,7 +2977,7 @@
     "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9hM1RqVzhUbW40b0o2dm1GUUROUS1rQ05qNVpUQ3Fndmp3VUlZYkdxTnJTWEpfeGYtb2hFX0c0ZW5hNWNWaEppa2hDUUhGRmhMZnZrcVlyUC1CQTU4LTEzU3ZYWVRGZ1lISGVZRXBRYWNqRmtu?oc=5",
     "source": "gnews_futures",
     "published_utc": "2026-09-28T11:53:47+00:00",
-    "score": 9.65,
+    "score": 9.61,
     "duplicates": 1
    },
    {
@@ -2970,7 +2986,7 @@
     "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQQzVSOW5Hbm50bW5GTlJ6cWlwMkRrbl9HQWJfQmhOZ2t6ZTBZY3ByQWdqaUhLc1h6bFJmczNGVElYQXFPOWs5ejlNUmNKTHBGVEI1S0RLdnM0TDRuSzJSNlRteWhjTl9qTmhEdXc4dHd4anRNdjhIVDBTbWhXbXlIOTg0blcza1lPTl9FZ1RLYUp0UzVMTUFzUnlMMWlpTlM5SjlrdVN2NFQzb29GaGNIUFA5VG9Nd183ajhqN2pUXzc?oc=5",
     "source": "gnews_macro",
     "published_utc": "2026-09-28T08:07:41+00:00",
-    "score": 9.02,
+    "score": 8.98,
     "duplicates": 0
    },
    {
@@ -2979,7 +2995,7 @@
     "link": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxQWVZ1b3ZCcC1TRy1tYWp6d2lPQWttclJUMkVGbGFxV0FlSUxxd0N6VWhEQ2IwX1BvMEExci12Wk5uZU5HSzQ5aGJ1Wm51d3hZb0hTRE9VNXpYY2NPeHpELUl0MWU5Yl9rQ2dXZF9YZGZBMmZrRDQtWkdyMWhOMzRyeFJLWC1CaEFJRTRxckRYdkowbkd4QVJOd292Zy1xVHFkZUY1QTZRWG9kMDdTcnIzTS1wQWJyQkc5YnJpLTltT0xhRDBYcXNNVVBBX193eGRObmFZRU0tdVkxZ2lkaUFmWXdR0gHnAUFVX3lxTE5vT3NmZDJHV3lVWHZHZ3FVVHI4MzVPR0U4emlacFg4YS15TjhCTkt5eXc1YlNNTjV2UWpVNVZ2U2dGdm5qcWNKb2RZdXlnaHV6RE0tMHFVQ3Y3XzFObzVKSEJGbWxReFN2b3pCbUxiMXV4bHNHdmU1dEhZNndnX1IzeTNVSjFMdkI4Y1A4akY2YmNPSmU2UDJTLUY3UUxpZ1VnODhZczdHN1lKSUdLa0wzYTZGeTlqN2syQ0M3bFR0WG53SW9XSVRvS1pZakhaYnZyTlZIc2JNSjRVSmtlRUFEdVJWQ2NHSQ?oc=5",
     "source": "gnews_futures",
     "published_utc": "2026-09-28T10:26:09+00:00",
-    "score": 8.91,
+    "score": 8.86,
     "duplicates": 0
    },
    {
@@ -2988,7 +3004,16 @@
     "link": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxQM1o2S00xMGJUM3R4ZG9kZ2ZsR0NnR0x3UHhvb0VtSHE0STVob2l4X2llaFF1el9Fa2lvaXF1NU5jV0tUTjBua3pBcE84ZlJPeUZhY3plc0xaRzBKTzZOTEphNlVnY3ZmRTQtSE9CVFpMenFQRHBUUUpwY3lTRkRJQXp1TnFSbWQ3aUdwaEd6V3Z1dmZEa0NzeTNOeVRwc0dGZE9IV2lPZUV1NVVrRGJmRE56cGNXVW5ObFkwOHdvdXplUUFMTllEYU9acElub0kwZGgwcUFDREFERTA2TVBBeThOSVJTVzh4QzN0NUtvUExfNXFxbEE?oc=5",
     "source": "gnews_futures",
     "published_utc": "2026-09-28T08:39:29+00:00",
-    "score": 8.61,
+    "score": 8.57,
+    "duplicates": 0
+   },
+   {
+    "id": "292461bfba",
+    "title": "Gold’s Inflation Hedge Falters as Oil Lifts Fed Bets, Highlighting Low-Cost Miners’ Margin Edge - Crux Investor",
+    "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPamJLY3J0RktzREJIM2FnTDYtTFpyazBhSmlmS2ZLYlZoSVhlWENsWGhIRnN4ZE5qcGhiMnduNVpoQlVhWTVmT0tOWGR5dFcyVkNtQ0JfQ0hpbVc5ZG5ISE1fc0JxTXB1bEl3c0tYRVZRdzUteFV4dk9yb185MVF1VlNBYlloajNxOXI2bXpYQl9LT1h1WGRhd0pnUmY2Z19GbWtlek5GUkdIYm5BOXlFYTVrUWZEUENIdUNYMkxvYUp0RTVnY3c?oc=5",
+    "source": "gnews_macro",
+    "published_utc": "2026-09-28T13:56:12+00:00",
+    "score": 8.45,
     "duplicates": 0
    },
    {
@@ -2997,7 +3022,7 @@
     "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQa216SEQwT0ppQkpueW1uR1pyMlV4NWtLU3JLdVJkeTYzeV9qSFI0bnAwZjBKeHRKdjZmSFhuaU81UTg3OEZCZkNTY196SlNjd3NhQU1VNDFNU3d5Y3Btem1mM01kckd5TEp1QzFqRWtwVWhTSE1VcjBISmVVTG91SFhlX3MtSTFpX21xQXd0V01SUUJCTzlBYVBYZThwNl9qMndfUERKa1hjUjNwRGtUb1dtc1E?oc=5",
     "source": "gnews_macro",
     "published_utc": "2026-09-28T13:49:09+00:00",
-    "score": 8.47,
+    "score": 8.43,
     "duplicates": 1
    },
    {
@@ -3006,7 +3031,7 @@
     "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNc3Q4ZUs1VmE0dld6TVJWM0JPem5yWFJGSWo2N25UNW5MZ3dBQXQ2OXRGY2pIT0JIS0tILVRTZFhCbEdYNmNsNWpHdlZYaUNiQXBNc2I1RGczdWU4TE5reXozU0paY0lfZVNNeXl2SC1tSWctQm5NVXl3MG9CQm5HSy15UlcxR2c0Ym5SUXQxVlZ2NVNmMGREM2VTdWo0T29vaU5ZcWtqaHIxVlRpdGIzODh0bw?oc=5",
     "source": "gnews_futures",
     "published_utc": "2026-09-28T13:05:10+00:00",
-    "score": 8.35,
+    "score": 8.31,
     "duplicates": 0
    },
    {
@@ -3015,7 +3040,7 @@
     "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPbEY3MWZlLU5Td1VqZ1RFc1R6Q1RYLXJtZXVrWmRCa25aQk1MblNUeXQwWEdLRnVhbnFwSVR3Q0FDc0FVdW5hV3lPQ1R6b1g5V0E3Nm91bk5IRFpvNlRWVWVnYlJ1dVVLRnVpMDh1dmNIbGpldzdBXzFhbWliRDE0RU9TemRvMk5jaVpWQm1Va1RuekRUc3NmbzVkSTJlbVE2MmVISVBvM25uR1ZLSVh5YkFB?oc=5",
     "source": "gnews_futures",
     "published_utc": "2026-09-28T13:04:10+00:00",
-    "score": 7.85,
+    "score": 7.8,
     "duplicates": 0
    },
    {
@@ -3024,7 +3049,7 @@
     "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQd1hHcnpXN0QwTHN4MXQwQUxqQ2hfQUQycEJoR21sZldJaEtNU21YUDFzcHBLamZqdm5QeEc5SDdiY2Z1YkxUd0VGM0tPSEZEVWRuRUROR2EydkI2bXlHZ0NMS25Ca0tSUFZ4TEhMOS0xekpjd0V6T19fcFdCTTc1aWJGUGJqdWpZUXR6R0ZCMk91SDd3c3c?oc=5",
     "source": "gnews_futures",
     "published_utc": "2026-09-28T09:44:19+00:00",
-    "score": 7.79,
+    "score": 7.75,
     "duplicates": 0
    },
    {
@@ -3033,7 +3058,7 @@
     "link": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxORUFjRG9oQXpISWlXd2VJeGRQTVBONExzbUtkdzRMUDNiSnJkQWM3UUludlRTTDY4Vk5tR29FblVwQlFwZEozQ0ZCOC1sWjJwSTJ3NDhhOHFWMXg4SUs5SWNocmJXQlZRcGFrU2JHTnNsczh3QjR3UEV5cnA3b1lOYkpjd3Q1Rm9iMVI5N09NaHBkc0NJR0U5WTBuWTNlRDliZ1NKWTkwRV9uR0JWUUFPSWRhOUczNHlaWjRmeWxsMDdkX2NBdlYzZ1liRWpuUzVucFpUM0NFSl9Vdw?oc=5",
     "source": "gnews_futures",
     "published_utc": "2026-09-28T12:06:02+00:00",
-    "score": 7.68,
+    "score": 7.64,
     "duplicates": 0
    },
    {
@@ -3042,7 +3067,7 @@
     "link": "https://news.google.com/rss/articles/CBMihwJBVV95cUxOUU5iQmx2VE1mdExSYlZ4c0xKa3lra2M1TTRyQjY3RmMtX1EydU9yR0sxNFNjR2NCVW1Jd3F0RmZrV0tiUVdfNzhoSmNDRlVBdk9KWG9ndEVNNkdqTGZkbzFndzkwTUNFSk1UeHFsZzZHdDhZd1F6QkJ2SGcxM1J3bUVfSzZvdURQX3l1bVhNS283U3JOLXpyVUo3NE1DRk1FYmdFVXhsRlM3bktEdlJHbm5tYW1CdzQ3T1hEdUlBYjExaGczYWdUMVZtVHUyTm1fR0ROQ3dqazVBNXJTQVNSbDc2UFFMUGp5RVhxSGVZRkZXOTRWemg3c2ZKSXZET2R3Nl82ZnJNMA?oc=5",
     "source": "gnews_futures",
     "published_utc": "2026-09-28T03:04:00+00:00",
-    "score": 7.68,
+    "score": 7.64,
     "duplicates": 0
    },
    {
@@ -3051,26 +3076,16 @@
     "link": "https://www.marketwatch.com/story/micron-could-dethrone-nvidia-and-become-the-biggest-driver-of-s-p-500-profit-growth-d62e0e68?mod=mw_rss_topstories",
     "source": "marketwatch_top",
     "published_utc": "2026-09-28T11:47:00+00:00",
-    "score": 7.13,
+    "score": 7.09,
     "duplicates": 0
-   },
-   {
-    "id": "7a0d6987f8",
-    "title": "Gold Sinks To 7-Week Low As Treasury Yields, Fed Hike Bets Rise — Hansen Warns Bullion’s ‘Resilience’ Faces Its ‘Toughest Test Yet’ - Yahoo Finance",
-    "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNNC1WT045SThNUWlteWVzRzNYaGZ2MkdXZDJqQTdqb1YyM3RGQmVBVE5GYUh1bXFfWEctUVJORVZ6MjlrakVUcFpXaXZ0UjVsQk52QUgyWTlWWVlDX09Oemx3LTkycWJCMC1TcVo3V25WUGEzaXhKbTkyNjRWMHlUTnVUNVJwTFRUS0s4eDNIQVVSY0g0cFE?oc=5",
-    "source": "gnews_macro",
-    "published_utc": "2026-09-28T11:41:44+00:00",
-    "score": 7.12,
-    "duplicates": 1
    }
   ],
   "summary": {
    "lines": [
-    "Stock futures are lower across Dow, S&P 500 and Nasdaq as Trump rejected the Iran peace proposal and oil jumped, with Brent topping $106 [9b6db5ac05][68c8d3084a][4916ca333b][f95518fce0][dfcc28183b][77844987fa][74293fb8af].",
-    "Treasury yields are surging alongside the oil move, reviving Fed rate-hike fears and extending a bond selloff into jobs week [08d2231de6][dd503d06de][336bb39094][9b6db5ac05][74293fb8af].",
-    "AI-related concerns and Nvidia news are also cited as weighing on tech and Nasdaq futures specifically [dfcc28183b][77844987fa][4916ca333b].",
-    "Micron is flagged as a potential outsized driver of S&P 500 profit growth, making its upcoming earnings a market event [2b79da38e0].",
-    "Gold fell to a 7-week low as rising Treasury yields and Fed hike bets pressure bullion [7a0d6987f8]."
+    "Futures are down as oil jumps (Brent above $106) and Treasury yields extend their selloff after Trump rejected Iran's peace proposal, a macro combo that pressures risk assets and raises Fed rate-hike concerns heading into jobs week [9b6db5ac05][08d2231de6][68c8d3084a][4916ca333b][dd503d06de][336bb39094][dfcc28183b][f95518fce0][74293fb8af]",
+    "Nasdaq futures specifically are noted falling nearly 1% with tech stocks under pressure, adding AI-related concerns and Nvidia news to the mix for MNQ traders [77844987fa][4916ca333b][dfcc28183b]",
+    "Micron is flagged as an increasingly significant driver of S&P 500 profit growth, with its earnings report described as a standalone market event, relevant given MU appears across the Iran/oil headlines too [2b79da38e0][4916ca333b][f95518fce0]",
+    "Gold's inflation-hedge dynamic is shifting as oil moves lift Fed rate expectations, a cross-asset signal worth watching alongside the yield selloff [292461bfba]"
    ],
    "backend": "anthropic",
    "model": "claude-sonnet-5",
