@@ -1,7 +1,7 @@
 {
  "meta": {
-  "generated_at_utc": "2026-09-28T11:57:07.501241+00:00",
-  "generated_at_local": "Mon 28 Sep 2026 08:57 ADT",
+  "generated_at_utc": "2026-09-28T12:12:23.523536+00:00",
+  "generated_at_local": "Mon 28 Sep 2026 09:12 ADT",
   "trading_day": "2026-09-28",
   "display_tz": "America/Halifax",
   "version": "0.1.0",
@@ -55,7 +55,7 @@
    "time_utc": "2026-09-29T14:00:00+00:00",
    "local": "11:00 ADT",
    "et": "10:00 ET",
-   "in": "26h 02m",
+   "in": "25h 47m",
    "consensus": "90.1",
    "prior": "89.4"
   },
@@ -66,10 +66,10 @@
   {
    "root": "ES",
    "trading_day": "2026-09-28",
-   "as_of_utc": "2026-09-28T11:57:07.501241+00:00",
+   "as_of_utc": "2026-09-28T12:12:23.523536+00:00",
    "source": "yahoo",
    "delayed": true,
-   "last_price": 7768.5,
+   "last_price": 7764.0,
    "levels": [
     {
      "tag": "exp_hi",
@@ -125,7 +125,7 @@
      "label": "Overnight high",
      "price": 7792.25,
      "group": "overnight",
-     "note": "since 18:00 ET, 817 bars"
+     "note": "since 18:00 ET, 832 bars"
     },
     {
      "tag": "wh",
@@ -158,7 +158,7 @@
     {
      "tag": "onvwap",
      "label": "Overnight VWAP",
-     "price": 7772.98,
+     "price": 7772.87,
      "group": "overnight",
      "note": "typical-price VWAP"
     },
@@ -213,14 +213,14 @@
     }
    ],
    "stats": {
-    "last_bar_utc": "2026-09-28T11:47:00+00:00",
-    "last_bar_age_min": 10.1,
+    "last_bar_utc": "2026-09-28T12:02:00+00:00",
+    "last_bar_age_min": 10.4,
     "market_state": "open",
     "profile_volume": 1296922.0,
     "prior_day": "2026-09-25",
     "prior_day_rth_range": 62.0,
     "overnight_range": 35.25,
-    "gap_vs_prior_close": -36.0,
+    "gap_vs_prior_close": -40.5,
     "gap_basis": "last price (pre-market)",
     "atr14": 81.19,
     "atr_days": 14,
@@ -1408,20 +1408,28 @@
     {
      "t": "2026-09-28T11:45:00+00:00",
      "o": 7768.75,
-     "h": 7769.75,
-     "l": 7768.0,
-     "c": 7768.5,
-     "v": 672.0
+     "h": 7770.0,
+     "l": 7766.25,
+     "c": 7768.25,
+     "v": 3251.0
+    },
+    {
+     "t": "2026-09-28T12:00:00+00:00",
+     "o": 7768.25,
+     "h": 7769.0,
+     "l": 7762.75,
+     "c": 7764.0,
+     "v": 1366.0
     }
    ]
   },
   {
    "root": "NQ",
    "trading_day": "2026-09-28",
-   "as_of_utc": "2026-09-28T11:57:07.501241+00:00",
+   "as_of_utc": "2026-09-28T12:12:23.523536+00:00",
    "source": "yahoo",
    "delayed": true,
-   "last_price": 30636.75,
+   "last_price": 30619.25,
    "levels": [
     {
      "tag": "exp_hi",
@@ -1470,7 +1478,7 @@
      "label": "Overnight high",
      "price": 30898.25,
      "group": "overnight",
-     "note": "since 18:00 ET, 817 bars"
+     "note": "since 18:00 ET, 832 bars"
     },
     {
      "tag": "wh",
@@ -1510,7 +1518,7 @@
     {
      "tag": "onvwap",
      "label": "Overnight VWAP",
-     "price": 30687.29,
+     "price": 30686.55,
      "group": "overnight",
      "note": "typical-price VWAP"
     },
@@ -1572,14 +1580,14 @@
     }
    ],
    "stats": {
-    "last_bar_utc": "2026-09-28T11:47:00+00:00",
-    "last_bar_age_min": 10.1,
+    "last_bar_utc": "2026-09-28T12:02:00+00:00",
+    "last_bar_age_min": 10.4,
     "market_state": "open",
     "profile_volume": 416353.0,
     "prior_day": "2026-09-25",
     "prior_day_rth_range": 267.5,
     "overnight_range": 367.25,
-    "gap_vs_prior_close": -254.75,
+    "gap_vs_prior_close": -272.25,
     "gap_basis": "last price (pre-market)",
     "atr14": 473.83,
     "atr_days": 14,
@@ -2776,9 +2784,17 @@
      "t": "2026-09-28T11:45:00+00:00",
      "o": 30643.25,
      "h": 30649.0,
-     "l": 30632.25,
-     "c": 30636.75,
-     "v": 378.0
+     "l": 30624.25,
+     "c": 30641.25,
+     "v": 1540.0
+    },
+    {
+     "t": "2026-09-28T12:00:00+00:00",
+     "o": 30639.5,
+     "h": 30644.75,
+     "l": 30612.5,
+     "c": 30619.25,
+     "v": 447.0
     }
    ]
   }
@@ -2791,8 +2807,17 @@
     "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9hM1RqVzhUbW40b0o2dm1GUUROUS1rQ05qNVpUQ3Fndmp3VUlZYkdxTnJTWEpfeGYtb2hFX0c0ZW5hNWNWaEppa2hDUUhGRmhMZnZrcVlyUC1CQTU4LTEzU3ZYWVRGZ1lISGVZRXBRYWNqRmtu?oc=5",
     "source": "gnews_futures",
     "published_utc": "2026-09-28T11:53:47+00:00",
-    "score": 9.99,
+    "score": 9.95,
     "duplicates": 1
+   },
+   {
+    "id": "a680b57186",
+    "title": "U.S. and China release reciprocal $30 billion product lists for tariff cuts after Trump-Xi meeting - Washington Times",
+    "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOSldza2JIb24wOGZPUVlnM3FMT0UwT1JvRUk3a0FXX0tHQm9hTEdlLUtESVBFdHVtRXRlS2Roa2daZG9YMVVHOTktRG00STVxYVNtTWdta1ZIaFhrS1VhNWpCMUk5MmFCOTV6SE9xRlI1aUJSb3pwZElCMV81ZUFEQnYweHNOVTRmUGxOVlhlYlA4eFhjaEgzVWFJZVF5WjFPSXZNOElQaUtkSG15anN5T0Y4ZmQ?oc=5",
+    "source": "gnews_macro",
+    "published_utc": "2026-09-28T11:57:21+00:00",
+    "score": 9.46,
+    "duplicates": 7
    },
    {
     "id": "08d2231de6",
@@ -2800,7 +2825,7 @@
     "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQQzVSOW5Hbm50bW5GTlJ6cWlwMkRrbl9HQWJfQmhOZ2t6ZTBZY3ByQWdqaUhLc1h6bFJmczNGVElYQXFPOWs5ejlNUmNKTHBGVEI1S0RLdnM0TDRuSzJSNlRteWhjTl9qTmhEdXc4dHd4anRNdjhIVDBTbWhXbXlIOTg0blcza1lPTl9FZ1RLYUp0UzVMTUFzUnlMMWlpTlM5SjlrdVN2NFQzb29GaGNIUFA5VG9Nd183ajhqN2pUXzc?oc=5",
     "source": "gnews_macro",
     "published_utc": "2026-09-28T08:07:41+00:00",
-    "score": 9.36,
+    "score": 9.32,
     "duplicates": 0
    },
    {
@@ -2809,7 +2834,7 @@
     "link": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxQWVZ1b3ZCcC1TRy1tYWp6d2lPQWttclJUMkVGbGFxV0FlSUxxd0N6VWhEQ2IwX1BvMEExci12Wk5uZU5HSzQ5aGJ1Wm51d3hZb0hTRE9VNXpYY2NPeHpELUl0MWU5Yl9rQ2dXZF9YZGZBMmZrRDQtWkdyMWhOMzRyeFJLWC1CaEFJRTRxckRYdkowbkd4QVJOd292Zy1xVHFkZUY1QTZRWG9kMDdTcnIzTS1wQWJyQkc5YnJpLTltT0xhRDBYcXNNVVBBX193eGRObmFZRU0tdVkxZ2lkaUFmWXdR0gHnAUFVX3lxTE5vT3NmZDJHV3lVWHZHZ3FVVHI4MzVPR0U4emlacFg4YS15TjhCTkt5eXc1YlNNTjV2UWpVNVZ2U2dGdm5qcWNKb2RZdXlnaHV6RE0tMHFVQ3Y3XzFObzVKSEJGbWxReFN2b3pCbUxiMXV4bHNHdmU1dEhZNndnX1IzeTNVSjFMdkI4Y1A4akY2YmNPSmU2UDJTLUY3UUxpZ1VnODhZczdHN1lKSUdLa0wzYTZGeTlqN2syQ0M3bFR0WG53SW9XSVRvS1pZakhaYnZyTlZIc2JNSjRVSmtlRUFEdVJWQ2NHSQ?oc=5",
     "source": "gnews_futures",
     "published_utc": "2026-09-28T10:26:09+00:00",
-    "score": 9.25,
+    "score": 9.2,
     "duplicates": 0
    },
    {
@@ -2818,7 +2843,7 @@
     "link": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxQM1o2S00xMGJUM3R4ZG9kZ2ZsR0NnR0x3UHhvb0VtSHE0STVob2l4X2llaFF1el9Fa2lvaXF1NU5jV0tUTjBua3pBcE84ZlJPeUZhY3plc0xaRzBKTzZOTEphNlVnY3ZmRTQtSE9CVFpMenFQRHBUUUpwY3lTRkRJQXp1TnFSbWQ3aUdwaEd6V3Z1dmZEa0NzeTNOeVRwc0dGZE9IV2lPZUV1NVVrRGJmRE56cGNXVW5ObFkwOHdvdXplUUFMTllEYU9acElub0kwZGgwcUFDREFERTA2TVBBeThOSVJTVzh4QzN0NUtvUExfNXFxbEE?oc=5",
     "source": "gnews_futures",
     "published_utc": "2026-09-28T08:39:29+00:00",
-    "score": 8.95,
+    "score": 8.91,
     "duplicates": 0
    },
    {
@@ -2827,7 +2852,7 @@
     "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQd1hHcnpXN0QwTHN4MXQwQUxqQ2hfQUQycEJoR21sZldJaEtNU21YUDFzcHBLamZqdm5QeEc5SDdiY2Z1YkxUd0VGM0tPSEZEVWRuRUROR2EydkI2bXlHZ0NMS25Ca0tSUFZ4TEhMOS0xekpjd0V6T19fcFdCTTc1aWJGUGJqdWpZUXR6R0ZCMk91SDd3c3c?oc=5",
     "source": "gnews_futures",
     "published_utc": "2026-09-28T09:44:19+00:00",
-    "score": 8.13,
+    "score": 8.09,
     "duplicates": 0
    },
    {
@@ -2836,7 +2861,16 @@
     "link": "https://news.google.com/rss/articles/CBMihwJBVV95cUxOUU5iQmx2VE1mdExSYlZ4c0xKa3lra2M1TTRyQjY3RmMtX1EydU9yR0sxNFNjR2NCVW1Jd3F0RmZrV0tiUVdfNzhoSmNDRlVBdk9KWG9ndEVNNkdqTGZkbzFndzkwTUNFSk1UeHFsZzZHdDhZd1F6QkJ2SGcxM1J3bUVfSzZvdURQX3l1bVhNS283U3JOLXpyVUo3NE1DRk1FYmdFVXhsRlM3bktEdlJHbm5tYW1CdzQ3T1hEdUlBYjExaGczYWdUMVZtVHUyTm1fR0ROQ3dqazVBNXJTQVNSbDc2UFFMUGp5RVhxSGVZRkZXOTRWemg3c2ZKSXZET2R3Nl82ZnJNMA?oc=5",
     "source": "gnews_futures",
     "published_utc": "2026-09-28T03:04:00+00:00",
-    "score": 8.02,
+    "score": 7.98,
+    "duplicates": 0
+   },
+   {
+    "id": "77844987fa",
+    "title": "【US Pre-Market】Nasdaq Futures Fall Nearly 1% as Oil Surges, Tech Stocks Under Pressure, Nvidia News in Focus - TradingKey",
+    "link": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxORUFjRG9oQXpISWlXd2VJeGRQTVBONExzbUtkdzRMUDNiSnJkQWM3UUludlRTTDY4Vk5tR29FblVwQlFwZEozQ0ZCOC1sWjJwSTJ3NDhhOHFWMXg4SUs5SWNocmJXQlZRcGFrU2JHTnNsczh3QjR3UEV5cnA3b1lOYkpjd3Q1Rm9iMVI5N09NaHBkc0NJR0U5WTBuWTNlRDliZ1NKWTkwRV9uR0JWUUFPSWRhOUczNHlaWjRmeWxsMDdkX2NBdlYzZ1liRWpuUzVucFpUM0NFSl9Vdw?oc=5",
+    "source": "gnews_futures",
+    "published_utc": "2026-09-28T12:05:59+00:00",
+    "score": 7.98,
     "duplicates": 0
    },
    {
@@ -2845,17 +2879,8 @@
     "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNc3Q4ZUs1VmE0dld6TVJWM0JPem5yWFJGSWo2N25UNW5MZ3dBQXQ2OXRGY2pIT0JIS0tILVRTZFhCbEdYNmNsNWpHdlZYaUNiQXBNc2I1RGczdWU4TE5reXozU0paY0lfZVNNeXl2SC1tSWctQm5NVXl3MG9CQm5HSy15UlcxR2c0Ym5SUXQxVlZ2NVNmMGREM2VTdWo0T29vaU5ZcWtqaHIxVlRpdGIzODh0bw?oc=5",
     "source": "gnews_futures",
     "published_utc": "2026-09-28T08:37:00+00:00",
-    "score": 7.94,
+    "score": 7.9,
     "duplicates": 0
-   },
-   {
-    "id": "b15157a662",
-    "title": "U.S., China release reciprocal $30 billion product lists for tariff cuts after Trump-Xi meeting - The Tribune-Democrat",
-    "link": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxQOE13RW1VX3JfTkdSREFvUjFhUWtDRHFLRTRUTkowb3dUYnNXVklUajVwbUhkTEx2aFQwTTVXUUd1R3FmaDJTOW9jMnU3UVFncUttNW1VVFFsc0l3WEdfcWxieXhQWTV6VFZVXzAzbC1ZaHl1TE51Vy13WTc2enpCeXpZNU5KNEs5UjJVVnN4azRCcjI2UWwzSmtOYjNzdndvOFFXZlJ1YzI5VHFHd0NiZUlOXzJSdWxRLVlDT2drUm5ON3VheXJ3VlN6TEhTbHJjVjBJWFJTOWxLTGNKcFUyd3dnT3NUdFZnM3gxVVhlM2oyMmNmZXc?oc=5",
-    "source": "gnews_macro",
-    "published_utc": "2026-09-28T10:35:00+00:00",
-    "score": 7.77,
-    "duplicates": 4
    },
    {
     "id": "2b79da38e0",
@@ -2863,44 +2888,35 @@
     "link": "https://www.marketwatch.com/story/micron-could-dethrone-nvidia-and-become-the-biggest-driver-of-s-p-500-profit-growth-d62e0e68?mod=mw_rss_topstories",
     "source": "marketwatch_top",
     "published_utc": "2026-09-28T11:47:00+00:00",
-    "score": 7.47,
+    "score": 7.43,
     "duplicates": 0
    },
    {
-    "id": "e6b04b3d6a",
-    "title": "US Stock Market Today: S&P 500 Futures Rise As Traders Eye Jobs And PCE Data - simplywall.st",
-    "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxOZU9VYTZLVHpqZzlQXzJjUTQzZjV4M0FyYWpJUEoyWVlEMUdzWGlxMFllZ1JUMklPcFJuOHBnQnFJM1ZCMUxKNERfZjRsODJxS1prQzE4VEtuLXVyRDJ6TUNRbjl6d3ZJRUh5bEhHRTlSRkNaaVlNOU5rdGdPdllOazJJX0pEM2NiYzA5Z29ZaDcwNnQ2Sy1ZaUlLOEUxbHQxN2pseU1tOFZqem9NZGUxNHBKd1JkblFVU282cXkzOUpYWEpFeDhpTnFUbE3SAdIBQVVfeXFMUF9HV2ZMaGF2TzJtYXhNbXFBR3ZYRzdZQ0JKVGhyZlM4NWdsWXhrVjdEeWR6dW03Qi10MTAxWFJ0TEROblhRLS0xVVZCb0ZaRThOX2thR0FkTVdaNlhzWkw5NmtYN3RFU1EtWEppcWY3MXFvZkgtNUhKU2tmNjBVbUt0aUFQb0RhbXM4dXFSVmpTSmN2VWNJNE9tQWFON2Ita25ocmVxWmpfRGhkMHQ3MWIzdDRtNTVGUFAzV0FLOHg0b1JwaU0zTEdCcGg4RUN3UjBB?oc=5",
-    "source": "gnews_futures",
-    "published_utc": "2026-09-28T08:26:18+00:00",
+    "id": "7a0d6987f8",
+    "title": "Gold Sinks To 7-Week Low As Treasury Yields, Fed Hike Bets Rise — Hansen Warns Bullion’s ‘Resilience’ Faces Its ‘Toughest Test Yet’ - Yahoo Finance",
+    "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNNC1WT045SThNUWlteWVzRzNYaGZ2MkdXZDJqQTdqb1YyM3RGQmVBVE5GYUh1bXFfWEctUVJORVZ6MjlrakVUcFpXaXZ0UjVsQk52QUgyWTlWWVlDX09Oemx3LTkycWJCMC1TcVo3V25WUGEzaXhKbTkyNjRWMHlUTnVUNVJwTFRUS0s4eDNIQVVSY0g0cFE?oc=5",
+    "source": "gnews_macro",
+    "published_utc": "2026-09-28T11:41:44+00:00",
     "score": 7.41,
     "duplicates": 1
    },
    {
-    "id": "f426393f44",
-    "title": "The Federal Reserve takes strong action against inflation, accelerating the repricing of short-end U.S. Treasuries! The challenge is once again thrown to Bessent. - news.futunn.com",
-    "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNY295ODRiU2pCNnBpdk1rVEhRMThjXzlkU3pIYjNCTXJ3ZmRqYVBpUjJheTcza1ZTYVRjcXlsdGxiZGJvNllEcmZLRXNkTk9TWTJ2ZlQzb09XdjV4N3FaUXM0TFRjTjhJdERON2lJTEUyMzR6R1ktaXlwYjBSVEVCS3Uydkp6TDUxV1FQalNfZHphN2pYODhvQlZoRU00QU9EbURpRWtEWjN5amJQRU13bFJfR1NPRlR5?oc=5",
-    "source": "gnews_fed",
-    "published_utc": "2026-09-28T10:46:49+00:00",
-    "score": 7.3,
-    "duplicates": 0
-   },
-   {
-    "id": "b33db243e6",
-    "title": "U.S. Stock Futures Slip as Oil Jumps After Trump Rejects Iran Proposal; Key U.S. Economic Data Awaited - barchart.com",
-    "link": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxOQ2RVMjVjTTNJeWZSQ2xCQVJaeGJZYWVlQ0dWMUdkUjBrU3JCMGQ3X1dEZmRERlZmMGRlZC1HWHRCSk13bHlYWUtZRms1bWdmSU15Z3Q2RmNpUDhsMWZSa19mUDVQaFhnMUo1MmJ4V2dfSGdaa1VwRjZsWVJVd3dDcjM3Y0pOcDBKNkRHdXZkV29jWm1DaERqLVdRaE1CandxaUxWRHJjampFejk1RkphOS1KYVlFVS00WkxuQS0yeXhVUWNTLTVHT0tDSGtvS0pwWjNIYU1XZkE5Rkk?oc=5",
-    "source": "gnews_futures",
-    "published_utc": "2026-09-28T10:31:36+00:00",
-    "score": 7.26,
+    "id": "50135476af",
+    "title": "Euro zone bond yields rise as oil climbs, inflation data in focus - tradingview.com",
+    "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxOMTdrTFM3TjJpbGExci1HOGVVM2staVRSTHZWSzNJZGJBd1JoM0N4b2FFS0ZZdWo2YVdkQy1VWmU1eUdEZ1M0NTc5V0V0OU05UHVXNHk1SU9aeGlEejhLcHBJQXNjem5qR1dSRjMtanhILUQwRlFFTmVyN2pxSGRHazV4X0tIWkVFSi12MnBjZXdrWXJWc3N3a0dhR1B0bGtwcUYtSjdqWkJESHFkbWpibTVuaXpKbUxRMFVWa0VWbnprMXZMOHJQRDFvYmMyclk?oc=5",
+    "source": "gnews_macro",
+    "published_utc": "2026-09-28T11:36:34+00:00",
+    "score": 7.4,
     "duplicates": 0
    }
   ],
   "summary": {
    "lines": [
-    "Futures fall as Trump rejected an Iran peace proposal and oil jumped, with Brent topping $106, adding a geopolitical risk premium to the session [9b6db5ac05][68c8d3084a][4916ca333b][f95518fce0][b33db243e6].",
-    "Treasury yields are surging alongside the oil move, with a WSJ report citing an extending Treasury selloff that fuels Fed rate hike fears heading into jobs week [08d2231de6][dd503d06de][f426393f44].",
-    "Traders are positioning ahead of jobs and PCE data, a key catalyst for rate expectations this week [e6b04b3d6a][dfcc28183b].",
-    "US and China released reciprocal $30 billion product lists for tariff cuts following the Trump-Xi meeting, a trade-policy input worth watching for follow-through [b15157a662].",
-    "Micron is flagged as an increasingly important S&P 500 earnings driver, with its report described as a market event in its own right [2b79da38e0]."
+    "Oil is spiking with Brent topping $106 after Trump rejected an Iran peace proposal, pressuring Nasdaq and S&P futures and raising volatility risk into the open [68c8d3084a][4916ca333b][f95518fce0][77844987fa].",
+    "Treasury yields are surging alongside oil, fueling Fed rate-hike fears and a broader selloff extending into jobs week, a key driver for rate-sensitive tech and index futures [9b6db5ac05][08d2231de6][dd503d06de].",
+    "Gold fell to a 7-week low as yields and Fed hike bets rise, and euro zone bond yields also climbed on oil and inflation data, signaling a global rates-driven risk-off tone [7a0d6987f8][50135476af].",
+    "The US and China released reciprocal $30 billion product lists for tariff cuts following the Trump-Xi meeting, a trade-policy development traders may watch for equity sentiment shifts [a680b57186].",
+    "Micron's upcoming earnings are drawing focus as a potential major driver of S&P 500 profit growth, alongside broader AI-related concerns weighing on tech futures [2b79da38e0][dfcc28183b]."
    ],
    "backend": "anthropic",
    "model": "claude-sonnet-5",
