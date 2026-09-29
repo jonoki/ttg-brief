@@ -1,7 +1,7 @@
 {
  "meta": {
-  "generated_at_utc": "2026-09-29T13:59:49.690259+00:00",
-  "generated_at_local": "Tue 29 Sep 2026 10:59 ADT",
+  "generated_at_utc": "2026-09-29T14:10:15.193166+00:00",
+  "generated_at_local": "Tue 29 Sep 2026 11:10 ADT",
   "trading_day": "2026-09-29",
   "display_tz": "America/Halifax",
   "version": "0.1.0",
@@ -122,14 +122,14 @@
    }
   ],
   "next_event": {
-   "name": "CB Consumer Confidence",
+   "name": "ADP Non-Farm Employment Change",
    "impact": "medium",
-   "time_utc": "2026-09-29T14:00:00+00:00",
-   "local": "11:00 ADT",
-   "et": "10:00 ET",
-   "in": "0 min",
-   "consensus": "89.2",
-   "prior": "89.4"
+   "time_utc": "2026-09-30T12:15:00+00:00",
+   "local": "09:15 ADT",
+   "et": "08:15 ET",
+   "in": "22h 04m",
+   "consensus": "73K",
+   "prior": "38K"
   },
   "sources": [],
   "warnings": []
@@ -138,10 +138,10 @@
   {
    "root": "ES",
    "trading_day": "2026-09-29",
-   "as_of_utc": "2026-09-29T13:59:49.690259+00:00",
+   "as_of_utc": "2026-09-29T14:10:15.193166+00:00",
    "source": "yahoo",
    "delayed": true,
-   "last_price": 7737.75,
+   "last_price": 7740.0,
    "levels": [
     {
      "tag": "exp_hi",
@@ -251,7 +251,7 @@
     {
      "tag": "tdl",
      "label": "Today's RTH low",
-     "price": 7735.75,
+     "price": 7734.75,
      "group": "today",
      "note": ""
     },
@@ -306,8 +306,8 @@
     }
    ],
    "stats": {
-    "last_bar_utc": "2026-09-29T13:49:00+00:00",
-    "last_bar_age_min": 10.8,
+    "last_bar_utc": "2026-09-29T14:00:00+00:00",
+    "last_bar_age_min": 10.3,
     "market_state": "open",
     "profile_volume": 1367474.0,
     "prior_day": "2026-09-28",
@@ -1565,20 +1565,28 @@
     {
      "t": "2026-09-29T13:45:00+00:00",
      "o": 7740.5,
-     "h": 7744.75,
-     "l": 7735.75,
-     "c": 7737.75,
-     "v": 18668.0
+     "h": 7746.0,
+     "l": 7734.75,
+     "c": 7736.25,
+     "v": 57820.0
+    },
+    {
+     "t": "2026-09-29T14:00:00+00:00",
+     "o": 7736.25,
+     "h": 7745.75,
+     "l": 7736.0,
+     "c": 7740.0,
+     "v": 0.0
     }
    ]
   },
   {
    "root": "NQ",
    "trading_day": "2026-09-29",
-   "as_of_utc": "2026-09-29T13:59:49.690259+00:00",
+   "as_of_utc": "2026-09-29T14:10:15.193166+00:00",
    "source": "yahoo",
    "delayed": true,
-   "last_price": 30572.25,
+   "last_price": 30623.0,
    "levels": [
     {
      "tag": "exp_hi",
@@ -1644,11 +1652,25 @@
      "note": "09:30 bar open"
     },
     {
+     "tag": "rn_major_up",
+     "label": "Round 100 above",
+     "price": 30700.0,
+     "group": "round",
+     "note": ""
+    },
+    {
      "tag": "vah",
      "label": "Prior-day VAH",
      "price": 30689.0,
      "group": "profile",
      "note": "70 % value area"
+    },
+    {
+     "tag": "rn_minor_up",
+     "label": "Round 50 above",
+     "price": 30650.0,
+     "group": "round",
+     "note": ""
     },
     {
      "tag": "poc",
@@ -1658,8 +1680,8 @@
      "note": "2026-09-28 RTH, bin 1.0"
     },
     {
-     "tag": "rn_major_up",
-     "label": "Round 100 above",
+     "tag": "rn_major_dn",
+     "label": "Round 100 below",
      "price": 30600.0,
      "group": "round",
      "note": ""
@@ -1679,13 +1701,6 @@
      "note": "typical-price VWAP"
     },
     {
-     "tag": "rn_minor_dn",
-     "label": "Round 50 below",
-     "price": 30550.0,
-     "group": "round",
-     "note": ""
-    },
-    {
      "tag": "tdl",
      "label": "Today's RTH low",
      "price": 30545.5,
@@ -1698,13 +1713,6 @@
      "price": 30517.0,
      "group": "profile",
      "note": "70 % value area"
-    },
-    {
-     "tag": "rn_major_dn",
-     "label": "Round 100 below",
-     "price": 30500.0,
-     "group": "round",
-     "note": ""
     },
     {
      "tag": "onl",
@@ -1743,8 +1751,8 @@
     }
    ],
    "stats": {
-    "last_bar_utc": "2026-09-29T13:49:00+00:00",
-    "last_bar_age_min": 10.8,
+    "last_bar_utc": "2026-09-29T14:00:00+00:00",
+    "last_bar_age_min": 10.3,
     "market_state": "open",
     "profile_volume": 498500.00000000006,
     "prior_day": "2026-09-28",
@@ -3002,10 +3010,18 @@
     {
      "t": "2026-09-29T13:45:00+00:00",
      "o": 30567.0,
-     "h": 30599.75,
+     "h": 30656.25,
      "l": 30558.75,
-     "c": 30572.25,
-     "v": 8428.0
+     "c": 30608.25,
+     "v": 28708.0
+    },
+    {
+     "t": "2026-09-29T14:00:00+00:00",
+     "o": 30608.25,
+     "h": 30659.25,
+     "l": 30606.75,
+     "c": 30623.0,
+     "v": 0.0
     }
    ]
   }
