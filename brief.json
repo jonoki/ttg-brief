@@ -1,7 +1,7 @@
 {
  "meta": {
-  "generated_at_utc": "2026-09-29T14:25:23.981129+00:00",
-  "generated_at_local": "Tue 29 Sep 2026 11:25 ADT",
+  "generated_at_utc": "2026-09-29T14:40:38.763479+00:00",
+  "generated_at_local": "Tue 29 Sep 2026 11:40 ADT",
   "trading_day": "2026-09-29",
   "display_tz": "America/Halifax",
   "version": "0.1.0",
@@ -127,7 +127,7 @@
    "time_utc": "2026-09-30T12:15:00+00:00",
    "local": "09:15 ADT",
    "et": "08:15 ET",
-   "in": "21h 49m",
+   "in": "21h 34m",
    "consensus": "73K",
    "prior": "38K"
   },
@@ -138,10 +138,10 @@
   {
    "root": "ES",
    "trading_day": "2026-09-29",
-   "as_of_utc": "2026-09-29T14:25:23.981129+00:00",
+   "as_of_utc": "2026-09-29T14:40:38.763479+00:00",
    "source": "yahoo",
    "delayed": true,
-   "last_price": 7740.5,
+   "last_price": 7744.5,
    "levels": [
     {
      "tag": "exp_hi",
@@ -306,8 +306,8 @@
     }
    ],
    "stats": {
-    "last_bar_utc": "2026-09-29T14:15:00+00:00",
-    "last_bar_age_min": 10.4,
+    "last_bar_utc": "2026-09-29T14:30:00+00:00",
+    "last_bar_age_min": 10.6,
     "market_state": "open",
     "profile_volume": 1367474.0,
     "prior_day": "2026-09-28",
@@ -1581,9 +1581,17 @@
     {
      "t": "2026-09-29T14:15:00+00:00",
      "o": 7741.0,
-     "h": 7742.25,
-     "l": 7737.5,
-     "c": 7740.5,
+     "h": 7747.0,
+     "l": 7737.0,
+     "c": 7742.0,
+     "v": 68837.0
+    },
+    {
+     "t": "2026-09-29T14:30:00+00:00",
+     "o": 7742.0,
+     "h": 7745.75,
+     "l": 7742.0,
+     "c": 7744.5,
      "v": 0.0
     }
    ]
@@ -1591,10 +1599,10 @@
   {
    "root": "NQ",
    "trading_day": "2026-09-29",
-   "as_of_utc": "2026-09-29T14:25:23.981129+00:00",
+   "as_of_utc": "2026-09-29T14:40:38.763479+00:00",
    "source": "yahoo",
    "delayed": true,
-   "last_price": 30624.25,
+   "last_price": 30683.25,
    "levels": [
     {
      "tag": "exp_hi",
@@ -1674,8 +1682,8 @@
      "note": "70 % value area"
     },
     {
-     "tag": "rn_minor_up",
-     "label": "Round 50 above",
+     "tag": "rn_minor_dn",
+     "label": "Round 50 below",
      "price": 30650.0,
      "group": "round",
      "note": ""
@@ -1759,8 +1767,8 @@
     }
    ],
    "stats": {
-    "last_bar_utc": "2026-09-29T14:15:00+00:00",
-    "last_bar_age_min": 10.4,
+    "last_bar_utc": "2026-09-29T14:30:00+00:00",
+    "last_bar_age_min": 10.6,
     "market_state": "open",
     "profile_volume": 498500.00000000006,
     "prior_day": "2026-09-28",
@@ -3034,9 +3042,17 @@
     {
      "t": "2026-09-29T14:15:00+00:00",
      "o": 30628.0,
-     "h": 30631.0,
-     "l": 30604.0,
-     "c": 30624.25,
+     "h": 30698.5,
+     "l": 30598.25,
+     "c": 30670.0,
+     "v": 28824.0
+    },
+    {
+     "t": "2026-09-29T14:30:00+00:00",
+     "o": 30670.25,
+     "h": 30689.25,
+     "l": 30669.25,
+     "c": 30683.25,
      "v": 0.0
     }
    ]
@@ -3045,21 +3061,12 @@
  "news": {
   "headlines": [
    {
-    "id": "5ff8f372a7",
-    "title": "US stock futures tick higher as tech steadies though oil, yields stay high - Yahoo Finance",
-    "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNWVpBNW9UUVRHeWRESGNaVHJXQU5DLXAyT0IzVlczR3FVY0VrUE5iUTg4Rk9nYkRtaWxWQzRhZVAyM3JtZUJ3MWxtbmpMdnRqTVhjTTc0TU52Z2RTNE9tUDVqWjBDSGFMU2RzeFhkMEFWUFQ2QzY1OVBVUi10dDYzSG9ZclkwVVN0eTB4YWRzUWVHdWQ5dDhZRw?oc=5",
-    "source": "gnews_futures",
-    "published_utc": "2026-09-29T11:48:12+00:00",
-    "score": 8.56,
-    "duplicates": 2
-   },
-   {
     "id": "28ab7cc100",
     "title": "Stock Futures Rise, Treasury Yields Edge Lower as Oil Pulls Back - WSJ",
     "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPTFJEWUpuTldVdUVyQ1hEajlmMXJ6T2JfQnJjZkplSW03Y2ZENlhTYjRuczh4cU9kX2lobzc3dU1ENENfS0R2U0VWR3lwVUNCaFh4Tm14YTBjOWJCbDFhZ0VZWUdSQUx5NnQzQlkzTmVJS0xoNGVMaW80bGhCRTU1UU0zSjdGQ1Y5dFNlRTdlMlFrM2NCdkNqdA?oc=5",
     "source": "gnews_futures",
     "published_utc": "2026-09-29T12:31:00+00:00",
-    "score": 8.18,
+    "score": 8.14,
     "duplicates": 1
    },
    {
@@ -3068,8 +3075,17 @@
     "link": "https://news.google.com/rss/articles/CBMinAJBVV95cUxNYk54Rmw0eW1oTEUydS1QNnExQTRjbU9JR3NvdEE0enBIaXotZDZWeVB6RG5OcVNCTlVTbHBGQzA2YTVkMFlvaGtDZ25mamZ6b0Fzal9ySGF2eXNFcHBRNGVoLU51ZVBrUFlIWS1WelhfQjZVV0poQjFETVJaZjdWeDU2YXZ5R3AtS2wzX0Y5cGkwdGg4aUttNXlURXFEVENpT3ZjTlBhWEhkRW5HRVlrZFY5SGRDMDd1cnAycGt4c0cyRGhOdkhqazgxdnIzVW9EWUlreldlak1wMzdMeXpINXJBZTdES1RqRUgyVTFCR1hqREU0OUl0bTRpa1JjbEM1Z2ViUHNkOHZaQi1YMnBkOURQWDItbGVwTmpVRQ?oc=5",
     "source": "gnews_futures",
     "published_utc": "2026-09-29T09:17:17+00:00",
-    "score": 8.14,
+    "score": 8.1,
     "duplicates": 0
+   },
+   {
+    "id": "5ff8f372a7",
+    "title": "US stock futures tick higher as tech steadies though oil, yields stay high - Yahoo Finance",
+    "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNWVpBNW9UUVRHeWRESGNaVHJXQU5DLXAyT0IzVlczR3FVY0VrUE5iUTg4Rk9nYkRtaWxWQzRhZVAyM3JtZUJ3MWxtbmpMdnRqTVhjTTc0TU52Z2RTNE9tUDVqWjBDSGFMU2RzeFhkMEFWUFQ2QzY1OVBVUi10dDYzSG9ZclkwVVN0eTB4YWRzUWVHdWQ5dDhZRw?oc=5",
+    "source": "gnews_futures",
+    "published_utc": "2026-09-29T11:48:12+00:00",
+    "score": 8.02,
+    "duplicates": 1
    },
    {
     "id": "83965706c1",
@@ -3077,7 +3093,7 @@
     "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBQeGtfazR6cXJPdlN4ODY5dTV2U2pRRXhac29UMlZoVFZ0VElHVFJZWkFkLThWRTVmWDhVcHl1YS1rSEhFRlBwaG91Y0k1UTlvSk1HbDBlVEtfZzQ?oc=5",
     "source": "gnews_macro",
     "published_utc": "2026-09-29T11:09:37+00:00",
-    "score": 7.96,
+    "score": 7.91,
     "duplicates": 0
    },
    {
@@ -3086,7 +3102,7 @@
     "link": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxNbTJDbG5VNHZxc0pMQ3pkV21HM1pFR29ySWRzU25ITUFqUFdKeEVQMW9GRktYSGNsbDMxRTRIQUMwRDJnRm0yTmsyY1A0dENDaWloLUVLQmtjSjlDcEdFallNc1o5RkhzdzlmcHB6SzJFUjBPeTB2czVESzhZQUcwOHNGZFVLVEpyVE0zVDllQklTWG5rN0RKTUJyTjdUVWhZaEFMTkx1ejI2ckdDN2x5SjdGYmVoTFQ1eXl0aV9CbzlKNlVhWm84cEJjX2pzVVk4YktGaS1xYWJuRTR6WHozZGxBUQ?oc=5",
     "source": "gnews_fed",
     "published_utc": "2026-09-29T10:54:12+00:00",
-    "score": 7.91,
+    "score": 7.87,
     "duplicates": 0
    },
    {
@@ -3095,7 +3111,7 @@
     "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNd0gteENNcHA2Z0pRa0wtVXdZYkx3bEU3b1k4Z0lXaEZWaVZvTWIzVVRpbzhrMy1XQlU4QzVsR3JLZzlWSEhVVXpCRnFpMG9EZ0ZiUFJ2c2FuM0hvcGloaXRJQlQ3SWtPRjJHalVmcGM1MWF3dHlNQnlENF9lckVKalkyZVpuU1dTelNrTW9uYXk2VWJ6eWRWek12bUpoMjQ?oc=5",
     "source": "gnews_macro",
     "published_utc": "2026-09-29T12:54:40+00:00",
-    "score": 7.75,
+    "score": 7.71,
     "duplicates": 1
    },
    {
@@ -3104,7 +3120,7 @@
     "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNbHBtVGxjOVJGMm9UeWJCQWhpX0J6bVZwTGRaVm01T2NrY05XRlJrX3dSU1pEWXNIaGZDZUJzaHp0djQ3d3RHbFY2ZlJxMjFQenVsT0x1NEp4TkRaak95OWI2elJ4N293Yk45a3RvTnpKZjE0YzBxWERQWF9sX2FGcmM4RHI5Zw?oc=5",
     "source": "gnews_futures",
     "published_utc": "2026-09-29T12:40:05+00:00",
-    "score": 7.71,
+    "score": 7.67,
     "duplicates": 0
    },
    {
@@ -3113,7 +3129,7 @@
     "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNNVcwUzJzT0VKRk0zSDBKZEJ3RHBMU3BINzFBcWJ4RjZWRGdDaUdfSWRhNHlJNWp5VlEyeUI4SnRXMHBJQ2pKTDVuMmNZNFYxU05BR25rWEc1a2Nzd09laVRFSjl0c3NRN2hRenZlWk1JRlRzWTVGeFVIdWZtYzJYY1dIZU1wUDRfZWlDUWRodFlidkVxR29VZzJtLVFWR3BiMXg4ZQ?oc=5",
     "source": "gnews_futures",
     "published_utc": "2026-09-29T08:46:54+00:00",
-    "score": 7.56,
+    "score": 7.52,
     "duplicates": 0
    },
    {
@@ -3122,7 +3138,7 @@
     "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxPbHRLQXFOenZpV2k4MElVUWhTU2wwRmtaTGRTWTZqa1dXQzNndWlKNnNEOUVPYWkzSjdiNWF4a2xGZEg0dkpuN3d6cW5wWFFHUmRjWERzcmJwVzZydmx5aElJWnQ0VmJ5SVhsTzRpRFhZTThQMHJqQzhFM2ZwVzk5NmltVk9BbWJCa2xNQlRyRkRJWWNzTkpDZ20tRzhBSFZGRF9TeGkzM0hxckRXUkQ3OXAtcTNxNnltbkZQV2VKMEV0R21kNEgwcTZySkI4bkxmWEHSAdcBQVVfeXFMT2FycnRXTWJadVlwNmtORlJobHZ5bFRtZVcycGlrLUVGTXRpR09wMVNySGFaV19DN0U5X3ZRZFoxd1FiMlNCMS0tNGRIYXNDbG1WQ0pGRGlwRTJVckRhODJhUUhIZDJWSzZZTVc1eW5XNUE2cm5MZGl3ZURmU3ktNGNwdWlpeExqdHl5dnhNQW1hTllGYzkxTF9Fclo0Y1FVVVBLSndVdzRUWDZkS1RENFdDQy16WlZIYmQ3Nk5oelJ4TWVZNW5vQXR1eFN6QkRhUUtLMC1Pb0k?oc=5",
     "source": "gnews_futures",
     "published_utc": "2026-09-29T08:42:35+00:00",
-    "score": 7.55,
+    "score": 7.51,
     "duplicates": 2
    },
    {
@@ -3131,7 +3147,7 @@
     "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOZnVrSHFkT3VSY2xfU0tPMm5kOU1wOFZYYWZFMDhSRGJwTVk0UTQzb3E3b0E4aHJDYmdyTk5JdloydTNaM2xDWEczaHVRQUhSYjFvMWpUejVfdC1YX0F2dDBQS3dUa0tBdWllSjE5MEhxZE5YS3VIMlY4OFVKVF9qR0hoLVJ0VExZRFVNNXBBLVE5dGlZ?oc=5",
     "source": "gnews_macro",
     "published_utc": "2026-09-29T13:40:00+00:00",
-    "score": 7.37,
+    "score": 7.33,
     "duplicates": 0
    },
    {
@@ -3140,7 +3156,7 @@
     "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE5UMTFCc2ltRFNNUUsyY2Q0ZTBfSWFHNTJCcGtxQWFHc2k5S1BKQ29RT3NpRnFuRjFvT2oxb19OeFBoNl9NN3loM05NRXBLUEVobU1QSGw4bmdBelNleVg5cjlMRHl3UjV6NWFubllNS1o2U2t2TW1TRW93?oc=5",
     "source": "gnews_futures",
     "published_utc": "2026-09-29T11:28:17+00:00",
-    "score": 7.01,
+    "score": 6.97,
     "duplicates": 1
    },
    {
@@ -3149,23 +3165,23 @@
     "link": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxNQWg5RlhyU1VQNE5GYmtELW0xMzh6QTFCWWJBQlA3LVN5RlBfSTdmMTIzb2x0VDNuTGdEVC1qTnBUSnJobWlPci1xSFFHemtfSldzVXpvMHNXUWlhWUNXUlE0Rmd5QzVQWFlHWVNiUEVGeWl2eVBEZi1uNkxOcU5xRDJJZTlPRE5mSUt2Q2NKbkVTQ2s5LWNidkt2cFNQajFKLUdMaTJQOUR0U296YTNNQm9pbGdHZEx0ejBqVnY4Z0xyd0JOb3M3Q3BVOVhYX3FsdG1qOEdfcU1VdklWSjlF0gHkAUFVX3lxTFBZUHMxWjV1ODNPZFlvRzdBOHo1aUc2bmpwS1RWeE55NlU5alljZEtBYnBrUEh5TGl5VW5SMWRweWQ1RlRZV1FzMjRvdS1KbzFwZkc3eHNYTHBlQkJQUTBwbW9OaUR4dGhsai1iczhiQ0Y3Wjl2SlIyTVJtcUR6dEM4ZXBrRDc5Q3dqWlA1Y2NVc3JxdHZHV2dkeVJYcWQ3aE91OFhZby1XOXZYaktZNnVYR09UbzktSlprVG9YQ0dXVDZ3RUFnbGhOTkxHOURHSk9RaDNmaWd1Vno1ZUpyeDVTQXFkcQ?oc=5",
     "source": "gnews_futures",
     "published_utc": "2026-09-29T13:43:39+00:00",
-    "score": 6.88,
+    "score": 6.84,
     "duplicates": 0
    }
   ],
   "summary": {
    "lines": [
-    "US stock futures tick higher as tech steadies though oil, yields stay high - Yahoo Finance [5ff8f372a7]",
     "Stock Futures Rise, Treasury Yields Edge Lower as Oil Pulls Back - WSJ [28ab7cc100]",
     "Stock Market Today: Dow Jones, S&P 500 Futures Slip, Nasdaq 100 Gains as Trump Dismisses Iran Sanction Re - benzinga.com [f381ab8bc2]",
+    "US stock futures tick higher as tech steadies though oil, yields stay high - Yahoo Finance [5ff8f372a7]",
     "Mike Lee slams Fed Governor Lisa Cook's AI inflation warning as 'laughably stupid' - Fox Business [83965706c1]",
     "Fed's Lisa Cook Says AI Is Fueling Inflation — Warns Labor Market Faces a ‘Painful Transition’ - TradingView [c8a5025deb]"
    ],
-   "backend": "none",
-   "model": null,
+   "backend": "anthropic",
+   "model": "claude-sonnet-5",
    "dropped": [],
    "warnings": [
-    "anthropic backend failed (HTTPError: 503 Server Error: Service Unavailable for url: https://api.anthropic.com/v1/messages); fell back to digest"
+    "summariser produced no valid lines; showing digest"
    ]
   },
   "feeds": [],
