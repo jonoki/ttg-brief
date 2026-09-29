@@ -1,7 +1,7 @@
 {
  "meta": {
-  "generated_at_utc": "2026-09-29T11:57:00.063609+00:00",
-  "generated_at_local": "Tue 29 Sep 2026 08:57 ADT",
+  "generated_at_utc": "2026-09-29T12:12:23.067793+00:00",
+  "generated_at_local": "Tue 29 Sep 2026 09:12 ADT",
   "trading_day": "2026-09-29",
   "display_tz": "America/Halifax",
   "version": "0.1.0",
@@ -127,7 +127,7 @@
    "time_utc": "2026-09-29T14:00:00+00:00",
    "local": "11:00 ADT",
    "et": "10:00 ET",
-   "in": "2h 02m",
+   "in": "1h 47m",
    "consensus": "89.2",
    "prior": "89.4"
   },
@@ -138,10 +138,10 @@
   {
    "root": "ES",
    "trading_day": "2026-09-29",
-   "as_of_utc": "2026-09-29T11:57:00.063609+00:00",
+   "as_of_utc": "2026-09-29T12:12:23.067793+00:00",
    "source": "yahoo",
    "delayed": true,
-   "last_price": 7757.0,
+   "last_price": 7765.5,
    "levels": [
     {
      "tag": "exp_hi",
@@ -153,7 +153,7 @@
     {
      "tag": "pwh",
      "label": "Prior-week high",
-     "price": 7828.25,
+     "price": 7826.25,
      "group": "week",
      "note": "3 session(s) of data — PARTIAL"
     },
@@ -207,18 +207,18 @@
      "note": "2026-09-28"
     },
     {
+     "tag": "onh",
+     "label": "Overnight high",
+     "price": 7770.75,
+     "group": "overnight",
+     "note": "since 18:00 ET, 833 bars"
+    },
+    {
      "tag": "poc",
      "label": "Prior-day POC",
      "price": 7763.88,
      "group": "profile",
      "note": "2026-09-28 RTH, bin 0.25"
-    },
-    {
-     "tag": "onh",
-     "label": "Overnight high",
-     "price": 7760.5,
-     "group": "overnight",
-     "note": "since 18:00 ET, 817 bars"
     },
     {
      "tag": "rn_major_dn",
@@ -244,7 +244,7 @@
     {
      "tag": "onvwap",
      "label": "Overnight VWAP",
-     "price": 7740.07,
+     "price": 7741.64,
      "group": "overnight",
      "note": "typical-price VWAP"
     },
@@ -285,14 +285,14 @@
     }
    ],
    "stats": {
-    "last_bar_utc": "2026-09-29T11:46:00+00:00",
-    "last_bar_age_min": 11.0,
+    "last_bar_utc": "2026-09-29T12:02:00+00:00",
+    "last_bar_age_min": 10.4,
     "market_state": "open",
     "profile_volume": 1367474.0,
     "prior_day": "2026-09-28",
     "prior_day_rth_range": 60.25,
-    "overnight_range": 44.5,
-    "gap_vs_prior_close": 10.5,
+    "overnight_range": 54.75,
+    "gap_vs_prior_close": 19.0,
     "gap_basis": "last price (pre-market)",
     "atr14": 82.72,
     "atr_days": 14,
@@ -1480,20 +1480,28 @@
     {
      "t": "2026-09-29T11:45:00+00:00",
      "o": 7758.75,
-     "h": 7758.75,
-     "l": 7756.25,
-     "c": 7757.0,
-     "v": 352.0
+     "h": 7770.75,
+     "l": 7755.25,
+     "c": 7763.0,
+     "v": 14276.0
+    },
+    {
+     "t": "2026-09-29T12:00:00+00:00",
+     "o": 7763.0,
+     "h": 7766.5,
+     "l": 7762.75,
+     "c": 7765.5,
+     "v": 1343.0
     }
    ]
   },
   {
    "root": "NQ",
    "trading_day": "2026-09-29",
-   "as_of_utc": "2026-09-29T11:57:00.063609+00:00",
+   "as_of_utc": "2026-09-29T12:12:23.067793+00:00",
    "source": "yahoo",
    "delayed": true,
-   "last_price": 30651.0,
+   "last_price": 30698.25,
    "levels": [
     {
      "tag": "exp_hi",
@@ -1538,6 +1546,13 @@
      "note": "2026-09-28"
     },
     {
+     "tag": "onh",
+     "label": "Overnight high",
+     "price": 30707.0,
+     "group": "overnight",
+     "note": "since 18:00 ET, 833 bars"
+    },
+    {
      "tag": "rn_major_up",
      "label": "Round 100 above",
      "price": 30700.0,
@@ -1550,13 +1565,6 @@
      "price": 30689.0,
      "group": "profile",
      "note": "70 % value area"
-    },
-    {
-     "tag": "onh",
-     "label": "Overnight high",
-     "price": 30669.0,
-     "group": "overnight",
-     "note": "since 18:00 ET, 817 bars"
     },
     {
      "tag": "rn_minor_dn",
@@ -1589,7 +1597,7 @@
     {
      "tag": "onvwap",
      "label": "Overnight VWAP",
-     "price": 30531.51,
+     "price": 30538.59,
      "group": "overnight",
      "note": "typical-price VWAP"
     },
@@ -1637,14 +1645,14 @@
     }
    ],
    "stats": {
-    "last_bar_utc": "2026-09-29T11:46:00+00:00",
-    "last_bar_age_min": 11.0,
+    "last_bar_utc": "2026-09-29T12:02:00+00:00",
+    "last_bar_age_min": 10.4,
     "market_state": "open",
     "profile_volume": 498500.00000000006,
     "prior_day": "2026-09-28",
     "prior_day_rth_range": 402.5,
-    "overnight_range": 296.75,
-    "gap_vs_prior_close": 84.25,
+    "overnight_range": 334.75,
+    "gap_vs_prior_close": 131.5,
     "gap_basis": "last price (pre-market)",
     "atr14": 489.83,
     "atr_days": 14,
@@ -2832,10 +2840,18 @@
     {
      "t": "2026-09-29T11:45:00+00:00",
      "o": 30659.25,
-     "h": 30659.5,
-     "l": 30646.25,
-     "c": 30651.0,
-     "v": 408.0
+     "h": 30707.0,
+     "l": 30636.5,
+     "c": 30682.0,
+     "v": 4853.0
+    },
+    {
+     "t": "2026-09-29T12:00:00+00:00",
+     "o": 30681.25,
+     "h": 30703.25,
+     "l": 30678.5,
+     "c": 30698.25,
+     "v": 555.0
     }
    ]
   }
@@ -2848,8 +2864,17 @@
     "link": "https://news.google.com/rss/articles/CBMinAJBVV95cUxNYk54Rmw0eW1oTEUydS1QNnExQTRjbU9JR3NvdEE0enBIaXotZDZWeVB6RG5OcVNCTlVTbHBGQzA2YTVkMFlvaGtDZ25mamZ6b0Fzal9ySGF2eXNFcHBRNGVoLU51ZVBrUFlIWS1WelhfQjZVV0poQjFETVJaZjdWeDU2YXZ5R3AtS2wzX0Y5cGkwdGg4aUttNXlURXFEVENpT3ZjTlBhWEhkRW5HRVlrZFY5SGRDMDd1cnAycGt4c0cyRGhOdkhqazgxdnIzVW9EWUlreldlak1wMzdMeXpINXJBZTdES1RqRUgyVTFCR1hqREU0OUl0bTRpa1JjbEM1Z2ViUHNkOHZaQi1YMnBkOURQWDItbGVwTmpVRQ?oc=5",
     "source": "gnews_futures",
     "published_utc": "2026-09-29T09:17:17+00:00",
-    "score": 8.56,
+    "score": 8.51,
     "duplicates": 0
+   },
+   {
+    "id": "9ac8e666a6",
+    "title": "US stock futures tick higher as tech steadies though oil, yields stay high - TradingView",
+    "link": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxPM29Lc2pzcEdfS1kyQ29ueDlwbi14eHdwUTY0OUZUZlRNbEZPb1dCZktEQnRKSFNNMTFqOW5mMnNRMnNEVGhoSlRValI0NnpSOWNQaE5rYzVsVEFwRm4wM1JkRGdORkktZmZjR1NweEFnOEp4d2sxdHl1VkdoNnlfQ3hhTjlCMEtPcDJDa3ZCb2EzYkZpSjluNXc2NFpfUWJKSUM3U1V3SVNNakxDdkR3Q3RWUFdTYVpHSkdTMmxQekNkQ09KSlBuVlNpRnI2VktJTmtkVVlDYVJVdU0?oc=5",
+    "source": "gnews_futures",
+    "published_utc": "2026-09-29T11:48:11+00:00",
+    "score": 8.43,
+    "duplicates": 1
    },
    {
     "id": "83965706c1",
@@ -2857,7 +2882,16 @@
     "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBQeGtfazR6cXJPdlN4ODY5dTV2U2pRRXhac29UMlZoVFZ0VElHVFJZWkFkLThWRTVmWDhVcHl1YS1rSEhFRlBwaG91Y0k1UTlvSk1HbDBlVEtfZzQ?oc=5",
     "source": "gnews_macro",
     "published_utc": "2026-09-29T11:09:37+00:00",
-    "score": 8.37,
+    "score": 8.33,
+    "duplicates": 0
+   },
+   {
+    "id": "c8a5025deb",
+    "title": "Fed's Lisa Cook Says AI Is Fueling Inflation — Warns Labor Market Faces a ‘Painful Transition’ - TradingView",
+    "link": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxNbTJDbG5VNHZxc0pMQ3pkV21HM1pFR29ySWRzU25ITUFqUFdKeEVQMW9GRktYSGNsbDMxRTRIQUMwRDJnRm0yTmsyY1A0dENDaWloLUVLQmtjSjlDcEdFallNc1o5RkhzdzlmcHB6SzJFUjBPeTB2czVESzhZQUcwOHNGZFVLVEpyVE0zVDllQklTWG5rN0RKTUJyTjdUVWhZaEFMTkx1ejI2ckdDN2x5SjdGYmVoTFQ1eXl0aV9CbzlKNlVhWm84cEJjX2pzVVk4YktGaS1xYWJuRTR6WHozZGxBUQ?oc=5",
+    "source": "gnews_fed",
+    "published_utc": "2026-09-29T10:54:12+00:00",
+    "score": 8.28,
     "duplicates": 0
    },
    {
@@ -2866,16 +2900,7 @@
     "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPTFJEWUpuTldVdUVyQ1hEajlmMXJ6T2JfQnJjZkplSW03Y2ZENlhTYjRuczh4cU9kX2lobzc3dU1ENENfS0R2U0VWR3lwVUNCaFh4Tm14YTBjOWJCbDFhZ0VZWUdSQUx5NnQzQlkzTmVJS0xoNGVMaW80bGhCRTU1UU0zSjdGQ1Y5dFNlRTdlMlFrM2NCdkNqdA?oc=5",
     "source": "gnews_futures",
     "published_utc": "2026-09-29T08:51:00+00:00",
-    "score": 7.98,
-    "duplicates": 0
-   },
-   {
-    "id": "e616cb715d",
-    "title": "US stock futures tick higher as tech steadies though oil, yields stay high - marketscreener.com",
-    "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNekdxdXB1bjBtWjNRZzVJSWpYU01HOXlwcjV3YWpmM01VQ21nUHQ3YnpLVUJPM3NOY2FwSGloTVVYbDU4bXAyaGFHcGRYRGljUGc3dUV3bFBMWUNMc3VUTFZTZ0ZPU084QkZza25Gamx5VUQ2bXhoMUZwR3psS1hxUV9HdTcxN3dBV1lQeHp6UzNWRTFWd2hTc0hkd3N5dXBEMFN6UVFhYm93MjRTZjdlb2p4UGVGekhHS2c4bEFWMEJkLW1x?oc=5",
-    "source": "gnews_futures",
-    "published_utc": "2026-09-29T11:49:35+00:00",
-    "score": 7.98,
+    "score": 7.94,
     "duplicates": 0
    },
    {
@@ -2884,7 +2909,7 @@
     "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxPbHRLQXFOenZpV2k4MElVUWhTU2wwRmtaTGRTWTZqa1dXQzNndWlKNnNEOUVPYWkzSjdiNWF4a2xGZEg0dkpuN3d6cW5wWFFHUmRjWERzcmJwVzZydmx5aElJWnQ0VmJ5SVhsTzRpRFhZTThQMHJqQzhFM2ZwVzk5NmltVk9BbWJCa2xNQlRyRkRJWWNzTkpDZ20tRzhBSFZGRF9TeGkzM0hxckRXUkQ3OXAtcTNxNnltbkZQV2VKMEV0R21kNEgwcTZySkI4bkxmWEHSAdcBQVVfeXFMT2FycnRXTWJadVlwNmtORlJobHZ5bFRtZVcycGlrLUVGTXRpR09wMVNySGFaV19DN0U5X3ZRZFoxd1FiMlNCMS0tNGRIYXNDbG1WQ0pGRGlwRTJVckRhODJhUUhIZDJWSzZZTVc1eW5XNUE2cm5MZGl3ZURmU3ktNGNwdWlpeExqdHl5dnhNQW1hTllGYzkxTF9Fclo0Y1FVVVBLSndVdzRUWDZkS1RENFdDQy16WlZIYmQ3Nk5oelJ4TWVZNW5vQXR1eFN6QkRhUUtLMC1Pb0k?oc=5",
     "source": "gnews_futures",
     "published_utc": "2026-09-29T08:42:35+00:00",
-    "score": 7.96,
+    "score": 7.92,
     "duplicates": 2
    },
    {
@@ -2893,7 +2918,7 @@
     "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE5UMTFCc2ltRFNNUUsyY2Q0ZTBfSWFHNTJCcGtxQWFHc2k5S1BKQ29RT3NpRnFuRjFvT2oxb19OeFBoNl9NN3loM05NRXBLUEVobU1QSGw4bmdBelNleVg5cjlMRHl3UjV6NWFubllNS1o2U2t2TW1TRW93?oc=5",
     "source": "gnews_futures",
     "published_utc": "2026-09-29T11:28:17+00:00",
-    "score": 7.42,
+    "score": 7.38,
     "duplicates": 1
    },
    {
@@ -2902,17 +2927,8 @@
     "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPUUV4a1lFZFh3V3BaLTB5TVI5SHRJTkRHSGQ2cjg3RHRaRFNERl9ld2pTMmU5Q2ZJc0NrdWZZN29qOXlEOHBrZjJBM2tuMTBDZk1UWnYzMmJEX0JHc2hraDhVWkJxNkNyYTJlV0J0c1pUeWJlQ0U1dF9qUVdqbk0wOTZhbm90ZEVLUUgxT2x0dw?oc=5",
     "source": "gnews_macro",
     "published_utc": "2026-09-29T11:10:24+00:00",
-    "score": 7.37,
+    "score": 7.33,
     "duplicates": 0
-   },
-   {
-    "id": "e32113af16",
-    "title": "Fed’s Cook Says AI Gains Won’t Offset Near-Term Inflation - Bloomberg.com",
-    "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxObkEwYTVXNmJBOV9JQnUzaW5JRDV3MnJYUU1LTXR4dDVURTFMYTFhVjJNTkRaak95T3NOX1NpbTBVcXFkUDVxbU1tSFRFazdtSU91dDY1SzcxR3Z5NFpQczFPTmpSSVdISjB3MFR6Yk5PUGtLTUVJM0MtSzhTY0NJb3JvNi10UDF4bjlwNnNEQW1tWjJXZFdqcjhqdHlRbGI2dzJGUTIzZ3cyRHd0?oc=5",
-    "source": "gnews_fed",
-    "published_utc": "2026-09-28T17:57:46+00:00",
-    "score": 7.0,
-    "duplicates": 1
    },
    {
     "id": "e92b126710",
@@ -2929,16 +2945,7 @@
     "link": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxNTjRncDIyOW52Q2FjczNSRTBuYW1pTzcyX1AtU0hRRlhLX3c0clZwRzdrRzRuaU5JWFVhS3ZJY2RyWnlRZTZfQWJoWWZrdXBmaWRocGVnVHNoUGtTQUlWRlIxaWdmT2JHRFB4WTBHMUdzVkhlR1FPb3ZSV0gtZjZ5T3FaTDlCb2JzcXRFVWhCT0diYkVyMEE3aVdmRHNQck0tWWFISjZWVVlldTl3QUkzcW15d2RjLWZkamF2TTV3aXVpQlU4WjlOaE9OY1EwNjhnejA5YzhxNDg0VVFBcUpz0gHnAUFVX3lxTE9ITXp4UDNnV0hCaVQwNVFXaG9yQUVmOC1TbEN6ZWRMamROUm5RSlFxMjU2S3FQMjZ1LVpuSWJ3RnVNelB4RXJHLWxMQ0dUX09UaUlzUjZtSkRWMHhEazdMTGlua2QtbG1VdzJ1Mk0td0wwdG5YRG94NHVWdWsxUGJhMllZZ0U5dXYzX2s0OFk1dThhaUVNeHVVX21pOWlnWGJRaGlXYkNtRkxmdUdqWmUyTDFDSUxXcUhiUGlDR0ZwSUlobXl6OFpLRXZJRXN4a2RSckJKVE1pcjg5cVBFQzZvdm5tMTZpWQ?oc=5",
     "source": "gnews_futures",
     "published_utc": "2026-09-29T10:58:58+00:00",
-    "score": 6.84,
-    "duplicates": 0
-   },
-   {
-    "id": "972ac6b03a",
-    "title": "Gold Holds Near Seven-Week Low as Treasury Yields and Fed Rate Expectations Rise - Yahoo Finance",
-    "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOTGJYZ0JBSEk4ZEUzNllxV0pkYndidmtUNEVPMjhUX2NvMnBhdFdsZk5yc3RDbHpiS1RrRFhhNnQ5aDAxYjMxbVRuc29OaElwdzJDQTNqWkoxbzFfckRFTG5RX1dnc2NtRkp1SDJKVDB6WGc1akw2bGNOblhILXFQcDI3OXFyMEF0Vzd6YjM2ZloxWk8yRTMtc1l1Qi0?oc=5",
-    "source": "gnews_macro",
-    "published_utc": "2026-09-29T09:31:50+00:00",
-    "score": 6.6,
+    "score": 6.8,
     "duplicates": 0
    },
    {
@@ -2947,22 +2954,30 @@
     "link": "https://news.google.com/rss/articles/CBMi_gFBVV95cUxPVDlSdVJIdFhIV1VGNWo1Y0xacU9telpTVlpabGxSX3hWOTJrSnd6V0hMZHJYM2xCOURvVGJHZGNxUXFHYVJaNUdhaUJVMkMzMW8xdVFZNElRNU9EZ2JpVTE4T1hBMEJFem04V2dveS1xaG9iNmtucHI1WWFZRkxZN1hLb3hCVEhTNzBXc0R4ZndYR28wNXZNY0N3c0xxLXc1QmVjS0VXQXVjZnpmTzQ3Wms5TEFmTVV5Unk1X0RKS0pVNE4zdXBKcWp2R1BMQ3lvV01jWGRyNXg2MFpHS2FBVnBDM0IybGdPV3luSTJDbVlwRlQ2MGhGMDhrYVgzdw?oc=5",
     "source": "gnews_futures",
     "published_utc": "2026-09-29T03:29:00+00:00",
-    "score": 6.59,
+    "score": 6.55,
+    "duplicates": 0
+   },
+   {
+    "id": "972ac6b03a",
+    "title": "Gold Holds Near Seven-Week Low as Treasury Yields and Fed Rate Expectations Rise - Yahoo Finance",
+    "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOTGJYZ0JBSEk4ZEUzNllxV0pkYndidmtUNEVPMjhUX2NvMnBhdFdsZk5yc3RDbHpiS1RrRFhhNnQ5aDAxYjMxbVRuc29OaElwdzJDQTNqWkoxbzFfckRFTG5RX1dnc2NtRkp1SDJKVDB6WGc1akw2bGNOblhILXFQcDI3OXFyMEF0Vzd6YjM2ZloxWk8yRTMtc1l1Qi0?oc=5",
+    "source": "gnews_macro",
+    "published_utc": "2026-09-29T09:31:50+00:00",
+    "score": 6.55,
     "duplicates": 0
    }
   ],
   "summary": {
    "lines": [
-    "10-year Treasury yield topped 5.2% amid an ongoing selloff, a key driver of the mixed/slipping futures tape ahead of the cash open [c683ea8a4a][28ab7cc100][aae0f014ba][a66df4746d].",
-    "Fed Governor Cook said AI-driven demand will broaden and add to near-term inflation, drawing pushback from Sen. Mike Lee, keeping Fed inflation-path debate in focus into today's 10:00 ET data [e32113af16][e92b126710][83965706c1].",
-    "Index futures are diverging by sector, with Dow and S&P slipping while Nasdaq 100 gains as tech \"steadies\" despite high oil and yields [f381ab8bc2][e616cb715d][195f917131].",
-    "Gold sits near a seven-week low as rising Treasury yields and Fed rate expectations weigh on the metal, a cross-asset read on rate-hike odds [972ac6b03a]."
+    "Treasury yields continue to climb with the 10-year topping 5.2%, pressuring equity futures and keeping rate-sensitive Nasdaq names in focus. [28ab7cc100] [c683ea8a4a] [aae0f014ba] [a66df4746d]",
+    "Fed Governor Lisa Cook's comments that AI demand is \"broadening\" and fueling inflation are drawing pushback, adding to rate-path uncertainty ahead of Fed policy. [c8a5025deb] [e92b126710] [83965706c1]",
+    "Citi flagged that September core CPI could stop an October Fed rate hike, a data point traders will weigh against the yield backdrop. [8d85b09bf0]",
+    "Futures are mixed into the cash open, with Dow/S&P slipping while Nasdaq 100 outperforms after Trump dismissed Iran sanction reports. [f381ab8bc2] [9ac8e666a6]",
+    "Gold sits near a seven-week low as rising yields and Fed rate expectations shift cross-asset positioning. [972ac6b03a]"
    ],
    "backend": "anthropic",
    "model": "claude-sonnet-5",
-   "dropped": [
-    "no valid citation: A Citi note flagged that September core CPI could be enough to stop an October Fed rate hike, relevant context for today's Consumer Confid"
-   ],
+   "dropped": [],
    "warnings": []
   },
   "feeds": [],
