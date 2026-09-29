@@ -1,7 +1,7 @@
 {
  "meta": {
-  "generated_at_utc": "2026-09-29T15:11:21.990087+00:00",
-  "generated_at_local": "Tue 29 Sep 2026 12:11 ADT",
+  "generated_at_utc": "2026-09-29T15:26:45.413321+00:00",
+  "generated_at_local": "Tue 29 Sep 2026 12:26 ADT",
   "trading_day": "2026-09-29",
   "display_tz": "America/Halifax",
   "version": "0.1.0",
@@ -127,7 +127,7 @@
    "time_utc": "2026-09-30T12:15:00+00:00",
    "local": "09:15 ADT",
    "et": "08:15 ET",
-   "in": "21h 03m",
+   "in": "20h 48m",
    "consensus": "73K",
    "prior": "38K"
   },
@@ -138,10 +138,10 @@
   {
    "root": "ES",
    "trading_day": "2026-09-29",
-   "as_of_utc": "2026-09-29T15:11:21.990087+00:00",
+   "as_of_utc": "2026-09-29T15:26:45.413321+00:00",
    "source": "yahoo",
    "delayed": true,
-   "last_price": 7733.75,
+   "last_price": 7731.0,
    "levels": [
     {
      "tag": "exp_hi",
@@ -249,13 +249,6 @@
      "note": "70 % value area"
     },
     {
-     "tag": "tdl",
-     "label": "Today's RTH low",
-     "price": 7732.5,
-     "group": "today",
-     "note": ""
-    },
-    {
      "tag": "pdl",
      "label": "Prior-day low (RTH)",
      "price": 7726.0,
@@ -267,6 +260,13 @@
      "label": "Round 25 below",
      "price": 7725.0,
      "group": "round",
+     "note": ""
+    },
+    {
+     "tag": "tdl",
+     "label": "Today's RTH low",
+     "price": 7724.5,
+     "group": "today",
      "note": ""
     },
     {
@@ -306,8 +306,8 @@
     }
    ],
    "stats": {
-    "last_bar_utc": "2026-09-29T15:01:00+00:00",
-    "last_bar_age_min": 10.4,
+    "last_bar_utc": "2026-09-29T15:16:00+00:00",
+    "last_bar_age_min": 10.8,
     "market_state": "open",
     "profile_volume": 1367474.0,
     "prior_day": "2026-09-28",
@@ -1606,19 +1606,27 @@
      "t": "2026-09-29T15:00:00+00:00",
      "o": 7737.75,
      "h": 7738.25,
-     "l": 7732.5,
-     "c": 7733.75,
-     "v": 6561.0
+     "l": 7724.5,
+     "c": 7730.75,
+     "v": 55789.0
+    },
+    {
+     "t": "2026-09-29T15:15:00+00:00",
+     "o": 7730.5,
+     "h": 7732.5,
+     "l": 7729.75,
+     "c": 7731.0,
+     "v": 3417.0
     }
    ]
   },
   {
    "root": "NQ",
    "trading_day": "2026-09-29",
-   "as_of_utc": "2026-09-29T15:11:21.990087+00:00",
+   "as_of_utc": "2026-09-29T15:26:45.413321+00:00",
    "source": "yahoo",
    "delayed": true,
-   "last_price": 30640.0,
+   "last_price": 30639.5,
    "levels": [
     {
      "tag": "exp_hi",
@@ -1783,8 +1791,8 @@
     }
    ],
    "stats": {
-    "last_bar_utc": "2026-09-29T15:01:00+00:00",
-    "last_bar_age_min": 10.4,
+    "last_bar_utc": "2026-09-29T15:16:00+00:00",
+    "last_bar_age_min": 10.8,
     "market_state": "open",
     "profile_volume": 498500.00000000006,
     "prior_day": "2026-09-28",
@@ -3083,9 +3091,17 @@
      "t": "2026-09-29T15:00:00+00:00",
      "o": 30663.0,
      "h": 30665.75,
-     "l": 30631.5,
-     "c": 30640.0,
-     "v": 1973.0
+     "l": 30593.5,
+     "c": 30637.25,
+     "v": 18813.0
+    },
+    {
+     "t": "2026-09-29T15:15:00+00:00",
+     "o": 30637.75,
+     "h": 30648.75,
+     "l": 30632.0,
+     "c": 30639.5,
+     "v": 1238.0
     }
    ]
   }
@@ -3093,22 +3109,31 @@
  "news": {
   "headlines": [
    {
-    "id": "f381ab8bc2",
-    "title": "Stock Market Today: Dow Jones, S&P 500 Futures Slip, Nasdaq 100 Gains as Trump Dismisses Iran Sanction Re - benzinga.com",
-    "link": "https://news.google.com/rss/articles/CBMinAJBVV95cUxNYk54Rmw0eW1oTEUydS1QNnExQTRjbU9JR3NvdEE0enBIaXotZDZWeVB6RG5OcVNCTlVTbHBGQzA2YTVkMFlvaGtDZ25mamZ6b0Fzal9ySGF2eXNFcHBRNGVoLU51ZVBrUFlIWS1WelhfQjZVV0poQjFETVJaZjdWeDU2YXZ5R3AtS2wzX0Y5cGkwdGg4aUttNXlURXFEVENpT3ZjTlBhWEhkRW5HRVlrZFY5SGRDMDd1cnAycGt4c0cyRGhOdkhqazgxdnIzVW9EWUlreldlak1wMzdMeXpINXJBZTdES1RqRUgyVTFCR1hqREU0OUl0bTRpa1JjbEM1Z2ViUHNkOHZaQi1YMnBkOURQWDItbGVwTmpVRQ?oc=5",
-    "source": "gnews_futures",
-    "published_utc": "2026-09-29T09:17:17+00:00",
-    "score": 8.02,
-    "duplicates": 0
-   },
-   {
     "id": "5ff8f372a7",
     "title": "US stock futures tick higher as tech steadies though oil, yields stay high - Yahoo Finance",
     "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNWVpBNW9UUVRHeWRESGNaVHJXQU5DLXAyT0IzVlczR3FVY0VrUE5iUTg4Rk9nYkRtaWxWQzRhZVAyM3JtZUJ3MWxtbmpMdnRqTVhjTTc0TU52Z2RTNE9tUDVqWjBDSGFMU2RzeFhkMEFWUFQ2QzY1OVBVUi10dDYzSG9ZclkwVVN0eTB4YWRzUWVHdWQ5dDhZRw?oc=5",
     "source": "gnews_futures",
     "published_utc": "2026-09-29T11:48:12+00:00",
-    "score": 7.94,
-    "duplicates": 1
+    "score": 8.39,
+    "duplicates": 2
+   },
+   {
+    "id": "f381ab8bc2",
+    "title": "Stock Market Today: Dow Jones, S&P 500 Futures Slip, Nasdaq 100 Gains as Trump Dismisses Iran Sanction Re - benzinga.com",
+    "link": "https://news.google.com/rss/articles/CBMinAJBVV95cUxNYk54Rmw0eW1oTEUydS1QNnExQTRjbU9JR3NvdEE0enBIaXotZDZWeVB6RG5OcVNCTlVTbHBGQzA2YTVkMFlvaGtDZ25mamZ6b0Fzal9ySGF2eXNFcHBRNGVoLU51ZVBrUFlIWS1WelhfQjZVV0poQjFETVJaZjdWeDU2YXZ5R3AtS2wzX0Y5cGkwdGg4aUttNXlURXFEVENpT3ZjTlBhWEhkRW5HRVlrZFY5SGRDMDd1cnAycGt4c0cyRGhOdkhqazgxdnIzVW9EWUlreldlak1wMzdMeXpINXJBZTdES1RqRUgyVTFCR1hqREU0OUl0bTRpa1JjbEM1Z2ViUHNkOHZaQi1YMnBkOURQWDItbGVwTmpVRQ?oc=5",
+    "source": "gnews_futures",
+    "published_utc": "2026-09-29T09:17:17+00:00",
+    "score": 7.97,
+    "duplicates": 0
+   },
+   {
+    "id": "ba7d2c8301",
+    "title": "Stocks hold steady on Wall Street as oil prices ease, Treasury yields remain stable - Union-Bulletin",
+    "link": "https://news.google.com/rss/articles/CBMihAJBVV95cUxNVUt4d3l3OFJqYm1JYm14cGZKckx2TXZSdXA3ZjlmUUw1NnoyMmVtZmdGaGFVOFFNT2NQenBQWElmaThva3lvaFdRenlQeEdEcnZueERVc0FZMVVNaXp2ZmRaZU9KVjVDZ3duZS1teWxIZloyZVQ4eV9oNHZURFY5SV9VQ0N6aWl0eURTWDhwZENRQmlyRlhBNk1iLWF0WTJXUjR5RXltMGx2N0d5Y2lUdEJOcUhMUy0wNnVOYTBqcWQzSlBLdDVITzFlTVlyMC03NlBJU3ZBOXl3VGRJYlUwSnhtUm92UURPMF84M2M5M1FCNDFFREhqd29IbWpCa2NIZm02Mg?oc=5",
+    "source": "gnews_macro",
+    "published_utc": "2026-09-29T14:58:49+00:00",
+    "score": 7.92,
+    "duplicates": 2
    },
    {
     "id": "83965706c1",
@@ -3116,7 +3141,7 @@
     "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBQeGtfazR6cXJPdlN4ODY5dTV2U2pRRXhac29UMlZoVFZ0VElHVFJZWkFkLThWRTVmWDhVcHl1YS1rSEhFRlBwaG91Y0k1UTlvSk1HbDBlVEtfZzQ?oc=5",
     "source": "gnews_macro",
     "published_utc": "2026-09-29T11:09:37+00:00",
-    "score": 7.83,
+    "score": 7.79,
     "duplicates": 0
    },
    {
@@ -3125,7 +3150,7 @@
     "link": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxNbTJDbG5VNHZxc0pMQ3pkV21HM1pFR29ySWRzU25ITUFqUFdKeEVQMW9GRktYSGNsbDMxRTRIQUMwRDJnRm0yTmsyY1A0dENDaWloLUVLQmtjSjlDcEdFallNc1o5RkhzdzlmcHB6SzJFUjBPeTB2czVESzhZQUcwOHNGZFVLVEpyVE0zVDllQklTWG5rN0RKTUJyTjdUVWhZaEFMTkx1ejI2ckdDN2x5SjdGYmVoTFQ1eXl0aV9CbzlKNlVhWm84cEJjX2pzVVk4YktGaS1xYWJuRTR6WHozZGxBUQ?oc=5",
     "source": "gnews_fed",
     "published_utc": "2026-09-29T10:54:12+00:00",
-    "score": 7.79,
+    "score": 7.74,
     "duplicates": 0
    },
    {
@@ -3134,7 +3159,7 @@
     "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNd0gteENNcHA2Z0pRa0wtVXdZYkx3bEU3b1k4Z0lXaEZWaVZvTWIzVVRpbzhrMy1XQlU4QzVsR3JLZzlWSEhVVXpCRnFpMG9EZ0ZiUFJ2c2FuM0hvcGloaXRJQlQ3SWtPRjJHalVmcGM1MWF3dHlNQnlENF9lckVKalkyZVpuU1dTelNrTW9uYXk2VWJ6eWRWek12bUpoMjQ?oc=5",
     "source": "gnews_macro",
     "published_utc": "2026-09-29T12:54:40+00:00",
-    "score": 7.62,
+    "score": 7.58,
     "duplicates": 1
    },
    {
@@ -3143,7 +3168,7 @@
     "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOWURpc1JUREYyd3k4SDdtb3pSR2RkcDIxczk1RDk4NjI2WDA5OTAtQU95SGhwYVR6aUJfb3lRdGFmM2gtMU1DQXdHZTRySGRjYmMwX0pFMjBwTGozRnhwWV90LTJjZmRWNXlmRlRNakdSTjJSNndjWFYtTFpVZ0lBWENXaDIzd1oxeFgyU3hCTDVtN2l1eHJOdDIyd01hTFhkZkZZMzVGNWNqOTE2N0ZFNG9FcmNaN1JOQU9YRGtZMjU?oc=5",
     "source": "gnews_futures",
     "published_utc": "2026-09-29T12:39:36+00:00",
-    "score": 7.58,
+    "score": 7.54,
     "duplicates": 0
    },
    {
@@ -3152,7 +3177,7 @@
     "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNbHBtVGxjOVJGMm9UeWJCQWhpX0J6bVZwTGRaVm01T2NrY05XRlJrX3dSU1pEWXNIaGZDZUJzaHp0djQ3d3RHbFY2ZlJxMjFQenVsT0x1NEp4TkRaak95OWI2elJ4N293Yk45a3RvTnpKZjE0YzBxWERQWF9sX2FGcmM4RHI5Zw?oc=5",
     "source": "gnews_futures",
     "published_utc": "2026-09-29T12:40:05+00:00",
-    "score": 7.58,
+    "score": 7.54,
     "duplicates": 0
    },
    {
@@ -3161,7 +3186,7 @@
     "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNNVcwUzJzT0VKRk0zSDBKZEJ3RHBMU3BINzFBcWJ4RjZWRGdDaUdfSWRhNHlJNWp5VlEyeUI4SnRXMHBJQ2pKTDVuMmNZNFYxU05BR25rWEc1a2Nzd09laVRFSjl0c3NRN2hRenZlWk1JRlRzWTVGeFVIdWZtYzJYY1dIZU1wUDRfZWlDUWRodFlidkVxR29VZzJtLVFWR3BiMXg4ZQ?oc=5",
     "source": "gnews_futures",
     "published_utc": "2026-09-29T08:46:54+00:00",
-    "score": 7.43,
+    "score": 7.39,
     "duplicates": 0
    },
    {
@@ -3170,7 +3195,7 @@
     "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxPbHRLQXFOenZpV2k4MElVUWhTU2wwRmtaTGRTWTZqa1dXQzNndWlKNnNEOUVPYWkzSjdiNWF4a2xGZEg0dkpuN3d6cW5wWFFHUmRjWERzcmJwVzZydmx5aElJWnQ0VmJ5SVhsTzRpRFhZTThQMHJqQzhFM2ZwVzk5NmltVk9BbWJCa2xNQlRyRkRJWWNzTkpDZ20tRzhBSFZGRF9TeGkzM0hxckRXUkQ3OXAtcTNxNnltbkZQV2VKMEV0R21kNEgwcTZySkI4bkxmWEHSAdcBQVVfeXFMT2FycnRXTWJadVlwNmtORlJobHZ5bFRtZVcycGlrLUVGTXRpR09wMVNySGFaV19DN0U5X3ZRZFoxd1FiMlNCMS0tNGRIYXNDbG1WQ0pGRGlwRTJVckRhODJhUUhIZDJWSzZZTVc1eW5XNUE2cm5MZGl3ZURmU3ktNGNwdWlpeExqdHl5dnhNQW1hTllGYzkxTF9Fclo0Y1FVVVBLSndVdzRUWDZkS1RENFdDQy16WlZIYmQ3Nk5oelJ4TWVZNW5vQXR1eFN6QkRhUUtLMC1Pb0k?oc=5",
     "source": "gnews_futures",
     "published_utc": "2026-09-29T08:42:35+00:00",
-    "score": 7.42,
+    "score": 7.38,
     "duplicates": 2
    },
    {
@@ -3179,7 +3204,7 @@
     "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOZnVrSHFkT3VSY2xfU0tPMm5kOU1wOFZYYWZFMDhSRGJwTVk0UTQzb3E3b0E4aHJDYmdyTk5JdloydTNaM2xDWEczaHVRQUhSYjFvMWpUejVfdC1YX0F2dDBQS3dUa0tBdWllSjE5MEhxZE5YS3VIMlY4OFVKVF9qR0hoLVJ0VExZRFVNNXBBLVE5dGlZ?oc=5",
     "source": "gnews_macro",
     "published_utc": "2026-09-29T13:40:00+00:00",
-    "score": 7.25,
+    "score": 7.2,
     "duplicates": 0
    },
    {
@@ -3188,33 +3213,22 @@
     "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPTFJEWUpuTldVdUVyQ1hEajlmMXJ6T2JfQnJjZkplSW03Y2ZENlhTYjRuczh4cU9kX2lobzc3dU1ENENfS0R2U0VWR3lwVUNCaFh4Tm14YTBjOWJCbDFhZ0VZWUdSQUx5NnQzQlkzTmVJS0xoNGVMaW80bGhCRTU1UU0zSjdGQ1Y5dFNlRTdlMlFrM2NCdkNqdA?oc=5",
     "source": "gnews_futures",
     "published_utc": "2026-09-29T14:48:45+00:00",
-    "score": 6.94,
-    "duplicates": 1
-   },
-   {
-    "id": "c683ea8a4a",
-    "title": "Stock futures mixed as 10-year Treasury yield tops 5.2% - qz.com",
-    "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE5UMTFCc2ltRFNNUUsyY2Q0ZTBfSWFHNTJCcGtxQWFHc2k5S1BKQ29RT3NpRnFuRjFvT2oxb19OeFBoNl9NN3loM05NRXBLUEVobU1QSGw4bmdBelNleVg5cjlMRHl3UjV6NWFubllNS1o2U2t2TW1TRW93?oc=5",
-    "source": "gnews_futures",
-    "published_utc": "2026-09-29T11:28:17+00:00",
-    "score": 6.88,
+    "score": 6.89,
     "duplicates": 1
    }
   ],
   "summary": {
    "lines": [
-    "Stock Market Today: Dow Jones, S&P 500 Futures Slip, Nasdaq 100 Gains as Trump Dismisses Iran Sanction Re - benzinga.com [f381ab8bc2]",
-    "US stock futures tick higher as tech steadies though oil, yields stay high - Yahoo Finance [5ff8f372a7]",
-    "Mike Lee slams Fed Governor Lisa Cook's AI inflation warning as 'laughably stupid' - Fox Business [83965706c1]",
-    "Fed's Lisa Cook Says AI Is Fueling Inflation — Warns Labor Market Faces a ‘Painful Transition’ - tradingview.com [c8a5025deb]",
-    "Update: US Equity Futures Slightly Higher Pre-Bell Amid Elevated Treasury Yields, Lack of Progress in US-Iran Talks - Yahoo Finance [4b6632ac72]"
+    "Treasury yields remain elevated near 5.2% with a multi-day selloff pausing, a key cross-asset driver for futures positioning into the cash open [705d2f2baf][ac769bc610][28ab7cc100][ba7d2c8301][ee007c8fda].",
+    "Futures are mixed/directionless (ES/YM slipping, NQ gaining in one report, others flat-to-slightly-higher) amid lack of progress in US-Iran talks and Trump dismissing Iran sanction reports, with oil prices staying high then easing intraday [f381ab8bc2][4b6632ac72][5ff8f372a7][ba7d2c8301][ee007c8fda].",
+    "Fed's Lisa Cook's comments that AI is fueling inflation and warning of a \"painful transition\" in labor markets drew political pushback, adding to inflation-narrative volatility ahead of data [c8a5025deb][83965706c1][ac769bc610].",
+    "Tomorrow's PCE inflation report is being flagged as a potential catalyst for Fed hike bets, keeping today's 10:00 ET Consumer Confidence and JOLTS releases in focus as risk-repricing inputs [4512aae021].",
+    "Overall tape described as muted/steady into the open, consistent with cross-currents from yields, oil, and Fed-speak rather than a single dominant driver [28ab7cc100][ba7d2c8301]."
    ],
    "backend": "anthropic",
    "model": "claude-sonnet-5",
    "dropped": [],
-   "warnings": [
-    "summariser produced no valid lines; showing digest"
-   ]
+   "warnings": []
   },
   "feeds": [],
   "warnings": []
