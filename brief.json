@@ -1,7 +1,7 @@
 {
  "meta": {
-  "generated_at_utc": "2026-09-29T11:11:03.717434+00:00",
-  "generated_at_local": "Tue 29 Sep 2026 08:11 ADT",
+  "generated_at_utc": "2026-09-29T11:26:21.891833+00:00",
+  "generated_at_local": "Tue 29 Sep 2026 08:26 ADT",
   "trading_day": "2026-09-29",
   "display_tz": "America/Halifax",
   "version": "0.1.0",
@@ -127,7 +127,7 @@
    "time_utc": "2026-09-29T14:00:00+00:00",
    "local": "11:00 ADT",
    "et": "10:00 ET",
-   "in": "2h 48m",
+   "in": "2h 33m",
    "consensus": "89.2",
    "prior": "89.4"
   },
@@ -138,24 +138,24 @@
   {
    "root": "ES",
    "trading_day": "2026-09-29",
-   "as_of_utc": "2026-09-29T11:11:03.717434+00:00",
+   "as_of_utc": "2026-09-29T11:26:21.891833+00:00",
    "source": "yahoo",
    "delayed": true,
-   "last_price": 7755.75,
+   "last_price": 7753.75,
    "levels": [
-    {
-     "tag": "pwh",
-     "label": "Prior-week high",
-     "price": 7835.25,
-     "group": "week",
-     "note": "3 session(s) of data — PARTIAL"
-    },
     {
      "tag": "exp_hi",
      "label": "Expected-range high (close + ATR)",
      "price": 7829.22,
      "group": "range",
      "note": "ATR over 14 days"
+    },
+    {
+     "tag": "pwh",
+     "label": "Prior-week high",
+     "price": 7828.75,
+     "group": "week",
+     "note": "3 session(s) of data — PARTIAL"
     },
     {
      "tag": "rn_major_up",
@@ -216,9 +216,9 @@
     {
      "tag": "onh",
      "label": "Overnight high",
-     "price": 7755.75,
+     "price": 7758.5,
      "group": "overnight",
-     "note": "since 18:00 ET, 772 bars"
+     "note": "since 18:00 ET, 787 bars"
     },
     {
      "tag": "rn_major_dn",
@@ -244,7 +244,7 @@
     {
      "tag": "onvwap",
      "label": "Overnight VWAP",
-     "price": 7738.57,
+     "price": 7739.17,
      "group": "overnight",
      "note": "typical-price VWAP"
     },
@@ -285,14 +285,14 @@
     }
    ],
    "stats": {
-    "last_bar_utc": "2026-09-29T11:01:00+00:00",
-    "last_bar_age_min": 10.1,
+    "last_bar_utc": "2026-09-29T11:16:00+00:00",
+    "last_bar_age_min": 10.4,
     "market_state": "open",
     "profile_volume": 1367474.0,
     "prior_day": "2026-09-28",
     "prior_day_rth_range": 60.25,
-    "overnight_range": 39.75,
-    "gap_vs_prior_close": 9.25,
+    "overnight_range": 42.5,
+    "gap_vs_prior_close": 7.25,
     "gap_basis": "last price (pre-market)",
     "atr14": 82.72,
     "atr_days": 14,
@@ -1456,20 +1456,28 @@
     {
      "t": "2026-09-29T11:00:00+00:00",
      "o": 7753.5,
-     "h": 7755.75,
-     "l": 7753.0,
-     "c": 7755.75,
-     "v": 1224.0
+     "h": 7758.5,
+     "l": 7751.75,
+     "c": 7753.5,
+     "v": 7885.0
+    },
+    {
+     "t": "2026-09-29T11:15:00+00:00",
+     "o": 7753.5,
+     "h": 7755.0,
+     "l": 7753.25,
+     "c": 7753.75,
+     "v": 515.0
     }
    ]
   },
   {
    "root": "NQ",
    "trading_day": "2026-09-29",
-   "as_of_utc": "2026-09-29T11:11:03.717434+00:00",
+   "as_of_utc": "2026-09-29T11:26:21.891833+00:00",
    "source": "yahoo",
    "delayed": true,
-   "last_price": 30658.75,
+   "last_price": 30638.0,
    "levels": [
     {
      "tag": "exp_hi",
@@ -1530,13 +1538,13 @@
     {
      "tag": "onh",
      "label": "Overnight high",
-     "price": 30659.5,
+     "price": 30669.0,
      "group": "overnight",
-     "note": "since 18:00 ET, 772 bars"
+     "note": "since 18:00 ET, 787 bars"
     },
     {
-     "tag": "rn_minor_dn",
-     "label": "Round 50 below",
+     "tag": "rn_minor_up",
+     "label": "Round 50 above",
      "price": 30650.0,
      "group": "round",
      "note": ""
@@ -1565,7 +1573,7 @@
     {
      "tag": "onvwap",
      "label": "Overnight VWAP",
-     "price": 30524.11,
+     "price": 30527.21,
      "group": "overnight",
      "note": "typical-price VWAP"
     },
@@ -1613,14 +1621,14 @@
     }
    ],
    "stats": {
-    "last_bar_utc": "2026-09-29T11:01:00+00:00",
-    "last_bar_age_min": 10.1,
+    "last_bar_utc": "2026-09-29T11:16:00+00:00",
+    "last_bar_age_min": 10.4,
     "market_state": "open",
     "profile_volume": 498500.00000000006,
     "prior_day": "2026-09-28",
     "prior_day_rth_range": 402.5,
-    "overnight_range": 287.25,
-    "gap_vs_prior_close": 92.0,
+    "overnight_range": 296.75,
+    "gap_vs_prior_close": 71.25,
     "gap_basis": "last price (pre-market)",
     "atr14": 489.83,
     "atr_days": 14,
@@ -2784,10 +2792,18 @@
     {
      "t": "2026-09-29T11:00:00+00:00",
      "o": 30642.25,
-     "h": 30659.5,
-     "l": 30641.0,
-     "c": 30658.75,
-     "v": 414.0
+     "h": 30669.0,
+     "l": 30629.0,
+     "c": 30638.75,
+     "v": 2644.0
+    },
+    {
+     "t": "2026-09-29T11:15:00+00:00",
+     "o": 30639.5,
+     "h": 30646.5,
+     "l": 30635.75,
+     "c": 30638.0,
+     "v": 192.0
     }
    ]
   }
@@ -2800,7 +2816,7 @@
     "link": "https://news.google.com/rss/articles/CBMinAJBVV95cUxNYk54Rmw0eW1oTEUydS1QNnExQTRjbU9JR3NvdEE0enBIaXotZDZWeVB6RG5OcVNCTlVTbHBGQzA2YTVkMFlvaGtDZ25mamZ6b0Fzal9ySGF2eXNFcHBRNGVoLU51ZVBrUFlIWS1WelhfQjZVV0poQjFETVJaZjdWeDU2YXZ5R3AtS2wzX0Y5cGkwdGg4aUttNXlURXFEVENpT3ZjTlBhWEhkRW5HRVlrZFY5SGRDMDd1cnAycGt4c0cyRGhOdkhqazgxdnIzVW9EWUlreldlak1wMzdMeXpINXJBZTdES1RqRUgyVTFCR1hqREU0OUl0bTRpa1JjbEM1Z2ViUHNkOHZaQi1YMnBkOURQWDItbGVwTmpVRQ?oc=5",
     "source": "gnews_futures",
     "published_utc": "2026-09-29T09:17:17+00:00",
-    "score": 8.68,
+    "score": 8.64,
     "duplicates": 0
    },
    {
@@ -2809,7 +2825,7 @@
     "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPTFJEWUpuTldVdUVyQ1hEajlmMXJ6T2JfQnJjZkplSW03Y2ZENlhTYjRuczh4cU9kX2lobzc3dU1ENENfS0R2U0VWR3lwVUNCaFh4Tm14YTBjOWJCbDFhZ0VZWUdSQUx5NnQzQlkzTmVJS0xoNGVMaW80bGhCRTU1UU0zSjdGQ1Y5dFNlRTdlMlFrM2NCdkNqdA?oc=5",
     "source": "gnews_futures",
     "published_utc": "2026-09-29T08:51:00+00:00",
-    "score": 8.11,
+    "score": 8.07,
     "duplicates": 0
    },
    {
@@ -2818,8 +2834,17 @@
     "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxPbHRLQXFOenZpV2k4MElVUWhTU2wwRmtaTGRTWTZqa1dXQzNndWlKNnNEOUVPYWkzSjdiNWF4a2xGZEg0dkpuN3d6cW5wWFFHUmRjWERzcmJwVzZydmx5aElJWnQ0VmJ5SVhsTzRpRFhZTThQMHJqQzhFM2ZwVzk5NmltVk9BbWJCa2xNQlRyRkRJWWNzTkpDZ20tRzhBSFZGRF9TeGkzM0hxckRXUkQ3OXAtcTNxNnltbkZQV2VKMEV0R21kNEgwcTZySkI4bkxmWEHSAdcBQVVfeXFMT2FycnRXTWJadVlwNmtORlJobHZ5bFRtZVcycGlrLUVGTXRpR09wMVNySGFaV19DN0U5X3ZRZFoxd1FiMlNCMS0tNGRIYXNDbG1WQ0pGRGlwRTJVckRhODJhUUhIZDJWSzZZTVc1eW5XNUE2cm5MZGl3ZURmU3ktNGNwdWlpeExqdHl5dnhNQW1hTllGYzkxTF9Fclo0Y1FVVVBLSndVdzRUWDZkS1RENFdDQy16WlZIYmQ3Nk5oelJ4TWVZNW5vQXR1eFN6QkRhUUtLMC1Pb0k?oc=5",
     "source": "gnews_futures",
     "published_utc": "2026-09-29T08:42:35+00:00",
-    "score": 8.09,
+    "score": 8.05,
     "duplicates": 2
+   },
+   {
+    "id": "8d85b09bf0",
+    "title": "Citi: September Core CPI Could Stop October Fed Rate Hike - IndexBox",
+    "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPUUV4a1lFZFh3V3BaLTB5TVI5SHRJTkRHSGQ2cjg3RHRaRFNERl9ld2pTMmU5Q2ZJc0NrdWZZN29qOXlEOHBrZjJBM2tuMTBDZk1UWnYzMmJEX0JHc2hraDhVWkJxNkNyYTJlV0J0c1pUeWJlQ0U1dF9qUVdqbk0wOTZhbm90ZEVLUUgxT2x0dw?oc=5",
+    "source": "gnews_macro",
+    "published_utc": "2026-09-29T11:10:24+00:00",
+    "score": 7.46,
+    "duplicates": 0
    },
    {
     "id": "e32113af16",
@@ -2845,25 +2870,16 @@
     "link": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxNTjRncDIyOW52Q2FjczNSRTBuYW1pTzcyX1AtU0hRRlhLX3c0clZwRzdrRzRuaU5JWFVhS3ZJY2RyWnlRZTZfQWJoWWZrdXBmaWRocGVnVHNoUGtTQUlWRlIxaWdmT2JHRFB4WTBHMUdzVkhlR1FPb3ZSV0gtZjZ5T3FaTDlCb2JzcXRFVWhCT0diYkVyMEE3aVdmRHNQck0tWWFISjZWVVlldTl3QUkzcW15d2RjLWZkamF2TTV3aXVpQlU4WjlOaE9OY1EwNjhnejA5YzhxNDg0VVFBcUpz0gHnAUFVX3lxTE9ITXp4UDNnV0hCaVQwNVFXaG9yQUVmOC1TbEN6ZWRMamROUm5RSlFxMjU2S3FQMjZ1LVpuSWJ3RnVNelB4RXJHLWxMQ0dUX09UaUlzUjZtSkRWMHhEazdMTGlua2QtbG1VdzJ1Mk0td0wwdG5YRG94NHVWdWsxUGJhMllZZ0U5dXYzX2s0OFk1dThhaUVNeHVVX21pOWlnWGJRaGlXYkNtRkxmdUdqWmUyTDFDSUxXcUhiUGlDR0ZwSUlobXl6OFpLRXZJRXN4a2RSckJKVE1pcjg5cVBFQzZvdm5tMTZpWQ?oc=5",
     "source": "gnews_futures",
     "published_utc": "2026-09-29T10:58:58+00:00",
-    "score": 6.97,
-    "duplicates": 0
-   },
-   {
-    "id": "a66df4746d",
-    "title": "Dow, S&P 500, Nasdaq Futures Fall Amid Rising Bond Yields, AI Concerns: KOD, SMMT, CLF, VKTX Stocks In Focus - Stocktwits",
-    "link": "https://news.google.com/rss/articles/CBMi_gFBVV95cUxPVDlSdVJIdFhIV1VGNWo1Y0xacU9telpTVlpabGxSX3hWOTJrSnd6V0hMZHJYM2xCOURvVGJHZGNxUXFHYVJaNUdhaUJVMkMzMW8xdVFZNElRNU9EZ2JpVTE4T1hBMEJFem04V2dveS1xaG9iNmtucHI1WWFZRkxZN1hLb3hCVEhTNzBXc0R4ZndYR28wNXZNY0N3c0xxLXc1QmVjS0VXQXVjZnpmTzQ3Wms5TEFmTVV5Unk1X0RKS0pVNE4zdXBKcWp2R1BMQ3lvV01jWGRyNXg2MFpHS2FBVnBDM0IybGdPV3luSTJDbVlwRlQ2MGhGMDhrYVgzdw?oc=5",
-    "source": "gnews_futures",
-    "published_utc": "2026-09-29T03:29:00+00:00",
-    "score": 6.72,
+    "score": 6.92,
     "duplicates": 0
    },
    {
     "id": "972ac6b03a",
-    "title": "Gold Holds Near Seven-Week Low as Treasury Yields and Fed Rate Expectations Rise - Yahoo Finance",
+    "title": "Gold Holds Near Seven-Week Low as Treasury Yields and Fed Rate Expectations Rise - finance.yahoo.com",
     "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOTGJYZ0JBSEk4ZEUzNllxV0pkYndidmtUNEVPMjhUX2NvMnBhdFdsZk5yc3RDbHpiS1RrRFhhNnQ5aDAxYjMxbVRuc29OaElwdzJDQTNqWkoxbzFfckRFTG5RX1dnc2NtRkp1SDJKVDB6WGc1akw2bGNOblhILXFQcDI3OXFyMEF0Vzd6YjM2ZloxWk8yRTMtc1l1Qi0?oc=5",
     "source": "gnews_macro",
     "published_utc": "2026-09-29T09:31:50+00:00",
-    "score": 6.72,
+    "score": 6.68,
     "duplicates": 0
    },
    {
@@ -2872,7 +2888,7 @@
     "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPUkQtQlZpNHU0bU1GeFlkRi1xQnJVYzNsN3VFYzl4OGhONU1jLUQ3elFkR2ZLNmREOVducVZ1SEJmU2hiRnpEZFdSVzY5TzV5OE5XRzN0akVFMnBuMkh2QWcxTjVvc1g3SmpJU3NJSEVfSGlLRG91Zlk1VkExN0hMVmlDWnFyNGhKSHcxdVlUVUZMYkRfOFNWU3pXYktxR29RcWFzdExwR1Z0M3BwVTBQYkpJTTJoSllOR1pxcTdpNGkxQdIBxwFBVV95cUxOY0pVV3lDaWRKLVBrNXA1Sk9CNmNpQTJfWktEdWRNQ2JnZUZaM1c0TFR0WDZ2OTlab1pSVVRnaWZGa2tzVXhnRDdLT2hiVXRPcGlTVExsUGprclNSdVM4LXlhNnRsN0NFd2oySU1VejNsSUx6UE5iamxDbWZ2QjI4OGhxdDY2VDZkOVUwTFY4UzlPM3VRMzJscXZfSmFDaDNrWmljY2g3OWI3dElLR1ZPOXV2ZmR2ci1OYUdoQ2NSMDFBdkQyYzhv?oc=5",
     "source": "gnews_macro",
     "published_utc": "2026-09-29T09:30:00+00:00",
-    "score": 6.72,
+    "score": 6.68,
     "duplicates": 0
    },
    {
@@ -2881,7 +2897,16 @@
     "link": "https://www.marketwatch.com/story/heres-where-tsmc-is-reportedly-eyeing-a-second-u-s-site-for-a-chip-making-hub-828e4488?mod=mw_rss_topstories",
     "source": "marketwatch_top",
     "published_utc": "2026-09-29T09:26:00+00:00",
-    "score": 6.71,
+    "score": 6.67,
+    "duplicates": 0
+   },
+   {
+    "id": "a66df4746d",
+    "title": "Dow, S&P 500, Nasdaq Futures Fall Amid Rising Bond Yields, AI Concerns: KOD, SMMT, CLF, VKTX Stocks In Focus - Stocktwits",
+    "link": "https://news.google.com/rss/articles/CBMi_gFBVV95cUxPVDlSdVJIdFhIV1VGNWo1Y0xacU9telpTVlpabGxSX3hWOTJrSnd6V0hMZHJYM2xCOURvVGJHZGNxUXFHYVJaNUdhaUJVMkMzMW8xdVFZNElRNU9EZ2JpVTE4T1hBMEJFem04V2dveS1xaG9iNmtucHI1WWFZRkxZN1hLb3hCVEhTNzBXc0R4ZndYR28wNXZNY0N3c0xxLXc1QmVjS0VXQXVjZnpmTzQ3Wms5TEFmTVV5Unk1X0RKS0pVNE4zdXBKcWp2R1BMQ3lvV01jWGRyNXg2MFpHS2FBVnBDM0IybGdPV3luSTJDbVlwRlQ2MGhGMDhrYVgzdw?oc=5",
+    "source": "gnews_futures",
+    "published_utc": "2026-09-29T03:29:00+00:00",
+    "score": 6.67,
     "duplicates": 0
    },
    {
@@ -2892,24 +2917,15 @@
     "published_utc": "2026-09-28T18:24:31+00:00",
     "score": 6.5,
     "duplicates": 0
-   },
-   {
-    "id": "00e75d6bc0",
-    "title": "Gold's lustre dims as Treasury yields surge, markets bet on higher Fed rates - Reuters",
-    "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQRlVEOVNvOG5SeC1zaU9PX2U0SDJReDlrdHRQVld5X3BEVHFYX1pPOVNtelBSeFhjNGF5bkxZaHVSS1pLOVduZTBFVnR6a3E5bGZmWktsdnhZZUo4Q2tNNThBSFlnTnBDbWZCd3hYOFJrVkYtbkd2REhaQ0JfV290YWxaTnBuYlNiaG9Cc25KMlppTzZyVnd1alF4dFppSjdiZExOZkdpaGJJYWZFcE00VzNDQ3NEYjA?oc=5",
-    "source": "gnews_macro",
-    "published_utc": "2026-09-28T17:44:41+00:00",
-    "score": 6.5,
-    "duplicates": 0
    }
   ],
   "summary": {
    "lines": [
-    "Treasury yields keep climbing and pressuring equity futures, with Nasdaq/S&P/Dow futures slipping amid a continued Treasury selloff. [28ab7cc100] [195f917131] [aae0f014ba] [a66df4746d]",
-    "Fed Governor Cook said AI gains won't offset near-term inflation and that AI demand is broadening in a way that could increase inflation, a hawkish-leaning signal for rate expectations. [e32113af16] [e92b126710] [806dd0344b]",
-    "Gold is near a seven-week low as Treasury yields and Fed rate expectations rise, consistent with the broader rates-up, risk-sensitive tone. [972ac6b03a] [00e75d6bc0]",
-    "Trump dismissed Iran sanction relief reports while separately threatening 100% tariffs tied to India's Russian oil purchases, adding geopolitical/trade headline risk. [f381ab8bc2] [2a89a34f27]",
-    "TSMC is reportedly eyeing a second U.S. site for chip manufacturing, a headline relevant to Nasdaq semiconductor-linked names. [9193a3f2ab]"
+    "Rising Treasury yields are pressuring futures and offsetting AI-related Nasdaq strength, keeping index futures choppy into the cash open [28ab7cc100][195f917131][aae0f014ba][a66df4746d].",
+    "Fed Governor Cook said AI demand is broadening and will add near-term upward pressure on inflation rather than offset it, a hawkish data point for rate-path expectations [e32113af16][e92b126710][806dd0344b].",
+    "Citi flagged September core CPI as a potential factor that could stop an October Fed rate hike, adding to rate-sensitivity around upcoming inflation data [8d85b09bf0].",
+    "Trump dismissing Iran sanction reports lifted Nasdaq 100 futures even as Dow and S&P futures slipped, a headline-driven divergence across indices [f381ab8bc2].",
+    "10:00 ET brings Consumer Confidence (cons 89.2, prior 89.4) and JOLTS Job Openings (cons 7.23M, prior 7.27M), both feeding into the same yield/Fed-expectations backdrop already moving futures [aae0f014ba][972ac6b03a]."
    ],
    "backend": "anthropic",
    "model": "claude-sonnet-5",
