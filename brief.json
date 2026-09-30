@@ -1,7 +1,7 @@
 {
  "meta": {
-  "generated_at_utc": "2026-09-30T13:41:23.013618+00:00",
-  "generated_at_local": "Wed 30 Sep 2026 10:41 ADT",
+  "generated_at_utc": "2026-09-30T13:56:48.021335+00:00",
+  "generated_at_local": "Wed 30 Sep 2026 10:56 ADT",
   "trading_day": "2026-09-30",
   "display_tz": "America/Halifax",
   "version": "0.1.0",
@@ -181,7 +181,7 @@
    "time_utc": "2026-09-30T19:30:00+00:00",
    "local": "16:30 ADT",
    "et": "15:30 ET",
-   "in": "5h 48m",
+   "in": "5h 33m",
    "consensus": null,
    "prior": null
   },
@@ -192,10 +192,10 @@
   {
    "root": "ES",
    "trading_day": "2026-09-30",
-   "as_of_utc": "2026-09-30T13:41:23.013618+00:00",
+   "as_of_utc": "2026-09-30T13:56:48.021335+00:00",
    "source": "yahoo",
    "delayed": true,
-   "last_price": 7752.0,
+   "last_price": 7749.0,
    "levels": [
     {
      "tag": "exp_hi",
@@ -212,25 +212,11 @@
      "note": "2 session(s) of data — PARTIAL"
     },
     {
-     "tag": "rn_major_up",
-     "label": "Round 50 above",
-     "price": 7800.0,
-     "group": "round",
-     "note": ""
-    },
-    {
      "tag": "wh",
      "label": "Week high",
      "price": 7792.25,
      "group": "week",
      "note": "since 2026-09-28"
-    },
-    {
-     "tag": "rn_minor_up",
-     "label": "Round 25 above",
-     "price": 7775.0,
-     "group": "round",
-     "note": ""
     },
     {
      "tag": "onh",
@@ -249,7 +235,7 @@
     {
      "tag": "tdh",
      "label": "Today's RTH high",
-     "price": 7759.25,
+     "price": 7760.75,
      "group": "today",
      "note": "so far"
     },
@@ -275,17 +261,10 @@
      "note": "09:30 bar open"
     },
     {
-     "tag": "rn_major_dn",
-     "label": "Round 50 below",
+     "tag": "rn_major_up",
+     "label": "Round 50 above",
      "price": 7750.0,
      "group": "round",
-     "note": ""
-    },
-    {
-     "tag": "tdl",
-     "label": "Today's RTH low",
-     "price": 7748.75,
-     "group": "today",
      "note": ""
     },
     {
@@ -294,6 +273,13 @@
      "price": 7748.01,
      "group": "overnight",
      "note": "typical-price VWAP"
+    },
+    {
+     "tag": "tdl",
+     "label": "Today's RTH low",
+     "price": 7748.0,
+     "group": "today",
+     "note": ""
     },
     {
      "tag": "vah",
@@ -315,6 +301,13 @@
      "price": 7725.25,
      "group": "week",
      "note": "2 session(s) of data — PARTIAL"
+    },
+    {
+     "tag": "rn_minor_dn",
+     "label": "Round 25 below",
+     "price": 7725.0,
+     "group": "round",
+     "note": ""
     },
     {
      "tag": "poc",
@@ -352,6 +345,13 @@
      "note": ""
     },
     {
+     "tag": "rn_major_dn",
+     "label": "Round 50 below",
+     "price": 7700.0,
+     "group": "round",
+     "note": ""
+    },
+    {
      "tag": "exp_lo",
      "label": "Expected-range low (close − ATR)",
      "price": 7650.06,
@@ -360,8 +360,8 @@
     }
    ],
    "stats": {
-    "last_bar_utc": "2026-09-30T13:31:00+00:00",
-    "last_bar_age_min": 10.4,
+    "last_bar_utc": "2026-09-30T13:46:00+00:00",
+    "last_bar_age_min": 10.8,
     "market_state": "open",
     "profile_volume": 1212065.0,
     "prior_day": "2026-09-29",
@@ -1611,20 +1611,28 @@
     {
      "t": "2026-09-30T13:30:00+00:00",
      "o": 7751.75,
-     "h": 7759.25,
+     "h": 7760.75,
      "l": 7748.75,
-     "c": 7752.0,
-     "v": 10146.0
+     "c": 7754.25,
+     "v": 72001.0
+    },
+    {
+     "t": "2026-09-30T13:45:00+00:00",
+     "o": 7754.25,
+     "h": 7757.75,
+     "l": 7748.0,
+     "c": 7749.0,
+     "v": 5105.0
     }
    ]
   },
   {
    "root": "NQ",
    "trading_day": "2026-09-30",
-   "as_of_utc": "2026-09-30T13:41:23.013618+00:00",
+   "as_of_utc": "2026-09-30T13:56:48.021335+00:00",
    "source": "yahoo",
    "delayed": true,
-   "last_price": 30745.0,
+   "last_price": 30724.5,
    "levels": [
     {
      "tag": "exp_hi",
@@ -1650,7 +1658,7 @@
     {
      "tag": "tdh",
      "label": "Today's RTH high",
-     "price": 30804.25,
+     "price": 30809.75,
      "group": "today",
      "note": "so far"
     },
@@ -1789,8 +1797,8 @@
     }
    ],
    "stats": {
-    "last_bar_utc": "2026-09-30T13:31:00+00:00",
-    "last_bar_age_min": 10.4,
+    "last_bar_utc": "2026-09-30T13:46:00+00:00",
+    "last_bar_age_min": 10.8,
     "market_state": "open",
     "profile_volume": 430399.0,
     "prior_day": "2026-09-29",
@@ -3040,10 +3048,18 @@
     {
      "t": "2026-09-30T13:30:00+00:00",
      "o": 30699.5,
-     "h": 30804.25,
+     "h": 30809.75,
      "l": 30683.0,
-     "c": 30745.0,
-     "v": 5411.0
+     "c": 30767.75,
+     "v": 46233.0
+    },
+    {
+     "t": "2026-09-30T13:45:00+00:00",
+     "o": 30768.25,
+     "h": 30785.0,
+     "l": 30718.75,
+     "c": 30724.5,
+     "v": 2996.0
     }
    ]
   }
@@ -3056,7 +3072,7 @@
     "link": "https://www.cnbc.com/2026/09/30/feds-preferred-gauge-showed-core-inflation-at-3point0percent-in-august-much-lighter-than-expected.html",
     "source": "cnbc_markets",
     "published_utc": "2026-09-30T13:40:09+00:00",
-    "score": 11.5,
+    "score": 11.45,
     "duplicates": 2
    },
    {
@@ -3065,7 +3081,7 @@
     "link": "https://news.google.com/rss/articles/CBMiiwJBVV95cUxOYnNpc1VxVl82djFYUlBfX2M4VGFOdEN3ZDVXUzRoalRUdFphU1YwZ1BXcl92RmR2bjlXVUJBVUt0Q2NCV1ZBY2F0YTNpLXRNVm0xakROLXlXbGRLSFBEY29BOHNpT1ZhRGNLR2JCWlZiMFJFNVY2U3BpZ0xES1otME1tRk1rQWpmVFQ3dmtaUzFCTVBITjBteGozc2NacGZrNWJkUjlGRV9OUVlicjZyZG54Y0syWnQ4eGJIMUxsTWdwcDl0bGZBSEtaLVVPLXJxdDl5MF9yenNQZEI5XzZ6MDBEWkVwSkFIbUU5d0xMMFJ6aFFpcDBlQ0VFS0pWMFVuMnpXZ2tlNTdDZnM?oc=5",
     "source": "gnews_fed",
     "published_utc": "2026-09-30T09:33:22+00:00",
-    "score": 10.81,
+    "score": 10.77,
     "duplicates": 0
    },
    {
@@ -3074,7 +3090,7 @@
     "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9JRmhpRGdkRnlZOFFUSnFoamY4M0gzY056M2xCa3ZYakcyT2g2R210eFFuU09ReHN3bjVzR2RreUdWZ0NLakVVemV0OVRkbnh2TGZTZDVzSlhxUVlYWWxTMmx1bkRRektCNVpQRmxSUlVITkRfNEE?oc=5",
     "source": "gnews_futures",
     "published_utc": "2026-09-30T12:11:11+00:00",
-    "score": 10.25,
+    "score": 10.21,
     "duplicates": 0
    },
    {
@@ -3083,16 +3099,7 @@
     "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxOREF2Z2ZRWDNfX0JCWlpUeWtQeGVlSEFxM04zVklORnRjbTR0R1VMSGpNNjRvVVhSeFAtWkc3TVlUanFkYjVWWkdBSU9GeTBiLVBwNUFSZHpzY1hVQnB1eUNkX25fNEpCdjVHd3FxWVpwZWZOY09HSWlHUmVJMER0YjZONExxNWxxZkZhWFRaZXo2U2NVODZXOE5GMG5KQlc3ZDVmRUYxMEVaR0pfVGY5OUFndU1YMWpzS01UekczZVdVMmc4ZDU5a3ZPdE02SHlQVmZKNg?oc=5",
     "source": "gnews_macro",
     "published_utc": "2026-09-30T12:07:00+00:00",
-    "score": 10.24,
-    "duplicates": 0
-   },
-   {
-    "id": "de59ca8e22",
-    "title": "Federal Reserve Board finalizes changes to enhance the transparency and public accountability of its stress test and reduce volatility in its stress test-related capital requirements",
-    "link": "https://www.federalreserve.gov/newsevents/pressreleases/bcreg20260930a.htm",
-    "source": "fed_press",
-    "published_utc": "2026-09-30T13:00:00+00:00",
-    "score": 9.39,
+    "score": 10.19,
     "duplicates": 0
    },
    {
@@ -3101,17 +3108,17 @@
     "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQYkRWSVI2N0RBZHBER2ROUkJMc3RpdDlFM1p0SDkyeGNSZUVrbUt1WGVtUUpaVWtVSGMyUDR6Ym1UN3pxM1dZd3JnWFp0TlhpalhhZlRyWDY1Wkg4OHBUR0puczBYMWpwdGtPcFFUSFBQcVhCY3NwaERIVE9udVZXMDNn?oc=5",
     "source": "gnews_futures",
     "published_utc": "2026-09-30T10:26:05+00:00",
-    "score": 8.96,
-    "duplicates": 0
+    "score": 9.41,
+    "duplicates": 1
    },
    {
-    "id": "033a509a37",
-    "title": "US Stock Futures Hold Steady Ahead of PCE Data, Micron Earnings - Bloomberg.com",
-    "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQUHItMEI0VmMzWjl0SVlBZUplMXgxYVVvRjRoUVhHd0p5OUZVQlNzWGZkM1kwR2ZfT3NGVS04aTdOZkxYd3NtRWxpOTg4NWNQVmdZZWVmdXVYMDRrS05hNW9wVVNFX0EtQTRvY25WcnhVSXMtUERtUUFxb1AzVWNudzBtRmZkeFg3ZlRvNzYxemRBVlpUemNwcGNXRmcxeVpHckxNeElyNHhGb3lMYVNDcEMxdw?oc=5",
-    "source": "gnews_futures",
-    "published_utc": "2026-09-30T11:53:14+00:00",
-    "score": 8.7,
-    "duplicates": 1
+    "id": "de59ca8e22",
+    "title": "Federal Reserve Board finalizes changes to enhance the transparency and public accountability of its stress test and reduce volatility in its stress test-related capital requirements",
+    "link": "https://www.federalreserve.gov/newsevents/pressreleases/bcreg20260930a.htm",
+    "source": "fed_press",
+    "published_utc": "2026-09-30T13:00:00+00:00",
+    "score": 9.34,
+    "duplicates": 0
    },
    {
     "id": "de45bad474",
@@ -3119,7 +3126,7 @@
     "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPaTJWekdoVEc3bEU3dkhNOTZGTlRUSlZtZXUyWlRhclhyWDVjb3JwLWRINGdkUXFTSEp6bjUyQk84N0dVUnVLaFhqOW5pUy1RbUlEMXByYUlpNWNYb0RybTAxNTc4VkVOWmg4ajJ6SVFnc2JpajdHQVBuSkhqZHA5STMzVmo4dkZwWFpZQllFeUlXa2syRnV3ZWV0T1E1dFNP?oc=5",
     "source": "gnews_futures",
     "published_utc": "2026-09-30T08:51:00+00:00",
-    "score": 8.69,
+    "score": 8.65,
     "duplicates": 1
    },
    {
@@ -3128,17 +3135,17 @@
     "link": "https://www.marketwatch.com/story/inflation-rises-again-and-keeps-pressure-on-fed-f64d2ced?mod=mw_rss_topstories",
     "source": "marketwatch_top",
     "published_utc": "2026-09-30T13:11:00+00:00",
-    "score": 8.42,
+    "score": 8.37,
     "duplicates": 1
    },
    {
-    "id": "0f5d9e5a5c",
-    "title": "U.S. Stock Futures Fall as Investors Await Inflation and GDP Data - Межа. Новини України.",
-    "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE1EaHhKYzhubXNobmw0R0tkQzZxcVNIb2theDktV0ZQdTY4ZUd1TVVnalpLb1JVUjhFaVN2bXFxMjljNWtVNE5xWUdHbHZhNjlZM2gzaUUxaGs4TmFrZC1GSmVkd0hLQQ?oc=5",
+    "id": "033a509a37",
+    "title": "US Stock Futures Hold Steady Ahead of PCE Data, Micron Earnings - Bloomberg.com",
+    "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQUHItMEI0VmMzWjl0SVlBZUplMXgxYVVvRjRoUVhHd0p5OUZVQlNzWGZkM1kwR2ZfT3NGVS04aTdOZkxYd3NtRWxpOTg4NWNQVmdZZWVmdXVYMDRrS05hNW9wVVNFX0EtQTRvY25WcnhVSXMtUERtUUFxb1AzVWNudzBtRmZkeFg3ZlRvNzYxemRBVlpUemNwcGNXRmcxeVpHckxNeElyNHhGb3lMYVNDcEMxdw?oc=5",
     "source": "gnews_futures",
-    "published_utc": "2026-09-30T12:28:11+00:00",
-    "score": 8.3,
-    "duplicates": 2
+    "published_utc": "2026-09-30T11:53:14+00:00",
+    "score": 8.16,
+    "duplicates": 0
    },
    {
     "id": "7999075306",
@@ -3146,7 +3153,7 @@
     "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxOd0dSYXFEQUJkT0lGSVdyYkVXeGNkaS1QWjdpZkxoWXRNRUs4NjJub25hSTQ0UmoxMG05Y3BNUVQyODVJb1lIdEZucGE0em05ejJxaEVSOFBMOHRLb2pPMmJRcU0xTmZ0Mi1YTU5Ga3ZvekVZRTBQazFqMUEzWXVhNFJvaHJNd2hDNEh6MXB2NTNhZDNwSGdkUlg5cWd3VzRRaVl1eUx2cWpBSVp1QWUwemRMSWlSbmlSdXJENGsyN2xHaVg4dTJsS2V4Z1PSAdIBQVVfeXFMUGRmT1daZVFHci1BY3BOTEZSNUs5MWVNazZ5MGxIRk1PRjdNNjZfNldGRzl6UzVNTFJUcFZvbDA1Zmpndy16bml1VTlESnZ4Q1BsN2JFS1ZlbVpCWkhBdEF4VTloaG0zUmw0Z3VTYkdweXBEZFJjcVM0UGpKRmRGS1hvMWxBeUptS0VCLWlfTWNQRUJOVFJoLVRkV0FwN0lhTnduRm9mUnIybFdBM3hNQXM3cTdQMDJ1RkFUWlZYTWpwNzl2VFRfMkQxVHl6QnhPN053?oc=5",
     "source": "gnews_futures",
     "published_utc": "2026-09-30T08:44:51+00:00",
-    "score": 8.18,
+    "score": 8.13,
     "duplicates": 0
    },
    {
@@ -3155,8 +3162,17 @@
     "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPZm9Va3FFUy1COVAxaTZhQTFIaEt3UFdUaFhSY2VZUlRlZTVyT1RwTHA3bW1XM1h5UTF3azl1dEJWclBnb0Z5ZDlKaGcyakFSOGp4X1A3VzdfNW9yR2pWWExkSGd5STZJUDg5VDFVcjFWS2ZEODB3cUk0Vk1LdUo0V3Vzank5YW5UdmdxV0FPRml0VDU3bDMw?oc=5",
     "source": "gnews_futures",
     "published_utc": "2026-09-30T11:34:32+00:00",
-    "score": 8.15,
+    "score": 8.1,
     "duplicates": 2
+   },
+   {
+    "id": "b0a8932e25",
+    "title": "Inflation, tariffs and other takeaways from New York Fed's Williams - The Business Journals",
+    "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQbHBnSlFWMW9jbUt3dzlSWm9aeXlraFhCVms1c183MFZ5Q21mMTFJYU9QdWhMUG91cEtoV21WTzFLWjFGT3FCT2ViYTNHSVdVbkxfOFRoRmNmaDBjMmJLQzJhaWxRRXMwXzFFZ0NBSFRqZFJrY2ZYQWF4YjVFNHgydURNWjcxd05rb1FwWWk5MkRJOHNtLUNGR1drc1FZX19rY2ZvRTV1QU1IQQ?oc=5",
+    "source": "gnews_fed",
+    "published_utc": "2026-09-29T22:11:00+00:00",
+    "score": 8.0,
+    "duplicates": 0
    }
   ],
   "summary": {
@@ -3165,13 +3181,11 @@
     "Stock Market Today: S&P 500, Dow Jones Futures Gain as Investors Await Fed's Preferred Inflation Data — MU, AMD, FNGR in Focus - TradingView [f0e6624be8]",
     "U.S. Stock Futures Little Changed Ahead of August PCE Data; October Rate Hike Expectations Recede - finance.biggo.com [cfb21c4225]",
     "Dow Jones Futures Fall; Inflation Data, Micron Earnings Due Bloom Energy, AI Stocks Shrug Off Yields - Investor's Business Daily [5617231151]",
-    "Federal Reserve Board finalizes changes to enhance the transparency and public accountability of its stress test and reduce volatility in its stress test-related capital requirements [de59ca8e22]"
+    "US stock futures inch up as yields ease, inflation report looms - Centre Daily Times [75c7275de0]"
    ],
    "backend": "anthropic",
    "model": "claude-sonnet-5",
-   "dropped": [
-    "no valid citation: Core PCE for August came in at 3.0% year"
-   ],
+   "dropped": [],
    "warnings": [
     "summariser produced no valid lines; showing digest"
    ]
