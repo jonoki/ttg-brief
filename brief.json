@@ -1,7 +1,7 @@
 {
  "meta": {
-  "generated_at_utc": "2026-09-30T12:12:37.778165+00:00",
-  "generated_at_local": "Wed 30 Sep 2026 09:12 ADT",
+  "generated_at_utc": "2026-09-30T12:25:14.050052+00:00",
+  "generated_at_local": "Wed 30 Sep 2026 09:25 ADT",
   "trading_day": "2026-09-30",
   "display_tz": "America/Halifax",
   "version": "0.1.0",
@@ -22,8 +22,8 @@
      "what": "Monthly count of US jobs added outside farming, from the BLS employment report (first Friday, 08:30 ET).",
      "why": "The single biggest scheduled mover of index futures: it sets the tone for growth and Fed policy at once. Big beats or misses produce violent 08:30 moves and often the day's range."
     },
-    "actual": null,
-    "note": null,
+    "actual": "162K",
+    "note": "actual via BLS API",
     "consensus": "73K",
     "prior": "38K",
     "source": "",
@@ -158,14 +158,14 @@
    }
   ],
   "next_event": {
-   "name": "ADP Non-Farm Employment Change",
-   "impact": "medium",
-   "time_utc": "2026-09-30T12:15:00+00:00",
-   "local": "09:15 ADT",
-   "et": "08:15 ET",
-   "in": "2 min",
-   "consensus": "73K",
-   "prior": "38K"
+   "name": "Core PCE Price Index m/m",
+   "impact": "high",
+   "time_utc": "2026-09-30T12:30:00+00:00",
+   "local": "09:30 ADT",
+   "et": "08:30 ET",
+   "in": "4 min",
+   "consensus": "0.3%",
+   "prior": "0.2%"
   },
   "sources": [],
   "warnings": []
@@ -174,10 +174,10 @@
   {
    "root": "ES",
    "trading_day": "2026-09-30",
-   "as_of_utc": "2026-09-30T12:12:37.778165+00:00",
+   "as_of_utc": "2026-09-30T12:25:14.050052+00:00",
    "source": "yahoo",
    "delayed": true,
-   "last_price": 7733.75,
+   "last_price": 7731.0,
    "levels": [
     {
      "tag": "exp_hi",
@@ -226,7 +226,7 @@
      "label": "Overnight high",
      "price": 7756.5,
      "group": "overnight",
-     "note": "since 18:00 ET, 833 bars"
+     "note": "since 18:00 ET, 846 bars"
     },
     {
      "tag": "rn_major_up",
@@ -238,7 +238,7 @@
     {
      "tag": "onvwap",
      "label": "Overnight VWAP",
-     "price": 7742.13,
+     "price": 7741.93,
      "group": "overnight",
      "note": "typical-price VWAP"
     },
@@ -321,14 +321,14 @@
     }
    ],
    "stats": {
-    "last_bar_utc": "2026-09-30T12:02:00+00:00",
-    "last_bar_age_min": 10.6,
+    "last_bar_utc": "2026-09-30T12:15:00+00:00",
+    "last_bar_age_min": 10.2,
     "market_state": "open",
     "profile_volume": 1212065.0,
     "prior_day": "2026-09-29",
     "prior_day_rth_range": 46.25,
     "overnight_range": 37.0,
-    "gap_vs_prior_close": 1.25,
+    "gap_vs_prior_close": -1.5,
     "gap_basis": "last price (pre-market)",
     "atr14": 82.44,
     "atr_days": 14,
@@ -1525,19 +1525,27 @@
      "t": "2026-09-30T12:00:00+00:00",
      "o": 7735.5,
      "h": 7738.0,
-     "l": 7731.5,
-     "c": 7733.75,
-     "v": 1673.0
+     "l": 7730.75,
+     "c": 7735.5,
+     "v": 5686.0
+    },
+    {
+     "t": "2026-09-30T12:15:00+00:00",
+     "o": 7735.0,
+     "h": 7735.75,
+     "l": 7728.75,
+     "c": 7731.0,
+     "v": 0.0
     }
    ]
   },
   {
    "root": "NQ",
    "trading_day": "2026-09-30",
-   "as_of_utc": "2026-09-30T12:12:37.778165+00:00",
+   "as_of_utc": "2026-09-30T12:25:14.050052+00:00",
    "source": "yahoo",
    "delayed": true,
-   "last_price": 30571.5,
+   "last_price": 30554.75,
    "levels": [
     {
      "tag": "exp_hi",
@@ -1565,7 +1573,7 @@
      "label": "Overnight high",
      "price": 30737.0,
      "group": "overnight",
-     "note": "since 18:00 ET, 833 bars"
+     "note": "since 18:00 ET, 846 bars"
     },
     {
      "tag": "pdh",
@@ -1591,7 +1599,7 @@
     {
      "tag": "onvwap",
      "label": "Overnight VWAP",
-     "price": 30632.05,
+     "price": 30630.51,
      "group": "overnight",
      "note": "typical-price VWAP"
     },
@@ -1681,14 +1689,14 @@
     }
    ],
    "stats": {
-    "last_bar_utc": "2026-09-30T12:02:00+00:00",
-    "last_bar_age_min": 10.6,
+    "last_bar_utc": "2026-09-30T12:15:00+00:00",
+    "last_bar_age_min": 10.2,
     "market_state": "open",
     "profile_volume": 430399.0,
     "prior_day": "2026-09-29",
     "prior_day_rth_range": 221.0,
     "overnight_range": 224.75,
-    "gap_vs_prior_close": -45.75,
+    "gap_vs_prior_close": -62.5,
     "gap_basis": "last price (pre-market)",
     "atr14": 493.58,
     "atr_days": 14,
@@ -2885,9 +2893,17 @@
      "t": "2026-09-30T12:00:00+00:00",
      "o": 30589.0,
      "h": 30600.0,
-     "l": 30559.0,
-     "c": 30571.5,
-     "v": 669.0
+     "l": 30553.75,
+     "c": 30577.0,
+     "v": 3014.0
+    },
+    {
+     "t": "2026-09-30T12:15:00+00:00",
+     "o": 30574.0,
+     "h": 30578.0,
+     "l": 30535.5,
+     "c": 30554.75,
+     "v": 0.0
     }
    ]
   }
