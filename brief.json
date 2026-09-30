@@ -1,7 +1,7 @@
 {
  "meta": {
-  "generated_at_utc": "2026-09-30T11:41:55.619818+00:00",
-  "generated_at_local": "Wed 30 Sep 2026 08:41 ADT",
+  "generated_at_utc": "2026-09-30T11:57:17.930817+00:00",
+  "generated_at_local": "Wed 30 Sep 2026 08:57 ADT",
   "trading_day": "2026-09-30",
   "display_tz": "America/Halifax",
   "version": "0.1.0",
@@ -163,7 +163,7 @@
    "time_utc": "2026-09-30T12:15:00+00:00",
    "local": "09:15 ADT",
    "et": "08:15 ET",
-   "in": "33 min",
+   "in": "17 min",
    "consensus": "73K",
    "prior": "38K"
   },
@@ -174,10 +174,10 @@
   {
    "root": "ES",
    "trading_day": "2026-09-30",
-   "as_of_utc": "2026-09-30T11:41:55.619818+00:00",
+   "as_of_utc": "2026-09-30T11:57:17.930817+00:00",
    "source": "yahoo",
    "delayed": true,
-   "last_price": 7735.25,
+   "last_price": 7730.5,
    "levels": [
     {
      "tag": "exp_hi",
@@ -226,7 +226,7 @@
      "label": "Overnight high",
      "price": 7756.5,
      "group": "overnight",
-     "note": "since 18:00 ET, 802 bars"
+     "note": "since 18:00 ET, 818 bars"
     },
     {
      "tag": "rn_major_up",
@@ -238,7 +238,7 @@
     {
      "tag": "onvwap",
      "label": "Overnight VWAP",
-     "price": 7743.06,
+     "price": 7742.62,
      "group": "overnight",
      "note": "typical-price VWAP"
     },
@@ -266,7 +266,7 @@
     {
      "tag": "pwl",
      "label": "Prior-week low",
-     "price": 7722.0,
+     "price": 7724.5,
      "group": "week",
      "note": "2 session(s) of data — PARTIAL"
     },
@@ -321,14 +321,14 @@
     }
    ],
    "stats": {
-    "last_bar_utc": "2026-09-30T11:31:00+00:00",
-    "last_bar_age_min": 10.9,
+    "last_bar_utc": "2026-09-30T11:47:00+00:00",
+    "last_bar_age_min": 10.3,
     "market_state": "open",
     "profile_volume": 1212065.0,
     "prior_day": "2026-09-29",
     "prior_day_rth_range": 46.25,
     "overnight_range": 37.0,
-    "gap_vs_prior_close": 2.75,
+    "gap_vs_prior_close": -2.0,
     "gap_basis": "last price (pre-market)",
     "atr14": 82.44,
     "atr_days": 14,
@@ -1508,20 +1508,28 @@
     {
      "t": "2026-09-30T11:30:00+00:00",
      "o": 7732.5,
-     "h": 7735.75,
+     "h": 7736.0,
      "l": 7731.75,
-     "c": 7735.25,
-     "v": 579.0
+     "c": 7733.25,
+     "v": 5020.0
+    },
+    {
+     "t": "2026-09-30T11:45:00+00:00",
+     "o": 7733.25,
+     "h": 7735.75,
+     "l": 7728.5,
+     "c": 7730.5,
+     "v": 3523.0
     }
    ]
   },
   {
    "root": "NQ",
    "trading_day": "2026-09-30",
-   "as_of_utc": "2026-09-30T11:41:55.619818+00:00",
+   "as_of_utc": "2026-09-30T11:57:17.930817+00:00",
    "source": "yahoo",
    "delayed": true,
-   "last_price": 30585.25,
+   "last_price": 30573.5,
    "levels": [
     {
      "tag": "exp_hi",
@@ -1549,7 +1557,7 @@
      "label": "Overnight high",
      "price": 30737.0,
      "group": "overnight",
-     "note": "since 18:00 ET, 802 bars"
+     "note": "since 18:00 ET, 818 bars"
     },
     {
      "tag": "pdh",
@@ -1575,7 +1583,7 @@
     {
      "tag": "onvwap",
      "label": "Overnight VWAP",
-     "price": 30634.98,
+     "price": 30633.83,
      "group": "overnight",
      "note": "typical-price VWAP"
     },
@@ -1665,14 +1673,14 @@
     }
    ],
    "stats": {
-    "last_bar_utc": "2026-09-30T11:31:00+00:00",
-    "last_bar_age_min": 10.9,
+    "last_bar_utc": "2026-09-30T11:47:00+00:00",
+    "last_bar_age_min": 10.3,
     "market_state": "open",
     "profile_volume": 430399.0,
     "prior_day": "2026-09-29",
     "prior_day_rth_range": 221.0,
     "overnight_range": 224.75,
-    "gap_vs_prior_close": -32.0,
+    "gap_vs_prior_close": -43.75,
     "gap_basis": "last price (pre-market)",
     "atr14": 493.58,
     "atr_days": 14,
@@ -2852,10 +2860,18 @@
     {
      "t": "2026-09-30T11:30:00+00:00",
      "o": 30575.5,
-     "h": 30590.5,
+     "h": 30606.0,
      "l": 30568.5,
-     "c": 30585.25,
-     "v": 239.0
+     "c": 30592.75,
+     "v": 2041.0
+    },
+    {
+     "t": "2026-09-30T11:45:00+00:00",
+     "o": 30591.75,
+     "h": 30599.0,
+     "l": 30565.5,
+     "c": 30573.5,
+     "v": 673.0
     }
    ]
   }
@@ -2868,7 +2884,7 @@
     "link": "https://news.google.com/rss/articles/CBMiiwJBVV95cUxOYnNpc1VxVl82djFYUlBfX2M4VGFOdEN3ZDVXUzRoalRUdFphU1YwZ1BXcl92RmR2bjlXVUJBVUt0Q2NCV1ZBY2F0YTNpLXRNVm0xakROLXlXbGRLSFBEY29BOHNpT1ZhRGNLR2JCWlZiMFJFNVY2U3BpZ0xES1otME1tRk1rQWpmVFQ3dmtaUzFCTVBITjBteGozc2NacGZrNWJkUjlGRV9OUVlicjZyZG54Y0syWnQ4eGJIMUxsTWdwcDl0bGZBSEtaLVVPLXJxdDl5MF9yenNQZEI5XzZ6MDBEWkVwSkFIbUU5d0xMMFJ6aFFpcDBlQ0VFS0pWMFVuMnpXZ2tlNTdDZnM?oc=5",
     "source": "gnews_fed",
     "published_utc": "2026-09-30T09:33:22+00:00",
-    "score": 11.14,
+    "score": 11.1,
     "duplicates": 0
    },
    {
@@ -2877,8 +2893,17 @@
     "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOdXFFNHNQQUxXRkRPN3ZndG5TZS1PSGpvaFZPMG8zRU1oNFdrOUFZQnNsT183YWZ2R3NoNGNUX1NVdmtZNmxaYVc2X2c0Vm5tNWZjbEo1ZkYzNzVqeW1BS0VTaWZYc1hKRlRaRGxrQlk1aGlpQTROOV9mSDZldFlkejFZVGxKYmZzQ3czLUFPUDRBVmNJNWpuMnBPdE00QUlncU9EU2lXZw?oc=5",
     "source": "gnews_futures",
     "published_utc": "2026-09-30T09:50:49+00:00",
-    "score": 10.69,
-    "duplicates": 3
+    "score": 10.15,
+    "duplicates": 2
+   },
+   {
+    "id": "ea16b10fe5",
+    "title": "Stock Futures, PCE Inflation, Micron Earnings | September 30 Barron's Daily - Barron's",
+    "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQMDJERVprQi1rdTJicVU5MGNTLWZJYkt5cEJCazJ6aEYya1hGTS1mNDI1dGowRUlWTFBGRWpGaHhxZUFiLTVFQ0RGN1lHWnVNWHNreTFqYWVWTTJET0VpOU54RVBTR29iRXgwNWdVTFFmZDRNUzRPdkttSWplSUNVbjhtNzg3a0N5aTRhclQ5MkM4TWRBT2ZFZ1lvQ1A?oc=5",
+    "source": "gnews_futures",
+    "published_utc": "2026-09-30T11:53:00+00:00",
+    "score": 8.99,
+    "duplicates": 1
    },
    {
     "id": "de45bad474",
@@ -2886,7 +2911,7 @@
     "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPaTJWekdoVEc3bEU3dkhNOTZGTlRUSlZtZXUyWlRhclhyWDVjb3JwLWRINGdkUXFTSEp6bjUyQk84N0dVUnVLaFhqOW5pUy1RbUlEMXByYUlpNWNYb0RybTAxNTc4VkVOWmg4ajJ6SVFnc2JpajdHQVBuSkhqZHA5STMzVmo4dkZwWFpZQllFeUlXa2syRnV3ZWV0T1E1dFNP?oc=5",
     "source": "gnews_futures",
     "published_utc": "2026-09-30T08:51:00+00:00",
-    "score": 9.03,
+    "score": 8.98,
     "duplicates": 1
    },
    {
@@ -2895,16 +2920,16 @@
     "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxOd0dSYXFEQUJkT0lGSVdyYkVXeGNkaS1QWjdpZkxoWXRNRUs4NjJub25hSTQ0UmoxMG05Y3BNUVQyODVJb1lIdEZucGE0em05ejJxaEVSOFBMOHRLb2pPMmJRcU0xTmZ0Mi1YTU5Ga3ZvekVZRTBQazFqMUEzWXVhNFJvaHJNd2hDNEh6MXB2NTNhZDNwSGdkUlg5cWd3VzRRaVl1eUx2cWpBSVp1QWUwemRMSWlSbmlSdXJENGsyN2xHaVg4dTJsS2V4Z1PSAdIBQVVfeXFMUGRmT1daZVFHci1BY3BOTEZSNUs5MWVNazZ5MGxIRk1PRjdNNjZfNldGRzl6UzVNTFJUcFZvbDA1Zmpndy16bml1VTlESnZ4Q1BsN2JFS1ZlbVpCWkhBdEF4VTloaG0zUmw0Z3VTYkdweXBEZFJjcVM0UGpKRmRGS1hvMWxBeUptS0VCLWlfTWNQRUJOVFJoLVRkV0FwN0lhTnduRm9mUnIybFdBM3hNQXM3cTdQMDJ1RkFUWlZYTWpwNzl2VFRfMkQxVHl6QnhPN053?oc=5",
     "source": "gnews_futures",
     "published_utc": "2026-09-30T08:44:51+00:00",
-    "score": 9.01,
+    "score": 8.97,
     "duplicates": 1
    },
    {
     "id": "0e2153a9c9",
-    "title": "U.S. Stock Futures Muted With Focus on PCE Inflation Data and Micron Earnings - Barchart.com",
+    "title": "U.S. Stock Futures Muted With Focus on PCE Inflation Data and Micron Earnings - barchart.com",
     "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOS1FfbDMyUmp6QXVjbng1WXM5NkdPaWRSaFotQm85QVVoZWQ2dTU5VzVWUHlRbWZhWVpnMEVZV2xxUUFwUlVadzRuQkNyeE1EZDRFWFo4djRQY0tGRWVYNWFOWGExRXdqMVZSMDZmS0QxemVFcTVUdU1qNUYxUUJqRVBBM2p1X3A5QTRKMzRCMFNLWlhxM0FlczBONE81ZUh3SE15SHJtbXEzM3ViOW5OLUd0S1FGWWhJYS0zZg?oc=5",
     "source": "gnews_futures",
     "published_utc": "2026-09-30T10:30:42+00:00",
-    "score": 8.8,
+    "score": 8.76,
     "duplicates": 1
    },
    {
@@ -2917,22 +2942,13 @@
     "duplicates": 0
    },
    {
-    "id": "f952a0193b",
-    "title": "Stock futures rise as Treasury yields take a breather (SPX:) - Seeking Alpha",
-    "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOWTlOYTR4UmViOFNQRUJneDdJcHl3ZXlkUkE2X1UxZW94a0NFUWxhek9SMU9pamhGQ0lUZFdTRzZJT2lRN1BDU3B3bXY3emlaejNmcU5laG9JcUhJWEVGRE05ZmhIbWtGT2tzejVtQmx0N0VpYl9pb054TTN2cko2VXBHSVZuSlVo?oc=5",
-    "source": "gnews_futures",
-    "published_utc": "2026-09-30T08:10:56+00:00",
-    "score": 7.91,
-    "duplicates": 3
-   },
-   {
-    "id": "2d805444f2",
-    "title": "U.S. stock futures drift higher as yields pause, oil prices slide - Investing.com",
-    "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNZXV4dms5U1RoUUpEMFg5RS14V3U5VTZncGJocklZTHd3S3Y5OFhSMjkyYVA0UXVicEg1X1RnZEtubnk3OU1XWU5Ia1RRc2lOa0ZLM1ZhakJ4VUlvbmlTazA0bFc4OVc2Q2Jnd2N5YjNHV0FQY2hiVjRFZFZ3RmlxQ2taS1FGQjlqSWNNc0VOSTVhQnlHQXdCYWxMb2UwWVpSZEVwZVlaNElZUWpoNnN6Q3dLdHdvelRkRWpr?oc=5",
-    "source": "gnews_futures",
-    "published_utc": "2026-09-30T06:47:09+00:00",
-    "score": 7.68,
-    "duplicates": 1
+    "id": "461ff80832",
+    "title": "Treasury Selloff Signals Real-Rate Shock, Not Inflation Panic - connectmoney.com",
+    "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNV1E4SEtkS3FKODZ3LWtMdWpNU25jZHJVblJJa3k2WUFLOVFVSVVXTkp6Z1l5a0ZyU0lkZlhBVEhfSW5KOVBSeElOQ0J4NEFON2U4RktKc2Zva2IyX25KOUdPaTcwa29TcVIzbUJpTjBHUEk1TzRYaUphb1ZNblFxQzRRWjZPTjF0ZE1mQkZxelpYd3RDSFN0ZUFHTjZxR1U?oc=5",
+    "source": "gnews_macro",
+    "published_utc": "2026-09-30T11:47:30+00:00",
+    "score": 7.97,
+    "duplicates": 0
    },
    {
     "id": "d6db8cdb12",
@@ -2962,26 +2978,27 @@
     "duplicates": 2
    },
    {
-    "id": "b49dd1a799",
-    "title": "Inflation, Key Earnings Reports Cap Wall Street Pre-Bell; Asia Up, Europe Mixed - Yahoo! Finance Canada",
-    "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPTFlyVmwzZmphSTh1WjR6MUp5TmwwakRIMHRpRzlfRHdxWUkzcWpjTUw3VnZXY1pqZG5FS0htbTNJSkw1RUtkb0VjREQ2dUlUdVdrVGEyMmQzbnluRTI4VU1JZWZ4TE42S3ZxQ3M0czZVTXcxdmpjaFYwQXVnaUlnc1BnZ09PaWxDSVZ3?oc=5",
-    "source": "gnews_macro",
-    "published_utc": "2026-09-30T11:14:51+00:00",
-    "score": 7.42,
+    "id": "09ac446e19",
+    "title": "US stock futures slip ahead of inflation report - TradingView",
+    "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOQThzbHlLb0pmMEpZOV9FVUdvVEhWc2VqQ3ZzS0xrenJtd1dNZGF0TEJsenRCMVNfcVRKZDNPMnlvQXNnNmR4MnFxaTRla1A2VDBKRHNxTFo2THVya3ZHa3ZHWktjQ2ZtOTQxWE1vVE1JYUNlQkhxWmZYVnEtN2owQnNDcWNCVG9WMXIwLVZWWTVLYUx4NHVfUmRFdERvY2ljb2FPalM2bjF0N21DNE1QUEl2TFp0ZU0x?oc=5",
+    "source": "gnews_futures",
+    "published_utc": "2026-09-30T11:34:25+00:00",
+    "score": 7.44,
     "duplicates": 0
    }
   ],
   "summary": {
    "lines": [
-    "Core PCE at 08:30 ET is today's key catalyst, with consensus 0.3% m/m versus 0.2% prior, and futures are muted/flat heading into it as markets await the Fed's preferred inflation gauge [f0e6624be8][0e2153a9c9][7999075306][281b697345].",
-    "ADP Non-Farm Employment at 08:15 ET (cons 73K, prior 38K) prints ahead of PCE, adding to the pre-data positioning alongside Final GDP q/q (cons 1.5%) [b49dd1a799].",
-    "Treasury yields easing is cited as supportive for futures drift higher, a factor for rate-sensitive Nasdaq positioning [52b9346a8f][de45bad474][f952a0193b][2d805444f2].",
-    "Fed commentary remains in focus, with Williams (NY Fed) inflation/tariff remarks and a separate Fed Governor's inflation remarks tied to yesterday's lower equity close [b0a8932e25][d6db8cdb12][88e66616c1].",
-    "Micron (MU) earnings are flagged alongside the inflation data as a stock-specific driver for futures today [f0e6624be8][0e2153a9c9]."
+    "Core PCE Price Index m/m (cons 0.3%, prior 0.2%) at 08:30 ET is the session's key catalyst, with futures muted/flat into the print [ea16b10fe5][0e2153a9c9][7999075306][09ac446e19].",
+    "ADP Non-Farm Employment Change (cons 73K, prior 38K) also lands at 08:15 ET, adding to the pre-PCE data stack [f0e6624be8].",
+    "Treasury yields easing has been cited as support for futures ahead of the inflation data [52b9346a8f][de45bad474].",
+    "Fed commentary (Williams, Fed Governor remarks) and yield moves were tied to prior equity weakness, keeping Fed speak in focus alongside today's PCE [b0a8932e25][d6db8cdb12][461ff80832]."
    ],
    "backend": "anthropic",
    "model": "claude-sonnet-5",
-   "dropped": [],
+   "dropped": [
+    "no valid citation: Final GDP q/q (cons 1.5%, prior 1.5%) and GDP Price Index q/q (cons 6.4%, prior 6.4%) print at 08:30 ET alongside PCE, and President Trump speaks at 15:30 ET, both outside the AM scalp window but on the radar."
+   ],
    "warnings": []
   },
   "feeds": [],
