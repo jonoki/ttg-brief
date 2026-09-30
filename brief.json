@@ -1,7 +1,7 @@
 {
  "meta": {
-  "generated_at_utc": "2026-09-30T10:25:03.521014+00:00",
-  "generated_at_local": "Wed 30 Sep 2026 07:25 ADT",
+  "generated_at_utc": "2026-09-30T10:40:27.669927+00:00",
+  "generated_at_local": "Wed 30 Sep 2026 07:40 ADT",
   "trading_day": "2026-09-30",
   "display_tz": "America/Halifax",
   "version": "0.1.0",
@@ -163,7 +163,7 @@
    "time_utc": "2026-09-30T12:15:00+00:00",
    "local": "09:15 ADT",
    "et": "08:15 ET",
-   "in": "1h 49m",
+   "in": "1h 34m",
    "consensus": "73K",
    "prior": "38K"
   },
@@ -174,10 +174,10 @@
   {
    "root": "ES",
    "trading_day": "2026-09-30",
-   "as_of_utc": "2026-09-30T10:25:03.521014+00:00",
+   "as_of_utc": "2026-09-30T10:40:27.669927+00:00",
    "source": "yahoo",
    "delayed": true,
-   "last_price": 7736.0,
+   "last_price": 7734.25,
    "levels": [
     {
      "tag": "exp_hi",
@@ -226,7 +226,7 @@
      "label": "Overnight high",
      "price": 7756.5,
      "group": "overnight",
-     "note": "since 18:00 ET, 726 bars"
+     "note": "since 18:00 ET, 741 bars"
     },
     {
      "tag": "rn_major_up",
@@ -238,7 +238,7 @@
     {
      "tag": "onvwap",
      "label": "Overnight VWAP",
-     "price": 7745.83,
+     "price": 7745.47,
      "group": "overnight",
      "note": "typical-price VWAP"
     },
@@ -252,7 +252,7 @@
     {
      "tag": "onl",
      "label": "Overnight low",
-     "price": 7733.75,
+     "price": 7733.0,
      "group": "overnight",
      "note": ""
     },
@@ -271,18 +271,18 @@
      "note": ""
     },
     {
+     "tag": "pwl",
+     "label": "Prior-week low",
+     "price": 7722.0,
+     "group": "week",
+     "note": "2 session(s) of data — PARTIAL"
+    },
+    {
      "tag": "poc",
      "label": "Prior-day POC",
      "price": 7719.88,
      "group": "profile",
      "note": "2026-09-29 RTH, bin 0.25"
-    },
-    {
-     "tag": "pwl",
-     "label": "Prior-week low",
-     "price": 7719.0,
-     "group": "week",
-     "note": "2 session(s) of data — PARTIAL"
     },
     {
      "tag": "val",
@@ -321,14 +321,14 @@
     }
    ],
    "stats": {
-    "last_bar_utc": "2026-09-30T10:15:00+00:00",
-    "last_bar_age_min": 10.1,
+    "last_bar_utc": "2026-09-30T10:30:00+00:00",
+    "last_bar_age_min": 10.5,
     "market_state": "open",
     "profile_volume": 1212065.0,
     "prior_day": "2026-09-29",
     "prior_day_rth_range": 46.25,
-    "overnight_range": 22.75,
-    "gap_vs_prior_close": 3.5,
+    "overnight_range": 23.5,
+    "gap_vs_prior_close": 1.75,
     "gap_basis": "last price (pre-market)",
     "atr14": 82.44,
     "atr_days": 14,
@@ -1468,9 +1468,17 @@
     {
      "t": "2026-09-30T10:15:00+00:00",
      "o": 7734.5,
-     "h": 7736.0,
-     "l": 7733.75,
-     "c": 7736.0,
+     "h": 7738.5,
+     "l": 7733.0,
+     "c": 7734.75,
+     "v": 5131.0
+    },
+    {
+     "t": "2026-09-30T10:30:00+00:00",
+     "o": 7734.75,
+     "h": 7735.0,
+     "l": 7733.5,
+     "c": 7734.25,
      "v": 0.0
     }
    ]
@@ -1478,10 +1486,10 @@
   {
    "root": "NQ",
    "trading_day": "2026-09-30",
-   "as_of_utc": "2026-09-30T10:25:03.521014+00:00",
+   "as_of_utc": "2026-09-30T10:40:27.669927+00:00",
    "source": "yahoo",
    "delayed": true,
-   "last_price": 30590.25,
+   "last_price": 30587.0,
    "levels": [
     {
      "tag": "exp_hi",
@@ -1509,7 +1517,7 @@
      "label": "Overnight high",
      "price": 30737.0,
      "group": "overnight",
-     "note": "since 18:00 ET, 726 bars"
+     "note": "since 18:00 ET, 741 bars"
     },
     {
      "tag": "pdh",
@@ -1535,7 +1543,7 @@
     {
      "tag": "onvwap",
      "label": "Overnight VWAP",
-     "price": 30643.3,
+     "price": 30641.96,
      "group": "overnight",
      "note": "typical-price VWAP"
     },
@@ -1625,14 +1633,14 @@
     }
    ],
    "stats": {
-    "last_bar_utc": "2026-09-30T10:15:00+00:00",
-    "last_bar_age_min": 10.1,
+    "last_bar_utc": "2026-09-30T10:30:00+00:00",
+    "last_bar_age_min": 10.5,
     "market_state": "open",
     "profile_volume": 430399.0,
     "prior_day": "2026-09-29",
     "prior_day_rth_range": 221.0,
     "overnight_range": 197.25,
-    "gap_vs_prior_close": -27.0,
+    "gap_vs_prior_close": -30.25,
     "gap_basis": "last price (pre-market)",
     "atr14": 493.58,
     "atr_days": 14,
@@ -2772,9 +2780,17 @@
     {
      "t": "2026-09-30T10:15:00+00:00",
      "o": 30581.25,
-     "h": 30590.25,
-     "l": 30577.5,
-     "c": 30590.25,
+     "h": 30605.0,
+     "l": 30572.0,
+     "c": 30590.0,
+     "v": 2097.0
+    },
+    {
+     "t": "2026-09-30T10:30:00+00:00",
+     "o": 30589.75,
+     "h": 30589.75,
+     "l": 30584.75,
+     "c": 30587.0,
      "v": 0.0
     }
    ]
@@ -2784,11 +2800,11 @@
   "headlines": [
    {
     "id": "52b9346a8f",
-    "title": "US stock futures inch up as yields ease, inflation report looms - reuters.com",
+    "title": "US stock futures inch up as yields ease, inflation report looms - Reuters",
     "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOdXFFNHNQQUxXRkRPN3ZndG5TZS1PSGpvaFZPMG8zRU1oNFdrOUFZQnNsT183YWZ2R3NoNGNUX1NVdmtZNmxaYVc2X2c0Vm5tNWZjbEo1ZkYzNzVqeW1BS0VTaWZYc1hKRlRaRGxrQlk1aGlpQTROOV9mSDZldFlkejFZVGxKYmZzQ3czLUFPUDRBVmNJNWpuMnBPdE00QUlncU9EU2lXZw?oc=5",
     "source": "gnews_futures",
     "published_utc": "2026-09-30T09:50:49+00:00",
-    "score": 10.9,
+    "score": 10.86,
     "duplicates": 3
    },
    {
@@ -2797,7 +2813,7 @@
     "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPaTJWekdoVEc3bEU3dkhNOTZGTlRUSlZtZXUyWlRhclhyWDVjb3JwLWRINGdkUXFTSEp6bjUyQk84N0dVUnVLaFhqOW5pUy1RbUlEMXByYUlpNWNYb0RybTAxNTc4VkVOWmg4ajJ6SVFnc2JpajdHQVBuSkhqZHA5STMzVmo4dkZwWFpZQllFeUlXa2syRnV3ZWV0T1E1dFNP?oc=5",
     "source": "gnews_futures",
     "published_utc": "2026-09-30T08:51:00+00:00",
-    "score": 9.24,
+    "score": 9.2,
     "duplicates": 1
    },
    {
@@ -2806,17 +2822,17 @@
     "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxOd0dSYXFEQUJkT0lGSVdyYkVXeGNkaS1QWjdpZkxoWXRNRUs4NjJub25hSTQ0UmoxMG05Y3BNUVQyODVJb1lIdEZucGE0em05ejJxaEVSOFBMOHRLb2pPMmJRcU0xTmZ0Mi1YTU5Ga3ZvekVZRTBQazFqMUEzWXVhNFJvaHJNd2hDNEh6MXB2NTNhZDNwSGdkUlg5cWd3VzRRaVl1eUx2cWpBSVp1QWUwemRMSWlSbmlSdXJENGsyN2xHaVg4dTJsS2V4Z1PSAdIBQVVfeXFMUGRmT1daZVFHci1BY3BOTEZSNUs5MWVNazZ5MGxIRk1PRjdNNjZfNldGRzl6UzVNTFJUcFZvbDA1Zmpndy16bml1VTlESnZ4Q1BsN2JFS1ZlbVpCWkhBdEF4VTloaG0zUmw0Z3VTYkdweXBEZFJjcVM0UGpKRmRGS1hvMWxBeUptS0VCLWlfTWNQRUJOVFJoLVRkV0FwN0lhTnduRm9mUnIybFdBM3hNQXM3cTdQMDJ1RkFUWlZYTWpwNzl2VFRfMkQxVHl6QnhPN053?oc=5",
     "source": "gnews_futures",
     "published_utc": "2026-09-30T08:44:51+00:00",
-    "score": 9.22,
+    "score": 9.18,
     "duplicates": 1
    },
    {
-    "id": "2d805444f2",
-    "title": "U.S. stock futures drift higher as yield rally pauses; Micron earnings awaited - Investing.com",
-    "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNZXV4dms5U1RoUUpEMFg5RS14V3U5VTZncGJocklZTHd3S3Y5OFhSMjkyYVA0UXVicEg1X1RnZEtubnk3OU1XWU5Ia1RRc2lOa0ZLM1ZhakJ4VUlvbmlTazA0bFc4OVc2Q2Jnd2N5YjNHV0FQY2hiVjRFZFZ3RmlxQ2taS1FGQjlqSWNNc0VOSTVhQnlHQXdCYWxMb2UwWVpSZEVwZVlaNElZUWpoNnN6Q3dLdHdvelRkRWpr?oc=5",
+    "id": "0e2153a9c9",
+    "title": "U.S. Stock Futures Muted With Focus on PCE Inflation Data and Micron Earnings - barchart.com",
+    "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOS1FfbDMyUmp6QXVjbng1WXM5NkdPaWRSaFotQm85QVVoZWQ2dTU5VzVWUHlRbWZhWVpnMEVZV2xxUUFwUlVadzRuQkNyeE1EZDRFWFo4djRQY0tGRWVYNWFOWGExRXdqMVZSMDZmS0QxemVFcTVUdU1qNUYxUUJqRVBBM2p1X3A5QTRKMzRCMFNLWlhxM0FlczBONE81ZUh3SE15SHJtbXEzM3ViOW5OLUd0S1FGWWhJYS0zZg?oc=5",
     "source": "gnews_futures",
-    "published_utc": "2026-09-30T07:18:45+00:00",
-    "score": 8.98,
-    "duplicates": 0
+    "published_utc": "2026-09-30T10:30:42+00:00",
+    "score": 8.97,
+    "duplicates": 1
    },
    {
     "id": "f952a0193b",
@@ -2824,12 +2840,12 @@
     "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOWTlOYTR4UmViOFNQRUJneDdJcHl3ZXlkUkE2X1UxZW94a0NFUWxhek9SMU9pamhGQ0lUZFdTRzZJT2lRN1BDU3B3bXY3emlaejNmcU5laG9JcUhJWEVGRE05ZmhIbWtGT2tzejVtQmx0N0VpYl9pb054TTN2cko2VXBHSVZuSlVo?oc=5",
     "source": "gnews_futures",
     "published_utc": "2026-09-30T08:10:56+00:00",
-    "score": 8.13,
+    "score": 8.08,
     "duplicates": 3
    },
    {
     "id": "b0a8932e25",
-    "title": "Inflation, tariffs and other takeaways from New York Fed's Williams - The Business Journals",
+    "title": "Inflation, tariffs and other takeaways from New York Fed's Williams - bizjournals.com",
     "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQbHBnSlFWMW9jbUt3dzlSWm9aeXlraFhCVms1c183MFZ5Q21mMTFJYU9QdWhMUG91cEtoV21WTzFLWjFGT3FCT2ViYTNHSVdVbkxfOFRoRmNmaDBjMmJLQzJhaWxRRXMwXzFFZ0NBSFRqZFJrY2ZYQWF4YjVFNHgydURNWjcxd05rb1FwWWk5MkRJOHNtLUNGR1drc1FZX19rY2ZvRTV1QU1IQQ?oc=5",
     "source": "gnews_fed",
     "published_utc": "2026-09-29T22:11:00+00:00",
@@ -2842,7 +2858,7 @@
     "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOb0g4TUhSTVR2akVlVmwzYnJtOTVtY2pwVWE0R1ZnZWlJdl83UHRCMHhtUnUxT094RFY1U2pidlFkVVNsZ2RHcWRnQ2FNRUZTaUluc2lvUDFtVmNyS3NYcXh6WjFzZ0hGbWVYVTlSUnFlQ0VvbU80dmxXUjBDVTFqc1YwbWxybVB3eG1lc2lza0pqRjNMTzI0NXFOOUxFVEdjRnFxZnRrcVVZdjhYSDdaX1dpZXJyZTd3?oc=5",
     "source": "gnews_fed",
     "published_utc": "2026-09-30T08:30:00+00:00",
-    "score": 7.68,
+    "score": 7.64,
     "duplicates": 1
    },
    {
@@ -2873,34 +2889,35 @@
     "duplicates": 2
    },
    {
+    "id": "2d805444f2",
+    "title": "U.S. stock futures drift higher as yields pause, oil prices slide - Investing.com",
+    "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNZXV4dms5U1RoUUpEMFg5RS14V3U5VTZncGJocklZTHd3S3Y5OFhSMjkyYVA0UXVicEg1X1RnZEtubnk3OU1XWU5Ia1RRc2lOa0ZLM1ZhakJ4VUlvbmlTazA0bFc4OVc2Q2Jnd2N5YjNHV0FQY2hiVjRFZFZ3RmlxQ2taS1FGQjlqSWNNc0VOSTVhQnlHQXdCYWxMb2UwWVpSZEVwZVlaNElZUWpoNnN6Q3dLdHdvelRkRWpr?oc=5",
+    "source": "gnews_futures",
+    "published_utc": "2026-09-30T06:47:09+00:00",
+    "score": 7.35,
+    "duplicates": 0
+   },
+   {
     "id": "c656fc7c41",
     "title": "Gold edges lower as Treasury yields offset softer oil, Fed hike concerns linger - Investing.com",
     "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQeDRqY1JMR3otUllmaXFnNktTZzNUNHd0TlBDSURxUkVYUkZGWGlEaWRsVFpCMXdwUng5blpFREtZNmR3d0ZuVlZvYkNXQlFWUzk4ZU45UEwwZ19oNUtqbE81S1c2cWxJSmpzYWFUTDBPZEllcXhiUjRaYlRxcURCRHVKdVZpN09rSnV0cTlTVlpQeEtIYWpzb3BCRDctMDdKa3FDd3NhM2dyWkVhZHlOcjVpMUszNFJKUUhQV1kwLUowOU15R3JN?oc=5",
     "source": "gnews_macro",
     "published_utc": "2026-09-30T06:29:33+00:00",
-    "score": 7.35,
-    "duplicates": 0
-   },
-   {
-    "id": "29dfa9f2ee",
-    "title": "Inflation leaps to 4% stoking fears of fifth interest rate hike before Christmas - The Guardian",
-    "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxPT2tQaDJWZnJILTJOS09tODZjMHNWZkFRNFpSYmZhVUY1bUVidW11RmRETXlVN21YdjJabGpJWXVGVVRkQjJ2ZTFDdUtibndHTHpEUXlSSENFR1o2Nk1fMmVINHlCZlFXc2k5SHhsNzhoNlRjN09ETGJhYW1adVg1cW1CQ3NOYUtvQ2lpTk5xa2I5WTFIN2JQbjdLQllqT3NOS19aUmVWcWpVSHBDalVzQWgtV1RheHRKZ2RpbTJVekE1c0VRcU5kQzI3U3MyNE0?oc=5",
-    "source": "gnews_macro",
-    "published_utc": "2026-09-30T07:10:00+00:00",
-    "score": 6.96,
+    "score": 7.3,
     "duplicates": 0
    }
   ],
   "summary": {
    "lines": [
-    "Core PCE m/m (cons 0.3%, prior 0.2%) headlines the pre-market data slate that will set the tone into the open, alongside ADP and final GDP prints at 08:15/08:30 ET [e5605580f5][281b697345].",
-    "Futures are drifting to modestly higher as Treasury yields ease off recent highs ahead of the inflation print, a tailwind traders are watching for follow-through at the open [52b9346a8f][de45bad474][2d805444f2][f952a0193b]."
+    "Core PCE m/m (cons 0.3%, prior 0.2%) headlines the 08:30 ET data block alongside ADP (cons 73K, prior 38K) and Final GDP (cons 1.5%), setting up the main pre-open volatility catalyst for futures. [e5605580f5][281b697345]",
+    "Futures were reported flat-to-higher into the print as Treasury yields eased and oil pulled back, a backdrop that can compress or expand intraday ranges depending on how the data lands. [52b9346a8f][de45bad474][f952a0193b][2d805444f2]",
+    "China optimism was cited alongside inflation jitters as a factor keeping S&P futures flat, relevant for sentiment-driven chop before the data. [7999075306]",
+    "Micron earnings were flagged as a specific focus alongside the PCE data, a name-specific catalyst that can spill into Nasdaq futures sentiment. [0e2153a9c9]",
+    "Fed commentary (Williams) and prior-day equity weakness tied to yields and inflation remarks provide context for how sensitive the tape is to the PCE outcome. [b0a8932e25][d6db8cdb12][88e66616c1]"
    ],
    "backend": "anthropic",
    "model": "claude-sonnet-5",
-   "dropped": [
-    "no valid citation: S&P futures are described as flat as inflation jitters are offset by China-related optimism, a push-pull that"
-   ],
+   "dropped": [],
    "warnings": []
   },
   "feeds": [],
