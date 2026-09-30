@@ -1,7 +1,7 @@
 {
  "meta": {
-  "generated_at_utc": "2026-09-30T12:40:03.792955+00:00",
-  "generated_at_local": "Wed 30 Sep 2026 09:40 ADT",
+  "generated_at_utc": "2026-09-30T12:55:13.149415+00:00",
+  "generated_at_local": "Wed 30 Sep 2026 09:55 ADT",
   "trading_day": "2026-09-30",
   "display_tz": "America/Halifax",
   "version": "0.1.0",
@@ -163,7 +163,7 @@
    "time_utc": "2026-09-30T19:30:00+00:00",
    "local": "16:30 ADT",
    "et": "15:30 ET",
-   "in": "6h 49m",
+   "in": "6h 34m",
    "consensus": null,
    "prior": null
   },
@@ -174,10 +174,10 @@
   {
    "root": "ES",
    "trading_day": "2026-09-30",
-   "as_of_utc": "2026-09-30T12:40:03.792955+00:00",
+   "as_of_utc": "2026-09-30T12:55:13.149415+00:00",
    "source": "yahoo",
    "delayed": true,
-   "last_price": 7742.75,
+   "last_price": 7759.25,
    "levels": [
     {
      "tag": "exp_hi",
@@ -194,6 +194,13 @@
      "note": "2 session(s) of data — PARTIAL"
     },
     {
+     "tag": "rn_major_up",
+     "label": "Round 50 above",
+     "price": 7800.0,
+     "group": "round",
+     "note": ""
+    },
+    {
      "tag": "wh",
      "label": "Week high",
      "price": 7792.25,
@@ -201,18 +208,25 @@
      "note": "since 2026-09-28"
     },
     {
+     "tag": "rn_minor_up",
+     "label": "Round 25 above",
+     "price": 7775.0,
+     "group": "round",
+     "note": ""
+    },
+    {
+     "tag": "onh",
+     "label": "Overnight high",
+     "price": 7771.25,
+     "group": "overnight",
+     "note": "since 18:00 ET, 876 bars"
+    },
+    {
      "tag": "pgh",
      "label": "Prior Globex-session high",
      "price": 7770.75,
      "group": "prior_day",
      "note": "full 18:00→17:00 session"
-    },
-    {
-     "tag": "onh",
-     "label": "Overnight high",
-     "price": 7759.75,
-     "group": "overnight",
-     "note": "since 18:00 ET, 861 bars"
     },
     {
      "tag": "pdh",
@@ -229,8 +243,8 @@
      "note": "2026-09-29"
     },
     {
-     "tag": "rn_major_up",
-     "label": "Round 50 above",
+     "tag": "rn_major_dn",
+     "label": "Round 50 below",
      "price": 7750.0,
      "group": "round",
      "note": ""
@@ -238,7 +252,7 @@
     {
      "tag": "onvwap",
      "label": "Overnight VWAP",
-     "price": 7741.62,
+     "price": 7745.9,
      "group": "overnight",
      "note": "typical-price VWAP"
     },
@@ -262,13 +276,6 @@
      "price": 7725.25,
      "group": "week",
      "note": "2 session(s) of data — PARTIAL"
-    },
-    {
-     "tag": "rn_minor_dn",
-     "label": "Round 25 below",
-     "price": 7725.0,
-     "group": "round",
-     "note": ""
     },
     {
      "tag": "poc",
@@ -306,13 +313,6 @@
      "note": ""
     },
     {
-     "tag": "rn_major_dn",
-     "label": "Round 50 below",
-     "price": 7700.0,
-     "group": "round",
-     "note": ""
-    },
-    {
      "tag": "exp_lo",
      "label": "Expected-range low (close − ATR)",
      "price": 7650.06,
@@ -321,14 +321,14 @@
     }
    ],
    "stats": {
-    "last_bar_utc": "2026-09-30T12:30:00+00:00",
-    "last_bar_age_min": 10.1,
+    "last_bar_utc": "2026-09-30T12:45:00+00:00",
+    "last_bar_age_min": 10.2,
     "market_state": "open",
     "profile_volume": 1212065.0,
     "prior_day": "2026-09-29",
     "prior_day_rth_range": 46.25,
-    "overnight_range": 40.25,
-    "gap_vs_prior_close": 10.25,
+    "overnight_range": 51.75,
+    "gap_vs_prior_close": 26.75,
     "gap_basis": "last price (pre-market)",
     "atr14": 82.44,
     "atr_days": 14,
@@ -1540,9 +1540,17 @@
     {
      "t": "2026-09-30T12:30:00+00:00",
      "o": 7743.25,
-     "h": 7759.75,
+     "h": 7771.25,
      "l": 7741.5,
-     "c": 7742.75,
+     "c": 7758.5,
+     "v": 54662.0
+    },
+    {
+     "t": "2026-09-30T12:45:00+00:00",
+     "o": 7758.5,
+     "h": 7760.25,
+     "l": 7758.0,
+     "c": 7759.25,
      "v": 0.0
     }
    ]
@@ -1550,10 +1558,10 @@
   {
    "root": "NQ",
    "trading_day": "2026-09-30",
-   "as_of_utc": "2026-09-30T12:40:03.792955+00:00",
+   "as_of_utc": "2026-09-30T12:55:13.149415+00:00",
    "source": "yahoo",
    "delayed": true,
-   "last_price": 30621.25,
+   "last_price": 30722.25,
    "levels": [
     {
      "tag": "exp_hi",
@@ -1577,11 +1585,25 @@
      "note": "since 2026-09-28"
     },
     {
+     "tag": "rn_major_up",
+     "label": "Round 100 above",
+     "price": 30800.0,
+     "group": "round",
+     "note": ""
+    },
+    {
      "tag": "onh",
      "label": "Overnight high",
-     "price": 30737.0,
+     "price": 30779.5,
      "group": "overnight",
-     "note": "since 18:00 ET, 861 bars"
+     "note": "since 18:00 ET, 876 bars"
+    },
+    {
+     "tag": "rn_minor_up",
+     "label": "Round 50 above",
+     "price": 30750.0,
+     "group": "round",
+     "note": ""
     },
     {
      "tag": "pdh",
@@ -1598,8 +1620,8 @@
      "note": "2026-09-29"
     },
     {
-     "tag": "rn_major_up",
-     "label": "Round 100 above",
+     "tag": "rn_major_dn",
+     "label": "Round 100 below",
      "price": 30700.0,
      "group": "round",
      "note": ""
@@ -1612,16 +1634,9 @@
      "note": "70 % value area"
     },
     {
-     "tag": "rn_minor_up",
-     "label": "Round 50 above",
-     "price": 30650.0,
-     "group": "round",
-     "note": ""
-    },
-    {
      "tag": "onvwap",
      "label": "Overnight VWAP",
-     "price": 30628.51,
+     "price": 30642.81,
      "group": "overnight",
      "note": "typical-price VWAP"
     },
@@ -1638,13 +1653,6 @@
      "price": 30617.25,
      "group": "prior_day",
      "note": "2026-09-29"
-    },
-    {
-     "tag": "rn_major_dn",
-     "label": "Round 100 below",
-     "price": 30600.0,
-     "group": "round",
-     "note": ""
     },
     {
      "tag": "val",
@@ -1670,7 +1678,7 @@
     {
      "tag": "pwl",
      "label": "Prior-week low",
-     "price": 30439.0,
+     "price": 30474.75,
      "group": "week",
      "note": "2 session(s) of data — PARTIAL"
     },
@@ -1697,14 +1705,14 @@
     }
    ],
    "stats": {
-    "last_bar_utc": "2026-09-30T12:30:00+00:00",
-    "last_bar_age_min": 10.1,
+    "last_bar_utc": "2026-09-30T12:45:00+00:00",
+    "last_bar_age_min": 10.2,
     "market_state": "open",
     "profile_volume": 430399.0,
     "prior_day": "2026-09-29",
     "prior_day_rth_range": 221.0,
-    "overnight_range": 224.75,
-    "gap_vs_prior_close": 4.0,
+    "overnight_range": 267.25,
+    "gap_vs_prior_close": 105.0,
     "gap_basis": "last price (pre-market)",
     "atr14": 493.58,
     "atr_days": 14,
@@ -2916,9 +2924,17 @@
     {
      "t": "2026-09-30T12:30:00+00:00",
      "o": 30623.25,
-     "h": 30704.75,
+     "h": 30779.5,
      "l": 30607.5,
-     "c": 30621.25,
+     "c": 30718.75,
+     "v": 19221.0
+    },
+    {
+     "t": "2026-09-30T12:45:00+00:00",
+     "o": 30718.5,
+     "h": 30732.5,
+     "l": 30717.5,
+     "c": 30722.25,
      "v": 0.0
     }
    ]
@@ -2927,21 +2943,48 @@
  "news": {
   "headlines": [
    {
+    "id": "dd8e74f895",
+    "title": "Fed’s preferred gauge showed core inflation at 3.0% in August, much lighter than expected",
+    "link": "https://www.cnbc.com/2026/09/30/feds-preferred-gauge-showed-core-inflation-at-3point0percent-in-august-much-lighter-than-expected.html",
+    "source": "cnbc_markets",
+    "published_utc": "2026-09-30T12:48:05+00:00",
+    "score": 11.48,
+    "duplicates": 2
+   },
+   {
     "id": "f0e6624be8",
     "title": "Stock Market Today: S&P 500, Dow Jones Futures Gain as Investors Await Fed's Preferred Inflation Data — MU, AMD, FNGR in Focus - TradingView",
     "link": "https://news.google.com/rss/articles/CBMiiwJBVV95cUxOYnNpc1VxVl82djFYUlBfX2M4VGFOdEN3ZDVXUzRoalRUdFphU1YwZ1BXcl92RmR2bjlXVUJBVUt0Q2NCV1ZBY2F0YTNpLXRNVm0xakROLXlXbGRLSFBEY29BOHNpT1ZhRGNLR2JCWlZiMFJFNVY2U3BpZ0xES1otME1tRk1rQWpmVFQ3dmtaUzFCTVBITjBteGozc2NacGZrNWJkUjlGRV9OUVlicjZyZG54Y0syWnQ4eGJIMUxsTWdwcDl0bGZBSEtaLVVPLXJxdDl5MF9yenNQZEI5XzZ6MDBEWkVwSkFIbUU5d0xMMFJ6aFFpcDBlQ0VFS0pWMFVuMnpXZ2tlNTdDZnM?oc=5",
     "source": "gnews_fed",
     "published_utc": "2026-09-30T09:33:22+00:00",
-    "score": 11.06,
+    "score": 10.94,
+    "duplicates": 0
+   },
+   {
+    "id": "cfb21c4225",
+    "title": "U.S. Stock Futures Little Changed Ahead of August PCE Data; October Rate Hike Expectations Recede - finance.biggo.com",
+    "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9JRmhpRGdkRnlZOFFUSnFoamY4M0gzY056M2xCa3ZYakcyT2g2R210eFFuU09ReHN3bjVzR2RreUdWZ0NLakVVemV0OVRkbnh2TGZTZDVzSlhxUVlYWWxTMmx1bkRRektCNVpQRmxSUlVITkRfNEE?oc=5",
+    "source": "gnews_futures",
+    "published_utc": "2026-09-30T12:11:11+00:00",
+    "score": 10.38,
+    "duplicates": 0
+   },
+   {
+    "id": "5617231151",
+    "title": "Dow Jones Futures Fall; Inflation Data, Micron Earnings Due Bloom Energy, AI Stocks Shrug Off Yields - Investor's Business Daily",
+    "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxOREF2Z2ZRWDNfX0JCWlpUeWtQeGVlSEFxM04zVklORnRjbTR0R1VMSGpNNjRvVVhSeFAtWkc3TVlUanFkYjVWWkdBSU9GeTBiLVBwNUFSZHpzY1hVQnB1eUNkX25fNEpCdjVHd3FxWVpwZWZOY09HSWlHUmVJMER0YjZONExxNWxxZkZhWFRaZXo2U2NVODZXOE5GMG5KQlc3ZDVmRUYxMEVaR0pfVGY5OUFndU1YMWpzS01UekczZVdVMmc4ZDU5a3ZPdE02SHlQVmZKNg?oc=5",
+    "source": "gnews_macro",
+    "published_utc": "2026-09-30T12:07:00+00:00",
+    "score": 10.37,
     "duplicates": 0
    },
    {
     "id": "52b9346a8f",
-    "title": "US stock futures inch up as yields ease, inflation report looms - reuters.com",
+    "title": "US stock futures inch up as yields ease, inflation report looms - Reuters",
     "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOdXFFNHNQQUxXRkRPN3ZndG5TZS1PSGpvaFZPMG8zRU1oNFdrOUFZQnNsT183YWZ2R3NoNGNUX1NVdmtZNmxaYVc2X2c0Vm5tNWZjbEo1ZkYzNzVqeW1BS0VTaWZYc1hKRlRaRGxrQlk1aGlpQTROOV9mSDZldFlkejFZVGxKYmZzQ3czLUFPUDRBVmNJNWpuMnBPdE00QUlncU9EU2lXZw?oc=5",
     "source": "gnews_futures",
     "published_utc": "2026-09-30T09:50:49+00:00",
-    "score": 10.11,
+    "score": 9.99,
     "duplicates": 2
    },
    {
@@ -2950,16 +2993,7 @@
     "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQUHItMEI0VmMzWjl0SVlBZUplMXgxYVVvRjRoUVhHd0p5OUZVQlNzWGZkM1kwR2ZfT3NGVS04aTdOZkxYd3NtRWxpOTg4NWNQVmdZZWVmdXVYMDRrS05hNW9wVVNFX0EtQTRvY25WcnhVSXMtUERtUUFxb1AzVWNudzBtRmZkeFg3ZlRvNzYxemRBVlpUemNwcGNXRmcxeVpHckxNeElyNHhGb3lMYVNDcEMxdw?oc=5",
     "source": "gnews_futures",
     "published_utc": "2026-09-30T11:53:14+00:00",
-    "score": 8.95,
-    "duplicates": 1
-   },
-   {
-    "id": "ea16b10fe5",
-    "title": "Stock Futures, PCE Inflation, Micron Earnings | September 30 Barron's Daily - Barron's",
-    "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQMDJERVprQi1rdTJicVU5MGNTLWZJYkt5cEJCazJ6aEYya1hGTS1mNDI1dGowRUlWTFBGRWpGaHhxZUFiLTVFQ0RGN1lHWnVNWHNreTFqYWVWTTJET0VpOU54RVBTR29iRXgwNWdVTFFmZDRNUzRPdkttSWplSUNVbjhtNzg3a0N5aTRhclQ5MkM4TWRBT2ZFZ1lvQ1A?oc=5",
-    "source": "gnews_futures",
-    "published_utc": "2026-09-30T11:53:00+00:00",
-    "score": 8.95,
+    "score": 8.83,
     "duplicates": 1
    },
    {
@@ -2968,7 +3002,7 @@
     "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPaTJWekdoVEc3bEU3dkhNOTZGTlRUSlZtZXUyWlRhclhyWDVjb3JwLWRINGdkUXFTSEp6bjUyQk84N0dVUnVLaFhqOW5pUy1RbUlEMXByYUlpNWNYb0RybTAxNTc4VkVOWmg4ajJ6SVFnc2JpajdHQVBuSkhqZHA5STMzVmo4dkZwWFpZQllFeUlXa2syRnV3ZWV0T1E1dFNP?oc=5",
     "source": "gnews_futures",
     "published_utc": "2026-09-30T08:51:00+00:00",
-    "score": 8.94,
+    "score": 8.82,
     "duplicates": 1
    },
    {
@@ -2977,16 +3011,25 @@
     "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxOd0dSYXFEQUJkT0lGSVdyYkVXeGNkaS1QWjdpZkxoWXRNRUs4NjJub25hSTQ0UmoxMG05Y3BNUVQyODVJb1lIdEZucGE0em05ejJxaEVSOFBMOHRLb2pPMmJRcU0xTmZ0Mi1YTU5Ga3ZvekVZRTBQazFqMUEzWXVhNFJvaHJNd2hDNEh6MXB2NTNhZDNwSGdkUlg5cWd3VzRRaVl1eUx2cWpBSVp1QWUwemRMSWlSbmlSdXJENGsyN2xHaVg4dTJsS2V4Z1PSAdIBQVVfeXFMUGRmT1daZVFHci1BY3BOTEZSNUs5MWVNazZ5MGxIRk1PRjdNNjZfNldGRzl6UzVNTFJUcFZvbDA1Zmpndy16bml1VTlESnZ4Q1BsN2JFS1ZlbVpCWkhBdEF4VTloaG0zUmw0Z3VTYkdweXBEZFJjcVM0UGpKRmRGS1hvMWxBeUptS0VCLWlfTWNQRUJOVFJoLVRkV0FwN0lhTnduRm9mUnIybFdBM3hNQXM3cTdQMDJ1RkFUWlZYTWpwNzl2VFRfMkQxVHl6QnhPN053?oc=5",
     "source": "gnews_futures",
     "published_utc": "2026-09-30T08:44:51+00:00",
-    "score": 8.92,
+    "score": 8.8,
     "duplicates": 1
    },
    {
     "id": "0e2153a9c9",
-    "title": "U.S. Stock Futures Muted With Focus on PCE Inflation Data and Micron Earnings - barchart.com",
+    "title": "U.S. Stock Futures Muted With Focus on PCE Inflation Data and Micron Earnings - Barchart.com",
     "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOS1FfbDMyUmp6QXVjbng1WXM5NkdPaWRSaFotQm85QVVoZWQ2dTU5VzVWUHlRbWZhWVpnMEVZV2xxUUFwUlVadzRuQkNyeE1EZDRFWFo4djRQY0tGRWVYNWFOWGExRXdqMVZSMDZmS0QxemVFcTVUdU1qNUYxUUJqRVBBM2p1X3A5QTRKMzRCMFNLWlhxM0FlczBONE81ZUh3SE15SHJtbXEzM3ViOW5OLUd0S1FGWWhJYS0zZg?oc=5",
     "source": "gnews_futures",
     "published_utc": "2026-09-30T10:30:42+00:00",
-    "score": 8.72,
+    "score": 8.6,
+    "duplicates": 1
+   },
+   {
+    "id": "68a5caeb1f",
+    "title": "U.S. inflation rises again and keeps the pressure on Fed",
+    "link": "https://www.marketwatch.com/story/inflation-rises-again-and-keeps-pressure-on-fed-f64d2ced?mod=mw_rss_topstories",
+    "source": "marketwatch_top",
+    "published_utc": "2026-09-30T12:35:00+00:00",
+    "score": 8.44,
     "duplicates": 1
    },
    {
@@ -2995,7 +3038,7 @@
     "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPZm9Va3FFUy1COVAxaTZhQTFIaEt3UFdUaFhSY2VZUlRlZTVyT1RwTHA3bW1XM1h5UTF3azl1dEJWclBnb0Z5ZDlKaGcyakFSOGp4X1A3VzdfNW9yR2pWWExkSGd5STZJUDg5VDFVcjFWS2ZEODB3cUk0Vk1LdUo0V3Vzank5YW5UdmdxV0FPRml0VDU3bDMw?oc=5",
     "source": "gnews_futures",
     "published_utc": "2026-09-30T11:34:32+00:00",
-    "score": 8.39,
+    "score": 8.28,
     "duplicates": 2
    },
    {
@@ -3006,46 +3049,18 @@
     "published_utc": "2026-09-29T22:11:00+00:00",
     "score": 8.0,
     "duplicates": 0
-   },
-   {
-    "id": "0ebe75344f",
-    "title": "US Stock Futures Volatile Amid Easing Fed Bets: Three Factors To Shape Wall Street Trade Today - NDTV Profit",
-    "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxPUFJUd0gzcm5fUHJzTENueThtUTJVV2ZCUlZDU2JKTlJ6NE1adW45blk4RWl6SVlQd1BXaUVSaHNJY0pqdXBEbTg1M3c3NXJMY3RRdnhQbHFMdjlObWQtQjVudWtTdFdDanJseXl0d2dBOTZYZkRsSExYdXVpSWFQX2lSM0N3ZllwM3RWNlU4RTBDMDRoNGN0dThpTWN1OHZkWjJyaERWOW5qaFpWUGhISXkweEo4ZTNiTEdjTWpVelpaWWZMcEtVLW96V3dneU9jM1hZ?oc=5",
-    "source": "gnews_futures",
-    "published_utc": "2026-09-30T11:59:53+00:00",
-    "score": 7.96,
-    "duplicates": 0
-   },
-   {
-    "id": "461ff80832",
-    "title": "Treasury Selloff Signals Real-Rate Shock, Not Inflation Panic - connectmoney.com",
-    "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNV1E4SEtkS3FKODZ3LWtMdWpNU25jZHJVblJJa3k2WUFLOVFVSVVXTkp6Z1l5a0ZyU0lkZlhBVEhfSW5KOVBSeElOQ0J4NEFON2U4RktKc2Zva2IyX25KOUdPaTcwa29TcVIzbUJpTjBHUEk1TzRYaUphb1ZNblFxQzRRWjZPTjF0ZE1mQkZxelpYd3RDSFN0ZUFHTjZxR1U?oc=5",
-    "source": "gnews_macro",
-    "published_utc": "2026-09-30T11:47:30+00:00",
-    "score": 7.93,
-    "duplicates": 0
-   },
-   {
-    "id": "e5605580f5",
-    "title": "US core PCE inflation to rise in August, keeping the Fed under pressure - FXStreet",
-    "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOb0g4TUhSTVR2akVlVmwzYnJtOTVtY2pwVWE0R1ZnZWlJdl83UHRCMHhtUnUxT094RFY1U2pidlFkVVNsZ2RHcWRnQ2FNRUZTaUluc2lvUDFtVmNyS3NYcXh6WjFzZ0hGbWVYVTlSUnFlQ0VvbU80dmxXUjBDVTFqc1YwbWxybVB3eG1lc2lza0pqRjNMTzI0NXFOOUxFVEdjRnFxZnRrcVVZdjhYSDdaX1dpZXJyZTd3?oc=5",
-    "source": "gnews_fed",
-    "published_utc": "2026-09-30T11:00:00+00:00",
-    "score": 7.8,
-    "duplicates": 1
    }
   ],
   "summary": {
    "lines": [
-    "Core PCE m/m (cons 0.3%, prior 0.2%) at 08:30 ET is the session's key catalyst, with futures holding steady to slipping into the print [033a509a37][ea16b10fe5][1ac98bcc1e][0e2153a9c9][e5605580f5].",
-    "ADP employment (cons 73K, prior 38K) and Final GDP q/q (cons 1.5%) print alongside PCE at 08:15/08:30 ET, adding to the pre-market data stack [f0e6624be8][52b9346a8f].",
-    "Treasury yields easing and rate-hike bets pulling back are cited as support for futures ahead of the data [52b9346a8f][de45bad474][0ebe75344f].",
-    "Micron earnings are flagged as a second focus point alongside the PCE release [033a509a37][ea16b10fe5][0e2153a9c9].",
-    "NY Fed's Williams commentary on inflation and tariffs is in focus for Fed-policy read-through [b0a8932e25]."
+    "Core PCE for August came in at 3.0% y/y, below the Dow Jones consensus of 3.3%, while a separate report framed the same gauge as rising sharply and keeping pressure on the Fed to justify its recent rate cut [dd8e74f895][68a5caeb1f]."
    ],
    "backend": "anthropic",
    "model": "claude-sonnet-5",
-   "dropped": [],
+   "dropped": [
+    "no valid citation: ADP private payrolls jumped to 162K versus the 73K consensus and 38K prior, a beat traders will weigh against the PCE data for Fed-path implications.",
+    "no valid citation: Futures traded little changed to slightly higher into the PC"
+   ],
    "warnings": []
   },
   "feeds": [],
