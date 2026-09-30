@@ -1,7 +1,7 @@
 {
  "meta": {
-  "generated_at_utc": "2026-09-30T14:12:13.067644+00:00",
-  "generated_at_local": "Wed 30 Sep 2026 11:12 ADT",
+  "generated_at_utc": "2026-09-30T14:27:47.922613+00:00",
+  "generated_at_local": "Wed 30 Sep 2026 11:27 ADT",
   "trading_day": "2026-09-30",
   "display_tz": "America/Halifax",
   "version": "0.1.0",
@@ -22,8 +22,8 @@
      "what": "Monthly count of US jobs added outside farming, from the BLS employment report (first Friday, 08:30 ET).",
      "why": "The single biggest scheduled mover of index futures: it sets the tone for growth and Fed policy at once. Big beats or misses produce violent 08:30 moves and often the day's range."
     },
-    "actual": null,
-    "note": null,
+    "actual": "162K",
+    "note": "actual via BLS API",
     "consensus": "73K",
     "prior": "38K",
     "source": "",
@@ -181,7 +181,7 @@
    "time_utc": "2026-09-30T19:30:00+00:00",
    "local": "16:30 ADT",
    "et": "15:30 ET",
-   "in": "5h 17m",
+   "in": "5h 02m",
    "consensus": null,
    "prior": null
   },
@@ -192,10 +192,10 @@
   {
    "root": "ES",
    "trading_day": "2026-09-30",
-   "as_of_utc": "2026-09-30T14:12:13.067644+00:00",
+   "as_of_utc": "2026-09-30T14:27:47.922613+00:00",
    "source": "yahoo",
    "delayed": true,
-   "last_price": 7772.75,
+   "last_price": 7772.0,
    "levels": [
     {
      "tag": "exp_hi",
@@ -226,18 +226,18 @@
      "note": "since 2026-09-28"
     },
     {
+     "tag": "tdh",
+     "label": "Today's RTH high",
+     "price": 7779.5,
+     "group": "today",
+     "note": "so far"
+    },
+    {
      "tag": "rn_minor_up",
      "label": "Round 25 above",
      "price": 7775.0,
      "group": "round",
      "note": ""
-    },
-    {
-     "tag": "tdh",
-     "label": "Today's RTH high",
-     "price": 7774.25,
-     "group": "today",
-     "note": "so far"
     },
     {
      "tag": "onh",
@@ -360,8 +360,8 @@
     }
    ],
    "stats": {
-    "last_bar_utc": "2026-09-30T14:02:00+00:00",
-    "last_bar_age_min": 10.2,
+    "last_bar_utc": "2026-09-30T14:17:00+00:00",
+    "last_bar_age_min": 10.8,
     "market_state": "open",
     "profile_volume": 1212065.0,
     "prior_day": "2026-09-29",
@@ -1627,20 +1627,28 @@
     {
      "t": "2026-09-30T14:00:00+00:00",
      "o": 7767.25,
-     "h": 7774.25,
+     "h": 7779.5,
      "l": 7767.0,
-     "c": 7772.75,
-     "v": 18005.0
+     "c": 7769.0,
+     "v": 85483.0
+    },
+    {
+     "t": "2026-09-30T14:15:00+00:00",
+     "o": 7769.25,
+     "h": 7773.5,
+     "l": 7769.25,
+     "c": 7772.0,
+     "v": 10097.0
     }
    ]
   },
   {
    "root": "NQ",
    "trading_day": "2026-09-30",
-   "as_of_utc": "2026-09-30T14:12:13.067644+00:00",
+   "as_of_utc": "2026-09-30T14:27:47.922613+00:00",
    "source": "yahoo",
    "delayed": true,
-   "last_price": 30871.75,
+   "last_price": 30825.0,
    "levels": [
     {
      "tag": "exp_hi",
@@ -1673,13 +1681,13 @@
     {
      "tag": "tdh",
      "label": "Today's RTH high",
-     "price": 30874.5,
+     "price": 30894.75,
      "group": "today",
      "note": "so far"
     },
     {
-     "tag": "rn_minor_dn",
-     "label": "Round 50 below",
+     "tag": "rn_minor_up",
+     "label": "Round 50 above",
      "price": 30850.0,
      "group": "round",
      "note": ""
@@ -1805,8 +1813,8 @@
     }
    ],
    "stats": {
-    "last_bar_utc": "2026-09-30T14:02:00+00:00",
-    "last_bar_age_min": 10.2,
+    "last_bar_utc": "2026-09-30T14:17:00+00:00",
+    "last_bar_age_min": 10.8,
     "market_state": "open",
     "profile_volume": 430399.0,
     "prior_day": "2026-09-29",
@@ -3072,10 +3080,18 @@
     {
      "t": "2026-09-30T14:00:00+00:00",
      "o": 30841.25,
-     "h": 30874.5,
-     "l": 30835.5,
-     "c": 30871.75,
-     "v": 6150.0
+     "h": 30894.75,
+     "l": 30804.75,
+     "c": 30830.5,
+     "v": 27298.0
+    },
+    {
+     "t": "2026-09-30T14:15:00+00:00",
+     "o": 30831.0,
+     "h": 30849.5,
+     "l": 30810.25,
+     "c": 30825.0,
+     "v": 3242.0
     }
    ]
   }
@@ -3088,7 +3104,7 @@
     "link": "https://www.cnbc.com/2026/09/30/feds-preferred-gauge-showed-core-inflation-at-3point0percent-in-august-much-lighter-than-expected.html",
     "source": "cnbc_markets",
     "published_utc": "2026-09-30T13:40:09+00:00",
-    "score": 11.41,
+    "score": 11.37,
     "duplicates": 2
    },
    {
@@ -3097,7 +3113,7 @@
     "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9JRmhpRGdkRnlZOFFUSnFoamY4M0gzY056M2xCa3ZYakcyT2g2R210eFFuU09ReHN3bjVzR2RreUdWZ0NLakVVemV0OVRkbnh2TGZTZDVzSlhxUVlYWWxTMmx1bkRRektCNVpQRmxSUlVITkRfNEE?oc=5",
     "source": "gnews_futures",
     "published_utc": "2026-09-30T12:11:11+00:00",
-    "score": 10.16,
+    "score": 10.12,
     "duplicates": 0
    },
    {
@@ -3106,7 +3122,7 @@
     "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxOREF2Z2ZRWDNfX0JCWlpUeWtQeGVlSEFxM04zVklORnRjbTR0R1VMSGpNNjRvVVhSeFAtWkc3TVlUanFkYjVWWkdBSU9GeTBiLVBwNUFSZHpzY1hVQnB1eUNkX25fNEpCdjVHd3FxWVpwZWZOY09HSWlHUmVJMER0YjZONExxNWxxZkZhWFRaZXo2U2NVODZXOE5GMG5KQlc3ZDVmRUYxMEVaR0pfVGY5OUFndU1YMWpzS01UekczZVdVMmc4ZDU5a3ZPdE02SHlQVmZKNg?oc=5",
     "source": "gnews_macro",
     "published_utc": "2026-09-30T12:07:00+00:00",
-    "score": 10.15,
+    "score": 10.11,
     "duplicates": 0
    },
    {
@@ -3115,7 +3131,7 @@
     "link": "https://www.federalreserve.gov/newsevents/pressreleases/bcreg20260930a.htm",
     "source": "fed_press",
     "published_utc": "2026-09-30T13:00:00+00:00",
-    "score": 9.8,
+    "score": 9.76,
     "duplicates": 1
    },
    {
@@ -3124,7 +3140,16 @@
     "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQYkRWSVI2N0RBZHBER2ROUkJMc3RpdDlFM1p0SDkyeGNSZUVrbUt1WGVtUUpaVWtVSGMyUDR6Ym1UN3pxM1dZd3JnWFp0TlhpalhhZlRyWDY1Wkg4OHBUR0puczBYMWpwdGtPcFFUSFBQcVhCY3NwaERIVE9udVZXMDNn?oc=5",
     "source": "gnews_futures",
     "published_utc": "2026-09-30T10:26:05+00:00",
-    "score": 9.37,
+    "score": 9.33,
+    "duplicates": 1
+   },
+   {
+    "id": "52b9346a8f",
+    "title": "Wall St climbs as cooling inflation tempers Fed rate-hike concerns - Reuters",
+    "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOdXFFNHNQQUxXRkRPN3ZndG5TZS1PSGpvaFZPMG8zRU1oNFdrOUFZQnNsT183YWZ2R3NoNGNUX1NVdmtZNmxaYVc2X2c0Vm5tNWZjbEo1ZkYzNzVqeW1BS0VTaWZYc1hKRlRaRGxrQlk1aGlpQTROOV9mSDZldFlkejFZVGxKYmZzQ3czLUFPUDRBVmNJNWpuMnBPdE00QUlncU9EU2lXZw?oc=5",
+    "source": "gnews_futures",
+    "published_utc": "2026-09-30T14:15:20+00:00",
+    "score": 8.97,
     "duplicates": 1
    },
    {
@@ -3133,7 +3158,7 @@
     "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPaTJWekdoVEc3bEU3dkhNOTZGTlRUSlZtZXUyWlRhclhyWDVjb3JwLWRINGdkUXFTSEp6bjUyQk84N0dVUnVLaFhqOW5pUy1RbUlEMXByYUlpNWNYb0RybTAxNTc4VkVOWmg4ajJ6SVFnc2JpajdHQVBuSkhqZHA5STMzVmo4dkZwWFpZQllFeUlXa2syRnV3ZWV0T1E1dFNP?oc=5",
     "source": "gnews_futures",
     "published_utc": "2026-09-30T08:51:00+00:00",
-    "score": 8.61,
+    "score": 8.56,
     "duplicates": 1
    },
    {
@@ -3142,7 +3167,7 @@
     "link": "https://www.marketwatch.com/story/inflation-rises-again-and-keeps-pressure-on-fed-f64d2ced?mod=mw_rss_topstories",
     "source": "marketwatch_top",
     "published_utc": "2026-09-30T13:11:00+00:00",
-    "score": 8.33,
+    "score": 8.29,
     "duplicates": 1
    },
    {
@@ -3151,7 +3176,7 @@
     "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQUHItMEI0VmMzWjl0SVlBZUplMXgxYVVvRjRoUVhHd0p5OUZVQlNzWGZkM1kwR2ZfT3NGVS04aTdOZkxYd3NtRWxpOTg4NWNQVmdZZWVmdXVYMDRrS05hNW9wVVNFX0EtQTRvY25WcnhVSXMtUERtUUFxb1AzVWNudzBtRmZkeFg3ZlRvNzYxemRBVlpUemNwcGNXRmcxeVpHckxNeElyNHhGb3lMYVNDcEMxdw?oc=5",
     "source": "gnews_futures",
     "published_utc": "2026-09-30T11:53:14+00:00",
-    "score": 8.11,
+    "score": 8.07,
     "duplicates": 0
    },
    {
@@ -3160,17 +3185,8 @@
     "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxOd0dSYXFEQUJkT0lGSVdyYkVXeGNkaS1QWjdpZkxoWXRNRUs4NjJub25hSTQ0UmoxMG05Y3BNUVQyODVJb1lIdEZucGE0em05ejJxaEVSOFBMOHRLb2pPMmJRcU0xTmZ0Mi1YTU5Ga3ZvekVZRTBQazFqMUEzWXVhNFJvaHJNd2hDNEh6MXB2NTNhZDNwSGdkUlg5cWd3VzRRaVl1eUx2cWpBSVp1QWUwemRMSWlSbmlSdXJENGsyN2xHaVg4dTJsS2V4Z1PSAdIBQVVfeXFMUGRmT1daZVFHci1BY3BOTEZSNUs5MWVNazZ5MGxIRk1PRjdNNjZfNldGRzl6UzVNTFJUcFZvbDA1Zmpndy16bml1VTlESnZ4Q1BsN2JFS1ZlbVpCWkhBdEF4VTloaG0zUmw0Z3VTYkdweXBEZFJjcVM0UGpKRmRGS1hvMWxBeUptS0VCLWlfTWNQRUJOVFJoLVRkV0FwN0lhTnduRm9mUnIybFdBM3hNQXM3cTdQMDJ1RkFUWlZYTWpwNzl2VFRfMkQxVHl6QnhPN053?oc=5",
     "source": "gnews_futures",
     "published_utc": "2026-09-30T08:44:51+00:00",
-    "score": 8.09,
+    "score": 8.05,
     "duplicates": 0
-   },
-   {
-    "id": "1ac98bcc1e",
-    "title": "US stock futures slip ahead of inflation report - finance.yahoo.com",
-    "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPZm9Va3FFUy1COVAxaTZhQTFIaEt3UFdUaFhSY2VZUlRlZTVyT1RwTHA3bW1XM1h5UTF3azl1dEJWclBnb0Z5ZDlKaGcyakFSOGp4X1A3VzdfNW9yR2pWWExkSGd5STZJUDg5VDFVcjFWS2ZEODB3cUk0Vk1LdUo0V3Vzank5YW5UdmdxV0FPRml0VDU3bDMw?oc=5",
-    "source": "gnews_futures",
-    "published_utc": "2026-09-30T11:34:32+00:00",
-    "score": 8.06,
-    "duplicates": 2
    },
    {
     "id": "b0a8932e25",
@@ -3182,13 +3198,13 @@
     "duplicates": 0
    },
    {
-    "id": "0e2153a9c9",
-    "title": "U.S. Stock Futures Muted With Focus on PCE Inflation Data and Micron Earnings - Barchart.com",
-    "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOS1FfbDMyUmp6QXVjbng1WXM5NkdPaWRSaFotQm85QVVoZWQ2dTU5VzVWUHlRbWZhWVpnMEVZV2xxUUFwUlVadzRuQkNyeE1EZDRFWFo4djRQY0tGRWVYNWFOWGExRXdqMVZSMDZmS0QxemVFcTVUdU1qNUYxUUJqRVBBM2p1X3A5QTRKMzRCMFNLWlhxM0FlczBONE81ZUh3SE15SHJtbXEzM3ViOW5OLUd0S1FGWWhJYS0zZg?oc=5",
-    "source": "gnews_futures",
-    "published_utc": "2026-09-30T10:30:42+00:00",
-    "score": 7.88,
-    "duplicates": 0
+    "id": "b887eae627",
+    "title": "Fed’s Preferred Inflation Gauge Points to Continued Price Pressures - The New York Times",
+    "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQYlhkRWRnNTd1WFFKa3k0RF8yNmVNSG5MNHdRZk1PVi1na01fMHB4bldhb2JZeTdWc0gwZmhWbE5wWkVzWHF6eHBHUThHc1hnNWN3ZEJQN0FYVGFlRW1RQl9MMEZfaFhIeGY1OUl6Nk9aM3VURmFlVFZQNEJhU2hGU01VZ2ZOdWlX?oc=5",
+    "source": "gnews_fed",
+    "published_utc": "2026-09-30T13:32:23+00:00",
+    "score": 7.85,
+    "duplicates": 1
    }
   ],
   "summary": {
