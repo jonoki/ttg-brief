@@ -1,11 +1,11 @@
 {
  "meta": {
-  "generated_at_utc": "2026-09-30T12:25:14.050052+00:00",
-  "generated_at_local": "Wed 30 Sep 2026 09:25 ADT",
+  "generated_at_utc": "2026-09-30T12:40:03.792955+00:00",
+  "generated_at_local": "Wed 30 Sep 2026 09:40 ADT",
   "trading_day": "2026-09-30",
   "display_tz": "America/Halifax",
   "version": "0.1.0",
-  "run": "overnight",
+  "run": "post-data",
   "variant": "public"
  },
  "calendar": {
@@ -158,14 +158,14 @@
    }
   ],
   "next_event": {
-   "name": "Core PCE Price Index m/m",
-   "impact": "high",
-   "time_utc": "2026-09-30T12:30:00+00:00",
-   "local": "09:30 ADT",
-   "et": "08:30 ET",
-   "in": "4 min",
-   "consensus": "0.3%",
-   "prior": "0.2%"
+   "name": "President Trump Speaks",
+   "impact": "medium",
+   "time_utc": "2026-09-30T19:30:00+00:00",
+   "local": "16:30 ADT",
+   "et": "15:30 ET",
+   "in": "6h 49m",
+   "consensus": null,
+   "prior": null
   },
   "sources": [],
   "warnings": []
@@ -174,10 +174,10 @@
   {
    "root": "ES",
    "trading_day": "2026-09-30",
-   "as_of_utc": "2026-09-30T12:25:14.050052+00:00",
+   "as_of_utc": "2026-09-30T12:40:03.792955+00:00",
    "source": "yahoo",
    "delayed": true,
-   "last_price": 7731.0,
+   "last_price": 7742.75,
    "levels": [
     {
      "tag": "exp_hi",
@@ -208,6 +208,13 @@
      "note": "full 18:00→17:00 session"
     },
     {
+     "tag": "onh",
+     "label": "Overnight high",
+     "price": 7759.75,
+     "group": "overnight",
+     "note": "since 18:00 ET, 861 bars"
+    },
+    {
      "tag": "pdh",
      "label": "Prior-day high (RTH)",
      "price": 7758.5,
@@ -222,13 +229,6 @@
      "note": "2026-09-29"
     },
     {
-     "tag": "onh",
-     "label": "Overnight high",
-     "price": 7756.5,
-     "group": "overnight",
-     "note": "since 18:00 ET, 846 bars"
-    },
-    {
      "tag": "rn_major_up",
      "label": "Round 50 above",
      "price": 7750.0,
@@ -238,7 +238,7 @@
     {
      "tag": "onvwap",
      "label": "Overnight VWAP",
-     "price": 7741.93,
+     "price": 7741.62,
      "group": "overnight",
      "note": "typical-price VWAP"
     },
@@ -257,18 +257,18 @@
      "note": "2026-09-29"
     },
     {
+     "tag": "pwl",
+     "label": "Prior-week low",
+     "price": 7725.25,
+     "group": "week",
+     "note": "2 session(s) of data — PARTIAL"
+    },
+    {
      "tag": "rn_minor_dn",
      "label": "Round 25 below",
      "price": 7725.0,
      "group": "round",
      "note": ""
-    },
-    {
-     "tag": "pwl",
-     "label": "Prior-week low",
-     "price": 7724.5,
-     "group": "week",
-     "note": "2 session(s) of data — PARTIAL"
     },
     {
      "tag": "poc",
@@ -321,14 +321,14 @@
     }
    ],
    "stats": {
-    "last_bar_utc": "2026-09-30T12:15:00+00:00",
-    "last_bar_age_min": 10.2,
+    "last_bar_utc": "2026-09-30T12:30:00+00:00",
+    "last_bar_age_min": 10.1,
     "market_state": "open",
     "profile_volume": 1212065.0,
     "prior_day": "2026-09-29",
     "prior_day_rth_range": 46.25,
-    "overnight_range": 37.0,
-    "gap_vs_prior_close": -1.5,
+    "overnight_range": 40.25,
+    "gap_vs_prior_close": 10.25,
     "gap_basis": "last price (pre-market)",
     "atr14": 82.44,
     "atr_days": 14,
@@ -1532,9 +1532,17 @@
     {
      "t": "2026-09-30T12:15:00+00:00",
      "o": 7735.0,
-     "h": 7735.75,
+     "h": 7745.0,
      "l": 7728.75,
-     "c": 7731.0,
+     "c": 7744.0,
+     "v": 10046.0
+    },
+    {
+     "t": "2026-09-30T12:30:00+00:00",
+     "o": 7743.25,
+     "h": 7759.75,
+     "l": 7741.5,
+     "c": 7742.75,
      "v": 0.0
     }
    ]
@@ -1542,10 +1550,10 @@
   {
    "root": "NQ",
    "trading_day": "2026-09-30",
-   "as_of_utc": "2026-09-30T12:25:14.050052+00:00",
+   "as_of_utc": "2026-09-30T12:40:03.792955+00:00",
    "source": "yahoo",
    "delayed": true,
-   "last_price": 30554.75,
+   "last_price": 30621.25,
    "levels": [
     {
      "tag": "exp_hi",
@@ -1573,7 +1581,7 @@
      "label": "Overnight high",
      "price": 30737.0,
      "group": "overnight",
-     "note": "since 18:00 ET, 846 bars"
+     "note": "since 18:00 ET, 861 bars"
     },
     {
      "tag": "pdh",
@@ -1590,6 +1598,13 @@
      "note": "2026-09-29"
     },
     {
+     "tag": "rn_major_up",
+     "label": "Round 100 above",
+     "price": 30700.0,
+     "group": "round",
+     "note": ""
+    },
+    {
      "tag": "vah",
      "label": "Prior-day VAH",
      "price": 30650.0,
@@ -1597,9 +1612,16 @@
      "note": "70 % value area"
     },
     {
+     "tag": "rn_minor_up",
+     "label": "Round 50 above",
+     "price": 30650.0,
+     "group": "round",
+     "note": ""
+    },
+    {
      "tag": "onvwap",
      "label": "Overnight VWAP",
-     "price": 30630.51,
+     "price": 30628.51,
      "group": "overnight",
      "note": "typical-price VWAP"
     },
@@ -1618,8 +1640,8 @@
      "note": "2026-09-29"
     },
     {
-     "tag": "rn_major_up",
-     "label": "Round 100 above",
+     "tag": "rn_major_dn",
+     "label": "Round 100 below",
      "price": 30600.0,
      "group": "round",
      "note": ""
@@ -1630,13 +1652,6 @@
      "price": 30555.0,
      "group": "profile",
      "note": "70 % value area"
-    },
-    {
-     "tag": "rn_minor_dn",
-     "label": "Round 50 below",
-     "price": 30550.0,
-     "group": "round",
-     "note": ""
     },
     {
      "tag": "onl",
@@ -1653,16 +1668,9 @@
      "note": "2026-09-29"
     },
     {
-     "tag": "rn_major_dn",
-     "label": "Round 100 below",
-     "price": 30500.0,
-     "group": "round",
-     "note": ""
-    },
-    {
      "tag": "pwl",
      "label": "Prior-week low",
-     "price": 30420.25,
+     "price": 30439.0,
      "group": "week",
      "note": "2 session(s) of data — PARTIAL"
     },
@@ -1689,14 +1697,14 @@
     }
    ],
    "stats": {
-    "last_bar_utc": "2026-09-30T12:15:00+00:00",
-    "last_bar_age_min": 10.2,
+    "last_bar_utc": "2026-09-30T12:30:00+00:00",
+    "last_bar_age_min": 10.1,
     "market_state": "open",
     "profile_volume": 430399.0,
     "prior_day": "2026-09-29",
     "prior_day_rth_range": 221.0,
     "overnight_range": 224.75,
-    "gap_vs_prior_close": -62.5,
+    "gap_vs_prior_close": 4.0,
     "gap_basis": "last price (pre-market)",
     "atr14": 493.58,
     "atr_days": 14,
@@ -2900,9 +2908,17 @@
     {
      "t": "2026-09-30T12:15:00+00:00",
      "o": 30574.0,
-     "h": 30578.0,
+     "h": 30623.0,
      "l": 30535.5,
-     "c": 30554.75,
+     "c": 30623.0,
+     "v": 3730.0
+    },
+    {
+     "t": "2026-09-30T12:30:00+00:00",
+     "o": 30623.25,
+     "h": 30704.75,
+     "l": 30607.5,
+     "c": 30621.25,
      "v": 0.0
     }
    ]
