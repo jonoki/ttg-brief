@@ -1,7 +1,7 @@
 {
  "meta": {
-  "generated_at_utc": "2026-09-30T15:29:25.066582+00:00",
-  "generated_at_local": "Wed 30 Sep 2026 12:29 ADT",
+  "generated_at_utc": "2026-09-30T15:44:50.136456+00:00",
+  "generated_at_local": "Wed 30 Sep 2026 12:44 ADT",
   "trading_day": "2026-09-30",
   "display_tz": "America/Halifax",
   "version": "0.1.0",
@@ -181,7 +181,7 @@
    "time_utc": "2026-09-30T19:30:00+00:00",
    "local": "16:30 ADT",
    "et": "15:30 ET",
-   "in": "4h 00m",
+   "in": "3h 45m",
    "consensus": null,
    "prior": null
   },
@@ -192,10 +192,10 @@
   {
    "root": "ES",
    "trading_day": "2026-09-30",
-   "as_of_utc": "2026-09-30T15:29:25.066582+00:00",
+   "as_of_utc": "2026-09-30T15:44:50.136456+00:00",
    "source": "yahoo",
    "delayed": true,
-   "last_price": 7773.0,
+   "last_price": 7775.5,
    "levels": [
     {
      "tag": "exp_hi",
@@ -233,8 +233,8 @@
      "note": "so far"
     },
     {
-     "tag": "rn_minor_up",
-     "label": "Round 25 above",
+     "tag": "rn_minor_dn",
+     "label": "Round 25 below",
      "price": 7775.0,
      "group": "round",
      "note": ""
@@ -312,7 +312,7 @@
     {
      "tag": "pwl",
      "label": "Prior-week low",
-     "price": 7726.75,
+     "price": 7727.25,
      "group": "week",
      "note": "2 session(s) of data — PARTIAL"
     },
@@ -360,8 +360,8 @@
     }
    ],
    "stats": {
-    "last_bar_utc": "2026-09-30T15:19:00+00:00",
-    "last_bar_age_min": 10.4,
+    "last_bar_utc": "2026-09-30T15:34:00+00:00",
+    "last_bar_age_min": 10.8,
     "market_state": "open",
     "profile_volume": 1212065.0,
     "prior_day": "2026-09-29",
@@ -1668,19 +1668,27 @@
      "t": "2026-09-30T15:15:00+00:00",
      "o": 7769.25,
      "h": 7777.0,
-     "l": 7769.0,
-     "c": 7773.0,
-     "v": 12462.0
+     "l": 7766.0,
+     "c": 7775.25,
+     "v": 45694.0
+    },
+    {
+     "t": "2026-09-30T15:30:00+00:00",
+     "o": 7775.0,
+     "h": 7778.0,
+     "l": 7773.5,
+     "c": 7775.5,
+     "v": 12087.0
     }
    ]
   },
   {
    "root": "NQ",
    "trading_day": "2026-09-30",
-   "as_of_utc": "2026-09-30T15:29:25.066582+00:00",
+   "as_of_utc": "2026-09-30T15:44:50.136456+00:00",
    "source": "yahoo",
    "delayed": true,
-   "last_price": 30839.5,
+   "last_price": 30866.0,
    "levels": [
     {
      "tag": "exp_hi",
@@ -1718,8 +1726,8 @@
      "note": "so far"
     },
     {
-     "tag": "rn_minor_up",
-     "label": "Round 50 above",
+     "tag": "rn_minor_dn",
+     "label": "Round 50 below",
      "price": 30850.0,
      "group": "round",
      "note": ""
@@ -1809,18 +1817,18 @@
      "note": ""
     },
     {
+     "tag": "pwl",
+     "label": "Prior-week low",
+     "price": 30506.5,
+     "group": "week",
+     "note": "2 session(s) of data — PARTIAL"
+    },
+    {
      "tag": "pdl",
      "label": "Prior-day low (RTH)",
      "price": 30504.5,
      "group": "prior_day",
      "note": "2026-09-29"
-    },
-    {
-     "tag": "pwl",
-     "label": "Prior-week low",
-     "price": 30502.5,
-     "group": "week",
-     "note": "2 session(s) of data — PARTIAL"
     },
     {
      "tag": "pgl",
@@ -1845,8 +1853,8 @@
     }
    ],
    "stats": {
-    "last_bar_utc": "2026-09-30T15:19:00+00:00",
-    "last_bar_age_min": 10.4,
+    "last_bar_utc": "2026-09-30T15:34:00+00:00",
+    "last_bar_age_min": 10.8,
     "market_state": "open",
     "profile_volume": 430399.0,
     "prior_day": "2026-09-29",
@@ -3153,9 +3161,17 @@
      "t": "2026-09-30T15:15:00+00:00",
      "o": 30827.25,
      "h": 30857.5,
-     "l": 30825.5,
-     "c": 30839.5,
-     "v": 3336.0
+     "l": 30806.0,
+     "c": 30856.0,
+     "v": 12198.0
+    },
+    {
+     "t": "2026-09-30T15:30:00+00:00",
+     "o": 30855.75,
+     "h": 30877.75,
+     "l": 30852.25,
+     "c": 30866.0,
+     "v": 3782.0
     }
    ]
   }
@@ -3168,17 +3184,8 @@
     "link": "https://www.cnbc.com/2026/09/30/feds-preferred-gauge-showed-core-inflation-at-3point0percent-in-august-much-lighter-than-expected.html",
     "source": "cnbc_markets",
     "published_utc": "2026-09-30T15:14:57+00:00",
-    "score": 10.96,
-    "duplicates": 1
-   },
-   {
-    "id": "5617231151",
-    "title": "Dow Jones Futures Fall; Inflation Data, Micron Earnings Due Bloom Energy, AI Stocks Shrug Off Yields - Investor's Business Daily",
-    "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxOREF2Z2ZRWDNfX0JCWlpUeWtQeGVlSEFxM04zVklORnRjbTR0R1VMSGpNNjRvVVhSeFAtWkc3TVlUanFkYjVWWkdBSU9GeTBiLVBwNUFSZHpzY1hVQnB1eUNkX25fNEpCdjVHd3FxWVpwZWZOY09HSWlHUmVJMER0YjZONExxNWxxZkZhWFRaZXo2U2NVODZXOE5GMG5KQlc3ZDVmRUYxMEVaR0pfVGY5OUFndU1YMWpzS01UekczZVdVMmc4ZDU5a3ZPdE02SHlQVmZKNg?oc=5",
-    "source": "gnews_macro",
-    "published_utc": "2026-09-30T12:07:00+00:00",
-    "score": 9.94,
-    "duplicates": 0
+    "score": 11.42,
+    "duplicates": 2
    },
    {
     "id": "cfb21c4225",
@@ -3186,7 +3193,16 @@
     "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9JRmhpRGdkRnlZOFFUSnFoamY4M0gzY056M2xCa3ZYakcyT2g2R210eFFuU09ReHN3bjVzR2RreUdWZ0NLakVVemV0OVRkbnh2TGZTZDVzSlhxUVlYWWxTMmx1bkRRektCNVpQRmxSUlVITkRfNEE?oc=5",
     "source": "gnews_futures",
     "published_utc": "2026-09-30T12:05:00+00:00",
-    "score": 9.93,
+    "score": 9.89,
+    "duplicates": 0
+   },
+   {
+    "id": "5617231151",
+    "title": "Dow Jones Futures Fall; Inflation Data, Micron Earnings Due Bloom Energy, AI Stocks Shrug Off Yields - Investor's Business Daily",
+    "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxOREF2Z2ZRWDNfX0JCWlpUeWtQeGVlSEFxM04zVklORnRjbTR0R1VMSGpNNjRvVVhSeFAtWkc3TVlUanFkYjVWWkdBSU9GeTBiLVBwNUFSZHpzY1hVQnB1eUNkX25fNEpCdjVHd3FxWVpwZWZOY09HSWlHUmVJMER0YjZONExxNWxxZkZhWFRaZXo2U2NVODZXOE5GMG5KQlc3ZDVmRUYxMEVaR0pfVGY5OUFndU1YMWpzS01UekczZVdVMmc4ZDU5a3ZPdE02SHlQVmZKNg?oc=5",
+    "source": "gnews_macro",
+    "published_utc": "2026-09-30T12:07:00+00:00",
+    "score": 9.89,
     "duplicates": 0
    },
    {
@@ -3195,7 +3211,7 @@
     "link": "https://www.federalreserve.gov/newsevents/pressreleases/bcreg20260930a.htm",
     "source": "fed_press",
     "published_utc": "2026-09-30T13:00:00+00:00",
-    "score": 9.58,
+    "score": 9.54,
     "duplicates": 1
    },
    {
@@ -3204,16 +3220,16 @@
     "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQYkRWSVI2N0RBZHBER2ROUkJMc3RpdDlFM1p0SDkyeGNSZUVrbUt1WGVtUUpaVWtVSGMyUDR6Ym1UN3pxM1dZd3JnWFp0TlhpalhhZlRyWDY1Wkg4OHBUR0puczBYMWpwdGtPcFFUSFBQcVhCY3NwaERIVE9udVZXMDNn?oc=5",
     "source": "gnews_futures",
     "published_utc": "2026-09-30T10:26:05+00:00",
-    "score": 9.16,
+    "score": 9.11,
     "duplicates": 1
    },
    {
     "id": "52b9346a8f",
-    "title": "Wall St climbs as cooling inflation tempers Fed rate-hike concerns - reuters.com",
+    "title": "Wall St climbs as cooling inflation tempers Fed rate-hike concerns - Reuters",
     "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOdXFFNHNQQUxXRkRPN3ZndG5TZS1PSGpvaFZPMG8zRU1oNFdrOUFZQnNsT183YWZ2R3NoNGNUX1NVdmtZNmxaYVc2X2c0Vm5tNWZjbEo1ZkYzNzVqeW1BS0VTaWZYc1hKRlRaRGxrQlk1aGlpQTROOV9mSDZldFlkejFZVGxKYmZzQ3czLUFPUDRBVmNJNWpuMnBPdE00QUlncU9EU2lXZw?oc=5",
     "source": "gnews_futures",
     "published_utc": "2026-09-30T14:15:20+00:00",
-    "score": 8.79,
+    "score": 8.75,
     "duplicates": 1
    },
    {
@@ -3222,7 +3238,7 @@
     "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOS1FfbDMyUmp6QXVjbng1WXM5NkdPaWRSaFotQm85QVVoZWQ2dTU5VzVWUHlRbWZhWVpnMEVZV2xxUUFwUlVadzRuQkNyeE1EZDRFWFo4djRQY0tGRWVYNWFOWGExRXdqMVZSMDZmS0QxemVFcTVUdU1qNUYxUUJqRVBBM2p1X3A5QTRKMzRCMFNLWlhxM0FlczBONE81ZUh3SE15SHJtbXEzM3ViOW5OLUd0S1FGWWhJYS0zZg?oc=5",
     "source": "gnews_futures",
     "published_utc": "2026-09-30T10:30:42+00:00",
-    "score": 8.17,
+    "score": 8.13,
     "duplicates": 1
    },
    {
@@ -3236,11 +3252,11 @@
    },
    {
     "id": "9ded0c664c",
-    "title": "A cooler-than-expected reading on Fed’s favored inflation measure tamps down on urgency for rate hikes - finance.yahoo.com",
+    "title": "A cooler-than-expected reading on Fed’s favored inflation measure tamps down on urgency for rate hikes - Yahoo Finance",
     "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxOTnZRVjQzMnpzRHZpcGxDd1VNR09Jejl5STdNdWRGNnE2NDNsZnd4dVBMOUxTSFBiMTcxSGNkbjhnQXFOY1d1QkxubThXWFBGTkhaWDlwVFJNcEkxYlVGSlMwcnhqalJsUzJsSlYzT2tCekU4XzRoZ2VxNDRQZGk3NUNqeVJFVzBGYmhUeVZSQnJXTk8wWVZGNGJnNUVqVWNrdGUtOFJMbDFHOWM3cnB3RjVOd2dXZ1pQcGZMNjlETmJZYy1Oc3NmVTJBS1NZZw?oc=5",
     "source": "gnews_macro",
     "published_utc": "2026-09-30T14:57:17+00:00",
-    "score": 7.91,
+    "score": 7.87,
     "duplicates": 1
    },
    {
@@ -3249,7 +3265,7 @@
     "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQUHItMEI0VmMzWjl0SVlBZUplMXgxYVVvRjRoUVhHd0p5OUZVQlNzWGZkM1kwR2ZfT3NGVS04aTdOZkxYd3NtRWxpOTg4NWNQVmdZZWVmdXVYMDRrS05hNW9wVVNFX0EtQTRvY25WcnhVSXMtUERtUUFxb1AzVWNudzBtRmZkeFg3ZlRvNzYxemRBVlpUemNwcGNXRmcxeVpHckxNeElyNHhGb3lMYVNDcEMxdw?oc=5",
     "source": "gnews_futures",
     "published_utc": "2026-09-30T11:53:14+00:00",
-    "score": 7.9,
+    "score": 7.86,
     "duplicates": 0
    },
    {
@@ -3258,7 +3274,7 @@
     "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPaTJWekdoVEc3bEU3dkhNOTZGTlRUSlZtZXUyWlRhclhyWDVjb3JwLWRINGdkUXFTSEp6bjUyQk84N0dVUnVLaFhqOW5pUy1RbUlEMXByYUlpNWNYb0RybTAxNTc4VkVOWmg4ajJ6SVFnc2JpajdHQVBuSkhqZHA5STMzVmo4dkZwWFpZQllFeUlXa2syRnV3ZWV0T1E1dFNP?oc=5",
     "source": "gnews_futures",
     "published_utc": "2026-09-30T08:51:00+00:00",
-    "score": 7.89,
+    "score": 7.85,
     "duplicates": 0
    },
    {
@@ -3267,15 +3283,15 @@
     "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxOd0dSYXFEQUJkT0lGSVdyYkVXeGNkaS1QWjdpZkxoWXRNRUs4NjJub25hSTQ0UmoxMG05Y3BNUVQyODVJb1lIdEZucGE0em05ejJxaEVSOFBMOHRLb2pPMmJRcU0xTmZ0Mi1YTU5Ga3ZvekVZRTBQazFqMUEzWXVhNFJvaHJNd2hDNEh6MXB2NTNhZDNwSGdkUlg5cWd3VzRRaVl1eUx2cWpBSVp1QWUwemRMSWlSbmlSdXJENGsyN2xHaVg4dTJsS2V4Z1PSAdIBQVVfeXFMUGRmT1daZVFHci1BY3BOTEZSNUs5MWVNazZ5MGxIRk1PRjdNNjZfNldGRzl6UzVNTFJUcFZvbDA1Zmpndy16bml1VTlESnZ4Q1BsN2JFS1ZlbVpCWkhBdEF4VTloaG0zUmw0Z3VTYkdweXBEZFJjcVM0UGpKRmRGS1hvMWxBeUptS0VCLWlfTWNQRUJOVFJoLVRkV0FwN0lhTnduRm9mUnIybFdBM3hNQXM3cTdQMDJ1RkFUWlZYTWpwNzl2VFRfMkQxVHl6QnhPN053?oc=5",
     "source": "gnews_futures",
     "published_utc": "2026-09-30T08:44:51+00:00",
-    "score": 7.88,
+    "score": 7.83,
     "duplicates": 0
    }
   ],
   "summary": {
    "lines": [
     "Fed’s preferred gauge showed core inflation at 3.0% in August, much lighter than expected [dd8e74f895]",
-    "Dow Jones Futures Fall; Inflation Data, Micron Earnings Due Bloom Energy, AI Stocks Shrug Off Yields - Investor's Business Daily [5617231151]",
     "U.S. Stock Futures Little Changed Ahead of August PCE Data; October Rate Hike Expectations Recede - finance.biggo.com [cfb21c4225]",
+    "Dow Jones Futures Fall; Inflation Data, Micron Earnings Due Bloom Energy, AI Stocks Shrug Off Yields - Investor's Business Daily [5617231151]",
     "Federal Reserve Board finalizes changes to enhance the transparency and public accountability of its stress test and reduce volatility in its stress test-related capital requirements [de59ca8e22]",
     "US stock futures inch up as yields ease, inflation report looms - Centre Daily Times [75c7275de0]"
    ],
