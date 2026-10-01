@@ -1,7 +1,7 @@
 {
  "meta": {
-  "generated_at_utc": "2026-10-01T11:41:37.071738+00:00",
-  "generated_at_local": "Thu 01 Oct 2026 08:41 ADT",
+  "generated_at_utc": "2026-10-01T11:56:55.325709+00:00",
+  "generated_at_local": "Thu 01 Oct 2026 08:56 ADT",
   "trading_day": "2026-10-01",
   "display_tz": "America/Halifax",
   "version": "0.1.0",
@@ -127,7 +127,7 @@
    "time_utc": "2026-10-01T12:30:00+00:00",
    "local": "09:30 ADT",
    "et": "08:30 ET",
-   "in": "48 min",
+   "in": "33 min",
    "consensus": "201K",
    "prior": "197K"
   },
@@ -138,10 +138,10 @@
   {
    "root": "ES",
    "trading_day": "2026-10-01",
-   "as_of_utc": "2026-10-01T11:41:37.071738+00:00",
+   "as_of_utc": "2026-10-01T11:56:55.325709+00:00",
    "source": "yahoo",
    "delayed": true,
-   "last_price": 7731.25,
+   "last_price": 7739.25,
    "levels": [
     {
      "tag": "pwh",
@@ -190,7 +190,7 @@
      "label": "Overnight high",
      "price": 7767.75,
      "group": "overnight",
-     "note": "since 18:00 ET, 802 bars"
+     "note": "since 18:00 ET, 817 bars"
     },
     {
      "tag": "pwl",
@@ -223,7 +223,7 @@
     {
      "tag": "onvwap",
      "label": "Overnight VWAP",
-     "price": 7735.02,
+     "price": 7734.99,
      "group": "overnight",
      "note": "typical-price VWAP"
     },
@@ -285,14 +285,14 @@
     }
    ],
    "stats": {
-    "last_bar_utc": "2026-10-01T11:31:00+00:00",
-    "last_bar_age_min": 10.6,
+    "last_bar_utc": "2026-10-01T11:46:00+00:00",
+    "last_bar_age_min": 10.9,
     "market_state": "open",
     "profile_volume": 1450055.0,
     "prior_day": "2026-09-30",
     "prior_day_rth_range": 72.75,
     "overnight_range": 62.75,
-    "gap_vs_prior_close": 18.25,
+    "gap_vs_prior_close": 26.25,
     "gap_basis": "last price (pre-market)",
     "atr14": 82.14,
     "atr_days": 14,
@@ -1480,20 +1480,28 @@
     {
      "t": "2026-10-01T11:30:00+00:00",
      "o": 7729.25,
-     "h": 7732.5,
-     "l": 7728.75,
-     "c": 7731.25,
-     "v": 776.0
+     "h": 7738.75,
+     "l": 7728.25,
+     "c": 7737.5,
+     "v": 8728.0
+    },
+    {
+     "t": "2026-10-01T11:45:00+00:00",
+     "o": 7737.5,
+     "h": 7740.75,
+     "l": 7737.5,
+     "c": 7739.25,
+     "v": 424.0
     }
    ]
   },
   {
    "root": "NQ",
    "trading_day": "2026-10-01",
-   "as_of_utc": "2026-10-01T11:41:37.071738+00:00",
+   "as_of_utc": "2026-10-01T11:56:55.325709+00:00",
    "source": "yahoo",
    "delayed": true,
-   "last_price": 30853.0,
+   "last_price": 30889.0,
    "levels": [
     {
      "tag": "exp_hi",
@@ -1507,7 +1515,7 @@
      "label": "Overnight high",
      "price": 31151.5,
      "group": "overnight",
-     "note": "since 18:00 ET, 802 bars"
+     "note": "since 18:00 ET, 817 bars"
     },
     {
      "tag": "wh",
@@ -1519,7 +1527,7 @@
     {
      "tag": "pwh",
      "label": "Prior-week high",
-     "price": 30981.25,
+     "price": 30978.0,
      "group": "week",
      "note": "1 session(s) of data — PARTIAL"
     },
@@ -1540,7 +1548,7 @@
     {
      "tag": "onvwap",
      "label": "Overnight VWAP",
-     "price": 30895.9,
+     "price": 30895.35,
      "group": "overnight",
      "note": "typical-price VWAP"
     },
@@ -1637,14 +1645,14 @@
     }
    ],
    "stats": {
-    "last_bar_utc": "2026-10-01T11:31:00+00:00",
-    "last_bar_age_min": 10.6,
+    "last_bar_utc": "2026-10-01T11:46:00+00:00",
+    "last_bar_age_min": 10.9,
     "market_state": "open",
     "profile_volume": 413384.0,
     "prior_day": "2026-09-30",
     "prior_day_rth_range": 225.25,
     "overnight_range": 467.0,
-    "gap_vs_prior_close": 159.25,
+    "gap_vs_prior_close": 195.25,
     "gap_basis": "last price (pre-market)",
     "atr14": 488.49,
     "atr_days": 14,
@@ -2824,10 +2832,18 @@
     {
      "t": "2026-10-01T11:30:00+00:00",
      "o": 30837.75,
-     "h": 30858.0,
+     "h": 30886.75,
      "l": 30833.25,
-     "c": 30853.0,
-     "v": 123.0
+     "c": 30879.0,
+     "v": 2578.0
+    },
+    {
+     "t": "2026-10-01T11:45:00+00:00",
+     "o": 30879.25,
+     "h": 30893.75,
+     "l": 30877.0,
+     "c": 30889.0,
+     "v": 99.0
     }
    ]
   }
@@ -2840,7 +2856,7 @@
     "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNb1BjTlVWUGo2dkYzWkt2TURENGVIOGhLVWZxN01NNEFuUm83WXhiLUNSM0hoM1BUblVtb3BYdFlOa0xSQURWaS0xa0hFWWp2OUZrUFdOS2VrcDJRcEJQQkt4RXQ2eVB1TDVYRDFiM2oyZGdCd2ZFNnJaY2J0Q28zcDZ3RWtXdkVvZG5ZS3ZqNjNvQQ?oc=5",
     "source": "gnews_futures",
     "published_utc": "2026-10-01T08:08:15+00:00",
-    "score": 9.41,
+    "score": 9.36,
     "duplicates": 2
    },
    {
@@ -2849,7 +2865,7 @@
     "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxOSThoQWU1aHdYbUpKZVc1bzljd2VTUXU0cmFiVkxMUUZBaGxGaVUtSnRNYWlmS0VzUjY0dHlnUzd2NC0wVk1nRUluaF96b0kxbWhlUmxPeWdGZi1rTWZHZWs4b2hpT2ZxV1JzN3k3bF9DQjNON1pheEItY01CN0ktWUlFNlM3QnF0RmlJU2pkYU9xZi15UTNzdEFKV0lPZw?oc=5",
     "source": "gnews_macro",
     "published_utc": "2026-10-01T09:51:30+00:00",
-    "score": 9.19,
+    "score": 9.15,
     "duplicates": 0
    },
    {
@@ -2858,17 +2874,8 @@
     "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPUGdBQUwyYkpyOGgxLTBwMjVJMFBqb3FWWk10VDk0YUptMHZGN0Q1ZUktUWpQLWx0VUxqYmZTRlJCZ3R5aGtreWFzRXNtNzZibWZmTjFzOFdyRjNxVFVkMDNYYVF6Z3R5SzlZMHRDcDhtU3NvRk5jWllXRFZFc1RNN1JXX0Y2ckRkQVJqalJWSEE5T3M?oc=5",
     "source": "gnews_futures",
     "published_utc": "2026-10-01T02:38:00+00:00",
-    "score": 8.49,
+    "score": 8.45,
     "duplicates": 1
-   },
-   {
-    "id": "74e41d1e4f",
-    "title": "Fed's Kashkari says inflation is 'still too high' even after softer-than-expected PCE data, labor market is 'pretty good'",
-    "link": "https://www.cnbc.com/2026/09/30/watch-minneapolis-fed-president-neel-kashkari.html",
-    "source": "cnbc_markets",
-    "published_utc": "2026-09-30T23:44:28+00:00",
-    "score": 7.51,
-    "duplicates": 2
    },
    {
     "id": "a582e60aaa",
@@ -2880,22 +2887,22 @@
     "duplicates": 0
    },
    {
+    "id": "74e41d1e4f",
+    "title": "Fed's Kashkari says inflation is 'still too high' even after softer-than-expected PCE data, labor market is 'pretty good'",
+    "link": "https://www.cnbc.com/2026/09/30/watch-minneapolis-fed-president-neel-kashkari.html",
+    "source": "cnbc_markets",
+    "published_utc": "2026-09-30T23:44:28+00:00",
+    "score": 7.5,
+    "duplicates": 2
+   },
+   {
     "id": "ce54a15120",
     "title": "Gold steadies as cooler US inflation data counters higher Treasury yields - TradingView",
     "link": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxOMHFpT000WWpKNEFFazlxQ2FNeXpOSWlNOFc0QjJadXExTVI4ekV6aF9EekNlMmJmSWREbkVwNTNLcWVKQ0ZvOWRnSkkydFM4d1ZkRnByM3pLdGpHQ3g2aGE5QXM1V001amZqYS1ldHNTdkdQb04tb1hYdHU2WUR6NVJqY080aTZYNk5NZzk2UDQ4Z0lZc3FUYXpoaERJTXVaSF9lOEs3b2d1ZnNXZGc1VUFVZXJ0TlppTE5KeVo4LV9xRHEwMERfTklJTGFEd3RvMzQ5aENnaUw4bDQ?oc=5",
     "source": "gnews_macro",
     "published_utc": "2026-10-01T10:36:16+00:00",
-    "score": 7.32,
+    "score": 7.28,
     "duplicates": 2
-   },
-   {
-    "id": "d2ab9c3e0c",
-    "title": "Gold Steady as Softer Inflation Data Tempers Fed Rate-Hike Bets - Bloomberg.com",
-    "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPZEhHa1dkeGJCMVpDX1oyQ2FFaEhKVTZLa19va25zVWVZSnVSc3JMbkRPcEJDQjEzVEtNUVJ4cjRVRnFZdjQ3RUZZWmVHcUJIRFhEcEkzUW9lZ3BXZnB5ckpKS0d5QXVXbW11QkMwXzVWUXR1dGpDTzVzT25panRHbndyVW1EVWhLVVhBRTNtVENVYTh6cWNHM0hfd1hXZm9UczdHbEJpd1RVUE9GaEREejI1ZzA?oc=5",
-    "source": "gnews_macro",
-    "published_utc": "2026-10-01T09:59:06+00:00",
-    "score": 7.22,
-    "duplicates": 0
    },
    {
     "id": "8b3e08951c",
@@ -2903,16 +2910,25 @@
     "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQQldBZ1JZTDAxdmhZQUFiTldMLXQwaDJtNERvbHhNckdzc1plUTBwOTFGU1hIWXVJOEN6dDhVSDJrYm9hV09felNEYTM5ZDUyc0VjVDJFMW1OSWF6QlczeTdCeE90NkhkOXBrU0VENnBOajFLTzRNd3JsckhhdnprM2l3RUk4YUR6Mm1LOXlDS3ppbUNFVUJZUllvQQ?oc=5",
     "source": "gnews_macro",
     "published_utc": "2026-10-01T10:00:18+00:00",
-    "score": 7.22,
+    "score": 7.18,
     "duplicates": 0
    },
    {
-    "id": "bb11fca84e",
-    "title": "Stock futures mixed as 10-year Treasury yield hits 2002 high - qz.com",
-    "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE56YzdFZE9IYmUwWEIyZTk3cVV3RFMwbWgxaFVJWk5XV1dFZV9DWXg5dW5KRzYwZndvV1FlSGZvQWdLTmNGVGZtSWgtanZRdF9ROFVOYXZtal9LaWhqMXVpejVRRFdYVVpfbTBMUl9LYU9yNlAxMUV3?oc=5",
+    "id": "d2ab9c3e0c",
+    "title": "Gold Steady as Softer Inflation Data Tempers Fed Rate-Hike Bets - Bloomberg.com",
+    "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPZEhHa1dkeGJCMVpDX1oyQ2FFaEhKVTZLa19va25zVWVZSnVSc3JMbkRPcEJDQjEzVEtNUVJ4cjRVRnFZdjQ3RUZZWmVHcUJIRFhEcEkzUW9lZ3BXZnB5ckpKS0d5QXVXbW11QkMwXzVWUXR1dGpDTzVzT25panRHbndyVW1EVWhLVVhBRTNtVENVYTh6cWNHM0hfd1hXZm9UczdHbEJpd1RVUE9GaEREejI1ZzA?oc=5",
+    "source": "gnews_macro",
+    "published_utc": "2026-10-01T09:59:06+00:00",
+    "score": 7.17,
+    "duplicates": 0
+   },
+   {
+    "id": "3f96d49e06",
+    "title": "Stock futures mixed as 10-year Treasury yield hits 2002 high - Yahoo Finance",
+    "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPNHduNVlnOVBNeXRKYWlrRTJRVWRYeWY5SWNoZThwUVI0MVREREVFUXc1SVRLcEw5cUxyZTlFOF9zQjlXVC10X1NGMWx2U25lc2Z2YldyalU1LVZPdUdzRFpVX2RCYWQ5eThNNUh1YUVscHY0U0xKWFQyTE82cFg1NTh3d3NBVnR1ZHB5WDlSMmpDS25IdHE3cFM5a2w?oc=5",
     "source": "gnews_futures",
-    "published_utc": "2026-10-01T11:28:01+00:00",
-    "score": 6.96,
+    "published_utc": "2026-10-01T11:25:24+00:00",
+    "score": 6.91,
     "duplicates": 0
    },
    {
@@ -2921,16 +2937,16 @@
     "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxPZHdPVVlfd0M2R1NaY09MRkw5LXpISWRIMWttcFFZTEN2akhJaWpCNU0xd29SNFIwN0o5YXd1elpMVG5oODd0eGdhVVphdnhfMlRQRGoyWVFHNE1aem1YajY0bl9WRlg0THBrbTB1LTBZc2tQb1ZQMERjbVF1eWF1U0k0ZXRzcmUxTzE5ZTVwYUZqaHptVS0xR2RfOHFFUQ?oc=5",
     "source": "gnews_macro",
     "published_utc": "2026-10-01T08:26:01+00:00",
-    "score": 6.96,
+    "score": 6.91,
     "duplicates": 0
    },
    {
     "id": "3b31412abc",
-    "title": "Stock Futures Mixed as Bond Yields Soar - WSJ",
+    "title": "Stock Futures Mixed as Bond Yields Soar - wsj.com",
     "link": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxOSWRCMWNCSmRPemR6SmI2UGtTa0I4ZlpYb29JX0tSU2hZZHZ2TFQzTXZwNmJRV1VhbmV6WGFmUkpDVnNmdDQ3Ry1NMUE2TkF5bkVUcTR6Zmk5SHVoMDNqbTliMFltTVdnQVVhcU5kd2ZPMlk1YTFqMkV5VUNzZTJxdWVwNkZMR0hLMGo3RFJhX0U0dzV3R2pFNS1Md3dIM1hwZUV1Qk9kM2JoWlBraUtLa2JBaTFSeERMOVgxdEhZdFlaTVdlLUV0QkF0RjVobmVocGF6LTRDb0Fjd3c0LXpZ?oc=5",
     "source": "gnews_futures",
     "published_utc": "2026-10-01T09:06:00+00:00",
-    "score": 6.57,
+    "score": 6.53,
     "duplicates": 0
    },
    {
@@ -2945,16 +2961,18 @@
   ],
   "summary": {
    "lines": [
-    "Treasury yields are surging (10-year hit a 2002 high) while futures trade mixed, keeping rate-sensitive index levels sensitive to any yield move during the session [bb11fca84e] [3b31412abc] [89e5e48144].",
-    "Today's jobs report is in focus with the Fed and bond market reportedly sending opposite signals, and Unemployment Claims (cons 201K, prior 197K) at 08:30 ET will be an early read ahead of it [0294292e81].",
-    "Fed officials remain split on inflation: Kashkari called inflation \"still too high\" despite softer PCE data, while Tom Lee said cooling inflation could let the Fed \"walk back hawkishness\" — both relevant context for Waller's 10:00 ET speech [74e41d1e4f] [8b3e08951c].",
-    "Gold and metals are reacting to the inflation/yields tug-of-war (cooler CPI/PCE vs. higher Treasury yields), a cross-asset signal worth watching alongside equity futures [ce54a15120] [d2ab9c3e0c] [a582e60aaa].",
-    "Futures were edging higher on \"sticky inflation and China hopes,\" with ISM Manufacturing PMI (cons 54.8, prior 54.6) due at 10:00 ET as the next data catalyst [7911ba3b1b]."
+    "US Stock Market Today: S&P 500 Futures Edge Higher On Sticky Inflation And China Hopes - Yahoo Finance [7911ba3b1b]",
+    "The Fed and bond market are sending opposite signals ahead of a crucial jobs report - Business Insider [0294292e81]",
+    "Dow, S&P 500, Nasdaq Futures Rise Despite Soaring Treasury Yields As Markets Eye Jobs Report: MU, NKE, IBRX, CEG Stocks In Focus - Yahoo Finance [89e5e48144]",
+    "Metals fade as long yields offset cooler inflation, lower Fed odds - Kitco PM Report - Kitco [a582e60aaa]",
+    "Fed's Kashkari says inflation is 'still too high' even after softer-than-expected PCE data, labor market is 'pretty good' [74e41d1e4f]"
    ],
    "backend": "anthropic",
    "model": "claude-sonnet-5",
    "dropped": [],
-   "warnings": []
+   "warnings": [
+    "summariser produced no valid lines; showing digest"
+   ]
   },
   "feeds": [],
   "warnings": []
