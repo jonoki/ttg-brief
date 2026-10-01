@@ -1,7 +1,7 @@
 {
  "meta": {
-  "generated_at_utc": "2026-10-01T12:55:12.892065+00:00",
-  "generated_at_local": "Thu 01 Oct 2026 09:55 ADT",
+  "generated_at_utc": "2026-10-01T13:10:31.706937+00:00",
+  "generated_at_local": "Thu 01 Oct 2026 10:10 ADT",
   "trading_day": "2026-10-01",
   "display_tz": "America/Halifax",
   "version": "0.1.0",
@@ -127,7 +127,7 @@
    "time_utc": "2026-10-01T14:00:00+00:00",
    "local": "11:00 ADT",
    "et": "10:00 ET",
-   "in": "1h 04m",
+   "in": "49 min",
    "consensus": null,
    "prior": null
   },
@@ -138,10 +138,10 @@
   {
    "root": "ES",
    "trading_day": "2026-10-01",
-   "as_of_utc": "2026-10-01T12:55:12.892065+00:00",
+   "as_of_utc": "2026-10-01T13:10:31.706937+00:00",
    "source": "yahoo",
    "delayed": true,
-   "last_price": 7742.0,
+   "last_price": 7733.75,
    "levels": [
     {
      "tag": "pwh",
@@ -190,7 +190,7 @@
      "label": "Overnight high",
      "price": 7767.75,
      "group": "overnight",
-     "note": "since 18:00 ET, 876 bars"
+     "note": "since 18:00 ET, 891 bars"
     },
     {
      "tag": "pwl",
@@ -223,7 +223,7 @@
     {
      "tag": "onvwap",
      "label": "Overnight VWAP",
-     "price": 7735.93,
+     "price": 7735.99,
      "group": "overnight",
      "note": "typical-price VWAP"
     },
@@ -285,14 +285,14 @@
     }
    ],
    "stats": {
-    "last_bar_utc": "2026-10-01T12:45:00+00:00",
-    "last_bar_age_min": 10.2,
+    "last_bar_utc": "2026-10-01T13:00:00+00:00",
+    "last_bar_age_min": 10.5,
     "market_state": "open",
     "profile_volume": 1450055.0,
     "prior_day": "2026-09-30",
     "prior_day_rth_range": 72.75,
     "overnight_range": 62.75,
-    "gap_vs_prior_close": 29.0,
+    "gap_vs_prior_close": 20.75,
     "gap_basis": "last price (pre-market)",
     "atr14": 82.14,
     "atr_days": 14,
@@ -1521,8 +1521,16 @@
      "t": "2026-10-01T12:45:00+00:00",
      "o": 7741.25,
      "h": 7743.0,
-     "l": 7741.0,
-     "c": 7742.0,
+     "l": 7733.0,
+     "c": 7733.5,
+     "v": 10938.0
+    },
+    {
+     "t": "2026-10-01T13:00:00+00:00",
+     "o": 7733.5,
+     "h": 7735.5,
+     "l": 7731.5,
+     "c": 7733.75,
      "v": 0.0
     }
    ]
@@ -1530,10 +1538,10 @@
   {
    "root": "NQ",
    "trading_day": "2026-10-01",
-   "as_of_utc": "2026-10-01T12:55:12.892065+00:00",
+   "as_of_utc": "2026-10-01T13:10:31.706937+00:00",
    "source": "yahoo",
    "delayed": true,
-   "last_price": 30848.25,
+   "last_price": 30816.0,
    "levels": [
     {
      "tag": "exp_hi",
@@ -1547,7 +1555,7 @@
      "label": "Overnight high",
      "price": 31151.5,
      "group": "overnight",
-     "note": "since 18:00 ET, 876 bars"
+     "note": "since 18:00 ET, 891 bars"
     },
     {
      "tag": "wh",
@@ -1580,7 +1588,7 @@
     {
      "tag": "onvwap",
      "label": "Overnight VWAP",
-     "price": 30893.06,
+     "price": 30891.57,
      "group": "overnight",
      "note": "typical-price VWAP"
     },
@@ -1677,14 +1685,14 @@
     }
    ],
    "stats": {
-    "last_bar_utc": "2026-10-01T12:45:00+00:00",
-    "last_bar_age_min": 10.2,
+    "last_bar_utc": "2026-10-01T13:00:00+00:00",
+    "last_bar_age_min": 10.5,
     "market_state": "open",
     "profile_volume": 413384.0,
     "prior_day": "2026-09-30",
     "prior_day_rth_range": 225.25,
     "overnight_range": 467.0,
-    "gap_vs_prior_close": 154.5,
+    "gap_vs_prior_close": 122.25,
     "gap_basis": "last price (pre-market)",
     "atr14": 488.49,
     "atr_days": 14,
@@ -2904,9 +2912,17 @@
     {
      "t": "2026-10-01T12:45:00+00:00",
      "o": 30846.0,
-     "h": 30852.0,
-     "l": 30842.5,
-     "c": 30848.25,
+     "h": 30859.0,
+     "l": 30813.25,
+     "c": 30816.5,
+     "v": 4082.0
+    },
+    {
+     "t": "2026-10-01T13:00:00+00:00",
+     "o": 30817.25,
+     "h": 30827.0,
+     "l": 30808.0,
+     "c": 30816.0,
      "v": 0.0
     }
    ]
@@ -2916,11 +2932,11 @@
   "headlines": [
    {
     "id": "69ce1dad60",
-    "title": "Watch Fed’s Kashkari on Rates, Inflation, Bond Yields, US Economy - Bloomberg.com",
+    "title": "Watch Fed’s Kashkari on Rates, Inflation, Bond Yields, US Economy - bloomberg.com",
     "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPelVUak51THpBS3V2eV9BaVRSUnRTYUdsOHNEbzVxY013YXI2bzhUaFpfZ1FsT1M3eXN6ZUNRVXcxbkZ5RTllOUtWS2h3a3ZrUUZnZWttTExwazZMaktiYjNfZ1VoUXdXNkxMd19CTHZWT2I4ZWowOXl3TXoxLUdDekp6Mk1NQ0cteF9pdnFLNmdVU3BBX05rTm0wUUtaRVVwZVVJbmJPc0dsdkJC?oc=5",
     "source": "gnews_macro",
     "published_utc": "2026-10-01T12:32:26+00:00",
-    "score": 9.44,
+    "score": 9.39,
     "duplicates": 0
    },
    {
@@ -2929,7 +2945,7 @@
     "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNb1BjTlVWUGo2dkYzWkt2TURENGVIOGhLVWZxN01NNEFuUm83WXhiLUNSM0hoM1BUblVtb3BYdFlOa0xSQURWaS0xa0hFWWp2OUZrUFdOS2VrcDJRcEJQQkt4RXQ2eVB1TDVYRDFiM2oyZGdCd2ZFNnJaY2J0Q28zcDZ3RWtXdkVvZG5ZS3ZqNjNvQQ?oc=5",
     "source": "gnews_futures",
     "published_utc": "2026-10-01T08:08:15+00:00",
-    "score": 9.2,
+    "score": 9.16,
     "duplicates": 2
    },
    {
@@ -2938,7 +2954,7 @@
     "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxOSThoQWU1aHdYbUpKZVc1bzljd2VTUXU0cmFiVkxMUUZBaGxGaVUtSnRNYWlmS0VzUjY0dHlnUzd2NC0wVk1nRUluaF96b0kxbWhlUmxPeWdGZi1rTWZHZWs4b2hpT2ZxV1JzN3k3bF9DQjNON1pheEItY01CN0ktWUlFNlM3QnF0RmlJU2pkYU9xZi15UTNzdEFKV0lPZw?oc=5",
     "source": "gnews_macro",
     "published_utc": "2026-10-01T09:51:30+00:00",
-    "score": 8.99,
+    "score": 8.95,
     "duplicates": 0
    },
    {
@@ -2947,7 +2963,16 @@
     "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPek5jV1FLUWhRUVVfX1J4NkZzblhLemgyYVE5Wm02cWVUaS1MZjRHcWs1OTBzLXF2VEUydUhadTFMREdHMThMZ0ZldmRpQTJzMUFwcW1JWEE2ay1tNDNaSmpIVmJwYnk1TXgtS2Z6eGlSWEZ4MEhxVnRxZGhWdC1Za2sycmZLTGx5R1JsXzZaSHdOSVBiYTBxR1NPb1lfNEFnWFgyYlNIXzIxYWVJVEpWbHln?oc=5",
     "source": "gnews_fed",
     "published_utc": "2026-10-01T10:37:00+00:00",
-    "score": 8.62,
+    "score": 8.57,
+    "duplicates": 0
+   },
+   {
+    "id": "73aa545ff2",
+    "title": "Stock Futures Rise Despite Relentless Treasury Selloff -- Update - news.futunn.com",
+    "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPRGRrTHhoY0lUdU5PSlZpN2JYaXlGNDNZMHJDdnE2U21NSGlGVDdGLXJWa2tEN2Nra0RDZlg2dWFTODhLSFFrQXI3bzlfTERjSHpmOHZ2ZGtLdVdPT0FJSF9QN1ZtZmJJSHpjT2xsX2N2b2RndmNhWUxPUzQxUlJ5X2F2N2ZaNHlrZUk3YlZzUjNoZUVYZ3VvSXg0cWVQNWV2SnR3d3dZRQ?oc=5",
+    "source": "gnews_futures",
+    "published_utc": "2026-10-01T13:00:30+00:00",
+    "score": 8.47,
     "duplicates": 0
    },
    {
@@ -2956,7 +2981,7 @@
     "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPUGdBQUwyYkpyOGgxLTBwMjVJMFBqb3FWWk10VDk0YUptMHZGN0Q1ZUktUWpQLWx0VUxqYmZTRlJCZ3R5aGtreWFzRXNtNzZibWZmTjFzOFdyRjNxVFVkMDNYYVF6Z3R5SzlZMHRDcDhtU3NvRk5jWllXRFZFc1RNN1JXX0Y2ckRkQVJqalJWSEE5T3M?oc=5",
     "source": "gnews_futures",
     "published_utc": "2026-10-01T02:38:00+00:00",
-    "score": 8.29,
+    "score": 8.24,
     "duplicates": 1
    },
    {
@@ -2965,7 +2990,7 @@
     "link": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxNNjIwcHFEUF9GcTg2RVlRRWc0WGVxTnVLYjFHbWRIWUg2ajFGWF9IVURpYzBEcnFCa3VDd0pfMWNQa1JKVGthczBVSVBjbDE5ZzBicl9zUEc3c2JTb2Vhbi0zNlR2b2dPeHA4NEhQUHhQYjVaMkRpeDBMS2k5R1l5eWhKUzl3dXZuY2o3MHhIWEtGdlBPV1FFZkJQaWxqa2hYVWVQTWtHXy02UmhHWDc5X3pSTkc2RWZFX2gzQm1XNkZzWFpxVUFBWFJyNjBkSThrbHJXQ0E2dw?oc=5",
     "source": "gnews_macro",
     "published_utc": "2026-10-01T11:58:29+00:00",
-    "score": 7.84,
+    "score": 7.8,
     "duplicates": 3
    },
    {
@@ -2992,7 +3017,7 @@
     "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQQldBZ1JZTDAxdmhZQUFiTldMLXQwaDJtNERvbHhNckdzc1plUTBwOTFGU1hIWXVJOEN6dDhVSDJrYm9hV09felNEYTM5ZDUyc0VjVDJFMW1OSWF6QlczeTdCeE90NkhkOXBrU0VENnBOajFLTzRNd3JsckhhdnprM2l3RUk4YUR6Mm1LOXlDS3ppbUNFVUJZUllvQQ?oc=5",
     "source": "gnews_macro",
     "published_utc": "2026-10-01T10:00:18+00:00",
-    "score": 7.01,
+    "score": 6.97,
     "duplicates": 0
    },
    {
@@ -3001,7 +3026,7 @@
     "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPZDdFNGowMzBTazFtNC1uZDBhNVRIVUZ0NEFabW52aVR2N0dGbW05dUlua2NZWmg4YVNXeGxFOU9MMk5xQXpjQkVoWTZmRnRkQzBCRjVIcHgxWUZwMVJaTE4wWnRBcnozYTZnMEdUendBVl9xYzJrX2c2MU52bnloZnVLbDZpRnBRTkwtMGFlclM3UEdZVWN0ZUw1dTd4N29CdDNYZlNlbHfSAa4BQVVfeXFMTjdyRkJMQ2xqbzVhdlNrR2N3M2ZkYzJUaFlPdGVfUnBJaTJuVzROZkxONDViRGxLQkhHY01aMDAzSEl1dHlSWnExcUdhaVkwZVdpMmFMT1RKM0duR1BEZlRBcG9rcVhRYnJMWlF6a3JTeEZDb1JKbFdsamtEMGNJaFV1RldxQnNTamtKYlptYmJTSDBRU0hJZUwtb3pwNVhvQjJpR1hhMExRTTE0end3?oc=5",
     "source": "gnews_futures",
     "published_utc": "2026-10-01T12:16:15+00:00",
-    "score": 6.89,
+    "score": 6.85,
     "duplicates": 0
    },
    {
@@ -3010,30 +3035,21 @@
     "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOSHRaZC01VTVycWlVUWp3eVlnamJJb3V2eExTa0YzbkYzT3BBVkI1WE9Od0dyZ3VvRjV1andyTWstLThNYUt6MU1WaFVsQ28wTEc0Rjh1eGEwNlpfU3VpVmlubk9oaGR1V3o0Rm9DRlBWTlpFOHJRcDJIdkcwa1Ata19Tb0xSV0R4TnEteUhiRG9jZ1d3UWc?oc=5",
     "source": "gnews_futures",
     "published_utc": "2026-10-01T12:04:37+00:00",
-    "score": 6.86,
-    "duplicates": 0
-   },
-   {
-    "id": "3f96d49e06",
-    "title": "Stock futures mixed as 10-year Treasury yield hits 2002 high - Yahoo Finance",
-    "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPNHduNVlnOVBNeXRKYWlrRTJRVWRYeWY5SWNoZThwUVI0MVREREVFUXc1SVRLcEw5cUxyZTlFOF9zQjlXVC10X1NGMWx2U25lc2Z2YldyalU1LVZPdUdzRFpVX2RCYWQ5eThNNUh1YUVscHY0U0xKWFQyTE82cFg1NTh3d3NBVnR1ZHB5WDlSMmpDS25IdHE3cFM5a2w?oc=5",
-    "source": "gnews_futures",
-    "published_utc": "2026-10-01T11:25:24+00:00",
-    "score": 6.75,
+    "score": 6.82,
     "duplicates": 0
    }
   ],
   "summary": {
    "lines": [
-    "10-year Treasury yield pushing to multi-year highs (5.33%, 2002 high) is pressuring futures even as tech names like Micron offer support, a key cross-asset driver for MNQ/MES sensitivity to rates [6f14434651] [3f96d49e06] [7e4c2eaa4a] [89e5e48144].",
-    "Multiple Fed speakers are on the tape today (Waller at 10:00 ET per calendar, plus Kashkari commentary) with Kashkari calling inflation \"still too high\" while labor market is \"pretty good,\" relevant ahead of ISM at 10:00 ET and claims data [69ce1dad60] [74e41d1e4f].",
-    "Softer PCE/inflation prints are being weighed against rising yields, a tension traders should watch for volatility around the 08:30 ET claims release [0294292e81] [7a52aef68c] [a582e60aaa].",
-    "Some commentary (Tom Lee) frames cooling inflation as giving the Fed room to ease hawkish rhetoric, a narrative that could interact with Waller's 10:00 ET remarks [8b3e08951c].",
-    "Broader sentiment includes references to China-related optimism and warnings about long-end yields potentially extending higher, adding to rate-driven cross currents for index futures [7911ba3b1b] [215188abad]."
+    "Treasury yields remain the dominant cross-asset driver, with the 10-year hitting 5.33% and stock futures still climbing or mixed despite the selloff, keeping rate-sensitive Nasdaq names in focus [6f14434651] [73aa545ff2] [7e4c2eaa4a] [89e5e48144].",
+    "Fed speak is in play all morning: Kashkari said inflation is \"still too high\" even after softer PCE while calling the labor market \"pretty good,\" and Waller speaks at 10:00 ET per the calendar, so headline risk around rate-path comments is elevated into the open [74e41d1e4f] [69ce1dad60].",
+    "Today's 08:30 ET Unemployment Claims (cons 201K, prior 197K) lands amid bond-vs-Fed signal divergence ahead of the broader jobs report, which traders are watching for confirmation of labor softening [0294292e81]."
    ],
    "backend": "anthropic",
    "model": "claude-sonnet-5",
-   "dropped": [],
+   "dropped": [
+    "no valid citation: 10:00 ET ISM Manufacturing PMI (cons 54.8, prior 54.6) follows a mixed futures tape, giving another data point for the yield"
+   ],
    "warnings": []
   },
   "feeds": [],
