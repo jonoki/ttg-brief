@@ -1,7 +1,7 @@
 {
  "meta": {
-  "generated_at_utc": "2026-10-01T14:55:52.917780+00:00",
-  "generated_at_local": "Thu 01 Oct 2026 11:55 ADT",
+  "generated_at_utc": "2026-10-01T15:11:12.693201+00:00",
+  "generated_at_local": "Thu 01 Oct 2026 12:11 ADT",
   "trading_day": "2026-10-01",
   "display_tz": "America/Halifax",
   "version": "0.1.0",
@@ -127,7 +127,7 @@
    "time_utc": "2026-10-02T12:30:00+00:00",
    "local": "09:30 ADT",
    "et": "08:30 ET",
-   "in": "21h 34m",
+   "in": "21h 18m",
    "consensus": "0.3%",
    "prior": "0.3%"
   },
@@ -138,10 +138,10 @@
   {
    "root": "ES",
    "trading_day": "2026-10-01",
-   "as_of_utc": "2026-10-01T14:55:52.917780+00:00",
+   "as_of_utc": "2026-10-01T15:11:12.693201+00:00",
    "source": "yahoo",
    "delayed": true,
-   "last_price": 7703.0,
+   "last_price": 7686.0,
    "levels": [
     {
      "tag": "pwh",
@@ -214,13 +214,6 @@
      "note": "2026-09-30"
     },
     {
-     "tag": "rn_major_up",
-     "label": "Round 50 above",
-     "price": 7750.0,
-     "group": "round",
-     "note": ""
-    },
-    {
      "tag": "tdh",
      "label": "Today's RTH high",
      "price": 7740.0,
@@ -240,13 +233,6 @@
      "price": 7730.0,
      "group": "today",
      "note": "09:30 bar open"
-    },
-    {
-     "tag": "rn_minor_up",
-     "label": "Round 25 above",
-     "price": 7725.0,
-     "group": "round",
-     "note": ""
     },
     {
      "tag": "pdc",
@@ -277,8 +263,8 @@
      "note": ""
     },
     {
-     "tag": "rn_major_dn",
-     "label": "Round 50 below",
+     "tag": "rn_major_up",
+     "label": "Round 50 above",
      "price": 7700.0,
      "group": "round",
      "note": ""
@@ -286,15 +272,29 @@
     {
      "tag": "tdl",
      "label": "Today's RTH low",
-     "price": 7682.25,
+     "price": 7678.5,
      "group": "today",
      "note": ""
     },
     {
      "tag": "wl",
      "label": "Week low",
-     "price": 7682.25,
+     "price": 7678.5,
      "group": "week",
+     "note": ""
+    },
+    {
+     "tag": "rn_minor_dn",
+     "label": "Round 25 below",
+     "price": 7675.0,
+     "group": "round",
+     "note": ""
+    },
+    {
+     "tag": "rn_major_dn",
+     "label": "Round 50 below",
+     "price": 7650.0,
+     "group": "round",
      "note": ""
     },
     {
@@ -306,8 +306,8 @@
     }
    ],
    "stats": {
-    "last_bar_utc": "2026-10-01T14:45:00+00:00",
-    "last_bar_age_min": 10.9,
+    "last_bar_utc": "2026-10-01T15:01:00+00:00",
+    "last_bar_age_min": 10.2,
     "market_state": "open",
     "profile_volume": 1450055.0,
     "prior_day": "2026-09-30",
@@ -1605,20 +1605,28 @@
     {
      "t": "2026-10-01T14:45:00+00:00",
      "o": 7699.5,
-     "h": 7705.25,
-     "l": 7698.75,
-     "c": 7703.0,
-     "v": 0.0
+     "h": 7707.0,
+     "l": 7684.25,
+     "c": 7689.25,
+     "v": 83251.0
+    },
+    {
+     "t": "2026-10-01T15:00:00+00:00",
+     "o": 7689.25,
+     "h": 7690.75,
+     "l": 7678.5,
+     "c": 7686.0,
+     "v": 4309.0
     }
    ]
   },
   {
    "root": "NQ",
    "trading_day": "2026-10-01",
-   "as_of_utc": "2026-10-01T14:55:52.917780+00:00",
+   "as_of_utc": "2026-10-01T15:11:12.693201+00:00",
    "source": "yahoo",
    "delayed": true,
-   "last_price": 30699.75,
+   "last_price": 30615.0,
    "levels": [
     {
      "tag": "exp_hi",
@@ -1740,8 +1748,8 @@
      "note": "2026-09-30"
     },
     {
-     "tag": "rn_minor_dn",
-     "label": "Round 50 below",
+     "tag": "rn_minor_up",
+     "label": "Round 50 above",
      "price": 30650.0,
      "group": "round",
      "note": ""
@@ -1783,8 +1791,8 @@
     }
    ],
    "stats": {
-    "last_bar_utc": "2026-10-01T14:45:00+00:00",
-    "last_bar_age_min": 10.9,
+    "last_bar_utc": "2026-10-01T15:01:00+00:00",
+    "last_bar_age_min": 10.2,
     "market_state": "open",
     "profile_volume": 413384.0,
     "prior_day": "2026-09-30",
@@ -3074,10 +3082,18 @@
     {
      "t": "2026-10-01T14:45:00+00:00",
      "o": 30680.0,
-     "h": 30709.5,
-     "l": 30673.75,
-     "c": 30699.75,
-     "v": 0.0
+     "h": 30712.75,
+     "l": 30609.0,
+     "c": 30636.0,
+     "v": 29475.0
+    },
+    {
+     "t": "2026-10-01T15:00:00+00:00",
+     "o": 30635.75,
+     "h": 30638.5,
+     "l": 30586.25,
+     "c": 30615.0,
+     "v": 1657.0
     }
    ]
   }
@@ -3086,11 +3102,11 @@
   "headlines": [
    {
     "id": "7911ba3b1b",
-    "title": "US Stock Market Today: S&P 500 Futures Edge Higher On Sticky Inflation And China Hopes - Yahoo Finance",
+    "title": "US Stock Market Today: S&P 500 Futures Edge Higher On Sticky Inflation And China Hopes - finance.yahoo.com",
     "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNb1BjTlVWUGo2dkYzWkt2TURENGVIOGhLVWZxN01NNEFuUm83WXhiLUNSM0hoM1BUblVtb3BYdFlOa0xSQURWaS0xa0hFWWp2OUZrUFdOS2VrcDJRcEJQQkt4RXQ2eVB1TDVYRDFiM2oyZGdCd2ZFNnJaY2J0Q28zcDZ3RWtXdkVvZG5ZS3ZqNjNvQQ?oc=5",
     "source": "gnews_futures",
     "published_utc": "2026-10-01T08:08:15+00:00",
-    "score": 8.87,
+    "score": 8.83,
     "duplicates": 2
    },
    {
@@ -3099,7 +3115,7 @@
     "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxOSThoQWU1aHdYbUpKZVc1bzljd2VTUXU0cmFiVkxMUUZBaGxGaVUtSnRNYWlmS0VzUjY0dHlnUzd2NC0wVk1nRUluaF96b0kxbWhlUmxPeWdGZi1rTWZHZWs4b2hpT2ZxV1JzN3k3bF9DQjNON1pheEItY01CN0ktWUlFNlM3QnF0RmlJU2pkYU9xZi15UTNzdEFKV0lPZw?oc=5",
     "source": "gnews_macro",
     "published_utc": "2026-10-01T09:50:00+00:00",
-    "score": 8.65,
+    "score": 8.61,
     "duplicates": 0
    },
    {
@@ -3108,7 +3124,7 @@
     "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQcVZZVHBwTmV6cVJKbkJMa1hOcFJBUDhldE9oVzZNb3pVajRTcGMyVGwyWmxVZHJoc1AzZExZWkxDNGZZVEhIQ0JmSFkyZWIzOTc0RGpQajRicjFEWEpyYTlGQ0Z1eHdXYWt0NmJacDVZcG1GVmkwWjd1U2VCN1cwbFZSVElLMnFocC1DUm5xVHRSQVU1TWdPX0Q4MTZ0M2NzelEzWUU5N2Fxb1pXQlhycjFMX0dXUWk5?oc=5",
     "source": "gnews_macro",
     "published_utc": "2026-10-01T09:42:10+00:00",
-    "score": 8.63,
+    "score": 8.59,
     "duplicates": 0
    },
    {
@@ -3117,21 +3133,21 @@
     "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPek5jV1FLUWhRUVVfX1J4NkZzblhLemgyYVE5Wm02cWVUaS1MZjRHcWs1OTBzLXF2VEUydUhadTFMREdHMThMZ0ZldmRpQTJzMUFwcW1JWEE2ay1tNDNaSmpIVmJwYnk1TXgtS2Z6eGlSWEZ4MEhxVnRxZGhWdC1Za2sycmZLTGx5R1JsXzZaSHdOSVBiYTBxR1NPb1lfNEFnWFgyYlNIXzIxYWVJVEpWbHln?oc=5",
     "source": "gnews_fed",
     "published_utc": "2026-10-01T10:37:00+00:00",
-    "score": 8.28,
+    "score": 8.24,
     "duplicates": 0
    },
    {
     "id": "e1867b8b53",
-    "title": "U.S. Stock Futures Rise Despite Relentless Treasury Selloff - Yahoo Finance",
+    "title": "U.S. Stock Futures Rise Despite Relentless Treasury Selloff - finance.yahoo.com",
     "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxON0VNaWRnRHlxTGxOMDRtenFoZmtfNVVJclhsWjBSdk5jSlVKUENHQVZ3UEoxR0kxcXhJc0JJWE1BeUtnZFgwNXo1YTRzYTFFX3JNbmt4Umc5Q3l0LXc4NFV0akU2aV9zRjZuOVRURFJucnhHaUhOUk9jaFMxUHRqOVNUWFlaTVFYVC1RZEFVSXc4bW5ESlQ5SkRGZGpxRFk?oc=5",
     "source": "gnews_futures",
     "published_utc": "2026-10-01T13:17:00+00:00",
-    "score": 8.23,
+    "score": 8.18,
     "duplicates": 0
    },
    {
     "id": "89e5e48144",
-    "title": "Dow, S&P 500, Nasdaq Futures Rise Despite Soaring Treasury Yields As Markets Eye Jobs Report: MU, NKE, IBRX, CEG Stocks In Focus - Yahoo Finance",
+    "title": "Dow, S&P 500, Nasdaq Futures Rise Despite Soaring Treasury Yields As Markets Eye Jobs Report: MU, NKE, IBRX, CEG Stocks In Focus - finance.yahoo.com",
     "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPUGdBQUwyYkpyOGgxLTBwMjVJMFBqb3FWWk10VDk0YUptMHZGN0Q1ZUktUWpQLWx0VUxqYmZTRlJCZ3R5aGtreWFzRXNtNzZibWZmTjFzOFdyRjNxVFVkMDNYYVF6Z3R5SzlZMHRDcDhtU3NvRk5jWllXRFZFc1RNN1JXX0Y2ckRkQVJqalJWSEE5T3M?oc=5",
     "source": "gnews_futures",
     "published_utc": "2026-10-01T02:38:00+00:00",
@@ -3139,12 +3155,12 @@
     "duplicates": 1
    },
    {
-    "id": "2386bdb91a",
-    "title": "US Stock Futures Rise as Treasury Yields Ease and Investors Assess Micron Results: Dow Jones, S&P, Nasdaq, Wall Street - Yahoo Finance",
-    "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQVVJTbnNYQ3dRVnJsQ2lLVlRLalQ5Z2lNS2RjNldzM2tHMFZQbXhGbVFTbjdmZ1VOajJldlVYa04tOTE0a2x3MXpIU0ZKLXJJRTN5dGhfTkY0d2haOFNGN3hFaXpnRmRxOVRLb1hLZmlqa29RcWNQRlAtV1NzZ2ZPRkMzcEUtWUZjSmlvb1N6YnR5LVhSMUZ3OEVMcw?oc=5",
+    "id": "0050cb1c93",
+    "title": "US Stock Futures Advance as Markets Weigh Micron Results and Lower Treasury Yields: Dow Jones, S&P, Nasdaq, Wall Street - Yahoo Finance UK",
+    "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQRWIyUjlzMFZnSWpmMzFMSWlLZVJ0alNYcUNsbjN5dFVtd2lfQ1hqbFk0N3g4Z1BTcWJGMW1manJsZGdIZEFQT3dBTnNiUmdnZGZfN3V6WHZaMTdOZTB5SzdETWRZY2huSDNkbm1fZXpVa2NkeE9hRVV1Y2ZEdEJYdW9vTkNuWlNx?oc=5",
     "source": "gnews_futures",
-    "published_utc": "2026-10-01T13:17:40+00:00",
-    "score": 7.73,
+    "published_utc": "2026-10-01T13:18:45+00:00",
+    "score": 7.69,
     "duplicates": 2
    },
    {
@@ -3171,7 +3187,7 @@
     "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPdjlGdmpwTWJHMTdWbmpQZ1FiY0NnaTVkQWJyWlRrZFpJX0xJTV9pRzgxX0txSmdGRFk0aDkyY29EMHJINlhFbEZkbVcxeW15endvampuS2w0eVJNRWo2U1RFaGNCQ0Z2WHBfMlVIME9Melk5dUNybnBzdldUeEdMTC1xLU1Sd0d1MjluSWdkaTl0WVg0eDBJ?oc=5",
     "source": "gnews_macro",
     "published_utc": "2026-10-01T14:34:00+00:00",
-    "score": 7.44,
+    "score": 7.4,
     "duplicates": 0
    },
    {
@@ -3180,7 +3196,7 @@
     "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTFBmMnQxTDJJZjJsUVNfc2JoZXZTTHBlQ1VQRWhlZHVpeHlWSkF2QV9ETTRyeVBJbjlYVXJ6T1NKdVI2MU9sWXp2LXZIc0ktXzdmN2ZkLVpFTkZ5ZDJ4MXAwUVowb2g2c3JGT3hLaDZKYzBsQlJMSnJaLTBrNA?oc=5",
     "source": "gnews_macro",
     "published_utc": "2026-10-01T13:15:20+00:00",
-    "score": 7.22,
+    "score": 7.18,
     "duplicates": 0
    },
    {
@@ -3189,21 +3205,19 @@
     "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQOFM2WVZQd1BiQXVXVDFFVmQtdEdfcHMtMjlwRnlxc1B1UThMZ3hWb1phbU9rRWthd0xHYVZBM01jZFFfMHpBZUdTY0M2LTlVeEpYRF9FQ0pIdVhQeVhKUEZ5SGpIalF6c21RUUtNRTFtTzdGdmdjUkl6anc4ZDlfaXd3TzYwcElXNlRfTzVxT045QjhEZDY1S2dla0ZfLVpTOXBoLS1QT09tM3VGYUE2Q1Q4VHhKR1YxRVE?oc=5",
     "source": "gnews_macro",
     "published_utc": "2026-10-01T12:43:16+00:00",
-    "score": 7.13,
+    "score": 7.09,
     "duplicates": 2
    }
   ],
   "summary": {
    "lines": [
-    "Treasury yields keep climbing even as futures rise, a divergence traders should watch since higher long yields can pressure equity multiples heading into the cash open [e1867b8b53][89e5e48144][215188abad].",
-    "Fed officials are split in tone: Kashkari says inflation is \"still too high\" and soft PCE won't stop hiking, while other officials say inflation should take priority with labor market \"stable,\" creating cross-currents ahead of Waller's 10:00 ET speech [74e41d1e4f][bf15add4ce][5503d9e4d3][69ce1dad60].",
-    "Bond market signals and Fed messaging are described as conflicting ahead of the jobs report, adding uncertainty around rate-path expectations [0294292e81].",
-    "Gold and metals are reacting to the inflation/yield tug-of-war, with cooler inflation data offset by higher yields lowering Fed-cut odds [f75fb4a1ca][a582e60aaa]."
+    "Stock futures continue to rise even as Treasury yields keep climbing, a divergence traders are watching into today's data [e1867b8b53][89e5e48144][0050cb1c93][7911ba3b1b].",
+    "Fed officials remain split: Kashkari says inflation is \"still too high\" and soft PCE won't stop hikes, while other Fed officials say inflation should take priority with the labor market stable, ahead of Waller's 10:00 ET speech [74e41d1e4f][bf15add4ce][5503d9e4d3][69ce1dad60]."
    ],
    "backend": "anthropic",
    "model": "claude-sonnet-5",
    "dropped": [
-    "ungrounded number(s) ['09']: Futures are also tracking Micron results and China-related headlines alongside sticky inflation commentary, adding stock-specific and macro crosscurrents into the 09:30 open [2386bdb91a][7911ba3b1b]."
+    "no valid citation: A report flags Wall Street warnings that the 10-year Treasury yield could head toward 8%"
    ],
    "warnings": []
   },
