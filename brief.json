@@ -1,7 +1,7 @@
 {
  "meta": {
-  "generated_at_utc": "2026-10-01T13:56:34.252125+00:00",
-  "generated_at_local": "Thu 01 Oct 2026 10:56 ADT",
+  "generated_at_utc": "2026-10-01T14:10:04.050193+00:00",
+  "generated_at_local": "Thu 01 Oct 2026 11:10 ADT",
   "trading_day": "2026-10-01",
   "display_tz": "America/Halifax",
   "version": "0.1.0",
@@ -122,14 +122,14 @@
    }
   ],
   "next_event": {
-   "name": "FOMC Member Waller Speaks",
-   "impact": "medium",
-   "time_utc": "2026-10-01T14:00:00+00:00",
-   "local": "11:00 ADT",
-   "et": "10:00 ET",
-   "in": "3 min",
-   "consensus": null,
-   "prior": null
+   "name": "Average Hourly Earnings m/m",
+   "impact": "high",
+   "time_utc": "2026-10-02T12:30:00+00:00",
+   "local": "09:30 ADT",
+   "et": "08:30 ET",
+   "in": "22h 19m",
+   "consensus": "0.3%",
+   "prior": "0.3%"
   },
   "sources": [],
   "warnings": []
@@ -138,10 +138,10 @@
   {
    "root": "ES",
    "trading_day": "2026-10-01",
-   "as_of_utc": "2026-10-01T13:56:34.252125+00:00",
+   "as_of_utc": "2026-10-01T14:10:04.050193+00:00",
    "source": "yahoo",
    "delayed": true,
-   "last_price": 7722.5,
+   "last_price": 7712.0,
    "levels": [
     {
      "tag": "pwh",
@@ -249,13 +249,6 @@
      "note": ""
     },
     {
-     "tag": "tdl",
-     "label": "Today's RTH low",
-     "price": 7717.5,
-     "group": "today",
-     "note": ""
-    },
-    {
      "tag": "pdc",
      "label": "Prior-day close (16:00 bar)",
      "price": 7713.0,
@@ -284,17 +277,24 @@
      "note": ""
     },
     {
-     "tag": "wl",
-     "label": "Week low",
-     "price": 7705.0,
-     "group": "week",
-     "note": ""
-    },
-    {
      "tag": "rn_major_dn",
      "label": "Round 50 below",
      "price": 7700.0,
      "group": "round",
+     "note": ""
+    },
+    {
+     "tag": "tdl",
+     "label": "Today's RTH low",
+     "price": 7697.75,
+     "group": "today",
+     "note": ""
+    },
+    {
+     "tag": "wl",
+     "label": "Week low",
+     "price": 7697.75,
+     "group": "week",
      "note": ""
     },
     {
@@ -306,8 +306,8 @@
     }
    ],
    "stats": {
-    "last_bar_utc": "2026-10-01T13:46:00+00:00",
-    "last_bar_age_min": 10.6,
+    "last_bar_utc": "2026-10-01T14:00:00+00:00",
+    "last_bar_age_min": 10.1,
     "market_state": "open",
     "profile_volume": 1450055.0,
     "prior_day": "2026-09-30",
@@ -1573,20 +1573,28 @@
     {
      "t": "2026-10-01T13:45:00+00:00",
      "o": 7720.25,
-     "h": 7725.25,
-     "l": 7719.0,
-     "c": 7722.5,
-     "v": 9536.0
+     "h": 7726.75,
+     "l": 7710.0,
+     "c": 7711.25,
+     "v": 78251.0
+    },
+    {
+     "t": "2026-10-01T14:00:00+00:00",
+     "o": 7711.5,
+     "h": 7712.5,
+     "l": 7697.75,
+     "c": 7712.0,
+     "v": 0.0
     }
    ]
   },
   {
    "root": "NQ",
    "trading_day": "2026-10-01",
-   "as_of_utc": "2026-10-01T13:56:34.252125+00:00",
+   "as_of_utc": "2026-10-01T14:10:04.050193+00:00",
    "source": "yahoo",
    "delayed": true,
-   "last_price": 30751.5,
+   "last_price": 30740.5,
    "levels": [
     {
      "tag": "exp_hi",
@@ -1673,17 +1681,10 @@
      "note": "70 % value area"
     },
     {
-     "tag": "rn_minor_dn",
-     "label": "Round 50 below",
+     "tag": "rn_minor_up",
+     "label": "Round 50 above",
      "price": 30750.0,
      "group": "round",
-     "note": ""
-    },
-    {
-     "tag": "tdl",
-     "label": "Today's RTH low",
-     "price": 30731.0,
-     "group": "today",
      "note": ""
     },
     {
@@ -1729,6 +1730,13 @@
      "note": "2026-09-30"
     },
     {
+     "tag": "tdl",
+     "label": "Today's RTH low",
+     "price": 30677.0,
+     "group": "today",
+     "note": ""
+    },
+    {
      "tag": "pgl",
      "label": "Prior Globex-session low",
      "price": 30512.25,
@@ -1751,8 +1759,8 @@
     }
    ],
    "stats": {
-    "last_bar_utc": "2026-10-01T13:46:00+00:00",
-    "last_bar_age_min": 10.6,
+    "last_bar_utc": "2026-10-01T14:00:00+00:00",
+    "last_bar_age_min": 10.1,
     "market_state": "open",
     "profile_volume": 413384.0,
     "prior_day": "2026-09-30",
@@ -3010,10 +3018,18 @@
     {
      "t": "2026-10-01T13:45:00+00:00",
      "o": 30759.75,
-     "h": 30799.0,
-     "l": 30731.0,
-     "c": 30751.5,
-     "v": 4164.0
+     "h": 30800.75,
+     "l": 30700.5,
+     "c": 30746.0,
+     "v": 35284.0
+    },
+    {
+     "t": "2026-10-01T14:00:00+00:00",
+     "o": 30748.5,
+     "h": 30754.0,
+     "l": 30677.0,
+     "c": 30740.5,
+     "v": 0.0
     }
    ]
   }
