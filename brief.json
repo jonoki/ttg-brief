@@ -1,7 +1,7 @@
 {
  "meta": {
-  "generated_at_utc": "2026-10-01T10:25:02.729548+00:00",
-  "generated_at_local": "Thu 01 Oct 2026 07:25 ADT",
+  "generated_at_utc": "2026-10-01T10:40:25.309221+00:00",
+  "generated_at_local": "Thu 01 Oct 2026 07:40 ADT",
   "trading_day": "2026-10-01",
   "display_tz": "America/Halifax",
   "version": "0.1.0",
@@ -127,7 +127,7 @@
    "time_utc": "2026-10-01T12:30:00+00:00",
    "local": "09:30 ADT",
    "et": "08:30 ET",
-   "in": "2h 04m",
+   "in": "1h 49m",
    "consensus": "201K",
    "prior": "197K"
   },
@@ -138,10 +138,10 @@
   {
    "root": "ES",
    "trading_day": "2026-10-01",
-   "as_of_utc": "2026-10-01T10:25:02.729548+00:00",
+   "as_of_utc": "2026-10-01T10:40:25.309221+00:00",
    "source": "yahoo",
    "delayed": true,
-   "last_price": 7728.75,
+   "last_price": 7733.25,
    "levels": [
     {
      "tag": "pwh",
@@ -190,7 +190,7 @@
      "label": "Overnight high",
      "price": 7767.75,
      "group": "overnight",
-     "note": "since 18:00 ET, 726 bars"
+     "note": "since 18:00 ET, 741 bars"
     },
     {
      "tag": "pwl",
@@ -223,7 +223,7 @@
     {
      "tag": "onvwap",
      "label": "Overnight VWAP",
-     "price": 7734.65,
+     "price": 7734.55,
      "group": "overnight",
      "note": "typical-price VWAP"
     },
@@ -285,14 +285,14 @@
     }
    ],
    "stats": {
-    "last_bar_utc": "2026-10-01T10:15:00+00:00",
-    "last_bar_age_min": 10.0,
+    "last_bar_utc": "2026-10-01T10:30:00+00:00",
+    "last_bar_age_min": 10.4,
     "market_state": "open",
     "profile_volume": 1450055.0,
     "prior_day": "2026-09-30",
     "prior_day_rth_range": 72.75,
     "overnight_range": 62.75,
-    "gap_vs_prior_close": 15.75,
+    "gap_vs_prior_close": 20.25,
     "gap_basis": "last price (pre-market)",
     "atr14": 82.14,
     "atr_days": 14,
@@ -1440,9 +1440,17 @@
     {
      "t": "2026-10-01T10:15:00+00:00",
      "o": 7729.5,
-     "h": 7729.5,
-     "l": 7727.75,
-     "c": 7728.75,
+     "h": 7734.5,
+     "l": 7726.25,
+     "c": 7732.5,
+     "v": 6977.0
+    },
+    {
+     "t": "2026-10-01T10:30:00+00:00",
+     "o": 7732.5,
+     "h": 7734.5,
+     "l": 7732.25,
+     "c": 7733.25,
      "v": 0.0
     }
    ]
@@ -1450,10 +1458,10 @@
   {
    "root": "NQ",
    "trading_day": "2026-10-01",
-   "as_of_utc": "2026-10-01T10:25:02.729548+00:00",
+   "as_of_utc": "2026-10-01T10:40:25.309221+00:00",
    "source": "yahoo",
    "delayed": true,
-   "last_price": 30843.5,
+   "last_price": 30881.75,
    "levels": [
     {
      "tag": "exp_hi",
@@ -1467,7 +1475,7 @@
      "label": "Overnight high",
      "price": 31151.5,
      "group": "overnight",
-     "note": "since 18:00 ET, 726 bars"
+     "note": "since 18:00 ET, 741 bars"
     },
     {
      "tag": "wh",
@@ -1500,7 +1508,7 @@
     {
      "tag": "onvwap",
      "label": "Overnight VWAP",
-     "price": 30896.81,
+     "price": 30896.16,
      "group": "overnight",
      "note": "typical-price VWAP"
     },
@@ -1512,8 +1520,8 @@
      "note": "70 % value area"
     },
     {
-     "tag": "rn_minor_up",
-     "label": "Round 50 above",
+     "tag": "rn_minor_dn",
+     "label": "Round 50 below",
      "price": 30850.0,
      "group": "round",
      "note": ""
@@ -1597,14 +1605,14 @@
     }
    ],
    "stats": {
-    "last_bar_utc": "2026-10-01T10:15:00+00:00",
-    "last_bar_age_min": 10.0,
+    "last_bar_utc": "2026-10-01T10:30:00+00:00",
+    "last_bar_age_min": 10.4,
     "market_state": "open",
     "profile_volume": 413384.0,
     "prior_day": "2026-09-30",
     "prior_day_rth_range": 225.25,
     "overnight_range": 467.0,
-    "gap_vs_prior_close": 149.75,
+    "gap_vs_prior_close": 188.0,
     "gap_basis": "last price (pre-market)",
     "atr14": 488.49,
     "atr_days": 14,
@@ -2744,9 +2752,17 @@
     {
      "t": "2026-10-01T10:15:00+00:00",
      "o": 30848.0,
-     "h": 30848.25,
-     "l": 30839.75,
-     "c": 30843.5,
+     "h": 30887.5,
+     "l": 30832.75,
+     "c": 30877.0,
+     "v": 2584.0
+    },
+    {
+     "t": "2026-10-01T10:30:00+00:00",
+     "o": 30876.5,
+     "h": 30885.25,
+     "l": 30876.0,
+     "c": 30881.75,
      "v": 0.0
     }
    ]
@@ -2760,7 +2776,7 @@
     "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNb1BjTlVWUGo2dkYzWkt2TURENGVIOGhLVWZxN01NNEFuUm83WXhiLUNSM0hoM1BUblVtb3BYdFlOa0xSQURWaS0xa0hFWWp2OUZrUFdOS2VrcDJRcEJQQkt4RXQ2eVB1TDVYRDFiM2oyZGdCd2ZFNnJaY2J0Q28zcDZ3RWtXdkVvZG5ZS3ZqNjNvQQ?oc=5",
     "source": "gnews_futures",
     "published_utc": "2026-10-01T08:08:15+00:00",
-    "score": 9.62,
+    "score": 9.58,
     "duplicates": 2
    },
    {
@@ -2769,7 +2785,7 @@
     "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxOSThoQWU1aHdYbUpKZVc1bzljd2VTUXU0cmFiVkxMUUZBaGxGaVUtSnRNYWlmS0VzUjY0dHlnUzd2NC0wVk1nRUluaF96b0kxbWhlUmxPeWdGZi1rTWZHZWs4b2hpT2ZxV1JzN3k3bF9DQjNON1pheEItY01CN0ktWUlFNlM3QnF0RmlJU2pkYU9xZi15UTNzdEFKV0lPZw?oc=5",
     "source": "gnews_macro",
     "published_utc": "2026-10-01T09:51:30+00:00",
-    "score": 9.41,
+    "score": 9.36,
     "duplicates": 0
    },
    {
@@ -2778,7 +2794,7 @@
     "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPUGdBQUwyYkpyOGgxLTBwMjVJMFBqb3FWWk10VDk0YUptMHZGN0Q1ZUktUWpQLWx0VUxqYmZTRlJCZ3R5aGtreWFzRXNtNzZibWZmTjFzOFdyRjNxVFVkMDNYYVF6Z3R5SzlZMHRDcDhtU3NvRk5jWllXRFZFc1RNN1JXX0Y2ckRkQVJqalJWSEE5T3M?oc=5",
     "source": "gnews_futures",
     "published_utc": "2026-10-01T02:38:00+00:00",
-    "score": 8.7,
+    "score": 8.66,
     "duplicates": 1
    },
    {
@@ -2787,17 +2803,8 @@
     "link": "https://www.cnbc.com/2026/09/30/watch-minneapolis-fed-president-neel-kashkari.html",
     "source": "cnbc_markets",
     "published_utc": "2026-09-30T23:44:28+00:00",
-    "score": 7.72,
+    "score": 7.68,
     "duplicates": 2
-   },
-   {
-    "id": "a582e60aaa",
-    "title": "Metals fade as long yields offset cooler inflation, lower Fed odds - Kitco PM Report - Kitco",
-    "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQcVZZVHBwTmV6cVJKbkJMa1hOcFJBUDhldE9oVzZNb3pVajRTcGMyVGwyWmxVZHJoc1AzZExZWkxDNGZZVEhIQ0JmSFkyZWIzOTc0RGpQajRicjFEWEpyYTlGQ0Z1eHdXYWt0NmJacDVZcG1GVmkwWjd1U2VCN1cwbFZSVElLMnFocC1DUm5xVHRSQVU1TWdPX0Q4MTZ0M2NzelEzWUU5N2Fxb1pXQlhycjFMX0dXUWk5?oc=5",
-    "source": "gnews_macro",
-    "published_utc": "2026-09-30T18:43:00+00:00",
-    "score": 7.5,
-    "duplicates": 0
    },
    {
     "id": "127ec2df2f",
@@ -2805,7 +2812,7 @@
     "link": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxOLTVlcHJVcEYzNHBoUGl4cWlheEMzTmpuV3BTWlVxWDVjY3NlUjJ0WjUwc2tPekdvOERGR1lzZHZtVHdLMGZwMDF3eWlndGo5c0l1SUNNY1ZCWjhoblljQVJUdEtjU2hDNDVpWmtOODY3YXdDU1Q5elBxVmRRMUJlSWlWNUFKU1NzWjJIX2M4Q2t0OXV5dVVIbHlxYm5UdDFMdXQtV1FLWGRweTJIRm91SktObm5CNnZqOTF6NWFVaVU1OWhUcFdPVzY4Z291Z2gzcTR1QmdnWjl3T0E?oc=5",
     "source": "gnews_macro",
     "published_utc": "2026-10-01T08:47:52+00:00",
-    "score": 7.23,
+    "score": 7.19,
     "duplicates": 2
    },
    {
@@ -2814,7 +2821,7 @@
     "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxPZHdPVVlfd0M2R1NaY09MRkw5LXpISWRIMWttcFFZTEN2akhJaWpCNU0xd29SNFIwN0o5YXd1elpMVG5oODd0eGdhVVphdnhfMlRQRGoyWVFHNE1aem1YajY0bl9WRlg0THBrbTB1LTBZc2tQb1ZQMERjbVF1eWF1U0k0ZXRzcmUxTzE5ZTVwYUZqaHptVS0xR2RfOHFFUQ?oc=5",
     "source": "gnews_macro",
     "published_utc": "2026-10-01T08:26:01+00:00",
-    "score": 7.17,
+    "score": 7.13,
     "duplicates": 0
    },
    {
@@ -2823,26 +2830,8 @@
     "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPY1k0QjNnMHhPYkpBWDVSZVNtekRsYl93a1lkcTlEaVFQTXFPSzlvUEd5R1BEdHIydWM0RUdsR0ZZaUJZYi05YVZjWkg5Ri1QZGJyY0MwaG5sRm00RVd5ZVVtSWNfUDZiby1CemNjbWdfTjNTQ0VtUEhUYUdFcE02dkhuWER1ZlR4SjVqWFhKMEtSMnA0YXc?oc=5",
     "source": "gnews_macro",
     "published_utc": "2026-10-01T07:03:46+00:00",
-    "score": 6.94,
+    "score": 6.9,
     "duplicates": 0
-   },
-   {
-    "id": "a4e1b4a4b3",
-    "title": "Stubborn inflation and consistent growth shift Fed debate to timing of next hike - KDNL",
-    "link": "https://news.google.com/rss/articles/CBMimAJBVV95cUxQdGRUVUUzNXZYSkpjajNkN24yNlI3QlYzbnRoVFBrT3pjZ3NXVUxiS0pYN19vYktZRFZBVnk1S1NSRnBsWXJVV1FXNlVsX2ZwTkdVc1ZpR25tazZCNnRSdXRBcGtzRjVKR0xCMTJ2SDMybTZ6ZW5zVUJ0Y2RSdXJVaXdpWlRNUGNNVHY2Nm0wZzJpSkd3a1NTaHN6bVdZM19TZk5sWERuWXB0ck1OekhQM3pzNVZQQ2dkRHFfS05uOXBOcjZ1eGRRVG9Tb2dVbzZQQllVQkRNVGFQbERrRVhHaVR3amdwTEhOWEZqWkxhUU5QcUtrbHU5NmdPQVhCb2E2SmpTTG94NGRfQ19xbHlZV253V0RpaER6?oc=5",
-    "source": "gnews_fed",
-    "published_utc": "2026-10-01T06:03:17+00:00",
-    "score": 6.77,
-    "duplicates": 0
-   },
-   {
-    "id": "03e26b2b58",
-    "title": "Fed's Kashkari says central bank must lower inflation pressures - Reuters",
-    "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNN29hdDFwRF9OOWZyZkxkcFNnNlA2NTV3VXJOYVNlUy11cnFLSjh1ZkVKMXVKSnZGX2tDRXAtUXVvX1JXMkJaZUNsd0RJN2s4SDM5VmlzZExHWnVrbW5fRVRtZ0dlbGQ5aHJNQnI0ajIzRXFaQVE0UTRXU0NkVjR2WVE3UThGbDE4MERqdHFhZ0ZvNV9fWU9aYVoxRXJFNXV3T2FYaUVrU2o3V2kzWlE?oc=5",
-    "source": "gnews_macro",
-    "published_utc": "2026-09-30T23:29:15+00:00",
-    "score": 6.68,
-    "duplicates": 2
    },
    {
     "id": "3b31412abc",
@@ -2850,7 +2839,16 @@
     "link": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxOSWRCMWNCSmRPemR6SmI2UGtTa0I4ZlpYb29JX0tSU2hZZHZ2TFQzTXZwNmJRV1VhbmV6WGFmUkpDVnNmdDQ3Ry1NMUE2TkF5bkVUcTR6Zmk5SHVoMDNqbTliMFltTVdnQVVhcU5kd2ZPMlk1YTFqMkV5VUNzZTJxdWVwNkZMR0hLMGo3RFJhX0U0dzV3R2pFNS1Md3dIM1hwZUV1Qk9kM2JoWlBraUtLa2JBaTFSeERMOVgxdEhZdFlaTVdlLUV0QkF0RjVobmVocGF6LTRDb0Fjd3c0LXpZ?oc=5",
     "source": "gnews_futures",
     "published_utc": "2026-10-01T08:17:00+00:00",
-    "score": 6.64,
+    "score": 6.6,
+    "duplicates": 0
+   },
+   {
+    "id": "033a509a37",
+    "title": "US Stock Futures Hold Steady Ahead of PCE Data, Micron Earnings - Bloomberg.com",
+    "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQUHItMEI0VmMzWjl0SVlBZUplMXgxYVVvRjRoUVhHd0p5OUZVQlNzWGZkM1kwR2ZfT3NGVS04aTdOZkxYd3NtRWxpOTg4NWNQVmdZZWVmdXVYMDRrS05hNW9wVVNFX0EtQTRvY25WcnhVSXMtUERtUUFxb1AzVWNudzBtRmZkeFg3ZlRvNzYxemRBVlpUemNwcGNXRmcxeVpHckxNeElyNHhGb3lMYVNDcEMxdw?oc=5",
+    "source": "gnews_futures",
+    "published_utc": "2026-09-30T20:51:14+00:00",
+    "score": 6.5,
     "duplicates": 0
    },
    {
@@ -2859,21 +2857,39 @@
     "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPQUVLZ2FtN3VzVzZxZWpiaGV1UW9aTU5fT2FPZlNBeGkyODYyZVIzaFM4dE51NElFbXFmd2k0VVRpMjh2WFZKOVg2OHExakVla0lxNHhldWMzSm9UM2JZcno4RkljMFg4UTRGQ3JGMWlVUERCVG0tVXllMTBUa3VaMzh5MUtaUGdSR3dXQ29FNzM3S0NKNUNjTmZSV1p1cXdIN19STF91ejBQWnIwYVFRd1RXRTlkQQ?oc=5",
     "source": "gnews_futures",
     "published_utc": "2026-10-01T07:30:51+00:00",
-    "score": 6.52,
+    "score": 6.47,
+    "duplicates": 0
+   },
+   {
+    "id": "a5ed0cc647",
+    "title": "10-year Treasury yield hits highest level since 2002 as global bond rout gathers pace",
+    "link": "https://www.cnbc.com/2026/10/01/us-treasury-bond-yield.html",
+    "source": "cnbc_markets",
+    "published_utc": "2026-10-01T10:22:44+00:00",
+    "score": 6.45,
+    "duplicates": 0
+   },
+   {
+    "id": "d84c714bbd",
+    "title": "Micron Earnings and Alphabet’s Gemini Rollout Boost Nasdaq Recovery - FXLeaders",
+    "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPbW1fRFhVY0g1RVBnSUdUZWxzeS1NR3FTQW1KVFcxNnlrZTNXZVI3Q3pHb3RIWDNXLW9XT1M4RHlCU3JNYzVpcUs3LUNzUW5sTW90d0J6X1RLeG1MX0lhVUI2a0trWGVhY0RNY3lOQ0h6ZGJtdjBJOGZKUjRvSzZLdUYzUHRTOURnYnF4OEJLRlpqbHNwcUxrZllEYlV0d1JCdUFrd0s5TEZKQVlHeVE?oc=5",
+    "source": "gnews_megacap",
+    "published_utc": "2026-10-01T07:04:49+00:00",
+    "score": 6.4,
     "duplicates": 0
    }
   ],
   "summary": {
    "lines": [
-    "Treasury yields are climbing sharply even as stock futures stay mixed-to-higher, a cross-current worth watching into the cash open [89e5e48144][3b31412abc][7911ba3b1b].",
-    "Multiple Fed officials (Kashkari) continue to flag inflation as \"still too high\" despite softer PCE data, keeping the rate-path debate live ahead of Waller's 10:00 ET remarks [74e41d1e4f][03e26b2b58][a4e1b4a4b3].",
-    "Bond market pricing and Fed messaging are described as diverging ahead of today's jobs data, adding to rate-expectation uncertainty around the 08:30 ET Claims print (cons 201K, prior 197K) [0294292e81]."
+    "Global bond rout continues with the 10-year Treasury yield at its highest level since 2002, pressuring equity futures positioning ahead of the open [a5ed0cc647][3b31412abc][89e5e48144].",
+    "Futures are mixed to higher amid the yield surge, with traders also watching China-related headlines and sticky inflation themes [7911ba3b1b][3b31412abc][89e5e48144].",
+    "Fed officials are sending mixed signals, with Kashkari calling inflation \"still too high\" despite softer PCE data, while bond market pricing diverges from Fed messaging ahead of the jobs report [74e41d1e4f][0294292e81].",
+    "Waller speaks at 10:00 ET alongside ISM Manufacturing PMI (cons 54.8, prior 54.6), both landing in the same window and capable of moving rate expectations intraday [0294292e81].",
+    "Micron earnings and Alphabet's Gemini rollout are cited as supporting Nasdaq-linked futures, relevant for MNQ positioning [d84c714bbd][033a509a37]."
    ],
    "backend": "anthropic",
    "model": "claude-sonnet-5",
-   "dropped": [
-    "no valid citation: Cooler-than-expected recent inflation data is being offset by higher long-end yields, a dynamic already showing up in gold/metals price action and relevant to Fed-sens"
-   ],
+   "dropped": [],
    "warnings": []
   },
   "feeds": [],
