@@ -1,7 +1,7 @@
 {
  "meta": {
-  "generated_at_utc": "2026-10-01T11:11:01.874500+00:00",
-  "generated_at_local": "Thu 01 Oct 2026 08:11 ADT",
+  "generated_at_utc": "2026-10-01T11:26:18.991729+00:00",
+  "generated_at_local": "Thu 01 Oct 2026 08:26 ADT",
   "trading_day": "2026-10-01",
   "display_tz": "America/Halifax",
   "version": "0.1.0",
@@ -127,7 +127,7 @@
    "time_utc": "2026-10-01T12:30:00+00:00",
    "local": "09:30 ADT",
    "et": "08:30 ET",
-   "in": "1h 18m",
+   "in": "1h 03m",
    "consensus": "201K",
    "prior": "197K"
   },
@@ -138,10 +138,10 @@
   {
    "root": "ES",
    "trading_day": "2026-10-01",
-   "as_of_utc": "2026-10-01T11:11:01.874500+00:00",
+   "as_of_utc": "2026-10-01T11:26:18.991729+00:00",
    "source": "yahoo",
    "delayed": true,
-   "last_price": 7741.25,
+   "last_price": 7731.0,
    "levels": [
     {
      "tag": "pwh",
@@ -190,7 +190,7 @@
      "label": "Overnight high",
      "price": 7767.75,
      "group": "overnight",
-     "note": "since 18:00 ET, 771 bars"
+     "note": "since 18:00 ET, 787 bars"
     },
     {
      "tag": "pwl",
@@ -223,7 +223,7 @@
     {
      "tag": "onvwap",
      "label": "Overnight VWAP",
-     "price": 7735.01,
+     "price": 7735.16,
      "group": "overnight",
      "note": "typical-price VWAP"
     },
@@ -285,14 +285,14 @@
     }
    ],
    "stats": {
-    "last_bar_utc": "2026-10-01T11:00:00+00:00",
-    "last_bar_age_min": 11.0,
+    "last_bar_utc": "2026-10-01T11:16:00+00:00",
+    "last_bar_age_min": 10.3,
     "market_state": "open",
     "profile_volume": 1450055.0,
     "prior_day": "2026-09-30",
     "prior_day_rth_range": 72.75,
     "overnight_range": 62.75,
-    "gap_vs_prior_close": 28.25,
+    "gap_vs_prior_close": 18.0,
     "gap_basis": "last price (pre-market)",
     "atr14": 82.14,
     "atr_days": 14,
@@ -1465,19 +1465,27 @@
      "t": "2026-10-01T11:00:00+00:00",
      "o": 7743.0,
      "h": 7744.25,
-     "l": 7741.0,
-     "c": 7741.25,
-     "v": 1086.0
+     "l": 7732.75,
+     "c": 7733.25,
+     "v": 12440.0
+    },
+    {
+     "t": "2026-10-01T11:15:00+00:00",
+     "o": 7733.0,
+     "h": 7733.25,
+     "l": 7730.0,
+     "c": 7731.0,
+     "v": 678.0
     }
    ]
   },
   {
    "root": "NQ",
    "trading_day": "2026-10-01",
-   "as_of_utc": "2026-10-01T11:11:01.874500+00:00",
+   "as_of_utc": "2026-10-01T11:26:18.991729+00:00",
    "source": "yahoo",
    "delayed": true,
-   "last_price": 30916.5,
+   "last_price": 30848.0,
    "levels": [
     {
      "tag": "exp_hi",
@@ -1491,7 +1499,7 @@
      "label": "Overnight high",
      "price": 31151.5,
      "group": "overnight",
-     "note": "since 18:00 ET, 771 bars"
+     "note": "since 18:00 ET, 787 bars"
     },
     {
      "tag": "wh",
@@ -1501,25 +1509,11 @@
      "note": "since 2026-09-28"
     },
     {
-     "tag": "rn_major_up",
-     "label": "Round 100 above",
-     "price": 31000.0,
-     "group": "round",
-     "note": ""
-    },
-    {
      "tag": "pwh",
      "label": "Prior-week high",
      "price": 30999.5,
      "group": "week",
      "note": "1 session(s) of data — PARTIAL"
-    },
-    {
-     "tag": "rn_minor_up",
-     "label": "Round 50 above",
-     "price": 30950.0,
-     "group": "round",
-     "note": ""
     },
     {
      "tag": "pdh",
@@ -1529,8 +1523,8 @@
      "note": "2026-09-30"
     },
     {
-     "tag": "rn_major_dn",
-     "label": "Round 100 below",
+     "tag": "rn_major_up",
+     "label": "Round 100 above",
      "price": 30900.0,
      "group": "round",
      "note": ""
@@ -1538,7 +1532,7 @@
     {
      "tag": "onvwap",
      "label": "Overnight VWAP",
-     "price": 30897.15,
+     "price": 30896.99,
      "group": "overnight",
      "note": "typical-price VWAP"
     },
@@ -1550,11 +1544,25 @@
      "note": "70 % value area"
     },
     {
+     "tag": "rn_minor_up",
+     "label": "Round 50 above",
+     "price": 30850.0,
+     "group": "round",
+     "note": ""
+    },
+    {
      "tag": "poc",
      "label": "Prior-day POC",
      "price": 30829.5,
      "group": "profile",
      "note": "2026-09-30 RTH, bin 1.0"
+    },
+    {
+     "tag": "rn_major_dn",
+     "label": "Round 100 below",
+     "price": 30800.0,
+     "group": "round",
+     "note": ""
     },
     {
      "tag": "val",
@@ -1621,14 +1629,14 @@
     }
    ],
    "stats": {
-    "last_bar_utc": "2026-10-01T11:00:00+00:00",
-    "last_bar_age_min": 11.0,
+    "last_bar_utc": "2026-10-01T11:16:00+00:00",
+    "last_bar_age_min": 10.3,
     "market_state": "open",
     "profile_volume": 413384.0,
     "prior_day": "2026-09-30",
     "prior_day_rth_range": 225.25,
     "overnight_range": 467.0,
-    "gap_vs_prior_close": 222.75,
+    "gap_vs_prior_close": 154.25,
     "gap_basis": "last price (pre-market)",
     "atr14": 488.49,
     "atr_days": 14,
@@ -2793,9 +2801,17 @@
      "t": "2026-10-01T11:00:00+00:00",
      "o": 30938.25,
      "h": 30941.5,
-     "l": 30915.75,
-     "c": 30916.5,
-     "v": 447.0
+     "l": 30861.25,
+     "c": 30863.25,
+     "v": 3613.0
+    },
+    {
+     "t": "2026-10-01T11:15:00+00:00",
+     "o": 30863.5,
+     "h": 30864.5,
+     "l": 30843.25,
+     "c": 30848.0,
+     "v": 381.0
     }
    ]
   }
@@ -2808,7 +2824,7 @@
     "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNb1BjTlVWUGo2dkYzWkt2TURENGVIOGhLVWZxN01NNEFuUm83WXhiLUNSM0hoM1BUblVtb3BYdFlOa0xSQURWaS0xa0hFWWp2OUZrUFdOS2VrcDJRcEJQQkt4RXQ2eVB1TDVYRDFiM2oyZGdCd2ZFNnJaY2J0Q28zcDZ3RWtXdkVvZG5ZS3ZqNjNvQQ?oc=5",
     "source": "gnews_futures",
     "published_utc": "2026-10-01T08:08:15+00:00",
-    "score": 9.49,
+    "score": 9.45,
     "duplicates": 2
    },
    {
@@ -2817,7 +2833,7 @@
     "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxOSThoQWU1aHdYbUpKZVc1bzljd2VTUXU0cmFiVkxMUUZBaGxGaVUtSnRNYWlmS0VzUjY0dHlnUzd2NC0wVk1nRUluaF96b0kxbWhlUmxPeWdGZi1rTWZHZWs4b2hpT2ZxV1JzN3k3bF9DQjNON1pheEItY01CN0ktWUlFNlM3QnF0RmlJU2pkYU9xZi15UTNzdEFKV0lPZw?oc=5",
     "source": "gnews_macro",
     "published_utc": "2026-10-01T09:51:30+00:00",
-    "score": 9.28,
+    "score": 9.24,
     "duplicates": 0
    },
    {
@@ -2826,7 +2842,7 @@
     "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPUGdBQUwyYkpyOGgxLTBwMjVJMFBqb3FWWk10VDk0YUptMHZGN0Q1ZUktUWpQLWx0VUxqYmZTRlJCZ3R5aGtreWFzRXNtNzZibWZmTjFzOFdyRjNxVFVkMDNYYVF6Z3R5SzlZMHRDcDhtU3NvRk5jWllXRFZFc1RNN1JXX0Y2ckRkQVJqalJWSEE5T3M?oc=5",
     "source": "gnews_futures",
     "published_utc": "2026-10-01T02:38:00+00:00",
-    "score": 8.57,
+    "score": 8.53,
     "duplicates": 1
    },
    {
@@ -2835,7 +2851,7 @@
     "link": "https://www.cnbc.com/2026/09/30/watch-minneapolis-fed-president-neel-kashkari.html",
     "source": "cnbc_markets",
     "published_utc": "2026-09-30T23:44:28+00:00",
-    "score": 7.59,
+    "score": 7.55,
     "duplicates": 2
    },
    {
@@ -2853,16 +2869,25 @@
     "link": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxOMHFpT000WWpKNEFFazlxQ2FNeXpOSWlNOFc0QjJadXExTVI4ekV6aF9EekNlMmJmSWREbkVwNTNLcWVKQ0ZvOWRnSkkydFM4d1ZkRnByM3pLdGpHQ3g2aGE5QXM1V001amZqYS1ldHNTdkdQb04tb1hYdHU2WUR6NVJqY080aTZYNk5NZzk2UDQ4Z0lZc3FUYXpoaERJTXVaSF9lOEs3b2d1ZnNXZGc1VUFVZXJ0TlppTE5KeVo4LV9xRHEwMERfTklJTGFEd3RvMzQ5aENnaUw4bDQ?oc=5",
     "source": "gnews_macro",
     "published_utc": "2026-10-01T10:36:16+00:00",
-    "score": 7.4,
+    "score": 7.36,
     "duplicates": 2
    },
    {
     "id": "d2ab9c3e0c",
-    "title": "Gold Steady as Softer Inflation Data Tempers Fed Rate-Hike Bets - Bloomberg.com",
+    "title": "Gold Steady as Softer Inflation Data Tempers Fed Rate-Hike Bets - bloomberg.com",
     "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPZEhHa1dkeGJCMVpDX1oyQ2FFaEhKVTZLa19va25zVWVZSnVSc3JMbkRPcEJDQjEzVEtNUVJ4cjRVRnFZdjQ3RUZZWmVHcUJIRFhEcEkzUW9lZ3BXZnB5ckpKS0d5QXVXbW11QkMwXzVWUXR1dGpDTzVzT25panRHbndyVW1EVWhLVVhBRTNtVENVYTh6cWNHM0hfd1hXZm9UczdHbEJpd1RVUE9GaEREejI1ZzA?oc=5",
     "source": "gnews_macro",
     "published_utc": "2026-10-01T09:59:06+00:00",
-    "score": 7.3,
+    "score": 7.26,
+    "duplicates": 0
+   },
+   {
+    "id": "8b3e08951c",
+    "title": "Tom Lee Says Cooling Inflation Could Give US Fed Room to 'Walk Back Hawkishness' — and That's 'Good For Stocks' - Yahoo Finance",
+    "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQQldBZ1JZTDAxdmhZQUFiTldMLXQwaDJtNERvbHhNckdzc1plUTBwOTFGU1hIWXVJOEN6dDhVSDJrYm9hV09felNEYTM5ZDUyc0VjVDJFMW1OSWF6QlczeTdCeE90NkhkOXBrU0VENnBOajFLTzRNd3JsckhhdnprM2l3RUk4YUR6Mm1LOXlDS3ppbUNFVUJZUllvQQ?oc=5",
+    "source": "gnews_macro",
+    "published_utc": "2026-10-01T10:00:18+00:00",
+    "score": 7.26,
     "duplicates": 0
    },
    {
@@ -2871,30 +2896,21 @@
     "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxPZHdPVVlfd0M2R1NaY09MRkw5LXpISWRIMWttcFFZTEN2akhJaWpCNU0xd29SNFIwN0o5YXd1elpMVG5oODd0eGdhVVphdnhfMlRQRGoyWVFHNE1aem1YajY0bl9WRlg0THBrbTB1LTBZc2tQb1ZQMERjbVF1eWF1U0k0ZXRzcmUxTzE5ZTVwYUZqaHptVS0xR2RfOHFFUQ?oc=5",
     "source": "gnews_macro",
     "published_utc": "2026-10-01T08:26:01+00:00",
-    "score": 7.04,
+    "score": 7.0,
     "duplicates": 0
    },
    {
     "id": "d17893eedf",
-    "title": "Watch India's Rate Hike Moment Nears as Inflation Pressure Builds - Bloomberg.com",
+    "title": "Watch India's Rate Hike Moment Nears as Inflation Pressure Builds - bloomberg.com",
     "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPY1k0QjNnMHhPYkpBWDVSZVNtekRsYl93a1lkcTlEaVFQTXFPSzlvUEd5R1BEdHIydWM0RUdsR0ZZaUJZYi05YVZjWkg5Ri1QZGJyY0MwaG5sRm00RVd5ZVVtSWNfUDZiby1CemNjbWdfTjNTQ0VtUEhUYUdFcE02dkhuWER1ZlR4SjVqWFhKMEtSMnA0YXc?oc=5",
     "source": "gnews_macro",
     "published_utc": "2026-10-01T07:03:46+00:00",
-    "score": 6.81,
-    "duplicates": 0
-   },
-   {
-    "id": "3b31412abc",
-    "title": "Stock Futures Mixed as Bond Yields Soar - wsj.com",
-    "link": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxOSWRCMWNCSmRPemR6SmI2UGtTa0I4ZlpYb29JX0tSU2hZZHZ2TFQzTXZwNmJRV1VhbmV6WGFmUkpDVnNmdDQ3Ry1NMUE2TkF5bkVUcTR6Zmk5SHVoMDNqbTliMFltTVdnQVVhcU5kd2ZPMlk1YTFqMkV5VUNzZTJxdWVwNkZMR0hLMGo3RFJhX0U0dzV3R2pFNS1Md3dIM1hwZUV1Qk9kM2JoWlBraUtLa2JBaTFSeERMOVgxdEhZdFlaTVdlLUV0QkF0RjVobmVocGF6LTRDb0Fjd3c0LXpZ?oc=5",
-    "source": "gnews_futures",
-    "published_utc": "2026-10-01T08:17:00+00:00",
-    "score": 6.52,
+    "score": 6.77,
     "duplicates": 0
    },
    {
     "id": "033a509a37",
-    "title": "US Stock Futures Hold Steady Ahead of PCE Data, Micron Earnings - Bloomberg.com",
+    "title": "US Stock Futures Hold Steady Ahead of PCE Data, Micron Earnings - bloomberg.com",
     "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQUHItMEI0VmMzWjl0SVlBZUplMXgxYVVvRjRoUVhHd0p5OUZVQlNzWGZkM1kwR2ZfT3NGVS04aTdOZkxYd3NtRWxpOTg4NWNQVmdZZWVmdXVYMDRrS05hNW9wVVNFX0EtQTRvY25WcnhVSXMtUERtUUFxb1AzVWNudzBtRmZkeFg3ZlRvNzYxemRBVlpUemNwcGNXRmcxeVpHckxNeElyNHhGb3lMYVNDcEMxdw?oc=5",
     "source": "gnews_futures",
     "published_utc": "2026-09-30T20:51:14+00:00",
@@ -2902,22 +2918,22 @@
     "duplicates": 0
    },
    {
-    "id": "3853b077f7",
-    "title": "By 2001, His Amazon Shares Had Fallen 93% And Wall Street Was Predicting The Company Would Go Bankrupt. Bill Miller Didn't Care, He Doubled Down At $6 A Share. Two Decades Later He Had More Amazon Stock Than Anyone Not Named Bezos - 24/7 Wall St.",
-    "link": "https://news.google.com/rss/articles/CBMi2AJBVV95cUxPdUJCUEdMQVJsTW10dlRJU2szYWtBU3lydjFJcXdnV0RBNVlWek84Ymc4ZkxEVnItUkZUX1FxWjdrRHFRdFRweVFuTmx1OXBKUjlNR01rVUc4Q0J1UjN5M19rZUM4TklSalJraldqa1VrRzA4WUU0MFhqY3E2NTEzNjhib29SQ213UnRhRlp4NzUwNTRyRDNoQ2pBclgxWFpBdWlmRDFLMzdxMzBfaWJrNUwtbFVBb2tGRGV4d0Zfa0JmN1NiUGZDX1lJcTVWUGQ0clBDR1VvdmpsYm11U3Z3cTdBdGNzYmZTTi1yVU5Ib0tvcHlQMTJlM3hla0RkeUk5cTIzNlhzb3JsVXdQOU9EeExHaG9NX3Q4WTBqZGlJT0ZVOURfUXJrZ19pWlgwVWw2RjVUdjFDanRjQVJjR2c5WmRCcml3MWV1cm9wNHg1MEFpRFZYRzFNRA?oc=5",
-    "source": "gnews_megacap",
-    "published_utc": "2026-10-01T10:38:00+00:00",
-    "score": 6.41,
-    "duplicates": 1
+    "id": "3b31412abc",
+    "title": "Stock Futures Mixed as Bond Yields Soar - WSJ",
+    "link": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxOSWRCMWNCSmRPemR6SmI2UGtTa0I4ZlpYb29JX0tSU2hZZHZ2TFQzTXZwNmJRV1VhbmV6WGFmUkpDVnNmdDQ3Ry1NMUE2TkF5bkVUcTR6Zmk5SHVoMDNqbTliMFltTVdnQVVhcU5kd2ZPMlk1YTFqMkV5VUNzZTJxdWVwNkZMR0hLMGo3RFJhX0U0dzV3R2pFNS1Md3dIM1hwZUV1Qk9kM2JoWlBraUtLa2JBaTFSeERMOVgxdEhZdFlaTVdlLUV0QkF0RjVobmVocGF6LTRDb0Fjd3c0LXpZ?oc=5",
+    "source": "gnews_futures",
+    "published_utc": "2026-10-01T08:17:00+00:00",
+    "score": 6.47,
+    "duplicates": 0
    }
   ],
   "summary": {
    "lines": [
-    "Treasury yields are rising alongside cooler inflation data (PCE), a combination futures markets are digesting ahead of today's jobs-related data points [89e5e48144][3b31412abc][ce54a15120][d2ab9c3e0c].",
-    "Fed officials are sending mixed signals, with Kashkari calling inflation still too high while bond market pricing diverges from Fed messaging ahead of the jobs report [74e41d1e4f][0294292e81].",
-    "Stock futures are described as mixed to higher, with some reports citing China-related optimism alongside the inflation and yield backdrop [7911ba3b1b][3b31412abc][89e5e48144].",
-    "Gold and metals are reacting to the same inflation/yield crosscurrents, a signal of broader rates sensitivity relevant to index futures positioning [a582e60aaa][ce54a15120][d2ab9c3e0c].",
-    "A separate inflation forecast piece flags potential September inflation concerns beyond energy prices [93840d7b2c]."
+    "Treasury yields are rising alongside softer inflation data, a divergence traders are watching into today's jobs-related releases [89e5e48144] [3b31412abc] [0294292e81].",
+    "Fed officials are mixed, with Kashkari calling inflation \"still too high\" post-PCE while labor market is \"pretty good,\" ahead of Waller's 10:00 ET speech [74e41d1e4f].",
+    "S&P 500 and Nasdaq futures are edging higher on sticky inflation and China hopes, with Dow/S&P/Nasdaq futures also rising despite the yield move [7911ba3b1b] [89e5e48144].",
+    "Gold and metals are reacting to the cooler inflation vs. higher yields tension, a cross-asset signal for rate expectations into ISM Manufacturing PMI [ce54a15120] [d2ab9c3e0c] [a582e60aaa].",
+    "Commentary from Tom Lee suggests cooling inflation could let the Fed \"walk back hawkishness,\" a narrative relevant to risk appetite ahead of today's data [8b3e08951c]."
    ],
    "backend": "anthropic",
    "model": "claude-sonnet-5",
