@@ -1,7 +1,7 @@
 {
  "meta": {
-  "generated_at_utc": "2026-10-01T13:41:14.522783+00:00",
-  "generated_at_local": "Thu 01 Oct 2026 10:41 ADT",
+  "generated_at_utc": "2026-10-01T13:56:34.252125+00:00",
+  "generated_at_local": "Thu 01 Oct 2026 10:56 ADT",
   "trading_day": "2026-10-01",
   "display_tz": "America/Halifax",
   "version": "0.1.0",
@@ -127,7 +127,7 @@
    "time_utc": "2026-10-01T14:00:00+00:00",
    "local": "11:00 ADT",
    "et": "10:00 ET",
-   "in": "18 min",
+   "in": "3 min",
    "consensus": null,
    "prior": null
   },
@@ -138,10 +138,10 @@
   {
    "root": "ES",
    "trading_day": "2026-10-01",
-   "as_of_utc": "2026-10-01T13:41:14.522783+00:00",
+   "as_of_utc": "2026-10-01T13:56:34.252125+00:00",
    "source": "yahoo",
    "delayed": true,
-   "last_price": 7727.75,
+   "last_price": 7722.5,
    "levels": [
     {
      "tag": "pwh",
@@ -223,7 +223,7 @@
     {
      "tag": "tdh",
      "label": "Today's RTH high",
-     "price": 7738.75,
+     "price": 7740.0,
      "group": "today",
      "note": "so far"
     },
@@ -242,8 +242,8 @@
      "note": "09:30 bar open"
     },
     {
-     "tag": "rn_minor_dn",
-     "label": "Round 25 below",
+     "tag": "rn_minor_up",
+     "label": "Round 25 above",
      "price": 7725.0,
      "group": "round",
      "note": ""
@@ -251,7 +251,7 @@
     {
      "tag": "tdl",
      "label": "Today's RTH low",
-     "price": 7720.5,
+     "price": 7717.5,
      "group": "today",
      "note": ""
     },
@@ -306,8 +306,8 @@
     }
    ],
    "stats": {
-    "last_bar_utc": "2026-10-01T13:31:00+00:00",
-    "last_bar_age_min": 10.2,
+    "last_bar_utc": "2026-10-01T13:46:00+00:00",
+    "last_bar_age_min": 10.6,
     "market_state": "open",
     "profile_volume": 1450055.0,
     "prior_day": "2026-09-30",
@@ -1565,20 +1565,28 @@
     {
      "t": "2026-10-01T13:30:00+00:00",
      "o": 7730.0,
-     "h": 7738.75,
-     "l": 7720.5,
-     "c": 7727.75,
-     "v": 17292.0
+     "h": 7740.0,
+     "l": 7717.5,
+     "c": 7720.0,
+     "v": 109654.0
+    },
+    {
+     "t": "2026-10-01T13:45:00+00:00",
+     "o": 7720.25,
+     "h": 7725.25,
+     "l": 7719.0,
+     "c": 7722.5,
+     "v": 9536.0
     }
    ]
   },
   {
    "root": "NQ",
    "trading_day": "2026-10-01",
-   "as_of_utc": "2026-10-01T13:41:14.522783+00:00",
+   "as_of_utc": "2026-10-01T13:56:34.252125+00:00",
    "source": "yahoo",
    "delayed": true,
-   "last_price": 30771.75,
+   "last_price": 30751.5,
    "levels": [
     {
      "tag": "exp_hi",
@@ -1632,7 +1640,7 @@
     {
      "tag": "tdh",
      "label": "Today's RTH high",
-     "price": 30830.25,
+     "price": 30856.0,
      "group": "today",
      "note": "so far"
     },
@@ -1674,7 +1682,7 @@
     {
      "tag": "tdl",
      "label": "Today's RTH low",
-     "price": 30734.25,
+     "price": 30731.0,
      "group": "today",
      "note": ""
     },
@@ -1743,8 +1751,8 @@
     }
    ],
    "stats": {
-    "last_bar_utc": "2026-10-01T13:31:00+00:00",
-    "last_bar_age_min": 10.2,
+    "last_bar_utc": "2026-10-01T13:46:00+00:00",
+    "last_bar_age_min": 10.6,
     "market_state": "open",
     "profile_volume": 413384.0,
     "prior_day": "2026-09-30",
@@ -2994,10 +3002,18 @@
     {
      "t": "2026-10-01T13:30:00+00:00",
      "o": 30796.75,
-     "h": 30830.25,
+     "h": 30856.0,
      "l": 30734.25,
-     "c": 30771.75,
-     "v": 8184.0
+     "c": 30759.75,
+     "v": 60014.0
+    },
+    {
+     "t": "2026-10-01T13:45:00+00:00",
+     "o": 30759.75,
+     "h": 30799.0,
+     "l": 30731.0,
+     "c": 30751.5,
+     "v": 4164.0
     }
    ]
   }
@@ -3010,7 +3026,7 @@
     "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNb1BjTlVWUGo2dkYzWkt2TURENGVIOGhLVWZxN01NNEFuUm83WXhiLUNSM0hoM1BUblVtb3BYdFlOa0xSQURWaS0xa0hFWWp2OUZrUFdOS2VrcDJRcEJQQkt4RXQ2eVB1TDVYRDFiM2oyZGdCd2ZFNnJaY2J0Q28zcDZ3RWtXdkVvZG5ZS3ZqNjNvQQ?oc=5",
     "source": "gnews_futures",
     "published_utc": "2026-10-01T08:08:15+00:00",
-    "score": 9.08,
+    "score": 9.03,
     "duplicates": 2
    },
    {
@@ -3018,8 +3034,17 @@
     "title": "The Fed and bond market are sending opposite signals ahead of a crucial jobs report - Business Insider",
     "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxOSThoQWU1aHdYbUpKZVc1bzljd2VTUXU0cmFiVkxMUUZBaGxGaVUtSnRNYWlmS0VzUjY0dHlnUzd2NC0wVk1nRUluaF96b0kxbWhlUmxPeWdGZi1rTWZHZWs4b2hpT2ZxV1JzN3k3bF9DQjNON1pheEItY01CN0ktWUlFNlM3QnF0RmlJU2pkYU9xZi15UTNzdEFKV0lPZw?oc=5",
     "source": "gnews_macro",
-    "published_utc": "2026-10-01T09:51:30+00:00",
-    "score": 8.86,
+    "published_utc": "2026-10-01T09:50:00+00:00",
+    "score": 8.82,
+    "duplicates": 0
+   },
+   {
+    "id": "a582e60aaa",
+    "title": "Metals fade as long yields offset cooler inflation, lower Fed odds - Kitco PM Report - Kitco",
+    "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQcVZZVHBwTmV6cVJKbkJMa1hOcFJBUDhldE9oVzZNb3pVajRTcGMyVGwyWmxVZHJoc1AzZExZWkxDNGZZVEhIQ0JmSFkyZWIzOTc0RGpQajRicjFEWEpyYTlGQ0Z1eHdXYWt0NmJacDVZcG1GVmkwWjd1U2VCN1cwbFZSVElLMnFocC1DUm5xVHRSQVU1TWdPX0Q4MTZ0M2NzelEzWUU5N2Fxb1pXQlhycjFMX0dXUWk5?oc=5",
+    "source": "gnews_macro",
+    "published_utc": "2026-10-01T09:42:10+00:00",
+    "score": 8.79,
     "duplicates": 0
    },
    {
@@ -3028,16 +3053,16 @@
     "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPek5jV1FLUWhRUVVfX1J4NkZzblhLemgyYVE5Wm02cWVUaS1MZjRHcWs1OTBzLXF2VEUydUhadTFMREdHMThMZ0ZldmRpQTJzMUFwcW1JWEE2ay1tNDNaSmpIVmJwYnk1TXgtS2Z6eGlSWEZ4MEhxVnRxZGhWdC1Za2sycmZLTGx5R1JsXzZaSHdOSVBiYTBxR1NPb1lfNEFnWFgyYlNIXzIxYWVJVEpWbHln?oc=5",
     "source": "gnews_fed",
     "published_utc": "2026-10-01T10:37:00+00:00",
-    "score": 8.49,
+    "score": 8.45,
     "duplicates": 0
    },
    {
     "id": "1f53d4344a",
-    "title": "U.S. Stock Futures Rise Despite Relentless Treasury Selloff - WSJ",
+    "title": "U.S. Stock Futures Rise Despite Relentless Treasury Selloff - wsj.com",
     "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPcnZkOERkMEgyaXA5NUNuN25uUDZzN1NKVnpiWmZuVXRoWFZZNVB5X3J2LWhIUDRscFRuOUZtNFhVRjNVSXFnV1hPQzNWZzBJMmtPa0RhTzdUVWEydS1za181MkQxSE9iZ1M0OWwwalh2M0Y3MlVzZTR1WUxiUFMwMmpIQkdWUVNwaXhhQWc3eDc1aUI0?oc=5",
     "source": "gnews_futures",
     "published_utc": "2026-10-01T13:17:00+00:00",
-    "score": 8.43,
+    "score": 8.39,
     "duplicates": 0
    },
    {
@@ -3046,7 +3071,16 @@
     "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPUGdBQUwyYkpyOGgxLTBwMjVJMFBqb3FWWk10VDk0YUptMHZGN0Q1ZUktUWpQLWx0VUxqYmZTRlJCZ3R5aGtreWFzRXNtNzZibWZmTjFzOFdyRjNxVFVkMDNYYVF6Z3R5SzlZMHRDcDhtU3NvRk5jWllXRFZFc1RNN1JXX0Y2ckRkQVJqalJWSEE5T3M?oc=5",
     "source": "gnews_futures",
     "published_utc": "2026-10-01T02:38:00+00:00",
-    "score": 8.16,
+    "score": 8.12,
+    "duplicates": 1
+   },
+   {
+    "id": "a3b043a379",
+    "title": "Kashkari says soft PCE data won't stop Fed from hiking rates - qz.com",
+    "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTFBmMnQxTDJJZjJsUVNfc2JoZXZTTHBlQ1VQRWhlZHVpeHlWSkF2QV9ETTRyeVBJbjlYVXJ6T1NKdVI2MU9sWXp2LXZIc0ktXzdmN2ZkLVpFTkZ5ZDJ4MXAwUVowb2g2c3JGT3hLaDZKYzBsQlJMSnJaLTBrNA?oc=5",
+    "source": "gnews_fed",
+    "published_utc": "2026-10-01T13:15:20+00:00",
+    "score": 7.89,
     "duplicates": 1
    },
    {
@@ -3068,12 +3102,21 @@
     "duplicates": 2
    },
    {
-    "id": "bf15add4ce",
-    "title": "Kashkari says soft PCE data won't stop Fed from hiking rates - qz.com",
-    "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTFBmMnQxTDJJZjJsUVNfc2JoZXZTTHBlQ1VQRWhlZHVpeHlWSkF2QV9ETTRyeVBJbjlYVXJ6T1NKdVI2MU9sWXp2LXZIc0ktXzdmN2ZkLVpFTkZ5ZDJ4MXAwUVowb2g2c3JGT3hLaDZKYzBsQlJMSnJaLTBrNA?oc=5",
+    "id": "2386bdb91a",
+    "title": "US Stock Futures Rise as Treasury Yields Ease and Investors Assess Micron Results: Dow Jones, S&P, Nasdaq, Wall Street - finance.yahoo.com",
+    "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQVVJTbnNYQ3dRVnJsQ2lLVlRLalQ5Z2lNS2RjNldzM2tHMFZQbXhGbVFTbjdmZ1VOajJldlVYa04tOTE0a2x3MXpIU0ZKLXJJRTN5dGhfTkY0d2haOFNGN3hFaXpnRmRxOVRLb1hLZmlqa29RcWNQRlAtV1NzZ2ZPRkMzcEUtWUZjSmlvb1N6YnR5LVhSMUZ3OEVMcw?oc=5",
+    "source": "gnews_futures",
+    "published_utc": "2026-10-01T13:17:40+00:00",
+    "score": 7.39,
+    "duplicates": 1
+   },
+   {
+    "id": "21a9ac624d",
+    "title": "Watch Fed ‘Will Do What We Need to Do’ on Inflation, Kashkari Says - Bloomberg.com",
+    "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQTkF2Sk9hVjBxSDB6THh0UXc4bTZHX3lvUTRkVm02bjFrLVYzNjF2clprR0Z5U2JVWjNaeWZrbTYtRU5aUUVDelc2VkFZUmVzRTA0SWtXbEh3Ni0temFDLTFSbW5GUkhRN2lfa2tqS0JNb1VZdWs5cHMwM3VOMXNSeTBSSExKWjNycHM2RlJBbXlQZEZmOWRVa2JoOVNEM3RUeXFtdmE0bkE4T00?oc=5",
     "source": "gnews_macro",
-    "published_utc": "2026-10-01T13:15:20+00:00",
-    "score": 7.43,
+    "published_utc": "2026-10-01T12:20:43+00:00",
+    "score": 7.23,
     "duplicates": 0
    },
    {
@@ -3082,50 +3125,24 @@
     "link": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxNNjIwcHFEUF9GcTg2RVlRRWc0WGVxTnVLYjFHbWRIWUg2ajFGWF9IVURpYzBEcnFCa3VDd0pfMWNQa1JKVGthczBVSVBjbDE5ZzBicl9zUEc3c2JTb2Vhbi0zNlR2b2dPeHA4NEhQUHhQYjVaMkRpeDBMS2k5R1l5eWhKUzl3dXZuY2o3MHhIWEtGdlBPV1FFZkJQaWxqa2hYVWVQTWtHXy02UmhHWDc5X3pSTkc2RWZFX2gzQm1XNkZzWFpxVUFBWFJyNjBkSThrbHJXQ0E2dw?oc=5",
     "source": "gnews_macro",
     "published_utc": "2026-10-01T11:58:29+00:00",
-    "score": 7.21,
+    "score": 7.17,
     "duplicates": 2
-   },
-   {
-    "id": "7393ca66d9",
-    "title": "Stock Futures Climb Despite Surging Bond Yields - Schaeffer's Investment Research",
-    "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNOWJ5UF9sakhJeW9LYjNHbnZHSk11OWFQVE01djNNQnNlUjVPWjZUTXpqS2ZUREcwOUJDWGVuZU1XODU1d0stTUltdmJRU1J0YVpVYUNDSzdqbUNkVFlTeU5CYS1tZk5vUUV2QW9ocC1JUHlSS0U2eTFpYmNMcllFQVN2aDliNW92bVJMZVpnQ083NFZ3X3J6STcyQ3BkQm40ZWNXUklsekpqMVVZ?oc=5",
-    "source": "gnews_futures",
-    "published_utc": "2026-10-01T13:08:17+00:00",
-    "score": 6.91,
-    "duplicates": 0
-   },
-   {
-    "id": "8b3e08951c",
-    "title": "Tom Lee Says Cooling Inflation Could Give US Fed Room to 'Walk Back Hawkishness' — and That's 'Good For Stocks' - finance.yahoo.com",
-    "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQQldBZ1JZTDAxdmhZQUFiTldMLXQwaDJtNERvbHhNckdzc1plUTBwOTFGU1hIWXVJOEN6dDhVSDJrYm9hV09felNEYTM5ZDUyc0VjVDJFMW1OSWF6QlczeTdCeE90NkhkOXBrU0VENnBOajFLTzRNd3JsckhhdnprM2l3RUk4YUR6Mm1LOXlDS3ppbUNFVUJZUllvQQ?oc=5",
-    "source": "gnews_macro",
-    "published_utc": "2026-10-01T10:00:18+00:00",
-    "score": 6.89,
-    "duplicates": 0
-   },
-   {
-    "id": "7e4c2eaa4a",
-    "title": "US stock futures mixed as Treasury yields hit multi-year highs, Micron lifts tech - CNBC TV18",
-    "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPZDdFNGowMzBTazFtNC1uZDBhNVRIVUZ0NEFabW52aVR2N0dGbW05dUlua2NZWmg4YVNXeGxFOU9MMk5xQXpjQkVoWTZmRnRkQzBCRjVIcHgxWUZwMVJaTE4wWnRBcnozYTZnMEdUendBVl9xYzJrX2c2MU52bnloZnVLbDZpRnBRTkwtMGFlclM3UEdZVWN0ZUw1dTd4N29CdDNYZlNlbHfSAa4BQVVfeXFMTjdyRkJMQ2xqbzVhdlNrR2N3M2ZkYzJUaFlPdGVfUnBJaTJuVzROZkxONDViRGxLQkhHY01aMDAzSEl1dHlSWnExcUdhaVkwZVdpMmFMT1RKM0duR1BEZlRBcG9rcVhRYnJMWlF6a3JTeEZDb1JKbFdsamtEMGNJaFV1RldxQnNTamtKYlptYmJTSDBRU0hJZUwtb3pwNVhvQjJpR1hhMExRTTE0end3?oc=5",
-    "source": "gnews_futures",
-    "published_utc": "2026-10-01T12:16:15+00:00",
-    "score": 6.76,
-    "duplicates": 0
    }
   ],
   "summary": {
    "lines": [
-    "Treasury yields are surging to multi-year highs and the bond selloff is relentless, yet stock futures have been rising or mixed against that backdrop, a divergence that matters for rate-sensitive Nasdaq positioning [1f53d4344a][7393ca66d9][7e4c2eaa4a][89e5e48144].",
-    "Fed officials are sending mixed signals into today's jobs report: Kashkari said inflation is \"still too high\" and soft PCE data won't stop further hiking, even as he called the labor market \"pretty good,\" while some warn the Fed/bond market signals conflict ahead of the report [74e41d1e4f][bf15add4ce][0294292e81][69ce1dad60].",
-    "Some Wall Street voices flag a 10-year yield move toward 8% as a risk (\"original sin\"), a tail scenario worth noting for rate-sensitive tech exposure [215188abad].",
-    "Separate narrative threads — cooling inflation potentially giving the Fed room to \"walk back hawkishness,\" and China-hopes-driven sentiment — are circulating as explanations for the futures/yield divergence [8b3e08951c][7911ba3b1b][7a52aef68c]."
+    "US Stock Market Today: S&P 500 Futures Edge Higher On Sticky Inflation And China Hopes - finance.yahoo.com [7911ba3b1b]",
+    "The Fed and bond market are sending opposite signals ahead of a crucial jobs report - Business Insider [0294292e81]",
+    "Metals fade as long yields offset cooler inflation, lower Fed odds - Kitco PM Report - Kitco [a582e60aaa]",
+    "Wall Street Institutions Warn: Federal Reserve Commits \"Original Sin,\" 10-Year U.S. Treasury Yield Could Head Toward 8% - news.futunn.com [215188abad]",
+    "U.S. Stock Futures Rise Despite Relentless Treasury Selloff - wsj.com [1f53d4344a]"
    ],
    "backend": "anthropic",
    "model": "claude-sonnet-5",
-   "dropped": [
-    "no valid citation: Today's Unemployment Claims (cons 201K, prior 197K) and ISM Manufacturing PMI (cons 54.8, prior 54.6) at 10:00 ET, alongside Waller's 10:00 ET speech, are the key scheduled catalysts for intraday volatility."
-   ],
-   "warnings": []
+   "dropped": [],
+   "warnings": [
+    "summariser produced no valid lines; showing digest"
+   ]
   },
   "feeds": [],
   "warnings": []
