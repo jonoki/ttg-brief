@@ -1,7 +1,7 @@
 {
  "meta": {
-  "generated_at_utc": "2026-10-01T14:40:33.943885+00:00",
-  "generated_at_local": "Thu 01 Oct 2026 11:40 ADT",
+  "generated_at_utc": "2026-10-01T14:55:52.917780+00:00",
+  "generated_at_local": "Thu 01 Oct 2026 11:55 ADT",
   "trading_day": "2026-10-01",
   "display_tz": "America/Halifax",
   "version": "0.1.0",
@@ -127,7 +127,7 @@
    "time_utc": "2026-10-02T12:30:00+00:00",
    "local": "09:30 ADT",
    "et": "08:30 ET",
-   "in": "21h 49m",
+   "in": "21h 34m",
    "consensus": "0.3%",
    "prior": "0.3%"
   },
@@ -138,10 +138,10 @@
   {
    "root": "ES",
    "trading_day": "2026-10-01",
-   "as_of_utc": "2026-10-01T14:40:33.943885+00:00",
+   "as_of_utc": "2026-10-01T14:55:52.917780+00:00",
    "source": "yahoo",
    "delayed": true,
-   "last_price": 7693.25,
+   "last_price": 7703.0,
    "levels": [
     {
      "tag": "pwh",
@@ -214,6 +214,13 @@
      "note": "2026-09-30"
     },
     {
+     "tag": "rn_major_up",
+     "label": "Round 50 above",
+     "price": 7750.0,
+     "group": "round",
+     "note": ""
+    },
+    {
      "tag": "tdh",
      "label": "Today's RTH high",
      "price": 7740.0,
@@ -233,6 +240,13 @@
      "price": 7730.0,
      "group": "today",
      "note": "09:30 bar open"
+    },
+    {
+     "tag": "rn_minor_up",
+     "label": "Round 25 above",
+     "price": 7725.0,
+     "group": "round",
+     "note": ""
     },
     {
      "tag": "pdc",
@@ -263,8 +277,8 @@
      "note": ""
     },
     {
-     "tag": "rn_major_up",
-     "label": "Round 50 above",
+     "tag": "rn_major_dn",
+     "label": "Round 50 below",
      "price": 7700.0,
      "group": "round",
      "note": ""
@@ -284,20 +298,6 @@
      "note": ""
     },
     {
-     "tag": "rn_minor_dn",
-     "label": "Round 25 below",
-     "price": 7675.0,
-     "group": "round",
-     "note": ""
-    },
-    {
-     "tag": "rn_major_dn",
-     "label": "Round 50 below",
-     "price": 7650.0,
-     "group": "round",
-     "note": ""
-    },
-    {
      "tag": "exp_lo",
      "label": "Expected-range low (close − ATR)",
      "price": 7630.86,
@@ -306,8 +306,8 @@
     }
    ],
    "stats": {
-    "last_bar_utc": "2026-10-01T14:30:00+00:00",
-    "last_bar_age_min": 10.6,
+    "last_bar_utc": "2026-10-01T14:45:00+00:00",
+    "last_bar_age_min": 10.9,
     "market_state": "open",
     "profile_volume": 1450055.0,
     "prior_day": "2026-09-30",
@@ -1597,9 +1597,17 @@
     {
      "t": "2026-10-01T14:30:00+00:00",
      "o": 7689.5,
-     "h": 7695.0,
-     "l": 7687.75,
-     "c": 7693.25,
+     "h": 7707.75,
+     "l": 7686.75,
+     "c": 7699.75,
+     "v": 82712.0
+    },
+    {
+     "t": "2026-10-01T14:45:00+00:00",
+     "o": 7699.5,
+     "h": 7705.25,
+     "l": 7698.75,
+     "c": 7703.0,
      "v": 0.0
     }
    ]
@@ -1607,10 +1615,10 @@
   {
    "root": "NQ",
    "trading_day": "2026-10-01",
-   "as_of_utc": "2026-10-01T14:40:33.943885+00:00",
+   "as_of_utc": "2026-10-01T14:55:52.917780+00:00",
    "source": "yahoo",
    "delayed": true,
-   "last_price": 30633.25,
+   "last_price": 30699.75,
    "levels": [
     {
      "tag": "exp_hi",
@@ -1732,8 +1740,8 @@
      "note": "2026-09-30"
     },
     {
-     "tag": "rn_minor_up",
-     "label": "Round 50 above",
+     "tag": "rn_minor_dn",
+     "label": "Round 50 below",
      "price": 30650.0,
      "group": "round",
      "note": ""
@@ -1775,8 +1783,8 @@
     }
    ],
    "stats": {
-    "last_bar_utc": "2026-10-01T14:30:00+00:00",
-    "last_bar_age_min": 10.6,
+    "last_bar_utc": "2026-10-01T14:45:00+00:00",
+    "last_bar_age_min": 10.9,
     "market_state": "open",
     "profile_volume": 413384.0,
     "prior_day": "2026-09-30",
@@ -3058,9 +3066,17 @@
     {
      "t": "2026-10-01T14:30:00+00:00",
      "o": 30618.5,
-     "h": 30643.0,
-     "l": 30605.5,
-     "c": 30633.25,
+     "h": 30726.5,
+     "l": 30601.75,
+     "c": 30677.75,
+     "v": 30588.0
+    },
+    {
+     "t": "2026-10-01T14:45:00+00:00",
+     "o": 30680.0,
+     "h": 30709.5,
+     "l": 30673.75,
+     "c": 30699.75,
      "v": 0.0
     }
    ]
@@ -3074,16 +3090,16 @@
     "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNb1BjTlVWUGo2dkYzWkt2TURENGVIOGhLVWZxN01NNEFuUm83WXhiLUNSM0hoM1BUblVtb3BYdFlOa0xSQURWaS0xa0hFWWp2OUZrUFdOS2VrcDJRcEJQQkt4RXQ2eVB1TDVYRDFiM2oyZGdCd2ZFNnJaY2J0Q28zcDZ3RWtXdkVvZG5ZS3ZqNjNvQQ?oc=5",
     "source": "gnews_futures",
     "published_utc": "2026-10-01T08:08:15+00:00",
-    "score": 8.91,
+    "score": 8.87,
     "duplicates": 2
    },
    {
     "id": "0294292e81",
-    "title": "The Fed and bond market are sending opposite signals ahead of a crucial jobs report - businessinsider.com",
+    "title": "The Fed and bond market are sending opposite signals ahead of a crucial jobs report - Business Insider",
     "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxOSThoQWU1aHdYbUpKZVc1bzljd2VTUXU0cmFiVkxMUUZBaGxGaVUtSnRNYWlmS0VzUjY0dHlnUzd2NC0wVk1nRUluaF96b0kxbWhlUmxPeWdGZi1rTWZHZWs4b2hpT2ZxV1JzN3k3bF9DQjNON1pheEItY01CN0ktWUlFNlM3QnF0RmlJU2pkYU9xZi15UTNzdEFKV0lPZw?oc=5",
     "source": "gnews_macro",
     "published_utc": "2026-10-01T09:50:00+00:00",
-    "score": 8.69,
+    "score": 8.65,
     "duplicates": 0
    },
    {
@@ -3092,7 +3108,7 @@
     "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQcVZZVHBwTmV6cVJKbkJMa1hOcFJBUDhldE9oVzZNb3pVajRTcGMyVGwyWmxVZHJoc1AzZExZWkxDNGZZVEhIQ0JmSFkyZWIzOTc0RGpQajRicjFEWEpyYTlGQ0Z1eHdXYWt0NmJacDVZcG1GVmkwWjd1U2VCN1cwbFZSVElLMnFocC1DUm5xVHRSQVU1TWdPX0Q4MTZ0M2NzelEzWUU5N2Fxb1pXQlhycjFMX0dXUWk5?oc=5",
     "source": "gnews_macro",
     "published_utc": "2026-10-01T09:42:10+00:00",
-    "score": 8.67,
+    "score": 8.63,
     "duplicates": 0
    },
    {
@@ -3101,16 +3117,16 @@
     "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPek5jV1FLUWhRUVVfX1J4NkZzblhLemgyYVE5Wm02cWVUaS1MZjRHcWs1OTBzLXF2VEUydUhadTFMREdHMThMZ0ZldmRpQTJzMUFwcW1JWEE2ay1tNDNaSmpIVmJwYnk1TXgtS2Z6eGlSWEZ4MEhxVnRxZGhWdC1Za2sycmZLTGx5R1JsXzZaSHdOSVBiYTBxR1NPb1lfNEFnWFgyYlNIXzIxYWVJVEpWbHln?oc=5",
     "source": "gnews_fed",
     "published_utc": "2026-10-01T10:37:00+00:00",
-    "score": 8.32,
+    "score": 8.28,
     "duplicates": 0
    },
    {
-    "id": "1f53d4344a",
-    "title": "U.S. Stock Futures Rise Despite Relentless Treasury Selloff - wsj.com",
-    "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPcnZkOERkMEgyaXA5NUNuN25uUDZzN1NKVnpiWmZuVXRoWFZZNVB5X3J2LWhIUDRscFRuOUZtNFhVRjNVSXFnV1hPQzNWZzBJMmtPa0RhTzdUVWEydS1za181MkQxSE9iZ1M0OWwwalh2M0Y3MlVzZTR1WUxiUFMwMmpIQkdWUVNwaXhhQWc3eDc1aUI0?oc=5",
+    "id": "e1867b8b53",
+    "title": "U.S. Stock Futures Rise Despite Relentless Treasury Selloff - Yahoo Finance",
+    "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxON0VNaWRnRHlxTGxOMDRtenFoZmtfNVVJclhsWjBSdk5jSlVKUENHQVZ3UEoxR0kxcXhJc0JJWE1BeUtnZFgwNXo1YTRzYTFFX3JNbmt4Umc5Q3l0LXc4NFV0akU2aV9zRjZuOVRURFJucnhHaUhOUk9jaFMxUHRqOVNUWFlaTVFYVC1RZEFVSXc4bW5ESlQ5SkRGZGpxRFk?oc=5",
     "source": "gnews_futures",
     "published_utc": "2026-10-01T13:17:00+00:00",
-    "score": 8.27,
+    "score": 8.23,
     "duplicates": 0
    },
    {
@@ -3128,17 +3144,8 @@
     "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQVVJTbnNYQ3dRVnJsQ2lLVlRLalQ5Z2lNS2RjNldzM2tHMFZQbXhGbVFTbjdmZ1VOajJldlVYa04tOTE0a2x3MXpIU0ZKLXJJRTN5dGhfTkY0d2haOFNGN3hFaXpnRmRxOVRLb1hLZmlqa29RcWNQRlAtV1NzZ2ZPRkMzcEUtWUZjSmlvb1N6YnR5LVhSMUZ3OEVMcw?oc=5",
     "source": "gnews_futures",
     "published_utc": "2026-10-01T13:17:40+00:00",
-    "score": 7.77,
+    "score": 7.73,
     "duplicates": 2
-   },
-   {
-    "id": "a3b043a379",
-    "title": "Kashkari says soft PCE data won't stop Fed from hiking rates - qz.com",
-    "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTFBmMnQxTDJJZjJsUVNfc2JoZXZTTHBlQ1VQRWhlZHVpeHlWSkF2QV9ETTRyeVBJbjlYVXJ6T1NKdVI2MU9sWXp2LXZIc0ktXzdmN2ZkLVpFTkZ5ZDJ4MXAwUVowb2g2c3JGT3hLaDZKYzBsQlJMSnJaLTBrNA?oc=5",
-    "source": "gnews_fed",
-    "published_utc": "2026-10-01T13:15:20+00:00",
-    "score": 7.76,
-    "duplicates": 1
    },
    {
     "id": "69ce1dad60",
@@ -3164,7 +3171,16 @@
     "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPdjlGdmpwTWJHMTdWbmpQZ1FiY0NnaTVkQWJyWlRrZFpJX0xJTV9pRzgxX0txSmdGRFk0aDkyY29EMHJINlhFbEZkbVcxeW15endvampuS2w0eVJNRWo2U1RFaGNCQ0Z2WHBfMlVIME9Melk5dUNybnBzdldUeEdMTC1xLU1Sd0d1MjluSWdkaTl0WVg0eDBJ?oc=5",
     "source": "gnews_macro",
     "published_utc": "2026-10-01T14:34:00+00:00",
-    "score": 7.48,
+    "score": 7.44,
+    "duplicates": 0
+   },
+   {
+    "id": "bf15add4ce",
+    "title": "Kashkari says soft PCE data won't stop Fed from hiking rates - qz.com",
+    "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTFBmMnQxTDJJZjJsUVNfc2JoZXZTTHBlQ1VQRWhlZHVpeHlWSkF2QV9ETTRyeVBJbjlYVXJ6T1NKdVI2MU9sWXp2LXZIc0ktXzdmN2ZkLVpFTkZ5ZDJ4MXAwUVowb2g2c3JGT3hLaDZKYzBsQlJMSnJaLTBrNA?oc=5",
+    "source": "gnews_macro",
+    "published_utc": "2026-10-01T13:15:20+00:00",
+    "score": 7.22,
     "duplicates": 0
    },
    {
@@ -3173,21 +3189,22 @@
     "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQOFM2WVZQd1BiQXVXVDFFVmQtdEdfcHMtMjlwRnlxc1B1UThMZ3hWb1phbU9rRWthd0xHYVZBM01jZFFfMHpBZUdTY0M2LTlVeEpYRF9FQ0pIdVhQeVhKUEZ5SGpIalF6c21RUUtNRTFtTzdGdmdjUkl6anc4ZDlfaXd3TzYwcElXNlRfTzVxT045QjhEZDY1S2dla0ZfLVpTOXBoLS1QT09tM3VGYUE2Q1Q4VHhKR1YxRVE?oc=5",
     "source": "gnews_macro",
     "published_utc": "2026-10-01T12:43:16+00:00",
-    "score": 7.17,
+    "score": 7.13,
     "duplicates": 2
    }
   ],
   "summary": {
    "lines": [
-    "Treasury yields keep climbing even as futures rise, with some Wall Street voices flagging the 10-year could head toward 8%, so bond-market moves may drive index volatility into the open [1f53d4344a][89e5e48144][215188abad].",
-    "Fed officials (Kashkari, Waller watch today at 10:00 ET) continue stressing inflation is still too high and should take priority over a stable labor market, keeping rate-path uncertainty alive ahead of the jobs report [74e41d1e4f][a3b043a379][5503d9e4d3].",
-    "The Fed and bond market are reportedly sending opposite signals ahead of the crucial jobs report, adding to cross-asset positioning risk before 08:30 ET Claims [0294292e81].",
-    "Cooler PCE/inflation data is being offset by higher long yields in metals and gold, underscoring a tug-of-war between disinflation hopes and yield pressure that could spill into equity futures [a582e60aaa][f75fb4a1ca].",
-    "Futures are also tracking Micron earnings and China-related sentiment alongside the yield story, a secondary driver for intraday flow [2386bdb91a][7911ba3b1b]."
+    "Treasury yields keep climbing even as futures rise, a divergence traders should watch since higher long yields can pressure equity multiples heading into the cash open [e1867b8b53][89e5e48144][215188abad].",
+    "Fed officials are split in tone: Kashkari says inflation is \"still too high\" and soft PCE won't stop hiking, while other officials say inflation should take priority with labor market \"stable,\" creating cross-currents ahead of Waller's 10:00 ET speech [74e41d1e4f][bf15add4ce][5503d9e4d3][69ce1dad60].",
+    "Bond market signals and Fed messaging are described as conflicting ahead of the jobs report, adding uncertainty around rate-path expectations [0294292e81].",
+    "Gold and metals are reacting to the inflation/yield tug-of-war, with cooler inflation data offset by higher yields lowering Fed-cut odds [f75fb4a1ca][a582e60aaa]."
    ],
    "backend": "anthropic",
    "model": "claude-sonnet-5",
-   "dropped": [],
+   "dropped": [
+    "ungrounded number(s) ['09']: Futures are also tracking Micron results and China-related headlines alongside sticky inflation commentary, adding stock-specific and macro crosscurrents into the 09:30 open [2386bdb91a][7911ba3b1b]."
+   ],
    "warnings": []
   },
   "feeds": [],
