@@ -1,11 +1,11 @@
 {
  "meta": {
-  "generated_at_utc": "2026-10-01T12:27:36.012351+00:00",
-  "generated_at_local": "Thu 01 Oct 2026 09:27 ADT",
+  "generated_at_utc": "2026-10-01T12:40:04.074566+00:00",
+  "generated_at_local": "Thu 01 Oct 2026 09:40 ADT",
   "trading_day": "2026-10-01",
   "display_tz": "America/Halifax",
   "version": "0.1.0",
-  "run": "overnight",
+  "run": "post-data",
   "variant": "public"
  },
  "calendar": {
@@ -122,14 +122,14 @@
    }
   ],
   "next_event": {
-   "name": "Unemployment Claims",
+   "name": "FOMC Member Waller Speaks",
    "impact": "medium",
-   "time_utc": "2026-10-01T12:30:00+00:00",
-   "local": "09:30 ADT",
-   "et": "08:30 ET",
-   "in": "2 min",
-   "consensus": "201K",
-   "prior": "197K"
+   "time_utc": "2026-10-01T14:00:00+00:00",
+   "local": "11:00 ADT",
+   "et": "10:00 ET",
+   "in": "1h 19m",
+   "consensus": null,
+   "prior": null
   },
   "sources": [],
   "warnings": []
@@ -138,10 +138,10 @@
   {
    "root": "ES",
    "trading_day": "2026-10-01",
-   "as_of_utc": "2026-10-01T12:27:36.012351+00:00",
+   "as_of_utc": "2026-10-01T12:40:04.074566+00:00",
    "source": "yahoo",
    "delayed": true,
-   "last_price": 7741.0,
+   "last_price": 7741.5,
    "levels": [
     {
      "tag": "pwh",
@@ -190,7 +190,7 @@
      "label": "Overnight high",
      "price": 7767.75,
      "group": "overnight",
-     "note": "since 18:00 ET, 848 bars"
+     "note": "since 18:00 ET, 861 bars"
     },
     {
      "tag": "pwl",
@@ -223,7 +223,7 @@
     {
      "tag": "onvwap",
      "label": "Overnight VWAP",
-     "price": 7735.45,
+     "price": 7735.64,
      "group": "overnight",
      "note": "typical-price VWAP"
     },
@@ -285,14 +285,14 @@
     }
    ],
    "stats": {
-    "last_bar_utc": "2026-10-01T12:17:00+00:00",
-    "last_bar_age_min": 10.6,
+    "last_bar_utc": "2026-10-01T12:30:00+00:00",
+    "last_bar_age_min": 10.1,
     "market_state": "open",
     "profile_volume": 1450055.0,
     "prior_day": "2026-09-30",
     "prior_day_rth_range": 72.75,
     "overnight_range": 62.75,
-    "gap_vs_prior_close": 28.0,
+    "gap_vs_prior_close": 28.5,
     "gap_basis": "last price (pre-market)",
     "atr14": 82.14,
     "atr_days": 14,
@@ -1504,20 +1504,28 @@
     {
      "t": "2026-10-01T12:15:00+00:00",
      "o": 7741.25,
-     "h": 7743.0,
-     "l": 7739.25,
-     "c": 7741.0,
-     "v": 1259.0
+     "h": 7744.75,
+     "l": 7737.5,
+     "c": 7742.0,
+     "v": 12166.0
+    },
+    {
+     "t": "2026-10-01T12:30:00+00:00",
+     "o": 7742.25,
+     "h": 7744.5,
+     "l": 7740.5,
+     "c": 7741.5,
+     "v": 0.0
     }
    ]
   },
   {
    "root": "NQ",
    "trading_day": "2026-10-01",
-   "as_of_utc": "2026-10-01T12:27:36.012351+00:00",
+   "as_of_utc": "2026-10-01T12:40:04.074566+00:00",
    "source": "yahoo",
    "delayed": true,
-   "last_price": 30850.75,
+   "last_price": 30853.75,
    "levels": [
     {
      "tag": "exp_hi",
@@ -1531,7 +1539,7 @@
      "label": "Overnight high",
      "price": 31151.5,
      "group": "overnight",
-     "note": "since 18:00 ET, 848 bars"
+     "note": "since 18:00 ET, 861 bars"
     },
     {
      "tag": "wh",
@@ -1564,7 +1572,7 @@
     {
      "tag": "onvwap",
      "label": "Overnight VWAP",
-     "price": 30894.73,
+     "price": 30893.78,
      "group": "overnight",
      "note": "typical-price VWAP"
     },
@@ -1661,14 +1669,14 @@
     }
    ],
    "stats": {
-    "last_bar_utc": "2026-10-01T12:17:00+00:00",
-    "last_bar_age_min": 10.6,
+    "last_bar_utc": "2026-10-01T12:30:00+00:00",
+    "last_bar_age_min": 10.1,
     "market_state": "open",
     "profile_volume": 413384.0,
     "prior_day": "2026-09-30",
     "prior_day_rth_range": 225.25,
     "overnight_range": 467.0,
-    "gap_vs_prior_close": 157.0,
+    "gap_vs_prior_close": 160.0,
     "gap_basis": "last price (pre-market)",
     "atr14": 488.49,
     "atr_days": 14,
@@ -2872,10 +2880,18 @@
     {
      "t": "2026-10-01T12:15:00+00:00",
      "o": 30852.0,
-     "h": 30862.5,
-     "l": 30839.0,
-     "c": 30850.75,
-     "v": 376.0
+     "h": 30870.75,
+     "l": 30830.0,
+     "c": 30858.75,
+     "v": 3823.0
+    },
+    {
+     "t": "2026-10-01T12:30:00+00:00",
+     "o": 30856.75,
+     "h": 30870.25,
+     "l": 30848.0,
+     "c": 30853.75,
+     "v": 0.0
     }
    ]
   }
@@ -3011,7 +3027,16 @@
  },
  "flags": [],
  "earnings": {
-  "reported": [],
+  "reported": [
+   {
+    "symbol": "MU",
+    "name": "Micron Technology, Inc.",
+    "timing": "unknown",
+    "date": "2026-09-30",
+    "reported_at": "9/30/2026",
+    "reported": true
+   }
+  ],
   "today": [
    {
     "symbol": "ACN",
