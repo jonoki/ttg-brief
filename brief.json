@@ -1,11 +1,11 @@
 {
  "meta": {
-  "generated_at_utc": "2026-10-02T15:59:47.077033+00:00",
-  "generated_at_local": "Fri 02 Oct 2026 12:59 ADT",
+  "generated_at_utc": "2026-10-02T20:05:01.956460+00:00",
+  "generated_at_local": "Fri 02 Oct 2026 17:05 ADT",
   "trading_day": "2026-10-02",
   "display_tz": "America/Halifax",
   "version": "0.1.0",
-  "run": "intraday",
+  "run": "post-close",
   "variant": "public"
  },
  "calendar": {
@@ -75,17 +75,17 @@
   {
    "root": "ES",
    "trading_day": "2026-10-02",
-   "as_of_utc": "2026-10-02T15:59:47.077033+00:00",
+   "as_of_utc": "2026-10-02T20:05:01.956460+00:00",
    "source": "yahoo",
    "delayed": true,
-   "last_price": 7772.25,
+   "last_price": 7777.5,
    "levels": [
     {
      "tag": "tdh",
      "label": "Today's RTH high",
      "price": 7810.25,
      "group": "today",
-     "note": "so far"
+     "note": "session complete"
     },
     {
      "tag": "wh",
@@ -123,8 +123,15 @@
      "note": "09:30 bar open"
     },
     {
-     "tag": "rn_minor_up",
-     "label": "Round 25 above",
+     "tag": "tdc",
+     "label": "Today's RTH close (16:00 bar)",
+     "price": 7777.5,
+     "group": "today",
+     "note": "becomes next session's prior-day close"
+    },
+    {
+     "tag": "rn_minor_dn",
+     "label": "Round 25 below",
      "price": 7775.0,
      "group": "round",
      "note": ""
@@ -229,8 +236,8 @@
     }
    ],
    "stats": {
-    "last_bar_utc": "2026-10-02T15:49:00+00:00",
-    "last_bar_age_min": 10.8,
+    "last_bar_utc": "2026-10-02T19:55:00+00:00",
+    "last_bar_age_min": 10.0,
     "market_state": "open",
     "profile_volume": 1687242.0,
     "prior_day": "2026-10-01",
@@ -1553,26 +1560,154 @@
      "t": "2026-10-02T15:45:00+00:00",
      "o": 7773.0,
      "h": 7776.25,
+     "l": 7768.0,
+     "c": 7775.25,
+     "v": 47302.0
+    },
+    {
+     "t": "2026-10-02T16:00:00+00:00",
+     "o": 7775.5,
+     "h": 7782.25,
+     "l": 7773.75,
+     "c": 7778.25,
+     "v": 48639.0
+    },
+    {
+     "t": "2026-10-02T16:15:00+00:00",
+     "o": 7778.5,
+     "h": 7781.0,
      "l": 7771.0,
      "c": 7772.25,
-     "v": 14040.0
+     "v": 36677.0
+    },
+    {
+     "t": "2026-10-02T16:30:00+00:00",
+     "o": 7772.5,
+     "h": 7781.75,
+     "l": 7769.75,
+     "c": 7773.0,
+     "v": 34603.0
+    },
+    {
+     "t": "2026-10-02T16:45:00+00:00",
+     "o": 7772.75,
+     "h": 7779.25,
+     "l": 7770.75,
+     "c": 7776.0,
+     "v": 30265.0
+    },
+    {
+     "t": "2026-10-02T17:00:00+00:00",
+     "o": 7776.0,
+     "h": 7783.75,
+     "l": 7773.0,
+     "c": 7775.75,
+     "v": 29859.0
+    },
+    {
+     "t": "2026-10-02T17:15:00+00:00",
+     "o": 7776.0,
+     "h": 7779.5,
+     "l": 7765.5,
+     "c": 7767.5,
+     "v": 35274.0
+    },
+    {
+     "t": "2026-10-02T17:30:00+00:00",
+     "o": 7767.25,
+     "h": 7776.0,
+     "l": 7766.75,
+     "c": 7772.0,
+     "v": 33394.0
+    },
+    {
+     "t": "2026-10-02T17:45:00+00:00",
+     "o": 7772.25,
+     "h": 7777.5,
+     "l": 7769.0,
+     "c": 7774.5,
+     "v": 30758.0
+    },
+    {
+     "t": "2026-10-02T18:00:00+00:00",
+     "o": 7774.5,
+     "h": 7776.25,
+     "l": 7771.5,
+     "c": 7775.25,
+     "v": 21710.0
+    },
+    {
+     "t": "2026-10-02T18:15:00+00:00",
+     "o": 7775.0,
+     "h": 7775.25,
+     "l": 7767.25,
+     "c": 7772.25,
+     "v": 24172.0
+    },
+    {
+     "t": "2026-10-02T18:30:00+00:00",
+     "o": 7772.25,
+     "h": 7775.75,
+     "l": 7770.0,
+     "c": 7775.0,
+     "v": 21548.0
+    },
+    {
+     "t": "2026-10-02T18:45:00+00:00",
+     "o": 7775.25,
+     "h": 7777.0,
+     "l": 7773.75,
+     "c": 7775.5,
+     "v": 18423.0
+    },
+    {
+     "t": "2026-10-02T19:00:00+00:00",
+     "o": 7775.75,
+     "h": 7777.0,
+     "l": 7772.0,
+     "c": 7774.0,
+     "v": 21468.0
+    },
+    {
+     "t": "2026-10-02T19:15:00+00:00",
+     "o": 7774.25,
+     "h": 7778.5,
+     "l": 7773.0,
+     "c": 7775.5,
+     "v": 26900.0
+    },
+    {
+     "t": "2026-10-02T19:30:00+00:00",
+     "o": 7775.5,
+     "h": 7782.75,
+     "l": 7775.25,
+     "c": 7778.25,
+     "v": 32751.0
+    },
+    {
+     "t": "2026-10-02T19:45:00+00:00",
+     "o": 7778.25,
+     "h": 7782.75,
+     "l": 7774.25,
+     "c": 7777.5,
+     "v": 35748.0
     }
    ]
   },
   {
    "root": "NQ",
    "trading_day": "2026-10-02",
-   "as_of_utc": "2026-10-02T15:59:47.077033+00:00",
+   "as_of_utc": "2026-10-02T20:05:01.956460+00:00",
    "source": "yahoo",
    "delayed": true,
-   "last_price": 31080.0,
+   "last_price": 31059.75,
    "levels": [
     {
      "tag": "tdh",
      "label": "Today's RTH high",
      "price": 31282.5,
      "group": "today",
-     "note": "so far"
+     "note": "session complete"
     },
     {
      "tag": "wh",
@@ -1615,6 +1750,13 @@
      "price": 31100.0,
      "group": "round",
      "note": ""
+    },
+    {
+     "tag": "tdc",
+     "label": "Today's RTH close (16:00 bar)",
+     "price": 31059.75,
+     "group": "today",
+     "note": "becomes next session's prior-day close"
     },
     {
      "tag": "rn_minor_dn",
@@ -1716,8 +1858,8 @@
     }
    ],
    "stats": {
-    "last_bar_utc": "2026-10-02T15:49:00+00:00",
-    "last_bar_age_min": 10.8,
+    "last_bar_utc": "2026-10-02T19:55:00+00:00",
+    "last_bar_age_min": 10.0,
     "market_state": "open",
     "profile_volume": 594954.0,
     "prior_day": "2026-10-01",
@@ -3039,10 +3181,138 @@
     {
      "t": "2026-10-02T15:45:00+00:00",
      "o": 31078.25,
-     "h": 31102.5,
-     "l": 31073.25,
-     "c": 31080.0,
-     "v": 5015.0
+     "h": 31109.75,
+     "l": 31055.0,
+     "c": 31101.25,
+     "v": 17010.0
+    },
+    {
+     "t": "2026-10-02T16:00:00+00:00",
+     "o": 31102.0,
+     "h": 31129.25,
+     "l": 31087.25,
+     "c": 31117.0,
+     "v": 12325.0
+    },
+    {
+     "t": "2026-10-02T16:15:00+00:00",
+     "o": 31116.0,
+     "h": 31130.25,
+     "l": 31067.5,
+     "c": 31071.25,
+     "v": 10669.0
+    },
+    {
+     "t": "2026-10-02T16:30:00+00:00",
+     "o": 31071.0,
+     "h": 31109.25,
+     "l": 31044.0,
+     "c": 31056.5,
+     "v": 9444.0
+    },
+    {
+     "t": "2026-10-02T16:45:00+00:00",
+     "o": 31057.5,
+     "h": 31083.75,
+     "l": 31042.0,
+     "c": 31071.5,
+     "v": 8722.0
+    },
+    {
+     "t": "2026-10-02T17:00:00+00:00",
+     "o": 31071.75,
+     "h": 31108.5,
+     "l": 31045.5,
+     "c": 31057.5,
+     "v": 9009.0
+    },
+    {
+     "t": "2026-10-02T17:15:00+00:00",
+     "o": 31057.25,
+     "h": 31076.75,
+     "l": 31001.75,
+     "c": 31007.75,
+     "v": 11440.0
+    },
+    {
+     "t": "2026-10-02T17:30:00+00:00",
+     "o": 31007.25,
+     "h": 31045.0,
+     "l": 30994.75,
+     "c": 31030.5,
+     "v": 9595.0
+    },
+    {
+     "t": "2026-10-02T17:45:00+00:00",
+     "o": 31030.75,
+     "h": 31061.25,
+     "l": 31020.25,
+     "c": 31047.75,
+     "v": 8817.0
+    },
+    {
+     "t": "2026-10-02T18:00:00+00:00",
+     "o": 31048.0,
+     "h": 31057.5,
+     "l": 31028.5,
+     "c": 31050.0,
+     "v": 5087.0
+    },
+    {
+     "t": "2026-10-02T18:15:00+00:00",
+     "o": 31050.25,
+     "h": 31050.5,
+     "l": 31011.25,
+     "c": 31036.0,
+     "v": 6938.0
+    },
+    {
+     "t": "2026-10-02T18:30:00+00:00",
+     "o": 31036.0,
+     "h": 31046.75,
+     "l": 31017.0,
+     "c": 31041.75,
+     "v": 5936.0
+    },
+    {
+     "t": "2026-10-02T18:45:00+00:00",
+     "o": 31041.5,
+     "h": 31055.5,
+     "l": 31036.0,
+     "c": 31043.0,
+     "v": 4720.0
+    },
+    {
+     "t": "2026-10-02T19:00:00+00:00",
+     "o": 31043.75,
+     "h": 31054.0,
+     "l": 31026.75,
+     "c": 31040.0,
+     "v": 6871.0
+    },
+    {
+     "t": "2026-10-02T19:15:00+00:00",
+     "o": 31040.25,
+     "h": 31061.5,
+     "l": 31032.25,
+     "c": 31050.5,
+     "v": 10182.0
+    },
+    {
+     "t": "2026-10-02T19:30:00+00:00",
+     "o": 31050.5,
+     "h": 31090.75,
+     "l": 31049.25,
+     "c": 31069.0,
+     "v": 9484.0
+    },
+    {
+     "t": "2026-10-02T19:45:00+00:00",
+     "o": 31069.0,
+     "h": 31090.0,
+     "l": 31039.5,
+     "c": 31059.75,
+     "v": 9958.0
     }
    ]
   }
@@ -3050,21 +3320,102 @@
  "news": {
   "headlines": [
    {
+    "id": "dc8aff5c54",
+    "title": "Even a missed jobs report and the Fed talking dovish aren’t keeping yields lower - HousingWire",
+    "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQRHl0UDU5d1BQUnBiMVIwcy1iWkk4eTFYMmJsUFJQTGNNODhJQzhiSXNwRmVtVWlIN3dTZ0xEQkpjSGo1Zm5kNElmd2Y2S1J6TWoyMmdjZkR5QmZVVWpZdWpya0I3b3RTWno5ekVqTFZzenQ2am1TVVd5TmFIZmlYVFFEdnpfUDRFZlQyRTRPbG5mdlQ3am5aSTJiNXdzdjRWTk96X1I5eGNzam1jTC04dlR1Zm91RWdq?oc=5",
+    "source": "gnews_macro",
+    "published_utc": "2026-10-02T17:32:10+00:00",
+    "score": 9.08,
+    "duplicates": 0
+   },
+   {
+    "id": "e5536112f9",
+    "title": "Traders now see little chance of a Fed rate hike in October after weak jobs report",
+    "link": "https://www.cnbc.com/2026/10/02/fed-rate-hike-odds-decline-after-september-jobs-report.html",
+    "source": "cnbc_markets",
+    "published_utc": "2026-10-02T13:29:27+00:00",
+    "score": 8.4,
+    "duplicates": 2
+   },
+   {
     "id": "7a10b00932",
     "title": "Treasury yields sink after weak September jobs report dims October Fed hike odds - qz.com",
     "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE5JVm9YT2xucW1TQXhFUlFieVJIOWlrVGxlRzRtQkl1eFAxQ1diQXQ3Qkpvc2hwcDV5cXBpSmhLRDBZaU05dUc1T2s1MFZIZy1xendWNkdGTlFOX0pVeTNfaDBnU3Ixa3hUMnBNaVpKRXA1eUU0dXhpalhhVFhiZw?oc=5",
     "source": "gnews_macro",
     "published_utc": "2026-10-02T13:16:51+00:00",
-    "score": 9.05,
+    "score": 8.37,
     "duplicates": 0
    },
    {
-    "id": "b839a8d5ca",
-    "title": "U.S. stock futures jump 1% as traders pare Fed rate hike bets after jobs report - Investing.com",
-    "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOcDNuM1ZnbVdlVENuTkRDZWc0Y0lxTHJNQ0JrcUt4eHA2RVNycmZIZU5nQVN3bzhtUFpaRUQ0YlkzVXkyV3dxWldpNlpYdnZ3YlJEeTJqdnFaZzJfa25ucFBUTlRLSFQ0V1VwRlRZakFhNHdkSmtKNmZaRFptQXJRWWx1c3ZESGgwQS0xTl9Rbjl5NWpRSEExZ2l5a1gtNGJkZTc0Y29FZXItcEltek56OE43eFNibzVS?oc=5",
+    "id": "766bdd0ae4",
+    "title": "Yields move lower. Stock futures point to a higher open. The USD falls after jobs report - investingLive",
+    "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQYUgzMDFmRG9BbXk4WS1RTWV2NWp4ZFFzYTBsOW10WTl3RjNBcXpsTTBPZFpkTE13NWViWGFRVWNaWl9qTk4wTjZWTUdZSzV6dGlHTlZIRVZBMjRNUHVHeXdLejNVZGJTRW5QMzJGN2tzeTNKay1GV0RidjVzNXhDaHBUZ19Ecm9Pc05pd09iUGJUNGY3Wkd4VU54M3cxUHNrRDY4MWFnWVVwVnNLNFQ1SW1aZnQza1FPUGRnUVJ2LU55WTBfWUZBWmlwblo?oc=5",
     "source": "gnews_futures",
-    "published_utc": "2026-10-02T00:46:13+00:00",
-    "score": 8.5,
+    "published_utc": "2026-10-02T13:04:41+00:00",
+    "score": 8.33,
+    "duplicates": 0
+   },
+   {
+    "id": "697f034cfe",
+    "title": "Update: US Equity Indexes Advance as Weak Jobs Report Cuts Hawkish Outlook for Fed Policy in October - Yahoo Finance",
+    "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOWkhmUFU3UjY2OWVrVnFFenU5d0JtQmpMMTFTWjR3SU1tYld1Y0tIZTNaVGFkTUlKQXVIMm1qMUlvNWV0RlBpRWI2S3djbU1DVGFiRlJ5eFFsNU1GNlFhVmNGRm5PU2tpVGl0WUlpLXNKcnlaM2tqcU1tVXQ0MGN4LXF3WENGR1NTT3ZEbW1GRmNicTZ1X2VEcDdFYw?oc=5",
+    "source": "gnews_macro",
+    "published_utc": "2026-10-02T18:29:37+00:00",
+    "score": 8.23,
+    "duplicates": 0
+   },
+   {
+    "id": "0769daf091",
+    "title": "10-year Treasury yield ticks higher despite weaker-than-expected jobs report",
+    "link": "https://www.cnbc.com/2026/10/02/treasury-yields-bonds-nonfarm-payrolls.html",
+    "source": "cnbc_markets",
+    "published_utc": "2026-10-02T20:03:56+00:00",
+    "score": 8.0,
+    "duplicates": 1
+   },
+   {
+    "id": "fa80355493",
+    "title": "Federal Reserve Board announces it will extend, until November 4, the comment period on its proposal to modernize Regulation O",
+    "link": "https://www.federalreserve.gov/newsevents/pressreleases/bcreg20261002a.htm",
+    "source": "fed_press",
+    "published_utc": "2026-10-02T20:00:00+00:00",
+    "score": 7.99,
+    "duplicates": 0
+   },
+   {
+    "id": "8877df2110",
+    "title": "Federal Reserve Board issues enforcement action with Ontario Bancorporation, Inc.",
+    "link": "https://www.federalreserve.gov/newsevents/pressreleases/enforcement20261002a.htm",
+    "source": "fed_press",
+    "published_utc": "2026-10-02T15:00:00+00:00",
+    "score": 7.65,
+    "duplicates": 1
+   },
+   {
+    "id": "a9e77c84a7",
+    "title": "DOJ own't reopen criminal probe into former Fed chair Powell - report (TLT:NASDAQ) - Seeking Alpha",
+    "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPTHVwZW03SDVzRXdWSERjX3RPN3NHTnpKN3RzdFN4VFRITy1FTDYtWHg2UG1DSm9OcG85Y0dxUUlTc01sRG52MmswSy1IbHlHd09QZ0prUTluTmNRUGktcDUyLWdXWm9Qby1WZ1hBMUd0dGlVLVpoUE11NU1RYl9QRS1hWjlUUHo0Y2o4Q3R0d2dRZTc1NDBZb09qOVRzVXF5Z2JvTmNNMA?oc=5",
+    "source": "gnews_fed",
+    "published_utc": "2026-10-02T19:32:04+00:00",
+    "score": 7.41,
+    "duplicates": 1
+   },
+   {
+    "id": "d81dc631fd",
+    "title": "Stubborn inflation, consistent growth shift Fed debate to timing of next hike - baltimoresun.com",
+    "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQRkFhM1JWWWc0RUNQcnpFaGhDbEQ1RlZ0TUZmTWlyeDdHT1EyYzJCZGZYMkpSRGNrNElsa2dpOEsxNE9QaU1ncngxN2VLUDZXS2d4cGRxQmQwaHB0a0tIeVQxOFlEeDJ3a05wbE9GVHZZV05VV1BDd2czaDI4WVBRV0tLeEphSjBMeUxxeE1iNGJiS2pGblIzeVJEb0RQcVFONGRqaWpGdVV1UzlDb0w3eHBQSE53Z2l5?oc=5",
+    "source": "gnews_fed",
+    "published_utc": "2026-10-02T19:15:46+00:00",
+    "score": 7.36,
+    "duplicates": 0
+   },
+   {
+    "id": "4bd901eaa1",
+    "title": "How AI is redefining Wall Street jobs — and boosting demand for this new 'hottest skill' by 1,721%",
+    "link": "https://www.cnbc.com/2026/10/02/ai-redefining-wall-street-jobs.html",
+    "source": "cnbc_markets",
+    "published_utc": "2026-10-02T18:49:03+00:00",
+    "score": 7.29,
     "duplicates": 0
    },
    {
@@ -3073,102 +3424,18 @@
     "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQQ2tmMDVQU0sxa1hDSTVYUTJjVEJPNnZiZ3hjbFNLNDBJaC1OblNEZlRjVGNob3ppTUpVVEVVWUhMUFU3VHd1QzRiMjFtUE1LZkQwWXFteC1kSVVicEdiRVNLZjFRNERtRTR1TmsweVlnU1gxdkxCc3BCaHpzWXk5QTFXTDJQNHhQWkJ1UkQ1LVI?oc=5",
     "source": "gnews_futures",
     "published_utc": "2026-10-02T12:45:32+00:00",
-    "score": 7.96,
-    "duplicates": 0
-   },
-   {
-    "id": "77904f1f23",
-    "title": "Soft Jobs Report Boosts Market Bets Fed Will Skip October Rate Increase - The New York Times",
-    "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNaXlVWmhNUF9PdTVEQlFNZFNhbHRab3dOSHlQdXBrN3N3M2dwSUIzTVFHbWd5c0RvOWNPSnJqOFQ5R3Q1OWdxX0NtNTRhaXZNWEpEamFzaGxwaVp0NHhNYTNrRm9EUHlGTGoyNXJ3ZktiR18yLVplcjRjd3lFLW9UdnpGU3ppNzE1LUNVeHFkQm4?oc=5",
-    "source": "gnews_fed",
-    "published_utc": "2026-10-02T15:15:45+00:00",
-    "score": 7.88,
-    "duplicates": 1
-   },
-   {
-    "id": "8877df2110",
-    "title": "Federal Reserve Board issues enforcement action with Ontario Bancorporation, Inc.",
-    "link": "https://www.federalreserve.gov/newsevents/pressreleases/enforcement20261002a.htm",
-    "source": "fed_press",
-    "published_utc": "2026-10-02T15:00:00+00:00",
-    "score": 7.83,
-    "duplicates": 0
-   },
-   {
-    "id": "bf763e0743",
-    "title": "Dow Jumps 400 Points, Nasdaq Hits Record High After Jobs Report — BlackRock’s Rosenberg Calls Data ‘Dovish’ - Yahoo Finance",
-    "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPY3Y5dk03cDRuSWRQT081MC11YjFYT0NjWEUwOTRHYnVoVl9STGx5eDA4SENoTHhhWml5RDE0TkpFYVpxY0daaFFQcEJHazl6VDQyZVF4YUx2NHpMTDYwenJ2WHFUekZRYXZYWWhLM2dlN21NYnNQSGJaOEliYkZWM253VFZoa3RyQzZYcVlkMGhNbHU4SE5N?oc=5",
-    "source": "gnews_macro",
-    "published_utc": "2026-10-02T14:41:13+00:00",
-    "score": 7.78,
-    "duplicates": 0
-   },
-   {
-    "id": "dffcdf0e66",
-    "title": "Traders now see little chance of a Fed rate hike in October after weak jobs report - CNBC",
-    "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPOU1aVUFEOV9MWl9TVVdodDl4eFoyUjgxN2tLZ1QtRWYzbEUtMEpVQll0ZkhSekJFZUFVZzdNeXVqTzdUYXI3OWNMcC1YQ19XVDN2MFNTOWQzNjFLLTBDWFVvLXlWMWZRZ1R6RTRhVVRuS0dkZnJBMTd2dWhGV2hPdUg0b3hJQkZncFhCMnljc2lwYmw3TFHSAZsBQVVfeXFMTzNmZkRlUzhSSXlhMzhWV3lyN0pyeUstczZQXy1HZFNMRUh6TjNPN2Q0bGdrU2tCZjg2YkFZN3RrdndRcEs2TlAxRVlmNlhQVldRd3VZRmtZUlZock5uWTFsQ3dXdDMycWJSbXQwTDBSYVBWa1RZTG9qRWxkQTk1R1Y1WmtuUW9DSF9tUGs0NF8xdmE2RHlYQVJidFk?oc=5",
-    "source": "gnews_fed",
-    "published_utc": "2026-10-02T13:29:27+00:00",
-    "score": 7.58,
-    "duplicates": 1
-   },
-   {
-    "id": "e816241ca1",
-    "title": "Fed Rate Hike In October Looks Less Likely After Weak Jobs Report - Realtor.com",
-    "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPWWpqYkktU3BlRHpLdE55YmszaDZWUzg1M1haVTNPaV9WTUlmTjllRE1Ob0kxVGlxZlJNWGJjaDcyaUVqek1rWVNVaGotcXNxa3k0VlV6ai1MOW9FSHNMbTdRU1d1NHM0YklLb0Z1RE1tRVJyTDVFcTN4QkxvVUkyZjJ3ZWNFNkUz?oc=5",
-    "source": "gnews_fed",
-    "published_utc": "2026-10-02T13:13:11+00:00",
-    "score": 7.54,
-    "duplicates": 1
-   },
-   {
-    "id": "69f412cc91",
-    "title": "Nasdaq Hits Record High as Treasury Yields Retreat - Schaeffer's Investment Research",
-    "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxONkN0WDN0aU8tcXhzb1lKcU16WVdZSHo5dXJ5VmJoUFN1TnVGQlMwbjlIbDRMTHlEQkRsODFGRHliU1g3clN1MnhmVWsxdFg3MnJXX21lbmthVTJrNGk0a2dBVzVZRXpvOU40OVZ1VFF4WGZFcm5hTGVYMWhTMXRvRjRXbVJYQWM3ckd2X2M4TnJCQUxEZWRtRHJ3WmZaRDlyZnNESmFPbHVWZWtxN0tnbg?oc=5",
-    "source": "gnews_macro",
-    "published_utc": "2026-10-02T15:48:06+00:00",
-    "score": 7.47,
-    "duplicates": 0
-   },
-   {
-    "id": "8c32fbfd6c",
-    "title": "September Jobs Report Misses, Stock Futures Jump - Benzinga",
-    "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPRzFSOWJ5Y0hoT1AxUlBZN3BMNkIzY1QxZmxjbmRfNGl4bzJVRnkxUHF0OHVhS2V6emRPMDViUEJqTTFlejVaeko0ekN1QjhjNTR1dVRVNXpuRmRfbHp4Z21JVHdfS25uNVY1bnZYVzF6b25SV29rSE9SWWFYeHdDTDNQZVVkaHRtVVVPZlVzNlo?oc=5",
-    "source": "gnews_futures",
-    "published_utc": "2026-10-02T15:34:23+00:00",
-    "score": 7.43,
-    "duplicates": 0
-   },
-   {
-    "id": "019109402f",
-    "title": "Soft September Jobs Report Has Market Dialing Back Calls for Fed Rate Hike - Morningstar",
-    "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNT3BjMjM4YVNUUEIwWFpJY3BfcHlEQmlqdWotcmpURVBxeHBFZkNaN3VBMmdzQXJ3UjBycFpraDRMMF9iYmRzQWowajZxdUpxOTczVndjUzNYcU8tX1J4V0drMG9WbFNSRHJPd2o0RDdNYjkzN18xWDhEZGhjY3cwRkxHUE02bzNYendKNUd2LTFkV191VmM1R0o5anctMzBFeEJMM1BKcWVydw?oc=5",
-    "source": "gnews_macro",
-    "published_utc": "2026-10-02T15:10:06+00:00",
-    "score": 7.36,
-    "duplicates": 0
-   },
-   {
-    "id": "b9e80679a0",
-    "title": "Dow Jones Futures Rise, Oil Prices Tumble With Tesla, Jobs Due; Nike, Seagate, Western Digital Are Big Losers - Investor's Business Daily",
-    "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQTTd2a2FIVjFmYS1OOW1wTmRyRE9fVDRZQ3oybTdtWWlYUUhCTDUyU3Q5RUQtOXNTRGF5NVVYQXR5aXluWms2ZkV2c2pyeHlDaTV5MUlCY2xIS1haQzZ6RnlmWjFTaFprSkliY1lqUHllSzR3UzhQSzZFTVluQmhpOGVtZXNiUzJJbV9ZVE9SUGQtQXZFcFJBQ1Zrd0JjdmxUQUltU2lSaFpDR0NzamhhQVJaa1RxQ3JTRVRIUm52bXNMLXRBbGRxYTdnY2hraXFC?oc=5",
-    "source": "gnews_futures",
-    "published_utc": "2026-10-02T12:07:00+00:00",
-    "score": 7.35,
+    "score": 7.28,
     "duplicates": 0
    }
   ],
   "summary": {
    "lines": [
-    "Nonfarm payrolls printed 29K versus 89K consensus with unemployment at 4.2% (vs 4.1% cons/prior) and average hourly earnings up 0.1% (vs 0.3% cons/prior), a clear miss on the calendar print [7a10b00932][bf763e0743].",
-    "U.S. stock futures jumped about 1% overnight as traders pared Fed rate-hike bets following the report [b839a8d5ca][8c32fbfd6c].",
-    "Multiple outlets say markets now see little chance of an October Fed hike after the soft jobs data, a repricing relevant to rate-sensitive index futures [dffcdf0e66][e816241ca1][019109402f][77904f1f23].",
-    "Treasury yields fell on the report, cited alongside Nasdaq hitting a record high and the Dow up 400 points [bf763e0743][69f412cc91]."
+    "Weak September jobs data (NFP 29K vs 89K cons, unemployment 4.2% vs 4.1% cons, wages 0.1% vs 0.3% cons) initially sank yields, lifted stock futures, and weakened the dollar as traders cut October Fed hike odds [766bdd0ae4][7a10b00932][e5536112f9][697f034cfe]."
    ],
    "backend": "anthropic",
    "model": "claude-sonnet-5",
    "dropped": [
-    "no valid citation: Oil prices dropped ahead of the jobs report, cited as an additional lift to stock futures [637cf08451"
+    "no valid citation: Later in the session the 10-year yield reversed higher despite the soft jobs print, with yields not staying lower even as the Fed sounds dovish — a"
    ],
    "warnings": []
   },
