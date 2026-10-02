@@ -1,7 +1,7 @@
 {
  "meta": {
-  "generated_at_utc": "2026-10-02T11:56:52.126314+00:00",
-  "generated_at_local": "Fri 02 Oct 2026 08:56 ADT",
+  "generated_at_utc": "2026-10-02T12:12:12.317055+00:00",
+  "generated_at_local": "Fri 02 Oct 2026 09:12 ADT",
   "trading_day": "2026-10-02",
   "display_tz": "America/Halifax",
   "version": "0.1.0",
@@ -73,7 +73,7 @@
    "time_utc": "2026-10-02T12:30:00+00:00",
    "local": "09:30 ADT",
    "et": "08:30 ET",
-   "in": "33 min",
+   "in": "17 min",
    "consensus": "0.3%",
    "prior": "0.3%"
   },
@@ -84,10 +84,10 @@
   {
    "root": "ES",
    "trading_day": "2026-10-02",
-   "as_of_utc": "2026-10-02T11:56:52.126314+00:00",
+   "as_of_utc": "2026-10-02T12:12:12.317055+00:00",
    "source": "yahoo",
    "delayed": true,
-   "last_price": 7757.75,
+   "last_price": 7755.75,
    "levels": [
     {
      "tag": "exp_hi",
@@ -129,7 +129,7 @@
      "label": "Overnight high",
      "price": 7765.75,
      "group": "overnight",
-     "note": "since 18:00 ET, 817 bars"
+     "note": "since 18:00 ET, 833 bars"
     },
     {
      "tag": "rn_major_dn",
@@ -141,7 +141,7 @@
     {
      "tag": "onvwap",
      "label": "Overnight VWAP",
-     "price": 7748.62,
+     "price": 7748.85,
      "group": "overnight",
      "note": "typical-price VWAP"
     },
@@ -217,14 +217,14 @@
     }
    ],
    "stats": {
-    "last_bar_utc": "2026-10-02T11:46:00+00:00",
-    "last_bar_age_min": 10.9,
+    "last_bar_utc": "2026-10-02T12:02:00+00:00",
+    "last_bar_age_min": 10.2,
     "market_state": "open",
     "profile_volume": 1687242.0,
     "prior_day": "2026-10-01",
     "prior_day_rth_range": 68.5,
     "overnight_range": 42.5,
-    "gap_vs_prior_close": 31.5,
+    "gap_vs_prior_close": 29.5,
     "gap_basis": "last price (pre-market)",
     "atr14": 82.55,
     "atr_days": 14,
@@ -1413,19 +1413,27 @@
      "t": "2026-10-02T11:45:00+00:00",
      "o": 7759.0,
      "h": 7759.5,
-     "l": 7757.5,
-     "c": 7757.75,
-     "v": 315.0
+     "l": 7754.25,
+     "c": 7757.25,
+     "v": 5791.0
+    },
+    {
+     "t": "2026-10-02T12:00:00+00:00",
+     "o": 7757.25,
+     "h": 7757.25,
+     "l": 7755.25,
+     "c": 7755.75,
+     "v": 991.0
     }
    ]
   },
   {
    "root": "NQ",
    "trading_day": "2026-10-02",
-   "as_of_utc": "2026-10-02T11:56:52.126314+00:00",
+   "as_of_utc": "2026-10-02T12:12:12.317055+00:00",
    "source": "yahoo",
    "delayed": true,
-   "last_price": 30942.5,
+   "last_price": 30925.5,
    "levels": [
     {
      "tag": "exp_hi",
@@ -1453,7 +1461,7 @@
      "label": "Overnight high",
      "price": 31035.5,
      "group": "overnight",
-     "note": "since 18:00 ET, 817 bars"
+     "note": "since 18:00 ET, 833 bars"
     },
     {
      "tag": "rn_major_up",
@@ -1472,7 +1480,7 @@
     {
      "tag": "onvwap",
      "label": "Overnight VWAP",
-     "price": 30907.96,
+     "price": 30908.74,
      "group": "overnight",
      "note": "typical-price VWAP"
     },
@@ -1555,14 +1563,14 @@
     }
    ],
    "stats": {
-    "last_bar_utc": "2026-10-02T11:46:00+00:00",
-    "last_bar_age_min": 10.9,
+    "last_bar_utc": "2026-10-02T12:02:00+00:00",
+    "last_bar_age_min": 10.2,
     "market_state": "open",
     "profile_volume": 594954.0,
     "prior_day": "2026-10-01",
     "prior_day_rth_range": 354.25,
     "overnight_range": 275.25,
-    "gap_vs_prior_close": 168.75,
+    "gap_vs_prior_close": 151.75,
     "gap_basis": "last price (pre-market)",
     "atr14": 500.09,
     "atr_days": 14,
@@ -2751,9 +2759,17 @@
      "t": "2026-10-02T11:45:00+00:00",
      "o": 30952.75,
      "h": 30953.5,
-     "l": 30942.0,
-     "c": 30942.5,
-     "v": 137.0
+     "l": 30913.25,
+     "c": 30935.75,
+     "v": 2875.0
+    },
+    {
+     "t": "2026-10-02T12:00:00+00:00",
+     "o": 30934.75,
+     "h": 30936.0,
+     "l": 30920.0,
+     "c": 30925.5,
+     "v": 497.0
     }
    ]
   }
@@ -2766,17 +2782,8 @@
     "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOMWZwMzFNaURNeUNwenJkM0t3X1k5YVZET3NMZU5DSHU5Qng0Tk5NaU4tUE1vTnhZd3RjeWh0V3RPRFlBczZDbXYzYnZNLUQxZTBZLVphTWNyNVJ3a2dZcDBzdm50a1U2WE1YaTJYMDd4TTl3QkVjYUJ6S2ZCbHlxeQ?oc=5",
     "source": "gnews_futures",
     "published_utc": "2026-10-02T11:39:00+00:00",
-    "score": 8.95,
+    "score": 8.91,
     "duplicates": 1
-   },
-   {
-    "id": "f95518fce0",
-    "title": "Dow, S&P 500, Nasdaq Futures Fall As Brent Tops $106 After Trump Rejects Iran Proposal: MU, SLV, QNT, META In Focus - Stocktwits",
-    "link": "https://news.google.com/rss/articles/CBMihwJBVV95cUxOUU5iQmx2VE1mdExSYlZ4c0xKa3lra2M1TTRyQjY3RmMtX1EydU9yR0sxNFNjR2NCVW1Jd3F0RmZrV0tiUVdfNzhoSmNDRlVBdk9KWG9ndEVNNkdqTGZkbzFndzkwTUNFSk1UeHFsZzZHdDhZd1F6QkJ2SGcxM1J3bUVfSzZvdURQX3l1bVhNS283U3JOLXpyVUo3NE1DRk1FYmdFVXhsRlM3bktEdlJHbm5tYW1CdzQ3T1hEdUlBYjExaGczYWdUMVZtVHUyTm1fR0ROQ3dqazVBNXJTQVNSbDc2UFFMUGp5RVhxSGVZRkZXOTRWemg3c2ZKSXZET2R3Nl82ZnJNMA?oc=5",
-    "source": "gnews_futures",
-    "published_utc": "2026-10-02T06:01:14+00:00",
-    "score": 8.51,
-    "duplicates": 0
    },
    {
     "id": "b839a8d5ca",
@@ -2784,8 +2791,17 @@
     "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOcDNuM1ZnbVdlVENuTkRDZWc0Y0lxTHJNQ0JrcUt4eHA2RVNycmZIZU5nQVN3bzhtUFpaRUQ0YlkzVXkyV3dxWldpNlpYdnZ3YlJEeTJqdnFaZzJfa25ucFBUTlRLSFQ0V1VwRlRZakFhNHdkSmtKNmZaRFptQXJRWWx1c3ZESGgwQS0xTl9Rbjl5NWpRSEExZ2l5a1gtNGJkZTc0Y29FZXItcEltek56OE43eFNibzVS?oc=5",
     "source": "gnews_futures",
     "published_utc": "2026-10-02T10:18:40+00:00",
-    "score": 8.23,
+    "score": 8.18,
     "duplicates": 2
+   },
+   {
+    "id": "bc70b1d6d3",
+    "title": "Wall St futures rise ahead of jobs report as bond market steadies, oil slips - Yahoo Finance",
+    "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOd29DQmQzN21UUVZHMWRrNUJIZDJoY0ZVRFV2cm9mWVd2QUREQmFfM2t1TkExeGhaM3lRZ0pQTlRKNFdHaWduTmFGVHA3Z0dEQUo5UGJ4QUlKNlVxaWw1Z3hSNVhnUndQTXdQT280cjZ2Y3ZsWnVmRlg1Vm45ZDZPcjFNRzdrNlA5a2VGWnJseVpoRlJkdFNn?oc=5",
+    "source": "gnews_macro",
+    "published_utc": "2026-10-02T11:45:34+00:00",
+    "score": 7.93,
+    "duplicates": 1
    },
    {
     "id": "10a2dcd984",
@@ -2793,7 +2809,16 @@
     "link": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxQTGUwNzhFdDUxTTdLS2t6eFdRUS1lQ181UlZnZm9lX01DeDVxcWY4eU45aFZpVWo3dXRnVDNmNExzU0NNZ29vbnJKRTRKTUZhV2FHeS1PZXZfajgtd0l3aGhrdkFrNUNEanVHTzVGVVkxWDVKNlVUaXhnTGhzNjFvWjB1VXdfT3V5UEJNUzdnNTNTWUVnNTlCT28yTUxzSDV0MkdCWkRvbkVIaHdJZXFNODR2SWxhV1VkbXlTZHNBZGtLSXlyZWV0aEhjTWppNkNrbnVDZDRIYnRUUE5pVWowaERFYm9JQ0lYNklKWTlB?oc=5",
     "source": "gnews_macro",
     "published_utc": "2026-10-02T08:31:41+00:00",
-    "score": 7.93,
+    "score": 7.89,
+    "duplicates": 0
+   },
+   {
+    "id": "ef8c769834",
+    "title": "US Stock Futures Advance Ahead of September Payrolls Data - Bloomberg.com",
+    "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQUFJWVUgxTnd0dTl3aE9FRkV1VkhKdDR3MzB5MjhBWlEzNkdveWtoa1h4M0ppc3QtazRUZTN3VGQ5Q2R3dWpvYUVkR09menl2ZlFGU1F1MkxOdDljNW8xb1FKemFOVF9LdXVHb2JZSTdBX2U4end0WW9mZ2JTWlgxdHBLd0U4NjU2ZEdKOUlEMjYwOVVqYmdveXM3NXo1QjVmNWJHbXJsVmVMZ2Rx?oc=5",
+    "source": "gnews_futures",
+    "published_utc": "2026-10-02T11:47:39+00:00",
+    "score": 7.43,
     "duplicates": 0
    },
    {
@@ -2802,17 +2827,8 @@
     "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQN3dLa0RNYXNaNVczNjZWOE1IeW5mZW12eVdjZmoySTRZdlZQTHZXdTdzeHVEdTVFUW11Mnc5Y3RLNDQ4N1BBUTlOWFNPRjhrWTdQYzcyYXZVQXliaEkycUhlUlUtQUsyU2cwYS05Um54a194V0R0eVp5UGMxZWU4a2hEZWNOVTEtYXVEN0QtZzI0eVo5U3FxVXh5MTEtM1RrWkpLZGlueFVXalZXeXRES2FFelppaFpRU3lLSE5IWHNVeUXSAcgBQVVfeXFMT2RabS1KSHU1NHRBTDdhcnMtdzd3OUR3d2F3NXlBeVpIc2xleU1QcUFNRjMwaGVXd09rWnRmajJocXR6akdKX2NsV0FkaEVHRUg0ay1iaHE1ZGhhbDU0TWFTbVVvSGVsYWFIUW9EV01fRTBVRkN0ZWdPUWVKMkNXU29ja1J6LU5HMWVtUXc1Szdqal9UazVkeVNzb2J6VVg4NWo0YWd0Z01RR3VMb29LTDZKR1JuMEFIaEp4bTNhLVhMTHEzX0ZESEQ?oc=5",
     "source": "gnews_futures",
     "published_utc": "2026-10-02T08:48:07+00:00",
-    "score": 7.48,
+    "score": 7.43,
     "duplicates": 1
-   },
-   {
-    "id": "bc70b1d6d3",
-    "title": "Wall St futures rise ahead of jobs report as bond market steadies, oil slips - finance.yahoo.com",
-    "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOd29DQmQzN21UUVZHMWRrNUJIZDJoY0ZVRFV2cm9mWVd2QUREQmFfM2t1TkExeGhaM3lRZ0pQTlRKNFdHaWduTmFGVHA3Z0dEQUo5UGJ4QUlKNlVxaWw1Z3hSNVhnUndQTXdQT280cjZ2Y3ZsWnVmRlg1Vm45ZDZPcjFNRzdrNlA5a2VGWnJseVpoRlJkdFNn?oc=5",
-    "source": "gnews_macro",
-    "published_utc": "2026-10-02T11:45:34+00:00",
-    "score": 7.47,
-    "duplicates": 0
    },
    {
     "id": "4788c59c9b",
@@ -2820,25 +2836,16 @@
     "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNV0ZoRmJ0eGl0LUYwODFZVTktTF9HQTBSdmV3d2g5OEpKWEwxeTNrY3FOYnVYOU1RX1lySjFDVFJack1IYlYtNVlybnlNdUZRV2h6eVN2emdKUWRyLWhBdk1wZFVrVW9MLUNxRFpHM1JjNEZCa1dKSlN1TDIxSjB0SlI1RTFQU3NpVldOeFdxc3NQY212T2c?oc=5",
     "source": "gnews_macro",
     "published_utc": "2026-10-02T08:11:54+00:00",
-    "score": 7.38,
-    "duplicates": 0
-   },
-   {
-    "id": "979c732b97",
-    "title": "Stock Market Today (Oct. 2, 2026): Nasdaq futures rise ahead of key jobs report - thestreet.com",
-    "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOTi1Xb012Y0ZycjVGZ3FOb3otS1NtRXVndWtGUGs1bHcwZ0Q3MDBoRnlKN19qYXJvbGkzclNSRnpzVWw0UTMtdGlTX0YyVjFsNGo2V2dPRnFwcXVIYmRzaUNGTlRYTExzMTNTOUVIcURWUDd6Z2tVSGtXQnRfRGdHMktrcjhiNVhDYXpxZ3hlNkJZQW1qU0JUZDhXYjVidTRvczJCcExKbjdTWWc?oc=5",
-    "source": "gnews_futures",
-    "published_utc": "2026-10-02T10:54:16+00:00",
     "score": 7.33,
     "duplicates": 0
    },
    {
     "id": "e60106810b",
-    "title": "S&P Futures Climb as Oil Falls; Key U.S. Jobs Report in Focus - Barchart.com",
+    "title": "S&P Futures Climb as Oil Falls, Key U.S. Jobs Report in Focus - Barchart.com",
     "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNUHN4X1VuTlpFeHhXOXlQSmtnZy16X1JxVmw4XzhXTzVuLWt4REtGVXhQbnZaWVc4b0NKbDZyY3ZidG5MY0xqZWlGVXdxd1hrdkdJalI0VTVtV2plQUZVeEt2R3NFV2RSZUN0S1dmYmJXZFQwTUJvQzROZ3NmOW5TTjFGQ2hXV3M1Z1RkcWJhTi03cDhJMkFra0dwVmVZWFVRaDhIRlhB?oc=5",
     "source": "gnews_macro",
     "published_utc": "2026-10-02T10:12:38+00:00",
-    "score": 7.21,
+    "score": 7.17,
     "duplicates": 0
    },
    {
@@ -2847,7 +2854,7 @@
     "link": "https://www.cnbc.com/2026/10/02/ai-redefining-wall-street-jobs.html",
     "source": "cnbc_markets",
     "published_utc": "2026-10-02T10:00:01+00:00",
-    "score": 7.18,
+    "score": 7.13,
     "duplicates": 0
    },
    {
@@ -2856,7 +2863,7 @@
     "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPeTVxVTNLX2pUZEc1U0xtNWdyYWRjY0NjSVcweXJNYk9PTDVKVnJaTzFNTUdnNW5LVEFxaHlELU9fVW9neE93Q0VDanlUbkJPcUhMaXNmNUJQX3pXd0JvcU1VSHh5Z1NEZnQzWGFsclpXZ08zRTVmY2ZaV1J4a2JBU3lPTEVNTUNBSVdVcWRydUlJOEY5ZU13NERhMFE3YUstSzB2RE5JV1gtZw?oc=5",
     "source": "gnews_macro",
     "published_utc": "2026-10-02T09:35:51+00:00",
-    "score": 7.11,
+    "score": 7.07,
     "duplicates": 0
    },
    {
@@ -2867,19 +2874,28 @@
     "published_utc": "2026-10-01T18:37:16+00:00",
     "score": 7.0,
     "duplicates": 0
+   },
+   {
+    "id": "f1a96f035d",
+    "title": "US economy slowed in the second quarter as inflation complicates Fed policy path - news.cgtn.com",
+    "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQSFFENnlMUEV3MGNkcVJYOFVxaTI4QjVJaUMyLXFUZ2QyS0Y2aWttQUh4bnhOczJOMU5wY21PdE9YdHZtcVlvWWlnVm80VHBsbUcxd1ZhdnBCSUZ2QVQzaVVUXzJnWS1SQUU1UVVMSUluUFJFTmZ5bVJhRTdpN2xiVEtuWGhDU2c4dlBtam5TMWJoOE1May0yVkVSVVhtNGJXVVg2Ri1pdXM?oc=5",
+    "source": "gnews_fed",
+    "published_utc": "2026-10-02T08:12:36+00:00",
+    "score": 6.83,
+    "duplicates": 0
    }
   ],
   "summary": {
    "lines": [
-    "Markets are keyed on the 08:30 ET jobs report (NFP cons 89K vs prior 162K, unemployment rate cons 4.1%, avg hourly earnings cons 0.3%), which Barron's frames as needed to confirm a Fed hold [d33ef61207][b839a8d5ca][10a2dcd984][e60106810b][a9a5bfe680][bc70b1d6d3][979c732b97].",
-    "Futures were drifting/rising into the print per multiple wires, with Reuters and Yahoo noting easing bond yields and oil prices as a supportive backdrop [a9a5bfe680][bc70b1d6d3][e60106810b].",
-    "Earlier overnight weakness was tied to Brent crude topping $106 after Trump rejected an Iran proposal, a headline risk for energy-sensitive and broad futures [f95518fce0].",
-    "Treasury separately escalated sanctions on Iran's auto and rail sectors under \"Operation Economic Outcast,\" keeping Iran-related geopolitical risk in play [e501b06356]."
+    "All eyes are on the 08:30 ET nonfarm payrolls report (cons 89K prior 162K, unemployment cons 4.1%), which futures markets are treating as the key input for the Fed's rate path. [d33ef61207][b839a8d5ca][ef8c769834][e60106810b][a9a5bfe680]",
+    "Futures drifted higher into the print as bond yields and oil eased, with Yahoo/Reuters noting the bond market steadied and oil slipped. [bc70b1d6d3][a9a5bfe680][e60106810b]",
+    "Bitcoin edged higher ahead of the jobs data even as global bond yields surged, a cross-asset signal worth watching alongside the equity futures move. [4788c59c9b]",
+    "Single-name movers flagged pre-report include NKE, META, RKLB, MRNA, SLS, and TSLA. [10a2dcd984]"
    ],
    "backend": "anthropic",
    "model": "claude-sonnet-5",
    "dropped": [
-    "no valid citation: Coindesk flagged bitcoin ed"
+    "ungrounded number(s) ['2']: Separate from today's print, a prior report noted Q2 US economic growth slowed, adding to inflation/Fed policy uncertainty context. [f1a96f035d]"
    ],
    "warnings": []
   },
