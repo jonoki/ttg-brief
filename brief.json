@@ -1,7 +1,7 @@
 {
  "meta": {
-  "generated_at_utc": "2026-10-02T10:25:01.524791+00:00",
-  "generated_at_local": "Fri 02 Oct 2026 07:25 ADT",
+  "generated_at_utc": "2026-10-02T10:40:20.696215+00:00",
+  "generated_at_local": "Fri 02 Oct 2026 07:40 ADT",
   "trading_day": "2026-10-02",
   "display_tz": "America/Halifax",
   "version": "0.1.0",
@@ -73,7 +73,7 @@
    "time_utc": "2026-10-02T12:30:00+00:00",
    "local": "09:30 ADT",
    "et": "08:30 ET",
-   "in": "2h 04m",
+   "in": "1h 49m",
    "consensus": "0.3%",
    "prior": "0.3%"
   },
@@ -84,10 +84,10 @@
   {
    "root": "ES",
    "trading_day": "2026-10-02",
-   "as_of_utc": "2026-10-02T10:25:01.524791+00:00",
+   "as_of_utc": "2026-10-02T10:40:20.696215+00:00",
    "source": "yahoo",
    "delayed": true,
-   "last_price": 7753.5,
+   "last_price": 7756.0,
    "levels": [
     {
      "tag": "exp_hi",
@@ -129,7 +129,7 @@
      "label": "Overnight high",
      "price": 7765.75,
      "group": "overnight",
-     "note": "since 18:00 ET, 725 bars"
+     "note": "since 18:00 ET, 741 bars"
     },
     {
      "tag": "rn_major_dn",
@@ -141,7 +141,7 @@
     {
      "tag": "onvwap",
      "label": "Overnight VWAP",
-     "price": 7746.65,
+     "price": 7746.91,
      "group": "overnight",
      "note": "typical-price VWAP"
     },
@@ -217,14 +217,14 @@
     }
    ],
    "stats": {
-    "last_bar_utc": "2026-10-02T10:14:00+00:00",
-    "last_bar_age_min": 11.0,
+    "last_bar_utc": "2026-10-02T10:30:00+00:00",
+    "last_bar_age_min": 10.3,
     "market_state": "open",
     "profile_volume": 1687242.0,
     "prior_day": "2026-10-01",
     "prior_day_rth_range": 68.5,
     "overnight_range": 42.5,
-    "gap_vs_prior_close": 27.25,
+    "gap_vs_prior_close": 29.75,
     "gap_basis": "last price (pre-market)",
     "atr14": 82.55,
     "atr_days": 14,
@@ -1358,18 +1358,34 @@
      "o": 7759.75,
      "h": 7760.5,
      "l": 7752.25,
-     "c": 7753.5,
+     "c": 7754.0,
      "v": 5409.0
+    },
+    {
+     "t": "2026-10-02T10:15:00+00:00",
+     "o": 7753.75,
+     "h": 7757.0,
+     "l": 7749.0,
+     "c": 7756.5,
+     "v": 7768.0
+    },
+    {
+     "t": "2026-10-02T10:30:00+00:00",
+     "o": 7756.75,
+     "h": 7756.75,
+     "l": 7755.5,
+     "c": 7756.0,
+     "v": 0.0
     }
    ]
   },
   {
    "root": "NQ",
    "trading_day": "2026-10-02",
-   "as_of_utc": "2026-10-02T10:25:01.524791+00:00",
+   "as_of_utc": "2026-10-02T10:40:20.696215+00:00",
    "source": "yahoo",
    "delayed": true,
-   "last_price": 30969.25,
+   "last_price": 30977.75,
    "levels": [
     {
      "tag": "exp_hi",
@@ -1397,7 +1413,7 @@
      "label": "Overnight high",
      "price": 31035.5,
      "group": "overnight",
-     "note": "since 18:00 ET, 726 bars"
+     "note": "since 18:00 ET, 741 bars"
     },
     {
      "tag": "rn_major_up",
@@ -1414,18 +1430,18 @@
      "note": ""
     },
     {
+     "tag": "onvwap",
+     "label": "Overnight VWAP",
+     "price": 30900.43,
+     "group": "overnight",
+     "note": "typical-price VWAP"
+    },
+    {
      "tag": "rn_major_dn",
      "label": "Round 100 below",
      "price": 30900.0,
      "group": "round",
      "note": ""
-    },
-    {
-     "tag": "onvwap",
-     "label": "Overnight VWAP",
-     "price": 30898.69,
-     "group": "overnight",
-     "note": "typical-price VWAP"
     },
     {
      "tag": "pdh",
@@ -1499,14 +1515,14 @@
     }
    ],
    "stats": {
-    "last_bar_utc": "2026-10-02T10:15:00+00:00",
-    "last_bar_age_min": 10.0,
+    "last_bar_utc": "2026-10-02T10:30:00+00:00",
+    "last_bar_age_min": 10.3,
     "market_state": "open",
     "profile_volume": 594954.0,
     "prior_day": "2026-10-01",
     "prior_day_rth_range": 354.25,
     "overnight_range": 275.25,
-    "gap_vs_prior_close": 195.5,
+    "gap_vs_prior_close": 204.0,
     "gap_basis": "last price (pre-market)",
     "atr14": 500.09,
     "atr_days": 14,
@@ -2646,9 +2662,17 @@
     {
      "t": "2026-10-02T10:15:00+00:00",
      "o": 30969.0,
-     "h": 30971.5,
-     "l": 30966.25,
-     "c": 30969.25,
+     "h": 30979.0,
+     "l": 30940.0,
+     "c": 30978.25,
+     "v": 2334.0
+    },
+    {
+     "t": "2026-10-02T10:30:00+00:00",
+     "o": 30977.75,
+     "h": 30980.5,
+     "l": 30975.25,
+     "c": 30977.75,
      "v": 0.0
     }
    ]
@@ -2657,21 +2681,30 @@
  "news": {
   "headlines": [
    {
+    "id": "b839a8d5ca",
+    "title": "U.S. stock futures drift higher with nonfarm payrolls in focus - Investing.com",
+    "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOcDNuM1ZnbVdlVENuTkRDZWc0Y0lxTHJNQ0JrcUt4eHA2RVNycmZIZU5nQVN3bzhtUFpaRUQ0YlkzVXkyV3dxWldpNlpYdnZ3YlJEeTJqdnFaZzJfa25ucFBUTlRLSFQ0V1VwRlRZakFhNHdkSmtKNmZaRFptQXJRWWx1c3ZESGgwQS0xTl9Rbjl5NWpRSEExZ2l5a1gtNGJkZTc0Y29FZXItcEltek56OE43eFNibzVS?oc=5",
+    "source": "gnews_futures",
+    "published_utc": "2026-10-02T10:18:40+00:00",
+    "score": 8.44,
+    "duplicates": 2
+   },
+   {
     "id": "10a2dcd984",
     "title": "Nasdaq, S&P 500, Dow Futures Rise Ahead Of Jobs Report: NKE, META, RKLB, MRNA, SLS, TSLA Stocks In Focus - TradingView",
     "link": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxQTGUwNzhFdDUxTTdLS2t6eFdRUS1lQ181UlZnZm9lX01DeDVxcWY4eU45aFZpVWo3dXRnVDNmNExzU0NNZ29vbnJKRTRKTUZhV2FHeS1PZXZfajgtd0l3aGhrdkFrNUNEanVHTzVGVVkxWDVKNlVUaXhnTGhzNjFvWjB1VXdfT3V5UEJNUzdnNTNTWUVnNTlCT28yTUxzSDV0MkdCWkRvbkVIaHdJZXFNODR2SWxhV1VkbXlTZHNBZGtLSXlyZWV0aEhjTWppNkNrbnVDZDRIYnRUUE5pVWowaERFYm9JQ0lYNklKWTlB?oc=5",
     "source": "gnews_macro",
     "published_utc": "2026-10-02T08:31:41+00:00",
-    "score": 8.19,
+    "score": 8.14,
     "duplicates": 0
    },
    {
     "id": "dfbc99667a",
-    "title": "US Stock Market Today S&P 500 Futures Steady As Global Factory Strength Meets Inflation Worry - simplywall.st",
+    "title": "US Stock Market Today S&P 500 Futures Steady As Global Factory Strength Meets Inflation Worry - Simply Wall Street",
     "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQN3dLa0RNYXNaNVczNjZWOE1IeW5mZW12eVdjZmoySTRZdlZQTHZXdTdzeHVEdTVFUW11Mnc5Y3RLNDQ4N1BBUTlOWFNPRjhrWTdQYzcyYXZVQXliaEkycUhlUlUtQUsyU2cwYS05Um54a194V0R0eVp5UGMxZWU4a2hEZWNOVTEtYXVEN0QtZzI0eVo5U3FxVXh5MTEtM1RrWkpLZGlueFVXalZXeXRES2FFelppaFpRU3lLSE5IWHNVeUXSAcgBQVVfeXFMT2RabS1KSHU1NHRBTDdhcnMtdzd3OUR3d2F3NXlBeVpIc2xleU1QcUFNRjMwaGVXd09rWnRmajJocXR6akdKX2NsV0FkaEVHRUg0ay1iaHE1ZGhhbDU0TWFTbVVvSGVsYWFIUW9EV01fRTBVRkN0ZWdPUWVKMkNXU29ja1J6LU5HMWVtUXc1Szdqal9UazVkeVNzb2J6VVg4NWo0YWd0Z01RR3VMb29LTDZKR1JuMEFIaEp4bTNhLVhMTHEzX0ZESEQ?oc=5",
     "source": "gnews_futures",
     "published_utc": "2026-10-02T08:48:07+00:00",
-    "score": 7.73,
+    "score": 7.69,
     "duplicates": 1
    },
    {
@@ -2680,17 +2713,8 @@
     "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNV0ZoRmJ0eGl0LUYwODFZVTktTF9HQTBSdmV3d2g5OEpKWEwxeTNrY3FOYnVYOU1RX1lySjFDVFJack1IYlYtNVlybnlNdUZRV2h6eVN2emdKUWRyLWhBdk1wZFVrVW9MLUNxRFpHM1JjNEZCa1dKSlN1TDIxSjB0SlI1RTFQU3NpVldOeFdxc3NQY212T2c?oc=5",
     "source": "gnews_macro",
     "published_utc": "2026-10-02T08:11:54+00:00",
-    "score": 7.63,
+    "score": 7.59,
     "duplicates": 0
-   },
-   {
-    "id": "c1cbda6593",
-    "title": "U.S. stock futures drift higher with nonfarm payrolls in focus By Investing.com - Investing.com India",
-    "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQYmNVX1VJdkdKUVFVeWIyZjN1TVNQVmdRSUVGUTd4WEdDZ251aG1aWmE1MTZuT1NCdTI0aHBNWmlSSGNTM1FKVTZ4Ny1MQzlLTExaT1M0RlBSM0ZOczNETXROYVBvSU1zdXUtZWttQW5HUVNWSDJxcGg4Z214dHZkRUl1RXVmQTlVTFVUOGRjdmdJcWctcnRVRmpGNVl2ZEhSWWQtRmNONFdHTGJVcExQZG1UZVVRNVE?oc=5",
-    "source": "gnews_futures",
-    "published_utc": "2026-10-02T07:36:15+00:00",
-    "score": 7.53,
-    "duplicates": 1
    },
    {
     "id": "4bd901eaa1",
@@ -2698,7 +2722,7 @@
     "link": "https://www.cnbc.com/2026/10/02/ai-redefining-wall-street-jobs.html",
     "source": "cnbc_markets",
     "published_utc": "2026-10-02T10:00:01+00:00",
-    "score": 7.43,
+    "score": 7.39,
     "duplicates": 0
    },
    {
@@ -2707,7 +2731,7 @@
     "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPeTVxVTNLX2pUZEc1U0xtNWdyYWRjY0NjSVcweXJNYk9PTDVKVnJaTzFNTUdnNW5LVEFxaHlELU9fVW9neE93Q0VDanlUbkJPcUhMaXNmNUJQX3pXd0JvcU1VSHh5Z1NEZnQzWGFsclpXZ08zRTVmY2ZaV1J4a2JBU3lPTEVNTUNBSVdVcWRydUlJOEY5ZU13NERhMFE3YUstSzB2RE5JV1gtZw?oc=5",
     "source": "gnews_macro",
     "published_utc": "2026-10-02T09:35:51+00:00",
-    "score": 7.36,
+    "score": 7.32,
     "duplicates": 0
    },
    {
@@ -2716,7 +2740,7 @@
     "link": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxQRGplOHctdUU0RC1Ua1pwUmdCNC1VR0tjaDdKN0lwVlpEeldkenNKb1hKOHJBR0JKY3U3S2JYTk9IWEpUaloybS1kUG5ZUWlxVXo2MktJdFRhOUFmdVpGc1NkQVFWUlRKU0hWVnVlNHRHem1DdC1XZGc3WWhmMEVtLWVqZ0twRU8xSzllRGxtWFBUck8xNXVTcGtiX2FYOE5pWjUtOWJ4Rk1wZ0FLT0o2MjE2dnl2MW9xaUlJbTNsUnZJUHd3cXpkclRmN0stZGJsLTZQU0E3R0oxTjFocmtpYzBqVFprQQ?oc=5",
     "source": "gnews_futures",
     "published_utc": "2026-10-02T02:37:00+00:00",
-    "score": 7.2,
+    "score": 7.16,
     "duplicates": 2
    },
    {
@@ -2725,16 +2749,7 @@
     "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQSFFENnlMUEV3MGNkcVJYOFVxaTI4QjVJaUMyLXFUZ2QyS0Y2aWttQUh4bnhOczJOMU5wY21PdE9YdHZtcVlvWWlnVm80VHBsbUcxd1ZhdnBCSUZ2QVQzaVVUXzJnWS1SQUU1UVVMSUluUFJFTmZ5bVJhRTdpN2xiVEtuWGhDU2c4dlBtam5TMWJoOE1May0yVkVSVVhtNGJXVVg2Ri1pdXM?oc=5",
     "source": "gnews_fed",
     "published_utc": "2026-10-02T08:12:36+00:00",
-    "score": 7.13,
-    "duplicates": 0
-   },
-   {
-    "id": "7ca6b665c7",
-    "title": "Pimco’s Stracke Says AI Spending Drove Yields, Not Inflation - Bloomberg.com",
-    "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxOSmVwX2VReDdQdHdTc2pIY0puQTVBU1FCZk10MHdIOUExYTRCZHlMcjBMT0dycExNamplVllTTUhfMkFjVGI0Z29uc0dLTDI0blFMQmRhclZnNVZRbkdWQTJBc0R5WGlhdjgxRk1RNXFPLVA1MkdJaTgwbzIxbzl6eGF6YmRwNk4xTENNUWZWNUowNGp0OWhRZEdRdmo5NXkzWGpYcE1waXI0dDZfakFFWHF4LTNtRzJRdE5xNHptbzRna2FuTDI5VTRfNlk?oc=5",
-    "source": "gnews_macro",
-    "published_utc": "2026-10-02T07:34:14+00:00",
-    "score": 7.03,
+    "score": 7.09,
     "duplicates": 0
    },
    {
@@ -2747,12 +2762,21 @@
     "duplicates": 0
    },
    {
+    "id": "7ca6b665c7",
+    "title": "Pimco’s Stracke Says AI Spending Drove Yields, Not Inflation - Bloomberg.com",
+    "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxOSmVwX2VReDdQdHdTc2pIY0puQTVBU1FCZk10MHdIOUExYTRCZHlMcjBMT0dycExNamplVllTTUhfMkFjVGI0Z29uc0dLTDI0blFMQmRhclZnNVZRbkdWQTJBc0R5WGlhdjgxRk1RNXFPLVA1MkdJaTgwbzIxbzl6eGF6YmRwNk4xTENNUWZWNUowNGp0OWhRZEdRdmo5NXkzWGpYcE1waXI0dDZfakFFWHF4LTNtRzJRdE5xNHptbzRna2FuTDI5VTRfNlk?oc=5",
+    "source": "gnews_macro",
+    "published_utc": "2026-10-02T07:34:14+00:00",
+    "score": 6.98,
+    "duplicates": 0
+   },
+   {
     "id": "041e1b6638",
     "title": "U.S. trade representative Greer says deal with India not 'imminent' after Modi-Trump call",
     "link": "https://www.cnbc.com/2026/10/02/us-india-trade-modi-trump-russia-oil.html",
     "source": "cnbc_markets",
     "published_utc": "2026-10-02T04:07:54+00:00",
-    "score": 6.95,
+    "score": 6.91,
     "duplicates": 0
    },
    {
@@ -2761,21 +2785,21 @@
     "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxNNHgzaFBZWngzeFFMWWRTWC03dEdnRHJtOVFXSzF0VkxxYzVGN0dwX0JvMVNuZ0h2TmhEVHJPLVlCWDAzZ1FDSnFkc29VdTJWc2RTRVhqRkd0QXdDalVTUzMzZnh6Ni1xYmx1T2s1eVhDQXdNVVlpM3Fwa0oxbEgtLXlrcGVDcm9Qc2pVOGQwM1l5UXhTOEVRSHlNWTFJdWZZXzdtVzBzdjhfMl9hMFFqa01mR1lwZ0NmQ0xCQzBoc2tXQW0ySDg4SlNFdEFTd1k0?oc=5",
     "source": "gnews_macro",
     "published_utc": "2026-10-02T10:00:26+00:00",
-    "score": 6.93,
+    "score": 6.89,
     "duplicates": 0
    }
   ],
   "summary": {
    "lines": [
-    "Jobs report (NFP cons 89K, prior 162K; unemployment 4.1%; avg hourly earnings m/m cons 0.3%) is the key catalyst, with futures drifting/rising into the 08:30 ET release [10a2dcd984][c1cbda6593][a9a5bfe680][770bb44eef].",
-    "Treasury yields are surging to multi-year highs alongside factory-strength and inflation-worry crosscurrents, a backdrop for rate-sensitive index moves around the data [dfbc99667a][4788c59c9b][9122a11010].",
-    "Pimco's Stracke attributes the yield rise to AI spending rather than inflation, offering a competing narrative for the bond move traders are watching [7ca6b665c7].",
-    "Geopolitical/trade headlines (new Iran sanctions, no imminent US-India deal with tariff risk up to 100%) are background risk items, not directly tied to the jobs data [e501b06356][041e1b6638]."
+    "Futures drift higher into the 08:30 ET jobs report, with consensus at 89K nonfarm payrolls (prior 162K) and unemployment seen holding at 4.1%, keeping traders positioned for a volatility spike at the print [b839a8d5ca][10a2dcd984][770bb44eef][a9a5bfe680].",
+    "Treasury yields are described as both surging to 24-year highs and easing ahead of the jobs data, a key driver for rate-sensitive Nasdaq names going into the print [4788c59c9b][9122a11010][a9a5bfe680][dfbc99667a].",
+    "Treasury sanctions targeting Iran's auto and rail sectors add a geopolitical headline risk to monitor, though not a scheduled macro event [e501b06356]."
    ],
    "backend": "anthropic",
    "model": "claude-sonnet-5",
    "dropped": [
-    "ungrounded number(s) ['2']: A report says Q2 US economic growth slowed, adding another data point complicating the Fed policy outlook [f1a96f035d]."
+    "ungrounded number(s) ['2']: A report says the U.S. economy slowed in Q2, adding to uncertainty over the Fed's policy path that traders will weigh alongside today's jobs number [f1a96f035d].",
+    "no valid citation: U.S.-India trade talks remain unresolved after the Modi-Trump call, a background"
    ],
    "warnings": []
   },
