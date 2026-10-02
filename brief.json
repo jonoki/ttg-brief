@@ -1,7 +1,7 @@
 {
  "meta": {
-  "generated_at_utc": "2026-10-02T15:44:25.218171+00:00",
-  "generated_at_local": "Fri 02 Oct 2026 12:44 ADT",
+  "generated_at_utc": "2026-10-02T15:59:47.077033+00:00",
+  "generated_at_local": "Fri 02 Oct 2026 12:59 ADT",
   "trading_day": "2026-10-02",
   "display_tz": "America/Halifax",
   "version": "0.1.0",
@@ -75,10 +75,10 @@
   {
    "root": "ES",
    "trading_day": "2026-10-02",
-   "as_of_utc": "2026-10-02T15:44:25.218171+00:00",
+   "as_of_utc": "2026-10-02T15:59:47.077033+00:00",
    "source": "yahoo",
    "delayed": true,
-   "last_price": 7773.75,
+   "last_price": 7772.25,
    "levels": [
     {
      "tag": "tdh",
@@ -229,8 +229,8 @@
     }
    ],
    "stats": {
-    "last_bar_utc": "2026-10-02T15:34:00+00:00",
-    "last_bar_age_min": 10.4,
+    "last_bar_utc": "2026-10-02T15:49:00+00:00",
+    "last_bar_age_min": 10.8,
     "market_state": "open",
     "profile_volume": 1687242.0,
     "prior_day": "2026-10-01",
@@ -1544,20 +1544,28 @@
     {
      "t": "2026-10-02T15:30:00+00:00",
      "o": 7770.75,
-     "h": 7775.25,
+     "h": 7778.0,
      "l": 7764.0,
-     "c": 7773.75,
-     "v": 21053.0
+     "c": 7773.0,
+     "v": 61806.0
+    },
+    {
+     "t": "2026-10-02T15:45:00+00:00",
+     "o": 7773.0,
+     "h": 7776.25,
+     "l": 7771.0,
+     "c": 7772.25,
+     "v": 14040.0
     }
    ]
   },
   {
    "root": "NQ",
    "trading_day": "2026-10-02",
-   "as_of_utc": "2026-10-02T15:44:25.218171+00:00",
+   "as_of_utc": "2026-10-02T15:59:47.077033+00:00",
    "source": "yahoo",
    "delayed": true,
-   "last_price": 31076.25,
+   "last_price": 31080.0,
    "levels": [
     {
      "tag": "tdh",
@@ -1708,8 +1716,8 @@
     }
    ],
    "stats": {
-    "last_bar_utc": "2026-10-02T15:34:00+00:00",
-    "last_bar_age_min": 10.4,
+    "last_bar_utc": "2026-10-02T15:49:00+00:00",
+    "last_bar_age_min": 10.8,
     "market_state": "open",
     "profile_volume": 594954.0,
     "prior_day": "2026-10-01",
@@ -3023,10 +3031,18 @@
     {
      "t": "2026-10-02T15:30:00+00:00",
      "o": 31063.0,
-     "h": 31086.25,
+     "h": 31094.25,
      "l": 31027.5,
-     "c": 31076.25,
-     "v": 5528.0
+     "c": 31078.25,
+     "v": 15841.0
+    },
+    {
+     "t": "2026-10-02T15:45:00+00:00",
+     "o": 31078.25,
+     "h": 31102.5,
+     "l": 31073.25,
+     "c": 31080.0,
+     "v": 5015.0
     }
    ]
   }
@@ -3039,7 +3055,7 @@
     "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE5JVm9YT2xucW1TQXhFUlFieVJIOWlrVGxlRzRtQkl1eFAxQ1diQXQ3Qkpvc2hwcDV5cXBpSmhLRDBZaU05dUc1T2s1MFZIZy1xendWNkdGTlFOX0pVeTNfaDBnU3Ixa3hUMnBNaVpKRXA1eUU0dXhpalhhVFhiZw?oc=5",
     "source": "gnews_macro",
     "published_utc": "2026-10-02T13:16:51+00:00",
-    "score": 9.09,
+    "score": 9.05,
     "duplicates": 0
    },
    {
@@ -3057,7 +3073,7 @@
     "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQQ2tmMDVQU0sxa1hDSTVYUTJjVEJPNnZiZ3hjbFNLNDBJaC1OblNEZlRjVGNob3ppTUpVVEVVWUhMUFU3VHd1QzRiMjFtUE1LZkQwWXFteC1kSVVicEdiRVNLZjFRNERtRTR1TmsweVlnU1gxdkxCc3BCaHpzWXk5QTFXTDJQNHhQWkJ1UkQ1LVI?oc=5",
     "source": "gnews_futures",
     "published_utc": "2026-10-02T12:45:32+00:00",
-    "score": 8.0,
+    "score": 7.96,
     "duplicates": 0
    },
    {
@@ -3066,7 +3082,7 @@
     "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNaXlVWmhNUF9PdTVEQlFNZFNhbHRab3dOSHlQdXBrN3N3M2dwSUIzTVFHbWd5c0RvOWNPSnJqOFQ5R3Q1OWdxX0NtNTRhaXZNWEpEamFzaGxwaVp0NHhNYTNrRm9EUHlGTGoyNXJ3ZktiR18yLVplcjRjd3lFLW9UdnpGU3ppNzE1LUNVeHFkQm4?oc=5",
     "source": "gnews_fed",
     "published_utc": "2026-10-02T15:15:45+00:00",
-    "score": 7.92,
+    "score": 7.88,
     "duplicates": 1
    },
    {
@@ -3075,7 +3091,7 @@
     "link": "https://www.federalreserve.gov/newsevents/pressreleases/enforcement20261002a.htm",
     "source": "fed_press",
     "published_utc": "2026-10-02T15:00:00+00:00",
-    "score": 7.88,
+    "score": 7.83,
     "duplicates": 0
    },
    {
@@ -3084,7 +3100,7 @@
     "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPY3Y5dk03cDRuSWRQT081MC11YjFYT0NjWEUwOTRHYnVoVl9STGx5eDA4SENoTHhhWml5RDE0TkpFYVpxY0daaFFQcEJHazl6VDQyZVF4YUx2NHpMTDYwenJ2WHFUekZRYXZYWWhLM2dlN21NYnNQSGJaOEliYkZWM253VFZoa3RyQzZYcVlkMGhNbHU4SE5N?oc=5",
     "source": "gnews_macro",
     "published_utc": "2026-10-02T14:41:13+00:00",
-    "score": 7.82,
+    "score": 7.78,
     "duplicates": 0
    },
    {
@@ -3093,7 +3109,7 @@
     "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPOU1aVUFEOV9MWl9TVVdodDl4eFoyUjgxN2tLZ1QtRWYzbEUtMEpVQll0ZkhSekJFZUFVZzdNeXVqTzdUYXI3OWNMcC1YQ19XVDN2MFNTOWQzNjFLLTBDWFVvLXlWMWZRZ1R6RTRhVVRuS0dkZnJBMTd2dWhGV2hPdUg0b3hJQkZncFhCMnljc2lwYmw3TFHSAZsBQVVfeXFMTzNmZkRlUzhSSXlhMzhWV3lyN0pyeUstczZQXy1HZFNMRUh6TjNPN2Q0bGdrU2tCZjg2YkFZN3RrdndRcEs2TlAxRVlmNlhQVldRd3VZRmtZUlZock5uWTFsQ3dXdDMycWJSbXQwTDBSYVBWa1RZTG9qRWxkQTk1R1Y1WmtuUW9DSF9tUGs0NF8xdmE2RHlYQVJidFk?oc=5",
     "source": "gnews_fed",
     "published_utc": "2026-10-02T13:29:27+00:00",
-    "score": 7.63,
+    "score": 7.58,
     "duplicates": 1
    },
    {
@@ -3102,16 +3118,25 @@
     "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPWWpqYkktU3BlRHpLdE55YmszaDZWUzg1M1haVTNPaV9WTUlmTjllRE1Ob0kxVGlxZlJNWGJjaDcyaUVqek1rWVNVaGotcXNxa3k0VlV6ai1MOW9FSHNMbTdRU1d1NHM0YklLb0Z1RE1tRVJyTDVFcTN4QkxvVUkyZjJ3ZWNFNkUz?oc=5",
     "source": "gnews_fed",
     "published_utc": "2026-10-02T13:13:11+00:00",
-    "score": 7.58,
+    "score": 7.54,
     "duplicates": 1
    },
    {
-    "id": "b9e80679a0",
-    "title": "Dow Jones Futures Rise, Oil Prices Tumble With Tesla, Jobs Due; Nike, Seagate, Western Digital Are Big Losers - Investor's Business Daily",
-    "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQTTd2a2FIVjFmYS1OOW1wTmRyRE9fVDRZQ3oybTdtWWlYUUhCTDUyU3Q5RUQtOXNTRGF5NVVYQXR5aXluWms2ZkV2c2pyeHlDaTV5MUlCY2xIS1haQzZ6RnlmWjFTaFprSkliY1lqUHllSzR3UzhQSzZFTVluQmhpOGVtZXNiUzJJbV9ZVE9SUGQtQXZFcFJBQ1Zrd0JjdmxUQUltU2lSaFpDR0NzamhhQVJaa1RxQ3JTRVRIUm52bXNMLXRBbGRxYTdnY2hraXFC?oc=5",
+    "id": "69f412cc91",
+    "title": "Nasdaq Hits Record High as Treasury Yields Retreat - Schaeffer's Investment Research",
+    "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxONkN0WDN0aU8tcXhzb1lKcU16WVdZSHo5dXJ5VmJoUFN1TnVGQlMwbjlIbDRMTHlEQkRsODFGRHliU1g3clN1MnhmVWsxdFg3MnJXX21lbmthVTJrNGk0a2dBVzVZRXpvOU40OVZ1VFF4WGZFcm5hTGVYMWhTMXRvRjRXbVJYQWM3ckd2X2M4TnJCQUxEZWRtRHJ3WmZaRDlyZnNESmFPbHVWZWtxN0tnbg?oc=5",
+    "source": "gnews_macro",
+    "published_utc": "2026-10-02T15:48:06+00:00",
+    "score": 7.47,
+    "duplicates": 0
+   },
+   {
+    "id": "8c32fbfd6c",
+    "title": "September Jobs Report Misses, Stock Futures Jump - Benzinga",
+    "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPRzFSOWJ5Y0hoT1AxUlBZN3BMNkIzY1QxZmxjbmRfNGl4bzJVRnkxUHF0OHVhS2V6emRPMDViUEJqTTFlejVaeko0ekN1QjhjNTR1dVRVNXpuRmRfbHp4Z21JVHdfS25uNVY1bnZYVzF6b25SV29rSE9SWWFYeHdDTDNQZVVkaHRtVVVPZlVzNlo?oc=5",
     "source": "gnews_futures",
-    "published_utc": "2026-10-02T12:07:00+00:00",
-    "score": 7.4,
+    "published_utc": "2026-10-02T15:34:23+00:00",
+    "score": 7.43,
     "duplicates": 0
    },
    {
@@ -3120,39 +3145,31 @@
     "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNT3BjMjM4YVNUUEIwWFpJY3BfcHlEQmlqdWotcmpURVBxeHBFZkNaN3VBMmdzQXJ3UjBycFpraDRMMF9iYmRzQWowajZxdUpxOTczVndjUzNYcU8tX1J4V0drMG9WbFNSRHJPd2o0RDdNYjkzN18xWDhEZGhjY3cwRkxHUE02bzNYendKNUd2LTFkV191VmM1R0o5anctMzBFeEJMM1BKcWVydw?oc=5",
     "source": "gnews_macro",
     "published_utc": "2026-10-02T15:10:06+00:00",
-    "score": 7.4,
-    "duplicates": 0
-   },
-   {
-    "id": "d81dc631fd",
-    "title": "Stubborn inflation, consistent growth shift Fed debate to timing of next hike - Baltimore Sun",
-    "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQRkFhM1JWWWc0RUNQcnpFaGhDbEQ1RlZ0TUZmTWlyeDdHT1EyYzJCZGZYMkpSRGNrNElsa2dpOEsxNE9QaU1ncngxN2VLUDZXS2d4cGRxQmQwaHB0a0tIeVQxOFlEeDJ3a05wbE9GVHZZV05VV1BDd2czaDI4WVBRV0tLeEphSjBMeUxxeE1iNGJiS2pGblIzeVJEb0RQcVFONGRqaWpGdVV1UzlDb0w3eHBQSE53Z2l5?oc=5",
-    "source": "gnews_fed",
-    "published_utc": "2026-10-02T14:53:19+00:00",
     "score": 7.36,
     "duplicates": 0
    },
    {
-    "id": "57655d222a",
-    "title": "Tom Lee Calls Stablecoins 'Integral' as Fed Research Details $200 Billion Surge Offsetting China's US Debt Sell-Off: 'Are You Bullish Enough?' - TradingView",
-    "link": "https://news.google.com/rss/articles/CBMinwJBVV95cUxNc3pxUEp1R1pMdlZiaEx2UVZQd3VjVjNyd280ZC1DSXJuRFJqaHBkMWVBd3hUWHNzdk5DZ0p1MHBqQm9POU54bFo4MVlMNVUxdlFlZ0QzMi02VG9JR3dYdVQzRnlLUFVJNFgwMkhUYzFZYjFkUzViV2xJYTJnQ1Q4ZG00MzFUS3NibkhLQkdDSUF0RlZ1SWZ5UzZnV2FIV29oMU1FS3ZqRmczZ0hyTVpXa0tiT3pLQWdwdEs5TWEzRXpRY1FGeFZsakdDOXlja1l0V2kwbG8zeHNaTmF3MzFDbDM5VXA1MUpCT24xRWZTUTNHUHVtLTB5ellYRm1BX3c5bmxSN19XVGJPS2x6cGtFbktobHJNVkstWU16b3NCYw?oc=5",
-    "source": "gnews_fed",
-    "published_utc": "2026-10-02T11:52:29+00:00",
-    "score": 7.36,
+    "id": "b9e80679a0",
+    "title": "Dow Jones Futures Rise, Oil Prices Tumble With Tesla, Jobs Due; Nike, Seagate, Western Digital Are Big Losers - Investor's Business Daily",
+    "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQTTd2a2FIVjFmYS1OOW1wTmRyRE9fVDRZQ3oybTdtWWlYUUhCTDUyU3Q5RUQtOXNTRGF5NVVYQXR5aXluWms2ZkV2c2pyeHlDaTV5MUlCY2xIS1haQzZ6RnlmWjFTaFprSkliY1lqUHllSzR3UzhQSzZFTVluQmhpOGVtZXNiUzJJbV9ZVE9SUGQtQXZFcFJBQ1Zrd0JjdmxUQUltU2lSaFpDR0NzamhhQVJaa1RxQ3JTRVRIUm52bXNMLXRBbGRxYTdnY2hraXFC?oc=5",
+    "source": "gnews_futures",
+    "published_utc": "2026-10-02T12:07:00+00:00",
+    "score": 7.35,
     "duplicates": 0
    }
   ],
   "summary": {
    "lines": [
-    "Nonfarm payrolls rose 29K (cons 89K, prior 162K), unemployment ticked up to 4.2% (cons/prior 4.1%), and average hourly earnings grew 0.1% (cons/prior 0.3%), a broad miss that traders read as dovish for Fed policy [7a10b00932][dffcdf0e66][019109402f].",
-    "Equity futures jumped roughly 1% and cash indices followed through, with the Dow up about 400 points and the Nasdaq hitting a record high as the data hit [b839a8d5ca][bf763e0743].",
-    "Treasury yields fell as markets priced in little chance of an October Fed rate hike following the weak jobs data [77904f1f23][e816241ca1][d81dc631fd].",
-    "A drop in oil prices was also cited as supporting the futures bid into the jobs release [637cf08451][b9e80679a0].",
-    "The Fed separately issued an enforcement action against Ontario Bancorporation, a bank-specific item with no broad market linkage [8877df2110]."
+    "Nonfarm payrolls printed 29K versus 89K consensus with unemployment at 4.2% (vs 4.1% cons/prior) and average hourly earnings up 0.1% (vs 0.3% cons/prior), a clear miss on the calendar print [7a10b00932][bf763e0743].",
+    "U.S. stock futures jumped about 1% overnight as traders pared Fed rate-hike bets following the report [b839a8d5ca][8c32fbfd6c].",
+    "Multiple outlets say markets now see little chance of an October Fed hike after the soft jobs data, a repricing relevant to rate-sensitive index futures [dffcdf0e66][e816241ca1][019109402f][77904f1f23].",
+    "Treasury yields fell on the report, cited alongside Nasdaq hitting a record high and the Dow up 400 points [bf763e0743][69f412cc91]."
    ],
    "backend": "anthropic",
    "model": "claude-sonnet-5",
-   "dropped": [],
+   "dropped": [
+    "no valid citation: Oil prices dropped ahead of the jobs report, cited as an additional lift to stock futures [637cf08451"
+   ],
    "warnings": []
   },
   "feeds": [],
