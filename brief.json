@@ -1,7 +1,7 @@
 {
  "meta": {
-  "generated_at_utc": "2026-10-02T14:42:54.608354+00:00",
-  "generated_at_local": "Fri 02 Oct 2026 11:42 ADT",
+  "generated_at_utc": "2026-10-02T14:58:22.115914+00:00",
+  "generated_at_local": "Fri 02 Oct 2026 11:58 ADT",
   "trading_day": "2026-10-02",
   "display_tz": "America/Halifax",
   "version": "0.1.0",
@@ -75,31 +75,45 @@
   {
    "root": "ES",
    "trading_day": "2026-10-02",
-   "as_of_utc": "2026-10-02T14:42:54.608354+00:00",
+   "as_of_utc": "2026-10-02T14:58:22.115914+00:00",
    "source": "yahoo",
    "delayed": true,
-   "last_price": 7798.75,
+   "last_price": 7806.25,
    "levels": [
     {
-     "tag": "exp_hi",
-     "label": "Expected-range high (close + ATR)",
-     "price": 7808.8,
-     "group": "range",
-     "note": "ATR over 14 days"
+     "tag": "rn_major_up",
+     "label": "Round 50 above",
+     "price": 7850.0,
+     "group": "round",
+     "note": ""
+    },
+    {
+     "tag": "rn_minor_up",
+     "label": "Round 25 above",
+     "price": 7825.0,
+     "group": "round",
+     "note": ""
     },
     {
      "tag": "tdh",
      "label": "Today's RTH high",
-     "price": 7808.75,
+     "price": 7810.25,
      "group": "today",
      "note": "so far"
     },
     {
      "tag": "wh",
      "label": "Week high",
-     "price": 7808.75,
+     "price": 7810.25,
      "group": "week",
      "note": "since 2026-09-28"
+    },
+    {
+     "tag": "exp_hi",
+     "label": "Expected-range high (close + ATR)",
+     "price": 7808.8,
+     "group": "range",
+     "note": "ATR over 14 days"
     },
     {
      "tag": "onh",
@@ -109,8 +123,8 @@
      "note": "since 18:00 ET, 920 bars"
     },
     {
-     "tag": "rn_major_up",
-     "label": "Round 50 above",
+     "tag": "rn_major_dn",
+     "label": "Round 50 below",
      "price": 7800.0,
      "group": "round",
      "note": ""
@@ -121,13 +135,6 @@
      "price": 7789.5,
      "group": "today",
      "note": "09:30 bar open"
-    },
-    {
-     "tag": "rn_minor_dn",
-     "label": "Round 25 below",
-     "price": 7775.0,
-     "group": "round",
-     "note": ""
     },
     {
      "tag": "tdl",
@@ -149,13 +156,6 @@
      "price": 7763.22,
      "group": "overnight",
      "note": "typical-price VWAP"
-    },
-    {
-     "tag": "rn_major_dn",
-     "label": "Round 50 below",
-     "price": 7750.0,
-     "group": "round",
-     "note": ""
     },
     {
      "tag": "pdh",
@@ -229,8 +229,8 @@
     }
    ],
    "stats": {
-    "last_bar_utc": "2026-10-02T14:32:00+00:00",
-    "last_bar_age_min": 10.9,
+    "last_bar_utc": "2026-10-02T14:48:00+00:00",
+    "last_bar_age_min": 10.4,
     "market_state": "open",
     "profile_volume": 1687242.0,
     "prior_day": "2026-10-01",
@@ -1512,20 +1512,28 @@
     {
      "t": "2026-10-02T14:30:00+00:00",
      "o": 7804.25,
-     "h": 7804.75,
-     "l": 7797.25,
-     "c": 7798.75,
-     "v": 8629.0
+     "h": 7810.25,
+     "l": 7796.25,
+     "c": 7804.75,
+     "v": 59854.0
+    },
+    {
+     "t": "2026-10-02T14:45:00+00:00",
+     "o": 7804.75,
+     "h": 7808.0,
+     "l": 7801.25,
+     "c": 7806.25,
+     "v": 9238.0
     }
    ]
   },
   {
    "root": "NQ",
    "trading_day": "2026-10-02",
-   "as_of_utc": "2026-10-02T14:42:54.608354+00:00",
+   "as_of_utc": "2026-10-02T14:58:22.115914+00:00",
    "source": "yahoo",
    "delayed": true,
-   "last_price": 31230.75,
+   "last_price": 31241.75,
    "levels": [
     {
      "tag": "rn_major_up",
@@ -1676,8 +1684,8 @@
     }
    ],
    "stats": {
-    "last_bar_utc": "2026-10-02T14:32:00+00:00",
-    "last_bar_age_min": 10.9,
+    "last_bar_utc": "2026-10-02T14:48:00+00:00",
+    "last_bar_age_min": 10.4,
     "market_state": "open",
     "profile_volume": 594954.0,
     "prior_day": "2026-10-01",
@@ -2959,10 +2967,18 @@
     {
      "t": "2026-10-02T14:30:00+00:00",
      "o": 31265.25,
-     "h": 31267.5,
-     "l": 31226.0,
-     "c": 31230.75,
-     "v": 3943.0
+     "h": 31273.5,
+     "l": 31225.0,
+     "c": 31240.5,
+     "v": 19562.0
+    },
+    {
+     "t": "2026-10-02T14:45:00+00:00",
+     "o": 31240.75,
+     "h": 31253.25,
+     "l": 31225.5,
+     "c": 31241.75,
+     "v": 2609.0
     }
    ]
   }
@@ -2975,7 +2991,7 @@
     "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE5JVm9YT2xucW1TQXhFUlFieVJIOWlrVGxlRzRtQkl1eFAxQ1diQXQ3Qkpvc2hwcDV5cXBpSmhLRDBZaU05dUc1T2s1MFZIZy1xendWNkdGTlFOX0pVeTNfaDBnU3Ixa3hUMnBNaVpKRXA1eUU0dXhpalhhVFhiZw?oc=5",
     "source": "gnews_macro",
     "published_utc": "2026-10-02T13:16:51+00:00",
-    "score": 9.26,
+    "score": 9.22,
     "duplicates": 0
    },
    {
@@ -2993,8 +3009,26 @@
     "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQQ2tmMDVQU0sxa1hDSTVYUTJjVEJPNnZiZ3hjbFNLNDBJaC1OblNEZlRjVGNob3ppTUpVVEVVWUhMUFU3VHd1QzRiMjFtUE1LZkQwWXFteC1kSVVicEdiRVNLZjFRNERtRTR1TmsweVlnU1gxdkxCc3BCaHpzWXk5QTFXTDJQNHhQWkJ1UkQ1LVI?oc=5",
     "source": "gnews_futures",
     "published_utc": "2026-10-02T12:45:32+00:00",
-    "score": 8.17,
+    "score": 8.13,
     "duplicates": 0
+   },
+   {
+    "id": "098c209ffd",
+    "title": "Soft Jobs Report Boosts Market Bets Fed Will Skip October Rate Increase - The New York Times",
+    "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPdDNZNjMxekhFRUhZTEREemdWTVo5aV9oWkJvVVZ4MEUwWFFDNVBnbWtYY0F0YUVaNFNQNGtodWx0Z1dZRUZRZUVhejhodHA1TVpsZmZaMGlMbGtkTklxeTFiRVZaTzFvcllwM0t5OTdpYmN5SEdaZE9LTGF2NVJLT0xnNy1PS1N4RjJqTV96UkdJUjlyTzl3VndkR1FHcm5iN20yTFIxMEFfVHFBM0NGdHBXbEhraUs1TEc1MGVPRHBwOElmNWtF?oc=5",
+    "source": "gnews_fed",
+    "published_utc": "2026-10-02T14:51:37+00:00",
+    "score": 7.98,
+    "duplicates": 1
+   },
+   {
+    "id": "f4577adbc8",
+    "title": "US stocks rise toward their record after the latest jobs report calms the rattled bond market - Boston Herald",
+    "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTE9peVhyenRYUUdnUkNnQ2lvQnZuNnc2bDdTRGVOLTBELVQxNkZEXzlSWWg5WUVOM1RrdEMwTVJORFNMckRxb012WkhmZXNKYjhtSV9sYVJUMTJicjhkMlAwa1VFdXFLdm93aHFLaENOZHBhd1Q4X0lKazZIMHo?oc=5",
+    "source": "gnews_macro",
+    "published_utc": "2026-10-02T13:46:36+00:00",
+    "score": 7.8,
+    "duplicates": 3
    },
    {
     "id": "dffcdf0e66",
@@ -3002,7 +3036,7 @@
     "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPOU1aVUFEOV9MWl9TVVdodDl4eFoyUjgxN2tLZ1QtRWYzbEUtMEpVQll0ZkhSekJFZUFVZzdNeXVqTzdUYXI3OWNMcC1YQ19XVDN2MFNTOWQzNjFLLTBDWFVvLXlWMWZRZ1R6RTRhVVRuS0dkZnJBMTd2dWhGV2hPdUg0b3hJQkZncFhCMnljc2lwYmw3TFHSAZsBQVVfeXFMTzNmZkRlUzhSSXlhMzhWV3lyN0pyeUstczZQXy1HZFNMRUh6TjNPN2Q0bGdrU2tCZjg2YkFZN3RrdndRcEs2TlAxRVlmNlhQVldRd3VZRmtZUlZock5uWTFsQ3dXdDMycWJSbXQwTDBSYVBWa1RZTG9qRWxkQTk1R1Y1WmtuUW9DSF9tUGs0NF8xdmE2RHlYQVJidFk?oc=5",
     "source": "gnews_fed",
     "published_utc": "2026-10-02T13:29:27+00:00",
-    "score": 7.8,
+    "score": 7.75,
     "duplicates": 1
    },
    {
@@ -3011,7 +3045,7 @@
     "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPWWpqYkktU3BlRHpLdE55YmszaDZWUzg1M1haVTNPaV9WTUlmTjllRE1Ob0kxVGlxZlJNWGJjaDcyaUVqek1rWVNVaGotcXNxa3k0VlV6ai1MOW9FSHNMbTdRU1d1NHM0YklLb0Z1RE1tRVJyTDVFcTN4QkxvVUkyZjJ3ZWNFNkUz?oc=5",
     "source": "gnews_fed",
     "published_utc": "2026-10-02T13:13:11+00:00",
-    "score": 7.75,
+    "score": 7.71,
     "duplicates": 1
    },
    {
@@ -3020,7 +3054,7 @@
     "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQTTd2a2FIVjFmYS1OOW1wTmRyRE9fVDRZQ3oybTdtWWlYUUhCTDUyU3Q5RUQtOXNTRGF5NVVYQXR5aXluWms2ZkV2c2pyeHlDaTV5MUlCY2xIS1haQzZ6RnlmWjFTaFprSkliY1lqUHllSzR3UzhQSzZFTVluQmhpOGVtZXNiUzJJbV9ZVE9SUGQtQXZFcFJBQ1Zrd0JjdmxUQUltU2lSaFpDR0NzamhhQVJaa1RxQ3JTRVRIUm52bXNMLXRBbGRxYTdnY2hraXFC?oc=5",
     "source": "gnews_futures",
     "published_utc": "2026-10-02T12:07:00+00:00",
-    "score": 7.57,
+    "score": 7.52,
     "duplicates": 0
    },
    {
@@ -3029,16 +3063,25 @@
     "link": "https://news.google.com/rss/articles/CBMinwJBVV95cUxNc3pxUEp1R1pMdlZiaEx2UVZQd3VjVjNyd280ZC1DSXJuRFJqaHBkMWVBd3hUWHNzdk5DZ0p1MHBqQm9POU54bFo4MVlMNVUxdlFlZ0QzMi02VG9JR3dYdVQzRnlLUFVJNFgwMkhUYzFZYjFkUzViV2xJYTJnQ1Q4ZG00MzFUS3NibkhLQkdDSUF0RlZ1SWZ5UzZnV2FIV29oMU1FS3ZqRmczZ0hyTVpXa0tiT3pLQWdwdEs5TWEzRXpRY1FGeFZsakdDOXlja1l0V2kwbG8zeHNaTmF3MzFDbDM5VXA1MUpCT24xRWZTUTNHUHVtLTB5ellYRm1BX3c5bmxSN19XVGJPS2x6cGtFbktobHJNVkstWU16b3NCYw?oc=5",
     "source": "gnews_fed",
     "published_utc": "2026-10-02T11:52:29+00:00",
-    "score": 7.53,
+    "score": 7.48,
     "duplicates": 0
    },
    {
-    "id": "c1cbda6593",
-    "title": "U.S. stock futures tick higher with nonfarm payrolls in focus - Investing.com India",
-    "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQYmNVX1VJdkdKUVFVeWIyZjN1TVNQVmdRSUVGUTd4WEdDZ251aG1aWmE1MTZuT1NCdTI0aHBNWmlSSGNTM1FKVTZ4Ny1MQzlLTExaT1M0RlBSM0ZOczNETXROYVBvSU1zdXUtZWttQW5HUVNWSDJxcGg4Z214dHZkRUl1RXVmQTlVTFVUOGRjdmdJcWctcnRVRmpGNVl2ZEhSWWQtRmNONFdHTGJVcExQZG1UZVVRNVE?oc=5",
+    "id": "e3eed53c21",
+    "title": "U.S. stock futures tick higher with nonfarm payrolls in focus By Investing.com - Investing.com South Africa",
+    "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPc253djVNenMwZF9CYzZyaUU4bmt5a2lzVXo0anpEWVB4VElkMm5tZ0tLaFNGR3hCN01GYlNHYjJFTGE5RlRjd3h0R1pPVldhRkN6VnlRdGNnaTVlMjVIcUs4b3VFaGh0QmU0bnR2QzZGZ1hZb3RTR0tTalFDaEd6c3NOSkNpbnliaWg0WDYxNzEwak92WnoydEYwWVN1NmdadVlmX1p1Z3B4TE9ESVVMaGtmdkJ6SE0?oc=5",
     "source": "gnews_futures",
-    "published_utc": "2026-10-02T11:50:03+00:00",
-    "score": 7.52,
+    "published_utc": "2026-10-02T11:49:38+00:00",
+    "score": 7.48,
+    "duplicates": 1
+   },
+   {
+    "id": "ef8c769834",
+    "title": "US Stock Futures Advance Ahead of September Payrolls Data - Bloomberg.com",
+    "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQUFJWVUgxTnd0dTl3aE9FRkV1VkhKdDR3MzB5MjhBWlEzNkdveWtoa1h4M0ppc3QtazRUZTN3VGQ5Q2R3dWpvYUVkR09menl2ZlFGU1F1MkxOdDljNW8xb1FKemFOVF9LdXVHb2JZSTdBX2U4end0WW9mZ2JTWlgxdHBLd0U4NjU2ZEdKOUlEMjYwOVVqYmdveXM3NXo1QjVmNWJHbXJsVmVMZ2Rx?oc=5",
+    "source": "gnews_futures",
+    "published_utc": "2026-10-02T11:47:39+00:00",
+    "score": 7.47,
     "duplicates": 1
    },
    {
@@ -3047,48 +3090,21 @@
     "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOMmx1c0JlTFhzVkdWQUJKcmxqalh5ekVRSjNfYzFPMUhQbGVrUU90bjJJWXFHM3o0S0ZlX3VFWHdjdXlIZ2JpYlBLa1p3ck81VVJTUDg2UE9kTEtoZ0NXV0xQLVdBclNub1dEeVYyQTBpUkN2allrZTQteFZOSGtQSDdSVVhMRVNZblotWUhzbU1Sd3NybDNFMkxn?oc=5",
     "source": "gnews_macro",
     "published_utc": "2026-10-02T14:20:21+00:00",
-    "score": 7.44,
-    "duplicates": 0
-   },
-   {
-    "id": "d0b4af0b58",
-    "title": "US stocks rise near their record after the latest jobs report calms the rattled bond market - Union-Bulletin",
-    "link": "https://news.google.com/rss/articles/CBMihwJBVV95cUxNeFpCNjk5aVY1M3JLTlE3MFkxSXJKZmhyOWZoTDJmUHB1c3BJZ0wwRV92U01uM3JYdUtUa0U4RmVmTlUtZEFzM1pZdjAtb3Vrb0toWWxPSDhpR1MxcXl3THZtRzh5WFR3bDItU0ZFZ3ptZzF5MVBlWFNIRC1xbWJwaG5iWWtoaTBQVFUyQUxzTEZRNTN6Qno0R25mcVRqMDhucFBqN1lFd1hWU0VVTENVXzlia2dtc3ZIeGVXczVrQUFyZXppTWRxdEFVelhlelMzU0FRaFlfNURjbG5DNU5NT0ZaMGJZLVVrWGlNb3Q1Vkh3SlR2RkM3MjFLSjFBSExzNlZFWmhuSQ?oc=5",
-    "source": "gnews_macro",
-    "published_utc": "2026-10-02T13:46:54+00:00",
-    "score": 7.34,
-    "duplicates": 2
-   },
-   {
-    "id": "0fcb9ade7d",
-    "title": "The jobs report 'definitely' puts the Fed on hold for October: Mohamed El-Erian explains - Yahoo Finance",
-    "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOcHFBa1lycENyb1YweWRQSmdsLVFVQWppQjdyWExSZkM1SWtaVkF2UEZSM3UzcFBETXhKQkhSU1F2Y21OYTF3MWdGSGxkMTE5Vm9PVW1BQ1ZGRnZWUF9XRGVpV0d1TjNna3FNbXgyVmRrZzRJQnlXWE1PRFhEMkNJU3pUeVA?oc=5",
-    "source": "gnews_macro",
-    "published_utc": "2026-10-02T13:40:22+00:00",
-    "score": 7.33,
-    "duplicates": 0
-   },
-   {
-    "id": "47d5421c94",
-    "title": "Watch Fed Is One Bad Inflation Number Away From Hiking Rates, Dutta Says - Bloomberg.com",
-    "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxObFdUQ1p4Q1hXTDdwa05hbFdkMTFxRy1Zbm9tSld0cG1UZHJZcU1LMTJvWlFhRzU3SFQ3SFdwdWxIaXhuelhBQ1dicGRTNjlDNnYyMnIyb3dCUk1BWU5SSWdzNjl0SkZsRWpWVEhZcG02QVdzb2tCNXNjNkNTUUdZSGYyemRLTDJBbEdxWU5QNmd6QUxUb1NjZV9ZQnJVbzJGVjFlemFabWFhR2VfQVE?oc=5",
-    "source": "gnews_macro",
-    "published_utc": "2026-10-02T13:20:37+00:00",
-    "score": 7.27,
+    "score": 7.39,
     "duplicates": 0
    }
   ],
   "summary": {
    "lines": [
-    "Nonfarm payrolls printed 29K vs 89K consensus with unemployment at 4.2% vs 4.1% consensus and wages at 0.1% vs 0.3% consensus, a miss broad enough that traders quickly cut October Fed hike odds and Treasury yields fell. [7a10b00932][dffcdf0e66][e816241ca1]",
-    "Futures rallied on the news, with reports citing a 1% jump in U.S. stock futures as rate-hike bets were pared back. [b839a8d5ca][c1cbda6593]",
-    "Equities pushed toward record levels as the weak jobs data calmed the bond market, a bid traders should watch for follow-through or fade into the open. [3dc379134f][d0b4af0b58]"
+    "Nonfarm Payrolls printed 29K versus 89K consensus with unemployment at 4.2% versus 4.1% consensus, prompting the bond and equity reaction below [7a10b00932].",
+    "Treasury yields fell and markets now see little to no chance of an October Fed rate hike after the weak jobs report, a key repricing for rate-sensitive index futures [098c209ffd] [dffcdf0e66] [e816241ca1].",
+    "Stock futures jumped roughly 1% overnight and into the morning as traders pared Fed hike bets ahead of and after the report [b839a8d5ca] [e3eed53c21] [ef8c769834].",
+    "Stocks pushed toward record levels as the jobs data calmed the bond market, a tailwind for index futures into the open [f4577adbc8] [3dc379134f].",
+    "A drop in oil prices also contributed to the pre-report lift in futures [637cf08451] [b9e80679a0]."
    ],
    "backend": "anthropic",
    "model": "claude-sonnet-5",
-   "dropped": [
-    "no valid citation: Fed-outlook commentary is split: El-Erian says the report \"definitely\" keeps the Fed on hold for October, while Dutta argues the Fed is just one bad inflation print from hiking, so rate-path risk remains two-sided into"
-   ],
+   "dropped": [],
    "warnings": []
   },
   "feeds": [],
