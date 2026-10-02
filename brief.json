@@ -1,11 +1,11 @@
 {
  "meta": {
-  "generated_at_utc": "2026-10-02T12:27:30.223130+00:00",
-  "generated_at_local": "Fri 02 Oct 2026 09:27 ADT",
+  "generated_at_utc": "2026-10-02T12:31:20.427710+00:00",
+  "generated_at_local": "Fri 02 Oct 2026 09:31 ADT",
   "trading_day": "2026-10-02",
   "display_tz": "America/Halifax",
   "version": "0.1.0",
-  "run": "overnight",
+  "run": "post-data",
   "variant": "public"
  },
  "calendar": {
@@ -22,8 +22,8 @@
      "what": "Month-on-month and year-on-year change in wages from the jobs report.",
      "why": "Wage growth is an inflation input the Fed watches; hot earnings can turn a good jobs print into a hawkish one."
     },
-    "actual": null,
-    "note": null,
+    "actual": "0.1%",
+    "note": "actual via BLS API",
     "consensus": "0.3%",
     "prior": "0.3%",
     "source": "",
@@ -40,8 +40,8 @@
      "what": "Monthly count of US jobs added outside farming, from the BLS employment report (first Friday, 08:30 ET).",
      "why": "The single biggest scheduled mover of index futures: it sets the tone for growth and Fed policy at once. Big beats or misses produce violent 08:30 moves and often the day's range."
     },
-    "actual": null,
-    "note": null,
+    "actual": "29K",
+    "note": "actual via BLS API",
     "consensus": "89K",
     "prior": "162K",
     "source": "",
@@ -58,8 +58,8 @@
      "what": "Share of the labour force without a job, from the same BLS household survey.",
      "why": "Read together with payrolls; a rising rate is a growth warning and raises rate-cut odds, a falling one supports the 'hot economy' narrative."
     },
-    "actual": null,
-    "note": null,
+    "actual": "4.2%",
+    "note": "actual via BLS API",
     "consensus": "4.1%",
     "prior": "4.1%",
     "source": "",
@@ -67,16 +67,7 @@
     "source_url": null
    }
   ],
-  "next_event": {
-   "name": "Average Hourly Earnings m/m",
-   "impact": "high",
-   "time_utc": "2026-10-02T12:30:00+00:00",
-   "local": "09:30 ADT",
-   "et": "08:30 ET",
-   "in": "2 min",
-   "consensus": "0.3%",
-   "prior": "0.3%"
-  },
+  "next_event": null,
   "sources": [],
   "warnings": []
  },
@@ -2919,7 +2910,24 @@
  },
  "flags": [],
  "earnings": {
-  "reported": [],
+  "reported": [
+   {
+    "symbol": "ACN",
+    "name": "Accenture plc",
+    "timing": "unknown",
+    "date": "2026-10-01",
+    "reported_at": "10/1/2026",
+    "reported": true
+   },
+   {
+    "symbol": "NKE",
+    "name": "Nike, Inc.",
+    "timing": "unknown",
+    "date": "2026-10-01",
+    "reported_at": "10/1/2026",
+    "reported": true
+   }
+  ],
   "today": [],
   "tomorrow_pre": [],
   "warnings": []
