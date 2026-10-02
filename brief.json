@@ -1,7 +1,7 @@
 {
  "meta": {
-  "generated_at_utc": "2026-10-02T13:41:25.044815+00:00",
-  "generated_at_local": "Fri 02 Oct 2026 10:41 ADT",
+  "generated_at_utc": "2026-10-02T13:56:45.320233+00:00",
+  "generated_at_local": "Fri 02 Oct 2026 10:56 ADT",
   "trading_day": "2026-10-02",
   "display_tz": "America/Halifax",
   "version": "0.1.0",
@@ -75,17 +75,45 @@
   {
    "root": "ES",
    "trading_day": "2026-10-02",
-   "as_of_utc": "2026-10-02T13:41:25.044815+00:00",
+   "as_of_utc": "2026-10-02T13:56:45.320233+00:00",
    "source": "yahoo",
    "delayed": true,
-   "last_price": 7783.5,
+   "last_price": 7804.0,
    "levels": [
+    {
+     "tag": "rn_major_up",
+     "label": "Round 50 above",
+     "price": 7850.0,
+     "group": "round",
+     "note": ""
+    },
+    {
+     "tag": "rn_minor_up",
+     "label": "Round 25 above",
+     "price": 7825.0,
+     "group": "round",
+     "note": ""
+    },
     {
      "tag": "exp_hi",
      "label": "Expected-range high (close + ATR)",
      "price": 7808.8,
      "group": "range",
      "note": "ATR over 14 days"
+    },
+    {
+     "tag": "tdh",
+     "label": "Today's RTH high",
+     "price": 7804.75,
+     "group": "today",
+     "note": "so far"
+    },
+    {
+     "tag": "wh",
+     "label": "Week high",
+     "price": 7804.75,
+     "group": "week",
+     "note": "since 2026-09-28"
     },
     {
      "tag": "onh",
@@ -95,25 +123,11 @@
      "note": "since 18:00 ET, 920 bars"
     },
     {
-     "tag": "wh",
-     "label": "Week high",
-     "price": 7802.75,
-     "group": "week",
-     "note": "since 2026-09-28"
-    },
-    {
-     "tag": "rn_major_up",
-     "label": "Round 50 above",
+     "tag": "rn_major_dn",
+     "label": "Round 50 below",
      "price": 7800.0,
      "group": "round",
      "note": ""
-    },
-    {
-     "tag": "tdh",
-     "label": "Today's RTH high",
-     "price": 7792.0,
-     "group": "today",
-     "note": "so far"
     },
     {
      "tag": "rtho",
@@ -125,15 +139,8 @@
     {
      "tag": "tdl",
      "label": "Today's RTH low",
-     "price": 7778.75,
+     "price": 7778.25,
      "group": "today",
-     "note": ""
-    },
-    {
-     "tag": "rn_minor_dn",
-     "label": "Round 25 below",
-     "price": 7775.0,
-     "group": "round",
      "note": ""
     },
     {
@@ -149,13 +156,6 @@
      "price": 7763.22,
      "group": "overnight",
      "note": "typical-price VWAP"
-    },
-    {
-     "tag": "rn_major_dn",
-     "label": "Round 50 below",
-     "price": 7750.0,
-     "group": "round",
-     "note": ""
     },
     {
      "tag": "pdh",
@@ -229,8 +229,8 @@
     }
    ],
    "stats": {
-    "last_bar_utc": "2026-10-02T13:31:00+00:00",
-    "last_bar_age_min": 10.4,
+    "last_bar_utc": "2026-10-02T13:46:00+00:00",
+    "last_bar_age_min": 10.8,
     "market_state": "open",
     "profile_volume": 1687242.0,
     "prior_day": "2026-10-01",
@@ -1480,20 +1480,28 @@
     {
      "t": "2026-10-02T13:30:00+00:00",
      "o": 7789.5,
-     "h": 7792.0,
-     "l": 7778.75,
-     "c": 7783.5,
-     "v": 12727.0
+     "h": 7800.75,
+     "l": 7778.25,
+     "c": 7800.25,
+     "v": 104497.0
+    },
+    {
+     "t": "2026-10-02T13:45:00+00:00",
+     "o": 7800.25,
+     "h": 7804.75,
+     "l": 7800.0,
+     "c": 7804.0,
+     "v": 7035.0
     }
    ]
   },
   {
    "root": "NQ",
    "trading_day": "2026-10-02",
-   "as_of_utc": "2026-10-02T13:41:25.044815+00:00",
+   "as_of_utc": "2026-10-02T13:56:45.320233+00:00",
    "source": "yahoo",
    "delayed": true,
-   "last_price": 31070.75,
+   "last_price": 31177.5,
    "levels": [
     {
      "tag": "exp_hi",
@@ -1517,9 +1525,16 @@
      "note": "since 2026-09-28"
     },
     {
+     "tag": "rn_major_up",
+     "label": "Round 100 above",
+     "price": 31200.0,
+     "group": "round",
+     "note": ""
+    },
+    {
      "tag": "tdh",
      "label": "Today's RTH high",
-     "price": 31156.0,
+     "price": 31198.25,
      "group": "today",
      "note": "so far"
     },
@@ -1531,6 +1546,13 @@
      "note": "full 18:00→17:00 session"
     },
     {
+     "tag": "rn_minor_dn",
+     "label": "Round 50 below",
+     "price": 31150.0,
+     "group": "round",
+     "note": ""
+    },
+    {
      "tag": "rtho",
      "label": "Today's RTH open",
      "price": 31147.75,
@@ -1538,8 +1560,8 @@
      "note": "09:30 bar open"
     },
     {
-     "tag": "rn_major_up",
-     "label": "Round 100 above",
+     "tag": "rn_major_dn",
+     "label": "Round 100 below",
      "price": 31100.0,
      "group": "round",
      "note": ""
@@ -1547,22 +1569,8 @@
     {
      "tag": "tdl",
      "label": "Today's RTH low",
-     "price": 31056.5,
+     "price": 31056.25,
      "group": "today",
-     "note": ""
-    },
-    {
-     "tag": "rn_minor_dn",
-     "label": "Round 50 below",
-     "price": 31050.0,
-     "group": "round",
-     "note": ""
-    },
-    {
-     "tag": "rn_major_dn",
-     "label": "Round 100 below",
-     "price": 31000.0,
-     "group": "round",
      "note": ""
     },
     {
@@ -1644,8 +1652,8 @@
     }
    ],
    "stats": {
-    "last_bar_utc": "2026-10-02T13:31:00+00:00",
-    "last_bar_age_min": 10.4,
+    "last_bar_utc": "2026-10-02T13:46:00+00:00",
+    "last_bar_age_min": 10.8,
     "market_state": "open",
     "profile_volume": 594954.0,
     "prior_day": "2026-10-01",
@@ -2895,10 +2903,18 @@
     {
      "t": "2026-10-02T13:30:00+00:00",
      "o": 31147.75,
-     "h": 31156.0,
-     "l": 31056.5,
-     "c": 31070.75,
-     "v": 6577.0
+     "h": 31181.75,
+     "l": 31056.25,
+     "c": 31177.75,
+     "v": 45242.0
+    },
+    {
+     "t": "2026-10-02T13:45:00+00:00",
+     "o": 31177.25,
+     "h": 31198.25,
+     "l": 31169.75,
+     "c": 31177.5,
+     "v": 3175.0
     }
    ]
   }
@@ -2911,7 +2927,7 @@
     "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE5JVm9YT2xucW1TQXhFUlFieVJIOWlrVGxlRzRtQkl1eFAxQ1diQXQ3Qkpvc2hwcDV5cXBpSmhLRDBZaU05dUc1T2s1MFZIZy1xendWNkdGTlFOX0pVeTNfaDBnU3Ixa3hUMnBNaVpKRXA1eUU0dXhpalhhVFhiZw?oc=5",
     "source": "gnews_macro",
     "published_utc": "2026-10-02T13:16:51+00:00",
-    "score": 9.43,
+    "score": 9.39,
     "duplicates": 0
    },
    {
@@ -2920,7 +2936,7 @@
     "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOMWZwMzFNaURNeUNwenJkM0t3X1k5YVZET3NMZU5DSHU5Qng0Tk5NaU4tUE1vTnhZd3RjeWh0V3RPRFlBczZDbXYzYnZNLUQxZTBZLVphTWNyNVJ3a2dZcDBzdm50a1U2WE1YaTJYMDd4TTl3QkVjYUJ6S2ZCbHlxeQ?oc=5",
     "source": "gnews_futures",
     "published_utc": "2026-10-02T11:39:00+00:00",
-    "score": 8.66,
+    "score": 8.62,
     "duplicates": 1
    },
    {
@@ -2938,7 +2954,7 @@
     "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQQ2tmMDVQU0sxa1hDSTVYUTJjVEJPNnZiZ3hjbFNLNDBJaC1OblNEZlRjVGNob3ppTUpVVEVVWUhMUFU3VHd1QzRiMjFtUE1LZkQwWXFteC1kSVVicEdiRVNLZjFRNERtRTR1TmsweVlnU1gxdkxCc3BCaHpzWXk5QTFXTDJQNHhQWkJ1UkQ1LVI?oc=5",
     "source": "gnews_futures",
     "published_utc": "2026-10-02T12:45:32+00:00",
-    "score": 8.34,
+    "score": 8.3,
     "duplicates": 0
    },
    {
@@ -2947,7 +2963,16 @@
     "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPOU1aVUFEOV9MWl9TVVdodDl4eFoyUjgxN2tLZ1QtRWYzbEUtMEpVQll0ZkhSekJFZUFVZzdNeXVqTzdUYXI3OWNMcC1YQ19XVDN2MFNTOWQzNjFLLTBDWFVvLXlWMWZRZ1R6RTRhVVRuS0dkZnJBMTd2dWhGV2hPdUg0b3hJQkZncFhCMnljc2lwYmw3TFHSAZsBQVVfeXFMTzNmZkRlUzhSSXlhMzhWV3lyN0pyeUstczZQXy1HZFNMRUh6TjNPN2Q0bGdrU2tCZjg2YkFZN3RrdndRcEs2TlAxRVlmNlhQVldRd3VZRmtZUlZock5uWTFsQ3dXdDMycWJSbXQwTDBSYVBWa1RZTG9qRWxkQTk1R1Y1WmtuUW9DSF9tUGs0NF8xdmE2RHlYQVJidFk?oc=5",
     "source": "gnews_fed",
     "published_utc": "2026-10-02T13:29:27+00:00",
-    "score": 7.97,
+    "score": 7.92,
+    "duplicates": 1
+   },
+   {
+    "id": "906fed481c",
+    "title": "Fed Rate Hike In October Looks Less Likely After Weak Jobs Report - Realtor.com",
+    "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPZjEzX1p4SFdqeDhnVnFGRjZWa292YXZIT3h6ZTZ0ODVneDFtWFN6MWV3YWRHWEp5M3lFdWdCS2RTYlFja2poZTAzRk1sc2oxSDd2bjlBS0FaQzNWYVZ0enJBdFRqOHlWUEpWV1Y2bWk0aDZSRUN4WjR1MEdUMmJTWXZxVnFNRWc?oc=5",
+    "source": "gnews_fed",
+    "published_utc": "2026-10-02T13:13:11+00:00",
+    "score": 7.88,
     "duplicates": 1
    },
    {
@@ -2956,7 +2981,7 @@
     "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQYmNVX1VJdkdKUVFVeWIyZjN1TVNQVmdRSUVGUTd4WEdDZ251aG1aWmE1MTZuT1NCdTI0aHBNWmlSSGNTM1FKVTZ4Ny1MQzlLTExaT1M0RlBSM0ZOczNETXROYVBvSU1zdXUtZWttQW5HUVNWSDJxcGg4Z214dHZkRUl1RXVmQTlVTFVUOGRjdmdJcWctcnRVRmpGNVl2ZEhSWWQtRmNONFdHTGJVcExQZG1UZVVRNVE?oc=5",
     "source": "gnews_futures",
     "published_utc": "2026-10-02T11:50:03+00:00",
-    "score": 7.69,
+    "score": 7.65,
     "duplicates": 1
    },
    {
@@ -2965,7 +2990,7 @@
     "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQUFJWVUgxTnd0dTl3aE9FRkV1VkhKdDR3MzB5MjhBWlEzNkdveWtoa1h4M0ppc3QtazRUZTN3VGQ5Q2R3dWpvYUVkR09menl2ZlFGU1F1MkxOdDljNW8xb1FKemFOVF9LdXVHb2JZSTdBX2U4end0WW9mZ2JTWlgxdHBLd0U4NjU2ZEdKOUlEMjYwOVVqYmdveXM3NXo1QjVmNWJHbXJsVmVMZ2Rx?oc=5",
     "source": "gnews_futures",
     "published_utc": "2026-10-02T11:47:39+00:00",
-    "score": 7.68,
+    "score": 7.64,
     "duplicates": 1
    },
    {
@@ -2974,7 +2999,7 @@
     "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOd29DQmQzN21UUVZHMWRrNUJIZDJoY0ZVRFV2cm9mWVd2QUREQmFfM2t1TkExeGhaM3lRZ0pQTlRKNFdHaWduTmFGVHA3Z0dEQUo5UGJ4QUlKNlVxaWw1Z3hSNVhnUndQTXdQT280cjZ2Y3ZsWnVmRlg1Vm45ZDZPcjFNRzdrNlA5a2VGWnJseVpoRlJkdFNn?oc=5",
     "source": "gnews_macro",
     "published_utc": "2026-10-02T11:45:34+00:00",
-    "score": 7.68,
+    "score": 7.64,
     "duplicates": 1
    },
    {
@@ -2983,7 +3008,7 @@
     "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOM3hNX2pyak9IMG5Vdnc0OHpnYzVrZC04eWVZeF9BT2ptNGxBWVh4aXZEbkRCeERxVFJuSmhkYlhqbHJKTjFMdGVXaXQwbHhoM1FVTlZ2RGpCT1ZfWUxDOUZQczBSckkwRlpWWE9yUnFQNnZWZlZSTTh2NUFENVFwRGN0dHE2ZjFodnB6SFNhYnJpNm8?oc=5",
     "source": "gnews_macro",
     "published_utc": "2026-10-02T08:31:41+00:00",
-    "score": 7.64,
+    "score": 7.6,
     "duplicates": 0
    },
    {
@@ -2992,7 +3017,7 @@
     "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxObFdUQ1p4Q1hXTDdwa05hbFdkMTFxRy1Zbm9tSld0cG1UZHJZcU1LMTJvWlFhRzU3SFQ3SFdwdWxIaXhuelhBQ1dicGRTNjlDNnYyMnIyb3dCUk1BWU5SSWdzNjl0SkZsRWpWVEhZcG02QVdzb2tCNXNjNkNTUUdZSGYyemRLTDJBbEdxWU5QNmd6QUxUb1NjZV9ZQnJVbzJGVjFlemFabWFhR2VfQVE?oc=5",
     "source": "gnews_macro",
     "published_utc": "2026-10-02T13:20:37+00:00",
-    "score": 7.44,
+    "score": 7.4,
     "duplicates": 0
    },
    {
@@ -3001,32 +3026,27 @@
     "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOTXZyVF9zZldNTDhrYmh4aVR0ZThpZnBPaExYR3JOQ25jblExOUJrbW1qWnc0dkJhWXN5akVFaW5uQjYtbFJaRXVPcWl3Q0Zmc1hQNW82bmxTTzloT0lHa01OVlQwNDhuRlF4OVlGb1dkQ1F5cHdXUVFkTkFncVRiQ1ZHQ29JNk4yaHRoaEJEVUZsc1NCOTAtS21RbEtfUnJWZDU5SklBckNZZkd4bmJMRkln?oc=5",
     "source": "gnews_macro",
     "published_utc": "2026-10-02T13:17:13+00:00",
-    "score": 7.43,
-    "duplicates": 0
-   },
-   {
-    "id": "5be45caadb",
-    "title": "Fed Rate Hike In October Looks Less Likely After Weak Jobs Report - Realtor.com",
-    "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPZjEzX1p4SFdqeDhnVnFGRjZWa292YXZIT3h6ZTZ0ODVneDFtWFN6MWV3YWRHWEp5M3lFdWdCS2RTYlFja2poZTAzRk1sc2oxSDd2bjlBS0FaQzNWYVZ0enJBdFRqOHlWUEpWV1Y2bWk0aDZSRUN4WjR1MEdUMmJTWXZxVnFNRWc?oc=5",
-    "source": "gnews_macro",
-    "published_utc": "2026-10-02T13:13:11+00:00",
-    "score": 7.42,
+    "score": 7.39,
     "duplicates": 0
    }
   ],
   "summary": {
    "lines": [
-    "Nonfarm payrolls rose 29K versus 89K expected (prior 162K), unemployment ticked up to 4.2% versus 4.1% expected, and average hourly earnings grew 0.1% versus 0.3% expected, a broad miss across all three jobs metrics traders will price into Fed expectations [dffcdf0e66][a2d56d031a].",
-    "Treasury yields fell immediately after the release as traders pared bets on an October Fed rate hike, a key input for equity index futures positioning [7a10b00932][dffcdf0e66][5be45caadb].",
-    "U.S. stock futures were already firmer into the print and extended gains afterward, up roughly 1% per pre-market reporting, as markets read the data as supportive of a Fed hold [b839a8d5ca][d33ef61207][ef8c769834][64d0925e3f].",
-    "Falling oil prices were cited alongside bond-market steadiness as an additional tailwind for futures ahead of the data [637cf08451][bc70b1d6d3]."
+    "Treasury yields sink after weak September jobs report dims October Fed hike odds - qz.com [7a10b00932]",
+    "Markets Need the Jobs Report to Point to a Fed Hold - Barron's [d33ef61207]",
+    "U.S. stock futures jump 1% as traders pare Fed rate hike bets after jobs report - Investing.com [b839a8d5ca]",
+    "Oil price drop lifts stock futures ahead of key US jobs report - Pluang [637cf08451]",
+    "Traders now see little chance of a Fed rate hike in October after weak jobs report - CNBC [dffcdf0e66]"
    ],
    "backend": "anthropic",
    "model": "claude-sonnet-5",
    "dropped": [
-    "no valid citation: Commentary is split: Mester's post-data reaction and a"
+    "no valid citation: Nonfarm payrolls printed 29K vs 89K consensus (prior 162K), unemployment rose to 4.2% vs 4.1% consensus, and average hourly earnings grew 0.1% vs 0.3% consensus, a broad miss across the labor report traders will react to at the open.",
+    "no valid citation: Treasury yields sank immediately after"
    ],
-   "warnings": []
+   "warnings": [
+    "summariser produced no valid lines; showing digest"
+   ]
   },
   "feeds": [],
   "warnings": []
