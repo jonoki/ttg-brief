@@ -1,7 +1,7 @@
 {
  "meta": {
-  "generated_at_utc": "2026-10-02T15:13:41.957303+00:00",
-  "generated_at_local": "Fri 02 Oct 2026 12:13 ADT",
+  "generated_at_utc": "2026-10-02T15:29:03.705291+00:00",
+  "generated_at_local": "Fri 02 Oct 2026 12:29 ADT",
   "trading_day": "2026-10-02",
   "display_tz": "America/Halifax",
   "version": "0.1.0",
@@ -75,10 +75,10 @@
   {
    "root": "ES",
    "trading_day": "2026-10-02",
-   "as_of_utc": "2026-10-02T15:13:41.957303+00:00",
+   "as_of_utc": "2026-10-02T15:29:03.705291+00:00",
    "source": "yahoo",
    "delayed": true,
-   "last_price": 7784.75,
+   "last_price": 7766.75,
    "levels": [
     {
      "tag": "tdh",
@@ -123,17 +123,10 @@
      "note": "09:30 bar open"
     },
     {
-     "tag": "rn_minor_dn",
-     "label": "Round 25 below",
+     "tag": "rn_minor_up",
+     "label": "Round 25 above",
      "price": 7775.0,
      "group": "round",
-     "note": ""
-    },
-    {
-     "tag": "tdl",
-     "label": "Today's RTH low",
-     "price": 7773.5,
-     "group": "today",
      "note": ""
     },
     {
@@ -149,6 +142,13 @@
      "price": 7763.22,
      "group": "overnight",
      "note": "typical-price VWAP"
+    },
+    {
+     "tag": "tdl",
+     "label": "Today's RTH low",
+     "price": 7762.0,
+     "group": "today",
+     "note": ""
     },
     {
      "tag": "rn_major_dn",
@@ -229,8 +229,8 @@
     }
    ],
    "stats": {
-    "last_bar_utc": "2026-10-02T15:03:00+00:00",
-    "last_bar_age_min": 10.7,
+    "last_bar_utc": "2026-10-02T15:19:00+00:00",
+    "last_bar_age_min": 10.1,
     "market_state": "open",
     "profile_volume": 1687242.0,
     "prior_day": "2026-10-01",
@@ -1529,19 +1529,27 @@
      "t": "2026-10-02T15:00:00+00:00",
      "o": 7793.0,
      "h": 7794.5,
-     "l": 7782.75,
-     "c": 7784.75,
-     "v": 11956.0
+     "l": 7764.25,
+     "c": 7769.5,
+     "v": 102139.0
+    },
+    {
+     "t": "2026-10-02T15:15:00+00:00",
+     "o": 7769.5,
+     "h": 7773.75,
+     "l": 7762.0,
+     "c": 7766.75,
+     "v": 27048.0
     }
    ]
   },
   {
    "root": "NQ",
    "trading_day": "2026-10-02",
-   "as_of_utc": "2026-10-02T15:13:41.957303+00:00",
+   "as_of_utc": "2026-10-02T15:29:03.705291+00:00",
    "source": "yahoo",
    "delayed": true,
-   "last_price": 31136.25,
+   "last_price": 31059.0,
    "levels": [
     {
      "tag": "tdh",
@@ -1572,25 +1580,11 @@
      "note": "since 18:00 ET, 920 bars"
     },
     {
-     "tag": "rn_major_up",
-     "label": "Round 100 above",
-     "price": 31200.0,
-     "group": "round",
-     "note": ""
-    },
-    {
      "tag": "pgh",
      "label": "Prior Globex-session high",
      "price": 31151.5,
      "group": "prior_day",
      "note": "full 18:00→17:00 session"
-    },
-    {
-     "tag": "rn_minor_up",
-     "label": "Round 50 above",
-     "price": 31150.0,
-     "group": "round",
-     "note": ""
     },
     {
      "tag": "rtho",
@@ -1600,17 +1594,31 @@
      "note": "09:30 bar open"
     },
     {
-     "tag": "rn_major_dn",
-     "label": "Round 100 below",
+     "tag": "rn_major_up",
+     "label": "Round 100 above",
      "price": 31100.0,
+     "group": "round",
+     "note": ""
+    },
+    {
+     "tag": "rn_minor_dn",
+     "label": "Round 50 below",
+     "price": 31050.0,
      "group": "round",
      "note": ""
     },
     {
      "tag": "tdl",
      "label": "Today's RTH low",
-     "price": 31056.25,
+     "price": 31037.0,
      "group": "today",
+     "note": ""
+    },
+    {
+     "tag": "rn_major_dn",
+     "label": "Round 100 below",
+     "price": 31000.0,
+     "group": "round",
      "note": ""
     },
     {
@@ -1692,8 +1700,8 @@
     }
    ],
    "stats": {
-    "last_bar_utc": "2026-10-02T15:03:00+00:00",
-    "last_bar_age_min": 10.7,
+    "last_bar_utc": "2026-10-02T15:19:00+00:00",
+    "last_bar_age_min": 10.1,
     "market_state": "open",
     "profile_volume": 594954.0,
     "prior_day": "2026-10-01",
@@ -2992,9 +3000,17 @@
      "t": "2026-10-02T15:00:00+00:00",
      "o": 31166.0,
      "h": 31181.25,
-     "l": 31133.0,
-     "c": 31136.25,
-     "v": 4368.0
+     "l": 31037.0,
+     "c": 31074.0,
+     "v": 29462.0
+    },
+    {
+     "t": "2026-10-02T15:15:00+00:00",
+     "o": 31073.75,
+     "h": 31095.25,
+     "l": 31038.5,
+     "c": 31059.0,
+     "v": 6964.0
     }
    ]
   }
@@ -3007,7 +3023,7 @@
     "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE5JVm9YT2xucW1TQXhFUlFieVJIOWlrVGxlRzRtQkl1eFAxQ1diQXQ3Qkpvc2hwcDV5cXBpSmhLRDBZaU05dUc1T2s1MFZIZy1xendWNkdGTlFOX0pVeTNfaDBnU3Ixa3hUMnBNaVpKRXA1eUU0dXhpalhhVFhiZw?oc=5",
     "source": "gnews_macro",
     "published_utc": "2026-10-02T13:16:51+00:00",
-    "score": 9.18,
+    "score": 9.13,
     "duplicates": 0
    },
    {
@@ -3025,16 +3041,7 @@
     "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQQ2tmMDVQU0sxa1hDSTVYUTJjVEJPNnZiZ3hjbFNLNDBJaC1OblNEZlRjVGNob3ppTUpVVEVVWUhMUFU3VHd1QzRiMjFtUE1LZkQwWXFteC1kSVVicEdiRVNLZjFRNERtRTR1TmsweVlnU1gxdkxCc3BCaHpzWXk5QTFXTDJQNHhQWkJ1UkQ1LVI?oc=5",
     "source": "gnews_futures",
     "published_utc": "2026-10-02T12:45:32+00:00",
-    "score": 8.09,
-    "duplicates": 0
-   },
-   {
-    "id": "8877df2110",
-    "title": "Federal Reserve Board issues enforcement action with Ontario Bancorporation, Inc.",
-    "link": "https://www.federalreserve.gov/newsevents/pressreleases/enforcement20261002a.htm",
-    "source": "fed_press",
-    "published_utc": "2026-10-02T15:00:00+00:00",
-    "score": 7.96,
+    "score": 8.05,
     "duplicates": 0
    },
    {
@@ -3042,9 +3049,18 @@
     "title": "Soft Jobs Report Boosts Market Bets Fed Will Skip October Rate Increase - The New York Times",
     "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNaXlVWmhNUF9PdTVEQlFNZFNhbHRab3dOSHlQdXBrN3N3M2dwSUIzTVFHbWd5c0RvOWNPSnJqOFQ5R3Q1OWdxX0NtNTRhaXZNWEpEamFzaGxwaVp0NHhNYTNrRm9EUHlGTGoyNXJ3ZktiR18yLVplcjRjd3lFLW9UdnpGU3ppNzE1LUNVeHFkQm4?oc=5",
     "source": "gnews_fed",
-    "published_utc": "2026-10-02T14:51:37+00:00",
-    "score": 7.94,
+    "published_utc": "2026-10-02T15:15:45+00:00",
+    "score": 7.96,
     "duplicates": 1
+   },
+   {
+    "id": "8877df2110",
+    "title": "Federal Reserve Board issues enforcement action with Ontario Bancorporation, Inc.",
+    "link": "https://www.federalreserve.gov/newsevents/pressreleases/enforcement20261002a.htm",
+    "source": "fed_press",
+    "published_utc": "2026-10-02T15:00:00+00:00",
+    "score": 7.92,
+    "duplicates": 0
    },
    {
     "id": "bf763e0743",
@@ -3052,7 +3068,7 @@
     "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPY3Y5dk03cDRuSWRQT081MC11YjFYT0NjWEUwOTRHYnVoVl9STGx5eDA4SENoTHhhWml5RDE0TkpFYVpxY0daaFFQcEJHazl6VDQyZVF4YUx2NHpMTDYwenJ2WHFUekZRYXZYWWhLM2dlN21NYnNQSGJaOEliYkZWM253VFZoa3RyQzZYcVlkMGhNbHU4SE5N?oc=5",
     "source": "gnews_macro",
     "published_utc": "2026-10-02T14:41:13+00:00",
-    "score": 7.91,
+    "score": 7.87,
     "duplicates": 0
    },
    {
@@ -3061,7 +3077,7 @@
     "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPOU1aVUFEOV9MWl9TVVdodDl4eFoyUjgxN2tLZ1QtRWYzbEUtMEpVQll0ZkhSekJFZUFVZzdNeXVqTzdUYXI3OWNMcC1YQ19XVDN2MFNTOWQzNjFLLTBDWFVvLXlWMWZRZ1R6RTRhVVRuS0dkZnJBMTd2dWhGV2hPdUg0b3hJQkZncFhCMnljc2lwYmw3TFHSAZsBQVVfeXFMTzNmZkRlUzhSSXlhMzhWV3lyN0pyeUstczZQXy1HZFNMRUh6TjNPN2Q0bGdrU2tCZjg2YkFZN3RrdndRcEs2TlAxRVlmNlhQVldRd3VZRmtZUlZock5uWTFsQ3dXdDMycWJSbXQwTDBSYVBWa1RZTG9qRWxkQTk1R1Y1WmtuUW9DSF9tUGs0NF8xdmE2RHlYQVJidFk?oc=5",
     "source": "gnews_fed",
     "published_utc": "2026-10-02T13:29:27+00:00",
-    "score": 7.71,
+    "score": 7.67,
     "duplicates": 1
    },
    {
@@ -3070,7 +3086,7 @@
     "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPWWpqYkktU3BlRHpLdE55YmszaDZWUzg1M1haVTNPaV9WTUlmTjllRE1Ob0kxVGlxZlJNWGJjaDcyaUVqek1rWVNVaGotcXNxa3k0VlV6ai1MOW9FSHNMbTdRU1d1NHM0YklLb0Z1RE1tRVJyTDVFcTN4QkxvVUkyZjJ3ZWNFNkUz?oc=5",
     "source": "gnews_fed",
     "published_utc": "2026-10-02T13:13:11+00:00",
-    "score": 7.67,
+    "score": 7.62,
     "duplicates": 1
    },
    {
@@ -3079,7 +3095,7 @@
     "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNT3BjMjM4YVNUUEIwWFpJY3BfcHlEQmlqdWotcmpURVBxeHBFZkNaN3VBMmdzQXJ3UjBycFpraDRMMF9iYmRzQWowajZxdUpxOTczVndjUzNYcU8tX1J4V0drMG9WbFNSRHJPd2o0RDdNYjkzN18xWDhEZGhjY3cwRkxHUE02bzNYendKNUd2LTFkV191VmM1R0o5anctMzBFeEJMM1BKcWVydw?oc=5",
     "source": "gnews_macro",
     "published_utc": "2026-10-02T15:10:06+00:00",
-    "score": 7.49,
+    "score": 7.45,
     "duplicates": 0
    },
    {
@@ -3088,7 +3104,7 @@
     "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQTTd2a2FIVjFmYS1OOW1wTmRyRE9fVDRZQ3oybTdtWWlYUUhCTDUyU3Q5RUQtOXNTRGF5NVVYQXR5aXluWms2ZkV2c2pyeHlDaTV5MUlCY2xIS1haQzZ6RnlmWjFTaFprSkliY1lqUHllSzR3UzhQSzZFTVluQmhpOGVtZXNiUzJJbV9ZVE9SUGQtQXZFcFJBQ1Zrd0JjdmxUQUltU2lSaFpDR0NzamhhQVJaa1RxQ3JTRVRIUm52bXNMLXRBbGRxYTdnY2hraXFC?oc=5",
     "source": "gnews_futures",
     "published_utc": "2026-10-02T12:07:00+00:00",
-    "score": 7.48,
+    "score": 7.44,
     "duplicates": 0
    },
    {
@@ -3097,7 +3113,7 @@
     "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQRkFhM1JWWWc0RUNQcnpFaGhDbEQ1RlZ0TUZmTWlyeDdHT1EyYzJCZGZYMkpSRGNrNElsa2dpOEsxNE9QaU1ncngxN2VLUDZXS2d4cGRxQmQwaHB0a0tIeVQxOFlEeDJ3a05wbE9GVHZZV05VV1BDd2czaDI4WVBRV0tLeEphSjBMeUxxeE1iNGJiS2pGblIzeVJEb0RQcVFONGRqaWpGdVV1UzlDb0w3eHBQSE53Z2l5?oc=5",
     "source": "gnews_fed",
     "published_utc": "2026-10-02T14:53:19+00:00",
-    "score": 7.44,
+    "score": 7.4,
     "duplicates": 0
    },
    {
@@ -3106,22 +3122,24 @@
     "link": "https://news.google.com/rss/articles/CBMinwJBVV95cUxNc3pxUEp1R1pMdlZiaEx2UVZQd3VjVjNyd280ZC1DSXJuRFJqaHBkMWVBd3hUWHNzdk5DZ0p1MHBqQm9POU54bFo4MVlMNVUxdlFlZ0QzMi02VG9JR3dYdVQzRnlLUFVJNFgwMkhUYzFZYjFkUzViV2xJYTJnQ1Q4ZG00MzFUS3NibkhLQkdDSUF0RlZ1SWZ5UzZnV2FIV29oMU1FS3ZqRmczZ0hyTVpXa0tiT3pLQWdwdEs5TWEzRXpRY1FGeFZsakdDOXlja1l0V2kwbG8zeHNaTmF3MzFDbDM5VXA1MUpCT24xRWZTUTNHUHVtLTB5ellYRm1BX3c5bmxSN19XVGJPS2x6cGtFbktobHJNVkstWU16b3NCYw?oc=5",
     "source": "gnews_fed",
     "published_utc": "2026-10-02T11:52:29+00:00",
-    "score": 7.44,
+    "score": 7.4,
     "duplicates": 0
    }
   ],
   "summary": {
    "lines": [
-    "Nonfarm payrolls printed 29K vs 89K consensus with unemployment at 4.2% vs 4.1% consensus, a miss that is repricing October Fed hike odds lower [7a10b00932][dffcdf0e66][e816241ca1][019109402f].",
-    "Futures jumped roughly 1% and the Dow added about 400 points with the Nasdaq at a record high following the jobs data, indicating the rates-driven move is showing up directly in index futures [b839a8d5ca][bf763e0743].",
-    "Treasury yields fell after the report as traders pared hike bets, a move relevant to Nasdaq-heavy futures given their rate sensitivity [7a10b00932][77904f1f23].",
-    "Oil prices dropped ahead of and after the jobs report, a separate input into the broader futures bid seen this morning [637cf08451][b9e80679a0].",
-    "Average hourly earnings came in at 0.1% vs 0.3% consensus, adding to the soft-labor-data narrative alongside the payrolls and unemployment figures [019109402f]."
+    "Treasury yields sink after weak September jobs report dims October Fed hike odds - qz.com [7a10b00932]",
+    "U.S. stock futures jump 1% as traders pare Fed rate hike bets after jobs report - Investing.com [b839a8d5ca]",
+    "Oil price drop lifts stock futures ahead of key US jobs report - Pluang [637cf08451]",
+    "Soft Jobs Report Boosts Market Bets Fed Will Skip October Rate Increase - The New York Times [77904f1f23]",
+    "Federal Reserve Board issues enforcement action with Ontario Bancorporation, Inc. [8877df2110]"
    ],
    "backend": "anthropic",
    "model": "claude-sonnet-5",
    "dropped": [],
-   "warnings": []
+   "warnings": [
+    "summariser produced no valid lines; showing digest"
+   ]
   },
   "feeds": [],
   "warnings": []
