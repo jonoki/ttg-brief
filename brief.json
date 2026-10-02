@@ -1,7 +1,7 @@
 {
  "meta": {
-  "generated_at_utc": "2026-10-02T14:58:22.115914+00:00",
-  "generated_at_local": "Fri 02 Oct 2026 11:58 ADT",
+  "generated_at_utc": "2026-10-02T15:13:41.957303+00:00",
+  "generated_at_local": "Fri 02 Oct 2026 12:13 ADT",
   "trading_day": "2026-10-02",
   "display_tz": "America/Halifax",
   "version": "0.1.0",
@@ -75,25 +75,11 @@
   {
    "root": "ES",
    "trading_day": "2026-10-02",
-   "as_of_utc": "2026-10-02T14:58:22.115914+00:00",
+   "as_of_utc": "2026-10-02T15:13:41.957303+00:00",
    "source": "yahoo",
    "delayed": true,
-   "last_price": 7806.25,
+   "last_price": 7784.75,
    "levels": [
-    {
-     "tag": "rn_major_up",
-     "label": "Round 50 above",
-     "price": 7850.0,
-     "group": "round",
-     "note": ""
-    },
-    {
-     "tag": "rn_minor_up",
-     "label": "Round 25 above",
-     "price": 7825.0,
-     "group": "round",
-     "note": ""
-    },
     {
      "tag": "tdh",
      "label": "Today's RTH high",
@@ -123,8 +109,8 @@
      "note": "since 18:00 ET, 920 bars"
     },
     {
-     "tag": "rn_major_dn",
-     "label": "Round 50 below",
+     "tag": "rn_major_up",
+     "label": "Round 50 above",
      "price": 7800.0,
      "group": "round",
      "note": ""
@@ -135,6 +121,13 @@
      "price": 7789.5,
      "group": "today",
      "note": "09:30 bar open"
+    },
+    {
+     "tag": "rn_minor_dn",
+     "label": "Round 25 below",
+     "price": 7775.0,
+     "group": "round",
+     "note": ""
     },
     {
      "tag": "tdl",
@@ -156,6 +149,13 @@
      "price": 7763.22,
      "group": "overnight",
      "note": "typical-price VWAP"
+    },
+    {
+     "tag": "rn_major_dn",
+     "label": "Round 50 below",
+     "price": 7750.0,
+     "group": "round",
+     "note": ""
     },
     {
      "tag": "pdh",
@@ -229,8 +229,8 @@
     }
    ],
    "stats": {
-    "last_bar_utc": "2026-10-02T14:48:00+00:00",
-    "last_bar_age_min": 10.4,
+    "last_bar_utc": "2026-10-02T15:03:00+00:00",
+    "last_bar_age_min": 10.7,
     "market_state": "open",
     "profile_volume": 1687242.0,
     "prior_day": "2026-10-01",
@@ -1521,27 +1521,28 @@
      "t": "2026-10-02T14:45:00+00:00",
      "o": 7804.75,
      "h": 7808.0,
-     "l": 7801.25,
-     "c": 7806.25,
-     "v": 9238.0
+     "l": 7790.75,
+     "c": 7793.0,
+     "v": 60275.0
+    },
+    {
+     "t": "2026-10-02T15:00:00+00:00",
+     "o": 7793.0,
+     "h": 7794.5,
+     "l": 7782.75,
+     "c": 7784.75,
+     "v": 11956.0
     }
    ]
   },
   {
    "root": "NQ",
    "trading_day": "2026-10-02",
-   "as_of_utc": "2026-10-02T14:58:22.115914+00:00",
+   "as_of_utc": "2026-10-02T15:13:41.957303+00:00",
    "source": "yahoo",
    "delayed": true,
-   "last_price": 31241.75,
+   "last_price": 31136.25,
    "levels": [
-    {
-     "tag": "rn_major_up",
-     "label": "Round 100 above",
-     "price": 31300.0,
-     "group": "round",
-     "note": ""
-    },
     {
      "tag": "tdh",
      "label": "Today's RTH high",
@@ -1564,13 +1565,6 @@
      "note": "ATR over 14 days"
     },
     {
-     "tag": "rn_minor_up",
-     "label": "Round 50 above",
-     "price": 31250.0,
-     "group": "round",
-     "note": ""
-    },
-    {
      "tag": "onh",
      "label": "Overnight high",
      "price": 31222.25,
@@ -1578,8 +1572,8 @@
      "note": "since 18:00 ET, 920 bars"
     },
     {
-     "tag": "rn_major_dn",
-     "label": "Round 100 below",
+     "tag": "rn_major_up",
+     "label": "Round 100 above",
      "price": 31200.0,
      "group": "round",
      "note": ""
@@ -1592,11 +1586,25 @@
      "note": "full 18:00→17:00 session"
     },
     {
+     "tag": "rn_minor_up",
+     "label": "Round 50 above",
+     "price": 31150.0,
+     "group": "round",
+     "note": ""
+    },
+    {
      "tag": "rtho",
      "label": "Today's RTH open",
      "price": 31147.75,
      "group": "today",
      "note": "09:30 bar open"
+    },
+    {
+     "tag": "rn_major_dn",
+     "label": "Round 100 below",
+     "price": 31100.0,
+     "group": "round",
+     "note": ""
     },
     {
      "tag": "tdl",
@@ -1684,8 +1692,8 @@
     }
    ],
    "stats": {
-    "last_bar_utc": "2026-10-02T14:48:00+00:00",
-    "last_bar_age_min": 10.4,
+    "last_bar_utc": "2026-10-02T15:03:00+00:00",
+    "last_bar_age_min": 10.7,
     "market_state": "open",
     "profile_volume": 594954.0,
     "prior_day": "2026-10-01",
@@ -2976,9 +2984,17 @@
      "t": "2026-10-02T14:45:00+00:00",
      "o": 31240.75,
      "h": 31253.25,
-     "l": 31225.5,
-     "c": 31241.75,
-     "v": 2609.0
+     "l": 31155.75,
+     "c": 31166.5,
+     "v": 20847.0
+    },
+    {
+     "t": "2026-10-02T15:00:00+00:00",
+     "o": 31166.0,
+     "h": 31181.25,
+     "l": 31133.0,
+     "c": 31136.25,
+     "v": 4368.0
     }
    ]
   }
@@ -2991,7 +3007,7 @@
     "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE5JVm9YT2xucW1TQXhFUlFieVJIOWlrVGxlRzRtQkl1eFAxQ1diQXQ3Qkpvc2hwcDV5cXBpSmhLRDBZaU05dUc1T2s1MFZIZy1xendWNkdGTlFOX0pVeTNfaDBnU3Ixa3hUMnBNaVpKRXA1eUU0dXhpalhhVFhiZw?oc=5",
     "source": "gnews_macro",
     "published_utc": "2026-10-02T13:16:51+00:00",
-    "score": 9.22,
+    "score": 9.18,
     "duplicates": 0
    },
    {
@@ -3009,26 +3025,35 @@
     "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQQ2tmMDVQU0sxa1hDSTVYUTJjVEJPNnZiZ3hjbFNLNDBJaC1OblNEZlRjVGNob3ppTUpVVEVVWUhMUFU3VHd1QzRiMjFtUE1LZkQwWXFteC1kSVVicEdiRVNLZjFRNERtRTR1TmsweVlnU1gxdkxCc3BCaHpzWXk5QTFXTDJQNHhQWkJ1UkQ1LVI?oc=5",
     "source": "gnews_futures",
     "published_utc": "2026-10-02T12:45:32+00:00",
-    "score": 8.13,
+    "score": 8.09,
     "duplicates": 0
    },
    {
-    "id": "098c209ffd",
+    "id": "8877df2110",
+    "title": "Federal Reserve Board issues enforcement action with Ontario Bancorporation, Inc.",
+    "link": "https://www.federalreserve.gov/newsevents/pressreleases/enforcement20261002a.htm",
+    "source": "fed_press",
+    "published_utc": "2026-10-02T15:00:00+00:00",
+    "score": 7.96,
+    "duplicates": 0
+   },
+   {
+    "id": "77904f1f23",
     "title": "Soft Jobs Report Boosts Market Bets Fed Will Skip October Rate Increase - The New York Times",
-    "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPdDNZNjMxekhFRUhZTEREemdWTVo5aV9oWkJvVVZ4MEUwWFFDNVBnbWtYY0F0YUVaNFNQNGtodWx0Z1dZRUZRZUVhejhodHA1TVpsZmZaMGlMbGtkTklxeTFiRVZaTzFvcllwM0t5OTdpYmN5SEdaZE9LTGF2NVJLT0xnNy1PS1N4RjJqTV96UkdJUjlyTzl3VndkR1FHcm5iN20yTFIxMEFfVHFBM0NGdHBXbEhraUs1TEc1MGVPRHBwOElmNWtF?oc=5",
+    "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNaXlVWmhNUF9PdTVEQlFNZFNhbHRab3dOSHlQdXBrN3N3M2dwSUIzTVFHbWd5c0RvOWNPSnJqOFQ5R3Q1OWdxX0NtNTRhaXZNWEpEamFzaGxwaVp0NHhNYTNrRm9EUHlGTGoyNXJ3ZktiR18yLVplcjRjd3lFLW9UdnpGU3ppNzE1LUNVeHFkQm4?oc=5",
     "source": "gnews_fed",
     "published_utc": "2026-10-02T14:51:37+00:00",
-    "score": 7.98,
+    "score": 7.94,
     "duplicates": 1
    },
    {
-    "id": "f4577adbc8",
-    "title": "US stocks rise toward their record after the latest jobs report calms the rattled bond market - Boston Herald",
-    "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTE9peVhyenRYUUdnUkNnQ2lvQnZuNnc2bDdTRGVOLTBELVQxNkZEXzlSWWg5WUVOM1RrdEMwTVJORFNMckRxb012WkhmZXNKYjhtSV9sYVJUMTJicjhkMlAwa1VFdXFLdm93aHFLaENOZHBhd1Q4X0lKazZIMHo?oc=5",
+    "id": "bf763e0743",
+    "title": "Dow Jumps 400 Points, Nasdaq Hits Record High After Jobs Report — BlackRock’s Rosenberg Calls Data ‘Dovish’ - Yahoo Finance",
+    "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPY3Y5dk03cDRuSWRQT081MC11YjFYT0NjWEUwOTRHYnVoVl9STGx5eDA4SENoTHhhWml5RDE0TkpFYVpxY0daaFFQcEJHazl6VDQyZVF4YUx2NHpMTDYwenJ2WHFUekZRYXZYWWhLM2dlN21NYnNQSGJaOEliYkZWM253VFZoa3RyQzZYcVlkMGhNbHU4SE5N?oc=5",
     "source": "gnews_macro",
-    "published_utc": "2026-10-02T13:46:36+00:00",
-    "score": 7.8,
-    "duplicates": 3
+    "published_utc": "2026-10-02T14:41:13+00:00",
+    "score": 7.91,
+    "duplicates": 0
    },
    {
     "id": "dffcdf0e66",
@@ -3036,7 +3061,7 @@
     "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPOU1aVUFEOV9MWl9TVVdodDl4eFoyUjgxN2tLZ1QtRWYzbEUtMEpVQll0ZkhSekJFZUFVZzdNeXVqTzdUYXI3OWNMcC1YQ19XVDN2MFNTOWQzNjFLLTBDWFVvLXlWMWZRZ1R6RTRhVVRuS0dkZnJBMTd2dWhGV2hPdUg0b3hJQkZncFhCMnljc2lwYmw3TFHSAZsBQVVfeXFMTzNmZkRlUzhSSXlhMzhWV3lyN0pyeUstczZQXy1HZFNMRUh6TjNPN2Q0bGdrU2tCZjg2YkFZN3RrdndRcEs2TlAxRVlmNlhQVldRd3VZRmtZUlZock5uWTFsQ3dXdDMycWJSbXQwTDBSYVBWa1RZTG9qRWxkQTk1R1Y1WmtuUW9DSF9tUGs0NF8xdmE2RHlYQVJidFk?oc=5",
     "source": "gnews_fed",
     "published_utc": "2026-10-02T13:29:27+00:00",
-    "score": 7.75,
+    "score": 7.71,
     "duplicates": 1
    },
    {
@@ -3045,8 +3070,17 @@
     "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPWWpqYkktU3BlRHpLdE55YmszaDZWUzg1M1haVTNPaV9WTUlmTjllRE1Ob0kxVGlxZlJNWGJjaDcyaUVqek1rWVNVaGotcXNxa3k0VlV6ai1MOW9FSHNMbTdRU1d1NHM0YklLb0Z1RE1tRVJyTDVFcTN4QkxvVUkyZjJ3ZWNFNkUz?oc=5",
     "source": "gnews_fed",
     "published_utc": "2026-10-02T13:13:11+00:00",
-    "score": 7.71,
+    "score": 7.67,
     "duplicates": 1
+   },
+   {
+    "id": "019109402f",
+    "title": "Soft September Jobs Report Has Market Dialing Back Calls for Fed Rate Hike - Morningstar",
+    "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNT3BjMjM4YVNUUEIwWFpJY3BfcHlEQmlqdWotcmpURVBxeHBFZkNaN3VBMmdzQXJ3UjBycFpraDRMMF9iYmRzQWowajZxdUpxOTczVndjUzNYcU8tX1J4V0drMG9WbFNSRHJPd2o0RDdNYjkzN18xWDhEZGhjY3cwRkxHUE02bzNYendKNUd2LTFkV191VmM1R0o5anctMzBFeEJMM1BKcWVydw?oc=5",
+    "source": "gnews_macro",
+    "published_utc": "2026-10-02T15:10:06+00:00",
+    "score": 7.49,
+    "duplicates": 0
    },
    {
     "id": "b9e80679a0",
@@ -3054,7 +3088,16 @@
     "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQTTd2a2FIVjFmYS1OOW1wTmRyRE9fVDRZQ3oybTdtWWlYUUhCTDUyU3Q5RUQtOXNTRGF5NVVYQXR5aXluWms2ZkV2c2pyeHlDaTV5MUlCY2xIS1haQzZ6RnlmWjFTaFprSkliY1lqUHllSzR3UzhQSzZFTVluQmhpOGVtZXNiUzJJbV9ZVE9SUGQtQXZFcFJBQ1Zrd0JjdmxUQUltU2lSaFpDR0NzamhhQVJaa1RxQ3JTRVRIUm52bXNMLXRBbGRxYTdnY2hraXFC?oc=5",
     "source": "gnews_futures",
     "published_utc": "2026-10-02T12:07:00+00:00",
-    "score": 7.52,
+    "score": 7.48,
+    "duplicates": 0
+   },
+   {
+    "id": "d81dc631fd",
+    "title": "Stubborn inflation, consistent growth shift Fed debate to timing of next hike - Baltimore Sun",
+    "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQRkFhM1JWWWc0RUNQcnpFaGhDbEQ1RlZ0TUZmTWlyeDdHT1EyYzJCZGZYMkpSRGNrNElsa2dpOEsxNE9QaU1ncngxN2VLUDZXS2d4cGRxQmQwaHB0a0tIeVQxOFlEeDJ3a05wbE9GVHZZV05VV1BDd2czaDI4WVBRV0tLeEphSjBMeUxxeE1iNGJiS2pGblIzeVJEb0RQcVFONGRqaWpGdVV1UzlDb0w3eHBQSE53Z2l5?oc=5",
+    "source": "gnews_fed",
+    "published_utc": "2026-10-02T14:53:19+00:00",
+    "score": 7.44,
     "duplicates": 0
    },
    {
@@ -3063,44 +3106,17 @@
     "link": "https://news.google.com/rss/articles/CBMinwJBVV95cUxNc3pxUEp1R1pMdlZiaEx2UVZQd3VjVjNyd280ZC1DSXJuRFJqaHBkMWVBd3hUWHNzdk5DZ0p1MHBqQm9POU54bFo4MVlMNVUxdlFlZ0QzMi02VG9JR3dYdVQzRnlLUFVJNFgwMkhUYzFZYjFkUzViV2xJYTJnQ1Q4ZG00MzFUS3NibkhLQkdDSUF0RlZ1SWZ5UzZnV2FIV29oMU1FS3ZqRmczZ0hyTVpXa0tiT3pLQWdwdEs5TWEzRXpRY1FGeFZsakdDOXlja1l0V2kwbG8zeHNaTmF3MzFDbDM5VXA1MUpCT24xRWZTUTNHUHVtLTB5ellYRm1BX3c5bmxSN19XVGJPS2x6cGtFbktobHJNVkstWU16b3NCYw?oc=5",
     "source": "gnews_fed",
     "published_utc": "2026-10-02T11:52:29+00:00",
-    "score": 7.48,
-    "duplicates": 0
-   },
-   {
-    "id": "e3eed53c21",
-    "title": "U.S. stock futures tick higher with nonfarm payrolls in focus By Investing.com - Investing.com South Africa",
-    "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPc253djVNenMwZF9CYzZyaUU4bmt5a2lzVXo0anpEWVB4VElkMm5tZ0tLaFNGR3hCN01GYlNHYjJFTGE5RlRjd3h0R1pPVldhRkN6VnlRdGNnaTVlMjVIcUs4b3VFaGh0QmU0bnR2QzZGZ1hZb3RTR0tTalFDaEd6c3NOSkNpbnliaWg0WDYxNzEwak92WnoydEYwWVN1NmdadVlmX1p1Z3B4TE9ESVVMaGtmdkJ6SE0?oc=5",
-    "source": "gnews_futures",
-    "published_utc": "2026-10-02T11:49:38+00:00",
-    "score": 7.48,
-    "duplicates": 1
-   },
-   {
-    "id": "ef8c769834",
-    "title": "US Stock Futures Advance Ahead of September Payrolls Data - Bloomberg.com",
-    "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQUFJWVUgxTnd0dTl3aE9FRkV1VkhKdDR3MzB5MjhBWlEzNkdveWtoa1h4M0ppc3QtazRUZTN3VGQ5Q2R3dWpvYUVkR09menl2ZlFGU1F1MkxOdDljNW8xb1FKemFOVF9LdXVHb2JZSTdBX2U4end0WW9mZ2JTWlgxdHBLd0U4NjU2ZEdKOUlEMjYwOVVqYmdveXM3NXo1QjVmNWJHbXJsVmVMZ2Rx?oc=5",
-    "source": "gnews_futures",
-    "published_utc": "2026-10-02T11:47:39+00:00",
-    "score": 7.47,
-    "duplicates": 1
-   },
-   {
-    "id": "3dc379134f",
-    "title": "Goodbye, rate hike: Why stocks are soaring after a dismal jobs report - Business Insider",
-    "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOMmx1c0JlTFhzVkdWQUJKcmxqalh5ekVRSjNfYzFPMUhQbGVrUU90bjJJWXFHM3o0S0ZlX3VFWHdjdXlIZ2JpYlBLa1p3ck81VVJTUDg2UE9kTEtoZ0NXV0xQLVdBclNub1dEeVYyQTBpUkN2allrZTQteFZOSGtQSDdSVVhMRVNZblotWUhzbU1Sd3NybDNFMkxn?oc=5",
-    "source": "gnews_macro",
-    "published_utc": "2026-10-02T14:20:21+00:00",
-    "score": 7.39,
+    "score": 7.44,
     "duplicates": 0
    }
   ],
   "summary": {
    "lines": [
-    "Nonfarm Payrolls printed 29K versus 89K consensus with unemployment at 4.2% versus 4.1% consensus, prompting the bond and equity reaction below [7a10b00932].",
-    "Treasury yields fell and markets now see little to no chance of an October Fed rate hike after the weak jobs report, a key repricing for rate-sensitive index futures [098c209ffd] [dffcdf0e66] [e816241ca1].",
-    "Stock futures jumped roughly 1% overnight and into the morning as traders pared Fed hike bets ahead of and after the report [b839a8d5ca] [e3eed53c21] [ef8c769834].",
-    "Stocks pushed toward record levels as the jobs data calmed the bond market, a tailwind for index futures into the open [f4577adbc8] [3dc379134f].",
-    "A drop in oil prices also contributed to the pre-report lift in futures [637cf08451] [b9e80679a0]."
+    "Nonfarm payrolls printed 29K vs 89K consensus with unemployment at 4.2% vs 4.1% consensus, a miss that is repricing October Fed hike odds lower [7a10b00932][dffcdf0e66][e816241ca1][019109402f].",
+    "Futures jumped roughly 1% and the Dow added about 400 points with the Nasdaq at a record high following the jobs data, indicating the rates-driven move is showing up directly in index futures [b839a8d5ca][bf763e0743].",
+    "Treasury yields fell after the report as traders pared hike bets, a move relevant to Nasdaq-heavy futures given their rate sensitivity [7a10b00932][77904f1f23].",
+    "Oil prices dropped ahead of and after the jobs report, a separate input into the broader futures bid seen this morning [637cf08451][b9e80679a0].",
+    "Average hourly earnings came in at 0.1% vs 0.3% consensus, adding to the soft-labor-data narrative alongside the payrolls and unemployment figures [019109402f]."
    ],
    "backend": "anthropic",
    "model": "claude-sonnet-5",
