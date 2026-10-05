@@ -1,7 +1,7 @@
 {
  "meta": {
-  "generated_at_utc": "2026-10-05T14:55:51.598115+00:00",
-  "generated_at_local": "Mon 05 Oct 2026 11:55 ADT",
+  "generated_at_utc": "2026-10-05T15:11:11.186039+00:00",
+  "generated_at_local": "Mon 05 Oct 2026 12:11 ADT",
   "trading_day": "2026-10-05",
   "display_tz": "America/Halifax",
   "version": "0.1.0",
@@ -57,10 +57,10 @@
   {
    "root": "ES",
    "trading_day": "2026-10-05",
-   "as_of_utc": "2026-10-05T14:55:51.598115+00:00",
+   "as_of_utc": "2026-10-05T15:11:11.186039+00:00",
    "source": "yahoo",
    "delayed": true,
-   "last_price": 7803.5,
+   "last_price": 7810.0,
    "levels": [
     {
      "tag": "exp_hi",
@@ -225,8 +225,8 @@
     }
    ],
    "stats": {
-    "last_bar_utc": "2026-10-05T14:45:00+00:00",
-    "last_bar_age_min": 10.9,
+    "last_bar_utc": "2026-10-05T15:01:00+00:00",
+    "last_bar_age_min": 10.2,
     "market_state": "open",
     "profile_volume": 1346460.0,
     "prior_day": "2026-10-02",
@@ -1524,20 +1524,28 @@
     {
      "t": "2026-10-05T14:45:00+00:00",
      "o": 7804.0,
-     "h": 7805.0,
-     "l": 7803.0,
-     "c": 7803.5,
-     "v": 0.0
+     "h": 7810.25,
+     "l": 7802.25,
+     "c": 7809.0,
+     "v": 31041.0
+    },
+    {
+     "t": "2026-10-05T15:00:00+00:00",
+     "o": 7809.25,
+     "h": 7810.75,
+     "l": 7808.5,
+     "c": 7810.0,
+     "v": 3790.0
     }
    ]
   },
   {
    "root": "NQ",
    "trading_day": "2026-10-05",
-   "as_of_utc": "2026-10-05T14:55:51.598115+00:00",
+   "as_of_utc": "2026-10-05T15:11:11.186039+00:00",
    "source": "yahoo",
    "delayed": true,
-   "last_price": 31208.0,
+   "last_price": 31249.5,
    "levels": [
     {
      "tag": "exp_hi",
@@ -1568,25 +1576,25 @@
      "note": "4 session(s) of data — PARTIAL"
     },
     {
-     "tag": "rn_minor_up",
-     "label": "Round 50 above",
-     "price": 31250.0,
-     "group": "round",
-     "note": ""
-    },
-    {
      "tag": "tdh",
      "label": "Today's RTH high",
-     "price": 31247.75,
+     "price": 31254.75,
      "group": "today",
      "note": "so far"
     },
     {
      "tag": "wh",
      "label": "Week high",
-     "price": 31247.75,
+     "price": 31254.75,
      "group": "week",
      "note": "since 2026-10-05"
+    },
+    {
+     "tag": "rn_minor_up",
+     "label": "Round 50 above",
+     "price": 31250.0,
+     "group": "round",
+     "note": ""
     },
     {
      "tag": "onh",
@@ -1702,8 +1710,8 @@
     }
    ],
    "stats": {
-    "last_bar_utc": "2026-10-05T14:45:00+00:00",
-    "last_bar_age_min": 10.9,
+    "last_bar_utc": "2026-10-05T15:01:00+00:00",
+    "last_bar_age_min": 10.2,
     "market_state": "open",
     "profile_volume": 409886.0,
     "prior_day": "2026-10-02",
@@ -2993,10 +3001,18 @@
     {
      "t": "2026-10-05T14:45:00+00:00",
      "o": 31205.25,
-     "h": 31214.5,
+     "h": 31254.75,
      "l": 31203.0,
-     "c": 31208.0,
-     "v": 0.0
+     "c": 31248.25,
+     "v": 11620.0
+    },
+    {
+     "t": "2026-10-05T15:00:00+00:00",
+     "o": 31248.0,
+     "h": 31254.5,
+     "l": 31242.5,
+     "c": 31249.5,
+     "v": 1197.0
     }
    ]
   }
@@ -3009,8 +3025,8 @@
     "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOQWRyUGxEcE1COXZfVlNfZ0tPRS1jZFRaWmVmWXNMTEMwbk9zVHdKQW5naEs3RGR0eHpPSGYzRGQzS2lPbmFyUzZYYS0waUxfRElYM3VFZkNyQ184TjhHTHFBM0xscDJqYTBZVEVfYkVCRmVYTEVOdDFHRlVaUDJOaDAzRlVDcE9qa1lOakNnd2dpZTFpSjd3cTRONVdNQWdDTlE?oc=5",
     "source": "gnews_macro",
     "published_utc": "2026-10-05T04:22:00+00:00",
-    "score": 9.74,
-    "duplicates": 14
+    "score": 10.2,
+    "duplicates": 15
    },
    {
     "id": "cb4239efba",
@@ -3018,7 +3034,7 @@
     "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPMEpDckdDcVRvemtDaGxGWmhBd05ZOGlrT19BU25SUlFVMUN0S3dGVmRrNzhGejk3Znl0dzJlYmR3bGExamhSUTJHLTR2dGRZa0ZkVTVlQnVpYVpmd1dyWmdBOHRVaWZEQnlnREF5UmJqcU81Sl9wSEh5MW9xZVV6V1ZJNXpqNzlUb3hYU21Vdl9QeDJMbW5SdnRIb0RxLTktQm1sY3VsMTI4VTZOdmVfMUtBMlBkLVNEUjQwZ3JYMEc?oc=5",
     "source": "gnews_futures",
     "published_utc": "2026-10-05T10:43:27+00:00",
-    "score": 9.3,
+    "score": 9.26,
     "duplicates": 0
    },
    {
@@ -3027,7 +3043,7 @@
     "link": "https://www.cnbc.com/2026/10/05/treasury-yields-bonds-fed-rates.html",
     "source": "cnbc_markets",
     "published_utc": "2026-10-05T14:53:55+00:00",
-    "score": 8.99,
+    "score": 8.95,
     "duplicates": 2
    },
    {
@@ -3036,7 +3052,7 @@
     "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQNUo3X0p4NndVeS1NcWR0UzctcG45d1hUUVA4NU1fNWFra3pnQTdRUU91RWVyZTlac1JpNG5mS2pEeEgwMVAyQUdjNkRrRHkydjltWmhPOHZ5c25NejBEM3RteDNhYUR6cjhGZjhMN1YtNjJEamswY1BJVkVBUDVkNllUME1seW5sQWZyYVQtZmVuQUhVeFpBTmF4ZVZtZlN6WUVzM1l6WmxGVnpIYWQwQ1ZCQzJxeW1mZmtQVmlOXzNKelVMSXZHNVhR?oc=5",
     "source": "gnews_fed",
     "published_utc": "2026-10-05T10:00:33+00:00",
-    "score": 8.68,
+    "score": 8.64,
     "duplicates": 4
    },
    {
@@ -3045,16 +3061,7 @@
     "link": "https://news.google.com/rss/articles/CBMilAJBVV95cUxPRzVlR1JMN3VsbVl5aTR1NWFnYXZBX2V2OXF0N3ZleC1YOW1paTRnX1R5dnpDa0ZCdU5hazRNMUVFSjVsTzIxTWlCSWgzUmJnRnB4azB3X284SGx0V1hKMXhFbkRubFcyVTZCTkx5UFM1V1BBZEw5bFZSSHZNT05qb2M1ejVreEFMNTVLWEMwNFZnT3VDeTZoQkRGdDEyUW1lcWhXZExQX3RwdUZOSklZWWxBVGxTQ1g2UFpUR2dVd3F4cGszQ2xOaDVBbV8yalRyYm1kazdUQ3pmNVZfUUhwZFk2d2xMNmZQZU9FbmtzWmQtWlVDOVBKTzlyYmhSVWdERWN3MTJITm8xcjBlSGtoeXV2d1o?oc=5",
     "source": "gnews_futures",
     "published_utc": "2026-10-05T03:17:00+00:00",
-    "score": 8.56,
-    "duplicates": 0
-   },
-   {
-    "id": "ada49fcde7",
-    "title": "S&P 500: Broad Inflation Keeps Treasury Yields in Focus and Stocks Under Pressure - Investing.com",
-    "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPOC1leXlWYVpkWFVTSVc0eUZNZHljS195SXRQbG9peExuVnVaSHBiSWdvSkdKNUV3My1nNWRnZXNpdEw3TWZKRDVMN1otbEd4VGI4M2Zza0VValJXRmNKTEc1V0ZTSzZrUkUzZjZ0eUU5TENnVEZLMk0zeF9mRjBSLXEzcU9JbzhXOG4xUE9PNmN2SkdheGdCb2FCbDZRUXRQY3dJcWpYcU1tdkY2NkktRFI4OS0wc21BV1RKYnlHRGJ0UQ?oc=5",
-    "source": "gnews_macro",
-    "published_utc": "2026-10-05T12:02:36+00:00",
-    "score": 8.02,
+    "score": 8.52,
     "duplicates": 0
    },
    {
@@ -3067,12 +3074,30 @@
     "duplicates": 0
    },
    {
+    "id": "ada49fcde7",
+    "title": "S&P 500: Broad Inflation Keeps Treasury Yields in Focus and Stocks Under Pressure - Investing.com",
+    "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPOC1leXlWYVpkWFVTSVc0eUZNZHljS195SXRQbG9peExuVnVaSHBiSWdvSkdKNUV3My1nNWRnZXNpdEw3TWZKRDVMN1otbEd4VGI4M2Zza0VValJXRmNKTEc1V0ZTSzZrUkUzZjZ0eUU5TENnVEZLMk0zeF9mRjBSLXEzcU9JbzhXOG4xUE9PNmN2SkdheGdCb2FCbDZRUXRQY3dJcWpYcU1tdkY2NkktRFI4OS0wc21BV1RKYnlHRGJ0UQ?oc=5",
+    "source": "gnews_macro",
+    "published_utc": "2026-10-05T12:02:36+00:00",
+    "score": 7.98,
+    "duplicates": 0
+   },
+   {
     "id": "66f28c7516",
     "title": "US stock futures edge lower as Treasury yields, oil prices keep investors cautious - CNBC TV18",
     "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNd2R3d2NqUjdQOURJbmN0R3gxOG9zYXJxbDdva1B4al8xSmRoX3V1cjR2RG1EN09XZmx6aHIzTDRPMTJyQ2pOajd3cFJrWVhuZm91elQ2MXhkbFBmWGd4Sms1OTk5NjRjaE43MmktN3pLVS1pTlg0czdxb0FIR05TaXM0RHN4empyOGhlbk41dW5IT0pPT3U0SUFWdEJYYTFmT1NRa2JPd9IBrAFBVV95cUxQOVlJMTZVMTlGNVp4NlRhUGFrc2pCV0U3OXpjVTVySjBOc2ZoZUhhb2VLMk92dWJnZm9jT1Ayd0dXMVMyWlpnMGtnRGt0QWRVTVRBVFJQYkpiR1R0ZVpvUUtJTlVTX1BTU3Z2MGJVRDBFOGJmVThJMGhFck1iN0lfaFpiVXphYThOZ1d5dDZsRVUwTm5SRko2S0xXM0Z0VjdnTEQ2SFdqa0Nwbkxy?oc=5",
     "source": "gnews_futures",
     "published_utc": "2026-10-05T13:12:42+00:00",
-    "score": 7.71,
+    "score": 7.67,
+    "duplicates": 0
+   },
+   {
+    "id": "578d5f29cb",
+    "title": "Gold prices rise after weak September jobs report dims Fed rate hike - qz.com",
+    "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTFB4N0lnTTVpS1lYQjNObkUycnJoVEstb05yQnZIYnhLT1JYa2NUMGZUR1pDd1lfVWNycTJsSFlnclF3S2liZ295MFFCZE14SXI3VkNZME9oVWZaeGFsZkV3UnpZdW5ub1k5ZHpzdHc1Rkk5OU94czJLeHpXOFpVcm8?oc=5",
+    "source": "gnews_macro",
+    "published_utc": "2026-10-05T14:49:46+00:00",
+    "score": 7.44,
     "duplicates": 0
    },
    {
@@ -3081,25 +3106,16 @@
     "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOV1N5OGFFVmJWekdiLXVBZDVuVmJyWk96dDF2RGhWdUFtc0pVdnBlU1FIS2loRmpXdHNuQW03RTJTYklRRi1Mc3gzT2Z1WlFUbEkyaVpGV3QtRnFZYWNma1NDUEJSRFlMMGZfUHo3QTlRNzF2M245M2dxcXVnSFY3XzNFNDYzeVpLSDFGU1Q4OGk3RmI4b3VHQ2RiMmF3OXplUVN2WktUSGc?oc=5",
     "source": "gnews_futures",
     "published_utc": "2026-10-05T11:01:13+00:00",
-    "score": 7.35,
+    "score": 7.31,
     "duplicates": 2
    },
    {
     "id": "be9334a6b1",
-    "title": "U.S. Stock Futures Muted as Europe’s Turmoil Curbs Risk Appetite; Fed Minutes Awaited - barchart.com",
+    "title": "U.S. Stock Futures Muted as Europe’s Turmoil Curbs Risk Appetite; Fed Minutes Awaited - Barchart.com",
     "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxONzVPRmRmNXJaRjlWZ3VOZFE4UFpROEZTMHVrU2dtV3l5MXEzX3FLVDc4R0h3d0wwUHMxTlQ1QUc1QjNuS2EwNFdETTIxQXYxYjNBbTJFRUYybTJ4SWZzbFlmQVBERTBmMkdsVnZibDhUYjIzOFI0UXRyX1M0clQzV0x0VlgwTDRjemtad3NQejhIeDA5UFlqMllubzVjem5Fb2tQZHR1S3ZwTEc3Z1pTMWo3RG1NRGJCTlBKRGFwUGdiYWM?oc=5",
     "source": "gnews_futures",
     "published_utc": "2026-10-05T10:38:03+00:00",
-    "score": 7.28,
-    "duplicates": 0
-   },
-   {
-    "id": "578d5f29cb",
-    "title": "Gold prices rise after weak September jobs report dims Fed rate hike - qz.com",
-    "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTFB4N0lnTTVpS1lYQjNObkUycnJoVEstb05yQnZIYnhLT1JYa2NUMGZUR1pDd1lfVWNycTJsSFlnclF3S2liZ295MFFCZE14SXI3VkNZME9oVWZaeGFsZkV3UnpZdW5ub1k5ZHpzdHc1Rkk5OU94czJLeHpXOFpVcm8?oc=5",
-    "source": "gnews_macro",
-    "published_utc": "2026-10-05T13:25:48+00:00",
-    "score": 7.25,
+    "score": 7.24,
     "duplicates": 0
    },
    {
@@ -3114,15 +3130,15 @@
   ],
   "summary": {
    "lines": [
-    "Treasury yields remain the dominant cross-asset driver, with futures swinging between flat, lower, and higher across headlines as yields rise and fall, keeping index futures choppy into the cash open [cb4239efba][4ca01903d8][66f28c7516][2f7cc76440][be9334a6b1].",
-    "Fed minutes are the key risk event traders are positioning around, cited across nearly every futures headline as the reason for cautious, muted price action [cb4239efba][3405255088][be9334a6b1][69bd57f12f].",
-    "A soft September jobs report is feeding hopes for a Fed pause, pressuring yields lower at times and lifting gold, with futures reacting positively in at least one headline [3405255088][5fa9017001][578d5f29cb].",
-    "Broad inflation concerns are separately cited as keeping stocks under pressure via the yields channel, reinforcing the same rates narrative rather than a new catalyst [ada49fcde7]."
+    "Treasury yields remain the dominant cross-asset driver, with yields rising/elevated across multiple reports pressuring equity futures and keeping intraday volatility sensitive to rates moves [cb4239efba][4ca01903d8][2f7cc76440][66f28c7516][ada49fcde7].",
+    "Fed meeting minutes are awaited and likely to be a key catalyst for rate-path repricing during the session [cb4239efba][4ca01903d8][be9334a6b1][3405255088][69bd57f12f].",
+    "Futures tone has been mixed across the lead-up, flat to higher on soft jobs data hopes but also dipping on yields/oil caution, so pre-open positioning has been choppy [3405255088][5fa9017001][66f28c7516][69bd57f12f].",
+    "Soft September jobs report context is feeding a Fed-pause narrative, which has also lifted gold, a sign of rate-cut/pause expectations in play [578d5f29cb][3405255088]."
    ],
    "backend": "anthropic",
    "model": "claude-sonnet-5",
    "dropped": [
-    "no valid citation: ISM Services PMI at 10:00 ET (cons 55.1, prior 55.4) lands into this yields/Fed-minutes-sensitive tape and could move the rates-driven futures reaction further."
+    "no valid citation: ISM Services PMI at 10:00 ET (cons 55.1, prior 55.4) lands mid-session and could move rates/equities together given the yield-sensitive backdrop."
    ],
    "warnings": []
   },
