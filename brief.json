@@ -1,7 +1,7 @@
 {
  "meta": {
-  "generated_at_utc": "2026-10-05T14:25:13.631440+00:00",
-  "generated_at_local": "Mon 05 Oct 2026 11:25 ADT",
+  "generated_at_utc": "2026-10-05T14:40:33.457547+00:00",
+  "generated_at_local": "Mon 05 Oct 2026 11:40 ADT",
   "trading_day": "2026-10-05",
   "display_tz": "America/Halifax",
   "version": "0.1.0",
@@ -57,10 +57,10 @@
   {
    "root": "ES",
    "trading_day": "2026-10-05",
-   "as_of_utc": "2026-10-05T14:25:13.631440+00:00",
+   "as_of_utc": "2026-10-05T14:40:33.457547+00:00",
    "source": "yahoo",
    "delayed": true,
-   "last_price": 7800.75,
+   "last_price": 7805.75,
    "levels": [
     {
      "tag": "exp_hi",
@@ -84,6 +84,20 @@
      "note": ""
     },
     {
+     "tag": "tdh",
+     "label": "Today's RTH high",
+     "price": 7811.0,
+     "group": "today",
+     "note": "so far"
+    },
+    {
+     "tag": "wh",
+     "label": "Week high",
+     "price": 7811.0,
+     "group": "week",
+     "note": "since 2026-10-05"
+    },
+    {
      "tag": "pdh",
      "label": "Prior-day high (RTH)",
      "price": 7810.25,
@@ -96,20 +110,6 @@
      "price": 7810.25,
      "group": "week",
      "note": "4 session(s) of data — PARTIAL"
-    },
-    {
-     "tag": "tdh",
-     "label": "Today's RTH high",
-     "price": 7804.5,
-     "group": "today",
-     "note": "so far"
-    },
-    {
-     "tag": "wh",
-     "label": "Week high",
-     "price": 7804.5,
-     "group": "week",
-     "note": "since 2026-10-05"
     },
     {
      "tag": "rn_major_dn",
@@ -225,8 +225,8 @@
     }
    ],
    "stats": {
-    "last_bar_utc": "2026-10-05T14:15:00+00:00",
-    "last_bar_age_min": 10.2,
+    "last_bar_utc": "2026-10-05T14:30:00+00:00",
+    "last_bar_age_min": 10.6,
     "market_state": "open",
     "profile_volume": 1346460.0,
     "prior_day": "2026-10-02",
@@ -1508,9 +1508,17 @@
     {
      "t": "2026-10-05T14:15:00+00:00",
      "o": 7800.75,
-     "h": 7804.5,
+     "h": 7811.0,
      "l": 7799.25,
-     "c": 7800.75,
+     "c": 7808.0,
+     "v": 51442.0
+    },
+    {
+     "t": "2026-10-05T14:30:00+00:00",
+     "o": 7808.0,
+     "h": 7808.5,
+     "l": 7803.5,
+     "c": 7805.75,
      "v": 0.0
     }
    ]
@@ -1518,10 +1526,10 @@
   {
    "root": "NQ",
    "trading_day": "2026-10-05",
-   "as_of_utc": "2026-10-05T14:25:13.631440+00:00",
+   "as_of_utc": "2026-10-05T14:40:33.457547+00:00",
    "source": "yahoo",
    "delayed": true,
-   "last_price": 31180.0,
+   "last_price": 31219.5,
    "levels": [
     {
      "tag": "exp_hi",
@@ -1529,6 +1537,13 @@
      "price": 31566.63,
      "group": "range",
      "note": "ATR over 14 days"
+    },
+    {
+     "tag": "rn_major_up",
+     "label": "Round 100 above",
+     "price": 31300.0,
+     "group": "round",
+     "note": ""
     },
     {
      "tag": "pdh",
@@ -1545,16 +1560,23 @@
      "note": "4 session(s) of data — PARTIAL"
     },
     {
+     "tag": "rn_minor_up",
+     "label": "Round 50 above",
+     "price": 31250.0,
+     "group": "round",
+     "note": ""
+    },
+    {
      "tag": "tdh",
      "label": "Today's RTH high",
-     "price": 31229.5,
+     "price": 31247.75,
      "group": "today",
      "note": "so far"
     },
     {
      "tag": "wh",
      "label": "Week high",
-     "price": 31229.5,
+     "price": 31247.75,
      "group": "week",
      "note": "since 2026-10-05"
     },
@@ -1566,8 +1588,8 @@
      "note": "since 18:00 ET, 919 bars"
     },
     {
-     "tag": "rn_major_up",
-     "label": "Round 100 above",
+     "tag": "rn_major_dn",
+     "label": "Round 100 below",
      "price": 31200.0,
      "group": "round",
      "note": ""
@@ -1580,25 +1602,11 @@
      "note": "70 % value area"
     },
     {
-     "tag": "rn_minor_dn",
-     "label": "Round 50 below",
-     "price": 31150.0,
-     "group": "round",
-     "note": ""
-    },
-    {
      "tag": "pdo",
      "label": "Prior-day RTH open",
      "price": 31147.75,
      "group": "prior_day",
      "note": "2026-10-02"
-    },
-    {
-     "tag": "rn_major_dn",
-     "label": "Round 100 below",
-     "price": 31100.0,
-     "group": "round",
-     "note": ""
     },
     {
      "tag": "pdc",
@@ -1686,8 +1694,8 @@
     }
    ],
    "stats": {
-    "last_bar_utc": "2026-10-05T14:15:00+00:00",
-    "last_bar_age_min": 10.2,
+    "last_bar_utc": "2026-10-05T14:30:00+00:00",
+    "last_bar_age_min": 10.6,
     "market_state": "open",
     "profile_volume": 409886.0,
     "prior_day": "2026-10-02",
@@ -2961,9 +2969,17 @@
     {
      "t": "2026-10-05T14:15:00+00:00",
      "o": 31179.5,
-     "h": 31196.75,
+     "h": 31247.75,
      "l": 31173.5,
-     "c": 31180.0,
+     "c": 31232.75,
+     "v": 18281.0
+    },
+    {
+     "t": "2026-10-05T14:30:00+00:00",
+     "o": 31232.75,
+     "h": 31236.75,
+     "l": 31208.25,
+     "c": 31219.5,
      "v": 0.0
     }
    ]
@@ -2972,22 +2988,22 @@
  "news": {
   "headlines": [
    {
+    "id": "4ca01903d8",
+    "title": "Treasury yields rise to start the week; traders look ahead to Fed minutes",
+    "link": "https://www.cnbc.com/2026/10/05/treasury-yields-bonds-fed-rates.html",
+    "source": "cnbc_markets",
+    "published_utc": "2026-10-05T14:28:46+00:00",
+    "score": 10.47,
+    "duplicates": 2
+   },
+   {
     "id": "c87f75e013",
     "title": "Phoenix home prices outpace inflation by 177%, study finds - FOX5 Vegas",
     "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOQWRyUGxEcE1COXZfVlNfZ0tPRS1jZFRaWmVmWXNMTEMwbk9zVHdKQW5naEs3RGR0eHpPSGYzRGQzS2lPbmFyUzZYYS0waUxfRElYM3VFZkNyQ184TjhHTHFBM0xscDJqYTBZVEVfYkVCRmVYTEVOdDFHRlVaUDJOaDAzRlVDcE9qa1lOakNnd2dpZTFpSjd3cTRONVdNQWdDTlE?oc=5",
     "source": "gnews_macro",
     "published_utc": "2026-10-05T04:22:00+00:00",
-    "score": 9.82,
+    "score": 9.78,
     "duplicates": 14
-   },
-   {
-    "id": "4ca01903d8",
-    "title": "Treasury yields rise to start the week; traders look ahead to Fed minutes",
-    "link": "https://www.cnbc.com/2026/10/05/treasury-yields-bonds-fed-rates.html",
-    "source": "cnbc_markets",
-    "published_utc": "2026-10-05T14:24:44+00:00",
-    "score": 9.5,
-    "duplicates": 0
    },
    {
     "id": "cb4239efba",
@@ -2995,7 +3011,7 @@
     "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPMEpDckdDcVRvemtDaGxGWmhBd05ZOGlrT19BU25SUlFVMUN0S3dGVmRrNzhGejk3Znl0dzJlYmR3bGExamhSUTJHLTR2dGRZa0ZkVTVlQnVpYVpmd1dyWmdBOHRVaWZEQnlnREF5UmJqcU81Sl9wSEh5MW9xZVV6V1ZJNXpqNzlUb3hYU21Vdl9QeDJMbW5SdnRIb0RxLTktQm1sY3VsMTI4VTZOdmVfMUtBMlBkLVNEUjQwZ3JYMEc?oc=5",
     "source": "gnews_futures",
     "published_utc": "2026-10-05T10:43:27+00:00",
-    "score": 9.38,
+    "score": 9.34,
     "duplicates": 0
    },
    {
@@ -3004,8 +3020,17 @@
     "link": "https://news.google.com/rss/articles/CBMilAJBVV95cUxPRzVlR1JMN3VsbVl5aTR1NWFnYXZBX2V2OXF0N3ZleC1YOW1paTRnX1R5dnpDa0ZCdU5hazRNMUVFSjVsTzIxTWlCSWgzUmJnRnB4azB3X284SGx0V1hKMXhFbkRubFcyVTZCTkx5UFM1V1BBZEw5bFZSSHZNT05qb2M1ejVreEFMNTVLWEMwNFZnT3VDeTZoQkRGdDEyUW1lcWhXZExQX3RwdUZOSklZWWxBVGxTQ1g2UFpUR2dVd3F4cGszQ2xOaDVBbV8yalRyYm1kazdUQ3pmNVZfUUhwZFk2d2xMNmZQZU9FbmtzWmQtWlVDOVBKTzlyYmhSVWdERWN3MTJITm8xcjBlSGtoeXV2d1o?oc=5",
     "source": "gnews_futures",
     "published_utc": "2026-10-05T03:17:00+00:00",
-    "score": 8.64,
+    "score": 8.6,
     "duplicates": 0
+   },
+   {
+    "id": "f0b55c6215",
+    "title": "Tokyo shares are higher as easing worries over inflation reduce odds for another Fed rate hike - WRAL",
+    "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQNUo3X0p4NndVeS1NcWR0UzctcG45d1hUUVA4NU1fNWFra3pnQTdRUU91RWVyZTlac1JpNG5mS2pEeEgwMVAyQUdjNkRrRHkydjltWmhPOHZ5c25NejBEM3RteDNhYUR6cjhGZjhMN1YtNjJEamswY1BJVkVBUDVkNllUME1seW5sQWZyYVQtZmVuQUhVeFpBTmF4ZVZtZlN6WUVzM1l6WmxGVnpIYWQwQ1ZCQzJxeW1mZmtQVmlOXzNKelVMSXZHNVhR?oc=5",
+    "source": "gnews_fed",
+    "published_utc": "2026-10-05T10:00:33+00:00",
+    "score": 8.22,
+    "duplicates": 3
    },
    {
     "id": "ada49fcde7",
@@ -3013,7 +3038,7 @@
     "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPOC1leXlWYVpkWFVTSVc0eUZNZHljS195SXRQbG9peExuVnVaSHBiSWdvSkdKNUV3My1nNWRnZXNpdEw3TWZKRDVMN1otbEd4VGI4M2Zza0VValJXRmNKTEc1V0ZTSzZrUkUzZjZ0eUU5TENnVEZLMk0zeF9mRjBSLXEzcU9JbzhXOG4xUE9PNmN2SkdheGdCb2FCbDZRUXRQY3dJcWpYcU1tdkY2NkktRFI4OS0wc21BV1RKYnlHRGJ0UQ?oc=5",
     "source": "gnews_macro",
     "published_utc": "2026-10-05T12:02:36+00:00",
-    "score": 8.1,
+    "score": 8.06,
     "duplicates": 0
    },
    {
@@ -3031,17 +3056,8 @@
     "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNd2R3d2NqUjdQOURJbmN0R3gxOG9zYXJxbDdva1B4al8xSmRoX3V1cjR2RG1EN09XZmx6aHIzTDRPMTJyQ2pOajd3cFJrWVhuZm91elQ2MXhkbFBmWGd4Sms1OTk5NjRjaE43MmktN3pLVS1pTlg0czdxb0FIR05TaXM0RHN4empyOGhlbk41dW5IT0pPT3U0SUFWdEJYYTFmT1NRa2JPd9IBrAFBVV95cUxQOVlJMTZVMTlGNVp4NlRhUGFrc2pCV0U3OXpjVTVySjBOc2ZoZUhhb2VLMk92dWJnZm9jT1Ayd0dXMVMyWlpnMGtnRGt0QWRVTVRBVFJQYkpiR1R0ZVpvUUtJTlVTX1BTU3Z2MGJVRDBFOGJmVThJMGhFck1iN0lfaFpiVXphYThOZ1d5dDZsRVUwTm5SRko2S0xXM0Z0VjdnTEQ2SFdqa0Nwbkxy?oc=5",
     "source": "gnews_futures",
     "published_utc": "2026-10-05T13:12:42+00:00",
-    "score": 7.8,
-    "duplicates": 0
-   },
-   {
-    "id": "f0b55c6215",
-    "title": "Tokyo shares are higher as easing worries over inflation reduce odds for another Fed rate hike - WRAL",
-    "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQNUo3X0p4NndVeS1NcWR0UzctcG45d1hUUVA4NU1fNWFra3pnQTdRUU91RWVyZTlac1JpNG5mS2pEeEgwMVAyQUdjNkRrRHkydjltWmhPOHZ5c25NejBEM3RteDNhYUR6cjhGZjhMN1YtNjJEamswY1BJVkVBUDVkNllUME1seW5sQWZyYVQtZmVuQUhVeFpBTmF4ZVZtZlN6WUVzM1l6WmxGVnpIYWQwQ1ZCQzJxeW1mZmtQVmlOXzNKelVMSXZHNVhR?oc=5",
-    "source": "gnews_fed",
-    "published_utc": "2026-10-05T10:00:33+00:00",
     "score": 7.76,
-    "duplicates": 2
+    "duplicates": 0
    },
    {
     "id": "2f7cc76440",
@@ -3049,7 +3065,7 @@
     "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOV1N5OGFFVmJWekdiLXVBZDVuVmJyWk96dDF2RGhWdUFtc0pVdnBlU1FIS2loRmpXdHNuQW03RTJTYklRRi1Mc3gzT2Z1WlFUbEkyaVpGV3QtRnFZYWNma1NDUEJSRFlMMGZfUHo3QTlRNzF2M245M2dxcXVnSFY3XzNFNDYzeVpLSDFGU1Q4OGk3RmI4b3VHQ2RiMmF3OXplUVN2WktUSGc?oc=5",
     "source": "gnews_futures",
     "published_utc": "2026-10-05T11:01:13+00:00",
-    "score": 7.43,
+    "score": 7.39,
     "duplicates": 2
    },
    {
@@ -3058,7 +3074,7 @@
     "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxONzVPRmRmNXJaRjlWZ3VOZFE4UFpROEZTMHVrU2dtV3l5MXEzX3FLVDc4R0h3d0wwUHMxTlQ1QUc1QjNuS2EwNFdETTIxQXYxYjNBbTJFRUYybTJ4SWZzbFlmQVBERTBmMkdsVnZibDhUYjIzOFI0UXRyX1M0clQzV0x0VlgwTDRjemtad3NQejhIeDA5UFlqMllubzVjem5Fb2tQZHR1S3ZwTEc3Z1pTMWo3RG1NRGJCTlBKRGFwUGdiYWM?oc=5",
     "source": "gnews_futures",
     "published_utc": "2026-10-05T10:38:03+00:00",
-    "score": 7.37,
+    "score": 7.33,
     "duplicates": 0
    },
    {
@@ -3067,7 +3083,7 @@
     "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTFB4N0lnTTVpS1lYQjNObkUycnJoVEstb05yQnZIYnhLT1JYa2NUMGZUR1pDd1lfVWNycTJsSFlnclF3S2liZ295MFFCZE14SXI3VkNZME9oVWZaeGFsZkV3UnpZdW5ub1k5ZHpzdHc1Rkk5OU94czJLeHpXOFpVcm8?oc=5",
     "source": "gnews_macro",
     "published_utc": "2026-10-05T13:25:48+00:00",
-    "score": 7.33,
+    "score": 7.29,
     "duplicates": 0
    },
    {
@@ -3082,15 +3098,15 @@
   ],
   "summary": {
    "lines": [
-    "Treasury yields rose into the Fed minutes release, with futures flat-to-lower as traders weigh elevated yields and oil prices [4ca01903d8][cb4239efba][66f28c7516][2f7cc76440][be9334a6b1].",
-    "A softer September jobs report lifted futures overnight and dimmed Fed rate-hike expectations, also boosting gold [3405255088][578d5f29cb].",
-    "Easing inflation worries lifted Tokyo/Asian shares and reduced odds of another Fed hike, while broad inflation concerns elsewhere keep yields in focus and stocks under pressure [f0b55c6215][ada49fcde7].",
-    "Earnings season ramps up alongside the Fed minutes, an additional catalyst for futures positioning [69bd57f12f]."
+    "Treasury yields rose to start the week after a prior selloff, with futures flat-to-lower as traders weigh elevated yields and oil prices ahead of Fed minutes, a key driver for rate-sensitive index positioning. [4ca01903d8] [cb4239efba] [66f28c7516] [2f7cc76440] [be9334a6b1]",
+    "Fed minutes from the last meeting are the session's focal event, with headlines split between futures rising on a soft jobs report and futures subdued/muted on elevated yields and hopes for a Fed pause. [3405255088] [5fa9017001] [69bd57f12f] [f0b55c6215]",
+    "Gold rose after the weak September jobs report dimmed Fed rate hike expectations, a cross-asset signal worth watching alongside rate-sensitive futures moves. [578d5f29cb]",
+    "Broad inflation concerns are cited as keeping Treasury yields in focus and stocks under pressure, reinforcing the yield-sensitivity theme for index futures. [ada49fcde7]"
    ],
    "backend": "anthropic",
    "model": "claude-sonnet-5",
    "dropped": [
-    "no valid citation: ISM Services PMI prints at 10:00 ET, consensus 55.1 vs prior 55.4, a data point to watch alongside the Fed minutes for rate-path signals."
+    "no valid citation: ISM Services PMI at 10:00 ET (cons 55.1, prior 55.4) lands alongside the broader yields/inflation narrative that has kept stocks under pressure, giving traders a data point to react to mid-morning."
    ],
    "warnings": []
   },
