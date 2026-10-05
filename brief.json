@@ -1,7 +1,7 @@
 {
  "meta": {
-  "generated_at_utc": "2026-10-05T10:40:22.493399+00:00",
-  "generated_at_local": "Mon 05 Oct 2026 07:40 ADT",
+  "generated_at_utc": "2026-10-05T10:55:40.301249+00:00",
+  "generated_at_local": "Mon 05 Oct 2026 07:55 ADT",
   "trading_day": "2026-10-05",
   "display_tz": "America/Halifax",
   "version": "0.1.0",
@@ -55,7 +55,7 @@
    "time_utc": "2026-10-05T14:00:00+00:00",
    "local": "11:00 ADT",
    "et": "10:00 ET",
-   "in": "3h 19m",
+   "in": "3h 04m",
    "consensus": "55.1",
    "prior": "55.4"
   },
@@ -66,10 +66,10 @@
   {
    "root": "ES",
    "trading_day": "2026-10-05",
-   "as_of_utc": "2026-10-05T10:40:22.493399+00:00",
+   "as_of_utc": "2026-10-05T10:55:40.301249+00:00",
    "source": "yahoo",
    "delayed": true,
-   "last_price": 7762.25,
+   "last_price": 7762.75,
    "levels": [
     {
      "tag": "exp_hi",
@@ -104,7 +104,7 @@
      "label": "Overnight high",
      "price": 7793.0,
      "group": "overnight",
-     "note": "since 18:00 ET, 740 bars"
+     "note": "since 18:00 ET, 755 bars"
     },
     {
      "tag": "wh",
@@ -151,7 +151,7 @@
     {
      "tag": "onvwap",
      "label": "Overnight VWAP",
-     "price": 7773.44,
+     "price": 7773.24,
      "group": "overnight",
      "note": "typical-price VWAP"
     },
@@ -165,14 +165,14 @@
     {
      "tag": "onl",
      "label": "Overnight low",
-     "price": 7760.5,
+     "price": 7760.25,
      "group": "overnight",
      "note": ""
     },
     {
      "tag": "wl",
      "label": "Week low",
-     "price": 7760.5,
+     "price": 7760.25,
      "group": "week",
      "note": ""
     },
@@ -213,14 +213,14 @@
     }
    ],
    "stats": {
-    "last_bar_utc": "2026-10-05T10:30:00+00:00",
-    "last_bar_age_min": 10.4,
+    "last_bar_utc": "2026-10-05T10:45:00+00:00",
+    "last_bar_age_min": 10.7,
     "market_state": "open",
     "profile_volume": 1346460.0,
     "prior_day": "2026-10-02",
     "prior_day_rth_range": 56.25,
-    "overnight_range": 32.5,
-    "gap_vs_prior_close": -16.75,
+    "overnight_range": 32.75,
+    "gap_vs_prior_close": -16.25,
     "gap_basis": "last price (pre-market)",
     "atr14": 84.06,
     "atr_days": 14,
@@ -1376,9 +1376,17 @@
     {
      "t": "2026-10-05T10:30:00+00:00",
      "o": 7762.5,
-     "h": 7762.75,
-     "l": 7762.0,
-     "c": 7762.25,
+     "h": 7763.5,
+     "l": 7760.25,
+     "c": 7763.0,
+     "v": 2681.0
+    },
+    {
+     "t": "2026-10-05T10:45:00+00:00",
+     "o": 7763.0,
+     "h": 7763.25,
+     "l": 7762.25,
+     "c": 7762.75,
      "v": 0.0
     }
    ]
@@ -1386,7 +1394,7 @@
   {
    "root": "NQ",
    "trading_day": "2026-10-05",
-   "as_of_utc": "2026-10-05T10:40:22.493399+00:00",
+   "as_of_utc": "2026-10-05T10:55:40.301249+00:00",
    "source": "yahoo",
    "delayed": true,
    "last_price": 30976.0,
@@ -1417,7 +1425,7 @@
      "label": "Overnight high",
      "price": 31221.25,
      "group": "overnight",
-     "note": "since 18:00 ET, 740 bars"
+     "note": "since 18:00 ET, 755 bars"
     },
     {
      "tag": "wh",
@@ -1443,7 +1451,7 @@
     {
      "tag": "onvwap",
      "label": "Overnight VWAP",
-     "price": 31089.44,
+     "price": 31087.41,
      "group": "overnight",
      "note": "typical-price VWAP"
     },
@@ -1533,8 +1541,8 @@
     }
    ],
    "stats": {
-    "last_bar_utc": "2026-10-05T10:30:00+00:00",
-    "last_bar_age_min": 10.4,
+    "last_bar_utc": "2026-10-05T10:45:00+00:00",
+    "last_bar_age_min": 10.7,
     "market_state": "open",
     "profile_volume": 409886.0,
     "prior_day": "2026-10-02",
@@ -2688,8 +2696,16 @@
     {
      "t": "2026-10-05T10:30:00+00:00",
      "o": 30978.25,
-     "h": 30979.75,
-     "l": 30972.25,
+     "h": 30986.5,
+     "l": 30960.0,
+     "c": 30977.75,
+     "v": 1591.0
+    },
+    {
+     "t": "2026-10-05T10:45:00+00:00",
+     "o": 30978.75,
+     "h": 30981.5,
+     "l": 30975.0,
      "c": 30976.0,
      "v": 0.0
     }
@@ -2704,7 +2720,7 @@
     "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQNUo3X0p4NndVeS1NcWR0UzctcG45d1hUUVA4NU1fNWFra3pnQTdRUU91RWVyZTlac1JpNG5mS2pEeEgwMVAyQUdjNkRrRHkydjltWmhPOHZ5c25NejBEM3RteDNhYUR6cjhGZjhMN1YtNjJEamswY1BJVkVBUDVkNllUME1seW5sQWZyYVQtZmVuQUhVeFpBTmF4ZVZtZlN6WUVzM1l6WmxGVnpIYWQwQ1ZCQzJxeW1mZmtQVmlOXzNKelVMSXZHNVhR?oc=5",
     "source": "gnews_fed",
     "published_utc": "2026-10-05T10:00:33+00:00",
-    "score": 10.39,
+    "score": 10.35,
     "duplicates": 6
    },
    {
@@ -2713,8 +2729,17 @@
     "link": "https://news.google.com/rss/articles/CBMilAJBVV95cUxPRzVlR1JMN3VsbVl5aTR1NWFnYXZBX2V2OXF0N3ZleC1YOW1paTRnX1R5dnpDa0ZCdU5hazRNMUVFSjVsTzIxTWlCSWgzUmJnRnB4azB3X284SGx0V1hKMXhFbkRubFcyVTZCTkx5UFM1V1BBZEw5bFZSSHZNT05qb2M1ejVreEFMNTVLWEMwNFZnT3VDeTZoQkRGdDEyUW1lcWhXZExQX3RwdUZOSklZWWxBVGxTQ1g2UFpUR2dVd3F4cGszQ2xOaDVBbV8yalRyYm1kazdUQ3pmNVZfUUhwZFk2d2xMNmZQZU9FbmtzWmQtWlVDOVBKTzlyYmhSVWdERWN3MTJITm8xcjBlSGtoeXV2d1o?oc=5",
     "source": "gnews_futures",
     "published_utc": "2026-10-05T03:17:00+00:00",
-    "score": 10.27,
+    "score": 10.23,
     "duplicates": 2
+   },
+   {
+    "id": "cb4239efba",
+    "title": "Stock futures are flat as investors grapple with higher yields, await Fed minutes - CNBC",
+    "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPMEpDckdDcVRvemtDaGxGWmhBd05ZOGlrT19BU25SUlFVMUN0S3dGVmRrNzhGejk3Znl0dzJlYmR3bGExamhSUTJHLTR2dGRZa0ZkVTVlQnVpYVpmd1dyWmdBOHRVaWZEQnlnREF5UmJqcU81Sl9wSEh5MW9xZVV6V1ZJNXpqNzlUb3hYU21Vdl9QeDJMbW5SdnRIb0RxLTktQm1sY3VsMTI4VTZOdmVfMUtBMlBkLVNEUjQwZ3JYMEc?oc=5",
+    "source": "gnews_futures",
+    "published_utc": "2026-10-05T10:43:27+00:00",
+    "score": 9.97,
+    "duplicates": 0
    },
    {
     "id": "9a24b03efa",
@@ -2722,7 +2747,16 @@
     "link": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxQWXBPS244QldJSU1QcWVMLWRENWZ2TlJvWjJzazBvLXdaQnI1ZDJxUnFNQlU1TUZhc3JDMDFLczliN2hJZ21xOUF1UklWQm9mVFNCRmROZThvaHpWMDF6aFRnWFZCdjlPU0h3dEtMdlNDUHdwUXQ5ZTZWUFB2OTNMeVpuVDRrN29aMVJHMUlCM1pXeUZIMnBKWkZ6cXFFOXBkYW1rT1Rxd1ZtdzhLQXZhNjFtSjdzSWZ0aG9ScC1WbmNaOHR0ZFh1bE1SeXowNHpEWDhic1p1cm94YWNNamE1M0Vpb2NGcGNXQzhQczQyX3VEeE5hU1E?oc=5",
     "source": "gnews_macro",
     "published_utc": "2026-10-05T08:06:19+00:00",
-    "score": 8.07,
+    "score": 8.03,
+    "duplicates": 0
+   },
+   {
+    "id": "be9334a6b1",
+    "title": "U.S. Stock Futures Slip as Europe’s Turmoil Weighs on Sentiment; Fed Minutes Awaited - Barchart.com",
+    "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxONzVPRmRmNXJaRjlWZ3VOZFE4UFpROEZTMHVrU2dtV3l5MXEzX3FLVDc4R0h3d0wwUHMxTlQ1QUc1QjNuS2EwNFdETTIxQXYxYjNBbTJFRUYybTJ4SWZzbFlmQVBERTBmMkdsVnZibDhUYjIzOFI0UXRyX1M0clQzV0x0VlgwTDRjemtad3NQejhIeDA5UFlqMllubzVjem5Fb2tQZHR1S3ZwTEc3Z1pTMWo3RG1NRGJCTlBKRGFwUGdiYWM?oc=5",
+    "source": "gnews_futures",
+    "published_utc": "2026-10-05T10:38:03+00:00",
+    "score": 7.95,
     "duplicates": 0
    },
    {
@@ -2731,8 +2765,17 @@
     "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPOC1leXlWYVpkWFVTSVc0eUZNZHljS195SXRQbG9peExuVnVaSHBiSWdvSkdKNUV3My1nNWRnZXNpdEw3TWZKRDVMN1otbEd4VGI4M2Zza0VValJXRmNKTEc1V0ZTSzZrUkUzZjZ0eUU5TENnVEZLMk0zeF9mRjBSLXEzcU9JbzhXOG4xUE9PNmN2SkdheGdCb2FCbDZRUXRQY3dJcWpYcU1tdkY2NkktRFI4OS0wc21BV1RKYnlHRGJ0UQ?oc=5",
     "source": "gnews_macro",
     "published_utc": "2026-10-05T06:50:04+00:00",
-    "score": 7.86,
+    "score": 7.82,
     "duplicates": 0
+   },
+   {
+    "id": "c87f75e013",
+    "title": "Phoenix home prices outpace inflation by 177%, study finds - FOX5 Vegas",
+    "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOQWRyUGxEcE1COXZfVlNfZ0tPRS1jZFRaWmVmWXNMTEMwbk9zVHdKQW5naEs3RGR0eHpPSGYzRGQzS2lPbmFyUzZYYS0waUxfRElYM3VFZkNyQ184TjhHTHFBM0xscDJqYTBZVEVfYkVCRmVYTEVOdDFHRlVaUDJOaDAzRlVDcE9qa1lOakNnd2dpZTFpSjd3cTRONVdNQWdDTlE?oc=5",
+    "source": "gnews_macro",
+    "published_utc": "2026-10-05T04:22:00+00:00",
+    "score": 7.41,
+    "duplicates": 8
    },
    {
     "id": "8b5b755e46",
@@ -2740,21 +2783,21 @@
     "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPZndvQjhfVEV2b3FjRDVGNTlHdkdqaTBEX2dUSWczeVEtdXFGSk9xVldDc25kaFRqV0lsM1ZyVWhHd0RWUzY4Ympkb1FfU3M1Slhxb21qbjJ3SDZ6WFFQZ1hMN0dzaXFHQnVuaW53V3I4cWJqZVNlWHd5ZnpFOTc3Q1B0WUdKN3M2bzgwbFFsNmt6cUktVjZnMExrbHRtNE9ZNm9BZ3pxeFoySEZ3cU9SU1B2UXZtVEtKc0tvSUVhdlBCZDhrem1uatIBzgFBVV95cUxQNkcwMXJqdHpJd2xBZURYN19GdHVZcDlnTEJMZWJYWHI4M1d0bGowNXZ5Y3MxQXFWeG91d2l5TDFXejRHTVdscmpEcU52QW5vZUV3UlIwcjlIaWRLQkQ3dWtFdDA2RmRBcnNQWlVtRGdPSEczTHlCaEllQ20wVm5mc0dBeEpsaUlKZXk2TnZndGtTTjRWMVZwTUpfT0g3THBtZnVrT25FWG5Ici0xVERQTEhhQXBNTnB0NS05T3hzcUVLMklIbEw3X3VFckhvdw?oc=5",
     "source": "gnews_futures",
     "published_utc": "2026-10-05T08:56:27+00:00",
-    "score": 7.21,
+    "score": 7.17,
     "duplicates": 0
    },
    {
     "id": "5969fb688f",
-    "title": "Treasury yields inch lower as investors pare back Fed rate hike bets - cnbc.com",
+    "title": "Treasury yields inch lower as investors pare back Fed rate hike bets - CNBC",
     "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE9IaFZaeFFMQnFxZVQ0dXBXRmExY1pmcHNKUVM1ejBOSWtSQ3huNTlpV2pnTDVvQlJtbV8xV3pyaWFQT1FTWVF2VWgxZDNuR0ZxT2w0YXFCWGs4My1mNFJtcW5ERU1BeUczVHJPdzNoeFZQVTRMaVE40gF8QVVfeXFMUG5tZW9UYkJTZW05R3NiNGdUb3ZZd2puOFo4S2h0UmZudkJ4R2hRU0d5aDM1WmFXY1BBdy1ZWjQ4aGtjVFBQSHEwSnlFYkNLSlhFeFhzVGFzc050QzZqRTVkczVFdjliZ0RtRDlqdWZXNFV3amY4ZDRlQ25RSw?oc=5",
     "source": "gnews_fed",
     "published_utc": "2026-10-05T08:00:01+00:00",
-    "score": 7.05,
+    "score": 7.01,
     "duplicates": 1
    },
    {
     "id": "69bd57f12f",
-    "title": "Stock Futures Are Rising With Earnings Season, Fed Minutes Ahead - barrons.com",
+    "title": "Stock Futures Are Rising With Earnings Season, Fed Minutes Ahead - Barron's",
     "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE80eV91ODRzQ2FMZUZxaDJwYmR2aFBGazJhUnZhUTRBQWFIOXZlaDRmcmRiOUc5TURzcFJRRG1yRDVrcjRlTVhNTW85WnBDRk9zWXNObkozaXVheUlxcU80V2FBeENvQW5yM2JRLTJTdV9Jay1hd1ExRWV3?oc=5",
     "source": "gnews_futures",
     "published_utc": "2026-10-04T22:08:00+00:00",
@@ -2767,7 +2810,7 @@
     "link": "https://www.marketwatch.com/story/bond-selloff-is-opening-up-rare-opportunities-for-investors-here-is-where-to-look-says-major-bank-463447c7?mod=mw_rss_topstories",
     "source": "marketwatch_top",
     "published_utc": "2026-10-05T10:33:00+00:00",
-    "score": 6.98,
+    "score": 6.94,
     "duplicates": 0
    },
    {
@@ -2776,48 +2819,20 @@
     "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPMzZtS0thRlRiOHc0c28zV0EydE9CZGtJNTBhbEdMYXhxVUpSWjQyN2xFSmNQVE5qWmM1M3hTcDhmU1Z3c3lSVkpvMW92a2txUEwzSkpfM3VlcjhQM09UdXhvZWNjaHZ2eGQ3ZFdmV0ZPRmdES3l1b3RxS3IyLUloYUt6cDVwR01FdmFtUmdETVlqRGZaaExQUHd1ZjlDZGFBZTVxbkdGSHNNQ3F3WHZIMndvc3UzU0EwTWJDQjRJeFo?oc=5",
     "source": "gnews_futures",
     "published_utc": "2026-10-05T09:43:46+00:00",
-    "score": 6.84,
-    "duplicates": 0
-   },
-   {
-    "id": "532aa1ef09",
-    "title": "10-Year Yield Above 5%, Oil Near $90, And Bitcoin: 3 Charts That Could Test The Stock Rally - TradingView",
-    "link": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxOWXpWZ1EzSnJiQ0xmWlFMSk16bjlGWGZCV0dSS0gwWFk4SjJQdVhuZk41YUxuN0ktQ0RqRUQ5R3U1SFFjSDNjaGtzVmVLSEpZdVJGajlxcXFkNXpHM2Z2VzNqTERveGxrc2I5N2NYOHFiM3l6QkxFR29xMjlLaFYxY19PSUlyejJsSU5idmpxQVUwcEJRSllyZkdQMEZTazU1SDlFZkRvN0JqRXFZRU9FbjdGaTV3S29OSGJUWGVBMmxaYzZxSVd2Z1BXeXBTMlU1Ym1uamQ5U3VpVWtGYWIwNA?oc=5",
-    "source": "gnews_fed",
-    "published_utc": "2026-10-05T10:23:44+00:00",
-    "score": 6.45,
-    "duplicates": 0
-   },
-   {
-    "id": "9285b038a8",
-    "title": "Federal Reserve adopts stress-test changes to reduce volatility in bank capital requirements - The Asian Banker",
-    "link": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxNaVZnaVlRZFZCa2xqSjd6YzJDajQwVEctcVMxRS00ZUFYVFNBX2M2MEphWnd0ak5ZR1FZajJ0M1EtWjhzQUlreVE3S1dZMHFlVnVtNzRLUzlLbkdmOWdpUWJUQkhVR2pIQVVxZHVWSDlhMGdRVnV0ajRVM3k3SHRDNV81bzdGWHR0SzB0ajZkSUh0MWxMQWp3aHkweUlyekhYUDBUd25IeDhuQW4wMEdQd0RXLVJwcWVGVHJDUHhPbjVKVzBUNk5oZWZJbnhlOVIwRVRaelJsODhvM2VP?oc=5",
-    "source": "gnews_fed",
-    "published_utc": "2026-10-05T10:18:57+00:00",
-    "score": 6.44,
-    "duplicates": 0
-   },
-   {
-    "id": "f2931cd38a",
-    "title": "Stock Market Today: Dow Jones, S&P 500 Futures Slip as Iran Keeps Conditions To Reopen Hormuz Strait — SP - Benzinga",
-    "link": "https://news.google.com/rss/articles/CBMiiAJBVV95cUxNWUt3eEFxQlFsMHZhNlRCaC1HRWlCNjRyWDV5VmV5M0R5T2czMGlKWTVWSzgzVGdJRmU4ZEpreGlQbWtGS0N1THB4WUd6WDhMSUhHVHdzSGw4anN1NThmQklMQV9tSjJEQnY0MkRGTk91a1pJdXBrWjgySjhGb3ptZE9OSGZ3R1N5aXY5LTE0ZFRYeFV2QzBzaGxrM2tXRlV6N2Q1YWNLVWNCb05rZVY2RC02X3VnWGVmN0pRNkVYSmZKMkRaLUMyTDRnbGRmbWphd0tXNGFxdHlrY1BfQl83R1JlSDIxMm03OFhWdXpTME1ZelppSGlNVndFdnVZUnpyTlhSYWN2cng?oc=5",
-    "source": "gnews_futures",
-    "published_utc": "2026-10-05T10:09:55+00:00",
-    "score": 6.42,
+    "score": 6.8,
     "duplicates": 0
    }
   ],
   "summary": {
    "lines": [
-    "Treasury yields pared back as traders weighed a soft jobs report and awaited Fed minutes, with rate-hike bets easing and futures rising on the data [3405255088][5969fb688f][5fa9017001][f0b55c6215][8b5b755e46].",
-    "10-year yield cited above 5% alongside oil near $90, flagged as pressure points for the stock rally, while broad inflation keeps yields in focus and stocks under pressure [532aa1ef09][ada49fcde7].",
-    "Futures slipped after Iran kept conditions tied to reopening the Hormuz Strait, a geopolitical headline relevant to risk appetite into the open [f2931cd38a].",
-    "Fed adopted stress-test changes aimed at reducing volatility in bank capital requirements, a regulatory item for financial-sector positioning [9285b038a8]."
+    "Futures are mixed/flat into Fed minutes, with early strength from a soft jobs report fading to flat-to-lower as yields stay elevated and European turmoil weighs on sentiment [3405255088][cb4239efba][be9334a6b1][69bd57f12f][5fa9017001].",
+    "Treasury yields and rate-hike bets are in focus, with some pullback in hike odds and lower yields reported alongside cooler wage data, while a bank note calls markets overly hawkish on the Fed [f0b55c6215][5969fb688f][8b5b755e46][8c02bc359e].",
+    "Inflation outlook remains a swing factor for yields and equities, with ECB's Nagel flagging upside risks and a separate piece noting broad inflation keeping yields in focus and stocks under pressure [9a24b03efa][ada49fcde7]."
    ],
    "backend": "anthropic",
    "model": "claude-sonnet-5",
    "dropped": [
-    "no valid citation: ISM Services PMI due 10:00 ET, consensus 55.1 vs prior 55.4, a data point that could move rate expectations intraday."
+    "no valid citation: ISM Services PMI at 10:00 ET (cons. 55.1, prior 55.4) lands alongside the Fed minutes narrative, making it a potential yields/rate-path catalyst during the session."
    ],
    "warnings": []
   },
