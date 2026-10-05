@@ -1,7 +1,7 @@
 {
  "meta": {
-  "generated_at_utc": "2026-10-05T13:59:21.335448+00:00",
-  "generated_at_local": "Mon 05 Oct 2026 10:59 ADT",
+  "generated_at_utc": "2026-10-05T14:10:04.226796+00:00",
+  "generated_at_local": "Mon 05 Oct 2026 11:10 ADT",
   "trading_day": "2026-10-05",
   "display_tz": "America/Halifax",
   "version": "0.1.0",
@@ -49,16 +49,7 @@
     "source_url": null
    }
   ],
-  "next_event": {
-   "name": "ISM Services PMI",
-   "impact": "medium",
-   "time_utc": "2026-10-05T14:00:00+00:00",
-   "local": "11:00 ADT",
-   "et": "10:00 ET",
-   "in": "0 min",
-   "consensus": "55.1",
-   "prior": "55.4"
-  },
+  "next_event": null,
   "sources": [],
   "warnings": []
  },
@@ -66,10 +57,10 @@
   {
    "root": "ES",
    "trading_day": "2026-10-05",
-   "as_of_utc": "2026-10-05T13:59:21.335448+00:00",
+   "as_of_utc": "2026-10-05T14:10:04.226796+00:00",
    "source": "yahoo",
    "delayed": true,
-   "last_price": 7789.5,
+   "last_price": 7785.5,
    "levels": [
     {
      "tag": "exp_hi",
@@ -234,8 +225,8 @@
     }
    ],
    "stats": {
-    "last_bar_utc": "2026-10-05T13:49:00+00:00",
-    "last_bar_age_min": 10.4,
+    "last_bar_utc": "2026-10-05T14:00:00+00:00",
+    "last_bar_age_min": 10.1,
     "market_state": "open",
     "profile_volume": 1346460.0,
     "prior_day": "2026-10-02",
@@ -1503,18 +1494,26 @@
      "o": 7788.0,
      "h": 7791.25,
      "l": 7784.25,
-     "c": 7789.5,
-     "v": 15745.0
+     "c": 7787.75,
+     "v": 43032.0
+    },
+    {
+     "t": "2026-10-05T14:00:00+00:00",
+     "o": 7787.75,
+     "h": 7788.25,
+     "l": 7781.0,
+     "c": 7785.5,
+     "v": 0.0
     }
    ]
   },
   {
    "root": "NQ",
    "trading_day": "2026-10-05",
-   "as_of_utc": "2026-10-05T13:59:21.335448+00:00",
+   "as_of_utc": "2026-10-05T14:10:04.226796+00:00",
    "source": "yahoo",
    "delayed": true,
-   "last_price": 31178.0,
+   "last_price": 31140.5,
    "levels": [
     {
      "tag": "exp_hi",
@@ -1573,8 +1572,8 @@
      "note": "70 % value area"
     },
     {
-     "tag": "rn_minor_dn",
-     "label": "Round 50 below",
+     "tag": "rn_minor_up",
+     "label": "Round 50 above",
      "price": 31150.0,
      "group": "round",
      "note": ""
@@ -1679,8 +1678,8 @@
     }
    ],
    "stats": {
-    "last_bar_utc": "2026-10-05T13:49:00+00:00",
-    "last_bar_age_min": 10.4,
+    "last_bar_utc": "2026-10-05T14:00:00+00:00",
+    "last_bar_age_min": 10.1,
     "market_state": "open",
     "profile_volume": 409886.0,
     "prior_day": "2026-10-02",
@@ -2939,9 +2938,17 @@
      "t": "2026-10-05T13:45:00+00:00",
      "o": 31204.0,
      "h": 31229.5,
-     "l": 31156.5,
-     "c": 31178.0,
-     "v": 9589.0
+     "l": 31140.5,
+     "c": 31155.25,
+     "v": 23443.0
+    },
+    {
+     "t": "2026-10-05T14:00:00+00:00",
+     "o": 31156.5,
+     "h": 31157.25,
+     "l": 31115.0,
+     "c": 31140.5,
+     "v": 0.0
     }
    ]
   }
