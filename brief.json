@@ -1,7 +1,7 @@
 {
  "meta": {
-  "generated_at_utc": "2026-10-06T14:45:38.451399+00:00",
-  "generated_at_local": "Tue 06 Oct 2026 11:45 ADT",
+  "generated_at_utc": "2026-10-06T15:00:58.472542+00:00",
+  "generated_at_local": "Tue 06 Oct 2026 12:00 ADT",
   "trading_day": "2026-10-06",
   "display_tz": "America/Halifax",
   "version": "0.1.0",
@@ -91,7 +91,7 @@
    "time_utc": "2026-10-07T17:00:00+00:00",
    "local": "14:00 ADT",
    "et": "13:00 ET",
-   "in": "26h 14m",
+   "in": "25h 59m",
    "consensus": null,
    "prior": null
   },
@@ -102,10 +102,10 @@
   {
    "root": "ES",
    "trading_day": "2026-10-06",
-   "as_of_utc": "2026-10-06T14:45:38.451399+00:00",
+   "as_of_utc": "2026-10-06T15:00:58.472542+00:00",
    "source": "yahoo",
    "delayed": true,
-   "last_price": 7873.25,
+   "last_price": 7882.25,
    "levels": [
     {
      "tag": "exp_hi",
@@ -136,8 +136,8 @@
      "note": "since 2026-10-05"
     },
     {
-     "tag": "rn_minor_up",
-     "label": "Round 25 above",
+     "tag": "rn_minor_dn",
+     "label": "Round 25 below",
      "price": 7875.0,
      "group": "round",
      "note": ""
@@ -270,8 +270,8 @@
     }
    ],
    "stats": {
-    "last_bar_utc": "2026-10-06T14:35:00+00:00",
-    "last_bar_age_min": 10.6,
+    "last_bar_utc": "2026-10-06T14:50:00+00:00",
+    "last_bar_age_min": 11.0,
     "market_state": "open",
     "profile_volume": 987559.0,
     "prior_day": "2026-10-05",
@@ -1553,20 +1553,28 @@
     {
      "t": "2026-10-06T14:30:00+00:00",
      "o": 7869.25,
-     "h": 7875.0,
+     "h": 7883.75,
      "l": 7866.25,
-     "c": 7873.25,
-     "v": 21270.0
+     "c": 7883.25,
+     "v": 55281.0
+    },
+    {
+     "t": "2026-10-06T14:45:00+00:00",
+     "o": 7883.0,
+     "h": 7883.25,
+     "l": 7877.75,
+     "c": 7882.25,
+     "v": 17168.0
     }
    ]
   },
   {
    "root": "NQ",
    "trading_day": "2026-10-06",
-   "as_of_utc": "2026-10-06T14:45:38.451399+00:00",
+   "as_of_utc": "2026-10-06T15:00:58.472542+00:00",
    "source": "yahoo",
    "delayed": true,
-   "last_price": 31512.0,
+   "last_price": 31575.0,
    "levels": [
     {
      "tag": "exp_hi",
@@ -1597,8 +1605,8 @@
      "note": "since 2026-10-05"
     },
     {
-     "tag": "rn_minor_up",
-     "label": "Round 50 above",
+     "tag": "rn_minor_dn",
+     "label": "Round 50 below",
      "price": 31550.0,
      "group": "round",
      "note": ""
@@ -1731,8 +1739,8 @@
     }
    ],
    "stats": {
-    "last_bar_utc": "2026-10-06T14:35:00+00:00",
-    "last_bar_age_min": 10.6,
+    "last_bar_utc": "2026-10-06T14:50:00+00:00",
+    "last_bar_age_min": 11.0,
     "market_state": "open",
     "profile_volume": 319951.0,
     "prior_day": "2026-10-05",
@@ -3014,10 +3022,18 @@
     {
      "t": "2026-10-06T14:30:00+00:00",
      "o": 31501.0,
-     "h": 31520.75,
+     "h": 31577.0,
      "l": 31480.0,
-     "c": 31512.0,
-     "v": 8377.0
+     "c": 31572.75,
+     "v": 20431.0
+    },
+    {
+     "t": "2026-10-06T14:45:00+00:00",
+     "o": 31572.75,
+     "h": 31575.75,
+     "l": 31551.25,
+     "c": 31575.0,
+     "v": 4997.0
     }
    ]
   }
@@ -3030,16 +3046,7 @@
     "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQWVBPckNJZkt3THZTRndpeldOeTlTQWc3OHNhRGlwYjhReHo0Z0lZU0FXSkowNlpDU0pkQkZTZk1FRDZITnNoMDVNbXdNaklEZXB6LTJLc3g1M3EwTUc2LXN6UndoQ1VRSVpoaFY0Rm5BNWgzakFiSVgtekFRV1JUU3pUMVo4am1IU3pCVTY0U3BNXzgzdjUtNkZpZDFjenhWMGJYMDZoTl95TmluY2dDWEJ1c0hoTm90eUtVaw?oc=5",
     "source": "gnews_futures",
     "published_utc": "2026-10-06T10:27:23+00:00",
-    "score": 10.28,
-    "duplicates": 0
-   },
-   {
-    "id": "9c6a2c17b5",
-    "title": "S&P 500 hits record high as oil prices and yields fall - qz.com",
-    "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTFBzck5RWlZFbXZUcFl5SVhsR0dkdzJ5TnREYVNuc1hzRi1iblFwTFBPTjU2Zms5Q1dpUVRVeTUwTkNheTFILXZ6dmV0ZkZfZTBmQ3kxaUFmUEdueV9TUDhkdFh3OVJmT01tNnJ3?oc=5",
-    "source": "gnews_macro",
-    "published_utc": "2026-10-06T14:02:16+00:00",
-    "score": 8.38,
+    "score": 10.24,
     "duplicates": 0
    },
    {
@@ -3048,7 +3055,7 @@
     "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOMXYzem9ZWWg3eFNESkN4V3NvSFBsT1JKaVdXaU5jTGZwREtmMXh3SGg3bVMzSk9mWUlUVUN2YlZyOS0xbE5NTk84UmRlWnBpdTd3M0dPTEduLUl6eDk5ZXBhNk03enRvZ0JESGg5aEtLVUlhSFA2Qy1UTlFQUENqUzZ5QWxnNXdaWjVJNTNrUVdtV0h6RDVmOVFuQmc5RjRscXczeTBKRFYwb2M4eVFF0gG0AUFVX3lxTE9aMVNCcGtGejZCX09xMDNBZXFVaEd4T3pod2lNSGxiMVlSdThpUjV2dktWZHU1MVlneUkzNHJ0UzNCQzNyVXRxV3ZGSWE4MlNyM1hqbzRINmdrSE5MWDNKYlFBeEZ2RVJRVy1lLWl2TGtjUWVLWVFXbXFKcFA5LXpaTWNsS2Vac1E2VGFBWjFzOUlTbXlKdTI5NDhsVFRKRkh4ZGVHWVRLT25hcU9saHRWaUpuSQ?oc=5",
     "source": "gnews_futures",
     "published_utc": "2026-10-06T11:54:15+00:00",
-    "score": 8.02,
+    "score": 7.98,
     "duplicates": 0
    },
    {
@@ -3057,7 +3064,7 @@
     "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE00cHFPODNsQVNURWxWRDU4MWtOOTdoUkppMTh2LVVTZkdSZEYtY2xDSVpWdzRxWjVIUkJmX2tMY05MaDAyWWxzVU1haEZJWXE4UlVXbUQ1blYycDA?oc=5",
     "source": "gnews_fed",
     "published_utc": "2026-10-06T14:31:38+00:00",
-    "score": 7.96,
+    "score": 7.92,
     "duplicates": 1
    },
    {
@@ -3066,7 +3073,7 @@
     "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxOZlc0dmdKYkxVMzEwRDlOT0VvZEZNdi1qM256SXJkUl9zLWt2aGcxVUowYS1uU0MxTGtDUnl3R241SE1rWHFFY24tWmNjUU5JRzRSSUd1V1QxQ1NPdGczN2t0UTh4MVlrdTc3M0kzWmxtYlpJbW91MWJPc2tBajk1dXYzaVI5UHRtUzBMTVBtNUtPdE9hcEg0SzZCSXgtTVk3Y1EtZFREMG04LXl3ZlQ3dHd5ekNvbkZTWkFJVXpVTkdmNEtGaTZSTW53?oc=5",
     "source": "gnews_macro",
     "published_utc": "2026-10-06T14:22:00+00:00",
-    "score": 7.93,
+    "score": 7.89,
     "duplicates": 2
    },
    {
@@ -3075,7 +3082,7 @@
     "link": "https://www.cnbc.com/2026/10/06/hong-kong-fed-fima-dollar-liquidity-china-moolenaar.html",
     "source": "cnbc_markets",
     "published_utc": "2026-10-06T13:47:49+00:00",
-    "score": 7.84,
+    "score": 7.8,
     "duplicates": 1
    },
    {
@@ -3084,7 +3091,16 @@
     "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQS1dBNE9wYkJ0bWpoRlZLSVNTUXotQUZJTmZYSUxheW44SGo4WjBNekdLWldPWDZWaUZRVjMwZmdTQjVDeHpqUUtkSU5WeXp0TElOa1Y2S09SU0VTQ056SDU4SEZiZzdmRGNsVkhVRXZSUnBMNXFaRjY5QnpkYTIyeWxydXJ3bnZqRW43RWEyWVdSNzJ5LXdBSkloYkdYUTg?oc=5",
     "source": "gnews_futures",
     "published_utc": "2026-10-06T13:41:32+00:00",
-    "score": 7.82,
+    "score": 7.78,
+    "duplicates": 0
+   },
+   {
+    "id": "6f34844c56",
+    "title": "Trade deficit hits $105.6 billion, widest since just before Trump tariffs enacted last year",
+    "link": "https://www.cnbc.com/2026/10/06/trade-deficit-hits-105point6-billion-widest-since-just-before-trump-tariffs-enacted-last-year.html",
+    "source": "cnbc_markets",
+    "published_utc": "2026-10-06T14:53:41+00:00",
+    "score": 7.48,
     "duplicates": 0
    },
    {
@@ -3093,7 +3109,7 @@
     "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOc3hzcS00a3M2eTZZRUtOU0tMU2ZpNFN1ejYzRkt6X3NSVC1UN3I5RkJmRkduOFN0Uno3cXZjTEJITG1GeVB2eDMwMTYxMUV3Q0k2NlZlVE9ON3gyQTM2aHNqUDJPRFRnMkp2NmZiRVZlYnVxQV9yOGhIQVZYNjVVTHR4NA?oc=5",
     "source": "gnews_megacap",
     "published_utc": "2026-10-06T14:22:02+00:00",
-    "score": 7.43,
+    "score": 7.39,
     "duplicates": 0
    },
    {
@@ -3102,16 +3118,7 @@
     "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOU1c1NmtIdGJrZ3RGSU56SElOVWQyY0hOU19mMzhEdlZPODVPVWM3S0pZeVRHRGI4YU0zN0w5U1Y1UHVDZU5Jc0tJS2tqZ2lXMVBReWNIOHBCSG5tN2wxbVo4MFI4VG4tWmRqeWpuMUk1ckdaUjFYN3QtcFd6U0E1S0FoRk1jWFJKQVlxcw?oc=5",
     "source": "gnews_macro",
     "published_utc": "2026-10-06T13:45:00+00:00",
-    "score": 7.33,
-    "duplicates": 0
-   },
-   {
-    "id": "6f34844c56",
-    "title": "Trade deficit hits $105.6 billion, widest since just before Trump tariffs enacted last year",
-    "link": "https://www.cnbc.com/2026/10/06/trade-deficit-hits-105point6-billion-widest-since-just-before-trump-tariffs-enacted-last-year.html",
-    "source": "cnbc_markets",
-    "published_utc": "2026-10-06T13:07:57+00:00",
-    "score": 7.23,
+    "score": 7.29,
     "duplicates": 0
    },
    {
@@ -3120,8 +3127,17 @@
     "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOTlRObEVRbUVwNDRhQWhFb1RDSWJCSmFqWkloemJFYlNwQmpPd0plZ1hYODhCaUhSVXA1cVNKelFBLUxPUXI5bnl5X2ljakh2b2NUbS1aMHhSZ3BwYXVscnZEMmEtUWVWVTR6RVhSdVlSUlloV05CV0FqUXVOMjZsWXFOcFVEeXVXaXdsNlRPWEhMaUVDMXdN?oc=5",
     "source": "gnews_macro",
     "published_utc": "2026-10-06T13:06:11+00:00",
-    "score": 7.22,
+    "score": 7.18,
     "duplicates": 1
+   },
+   {
+    "id": "9c6a2c17b5",
+    "title": "S&P 500 hits a record as oil and Treasury yields slip - qz.com",
+    "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTFBzck5RWlZFbXZUcFl5SVhsR0dkdzJ5TnREYVNuc1hzRi1iblFwTFBPTjU2Zms5Q1dpUVRVeTUwTkNheTFILXZ6dmV0ZkZfZTBmQ3kxaUFmUEdueV9TUDhkdFh3OVJmT01tNnJ3?oc=5",
+    "source": "gnews_macro",
+    "published_utc": "2026-10-06T14:02:16+00:00",
+    "score": 6.84,
+    "duplicates": 0
    },
    {
     "id": "acec568e24",
@@ -3129,21 +3145,22 @@
     "link": "https://news.google.com/rss/articles/CBMijAJBVV95cUxNMXlidUU0QmYwRWpSQnJlMlFmR2NHNUNYRGQ4RF9oRkJVR3B5OUw0Znlhcnc5Yzh3WXdsNXpzQktsZEtISUV4WldYbXc1a2hOVTRwVmpweTZVcDRzUnJyU2ZsaHZ4Ukg5ZHNyQ182TWZhQUNSajQ5SmIzN3RqbkdwT2FXZ294SGhBRkI3cEU3X2VseHIteFFDbmhOSnA4WFhpb2l3WVU5a0syaUlmcXNaRGgwUlpTWkhSaFh2OUtERmg4RXhEd19tbzFfdFF0bWZFaUZOS0lxcVFNNDVMeV9wZ1RvOXdYMTJjRGpvSzhRc2FOZWpOOFVRU0xiTW5uajFoejFONkVPNVMwbEc4?oc=5",
     "source": "gnews_futures",
     "published_utc": "2026-10-06T12:42:32+00:00",
-    "score": 6.66,
+    "score": 6.62,
     "duplicates": 0
    }
   ],
   "summary": {
    "lines": [
-    "Futures gapped up into the cash open with S&P 500 and Nasdaq at record highs as Treasury yields and oil prices fell, with Fed speak also on tap. [d8d5767533][9c6a2c17b5][fc8b104df1][9c0b5b125e][a8548f0b4e][fb95032a14][acec568e24]",
-    "Nvidia is nearing a $6 trillion valuation milestone, a megacap driver behind the S&P 500 record. [a2d8eca599]",
-    "Trade deficit widened to $105.6 billion, a 13.7% jump from July and above the $102 billion consensus estimate. [6f34844c56]",
-    "Fed commentary in focus: Stuart Kaiser warned on avoiding 1980s-style inflation, while another piece argues revised inflation data don't change the Fed's job. [b9bbe83bf1][21d7885cef]",
-    "A House China committee chair is urging the Fed to review Hong Kong's access to a dollar-liquidity facility amid yuan internationalization efforts. [ae995251af]"
+    "Futures gap up and the S&P 500/Nasdaq set fresh record highs as Treasury yields and oil pull back, with Nvidia nearing a $6 trillion milestone; expect elevated volatility around the open on megacap positioning. [d8d5767533][fc8b104df1][9c0b5b125e][a8548f0b4e][a2d8eca599][fb95032a14][9c6a2c17b5][acec568e24]",
+    "Fed speak is on the calendar today, and separate commentary flags concern about avoiding 1980s-style inflation, keeping rate-path headlines in focus for intraday reaction. [d8d5767533][b9bbe83bf1][21d7885cef]",
+    "The trade deficit widened to $105.6 billion, a 13.7% jump from July and above the $102 billion consensus estimate, a data point that can feed into yield and dollar moves pre-open. [6f34844c56]",
+    "A House China committee chair is pushing the Fed to review Hong Kong's access to a dollar-liquidity facility, a geopolitical/financial-plumbing headline worth tracking for any Fed/China friction spillover. [ae995251af]"
    ],
    "backend": "anthropic",
    "model": "claude-sonnet-5",
-   "dropped": [],
+   "dropped": [
+    "no valid citation: The 13:00 ET 3-Year note auction remains on deck, a potential catalyst for yield moves that could ripple into index futures after the open."
+   ],
    "warnings": []
   },
   "feeds": [],
