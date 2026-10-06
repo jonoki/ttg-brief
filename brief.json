@@ -1,7 +1,7 @@
 {
  "meta": {
-  "generated_at_utc": "2026-10-06T15:16:19.701340+00:00",
-  "generated_at_local": "Tue 06 Oct 2026 12:16 ADT",
+  "generated_at_utc": "2026-10-06T15:31:38.322599+00:00",
+  "generated_at_local": "Tue 06 Oct 2026 12:31 ADT",
   "trading_day": "2026-10-06",
   "display_tz": "America/Halifax",
   "version": "0.1.0",
@@ -91,7 +91,7 @@
    "time_utc": "2026-10-07T17:00:00+00:00",
    "local": "14:00 ADT",
    "et": "13:00 ET",
-   "in": "25h 43m",
+   "in": "25h 28m",
    "consensus": null,
    "prior": null
   },
@@ -102,10 +102,10 @@
   {
    "root": "ES",
    "trading_day": "2026-10-06",
-   "as_of_utc": "2026-10-06T15:16:19.701340+00:00",
+   "as_of_utc": "2026-10-06T15:31:38.322599+00:00",
    "source": "yahoo",
    "delayed": true,
-   "last_price": 7889.75,
+   "last_price": 7896.0,
    "levels": [
     {
      "tag": "exp_hi",
@@ -124,14 +124,14 @@
     {
      "tag": "tdh",
      "label": "Today's RTH high",
-     "price": 7891.5,
+     "price": 7896.25,
      "group": "today",
      "note": "so far"
     },
     {
      "tag": "wh",
      "label": "Week high",
-     "price": 7891.5,
+     "price": 7896.25,
      "group": "week",
      "note": "since 2026-10-05"
     },
@@ -270,8 +270,8 @@
     }
    ],
    "stats": {
-    "last_bar_utc": "2026-10-06T15:06:00+00:00",
-    "last_bar_age_min": 10.3,
+    "last_bar_utc": "2026-10-06T15:21:00+00:00",
+    "last_bar_age_min": 10.6,
     "market_state": "open",
     "profile_volume": 987559.0,
     "prior_day": "2026-10-05",
@@ -1569,20 +1569,28 @@
     {
      "t": "2026-10-06T15:00:00+00:00",
      "o": 7885.25,
-     "h": 7891.5,
+     "h": 7893.5,
      "l": 7885.0,
-     "c": 7889.75,
-     "v": 20002.0
+     "c": 7893.0,
+     "v": 39590.0
+    },
+    {
+     "t": "2026-10-06T15:15:00+00:00",
+     "o": 7893.0,
+     "h": 7896.25,
+     "l": 7892.25,
+     "c": 7896.0,
+     "v": 15301.0
     }
    ]
   },
   {
    "root": "NQ",
    "trading_day": "2026-10-06",
-   "as_of_utc": "2026-10-06T15:16:19.701340+00:00",
+   "as_of_utc": "2026-10-06T15:31:38.322599+00:00",
    "source": "yahoo",
    "delayed": true,
-   "last_price": 31601.75,
+   "last_price": 31605.5,
    "levels": [
     {
      "tag": "exp_hi",
@@ -1608,14 +1616,14 @@
     {
      "tag": "tdh",
      "label": "Today's RTH high",
-     "price": 31606.5,
+     "price": 31616.5,
      "group": "today",
      "note": "so far"
     },
     {
      "tag": "wh",
      "label": "Week high",
-     "price": 31606.5,
+     "price": 31616.5,
      "group": "week",
      "note": "since 2026-10-05"
     },
@@ -1747,8 +1755,8 @@
     }
    ],
    "stats": {
-    "last_bar_utc": "2026-10-06T15:06:00+00:00",
-    "last_bar_age_min": 10.3,
+    "last_bar_utc": "2026-10-06T15:21:00+00:00",
+    "last_bar_age_min": 10.6,
     "market_state": "open",
     "profile_volume": 319951.0,
     "prior_day": "2026-10-05",
@@ -3046,10 +3054,18 @@
     {
      "t": "2026-10-06T15:00:00+00:00",
      "o": 31583.75,
-     "h": 31606.5,
+     "h": 31615.0,
      "l": 31580.0,
-     "c": 31601.75,
-     "v": 6717.0
+     "c": 31611.75,
+     "v": 15206.0
+    },
+    {
+     "t": "2026-10-06T15:15:00+00:00",
+     "o": 31611.75,
+     "h": 31616.5,
+     "l": 31598.5,
+     "c": 31605.5,
+     "v": 4555.0
     }
    ]
   }
@@ -3062,7 +3078,7 @@
     "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQWVBPckNJZkt3THZTRndpeldOeTlTQWc3OHNhRGlwYjhReHo0Z0lZU0FXSkowNlpDU0pkQkZTZk1FRDZITnNoMDVNbXdNaklEZXB6LTJLc3g1M3EwTUc2LXN6UndoQ1VRSVpoaFY0Rm5BNWgzakFiSVgtekFRV1JUU3pUMVo4am1IU3pCVTY0U3BNXzgzdjUtNkZpZDFjenhWMGJYMDZoTl95TmluY2dDWEJ1c0hoTm90eUtVaw?oc=5",
     "source": "gnews_futures",
     "published_utc": "2026-10-06T10:27:23+00:00",
-    "score": 10.2,
+    "score": 10.15,
     "duplicates": 0
    },
    {
@@ -3071,16 +3087,16 @@
     "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOMXYzem9ZWWg3eFNESkN4V3NvSFBsT1JKaVdXaU5jTGZwREtmMXh3SGg3bVMzSk9mWUlUVUN2YlZyOS0xbE5NTk84UmRlWnBpdTd3M0dPTEduLUl6eDk5ZXBhNk03enRvZ0JESGg5aEtLVUlhSFA2Qy1UTlFQUENqUzZ5QWxnNXdaWjVJNTNrUVdtV0h6RDVmOVFuQmc5RjRscXczeTBKRFYwb2M4eVFF0gG0AUFVX3lxTE9aMVNCcGtGejZCX09xMDNBZXFVaEd4T3pod2lNSGxiMVlSdThpUjV2dktWZHU1MVlneUkzNHJ0UzNCQzNyVXRxV3ZGSWE4MlNyM1hqbzRINmdrSE5MWDNKYlFBeEZ2RVJRVy1lLWl2TGtjUWVLWVFXbXFKcFA5LXpaTWNsS2Vac1E2VGFBWjFzOUlTbXlKdTI5NDhsVFRKRkh4ZGVHWVRLT25hcU9saHRWaUpuSQ?oc=5",
     "source": "gnews_futures",
     "published_utc": "2026-10-06T11:54:15+00:00",
-    "score": 7.94,
+    "score": 7.9,
     "duplicates": 0
    },
    {
     "id": "b9bbe83bf1",
-    "title": "Federal Reserve aims to avoid 1980s-style inflation, Stuart Kaiser warns - Fox Business",
+    "title": "Federal Reserve aims to avoid 1980s-style inflation, Stuart Kaiser warns - foxbusiness.com",
     "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE00cHFPODNsQVNURWxWRDU4MWtOOTdoUkppMTh2LVVTZkdSZEYtY2xDSVpWdzRxWjVIUkJmX2tMY05MaDAyWWxzVU1haEZJWXE4UlVXbUQ1blYycDA?oc=5",
     "source": "gnews_fed",
     "published_utc": "2026-10-06T14:31:38+00:00",
-    "score": 7.88,
+    "score": 7.83,
     "duplicates": 1
    },
    {
@@ -3089,7 +3105,7 @@
     "link": "https://www.cnbc.com/2026/10/06/hong-kong-fed-fima-dollar-liquidity-china-moolenaar.html",
     "source": "cnbc_markets",
     "published_utc": "2026-10-06T13:47:49+00:00",
-    "score": 7.75,
+    "score": 7.71,
     "duplicates": 1
    },
    {
@@ -3098,7 +3114,7 @@
     "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQS1dBNE9wYkJ0bWpoRlZLSVNTUXotQUZJTmZYSUxheW44SGo4WjBNekdLWldPWDZWaUZRVjMwZmdTQjVDeHpqUUtkSU5WeXp0TElOa1Y2S09SU0VTQ056SDU4SEZiZzdmRGNsVkhVRXZSUnBMNXFaRjY5QnpkYTIyeWxydXJ3bnZqRW43RWEyWVdSNzJ5LXdBSkloYkdYUTg?oc=5",
     "source": "gnews_futures",
     "published_utc": "2026-10-06T13:41:32+00:00",
-    "score": 7.74,
+    "score": 7.69,
     "duplicates": 0
    },
    {
@@ -3107,16 +3123,16 @@
     "link": "https://www.cnbc.com/2026/10/06/trade-deficit-hits-105point6-billion-widest-since-just-before-trump-tariffs-enacted-last-year.html",
     "source": "cnbc_markets",
     "published_utc": "2026-10-06T14:53:41+00:00",
-    "score": 7.44,
+    "score": 7.39,
     "duplicates": 0
    },
    {
     "id": "a2d8eca599",
-    "title": "S&P 500 hits record high as Nvidia nears $6 trillion milestone - NBC News",
+    "title": "S&P 500 hits record high as Nvidia nears $6 trillion milestone - nbcnews.com",
     "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOc3hzcS00a3M2eTZZRUtOU0tMU2ZpNFN1ejYzRkt6X3NSVC1UN3I5RkJmRkduOFN0Uno3cXZjTEJITG1GeVB2eDMwMTYxMUV3Q0k2NlZlVE9ON3gyQTM2aHNqUDJPRFRnMkp2NmZiRVZlYnVxQV9yOGhIQVZYNjVVTHR4NA?oc=5",
     "source": "gnews_megacap",
     "published_utc": "2026-10-06T14:22:02+00:00",
-    "score": 7.35,
+    "score": 7.31,
     "duplicates": 0
    },
    {
@@ -3125,7 +3141,7 @@
     "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxOZlc0dmdKYkxVMzEwRDlOT0VvZEZNdi1qM256SXJkUl9zLWt2aGcxVUowYS1uU0MxTGtDUnl3R241SE1rWHFFY24tWmNjUU5JRzRSSUd1V1QxQ1NPdGczN2t0UTh4MVlrdTc3M0kzWmxtYlpJbW91MWJPc2tBajk1dXYzaVI5UHRtUzBMTVBtNUtPdE9hcEg0SzZCSXgtTVk3Y1EtZFREMG04LXl3ZlQ3dHd5ekNvbkZTWkFJVXpVTkdmNEtGaTZSTW53?oc=5",
     "source": "gnews_macro",
     "published_utc": "2026-10-06T14:22:00+00:00",
-    "score": 7.35,
+    "score": 7.31,
     "duplicates": 1
    },
    {
@@ -3134,7 +3150,7 @@
     "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOU1c1NmtIdGJrZ3RGSU56SElOVWQyY0hOU19mMzhEdlZPODVPVWM3S0pZeVRHRGI4YU0zN0w5U1Y1UHVDZU5Jc0tJS2tqZ2lXMVBReWNIOHBCSG5tN2wxbVo4MFI4VG4tWmRqeWpuMUk1ckdaUjFYN3QtcFd6U0E1S0FoRk1jWFJKQVlxcw?oc=5",
     "source": "gnews_macro",
     "published_utc": "2026-10-06T13:45:00+00:00",
-    "score": 7.25,
+    "score": 7.2,
     "duplicates": 0
    },
    {
@@ -3143,7 +3159,7 @@
     "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOTlRObEVRbUVwNDRhQWhFb1RDSWJCSmFqWkloemJFYlNwQmpPd0plZ1hYODhCaUhSVXA1cVNKelFBLUxPUXI5bnl5X2ljakh2b2NUbS1aMHhSZ3BwYXVscnZEMmEtUWVWVTR6RVhSdVlSUlloV05CV0FqUXVOMjZsWXFOcFVEeXVXaXdsNlRPWEhMaUVDMXdN?oc=5",
     "source": "gnews_macro",
     "published_utc": "2026-10-06T13:06:11+00:00",
-    "score": 7.14,
+    "score": 7.1,
     "duplicates": 1
    },
    {
@@ -3152,26 +3168,26 @@
     "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTFBzck5RWlZFbXZUcFl5SVhsR0dkdzJ5TnREYVNuc1hzRi1iblFwTFBPTjU2Zms5Q1dpUVRVeTUwTkNheTFILXZ6dmV0ZkZfZTBmQ3kxaUFmUEdueV9TUDhkdFh3OVJmT01tNnJ3?oc=5",
     "source": "gnews_macro",
     "published_utc": "2026-10-06T14:02:16+00:00",
-    "score": 6.79,
+    "score": 6.75,
     "duplicates": 0
    },
    {
-    "id": "acec568e24",
-    "title": "US markets today: Dow, S&P 500, Nasdaq futures indicate gap-up open; AMD, Alphabet, Constellation Energy, others to watch - Upstox",
-    "link": "https://news.google.com/rss/articles/CBMijAJBVV95cUxNMXlidUU0QmYwRWpSQnJlMlFmR2NHNUNYRGQ4RF9oRkJVR3B5OUw0Znlhcnc5Yzh3WXdsNXpzQktsZEtISUV4WldYbXc1a2hOVTRwVmpweTZVcDRzUnJyU2ZsaHZ4Ukg5ZHNyQ182TWZhQUNSajQ5SmIzN3RqbkdwT2FXZ294SGhBRkI3cEU3X2VseHIteFFDbmhOSnA4WFhpb2l3WVU5a0syaUlmcXNaRGgwUlpTWkhSaFh2OUtERmg4RXhEd19tbzFfdFF0bWZFaUZOS0lxcVFNNDVMeV9wZ1RvOXdYMTJjRGpvSzhRc2FOZWpOOFVRU0xiTW5uajFoejFONkVPNVMwbEc4?oc=5",
-    "source": "gnews_futures",
-    "published_utc": "2026-10-06T12:42:32+00:00",
-    "score": 6.57,
+    "id": "283e8c967c",
+    "title": "S&P 500 earnings growth expected at 27%, with Micron and Nvidia doing the heavy lifting - Crypto Briefing",
+    "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE55UGdLLUR4cGgxbFVtYUU0eUU5VFlibl9IRXV6S3JyNnI0bnVIQ2xkWWdxMm01U050cUhNSkp6RjE5bVl6ZTNyYkpnS05pX204c0J2ci11a3dUc2pheENSWUNyQnlaX0hkelhj?oc=5",
+    "source": "gnews_megacap",
+    "published_utc": "2026-10-06T13:15:10+00:00",
+    "score": 6.62,
     "duplicates": 0
    }
   ],
   "summary": {
    "lines": [
-    "Futures gapped up and Nasdaq/S&P 500 hit record highs as Treasury yields and oil pulled back, with Nvidia nearing a $6 trillion milestone, setting the tone for the open [d8d5767533][fc8b104df1][a8548f0b4e][a2d8eca599][9c0b5b125e][fb95032a14][9c6a2c17b5][acec568e24].",
-    "Trade deficit widened to $105.6 billion, up 13.7% from July and above the $102 billion consensus estimate, a data point that could factor into Fed commentary [6f34844c56].",
-    "Fed speak is on the docket, with commentary framed around avoiding 1980s-style inflation and revised inflation data not changing the Fed's job, relevant ahead of the 13:00 ET 3-Year note auction [d8d5767533][b9bbe83bf1][21d7885cef].",
-    "A House China committee chair is pushing the Fed to review Hong Kong's access to a dollar-liquidity facility, a geopolitical/regulatory headline to watch for spillover [ae995251af].",
-    "AMD, Alphabet, and Constellation Energy are flagged as stocks to watch at today's open [acec568e24]."
+    "Futures and cash indices are at record highs with Treasury yields and oil both easing, the dominant tape driver into the open [d8d5767533][fc8b104df1][a8548f0b4e][9c0b5b125e][a2d8eca599][fb95032a14][9c6a2c17b5].",
+    "Nvidia nearing a $6 trillion valuation and S&P 500 earnings growth pegged at 27%, led by Micron and Nvidia, keep megacap tech positioning in focus [a2d8eca599][283e8c967c].",
+    "Fed speak is on the calendar today, with commentary warning the Fed must avoid 1980s-style inflation and separate analysis saying revised inflation data doesn't change the Fed's job, both relevant ahead of the 13:00 ET 3-Year note auction [d8d5767533][b9bbe83bf1][21d7885cef].",
+    "The trade deficit widened to $105.6 billion, a 13.7% jump from July and above the $102 billion consensus estimate, a data point for the macro/yields backdrop [6f34844c56].",
+    "A House China committee chair is pressing the Fed to review Hong Kong's access to a dollar-liquidity facility, a geopolitical headline to watch but not yet a direct market mover [ae995251af]."
    ],
    "backend": "anthropic",
    "model": "claude-sonnet-5",
