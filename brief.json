@@ -1,7 +1,7 @@
 {
  "meta": {
-  "generated_at_utc": "2026-10-06T15:46:57.193373+00:00",
-  "generated_at_local": "Tue 06 Oct 2026 12:46 ADT",
+  "generated_at_utc": "2026-10-06T16:02:15.749793+00:00",
+  "generated_at_local": "Tue 06 Oct 2026 13:02 ADT",
   "trading_day": "2026-10-06",
   "display_tz": "America/Halifax",
   "version": "0.1.0",
@@ -91,7 +91,7 @@
    "time_utc": "2026-10-07T17:00:00+00:00",
    "local": "14:00 ADT",
    "et": "13:00 ET",
-   "in": "25h 13m",
+   "in": "24h 57m",
    "consensus": null,
    "prior": null
   },
@@ -102,10 +102,10 @@
   {
    "root": "ES",
    "trading_day": "2026-10-06",
-   "as_of_utc": "2026-10-06T15:46:57.193373+00:00",
+   "as_of_utc": "2026-10-06T16:02:15.749793+00:00",
    "source": "yahoo",
    "delayed": true,
-   "last_price": 7892.25,
+   "last_price": 7892.75,
    "levels": [
     {
      "tag": "exp_hi",
@@ -270,8 +270,8 @@
     }
    ],
    "stats": {
-    "last_bar_utc": "2026-10-06T15:36:00+00:00",
-    "last_bar_age_min": 11.0,
+    "last_bar_utc": "2026-10-06T15:52:00+00:00",
+    "last_bar_age_min": 10.3,
     "market_state": "open",
     "profile_volume": 987559.0,
     "prior_day": "2026-10-05",
@@ -1585,20 +1585,28 @@
     {
      "t": "2026-10-06T15:30:00+00:00",
      "o": 7894.5,
-     "h": 7895.0,
+     "h": 7896.25,
      "l": 7891.0,
-     "c": 7892.25,
-     "v": 20150.0
+     "c": 7892.75,
+     "v": 40432.0
+    },
+    {
+     "t": "2026-10-06T15:45:00+00:00",
+     "o": 7893.0,
+     "h": 7894.25,
+     "l": 7889.75,
+     "c": 7892.75,
+     "v": 13760.0
     }
    ]
   },
   {
    "root": "NQ",
    "trading_day": "2026-10-06",
-   "as_of_utc": "2026-10-06T15:46:57.193373+00:00",
+   "as_of_utc": "2026-10-06T16:02:15.749793+00:00",
    "source": "yahoo",
    "delayed": true,
-   "last_price": 31576.5,
+   "last_price": 31584.25,
    "levels": [
     {
      "tag": "exp_hi",
@@ -1763,8 +1771,8 @@
     }
    ],
    "stats": {
-    "last_bar_utc": "2026-10-06T15:36:00+00:00",
-    "last_bar_age_min": 11.0,
+    "last_bar_utc": "2026-10-06T15:52:00+00:00",
+    "last_bar_age_min": 10.3,
     "market_state": "open",
     "profile_volume": 319951.0,
     "prior_day": "2026-10-05",
@@ -3078,10 +3086,18 @@
     {
      "t": "2026-10-06T15:30:00+00:00",
      "o": 31591.5,
-     "h": 31593.25,
+     "h": 31593.5,
      "l": 31574.5,
-     "c": 31576.5,
-     "v": 5128.0
+     "c": 31584.5,
+     "v": 10914.0
+    },
+    {
+     "t": "2026-10-06T15:45:00+00:00",
+     "o": 31584.5,
+     "h": 31589.25,
+     "l": 31570.0,
+     "c": 31584.25,
+     "v": 4025.0
     }
    ]
   }
@@ -3094,7 +3110,7 @@
     "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQWVBPckNJZkt3THZTRndpeldOeTlTQWc3OHNhRGlwYjhReHo0Z0lZU0FXSkowNlpDU0pkQkZTZk1FRDZITnNoMDVNbXdNaklEZXB6LTJLc3g1M3EwTUc2LXN6UndoQ1VRSVpoaFY0Rm5BNWgzakFiSVgtekFRV1JUU3pUMVo4am1IU3pCVTY0U3BNXzgzdjUtNkZpZDFjenhWMGJYMDZoTl95TmluY2dDWEJ1c0hoTm90eUtVaw?oc=5",
     "source": "gnews_futures",
     "published_utc": "2026-10-06T10:27:23+00:00",
-    "score": 10.11,
+    "score": 10.07,
     "duplicates": 0
    },
    {
@@ -3103,7 +3119,7 @@
     "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOMXYzem9ZWWg3eFNESkN4V3NvSFBsT1JKaVdXaU5jTGZwREtmMXh3SGg3bVMzSk9mWUlUVUN2YlZyOS0xbE5NTk84UmRlWnBpdTd3M0dPTEduLUl6eDk5ZXBhNk03enRvZ0JESGg5aEtLVUlhSFA2Qy1UTlFQUENqUzZ5QWxnNXdaWjVJNTNrUVdtV0h6RDVmOVFuQmc5RjRscXczeTBKRFYwb2M4eVFF0gG0AUFVX3lxTE9aMVNCcGtGejZCX09xMDNBZXFVaEd4T3pod2lNSGxiMVlSdThpUjV2dktWZHU1MVlneUkzNHJ0UzNCQzNyVXRxV3ZGSWE4MlNyM1hqbzRINmdrSE5MWDNKYlFBeEZ2RVJRVy1lLWl2TGtjUWVLWVFXbXFKcFA5LXpaTWNsS2Vac1E2VGFBWjFzOUlTbXlKdTI5NDhsVFRKRkh4ZGVHWVRLT25hcU9saHRWaUpuSQ?oc=5",
     "source": "gnews_futures",
     "published_utc": "2026-10-06T11:54:15+00:00",
-    "score": 7.85,
+    "score": 7.81,
     "duplicates": 0
    },
    {
@@ -3112,7 +3128,7 @@
     "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE00cHFPODNsQVNURWxWRDU4MWtOOTdoUkppMTh2LVVTZkdSZEYtY2xDSVpWdzRxWjVIUkJmX2tMY05MaDAyWWxzVU1haEZJWXE4UlVXbUQ1blYycDA?oc=5",
     "source": "gnews_fed",
     "published_utc": "2026-10-06T14:31:38+00:00",
-    "score": 7.79,
+    "score": 7.75,
     "duplicates": 1
    },
    {
@@ -3121,7 +3137,7 @@
     "link": "https://www.cnbc.com/2026/10/06/hong-kong-fed-fima-dollar-liquidity-china-moolenaar.html",
     "source": "cnbc_markets",
     "published_utc": "2026-10-06T13:47:49+00:00",
-    "score": 7.67,
+    "score": 7.63,
     "duplicates": 1
    },
    {
@@ -3130,7 +3146,16 @@
     "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQS1dBNE9wYkJ0bWpoRlZLSVNTUXotQUZJTmZYSUxheW44SGo4WjBNekdLWldPWDZWaUZRVjMwZmdTQjVDeHpqUUtkSU5WeXp0TElOa1Y2S09SU0VTQ056SDU4SEZiZzdmRGNsVkhVRXZSUnBMNXFaRjY5QnpkYTIyeWxydXJ3bnZqRW43RWEyWVdSNzJ5LXdBSkloYkdYUTg?oc=5",
     "source": "gnews_futures",
     "published_utc": "2026-10-06T13:41:32+00:00",
-    "score": 7.65,
+    "score": 7.61,
+    "duplicates": 0
+   },
+   {
+    "id": "e5d0baa3cd",
+    "title": "These 5 chip stocks are cheaper than the S&P 500 — and offer faster growth",
+    "link": "https://www.marketwatch.com/story/these-5-chip-stocks-are-cheaper-than-the-s-p-500-and-offer-faster-growth-f8ab4386?mod=mw_rss_topstories",
+    "source": "marketwatch_top",
+    "published_utc": "2026-10-06T15:57:00+00:00",
+    "score": 7.49,
     "duplicates": 0
    },
    {
@@ -3138,8 +3163,8 @@
     "title": "Trade deficit hits $105.6 billion, widest since just before Trump tariffs enacted last year",
     "link": "https://www.cnbc.com/2026/10/06/trade-deficit-hits-105point6-billion-widest-since-just-before-trump-tariffs-enacted-last-year.html",
     "source": "cnbc_markets",
-    "published_utc": "2026-10-06T14:53:41+00:00",
-    "score": 7.35,
+    "published_utc": "2026-10-06T15:52:22+00:00",
+    "score": 7.47,
     "duplicates": 0
    },
    {
@@ -3148,7 +3173,7 @@
     "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOc3hzcS00a3M2eTZZRUtOU0tMU2ZpNFN1ejYzRkt6X3NSVC1UN3I5RkJmRkduOFN0Uno3cXZjTEJITG1GeVB2eDMwMTYxMUV3Q0k2NlZlVE9ON3gyQTM2aHNqUDJPRFRnMkp2NmZiRVZlYnVxQV9yOGhIQVZYNjVVTHR4NA?oc=5",
     "source": "gnews_megacap",
     "published_utc": "2026-10-06T14:22:02+00:00",
-    "score": 7.26,
+    "score": 7.22,
     "duplicates": 0
    },
    {
@@ -3157,7 +3182,7 @@
     "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxOZlc0dmdKYkxVMzEwRDlOT0VvZEZNdi1qM256SXJkUl9zLWt2aGcxVUowYS1uU0MxTGtDUnl3R241SE1rWHFFY24tWmNjUU5JRzRSSUd1V1QxQ1NPdGczN2t0UTh4MVlrdTc3M0kzWmxtYlpJbW91MWJPc2tBajk1dXYzaVI5UHRtUzBMTVBtNUtPdE9hcEg0SzZCSXgtTVk3Y1EtZFREMG04LXl3ZlQ3dHd5ekNvbkZTWkFJVXpVTkdmNEtGaTZSTW53?oc=5",
     "source": "gnews_macro",
     "published_utc": "2026-10-06T14:22:00+00:00",
-    "score": 7.26,
+    "score": 7.22,
     "duplicates": 1
    },
    {
@@ -3166,7 +3191,7 @@
     "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOU1c1NmtIdGJrZ3RGSU56SElOVWQyY0hOU19mMzhEdlZPODVPVWM3S0pZeVRHRGI4YU0zN0w5U1Y1UHVDZU5Jc0tJS2tqZ2lXMVBReWNIOHBCSG5tN2wxbVo4MFI4VG4tWmRqeWpuMUk1ckdaUjFYN3QtcFd6U0E1S0FoRk1jWFJKQVlxcw?oc=5",
     "source": "gnews_macro",
     "published_utc": "2026-10-06T13:45:00+00:00",
-    "score": 7.16,
+    "score": 7.12,
     "duplicates": 0
    },
    {
@@ -3175,7 +3200,7 @@
     "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOTlRObEVRbUVwNDRhQWhFb1RDSWJCSmFqWkloemJFYlNwQmpPd0plZ1hYODhCaUhSVXA1cVNKelFBLUxPUXI5bnl5X2ljakh2b2NUbS1aMHhSZ3BwYXVscnZEMmEtUWVWVTR6RVhSdVlSUlloV05CV0FqUXVOMjZsWXFOcFVEeXVXaXdsNlRPWEhMaUVDMXdN?oc=5",
     "source": "gnews_macro",
     "published_utc": "2026-10-06T13:06:11+00:00",
-    "score": 7.05,
+    "score": 7.01,
     "duplicates": 1
    },
    {
@@ -3184,25 +3209,17 @@
     "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTFBzck5RWlZFbXZUcFl5SVhsR0dkdzJ5TnREYVNuc1hzRi1iblFwTFBPTjU2Zms5Q1dpUVRVeTUwTkNheTFILXZ6dmV0ZkZfZTBmQ3kxaUFmUEdueV9TUDhkdFh3OVJmT01tNnJ3?oc=5",
     "source": "gnews_macro",
     "published_utc": "2026-10-06T14:02:16+00:00",
-    "score": 6.71,
-    "duplicates": 0
-   },
-   {
-    "id": "bbe2dab767",
-    "title": "Russian gold floods Hong Kong as Western sanctions redraw bullion trade",
-    "link": "https://www.cnbc.com/2026/10/06/russia-gold-hong-kong-china-western-sanctions.html",
-    "source": "cnbc_markets",
-    "published_utc": "2026-10-05T23:14:39+00:00",
-    "score": 6.5,
+    "score": 6.67,
     "duplicates": 0
    }
   ],
   "summary": {
    "lines": [
-    "Stock futures extend gains as Treasury yields and oil fall, with the S&P 500 and Nasdaq hitting fresh record highs and Nvidia approaching a $6 trillion market cap. [d8d5767533][fc8b104df1][a8548f0b4e][a2d8eca599][9c0b5b125e][fb95032a14][9c6a2c17b5]",
-    "Fed speakers are on the calendar today, with commentary circulating on inflation risk and the Fed's policy path, relevant ahead of the 13:00 ET 3-Year note auction. [d8d5767533][b9bbe83bf1][21d7885cef]",
-    "The U.S. trade deficit widened to $105.6 billion in August, a 13.7% jump from July and above the $102 billion consensus estimate. [6f34844c56]",
-    "A House China committee chair is pressing the Fed to review Hong Kong's access to a dollar-liquidity facility amid yuan-internationalization efforts. [ae995251af]"
+    "Futures extended gains and the S&P 500/Nasdaq set fresh record highs as Treasury yields and oil prices eased, a backdrop that keeps dip-buying momentum in play ahead of the 13:00 ET 3-Year note auction. [d8d5767533][fc8b104df1][a8548f0b4e][a2d8eca599][9c0b5b125e][fb95032a14][9c6a2c17b5]",
+    "Nvidia's approach to a $6 trillion valuation is helping drive the S&P 500 to records, keeping mega-cap tech as the key index driver for MNQ/MES. [a2d8eca599]",
+    "Fed officials are on the wires today, with commentary framing policy around avoiding 1980s-style inflation, a headline risk for rate-sensitive futures into the auction. [b9bbe83bf1][21d7885cef]",
+    "The August trade deficit widened to $105.6 billion, a 13.7% jump from July and above the $102 billion consensus estimate, adding a data point for rate/dollar-sensitive moves. [6f34844c56]",
+    "A House China committee chair is pressing the Fed to review Hong Kong's access to a dollar-liquidity facility, a geopolitical headline with potential dollar/rates spillover. [ae995251af]"
    ],
    "backend": "anthropic",
    "model": "claude-sonnet-5",
