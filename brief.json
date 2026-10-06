@@ -1,7 +1,7 @@
 {
  "meta": {
-  "generated_at_utc": "2026-10-06T11:11:03.477389+00:00",
-  "generated_at_local": "Tue 06 Oct 2026 08:11 ADT",
+  "generated_at_utc": "2026-10-06T11:26:23.101372+00:00",
+  "generated_at_local": "Tue 06 Oct 2026 08:26 ADT",
   "trading_day": "2026-10-06",
   "display_tz": "America/Halifax",
   "version": "0.1.0",
@@ -91,7 +91,7 @@
    "time_utc": "2026-10-07T17:00:00+00:00",
    "local": "14:00 ADT",
    "et": "13:00 ET",
-   "in": "29h 48m",
+   "in": "29h 33m",
    "consensus": null,
    "prior": null
   },
@@ -102,10 +102,10 @@
   {
    "root": "ES",
    "trading_day": "2026-10-06",
-   "as_of_utc": "2026-10-06T11:11:03.477389+00:00",
+   "as_of_utc": "2026-10-06T11:26:23.101372+00:00",
    "source": "yahoo",
    "delayed": true,
-   "last_price": 7848.0,
+   "last_price": 7855.75,
    "levels": [
     {
      "tag": "exp_hi",
@@ -115,22 +115,36 @@
      "note": "ATR over 14 days"
     },
     {
+     "tag": "rn_major_up",
+     "label": "Round 50 above",
+     "price": 7900.0,
+     "group": "round",
+     "note": ""
+    },
+    {
+     "tag": "rn_minor_up",
+     "label": "Round 25 above",
+     "price": 7875.0,
+     "group": "round",
+     "note": ""
+    },
+    {
      "tag": "onh",
      "label": "Overnight high",
-     "price": 7850.25,
+     "price": 7857.75,
      "group": "overnight",
-     "note": "since 18:00 ET, 771 bars"
+     "note": "since 18:00 ET, 787 bars"
     },
     {
      "tag": "wh",
      "label": "Week high",
-     "price": 7850.25,
+     "price": 7857.75,
      "group": "week",
      "note": "since 2026-10-05"
     },
     {
-     "tag": "rn_major_up",
-     "label": "Round 50 above",
+     "tag": "rn_major_dn",
+     "label": "Round 50 below",
      "price": 7850.0,
      "group": "round",
      "note": ""
@@ -152,7 +166,7 @@
     {
      "tag": "onvwap",
      "label": "Overnight VWAP",
-     "price": 7839.92,
+     "price": 7840.52,
      "group": "overnight",
      "note": "typical-price VWAP"
     },
@@ -168,13 +182,6 @@
      "label": "Overnight low",
      "price": 7829.0,
      "group": "overnight",
-     "note": ""
-    },
-    {
-     "tag": "rn_minor_dn",
-     "label": "Round 25 below",
-     "price": 7825.0,
-     "group": "round",
      "note": ""
     },
     {
@@ -197,13 +204,6 @@
      "price": 7807.25,
      "group": "profile",
      "note": "70 % value area"
-    },
-    {
-     "tag": "rn_major_dn",
-     "label": "Round 50 below",
-     "price": 7800.0,
-     "group": "round",
-     "note": ""
     },
     {
      "tag": "pdo",
@@ -249,14 +249,14 @@
     }
    ],
    "stats": {
-    "last_bar_utc": "2026-10-06T11:00:00+00:00",
-    "last_bar_age_min": 11.1,
+    "last_bar_utc": "2026-10-06T11:16:00+00:00",
+    "last_bar_age_min": 10.4,
     "market_state": "open",
     "profile_volume": 987559.0,
     "prior_day": "2026-10-05",
     "prior_day_rth_range": 69.25,
-    "overnight_range": 21.25,
-    "gap_vs_prior_close": 16.75,
+    "overnight_range": 28.75,
+    "gap_vs_prior_close": 24.5,
     "gap_basis": "last price (pre-market)",
     "atr14": 86.26,
     "atr_days": 14,
@@ -1420,20 +1420,28 @@
     {
      "t": "2026-10-06T11:00:00+00:00",
      "o": 7848.25,
-     "h": 7849.0,
+     "h": 7854.5,
      "l": 7847.75,
-     "c": 7848.0,
-     "v": 0.0
+     "c": 7854.5,
+     "v": 5110.0
+    },
+    {
+     "t": "2026-10-06T11:15:00+00:00",
+     "o": 7854.5,
+     "h": 7857.75,
+     "l": 7854.5,
+     "c": 7855.75,
+     "v": 1372.0
     }
    ]
   },
   {
    "root": "NQ",
    "trading_day": "2026-10-06",
-   "as_of_utc": "2026-10-06T11:11:03.477389+00:00",
+   "as_of_utc": "2026-10-06T11:26:23.101372+00:00",
    "source": "yahoo",
    "delayed": true,
-   "last_price": 31441.5,
+   "last_price": 31486.0,
    "levels": [
     {
      "tag": "exp_hi",
@@ -1443,6 +1451,20 @@
      "note": "ATR over 14 days"
     },
     {
+     "tag": "onh",
+     "label": "Overnight high",
+     "price": 31509.5,
+     "group": "overnight",
+     "note": "since 18:00 ET, 787 bars"
+    },
+    {
+     "tag": "wh",
+     "label": "Week high",
+     "price": 31509.5,
+     "group": "week",
+     "note": "since 2026-10-05"
+    },
+    {
      "tag": "rn_major_up",
      "label": "Round 100 above",
      "price": 31500.0,
@@ -1450,22 +1472,8 @@
      "note": ""
     },
     {
-     "tag": "onh",
-     "label": "Overnight high",
-     "price": 31462.75,
-     "group": "overnight",
-     "note": "since 18:00 ET, 771 bars"
-    },
-    {
-     "tag": "wh",
-     "label": "Week high",
-     "price": 31462.75,
-     "group": "week",
-     "note": "since 2026-10-05"
-    },
-    {
-     "tag": "rn_minor_up",
-     "label": "Round 50 above",
+     "tag": "rn_minor_dn",
+     "label": "Round 50 below",
      "price": 31450.0,
      "group": "round",
      "note": ""
@@ -1480,7 +1488,7 @@
     {
      "tag": "onvwap",
      "label": "Overnight VWAP",
-     "price": 31375.12,
+     "price": 31380.17,
      "group": "overnight",
      "note": "typical-price VWAP"
     },
@@ -1571,20 +1579,20 @@
     {
      "tag": "pwl",
      "label": "Prior-week low",
-     "price": 30512.25,
+     "price": 30529.25,
      "group": "week",
      "note": "3 session(s) of data — PARTIAL"
     }
    ],
    "stats": {
-    "last_bar_utc": "2026-10-06T11:00:00+00:00",
-    "last_bar_age_min": 11.1,
+    "last_bar_utc": "2026-10-06T11:16:00+00:00",
+    "last_bar_age_min": 10.4,
     "market_state": "open",
     "profile_volume": 319951.0,
     "prior_day": "2026-10-05",
     "prior_day_rth_range": 326.75,
-    "overnight_range": 153.5,
-    "gap_vs_prior_close": 103.0,
+    "overnight_range": 200.25,
+    "gap_vs_prior_close": 147.5,
     "gap_basis": "last price (pre-market)",
     "atr14": 506.08,
     "atr_days": 14,
@@ -2748,10 +2756,18 @@
     {
      "t": "2026-10-06T11:00:00+00:00",
      "o": 31443.5,
-     "h": 31450.0,
+     "h": 31483.75,
      "l": 31440.25,
-     "c": 31441.5,
-     "v": 187.0
+     "c": 31482.0,
+     "v": 2892.0
+    },
+    {
+     "t": "2026-10-06T11:15:00+00:00",
+     "o": 31482.5,
+     "h": 31509.5,
+     "l": 31482.0,
+     "c": 31486.0,
+     "v": 1202.0
     }
    ]
   }
@@ -2759,12 +2775,21 @@
  "news": {
   "headlines": [
    {
+    "id": "793603c413",
+    "title": "Stock futures rise after Nasdaq hits new record high - CNBC",
+    "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPaG5fNThzbEw1SklMbTkwZzlYUVhZcnpPQkZzSGRZYm9haWltaEJ0MW9BU1d5cWNSR0F1MjAzOHNaQndSM3p1WG10cURvMmRHYUVDT3BhZERFNE9DWE05V3lsUGhzN3NpY0x5RVAyQjBRUkFSQ0xHX3RSUVNPMEpVdzhIalRhdjJNUm1tZzE1SUQzVmcybHVTbkU1QQ?oc=5",
+    "source": "gnews_futures",
+    "published_utc": "2026-10-06T11:03:45+00:00",
+    "score": 7.94,
+    "duplicates": 3
+   },
+   {
     "id": "ae995251af",
     "title": "House China committee chair urges Fed to review Hong Kong’s access to dollar lifeline",
     "link": "https://www.cnbc.com/2026/10/06/hong-kong-fed-fima-dollar-liquidity-china-moolenaar.html",
     "source": "cnbc_markets",
     "published_utc": "2026-10-06T09:58:14+00:00",
-    "score": 7.8,
+    "score": 7.76,
     "duplicates": 1
    },
    {
@@ -2773,17 +2798,8 @@
     "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE90TkNNVHNXcHdNUUtXSElrMGlfRE1Xejk5ZkVSVHY4aDU1aDh3cVQwQ3VTamlOMVB4YllsTEVyejVkX01DM1BnZGFNUzA4eHV2d2ppZXF6MDBiOFNuSnVlbGh4cFFjTjQ?oc=5",
     "source": "gnews_macro",
     "published_utc": "2026-10-06T08:48:45+00:00",
-    "score": 7.1,
+    "score": 7.06,
     "duplicates": 0
-   },
-   {
-    "id": "58006aa26c",
-    "title": "Stock futures rise after Nasdaq hits record high (SPX:) - Seeking Alpha",
-    "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNUGhSZVQzaXFoTDhnU2pIdVlIeGlpeFk0cDJURG0zUGdLZWpPTTJQV1g1QndDNV81bEt6OEV2NnFudENMdlJNRXFnLU5fQWtGeklUTkVqRnE1WU9XN28xQ3E1SUh0eUphOVM3MlhkRTBfOTl5eU9semFVOTNPaUhLWXljR04yTWR5?oc=5",
-    "source": "gnews_futures",
-    "published_utc": "2026-10-06T08:30:23+00:00",
-    "score": 7.05,
-    "duplicates": 2
    },
    {
     "id": "2caae835f3",
@@ -2791,7 +2807,7 @@
     "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE5JN3hlTGd4VlZhb0g2Y1AzdHJ3ZVZYOHJ3UDI3X1NpekdCemxHTlpsbVl2NUxLTmdUU2dmTFB2QlFWQmJXN2syaVh3OHdMR294SzRUMUhzRktsbk50UG9JMks1dWZqQldIYmllQUpyWjhHRFZERVVhVtIBfkFVX3lxTFBiS2VYTXRVaXVCQXUzd0VTNXZSYXQxRWl5V18xSXVlZVBXeEdjMkIwWGloZlVKalh5SjU2RmF3dGxfNEpzd05SMjczOXNmQTFZTGloaUdOdzAxMVRuWXc1ME9mb0RCYThITTZrQnNKM3NuQ1NKUDBsY1lEVU1PUQ?oc=5",
     "source": "gnews_fed",
     "published_utc": "2026-10-06T07:05:14+00:00",
-    "score": 6.82,
+    "score": 6.77,
     "duplicates": 1
    },
    {
@@ -2800,7 +2816,7 @@
     "link": "https://www.cnbc.com/2026/10/06/russia-gold-hong-kong-china-western-sanctions.html",
     "source": "cnbc_markets",
     "published_utc": "2026-10-05T23:14:39+00:00",
-    "score": 6.51,
+    "score": 6.5,
     "duplicates": 0
    },
    {
@@ -2818,7 +2834,7 @@
     "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOT0pNVmEwN01jV2d3ZnVqaGtlaW50U0pDNUdMb0pKYTdXQjQ4ZmRNX2MwMjZSQVROU2U1aDJhSGxIWnBSTVRNRmk2ZDg2MWtqWUlxNlJjT1phTGUzOUZiemJqNHQwX2Vta1NqczNWMGtLVFRxZVM1TWxqU0dFYUQ5SndTWDZGd2dzS2w1VmM4RUo2dWYxYXEzcTZn?oc=5",
     "source": "gnews_futures",
     "published_utc": "2026-10-06T02:03:00+00:00",
-    "score": 6.48,
+    "score": 6.44,
     "duplicates": 0
    },
    {
@@ -2827,7 +2843,7 @@
     "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxOcmc0UzVuZ3pwR0xQTy1oek56blV5eGxKZjNvb3M5YmtOUjB3Z1BWWGxSSUFVakE2c0F0SjJjRFZubGwzdHJRYTlSeUk4QjFwR2wtYm1Qa0NZY280MDJRUDYySDRJbUZKRGVZb21DcC1aTGFoczVpaGFOdDN3SUo2MlNCNG5ZSGtsWHR2REtvNGRDT2ZETVNldjZGMkltX2NyWUo0Z1JiZEtjRlA1ZHRkUHhyQTB3V0RHalZMOHR6TGVSZ1BNd190VE5R?oc=5",
     "source": "gnews_futures",
     "published_utc": "2026-10-06T01:35:50+00:00",
-    "score": 6.4,
+    "score": 6.36,
     "duplicates": 0
    },
    {
@@ -2836,7 +2852,7 @@
     "link": "https://news.google.com/rss/articles/CBMi_wFBVV95cUxNVjEwYTlfUHNDX2hDc2p1OGQzb2JuTXB0X1c1WXphUy1IWjJ3S0lvUXozMkw5Sk5SYmpxRV84eFNmMjNXR3dCdE9TM1F0eExGaW1sdmwxZWw1MkNTX3VSdFNjd18ybzFmWVZ4RVZuZmFUZlFIa2QzOXBWRVV4bm5iT0tyU2FQdEFVQUt2WE4tRnZXYkdZVXBvQ0cxVXd4N1ZlbjduUEt2Uy1xYjVrUXhOMkJRMWlpM0Ywc3VmWHNQZGlOQXdseFM1X2lUOEFydjhhZUFGNUZYVmZtWlYxdktSa0luVEw0d09hUHdLQXdsbHhWdnE4c3cyRnE5TGVSVHc?oc=5",
     "source": "gnews_fed",
     "published_utc": "2026-10-06T00:45:00+00:00",
-    "score": 6.26,
+    "score": 6.22,
     "duplicates": 1
    },
    {
@@ -2845,7 +2861,7 @@
     "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNaXppa0MzLXJwWC1KdU4zVGFleF9aU0FZVm94YVBpZGZKNVBYRktOeEtTU2F1cjQtZVl2em1mRloyaVZnMk9sU1NINm8zZDJjWlM0TG1FVjUtb3VQbnlEcDlycDBJRXJUVU9rZWp3MUFMMHpIYmFhendNalVnbzNGTlJIb0NDclNycjR5S2lybl93TjhSX2JfRUM5UnVFX0EzSjJRRnRPbm9CNEpsTkdyVk1kQXFHSU5famZsUXlWN3lpQWZ2UUE?oc=5",
     "source": "gnews_fed",
     "published_utc": "2026-10-06T08:59:54+00:00",
-    "score": 6.14,
+    "score": 6.09,
     "duplicates": 0
    },
    {
@@ -2869,8 +2885,11 @@
   ],
   "summary": {
    "lines": [
-    "FOMC minutes are due later today, keeping focus on rate-path signals as yields fell and one investor said inflation could still force a hike this month [2caae835f3] [f4d1a07c25] [b2c3b92bc4] [0d569ed627].",
-    "Nasdaq futures sit near record levels after reduced Fed-hike bets, with retreating yields and easing oil cited as support [58006aa26c] [55dab0807e] [ba8a6211ba]."
+    "FOMC minutes are due today and investors are repositioning, with one investor flagging a possible rate hike this month on inflation concerns while Treasury yields fell ahead of the release [2caae835f3][f4d1a07c25][b2c3b92bc4][0d569ed627].",
+    "Nasdaq futures are at/near record highs, with multiple wires citing reduced Fed hike bets and easing yields and oil as supportive factors into the open [793603c413][55dab0807e][ba8a6211ba].",
+    "The 13:00 ET 3-Year note auction follows the FOMC minutes release, keeping rate-sensitive flows in focus through the session [2caae835f3].",
+    "Gold bounced off a two-month low as the dollar rally paused ahead of the FOMC minutes [2ba05603b0].",
+    "A House China committee chair is pushing the Fed to review Hong Kong's access to a dollar-liquidity facility, adding a geopolitical/dollar-policy headline to watch [ae995251af]."
    ],
    "backend": "anthropic",
    "model": "claude-sonnet-5",
