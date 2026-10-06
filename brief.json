@@ -1,7 +1,7 @@
 {
  "meta": {
-  "generated_at_utc": "2026-10-06T10:40:25.556965+00:00",
-  "generated_at_local": "Tue 06 Oct 2026 07:40 ADT",
+  "generated_at_utc": "2026-10-06T10:55:43.691376+00:00",
+  "generated_at_local": "Tue 06 Oct 2026 07:55 ADT",
   "trading_day": "2026-10-06",
   "display_tz": "America/Halifax",
   "version": "0.1.0",
@@ -91,7 +91,7 @@
    "time_utc": "2026-10-07T17:00:00+00:00",
    "local": "14:00 ADT",
    "et": "13:00 ET",
-   "in": "30h 19m",
+   "in": "30h 04m",
    "consensus": null,
    "prior": null
   },
@@ -102,10 +102,10 @@
   {
    "root": "ES",
    "trading_day": "2026-10-06",
-   "as_of_utc": "2026-10-06T10:40:25.556965+00:00",
+   "as_of_utc": "2026-10-06T10:55:43.691376+00:00",
    "source": "yahoo",
    "delayed": true,
-   "last_price": 7845.5,
+   "last_price": 7849.5,
    "levels": [
     {
      "tag": "exp_hi",
@@ -115,25 +115,25 @@
      "note": "ATR over 14 days"
     },
     {
+     "tag": "onh",
+     "label": "Overnight high",
+     "price": 7850.0,
+     "group": "overnight",
+     "note": "since 18:00 ET, 756 bars"
+    },
+    {
+     "tag": "wh",
+     "label": "Week high",
+     "price": 7850.0,
+     "group": "week",
+     "note": "since 2026-10-05"
+    },
+    {
      "tag": "rn_major_up",
      "label": "Round 50 above",
      "price": 7850.0,
      "group": "round",
      "note": ""
-    },
-    {
-     "tag": "onh",
-     "label": "Overnight high",
-     "price": 7848.25,
-     "group": "overnight",
-     "note": "since 18:00 ET, 741 bars"
-    },
-    {
-     "tag": "wh",
-     "label": "Week high",
-     "price": 7848.25,
-     "group": "week",
-     "note": "since 2026-10-05"
     },
     {
      "tag": "pdh",
@@ -152,7 +152,7 @@
     {
      "tag": "onvwap",
      "label": "Overnight VWAP",
-     "price": 7839.49,
+     "price": 7839.68,
      "group": "overnight",
      "note": "typical-price VWAP"
     },
@@ -249,14 +249,14 @@
     }
    ],
    "stats": {
-    "last_bar_utc": "2026-10-06T10:30:00+00:00",
-    "last_bar_age_min": 10.4,
+    "last_bar_utc": "2026-10-06T10:45:00+00:00",
+    "last_bar_age_min": 10.7,
     "market_state": "open",
     "profile_volume": 987559.0,
     "prior_day": "2026-10-05",
     "prior_day_rth_range": 69.25,
-    "overnight_range": 19.25,
-    "gap_vs_prior_close": 14.25,
+    "overnight_range": 21.0,
+    "gap_vs_prior_close": 18.25,
     "gap_basis": "last price (pre-market)",
     "atr14": 86.26,
     "atr_days": 14,
@@ -1404,9 +1404,17 @@
     {
      "t": "2026-10-06T10:30:00+00:00",
      "o": 7845.5,
-     "h": 7845.75,
+     "h": 7849.5,
      "l": 7844.75,
-     "c": 7845.5,
+     "c": 7848.75,
+     "v": 3212.0
+    },
+    {
+     "t": "2026-10-06T10:45:00+00:00",
+     "o": 7848.75,
+     "h": 7850.0,
+     "l": 7848.75,
+     "c": 7849.5,
      "v": 0.0
     }
    ]
@@ -1414,10 +1422,10 @@
   {
    "root": "NQ",
    "trading_day": "2026-10-06",
-   "as_of_utc": "2026-10-06T10:40:25.556965+00:00",
+   "as_of_utc": "2026-10-06T10:55:43.691376+00:00",
    "source": "yahoo",
    "delayed": true,
-   "last_price": 31441.25,
+   "last_price": 31453.0,
    "levels": [
     {
      "tag": "exp_hi",
@@ -1436,20 +1444,20 @@
     {
      "tag": "onh",
      "label": "Overnight high",
-     "price": 31455.25,
+     "price": 31462.75,
      "group": "overnight",
-     "note": "since 18:00 ET, 741 bars"
+     "note": "since 18:00 ET, 756 bars"
     },
     {
      "tag": "wh",
      "label": "Week high",
-     "price": 31455.25,
+     "price": 31462.75,
      "group": "week",
      "note": "since 2026-10-05"
     },
     {
-     "tag": "rn_minor_up",
-     "label": "Round 50 above",
+     "tag": "rn_minor_dn",
+     "label": "Round 50 below",
      "price": 31450.0,
      "group": "round",
      "note": ""
@@ -1464,7 +1472,7 @@
     {
      "tag": "onvwap",
      "label": "Overnight VWAP",
-     "price": 31371.76,
+     "price": 31373.64,
      "group": "overnight",
      "note": "typical-price VWAP"
     },
@@ -1561,14 +1569,14 @@
     }
    ],
    "stats": {
-    "last_bar_utc": "2026-10-06T10:30:00+00:00",
-    "last_bar_age_min": 10.4,
+    "last_bar_utc": "2026-10-06T10:45:00+00:00",
+    "last_bar_age_min": 10.7,
     "market_state": "open",
     "profile_volume": 319951.0,
     "prior_day": "2026-10-05",
     "prior_day_rth_range": 326.75,
-    "overnight_range": 146.0,
-    "gap_vs_prior_close": 102.75,
+    "overnight_range": 153.5,
+    "gap_vs_prior_close": 114.5,
     "gap_basis": "last price (pre-market)",
     "atr14": 506.08,
     "atr_days": 14,
@@ -2716,9 +2724,17 @@
     {
      "t": "2026-10-06T10:30:00+00:00",
      "o": 31439.75,
-     "h": 31441.75,
-     "l": 31437.25,
-     "c": 31441.25,
+     "h": 31462.75,
+     "l": 31433.25,
+     "c": 31452.25,
+     "v": 1809.0
+    },
+    {
+     "t": "2026-10-06T10:45:00+00:00",
+     "o": 31451.5,
+     "h": 31455.0,
+     "l": 31451.5,
+     "c": 31453.0,
      "v": 0.0
     }
    ]
@@ -2732,25 +2748,25 @@
     "link": "https://www.cnbc.com/2026/10/06/hong-kong-fed-fima-dollar-liquidity-china-moolenaar.html",
     "source": "cnbc_markets",
     "published_utc": "2026-10-06T09:58:14+00:00",
-    "score": 7.88,
+    "score": 7.84,
     "duplicates": 1
    },
    {
     "id": "f4d1a07c25",
-    "title": "Inflation may force Fed rate hike this month, investor says - reuters.com",
+    "title": "Inflation may force Fed rate hike this month, investor says - Reuters",
     "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE90TkNNVHNXcHdNUUtXSElrMGlfRE1Xejk5ZkVSVHY4aDU1aDh3cVQwQ3VTamlOMVB4YllsTEVyejVkX01DM1BnZGFNUzA4eHV2d2ppZXF6MDBiOFNuSnVlbGh4cFFjTjQ?oc=5",
     "source": "gnews_macro",
     "published_utc": "2026-10-06T08:48:45+00:00",
-    "score": 7.19,
+    "score": 7.15,
     "duplicates": 0
    },
    {
     "id": "58006aa26c",
-    "title": "Stock futures rise after Nasdaq hits record high (SPX:) - Seeking Alpha",
+    "title": "Stock futures rise after Nasdaq hits record high (SPX:) - seekingalpha.com",
     "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNUGhSZVQzaXFoTDhnU2pIdVlIeGlpeFk0cDJURG0zUGdLZWpPTTJQV1g1QndDNV81bEt6OEV2NnFudENMdlJNRXFnLU5fQWtGeklUTkVqRnE1WU9XN28xQ3E1SUh0eUphOVM3MlhkRTBfOTl5eU9semFVOTNPaUhLWXljR04yTWR5?oc=5",
     "source": "gnews_futures",
     "published_utc": "2026-10-06T08:30:23+00:00",
-    "score": 7.14,
+    "score": 7.1,
     "duplicates": 2
    },
    {
@@ -2759,7 +2775,7 @@
     "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE5JN3hlTGd4VlZhb0g2Y1AzdHJ3ZVZYOHJ3UDI3X1NpekdCemxHTlpsbVl2NUxLTmdUU2dmTFB2QlFWQmJXN2syaVh3OHdMR294SzRUMUhzRktsbk50UG9JMks1dWZqQldIYmllQUpyWjhHRFZERVVhVtIBfkFVX3lxTFBiS2VYTXRVaXVCQXUzd0VTNXZSYXQxRWl5V18xSXVlZVBXeEdjMkIwWGloZlVKalh5SjU2RmF3dGxfNEpzd05SMjczOXNmQTFZTGloaUdOdzAxMVRuWXc1ME9mb0RCYThITTZrQnNKM3NuQ1NKUDBsY1lEVU1PUQ?oc=5",
     "source": "gnews_fed",
     "published_utc": "2026-10-06T07:05:14+00:00",
-    "score": 6.9,
+    "score": 6.86,
     "duplicates": 1
    },
    {
@@ -2768,17 +2784,8 @@
     "link": "https://www.cnbc.com/2026/10/06/russia-gold-hong-kong-china-western-sanctions.html",
     "source": "cnbc_markets",
     "published_utc": "2026-10-05T23:14:39+00:00",
-    "score": 6.6,
+    "score": 6.55,
     "duplicates": 0
-   },
-   {
-    "id": "5d0259267f",
-    "title": "Asian shares track Wall Street higher, Treasury yields near multi-decade highs - The Straits Times",
-    "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOQTRQOGpIUEVhR3A1a2t2TGowRTNEMXNpUW9VSjQtUEhGZE15aFMzbEcxU1ZWYkMyNEwyYnc0SFhMaUR6LVZZNmxXZEVuN1VTT2loNUtzVWh6Vy04TldXdi02SnctaEpIRjRHcU56by1INHotcnV4R2R0ZFIxVjRjWUJNeS10TTFyMDZNclRnMlBMWjNUOVhCZ3d0eDZnekR2c0xyTG5HRHNOZXIxSDFiMXhHVXBhdw?oc=5",
-    "source": "gnews_futures",
-    "published_utc": "2026-10-06T02:10:00+00:00",
-    "score": 6.58,
-    "duplicates": 2
    },
    {
     "id": "68dd4df5ef",
@@ -2795,16 +2802,7 @@
     "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxOcmc0UzVuZ3pwR0xQTy1oek56blV5eGxKZjNvb3M5YmtOUjB3Z1BWWGxSSUFVakE2c0F0SjJjRFZubGwzdHJRYTlSeUk4QjFwR2wtYm1Qa0NZY280MDJRUDYySDRJbUZKRGVZb21DcC1aTGFoczVpaGFOdDN3SUo2MlNCNG5ZSGtsWHR2REtvNGRDT2ZETVNldjZGMkltX2NyWUo0Z1JiZEtjRlA1ZHRkUHhyQTB3V0RHalZMOHR6TGVSZ1BNd190VE5R?oc=5",
     "source": "gnews_futures",
     "published_utc": "2026-10-06T01:37:25+00:00",
-    "score": 6.49,
-    "duplicates": 0
-   },
-   {
-    "id": "d34684f696",
-    "title": "Gold slips as dollar, Treasury yields offset fading Fed hike bets ahead of minutes - Investing.com",
-    "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQRmZaYVlsY3dtMFlmQVBtSk1sV1dUbGNpZVc4cHdWajVFWlh2dWFsaG5BeVJYd0FveGpsX1QzZzFFNjRhQ2JyRXF2VEJpdkZDc3d1LWd3YmF2NEl0VFVJVkdBWXg2ekx6X2VDZ1pHZ0JsUk5XTm1pcDRid0gzMHFsSmdQT0k3bXdfTGp4OFY0aXMtVXFVdU9tWW1JQy1tdDlUSGg4NHZCMlJJVmFUWFJ4QjRSSjZpNjV2b2cwY0dsZXFuNDI3OW1j?oc=5",
-    "source": "gnews_macro",
-    "published_utc": "2026-10-06T06:53:12+00:00",
-    "score": 6.37,
+    "score": 6.45,
     "duplicates": 0
    },
    {
@@ -2813,7 +2811,16 @@
     "link": "https://news.google.com/rss/articles/CBMi_wFBVV95cUxNVjEwYTlfUHNDX2hDc2p1OGQzb2JuTXB0X1c1WXphUy1IWjJ3S0lvUXozMkw5Sk5SYmpxRV84eFNmMjNXR3dCdE9TM1F0eExGaW1sdmwxZWw1MkNTX3VSdFNjd18ybzFmWVZ4RVZuZmFUZlFIa2QzOXBWRVV4bm5iT0tyU2FQdEFVQUt2WE4tRnZXYkdZVXBvQ0cxVXd4N1ZlbjduUEt2Uy1xYjVrUXhOMkJRMWlpM0Ywc3VmWHNQZGlOQXdseFM1X2lUOEFydjhhZUFGNUZYVmZtWlYxdktSa0luVEw0d09hUHdLQXdsbHhWdnE4c3cyRnE5TGVSVHc?oc=5",
     "source": "gnews_fed",
     "published_utc": "2026-10-06T00:45:00+00:00",
-    "score": 6.35,
+    "score": 6.3,
+    "duplicates": 1
+   },
+   {
+    "id": "5d0259267f",
+    "title": "Asian shares track Wall Street higher, Treasury yields near multi-decade highs - The Straits Times",
+    "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOQTRQOGpIUEVhR3A1a2t2TGowRTNEMXNpUW9VSjQtUEhGZE15aFMzbEcxU1ZWYkMyNEwyYnc0SFhMaUR6LVZZNmxXZEVuN1VTT2loNUtzVWh6Vy04TldXdi02SnctaEpIRjRHcU56by1INHotcnV4R2R0ZFIxVjRjWUJNeS10TTFyMDZNclRnMlBMWjNUOVhCZ3d0eDZnekR2c0xyTG5HRHNOZXIxSDFiMXhHVXBhdw?oc=5",
+    "source": "gnews_futures",
+    "published_utc": "2026-10-06T02:10:00+00:00",
+    "score": 6.04,
     "duplicates": 1
    },
    {
@@ -2822,7 +2829,7 @@
     "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxORjZRWWFOVFdNTW9vZWpMX3hJbTVXTlZmRUtoSkRmWHlpeEt3REFPTDFacGlCZU1XTlIxNUNReDM5Z0gxY2g2X2VWY3FNdHo5OTVwYTFLOXk0Vi1BcVUzbksxclFVV19QS3J3NjUwaDd3eDRxY3hQajdRcHM3aGF4RmdqVVVWTXRzbUF4N0N0MjZoWmhYRzlmSDY5SHlYMUhScUgxOXYtRWNPbHQ2bXpHakJPWFJUN1FHclMtR0thMTdQcUJDS3VwTExoZ0YzTWs?oc=5",
     "source": "gnews_macro",
     "published_utc": "2026-10-06T05:00:24+00:00",
-    "score": 6.06,
+    "score": 6.01,
     "duplicates": 0
    },
    {
@@ -2833,20 +2840,31 @@
     "published_utc": "2026-10-05T18:43:12+00:00",
     "score": 6.0,
     "duplicates": 0
+   },
+   {
+    "id": "b2c3b92bc4",
+    "title": "Federal Reserve interest rate decision looms as inflation worries persist - Fox Business",
+    "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFA4ZVZIQnAyNXMtT1dBejBuSXRIOEVmQ015cHRtYjBlSnlFSHNaMTdnTWtGbHBnOGhvMkZJNXp0ZU9wdUZFc21xXzkzb3hOUXJOWG1KOHkxV01Jd2c?oc=5",
+    "source": "gnews_fed",
+    "published_utc": "2026-10-05T18:05:55+00:00",
+    "score": 6.0,
+    "duplicates": 1
    }
   ],
   "summary": {
    "lines": [
-    "FOMC minutes are awaited and Fed rate-hike expectations remain in focus, with one investor flagging inflation could force a hike this month, even as yields fell ahead of the release — watch for volatility around the minutes drop. [2caae835f3][f4d1a07c25]",
-    "Treasury yields are near multi-decade highs despite fading Fed hike bets, a cross-current worth watching into the 13:00 ET 3-Year note auction. [5d0259267f][4ed4d8b1a5][d34684f696]",
-    "Nasdaq futures are at/near record highs with futures steady to higher in early trade, continuing the AI-led equity strength narrative around Microsoft. [58006aa26c][ba8a6211ba][ac8a3faa9d]",
-    "A House China committee chair is urging the Fed to review Hong Kong's access to a dollar-liquidity facility amid renminbi promotion — a headline-risk item for USD/China-linked sentiment rather than a direct index driver. [ae995251af]",
-    "Gold slipped as dollar and yields offset fading Fed hike bets, with separate reporting on Russian gold rerouting through Hong Kong — background commodity/FX context, low direct relevance to index futures. [d34684f696][bbe2dab767]"
+    "House China committee chair urges Fed to review Hong Kong’s access to dollar lifeline [ae995251af]",
+    "Inflation may force Fed rate hike this month, investor says - Reuters [f4d1a07c25]",
+    "Stock futures rise after Nasdaq hits record high (SPX:) - seekingalpha.com [58006aa26c]",
+    "Treasury yields fall as investors anticipate FOMC minutes - CNBC [2caae835f3]",
+    "Russian gold floods Hong Kong as Western sanctions redraw bullion trade [bbe2dab767]"
    ],
    "backend": "anthropic",
    "model": "claude-sonnet-5",
    "dropped": [],
-   "warnings": []
+   "warnings": [
+    "summariser produced no valid lines; showing digest"
+   ]
   },
   "feeds": [],
   "warnings": []
