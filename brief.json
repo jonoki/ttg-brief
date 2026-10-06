@@ -1,7 +1,7 @@
 {
  "meta": {
-  "generated_at_utc": "2026-10-06T13:59:37.940489+00:00",
-  "generated_at_local": "Tue 06 Oct 2026 10:59 ADT",
+  "generated_at_utc": "2026-10-06T14:14:59.011270+00:00",
+  "generated_at_local": "Tue 06 Oct 2026 11:14 ADT",
   "trading_day": "2026-10-06",
   "display_tz": "America/Halifax",
   "version": "0.1.0",
@@ -91,7 +91,7 @@
    "time_utc": "2026-10-07T17:00:00+00:00",
    "local": "14:00 ADT",
    "et": "13:00 ET",
-   "in": "27h 00m",
+   "in": "26h 45m",
    "consensus": null,
    "prior": null
   },
@@ -102,10 +102,10 @@
   {
    "root": "ES",
    "trading_day": "2026-10-06",
-   "as_of_utc": "2026-10-06T13:59:37.940489+00:00",
+   "as_of_utc": "2026-10-06T14:14:59.011270+00:00",
    "source": "yahoo",
    "delayed": true,
-   "last_price": 7870.25,
+   "last_price": 7881.0,
    "levels": [
     {
      "tag": "exp_hi",
@@ -122,25 +122,25 @@
      "note": ""
     },
     {
-     "tag": "rn_minor_up",
-     "label": "Round 25 above",
-     "price": 7875.0,
-     "group": "round",
-     "note": ""
-    },
-    {
      "tag": "tdh",
      "label": "Today's RTH high",
-     "price": 7871.5,
+     "price": 7883.5,
      "group": "today",
      "note": "so far"
     },
     {
      "tag": "wh",
      "label": "Week high",
-     "price": 7871.5,
+     "price": 7883.5,
      "group": "week",
      "note": "since 2026-10-05"
+    },
+    {
+     "tag": "rn_minor_dn",
+     "label": "Round 25 below",
+     "price": 7875.0,
+     "group": "round",
+     "note": ""
     },
     {
      "tag": "onh",
@@ -270,8 +270,8 @@
     }
    ],
    "stats": {
-    "last_bar_utc": "2026-10-06T13:49:00+00:00",
-    "last_bar_age_min": 10.6,
+    "last_bar_utc": "2026-10-06T14:04:00+00:00",
+    "last_bar_age_min": 11.0,
     "market_state": "open",
     "profile_volume": 987559.0,
     "prior_day": "2026-10-05",
@@ -1529,20 +1529,28 @@
     {
      "t": "2026-10-06T13:45:00+00:00",
      "o": 7867.75,
-     "h": 7871.5,
+     "h": 7881.0,
      "l": 7865.25,
-     "c": 7870.25,
-     "v": 13794.0
+     "c": 7878.75,
+     "v": 58106.0
+    },
+    {
+     "t": "2026-10-06T14:00:00+00:00",
+     "o": 7878.75,
+     "h": 7883.5,
+     "l": 7877.5,
+     "c": 7881.0,
+     "v": 21488.0
     }
    ]
   },
   {
    "root": "NQ",
    "trading_day": "2026-10-06",
-   "as_of_utc": "2026-10-06T13:59:37.940489+00:00",
+   "as_of_utc": "2026-10-06T14:14:59.011270+00:00",
    "source": "yahoo",
    "delayed": true,
-   "last_price": 31509.5,
+   "last_price": 31548.0,
    "levels": [
     {
      "tag": "exp_hi",
@@ -1707,8 +1715,8 @@
     }
    ],
    "stats": {
-    "last_bar_utc": "2026-10-06T13:49:00+00:00",
-    "last_bar_age_min": 10.6,
+    "last_bar_utc": "2026-10-06T14:04:00+00:00",
+    "last_bar_age_min": 11.0,
     "market_state": "open",
     "profile_volume": 319951.0,
     "prior_day": "2026-10-05",
@@ -2966,10 +2974,18 @@
     {
      "t": "2026-10-06T13:45:00+00:00",
      "o": 31516.5,
-     "h": 31524.75,
+     "h": 31557.25,
      "l": 31487.25,
-     "c": 31509.5,
-     "v": 6613.0
+     "c": 31548.0,
+     "v": 22221.0
+    },
+    {
+     "t": "2026-10-06T14:00:00+00:00",
+     "o": 31548.5,
+     "h": 31561.5,
+     "l": 31523.5,
+     "c": 31548.0,
+     "v": 6242.0
     }
    ]
   }
@@ -2982,8 +2998,17 @@
     "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOMXYzem9ZWWg3eFNESkN4V3NvSFBsT1JKaVdXaU5jTGZwREtmMXh3SGg3bVMzSk9mWUlUVUN2YlZyOS0xbE5NTk84UmRlWnBpdTd3M0dPTEduLUl6eDk5ZXBhNk03enRvZ0JESGg5aEtLVUlhSFA2Qy1UTlFQUENqUzZ5QWxnNXdaWjVJNTNrUVdtV0h6RDVmOVFuQmc5RjRscXczeTBKRFYwb2M4eVFF0gG0AUFVX3lxTE9aMVNCcGtGejZCX09xMDNBZXFVaEd4T3pod2lNSGxiMVlSdThpUjV2dktWZHU1MVlneUkzNHJ0UzNCQzNyVXRxV3ZGSWE4MlNyM1hqbzRINmdrSE5MWDNKYlFBeEZ2RVJRVy1lLWl2TGtjUWVLWVFXbXFKcFA5LXpaTWNsS2Vac1E2VGFBWjFzOUlTbXlKdTI5NDhsVFRKRkh4ZGVHWVRLT25hcU9saHRWaUpuSQ?oc=5",
     "source": "gnews_futures",
     "published_utc": "2026-10-06T11:54:15+00:00",
-    "score": 8.65,
+    "score": 8.61,
     "duplicates": 1
+   },
+   {
+    "id": "9c6a2c17b5",
+    "title": "S&P 500 hits record high as oil prices and yields fall - qz.com",
+    "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTFBzck5RWlZFbXZUcFl5SVhsR0dkdzJ5TnREYVNuc1hzRi1iblFwTFBPTjU2Zms5Q1dpUVRVeTUwTkNheTFILXZ6dmV0ZkZfZTBmQ3kxaUFmUEdueV9TUDhkdFh3OVJmT01tNnJ3?oc=5",
+    "source": "gnews_macro",
+    "published_utc": "2026-10-06T14:02:16+00:00",
+    "score": 8.46,
+    "duplicates": 0
    },
    {
     "id": "ae995251af",
@@ -2991,16 +3016,25 @@
     "link": "https://www.cnbc.com/2026/10/06/hong-kong-fed-fima-dollar-liquidity-china-moolenaar.html",
     "source": "cnbc_markets",
     "published_utc": "2026-10-06T13:47:49+00:00",
-    "score": 7.97,
+    "score": 7.92,
     "duplicates": 1
    },
    {
     "id": "a8548f0b4e",
-    "title": "US Stock Futures Rise Amid Lower Bond Yields and Oil Prices - gurufocus.com",
+    "title": "US Stock Futures Rise Amid Lower Bond Yields and Oil Prices - GuruFocus",
     "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQS1dBNE9wYkJ0bWpoRlZLSVNTUXotQUZJTmZYSUxheW44SGo4WjBNekdLWldPWDZWaUZRVjMwZmdTQjVDeHpqUUtkSU5WeXp0TElOa1Y2S09SU0VTQ056SDU4SEZiZzdmRGNsVkhVRXZSUnBMNXFaRjY5QnpkYTIyeWxydXJ3bnZqRW43RWEyWVdSNzJ5LXdBSkloYkdYUTg?oc=5",
     "source": "gnews_futures",
     "published_utc": "2026-10-06T13:41:32+00:00",
-    "score": 7.95,
+    "score": 7.91,
+    "duplicates": 0
+   },
+   {
+    "id": "21d7885cef",
+    "title": "Revised Inflation Data Don’t Change The Fed’s Job - Seeking Alpha",
+    "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOU1c1NmtIdGJrZ3RGSU56SElOVWQyY0hOU19mMzhEdlZPODVPVWM3S0pZeVRHRGI4YU0zN0w5U1Y1UHVDZU5Jc0tJS2tqZ2lXMVBReWNIOHBCSG5tN2wxbVo4MFI4VG4tWmRqeWpuMUk1ckdaUjFYN3QtcFd6U0E1S0FoRk1jWFJKQVlxcw?oc=5",
+    "source": "gnews_macro",
+    "published_utc": "2026-10-06T13:45:00+00:00",
+    "score": 7.42,
     "duplicates": 0
    },
    {
@@ -3009,25 +3043,34 @@
     "link": "https://www.cnbc.com/2026/10/06/trade-deficit-hits-105point6-billion-widest-since-just-before-trump-tariffs-enacted-last-year.html",
     "source": "cnbc_markets",
     "published_utc": "2026-10-06T13:07:57+00:00",
-    "score": 7.36,
+    "score": 7.31,
     "duplicates": 0
    },
    {
     "id": "25924a9b9e",
-    "title": "S&P 500 set to open near record highs as Treasury yields cool, oil slips - Reuters",
+    "title": "S&P 500, Nasdaq touch new peaks as Treasury yields cool, oil slips - Reuters",
     "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPZ0p5VWxQQ0ZmUUI0Vk5wRUVjTUJhZjZGUlZjU2tWU1AtOEdqYjZ0OFRtRXNrUVdrTFlNZjVWdzluRjUyaWhHTlYxMG5Yc21pMHFubTdiX1RIRTRUSnB4UTZPckRMZTlzTHBEbkZKU1ROMTZpWE9lMXhPQkhyQmhBV3JNdkFrQVk?oc=5",
     "source": "gnews_macro",
-    "published_utc": "2026-10-06T13:06:48+00:00",
-    "score": 7.35,
-    "duplicates": 1
+    "published_utc": "2026-10-06T14:01:54+00:00",
+    "score": 6.96,
+    "duplicates": 0
    },
    {
-    "id": "ff7998ff92",
-    "title": "Stock Market Today (Oct. 6, 2026): S&P rises as oil prices, Treasury yields retreat - Yahoo Finance",
-    "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPcjlTZDl2UGpwaFNuYzBPS1FYMktpdXpvTEVaRFJRQkhOeVc1T25pbVFySWItZWVPVDgybmxaaElyd1BubURWN2FkeEhYeDhQbHR0Z0Y2VzFTam80TjZPQXZNVWQ1NXhDa1RwdHRkcURBRzFNTVpfaFBoeVpjRGlpcndKMWp6eWt4Yi1UZVBzWXdvNXM?oc=5",
+    "id": "baec098fae",
+    "title": "Stock Market Today (Oct. 6, 2026): S&P rises as oil prices, Treasury yields retreat - Yahoo Finance Australia",
+    "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE82ZWloOFFaaVItZFR5ZVRybmtPV3lYLTdaRVAwdVhPcU14eGlsblBoSlBuQVlaLTFXcEpWZUstWW1COTk1M0o5dFJzY0lkdjJWYlNxTU40UERfWjY3SXZURENoUlFtZzZOWTd5QV9LLXM0VV82RWp3MEJ3Z3JWUQ?oc=5",
     "source": "gnews_macro",
     "published_utc": "2026-10-06T13:44:18+00:00",
-    "score": 6.96,
+    "score": 6.91,
+    "duplicates": 0
+   },
+   {
+    "id": "fa7fd4d643",
+    "title": "S&P 500 set to open near record highs as Treasury yields cool, oil slips - TradingView",
+    "link": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxORTZla0M0UHljRTNrOG00QjhKZ2lyc2Z1RmlZNnIwMVZHRWo4VFpSWFFzNHVSSnFZWUo4djRRQ21jMi1pWWxfWGpraDFjOHBUTXNtZWZFZHZXZDZiNWZlRVVNanZBTzllWEtrYWY1MHhod0RibUllVWJxWjU4X19NU1JPQTI5M2RVWl9KbE53WjBweVVJRnBZeldHYjZfemd3RDVJWGpybVVINlEyYUVpQzdBdS1FTmtUWUJKUllsdkdGcUFRelplcU16UEZhU0Y5NnZ4SVdCV1Y?oc=5",
+    "source": "gnews_macro",
+    "published_utc": "2026-10-06T13:06:10+00:00",
+    "score": 6.81,
     "duplicates": 0
    },
    {
@@ -3036,7 +3079,7 @@
     "link": "https://news.google.com/rss/articles/CBMijAJBVV95cUxNMXlidUU0QmYwRWpSQnJlMlFmR2NHNUNYRGQ4RF9oRkJVR3B5OUw0Znlhcnc5Yzh3WXdsNXpzQktsZEtISUV4WldYbXc1a2hOVTRwVmpweTZVcDRzUnJyU2ZsaHZ4Ukg5ZHNyQ182TWZhQUNSajQ5SmIzN3RqbkdwT2FXZ294SGhBRkI3cEU3X2VseHIteFFDbmhOSnA4WFhpb2l3WVU5a0syaUlmcXNaRGgwUlpTWkhSaFh2OUtERmg4RXhEd19tbzFfdFF0bWZFaUZOS0lxcVFNNDVMeV9wZ1RvOXdYMTJjRGpvSzhRc2FOZWpOOFVRU0xiTW5uajFoejFONkVPNVMwbEc4?oc=5",
     "source": "gnews_futures",
     "published_utc": "2026-10-06T12:42:32+00:00",
-    "score": 6.79,
+    "score": 6.74,
     "duplicates": 0
    },
    {
@@ -3045,17 +3088,8 @@
     "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTFB0MGVIcGhmLWQ2alZBWTRzWTgxMDc4V21KZFlhaGtRR29zNlI1NDFUNUlyM3RYelF3NnQwbGFLX2ZWaDFZUU9OcjNPaUtXaVVrWE5QT0szcTJ2VzN1RlVWUU1MVHFPYUU4SGQtRA?oc=5",
     "source": "gnews_futures",
     "published_utc": "2026-10-06T11:28:56+00:00",
-    "score": 6.58,
+    "score": 6.54,
     "duplicates": 0
-   },
-   {
-    "id": "793603c413",
-    "title": "Stock futures rise after Nasdaq hits new record high - CNBC",
-    "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPaG5fNThzbEw1SklMbTkwZzlYUVhZcnpPQkZzSGRZYm9haWltaEJ0MW9BU1d5cWNSR0F1MjAzOHNaQndSM3p1WG10cURvMmRHYUVDT3BhZERFNE9DWE05V3lsUGhzN3NpY0x5RVAyQjBRUkFSQ0xHX3RSUVNPMEpVdzhIalRhdjJNUm1tZzE1SUQzVmcybHVTbkU1QQ?oc=5",
-    "source": "gnews_futures",
-    "published_utc": "2026-10-06T11:03:45+00:00",
-    "score": 6.51,
-    "duplicates": 1
    },
    {
     "id": "bbe2dab767",
@@ -3065,37 +3099,22 @@
     "published_utc": "2026-10-05T23:14:39+00:00",
     "score": 6.5,
     "duplicates": 0
-   },
-   {
-    "id": "68dd4df5ef",
-    "title": "Federal Reserve Board announces approval of application by Isabella Bank Corporation",
-    "link": "https://www.federalreserve.gov/newsevents/pressreleases/orders20261005a.htm",
-    "source": "fed_press",
-    "published_utc": "2026-10-05T20:30:00+00:00",
-    "score": 6.5,
-    "duplicates": 1
-   },
-   {
-    "id": "49a22b5cf1",
-    "title": "Jim Cramer Warns Rising Treasury Yields Could Signal Bigger Market Risks Despite AI Rally: 'Bond Sellers. - benzinga.com",
-    "link": "https://news.google.com/rss/articles/CBMikwJBVV95cUxOUTlXb2p5eHVCN0UtTE9NaWhxLXg4WVFvemxxRERPU0JLNUlRd1NITXc5cTdyaERJT0E1TTlRUmxtOEhWUHIwSEtxZFlQOGFzS2xQZTNTeUVYSnk0cVlFVjRsalRiWG4yU1BvRkhEdEJBeVkyVXZDRXJkMHRZUTNIdmtkTWM0WEJHSThuLXl6SkhCMmlQM19aMWR1VHlOWXhBckNPM2plVHlmcjJtMnFIZnhRSVJhOGV6VlQ1X2taalNfSUxOcFpPMmZ0RUFZWG5FZjZNLUZwRG0zZUJxa2EwbksxWDdfcXNBeWdfOVFOcFlVbmpmZzFJbENiSlFvbkc1eEtRdFZMbTUtVUo0X0Q0RGhmTQ?oc=5",
-    "source": "gnews_macro",
-    "published_utc": "2026-10-06T13:18:32+00:00",
-    "score": 6.39,
-    "duplicates": 0
    }
   ],
   "summary": {
    "lines": [
-    "Nasdaq futures extend gains to fresh record highs as Treasury yields ease and oil slips, with S&P 500 also set to open near records ahead of today's 13:00 ET 3-year note auction [fc8b104df1][a8548f0b4e][25924a9b9e][bb3a53b9a5][793603c413][acec568e24].",
-    "US trade deficit widened to $105.6 billion, a 13.7% jump from July and the widest since before last year's tariffs, exceeding the Dow Jones $102 billion estimate, a data point that can feed into yield/dollar moves ahead of the auction [6f34844c56].",
-    "Cramer flagged that rising Treasury yields could pose risks to the AI-driven rally, a narrative to watch against today's yield pullback into the 3-year auction [49a22b5cf1].",
-    "A House China committee chair is pushing the Fed to review Hong Kong's access to a dollar-liquidity facility amid US-China/yuan tensions, a headline risk for broader risk sentiment [ae995251af]."
+    "US stock futures rise as Treasury yields ease after Nasdaq hits record high - CNBC TV18 [fc8b104df1]",
+    "S&P 500 hits record high as oil prices and yields fall - qz.com [9c6a2c17b5]",
+    "House China committee chair urges Fed to review Hong Kong’s access to dollar lifeline [ae995251af]",
+    "US Stock Futures Rise Amid Lower Bond Yields and Oil Prices - GuruFocus [a8548f0b4e]",
+    "Revised Inflation Data Don’t Change The Fed’s Job - Seeking Alpha [21d7885cef]"
    ],
    "backend": "anthropic",
    "model": "claude-sonnet-5",
    "dropped": [],
-   "warnings": []
+   "warnings": [
+    "summariser produced no valid lines; showing digest"
+   ]
   },
   "feeds": [],
   "warnings": []
