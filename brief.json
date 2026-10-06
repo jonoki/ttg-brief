@@ -1,7 +1,7 @@
 {
  "meta": {
-  "generated_at_utc": "2026-10-06T12:42:59.535548+00:00",
-  "generated_at_local": "Tue 06 Oct 2026 09:42 ADT",
+  "generated_at_utc": "2026-10-06T12:58:18.607551+00:00",
+  "generated_at_local": "Tue 06 Oct 2026 09:58 ADT",
   "trading_day": "2026-10-06",
   "display_tz": "America/Halifax",
   "version": "0.1.0",
@@ -91,7 +91,7 @@
    "time_utc": "2026-10-07T17:00:00+00:00",
    "local": "14:00 ADT",
    "et": "13:00 ET",
-   "in": "28h 17m",
+   "in": "28h 01m",
    "consensus": null,
    "prior": null
   },
@@ -102,10 +102,10 @@
   {
    "root": "ES",
    "trading_day": "2026-10-06",
-   "as_of_utc": "2026-10-06T12:42:59.535548+00:00",
+   "as_of_utc": "2026-10-06T12:58:18.607551+00:00",
    "source": "yahoo",
    "delayed": true,
-   "last_price": 7859.0,
+   "last_price": 7855.75,
    "levels": [
     {
      "tag": "exp_hi",
@@ -133,7 +133,7 @@
      "label": "Overnight high",
      "price": 7867.75,
      "group": "overnight",
-     "note": "since 18:00 ET, 863 bars"
+     "note": "since 18:00 ET, 879 bars"
     },
     {
      "tag": "wh",
@@ -166,7 +166,7 @@
     {
      "tag": "onvwap",
      "label": "Overnight VWAP",
-     "price": 7845.63,
+     "price": 7846.2,
      "group": "overnight",
      "note": "typical-price VWAP"
     },
@@ -249,14 +249,14 @@
     }
    ],
    "stats": {
-    "last_bar_utc": "2026-10-06T12:32:00+00:00",
-    "last_bar_age_min": 11.0,
+    "last_bar_utc": "2026-10-06T12:48:00+00:00",
+    "last_bar_age_min": 10.3,
     "market_state": "open",
     "profile_volume": 987559.0,
     "prior_day": "2026-10-05",
     "prior_day_rth_range": 69.25,
     "overnight_range": 38.75,
-    "gap_vs_prior_close": 27.75,
+    "gap_vs_prior_close": 24.5,
     "gap_basis": "last price (pre-market)",
     "atr14": 86.26,
     "atr_days": 14,
@@ -1469,19 +1469,27 @@
      "t": "2026-10-06T12:30:00+00:00",
      "o": 7860.0,
      "h": 7860.5,
-     "l": 7858.25,
-     "c": 7859.0,
-     "v": 862.0
+     "l": 7856.5,
+     "c": 7857.75,
+     "v": 7291.0
+    },
+    {
+     "t": "2026-10-06T12:45:00+00:00",
+     "o": 7857.5,
+     "h": 7858.5,
+     "l": 7855.0,
+     "c": 7855.75,
+     "v": 2279.0
     }
    ]
   },
   {
    "root": "NQ",
    "trading_day": "2026-10-06",
-   "as_of_utc": "2026-10-06T12:42:59.535548+00:00",
+   "as_of_utc": "2026-10-06T12:58:18.607551+00:00",
    "source": "yahoo",
    "delayed": true,
-   "last_price": 31481.0,
+   "last_price": 31467.0,
    "levels": [
     {
      "tag": "exp_hi",
@@ -1495,7 +1503,7 @@
      "label": "Overnight high",
      "price": 31539.0,
      "group": "overnight",
-     "note": "since 18:00 ET, 863 bars"
+     "note": "since 18:00 ET, 879 bars"
     },
     {
      "tag": "wh",
@@ -1521,7 +1529,7 @@
     {
      "tag": "onvwap",
      "label": "Overnight VWAP",
-     "price": 31403.91,
+     "price": 31406.36,
      "group": "overnight",
      "note": "typical-price VWAP"
     },
@@ -1625,14 +1633,14 @@
     }
    ],
    "stats": {
-    "last_bar_utc": "2026-10-06T12:32:00+00:00",
-    "last_bar_age_min": 11.0,
+    "last_bar_utc": "2026-10-06T12:48:00+00:00",
+    "last_bar_age_min": 10.3,
     "market_state": "open",
     "profile_volume": 319951.0,
     "prior_day": "2026-10-05",
     "prior_day_rth_range": 326.75,
     "overnight_range": 229.75,
-    "gap_vs_prior_close": 142.5,
+    "gap_vs_prior_close": 128.5,
     "gap_basis": "last price (pre-market)",
     "atr14": 506.08,
     "atr_days": 14,
@@ -2845,9 +2853,17 @@
      "t": "2026-10-06T12:30:00+00:00",
      "o": 31495.5,
      "h": 31499.0,
-     "l": 31478.25,
-     "c": 31481.0,
-     "v": 566.0
+     "l": 31466.0,
+     "c": 31469.75,
+     "v": 3221.0
+    },
+    {
+     "t": "2026-10-06T12:45:00+00:00",
+     "o": 31469.0,
+     "h": 31476.5,
+     "l": 31463.0,
+     "c": 31467.0,
+     "v": 629.0
     }
    ]
   }
@@ -2860,8 +2876,8 @@
     "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOMXYzem9ZWWg3eFNESkN4V3NvSFBsT1JKaVdXaU5jTGZwREtmMXh3SGg3bVMzSk9mWUlUVUN2YlZyOS0xbE5NTk84UmRlWnBpdTd3M0dPTEduLUl6eDk5ZXBhNk03enRvZ0JESGg5aEtLVUlhSFA2Qy1UTlFQUENqUzZ5QWxnNXdaWjVJNTNrUVdtV0h6RDVmOVFuQmc5RjRscXczeTBKRFYwb2M4eVFF0gG0AUFVX3lxTE9aMVNCcGtGejZCX09xMDNBZXFVaEd4T3pod2lNSGxiMVlSdThpUjV2dktWZHU1MVlneUkzNHJ0UzNCQzNyVXRxV3ZGSWE4MlNyM1hqbzRINmdrSE5MWDNKYlFBeEZ2RVJRVy1lLWl2TGtjUWVLWVFXbXFKcFA5LXpaTWNsS2Vac1E2VGFBWjFzOUlTbXlKdTI5NDhsVFRKRkh4ZGVHWVRLT25hcU9saHRWaUpuSQ?oc=5",
     "source": "gnews_futures",
     "published_utc": "2026-10-06T11:54:15+00:00",
-    "score": 8.86,
-    "duplicates": 1
+    "score": 9.32,
+    "duplicates": 2
    },
    {
     "id": "ae995251af",
@@ -2869,8 +2885,17 @@
     "link": "https://www.cnbc.com/2026/10/06/hong-kong-fed-fima-dollar-liquidity-china-moolenaar.html",
     "source": "cnbc_markets",
     "published_utc": "2026-10-06T09:58:14+00:00",
-    "score": 7.54,
+    "score": 7.5,
     "duplicates": 1
+   },
+   {
+    "id": "acec568e24",
+    "title": "US markets today: Dow, S&P 500, Nasdaq futures indicate gap-up open; AMD, Alphabet, Constellation Energy, others to watch - upstox.com",
+    "link": "https://news.google.com/rss/articles/CBMijAJBVV95cUxNMXlidUU0QmYwRWpSQnJlMlFmR2NHNUNYRGQ4RF9oRkJVR3B5OUw0Znlhcnc5Yzh3WXdsNXpzQktsZEtISUV4WldYbXc1a2hOVTRwVmpweTZVcDRzUnJyU2ZsaHZ4Ukg5ZHNyQ182TWZhQUNSajQ5SmIzN3RqbkdwT2FXZ294SGhBRkI3cEU3X2VseHIteFFDbmhOSnA4WFhpb2l3WVU5a0syaUlmcXNaRGgwUlpTWkhSaFh2OUtERmg4RXhEd19tbzFfdFF0bWZFaUZOS0lxcVFNNDVMeV9wZ1RvOXdYMTJjRGpvSzhRc2FOZWpOOFVRU0xiTW5uajFoejFONkVPNVMwbEc4?oc=5",
+    "source": "gnews_futures",
+    "published_utc": "2026-10-06T12:42:32+00:00",
+    "score": 6.96,
+    "duplicates": 0
    },
    {
     "id": "f4d1a07c25",
@@ -2878,7 +2903,7 @@
     "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE90TkNNVHNXcHdNUUtXSElrMGlfRE1Xejk5ZkVSVHY4aDU1aDh3cVQwQ3VTamlOMVB4YllsTEVyejVkX01DM1BnZGFNUzA4eHV2d2ppZXF6MDBiOFNuSnVlbGh4cFFjTjQ?oc=5",
     "source": "gnews_macro",
     "published_utc": "2026-10-06T08:48:45+00:00",
-    "score": 6.85,
+    "score": 6.81,
     "duplicates": 0
    },
    {
@@ -2887,7 +2912,7 @@
     "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTFB0MGVIcGhmLWQ2alZBWTRzWTgxMDc4V21KZFlhaGtRR29zNlI1NDFUNUlyM3RYelF3NnQwbGFLX2ZWaDFZUU9OcjNPaUtXaVVrWE5QT0szcTJ2VzN1RlVWUU1MVHFPYUU4SGQtRA?oc=5",
     "source": "gnews_futures",
     "published_utc": "2026-10-06T11:28:56+00:00",
-    "score": 6.79,
+    "score": 6.75,
     "duplicates": 0
    },
    {
@@ -2896,7 +2921,7 @@
     "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPaG5fNThzbEw1SklMbTkwZzlYUVhZcnpPQkZzSGRZYm9haWltaEJ0MW9BU1d5cWNSR0F1MjAzOHNaQndSM3p1WG10cURvMmRHYUVDT3BhZERFNE9DWE05V3lsUGhzN3NpY0x5RVAyQjBRUkFSQ0xHX3RSUVNPMEpVdzhIalRhdjJNUm1tZzE1SUQzVmcybHVTbkU1QQ?oc=5",
     "source": "gnews_futures",
     "published_utc": "2026-10-06T11:03:45+00:00",
-    "score": 6.72,
+    "score": 6.68,
     "duplicates": 1
    },
    {
@@ -2905,7 +2930,7 @@
     "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE5JN3hlTGd4VlZhb0g2Y1AzdHJ3ZVZYOHJ3UDI3X1NpekdCemxHTlpsbVl2NUxLTmdUU2dmTFB2QlFWQmJXN2syaVh3OHdMR294SzRUMUhzRktsbk50UG9JMks1dWZqQldIYmllQUpyWjhHRFZERVVhVtIBfkFVX3lxTFBiS2VYTXRVaXVCQXUzd0VTNXZSYXQxRWl5V18xSXVlZVBXeEdjMkIwWGloZlVKalh5SjU2RmF3dGxfNEpzd05SMjczOXNmQTFZTGloaUdOdzAxMVRuWXc1ME9mb0RCYThITTZrQnNKM3NuQ1NKUDBsY1lEVU1PUQ?oc=5",
     "source": "gnews_fed",
     "published_utc": "2026-10-06T07:05:14+00:00",
-    "score": 6.56,
+    "score": 6.52,
     "duplicates": 1
    },
    {
@@ -2927,49 +2952,40 @@
     "duplicates": 1
    },
    {
+    "id": "b166bce782",
+    "title": "3 Freight Stocks For Tariff Driven US Canada Trade Shifts - Simply Wall Street",
+    "link": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxOTlZJcnVRWk80dzBEM1NxYXhMRWI3NE15SHZJa24wYnRXZXo2djFBVDhzaDNoZ0FaQVoySDF1WFhNYUZlZW5mbUVESVpKaTBLQnlKOEw3dnJCQ0dtX0F1NjJKWFdIT3lSRDJWUUxMTVMxTUdFYmNRczJDMS1lSVY5WVpNazBsMlJ6Rm1udnNyc3RiRkVjckpBMFE2QUY1allDNkE3WWFqNFU3b2M2YmdZRzRoOFdiYjY1TnJyS1JtclVGNFUydlhzdjY4SWlVMjZLSVd1dGlhV0NEQjTSAeABQVVfeXFMUDNwMTE3bHo5MUhaTkR4Z2EweXhaNl9KSjVHb0NuT1hXUmszVExYYlFDRlBtOXE3QmhIaFgwbEo1VEJwSEZxQnAxRHNZYlNZUnJvSWt4aFo0YnVMbFgxRW5QVWpVV1piWUItaGxGSERLdFYxRE03R0xWMFBDWnFZSGMxUUpLYzhJNWlicXlUbFVQTFU4eXA4TkNKUkFGRThCcFljRE1Eb2w1QXlpZTFHSWoxSDdOX1hxTHdHZWVwT3E3VTNPSk9xbzNUUGE2LUJnRDh4dVlsMXA0R2xRTHliazY?oc=5",
+    "source": "gnews_macro",
+    "published_utc": "2026-10-06T12:42:38+00:00",
+    "score": 6.46,
+    "duplicates": 0
+   },
+   {
+    "id": "e04c589a27",
+    "title": "U.S. stock futures rise, hinting at a record high open for Wall Street - Investing.com India",
+    "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQNF9mZEdDRFVHck52T3NpYzlTbzdJUjE5TTVzazN5bW5na3NDWjM4azNkTGNBR2tHMDhqSUEwd25EeVB0R0dyLWFwdUhXWUlCMU1PT2xneGRVX1dzRnFpRWp2RENZa3FmM1ZGTGFYbTVXV1JmVUdyeXc3WUhFTmF5VFBOc1h1OU9YVlBMVDlVdnlmQkxKcTFOd200X1VOZVhVVlE3anFGUXNsVVJ1a3RVdjhRZFl1R1JfejZJTjJPSFhhTnpUQ2RoNA?oc=5",
+    "source": "gnews_futures",
+    "published_utc": "2026-10-06T12:40:02+00:00",
+    "score": 6.45,
+    "duplicates": 0
+   },
+   {
     "id": "663abe60de",
     "title": "U.S. Stock Futures Nudge Higher as Oil Falls Below $100 -- Update - marketscreener.com",
     "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOWnpxMDFwZ1JUaE5EWXRSOXBKbHc5Z0Q0TUxsT3FxRVRGNUt2R1ZubnZCMlNIbW1mT0tPUk9ZUjNabEVENUhpbWxyS255SmVrQWd4eWZhZVVSa09HYkJVRmljSUpHVXdvb3lYX2ZUV050UkRKRnZqc1JqVHBuUkhYSXNiYkhIaE9DakhQWFFHaG94d2t1TlFhQ3hjUUtEdHZ1TmRJbzhCVmpkWEdoNHE3LUdVQQ?oc=5",
     "source": "gnews_futures",
     "published_utc": "2026-10-06T12:02:41+00:00",
-    "score": 6.39,
-    "duplicates": 1
-   },
-   {
-    "id": "55dab0807e",
-    "title": "U.S. stock futures steady after Nasdaq hits record on reduced Fed hike bets - Yahoo Finance",
-    "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOT0pNVmEwN01jV2d3ZnVqaGtlaW50U0pDNUdMb0pKYTdXQjQ4ZmRNX2MwMjZSQVROU2U1aDJhSGxIWnBSTVRNRmk2ZDg2MWtqWUlxNlJjT1phTGUzOUZiemJqNHQwX2Vta1NqczNWMGtLVFRxZVM1TWxqU0dFYUQ5SndTWDZGd2dzS2w1VmM4RUo2dWYxYXEzcTZn?oc=5",
-    "source": "gnews_futures",
-    "published_utc": "2026-10-06T02:03:00+00:00",
-    "score": 6.22,
-    "duplicates": 0
-   },
-   {
-    "id": "ba8a6211ba",
-    "title": "U.S. stock futures inch up amid retreating yields, easing oil prices - Investing.com",
-    "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxOcmc0UzVuZ3pwR0xQTy1oek56blV5eGxKZjNvb3M5YmtOUjB3Z1BWWGxSSUFVakE2c0F0SjJjRFZubGwzdHJRYTlSeUk4QjFwR2wtYm1Qa0NZY280MDJRUDYySDRJbUZKRGVZb21DcC1aTGFoczVpaGFOdDN3SUo2MlNCNG5ZSGtsWHR2REtvNGRDT2ZETVNldjZGMkltX2NyWUo0Z1JiZEtjRlA1ZHRkUHhyQTB3V0RHalZMOHR6TGVSZ1BNd190VE5R?oc=5",
-    "source": "gnews_futures",
-    "published_utc": "2026-10-06T01:35:50+00:00",
-    "score": 6.15,
-    "duplicates": 0
-   },
-   {
-    "id": "0d569ed627",
-    "title": "Discussing Consumer Price Index numbers, inflation and Federal Reserve's decision-making process - 11Alive.com",
-    "link": "https://news.google.com/rss/articles/CBMi_wFBVV95cUxNVjEwYTlfUHNDX2hDc2p1OGQzb2JuTXB0X1c1WXphUy1IWjJ3S0lvUXozMkw5Sk5SYmpxRV84eFNmMjNXR3dCdE9TM1F0eExGaW1sdmwxZWw1MkNTX3VSdFNjd18ybzFmWVZ4RVZuZmFUZlFIa2QzOXBWRVV4bm5iT0tyU2FQdEFVQUt2WE4tRnZXYkdZVXBvQ0cxVXd4N1ZlbjduUEt2Uy1xYjVrUXhOMkJRMWlpM0Ywc3VmWHNQZGlOQXdseFM1X2lUOEFydjhhZUFGNUZYVmZtWlYxdktSa0luVEw0d09hUHdLQXdsbHhWdnE4c3cyRnE5TGVSVHc?oc=5",
-    "source": "gnews_fed",
-    "published_utc": "2026-10-06T00:45:00+00:00",
-    "score": 6.01,
+    "score": 6.35,
     "duplicates": 1
    }
   ],
   "summary": {
    "lines": [
-    "Futures grind higher and Nasdaq sits at a record as Treasury yields ease, with 10-year yields retreating, a backdrop that supports risk appetite into the open [fc8b104df1][793603c413][bb3a53b9a5][55dab0807e][ba8a6211ba].",
-    "Markets are positioned ahead of FOMC minutes with yields falling as investors await the release, a potential volatility trigger for rate-sensitive futures [2caae835f3].",
-    "Oil falling below $100 is cited alongside the futures bid, relevant for inflation-expectations-linked rate trades [663abe60de].",
-    "Mixed Fed-inflation headlines persist, with one commentator flagging inflation could force a rate hike this month while separate coverage still discusses CPI and Fed decision-making, keeping rate-path uncertainty in play ahead of the 13:00 ET 3-Year note auction [f4d1a07c25][0d569ed627].",
-    "A House China committee chair is pushing the Fed to review Hong Kong's dollar-facility access, a geopolitical headline with low near-term market impact for equity index futures [ae995251af]."
+    "Nasdaq futures point to a record-high open as Treasury yields ease, with multiple outlets citing the same gap-up setup ahead of the cash open [fc8b104df1][acec568e24][bb3a53b9a5][793603c413][e04c589a27].",
+    "Treasury yields are falling as investors position ahead of the FOMC minutes, a key driver for the rates-sensitive move in equity futures [2caae835f3].",
+    "A separate investor comment flagged inflation could force a Fed rate hike this month, a headline risk worth watching given the 13:00 ET 3-Year note auction context [f4d1a07c25].",
+    "Oil falling below $100 is cited as a contributing factor to the modest futures bid [663abe60de].",
+    "A House China committee chair is pushing the Fed to review Hong Kong's dollar-facility access, a policy/geopolitical headline with potential USD/China-linked name sensitivity [ae995251af]."
    ],
    "backend": "anthropic",
    "model": "claude-sonnet-5",
