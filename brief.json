@@ -1,7 +1,7 @@
 {
  "meta": {
-  "generated_at_utc": "2026-10-07T11:11:02.088946+00:00",
-  "generated_at_local": "Wed 07 Oct 2026 08:11 ADT",
+  "generated_at_utc": "2026-10-07T11:26:20.697300+00:00",
+  "generated_at_local": "Wed 07 Oct 2026 08:26 ADT",
   "trading_day": "2026-10-07",
   "display_tz": "America/Halifax",
   "version": "0.1.0",
@@ -145,7 +145,7 @@
    "time_utc": "2026-10-07T17:00:00+00:00",
    "local": "14:00 ADT",
    "et": "13:00 ET",
-   "in": "5h 48m",
+   "in": "5h 33m",
    "consensus": null,
    "prior": null
   },
@@ -156,10 +156,10 @@
   {
    "root": "ES",
    "trading_day": "2026-10-07",
-   "as_of_utc": "2026-10-07T11:11:02.088946+00:00",
+   "as_of_utc": "2026-10-07T11:26:20.697300+00:00",
    "source": "yahoo",
    "delayed": true,
-   "last_price": 7851.0,
+   "last_price": 7849.0,
    "levels": [
     {
      "tag": "exp_hi",
@@ -167,13 +167,6 @@
      "price": 7955.83,
      "group": "range",
      "note": "ATR over 14 days"
-    },
-    {
-     "tag": "rn_major_up",
-     "label": "Round 50 above",
-     "price": 7900.0,
-     "group": "round",
-     "note": ""
     },
     {
      "tag": "pdh",
@@ -201,7 +194,7 @@
      "label": "Overnight high",
      "price": 7884.5,
      "group": "overnight",
-     "note": "since 18:00 ET, 756 bars"
+     "note": "since 18:00 ET, 772 bars"
     },
     {
      "tag": "poc",
@@ -211,13 +204,6 @@
      "note": "2026-10-06 RTH, bin 0.25"
     },
     {
-     "tag": "rn_minor_up",
-     "label": "Round 25 above",
-     "price": 7875.0,
-     "group": "round",
-     "note": ""
-    },
-    {
      "tag": "pdc",
      "label": "Prior-day close (16:00 bar)",
      "price": 7873.25,
@@ -225,18 +211,18 @@
      "note": "2026-10-06"
     },
     {
-     "tag": "onvwap",
-     "label": "Overnight VWAP",
-     "price": 7870.36,
-     "group": "overnight",
-     "note": "typical-price VWAP"
-    },
-    {
      "tag": "val",
      "label": "Prior-day VAL",
      "price": 7870.25,
      "group": "profile",
      "note": "70 % value area"
+    },
+    {
+     "tag": "onvwap",
+     "label": "Overnight VWAP",
+     "price": 7869.05,
+     "group": "overnight",
+     "note": "typical-price VWAP"
     },
     {
      "tag": "pdo",
@@ -253,17 +239,17 @@
      "note": "2026-10-06"
     },
     {
-     "tag": "onl",
-     "label": "Overnight low",
-     "price": 7850.75,
-     "group": "overnight",
+     "tag": "rn_major_up",
+     "label": "Round 50 above",
+     "price": 7850.0,
+     "group": "round",
      "note": ""
     },
     {
-     "tag": "rn_major_dn",
-     "label": "Round 50 below",
-     "price": 7850.0,
-     "group": "round",
+     "tag": "onl",
+     "label": "Overnight low",
+     "price": 7847.0,
+     "group": "overnight",
      "note": ""
     },
     {
@@ -274,11 +260,25 @@
      "note": "full 18:00→17:00 session"
     },
     {
+     "tag": "rn_minor_dn",
+     "label": "Round 25 below",
+     "price": 7825.0,
+     "group": "round",
+     "note": ""
+    },
+    {
      "tag": "pwh",
      "label": "Prior-week high",
      "price": 7810.25,
      "group": "week",
      "note": "2 session(s) of data — PARTIAL"
+    },
+    {
+     "tag": "rn_major_dn",
+     "label": "Round 50 below",
+     "price": 7800.0,
+     "group": "round",
+     "note": ""
     },
     {
      "tag": "exp_lo",
@@ -303,14 +303,14 @@
     }
    ],
    "stats": {
-    "last_bar_utc": "2026-10-07T11:00:00+00:00",
-    "last_bar_age_min": 11.0,
+    "last_bar_utc": "2026-10-07T11:16:00+00:00",
+    "last_bar_age_min": 10.3,
     "market_state": "open",
     "profile_volume": 941821.0,
     "prior_day": "2026-10-06",
     "prior_day_rth_range": 37.25,
-    "overnight_range": 33.75,
-    "gap_vs_prior_close": -22.25,
+    "overnight_range": 37.5,
+    "gap_vs_prior_close": -24.25,
     "gap_basis": "last price (pre-market)",
     "atr14": 82.58,
     "atr_days": 14,
@@ -1475,19 +1475,27 @@
      "t": "2026-10-07T11:00:00+00:00",
      "o": 7854.25,
      "h": 7854.75,
-     "l": 7850.75,
-     "c": 7851.0,
-     "v": 1484.0
+     "l": 7847.0,
+     "c": 7850.75,
+     "v": 10441.0
+    },
+    {
+     "t": "2026-10-07T11:15:00+00:00",
+     "o": 7850.75,
+     "h": 7851.0,
+     "l": 7848.5,
+     "c": 7849.0,
+     "v": 422.0
     }
    ]
   },
   {
    "root": "NQ",
    "trading_day": "2026-10-07",
-   "as_of_utc": "2026-10-07T11:11:02.088946+00:00",
+   "as_of_utc": "2026-10-07T11:26:20.697300+00:00",
    "source": "yahoo",
    "delayed": true,
-   "last_price": 31268.0,
+   "last_price": 31265.5,
    "levels": [
     {
      "tag": "exp_hi",
@@ -1529,7 +1537,7 @@
      "label": "Overnight high",
      "price": 31521.0,
      "group": "overnight",
-     "note": "since 18:00 ET, 758 bars"
+     "note": "since 18:00 ET, 773 bars"
     },
     {
      "tag": "pdo",
@@ -1562,7 +1570,7 @@
     {
      "tag": "onvwap",
      "label": "Overnight VWAP",
-     "price": 31432.23,
+     "price": 31424.33,
      "group": "overnight",
      "note": "typical-price VWAP"
     },
@@ -1590,7 +1598,7 @@
     {
      "tag": "onl",
      "label": "Overnight low",
-     "price": 31263.0,
+     "price": 31251.0,
      "group": "overnight",
      "note": ""
     },
@@ -1631,14 +1639,14 @@
     }
    ],
    "stats": {
-    "last_bar_utc": "2026-10-07T11:01:00+00:00",
-    "last_bar_age_min": 10.0,
+    "last_bar_utc": "2026-10-07T11:16:00+00:00",
+    "last_bar_age_min": 10.3,
     "market_state": "open",
     "profile_volume": 348525.0,
     "prior_day": "2026-10-06",
     "prior_day_rth_range": 158.75,
-    "overnight_range": 258.0,
-    "gap_vs_prior_close": -212.75,
+    "overnight_range": 270.0,
+    "gap_vs_prior_close": -215.25,
     "gap_basis": "last price (pre-market)",
     "atr14": 493.13,
     "atr_days": 14,
@@ -2811,9 +2819,17 @@
      "t": "2026-10-07T11:00:00+00:00",
      "o": 31298.75,
      "h": 31304.0,
-     "l": 31263.0,
-     "c": 31268.0,
-     "v": 1077.0
+     "l": 31251.0,
+     "c": 31273.75,
+     "v": 5095.0
+    },
+    {
+     "t": "2026-10-07T11:15:00+00:00",
+     "o": 31273.5,
+     "h": 31273.75,
+     "l": 31262.75,
+     "c": 31265.5,
+     "v": 113.0
     }
    ]
   }
@@ -2826,7 +2842,7 @@
     "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQYVR1SWJIc3F3a3hBaDV0UTVyLXBjandmNkpBTzh1ODNxSkhVMGctdm05MnZoR242QjlkQ2w1akZVY1l5UEhJWkI1aHd1OEJQVkEzOVZpNGpFX0hVMU51Ml9GVDBCbVRwaWZRNHk5Vmh2QmZZUjYwRnB5Uzl2M2NFcFNCZGFnYU01MEx4TmRhSlhuS3lSVjhIUTFqLXVSVWFfZXFfX0pZcFpQV24xd0ZkT0QzYVNVWFh1SFFydm1US1BrM0sy?oc=5",
     "source": "gnews_futures",
     "published_utc": "2026-10-07T10:35:22+00:00",
-    "score": 10.9,
+    "score": 10.86,
     "duplicates": 0
    },
    {
@@ -2835,7 +2851,7 @@
     "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPOUpNMU5jMHZ1MHpnWUJwamoxWHZDRm1Xc0lGX0NxbFRwelUxbTJyTkNDcDlRN2dUQTBtOVBPLWc5dnRaNXQ5WWc2anI5NEIxWnlPUVkydXBIZm1kTTRfQ0V1Y1d2eXRabFRmQmI1WVlSUUV0RTE2X09RQ3BPMjJZV2ZkNGlUdmNYc19LWTJxUE1kNWxiY3AwSjhBX1puQkg2ZlNpeEJhTk1Nb3NRbzgwYXRLQlE3RlNW?oc=5",
     "source": "gnews_fed",
     "published_utc": "2026-10-07T08:43:33+00:00",
-    "score": 8.59,
+    "score": 8.55,
     "duplicates": 0
    },
    {
@@ -2844,16 +2860,16 @@
     "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPWkdWaEd6cGc5Yy12UGdRbVZCb09hZzdMTHdfNk1JRWlNUmYySjkxbnY1cExKVGc0b3FQejFqSE1SR2JDOHhRM25mZk9BdGJkU1liWlNFQ1pFS3lRbFZ6bk1jb2RlWEk5dW9VS01tZnNVSE9WM0E2Y3kzWGtkWW9yb1dJMEo5aDJubUdfdTJraENKRUZJT1IxNWl1dVVBaDUtUkwtRWlxTmlpTzM3MzZVUUZnczBzNHBSbmfSAb8BQVVfeXFMT09pRGx5UnRiZEFveWl3TnA4dmQ5LWJlQXY3bmM5SWRRbFh0RnBaS28waWxlWUs5LVJsQVowZEVxbExGTGhYQWpwdDdwcURpaHYzTGNlTE50bkdiX05JVFNUV0piZjJXdUJSYjRCR1gxOFBUcWRyak1XY0Y2Y25nRXB3M2JTTTVjUFlUUWI2bXhHX2g3NHlkeGg1NnVHRmsyM3hIZHVNa0xvZ3JicVdIbXRWYTg0enVFTVFxTzI2LXc?oc=5",
     "source": "gnews_futures",
     "published_utc": "2026-10-07T08:59:27+00:00",
-    "score": 8.13,
+    "score": 8.09,
     "duplicates": 2
    },
    {
-    "id": "92c399e9e0",
-    "title": "Wall St futures slip as yields and oil rebound; Fed minutes in focus - WTVB",
-    "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPV3NOdWJabENCZ2w2VHpJZnhIelJFZkJpZnplYkJueTFlc25idm91S3pLTU44X3Y2RG1oVzZLaEpkbktXbFFLaHdYMFhCSFk3cmVQUktYRW5ZbWVYMTB2eFZZR05Ba182b1ZuakZYRkNNWXdzZlJSb21MdHNGbGh0b1cwQVZjT0VhZ1BMLWNPSURpREl5Z25pNGdCU3VxM0k?oc=5",
+    "id": "4ab8b669bc",
+    "title": "Wall St futures slip as yields and oil rebound; Fed minutes in focus - The Mighty 790 KFGO",
+    "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPS3piaUMxVVFZbUppX281QVFZbTBwaGFqeFVyX0x0azNNMHdEeTNYTXZqUXVRVVhpYTZTVHNLZ3dBeGtFWU83dFhXOXdTRjhxV3JmV2IwaEZqMU5kZUJqVHJfdHZtTWdheTFOdEpqdTVQQWx4OGJ6cEluYUdhR2NWdXJ1VWI3OG14d1I5dF9wVmdBV1ZOUEV0dTF4a3c?oc=5",
     "source": "gnews_fed",
-    "published_utc": "2026-10-07T11:04:16+00:00",
-    "score": 7.98,
+    "published_utc": "2026-10-07T11:10:15+00:00",
+    "score": 7.96,
     "duplicates": 0
    },
    {
@@ -2862,7 +2878,7 @@
     "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPQm5JR1Q5NDRrNTM3MEc0VlpHYUhGUlBpdTNKcFRwNWllc0ZFdFIxeVhnclEtZmRDNE9TTTFhM0o0YjBRRURBS0pKU3VvRU1wOTJTZDBHMHU3RVZVWm5IZ0I0bUtWcmVIUGhqWUFnSzlFWVVYMjRBbkg0UDZBS1dCX3htamJoellzYWJ1ZHcwaDRVeE1wbFJmem9Gb0VXZEhrVm5hNFBWUUNqRUNKZ09ydkxkZ0FYeFItTF9jRUl4VExkQTlTRlpR?oc=5",
     "source": "gnews_futures",
     "published_utc": "2026-10-07T09:49:36+00:00",
-    "score": 7.77,
+    "score": 7.73,
     "duplicates": 0
    },
    {
@@ -2871,7 +2887,7 @@
     "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQYWo0bWp4OFIwM09tTlNIWmhMN2pYVGk1RjZfYzdFY2VQcGtZeU5HRjdNQWFHSC1RZlc5S0tKdGdZNlc1aWFBS2RJRTZQdG5LbGFrSlRhMV9BajNjQTRhZ3NTZUxUdDBXX3lmdEtFV3NqbXp3VDdLdl9zOHdTRFN5d2tReGYxTEhHVGV3U1htS1ZiR3AxdmNBenVB?oc=5",
     "source": "gnews_macro",
     "published_utc": "2026-10-07T06:35:14+00:00",
-    "score": 7.73,
+    "score": 7.69,
     "duplicates": 0
    },
    {
@@ -2880,7 +2896,7 @@
     "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQeUJjVVNlVzdKQTNpOGEtZXhBYUtDRzFKMWFqUDUxdTFkMTV0VmtxZUxyeTBmS2c3UTliS1I2dnd4OHVnN1ZtdUxCYzlTcFNRcW5qS2tpa2tEZGdhZFNmQ1dQUG5xUEJIdThiNXoyQkxlbXhhbHROUjRJclEzTEJ0UGZRdw?oc=5",
     "source": "gnews_futures",
     "published_utc": "2026-10-07T09:28:05+00:00",
-    "score": 7.71,
+    "score": 7.67,
     "duplicates": 0
    },
    {
@@ -2889,7 +2905,7 @@
     "link": "https://www.cnbc.com/2026/10/07/economy-inflation-ai-trade-imf-iran-hormuz-trump-.html",
     "source": "cnbc_markets",
     "published_utc": "2026-10-07T06:16:39+00:00",
-    "score": 7.68,
+    "score": 7.64,
     "duplicates": 0
    },
    {
@@ -2898,7 +2914,7 @@
     "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOa09oMHp5YXp6SGpUbGxJenBJOFNtZS0wUVpPMkVscm1uRGRCaGVTOV8wTGNHVlM3RWwxTkdoZ1RPaGpJQ0poOVBEQk51bVkwWTUzakh3LUlSZ0d6MzFvQ2pXZURCVlFNOFlzVGJoUDRPczlpMDJOaWRYUm54N0l3V0w4N0J6U1pzTHBaZDRTRTZFRVU?oc=5",
     "source": "gnews_fed",
     "published_utc": "2026-10-07T03:43:48+00:00",
-    "score": 7.26,
+    "score": 7.22,
     "duplicates": 0
    },
    {
@@ -2907,7 +2923,7 @@
     "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTFBydl83WVU4amtHYUl5MkVjQnJXZmdwN1dQZnNOYTNVeFBsRDJBMGcyd3hLaHd1N0JpN0lRTGl5NkhqR2N6S3ZFSlBVdzlwZ2pxYkVWMDNhUnFXbXNoaDV5SGJfUzA3LUNZLWxfMExUUzVMVFBORjBZWHJUZDM3UdIBgwFBVV95cUxNbGdtZkRaZURkVnlOMlgwY24wQ3JTeXUwQlNyQzRhdTZ1NXZWbHRlOXlqY2lvTG9GeG1fQnZSYXVkeEQwcUdDSzhSVlhjdjZES1FQWDY0dHN1Q0dwYVBnZzVqTE83bEE2VlVpMmRIOWpXRHIyLTF2RDRqMnQ4enZLdmdscw?oc=5",
     "source": "gnews_fed",
     "published_utc": "2026-10-07T08:31:25+00:00",
-    "score": 7.06,
+    "score": 7.01,
     "duplicates": 1
    },
    {
@@ -2916,7 +2932,7 @@
     "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPN2NaLTd5SDJmeVdSQUJ1VU1aQjBQeG9jVDNPVjNFdXUwWm1UeWt3bjQyRDc3WF85NGRnTWZEZnBsd0l0X2ZROTRqQWpORy03LXV4R01ZMVNwaWlxa09oQlJkTWVVbzl6SVVYaEFzaW1oMFJ0dmNCTjJEcUxSRHRhZ05JTkZKRmVmVXZLX0RCbzRVaWZXZGNQWlplVUNuWnpmN1Y1a0Y3SXdRVE1hR1NMVA?oc=5",
     "source": "gnews_macro",
     "published_utc": "2026-10-07T10:45:01+00:00",
-    "score": 6.93,
+    "score": 6.89,
     "duplicates": 0
    },
    {
@@ -2925,21 +2941,20 @@
     "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOMlRrX0FHaDB4MEJqTUFJVWZtZnN6VkUyU2Vsb0JrUjR4ck90OU9tVi0zWG1ZUFk0cVU5WDFSa0tOZTBYZmZoLVBhVGoyTWlOdUZQZnFUM3h3SmZmdFZzQUQ2Rm03aVRqbmtWUF9qelRjcXlyMmZNelZhQy1NenhqZXlvQzlTdGptTG91NnJ3Wjl3R3JvdlVuek5hUjV5Umo1dG1uX181bVVDRS1GNENpRDFfRVY?oc=5",
     "source": "gnews_macro",
     "published_utc": "2026-10-07T07:35:18+00:00",
-    "score": 6.9,
+    "score": 6.86,
     "duplicates": 0
    }
   ],
   "summary": {
    "lines": [
-    "Futures action has been mixed intraday, dipping after S&P 500 and Nasdaq record highs but earlier edging higher on firm Services PMI data. [ae28b142ca][1b3c5dfd45]",
-    "Gold and the pound fell as the dollar firmed on yield moves tied to the Fed outlook, signaling broader cross-asset repositioning ahead of the minutes. [10004a348f][d9c02e2097]",
-    "Fed officials and the IMF chief flagged AI-driven demand as a potential new inflation driver, a theme that could color the market's read of the FOMC minutes. [1aa8280f8d][0f7bb7f0ac]"
+    "Futures are mixed into the data, dipping after S&P 500 and Nasdaq record closes while earlier strength came on firm Services PMI data [ae28b142ca][99fba2837f][1b3c5dfd45].",
+    "Fed minutes at 14:00 ET are the key scheduled catalyst, with gold and the dollar also moving on yield expectations ahead of the release [10004a348f][d9c02e2097].",
+    "IMF's Georgieva and separate Fed commentary flag AI-driven productivity gains as a potential new inflation driver, a theme that could color how markets read the Fed minutes [0f7bb7f0ac][1aa8280f8d]."
    ],
    "backend": "anthropic",
    "model": "claude-sonnet-5",
    "dropped": [
-    "ungrounded number(s) ['2']: Rising Treasury yields ahead of the 10-year note auction and 2pm ET FOMC minutes are pressuring Nasdaq and S&P futures, with chip stocks notably weighing on the Nasdaq. [80cf6b84a9][75491339c4][92c399e9e0][ae28b142ca][99fba2837f][7da9cbc8dc]",
-    "no valid citation: Trump is scheduled to speak at 13:00 ET, the same hour as the 10-Year note auction, adding event risk around the bond/equity handoff into the 14:00 ET minutes."
+    "ungrounded number(s) ['2']: Rising Treasury yields ahead of today's 10-year note auction and 2pm ET FOMC minutes are pressuring Nasdaq futures and chip stocks, keeping both indices on the back foot into the open [80cf6b84a9][75491339c4][7da9cbc8dc][4ab8b669bc]."
    ],
    "warnings": []
   },
