@@ -1,7 +1,7 @@
 {
  "meta": {
-  "generated_at_utc": "2026-10-07T14:30:06.659157+00:00",
-  "generated_at_local": "Wed 07 Oct 2026 11:30 ADT",
+  "generated_at_utc": "2026-10-07T14:45:28.888192+00:00",
+  "generated_at_local": "Wed 07 Oct 2026 11:45 ADT",
   "trading_day": "2026-10-07",
   "display_tz": "America/Halifax",
   "version": "0.1.0",
@@ -145,7 +145,7 @@
    "time_utc": "2026-10-07T17:00:00+00:00",
    "local": "14:00 ADT",
    "et": "13:00 ET",
-   "in": "2h 29m",
+   "in": "2h 14m",
    "consensus": null,
    "prior": null
   },
@@ -156,10 +156,10 @@
   {
    "root": "ES",
    "trading_day": "2026-10-07",
-   "as_of_utc": "2026-10-07T14:30:06.659157+00:00",
+   "as_of_utc": "2026-10-07T14:45:28.888192+00:00",
    "source": "yahoo",
    "delayed": true,
-   "last_price": 7826.25,
+   "last_price": 7823.75,
    "levels": [
     {
      "tag": "exp_hi",
@@ -274,8 +274,8 @@
      "note": "full 18:00→17:00 session"
     },
     {
-     "tag": "rn_minor_dn",
-     "label": "Round 25 below",
+     "tag": "rn_minor_up",
+     "label": "Round 25 above",
      "price": 7825.0,
      "group": "round",
      "note": ""
@@ -324,8 +324,8 @@
     }
    ],
    "stats": {
-    "last_bar_utc": "2026-10-07T14:20:00+00:00",
-    "last_bar_age_min": 10.1,
+    "last_bar_utc": "2026-10-07T14:35:00+00:00",
+    "last_bar_age_min": 10.5,
     "market_state": "open",
     "profile_volume": 941821.0,
     "prior_day": "2026-10-06",
@@ -1599,20 +1599,28 @@
     {
      "t": "2026-10-07T14:15:00+00:00",
      "o": 7823.0,
-     "h": 7828.5,
+     "h": 7830.0,
      "l": 7820.25,
-     "c": 7826.25,
-     "v": 17959.0
+     "c": 7824.5,
+     "v": 55089.0
+    },
+    {
+     "t": "2026-10-07T14:30:00+00:00",
+     "o": 7824.25,
+     "h": 7828.0,
+     "l": 7821.5,
+     "c": 7823.75,
+     "v": 19715.0
     }
    ]
   },
   {
    "root": "NQ",
    "trading_day": "2026-10-07",
-   "as_of_utc": "2026-10-07T14:30:06.659157+00:00",
+   "as_of_utc": "2026-10-07T14:45:28.888192+00:00",
    "source": "yahoo",
    "delayed": true,
-   "last_price": 31238.5,
+   "last_price": 31238.0,
    "levels": [
     {
      "tag": "exp_hi",
@@ -1706,18 +1714,18 @@
      "note": ""
     },
     {
+     "tag": "tdh",
+     "label": "Today's RTH high",
+     "price": 31288.25,
+     "group": "today",
+     "note": "so far"
+    },
+    {
      "tag": "pwh",
      "label": "Prior-week high",
      "price": 31282.5,
      "group": "week",
      "note": "2 session(s) of data — PARTIAL"
-    },
-    {
-     "tag": "tdh",
-     "label": "Today's RTH high",
-     "price": 31275.5,
-     "group": "today",
-     "note": "so far"
     },
     {
      "tag": "rn_minor_up",
@@ -1777,8 +1785,8 @@
     }
    ],
    "stats": {
-    "last_bar_utc": "2026-10-07T14:20:00+00:00",
-    "last_bar_age_min": 10.1,
+    "last_bar_utc": "2026-10-07T14:35:00+00:00",
+    "last_bar_age_min": 10.5,
     "market_state": "open",
     "profile_volume": 348525.0,
     "prior_day": "2026-10-06",
@@ -3060,10 +3068,18 @@
     {
      "t": "2026-10-07T14:15:00+00:00",
      "o": 31218.75,
-     "h": 31255.25,
+     "h": 31288.25,
      "l": 31200.5,
-     "c": 31238.5,
-     "v": 5998.0
+     "c": 31254.75,
+     "v": 19677.0
+    },
+    {
+     "t": "2026-10-07T14:30:00+00:00",
+     "o": 31254.5,
+     "h": 31266.75,
+     "l": 31233.0,
+     "c": 31238.0,
+     "v": 6511.0
     }
    ]
   }
@@ -3071,12 +3087,21 @@
  "news": {
   "headlines": [
    {
+    "id": "9ee1d27569",
+    "title": "The Fed Just Put AI on Its List of Inflation Shocks, Next to Tariffs and Oil - 24/7 Wall St.",
+    "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPRTB5M19SNHptejBIUW1vS3pydy05U21fMWphSU93VGx4dFU2RktZd1E0LUdqSi1qdUVGQmVVdUVZU2U2cTJJWFRiZGhIenlxZnE1UTlocUZyaGJjY2hUZ2xoak9OMWhKWkNxRHVXbjY5QkNDd01oUlMtSzNHTERTSmR1U3R4SjlaOG5kVmZKN3VTMEFWYVNIOUhNblQyYnlPWEF0MmdlQnd3YlYyRXhnSGdiM1JmT093c0hN?oc=5",
+    "source": "gnews_macro",
+    "published_utc": "2026-10-07T14:35:00+00:00",
+    "score": 11.97,
+    "duplicates": 0
+   },
+   {
     "id": "f47b17eb32",
     "title": "US Stock Futures Fall as Treasury Yields Rise Ahead of Fed Minutes: Dow Jones, S&P, Nasdaq, Wall Street - Yahoo Finance",
     "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOQjRSblBYcExWc2RxUVVIM3h2djhkZkFUYVZIT2FjOXVMd2R0cWFPdUFxTVprLTkydmlOcnU5djhHdDBHVmo4VVB6X25XSnhZalJmLWQwcWozZ3dDaFB0ckRCWXBTVFllNkM1NmpEQ1duOXpNa3NEQlJWV0Npb1U2SjlrbzdYUjJSeUtWZmlJNnRobzZrUUw1cjZzRQ?oc=5",
     "source": "gnews_futures",
     "published_utc": "2026-10-07T13:20:38+00:00",
-    "score": 10.81,
+    "score": 10.76,
     "duplicates": 2
    },
    {
@@ -3085,7 +3110,7 @@
     "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQYVR1SWJIc3F3a3hBaDV0UTVyLXBjandmNkpBTzh1ODNxSkhVMGctdm05MnZoR242QjlkQ2w1akZVY1l5UEhJWkI1aHd1OEJQVkEzOVZpNGpFX0hVMU51Ml9GVDBCbVRwaWZRNHk5Vmh2QmZZUjYwRnB5Uzl2M2NFcFNCZGFnYU01MEx4TmRhSlhuS3lSVjhIUTFqLXVSVWFfZXFfX0pZcFpQV24xd0ZkT0QzYVNVWFh1SFFydm1US1BrM0sy?oc=5",
     "source": "gnews_futures",
     "published_utc": "2026-10-07T10:35:22+00:00",
-    "score": 10.35,
+    "score": 10.31,
     "duplicates": 0
    },
    {
@@ -3094,7 +3119,7 @@
     "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPOUpNMU5jMHZ1MHpnWUJwamoxWHZDRm1Xc0lGX0NxbFRwelUxbTJyTkNDcDlRN2dUQTBtOVBPLWc5dnRaNXQ5WWc2anI5NEIxWnlPUVkydXBIZm1kTTRfQ0V1Y1d2eXRabFRmQmI1WVlSUUV0RTE2X09RQ3BPMjJZV2ZkNGlUdmNYc19LWTJxUE1kNWxiY3AwSjhBX1puQkg2ZlNpeEJhTk1Nb3NRbzgwYXRLQlE3RlNW?oc=5",
     "source": "gnews_fed",
     "published_utc": "2026-10-07T08:43:33+00:00",
-    "score": 8.54,
+    "score": 8.49,
     "duplicates": 1
    },
    {
@@ -3103,7 +3128,7 @@
     "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPOEZ4ZkVwLTRqTWJuS2MxLWJielZ2MW9VYzlQNGc1OU9GZHRTV1pEb2xBTTFJQ3YxMlFRZmJjVFZpUW5qamh0QmN4TUZ4blNYVmotRDRjQ2VkTTJXUTdpMEpLVXlvajEzTkVlSTluWVlZUFg1bW1lRkdJaktjV2p2MUVXNlNhaWw1Q3R0emp0Sm5vcUJKMGE4cVl3a09ldWJacW4xZmhaMHRZSHJ2bUZB?oc=5",
     "source": "gnews_futures",
     "published_utc": "2026-10-07T13:13:22+00:00",
-    "score": 8.29,
+    "score": 8.24,
     "duplicates": 1
    },
    {
@@ -3112,7 +3137,7 @@
     "link": "https://news.google.com/rss/articles/CBMiqwJBVV95cUxNLUZLd0x4Mmh3OUJQWUZQelIzbWFoMW95U1loMnRaQWNrMHJodGJMV3BtQWs5Rjl0RVdzNmVYVk0ya3J0cEpWajd2dU8yQmJuSHpMZ3B6Qm03dEpOUmtWY0IzaUhJM19CNFU0UTE4NDFucS04Ulc4TDdnTlRNLUdlb1J3ZXRKTUN0cV8tT2tub21tZ29QWVpUWHpoMTZzUlZaUFo2dHhUVDl4WXdxVUhkZklLZTJlZmk1bVM2MnowYWlMRFlkQzVHLTUtbjNQeWQtckREVkpCZVc2SmZrNU1fc055Uy1ieWV6NzdmZjBXZWRZVXVvSWtyRHMyc3JLM09nZm5hc2RfOHNYZUNrWloxX0QxdHA4ODVOTVBwREJlQjVtb0VKbndrQTlzWQ?oc=5",
     "source": "gnews_futures",
     "published_utc": "2026-10-07T12:36:45+00:00",
-    "score": 8.19,
+    "score": 8.14,
     "duplicates": 0
    },
    {
@@ -3121,7 +3146,7 @@
     "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPY2lvUENjSmxUSHp3eDVGNV9JVk40WWZORGltR1p3MjJsREpPZFFwemlJNFl1YmpTUXAzZmFjbnpDVXJNMnlkRHRDNHVKWGhlU0F0WU5yVWtUUFkyRGVTOWQ0bE9BWThCSUdPMlRpck9MSU5YdldfOGVPMm5KbW9RUVgwZ2ktUGVOMnVjdGM0M1BLRjFZQ3RkekFHMnNwQ1lYSEZJdHNDbw?oc=5",
     "source": "gnews_fed",
     "published_utc": "2026-10-07T12:32:00+00:00",
-    "score": 8.17,
+    "score": 8.13,
     "duplicates": 0
    },
    {
@@ -3130,7 +3155,7 @@
     "link": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxQTWZOQms2c0JHQ3JoYXIzTnFrcEt3Z3llUkQ5OVBXWERCc01rSWRsX29pc1dQYTQ4WWJha1BsUFRBazJKZjFXR2RaVzRiX0NqN081azNaYU1oeGlWMmJRcHRrbWdiX00xcVBFcWtNTExMMWhVR2xWbmc2WHpZX2NaT2FRd1c2UFNadnN0Q255M25Ca1c4allVS1BudEFGVF9lTjRlaXVFV2E3QnZNUWtEc24zVDlEZ0ZNUnBXSEpmZWhHd1RrOUVoR0pOZmVuWktWeVFTcGdvTDZjVGJ2Mm5valB5Z0xqSWpzQUxUUQ?oc=5",
     "source": "gnews_futures",
     "published_utc": "2026-10-07T12:10:22+00:00",
-    "score": 8.11,
+    "score": 8.07,
     "duplicates": 0
    },
    {
@@ -3139,7 +3164,7 @@
     "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQR2ZHZEVzNU45d1VKanNHNFd2RVU1U2FrTTFYdk5VVEFWTFlsSnJYWXl6dmdxYkdWbkxXM1R5UkpocGFnVXJPSE5CNVNMcUpOaDdXMGZYejYwck15a2hfUW1OV3dBWTgtSjVFbE9aS2ZyVENMeVozYUpEbVkzcW40ekE3SllEUk9zMFhjQUhnZVliRlp4ZDVGWg?oc=5",
     "source": "gnews_futures",
     "published_utc": "2026-10-07T13:51:38+00:00",
-    "score": 7.89,
+    "score": 7.85,
     "duplicates": 0
    },
    {
@@ -3148,7 +3173,7 @@
     "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPWkdWaEd6cGc5Yy12UGdRbVZCb09hZzdMTHdfNk1JRWlNUmYySjkxbnY1cExKVGc0b3FQejFqSE1SR2JDOHhRM25mZk9BdGJkU1liWlNFQ1pFS3lRbFZ6bk1jb2RlWEk5dW9VS01tZnNVSE9WM0E2Y3kzWGtkWW9yb1dJMEo5aDJubUdfdTJraENKRUZJT1IxNWl1dVVBaDUtUkwtRWlxTmlpTzM3MzZVUUZnczBzNHBSbmfSAb8BQVVfeXFMT09pRGx5UnRiZEFveWl3TnA4dmQ5LWJlQXY3bmM5SWRRbFh0RnBaS28waWxlWUs5LVJsQVowZEVxbExGTGhYQWpwdDdwcURpaHYzTGNlTE50bkdiX05JVFNUV0piZjJXdUJSYjRCR1gxOFBUcWRyak1XY0Y2Y25nRXB3M2JTTTVjUFlUUWI2bXhHX2g3NHlkeGg1NnVHRmsyM3hIZHVNa0xvZ3JicVdIbXRWYTg0enVFTVFxTzI2LXc?oc=5",
     "source": "gnews_futures",
     "published_utc": "2026-10-07T08:59:27+00:00",
-    "score": 7.58,
+    "score": 7.54,
     "duplicates": 2
    },
    {
@@ -3157,7 +3182,7 @@
     "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQeEw5X0I0WGJqRlE4d2tLZ0dRZmhwOGIwOTZUOWNkYmRrQUpBemZXTGdfeHg3MHRudUozLUtWdkFKSElUaDI1ZVlJT3hnVElsVjRXdkVKdE9BZ0xBS3FjT1pCdWNSdzNqMDl5MzdNSFFud3JlNWdZZ25oNEVhUlpTV0lvNm9mc2lEbHpSU3VQUE9oM2pONEdwUWdkbFl5OWEtM0paM1FxTi11aGY1TTZJSnBVVzdwZHFOQzRDWlRKN1REcjJ0OGc?oc=5",
     "source": "gnews_futures",
     "published_utc": "2026-10-07T11:15:14+00:00",
-    "score": 7.46,
+    "score": 7.42,
     "duplicates": 0
    },
    {
@@ -3166,30 +3191,21 @@
     "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE5VaDNFMzhkVzNsck1fVkt1akFKNlhaSHZoNUVEYVZGLU5ScEtEZ1NYOHdiVnpLTWlaU1AxX3BMc3A0clV5ZDBxaUxSQnhEN2dWdlB4YzcwN2FBQy16Z3ZxbHlOdTNSbnZEdzVDRnBJZmZ0UElj?oc=5",
     "source": "gnews_fed",
     "published_utc": "2026-10-07T10:52:06+00:00",
-    "score": 7.39,
-    "duplicates": 0
-   },
-   {
-    "id": "99fba2837f",
-    "title": "US Stock Futures Dip as Markets Await Fed Minutes and Corporate Updates: Dow Jones, S&P, Nasdaq, Wall Street - Yahoo Finance UK",
-    "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQeUJjVVNlVzdKQTNpOGEtZXhBYUtDRzFKMWFqUDUxdTFkMTV0VmtxZUxyeTBmS2c3UTliS1I2dnd4OHVnN1ZtdUxCYzlTcFNRcW5qS2tpa2tEZGdhZFNmQ1dQUG5xUEJIdThiNXoyQkxlbXhhbHROUjRJclEzTEJ0UGZRdw?oc=5",
-    "source": "gnews_futures",
-    "published_utc": "2026-10-07T09:28:05+00:00",
-    "score": 7.16,
+    "score": 7.35,
     "duplicates": 0
    }
   ],
   "summary": {
    "lines": [
-    "Treasury yields rebounded and pressured S&P 500/Nasdaq/Dow futures into the open, with most wires citing this as the dominant pre-market driver [f47b17eb32][80cf6b84a9][75491339c4][c48ad6e258][4f9317cd63][99fba2837f][35aeb068bc].",
-    "FOMC Meeting Minutes due 14:00 ET are the key scheduled catalyst traders are positioning ahead of, alongside the 13:00 ET 10-Year note auction [64e48eab4a][4a09ed2a56][78d09dd5e9].",
-    "The 30-year Treasury yield hit its highest level since 2002, a headline risk factor for rate-sensitive Nasdaq names [deda878578]."
+    "Futures fell into the cash open as Treasury yields rose, with the 30-year hitting a 2002 high, pressuring index futures ahead of the FOMC minutes [f47b17eb32][78d09dd5e9][deda878578][4a09ed2a56].",
+    "FOMC Minutes drop at 14:00 ET, with markets positioned defensively beforehand per multiple previews [64e48eab4a][80cf6b84a9][75491339c4][c48ad6e258].",
+    "Rising bond yields are weighing specifically on chip stocks, a key Nasdaq futures driver [80cf6b84a9].",
+    "The Fed reportedly added AI to its list of inflation shocks alongside tariffs and oil, a new line of commentary for rate-sensitive tech [9ee1d27569].",
+    "Iran's rhetoric on sealing the Strait of Hormuz and mocking the US economy is cited alongside oil/yield pressure on futures [deda878578][64e48eab4a]."
    ],
    "backend": "anthropic",
    "model": "claude-sonnet-5",
-   "dropped": [
-    "no valid citation: Iran's plan to seal the Strait of Hormuz and rhetoric mocking the US economy add a geopolitical risk layer alongside rising o"
-   ],
+   "dropped": [],
    "warnings": []
   },
   "feeds": [],
