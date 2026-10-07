@@ -1,7 +1,7 @@
 {
  "meta": {
-  "generated_at_utc": "2026-10-07T12:12:15.698758+00:00",
-  "generated_at_local": "Wed 07 Oct 2026 09:12 ADT",
+  "generated_at_utc": "2026-10-07T12:27:33.641574+00:00",
+  "generated_at_local": "Wed 07 Oct 2026 09:27 ADT",
   "trading_day": "2026-10-07",
   "display_tz": "America/Halifax",
   "version": "0.1.0",
@@ -145,7 +145,7 @@
    "time_utc": "2026-10-07T17:00:00+00:00",
    "local": "14:00 ADT",
    "et": "13:00 ET",
-   "in": "4h 47m",
+   "in": "4h 32m",
    "consensus": null,
    "prior": null
   },
@@ -156,10 +156,10 @@
   {
    "root": "ES",
    "trading_day": "2026-10-07",
-   "as_of_utc": "2026-10-07T12:12:15.698758+00:00",
+   "as_of_utc": "2026-10-07T12:27:33.641574+00:00",
    "source": "yahoo",
    "delayed": true,
-   "last_price": 7845.25,
+   "last_price": 7844.75,
    "levels": [
     {
      "tag": "exp_hi",
@@ -194,7 +194,7 @@
      "label": "Overnight high",
      "price": 7884.5,
      "group": "overnight",
-     "note": "since 18:00 ET, 818 bars"
+     "note": "since 18:00 ET, 833 bars"
     },
     {
      "tag": "poc",
@@ -218,18 +218,18 @@
      "note": "70 % value area"
     },
     {
-     "tag": "onvwap",
-     "label": "Overnight VWAP",
-     "price": 7862.86,
-     "group": "overnight",
-     "note": "typical-price VWAP"
-    },
-    {
      "tag": "pdo",
      "label": "Prior-day RTH open",
      "price": 7862.75,
      "group": "prior_day",
      "note": "2026-10-06"
+    },
+    {
+     "tag": "onvwap",
+     "label": "Overnight VWAP",
+     "price": 7862.19,
+     "group": "overnight",
+     "note": "typical-price VWAP"
     },
     {
      "tag": "pdl",
@@ -303,14 +303,14 @@
     }
    ],
    "stats": {
-    "last_bar_utc": "2026-10-07T12:02:00+00:00",
-    "last_bar_age_min": 10.3,
+    "last_bar_utc": "2026-10-07T12:17:00+00:00",
+    "last_bar_age_min": 10.6,
     "market_state": "open",
     "profile_volume": 941821.0,
     "prior_day": "2026-10-06",
     "prior_day_rth_range": 37.25,
     "overnight_range": 49.0,
-    "gap_vs_prior_close": -28.0,
+    "gap_vs_prior_close": -28.5,
     "gap_basis": "last price (pre-market)",
     "atr14": 82.58,
     "atr_days": 14,
@@ -1507,19 +1507,27 @@
      "t": "2026-10-07T12:00:00+00:00",
      "o": 7844.5,
      "h": 7845.75,
-     "l": 7843.25,
-     "c": 7845.25,
-     "v": 1493.0
+     "l": 7841.75,
+     "c": 7844.25,
+     "v": 7354.0
+    },
+    {
+     "t": "2026-10-07T12:15:00+00:00",
+     "o": 7844.25,
+     "h": 7846.5,
+     "l": 7843.0,
+     "c": 7844.75,
+     "v": 1349.0
     }
    ]
   },
   {
    "root": "NQ",
    "trading_day": "2026-10-07",
-   "as_of_utc": "2026-10-07T12:12:15.698758+00:00",
+   "as_of_utc": "2026-10-07T12:27:33.641574+00:00",
    "source": "yahoo",
    "delayed": true,
-   "last_price": 31270.75,
+   "last_price": 31270.5,
    "levels": [
     {
      "tag": "exp_hi",
@@ -1561,7 +1569,7 @@
      "label": "Overnight high",
      "price": 31521.0,
      "group": "overnight",
-     "note": "since 18:00 ET, 819 bars"
+     "note": "since 18:00 ET, 834 bars"
     },
     {
      "tag": "pdo",
@@ -1594,7 +1602,7 @@
     {
      "tag": "onvwap",
      "label": "Overnight VWAP",
-     "price": 31399.56,
+     "price": 31397.04,
      "group": "overnight",
      "note": "typical-price VWAP"
     },
@@ -1663,14 +1671,14 @@
     }
    ],
    "stats": {
-    "last_bar_utc": "2026-10-07T12:02:00+00:00",
-    "last_bar_age_min": 10.3,
+    "last_bar_utc": "2026-10-07T12:17:00+00:00",
+    "last_bar_age_min": 10.6,
     "market_state": "open",
     "profile_volume": 348525.0,
     "prior_day": "2026-10-06",
     "prior_day_rth_range": 158.75,
     "overnight_range": 303.75,
-    "gap_vs_prior_close": -210.0,
+    "gap_vs_prior_close": -210.25,
     "gap_basis": "last price (pre-market)",
     "atr14": 493.13,
     "atr_days": 14,
@@ -2874,10 +2882,18 @@
     {
      "t": "2026-10-07T12:00:00+00:00",
      "o": 31267.0,
-     "h": 31274.0,
+     "h": 31277.0,
      "l": 31260.75,
-     "c": 31270.75,
-     "v": 450.0
+     "c": 31268.75,
+     "v": 2117.0
+    },
+    {
+     "t": "2026-10-07T12:15:00+00:00",
+     "o": 31268.25,
+     "h": 31280.75,
+     "l": 31259.75,
+     "c": 31270.5,
+     "v": 343.0
     }
    ]
   }
@@ -2890,7 +2906,16 @@
     "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQYVR1SWJIc3F3a3hBaDV0UTVyLXBjandmNkpBTzh1ODNxSkhVMGctdm05MnZoR242QjlkQ2w1akZVY1l5UEhJWkI1aHd1OEJQVkEzOVZpNGpFX0hVMU51Ml9GVDBCbVRwaWZRNHk5Vmh2QmZZUjYwRnB5Uzl2M2NFcFNCZGFnYU01MEx4TmRhSlhuS3lSVjhIUTFqLXVSVWFfZXFfX0pZcFpQV24xd0ZkT0QzYVNVWFh1SFFydm1US1BrM0sy?oc=5",
     "source": "gnews_futures",
     "published_utc": "2026-10-07T10:35:22+00:00",
-    "score": 10.73,
+    "score": 10.69,
+    "duplicates": 0
+   },
+   {
+    "id": "35aeb068bc",
+    "title": "Wall Street To Open In Red After S&P Record High? Rising Yields Among Three Reasons US Stock Futures Are Slipping - NDTV Profit",
+    "link": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxQTWZOQms2c0JHQ3JoYXIzTnFrcEt3Z3llUkQ5OVBXWERCc01rSWRsX29pc1dQYTQ4WWJha1BsUFRBazJKZjFXR2RaVzRiX0NqN081azNaYU1oeGlWMmJRcHRrbWdiX00xcVBFcWtNTExMMWhVR2xWbmc2WHpZX2NaT2FRd1c2UFNadnN0Q255M25Ca1c4allVS1BudEFGVF9lTjRlaXVFV2E3QnZNUWtEc24zVDlEZ0ZNUnBXSEpmZWhHd1RrOUVoR0pOZmVuWktWeVFTcGdvTDZjVGJ2Mm5valB5Z0xqSWpzQUxUUQ?oc=5",
+    "source": "gnews_futures",
+    "published_utc": "2026-10-07T12:10:22+00:00",
+    "score": 8.45,
     "duplicates": 0
    },
    {
@@ -2899,7 +2924,7 @@
     "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPOUpNMU5jMHZ1MHpnWUJwamoxWHZDRm1Xc0lGX0NxbFRwelUxbTJyTkNDcDlRN2dUQTBtOVBPLWc5dnRaNXQ5WWc2anI5NEIxWnlPUVkydXBIZm1kTTRfQ0V1Y1d2eXRabFRmQmI1WVlSUUV0RTE2X09RQ3BPMjJZV2ZkNGlUdmNYc19LWTJxUE1kNWxiY3AwSjhBX1puQkg2ZlNpeEJhTk1Nb3NRbzgwYXRLQlE3RlNW?oc=5",
     "source": "gnews_fed",
     "published_utc": "2026-10-07T08:43:33+00:00",
-    "score": 8.42,
+    "score": 8.38,
     "duplicates": 0
    },
    {
@@ -2908,25 +2933,25 @@
     "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPWkdWaEd6cGc5Yy12UGdRbVZCb09hZzdMTHdfNk1JRWlNUmYySjkxbnY1cExKVGc0b3FQejFqSE1SR2JDOHhRM25mZk9BdGJkU1liWlNFQ1pFS3lRbFZ6bk1jb2RlWEk5dW9VS01tZnNVSE9WM0E2Y3kzWGtkWW9yb1dJMEo5aDJubUdfdTJraENKRUZJT1IxNWl1dVVBaDUtUkwtRWlxTmlpTzM3MzZVUUZnczBzNHBSbmfSAb8BQVVfeXFMT09pRGx5UnRiZEFveWl3TnA4dmQ5LWJlQXY3bmM5SWRRbFh0RnBaS28waWxlWUs5LVJsQVowZEVxbExGTGhYQWpwdDdwcURpaHYzTGNlTE50bkdiX05JVFNUV0piZjJXdUJSYjRCR1gxOFBUcWRyak1XY0Y2Y25nRXB3M2JTTTVjUFlUUWI2bXhHX2g3NHlkeGg1NnVHRmsyM3hIZHVNa0xvZ3JicVdIbXRWYTg0enVFTVFxTzI2LXc?oc=5",
     "source": "gnews_futures",
     "published_utc": "2026-10-07T08:59:27+00:00",
-    "score": 7.96,
+    "score": 7.92,
     "duplicates": 2
    },
    {
-    "id": "90440d8e74",
-    "title": "Wall St futures slip as yields and oil rebound; Fed minutes in focus - Yahoo Finance",
-    "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQSWd2SUxhQmZhWFdHVmV1MkVfOFdtSTdVUkhkakRlcWZsbXp6alNMbzRWNUdPVmJ4MzZlOGV0SzNwWUxkc0R2bTVkSE9naEVDbEd2NDltWEhKRkxpVmNGQ2Z0bU9ja01Ha1dyZGRQMkk3eElGb3dVa1U0WGhoLU1RNXp2eWgtMlNKTjlrcE5RZjFQci1pX1FZ?oc=5",
+    "id": "4ab8b669bc",
+    "title": "Wall St futures slip as yields and oil rebound; Fed minutes in focus - The Mighty 790 KFGO",
+    "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPS3piaUMxVVFZbUppX281QVFZbTBwaGFqeFVyX0x0azNNMHdEeTNYTXZqUXVRVVhpYTZTVHNLZ3dBeGtFWU83dFhXOXdTRjhxV3JmV2IwaEZqMU5kZUJqVHJfdHZtTWdheTFOdEpqdTVQQWx4OGJ6cEluYUdhR2NWdXJ1VWI3OG14d1I5dF9wVmdBV1ZOUEV0dTF4a3c?oc=5",
     "source": "gnews_fed",
-    "published_utc": "2026-10-07T10:36:42+00:00",
-    "score": 7.73,
+    "published_utc": "2026-10-07T11:10:15+00:00",
+    "score": 7.79,
     "duplicates": 0
    },
    {
     "id": "ae28b142ca",
-    "title": "U.S. stock futures dip after S&P 500, Nasdaq hit records; Fed minutes awaited - Investing.com",
+    "title": "U.S. stock futures fall after S&P 500, Nasdaq hit records; Fed minutes awaited - Investing.com",
     "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPQm5JR1Q5NDRrNTM3MEc0VlpHYUhGUlBpdTNKcFRwNWllc0ZFdFIxeVhnclEtZmRDNE9TTTFhM0o0YjBRRURBS0pKU3VvRU1wOTJTZDBHMHU3RVZVWm5IZ0I0bUtWcmVIUGhqWUFnSzlFWVVYMjRBbkg0UDZBS1dCX3htamJoellzYWJ1ZHcwaDRVeE1wbFJmem9Gb0VXZEhrVm5hNFBWUUNqRUNKZ09ydkxkZ0FYeFItTF9jRUl4VExkQTlTRlpR?oc=5",
     "source": "gnews_futures",
     "published_utc": "2026-10-07T09:49:36+00:00",
-    "score": 7.6,
+    "score": 7.56,
     "duplicates": 0
    },
    {
@@ -2935,7 +2960,7 @@
     "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQeUJjVVNlVzdKQTNpOGEtZXhBYUtDRzFKMWFqUDUxdTFkMTV0VmtxZUxyeTBmS2c3UTliS1I2dnd4OHVnN1ZtdUxCYzlTcFNRcW5qS2tpa2tEZGdhZFNmQ1dQUG5xUEJIdThiNXoyQkxlbXhhbHROUjRJclEzTEJ0UGZRdw?oc=5",
     "source": "gnews_futures",
     "published_utc": "2026-10-07T09:28:05+00:00",
-    "score": 7.54,
+    "score": 7.5,
     "duplicates": 0
    },
    {
@@ -2944,7 +2969,7 @@
     "link": "https://www.cnbc.com/2026/10/07/economy-inflation-ai-trade-imf-iran-hormuz-trump-.html",
     "source": "cnbc_markets",
     "published_utc": "2026-10-07T06:16:39+00:00",
-    "score": 7.51,
+    "score": 7.47,
     "duplicates": 0
    },
    {
@@ -2953,17 +2978,8 @@
     "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOa09oMHp5YXp6SGpUbGxJenBJOFNtZS0wUVpPMkVscm1uRGRCaGVTOV8wTGNHVlM3RWwxTkdoZ1RPaGpJQ0poOVBEQk51bVkwWTUzakh3LUlSZ0d6MzFvQ2pXZURCVlFNOFlzVGJoUDRPczlpMDJOaWRYUm54N0l3V0w4N0J6U1pzTHBaZDRTRTZFRVU?oc=5",
     "source": "gnews_fed",
     "published_utc": "2026-10-07T03:43:48+00:00",
-    "score": 7.09,
+    "score": 7.05,
     "duplicates": 0
-   },
-   {
-    "id": "0e88825c74",
-    "title": "Apple to report Q4 2026 earnings on November 2 - The Apple Post",
-    "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQeDhmQ2k0ZnVBNzhYOGpLUnRETWo4M0s2bmdpVUlMWDkzN1UybG9qalJaaUFmR0xmWWYzYjVpSjZnRmJUeXRXdnJiZVdaSnRMZmx2OENUdDQzM0xRS3FuR0VtamxnMWRuMlVzSUJvODQ5UUxtczRManN5T1YtNHRka1dWSV9wa2NjTUlmVDNSWjdnVnhaMHFpQdIBngFBVV95cUxPZmFsTkJERVhGd2tSeGhDMll6X1VCRTZwcVRuVDQ1SEVaa3RZRllFUU53blZDb0FVLWdxNmZOWFJUZ2NOUENKaTFFalpJQW5VVEVvcGpkMU1nWTFUSUxYNkFIZDRLVWRUcFZQZTRsRl9KdF90TW1aeV9BbTlaNFR0dU80X29FaV95S09vRzFON1NXWXF2bm8tZEx1Y3RqQQ?oc=5",
-    "source": "gnews_megacap",
-    "published_utc": "2026-10-07T11:35:31+00:00",
-    "score": 6.9,
-    "duplicates": 4
    },
    {
     "id": "10004a348f",
@@ -2971,7 +2987,7 @@
     "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPN2NaLTd5SDJmeVdSQUJ1VU1aQjBQeG9jVDNPVjNFdXUwWm1UeWt3bjQyRDc3WF85NGRnTWZEZnBsd0l0X2ZROTRqQWpORy03LXV4R01ZMVNwaWlxa09oQlJkTWVVbzl6SVVYaEFzaW1oMFJ0dmNCTjJEcUxSRHRhZ05JTkZKRmVmVXZLX0RCbzRVaWZXZGNQWlplVUNuWnpmN1Y1a0Y3SXdRVE1hR1NMVA?oc=5",
     "source": "gnews_macro",
     "published_utc": "2026-10-07T10:45:01+00:00",
-    "score": 6.76,
+    "score": 6.72,
     "duplicates": 0
    },
    {
@@ -2980,30 +2996,31 @@
     "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOMlRrX0FHaDB4MEJqTUFJVWZtZnN6VkUyU2Vsb0JrUjR4ck90OU9tVi0zWG1ZUFk0cVU5WDFSa0tOZTBYZmZoLVBhVGoyTWlOdUZQZnFUM3h3SmZmdFZzQUQ2Rm03aVRqbmtWUF9qelRjcXlyMmZNelZhQy1NenhqZXlvQzlTdGptTG91NnJ3Wjl3R3JvdlVuek5hUjV5Umo1dG1uX181bVVDRS1GNENpRDFfRVY?oc=5",
     "source": "gnews_macro",
     "published_utc": "2026-10-07T07:35:18+00:00",
-    "score": 6.73,
+    "score": 6.69,
     "duplicates": 0
    },
    {
-    "id": "65d428271c",
-    "title": "SpaceX reportedly is looking to borrow as much money as the company generates in revenue to buy Nvidia chips",
-    "link": "https://www.marketwatch.com/story/spacex-reportedly-is-looking-to-raise-as-much-money-as-the-company-generates-in-revenue-to-buy-nvidia-chips-01ca6d82?mod=mw_rss_topstories",
-    "source": "marketwatch_top",
-    "published_utc": "2026-10-07T11:11:00+00:00",
-    "score": 6.33,
-    "duplicates": 0
+    "id": "0e88825c74",
+    "title": "Apple to report Q4 2026 earnings on November 2 - The Apple Post",
+    "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQeDhmQ2k0ZnVBNzhYOGpLUnRETWo4M0s2bmdpVUlMWDkzN1UybG9qalJaaUFmR0xmWWYzYjVpSjZnRmJUeXRXdnJiZVdaSnRMZmx2OENUdDQzM0xRS3FuR0VtamxnMWRuMlVzSUJvODQ5UUxtczRManN5T1YtNHRka1dWSV9wa2NjTUlmVDNSWjdnVnhaMHFpQdIBngFBVV95cUxPZmFsTkJERVhGd2tSeGhDMll6X1VCRTZwcVRuVDQ1SEVaa3RZRllFUU53blZDb0FVLWdxNmZOWFJUZ2NOUENKaTFFalpJQW5VVEVvcGpkMU1nWTFUSUxYNkFIZDRLVWRUcFZQZTRsRl9KdF90TW1aeV9BbTlaNFR0dU80X29FaV95S09vRzFON1NXWXF2bm8tZEx1Y3RqQQ?oc=5",
+    "source": "gnews_megacap",
+    "published_utc": "2026-10-07T11:35:31+00:00",
+    "score": 6.36,
+    "duplicates": 3
    }
   ],
   "summary": {
    "lines": [
-    "Rising Treasury yields are pressuring Nasdaq futures and chip stocks ahead of the 14:00 ET FOMC Minutes release, with the 13:00 ET 10-Year note auction also in view. [80cf6b84a9][75491339c4][90440d8e74][ae28b142ca][99fba2837f]",
-    "Futures dipped after the S&P 500 and Nasdaq closed at records, with traders positioning around the Fed minutes and awaiting corporate updates. [ae28b142ca][99fba2837f]",
-    "S&P 500 futures edged higher earlier on firm Services PMI and inflation data before the yield-driven pullback. [1b3c5dfd45]",
-    "Gold fell as the US Dollar and Treasury yields rebounded ahead of the Fed Minutes, reflecting the same rates backdrop affecting equity futures. [10004a348f]",
-    "Reports that SpaceX is seeking to borrow $40 billion to buy Nvidia chips add an AI-financing headline relevant to chip-sector sentiment. [65d428271c]"
+    "Nasdaq and S&P futures are slipping as Treasury yields rebound ahead of the 14:00 ET FOMC Minutes, with chip stocks cited as a drag [80cf6b84a9][35aeb068bc][75491339c4][4ab8b669bc][ae28b142ca][99fba2837f].",
+    "Futures had edged higher overnight on firm Services PMI data before fading as yields rose [1b3c5dfd45].",
+    "Fed officials and IMF chief Georgieva both flagged AI investment as a new inflation and yield driver, a theme traders may hear echoed in today's minutes [1aa8280f8d][0f7bb7f0ac].",
+    "Gold fell alongside the dollar and yields rebounding ahead of the Fed minutes, consistent with the broader rates-driven risk tone [10004a348f]."
    ],
    "backend": "anthropic",
    "model": "claude-sonnet-5",
-   "dropped": [],
+   "dropped": [
+    "no valid citation: The 10-Year note auction and President Trump's remarks both land at 13:00 ET, just before the 14:00 ET Fed minutes release, adding event risk into the early afternoon."
+   ],
    "warnings": []
   },
   "feeds": [],
