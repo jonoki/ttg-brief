@@ -1,11 +1,11 @@
 {
  "meta": {
-  "generated_at_utc": "2026-10-08T12:27:44.335865+00:00",
-  "generated_at_local": "Thu 08 Oct 2026 09:27 ADT",
+  "generated_at_utc": "2026-10-08T12:40:03.898206+00:00",
+  "generated_at_local": "Thu 08 Oct 2026 09:40 ADT",
   "trading_day": "2026-10-08",
   "display_tz": "America/Halifax",
   "version": "0.1.0",
-  "run": "overnight",
+  "run": "post-data",
   "variant": "public"
  },
  "calendar": {
@@ -104,14 +104,14 @@
    }
   ],
   "next_event": {
-   "name": "Unemployment Claims",
-   "impact": "medium",
-   "time_utc": "2026-10-08T12:30:00+00:00",
-   "local": "09:30 ADT",
-   "et": "08:30 ET",
-   "in": "2 min",
-   "consensus": "200K",
-   "prior": "197K"
+   "name": "30-Year bond auction (reopening)",
+   "impact": "high",
+   "time_utc": "2026-10-08T17:00:00+00:00",
+   "local": "14:00 ADT",
+   "et": "13:00 ET",
+   "in": "4h 19m",
+   "consensus": null,
+   "prior": null
   },
   "sources": [],
   "warnings": []
@@ -120,10 +120,10 @@
   {
    "root": "ES",
    "trading_day": "2026-10-08",
-   "as_of_utc": "2026-10-08T12:27:44.335865+00:00",
+   "as_of_utc": "2026-10-08T12:40:03.898206+00:00",
    "source": "yahoo",
    "delayed": true,
-   "last_price": 7820.25,
+   "last_price": 7824.75,
    "levels": [
     {
      "tag": "exp_hi",
@@ -165,7 +165,7 @@
      "label": "Overnight high",
      "price": 7858.25,
      "group": "overnight",
-     "note": "since 18:00 ET, 848 bars"
+     "note": "since 18:00 ET, 861 bars"
     },
     {
      "tag": "poc",
@@ -198,7 +198,7 @@
     {
      "tag": "onvwap",
      "label": "Overnight VWAP",
-     "price": 7829.39,
+     "price": 7829.23,
      "group": "overnight",
      "note": "typical-price VWAP"
     },
@@ -267,14 +267,14 @@
     }
    ],
    "stats": {
-    "last_bar_utc": "2026-10-08T12:17:00+00:00",
-    "last_bar_age_min": 10.7,
+    "last_bar_utc": "2026-10-08T12:30:00+00:00",
+    "last_bar_age_min": 10.1,
     "market_state": "open",
     "profile_volume": 1049349.0,
     "prior_day": "2026-10-07",
     "prior_day_rth_range": 43.75,
     "overnight_range": 55.5,
-    "gap_vs_prior_close": -31.0,
+    "gap_vs_prior_close": -26.5,
     "gap_basis": "last price (pre-market)",
     "atr14": 80.14,
     "atr_days": 14,
@@ -1478,20 +1478,28 @@
     {
      "t": "2026-10-08T12:15:00+00:00",
      "o": 7820.25,
-     "h": 7820.75,
+     "h": 7825.5,
      "l": 7817.0,
-     "c": 7820.25,
-     "v": 2848.0
+     "c": 7824.75,
+     "v": 8121.0
+    },
+    {
+     "t": "2026-10-08T12:30:00+00:00",
+     "o": 7824.75,
+     "h": 7825.0,
+     "l": 7820.0,
+     "c": 7824.75,
+     "v": 0.0
     }
    ]
   },
   {
    "root": "NQ",
    "trading_day": "2026-10-08",
-   "as_of_utc": "2026-10-08T12:27:44.335865+00:00",
+   "as_of_utc": "2026-10-08T12:40:03.898206+00:00",
    "source": "yahoo",
    "delayed": true,
-   "last_price": 31184.25,
+   "last_price": 31216.25,
    "levels": [
     {
      "tag": "exp_hi",
@@ -1519,7 +1527,7 @@
      "label": "Overnight high",
      "price": 31466.0,
      "group": "overnight",
-     "note": "since 18:00 ET, 848 bars"
+     "note": "since 18:00 ET, 861 bars"
     },
     {
      "tag": "pdh",
@@ -1550,9 +1558,16 @@
      "note": "2026-10-07 RTH, bin 1.0"
     },
     {
+     "tag": "rn_major_up",
+     "label": "Round 100 above",
+     "price": 31300.0,
+     "group": "round",
+     "note": ""
+    },
+    {
      "tag": "onvwap",
      "label": "Overnight VWAP",
-     "price": 31296.1,
+     "price": 31293.95,
      "group": "overnight",
      "note": "typical-price VWAP"
     },
@@ -1562,6 +1577,13 @@
      "price": 31282.5,
      "group": "week",
      "note": "1 session(s) of data — PARTIAL"
+    },
+    {
+     "tag": "rn_minor_up",
+     "label": "Round 50 above",
+     "price": 31250.0,
+     "group": "round",
+     "note": ""
     },
     {
      "tag": "val",
@@ -1578,16 +1600,9 @@
      "note": "2026-10-07"
     },
     {
-     "tag": "rn_major_up",
-     "label": "Round 100 above",
+     "tag": "rn_major_dn",
+     "label": "Round 100 below",
      "price": 31200.0,
-     "group": "round",
-     "note": ""
-    },
-    {
-     "tag": "rn_minor_dn",
-     "label": "Round 50 below",
-     "price": 31150.0,
      "group": "round",
      "note": ""
     },
@@ -1606,16 +1621,9 @@
      "note": ""
     },
     {
-     "tag": "rn_major_dn",
-     "label": "Round 100 below",
-     "price": 31100.0,
-     "group": "round",
-     "note": ""
-    },
-    {
      "tag": "pwl",
      "label": "Prior-week low",
-     "price": 30960.5,
+     "price": 30988.0,
      "group": "week",
      "note": "1 session(s) of data — PARTIAL"
     },
@@ -1635,14 +1643,14 @@
     }
    ],
    "stats": {
-    "last_bar_utc": "2026-10-08T12:17:00+00:00",
-    "last_bar_age_min": 10.7,
+    "last_bar_utc": "2026-10-08T12:30:00+00:00",
+    "last_bar_age_min": 10.1,
     "market_state": "open",
     "profile_volume": 361080.0,
     "prior_day": "2026-10-07",
     "prior_day_rth_range": 279.25,
     "overnight_range": 346.25,
-    "gap_vs_prior_close": -211.0,
+    "gap_vs_prior_close": -179.0,
     "gap_basis": "last price (pre-market)",
     "atr14": 481.52,
     "atr_days": 14,
@@ -2846,10 +2854,18 @@
     {
      "t": "2026-10-08T12:15:00+00:00",
      "o": 31188.5,
-     "h": 31188.75,
+     "h": 31219.5,
      "l": 31170.5,
-     "c": 31184.25,
-     "v": 1148.0
+     "c": 31217.5,
+     "v": 3755.0
+    },
+    {
+     "t": "2026-10-08T12:30:00+00:00",
+     "o": 31217.5,
+     "h": 31219.0,
+     "l": 31185.5,
+     "c": 31216.25,
+     "v": 0.0
     }
    ]
   }
