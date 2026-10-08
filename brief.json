@@ -1,7 +1,7 @@
 {
  "meta": {
-  "generated_at_utc": "2026-10-08T10:25:01.877700+00:00",
-  "generated_at_local": "Thu 08 Oct 2026 07:25 ADT",
+  "generated_at_utc": "2026-10-08T10:40:22.790583+00:00",
+  "generated_at_local": "Thu 08 Oct 2026 07:40 ADT",
   "trading_day": "2026-10-08",
   "display_tz": "America/Halifax",
   "version": "0.1.0",
@@ -109,7 +109,7 @@
    "time_utc": "2026-10-08T12:30:00+00:00",
    "local": "09:30 ADT",
    "et": "08:30 ET",
-   "in": "2h 04m",
+   "in": "1h 49m",
    "consensus": "200K",
    "prior": "197K"
   },
@@ -120,10 +120,10 @@
   {
    "root": "ES",
    "trading_day": "2026-10-08",
-   "as_of_utc": "2026-10-08T10:25:01.877700+00:00",
+   "as_of_utc": "2026-10-08T10:40:22.790583+00:00",
    "source": "yahoo",
    "delayed": true,
-   "last_price": 7821.25,
+   "last_price": 7808.75,
    "levels": [
     {
      "tag": "exp_hi",
@@ -165,7 +165,7 @@
      "label": "Overnight high",
      "price": 7858.25,
      "group": "overnight",
-     "note": "since 18:00 ET, 725 bars"
+     "note": "since 18:00 ET, 741 bars"
     },
     {
      "tag": "poc",
@@ -198,7 +198,7 @@
     {
      "tag": "onvwap",
      "label": "Overnight VWAP",
-     "price": 7837.17,
+     "price": 7835.28,
      "group": "overnight",
      "note": "typical-price VWAP"
     },
@@ -217,13 +217,6 @@
      "note": ""
     },
     {
-     "tag": "onl",
-     "label": "Overnight low",
-     "price": 7819.0,
-     "group": "overnight",
-     "note": ""
-    },
-    {
      "tag": "pdl",
      "label": "Prior-day low (RTH)",
      "price": 7815.75,
@@ -236,6 +229,13 @@
      "price": 7810.25,
      "group": "week",
      "note": "1 session(s) of data — PARTIAL"
+    },
+    {
+     "tag": "onl",
+     "label": "Overnight low",
+     "price": 7806.0,
+     "group": "overnight",
+     "note": ""
     },
     {
      "tag": "rn_major_dn",
@@ -261,20 +261,20 @@
     {
      "tag": "pwl",
      "label": "Prior-week low",
-     "price": 7751.25,
+     "price": 7753.75,
      "group": "week",
      "note": "1 session(s) of data — PARTIAL"
     }
    ],
    "stats": {
-    "last_bar_utc": "2026-10-08T10:14:00+00:00",
-    "last_bar_age_min": 11.0,
+    "last_bar_utc": "2026-10-08T10:30:00+00:00",
+    "last_bar_age_min": 10.4,
     "market_state": "open",
     "profile_volume": 1049349.0,
     "prior_day": "2026-10-07",
     "prior_day_rth_range": 43.75,
-    "overnight_range": 39.25,
-    "gap_vs_prior_close": -30.0,
+    "overnight_range": 52.25,
+    "gap_vs_prior_close": -42.5,
     "gap_basis": "last price (pre-market)",
     "atr14": 80.14,
     "atr_days": 14,
@@ -1409,17 +1409,33 @@
      "h": 7822.5,
      "l": 7819.25,
      "c": 7821.25,
-     "v": 2764.0
+     "v": 2910.0
+    },
+    {
+     "t": "2026-10-08T10:15:00+00:00",
+     "o": 7821.25,
+     "h": 7821.5,
+     "l": 7806.0,
+     "c": 7808.25,
+     "v": 13494.0
+    },
+    {
+     "t": "2026-10-08T10:30:00+00:00",
+     "o": 7807.75,
+     "h": 7809.5,
+     "l": 7806.25,
+     "c": 7808.75,
+     "v": 0.0
     }
    ]
   },
   {
    "root": "NQ",
    "trading_day": "2026-10-08",
-   "as_of_utc": "2026-10-08T10:25:01.877700+00:00",
+   "as_of_utc": "2026-10-08T10:40:22.790583+00:00",
    "source": "yahoo",
    "delayed": true,
-   "last_price": 31221.0,
+   "last_price": 31155.0,
    "levels": [
     {
      "tag": "exp_hi",
@@ -1447,7 +1463,7 @@
      "label": "Overnight high",
      "price": 31466.0,
      "group": "overnight",
-     "note": "since 18:00 ET, 725 bars"
+     "note": "since 18:00 ET, 741 bars"
     },
     {
      "tag": "pdh",
@@ -1480,16 +1496,9 @@
     {
      "tag": "onvwap",
      "label": "Overnight VWAP",
-     "price": 31338.87,
+     "price": 31332.33,
      "group": "overnight",
      "note": "typical-price VWAP"
-    },
-    {
-     "tag": "rn_major_up",
-     "label": "Round 100 above",
-     "price": 31300.0,
-     "group": "round",
-     "note": ""
     },
     {
      "tag": "pwh",
@@ -1497,13 +1506,6 @@
      "price": 31282.5,
      "group": "week",
      "note": "1 session(s) of data — PARTIAL"
-    },
-    {
-     "tag": "rn_minor_up",
-     "label": "Round 50 above",
-     "price": 31250.0,
-     "group": "round",
-     "note": ""
     },
     {
      "tag": "val",
@@ -1520,17 +1522,17 @@
      "note": "2026-10-07"
     },
     {
-     "tag": "rn_major_dn",
-     "label": "Round 100 below",
+     "tag": "rn_major_up",
+     "label": "Round 100 above",
      "price": 31200.0,
      "group": "round",
      "note": ""
     },
     {
-     "tag": "onl",
-     "label": "Overnight low",
-     "price": 31196.75,
-     "group": "overnight",
+     "tag": "rn_minor_dn",
+     "label": "Round 50 below",
+     "price": 31150.0,
+     "group": "round",
      "note": ""
     },
     {
@@ -1539,6 +1541,20 @@
      "price": 31143.0,
      "group": "prior_day",
      "note": "2026-10-07"
+    },
+    {
+     "tag": "onl",
+     "label": "Overnight low",
+     "price": 31140.0,
+     "group": "overnight",
+     "note": ""
+    },
+    {
+     "tag": "rn_major_dn",
+     "label": "Round 100 below",
+     "price": 31100.0,
+     "group": "round",
+     "note": ""
     },
     {
      "tag": "wl",
@@ -1563,14 +1579,14 @@
     }
    ],
    "stats": {
-    "last_bar_utc": "2026-10-08T10:14:00+00:00",
-    "last_bar_age_min": 11.0,
+    "last_bar_utc": "2026-10-08T10:30:00+00:00",
+    "last_bar_age_min": 10.4,
     "market_state": "open",
     "profile_volume": 361080.0,
     "prior_day": "2026-10-07",
     "prior_day_rth_range": 279.25,
-    "overnight_range": 269.25,
-    "gap_vs_prior_close": -174.25,
+    "overnight_range": 326.0,
+    "gap_vs_prior_close": -240.25,
     "gap_basis": "last price (pre-market)",
     "atr14": 481.52,
     "atr_days": 14,
@@ -2706,6 +2722,22 @@
      "l": 31210.75,
      "c": 31221.0,
      "v": 1232.0
+    },
+    {
+     "t": "2026-10-08T10:15:00+00:00",
+     "o": 31221.25,
+     "h": 31221.5,
+     "l": 31151.75,
+     "c": 31151.75,
+     "v": 3791.0
+    },
+    {
+     "t": "2026-10-08T10:30:00+00:00",
+     "o": 31151.0,
+     "h": 31160.5,
+     "l": 31140.0,
+     "c": 31155.0,
+     "v": 0.0
     }
    ]
   }
@@ -2713,12 +2745,21 @@
  "news": {
   "headlines": [
    {
+    "id": "110d20c2e1",
+    "title": "U.S. Stock Futures Slip as Oil Prices and Bond Yields Surge - Barchart.com",
+    "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQelByV05CTUROUG5paG0yeG1qS19laWxDOFJTdnZPcHFTQmI5Wm1qSzNHVUYwZEhDdGJibGl5THo4U0stc05DSnJWdkpLSWRuQy1LbW1wWVM5bElwOEo4dlprTnBfam9zUndxNkJQVFh5S1BIWGFqdExWX3lfeVpTLWxDU0I4QzJWUk4tTFN0SFRwRHYzYkpJM3BFTmFUY1pQZ2txRQ?oc=5",
+    "source": "gnews_futures",
+    "published_utc": "2026-10-08T10:26:18+00:00",
+    "score": 9.46,
+    "duplicates": 0
+   },
+   {
     "id": "7c0e0d750f",
     "title": "TSMC’s September sales surge year-over-year as AI drives chip demand",
     "link": "https://www.cnbc.com/2026/10/08/tsmc-september-sales-hit-another-record-as-ai-boom-rolls-on.html",
     "source": "cnbc_markets",
     "published_utc": "2026-10-08T06:50:42+00:00",
-    "score": 9.4,
+    "score": 9.36,
     "duplicates": 0
    },
    {
@@ -2727,7 +2768,7 @@
     "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQTHRkenZCby1aNGFHemVHVk9UT0hDX3RsdVlFZDkyTVpTOW9zY1ZWcWkxR2pTYnpzcGhNNm9oVkRjRlhDSG43SC1LRzdDZVJiYWR3dVpnT3hPQ1BqaFdLTk1ZQWNDTENNOHlNLWxLa00xVE1paFcxd05XZ2lGRzcwUS1DTnBOWFVKeFROUDZ4Z25RTEhrNkJKY0dUVjRzZzlubnNHUVdPbWJpWUJPUkh0RW9pd09ORnBIN052X1JQVmx1U1RrS3pCZA?oc=5",
     "source": "gnews_futures",
     "published_utc": "2026-10-08T05:50:02+00:00",
-    "score": 8.74,
+    "score": 8.69,
     "duplicates": 0
    },
    {
@@ -2745,7 +2786,7 @@
     "link": "https://news.google.com/rss/articles/CBMikAJBVV95cUxObGJIdlJDNkwwMnRiTFdsRzd0enVwNW1uTkF3V1NRQW8ySHZxbFdOaEJSaG1NeDNFX0xLT1BqR05UYlJaeVlWc2VKeWxiSk00TXBzTGlOdERwaGlpajF4NFFZRDhDdVQxYUplRVNJR2s2Rk81S1JNWGVOWHVqeV9jWHYzWlVkUE5lYTQ5VHE4azF4bXBmdG11X0h4MTgwSHpPUFhLQXMyQ29HZTdtZzVnRFA2bTYyUjQ1U3cwZDNYVHlya2N6WnFVS0lva1BtVkxpSHZVaVZmLVd1dl9lYkhMa1Q2M0pYaGF6Q0c1aGxuQmd0RUNPYklZbkt3YUtkUTdtSXFYeWNaOTZhWTRCZVk5eQ?oc=5",
     "source": "gnews_macro",
     "published_utc": "2026-10-08T08:50:46+00:00",
-    "score": 7.24,
+    "score": 7.2,
     "duplicates": 0
    },
    {
@@ -2754,7 +2795,7 @@
     "link": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxPSG5hZFp6STJyZXIwZ215aHRhbUIwQ1dnUjRYc29BY1U0Y0l4SmRWdWJfNmRfR2t6UDQ4bVEtLUlwaExoRFdpb0taZ0h5VFFaVlE1Zm0zSjdiRFI5S0k1MjNUSldnbjdlR3NBYUNidEVRRG1hYnZCeEtURjQxWXplOEtIVVAzNUNGRTFkYlVvdWVkWnN5VkQ5Z2toYlZ2QnZJSEp5NmN0cXNEaFVYaXZKSW1uZTc5NDdfNFNxejRhLXgxdmQ4X3gzeVJvY0xFc2dyeTBfZVJiUmrSAd4BQVVfeXFMUEM2bkxtVWdmMjlSM044MkJzRE5qUWR1YmVVYkNUTkxHdjV6TWtqdEJsM3k5MVhscTZWa2hHNE9hZjYxU2dzU3pYZ1B1dnU4cmNnaFlIbkExYUFTYlZtZlltc01WRFNsb0U5bGFWbWdiYUdKaFRKTUIxUmtFRHZwd1d3N0g4d1I3b1ppc0t0N203MUFVeVhCSXc0blZIZ2hScWptWUZTa3RDT00yZTJSbkoyazBfb3J3aWRadldEdWtHU09LVno4TUdvNHAwdzlZcUJ4Z0x1OHFJX3dIdkh3?oc=5",
     "source": "gnews_futures",
     "published_utc": "2026-10-08T08:37:19+00:00",
-    "score": 7.2,
+    "score": 7.16,
     "duplicates": 0
    },
    {
@@ -2763,7 +2804,7 @@
     "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQTmE4NzgwdG1ucjJyLWtRY012S1dPNGpQemhUZ2hSSFRWajd6UzdTSlhoVnpyUjh3WlRtWUFZZHJhX011OGtBcnJhWjVsdTkzOHZHX3hxeGxDVEFMMEFhbHhIZXQxVGRBLWNyeWVEMTlzcld2Zmd4SjkyYjg0VmYxVlJMam5VdUY5NGhOeVZqWGIxY0MwdFZLWQ?oc=5",
     "source": "gnews_macro",
     "published_utc": "2026-10-08T08:32:44+00:00",
-    "score": 7.19,
+    "score": 7.15,
     "duplicates": 0
    },
    {
@@ -2772,7 +2813,7 @@
     "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxORFJRSVp4V2RMRUhqekx3aF9nSHhTLWJVSzcxZ0FQc1pkOElBY0Q5Qk9UbGc2UXV6OUdIMngxOHRKMjhJUXBsLTNTZW5qU2kxakk5b1JVY2M4U3ZGczVuWnBacUxiZDhua2RyZzFKSlE0UXdOMElRMjJPQlYxSXJYdjQyZEk5Y0xWR2xzaTU3RmphOUJRVWw1bW10M2dLTFdTWkFHNFFOWFlyU0szQlBnVk5lc0NfbURjMWtsVW14OFQxSXc3d2E1OFlXbw?oc=5",
     "source": "gnews_macro",
     "published_utc": "2026-10-08T08:30:00+00:00",
-    "score": 7.18,
+    "score": 7.14,
     "duplicates": 0
    },
    {
@@ -2781,7 +2822,7 @@
     "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQOG9VNFdUSjJ1R2s4SXVFY0tkS01DVVNIMnVsV3Y3R254UnhNQzEtRXJRdDBCdkNVNDN0MDdNQ3hrYmVTd3Q2Z3Q1YU9fSkJESXZ1LVNQMGJDS2hQTFdhTk1XNTF5TXhRQ2ViaFBuN29wallIS25GSExHLUhMQ0tVc19n?oc=5",
     "source": "gnews_macro",
     "published_utc": "2026-10-08T08:30:00+00:00",
-    "score": 7.18,
+    "score": 7.14,
     "duplicates": 0
    },
    {
@@ -2790,7 +2831,7 @@
     "link": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxONmNsY2h0UkJUWHlnUnBYQ0s3X3JQN0dxbTFUdGx1UjZxdEtOQTVzZTZDZFM1VGZ4N0F2blFvRnNpajVpTDB6eGgza2QtZWtSSG16ZGVLN2NDTU5iTTVVdjkzemZHWjBMRVFpZTMtS1FsZjd3bk5Pc0NMZzVZejRQOXd6Zk93LVZXWnlIQWI0ZExFMWdQUlZEamFHaThyVnJBd3ZTaGdGQjlXVGY0MnJCWng4ZlNwbi13dTVlUkdXZXVlUmxsTUZkNG80eVJDNEVGUEdscFZyMA?oc=5",
     "source": "gnews_fed",
     "published_utc": "2026-10-08T03:59:00+00:00",
-    "score": 6.93,
+    "score": 6.89,
     "duplicates": 1
    },
    {
@@ -2799,7 +2840,7 @@
     "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPNF9IY0FlbFM0NmU5dU1WSVlJMUQtSTd1UEwwTGNfUFI3SVhfU3RWczRMWU5SSnNjOUhRbm15Q3EyVkw0Q1NBdm16UEF4ZktEVUl5MDVuTEs3emhON09xa2c5MDZDX3paNUZCcWl4QTNkc3ZYX0M1a3ctSlJKUDBfNEdB0gGHAUFVX3lxTFBPQ2Y1aEJEU2JUYVlGMW8wTm9mVGFtT1liT2pLZ0J4RVR0ZDN3aG9KTHJrdGEtS2FjRzdzMUhNNXE0bWhYOWhKUnVsLWt6UkVkc01WV2FXOVdUbGlmSE9NcWVocVRoQnRZWEFPTE56WTVXQ1BLRHA3RnZRaGJvN0FXTEZxY3pRNA?oc=5",
     "source": "gnews_macro",
     "published_utc": "2026-10-08T09:19:44+00:00",
-    "score": 6.82,
+    "score": 6.78,
     "duplicates": 0
    },
    {
@@ -2808,26 +2849,17 @@
     "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOcHRvQ1BtMGNYcUQxZGs5UmswRUV5dmZsVmo2b3hKR0RDZkQyZW9jN3oyWmJndnBOSTB1eDNrelFNczIwR1I0Yi1SNlVlWWRIc0ZScG8wS055elh4ZENXcFhfaW44eldMUkNWYVlSOGM1X3JZR0RWUktUTzl4MUNJVGVILV96alRMVlQxQ0dzcTRHWmpxcDVmZ0g4RUlIYUppS1FUQWxTQUVGTll3UURNRkc2UWRXdw?oc=5",
     "source": "gnews_macro",
     "published_utc": "2026-10-08T04:51:19+00:00",
-    "score": 6.57,
-    "duplicates": 0
-   },
-   {
-    "id": "ec32b00aca",
-    "title": "FOMC minutes show the Fed ready to hike again in 2026 as AI buildout replaces tariffs as main driver of core prices - Kitco",
-    "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOaHpLeUhIWGd3cDNla1d3SENSbGNsbGxLbUhfMDZGMEdrNEdNNWhCNG9Pd2NmUkpRalFReXc4ampILVMyV1UxTVJ3WXVPcEg1bHpFd28wMXV6YXQ4YVJ0VUFBSFBqSlJkeXkwMklqckVadDY3a2o2WF9Jam94dTJSWlRQVVV2dmcyN3RGaURkbHk3U3VPNWFJbXJnMkthdkdlNHk3eFdLRzJFbXV2VU1JVG9YVFpWbElVMXc?oc=5",
-    "source": "gnews_fed",
-    "published_utc": "2026-10-07T22:41:00+00:00",
-    "score": 6.54,
+    "score": 6.53,
     "duplicates": 0
    }
   ],
   "summary": {
    "lines": [
-    "Waller reiterated more rate hikes are likely needed, with flexibility on pace and no requirement for consecutive moves, pressuring futures and lifting yields ahead of the open [9505098d82][47b5f90d45][9541745d5c][dd006b47fe].",
-    "Fed minutes flagged persistent inflation risks and a readiness to hike again, with AI buildout cited as replacing tariffs as the main driver of core prices [cf28e1c480][ec32b00aca][ab03d70b33].",
-    "Treasury yields and oil surged overnight, dragging S&P and Dow futures lower after Wednesday's Wall Street pullback [a570a03a4d][712651a127][dd006b47fe].",
-    "Unemployment Claims at 08:30 ET (cons 200K, prior 197K) and the 13:00 ET 30-year bond auction are in focus as the market awaits fresh data and watches auction demand given the recent yield surge [dd006b47fe].",
-    "TSMC reported September net revenue of NT$511.86 billion on AI-driven chip demand, relevant for Nasdaq-heavy futures sentiment [7c0e0d750f]."
+    "Waller reiterated more rate hikes likely needed (pace flexible, not necessarily consecutive), echoing Fed minutes flagging inflation risks, and yields rose as traders await the 13:00 ET 30-year auction [9505098d82][47b5f90d45][9541745d5c][cf28e1c480][ab03d70b33][dd006b47fe].",
+    "Futures slipped overnight as oil prices and Treasury yields surged, pressuring risk sentiment into the cash open [110d20c2e1][a570a03a4d][712651a127].",
+    "Earlier futures had edged higher on solid GDP data before trade jitters and the yield/oil surge reversed the tone [1bd94be21c].",
+    "TSMC reported September net revenue of 511.86 billion New Taiwan dollars, a year-over-year increase tied to AI chip demand, relevant for semiconductor/Nasdaq positioning [7c0e0d750f].",
+    "08:30 ET Unemployment Claims (cons 200K, prior 197K) print alongside ongoing Waller commentary and ahead of the 13:00 ET 30-year bond auction, both bond-yield catalysts for index futures [9505098d82][dd006b47fe]."
    ],
    "backend": "anthropic",
    "model": "claude-sonnet-5",
