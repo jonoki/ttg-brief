@@ -1,7 +1,7 @@
 {
  "meta": {
-  "generated_at_utc": "2026-10-08T14:58:06.751671+00:00",
-  "generated_at_local": "Thu 08 Oct 2026 11:58 ADT",
+  "generated_at_utc": "2026-10-08T15:13:33.490452+00:00",
+  "generated_at_local": "Thu 08 Oct 2026 12:13 ADT",
   "trading_day": "2026-10-08",
   "display_tz": "America/Halifax",
   "version": "0.1.0",
@@ -109,7 +109,7 @@
    "time_utc": "2026-10-08T17:00:00+00:00",
    "local": "14:00 ADT",
    "et": "13:00 ET",
-   "in": "2h 01m",
+   "in": "1h 46m",
    "consensus": null,
    "prior": null
   },
@@ -120,10 +120,10 @@
   {
    "root": "ES",
    "trading_day": "2026-10-08",
-   "as_of_utc": "2026-10-08T14:58:06.751671+00:00",
+   "as_of_utc": "2026-10-08T15:13:33.490452+00:00",
    "source": "yahoo",
    "delayed": true,
-   "last_price": 7836.5,
+   "last_price": 7829.25,
    "levels": [
     {
      "tag": "exp_hi",
@@ -261,7 +261,7 @@
     {
      "tag": "pwh",
      "label": "Prior-week high",
-     "price": 7794.5,
+     "price": 7784.5,
      "group": "week",
      "note": "1 session(s) of data — PARTIAL"
     },
@@ -288,8 +288,8 @@
     }
    ],
    "stats": {
-    "last_bar_utc": "2026-10-08T14:48:00+00:00",
-    "last_bar_age_min": 10.1,
+    "last_bar_utc": "2026-10-08T15:03:00+00:00",
+    "last_bar_age_min": 10.6,
     "market_state": "open",
     "profile_volume": 1049349.0,
     "prior_day": "2026-10-07",
@@ -1580,19 +1580,27 @@
      "t": "2026-10-08T14:45:00+00:00",
      "o": 7838.0,
      "h": 7839.5,
-     "l": 7835.5,
-     "c": 7836.5,
-     "v": 7639.0
+     "l": 7826.75,
+     "c": 7832.5,
+     "v": 49394.0
+    },
+    {
+     "t": "2026-10-08T15:00:00+00:00",
+     "o": 7832.0,
+     "h": 7832.5,
+     "l": 7827.0,
+     "c": 7829.25,
+     "v": 8674.0
     }
    ]
   },
   {
    "root": "NQ",
    "trading_day": "2026-10-08",
-   "as_of_utc": "2026-10-08T14:58:06.751671+00:00",
+   "as_of_utc": "2026-10-08T15:13:33.490452+00:00",
    "source": "yahoo",
    "delayed": true,
-   "last_price": 31286.25,
+   "last_price": 31246.25,
    "levels": [
     {
      "tag": "exp_hi",
@@ -1672,8 +1680,8 @@
      "note": "typical-price VWAP"
     },
     {
-     "tag": "rn_minor_dn",
-     "label": "Round 50 below",
+     "tag": "rn_minor_up",
+     "label": "Round 50 above",
      "price": 31250.0,
      "group": "round",
      "note": ""
@@ -1707,13 +1715,6 @@
      "note": ""
     },
     {
-     "tag": "pwh",
-     "label": "Prior-week high",
-     "price": 31181.25,
-     "group": "week",
-     "note": "1 session(s) of data — PARTIAL"
-    },
-    {
      "tag": "tdl",
      "label": "Today's RTH low",
      "price": 31156.25,
@@ -1726,6 +1727,13 @@
      "price": 31143.0,
      "group": "prior_day",
      "note": "2026-10-07"
+    },
+    {
+     "tag": "pwh",
+     "label": "Prior-week high",
+     "price": 31130.25,
+     "group": "week",
+     "note": "1 session(s) of data — PARTIAL"
     },
     {
      "tag": "onl",
@@ -1757,8 +1765,8 @@
     }
    ],
    "stats": {
-    "last_bar_utc": "2026-10-08T14:48:00+00:00",
-    "last_bar_age_min": 10.1,
+    "last_bar_utc": "2026-10-08T15:03:00+00:00",
+    "last_bar_age_min": 10.6,
     "market_state": "open",
     "profile_volume": 361080.0,
     "prior_day": "2026-10-07",
@@ -3049,9 +3057,17 @@
      "t": "2026-10-08T14:45:00+00:00",
      "o": 31295.75,
      "h": 31299.5,
-     "l": 31280.0,
-     "c": 31286.25,
-     "v": 3351.0
+     "l": 31243.0,
+     "c": 31269.5,
+     "v": 17997.0
+    },
+    {
+     "t": "2026-10-08T15:00:00+00:00",
+     "o": 31268.5,
+     "h": 31273.0,
+     "l": 31231.75,
+     "c": 31246.25,
+     "v": 3531.0
     }
    ]
   }
@@ -3064,7 +3080,7 @@
     "link": "https://www.cnbc.com/2026/10/08/inflation-tariffs-trump-fed-consumer-goods.html",
     "source": "cnbc_markets",
     "published_utc": "2026-10-08T13:28:42+00:00",
-    "score": 11.75,
+    "score": 11.71,
     "duplicates": 2
    },
    {
@@ -3073,7 +3089,7 @@
     "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxQaFcta1pmVjBfZVl1TS11aUl5S01SYkhEOEkwcW5yaVJITmRKU2VIeWllOGV2RkI5dUM1cktqM05aRG1lQ19NejN3UkFraTBzYXhnOWl4cWVCS002MTVrNUt4a1VQZkttZVJSX0NzWUttUURRY18tMXU1aWd1Q3RiYmVPSlQ2Wkgyem5wZ2drN2h5dk1uSjN1dGx1LXpIbWRPU1JWOHd0YjByZVdGZGRGMS1TaV9aa0xKQl8xZThOMFlic1lSSDdjOVVIMTRHUDZhcEE?oc=5",
     "source": "gnews_macro",
     "published_utc": "2026-10-08T14:19:00+00:00",
-    "score": 9.89,
+    "score": 9.85,
     "duplicates": 1
    },
    {
@@ -3082,7 +3098,7 @@
     "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5OMzNzVGx1Y2VRUlpiUVFPT094QnlZX2hnMFY1MkVQUjJBd1hIMHlpQ0ltSG8zQlF2QUZ3cjJQQ3I2WWwyeW9pWlVnLV9oMndkRF9HWTEzbm5nNFF0THp6UFdPZm1mOU11WnVuN1NnNU9wUWdsYWc?oc=5",
     "source": "gnews_macro",
     "published_utc": "2026-10-08T12:57:37+00:00",
-    "score": 9.67,
+    "score": 9.62,
     "duplicates": 0
    },
    {
@@ -3091,7 +3107,7 @@
     "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9JVlMyVUp1YklVbWlxZlU0b0tYWUFZQmlwUDZ3QVNaY0JCU1dnZTJha0U4aXJUWmt4RVZXMzdFRDdKdndPSVpzejVzdzdfLS1obFJ2WFZhVUxPak0?oc=5",
     "source": "gnews_macro",
     "published_utc": "2026-10-08T13:16:20+00:00",
-    "score": 9.22,
+    "score": 9.17,
     "duplicates": 0
    },
    {
@@ -3100,7 +3116,7 @@
     "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQVnVUMVBaeXp1LTRlMUR2R2R3eDR6dzBGQXl4WlMxaXY0UG1CbUEzSjRQdFkwbzVWNjhYbnVLcS03QWVXVHE3S09JVDV3NWxYM0w2SHhPTW5xaXpJakNZYlZsVGh0czJiR2h1c1J2YXg2ZTRsMTVMNHZNN1AteHpObGF4VkRYNzFOdkdVOEg1SDRzVDFsUnZ1ZUpoS3JsNTJrODMydmcxS0htb3B0UUFBR3dmXzFQMU14THdXZ0lJS09tQQ?oc=5",
     "source": "gnews_macro",
     "published_utc": "2026-10-08T13:50:03+00:00",
-    "score": 8.81,
+    "score": 8.77,
     "duplicates": 3
    },
    {
@@ -3109,7 +3125,7 @@
     "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQelByV05CTUROUG5paG0yeG1qS19laWxDOFJTdnZPcHFTQmI5Wm1qSzNHVUYwZEhDdGJibGl5THo4U0stc05DSnJWdkpLSWRuQy1LbW1wWVM5bElwOEo4dlprTnBfam9zUndxNkJQVFh5S1BIWGFqdExWX3lfeVpTLWxDU0I4QzJWUk4tTFN0SFRwRHYzYkpJM3BFTmFUY1pQZ2txRQ?oc=5",
     "source": "gnews_futures",
     "published_utc": "2026-10-08T10:26:18+00:00",
-    "score": 8.74,
+    "score": 8.7,
     "duplicates": 0
    },
    {
@@ -3118,7 +3134,7 @@
     "link": "https://www.cnbc.com/2026/10/08/tsmc-september-sales-hit-another-record-as-ai-boom-rolls-on.html",
     "source": "cnbc_markets",
     "published_utc": "2026-10-08T06:50:42+00:00",
-    "score": 8.65,
+    "score": 8.6,
     "duplicates": 0
    },
    {
@@ -3127,8 +3143,17 @@
     "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOMHF3UGJGWE5pRWYwQmpwQXliQ0JCeDVkR0poWXlnUUZUc3VLNWxKc2tObzhOeEhuMjJfTk5HbjFQekFMNVMxenU3Sk02NXNWQzZsR3hsLWF0MGhkaFh0TDNfcFU5SHhyXzZqTWVIZ1Vfd1FROFdRdjJHd1ljQkFGWktiUEVHcVBsZnczbFFyT3NGVm9xY2x0eGV4bUFOSU9pWkVvX2M3LWJQaVJ2RHVOOFZYYWpmWU1YakVQWg?oc=5",
     "source": "gnews_macro",
     "published_utc": "2026-10-08T12:33:17+00:00",
-    "score": 8.6,
+    "score": 8.55,
     "duplicates": 0
+   },
+   {
+    "id": "bc25f5b187",
+    "title": "10-year Treasury yield is little changed as Fed's Waller says more hikes needed, investors await 30-year auction",
+    "link": "https://www.cnbc.com/2026/10/08/us-treasury-yields-30-year-bond-auction.html",
+    "source": "cnbc_markets",
+    "published_utc": "2026-10-08T14:11:18+00:00",
+    "score": 8.33,
+    "duplicates": 1
    },
    {
     "id": "61ec9eac65",
@@ -3136,7 +3161,7 @@
     "link": "https://news.google.com/rss/articles/CBMi-gFBVV95cUxNa21DMFhSalRwbVN1bDV2RXkzSlB6ajduajZWQ2NJYVVSYlRsNDFFYzFyWkhqMlVxczNJYTJ5cy1MQ1RseERRNm16cE5yMmRDT0VRUDBKX2d5Qm03c3Jwd0xrbEhZb29JUDFCN1IxQzFOYjFCWmtzSVJ0N3AwdHpNQ1pGOEk5ZDloMm5jZERCOVdLSnBRamVYWkZpZkppM09hbTdaZWxVcjMtd3pGNG9BR2o1WkZpenZad1YyeUFQcFBFQS1ReGRqbFFxZ01xa19odVI4aURuQmpVZFBJbktVaWtDR1hfYUtsMTBBUjRTcU5xeFExTnpwUUZ30gH_AUFVX3lxTFB2bWd5N0ZtOTFqNFhKVGpFVHMxcGdnUXFsbjdfd1dTQkJpLTVmNWstSEZ6Z09iMVI5ZWNQTFFYdnZ2ZmVTVGxkNC1NamdEdWRpdmxoRmdwNkNkZUthSWVFQzUzVDNtNlc4R2hocHZ3eHB1ZTVUNUFva3Z0NzBCOHRGaGxrOVppNWhnVWFOMVFNSDBkR3pwckRMMTBpQzByd09TcTBTQ2FWT0FGOHpRb1RKajBvVHRfMVZvTGxHOUFVRE84LTlVbHIwc2FCQTlRUFpqNjVMelhhaEk3U3VBUDJGcWpDM1FtbWw4NS1ZRm40eG1mVnRyY3hJU2JaOFU0Zw?oc=5",
     "source": "gnews_futures",
     "published_utc": "2026-10-08T13:51:52+00:00",
-    "score": 8.32,
+    "score": 8.27,
     "duplicates": 0
    },
    {
@@ -3145,7 +3170,7 @@
     "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOa1lKaVE3NWQxYlBrdjRLWDZ4SVZzQXFXc1RQMEhmVkpNcVFpaEh1U0JfekxzX3hYRmREMTNXMWp4WHRhNVVDckhrVm9XQ0lnRjNoeFVfUHpoUW8zM1lfMFZKZVZOMERFZDFjTGdIdzdtSkt4Z1RQSmhscFF1NUpieGRidHNFN05HU05EUEExWEZ1WjhyQjhRakhqdzNRT0VrRC1fYVdNRnRvYUd3Mm1SRl82RWpXZldvY0VReWVyVkJRcVZ4OHBr?oc=5",
     "source": "gnews_macro",
     "published_utc": "2026-10-08T12:34:21+00:00",
-    "score": 8.1,
+    "score": 8.06,
     "duplicates": 0
    },
    {
@@ -3154,29 +3179,20 @@
     "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPOGxRYlh2TThUalZYTVZjTVFVRk1wZkZjejJVY1dwZXB1dTQxZ0JjNnd4MjZRbW1XcVlVbXVCVUlpNS1FZmZRTXJUVElTaUZoeXFRdGVDZjJMejJockVXd25xRGd4UGdhNWVBb01BMWs3RkVVUEtRZXZUb3NCQU9Hanlkb0E2bHBGN2pkN3ZQblYzVkh6MENNUGpwOVd2TnVJSzBfWmJySVVHVEM1QzdyNDQ2aEJRYUhYcFE?oc=5",
     "source": "gnews_macro",
     "published_utc": "2026-10-08T12:10:00+00:00",
-    "score": 8.03,
-    "duplicates": 0
-   },
-   {
-    "id": "95cad8de66",
-    "title": "Dow, Nasdaq Futures Down Triple Digits on Higher Oil, Yields - Schaeffer's Investment Research",
-    "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPdHl0LTlPZU9xNi1VenhxX0VBREpmcGcxYm9pZnVHb2tRMGtobTRldjFOd0pBd1VoaWtzbEpaRU1RbWJSNDBxVHFxdU1CYlNFMVN6RmNyZ2g5Ni1LQjYyOHd5Y1I5SXlCVkN6Um1wVDdSZEdvcUFNSDgtWnRxTkxwTTRGZEZSMmhubk9tUkZ6WnRnRmRwV0tlNHlLR1FRNW9lMUc2czRTZWlNRGV2cjNhY2dSY0pxNjdFM29n?oc=5",
-    "source": "gnews_futures",
-    "published_utc": "2026-10-08T13:26:47+00:00",
-    "score": 7.75,
+    "score": 7.99,
     "duplicates": 0
    }
   ],
   "summary": {
    "lines": [
-    "Stock futures and the cash open slipped as oil prices and Treasury yields jumped together, a combo markets read as inflationary pressure ahead of today's claims data and the 13:00 ET 30-year auction [110d20c2e1][9f1cb3aa58][95cad8de66][7b4921683e][61ec9eac65][10a382d90c][e82c2b0ef8].",
-    "NY Fed research said tariffs added 2.9 percentage points to inflation across 67 goods categories by February 2026, keeping tariff pass-through in focus for rate-path chatter [7ba5c8b4a7][12267f8f83]."
+    "Futures opened lower and stayed weak as oil prices and Treasury yields surged, with multiple outlets citing inflation risk as the driver [110d20c2e1][7b4921683e][9f1cb3aa58][61ec9eac65][e82c2b0ef8][10a382d90c][c1508057d3].",
+    "Fed's Waller said more rate hikes are needed while the 10-year yield held steady ahead of today's 30-year bond auction, a setup traders will watch into the 13:00 ET reopening [bc25f5b187][7498824ea0].",
+    "NY Fed researchers found tariffs added 2.9 percentage points to inflation across 67 goods categories by February 2026, a data point feeding the inflation narrative [7ba5c8b4a7][12267f8f83].",
+    "TSMC reported September net revenue of 511.86 billion New Taiwan dollars, year-over-year growth tied to AI chip demand, relevant for semiconductor-linked Nasdaq names [7c0e0d750f]."
    ],
    "backend": "anthropic",
    "model": "claude-sonnet-5",
-   "dropped": [
-    "no valid citation: Fed's Waller reportedly signaled further rate hikes, linking stalled inflation progress to rising AI-related spending costs, adding to the y"
-   ],
+   "dropped": [],
    "warnings": []
   },
   "feeds": [],
