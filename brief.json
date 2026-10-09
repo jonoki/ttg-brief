@@ -1,7 +1,7 @@
 {
  "meta": {
-  "generated_at_utc": "2026-10-09T14:10:04.688725+00:00",
-  "generated_at_local": "Fri 09 Oct 2026 11:10 ADT",
+  "generated_at_utc": "2026-10-09T14:25:13.045526+00:00",
+  "generated_at_local": "Fri 09 Oct 2026 11:25 ADT",
   "trading_day": "2026-10-09",
   "display_tz": "America/Halifax",
   "version": "0.1.0",
@@ -57,10 +57,10 @@
   {
    "root": "ES",
    "trading_day": "2026-10-09",
-   "as_of_utc": "2026-10-09T14:10:04.688725+00:00",
+   "as_of_utc": "2026-10-09T14:25:13.045526+00:00",
    "source": "yahoo",
    "delayed": true,
-   "last_price": 7835.25,
+   "last_price": 7837.5,
    "levels": [
     {
      "tag": "exp_hi",
@@ -211,8 +211,8 @@
     }
    ],
    "stats": {
-    "last_bar_utc": "2026-10-09T14:00:00+00:00",
-    "last_bar_age_min": 10.1,
+    "last_bar_utc": "2026-10-09T14:15:00+00:00",
+    "last_bar_age_min": 10.2,
     "market_state": "open",
     "profile_volume": 1317165.0,
     "prior_day": "2026-10-08",
@@ -1478,9 +1478,17 @@
     {
      "t": "2026-10-09T14:00:00+00:00",
      "o": 7836.0,
-     "h": 7836.75,
-     "l": 7833.5,
-     "c": 7835.25,
+     "h": 7838.75,
+     "l": 7830.25,
+     "c": 7837.75,
+     "v": 41504.0
+    },
+    {
+     "t": "2026-10-09T14:15:00+00:00",
+     "o": 7837.75,
+     "h": 7839.0,
+     "l": 7837.0,
+     "c": 7837.5,
      "v": 0.0
     }
    ]
@@ -1488,10 +1496,10 @@
   {
    "root": "NQ",
    "trading_day": "2026-10-09",
-   "as_of_utc": "2026-10-09T14:10:04.688725+00:00",
+   "as_of_utc": "2026-10-09T14:25:13.045526+00:00",
    "source": "yahoo",
    "delayed": true,
-   "last_price": 31034.5,
+   "last_price": 31023.25,
    "levels": [
     {
      "tag": "wh",
@@ -1594,7 +1602,7 @@
     {
      "tag": "tdl",
      "label": "Today's RTH low",
-     "price": 30995.5,
+     "price": 30991.0,
      "group": "today",
      "note": ""
     },
@@ -1642,8 +1650,8 @@
     }
    ],
    "stats": {
-    "last_bar_utc": "2026-10-09T14:00:00+00:00",
-    "last_bar_age_min": 10.1,
+    "last_bar_utc": "2026-10-09T14:15:00+00:00",
+    "last_bar_age_min": 10.2,
     "market_state": "open",
     "profile_volume": 530702.0,
     "prior_day": "2026-10-08",
@@ -2909,9 +2917,17 @@
     {
      "t": "2026-10-09T14:00:00+00:00",
      "o": 31036.5,
-     "h": 31047.25,
-     "l": 31025.75,
-     "c": 31034.5,
+     "h": 31065.5,
+     "l": 30991.0,
+     "c": 31026.0,
+     "v": 24650.0
+    },
+    {
+     "t": "2026-10-09T14:15:00+00:00",
+     "o": 31028.0,
+     "h": 31028.75,
+     "l": 31013.0,
+     "c": 31023.25,
      "v": 0.0
     }
    ]
@@ -2920,13 +2936,22 @@
  "news": {
   "headlines": [
    {
+    "id": "518a529a4f",
+    "title": "New York Federal Reserve says inflation on everyday items is because of tariffs - KDNL",
+    "link": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxPWFNSY0VkQmRWT0ttd2g5ejVmRjQtdUZvbTROZlNuc2JvTDdqYnNmWGVocktIeDd1TUN3YWpHZmw3d1BGR2ZxS2FqWFpJREhWVWxsMVNuUE1sb1lSMW1WQ2JOaUNnMHJBZjZBS3RlWGE1Sk9GdVM5cE9OWm1hQklzMFZ4cjBkWk1ySV9ZNDdCRTlzVnVnTm5fRi03SDd3TlAtYlFUeXBLbExYQlVnTGFPNlB4eTVfSUlrenhuVENDYThUV1hUU08zcnVTdGxxWFN2a2ZqbFZtRQ?oc=5",
+    "source": "gnews_fed",
+    "published_utc": "2026-10-09T14:19:51+00:00",
+    "score": 11.49,
+    "duplicates": 3
+   },
+   {
     "id": "b645825752",
     "title": "US Stock Market Today: S&P 500 Futures Ease On Rising Inflation Expectations And Fed Hawkishness - Simply Wall Street",
     "link": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxPVGRNR1dvdGVRMmdlZjItSWxRbzBuUjNmU1pORE55cnRVS3BIdVU4RVRaRy1hVk5zdmEwVl9WdmtEdkxsUHFmMHk2Z0toSVdxTzBaU2lVTG5hLVEycGc3UkctSThoQVJIQWFtdVFSN09CZlB0RnktY1d1ZXhOUTBUZFVvQ3FJQ054aVJoSmtjTkRNQ1pVdndzQTEwS0k3VzNrNWNlRy1YNTk5b28wZXNYY3FUYVNTdHdfbUlCRlpxbHFQSE41U1N5cVdFdzc1TlFNSE1GWFJ2UklSWldQbUxLWdIB5gFBVV95cUxOOFV3Tktsb3gzaVhXcmV2TkZnaXVWX1JuRllxZ25NUVdTN0xaekpGOHJSMXFOQTFOMVphWTNKOThjLWtILV9TM3Y5OV9kaU1MOHRGaThPUEZPMWdZcVcydm1QTjFna1VYNEtuWjEtd201YVFXZ2M2WGM5UHpzUG9tMkhnY1l4TlItN2dWUlBnZlR2QXZuS2N3SDRVVjRFZEpEOHFGTVFMbWpTdUt4Y2lnaFBiUHBsQzBTSmdMMEowTWJlNndENldtYjRPMXlwdFZEdEhHLXFzZWhEdjE5QnZLV3RibVVlQQ?oc=5",
     "source": "gnews_futures",
     "published_utc": "2026-10-09T09:04:30+00:00",
-    "score": 9.68,
-    "duplicates": 0
+    "score": 10.11,
+    "duplicates": 1
    },
    {
     "id": "7dd10bea60",
@@ -2934,7 +2959,7 @@
     "link": "https://www.cnbc.com/2026/10/09/judy-shelton-scott-bessent-treasury.html",
     "source": "cnbc_markets",
     "published_utc": "2026-10-09T13:09:19+00:00",
-    "score": 8.36,
+    "score": 8.29,
     "duplicates": 1
    },
    {
@@ -2947,12 +2972,30 @@
     "duplicates": 0
    },
    {
+    "id": "eb4149c5fb",
+    "title": "Wall Street’s week ahead: Bank earnings, CPI headline busy markets week as S&P 500 hovers near records - The Globe and Mail",
+    "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPMEE0cHRxN2h6UmZZRzB5MHNpalB6b3FidlcwQW1oaUFaNXlNZGNkbzZ0VEVfYjBPeVNEWHgzSVF6MWVCZno3ZDUxMFB6RHdqTGZUaktod3ZISEtnZG13OWUxZ3h6NElnU1lMVVF6a21nSzgtS1dvQjlaNi1XaFBWQXNFdEhYN1QyZmJ4dUJ6U1habUVsYXpQZjVNaXJURmtPY2hSNXRTUTRvakxWdjlWNXpiNDhNaGFicFp3?oc=5",
+    "source": "gnews_macro",
+    "published_utc": "2026-10-09T14:19:18+00:00",
+    "score": 7.98,
+    "duplicates": 1
+   },
+   {
+    "id": "c546e9affa",
+    "title": "Federal Reserve Board releases results of the 2025 Survey of Consumer Finances, which provides the public and policymakers with detailed insights into the economic condition of American families",
+    "link": "https://www.federalreserve.gov/newsevents/pressreleases/other20261009a.htm",
+    "source": "fed_press",
+    "published_utc": "2026-10-09T14:00:00+00:00",
+    "score": 7.93,
+    "duplicates": 0
+   },
+   {
     "id": "f62ae6b7e2",
     "title": "Fed grows more hawkish on inflation but there is room to wait on rate hikes - Baltimore Sun",
     "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxON2p2T25TXzRrRG5iRHl1dUh0Q0NLb1BQbHl1Z1o5T0phMjhkX0VCSC01N2VvMUpNblJwRWZiNjZXVVJOYncxRS1OT3RKLXk2YUJ5R0JTMjRFREJPRWdJX093X3Vybko4bXR3WGtVeHMtZmVMamg4TnEydWEwOUE2TkwtUEpjdmJqME4zWTE1bllVX3hFZFV4MkFYQktlMm1ZWmxnVjE1V1JWT2VkSExLMGdWWFFhNzA?oc=5",
     "source": "gnews_fed",
     "published_utc": "2026-10-09T11:36:47+00:00",
-    "score": 7.6,
+    "score": 7.53,
     "duplicates": 1
    },
    {
@@ -2961,16 +3004,16 @@
     "link": "https://www.cnbc.com/2026/10/09/delta-air-lines-dal-q3-2026-earnings.html",
     "source": "cnbc_markets",
     "published_utc": "2026-10-09T13:38:10+00:00",
-    "score": 7.44,
+    "score": 7.37,
     "duplicates": 0
    },
    {
-    "id": "ede5fd3e64",
-    "title": "Wall St Week Ahead Bank earnings, CPI headline busy markets week as S&P 500 hovers near records - Reuters",
-    "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOc2ZtTkg1OU1ZeEVqdGdTUjFKR1BSYkwzcWRwWG1wNjE2UFpqa2NYbmxPMXNxM2pURVpLWVVUYm9zUmE2S1QwMEUxZURaejlrb1g1V0dEMF80RnBWOUo4U1VPYzNlM0M5dlBnMkdQVS1ObHA2b1BYTmJLa1RuUk8xSVB4bk5FUnRQblcwTUtLTVFMZGU2Y0o0VEVWLWFBUnRCOWlpUEI0MmF2WGJyTmdhd3lpQlZDZ3JQZXJMd0FYcw?oc=5",
+    "id": "bfdafbdc0c",
+    "title": "Week in Focus 12-16th October 2026: US CPI, US Retail Sales, Start of Q3 Earnings, China CPI, UK jobs, RBA Minutes and Aussie jobs - Newsquawk",
+    "link": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxQVUQyZVJsS19BYXJmNFNaMVJhaVFWS0h6MV9Sdl9zS1VpSlVsX0Z3YlJTQ0p5ZmNEMmUwRjBTcjMtdnlXc280TUdrY0N6MHQ3djBhZzBkWEIxMUtMa2NDV0pWei1fYW5VZS1fdGMtTHk2R1h6V29XM3N0djltZ2tobl91cTI1TmNScW9CVHlSMnRnTjFWSFB1S0I2dFR6QXBBdUsyb2NQaEpJMWx1TV9mR2UzQ2lWT0YzbkpXdjN4NXlIWjYwVmpfZEQtNk1UM2doRThFY2xYNEMwWWRLSUVCQzBnT042b3BRRXRDMHZ2OWZ4dw?oc=5",
     "source": "gnews_macro",
-    "published_utc": "2026-10-09T12:10:26+00:00",
-    "score": 7.2,
+    "published_utc": "2026-10-09T13:20:54+00:00",
+    "score": 6.82,
     "duplicates": 0
    },
    {
@@ -2979,7 +3022,7 @@
     "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNNTRWN3RKV2p1dzZCWnhzbE9CbFZFUzJNcnpZZmlhUWY2dlE1Z1ZJZ0F0NzNNVWwtVlB0enZ5dGtRMTlLdlhBc3hiY2Fwa1hkUVNVemZvQjFVVlE0b3R1ZHhDblNOeDVvUmNmalpIcWtTVTJQdjhzRWFabUlZU3Brc1VTN1FsVnNMS2dHYUpXUDFjTUM2OHlhcmwxbDHSAaIBQVVfeXFMTTdoZGRsWXVpa19hUVlyaVRQd190d2I4b2Z3UXJ5VkREYUktNGxUdFF2dFd1ZGotS3BheU9VWEJCTUZ4WDRvc1FEMFJEUGlPZW5Wb0hDQXBHd19jYlpRQUYybm8xSGNZZURoUm9wcDYzRk8ybEdxUUs3NzVOejVoOEhYNGlBU29HeG1tcTlyMkNFY1ZOWlVyLTRsN0ZFWmVSTkNR?oc=5",
     "source": "gnews_futures",
     "published_utc": "2026-10-09T12:53:36+00:00",
-    "score": 6.82,
+    "score": 6.75,
     "duplicates": 1
    },
    {
@@ -2988,15 +3031,6 @@
     "link": "https://news.google.com/rss/articles/CBMijgJBVV95cUxON2FuakxPQVQ2Umg1QXNabVREaU5DZHExa0h3T2t1b3VYYkF4XzFXblRIR1ZHYnVQQkd2V2FwdDFWa3Z5ZlZxQ3MwNlpGbHdhVnpkaWlJZElnbmN3NEhGdFRBTWJBZWZDVE9GSW85U3p3UVhWa2hNblFua0tmdDlfT0szWWt0U0gzNUgtbjdrUTBNOTJUMXp4LUVfWl9renRHUDhsbnF3NGtLckFFQXhNeUllYjVfblg5dTJfOGtURkNZWmw4akZTNWRKN1pXUnp0bS10Z2JrMlQtSEoxU1psblhhX2lZcXhrZVpGVGVUdHF0M2NsakJTaG5BemQzdHowVUVRd04xaDNMMFZGMWc?oc=5",
     "source": "gnews_futures",
     "published_utc": "2026-10-09T08:36:58+00:00",
-    "score": 6.6,
-    "duplicates": 0
-   },
-   {
-    "id": "015fdb68e4",
-    "title": "US Stock Market Today: S&P 500 Futures Dip As Higher Inflation Expectations Lift Rate Fears - Yahoo Finance",
-    "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNdkNYUU1HWk92bm9kZ1poSTNWR0dNcXVfMUZGMDBIR2ZLa0RhclhRd0pGSVZOME5TVHluUU5aZzJodlZWZW5MUW1wQ1gzT2dzVndpWEpoeVE2TmR1RndISDZzLXBEVFBZS3VDSXJsYjgwYktwcXd5cXRHSGFWcGFuMDNPZ2F6YVI4ODRRcUwwamRjQQ?oc=5",
-    "source": "gnews_futures",
-    "published_utc": "2026-10-09T08:11:18+00:00",
     "score": 6.53,
     "duplicates": 0
    },
@@ -3008,33 +3042,15 @@
     "published_utc": "2026-10-08T20:30:00+00:00",
     "score": 6.5,
     "duplicates": 1
-   },
-   {
-    "id": "32702d313d",
-    "title": "Bessent taps former Trump Fed pick Shelton to advise on China - Politico",
-    "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPMzd4N0dfWGpHSDkzWXZnNUIzbUJrdU8zM29sT3h2RHJLRmZ1NkE0MERobHdjd19henloNXlzUVNHRWxZZThpXzBsX3hycVlucmtlRFctZ2Q1WGFJd01Oam1YQlVmU1Uza1N5ZHNRRHIwSVBHazlGTnBDV0JSVUFvRG5HNA?oc=5",
-    "source": "gnews_fed",
-    "published_utc": "2026-10-09T13:51:00+00:00",
-    "score": 6.48,
-    "duplicates": 0
-   },
-   {
-    "id": "ec31cc006a",
-    "title": "Nasdaq Futures Climb as Chip Stocks Rebound on New OpenAI Revenue Report - Barchart.com",
-    "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOeDlDak9ENlFQamlMWHd5TnFjXzFmTTV0bWRQTjJmbkJqRTFhSUlMWnhIUW5kLTBjZDhpNUhiT1daMUZfQkw4NkZzQkpadWNxei1jdWNSTEVTbDVjYVoxM2JZbTNQYTRTRHNDams4bnd0LXc1RnQ1Sl9seG1xTkRPU0RnOTZXR2NzZ0dyWkx5YlV1OTZFbVZEb1lMaTQ4Q0NjVlF2Y3lqT0o0NVgyNWs5TGJKRld5LW8?oc=5",
-    "source": "gnews_futures",
-    "published_utc": "2026-10-09T10:32:04+00:00",
-    "score": 6.42,
-    "duplicates": 0
    }
   ],
   "summary": {
    "lines": [
+    "New York Federal Reserve says inflation on everyday items is because of tariffs - KDNL [518a529a4f]",
     "US Stock Market Today: S&P 500 Futures Ease On Rising Inflation Expectations And Fed Hawkishness - Simply Wall Street [b645825752]",
     "Treasury's Bessent hires Trump's controversial former Fed board pick, Judy Shelton, as advisor [7dd10bea60]",
     "Tariffs added 2.9 percentage points to goods inflation, New York Fed finds - InvestmentNews [4616ee6c81]",
-    "Fed grows more hawkish on inflation but there is room to wait on rate hikes - Baltimore Sun [f62ae6b7e2]",
-    "Delta Air Lines cuts 2026 forecast on fuel surge, but CEO says demand is still strong [c81840da8c]"
+    "Wall Street’s week ahead: Bank earnings, CPI headline busy markets week as S&P 500 hovers near records - The Globe and Mail [eb4149c5fb]"
    ],
    "backend": "anthropic",
    "model": "claude-sonnet-5",
