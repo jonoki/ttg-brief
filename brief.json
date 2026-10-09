@@ -1,7 +1,7 @@
 {
  "meta": {
-  "generated_at_utc": "2026-10-09T10:25:02.103620+00:00",
-  "generated_at_local": "Fri 09 Oct 2026 07:25 ADT",
+  "generated_at_utc": "2026-10-09T10:40:23.986760+00:00",
+  "generated_at_local": "Fri 09 Oct 2026 07:40 ADT",
   "trading_day": "2026-10-09",
   "display_tz": "America/Halifax",
   "version": "0.1.0",
@@ -55,7 +55,7 @@
    "time_utc": "2026-10-09T14:00:00+00:00",
    "local": "11:00 ADT",
    "et": "10:00 ET",
-   "in": "3h 34m",
+   "in": "3h 19m",
    "consensus": "47.5",
    "prior": "47.8"
   },
@@ -66,10 +66,10 @@
   {
    "root": "ES",
    "trading_day": "2026-10-09",
-   "as_of_utc": "2026-10-09T10:25:02.103620+00:00",
+   "as_of_utc": "2026-10-09T10:40:23.986760+00:00",
    "source": "yahoo",
    "delayed": true,
-   "last_price": 7847.25,
+   "last_price": 7844.5,
    "levels": [
     {
      "tag": "exp_hi",
@@ -97,7 +97,7 @@
      "label": "Overnight high",
      "price": 7853.5,
      "group": "overnight",
-     "note": "since 18:00 ET, 726 bars"
+     "note": "since 18:00 ET, 741 bars"
     },
     {
      "tag": "pdh",
@@ -116,7 +116,7 @@
     {
      "tag": "onvwap",
      "label": "Overnight VWAP",
-     "price": 7838.99,
+     "price": 7839.15,
      "group": "overnight",
      "note": "typical-price VWAP"
     },
@@ -199,14 +199,14 @@
     }
    ],
    "stats": {
-    "last_bar_utc": "2026-10-09T10:15:00+00:00",
-    "last_bar_age_min": 10.0,
+    "last_bar_utc": "2026-10-09T10:30:00+00:00",
+    "last_bar_age_min": 10.4,
     "market_state": "open",
     "profile_volume": 1317165.0,
     "prior_day": "2026-10-08",
     "prior_day_rth_range": 67.0,
     "overnight_range": 36.5,
-    "gap_vs_prior_close": 30.0,
+    "gap_vs_prior_close": 27.25,
     "gap_basis": "last price (pre-market)",
     "atr14": 82.3,
     "atr_days": 14,
@@ -1346,9 +1346,17 @@
     {
      "t": "2026-10-09T10:15:00+00:00",
      "o": 7847.5,
-     "h": 7847.5,
-     "l": 7846.75,
-     "c": 7847.25,
+     "h": 7848.0,
+     "l": 7844.25,
+     "c": 7845.0,
+     "v": 3015.0
+    },
+    {
+     "t": "2026-10-09T10:30:00+00:00",
+     "o": 7845.0,
+     "h": 7845.0,
+     "l": 7843.25,
+     "c": 7844.5,
      "v": 0.0
     }
    ]
@@ -1356,10 +1364,10 @@
   {
    "root": "NQ",
    "trading_day": "2026-10-09",
-   "as_of_utc": "2026-10-09T10:25:02.103620+00:00",
+   "as_of_utc": "2026-10-09T10:40:23.986760+00:00",
    "source": "yahoo",
    "delayed": true,
-   "last_price": 31212.5,
+   "last_price": 31204.5,
    "levels": [
     {
      "tag": "wh",
@@ -1408,7 +1416,7 @@
      "label": "Overnight high",
      "price": 31266.5,
      "group": "overnight",
-     "note": "since 18:00 ET, 726 bars"
+     "note": "since 18:00 ET, 741 bars"
     },
     {
      "tag": "rn_minor_up",
@@ -1441,7 +1449,7 @@
     {
      "tag": "onvwap",
      "label": "Overnight VWAP",
-     "price": 31114.7,
+     "price": 31115.81,
      "group": "overnight",
      "note": "typical-price VWAP"
     },
@@ -1489,14 +1497,14 @@
     }
    ],
    "stats": {
-    "last_bar_utc": "2026-10-09T10:15:00+00:00",
-    "last_bar_age_min": 10.0,
+    "last_bar_utc": "2026-10-09T10:30:00+00:00",
+    "last_bar_age_min": 10.4,
     "market_state": "open",
     "profile_volume": 530702.0,
     "prior_day": "2026-10-08",
     "prior_day_rth_range": 577.75,
     "overnight_range": 313.5,
-    "gap_vs_prior_close": 236.5,
+    "gap_vs_prior_close": 228.5,
     "gap_basis": "last price (pre-market)",
     "atr14": 507.34,
     "atr_days": 14,
@@ -2636,9 +2644,17 @@
     {
      "t": "2026-10-09T10:15:00+00:00",
      "o": 31216.5,
-     "h": 31217.0,
-     "l": 31210.5,
-     "c": 31212.5,
+     "h": 31222.5,
+     "l": 31204.25,
+     "c": 31207.75,
+     "v": 1052.0
+    },
+    {
+     "t": "2026-10-09T10:30:00+00:00",
+     "o": 31208.0,
+     "h": 31208.0,
+     "l": 31197.25,
+     "c": 31204.5,
      "v": 0.0
     }
    ]
@@ -2652,7 +2668,7 @@
     "link": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxPVGRNR1dvdGVRMmdlZjItSWxRbzBuUjNmU1pORE55cnRVS3BIdVU4RVRaRy1hVk5zdmEwVl9WdmtEdkxsUHFmMHk2Z0toSVdxTzBaU2lVTG5hLVEycGc3UkctSThoQVJIQWFtdVFSN09CZlB0RnktY1d1ZXhOUTBUZFVvQ3FJQ054aVJoSmtjTkRNQ1pVdndzQTEwS0k3VzNrNWNlRy1YNTk5b28wZXNYY3FUYVNTdHdfbUlCRlpxbHFQSE41U1N5cVdFdzc1TlFNSE1GWFJ2UklSWldQbUxLWdIB5gFBVV95cUxOOFV3Tktsb3gzaVhXcmV2TkZnaXVWX1JuRllxZ25NUVdTN0xaekpGOHJSMXFOQTFOMVphWTNKOThjLWtILV9TM3Y5OV9kaU1MOHRGaThPUEZPMWdZcVcydm1QTjFna1VYNEtuWjEtd201YVFXZ2M2WGM5UHpzUG9tMkhnY1l4TlItN2dWUlBnZlR2QXZuS2N3SDRVVjRFZEpEOHFGTVFMbWpTdUt4Y2lnaFBiUHBsQzBTSmdMMEowTWJlNndENldtYjRPMXlwdFZEdEhHLXFzZWhEdjE5QnZLV3RibVVlQQ?oc=5",
     "source": "gnews_futures",
     "published_utc": "2026-10-09T09:04:30+00:00",
-    "score": 10.78,
+    "score": 10.73,
     "duplicates": 1
    },
    {
@@ -2661,7 +2677,7 @@
     "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNN3VOQTZ2YXpfS0lBcDhCVDNTOXRvUEVmWDNJTC1nTF91Wnk3Ym5QRkJaUjBnRl9HVVN4cTZWYkZBWXQ2UXJudWtJZ3ZUN2M0Yk8zYzVYdjB4SFh1R2JtbFk4QXRDMW45NXV1ZGtQaTE4dGtjdWFqZlJXa2p4elpLSk94Z2RnZUxFTklGWW1hcm5GcXM1eWE3RG5tWnhHdjJKdXlBcGdSeEExbFNsR1Z3?oc=5",
     "source": "gnews_macro",
     "published_utc": "2026-10-09T09:35:57+00:00",
-    "score": 9.36,
+    "score": 9.32,
     "duplicates": 4
    },
    {
@@ -2692,13 +2708,31 @@
     "duplicates": 0
    },
    {
-    "id": "87db32165f",
-    "title": "Bank earnings, CPI headline busy markets week as S&P 500 hovers near records - Yahoo Finance",
-    "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQS1Y0ZUEtYk5fdkpPamFybVZPNjAzX1EtMUJPU3BsT0dGQzVqNzk2ZzZ5cHlMVTVpRjkxNTc3Y091UGY2dExYWU9KVFZTdVFWVGhBVWFZbE5OZkxnSnVISDQ5MzRNMEtPWmNJeVRaei1lODRidmExVTFYano5TVgzZXdSX3gzU3VJVEI3RlJ5MlVnZjNRY3N6SjAwRzA?oc=5",
+    "id": "9a49dece93",
+    "title": "Bank Earnings, CPI Headline Busy Markets Week as S&P 500 Hovers Near Records - U.S. News - Money",
+    "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxOYnlMdGxhRTl3MS1wNTB3elp0dlF4UFExNjktYVJjaU1JTjlFX0w4X2xmalNJQktGWTNnc3dHUDhaRzZBb3MzZDRRMmc2ZFZTQ1NlaE4xd0RFX0VVQUR4YlRmNmpaMXNEZHdGalZod0ZfOFp1UzZULXZMUG1qZlVVRGkwQXdZQ3RuSWdabW1ocjdUTng5NHEzS29XRVVlc2FObDgxSzVpUWsyb245MU12QnRkMGdETFZQVnJNWU5jMW83bzZ1Ny04UkFsTGJ3WFl0?oc=5",
     "source": "gnews_macro",
-    "published_utc": "2026-10-09T10:02:09+00:00",
-    "score": 7.94,
+    "published_utc": "2026-10-09T10:33:18+00:00",
+    "score": 7.98,
     "duplicates": 1
+   },
+   {
+    "id": "c81840da8c",
+    "title": "Delta Air Lines cuts 2026 forecast on fuel surge, but CEO says demand is still strong",
+    "link": "https://www.cnbc.com/2026/10/09/delta-air-lines-dal-q3-2026-earnings.html",
+    "source": "cnbc_markets",
+    "published_utc": "2026-10-09T10:39:00+00:00",
+    "score": 7.5,
+    "duplicates": 0
+   },
+   {
+    "id": "015fdb68e4",
+    "title": "US Stock Market Today: S&P 500 Futures Dip As Higher Inflation Expectations Lift Rate Fears - Yahoo Finance",
+    "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNdkNYUU1HWk92bm9kZ1poSTNWR0dNcXVfMUZGMDBIR2ZLa0RhclhRd0pGSVZOME5TVHluUU5aZzJodlZWZW5MUW1wQ1gzT2dzVndpWEpoeVE2TmR1RndISDZzLXBEVFBZS3VDSXJsYjgwYktwcXd5cXRHSGFWcGFuMDNPZ2F6YVI4ODRRcUwwamRjQQ?oc=5",
+    "source": "gnews_futures",
+    "published_utc": "2026-10-09T08:11:18+00:00",
+    "score": 7.09,
+    "duplicates": 0
    },
    {
     "id": "3a7ab91e13",
@@ -2706,7 +2740,7 @@
     "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxOLThQM1ZTZUdjb0VORkJRVVR0Q1pWdUMwWDJkNVY5a0VQVTVnSGp5WGp1LXp6eDRKV2RJV2thVHpiZHdkQkpCRDZ4OWJBVGhpRkM4MXJqR3hwWnNnQTlCc1BQc1JYUG5aUzhpbTRhMXpEY3pPMG5pRUJUSUdsRU43Rlh6MEx5VDllSC1MYkFwUmlEY1VEblpxZkVEYU5oZw?oc=5",
     "source": "gnews_macro",
     "published_utc": "2026-10-09T07:52:45+00:00",
-    "score": 7.08,
+    "score": 7.03,
     "duplicates": 0
    },
    {
@@ -2724,7 +2758,7 @@
     "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPeXpwdHFDS2pPOFFDTjJvWlpvMGtNVlEzVlY2WF94Yk5IMFFrT2N0cUs5dVVzS1pqVjB0MjYwVHVoclFWVHZjMU40UzJpY3hMc1NhM0t5LWNSQ0w0SU96dGdId0ZqYnI3T0VrN2lmdHJlNW9rNGxrY2hhbHZVZV9tWTBSUnRsQ1g1MFJQMVFLSXJBZFpGVlZPVzFQU28xUTg50gGmAUFVX3lxTE5lODhsb205Z0tmRGkwUEY4amlKdEI1LTJFZjBJY1N6OThLX1loQU8yTGI0WS1idmszcHRHdXBiN011TFg0WDZRV1FkMFVEZ1NhOUdHTENFQlNUYlE3VHRsaVgycnEwbThxel9JTXdib3JYUG5RMS1kY3hWZFM2Rzl3TWh4eThnR1BTWFdtbG5XYVhhZklkTE85bW1IRmFxTGtSak1jUHc?oc=5",
     "source": "gnews_fed",
     "published_utc": "2026-10-09T03:27:00+00:00",
-    "score": 6.84,
+    "score": 6.8,
     "duplicates": 0
    },
    {
@@ -2733,42 +2767,22 @@
     "link": "https://www.marketwatch.com/story/why-one-wall-street-firm-sees-parallels-to-the-late-1970s-and-recommends-shorting-u-s-stocks-bbd0ebd2?mod=mw_rss_topstories",
     "source": "marketwatch_top",
     "published_utc": "2026-10-09T08:49:00+00:00",
-    "score": 6.73,
+    "score": 6.69,
     "duplicates": 0
-   },
-   {
-    "id": "0ac1757a43",
-    "title": "Why Are Nasdaq Futures Surging Premarket? SPCX, ASTS, AAPL, TMUS, VZ, NVDA, MU, LITE Stocks In Focus - Yahoo Finance",
-    "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPRlRPdWJWU3UtNTVHSUdxSDdObHVsZ0N2cTRwd3dsczA1WExnV2xrZ3M3Nl9rVFZvbkdzcl9YNllwWHZNSTRWTGdXV3J0WjZuS0VKTFh1RlFCZWlTWXRmU2MxT2FDSzg1THZ3c2k3Z090TVl2UWRVdUtSQlJldEU1NkllQUI2MlRfRFdFOUtTeTJfZ2RDUVc3VGZ2MWpyQzJxdUpj?oc=5",
-    "source": "gnews_futures",
-    "published_utc": "2026-10-09T08:38:57+00:00",
-    "score": 6.71,
-    "duplicates": 0
-   },
-   {
-    "id": "af5954421f",
-    "title": "Fed's Musalem says lowering inflation will require more rate hikes - Yahoo Finance",
-    "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPeC1fM3BUQmhweHdpaklHUUZ4Q204bmVmY0xiWndDUzB4LWI1bTMxTmx6bnFGbFlKalJyOGlFQk50ekJqNGNvYUxINkJObzJNS2FDNWVJTUhDQzJDdE94NE4xbUFNNEhDSTFBNEVSaVA2QzdiWENRaS1MemltZEx2NzAzcktLWGY1cGg0SHA3MGtBNG5VcUd5OEhyZGI5cTVQLVNN?oc=5",
-    "source": "gnews_fed",
-    "published_utc": "2026-10-08T18:13:23+00:00",
-    "score": 6.5,
-    "duplicates": 2
    }
   ],
   "summary": {
    "lines": [
-    "US Stock Market Today: S&P 500 Futures Ease On Rising Inflation Expectations And Fed Hawkishness - Simply Wall Street [b645825752]",
-    "Fed grows more hawkish on inflation but sees room to wait on rate hikes - WBFF [f0858eabfd]",
-    "Inflation on many everyday items was entirely due to tariffs, NY Fed says [7ba5c8b4a7]",
-    "Tariffs added 2.9 percentage points to goods inflation, New York Fed finds - InvestmentNews [4616ee6c81]",
-    "Fed Data Shows Tariffs Drove Inflation in 2025 - PYMNTS.com [6f9680d418]"
+    "Futures are softer into the open as rising inflation expectations and a more hawkish Fed tone pressure rate-sensitive tech/index futures ahead of the 10:00 ET prelim UoM inflation expectations (prior 4.6%) and sentiment (cons 47.5, prior 47.8) prints [b645825752][015fdb68e4][f0858eabfd][3a12f8528d].",
+    "New York Fed research found tariffs added 2.9 percentage points to inflation across 67 goods categories by February 2026, keeping tariff-driven inflation in focus for rate-path positioning [7ba5c8b4a7][4616ee6c81][6f9680d418].",
+    "Delta Air Lines cut its 2026 forecast on fuel costs and missed Wall Street earnings estimates for the first time in two years, an early read on corporate cost pressure as earnings season ramps [c81840da8c].",
+    "Treasury added sanctions on 17 tankers tied to Iran's \"shadow fleet,\" a geopolitical/energy-market headline worth watching for oil-linked volatility [4fbe00dde8].",
+    "A Wall Street firm drew parallels between the current AI-driven market and the late-1970s high-inflation era while recommending shorting U.S. stocks, adding to the inflation-narrative backdrop [8f558f77bb]."
    ],
    "backend": "anthropic",
    "model": "claude-sonnet-5",
    "dropped": [],
-   "warnings": [
-    "summariser produced no valid lines; showing digest"
-   ]
+   "warnings": []
   },
   "feeds": [],
   "warnings": []
