@@ -1,7 +1,7 @@
 {
  "meta": {
-  "generated_at_utc": "2026-10-09T15:41:53.779604+00:00",
-  "generated_at_local": "Fri 09 Oct 2026 12:41 ADT",
+  "generated_at_utc": "2026-10-09T15:57:14.084159+00:00",
+  "generated_at_local": "Fri 09 Oct 2026 12:57 ADT",
   "trading_day": "2026-10-09",
   "display_tz": "America/Halifax",
   "version": "0.1.0",
@@ -57,10 +57,10 @@
   {
    "root": "ES",
    "trading_day": "2026-10-09",
-   "as_of_utc": "2026-10-09T15:41:53.779604+00:00",
+   "as_of_utc": "2026-10-09T15:57:14.084159+00:00",
    "source": "yahoo",
    "delayed": true,
-   "last_price": 7846.75,
+   "last_price": 7846.5,
    "levels": [
     {
      "tag": "exp_hi",
@@ -211,8 +211,8 @@
     }
    ],
    "stats": {
-    "last_bar_utc": "2026-10-09T15:31:00+00:00",
-    "last_bar_age_min": 10.9,
+    "last_bar_utc": "2026-10-09T15:47:00+00:00",
+    "last_bar_age_min": 10.2,
     "market_state": "open",
     "profile_volume": 1317165.0,
     "prior_day": "2026-10-08",
@@ -1526,20 +1526,28 @@
     {
      "t": "2026-10-09T15:30:00+00:00",
      "o": 7846.25,
+     "h": 7849.0,
+     "l": 7842.75,
+     "c": 7847.5,
+     "v": 30861.0
+    },
+    {
+     "t": "2026-10-09T15:45:00+00:00",
+     "o": 7847.75,
      "h": 7847.75,
-     "l": 7845.75,
-     "c": 7846.75,
-     "v": 2181.0
+     "l": 7844.25,
+     "c": 7846.5,
+     "v": 3730.0
     }
    ]
   },
   {
    "root": "NQ",
    "trading_day": "2026-10-09",
-   "as_of_utc": "2026-10-09T15:41:53.779604+00:00",
+   "as_of_utc": "2026-10-09T15:57:14.084159+00:00",
    "source": "yahoo",
    "delayed": true,
-   "last_price": 31044.0,
+   "last_price": 31059.25,
    "levels": [
     {
      "tag": "wh",
@@ -1626,8 +1634,8 @@
      "note": ""
     },
     {
-     "tag": "rn_minor_up",
-     "label": "Round 50 above",
+     "tag": "rn_minor_dn",
+     "label": "Round 50 below",
      "price": 31050.0,
      "group": "round",
      "note": ""
@@ -1690,8 +1698,8 @@
     }
    ],
    "stats": {
-    "last_bar_utc": "2026-10-09T15:31:00+00:00",
-    "last_bar_age_min": 10.9,
+    "last_bar_utc": "2026-10-09T15:47:00+00:00",
+    "last_bar_age_min": 10.2,
     "market_state": "open",
     "profile_volume": 530702.0,
     "prior_day": "2026-10-08",
@@ -3005,10 +3013,18 @@
     {
      "t": "2026-10-09T15:30:00+00:00",
      "o": 31034.25,
-     "h": 31049.25,
-     "l": 31030.75,
-     "c": 31044.0,
-     "v": 1254.0
+     "h": 31080.0,
+     "l": 31024.0,
+     "c": 31066.5,
+     "v": 12742.0
+    },
+    {
+     "t": "2026-10-09T15:45:00+00:00",
+     "o": 31067.75,
+     "h": 31069.75,
+     "l": 31051.5,
+     "c": 31059.25,
+     "v": 1108.0
     }
    ]
   }
@@ -3021,7 +3037,7 @@
     "link": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxPWFNSY0VkQmRWT0ttd2g5ejVmRjQtdUZvbTROZlNuc2JvTDdqYnNmWGVocktIeDd1TUN3YWpHZmw3d1BGR2ZxS2FqWFpJREhWVWxsMVNuUE1sb1lSMW1WQ2JOaUNnMHJBZjZBS3RlWGE1Sk9GdVM5cE9OWm1hQklzMFZ4cjBkWk1ySV9ZNDdCRTlzVnVnTm5fRi03SDd3TlAtYlFUeXBLbExYQlVnTGFPNlB4eTVfSUlrenhuVENDYThUV1hUU08zcnVTdGxxWFN2a2ZqbFZtRQ?oc=5",
     "source": "gnews_fed",
     "published_utc": "2026-10-09T14:19:51+00:00",
-    "score": 11.27,
+    "score": 11.23,
     "duplicates": 3
    },
    {
@@ -3030,7 +3046,7 @@
     "link": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxPVGRNR1dvdGVRMmdlZjItSWxRbzBuUjNmU1pORE55cnRVS3BIdVU4RVRaRy1hVk5zdmEwVl9WdmtEdkxsUHFmMHk2Z0toSVdxTzBaU2lVTG5hLVEycGc3UkctSThoQVJIQWFtdVFSN09CZlB0RnktY1d1ZXhOUTBUZFVvQ3FJQ054aVJoSmtjTkRNQ1pVdndzQTEwS0k3VzNrNWNlRy1YNTk5b28wZXNYY3FUYVNTdHdfbUlCRlpxbHFQSE41U1N5cVdFdzc1TlFNSE1GWFJ2UklSWldQbUxLWdIB5gFBVV95cUxOOFV3Tktsb3gzaVhXcmV2TkZnaXVWX1JuRllxZ25NUVdTN0xaekpGOHJSMXFOQTFOMVphWTNKOThjLWtILV9TM3Y5OV9kaU1MOHRGaThPUEZPMWdZcVcydm1QTjFna1VYNEtuWjEtd201YVFXZ2M2WGM5UHpzUG9tMkhnY1l4TlItN2dWUlBnZlR2QXZuS2N3SDRVVjRFZEpEOHFGTVFMbWpTdUt4Y2lnaFBiUHBsQzBTSmdMMEowTWJlNndENldtYjRPMXlwdFZEdEhHLXFzZWhEdjE5QnZLV3RibVVlQQ?oc=5",
     "source": "gnews_futures",
     "published_utc": "2026-10-09T09:04:30+00:00",
-    "score": 9.4,
+    "score": 9.35,
     "duplicates": 0
    },
    {
@@ -3039,7 +3055,7 @@
     "link": "https://www.cnbc.com/2026/10/09/judy-shelton-scott-bessent-treasury.html",
     "source": "cnbc_markets",
     "published_utc": "2026-10-09T13:09:19+00:00",
-    "score": 8.08,
+    "score": 8.03,
     "duplicates": 1
    },
    {
@@ -3048,7 +3064,7 @@
     "link": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxOazFzYllWT1d0eXVIZllhLUlLazNwYU52MzZwNWlTaWxUbzRUR2JlRGZXeG5DX0RuLWxYUGh4Qy12MmRYd21yOFV2bUxpd3E1NWRrWWJVUGxIRHVZSGw2R0VORmpEeXlNbHpEaEw4NF90dGNfTHBSWkIweGJublJQWmd6azlGVHMwSk93ekpVSnppdFhTUV9SeWF5ckd0ME9sOFFWaFpsZ0VldEFoWS1LMkkwWTlEb25SVE1xNUxBYzI4alVJMS1CS0M4SWVFQ3huNkhLQzM0QWg0N3c?oc=5",
     "source": "gnews_fed",
     "published_utc": "2026-10-09T15:30:37+00:00",
-    "score": 7.97,
+    "score": 7.93,
     "duplicates": 6
    },
    {
@@ -3057,7 +3073,7 @@
     "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPMEE0cHRxN2h6UmZZRzB5MHNpalB6b3FidlcwQW1oaUFaNXlNZGNkbzZ0VEVfYjBPeVNEWHgzSVF6MWVCZno3ZDUxMFB6RHdqTGZUaktod3ZISEtnZG13OWUxZ3h6NElnU1lMVVF6a21nSzgtS1dvQjlaNi1XaFBWQXNFdEhYN1QyZmJ4dUJ6U1habUVsYXpQZjVNaXJURmtPY2hSNXRTUTRvakxWdjlWNXpiNDhNaGFicFp3?oc=5",
     "source": "gnews_macro",
     "published_utc": "2026-10-09T14:19:18+00:00",
-    "score": 7.77,
+    "score": 7.73,
     "duplicates": 1
    },
    {
@@ -3066,7 +3082,7 @@
     "link": "https://www.federalreserve.gov/newsevents/pressreleases/other20261009a.htm",
     "source": "fed_press",
     "published_utc": "2026-10-09T14:00:00+00:00",
-    "score": 7.72,
+    "score": 7.67,
     "duplicates": 0
    },
    {
@@ -3075,7 +3091,7 @@
     "link": "https://www.cnbc.com/2026/10/09/delta-air-lines-dal-q3-2026-earnings.html",
     "source": "cnbc_markets",
     "published_utc": "2026-10-09T15:07:46+00:00",
-    "score": 7.41,
+    "score": 7.36,
     "duplicates": 0
    },
    {
@@ -3084,7 +3100,7 @@
     "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxON2p2T25TXzRrRG5iRHl1dUh0Q0NLb1BQbHl1Z1o5T0phMjhkX0VCSC01N2VvMUpNblJwRWZiNjZXVVJOYncxRS1OT3RKLXk2YUJ5R0JTMjRFREJPRWdJX093X3Vybko4bXR3WGtVeHMtZmVMamg4TnEydWEwOUE2TkwtUEpjdmJqME4zWTE1bllVX3hFZFV4MkFYQktlMm1ZWmxnVjE1V1JWT2VkSExLMGdWWFFhNzA?oc=5",
     "source": "gnews_fed",
     "published_utc": "2026-10-09T11:36:47+00:00",
-    "score": 7.32,
+    "score": 7.28,
     "duplicates": 1
    },
    {
@@ -3093,7 +3109,7 @@
     "link": "https://www.cnbc.com/2026/10/09/fed-lisa-cook-trump.html",
     "source": "cnbc_markets",
     "published_utc": "2026-10-09T15:18:12+00:00",
-    "score": 6.93,
+    "score": 6.89,
     "duplicates": 2
    },
    {
@@ -3102,7 +3118,7 @@
     "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNdkpUUi1rc3RiU0cybUNiZ24yOE1XcXRxZDJUaWUzS2g2TGgyYnlwNktyOGczR3AxUk9KVkU0alZQTTY0WkdTREpmZEkxUm0wLVdiaEhfNmd6cFJHM1JrY3dlRzFoMDNOdEtkNkhhdUxQaTR2bDVuVHczMEVNX0JnZDRaVklHLW01TWVHcEs1TDNZRUp6dlpxSWpQcnNLblNWbm5OaEduRGpNOUtONFhCYXMzQVpmR3A1cmMtVUxWM2Y?oc=5",
     "source": "gnews_macro",
     "published_utc": "2026-10-09T12:00:00+00:00",
-    "score": 6.88,
+    "score": 6.84,
     "duplicates": 0
    },
    {
@@ -3111,7 +3127,7 @@
     "link": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxQVUQyZVJsS19BYXJmNFNaMVJhaVFWS0h6MV9Sdl9zS1VpSlVsX0Z3YlJTQ0p5ZmNEMmUwRjBTcjMtdnlXc280TUdrY0N6MHQ3djBhZzBkWEIxMUtMa2NDV0pWei1fYW5VZS1fdGMtTHk2R1h6V29XM3N0djltZ2tobl91cTI1TmNScW9CVHlSMnRnTjFWSFB1S0I2dFR6QXBBdUsyb2NQaEpJMWx1TV9mR2UzQ2lWT0YzbkpXdjN4NXlIWjYwVmpfZEQtNk1UM2doRThFY2xYNEMwWWRLSUVCQzBnT042b3BRRXRDMHZ2OWZ4dw?oc=5",
     "source": "gnews_macro",
     "published_utc": "2026-10-09T13:20:54+00:00",
-    "score": 6.61,
+    "score": 6.57,
     "duplicates": 0
    },
    {
@@ -3120,23 +3136,24 @@
     "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNNTRWN3RKV2p1dzZCWnhzbE9CbFZFUzJNcnpZZmlhUWY2dlE1Z1ZJZ0F0NzNNVWwtVlB0enZ5dGtRMTlLdlhBc3hiY2Fwa1hkUVNVemZvQjFVVlE0b3R1ZHhDblNOeDVvUmNmalpIcWtTVTJQdjhzRWFabUlZU3Brc1VTN1FsVnNMS2dHYUpXUDFjTUM2OHlhcmwxbDHSAaIBQVVfeXFMTTdoZGRsWXVpa19hUVlyaVRQd190d2I4b2Z3UXJ5VkREYUktNGxUdFF2dFd1ZGotS3BheU9VWEJCTUZ4WDRvc1FEMFJEUGlPZW5Wb0hDQXBHd19jYlpRQUYybm8xSGNZZURoUm9wcDYzRk8ybEdxUUs3NzVOejVoOEhYNGlBU29HeG1tcTlyMkNFY1ZOWlVyLTRsN0ZFWmVSTkNR?oc=5",
     "source": "gnews_futures",
     "published_utc": "2026-10-09T12:53:36+00:00",
-    "score": 6.53,
+    "score": 6.49,
     "duplicates": 1
    }
   ],
   "summary": {
    "lines": [
-    "Fed minutes signal another rate hike is likely this year to fight inflation, and S&P futures eased earlier on rising inflation expectations and Fed hawkishness, a backdrop to today's 10:00 ET UoM inflation expectations print [1b03228701][b645825752][f62ae6b7e2].",
-    "Trump has established a committee to investigate Fed Governor Lisa Cook over mortgage fraud statements, keeping Fed independence/leadership risk in focus [4e6a31ada6][e989f8c25e].",
-    "NY Fed commentary links everyday-item inflation to tariffs, and Treasury's Bessent has hired Judy Shelton, a controversial ex-Fed board nominee, as an advisor, adding to Fed-policy-politics noise [518a529a4f][7dd10bea60].",
-    "US stock futures rose as tech shares rebounded after the prior sell-off, a reversal traders will watch for follow-through into the open [07190e715b]."
+    "New York Federal Reserve says inflation on everyday items is because of tariffs - KDNL [518a529a4f]",
+    "US Stock Market Today: S&P 500 Futures Ease On Rising Inflation Expectations And Fed Hawkishness - Simply Wall Street [b645825752]",
+    "Treasury's Bessent hires Trump's controversial former Fed board pick, Judy Shelton, as advisor [7dd10bea60]",
+    "Trump establishes committee to investigate Federal Reserve’s Lisa Cook in latest effort to fire her - Anchorage Daily News [4e6a31ada6]",
+    "Wall Street’s week ahead: Bank earnings, CPI headline busy markets week as S&P 500 hovers near records - The Globe and Mail [eb4149c5fb]"
    ],
    "backend": "anthropic",
    "model": "claude-sonnet-5",
-   "dropped": [
-    "no valid citation: Delta Air Lines cut its 2026 forecast on a fuel surge and missed Wall Street estimates for the first time in two years, kicking off the earnings week that also includ"
-   ],
-   "warnings": []
+   "dropped": [],
+   "warnings": [
+    "summariser produced no valid lines; showing digest"
+   ]
   },
   "feeds": [],
   "warnings": []
