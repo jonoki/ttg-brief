@@ -1,7 +1,7 @@
 {
  "meta": {
-  "generated_at_utc": "2026-10-09T15:11:14.949569+00:00",
-  "generated_at_local": "Fri 09 Oct 2026 12:11 ADT",
+  "generated_at_utc": "2026-10-09T15:26:35.309886+00:00",
+  "generated_at_local": "Fri 09 Oct 2026 12:26 ADT",
   "trading_day": "2026-10-09",
   "display_tz": "America/Halifax",
   "version": "0.1.0",
@@ -57,7 +57,7 @@
   {
    "root": "ES",
    "trading_day": "2026-10-09",
-   "as_of_utc": "2026-10-09T15:11:14.949569+00:00",
+   "as_of_utc": "2026-10-09T15:26:35.309886+00:00",
    "source": "yahoo",
    "delayed": true,
    "last_price": 7848.25,
@@ -211,8 +211,8 @@
     }
    ],
    "stats": {
-    "last_bar_utc": "2026-10-09T15:01:00+00:00",
-    "last_bar_age_min": 10.2,
+    "last_bar_utc": "2026-10-09T15:16:00+00:00",
+    "last_bar_age_min": 10.6,
     "market_state": "open",
     "profile_volume": 1317165.0,
     "prior_day": "2026-10-08",
@@ -1510,20 +1510,28 @@
     {
      "t": "2026-10-09T15:00:00+00:00",
      "o": 7849.0,
-     "h": 7850.0,
-     "l": 7846.5,
+     "h": 7851.25,
+     "l": 7841.0,
+     "c": 7847.25,
+     "v": 42779.0
+    },
+    {
+     "t": "2026-10-09T15:15:00+00:00",
+     "o": 7847.0,
+     "h": 7849.25,
+     "l": 7846.75,
      "c": 7848.25,
-     "v": 3016.0
+     "v": 1729.0
     }
    ]
   },
   {
    "root": "NQ",
    "trading_day": "2026-10-09",
-   "as_of_utc": "2026-10-09T15:11:14.949569+00:00",
+   "as_of_utc": "2026-10-09T15:26:35.309886+00:00",
    "source": "yahoo",
    "delayed": true,
-   "last_price": 31078.25,
+   "last_price": 31042.75,
    "levels": [
     {
      "tag": "wh",
@@ -1610,8 +1618,8 @@
      "note": ""
     },
     {
-     "tag": "rn_minor_dn",
-     "label": "Round 50 below",
+     "tag": "rn_minor_up",
+     "label": "Round 50 above",
      "price": 31050.0,
      "group": "round",
      "note": ""
@@ -1674,8 +1682,8 @@
     }
    ],
    "stats": {
-    "last_bar_utc": "2026-10-09T15:01:00+00:00",
-    "last_bar_age_min": 10.2,
+    "last_bar_utc": "2026-10-09T15:16:00+00:00",
+    "last_bar_age_min": 10.6,
     "market_state": "open",
     "profile_volume": 530702.0,
     "prior_day": "2026-10-08",
@@ -2973,10 +2981,18 @@
     {
      "t": "2026-10-09T15:00:00+00:00",
      "o": 31082.0,
-     "h": 31090.5,
-     "l": 31071.0,
-     "c": 31078.25,
-     "v": 1022.0
+     "h": 31096.25,
+     "l": 31018.75,
+     "c": 31039.5,
+     "v": 16999.0
+    },
+    {
+     "t": "2026-10-09T15:15:00+00:00",
+     "o": 31039.25,
+     "h": 31054.0,
+     "l": 31036.5,
+     "c": 31042.75,
+     "v": 534.0
     }
    ]
   }
@@ -2984,13 +3000,22 @@
  "news": {
   "headlines": [
    {
-    "id": "99e3edb7da",
-    "title": "New York Federal Reserve says inflation on everyday items is because of tariffs - The National Desk",
-    "link": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxNZ1phZTUyd0lfbGtnM2UwRFo2U1h4NVRBZUR0X2h3VFhDR2hqRjl4bC03M2dyeENyTk01ZVk0NzB1NmZtU0JmeXYyZThtOW9qUEpfYlhlWkhoYnk3Rk4yOXdqaU94dVhHWTJWdnpjVHY0Z2V6NE5nWUhZVDhqQ1B0TVphSUQ3bEJrcU8zOVdxa1pWZTdxM3JibldadzBJNTlpQ1REb3R0VUNtaUpaSGE0ZTQtam9qWkdsODZhU09TWkM2WElQckllSlBHZlpFNFltU1ZsSDh4QTZhdlpiWGtELS1MSWQ?oc=5",
+    "id": "01fe5af6ee",
+    "title": "New York Federal Reserve says inflation on everyday items is because of tariffs - WWMT",
+    "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxQOFAtcGVXVXJGYlFDaERmZFBrcXVjTXJ2R1FXc3RjZFRSWERaWDBzdHNvQlA4aDdsVGdhYkVPZ1kzeVBUY1FiSXpObnhOd2xQYVhUdHpNY1YtNXkxQzFHeWxidUhzaGt5UnN6Wk91cmF5dm9SUHUxZjc3a0JoMC04Y193Y0pOVXlyYUJPNk5jbll4VUpDR0F4cTFLOWcyZUUwdDMtRlliMnhXU0dPLVNJQTJhYVJIVHc3aHVUeE9COTBhcmF3UDZHVFBVZF9Oa3c?oc=5",
     "source": "gnews_fed",
-    "published_utc": "2026-10-09T14:12:23+00:00",
-    "score": 10.34,
-    "duplicates": 1
+    "published_utc": "2026-10-09T14:17:26+00:00",
+    "score": 10.81,
+    "duplicates": 2
+   },
+   {
+    "id": "04c125b240",
+    "title": "Trump establishes committee to investigate Federal Reserve’s Lisa Cook in latest effort to fire her - FOX 5 San Diego & KUSI News",
+    "link": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxOQlh0RDhwQ0lEWlg2TE5EYUtabUxUUDZJdjdSVzNodWtuNmxUUFAtNk5BQjN5ZXJtekZUWWd6bDFxSU1OcTMwTHp0NDk1ZU1GZy1Ka1kzSVAtUFVRaWFqZGN0R2VmS09qM204VHBoY2tjSjJoS2hDRTRkM25LejhMdkp5RmNKRlc1cFZoMWw3MnloT1BtZHdDUXRnWi13Nk1PY1NkMk1zRXpjZENDWDh2a0VWY212LUlKQXdYV2ludnVnRkg2eFZuaFBEODNIMUdhdGJpTGFaWWxYdHB5bFlLNEQxc0dReW8y0gHuAUFVX3lxTE5rU3FvUEhiamJGdzVuU3FIVDQ0Z1QtV1dzOTNianN1cG94d1h4dC03VFBHZTJ3aFpSRU8zbTZYeF9SOW5vejVEZTRSMGNfamNfVlFySTdiOGRQV2NGMUo1ck11LTlyMFlzeHlIWE5TZWVWUExqczRZZ0VRR1JaRFd3RE5LZ1VZcFU0RTh4eWpTT2h2OW5KTG1pQVBGVHlKd3dmaUdQOVROaWp1X2k3S3hyUGFwRWFmYXh5Z005RDZ3LVYxUm01WlF1cHJRWlFxeDZBejVtNllTeGx6cEdIb2g5ajhkMXlQVDZRaVQ4SGc?oc=5",
+    "source": "gnews_fed",
+    "published_utc": "2026-10-09T15:14:18+00:00",
+    "score": 9.47,
+    "duplicates": 9
    },
    {
     "id": "b645825752",
@@ -2998,17 +3023,8 @@
     "link": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxPVGRNR1dvdGVRMmdlZjItSWxRbzBuUjNmU1pORE55cnRVS3BIdVU4RVRaRy1hVk5zdmEwVl9WdmtEdkxsUHFmMHk2Z0toSVdxTzBaU2lVTG5hLVEycGc3UkctSThoQVJIQWFtdVFSN09CZlB0RnktY1d1ZXhOUTBUZFVvQ3FJQ054aVJoSmtjTkRNQ1pVdndzQTEwS0k3VzNrNWNlRy1YNTk5b28wZXNYY3FUYVNTdHdfbUlCRlpxbHFQSE41U1N5cVdFdzc1TlFNSE1GWFJ2UklSWldQbUxLWdIB5gFBVV95cUxOOFV3Tktsb3gzaVhXcmV2TkZnaXVWX1JuRllxZ25NUVdTN0xaekpGOHJSMXFOQTFOMVphWTNKOThjLWtILV9TM3Y5OV9kaU1MOHRGaThPUEZPMWdZcVcydm1QTjFna1VYNEtuWjEtd201YVFXZ2M2WGM5UHpzUG9tMkhnY1l4TlItN2dWUlBnZlR2QXZuS2N3SDRVVjRFZEpEOHFGTVFMbWpTdUt4Y2lnaFBiUHBsQzBTSmdMMEowTWJlNndENldtYjRPMXlwdFZEdEhHLXFzZWhEdjE5QnZLV3RibVVlQQ?oc=5",
     "source": "gnews_futures",
     "published_utc": "2026-10-09T09:04:30+00:00",
-    "score": 9.48,
+    "score": 9.44,
     "duplicates": 0
-   },
-   {
-    "id": "806a1dbdc8",
-    "title": "Trump establishes committee to investigate Federal Reserve's Lisa Cook in latest effort to fire her - Newsday",
-    "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE5qc0RfZmNCSVp0WGltU3h5WkZxd0J6ZEtWbnN6QmdqYWtCQnRBNUNRcVJmejVHblFmc19VN2xhRHRzcHBqRHVvQWdSODl0aUdoTkp1di14LUh4amV5bFg2akpTV1l1NkdSNG94WkQzV0RmRUR6?oc=5",
-    "source": "gnews_fed",
-    "published_utc": "2026-10-09T14:57:54+00:00",
-    "score": 9.46,
-    "duplicates": 9
    },
    {
     "id": "7dd10bea60",
@@ -3016,7 +3032,7 @@
     "link": "https://www.cnbc.com/2026/10/09/judy-shelton-scott-bessent-treasury.html",
     "source": "cnbc_markets",
     "published_utc": "2026-10-09T13:09:19+00:00",
-    "score": 8.16,
+    "score": 8.12,
     "duplicates": 1
    },
    {
@@ -3025,7 +3041,7 @@
     "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPMEE0cHRxN2h6UmZZRzB5MHNpalB6b3FidlcwQW1oaUFaNXlNZGNkbzZ0VEVfYjBPeVNEWHgzSVF6MWVCZno3ZDUxMFB6RHdqTGZUaktod3ZISEtnZG13OWUxZ3h6NElnU1lMVVF6a21nSzgtS1dvQjlaNi1XaFBWQXNFdEhYN1QyZmJ4dUJ6U1habUVsYXpQZjVNaXJURmtPY2hSNXRTUTRvakxWdjlWNXpiNDhNaGFicFp3?oc=5",
     "source": "gnews_macro",
     "published_utc": "2026-10-09T14:19:18+00:00",
-    "score": 7.86,
+    "score": 7.81,
     "duplicates": 1
    },
    {
@@ -3034,7 +3050,7 @@
     "link": "https://www.federalreserve.gov/newsevents/pressreleases/other20261009a.htm",
     "source": "fed_press",
     "published_utc": "2026-10-09T14:00:00+00:00",
-    "score": 7.8,
+    "score": 7.76,
     "duplicates": 0
    },
    {
@@ -3043,7 +3059,7 @@
     "link": "https://www.cnbc.com/2026/10/09/delta-air-lines-dal-q3-2026-earnings.html",
     "source": "cnbc_markets",
     "published_utc": "2026-10-09T15:07:46+00:00",
-    "score": 7.49,
+    "score": 7.45,
     "duplicates": 0
    },
    {
@@ -3052,7 +3068,7 @@
     "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxON2p2T25TXzRrRG5iRHl1dUh0Q0NLb1BQbHl1Z1o5T0phMjhkX0VCSC01N2VvMUpNblJwRWZiNjZXVVJOYncxRS1OT3RKLXk2YUJ5R0JTMjRFREJPRWdJX093X3Vybko4bXR3WGtVeHMtZmVMamg4TnEydWEwOUE2TkwtUEpjdmJqME4zWTE1bllVX3hFZFV4MkFYQktlMm1ZWmxnVjE1V1JWT2VkSExLMGdWWFFhNzA?oc=5",
     "source": "gnews_fed",
     "published_utc": "2026-10-09T11:36:47+00:00",
-    "score": 7.4,
+    "score": 7.36,
     "duplicates": 1
    },
    {
@@ -3060,8 +3076,8 @@
     "title": "Trump appoints committee to investigate statements by the Fed's Lisa Cook",
     "link": "https://www.cnbc.com/2026/10/09/fed-lisa-cook-trump.html",
     "source": "cnbc_markets",
-    "published_utc": "2026-10-09T14:29:59+00:00",
-    "score": 6.89,
+    "published_utc": "2026-10-09T15:18:12+00:00",
+    "score": 6.98,
     "duplicates": 2
    },
    {
@@ -3070,7 +3086,7 @@
     "link": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxQVUQyZVJsS19BYXJmNFNaMVJhaVFWS0h6MV9Sdl9zS1VpSlVsX0Z3YlJTQ0p5ZmNEMmUwRjBTcjMtdnlXc280TUdrY0N6MHQ3djBhZzBkWEIxMUtMa2NDV0pWei1fYW5VZS1fdGMtTHk2R1h6V29XM3N0djltZ2tobl91cTI1TmNScW9CVHlSMnRnTjFWSFB1S0I2dFR6QXBBdUsyb2NQaEpJMWx1TV9mR2UzQ2lWT0YzbkpXdjN4NXlIWjYwVmpfZEQtNk1UM2doRThFY2xYNEMwWWRLSUVCQzBnT042b3BRRXRDMHZ2OWZ4dw?oc=5",
     "source": "gnews_macro",
     "published_utc": "2026-10-09T13:20:54+00:00",
-    "score": 6.69,
+    "score": 6.65,
     "duplicates": 0
    },
    {
@@ -3079,7 +3095,7 @@
     "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNNTRWN3RKV2p1dzZCWnhzbE9CbFZFUzJNcnpZZmlhUWY2dlE1Z1ZJZ0F0NzNNVWwtVlB0enZ5dGtRMTlLdlhBc3hiY2Fwa1hkUVNVemZvQjFVVlE0b3R1ZHhDblNOeDVvUmNmalpIcWtTVTJQdjhzRWFabUlZU3Brc1VTN1FsVnNMS2dHYUpXUDFjTUM2OHlhcmwxbDHSAaIBQVVfeXFMTTdoZGRsWXVpa19hUVlyaVRQd190d2I4b2Z3UXJ5VkREYUktNGxUdFF2dFd1ZGotS3BheU9VWEJCTUZ4WDRvc1FEMFJEUGlPZW5Wb0hDQXBHd19jYlpRQUYybm8xSGNZZURoUm9wcDYzRk8ybEdxUUs3NzVOejVoOEhYNGlBU29HeG1tcTlyMkNFY1ZOWlVyLTRsN0ZFWmVSTkNR?oc=5",
     "source": "gnews_futures",
     "published_utc": "2026-10-09T12:53:36+00:00",
-    "score": 6.62,
+    "score": 6.58,
     "duplicates": 1
    },
    {
@@ -3088,22 +3104,21 @@
     "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOSFZESWx0ZjJCWDJGWkp3WU9pTmZpVzh5RVdzM2pNb1VfcmxPYVRWS0l1Z0pzZ2tCR1pSaTI2Y3U0anJZU1F3TmMtd3dZUjgtZC1SZUZ3dHI3X0tacFRtYTc2R3BseWo0MlR1WmdCLXYwdHVZcFd5bUdtZ1FydWpWcVRSblhYUnE4c2VPVlFUZmNMSmxRVkZSdkFodWlza0M5LU5rR2VCcVhUMm1VZ28zYkpCYldQWnBaUWFNOHdFRmJZRlJs?oc=5",
     "source": "gnews_megacap",
     "published_utc": "2026-10-09T14:50:07+00:00",
-    "score": 6.44,
+    "score": 6.4,
     "duplicates": 0
    }
   ],
   "summary": {
    "lines": [
-    "Fed commentary has turned more hawkish on inflation even as tariff-driven price pressures persist, and futures reflect that shift, keeping rate-path uncertainty in play ahead of 10:00 ET UoM sentiment and inflation expectations data [b645825752][f62ae6b7e2][99e3edb7da].",
-    "Political pressure on the Fed continues with Trump's committee probing Governor Lisa Cook and Bessent bringing on Judy Shelton as a Treasury advisor, adding headline risk around Fed independence [806a1dbdc8][e989f8c25e][7dd10bea60].",
-    "Tech shares are rebounding in futures after the prior sell-off, a factor for Nasdaq-heavy MNQ positioning [07190e715b].",
-    "The week ahead brings bank earnings and CPI with the S&P 500 near records, keeping macro data releases as the main catalysts for intraday moves [eb4149c5fb][bfdafbdc0c]."
+    "Futures eased earlier on rising inflation expectations and Fed hawkishness before tech shares helped futures rebound, so expect chop into the 10:00 ET UoM sentiment (cons 47.5) and inflation expectations (prior 4.6%) prints [b645825752][07190e715b][f62ae6b7e2].",
+    "Trump has set up a committee to investigate Fed Governor Lisa Cook, adding Fed-independence headline risk that can move rate-sensitive futures intraday [04c125b240][e989f8c25e].",
+    "NY Fed commentary tying everyday-item inflation to tariffs adds to the inflation narrative ahead of next week's CPI [01fe5af6ee][eb4149c5fb][bfdafbdc0c].",
+    "Treasury's Bessent hiring Judy Shelton as an advisor is a watch item for Fed-policy politics but is not an immediate market catalyst [7dd10bea60].",
+    "Delta cut its 2026 forecast on fuel costs despite calling demand strong, and Tesla's Shanghai deliveries rose 10.7% MoM, both single-stock items rather than broad index drivers [c81840da8c][1d9313bd6b]."
    ],
    "backend": "anthropic",
    "model": "claude-sonnet-5",
-   "dropped": [
-    "ungrounded number(s) ['3']: Delta cut its 2026 forecast on a fuel surge and missed Q3 estimates for the first time in two years, though CEO cited strong demand, kicking off earnings-season reaction trade [c81840da8c]."
-   ],
+   "dropped": [],
    "warnings": []
   },
   "feeds": [],
