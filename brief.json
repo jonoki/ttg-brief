@@ -1,7 +1,7 @@
 {
  "meta": {
-  "generated_at_utc": "2026-10-09T11:57:02.624015+00:00",
-  "generated_at_local": "Fri 09 Oct 2026 08:57 ADT",
+  "generated_at_utc": "2026-10-09T12:12:22.916300+00:00",
+  "generated_at_local": "Fri 09 Oct 2026 09:12 ADT",
   "trading_day": "2026-10-09",
   "display_tz": "America/Halifax",
   "version": "0.1.0",
@@ -55,7 +55,7 @@
    "time_utc": "2026-10-09T14:00:00+00:00",
    "local": "11:00 ADT",
    "et": "10:00 ET",
-   "in": "2h 02m",
+   "in": "1h 47m",
    "consensus": "47.5",
    "prior": "47.8"
   },
@@ -66,11 +66,18 @@
   {
    "root": "ES",
    "trading_day": "2026-10-09",
-   "as_of_utc": "2026-10-09T11:57:02.624015+00:00",
+   "as_of_utc": "2026-10-09T12:12:22.916300+00:00",
    "source": "yahoo",
    "delayed": true,
-   "last_price": 7849.0,
+   "last_price": 7851.75,
    "levels": [
+    {
+     "tag": "rn_major_up",
+     "label": "Round 50 above",
+     "price": 7900.0,
+     "group": "round",
+     "note": ""
+    },
     {
      "tag": "exp_hi",
      "label": "Expected-range high (close + ATR)",
@@ -86,6 +93,13 @@
      "note": "since 2026-10-05"
     },
     {
+     "tag": "rn_minor_up",
+     "label": "Round 25 above",
+     "price": 7875.0,
+     "group": "round",
+     "note": ""
+    },
+    {
      "tag": "pgh",
      "label": "Prior Globex-session high",
      "price": 7858.25,
@@ -95,9 +109,9 @@
     {
      "tag": "onh",
      "label": "Overnight high",
-     "price": 7853.5,
+     "price": 7853.75,
      "group": "overnight",
-     "note": "since 18:00 ET, 818 bars"
+     "note": "since 18:00 ET, 833 bars"
     },
     {
      "tag": "pdh",
@@ -107,8 +121,8 @@
      "note": "2026-10-08"
     },
     {
-     "tag": "rn_major_up",
-     "label": "Round 50 above",
+     "tag": "rn_major_dn",
+     "label": "Round 50 below",
      "price": 7850.0,
      "group": "round",
      "note": ""
@@ -116,7 +130,7 @@
     {
      "tag": "onvwap",
      "label": "Overnight VWAP",
-     "price": 7840.25,
+     "price": 7840.63,
      "group": "overnight",
      "note": "typical-price VWAP"
     },
@@ -133,13 +147,6 @@
      "price": 7827.25,
      "group": "prior_day",
      "note": "2026-10-08"
-    },
-    {
-     "tag": "rn_minor_dn",
-     "label": "Round 25 below",
-     "price": 7825.0,
-     "group": "round",
-     "note": ""
     },
     {
      "tag": "pdc",
@@ -161,13 +168,6 @@
      "price": 7807.12,
      "group": "profile",
      "note": "2026-10-08 RTH, bin 0.25"
-    },
-    {
-     "tag": "rn_major_dn",
-     "label": "Round 50 below",
-     "price": 7800.0,
-     "group": "round",
-     "note": ""
     },
     {
      "tag": "val",
@@ -199,14 +199,14 @@
     }
    ],
    "stats": {
-    "last_bar_utc": "2026-10-09T11:47:00+00:00",
-    "last_bar_age_min": 10.0,
+    "last_bar_utc": "2026-10-09T12:02:00+00:00",
+    "last_bar_age_min": 10.4,
     "market_state": "open",
     "profile_volume": 1317165.0,
     "prior_day": "2026-10-08",
     "prior_day_rth_range": 67.0,
-    "overnight_range": 36.5,
-    "gap_vs_prior_close": 31.75,
+    "overnight_range": 36.75,
+    "gap_vs_prior_close": 34.5,
     "gap_basis": "last price (pre-market)",
     "atr14": 82.3,
     "atr_days": 14,
@@ -1394,20 +1394,28 @@
     {
      "t": "2026-10-09T11:45:00+00:00",
      "o": 7848.5,
-     "h": 7849.0,
-     "l": 7846.75,
-     "c": 7849.0,
-     "v": 487.0
+     "h": 7851.75,
+     "l": 7846.5,
+     "c": 7851.25,
+     "v": 5778.0
+    },
+    {
+     "t": "2026-10-09T12:00:00+00:00",
+     "o": 7851.25,
+     "h": 7853.75,
+     "l": 7850.5,
+     "c": 7851.75,
+     "v": 1351.0
     }
    ]
   },
   {
    "root": "NQ",
    "trading_day": "2026-10-09",
-   "as_of_utc": "2026-10-09T11:57:02.624015+00:00",
+   "as_of_utc": "2026-10-09T12:12:22.916300+00:00",
    "source": "yahoo",
    "delayed": true,
-   "last_price": 31217.5,
+   "last_price": 31242.75,
    "levels": [
     {
      "tag": "wh",
@@ -1456,7 +1464,7 @@
      "label": "Overnight high",
      "price": 31266.5,
      "group": "overnight",
-     "note": "since 18:00 ET, 818 bars"
+     "note": "since 18:00 ET, 833 bars"
     },
     {
      "tag": "rn_minor_up",
@@ -1489,7 +1497,7 @@
     {
      "tag": "onvwap",
      "label": "Overnight VWAP",
-     "price": 31126.08,
+     "price": 31128.73,
      "group": "overnight",
      "note": "typical-price VWAP"
     },
@@ -1537,14 +1545,14 @@
     }
    ],
    "stats": {
-    "last_bar_utc": "2026-10-09T11:47:00+00:00",
-    "last_bar_age_min": 10.0,
+    "last_bar_utc": "2026-10-09T12:02:00+00:00",
+    "last_bar_age_min": 10.4,
     "market_state": "open",
     "profile_volume": 530702.0,
     "prior_day": "2026-10-08",
     "prior_day_rth_range": 577.75,
     "overnight_range": 313.5,
-    "gap_vs_prior_close": 241.5,
+    "gap_vs_prior_close": 266.75,
     "gap_basis": "last price (pre-market)",
     "atr14": 507.34,
     "atr_days": 14,
@@ -2732,10 +2740,18 @@
     {
      "t": "2026-10-09T11:45:00+00:00",
      "o": 31224.0,
-     "h": 31232.5,
+     "h": 31242.5,
      "l": 31214.75,
-     "c": 31217.5,
-     "v": 238.0
+     "c": 31234.75,
+     "v": 2228.0
+    },
+    {
+     "t": "2026-10-09T12:00:00+00:00",
+     "o": 31235.5,
+     "h": 31253.25,
+     "l": 31231.0,
+     "c": 31242.75,
+     "v": 602.0
     }
    ]
   }
@@ -2748,7 +2764,7 @@
     "link": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxPVGRNR1dvdGVRMmdlZjItSWxRbzBuUjNmU1pORE55cnRVS3BIdVU4RVRaRy1hVk5zdmEwVl9WdmtEdkxsUHFmMHk2Z0toSVdxTzBaU2lVTG5hLVEycGc3UkctSThoQVJIQWFtdVFSN09CZlB0RnktY1d1ZXhOUTBUZFVvQ3FJQ054aVJoSmtjTkRNQ1pVdndzQTEwS0k3VzNrNWNlRy1YNTk5b28wZXNYY3FUYVNTdHdfbUlCRlpxbHFQSE41U1N5cVdFdzc1TlFNSE1GWFJ2UklSWldQbUxLWdIB5gFBVV95cUxOOFV3Tktsb3gzaVhXcmV2TkZnaXVWX1JuRllxZ25NUVdTN0xaekpGOHJSMXFOQTFOMVphWTNKOThjLWtILV9TM3Y5OV9kaU1MOHRGaThPUEZPMWdZcVcydm1QTjFna1VYNEtuWjEtd201YVFXZ2M2WGM5UHpzUG9tMkhnY1l4TlItN2dWUlBnZlR2QXZuS2N3SDRVVjRFZEpEOHFGTVFMbWpTdUt4Y2lnaFBiUHBsQzBTSmdMMEowTWJlNndENldtYjRPMXlwdFZEdEhHLXFzZWhEdjE5QnZLV3RibVVlQQ?oc=5",
     "source": "gnews_futures",
     "published_utc": "2026-10-09T09:04:30+00:00",
-    "score": 10.52,
+    "score": 10.48,
     "duplicates": 1
    },
    {
@@ -2757,7 +2773,7 @@
     "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxON2p2T25TXzRrRG5iRHl1dUh0Q0NLb1BQbHl1Z1o5T0phMjhkX0VCSC01N2VvMUpNblJwRWZiNjZXVVJOYncxRS1OT3RKLXk2YUJ5R0JTMjRFREJPRWdJX093X3Vybko4bXR3WGtVeHMtZmVMamg4TnEydWEwOUE2TkwtUEpjdmJqME4zWTE1bllVX3hFZFV4MkFYQktlMm1ZWmxnVjE1V1JWT2VkSExLMGdWWFFhNzA?oc=5",
     "source": "gnews_fed",
     "published_utc": "2026-10-09T11:36:47+00:00",
-    "score": 8.44,
+    "score": 8.4,
     "duplicates": 2
    },
    {
@@ -2784,17 +2800,8 @@
     "link": "https://www.cnbc.com/2026/10/09/judy-shelton-scott-bessent-treasury.html",
     "source": "cnbc_markets",
     "published_utc": "2026-10-09T11:50:39+00:00",
-    "score": 7.98,
+    "score": 7.94,
     "duplicates": 0
-   },
-   {
-    "id": "9a49dece93",
-    "title": "Bank Earnings, CPI Headline Busy Markets Week as S&P 500 Hovers Near Records - U.S. News - Money",
-    "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxOYnlMdGxhRTl3MS1wNTB3elp0dlF4UFExNjktYVJjaU1JTjlFX0w4X2xmalNJQktGWTNnc3dHUDhaRzZBb3MzZDRRMmc2ZFZTQ1NlaE4xd0RFX0VVQUR4YlRmNmpaMXNEZHdGalZod0ZfOFp1UzZULXZMUG1qZlVVRGkwQXdZQ3RuSWdabW1ocjdUTng5NHEzS29XRVVlc2FObDgxSzVpUWsyb245MU12QnRkMGdETFZQVnJNWU5jMW83bzZ1Ny04UkFsTGJ3WFl0?oc=5",
-    "source": "gnews_macro",
-    "published_utc": "2026-10-09T10:33:18+00:00",
-    "score": 7.77,
-    "duplicates": 1
    },
    {
     "id": "c81840da8c",
@@ -2802,7 +2809,7 @@
     "link": "https://www.cnbc.com/2026/10/09/delta-air-lines-dal-q3-2026-earnings.html",
     "source": "cnbc_markets",
     "published_utc": "2026-10-09T11:31:28+00:00",
-    "score": 7.43,
+    "score": 7.39,
     "duplicates": 0
    },
    {
@@ -2811,7 +2818,16 @@
     "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPR2Zod2VqOVZfdE9ZODU5cnJXeWE0eTRNRE41ekdqTjdpNEVYQmRIZVd0OENWcGNDRmhlemdmR1JNY0I2R2RTb3Q5ODJZcmdJb0Jqdk5LNXk3dllXRUNhRHJXTGN2NDYtRmFRUnA2cFhHbjNtSFZDRHRZQ3FKZXRVZ3dfMlBNamJzTzFxR3lvRUFCLUdWSnc?oc=5",
     "source": "gnews_megacap",
     "published_utc": "2026-10-09T10:38:08+00:00",
-    "score": 7.28,
+    "score": 7.24,
+    "duplicates": 0
+   },
+   {
+    "id": "ede5fd3e64",
+    "title": "Wall St Week Ahead Bank earnings, CPI headline busy markets week as S&P 500 hovers near records - Reuters",
+    "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOc2ZtTkg1OU1ZeEVqdGdTUjFKR1BSYkwzcWRwWG1wNjE2UFpqa2NYbmxPMXNxM2pURVpLWVVUYm9zUmE2S1QwMEUxZURaejlrb1g1V0dEMF80RnBWOUo4U1VPYzNlM0M5dlBnMkdQVS1ObHA2b1BYTmJLa1RuUk8xSVB4bk5FUnRQblcwTUtLTVFMZGU2Y0o0VEVWLWFBUnRCOWlpUEI0MmF2WGJyTmdhd3lpQlZDZ3JQZXJMd0FYcw?oc=5",
+    "source": "gnews_macro",
+    "published_utc": "2026-10-09T10:21:09+00:00",
+    "score": 7.19,
     "duplicates": 0
    },
    {
@@ -2820,7 +2836,7 @@
     "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNdkNYUU1HWk92bm9kZ1poSTNWR0dNcXVfMUZGMDBIR2ZLa0RhclhRd0pGSVZOME5TVHluUU5aZzJodlZWZW5MUW1wQ1gzT2dzVndpWEpoeVE2TmR1RndISDZzLXBEVFBZS3VDSXJsYjgwYktwcXd5cXRHSGFWcGFuMDNPZ2F6YVI4ODRRcUwwamRjQQ?oc=5",
     "source": "gnews_futures",
     "published_utc": "2026-10-09T08:11:18+00:00",
-    "score": 6.87,
+    "score": 6.83,
     "duplicates": 0
    },
    {
@@ -2829,7 +2845,7 @@
     "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxOLThQM1ZTZUdjb0VORkJRVVR0Q1pWdUMwWDJkNVY5a0VQVTVnSGp5WGp1LXp6eDRKV2RJV2thVHpiZHdkQkpCRDZ4OWJBVGhpRkM4MXJqR3hwWnNnQTlCc1BQc1JYUG5aUzhpbTRhMXpEY3pPMG5pRUJUSUdsRU43Rlh6MEx5VDllSC1MYkFwUmlEY1VEblpxZkVEYU5oZw?oc=5",
     "source": "gnews_macro",
     "published_utc": "2026-10-09T07:52:45+00:00",
-    "score": 6.82,
+    "score": 6.78,
     "duplicates": 0
    },
    {
@@ -2838,7 +2854,7 @@
     "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOeDlDak9ENlFQamlMWHd5TnFjXzFmTTV0bWRQTjJmbkJqRTFhSUlMWnhIUW5kLTBjZDhpNUhiT1daMUZfQkw4NkZzQkpadWNxei1jdWNSTEVTbDVjYVoxM2JZbTNQYTRTRHNDams4bnd0LXc1RnQ1Sl9seG1xTkRPU0RnOTZXR2NzZ0dyWkx5YlV1OTZFbVZEb1lMaTQ4Q0NjVlF2Y3lqT0o0NVgyNWs5TGJKRld5LW8?oc=5",
     "source": "gnews_futures",
     "published_utc": "2026-10-09T10:32:04+00:00",
-    "score": 6.76,
+    "score": 6.72,
     "duplicates": 0
    },
    {
@@ -2853,17 +2869,18 @@
   ],
   "summary": {
    "lines": [
-    "S&P 500 and Nasdaq futures eased/dipped on rising inflation expectations and Fed hawkishness ahead of the 10:00 ET Prelim UoM Inflation Expectations print (prior 4.6%) and Consumer Sentiment (cons 47.5, prior 47.8) [b645825752][015fdb68e4][f62ae6b7e2].",
-    "New York Fed data found tariffs added 2.9 percentage points to goods inflation, reinforcing the inflation narrative traders are pricing into rate expectations [4616ee6c81][6f9680d418].",
-    "Fed's Musalem said lowering inflation will require more rate hikes, adding to hawkish Fed commentary alongside Baltimore Sun's read that the Fed has room to wait [af5954421f][f62ae6b7e2]."
+    "US Stock Market Today: S&P 500 Futures Ease On Rising Inflation Expectations And Fed Hawkishness - Simply Wall Street [b645825752]",
+    "Fed grows more hawkish on inflation but there is room to wait on rate hikes - Baltimore Sun [f62ae6b7e2]",
+    "Tariffs added 2.9 percentage points to goods inflation, New York Fed finds - InvestmentNews [4616ee6c81]",
+    "Fed Data Shows Tariffs Drove Inflation in 2025 - PYMNTS.com [6f9680d418]",
+    "Treasury's Bessent hires Trump's controversial former Fed board pick, Judy Shelton, as adviser [7dd10bea60]"
    ],
    "backend": "anthropic",
    "model": "claude-sonnet-5",
-   "dropped": [
-    "ungrounded number(s) ['3']: Meta shares surged 11.4% while Delta Air Lines missed Wall Street Q3 estimates and cut its 2026 forecast on a fuel surge, driving single-stock dispersion into the open [c5e355f06d][c81840da8c].",
-    "no valid citation: Treasury's Bessent hired Judy Shelton as adviser"
-   ],
-   "warnings": []
+   "dropped": [],
+   "warnings": [
+    "summariser produced no valid lines; showing digest"
+   ]
   },
   "feeds": [],
   "warnings": []
