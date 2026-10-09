@@ -1,7 +1,7 @@
 {
  "meta": {
-  "generated_at_utc": "2026-10-09T12:43:02.534778+00:00",
-  "generated_at_local": "Fri 09 Oct 2026 09:43 ADT",
+  "generated_at_utc": "2026-10-09T12:58:22.176430+00:00",
+  "generated_at_local": "Fri 09 Oct 2026 09:58 ADT",
   "trading_day": "2026-10-09",
   "display_tz": "America/Halifax",
   "version": "0.1.0",
@@ -55,7 +55,7 @@
    "time_utc": "2026-10-09T14:00:00+00:00",
    "local": "11:00 ADT",
    "et": "10:00 ET",
-   "in": "1h 16m",
+   "in": "1h 01m",
    "consensus": "47.5",
    "prior": "47.8"
   },
@@ -66,10 +66,10 @@
   {
    "root": "ES",
    "trading_day": "2026-10-09",
-   "as_of_utc": "2026-10-09T12:43:02.534778+00:00",
+   "as_of_utc": "2026-10-09T12:58:22.176430+00:00",
    "source": "yahoo",
    "delayed": true,
-   "last_price": 7844.0,
+   "last_price": 7838.0,
    "levels": [
     {
      "tag": "exp_hi",
@@ -97,7 +97,7 @@
      "label": "Overnight high",
      "price": 7853.75,
      "group": "overnight",
-     "note": "since 18:00 ET, 864 bars"
+     "note": "since 18:00 ET, 879 bars"
     },
     {
      "tag": "pdh",
@@ -116,7 +116,7 @@
     {
      "tag": "onvwap",
      "label": "Overnight VWAP",
-     "price": 7841.05,
+     "price": 7841.02,
      "group": "overnight",
      "note": "typical-price VWAP"
     },
@@ -199,14 +199,14 @@
     }
    ],
    "stats": {
-    "last_bar_utc": "2026-10-09T12:33:00+00:00",
-    "last_bar_age_min": 10.0,
+    "last_bar_utc": "2026-10-09T12:48:00+00:00",
+    "last_bar_age_min": 10.4,
     "market_state": "open",
     "profile_volume": 1317165.0,
     "prior_day": "2026-10-08",
     "prior_day_rth_range": 67.0,
     "overnight_range": 36.75,
-    "gap_vs_prior_close": 26.75,
+    "gap_vs_prior_close": 20.75,
     "gap_basis": "last price (pre-market)",
     "atr14": 82.3,
     "atr_days": 14,
@@ -1419,19 +1419,27 @@
      "t": "2026-10-09T12:30:00+00:00",
      "o": 7846.25,
      "h": 7847.75,
-     "l": 7843.5,
-     "c": 7844.0,
-     "v": 1372.0
+     "l": 7837.75,
+     "c": 7838.25,
+     "v": 10022.0
+    },
+    {
+     "t": "2026-10-09T12:45:00+00:00",
+     "o": 7838.25,
+     "h": 7839.0,
+     "l": 7837.0,
+     "c": 7838.0,
+     "v": 1921.0
     }
    ]
   },
   {
    "root": "NQ",
    "trading_day": "2026-10-09",
-   "as_of_utc": "2026-10-09T12:43:02.534778+00:00",
+   "as_of_utc": "2026-10-09T12:58:22.176430+00:00",
    "source": "yahoo",
    "delayed": true,
-   "last_price": 31187.25,
+   "last_price": 31158.5,
    "levels": [
     {
      "tag": "wh",
@@ -1473,7 +1481,7 @@
      "label": "Overnight high",
      "price": 31266.5,
      "group": "overnight",
-     "note": "since 18:00 ET, 864 bars"
+     "note": "since 18:00 ET, 879 bars"
     },
     {
      "tag": "poc",
@@ -1506,7 +1514,7 @@
     {
      "tag": "onvwap",
      "label": "Overnight VWAP",
-     "price": 31133.7,
+     "price": 31135.22,
      "group": "overnight",
      "note": "typical-price VWAP"
     },
@@ -1561,14 +1569,14 @@
     }
    ],
    "stats": {
-    "last_bar_utc": "2026-10-09T12:33:00+00:00",
-    "last_bar_age_min": 10.0,
+    "last_bar_utc": "2026-10-09T12:48:00+00:00",
+    "last_bar_age_min": 10.4,
     "market_state": "open",
     "profile_volume": 530702.0,
     "prior_day": "2026-10-08",
     "prior_day_rth_range": 577.75,
     "overnight_range": 313.5,
-    "gap_vs_prior_close": 211.25,
+    "gap_vs_prior_close": 182.5,
     "gap_basis": "last price (pre-market)",
     "atr14": 507.34,
     "atr_days": 14,
@@ -2781,9 +2789,17 @@
      "t": "2026-10-09T12:30:00+00:00",
      "o": 31206.75,
      "h": 31211.0,
-     "l": 31184.25,
-     "c": 31187.25,
-     "v": 1182.0
+     "l": 31157.75,
+     "c": 31159.75,
+     "v": 4920.0
+    },
+    {
+     "t": "2026-10-09T12:45:00+00:00",
+     "o": 31159.5,
+     "h": 31164.5,
+     "l": 31155.0,
+     "c": 31158.5,
+     "v": 670.0
     }
    ]
   }
@@ -2796,16 +2812,16 @@
     "link": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxPVGRNR1dvdGVRMmdlZjItSWxRbzBuUjNmU1pORE55cnRVS3BIdVU4RVRaRy1hVk5zdmEwVl9WdmtEdkxsUHFmMHk2Z0toSVdxTzBaU2lVTG5hLVEycGc3UkctSThoQVJIQWFtdVFSN09CZlB0RnktY1d1ZXhOUTBUZFVvQ3FJQ054aVJoSmtjTkRNQ1pVdndzQTEwS0k3VzNrNWNlRy1YNTk5b28wZXNYY3FUYVNTdHdfbUlCRlpxbHFQSE41U1N5cVdFdzc1TlFNSE1GWFJ2UklSWldQbUxLWdIB5gFBVV95cUxOOFV3Tktsb3gzaVhXcmV2TkZnaXVWX1JuRllxZ25NUVdTN0xaekpGOHJSMXFOQTFOMVphWTNKOThjLWtILV9TM3Y5OV9kaU1MOHRGaThPUEZPMWdZcVcydm1QTjFna1VYNEtuWjEtd201YVFXZ2M2WGM5UHpzUG9tMkhnY1l4TlItN2dWUlBnZlR2QXZuS2N3SDRVVjRFZEpEOHFGTVFMbWpTdUt4Y2lnaFBiUHBsQzBTSmdMMEowTWJlNndENldtYjRPMXlwdFZEdEhHLXFzZWhEdjE5QnZLV3RibVVlQQ?oc=5",
     "source": "gnews_futures",
     "published_utc": "2026-10-09T09:04:30+00:00",
-    "score": 10.39,
+    "score": 10.35,
     "duplicates": 1
    },
    {
     "id": "7dd10bea60",
-    "title": "Treasury's Bessent hires Trump's controversial former Fed board pick, Judy Shelton, as adviser",
+    "title": "Treasury's Bessent hires Trump's controversial former Fed board pick, Judy Shelton, as advisor",
     "link": "https://www.cnbc.com/2026/10/09/judy-shelton-scott-bessent-treasury.html",
     "source": "cnbc_markets",
-    "published_utc": "2026-10-09T11:50:39+00:00",
-    "score": 8.35,
+    "published_utc": "2026-10-09T12:49:28+00:00",
+    "score": 8.48,
     "duplicates": 1
    },
    {
@@ -2832,7 +2848,7 @@
     "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxON2p2T25TXzRrRG5iRHl1dUh0Q0NLb1BQbHl1Z1o5T0phMjhkX0VCSC01N2VvMUpNblJwRWZiNjZXVVJOYncxRS1OT3RKLXk2YUJ5R0JTMjRFREJPRWdJX093X3Vybko4bXR3WGtVeHMtZmVMamg4TnEydWEwOUE2TkwtUEpjdmJqME4zWTE1bllVX3hFZFV4MkFYQktlMm1ZWmxnVjE1V1JWT2VkSExLMGdWWFFhNzA?oc=5",
     "source": "gnews_fed",
     "published_utc": "2026-10-09T11:36:47+00:00",
-    "score": 7.82,
+    "score": 7.77,
     "duplicates": 1
    },
    {
@@ -2841,7 +2857,7 @@
     "link": "https://www.cnbc.com/2026/10/09/delta-air-lines-dal-q3-2026-earnings.html",
     "source": "cnbc_markets",
     "published_utc": "2026-10-09T12:20:12+00:00",
-    "score": 7.44,
+    "score": 7.39,
     "duplicates": 0
    },
    {
@@ -2850,7 +2866,7 @@
     "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPR2Zod2VqOVZfdE9ZODU5cnJXeWE0eTRNRE41ekdqTjdpNEVYQmRIZVd0OENWcGNDRmhlemdmR1JNY0I2R2RTb3Q5ODJZcmdJb0Jqdk5LNXk3dllXRUNhRHJXTGN2NDYtRmFRUnA2cFhHbjNtSFZDRHRZQ3FKZXRVZ3dfMlBNamJzTzFxR3lvRUFCLUdWSnc?oc=5",
     "source": "gnews_megacap",
     "published_utc": "2026-10-09T10:38:08+00:00",
-    "score": 7.15,
+    "score": 7.11,
     "duplicates": 0
    },
    {
@@ -2859,8 +2875,17 @@
     "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOc2ZtTkg1OU1ZeEVqdGdTUjFKR1BSYkwzcWRwWG1wNjE2UFpqa2NYbmxPMXNxM2pURVpLWVVUYm9zUmE2S1QwMEUxZURaejlrb1g1V0dEMF80RnBWOUo4U1VPYzNlM0M5dlBnMkdQVS1ObHA2b1BYTmJLa1RuUk8xSVB4bk5FUnRQblcwTUtLTVFMZGU2Y0o0VEVWLWFBUnRCOWlpUEI0MmF2WGJyTmdhd3lpQlZDZ3JQZXJMd0FYcw?oc=5",
     "source": "gnews_macro",
     "published_utc": "2026-10-09T10:21:09+00:00",
-    "score": 7.11,
+    "score": 7.06,
     "duplicates": 0
+   },
+   {
+    "id": "07190e715b",
+    "title": "US stock futures rise as tech shares rebound after sell-off - CNBC TV18",
+    "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNNTRWN3RKV2p1dzZCWnhzbE9CbFZFUzJNcnpZZmlhUWY2dlE1Z1ZJZ0F0NzNNVWwtVlB0enZ5dGtRMTlLdlhBc3hiY2Fwa1hkUVNVemZvQjFVVlE0b3R1ZHhDblNOeDVvUmNmalpIcWtTVTJQdjhzRWFabUlZU3Brc1VTN1FsVnNMS2dHYUpXUDFjTUM2OHlhcmwxbDHSAaIBQVVfeXFMTTdoZGRsWXVpa19hUVlyaVRQd190d2I4b2Z3UXJ5VkREYUktNGxUdFF2dFd1ZGotS3BheU9VWEJCTUZ4WDRvc1FEMFJEUGlPZW5Wb0hDQXBHd19jYlpRQUYybm8xSGNZZURoUm9wcDYzRk8ybEdxUUs3NzVOejVoOEhYNGlBU29HeG1tcTlyMkNFY1ZOWlVyLTRsN0ZFWmVSTkNR?oc=5",
+    "source": "gnews_futures",
+    "published_utc": "2026-10-09T12:53:36+00:00",
+    "score": 6.99,
+    "duplicates": 1
    },
    {
     "id": "015fdb68e4",
@@ -2868,7 +2893,7 @@
     "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNdkNYUU1HWk92bm9kZ1poSTNWR0dNcXVfMUZGMDBIR2ZLa0RhclhRd0pGSVZOME5TVHluUU5aZzJodlZWZW5MUW1wQ1gzT2dzVndpWEpoeVE2TmR1RndISDZzLXBEVFBZS3VDSXJsYjgwYktwcXd5cXRHSGFWcGFuMDNPZ2F6YVI4ODRRcUwwamRjQQ?oc=5",
     "source": "gnews_futures",
     "published_utc": "2026-10-09T08:11:18+00:00",
-    "score": 6.75,
+    "score": 6.7,
     "duplicates": 0
    },
    {
@@ -2877,7 +2902,7 @@
     "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxOLThQM1ZTZUdjb0VORkJRVVR0Q1pWdUMwWDJkNVY5a0VQVTVnSGp5WGp1LXp6eDRKV2RJV2thVHpiZHdkQkpCRDZ4OWJBVGhpRkM4MXJqR3hwWnNnQTlCc1BQc1JYUG5aUzhpbTRhMXpEY3pPMG5pRUJUSUdsRU43Rlh6MEx5VDllSC1MYkFwUmlEY1VEblpxZkVEYU5oZw?oc=5",
     "source": "gnews_macro",
     "published_utc": "2026-10-09T07:52:45+00:00",
-    "score": 6.69,
+    "score": 6.65,
     "duplicates": 0
    },
    {
@@ -2886,33 +2911,22 @@
     "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOeDlDak9ENlFQamlMWHd5TnFjXzFmTTV0bWRQTjJmbkJqRTFhSUlMWnhIUW5kLTBjZDhpNUhiT1daMUZfQkw4NkZzQkpadWNxei1jdWNSTEVTbDVjYVoxM2JZbTNQYTRTRHNDams4bnd0LXc1RnQ1Sl9seG1xTkRPU0RnOTZXR2NzZ0dyWkx5YlV1OTZFbVZEb1lMaTQ4Q0NjVlF2Y3lqT0o0NVgyNWs5TGJKRld5LW8?oc=5",
     "source": "gnews_futures",
     "published_utc": "2026-10-09T10:32:04+00:00",
-    "score": 6.64,
-    "duplicates": 0
-   },
-   {
-    "id": "9821118c98",
-    "title": "Gold Steadies as Traders Assess US-Iran Tensions, Fed Rate Path - Bloomberg.com",
-    "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOZDFBZHA2ZldZVC1QZXBxNEIzTlRYcGdFWFJNRWlRLVJremJKZWt2bnJ0LUVTWXhnWWQwdFhwN0JyT3VMazZRdmVnTnVQMjBHSUpYTUQtRk1Kdld3X0JqWHBDOERUNEFaQlhJWklmLXZVblVxOFZURUR1QzBUV2NmRko0NURramJ3OFV3Z0o1UHpFZWNyYTl5cFR2Z3RLWFBIMzBUS1pJZTJrZEVQZzY3SVJxRQ?oc=5",
-    "source": "gnews_macro",
-    "published_utc": "2026-10-09T11:57:50+00:00",
-    "score": 6.37,
+    "score": 6.59,
     "duplicates": 0
    }
   ],
   "summary": {
    "lines": [
-    "US Stock Market Today: S&P 500 Futures Ease On Rising Inflation Expectations And Fed Hawkishness - Simply Wall Street [b645825752]",
-    "Treasury's Bessent hires Trump's controversial former Fed board pick, Judy Shelton, as adviser [7dd10bea60]",
-    "Tariffs added 2.9 percentage points to goods inflation, New York Fed finds - InvestmentNews [4616ee6c81]",
-    "Fed Data Shows Tariffs Drove Inflation in 2025 - PYMNTS.com [6f9680d418]",
-    "Fed grows more hawkish on inflation but there is room to wait on rate hikes - Baltimore Sun [f62ae6b7e2]"
+    "Futures have chopped between dip and rebound this morning as inflation-expectations worries and Fed hawkishness offset a tech rebound led by chip stocks and Meta, so watch for continued two-way volatility into the open [b645825752][015fdb68e4][07190e715b][ec31cc006a][c5e355f06d].",
+    "The 10:00 ET UoM Prelim Consumer Sentiment (cons 47.5, prior 47.8) and Inflation Expectations (prior 4.6%) prints are the key scheduled catalysts, landing on top of a Fed seen as hawkish with room to wait on hikes [f62ae6b7e2].",
+    "New York Fed data attributing 2.9 percentage points of goods inflation to tariffs adds a fresh inflation-narrative input for rate-path positioning ahead of the UoM release [4616ee6c81][6f9680d418].",
+    "Delta cut its 2026 forecast on fuel costs despite citing strong demand, an early earnings-season data point as bank earnings and CPI headline the week ahead [c81840da8c][ede5fd3e64].",
+    "Treasury's Bessent hiring Judy Shelton as an advisor is a policy-personnel headline worth noting but is not a direct market catalyst for today's session [7dd10bea60]."
    ],
    "backend": "anthropic",
    "model": "claude-sonnet-5",
    "dropped": [],
-   "warnings": [
-    "summariser produced no valid lines; showing digest"
-   ]
+   "warnings": []
   },
   "feeds": [],
   "warnings": []
