@@ -1,11 +1,11 @@
 {
  "meta": {
-  "generated_at_utc": "2026-10-09T15:57:14.084159+00:00",
-  "generated_at_local": "Fri 09 Oct 2026 12:57 ADT",
+  "generated_at_utc": "2026-10-09T20:05:01.048819+00:00",
+  "generated_at_local": "Fri 09 Oct 2026 17:05 ADT",
   "trading_day": "2026-10-09",
   "display_tz": "America/Halifax",
   "version": "0.1.0",
-  "run": "intraday",
+  "run": "post-close",
   "variant": "public"
  },
  "calendar": {
@@ -57,11 +57,18 @@
   {
    "root": "ES",
    "trading_day": "2026-10-09",
-   "as_of_utc": "2026-10-09T15:57:14.084159+00:00",
+   "as_of_utc": "2026-10-09T20:05:01.048819+00:00",
    "source": "yahoo",
    "delayed": true,
-   "last_price": 7846.5,
+   "last_price": 7860.75,
    "levels": [
+    {
+     "tag": "rn_major_up",
+     "label": "Round 50 above",
+     "price": 7900.0,
+     "group": "round",
+     "note": ""
+    },
     {
      "tag": "exp_hi",
      "label": "Expected-range high (close + ATR)",
@@ -75,6 +82,27 @@
      "price": 7897.5,
      "group": "week",
      "note": "since 2026-10-05"
+    },
+    {
+     "tag": "rn_minor_up",
+     "label": "Round 25 above",
+     "price": 7875.0,
+     "group": "round",
+     "note": ""
+    },
+    {
+     "tag": "tdh",
+     "label": "Today's RTH high",
+     "price": 7870.5,
+     "group": "today",
+     "note": "session complete"
+    },
+    {
+     "tag": "tdc",
+     "label": "Today's RTH close (16:00 bar)",
+     "price": 7860.75,
+     "group": "today",
+     "note": "becomes next session's prior-day close"
     },
     {
      "tag": "pgh",
@@ -91,13 +119,6 @@
      "note": "since 18:00 ET, 920 bars"
     },
     {
-     "tag": "tdh",
-     "label": "Today's RTH high",
-     "price": 7853.75,
-     "group": "today",
-     "note": "so far"
-    },
-    {
      "tag": "pdh",
      "label": "Prior-day high (RTH)",
      "price": 7850.0,
@@ -105,8 +126,8 @@
      "note": "2026-10-08"
     },
     {
-     "tag": "rn_major_up",
-     "label": "Round 50 above",
+     "tag": "rn_major_dn",
+     "label": "Round 50 below",
      "price": 7850.0,
      "group": "round",
      "note": ""
@@ -147,13 +168,6 @@
      "note": ""
     },
     {
-     "tag": "rn_minor_dn",
-     "label": "Round 25 below",
-     "price": 7825.0,
-     "group": "round",
-     "note": ""
-    },
-    {
      "tag": "pdc",
      "label": "Prior-day close (16:00 bar)",
      "price": 7817.25,
@@ -173,13 +187,6 @@
      "price": 7807.12,
      "group": "profile",
      "note": "2026-10-08 RTH, bin 0.25"
-    },
-    {
-     "tag": "rn_major_dn",
-     "label": "Round 50 below",
-     "price": 7800.0,
-     "group": "round",
-     "note": ""
     },
     {
      "tag": "val",
@@ -211,8 +218,8 @@
     }
    ],
    "stats": {
-    "last_bar_utc": "2026-10-09T15:47:00+00:00",
-    "last_bar_age_min": 10.2,
+    "last_bar_utc": "2026-10-09T19:55:00+00:00",
+    "last_bar_age_min": 10.0,
     "market_state": "open",
     "profile_volume": 1317165.0,
     "prior_day": "2026-10-08",
@@ -1534,20 +1541,148 @@
     {
      "t": "2026-10-09T15:45:00+00:00",
      "o": 7847.75,
-     "h": 7847.75,
+     "h": 7851.75,
      "l": 7844.25,
-     "c": 7846.5,
-     "v": 3730.0
+     "c": 7848.5,
+     "v": 18123.0
+    },
+    {
+     "t": "2026-10-09T16:00:00+00:00",
+     "o": 7849.0,
+     "h": 7853.5,
+     "l": 7843.75,
+     "c": 7852.25,
+     "v": 28114.0
+    },
+    {
+     "t": "2026-10-09T16:15:00+00:00",
+     "o": 7852.5,
+     "h": 7857.25,
+     "l": 7852.25,
+     "c": 7856.25,
+     "v": 24379.0
+    },
+    {
+     "t": "2026-10-09T16:30:00+00:00",
+     "o": 7856.25,
+     "h": 7858.5,
+     "l": 7854.5,
+     "c": 7856.25,
+     "v": 19735.0
+    },
+    {
+     "t": "2026-10-09T16:45:00+00:00",
+     "o": 7856.0,
+     "h": 7863.25,
+     "l": 7856.0,
+     "c": 7858.25,
+     "v": 25351.0
+    },
+    {
+     "t": "2026-10-09T17:00:00+00:00",
+     "o": 7858.5,
+     "h": 7861.0,
+     "l": 7855.0,
+     "c": 7855.75,
+     "v": 17009.0
+    },
+    {
+     "t": "2026-10-09T17:15:00+00:00",
+     "o": 7856.0,
+     "h": 7857.25,
+     "l": 7853.0,
+     "c": 7856.5,
+     "v": 17687.0
+    },
+    {
+     "t": "2026-10-09T17:30:00+00:00",
+     "o": 7856.5,
+     "h": 7858.75,
+     "l": 7854.5,
+     "c": 7857.5,
+     "v": 16867.0
+    },
+    {
+     "t": "2026-10-09T17:45:00+00:00",
+     "o": 7857.5,
+     "h": 7860.75,
+     "l": 7856.25,
+     "c": 7859.75,
+     "v": 14958.0
+    },
+    {
+     "t": "2026-10-09T18:00:00+00:00",
+     "o": 7860.0,
+     "h": 7862.5,
+     "l": 7857.0,
+     "c": 7861.0,
+     "v": 14688.0
+    },
+    {
+     "t": "2026-10-09T18:15:00+00:00",
+     "o": 7861.0,
+     "h": 7864.25,
+     "l": 7860.25,
+     "c": 7862.5,
+     "v": 15858.0
+    },
+    {
+     "t": "2026-10-09T18:30:00+00:00",
+     "o": 7862.5,
+     "h": 7863.0,
+     "l": 7859.75,
+     "c": 7860.75,
+     "v": 12913.0
+    },
+    {
+     "t": "2026-10-09T18:45:00+00:00",
+     "o": 7860.5,
+     "h": 7870.5,
+     "l": 7860.25,
+     "c": 7865.75,
+     "v": 43694.0
+    },
+    {
+     "t": "2026-10-09T19:00:00+00:00",
+     "o": 7865.75,
+     "h": 7867.25,
+     "l": 7864.75,
+     "c": 7866.25,
+     "v": 16055.0
+    },
+    {
+     "t": "2026-10-09T19:15:00+00:00",
+     "o": 7866.25,
+     "h": 7869.25,
+     "l": 7864.75,
+     "c": 7865.0,
+     "v": 19941.0
+    },
+    {
+     "t": "2026-10-09T19:30:00+00:00",
+     "o": 7864.75,
+     "h": 7866.5,
+     "l": 7861.75,
+     "c": 7862.0,
+     "v": 23797.0
+    },
+    {
+     "t": "2026-10-09T19:45:00+00:00",
+     "o": 7862.0,
+     "h": 7863.75,
+     "l": 7859.0,
+     "c": 7860.75,
+     "v": 27240.0
     }
    ]
   },
   {
    "root": "NQ",
    "trading_day": "2026-10-09",
-   "as_of_utc": "2026-10-09T15:57:14.084159+00:00",
+   "as_of_utc": "2026-10-09T20:05:01.048819+00:00",
    "source": "yahoo",
    "delayed": true,
-   "last_price": 31059.25,
+   "last_price": 31113.0,
    "levels": [
     {
      "tag": "wh",
@@ -1606,11 +1741,18 @@
      "note": "2026-10-08"
     },
     {
+     "tag": "rn_major_up",
+     "label": "Round 100 above",
+     "price": 31200.0,
+     "group": "round",
+     "note": ""
+    },
+    {
      "tag": "tdh",
      "label": "Today's RTH high",
      "price": 31180.0,
      "group": "today",
-     "note": "so far"
+     "note": "session complete"
     },
     {
      "tag": "rtho",
@@ -1620,6 +1762,13 @@
      "note": "09:30 bar open"
     },
     {
+     "tag": "rn_minor_up",
+     "label": "Round 50 above",
+     "price": 31150.0,
+     "group": "round",
+     "note": ""
+    },
+    {
      "tag": "onvwap",
      "label": "Overnight VWAP",
      "price": 31141.55,
@@ -1627,23 +1776,16 @@
      "note": "typical-price VWAP"
     },
     {
-     "tag": "rn_major_up",
-     "label": "Round 100 above",
-     "price": 31100.0,
-     "group": "round",
-     "note": ""
-    },
-    {
-     "tag": "rn_minor_dn",
-     "label": "Round 50 below",
-     "price": 31050.0,
-     "group": "round",
-     "note": ""
+     "tag": "tdc",
+     "label": "Today's RTH close (16:00 bar)",
+     "price": 31113.0,
+     "group": "today",
+     "note": "becomes next session's prior-day close"
     },
     {
      "tag": "rn_major_dn",
      "label": "Round 100 below",
-     "price": 31000.0,
+     "price": 31100.0,
      "group": "round",
      "note": ""
     },
@@ -1698,8 +1840,8 @@
     }
    ],
    "stats": {
-    "last_bar_utc": "2026-10-09T15:47:00+00:00",
-    "last_bar_age_min": 10.2,
+    "last_bar_utc": "2026-10-09T19:55:00+00:00",
+    "last_bar_age_min": 10.0,
     "market_state": "open",
     "profile_volume": 530702.0,
     "prior_day": "2026-10-08",
@@ -3021,10 +3163,138 @@
     {
      "t": "2026-10-09T15:45:00+00:00",
      "o": 31067.75,
-     "h": 31069.75,
+     "h": 31093.5,
      "l": 31051.5,
-     "c": 31059.25,
-     "v": 1108.0
+     "c": 31063.25,
+     "v": 9792.0
+    },
+    {
+     "t": "2026-10-09T16:00:00+00:00",
+     "o": 31063.75,
+     "h": 31100.75,
+     "l": 31036.25,
+     "c": 31089.5,
+     "v": 12870.0
+    },
+    {
+     "t": "2026-10-09T16:15:00+00:00",
+     "o": 31089.75,
+     "h": 31107.5,
+     "l": 31074.25,
+     "c": 31090.75,
+     "v": 8065.0
+    },
+    {
+     "t": "2026-10-09T16:30:00+00:00",
+     "o": 31091.5,
+     "h": 31107.0,
+     "l": 31068.75,
+     "c": 31079.0,
+     "v": 7505.0
+    },
+    {
+     "t": "2026-10-09T16:45:00+00:00",
+     "o": 31080.0,
+     "h": 31122.5,
+     "l": 31079.0,
+     "c": 31086.25,
+     "v": 9496.0
+    },
+    {
+     "t": "2026-10-09T17:00:00+00:00",
+     "o": 31086.75,
+     "h": 31096.0,
+     "l": 31066.75,
+     "c": 31076.5,
+     "v": 5821.0
+    },
+    {
+     "t": "2026-10-09T17:15:00+00:00",
+     "o": 31077.0,
+     "h": 31095.25,
+     "l": 31063.25,
+     "c": 31088.75,
+     "v": 5866.0
+    },
+    {
+     "t": "2026-10-09T17:30:00+00:00",
+     "o": 31089.5,
+     "h": 31098.0,
+     "l": 31072.0,
+     "c": 31079.75,
+     "v": 6739.0
+    },
+    {
+     "t": "2026-10-09T17:45:00+00:00",
+     "o": 31080.25,
+     "h": 31101.25,
+     "l": 31075.25,
+     "c": 31095.0,
+     "v": 5322.0
+    },
+    {
+     "t": "2026-10-09T18:00:00+00:00",
+     "o": 31095.0,
+     "h": 31109.75,
+     "l": 31081.5,
+     "c": 31105.0,
+     "v": 5277.0
+    },
+    {
+     "t": "2026-10-09T18:15:00+00:00",
+     "o": 31105.25,
+     "h": 31132.25,
+     "l": 31098.0,
+     "c": 31112.0,
+     "v": 8366.0
+    },
+    {
+     "t": "2026-10-09T18:30:00+00:00",
+     "o": 31112.25,
+     "h": 31115.25,
+     "l": 31095.75,
+     "c": 31102.5,
+     "v": 5292.0
+    },
+    {
+     "t": "2026-10-09T18:45:00+00:00",
+     "o": 31102.5,
+     "h": 31145.25,
+     "l": 31102.5,
+     "c": 31113.0,
+     "v": 12504.0
+    },
+    {
+     "t": "2026-10-09T19:00:00+00:00",
+     "o": 31113.25,
+     "h": 31122.0,
+     "l": 31101.0,
+     "c": 31121.25,
+     "v": 5410.0
+    },
+    {
+     "t": "2026-10-09T19:15:00+00:00",
+     "o": 31121.25,
+     "h": 31137.0,
+     "l": 31114.5,
+     "c": 31117.75,
+     "v": 6292.0
+    },
+    {
+     "t": "2026-10-09T19:30:00+00:00",
+     "o": 31117.75,
+     "h": 31120.75,
+     "l": 31087.5,
+     "c": 31090.25,
+     "v": 8126.0
+    },
+    {
+     "t": "2026-10-09T19:45:00+00:00",
+     "o": 31091.25,
+     "h": 31120.0,
+     "l": 31087.75,
+     "c": 31113.0,
+     "v": 7512.0
     }
    ]
   }
@@ -3032,13 +3302,13 @@
  "news": {
   "headlines": [
    {
-    "id": "518a529a4f",
-    "title": "New York Federal Reserve says inflation on everyday items is because of tariffs - KDNL",
-    "link": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxPWFNSY0VkQmRWT0ttd2g5ejVmRjQtdUZvbTROZlNuc2JvTDdqYnNmWGVocktIeDd1TUN3YWpHZmw3d1BGR2ZxS2FqWFpJREhWVWxsMVNuUE1sb1lSMW1WQ2JOaUNnMHJBZjZBS3RlWGE1Sk9GdVM5cE9OWm1hQklzMFZ4cjBkWk1ySV9ZNDdCRTlzVnVnTm5fRi03SDd3TlAtYlFUeXBLbExYQlVnTGFPNlB4eTVfSUlrenhuVENDYThUV1hUU08zcnVTdGxxWFN2a2ZqbFZtRQ?oc=5",
+    "id": "99e3edb7da",
+    "title": "New York Federal Reserve says inflation on everyday items is because of tariffs - The National Desk",
+    "link": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxNZ1phZTUyd0lfbGtnM2UwRFo2U1h4NVRBZUR0X2h3VFhDR2hqRjl4bC03M2dyeENyTk01ZVk0NzB1NmZtU0JmeXYyZThtOW9qUEpfYlhlWkhoYnk3Rk4yOXdqaU94dVhHWTJWdnpjVHY0Z2V6NE5nWUhZVDhqQ1B0TVphSUQ3bEJrcU8zOVdxa1pWZTdxM3JibldadzBJNTlpQ1REb3R0VUNtaUpaSGE0ZTQtam9qWkdsODZhU09TWkM2WElQckllSlBHZlpFNFltU1ZsSDh4QTZhdlpiWGtELS1MSWQ?oc=5",
     "source": "gnews_fed",
-    "published_utc": "2026-10-09T14:19:51+00:00",
-    "score": 11.23,
-    "duplicates": 3
+    "published_utc": "2026-10-09T14:12:23+00:00",
+    "score": 9.52,
+    "duplicates": 1
    },
    {
     "id": "b645825752",
@@ -3046,7 +3316,43 @@
     "link": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxPVGRNR1dvdGVRMmdlZjItSWxRbzBuUjNmU1pORE55cnRVS3BIdVU4RVRaRy1hVk5zdmEwVl9WdmtEdkxsUHFmMHk2Z0toSVdxTzBaU2lVTG5hLVEycGc3UkctSThoQVJIQWFtdVFSN09CZlB0RnktY1d1ZXhOUTBUZFVvQ3FJQ054aVJoSmtjTkRNQ1pVdndzQTEwS0k3VzNrNWNlRy1YNTk5b28wZXNYY3FUYVNTdHdfbUlCRlpxbHFQSE41U1N5cVdFdzc1TlFNSE1GWFJ2UklSWldQbUxLWdIB5gFBVV95cUxOOFV3Tktsb3gzaVhXcmV2TkZnaXVWX1JuRllxZ25NUVdTN0xaekpGOHJSMXFOQTFOMVphWTNKOThjLWtILV9TM3Y5OV9kaU1MOHRGaThPUEZPMWdZcVcydm1QTjFna1VYNEtuWjEtd201YVFXZ2M2WGM5UHpzUG9tMkhnY1l4TlItN2dWUlBnZlR2QXZuS2N3SDRVVjRFZEpEOHFGTVFMbWpTdUt4Y2lnaFBiUHBsQzBTSmdMMEowTWJlNndENldtYjRPMXlwdFZEdEhHLXFzZWhEdjE5QnZLV3RibVVlQQ?oc=5",
     "source": "gnews_futures",
     "published_utc": "2026-10-09T09:04:30+00:00",
-    "score": 9.35,
+    "score": 8.67,
+    "duplicates": 0
+   },
+   {
+    "id": "49fb311cb8",
+    "title": "Trump establishes committee to investigate Federal Reserve's Lisa Cook in latest effort to fire her - NonStop Local Billings",
+    "link": "https://news.google.com/rss/articles/CBMiiAJBVV95cUxNQnFDYlR3Q3IzUXFZX1NIaUdjaWptUUVqVTFrRnZUc01PbmVuU0x0NlNza2VwWERoV1NocG4weUVjU2wzcW9VUS1FbjRWRDZERXl6b1JIU2NEZmJyZ19kcHAzTE1HZFpLR2dobXpBcHFZVkViOEN1clpaQnlTYmpDNGc2NzBKUVd3a1h3YjNRSzNyUFlhZ1J6OVFxcXZJN1NDSjNPbldsLVJ4Zk5Ya3AyMk5ZaDJacXZ1R3JDd0R3aEJlMmZqT3NUbjlVLVFYSU40NmlhQ3NxSzdPWkdrbWRmMmtHUDhnZmE3eWJUMXJDaTY1X0pBcUlvVTAwdTVhZHQ5dUhLTllwTzM?oc=5",
+    "source": "gnews_fed",
+    "published_utc": "2026-10-09T17:56:00+00:00",
+    "score": 8.64,
+    "duplicates": 8
+   },
+   {
+    "id": "baf81bd468",
+    "title": "Wall Street set for weekly gains with earnings, inflation data on tap - Reuters",
+    "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNY0hWbFNBUlE5SFJjLVpMMnIwZzFpN2hVNEd2YkxlalYyVDRKTDZxcGJ0REJLUERXb0tlVVVreVZLMHFodlAtZlY0eDhuN2xiOHcybjM1c3gxMlBNTmZMWWdrdkhQOG9Pc2JRdTEwYXM5N181QmttRVEyRkdXTy1LT2J0ZVA4d2FXdjZZeGZwaGRaSUtDUXJUZXFjSU94cnprbTVUSXRpXzFtQzV2TWtpR1dNSjdaWVplUlE?oc=5",
+    "source": "gnews_macro",
+    "published_utc": "2026-10-09T18:34:21+00:00",
+    "score": 7.75,
+    "duplicates": 1
+   },
+   {
+    "id": "28134d5960",
+    "title": "September CPI should be in line, and last month’s Fed rate hike may be the only one this cycle - Natixis - Kitco",
+    "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNMEZHWlF1RWtMRC14bEd0cVRucGV5blNPNFh2WmtoZW5la1VxSE1FNUg2c2g2Qmx1Y0M1bE9ZaDFMcnRybm5wVXBuM0V5NW5Vc1ZGNDZESFVkaWJvb01VX240cWJKSVpGR0JsMHJESi1ZLVN0N3JkVFNmeVR5UzlDQlN1NXcwYlh4T1VHZHB6ZEY0d256Q1F4aEsyVU1rblMySW83QTNHNEFsZ2xJNzFCbV90QWlVbFBfYm1hMA?oc=5",
+    "source": "gnews_macro",
+    "published_utc": "2026-10-09T18:56:38+00:00",
+    "score": 7.31,
+    "duplicates": 0
+   },
+   {
+    "id": "c546e9affa",
+    "title": "Federal Reserve Board releases results of the 2025 Survey of Consumer Finances, which provides the public and policymakers with detailed insights into the economic condition of American families",
+    "link": "https://www.federalreserve.gov/newsevents/pressreleases/other20261009a.htm",
+    "source": "fed_press",
+    "published_utc": "2026-10-09T14:00:00+00:00",
+    "score": 6.99,
     "duplicates": 0
    },
    {
@@ -3055,35 +3361,17 @@
     "link": "https://www.cnbc.com/2026/10/09/judy-shelton-scott-bessent-treasury.html",
     "source": "cnbc_markets",
     "published_utc": "2026-10-09T13:09:19+00:00",
-    "score": 8.03,
-    "duplicates": 1
-   },
-   {
-    "id": "4e6a31ada6",
-    "title": "Trump establishes committee to investigate Federal Reserve’s Lisa Cook in latest effort to fire her - Anchorage Daily News",
-    "link": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxOazFzYllWT1d0eXVIZllhLUlLazNwYU52MzZwNWlTaWxUbzRUR2JlRGZXeG5DX0RuLWxYUGh4Qy12MmRYd21yOFV2bUxpd3E1NWRrWWJVUGxIRHVZSGw2R0VORmpEeXlNbHpEaEw4NF90dGNfTHBSWkIweGJublJQWmd6azlGVHMwSk93ekpVSnppdFhTUV9SeWF5ckd0ME9sOFFWaFpsZ0VldEFoWS1LMkkwWTlEb25SVE1xNUxBYzI4alVJMS1CS0M4SWVFQ3huNkhLQzM0QWg0N3c?oc=5",
-    "source": "gnews_fed",
-    "published_utc": "2026-10-09T15:30:37+00:00",
-    "score": 7.93,
-    "duplicates": 6
-   },
-   {
-    "id": "eb4149c5fb",
-    "title": "Wall Street’s week ahead: Bank earnings, CPI headline busy markets week as S&P 500 hovers near records - The Globe and Mail",
-    "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPMEE0cHRxN2h6UmZZRzB5MHNpalB6b3FidlcwQW1oaUFaNXlNZGNkbzZ0VEVfYjBPeVNEWHgzSVF6MWVCZno3ZDUxMFB6RHdqTGZUaktod3ZISEtnZG13OWUxZ3h6NElnU1lMVVF6a21nSzgtS1dvQjlaNi1XaFBWQXNFdEhYN1QyZmJ4dUJ6U1habUVsYXpQZjVNaXJURmtPY2hSNXRTUTRvakxWdjlWNXpiNDhNaGFicFp3?oc=5",
-    "source": "gnews_macro",
-    "published_utc": "2026-10-09T14:19:18+00:00",
-    "score": 7.73,
-    "duplicates": 1
-   },
-   {
-    "id": "c546e9affa",
-    "title": "Federal Reserve Board releases results of the 2025 Survey of Consumer Finances, which provides the public and policymakers with detailed insights into the economic condition of American families",
-    "link": "https://www.federalreserve.gov/newsevents/pressreleases/other20261009a.htm",
-    "source": "fed_press",
-    "published_utc": "2026-10-09T14:00:00+00:00",
-    "score": 7.67,
+    "score": 6.85,
     "duplicates": 0
+   },
+   {
+    "id": "ede5fd3e64",
+    "title": "Wall St Week Ahead Bank earnings, CPI headline busy markets week as S&P 500 hovers near records - Reuters",
+    "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOc2ZtTkg1OU1ZeEVqdGdTUjFKR1BSYkwzcWRwWG1wNjE2UFpqa2NYbmxPMXNxM2pURVpLWVVUYm9zUmE2S1QwMEUxZURaejlrb1g1V0dEMF80RnBWOUo4U1VPYzNlM0M5dlBnMkdQVS1ObHA2b1BYTmJLa1RuUk8xSVB4bk5FUnRQblcwTUtLTVFMZGU2Y0o0VEVWLWFBUnRCOWlpUEI0MmF2WGJyTmdhd3lpQlZDZ3JQZXJMd0FYcw?oc=5",
+    "source": "gnews_macro",
+    "published_utc": "2026-10-09T12:10:26+00:00",
+    "score": 6.68,
+    "duplicates": 1
    },
    {
     "id": "c81840da8c",
@@ -3091,26 +3379,26 @@
     "link": "https://www.cnbc.com/2026/10/09/delta-air-lines-dal-q3-2026-earnings.html",
     "source": "cnbc_markets",
     "published_utc": "2026-10-09T15:07:46+00:00",
-    "score": 7.36,
+    "score": 6.67,
     "duplicates": 0
    },
    {
-    "id": "f62ae6b7e2",
-    "title": "Fed grows more hawkish on inflation but there is room to wait on rate hikes - Baltimore Sun",
-    "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxON2p2T25TXzRrRG5iRHl1dUh0Q0NLb1BQbHl1Z1o5T0phMjhkX0VCSC01N2VvMUpNblJwRWZiNjZXVVJOYncxRS1OT3RKLXk2YUJ5R0JTMjRFREJPRWdJX093X3Vybko4bXR3WGtVeHMtZmVMamg4TnEydWEwOUE2TkwtUEpjdmJqME4zWTE1bllVX3hFZFV4MkFYQktlMm1ZWmxnVjE1V1JWT2VkSExLMGdWWFFhNzA?oc=5",
+    "id": "34535e5290",
+    "title": "Trump announces White House probe into Federal Reserve governor Lisa D. Cook - local21news.com",
+    "link": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxPenFkbjREZHFxUnhXSDg4SVZpanFtWXR5VFgyUko0TWlEVWtzVktyUWh1ZDhhNFlZb1B4bTlRUWp0cXN4d1lsd3NzbmhSTkxua2UtRHI4NC00QzlSc00wZ2k2eVFkRVBSX3J1REFHUUh0SWJVS3Zpc1RXdlR5eXZtR250bzJ4VVVSSFZlS1JhNnR4T21NZzdwVk5rRHozZW5wTGVENWdEV2tlUGo3cVZNT1F4Y3lQbzRFbXVEUUVZeU1VUnBuSUJaZTltRWtvV1NrT09aTFBhakppRFJxWld2WWZn?oc=5",
     "source": "gnews_fed",
-    "published_utc": "2026-10-09T11:36:47+00:00",
-    "score": 7.28,
-    "duplicates": 1
+    "published_utc": "2026-10-09T17:29:41+00:00",
+    "score": 6.57,
+    "duplicates": 4
    },
    {
-    "id": "e989f8c25e",
-    "title": "Trump appoints committee to investigate statements by the Fed's Lisa Cook",
-    "link": "https://www.cnbc.com/2026/10/09/fed-lisa-cook-trump.html",
+    "id": "6108e59f97",
+    "title": "Trump created a committee to dig into the Fed's Lisa Cook. What is it and what comes next?",
+    "link": "https://www.cnbc.com/2026/10/09/trump-lisa-cook-fed-firing-committee-explained.html",
     "source": "cnbc_markets",
-    "published_utc": "2026-10-09T15:18:12+00:00",
-    "score": 6.89,
-    "duplicates": 2
+    "published_utc": "2026-10-09T19:19:00+00:00",
+    "score": 6.37,
+    "duplicates": 1
    },
    {
     "id": "1b03228701",
@@ -3118,42 +3406,22 @@
     "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNdkpUUi1rc3RiU0cybUNiZ24yOE1XcXRxZDJUaWUzS2g2TGgyYnlwNktyOGczR3AxUk9KVkU0alZQTTY0WkdTREpmZEkxUm0wLVdiaEhfNmd6cFJHM1JrY3dlRzFoMDNOdEtkNkhhdUxQaTR2bDVuVHczMEVNX0JnZDRaVklHLW01TWVHcEs1TDNZRUp6dlpxSWpQcnNLblNWbm5OaEduRGpNOUtONFhCYXMzQVpmR3A1cmMtVUxWM2Y?oc=5",
     "source": "gnews_macro",
     "published_utc": "2026-10-09T12:00:00+00:00",
-    "score": 6.84,
+    "score": 6.15,
     "duplicates": 0
-   },
-   {
-    "id": "bfdafbdc0c",
-    "title": "Week in Focus 12-16th October 2026: US CPI, US Retail Sales, Start of Q3 Earnings, China CPI, UK jobs, RBA Minutes and Aussie jobs - Newsquawk",
-    "link": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxQVUQyZVJsS19BYXJmNFNaMVJhaVFWS0h6MV9Sdl9zS1VpSlVsX0Z3YlJTQ0p5ZmNEMmUwRjBTcjMtdnlXc280TUdrY0N6MHQ3djBhZzBkWEIxMUtMa2NDV0pWei1fYW5VZS1fdGMtTHk2R1h6V29XM3N0djltZ2tobl91cTI1TmNScW9CVHlSMnRnTjFWSFB1S0I2dFR6QXBBdUsyb2NQaEpJMWx1TV9mR2UzQ2lWT0YzbkpXdjN4NXlIWjYwVmpfZEQtNk1UM2doRThFY2xYNEMwWWRLSUVCQzBnT042b3BRRXRDMHZ2OWZ4dw?oc=5",
-    "source": "gnews_macro",
-    "published_utc": "2026-10-09T13:20:54+00:00",
-    "score": 6.57,
-    "duplicates": 0
-   },
-   {
-    "id": "07190e715b",
-    "title": "US stock futures rise as tech shares rebound after sell-off - CNBC TV18",
-    "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNNTRWN3RKV2p1dzZCWnhzbE9CbFZFUzJNcnpZZmlhUWY2dlE1Z1ZJZ0F0NzNNVWwtVlB0enZ5dGtRMTlLdlhBc3hiY2Fwa1hkUVNVemZvQjFVVlE0b3R1ZHhDblNOeDVvUmNmalpIcWtTVTJQdjhzRWFabUlZU3Brc1VTN1FsVnNMS2dHYUpXUDFjTUM2OHlhcmwxbDHSAaIBQVVfeXFMTTdoZGRsWXVpa19hUVlyaVRQd190d2I4b2Z3UXJ5VkREYUktNGxUdFF2dFd1ZGotS3BheU9VWEJCTUZ4WDRvc1FEMFJEUGlPZW5Wb0hDQXBHd19jYlpRQUYybm8xSGNZZURoUm9wcDYzRk8ybEdxUUs3NzVOejVoOEhYNGlBU29HeG1tcTlyMkNFY1ZOWlVyLTRsN0ZFWmVSTkNR?oc=5",
-    "source": "gnews_futures",
-    "published_utc": "2026-10-09T12:53:36+00:00",
-    "score": 6.49,
-    "duplicates": 1
    }
   ],
   "summary": {
    "lines": [
-    "New York Federal Reserve says inflation on everyday items is because of tariffs - KDNL [518a529a4f]",
-    "US Stock Market Today: S&P 500 Futures Ease On Rising Inflation Expectations And Fed Hawkishness - Simply Wall Street [b645825752]",
-    "Treasury's Bessent hires Trump's controversial former Fed board pick, Judy Shelton, as advisor [7dd10bea60]",
-    "Trump establishes committee to investigate Federal Reserve’s Lisa Cook in latest effort to fire her - Anchorage Daily News [4e6a31ada6]",
-    "Wall Street’s week ahead: Bank earnings, CPI headline busy markets week as S&P 500 hovers near records - The Globe and Mail [eb4149c5fb]"
+    "Fed independence is in focus as Trump's committee investigates Governor Lisa Cook, a situation that could reach the Supreme Court and affect Powell and rate policy [49fb311cb8][34535e5290][6108e59f97].",
+    "Inflation expectations are rising alongside Fed hawkishness commentary, pressuring S&P 500 futures ahead of today's 10:00 ET UoM Inflation Expectations print (prior 4.6%) [b645825752].",
+    "The New York Fed links everyday-item inflation to tariffs, adding another inflation narrative for traders to weigh [99e3edb7da].",
+    "Bank earnings and CPI are the headline macro events this week with the S&P 500 near records, while Delta's third-quarter miss and 2026 forecast cut adds a earnings-season data point [ede5fd3e64][baf81bd468][c81840da8c].",
+    "Treasury's Bessent hiring Judy Shelton as an advisor adds a personnel angle to Fed-related headlines this week [7dd10bea60]."
    ],
    "backend": "anthropic",
    "model": "claude-sonnet-5",
    "dropped": [],
-   "warnings": [
-    "summariser produced no valid lines; showing digest"
-   ]
+   "warnings": []
   },
   "feeds": [],
   "warnings": []
