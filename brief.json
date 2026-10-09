@@ -1,7 +1,7 @@
 {
  "meta": {
-  "generated_at_utc": "2026-10-09T13:44:19.119279+00:00",
-  "generated_at_local": "Fri 09 Oct 2026 10:44 ADT",
+  "generated_at_utc": "2026-10-09T13:59:38.742460+00:00",
+  "generated_at_local": "Fri 09 Oct 2026 10:59 ADT",
   "trading_day": "2026-10-09",
   "display_tz": "America/Halifax",
   "version": "0.1.0",
@@ -55,7 +55,7 @@
    "time_utc": "2026-10-09T14:00:00+00:00",
    "local": "11:00 ADT",
    "et": "10:00 ET",
-   "in": "15 min",
+   "in": "0 min",
    "consensus": "47.5",
    "prior": "47.8"
   },
@@ -66,10 +66,10 @@
   {
    "root": "ES",
    "trading_day": "2026-10-09",
-   "as_of_utc": "2026-10-09T13:44:19.119279+00:00",
+   "as_of_utc": "2026-10-09T13:59:38.742460+00:00",
    "source": "yahoo",
    "delayed": true,
-   "last_price": 7842.25,
+   "last_price": 7832.0,
    "levels": [
     {
      "tag": "exp_hi",
@@ -135,13 +135,6 @@
      "note": "09:30 bar open"
     },
     {
-     "tag": "tdl",
-     "label": "Today's RTH low",
-     "price": 7835.75,
-     "group": "today",
-     "note": ""
-    },
-    {
      "tag": "vah",
      "label": "Prior-day VAH",
      "price": 7828.75,
@@ -154,6 +147,13 @@
      "price": 7827.25,
      "group": "prior_day",
      "note": "2026-10-08"
+    },
+    {
+     "tag": "tdl",
+     "label": "Today's RTH low",
+     "price": 7826.75,
+     "group": "today",
+     "note": ""
     },
     {
      "tag": "rn_minor_dn",
@@ -220,8 +220,8 @@
     }
    ],
    "stats": {
-    "last_bar_utc": "2026-10-09T13:34:00+00:00",
-    "last_bar_age_min": 10.3,
+    "last_bar_utc": "2026-10-09T13:49:00+00:00",
+    "last_bar_age_min": 10.6,
     "market_state": "open",
     "profile_volume": 1317165.0,
     "prior_day": "2026-10-08",
@@ -1472,19 +1472,27 @@
      "t": "2026-10-09T13:30:00+00:00",
      "o": 7838.25,
      "h": 7844.0,
-     "l": 7835.75,
-     "c": 7842.25,
-     "v": 26313.0
+     "l": 7827.5,
+     "c": 7831.5,
+     "v": 77170.0
+    },
+    {
+     "t": "2026-10-09T13:45:00+00:00",
+     "o": 7831.5,
+     "h": 7834.0,
+     "l": 7826.75,
+     "c": 7832.0,
+     "v": 16072.0
     }
    ]
   },
   {
    "root": "NQ",
    "trading_day": "2026-10-09",
-   "as_of_utc": "2026-10-09T13:44:19.119279+00:00",
+   "as_of_utc": "2026-10-09T13:59:38.742460+00:00",
    "source": "yahoo",
    "delayed": true,
-   "last_price": 31168.75,
+   "last_price": 31017.75,
    "levels": [
     {
      "tag": "wh",
@@ -1543,13 +1551,6 @@
      "note": "2026-10-08"
     },
     {
-     "tag": "rn_major_up",
-     "label": "Round 100 above",
-     "price": 31200.0,
-     "group": "round",
-     "note": ""
-    },
-    {
      "tag": "tdh",
      "label": "Today's RTH high",
      "price": 31180.0,
@@ -1564,13 +1565,6 @@
      "note": "09:30 bar open"
     },
     {
-     "tag": "rn_minor_dn",
-     "label": "Round 50 below",
-     "price": 31150.0,
-     "group": "round",
-     "note": ""
-    },
-    {
      "tag": "onvwap",
      "label": "Overnight VWAP",
      "price": 31141.55,
@@ -1578,17 +1572,31 @@
      "note": "typical-price VWAP"
     },
     {
-     "tag": "tdl",
-     "label": "Today's RTH low",
-     "price": 31113.0,
-     "group": "today",
+     "tag": "rn_major_up",
+     "label": "Round 100 above",
+     "price": 31100.0,
+     "group": "round",
+     "note": ""
+    },
+    {
+     "tag": "rn_minor_up",
+     "label": "Round 50 above",
+     "price": 31050.0,
+     "group": "round",
      "note": ""
     },
     {
      "tag": "rn_major_dn",
      "label": "Round 100 below",
-     "price": 31100.0,
+     "price": 31000.0,
      "group": "round",
+     "note": ""
+    },
+    {
+     "tag": "tdl",
+     "label": "Today's RTH low",
+     "price": 30997.25,
+     "group": "today",
      "note": ""
     },
     {
@@ -1635,8 +1643,8 @@
     }
    ],
    "stats": {
-    "last_bar_utc": "2026-10-09T13:34:00+00:00",
-    "last_bar_age_min": 10.3,
+    "last_bar_utc": "2026-10-09T13:49:00+00:00",
+    "last_bar_age_min": 10.6,
     "market_state": "open",
     "profile_volume": 530702.0,
     "prior_day": "2026-10-08",
@@ -2887,9 +2895,17 @@
      "t": "2026-10-09T13:30:00+00:00",
      "o": 31167.25,
      "h": 31180.0,
-     "l": 31113.0,
-     "c": 31168.75,
-     "v": 15679.0
+     "l": 31021.5,
+     "c": 31034.75,
+     "v": 49916.0
+    },
+    {
+     "t": "2026-10-09T13:45:00+00:00",
+     "o": 31035.75,
+     "h": 31047.75,
+     "l": 30997.25,
+     "c": 31017.75,
+     "v": 10722.0
     }
    ]
   }
@@ -2902,8 +2918,8 @@
     "link": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxPVGRNR1dvdGVRMmdlZjItSWxRbzBuUjNmU1pORE55cnRVS3BIdVU4RVRaRy1hVk5zdmEwVl9WdmtEdkxsUHFmMHk2Z0toSVdxTzBaU2lVTG5hLVEycGc3UkctSThoQVJIQWFtdVFSN09CZlB0RnktY1d1ZXhOUTBUZFVvQ3FJQ054aVJoSmtjTkRNQ1pVdndzQTEwS0k3VzNrNWNlRy1YNTk5b28wZXNYY3FUYVNTdHdfbUlCRlpxbHFQSE41U1N5cVdFdzc1TlFNSE1GWFJ2UklSWldQbUxLWdIB5gFBVV95cUxOOFV3Tktsb3gzaVhXcmV2TkZnaXVWX1JuRllxZ25NUVdTN0xaekpGOHJSMXFOQTFOMVphWTNKOThjLWtILV9TM3Y5OV9kaU1MOHRGaThPUEZPMWdZcVcydm1QTjFna1VYNEtuWjEtd201YVFXZ2M2WGM5UHpzUG9tMkhnY1l4TlItN2dWUlBnZlR2QXZuS2N3SDRVVjRFZEpEOHFGTVFMbWpTdUt4Y2lnaFBiUHBsQzBTSmdMMEowTWJlNndENldtYjRPMXlwdFZEdEhHLXFzZWhEdjE5QnZLV3RibVVlQQ?oc=5",
     "source": "gnews_futures",
     "published_utc": "2026-10-09T09:04:30+00:00",
-    "score": 10.22,
-    "duplicates": 1
+    "score": 9.68,
+    "duplicates": 0
    },
    {
     "id": "7dd10bea60",
@@ -2911,7 +2927,7 @@
     "link": "https://www.cnbc.com/2026/10/09/judy-shelton-scott-bessent-treasury.html",
     "source": "cnbc_markets",
     "published_utc": "2026-10-09T13:09:19+00:00",
-    "score": 8.4,
+    "score": 8.36,
     "duplicates": 1
    },
    {
@@ -2929,7 +2945,7 @@
     "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxON2p2T25TXzRrRG5iRHl1dUh0Q0NLb1BQbHl1Z1o5T0phMjhkX0VCSC01N2VvMUpNblJwRWZiNjZXVVJOYncxRS1OT3RKLXk2YUJ5R0JTMjRFREJPRWdJX093X3Vybko4bXR3WGtVeHMtZmVMamg4TnEydWEwOUE2TkwtUEpjdmJqME4zWTE1bllVX3hFZFV4MkFYQktlMm1ZWmxnVjE1V1JWT2VkSExLMGdWWFFhNzA?oc=5",
     "source": "gnews_fed",
     "published_utc": "2026-10-09T11:36:47+00:00",
-    "score": 7.65,
+    "score": 7.6,
     "duplicates": 1
    },
    {
@@ -2938,7 +2954,7 @@
     "link": "https://www.cnbc.com/2026/10/09/delta-air-lines-dal-q3-2026-earnings.html",
     "source": "cnbc_markets",
     "published_utc": "2026-10-09T13:38:10+00:00",
-    "score": 7.48,
+    "score": 7.44,
     "duplicates": 0
    },
    {
@@ -2947,7 +2963,7 @@
     "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOc2ZtTkg1OU1ZeEVqdGdTUjFKR1BSYkwzcWRwWG1wNjE2UFpqa2NYbmxPMXNxM2pURVpLWVVUYm9zUmE2S1QwMEUxZURaejlrb1g1V0dEMF80RnBWOUo4U1VPYzNlM0M5dlBnMkdQVS1ObHA2b1BYTmJLa1RuUk8xSVB4bk5FUnRQblcwTUtLTVFMZGU2Y0o0VEVWLWFBUnRCOWlpUEI0MmF2WGJyTmdhd3lpQlZDZ3JQZXJMd0FYcw?oc=5",
     "source": "gnews_macro",
     "published_utc": "2026-10-09T12:10:26+00:00",
-    "score": 7.24,
+    "score": 7.2,
     "duplicates": 0
    },
    {
@@ -2956,8 +2972,17 @@
     "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNNTRWN3RKV2p1dzZCWnhzbE9CbFZFUzJNcnpZZmlhUWY2dlE1Z1ZJZ0F0NzNNVWwtVlB0enZ5dGtRMTlLdlhBc3hiY2Fwa1hkUVNVemZvQjFVVlE0b3R1ZHhDblNOeDVvUmNmalpIcWtTVTJQdjhzRWFabUlZU3Brc1VTN1FsVnNMS2dHYUpXUDFjTUM2OHlhcmwxbDHSAaIBQVVfeXFMTTdoZGRsWXVpa19hUVlyaVRQd190d2I4b2Z3UXJ5VkREYUktNGxUdFF2dFd1ZGotS3BheU9VWEJCTUZ4WDRvc1FEMFJEUGlPZW5Wb0hDQXBHd19jYlpRQUYybm8xSGNZZURoUm9wcDYzRk8ybEdxUUs3NzVOejVoOEhYNGlBU29HeG1tcTlyMkNFY1ZOWlVyLTRsN0ZFWmVSTkNR?oc=5",
     "source": "gnews_futures",
     "published_utc": "2026-10-09T12:53:36+00:00",
-    "score": 6.86,
+    "score": 6.82,
     "duplicates": 1
+   },
+   {
+    "id": "fe983e95b0",
+    "title": "Dow, S&P 500, Nasdaq Futures Climb After OpenAI’s Tepid Revenue Sparks Tech Selloff: NBIS, SPCX, T, VZ Stocks In Focusc - Stocktwits",
+    "link": "https://news.google.com/rss/articles/CBMijgJBVV95cUxON2FuakxPQVQ2Umg1QXNabVREaU5DZHExa0h3T2t1b3VYYkF4XzFXblRIR1ZHYnVQQkd2V2FwdDFWa3Z5ZlZxQ3MwNlpGbHdhVnpkaWlJZElnbmN3NEhGdFRBTWJBZWZDVE9GSW85U3p3UVhWa2hNblFua0tmdDlfT0szWWt0U0gzNUgtbjdrUTBNOTJUMXp4LUVfWl9renRHUDhsbnF3NGtLckFFQXhNeUllYjVfblg5dTJfOGtURkNZWmw4akZTNWRKN1pXUnp0bS10Z2JrMlQtSEoxU1psblhhX2lZcXhrZVpGVGVUdHF0M2NsakJTaG5BemQzdHowVUVRd04xaDNMMFZGMWc?oc=5",
+    "source": "gnews_futures",
+    "published_utc": "2026-10-09T08:36:58+00:00",
+    "score": 6.6,
+    "duplicates": 0
    },
    {
     "id": "015fdb68e4",
@@ -2965,7 +2990,7 @@
     "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNdkNYUU1HWk92bm9kZ1poSTNWR0dNcXVfMUZGMDBIR2ZLa0RhclhRd0pGSVZOME5TVHluUU5aZzJodlZWZW5MUW1wQ1gzT2dzVndpWEpoeVE2TmR1RndISDZzLXBEVFBZS3VDSXJsYjgwYktwcXd5cXRHSGFWcGFuMDNPZ2F6YVI4ODRRcUwwamRjQQ?oc=5",
     "source": "gnews_futures",
     "published_utc": "2026-10-09T08:11:18+00:00",
-    "score": 6.57,
+    "score": 6.53,
     "duplicates": 0
    },
    {
@@ -2978,30 +3003,21 @@
     "duplicates": 1
    },
    {
+    "id": "32702d313d",
+    "title": "Bessent taps former Trump Fed pick Shelton to advise on China - Politico",
+    "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPMzd4N0dfWGpHSDkzWXZnNUIzbUJrdU8zM29sT3h2RHJLRmZ1NkE0MERobHdjd19henloNXlzUVNHRWxZZThpXzBsX3hycVlucmtlRFctZ2Q1WGFJd01Oam1YQlVmU1Uza1N5ZHNRRHIwSVBHazlGTnBDV0JSVUFvRG5HNA?oc=5",
+    "source": "gnews_fed",
+    "published_utc": "2026-10-09T13:51:00+00:00",
+    "score": 6.48,
+    "duplicates": 0
+   },
+   {
     "id": "ec31cc006a",
     "title": "Nasdaq Futures Climb as Chip Stocks Rebound on New OpenAI Revenue Report - Barchart.com",
     "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOeDlDak9ENlFQamlMWHd5TnFjXzFmTTV0bWRQTjJmbkJqRTFhSUlMWnhIUW5kLTBjZDhpNUhiT1daMUZfQkw4NkZzQkpadWNxei1jdWNSTEVTbDVjYVoxM2JZbTNQYTRTRHNDams4bnd0LXc1RnQ1Sl9seG1xTkRPU0RnOTZXR2NzZ0dyWkx5YlV1OTZFbVZEb1lMaTQ4Q0NjVlF2Y3lqT0o0NVgyNWs5TGJKRld5LW8?oc=5",
     "source": "gnews_futures",
     "published_utc": "2026-10-09T10:32:04+00:00",
-    "score": 6.47,
-    "duplicates": 0
-   },
-   {
-    "id": "9821118c98",
-    "title": "Gold Steadies as Traders Assess US-Iran Tensions, Fed Rate Path - Bloomberg.com",
-    "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOZDFBZHA2ZldZVC1QZXBxNEIzTlRYcGdFWFJNRWlRLVJremJKZWt2bnJ0LUVTWXhnWWQwdFhwN0JyT3VMazZRdmVnTnVQMjBHSUpYTUQtRk1Kdld3X0JqWHBDOERUNEFaQlhJWklmLXZVblVxOFZURUR1QzBUV2NmRko0NURramJ3OFV3Z0o1UHpFZWNyYTl5cFR2Z3RLWFBIMzBUS1pJZTJrZEVQZzY3SVJxRQ?oc=5",
-    "source": "gnews_macro",
-    "published_utc": "2026-10-09T11:57:50+00:00",
-    "score": 6.2,
-    "duplicates": 0
-   },
-   {
-    "id": "0ac1757a43",
-    "title": "Why Are Nasdaq Futures Surging Premarket? SPCX, ASTS, AAPL, TMUS, VZ, NVDA, MU, LITE Stocks In Focus - Yahoo Finance",
-    "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPRlRPdWJWU3UtNTVHSUdxSDdObHVsZ0N2cTRwd3dsczA1WExnV2xrZ3M3Nl9rVFZvbkdzcl9YNllwWHZNSTRWTGdXV3J0WjZuS0VKTFh1RlFCZWlTWXRmU2MxT2FDSzg1THZ3c2k3Z090TVl2UWRVdUtSQlJldEU1NkllQUI2MlRfRFdFOUtTeTJfZ2RDUVc3VGZ2MWpyQzJxdUpj?oc=5",
-    "source": "gnews_futures",
-    "published_utc": "2026-10-09T08:38:57+00:00",
-    "score": 6.15,
+    "score": 6.42,
     "duplicates": 0
    }
   ],
