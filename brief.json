@@ -1,7 +1,7 @@
 {
  "meta": {
-  "generated_at_utc": "2026-10-09T14:55:54.057039+00:00",
-  "generated_at_local": "Fri 09 Oct 2026 11:55 ADT",
+  "generated_at_utc": "2026-10-09T15:11:14.949569+00:00",
+  "generated_at_local": "Fri 09 Oct 2026 12:11 ADT",
   "trading_day": "2026-10-09",
   "display_tz": "America/Halifax",
   "version": "0.1.0",
@@ -57,10 +57,10 @@
   {
    "root": "ES",
    "trading_day": "2026-10-09",
-   "as_of_utc": "2026-10-09T14:55:54.057039+00:00",
+   "as_of_utc": "2026-10-09T15:11:14.949569+00:00",
    "source": "yahoo",
    "delayed": true,
-   "last_price": 7840.25,
+   "last_price": 7848.25,
    "levels": [
     {
      "tag": "exp_hi",
@@ -91,6 +91,13 @@
      "note": "since 18:00 ET, 920 bars"
     },
     {
+     "tag": "tdh",
+     "label": "Today's RTH high",
+     "price": 7851.5,
+     "group": "today",
+     "note": "so far"
+    },
+    {
      "tag": "pdh",
      "label": "Prior-day high (RTH)",
      "price": 7850.0,
@@ -103,13 +110,6 @@
      "price": 7850.0,
      "group": "round",
      "note": ""
-    },
-    {
-     "tag": "tdh",
-     "label": "Today's RTH high",
-     "price": 7844.0,
-     "group": "today",
-     "note": "so far"
     },
     {
      "tag": "onvwap",
@@ -211,8 +211,8 @@
     }
    ],
    "stats": {
-    "last_bar_utc": "2026-10-09T14:45:00+00:00",
-    "last_bar_age_min": 10.9,
+    "last_bar_utc": "2026-10-09T15:01:00+00:00",
+    "last_bar_age_min": 10.2,
     "market_state": "open",
     "profile_volume": 1317165.0,
     "prior_day": "2026-10-08",
@@ -1502,20 +1502,28 @@
     {
      "t": "2026-10-09T14:45:00+00:00",
      "o": 7837.75,
-     "h": 7840.75,
+     "h": 7851.5,
      "l": 7837.5,
-     "c": 7840.25,
-     "v": 0.0
+     "c": 7848.75,
+     "v": 41453.0
+    },
+    {
+     "t": "2026-10-09T15:00:00+00:00",
+     "o": 7849.0,
+     "h": 7850.0,
+     "l": 7846.5,
+     "c": 7848.25,
+     "v": 3016.0
     }
    ]
   },
   {
    "root": "NQ",
    "trading_day": "2026-10-09",
-   "as_of_utc": "2026-10-09T14:55:54.057039+00:00",
+   "as_of_utc": "2026-10-09T15:11:14.949569+00:00",
    "source": "yahoo",
    "delayed": true,
-   "last_price": 31051.5,
+   "last_price": 31078.25,
    "levels": [
     {
      "tag": "wh",
@@ -1666,8 +1674,8 @@
     }
    ],
    "stats": {
-    "last_bar_utc": "2026-10-09T14:45:00+00:00",
-    "last_bar_age_min": 10.9,
+    "last_bar_utc": "2026-10-09T15:01:00+00:00",
+    "last_bar_age_min": 10.2,
     "market_state": "open",
     "profile_volume": 530702.0,
     "prior_day": "2026-10-08",
@@ -2956,11 +2964,19 @@
     },
     {
      "t": "2026-10-09T14:45:00+00:00",
-     "o": 31034.75,
-     "h": 31053.5,
-     "l": 31029.75,
-     "c": 31051.5,
-     "v": 0.0
+     "o": 31033.75,
+     "h": 31095.25,
+     "l": 31026.0,
+     "c": 31081.5,
+     "v": 15271.0
+    },
+    {
+     "t": "2026-10-09T15:00:00+00:00",
+     "o": 31082.0,
+     "h": 31090.5,
+     "l": 31071.0,
+     "c": 31078.25,
+     "v": 1022.0
     }
    ]
   }
@@ -2973,7 +2989,7 @@
     "link": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxNZ1phZTUyd0lfbGtnM2UwRFo2U1h4NVRBZUR0X2h3VFhDR2hqRjl4bC03M2dyeENyTk01ZVk0NzB1NmZtU0JmeXYyZThtOW9qUEpfYlhlWkhoYnk3Rk4yOXdqaU94dVhHWTJWdnpjVHY0Z2V6NE5nWUhZVDhqQ1B0TVphSUQ3bEJrcU8zOVdxa1pWZTdxM3JibldadzBJNTlpQ1REb3R0VUNtaUpaSGE0ZTQtam9qWkdsODZhU09TWkM2WElQckllSlBHZlpFNFltU1ZsSDh4QTZhdlpiWGtELS1MSWQ?oc=5",
     "source": "gnews_fed",
     "published_utc": "2026-10-09T14:12:23+00:00",
-    "score": 10.38,
+    "score": 10.34,
     "duplicates": 1
    },
    {
@@ -2982,8 +2998,17 @@
     "link": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxPVGRNR1dvdGVRMmdlZjItSWxRbzBuUjNmU1pORE55cnRVS3BIdVU4RVRaRy1hVk5zdmEwVl9WdmtEdkxsUHFmMHk2Z0toSVdxTzBaU2lVTG5hLVEycGc3UkctSThoQVJIQWFtdVFSN09CZlB0RnktY1d1ZXhOUTBUZFVvQ3FJQ054aVJoSmtjTkRNQ1pVdndzQTEwS0k3VzNrNWNlRy1YNTk5b28wZXNYY3FUYVNTdHdfbUlCRlpxbHFQSE41U1N5cVdFdzc1TlFNSE1GWFJ2UklSWldQbUxLWdIB5gFBVV95cUxOOFV3Tktsb3gzaVhXcmV2TkZnaXVWX1JuRllxZ25NUVdTN0xaekpGOHJSMXFOQTFOMVphWTNKOThjLWtILV9TM3Y5OV9kaU1MOHRGaThPUEZPMWdZcVcydm1QTjFna1VYNEtuWjEtd201YVFXZ2M2WGM5UHpzUG9tMkhnY1l4TlItN2dWUlBnZlR2QXZuS2N3SDRVVjRFZEpEOHFGTVFMbWpTdUt4Y2lnaFBiUHBsQzBTSmdMMEowTWJlNndENldtYjRPMXlwdFZEdEhHLXFzZWhEdjE5QnZLV3RibVVlQQ?oc=5",
     "source": "gnews_futures",
     "published_utc": "2026-10-09T09:04:30+00:00",
-    "score": 9.52,
+    "score": 9.48,
     "duplicates": 0
+   },
+   {
+    "id": "806a1dbdc8",
+    "title": "Trump establishes committee to investigate Federal Reserve's Lisa Cook in latest effort to fire her - Newsday",
+    "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE5qc0RfZmNCSVp0WGltU3h5WkZxd0J6ZEtWbnN6QmdqYWtCQnRBNUNRcVJmejVHblFmc19VN2xhRHRzcHBqRHVvQWdSODl0aUdoTkp1di14LUh4amV5bFg2akpTV1l1NkdSNG94WkQzV0RmRUR6?oc=5",
+    "source": "gnews_fed",
+    "published_utc": "2026-10-09T14:57:54+00:00",
+    "score": 9.46,
+    "duplicates": 9
    },
    {
     "id": "7dd10bea60",
@@ -2991,26 +3016,8 @@
     "link": "https://www.cnbc.com/2026/10/09/judy-shelton-scott-bessent-treasury.html",
     "source": "cnbc_markets",
     "published_utc": "2026-10-09T13:09:19+00:00",
-    "score": 8.2,
+    "score": 8.16,
     "duplicates": 1
-   },
-   {
-    "id": "4616ee6c81",
-    "title": "Tariffs added 2.9 percentage points to goods inflation, New York Fed finds - InvestmentNews",
-    "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQbTItS2hnTFVlaGxqR2xXbkJJZ2M5cXExa1RWNFdTeHZPcHBVSmpuYkt4R2ozaktsRF9ZQk9xUlpCWmxWM2V5TkRlSEw2TVZONG53ci1CQ1BDajIxN0pURzg5Z1dRYUN4Vi1Ea2xJNnhjZV9WdXZubWh1al9mbjFiNm1xOFRCdElNQUE5LVo3aW1fZU1lV1B2MTN3RjB0aGhqbEpXbmVCMVA5NWNxemE0RmlCVDd2VFpla25XQzlrZF8?oc=5",
-    "source": "gnews_macro",
-    "published_utc": "2026-10-08T21:44:18+00:00",
-    "score": 8.0,
-    "duplicates": 0
-   },
-   {
-    "id": "c0ab954f60",
-    "title": "The Latest: Trump establishes committee to investigate Fed’s Lisa Cook in latest effort to fire her - The Northern Virginia Daily",
-    "link": "https://news.google.com/rss/articles/CBMimAJBVV95cUxObElya0phRW1Xdl9STEV1emdyY2d3X2lrRV92TzlKdHdCQTVUb05EaHlxMlFCZzJxUXl0bk13cjEzMnk0bWlOeWFIZFk3dThQUFQ4M0xWdUVfTFNVdzYwOTA1U1YyOXN3MmdZYmpRV25ZME1Nb0VtdGROMjBwVVc1UEdWbktNZW9HOFBSdEZ3dG9rTUgzWFU2aUt0RDE3TzBGR24zVnplY25oZC05MnhyV2VLd09DcHI5VlN2Xy1TeHJnSHh6bDdkbmNPU0VfU2tjOW1ZN0hibGQ1bDQwQ1lUVW5pdGpjeEJBSXpwb3Nkc2I0aUEtQ0pBamtOa3EtQ19nQWFPQVh0SDBkVi1SN2plVHBYc1lGNHdI?oc=5",
-    "source": "gnews_fed",
-    "published_utc": "2026-10-09T14:49:38+00:00",
-    "score": 7.98,
-    "duplicates": 6
    },
    {
     "id": "eb4149c5fb",
@@ -3018,7 +3025,7 @@
     "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPMEE0cHRxN2h6UmZZRzB5MHNpalB6b3FidlcwQW1oaUFaNXlNZGNkbzZ0VEVfYjBPeVNEWHgzSVF6MWVCZno3ZDUxMFB6RHdqTGZUaktod3ZISEtnZG13OWUxZ3h6NElnU1lMVVF6a21nSzgtS1dvQjlaNi1XaFBWQXNFdEhYN1QyZmJ4dUJ6U1habUVsYXpQZjVNaXJURmtPY2hSNXRTUTRvakxWdjlWNXpiNDhNaGFicFp3?oc=5",
     "source": "gnews_macro",
     "published_utc": "2026-10-09T14:19:18+00:00",
-    "score": 7.9,
+    "score": 7.86,
     "duplicates": 1
    },
    {
@@ -3027,7 +3034,16 @@
     "link": "https://www.federalreserve.gov/newsevents/pressreleases/other20261009a.htm",
     "source": "fed_press",
     "published_utc": "2026-10-09T14:00:00+00:00",
-    "score": 7.84,
+    "score": 7.8,
+    "duplicates": 0
+   },
+   {
+    "id": "c81840da8c",
+    "title": "Delta Air Lines cuts 2026 forecast on fuel surge, but CEO says demand is still strong",
+    "link": "https://www.cnbc.com/2026/10/09/delta-air-lines-dal-q3-2026-earnings.html",
+    "source": "cnbc_markets",
+    "published_utc": "2026-10-09T15:07:46+00:00",
+    "score": 7.49,
     "duplicates": 0
    },
    {
@@ -3036,17 +3052,8 @@
     "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxON2p2T25TXzRrRG5iRHl1dUh0Q0NLb1BQbHl1Z1o5T0phMjhkX0VCSC01N2VvMUpNblJwRWZiNjZXVVJOYncxRS1OT3RKLXk2YUJ5R0JTMjRFREJPRWdJX093X3Vybko4bXR3WGtVeHMtZmVMamg4TnEydWEwOUE2TkwtUEpjdmJqME4zWTE1bllVX3hFZFV4MkFYQktlMm1ZWmxnVjE1V1JWT2VkSExLMGdWWFFhNzA?oc=5",
     "source": "gnews_fed",
     "published_utc": "2026-10-09T11:36:47+00:00",
-    "score": 7.45,
+    "score": 7.4,
     "duplicates": 1
-   },
-   {
-    "id": "c81840da8c",
-    "title": "Delta Air Lines cuts 2026 forecast on fuel surge, but CEO says demand is still strong",
-    "link": "https://www.cnbc.com/2026/10/09/delta-air-lines-dal-q3-2026-earnings.html",
-    "source": "cnbc_markets",
-    "published_utc": "2026-10-09T13:38:10+00:00",
-    "score": 7.28,
-    "duplicates": 0
    },
    {
     "id": "e989f8c25e",
@@ -3054,7 +3061,7 @@
     "link": "https://www.cnbc.com/2026/10/09/fed-lisa-cook-trump.html",
     "source": "cnbc_markets",
     "published_utc": "2026-10-09T14:29:59+00:00",
-    "score": 6.93,
+    "score": 6.89,
     "duplicates": 2
    },
    {
@@ -3063,7 +3070,7 @@
     "link": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxQVUQyZVJsS19BYXJmNFNaMVJhaVFWS0h6MV9Sdl9zS1VpSlVsX0Z3YlJTQ0p5ZmNEMmUwRjBTcjMtdnlXc280TUdrY0N6MHQ3djBhZzBkWEIxMUtMa2NDV0pWei1fYW5VZS1fdGMtTHk2R1h6V29XM3N0djltZ2tobl91cTI1TmNScW9CVHlSMnRnTjFWSFB1S0I2dFR6QXBBdUsyb2NQaEpJMWx1TV9mR2UzQ2lWT0YzbkpXdjN4NXlIWjYwVmpfZEQtNk1UM2doRThFY2xYNEMwWWRLSUVCQzBnT042b3BRRXRDMHZ2OWZ4dw?oc=5",
     "source": "gnews_macro",
     "published_utc": "2026-10-09T13:20:54+00:00",
-    "score": 6.74,
+    "score": 6.69,
     "duplicates": 0
    },
    {
@@ -3072,21 +3079,30 @@
     "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNNTRWN3RKV2p1dzZCWnhzbE9CbFZFUzJNcnpZZmlhUWY2dlE1Z1ZJZ0F0NzNNVWwtVlB0enZ5dGtRMTlLdlhBc3hiY2Fwa1hkUVNVemZvQjFVVlE0b3R1ZHhDblNOeDVvUmNmalpIcWtTVTJQdjhzRWFabUlZU3Brc1VTN1FsVnNMS2dHYUpXUDFjTUM2OHlhcmwxbDHSAaIBQVVfeXFMTTdoZGRsWXVpa19hUVlyaVRQd190d2I4b2Z3UXJ5VkREYUktNGxUdFF2dFd1ZGotS3BheU9VWEJCTUZ4WDRvc1FEMFJEUGlPZW5Wb0hDQXBHd19jYlpRQUYybm8xSGNZZURoUm9wcDYzRk8ybEdxUUs3NzVOejVoOEhYNGlBU29HeG1tcTlyMkNFY1ZOWlVyLTRsN0ZFWmVSTkNR?oc=5",
     "source": "gnews_futures",
     "published_utc": "2026-10-09T12:53:36+00:00",
-    "score": 6.66,
+    "score": 6.62,
     "duplicates": 1
+   },
+   {
+    "id": "1d9313bd6b",
+    "title": "Tesla Stock Price Forecast: Shanghai Factory September Deliveries Up 10.7% MoM, Shares Hit Highest Since Late July; Can the Rally Continue? - TradingKey",
+    "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOSFZESWx0ZjJCWDJGWkp3WU9pTmZpVzh5RVdzM2pNb1VfcmxPYVRWS0l1Z0pzZ2tCR1pSaTI2Y3U0anJZU1F3TmMtd3dZUjgtZC1SZUZ3dHI3X0tacFRtYTc2R3BseWo0MlR1WmdCLXYwdHVZcFd5bUdtZ1FydWpWcVRSblhYUnE4c2VPVlFUZmNMSmxRVkZSdkFodWlza0M5LU5rR2VCcVhUMm1VZ28zYkpCYldQWnBaUWFNOHdFRmJZRlJs?oc=5",
+    "source": "gnews_megacap",
+    "published_utc": "2026-10-09T14:50:07+00:00",
+    "score": 6.44,
+    "duplicates": 0
    }
   ],
   "summary": {
    "lines": [
-    "S&P 500 futures eased on rising inflation expectations and Fed hawkishness, while the Fed is described as hawkish on inflation with room to wait on rate hikes, a backdrop for the 10:00 ET prelim UoM inflation expectations and sentiment data (prior 4.6%, sentiment cons 47.5/prior 47.8) [b645825752][f62ae6b7e2].",
-    "The New York Fed said tariffs added 2.9 percentage points to goods inflation and are driving everyday-item inflation, relevant to how traders read the CPI week ahead [4616ee6c81][99e3edb7da][bfdafbdc0c].",
-    "Trump established a committee to investigate Fed Governor Lisa Cook over mortgage fraud statements, adding to Fed-independence headline risk traders watch intraday [c0ab954f60][e989f8c25e].",
-    "Treasury's Bessent hired Judy Shelton, whose nomination the Senate previously blocked, as a counselor, adding another Fed-policy personnel headline [7dd10bea60]."
+    "Fed commentary has turned more hawkish on inflation even as tariff-driven price pressures persist, and futures reflect that shift, keeping rate-path uncertainty in play ahead of 10:00 ET UoM sentiment and inflation expectations data [b645825752][f62ae6b7e2][99e3edb7da].",
+    "Political pressure on the Fed continues with Trump's committee probing Governor Lisa Cook and Bessent bringing on Judy Shelton as a Treasury advisor, adding headline risk around Fed independence [806a1dbdc8][e989f8c25e][7dd10bea60].",
+    "Tech shares are rebounding in futures after the prior sell-off, a factor for Nasdaq-heavy MNQ positioning [07190e715b].",
+    "The week ahead brings bank earnings and CPI with the S&P 500 near records, keeping macro data releases as the main catalysts for intraday moves [eb4149c5fb][bfdafbdc0c]."
    ],
    "backend": "anthropic",
    "model": "claude-sonnet-5",
    "dropped": [
-    "ungrounded number(s) ['3', '07']: Delta Air Lines cut its 2026 forecast on a fuel surge and missed Wall Street earnings estimates for the first time in two years, kicking off a week with bank earnings and Q3 results in focus while futures rose as tech shares rebounded [c81840da8c][eb4149c5fb][07"
+    "ungrounded number(s) ['3']: Delta cut its 2026 forecast on a fuel surge and missed Q3 estimates for the first time in two years, though CEO cited strong demand, kicking off earnings-season reaction trade [c81840da8c]."
    ],
    "warnings": []
   },
