@@ -1,11 +1,11 @@
 {
  "meta": {
-  "generated_at_utc": "2026-10-09T13:29:00.916583+00:00",
-  "generated_at_local": "Fri 09 Oct 2026 10:29 ADT",
+  "generated_at_utc": "2026-10-09T13:44:19.119279+00:00",
+  "generated_at_local": "Fri 09 Oct 2026 10:44 ADT",
   "trading_day": "2026-10-09",
   "display_tz": "America/Halifax",
   "version": "0.1.0",
-  "run": "post-data",
+  "run": "intraday",
   "variant": "public"
  },
  "calendar": {
@@ -55,7 +55,7 @@
    "time_utc": "2026-10-09T14:00:00+00:00",
    "local": "11:00 ADT",
    "et": "10:00 ET",
-   "in": "30 min",
+   "in": "15 min",
    "consensus": "47.5",
    "prior": "47.8"
   },
@@ -66,10 +66,10 @@
   {
    "root": "ES",
    "trading_day": "2026-10-09",
-   "as_of_utc": "2026-10-09T13:29:00.916583+00:00",
+   "as_of_utc": "2026-10-09T13:44:19.119279+00:00",
    "source": "yahoo",
    "delayed": true,
-   "last_price": 7844.0,
+   "last_price": 7842.25,
    "levels": [
     {
      "tag": "exp_hi",
@@ -97,7 +97,7 @@
      "label": "Overnight high",
      "price": 7853.75,
      "group": "overnight",
-     "note": "since 18:00 ET, 909 bars"
+     "note": "since 18:00 ET, 920 bars"
     },
     {
      "tag": "pdh",
@@ -114,11 +114,32 @@
      "note": ""
     },
     {
+     "tag": "tdh",
+     "label": "Today's RTH high",
+     "price": 7844.0,
+     "group": "today",
+     "note": "so far"
+    },
+    {
      "tag": "onvwap",
      "label": "Overnight VWAP",
-     "price": 7840.88,
+     "price": 7840.83,
      "group": "overnight",
      "note": "typical-price VWAP"
+    },
+    {
+     "tag": "rtho",
+     "label": "Today's RTH open",
+     "price": 7838.25,
+     "group": "today",
+     "note": "09:30 bar open"
+    },
+    {
+     "tag": "tdl",
+     "label": "Today's RTH low",
+     "price": 7835.75,
+     "group": "today",
+     "note": ""
     },
     {
      "tag": "vah",
@@ -199,15 +220,15 @@
     }
    ],
    "stats": {
-    "last_bar_utc": "2026-10-09T13:18:00+00:00",
-    "last_bar_age_min": 11.0,
+    "last_bar_utc": "2026-10-09T13:34:00+00:00",
+    "last_bar_age_min": 10.3,
     "market_state": "open",
     "profile_volume": 1317165.0,
     "prior_day": "2026-10-08",
     "prior_day_rth_range": 67.0,
     "overnight_range": 36.75,
-    "gap_vs_prior_close": 26.75,
-    "gap_basis": "last price (pre-market)",
+    "gap_vs_prior_close": 21.0,
+    "gap_basis": "RTH open",
     "atr14": 82.3,
     "atr_days": 14,
     "avg_daily_range": 75.82,
@@ -1443,19 +1464,27 @@
      "t": "2026-10-09T13:15:00+00:00",
      "o": 7842.75,
      "h": 7845.0,
-     "l": 7841.75,
-     "c": 7844.0,
-     "v": 1372.0
+     "l": 7838.0,
+     "c": 7838.25,
+     "v": 12029.0
+    },
+    {
+     "t": "2026-10-09T13:30:00+00:00",
+     "o": 7838.25,
+     "h": 7844.0,
+     "l": 7835.75,
+     "c": 7842.25,
+     "v": 26313.0
     }
    ]
   },
   {
    "root": "NQ",
    "trading_day": "2026-10-09",
-   "as_of_utc": "2026-10-09T13:29:00.916583+00:00",
+   "as_of_utc": "2026-10-09T13:44:19.119279+00:00",
    "source": "yahoo",
    "delayed": true,
-   "last_price": 31219.5,
+   "last_price": 31168.75,
    "levels": [
     {
      "tag": "wh",
@@ -1493,25 +1522,11 @@
      "note": "70 % value area"
     },
     {
-     "tag": "rn_major_up",
-     "label": "Round 100 above",
-     "price": 31300.0,
-     "group": "round",
-     "note": ""
-    },
-    {
      "tag": "onh",
      "label": "Overnight high",
      "price": 31266.5,
      "group": "overnight",
-     "note": "since 18:00 ET, 909 bars"
-    },
-    {
-     "tag": "rn_minor_up",
-     "label": "Round 50 above",
-     "price": 31250.0,
-     "group": "round",
-     "note": ""
+     "note": "since 18:00 ET, 920 bars"
     },
     {
      "tag": "poc",
@@ -1528,18 +1543,53 @@
      "note": "2026-10-08"
     },
     {
-     "tag": "rn_major_dn",
-     "label": "Round 100 below",
+     "tag": "rn_major_up",
+     "label": "Round 100 above",
      "price": 31200.0,
+     "group": "round",
+     "note": ""
+    },
+    {
+     "tag": "tdh",
+     "label": "Today's RTH high",
+     "price": 31180.0,
+     "group": "today",
+     "note": "so far"
+    },
+    {
+     "tag": "rtho",
+     "label": "Today's RTH open",
+     "price": 31167.25,
+     "group": "today",
+     "note": "09:30 bar open"
+    },
+    {
+     "tag": "rn_minor_dn",
+     "label": "Round 50 below",
+     "price": 31150.0,
      "group": "round",
      "note": ""
     },
     {
      "tag": "onvwap",
      "label": "Overnight VWAP",
-     "price": 31139.72,
+     "price": 31141.55,
      "group": "overnight",
      "note": "typical-price VWAP"
+    },
+    {
+     "tag": "tdl",
+     "label": "Today's RTH low",
+     "price": 31113.0,
+     "group": "today",
+     "note": ""
+    },
+    {
+     "tag": "rn_major_dn",
+     "label": "Round 100 below",
+     "price": 31100.0,
+     "group": "round",
+     "note": ""
     },
     {
      "tag": "pdc",
@@ -1585,15 +1635,15 @@
     }
    ],
    "stats": {
-    "last_bar_utc": "2026-10-09T13:18:00+00:00",
-    "last_bar_age_min": 11.0,
+    "last_bar_utc": "2026-10-09T13:34:00+00:00",
+    "last_bar_age_min": 10.3,
     "market_state": "open",
     "profile_volume": 530702.0,
     "prior_day": "2026-10-08",
     "prior_day_rth_range": 577.75,
     "overnight_range": 313.5,
-    "gap_vs_prior_close": 243.5,
-    "gap_basis": "last price (pre-market)",
+    "gap_vs_prior_close": 191.25,
+    "gap_basis": "RTH open",
     "atr14": 507.34,
     "atr_days": 14,
     "avg_daily_range": 475.0,
@@ -2829,9 +2879,17 @@
      "t": "2026-10-09T13:15:00+00:00",
      "o": 31204.25,
      "h": 31223.5,
-     "l": 31202.75,
-     "c": 31219.5,
-     "v": 1504.0
+     "l": 31166.0,
+     "c": 31167.75,
+     "v": 7117.0
+    },
+    {
+     "t": "2026-10-09T13:30:00+00:00",
+     "o": 31167.25,
+     "h": 31180.0,
+     "l": 31113.0,
+     "c": 31168.75,
+     "v": 15679.0
     }
    ]
   }
@@ -2844,7 +2902,7 @@
     "link": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxPVGRNR1dvdGVRMmdlZjItSWxRbzBuUjNmU1pORE55cnRVS3BIdVU4RVRaRy1hVk5zdmEwVl9WdmtEdkxsUHFmMHk2Z0toSVdxTzBaU2lVTG5hLVEycGc3UkctSThoQVJIQWFtdVFSN09CZlB0RnktY1d1ZXhOUTBUZFVvQ3FJQ054aVJoSmtjTkRNQ1pVdndzQTEwS0k3VzNrNWNlRy1YNTk5b28wZXNYY3FUYVNTdHdfbUlCRlpxbHFQSE41U1N5cVdFdzc1TlFNSE1GWFJ2UklSWldQbUxLWdIB5gFBVV95cUxOOFV3Tktsb3gzaVhXcmV2TkZnaXVWX1JuRllxZ25NUVdTN0xaekpGOHJSMXFOQTFOMVphWTNKOThjLWtILV9TM3Y5OV9kaU1MOHRGaThPUEZPMWdZcVcydm1QTjFna1VYNEtuWjEtd201YVFXZ2M2WGM5UHpzUG9tMkhnY1l4TlItN2dWUlBnZlR2QXZuS2N3SDRVVjRFZEpEOHFGTVFMbWpTdUt4Y2lnaFBiUHBsQzBTSmdMMEowTWJlNndENldtYjRPMXlwdFZEdEhHLXFzZWhEdjE5QnZLV3RibVVlQQ?oc=5",
     "source": "gnews_futures",
     "published_utc": "2026-10-09T09:04:30+00:00",
-    "score": 10.27,
+    "score": 10.22,
     "duplicates": 1
    },
    {
@@ -2853,7 +2911,7 @@
     "link": "https://www.cnbc.com/2026/10/09/judy-shelton-scott-bessent-treasury.html",
     "source": "cnbc_markets",
     "published_utc": "2026-10-09T13:09:19+00:00",
-    "score": 8.45,
+    "score": 8.4,
     "duplicates": 1
    },
    {
@@ -2871,7 +2929,7 @@
     "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxON2p2T25TXzRrRG5iRHl1dUh0Q0NLb1BQbHl1Z1o5T0phMjhkX0VCSC01N2VvMUpNblJwRWZiNjZXVVJOYncxRS1OT3RKLXk2YUJ5R0JTMjRFREJPRWdJX093X3Vybko4bXR3WGtVeHMtZmVMamg4TnEydWEwOUE2TkwtUEpjdmJqME4zWTE1bllVX3hFZFV4MkFYQktlMm1ZWmxnVjE1V1JWT2VkSExLMGdWWFFhNzA?oc=5",
     "source": "gnews_fed",
     "published_utc": "2026-10-09T11:36:47+00:00",
-    "score": 7.69,
+    "score": 7.65,
     "duplicates": 1
    },
    {
@@ -2879,8 +2937,8 @@
     "title": "Delta Air Lines cuts 2026 forecast on fuel surge, but CEO says demand is still strong",
     "link": "https://www.cnbc.com/2026/10/09/delta-air-lines-dal-q3-2026-earnings.html",
     "source": "cnbc_markets",
-    "published_utc": "2026-10-09T12:20:12+00:00",
-    "score": 7.31,
+    "published_utc": "2026-10-09T13:38:10+00:00",
+    "score": 7.48,
     "duplicates": 0
    },
    {
@@ -2889,7 +2947,7 @@
     "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOc2ZtTkg1OU1ZeEVqdGdTUjFKR1BSYkwzcWRwWG1wNjE2UFpqa2NYbmxPMXNxM2pURVpLWVVUYm9zUmE2S1QwMEUxZURaejlrb1g1V0dEMF80RnBWOUo4U1VPYzNlM0M5dlBnMkdQVS1ObHA2b1BYTmJLa1RuUk8xSVB4bk5FUnRQblcwTUtLTVFMZGU2Y0o0VEVWLWFBUnRCOWlpUEI0MmF2WGJyTmdhd3lpQlZDZ3JQZXJMd0FYcw?oc=5",
     "source": "gnews_macro",
     "published_utc": "2026-10-09T12:10:26+00:00",
-    "score": 7.28,
+    "score": 7.24,
     "duplicates": 0
    },
    {
@@ -2898,7 +2956,7 @@
     "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNNTRWN3RKV2p1dzZCWnhzbE9CbFZFUzJNcnpZZmlhUWY2dlE1Z1ZJZ0F0NzNNVWwtVlB0enZ5dGtRMTlLdlhBc3hiY2Fwa1hkUVNVemZvQjFVVlE0b3R1ZHhDblNOeDVvUmNmalpIcWtTVTJQdjhzRWFabUlZU3Brc1VTN1FsVnNMS2dHYUpXUDFjTUM2OHlhcmwxbDHSAaIBQVVfeXFMTTdoZGRsWXVpa19hUVlyaVRQd190d2I4b2Z3UXJ5VkREYUktNGxUdFF2dFd1ZGotS3BheU9VWEJCTUZ4WDRvc1FEMFJEUGlPZW5Wb0hDQXBHd19jYlpRQUYybm8xSGNZZURoUm9wcDYzRk8ybEdxUUs3NzVOejVoOEhYNGlBU29HeG1tcTlyMkNFY1ZOWlVyLTRsN0ZFWmVSTkNR?oc=5",
     "source": "gnews_futures",
     "published_utc": "2026-10-09T12:53:36+00:00",
-    "score": 6.9,
+    "score": 6.86,
     "duplicates": 1
    },
    {
@@ -2907,25 +2965,7 @@
     "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNdkNYUU1HWk92bm9kZ1poSTNWR0dNcXVfMUZGMDBIR2ZLa0RhclhRd0pGSVZOME5TVHluUU5aZzJodlZWZW5MUW1wQ1gzT2dzVndpWEpoeVE2TmR1RndISDZzLXBEVFBZS3VDSXJsYjgwYktwcXd5cXRHSGFWcGFuMDNPZ2F6YVI4ODRRcUwwamRjQQ?oc=5",
     "source": "gnews_futures",
     "published_utc": "2026-10-09T08:11:18+00:00",
-    "score": 6.62,
-    "duplicates": 0
-   },
-   {
-    "id": "3a7ab91e13",
-    "title": "Silver Rebounds Above $60 as Softer Inflation Tempers Fed - TradingPedia",
-    "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxOLThQM1ZTZUdjb0VORkJRVVR0Q1pWdUMwWDJkNVY5a0VQVTVnSGp5WGp1LXp6eDRKV2RJV2thVHpiZHdkQkpCRDZ4OWJBVGhpRkM4MXJqR3hwWnNnQTlCc1BQc1JYUG5aUzhpbTRhMXpEY3pPMG5pRUJUSUdsRU43Rlh6MEx5VDllSC1MYkFwUmlEY1VEblpxZkVEYU5oZw?oc=5",
-    "source": "gnews_macro",
-    "published_utc": "2026-10-09T07:52:45+00:00",
     "score": 6.57,
-    "duplicates": 0
-   },
-   {
-    "id": "ec31cc006a",
-    "title": "Nasdaq Futures Climb as Chip Stocks Rebound on New OpenAI Revenue Report - Barchart.com",
-    "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOeDlDak9ENlFQamlMWHd5TnFjXzFmTTV0bWRQTjJmbkJqRTFhSUlMWnhIUW5kLTBjZDhpNUhiT1daMUZfQkw4NkZzQkpadWNxei1jdWNSTEVTbDVjYVoxM2JZbTNQYTRTRHNDams4bnd0LXc1RnQ1Sl9seG1xTkRPU0RnOTZXR2NzZ0dyWkx5YlV1OTZFbVZEb1lMaTQ4Q0NjVlF2Y3lqT0o0NVgyNWs5TGJKRld5LW8?oc=5",
-    "source": "gnews_futures",
-    "published_utc": "2026-10-09T10:32:04+00:00",
-    "score": 6.51,
     "duplicates": 0
    },
    {
@@ -2938,28 +2978,47 @@
     "duplicates": 1
    },
    {
-    "id": "dbe8729db4",
-    "title": "Outlook for Next Week: U.S. to Release CPI and Beige Book; AI Momentum Faces Scrutiny - Moomoo",
-    "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNZS1PLXh3d09uODhjbUFzdDBhcEdYSXU5VjhfUjNmcmpuNVNZLTMxeWxUMWpGaEhPck5vc2E2SXQ2M3R4VlVNbnptZW4wZFEzN190WXpVQXRCbVNrLUp6bWZBUzJEZ1JWaWdzMlVLLWhtdVQ3bk5WYnNiV3IwWE9JbTVrNU9XMnNlYlBhaEVSSjN1S1k4UTZ5ag?oc=5",
+    "id": "ec31cc006a",
+    "title": "Nasdaq Futures Climb as Chip Stocks Rebound on New OpenAI Revenue Report - Barchart.com",
+    "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOeDlDak9ENlFQamlMWHd5TnFjXzFmTTV0bWRQTjJmbkJqRTFhSUlMWnhIUW5kLTBjZDhpNUhiT1daMUZfQkw4NkZzQkpadWNxei1jdWNSTEVTbDVjYVoxM2JZbTNQYTRTRHNDams4bnd0LXc1RnQ1Sl9seG1xTkRPU0RnOTZXR2NzZ0dyWkx5YlV1OTZFbVZEb1lMaTQ4Q0NjVlF2Y3lqT0o0NVgyNWs5TGJKRld5LW8?oc=5",
+    "source": "gnews_futures",
+    "published_utc": "2026-10-09T10:32:04+00:00",
+    "score": 6.47,
+    "duplicates": 0
+   },
+   {
+    "id": "9821118c98",
+    "title": "Gold Steadies as Traders Assess US-Iran Tensions, Fed Rate Path - Bloomberg.com",
+    "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOZDFBZHA2ZldZVC1QZXBxNEIzTlRYcGdFWFJNRWlRLVJremJKZWt2bnJ0LUVTWXhnWWQwdFhwN0JyT3VMazZRdmVnTnVQMjBHSUpYTUQtRk1Kdld3X0JqWHBDOERUNEFaQlhJWklmLXZVblVxOFZURUR1QzBUV2NmRko0NURramJ3OFV3Z0o1UHpFZWNyYTl5cFR2Z3RLWFBIMzBUS1pJZTJrZEVQZzY3SVJxRQ?oc=5",
     "source": "gnews_macro",
-    "published_utc": "2026-10-09T13:11:25+00:00",
-    "score": 6.45,
+    "published_utc": "2026-10-09T11:57:50+00:00",
+    "score": 6.2,
+    "duplicates": 0
+   },
+   {
+    "id": "0ac1757a43",
+    "title": "Why Are Nasdaq Futures Surging Premarket? SPCX, ASTS, AAPL, TMUS, VZ, NVDA, MU, LITE Stocks In Focus - Yahoo Finance",
+    "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPRlRPdWJWU3UtNTVHSUdxSDdObHVsZ0N2cTRwd3dsczA1WExnV2xrZ3M3Nl9rVFZvbkdzcl9YNllwWHZNSTRWTGdXV3J0WjZuS0VKTFh1RlFCZWlTWXRmU2MxT2FDSzg1THZ3c2k3Z090TVl2UWRVdUtSQlJldEU1NkllQUI2MlRfRFdFOUtTeTJfZ2RDUVc3VGZ2MWpyQzJxdUpj?oc=5",
+    "source": "gnews_futures",
+    "published_utc": "2026-10-09T08:38:57+00:00",
+    "score": 6.15,
     "duplicates": 0
    }
   ],
   "summary": {
    "lines": [
-    "Futures whipsawed overnight on inflation-expectations and Fed-hawkishness headlines before tech led a rebound, with chip names rising on an OpenAI revenue report; watch 10:00 ET UoM sentiment (cons 47.5, prior 47.8) and inflation expectations (prior 4.6%) for confirmation [b645825752][015fdb68e4][07190e715b][ec31cc006a].",
-    "The New York Fed estimated tariffs added 2.9 percentage points to goods inflation, feeding the same inflation-expectations narrative moving futures [4616ee6c81].",
-    "Fed commentary turned more hawkish on inflation while signaling no urgency on rate hikes, a mixed signal for rate-sensitive Nasdaq names [f62ae6b7e2].",
-    "Treasury's Bessent hired Judy Shelton as advisor and the Fed announced an enforcement action against American Express, both background items with limited direct index-futures impact [7dd10bea60][e9de74181d]."
+    "US Stock Market Today: S&P 500 Futures Ease On Rising Inflation Expectations And Fed Hawkishness - Simply Wall Street [b645825752]",
+    "Treasury's Bessent hires Trump's controversial former Fed board pick, Judy Shelton, as advisor [7dd10bea60]",
+    "Tariffs added 2.9 percentage points to goods inflation, New York Fed finds - InvestmentNews [4616ee6c81]",
+    "Fed grows more hawkish on inflation but there is room to wait on rate hikes - Baltimore Sun [f62ae6b7e2]",
+    "Delta Air Lines cuts 2026 forecast on fuel surge, but CEO says demand is still strong [c81840da8c]"
    ],
    "backend": "anthropic",
    "model": "claude-sonnet-5",
-   "dropped": [
-    "ungrounded number(s) ['3']: Delta cut its 2026 forecast on a fuel-cost surge and missed Q3 estimates, an early signal into a busy bank-earnings and CPI week [c81840da8c][ede5fd3e64][dbe8729db4]."
-   ],
-   "warnings": []
+   "dropped": [],
+   "warnings": [
+    "summariser produced no valid lines; showing digest"
+   ]
   },
   "feeds": [],
   "warnings": []
