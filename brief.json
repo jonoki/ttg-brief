@@ -1,7 +1,7 @@
 {
  "meta": {
-  "generated_at_utc": "2026-10-09T10:55:42.281005+00:00",
-  "generated_at_local": "Fri 09 Oct 2026 07:55 ADT",
+  "generated_at_utc": "2026-10-09T11:11:01.472678+00:00",
+  "generated_at_local": "Fri 09 Oct 2026 08:11 ADT",
   "trading_day": "2026-10-09",
   "display_tz": "America/Halifax",
   "version": "0.1.0",
@@ -55,7 +55,7 @@
    "time_utc": "2026-10-09T14:00:00+00:00",
    "local": "11:00 ADT",
    "et": "10:00 ET",
-   "in": "3h 04m",
+   "in": "2h 48m",
    "consensus": "47.5",
    "prior": "47.8"
   },
@@ -66,10 +66,10 @@
   {
    "root": "ES",
    "trading_day": "2026-10-09",
-   "as_of_utc": "2026-10-09T10:55:42.281005+00:00",
+   "as_of_utc": "2026-10-09T11:11:01.472678+00:00",
    "source": "yahoo",
    "delayed": true,
-   "last_price": 7841.0,
+   "last_price": 7845.0,
    "levels": [
     {
      "tag": "exp_hi",
@@ -97,7 +97,7 @@
      "label": "Overnight high",
      "price": 7853.5,
      "group": "overnight",
-     "note": "since 18:00 ET, 756 bars"
+     "note": "since 18:00 ET, 771 bars"
     },
     {
      "tag": "pdh",
@@ -116,7 +116,7 @@
     {
      "tag": "onvwap",
      "label": "Overnight VWAP",
-     "price": 7839.25,
+     "price": 7839.52,
      "group": "overnight",
      "note": "typical-price VWAP"
     },
@@ -199,14 +199,14 @@
     }
    ],
    "stats": {
-    "last_bar_utc": "2026-10-09T10:45:00+00:00",
-    "last_bar_age_min": 10.7,
+    "last_bar_utc": "2026-10-09T11:00:00+00:00",
+    "last_bar_age_min": 11.0,
     "market_state": "open",
     "profile_volume": 1317165.0,
     "prior_day": "2026-10-08",
     "prior_day_rth_range": 67.0,
     "overnight_range": 36.5,
-    "gap_vs_prior_close": 23.75,
+    "gap_vs_prior_close": 27.75,
     "gap_basis": "last price (pre-market)",
     "atr14": 82.3,
     "atr_days": 14,
@@ -1362,9 +1362,17 @@
     {
      "t": "2026-10-09T10:45:00+00:00",
      "o": 7841.25,
-     "h": 7841.75,
-     "l": 7841.0,
-     "c": 7841.0,
+     "h": 7848.25,
+     "l": 7839.5,
+     "c": 7845.5,
+     "v": 8585.0
+    },
+    {
+     "t": "2026-10-09T11:00:00+00:00",
+     "o": 7845.5,
+     "h": 7846.25,
+     "l": 7844.5,
+     "c": 7845.0,
      "v": 0.0
     }
    ]
@@ -1372,10 +1380,10 @@
   {
    "root": "NQ",
    "trading_day": "2026-10-09",
-   "as_of_utc": "2026-10-09T10:55:42.281005+00:00",
+   "as_of_utc": "2026-10-09T11:11:01.472678+00:00",
    "source": "yahoo",
    "delayed": true,
-   "last_price": 31190.25,
+   "last_price": 31202.0,
    "levels": [
     {
      "tag": "wh",
@@ -1413,11 +1421,25 @@
      "note": "70 % value area"
     },
     {
+     "tag": "rn_major_up",
+     "label": "Round 100 above",
+     "price": 31300.0,
+     "group": "round",
+     "note": ""
+    },
+    {
      "tag": "onh",
      "label": "Overnight high",
      "price": 31266.5,
      "group": "overnight",
-     "note": "since 18:00 ET, 756 bars"
+     "note": "since 18:00 ET, 772 bars"
+    },
+    {
+     "tag": "rn_minor_up",
+     "label": "Round 50 above",
+     "price": 31250.0,
+     "group": "round",
+     "note": ""
     },
     {
      "tag": "poc",
@@ -1434,32 +1456,18 @@
      "note": "2026-10-08"
     },
     {
-     "tag": "rn_major_up",
-     "label": "Round 100 above",
+     "tag": "rn_major_dn",
+     "label": "Round 100 below",
      "price": 31200.0,
-     "group": "round",
-     "note": ""
-    },
-    {
-     "tag": "rn_minor_dn",
-     "label": "Round 50 below",
-     "price": 31150.0,
      "group": "round",
      "note": ""
     },
     {
      "tag": "onvwap",
      "label": "Overnight VWAP",
-     "price": 31117.41,
+     "price": 31119.78,
      "group": "overnight",
      "note": "typical-price VWAP"
-    },
-    {
-     "tag": "rn_major_dn",
-     "label": "Round 100 below",
-     "price": 31100.0,
-     "group": "round",
-     "note": ""
     },
     {
      "tag": "pdc",
@@ -1505,14 +1513,14 @@
     }
    ],
    "stats": {
-    "last_bar_utc": "2026-10-09T10:45:00+00:00",
-    "last_bar_age_min": 10.7,
+    "last_bar_utc": "2026-10-09T11:01:00+00:00",
+    "last_bar_age_min": 10.0,
     "market_state": "open",
     "profile_volume": 530702.0,
     "prior_day": "2026-10-08",
     "prior_day_rth_range": 577.75,
     "overnight_range": 313.5,
-    "gap_vs_prior_close": 214.25,
+    "gap_vs_prior_close": 226.0,
     "gap_basis": "last price (pre-market)",
     "atr14": 507.34,
     "atr_days": 14,
@@ -2668,10 +2676,18 @@
     {
      "t": "2026-10-09T10:45:00+00:00",
      "o": 31191.5,
-     "h": 31194.25,
+     "h": 31218.75,
+     "l": 31181.5,
+     "c": 31200.5,
+     "v": 2467.0
+    },
+    {
+     "t": "2026-10-09T11:00:00+00:00",
+     "o": 31200.25,
+     "h": 31215.0,
      "l": 31190.25,
-     "c": 31190.25,
-     "v": 0.0
+     "c": 31202.0,
+     "v": 330.0
     }
    ]
   }
@@ -2684,7 +2700,7 @@
     "link": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxPVGRNR1dvdGVRMmdlZjItSWxRbzBuUjNmU1pORE55cnRVS3BIdVU4RVRaRy1hVk5zdmEwVl9WdmtEdkxsUHFmMHk2Z0toSVdxTzBaU2lVTG5hLVEycGc3UkctSThoQVJIQWFtdVFSN09CZlB0RnktY1d1ZXhOUTBUZFVvQ3FJQ054aVJoSmtjTkRNQ1pVdndzQTEwS0k3VzNrNWNlRy1YNTk5b28wZXNYY3FUYVNTdHdfbUlCRlpxbHFQSE41U1N5cVdFdzc1TlFNSE1GWFJ2UklSWldQbUxLWdIB5gFBVV95cUxOOFV3Tktsb3gzaVhXcmV2TkZnaXVWX1JuRllxZ25NUVdTN0xaekpGOHJSMXFOQTFOMVphWTNKOThjLWtILV9TM3Y5OV9kaU1MOHRGaThPUEZPMWdZcVcydm1QTjFna1VYNEtuWjEtd201YVFXZ2M2WGM5UHpzUG9tMkhnY1l4TlItN2dWUlBnZlR2QXZuS2N3SDRVVjRFZEpEOHFGTVFMbWpTdUt4Y2lnaFBiUHBsQzBTSmdMMEowTWJlNndENldtYjRPMXlwdFZEdEhHLXFzZWhEdjE5QnZLV3RibVVlQQ?oc=5",
     "source": "gnews_futures",
     "published_utc": "2026-10-09T09:04:30+00:00",
-    "score": 10.69,
+    "score": 10.65,
     "duplicates": 1
    },
    {
@@ -2693,7 +2709,7 @@
     "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNN3VOQTZ2YXpfS0lBcDhCVDNTOXRvUEVmWDNJTC1nTF91Wnk3Ym5QRkJaUjBnRl9HVVN4cTZWYkZBWXQ2UXJudWtJZ3ZUN2M0Yk8zYzVYdjB4SFh1R2JtbFk4QXRDMW45NXV1ZGtQaTE4dGtjdWFqZlJXa2p4elpLSk94Z2RnZUxFTklGWW1hcm5GcXM1eWE3RG5tWnhHdjJKdXlBcGdSeEExbFNsR1Z3?oc=5",
     "source": "gnews_macro",
     "published_utc": "2026-10-09T09:35:57+00:00",
-    "score": 9.28,
+    "score": 9.24,
     "duplicates": 4
    },
    {
@@ -2729,7 +2745,7 @@
     "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxOYnlMdGxhRTl3MS1wNTB3elp0dlF4UFExNjktYVJjaU1JTjlFX0w4X2xmalNJQktGWTNnc3dHUDhaRzZBb3MzZDRRMmc2ZFZTQ1NlaE4xd0RFX0VVQUR4YlRmNmpaMXNEZHdGalZod0ZfOFp1UzZULXZMUG1qZlVVRGkwQXdZQ3RuSWdabW1ocjdUTng5NHEzS29XRVVlc2FObDgxSzVpUWsyb245MU12QnRkMGdETFZQVnJNWU5jMW83bzZ1Ny04UkFsTGJ3WFl0?oc=5",
     "source": "gnews_macro",
     "published_utc": "2026-10-09T10:33:18+00:00",
-    "score": 7.94,
+    "score": 7.9,
     "duplicates": 1
    },
    {
@@ -2738,7 +2754,7 @@
     "link": "https://www.cnbc.com/2026/10/09/delta-air-lines-dal-q3-2026-earnings.html",
     "source": "cnbc_markets",
     "published_utc": "2026-10-09T10:47:40+00:00",
-    "score": 7.48,
+    "score": 7.44,
     "duplicates": 0
    },
    {
@@ -2747,7 +2763,7 @@
     "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPR2Zod2VqOVZfdE9ZODU5cnJXeWE0eTRNRE41ekdqTjdpNEVYQmRIZVd0OENWcGNDRmhlemdmR1JNY0I2R2RTb3Q5ODJZcmdJb0Jqdk5LNXk3dllXRUNhRHJXTGN2NDYtRmFRUnA2cFhHbjNtSFZDRHRZQ3FKZXRVZ3dfMlBNamJzTzFxR3lvRUFCLUdWSnc?oc=5",
     "source": "gnews_megacap",
     "published_utc": "2026-10-09T10:38:08+00:00",
-    "score": 7.45,
+    "score": 7.41,
     "duplicates": 0
    },
    {
@@ -2760,12 +2776,21 @@
     "duplicates": 0
    },
    {
+    "id": "015fdb68e4",
+    "title": "US Stock Market Today: S&P 500 Futures Dip As Higher Inflation Expectations Lift Rate Fears - Yahoo Finance",
+    "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNdkNYUU1HWk92bm9kZ1poSTNWR0dNcXVfMUZGMDBIR2ZLa0RhclhRd0pGSVZOME5TVHluUU5aZzJodlZWZW5MUW1wQ1gzT2dzVndpWEpoeVE2TmR1RndISDZzLXBEVFBZS3VDSXJsYjgwYktwcXd5cXRHSGFWcGFuMDNPZ2F6YVI4ODRRcUwwamRjQQ?oc=5",
+    "source": "gnews_futures",
+    "published_utc": "2026-10-09T08:11:18+00:00",
+    "score": 7.0,
+    "duplicates": 0
+   },
+   {
     "id": "3a7ab91e13",
     "title": "Silver Rebounds Above $60 as Softer Inflation Tempers Fed - TradingPedia",
     "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxOLThQM1ZTZUdjb0VORkJRVVR0Q1pWdUMwWDJkNVY5a0VQVTVnSGp5WGp1LXp6eDRKV2RJV2thVHpiZHdkQkpCRDZ4OWJBVGhpRkM4MXJqR3hwWnNnQTlCc1BQc1JYUG5aUzhpbTRhMXpEY3pPMG5pRUJUSUdsRU43Rlh6MEx5VDllSC1MYkFwUmlEY1VEblpxZkVEYU5oZw?oc=5",
     "source": "gnews_macro",
     "published_utc": "2026-10-09T07:52:45+00:00",
-    "score": 6.99,
+    "score": 6.95,
     "duplicates": 0
    },
    {
@@ -2774,29 +2799,24 @@
     "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOeDlDak9ENlFQamlMWHd5TnFjXzFmTTV0bWRQTjJmbkJqRTFhSUlMWnhIUW5kLTBjZDhpNUhiT1daMUZfQkw4NkZzQkpadWNxei1jdWNSTEVTbDVjYVoxM2JZbTNQYTRTRHNDams4bnd0LXc1RnQ1Sl9seG1xTkRPU0RnOTZXR2NzZ0dyWkx5YlV1OTZFbVZEb1lMaTQ4Q0NjVlF2Y3lqT0o0NVgyNWs5TGJKRld5LW8?oc=5",
     "source": "gnews_futures",
     "published_utc": "2026-10-09T10:32:04+00:00",
-    "score": 6.93,
-    "duplicates": 0
-   },
-   {
-    "id": "3a12f8528d",
-    "title": "Gold rises on softer dollar, easing yields; Fed outlook in focus - CNBC",
-    "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPeXpwdHFDS2pPOFFDTjJvWlpvMGtNVlEzVlY2WF94Yk5IMFFrT2N0cUs5dVVzS1pqVjB0MjYwVHVoclFWVHZjMU40UzJpY3hMc1NhM0t5LWNSQ0w0SU96dGdId0ZqYnI3T0VrN2lmdHJlNW9rNGxrY2hhbHZVZV9tWTBSUnRsQ1g1MFJQMVFLSXJBZFpGVlZPVzFQU28xUTg50gGmAUFVX3lxTE5lODhsb205Z0tmRGkwUEY4amlKdEI1LTJFZjBJY1N6OThLX1loQU8yTGI0WS1idmszcHRHdXBiN011TFg0WDZRV1FkMFVEZ1NhOUdHTENFQlNUYlE3VHRsaVgycnEwbThxel9JTXdib3JYUG5RMS1kY3hWZFM2Rzl3TWh4eThnR1BTWFdtbG5XYVhhZklkTE85bW1IRmFxTGtSak1jUHc?oc=5",
-    "source": "gnews_fed",
-    "published_utc": "2026-10-09T03:27:00+00:00",
-    "score": 6.75,
+    "score": 6.89,
     "duplicates": 0
    }
   ],
   "summary": {
    "lines": [
-    "Fed officials remain hawkish on inflation while signaling room to wait on hikes, with S&P 500 futures easing ahead of the 10:00 ET UoM inflation expectations read (prior 4.6%) [b645825752][f0858eabfd]."
+    "US Stock Market Today: S&P 500 Futures Ease On Rising Inflation Expectations And Fed Hawkishness - Simply Wall Street [b645825752]",
+    "Fed grows more hawkish on inflation but sees room to wait on rate hikes - WBFF [f0858eabfd]",
+    "Inflation on many everyday items was entirely due to tariffs, NY Fed says [7ba5c8b4a7]",
+    "Tariffs added 2.9 percentage points to goods inflation, New York Fed finds - InvestmentNews [4616ee6c81]",
+    "Fed Data Shows Tariffs Drove Inflation in 2025 - PYMNTS.com [6f9680d418]"
    ],
    "backend": "anthropic",
    "model": "claude-sonnet-5",
-   "dropped": [
-    "ungrounded number(s) ['4616']: New York Fed research shows tariffs added 2.9 percentage points to inflation across 67 categories of goods by February 2026, a data point likely to feed CPI/inflation-path debate [7ba5c8b4a7][4616ee"
-   ],
-   "warnings": []
+   "dropped": [],
+   "warnings": [
+    "summariser produced no valid lines; showing digest"
+   ]
   },
   "feeds": [],
   "warnings": []
