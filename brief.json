@@ -1,7 +1,7 @@
 {
  "meta": {
-  "generated_at_utc": "2026-10-19T12:57:14.993987+00:00",
-  "generated_at_local": "Mon 19 Oct 2026 09:57 ADT",
+  "generated_at_utc": "2026-10-19T13:12:29.558321+00:00",
+  "generated_at_local": "Mon 19 Oct 2026 10:12 ADT",
   "trading_day": "2026-10-19",
   "display_tz": "America/Halifax",
   "version": "0.1.0",
@@ -20,10 +20,10 @@
   {
    "root": "ES",
    "trading_day": "2026-10-19",
-   "as_of_utc": "2026-10-19T12:57:14.993987+00:00",
+   "as_of_utc": "2026-10-19T13:12:29.558321+00:00",
    "source": "yahoo",
    "delayed": true,
-   "last_price": 7738.25,
+   "last_price": 7740.25,
    "levels": [
     {
      "tag": "pwh",
@@ -65,7 +65,7 @@
      "label": "Overnight high",
      "price": 7768.5,
      "group": "overnight",
-     "note": "since 18:00 ET, 877 bars"
+     "note": "since 18:00 ET, 892 bars"
     },
     {
      "tag": "wh",
@@ -91,7 +91,7 @@
     {
      "tag": "onvwap",
      "label": "Overnight VWAP",
-     "price": 7747.02,
+     "price": 7746.76,
      "group": "overnight",
      "note": "typical-price VWAP"
     },
@@ -167,14 +167,14 @@
     }
    ],
    "stats": {
-    "last_bar_utc": "2026-10-19T12:47:00+00:00",
-    "last_bar_age_min": 10.2,
+    "last_bar_utc": "2026-10-19T13:02:00+00:00",
+    "last_bar_age_min": 10.5,
     "market_state": "open",
     "profile_volume": 1954355.0,
     "prior_day": "2026-10-16",
     "prior_day_rth_range": 127.25,
     "overnight_range": 50.0,
-    "gap_vs_prior_close": 35.25,
+    "gap_vs_prior_close": 37.25,
     "gap_basis": "last price (pre-market)",
     "atr14": 78.62,
     "atr_days": 14,
@@ -1395,19 +1395,27 @@
      "t": "2026-10-19T12:45:00+00:00",
      "o": 7738.5,
      "h": 7739.5,
+     "l": 7735.5,
+     "c": 7737.25,
+     "v": 6678.0
+    },
+    {
+     "t": "2026-10-19T13:00:00+00:00",
+     "o": 7737.5,
+     "h": 7741.0,
      "l": 7736.25,
-     "c": 7738.25,
-     "v": 944.0
+     "c": 7740.25,
+     "v": 1923.0
     }
    ]
   },
   {
    "root": "NQ",
    "trading_day": "2026-10-19",
-   "as_of_utc": "2026-10-19T12:57:14.993987+00:00",
+   "as_of_utc": "2026-10-19T13:12:29.558321+00:00",
    "source": "yahoo",
    "delayed": true,
-   "last_price": 29749.5,
+   "last_price": 29766.75,
    "levels": [
     {
      "tag": "pwh",
@@ -1456,7 +1464,7 @@
      "label": "Overnight high",
      "price": 29813.5,
      "group": "overnight",
-     "note": "since 18:00 ET, 877 bars"
+     "note": "since 18:00 ET, 892 bars"
     },
     {
      "tag": "wh",
@@ -1473,8 +1481,8 @@
      "note": ""
     },
     {
-     "tag": "rn_minor_up",
-     "label": "Round 50 above",
+     "tag": "rn_minor_dn",
+     "label": "Round 50 below",
      "price": 29750.0,
      "group": "round",
      "note": ""
@@ -1482,7 +1490,7 @@
     {
      "tag": "onvwap",
      "label": "Overnight VWAP",
-     "price": 29704.77,
+     "price": 29705.69,
      "group": "overnight",
      "note": "typical-price VWAP"
     },
@@ -1551,14 +1559,14 @@
     }
    ],
    "stats": {
-    "last_bar_utc": "2026-10-19T12:47:00+00:00",
-    "last_bar_age_min": 10.2,
+    "last_bar_utc": "2026-10-19T13:02:00+00:00",
+    "last_bar_age_min": 10.5,
     "market_state": "open",
     "profile_volume": 633168.0,
     "prior_day": "2026-10-16",
     "prior_day_rth_range": 777.0,
     "overnight_range": 312.25,
-    "gap_vs_prior_close": 370.0,
+    "gap_vs_prior_close": 387.25,
     "gap_basis": "last price (pre-market)",
     "atr14": 505.82,
     "atr_days": 14,
@@ -2778,10 +2786,18 @@
     {
      "t": "2026-10-19T12:45:00+00:00",
      "o": 29752.5,
-     "h": 29756.5,
-     "l": 29741.0,
-     "c": 29749.5,
-     "v": 676.0
+     "h": 29764.0,
+     "l": 29739.5,
+     "c": 29748.0,
+     "v": 2656.0
+    },
+    {
+     "t": "2026-10-19T13:00:00+00:00",
+     "o": 29749.0,
+     "h": 29769.75,
+     "l": 29743.0,
+     "c": 29766.75,
+     "v": 855.0
     }
    ]
   }
@@ -2794,7 +2810,7 @@
     "link": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxNWE9pbGF1ampDaGprcjNYVUJXQTBGS0NtYVMwWWg3Q2lESnpMaTdtSnROT0pNME14TXN3eTc5eXg2LUktejJ1TlFIOWwtSllMd0pkRVM5enh2dWpqLW5Hel9kbmhfRVMyTEEyclhyLVVMaXh5ei1KbC1jcUs4RXFDSFJYNTFrZWhrSHUtajE2bXQ0a3RxUk1zUXFsdTFmUldDbmNWN3ZLanR1QXZyVTBIeDVGVzNpdmsyaVNDSDhHSFpORW9WdWVLQ3liODY2NEEydzJhY0FuQ1hYN2c0LWtlN1NTQTNLTnFRRmd6VdIB8gFBVV95cUxNR0lnbDRYRDJsSG1YQUFNeVRLLUl1M29pM2NBZ2FSWHJvTUk4RVkydkh5UmdJdWJSN1J2eFlkRkNZYVJiY3ZwOTlKN0llUmUzRWhaQW4tTFFIanRjenFIQlZlaVFYeVNlNGhXcGk4LUpJVkhaNm1uNmprQ1dFTVFQOXdHaGEtWUlnOGpiSV9wTWxnaENFbVIxajUyOHlyZXBTam0ydVhuemZ4cGRueWE5OTMwamthUzlieFloVi1TQzNueXNWUHBmQW42Qy1YeHl6d1kzekJOaFZieTBzcFc2QVBhaHFHZF8wQm16aXRNSzhsZw?oc=5",
     "source": "gnews_futures",
     "published_utc": "2026-10-19T11:43:51+00:00",
-    "score": 10.3,
+    "score": 10.25,
     "duplicates": 1
    },
    {
@@ -2803,8 +2819,17 @@
     "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOUnZSNzJZS2NlWi1Hckg0djB1aGQ3bEkzVTB4ejBTQWRoQ0JTOWJBa1U4Z1EyWFZSa0ZmSDlIcmx5MFEwQmhCeFE2MEs4ZEdMSThwczNORG03QTY4MU9xR3pXWmRtNmdMc3BRZ0F4U1FudlhIdXpwVHVQUXUxMU44NHhhRVZyTmNDVk1MLXBsOHBIV2Q3VU9oTE1sa2JET0c5b3p5ZUJHeTBrQlJKaTRnS284ZGVhUUlwekJKalp5dmsyRmdzU25QRQ?oc=5",
     "source": "gnews_futures",
     "published_utc": "2026-10-19T03:08:00+00:00",
-    "score": 9.36,
+    "score": 9.32,
     "duplicates": 1
+   },
+   {
+    "id": "8b03085e22",
+    "title": "Bitcoin (BTC), Asian Equities, Nasdaq Futures Rise After China GDP Exceeds Growth Forecasts - Crowdfund Insider",
+    "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxOOXhMR3gxNzlnU2otOXdIWFV2c1pBNHJkcExXVkgwOFNxZ0Z0QXdVSXJaYWNOekFRMl9UZy0xNFI1S0VTbmdvNjlnamZveWNnTDBUYVNkbkhrS19xbWwtQWpQalhjZzl1X3BndTNlTUFoMXVSSHpad3FlSnNiSGNTeFpFdnVQc0dyQ1VfMG4ybTVaY3VpZ2xFd3IwR2ptb2t1VG93eFBqWnRWMGZFWmthbzFCekxqUlBLazBaNE9IakIyX0E4TEZDM0Q4VHowckZFeHc?oc=5",
+    "source": "gnews_futures",
+    "published_utc": "2026-10-19T12:59:00+00:00",
+    "score": 8.96,
+    "duplicates": 0
    },
    {
     "id": "c59038c9b5",
@@ -2812,16 +2837,16 @@
     "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxOczVGWjYta1ZwTjhGUUI3bVdMMmxxNGp1Nng0MmRhSlpBd29YaHYzcjlPV3UzUXlwZHBGTDR2eHdQa29LZ251OEs0NzQ3SWRyYWN0M1FGQWZ1WXphYlRGRXBuTGwySEVNZVBOTWxHQTYyMTRCWi1FeWJrMnlaMGJmRGRtQ3pqa2NQYlFDWmhOZDlNZFRQaWpwNkNtRHVfNlB5T2RTb1F3SGx6c1BlMjNWWVBWZjc1Um1WYTM4TDNWU3M5dFlGcUN6eFpoYw?oc=5",
     "source": "gnews_futures",
     "published_utc": "2026-10-19T10:26:33+00:00",
-    "score": 8.58,
+    "score": 8.54,
     "duplicates": 0
    },
    {
-    "id": "29708ea133",
-    "title": "US Equity Investors to Monitor Meta Platform, Tesla's Earnings While Watching Treasury Yields Alongside Crude Oil This Week - marketscreener.com",
-    "link": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxQMW8xY29CaWIzVUxYLU9WLXA1SzZvR293Q09uMGl5Um0wcGRka2xTZFgteTEtRFlDNjgxV1c0Z2hoWHpDZVdwVW1iZEFhTkFFclFIbkFqMW1wT2gxelgyeHNNTGMtYnh3NnVadDFhbmNxM3lzNGdyQmhEMzM1UVRYRmFncXpQRHhZakczTzBUZW41a21MYU1SZnJ5cnlzNlVUWGFXQ3FsN25SRlN3aW1DQjJPcEllWGRJRWFSZXJfV2g2a1N1S08xLW16UHFWalQ2WmNNTnd4UVRVQ2NJcjZIYU5pUlpQVTg?oc=5",
+    "id": "576d3fd707",
+    "title": "US Equity Investors to Monitor Meta Platform, Tesla's Earnings While Watching Treasury Yields Alongside Crude Oil This Week - Yahoo Finance",
+    "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxOUmdyVjhRZ0J4dHM0aEJ1WEljUzZUZzRoRm44RFNaRktFaFFMTlhqcTk5cDBZTk5ySHVyQmNXZWpVdkpMSGVySUtJWTl5angyc29CNUI2dTRJWFBCWk5pLVlXRmZpbnVoQ1F2bGw2bHNDWFN1VkdiS3VLZ1diLURvbXRycG9XR19va0JOc3F3VkVOVmIxZWhsd2R6c3lmdw?oc=5",
     "source": "gnews_megacap",
-    "published_utc": "2026-10-19T10:17:06+00:00",
-    "score": 8.56,
+    "published_utc": "2026-10-19T10:14:27+00:00",
+    "score": 8.51,
     "duplicates": 2
    },
    {
@@ -2830,7 +2855,7 @@
     "link": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxPWXpMMWdoNEk1WVAwWG1QS3M2NzdPaWt6dzBFbWFwSVJ1TV90cG40THgxZWNGSjdXQ29sbWNEWGNBbHE4U09hR25qRzF4ZEJ4NGJZSFc2RFJzaXdOZTdCMlg0dTFFU1Yza2hpWS1pRWtnRGp4THBVS2RkRUF2bDhUWkg2ME5ZODBrNjhvb2RTa1hOTTA4czFKMHgxUV9JTE13Um5nSkh3TFBia1RUX1lMb0NyZkdnRGoxLW9RSnFyVnJCS0g4Ykp3U1ZFLXNGZG9DSnpfZ1dSVU1XRk0?oc=5",
     "source": "gnews_futures",
     "published_utc": "2026-10-19T12:44:28+00:00",
-    "score": 8.46,
+    "score": 8.42,
     "duplicates": 0
    },
    {
@@ -2839,7 +2864,16 @@
     "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQLTRPTWwwc2llbW04UHFDeWczMENhU2kyZ1I5RTdhdEEzR1FBWG1FSGFQZmFaMTRLcUNUc0k1aVVTTFBrSl9oWVAzS3lDWUs2WUFpa01EVHlGb2VDM08tUDMweFdjZllJa0ozQUlKM09iZTQybnY3QjBqb1FCeXh0UFhVRWFwMlVZX19nOGFmQkRnZXNPVmVPclBCNWFZZXhjTnEwT3d4MFVTem5FQ0dEd0VEckY3eXdWU3ZiRkVxRjc1eTY2VUZZ0gHMAUFVX3lxTE8yYTRfM2JtWlBIX0lEcnlrVkItVGM2RzNNSlIxZFZvQjFpajBZdDd1WHd1M3RLUlQzZVROVHpJaW5nUnFMT1Z4SjhFYUo5QldNY2ttUi01U0VTQ1ctSEhUb2pOdUt2ZV9LazFKUmlwWkpaN18xWm9QX1FnQWlSWWlpVW9ETWpQOE5yekRqSEQzMGFKcVg4M0RkOVpvT0M3clF3T2MtZXFhNVdZTTFoSEpvQU1KaW1NVHBWR2s5dVBHaVVMMkZhbTBTc0hCag?oc=5",
     "source": "gnews_futures",
     "published_utc": "2026-10-19T09:00:27+00:00",
-    "score": 8.34,
+    "score": 8.3,
+    "duplicates": 3
+   },
+   {
+    "id": "7db9d7de50",
+    "title": "S&P 500, Nasdaq futures rise as AI stocks rebound ahead of key earnings - Reuters",
+    "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPX21SVVhfUjZRQ255YlFzVWVEZ3BFMmt3aWlDdkVPVENFOExuRE9KOXZ6WjNqbzdHelUwdzZudy02TjlyNkxVZWcxQmFzZF9NaUE0SFZYaWI3dmxlYTBVdjdULWhLMkNQNnlMUXFaM1J5T1dPMEo3ajhkb0RQLUM3M0pkYlFqbHNKQ1U1c3k5WlUtdjR1UkNCV0JkdjJZTzdIa2c?oc=5",
+    "source": "gnews_futures",
+    "published_utc": "2026-10-19T11:41:00+00:00",
+    "score": 8.25,
     "duplicates": 3
    },
    {
@@ -2848,7 +2882,7 @@
     "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQbWZLVGpmVmN6M1o1UUJnRXhSMmVWdjY2Mm4tR0IyeXk0OHZzOVRPamx6eEdEVjhEUHVXMlkzeFhoWkg4Qnl0a3lYQ0xJdWNzVHcydDA0NFdVb0ctbEVoMExGek50RHoxWF9TRThVMXRENDhWV2RUbVRGOVhvOEtoTmlTS1NlZGk0UldmSEY4N0tRVVRBeWc5SmJqRGlaVWwzeHRPa1hHZDNHZ3UxUjhwZHBGQXo0YlIw?oc=5",
     "source": "gnews_macro",
     "published_utc": "2026-10-19T11:35:47+00:00",
-    "score": 8.27,
+    "score": 8.23,
     "duplicates": 0
    },
    {
@@ -2857,17 +2891,8 @@
     "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQUUQwcE0zZHpXTGlsM2NneFBaNEE1RVN3eFJBbHZhYUZQQ3Vpem5jQnJSbm1QeUVVbF9MZ0dDRDVmOGV2Sl9ua01BUVZRT19JTE41SWdOTzFRZ3p6Ry1WbldDem5RMlBxMl9wRUhYUzE0dVh2SVZ4SjRCdGE2LXp1TkQ0b1ZkOWUzR1k2SDJwcjdpTFFjWlBQSmdsejdySFktcEJiMkxtNA?oc=5",
     "source": "gnews_macro",
     "published_utc": "2026-10-19T06:24:41+00:00",
-    "score": 7.91,
+    "score": 7.87,
     "duplicates": 0
-   },
-   {
-    "id": "99be2a32f3",
-    "title": "S&P 500, Nasdaq futures rise as AI stocks rebound ahead of key earnings - Yahoo Finance",
-    "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNa1dPVUpMX284bG5SR2tYTE5ydE5DYkFBUzI1ZGoyTEJkSnNsZU9ISHd5YVlnbEZEMWNaVVBhT2QxaVN2UEQ2SFRjUEVMUDgteTV4ZWxTUlRwMWtTckhWT2dZSThiU3ZkSE4tSVFnUUsxME9ZdTZLYngxRTYyaG9rbzJoVGwwN0NHVjVCQUlLMTcybktG?oc=5",
-    "source": "gnews_futures",
-    "published_utc": "2026-10-19T11:38:05+00:00",
-    "score": 7.78,
-    "duplicates": 2
    },
    {
     "id": "a0599b6282",
@@ -2875,7 +2900,7 @@
     "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPZHpEaU41QjNNRWc0X3NnNG9DeHpxTUVFUl9VSUYtYUVlQW53c2d1ZHBNdlJhNm8yQlo0bEsxbGJWZU5OUkgxdmh2cWJ3bHB0MnI5M2RnYVAxX3JDemtBS1hwaWtDOG9YRFVMTDZqSjN4V3BrOXRNMXpKZnYyTVplV0F4YS1PbnpndDRwelBNSmpjZ0daRVVNb1lkTmktOUg3RTdj?oc=5",
     "source": "gnews_macro",
     "published_utc": "2026-10-19T07:56:39+00:00",
-    "score": 7.67,
+    "score": 7.62,
     "duplicates": 0
    },
    {
@@ -2884,16 +2909,7 @@
     "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNd3JNeEZ0MHY4aWY1UG5vMTNoYWU2bFphT0ZhVzlWUDMxenlsZTBPNGszMjltNlUzS0gtSDhZVV9sVG5pa2gwT3ZzanZoaWlxOUlHMjVLOWFuUmdEN2JPckZSbEpfNWhFOUwwNExOT1JsTzJSeWhURGQxczBIdG84SzJ1b1hjbmJ5dXhUX3pSVEFJMXlwOXdldExIRmVWVjlHMUxoZU41TVpDY2QwYVVZZ3RseXBpTmpQQ0cxZzVVaThOdEQ5?oc=5",
     "source": "gnews_futures",
     "published_utc": "2026-10-19T12:18:00+00:00",
-    "score": 7.39,
-    "duplicates": 0
-   },
-   {
-    "id": "37b79a98cc",
-    "title": "Another interest rate hike may be ahead as Fed battles inflation - Scripps News",
-    "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNb1pRMkZ5enloc1RYakVYRElhTmZxd09BbXFpT1Nscy16bmVhMVl2NmZiZm1IOGJiZU5SX1lERlV6aDNaWFEwQV9ER2JFdDhuU2dKcWJ2NFEwMVh3Y1k4bjBFUkVQN1J2ejNTUDdwbU5ZaUw1Ymt4eER6eWxyWVQzV21la2JLUzJMTGU5dHhlaUZrcGZmOUxzWFdOZktVWmRHaEI3S3MxV3UwbVVCS2c?oc=5",
-    "source": "gnews_fed",
-    "published_utc": "2026-10-19T11:57:04+00:00",
-    "score": 7.33,
+    "score": 7.35,
     "duplicates": 0
    }
   ],
@@ -2901,9 +2917,9 @@
    "lines": [
     "Nasdaq futures rise over 1% as yields fall; Nvidia, Broadcom, other AI shares rebound - Moneycontrol.com [52db498774]",
     "Dow Jones Futures Rebound After AI Sell-Off; Meta, SpaceX, Tesla Earnings Key - Investor's Business Daily [e6429f7770]",
+    "Bitcoin (BTC), Asian Equities, Nasdaq Futures Rise After China GDP Exceeds Growth Forecasts - Crowdfund Insider [8b03085e22]",
     "DeFi tokens lead crypto higher as Nasdaq futures rebound and China GDP beats estimates - CoinDesk [c59038c9b5]",
-    "US Equity Investors to Monitor Meta Platform, Tesla's Earnings While Watching Treasury Yields Alongside Crude Oil This Week - marketscreener.com [29708ea133]",
-    "Chip Stocks Lift Nasdaq Futures As CoreWeave, Intel, Micron Rally Up To Over 6% Ahead Of Tech Earnings - NDTV Profit [bae850ec52]"
+    "US Equity Investors to Monitor Meta Platform, Tesla's Earnings While Watching Treasury Yields Alongside Crude Oil This Week - Yahoo Finance [576d3fd707]"
    ],
    "backend": "none",
    "model": null,
