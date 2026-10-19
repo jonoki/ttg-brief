@@ -1,11 +1,11 @@
 {
  "meta": {
-  "generated_at_utc": "2026-10-19T16:00:11.556127+00:00",
-  "generated_at_local": "Mon 19 Oct 2026 13:00 ADT",
+  "generated_at_utc": "2026-10-19T20:05:01.061530+00:00",
+  "generated_at_local": "Mon 19 Oct 2026 17:05 ADT",
   "trading_day": "2026-10-19",
   "display_tz": "America/Halifax",
   "version": "0.1.0",
-  "run": "intraday",
+  "run": "post-close",
   "variant": "public"
  },
  "calendar": {
@@ -20,10 +20,10 @@
   {
    "root": "ES",
    "trading_day": "2026-10-19",
-   "as_of_utc": "2026-10-19T16:00:11.556127+00:00",
+   "as_of_utc": "2026-10-19T20:05:01.061530+00:00",
    "source": "yahoo",
    "delayed": true,
-   "last_price": 7767.75,
+   "last_price": 7740.0,
    "levels": [
     {
      "tag": "pwh",
@@ -54,13 +54,6 @@
      "note": "2026-10-16"
     },
     {
-     "tag": "rn_major_up",
-     "label": "Round 50 above",
-     "price": 7800.0,
-     "group": "round",
-     "note": ""
-    },
-    {
      "tag": "exp_hi",
      "label": "Expected-range high (close + ATR)",
      "price": 7781.62,
@@ -68,18 +61,11 @@
      "note": "ATR over 14 days"
     },
     {
-     "tag": "rn_minor_up",
-     "label": "Round 25 above",
-     "price": 7775.0,
-     "group": "round",
-     "note": ""
-    },
-    {
      "tag": "tdh",
      "label": "Today's RTH high",
      "price": 7773.25,
      "group": "today",
-     "note": "so far"
+     "note": "session complete"
     },
     {
      "tag": "wh",
@@ -103,8 +89,8 @@
      "note": "70 % value area"
     },
     {
-     "tag": "rn_major_dn",
-     "label": "Round 50 below",
+     "tag": "rn_major_up",
+     "label": "Round 50 above",
      "price": 7750.0,
      "group": "round",
      "note": ""
@@ -124,10 +110,24 @@
      "note": "09:30 bar open"
     },
     {
+     "tag": "tdc",
+     "label": "Today's RTH close (16:00 bar)",
+     "price": 7740.0,
+     "group": "today",
+     "note": "becomes next session's prior-day close"
+    },
+    {
      "tag": "tdl",
      "label": "Today's RTH low",
      "price": 7727.5,
      "group": "today",
+     "note": ""
+    },
+    {
+     "tag": "rn_minor_dn",
+     "label": "Round 25 below",
+     "price": 7725.0,
+     "group": "round",
      "note": ""
     },
     {
@@ -159,6 +159,13 @@
      "note": "2026-10-16 RTH, bin 0.25"
     },
     {
+     "tag": "rn_major_dn",
+     "label": "Round 50 below",
+     "price": 7700.0,
+     "group": "round",
+     "note": ""
+    },
+    {
      "tag": "pdl",
      "label": "Prior-day low (RTH)",
      "price": 7676.0,
@@ -188,8 +195,8 @@
     }
    ],
    "stats": {
-    "last_bar_utc": "2026-10-19T15:50:00+00:00",
-    "last_bar_age_min": 10.2,
+    "last_bar_utc": "2026-10-19T19:55:00+00:00",
+    "last_bar_age_min": 10.0,
     "market_state": "open",
     "profile_volume": 1954355.0,
     "prior_day": "2026-10-16",
@@ -1512,19 +1519,147 @@
      "t": "2026-10-19T15:45:00+00:00",
      "o": 7768.5,
      "h": 7769.25,
-     "l": 7764.0,
-     "c": 7767.75,
-     "v": 11059.0
+     "l": 7762.25,
+     "c": 7763.25,
+     "v": 42359.0
+    },
+    {
+     "t": "2026-10-19T16:00:00+00:00",
+     "o": 7763.5,
+     "h": 7763.75,
+     "l": 7746.75,
+     "c": 7755.0,
+     "v": 63679.0
+    },
+    {
+     "t": "2026-10-19T16:15:00+00:00",
+     "o": 7754.75,
+     "h": 7757.0,
+     "l": 7747.75,
+     "c": 7751.0,
+     "v": 34705.0
+    },
+    {
+     "t": "2026-10-19T16:30:00+00:00",
+     "o": 7751.25,
+     "h": 7751.75,
+     "l": 7745.5,
+     "c": 7750.75,
+     "v": 40462.0
+    },
+    {
+     "t": "2026-10-19T16:45:00+00:00",
+     "o": 7750.5,
+     "h": 7751.0,
+     "l": 7742.75,
+     "c": 7743.5,
+     "v": 30170.0
+    },
+    {
+     "t": "2026-10-19T17:00:00+00:00",
+     "o": 7743.75,
+     "h": 7745.25,
+     "l": 7738.75,
+     "c": 7743.25,
+     "v": 38137.0
+    },
+    {
+     "t": "2026-10-19T17:15:00+00:00",
+     "o": 7743.0,
+     "h": 7746.25,
+     "l": 7739.25,
+     "c": 7742.25,
+     "v": 29487.0
+    },
+    {
+     "t": "2026-10-19T17:30:00+00:00",
+     "o": 7742.25,
+     "h": 7746.5,
+     "l": 7738.5,
+     "c": 7741.75,
+     "v": 36707.0
+    },
+    {
+     "t": "2026-10-19T17:45:00+00:00",
+     "o": 7741.75,
+     "h": 7745.75,
+     "l": 7735.5,
+     "c": 7744.75,
+     "v": 43387.0
+    },
+    {
+     "t": "2026-10-19T18:00:00+00:00",
+     "o": 7745.0,
+     "h": 7747.75,
+     "l": 7737.5,
+     "c": 7746.0,
+     "v": 35758.0
+    },
+    {
+     "t": "2026-10-19T18:15:00+00:00",
+     "o": 7746.0,
+     "h": 7748.5,
+     "l": 7737.0,
+     "c": 7741.0,
+     "v": 33019.0
+    },
+    {
+     "t": "2026-10-19T18:30:00+00:00",
+     "o": 7740.75,
+     "h": 7744.0,
+     "l": 7735.5,
+     "c": 7744.0,
+     "v": 29500.0
+    },
+    {
+     "t": "2026-10-19T18:45:00+00:00",
+     "o": 7744.0,
+     "h": 7747.75,
+     "l": 7741.25,
+     "c": 7744.25,
+     "v": 28282.0
+    },
+    {
+     "t": "2026-10-19T19:00:00+00:00",
+     "o": 7744.75,
+     "h": 7749.25,
+     "l": 7742.75,
+     "c": 7746.25,
+     "v": 26511.0
+    },
+    {
+     "t": "2026-10-19T19:15:00+00:00",
+     "o": 7746.0,
+     "h": 7754.25,
+     "l": 7745.75,
+     "c": 7749.5,
+     "v": 32722.0
+    },
+    {
+     "t": "2026-10-19T19:30:00+00:00",
+     "o": 7749.5,
+     "h": 7753.25,
+     "l": 7748.0,
+     "c": 7749.25,
+     "v": 30656.0
+    },
+    {
+     "t": "2026-10-19T19:45:00+00:00",
+     "o": 7749.25,
+     "h": 7749.25,
+     "l": 7735.0,
+     "c": 7740.0,
+     "v": 45147.0
     }
    ]
   },
   {
    "root": "NQ",
    "trading_day": "2026-10-19",
-   "as_of_utc": "2026-10-19T16:00:11.556127+00:00",
+   "as_of_utc": "2026-10-19T20:05:01.061530+00:00",
    "source": "yahoo",
    "delayed": true,
-   "last_price": 29958.75,
+   "last_price": 29741.0,
    "levels": [
     {
      "tag": "pwh",
@@ -1555,18 +1690,11 @@
      "note": "2026-10-16"
     },
     {
-     "tag": "rn_major_up",
-     "label": "Round 100 above",
-     "price": 30000.0,
-     "group": "round",
-     "note": ""
-    },
-    {
      "tag": "tdh",
      "label": "Today's RTH high",
      "price": 29983.5,
      "group": "today",
-     "note": "so far"
+     "note": "session complete"
     },
     {
      "tag": "wh",
@@ -1574,20 +1702,6 @@
      "price": 29983.5,
      "group": "week",
      "note": "since 2026-10-19"
-    },
-    {
-     "tag": "rn_minor_dn",
-     "label": "Round 50 below",
-     "price": 29950.0,
-     "group": "round",
-     "note": ""
-    },
-    {
-     "tag": "rn_major_dn",
-     "label": "Round 100 below",
-     "price": 29900.0,
-     "group": "round",
-     "note": ""
     },
     {
      "tag": "exp_hi",
@@ -1611,6 +1725,13 @@
      "note": "since 18:00 ET, 919 bars"
     },
     {
+     "tag": "rn_major_up",
+     "label": "Round 100 above",
+     "price": 29800.0,
+     "group": "round",
+     "note": ""
+    },
+    {
      "tag": "rtho",
      "label": "Today's RTH open",
      "price": 29778.75,
@@ -1618,11 +1739,32 @@
      "note": "09:30 bar open"
     },
     {
+     "tag": "rn_minor_up",
+     "label": "Round 50 above",
+     "price": 29750.0,
+     "group": "round",
+     "note": ""
+    },
+    {
+     "tag": "tdc",
+     "label": "Today's RTH close (16:00 bar)",
+     "price": 29741.0,
+     "group": "today",
+     "note": "becomes next session's prior-day close"
+    },
+    {
      "tag": "onvwap",
      "label": "Overnight VWAP",
      "price": 29710.64,
      "group": "overnight",
      "note": "typical-price VWAP"
+    },
+    {
+     "tag": "rn_major_dn",
+     "label": "Round 100 below",
+     "price": 29700.0,
+     "group": "round",
+     "note": ""
     },
     {
      "tag": "tdl",
@@ -1689,8 +1831,8 @@
     }
    ],
    "stats": {
-    "last_bar_utc": "2026-10-19T15:50:00+00:00",
-    "last_bar_age_min": 10.2,
+    "last_bar_utc": "2026-10-19T19:55:00+00:00",
+    "last_bar_age_min": 10.0,
     "market_state": "open",
     "profile_volume": 633168.0,
     "prior_day": "2026-10-16",
@@ -3013,9 +3155,137 @@
      "t": "2026-10-19T15:45:00+00:00",
      "o": 29965.5,
      "h": 29967.5,
-     "l": 29941.0,
-     "c": 29958.75,
-     "v": 3576.0
+     "l": 29926.5,
+     "c": 29931.0,
+     "v": 13863.0
+    },
+    {
+     "t": "2026-10-19T16:00:00+00:00",
+     "o": 29931.5,
+     "h": 29933.75,
+     "l": 29861.0,
+     "c": 29895.0,
+     "v": 18031.0
+    },
+    {
+     "t": "2026-10-19T16:15:00+00:00",
+     "o": 29895.0,
+     "h": 29904.25,
+     "l": 29841.5,
+     "c": 29855.5,
+     "v": 11907.0
+    },
+    {
+     "t": "2026-10-19T16:30:00+00:00",
+     "o": 29856.25,
+     "h": 29865.5,
+     "l": 29824.25,
+     "c": 29856.25,
+     "v": 13140.0
+    },
+    {
+     "t": "2026-10-19T16:45:00+00:00",
+     "o": 29857.0,
+     "h": 29857.75,
+     "l": 29788.0,
+     "c": 29791.25,
+     "v": 10468.0
+    },
+    {
+     "t": "2026-10-19T17:00:00+00:00",
+     "o": 29792.5,
+     "h": 29806.0,
+     "l": 29763.5,
+     "c": 29789.5,
+     "v": 11085.0
+    },
+    {
+     "t": "2026-10-19T17:15:00+00:00",
+     "o": 29786.75,
+     "h": 29806.75,
+     "l": 29762.25,
+     "c": 29777.25,
+     "v": 11091.0
+    },
+    {
+     "t": "2026-10-19T17:30:00+00:00",
+     "o": 29777.25,
+     "h": 29790.75,
+     "l": 29752.0,
+     "c": 29767.75,
+     "v": 11156.0
+    },
+    {
+     "t": "2026-10-19T17:45:00+00:00",
+     "o": 29766.75,
+     "h": 29783.5,
+     "l": 29722.5,
+     "c": 29778.0,
+     "v": 13316.0
+    },
+    {
+     "t": "2026-10-19T18:00:00+00:00",
+     "o": 29778.25,
+     "h": 29787.75,
+     "l": 29728.0,
+     "c": 29765.25,
+     "v": 9791.0
+    },
+    {
+     "t": "2026-10-19T18:15:00+00:00",
+     "o": 29765.25,
+     "h": 29777.25,
+     "l": 29705.25,
+     "c": 29732.75,
+     "v": 9833.0
+    },
+    {
+     "t": "2026-10-19T18:30:00+00:00",
+     "o": 29731.75,
+     "h": 29763.0,
+     "l": 29704.75,
+     "c": 29761.75,
+     "v": 8782.0
+    },
+    {
+     "t": "2026-10-19T18:45:00+00:00",
+     "o": 29761.75,
+     "h": 29785.5,
+     "l": 29752.25,
+     "c": 29767.5,
+     "v": 8929.0
+    },
+    {
+     "t": "2026-10-19T19:00:00+00:00",
+     "o": 29768.0,
+     "h": 29803.75,
+     "l": 29761.5,
+     "c": 29771.75,
+     "v": 9231.0
+    },
+    {
+     "t": "2026-10-19T19:15:00+00:00",
+     "o": 29772.0,
+     "h": 29842.5,
+     "l": 29771.0,
+     "c": 29803.75,
+     "v": 12069.0
+    },
+    {
+     "t": "2026-10-19T19:30:00+00:00",
+     "o": 29803.75,
+     "h": 29838.25,
+     "l": 29792.0,
+     "c": 29815.5,
+     "v": 9000.0
+    },
+    {
+     "t": "2026-10-19T19:45:00+00:00",
+     "o": 29815.0,
+     "h": 29816.0,
+     "l": 29718.75,
+     "c": 29741.0,
+     "v": 14195.0
     }
    ]
   }
@@ -3028,25 +3298,7 @@
     "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNYV9sc3Bycnh2SU1HdkZXcUdXd0tDRkpBbm1ESUlxNnh0UVJEM3VBZk0zV09QWXk5NXdKQWhTQmtucGhuanZLX1dhX1c4V0V3OEh5SkxPLW5rSEo5d3pUQ3Q4WFBnd3pCeXFCRkFWTGxxNVZKN2VJV1dmRkRhSFg4RURYSWJjMHhLS2ttRGZINno2M0JkTFBDRmdEOWlUZk1PUk5GaUhNWmoxYm44LWc?oc=5",
     "source": "gnews_megacap",
     "published_utc": "2026-10-19T15:30:59+00:00",
-    "score": 9.92,
-    "duplicates": 0
-   },
-   {
-    "id": "52db498774",
-    "title": "Nasdaq futures rise over 1% as yields fall; Nvidia, Broadcom, other AI shares rebound - Moneycontrol.com",
-    "link": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxNWE9pbGF1ampDaGprcjNYVUJXQTBGS0NtYVMwWWg3Q2lESnpMaTdtSnROT0pNME14TXN3eTc5eXg2LUktejJ1TlFIOWwtSllMd0pkRVM5enh2dWpqLW5Hel9kbmhfRVMyTEEyclhyLVVMaXh5ei1KbC1jcUs4RXFDSFJYNTFrZWhrSHUtajE2bXQ0a3RxUk1zUXFsdTFmUldDbmNWN3ZLanR1QXZyVTBIeDVGVzNpdmsyaVNDSDhHSFpORW9WdWVLQ3liODY2NEEydzJhY0FuQ1hYN2c0LWtlN1NTQTNLTnFRRmd6VdIB8gFBVV95cUxNR0lnbDRYRDJsSG1YQUFNeVRLLUl1M29pM2NBZ2FSWHJvTUk4RVkydkh5UmdJdWJSN1J2eFlkRkNZYVJiY3ZwOTlKN0llUmUzRWhaQW4tTFFIanRjenFIQlZlaVFYeVNlNGhXcGk4LUpJVkhaNm1uNmprQ1dFTVFQOXdHaGEtWUlnOGpiSV9wTWxnaENFbVIxajUyOHlyZXBTam0ydVhuemZ4cGRueWE5OTMwamthUzlieFloVi1TQzNueXNWUHBmQW42Qy1YeHl6d1kzekJOaFZieTBzcFc2QVBhaHFHZF8wQm16aXRNSzhsZw?oc=5",
-    "source": "gnews_futures",
-    "published_utc": "2026-10-19T11:43:51+00:00",
-    "score": 9.29,
-    "duplicates": 0
-   },
-   {
-    "id": "8b03085e22",
-    "title": "Bitcoin (BTC), Asian Equities, Nasdaq Futures Rise After China GDP Exceeds Growth Forecasts - Crowdfund Insider",
-    "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxOOXhMR3gxNzlnU2otOXdIWFV2c1pBNHJkcExXVkgwOFNxZ0Z0QXdVSXJaYWNOekFRMl9UZy0xNFI1S0VTbmdvNjlnamZveWNnTDBUYVNkbkhrS19xbWwtQWpQalhjZzl1X3BndTNlTUFoMXVSSHpad3FlSnNiSGNTeFpFdnVQc0dyQ1VfMG4ybTVaY3VpZ2xFd3IwR2ptb2t1VG93eFBqWnRWMGZFWmthbzFCekxqUlBLazBaNE9IakIyX0E4TEZDM0Q4VHowckZFeHc?oc=5",
-    "source": "gnews_futures",
-    "published_utc": "2026-10-19T12:59:00+00:00",
-    "score": 8.5,
+    "score": 9.24,
     "duplicates": 0
    },
    {
@@ -3054,9 +3306,18 @@
     "title": "Fed sees AI boom adding to inflation headache, but others may pay for the medicine - Reuters",
     "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQbWZLVGpmVmN6M1o1UUJnRXhSMmVWdjY2Mm4tR0IyeXk0OHZzOVRPamx6eEdEVjhEUHVXMlkzeFhoWkg4Qnl0a3lYQ0xJdWNzVHcydDA0NFdVb0ctbEVoMExGek50RHoxWF9TRThVMXRENDhWV2RUbVRGOVhvOEtoTmlTS1NlZGk0UldmSEY4N0tRVVRBeWc5SmJqRGlaVWwzeHRPa1hHZDNHZ3UxUjhwZHBGQXo0YlIw?oc=5",
     "source": "gnews_fed",
-    "published_utc": "2026-10-19T11:35:47+00:00",
-    "score": 8.27,
+    "published_utc": "2026-10-19T18:39:36+00:00",
+    "score": 8.76,
     "duplicates": 1
+   },
+   {
+    "id": "52db498774",
+    "title": "Nasdaq futures rise over 1% as yields fall; Nvidia, Broadcom, other AI shares rebound - Moneycontrol.com",
+    "link": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxNWE9pbGF1ampDaGprcjNYVUJXQTBGS0NtYVMwWWg3Q2lESnpMaTdtSnROT0pNME14TXN3eTc5eXg2LUktejJ1TlFIOWwtSllMd0pkRVM5enh2dWpqLW5Hel9kbmhfRVMyTEEyclhyLVVMaXh5ei1KbC1jcUs4RXFDSFJYNTFrZWhrSHUtajE2bXQ0a3RxUk1zUXFsdTFmUldDbmNWN3ZLanR1QXZyVTBIeDVGVzNpdmsyaVNDSDhHSFpORW9WdWVLQ3liODY2NEEydzJhY0FuQ1hYN2c0LWtlN1NTQTNLTnFRRmd6VdIB8gFBVV95cUxNR0lnbDRYRDJsSG1YQUFNeVRLLUl1M29pM2NBZ2FSWHJvTUk4RVkydkh5UmdJdWJSN1J2eFlkRkNZYVJiY3ZwOTlKN0llUmUzRWhaQW4tTFFIanRjenFIQlZlaVFYeVNlNGhXcGk4LUpJVkhaNm1uNmprQ1dFTVFQOXdHaGEtWUlnOGpiSV9wTWxnaENFbVIxajUyOHlyZXBTam0ydVhuemZ4cGRueWE5OTMwamthUzlieFloVi1TQzNueXNWUHBmQW42Qy1YeHl6d1kzekJOaFZieTBzcFc2QVBhaHFHZF8wQm16aXRNSzhsZw?oc=5",
+    "source": "gnews_futures",
+    "published_utc": "2026-10-19T11:43:51+00:00",
+    "score": 8.61,
+    "duplicates": 0
    },
    {
     "id": "5f68524640",
@@ -3064,7 +3325,25 @@
     "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOX29HWG9FbzJiWDhuVjRlZFZCcVRjRVRRcThQSTNFZEpOQkRvSmtTeDVwMjBYWUxpRGpGeUFGMEpFUjdpZGJWYW5BWlhmWHd2RmExU3NoenZWOUl5NnFqV0htWUZ6UDMzaW1NSmRXR2dsTlVBNWRsVU5neDBnTUU0MzF1d1c4aWZHLVdCNHlWZ3NuUzNRNEF5VTlfaVNoWDBkdll2d0dUY3NaeTREX3NwN1NDVUhybVFp?oc=5",
     "source": "gnews_macro",
     "published_utc": "2026-10-19T14:08:11+00:00",
-    "score": 8.19,
+    "score": 7.51,
+    "duplicates": 0
+   },
+   {
+    "id": "02fa93780b",
+    "title": "Micron and other chip stocks spring back to life after bruising selloff",
+    "link": "https://www.marketwatch.com/story/micron-and-other-chip-stocks-spring-back-to-life-after-bruising-selloff-16486541?mod=mw_rss_topstories",
+    "source": "marketwatch_top",
+    "published_utc": "2026-10-19T16:59:00+00:00",
+    "score": 7.48,
+    "duplicates": 0
+   },
+   {
+    "id": "8b03085e22",
+    "title": "Bitcoin (BTC), Asian Equities, Nasdaq Futures Rise After China GDP Exceeds Growth Forecasts - Crowdfund Insider",
+    "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxOOXhMR3gxNzlnU2otOXdIWFV2c1pBNHJkcExXVkgwOFNxZ0Z0QXdVSXJaYWNOekFRMl9UZy0xNFI1S0VTbmdvNjlnamZveWNnTDBUYVNkbkhrS19xbWwtQWpQalhjZzl1X3BndTNlTUFoMXVSSHpad3FlSnNiSGNTeFpFdnVQc0dyQ1VfMG4ybTVaY3VpZ2xFd3IwR2ptb2t1VG93eFBqWnRWMGZFWmthbzFCekxqUlBLazBaNE9IakIyX0E4TEZDM0Q4VHowckZFeHc?oc=5",
+    "source": "gnews_futures",
+    "published_utc": "2026-10-19T10:57:06+00:00",
+    "score": 7.48,
     "duplicates": 0
    },
    {
@@ -3073,7 +3352,7 @@
     "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxOczVGWjYta1ZwTjhGUUI3bVdMMmxxNGp1Nng0MmRhSlpBd29YaHYzcjlPV3UzUXlwZHBGTDR2eHdQa29LZ251OEs0NzQ3SWRyYWN0M1FGQWZ1WXphYlRGRXBuTGwySEVNZVBOTWxHQTYyMTRCWi1FeWJrMnlaMGJmRGRtQ3pqa2NQYlFDWmhOZDlNZFRQaWpwNkNtRHVfNlB5T2RTb1F3SGx6c1BlMjNWWVBWZjc1Um1WYTM4TDNWU3M5dFlGcUN6eFpoYw?oc=5",
     "source": "gnews_futures",
     "published_utc": "2026-10-19T10:26:33+00:00",
-    "score": 8.07,
+    "score": 7.39,
     "duplicates": 0
    },
    {
@@ -3082,8 +3361,17 @@
     "link": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxQMW8xY29CaWIzVUxYLU9WLXA1SzZvR293Q09uMGl5Um0wcGRka2xTZFgteTEtRFlDNjgxV1c0Z2hoWHpDZVdwVW1iZEFhTkFFclFIbkFqMW1wT2gxelgyeHNNTGMtYnh3NnVadDFhbmNxM3lzNGdyQmhEMzM1UVRYRmFncXpQRHhZakczTzBUZW41a21MYU1SZnJ5cnlzNlVUWGFXQ3FsN25SRlN3aW1DQjJPcEllWGRJRWFSZXJfV2g2a1N1S08xLW16UHFWalQ2WmNNTnd4UVRVQ2NJcjZIYU5pUlpQVTg?oc=5",
     "source": "gnews_megacap",
     "published_utc": "2026-10-19T10:17:06+00:00",
-    "score": 8.05,
+    "score": 7.37,
     "duplicates": 2
+   },
+   {
+    "id": "a236c9914f",
+    "title": "Could a hot PPI print signal Fed action with more inflation ahead? - Yahoo Finance",
+    "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPaGt6c2pLeW4tMjllaUV6NnAxcDltWDRPT0FrT1hpTnZVSUROVm4wWUI2UTg4WUpXQlo0OFdaLV9rMERPbzVjSDJCWjdPU1VUejF1UXhac29tWmdtcjJvbVlPWnBhVjlWSG9zRHJ1NV9TNTRKV3VIY3F5M0JpbXNCRjhRcTUzR1d0UXlkY3pFUmtXZlQtUGJzMUxRUHZ0aWJxS1lQbHZER05TeDRNaUJibk1n?oc=5",
+    "source": "gnews_macro",
+    "published_utc": "2026-10-19T17:36:09+00:00",
+    "score": 7.09,
+    "duplicates": 0
    },
    {
     "id": "86978b44df",
@@ -3091,25 +3379,7 @@
     "link": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxNcm1jajVGVGRXMnVhc0hBLUVxWWhMSE1Hdy1nS3dBTU15LW5mbGpXZGFDbWpsdF9RNVNIYkJKNDlsczROZVpsY0FmSUpzOW1rdlZhbnFXWWxDcEVJMXBndHdxQnQtNTdiaTZhMFVheWlGcUNoeFFlODBnZTRQQVJMMTdrUlVoUE5MTEYtcHdkcTdsVE9mNEs2X19sTEhqZ09TalpnUC16bHY3NXRHdk5pRDc1eWdOMmljZUV1SEg3TVZMQ01jMnVaOUxTREc2ZVZVNUNNODBPU3lJVDR1RWJDMw?oc=5",
     "source": "gnews_megacap",
     "published_utc": "2026-10-19T10:40:00+00:00",
-    "score": 7.61,
-    "duplicates": 0
-   },
-   {
-    "id": "02fa93780b",
-    "title": "Micron and other chip stocks spring back to life after bruising selloff",
-    "link": "https://www.marketwatch.com/story/micron-and-other-chip-stocks-spring-back-to-life-after-bruising-selloff-16486541?mod=mw_rss_topstories",
-    "source": "marketwatch_top",
-    "published_utc": "2026-10-19T13:22:00+00:00",
-    "score": 7.56,
-    "duplicates": 0
-   },
-   {
-    "id": "4648d9614c",
-    "title": "Middle Market Debt Weekly: Hot CPI and an AI Selloff Pin the 10-Year Near 5.1% - ABF Journal",
-    "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQUUQwcE0zZHpXTGlsM2NneFBaNEE1RVN3eFJBbHZhYUZQQ3Vpem5jQnJSbm1QeUVVbF9MZ0dDRDVmOGV2Sl9ua01BUVZRT19JTE41SWdOTzFRZ3p6Ry1WbldDem5RMlBxMl9wRUhYUzE0dVh2SVZ4SjRCdGE2LXp1TkQ0b1ZkOWUzR1k2SDJwcjdpTFFjWlBQSmdsejdySFktcEJiMkxtNA?oc=5",
-    "source": "gnews_macro",
-    "published_utc": "2026-10-19T06:24:41+00:00",
-    "score": 7.4,
+    "score": 6.93,
     "duplicates": 0
    },
    {
@@ -3118,26 +3388,26 @@
     "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxOQ0F4SzJ1N3NmdXI3M3ZwT24tSFpGcGlrTjRNYklzbzEyVjhkdTVhd2ZJVXFOeDBhVU91YTQ0and1ZXRMY2tDSGZGX0Y0OHRPTUp0cDUyWGJRbkVJcFlLal95OXU2S25RcURvS2JrLXpmaUxKUFdjZzJXVXhVQ2FhQ2pmenh5cXhzeGs3bWR5eVpFZmlUTmRFd0szb3FWdjN2VDBaWXctNjI1SGRQdUxSMjIxZ1hGNXBaWG01Wnlfc2V0WU5lcUQ5V3k0anhIdw?oc=5",
     "source": "gnews_futures",
     "published_utc": "2026-10-19T12:06:53+00:00",
-    "score": 7.35,
+    "score": 6.67,
     "duplicates": 2
    },
    {
-    "id": "59a1d8e22d",
-    "title": "US Stock Market Today: S&P 500 Futures Drop As Trade Inflation Fears Return - Simply Wall Street",
-    "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQLTRPTWwwc2llbW04UHFDeWczMENhU2kyZ1I5RTdhdEEzR1FBWG1FSGFQZmFaMTRLcUNUc0k1aVVTTFBrSl9oWVAzS3lDWUs2WUFpa01EVHlGb2VDM08tUDMweFdjZllJa0ozQUlKM09iZTQybnY3QjBqb1FCeXh0UFhVRWFwMlVZX19nOGFmQkRnZXNPVmVPclBCNWFZZXhjTnEwT3d4MFVTem5FQ0dEd0VEckY3eXdWU3ZiRkVxRjc1eTY2VUZZ0gHMAUFVX3lxTE8yYTRfM2JtWlBIX0lEcnlrVkItVGM2RzNNSlIxZFZvQjFpajBZdDd1WHd1M3RLUlQzZVROVHpJaW5nUnFMT1Z4SjhFYUo5QldNY2ttUi01U0VTQ1ctSEhUb2pOdUt2ZV9LazFKUmlwWkpaN18xWm9QX1FnQWlSWWlpVW9ETWpQOE5yekRqSEQzMGFKcVg4M0RkOVpvT0M3clF3T2MtZXFhNVdZTTFoSEpvQU1KaW1NVHBWR2s5dVBHaVVMMkZhbTBTc0hCag?oc=5",
-    "source": "gnews_futures",
-    "published_utc": "2026-10-19T09:00:27+00:00",
-    "score": 7.33,
-    "duplicates": 2
+    "id": "299a91bb28",
+    "title": "Wall Street Projects A Down Quarter For Tesla Earnings; Stock Rebounds - Investor's Business Daily",
+    "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOQV9OVjFwZ1IzZ3Y2T1NKX2NiTzlFR3ZZaUFJNlpiYXVjSnlLQzMyckExVXZ4VXlSczFRZkR3R2tVc3ZZd2k4MFhhVVpobXFzUjVjTnJ0Z0stcXVBV2xlOF84N0w1Q0pSWHBUak1ScFdBSktiTnhobGdXaG5nWHhRQjF6TUZQU3pKS182aGNnUlF4alpF?oc=5",
+    "source": "gnews_megacap",
+    "published_utc": "2026-10-19T17:43:00+00:00",
+    "score": 6.61,
+    "duplicates": 0
    }
   ],
   "summary": {
    "lines": [
     "Meta and Tesla earnings will test AI investment confidence amid inflation worries and tech sell-off. - Pluang [d1ac8176fe]",
-    "Nasdaq futures rise over 1% as yields fall; Nvidia, Broadcom, other AI shares rebound - Moneycontrol.com [52db498774]",
-    "Bitcoin (BTC), Asian Equities, Nasdaq Futures Rise After China GDP Exceeds Growth Forecasts - Crowdfund Insider [8b03085e22]",
     "Fed sees AI boom adding to inflation headache, but others may pay for the medicine - Reuters [1ee5646b5d]",
-    "Fed officials flag AI boom as inflation driver before October vote - InvestmentNews [5f68524640]"
+    "Nasdaq futures rise over 1% as yields fall; Nvidia, Broadcom, other AI shares rebound - Moneycontrol.com [52db498774]",
+    "Fed officials flag AI boom as inflation driver before October vote - InvestmentNews [5f68524640]",
+    "Micron and other chip stocks spring back to life after bruising selloff [02fa93780b]"
    ],
    "backend": "none",
    "model": null,
