@@ -1,11 +1,11 @@
 {
  "meta": {
-  "generated_at_utc": "2026-10-20T12:27:00.375504+00:00",
-  "generated_at_local": "Tue 20 Oct 2026 09:27 ADT",
+  "generated_at_utc": "2026-10-20T12:42:14.845567+00:00",
+  "generated_at_local": "Tue 20 Oct 2026 09:42 ADT",
   "trading_day": "2026-10-20",
   "display_tz": "America/Halifax",
   "version": "0.1.0",
-  "run": "overnight",
+  "run": "post-data",
   "variant": "public"
  },
  "calendar": {
@@ -37,7 +37,7 @@
    "time_utc": "2026-10-21T17:00:00+00:00",
    "local": "14:00 ADT",
    "et": "13:00 ET",
-   "in": "28h 32m",
+   "in": "28h 17m",
    "consensus": null,
    "prior": null
   },
@@ -48,15 +48,15 @@
   {
    "root": "ES",
    "trading_day": "2026-10-20",
-   "as_of_utc": "2026-10-20T12:27:00.375504+00:00",
+   "as_of_utc": "2026-10-20T12:42:14.845567+00:00",
    "source": "yahoo",
    "delayed": true,
-   "last_price": 7715.75,
+   "last_price": 7707.75,
    "levels": [
     {
      "tag": "pwh",
      "label": "Prior-week high",
-     "price": 7879.75,
+     "price": 7838.25,
      "group": "week",
      "note": "3 session(s) of data — PARTIAL"
     },
@@ -93,7 +93,7 @@
      "label": "Overnight high",
      "price": 7752.75,
      "group": "overnight",
-     "note": "since 18:00 ET, 838 bars"
+     "note": "since 18:00 ET, 854 bars"
     },
     {
      "tag": "rn_major_up",
@@ -133,7 +133,7 @@
     {
      "tag": "onvwap",
      "label": "Overnight VWAP",
-     "price": 7733.39,
+     "price": 7731.54,
      "group": "overnight",
      "note": "typical-price VWAP"
     },
@@ -161,14 +161,14 @@
     {
      "tag": "onl",
      "label": "Overnight low",
-     "price": 7712.0,
+     "price": 7704.5,
      "group": "overnight",
      "note": ""
     },
     {
      "tag": "wl",
      "label": "Week low",
-     "price": 7712.0,
+     "price": 7704.5,
      "group": "week",
      "note": ""
     },
@@ -195,14 +195,14 @@
     }
    ],
    "stats": {
-    "last_bar_utc": "2026-10-20T12:16:00+00:00",
-    "last_bar_age_min": 11.0,
+    "last_bar_utc": "2026-10-20T12:32:00+00:00",
+    "last_bar_age_min": 10.2,
     "market_state": "open",
     "profile_volume": 1326673.0000000002,
     "prior_day": "2026-10-19",
     "prior_day_rth_range": 45.75,
-    "overnight_range": 40.75,
-    "gap_vs_prior_close": -19.0,
+    "overnight_range": 48.25,
+    "gap_vs_prior_close": -27.0,
     "gap_basis": "last price (pre-market)",
     "atr14": 81.32,
     "atr_days": 14,
@@ -1414,25 +1414,33 @@
     {
      "t": "2026-10-20T12:15:00+00:00",
      "o": 7713.75,
-     "h": 7717.25,
-     "l": 7713.5,
-     "c": 7715.75,
-     "v": 706.0
+     "h": 7719.75,
+     "l": 7704.5,
+     "c": 7707.25,
+     "v": 21152.0
+    },
+    {
+     "t": "2026-10-20T12:30:00+00:00",
+     "o": 7707.0,
+     "h": 7709.5,
+     "l": 7705.5,
+     "c": 7707.75,
+     "v": 2916.0
     }
    ]
   },
   {
    "root": "NQ",
    "trading_day": "2026-10-20",
-   "as_of_utc": "2026-10-20T12:27:00.375504+00:00",
+   "as_of_utc": "2026-10-20T12:42:14.845567+00:00",
    "source": "yahoo",
    "delayed": true,
-   "last_price": 29514.5,
+   "last_price": 29494.0,
    "levels": [
     {
      "tag": "pwh",
      "label": "Prior-week high",
-     "price": 30852.75,
+     "price": 30660.75,
      "group": "week",
      "note": "3 session(s) of data — PARTIAL"
     },
@@ -1469,7 +1477,7 @@
      "label": "Overnight high",
      "price": 29803.5,
      "group": "overnight",
-     "note": "since 18:00 ET, 838 bars"
+     "note": "since 18:00 ET, 854 bars"
     },
     {
      "tag": "pdo",
@@ -1509,23 +1517,9 @@
     {
      "tag": "onvwap",
      "label": "Overnight VWAP",
-     "price": 29652.34,
+     "price": 29647.95,
      "group": "overnight",
      "note": "typical-price VWAP"
-    },
-    {
-     "tag": "rn_major_up",
-     "label": "Round 100 above",
-     "price": 29600.0,
-     "group": "round",
-     "note": ""
-    },
-    {
-     "tag": "rn_minor_up",
-     "label": "Round 50 above",
-     "price": 29550.0,
-     "group": "round",
-     "note": ""
     },
     {
      "tag": "pgl",
@@ -1535,8 +1529,8 @@
      "note": "full 18:00→17:00 session"
     },
     {
-     "tag": "rn_major_dn",
-     "label": "Round 100 below",
+     "tag": "rn_major_up",
+     "label": "Round 100 above",
      "price": 29500.0,
      "group": "round",
      "note": ""
@@ -1544,15 +1538,29 @@
     {
      "tag": "onl",
      "label": "Overnight low",
-     "price": 29491.5,
+     "price": 29478.5,
      "group": "overnight",
      "note": ""
     },
     {
      "tag": "wl",
      "label": "Week low",
-     "price": 29491.5,
+     "price": 29478.5,
      "group": "week",
+     "note": ""
+    },
+    {
+     "tag": "rn_minor_dn",
+     "label": "Round 50 below",
+     "price": 29450.0,
+     "group": "round",
+     "note": ""
+    },
+    {
+     "tag": "rn_major_dn",
+     "label": "Round 100 below",
+     "price": 29400.0,
+     "group": "round",
      "note": ""
     },
     {
@@ -1571,14 +1579,14 @@
     }
    ],
    "stats": {
-    "last_bar_utc": "2026-10-20T12:16:00+00:00",
-    "last_bar_age_min": 11.0,
+    "last_bar_utc": "2026-10-20T12:32:00+00:00",
+    "last_bar_age_min": 10.2,
     "market_state": "open",
     "profile_volume": 438216.0,
     "prior_day": "2026-10-19",
     "prior_day_rth_range": 329.75,
-    "overnight_range": 312.0,
-    "gap_vs_prior_close": -207.25,
+    "overnight_range": 325.0,
+    "gap_vs_prior_close": -227.75,
     "gap_basis": "last price (pre-market)",
     "atr14": 534.7,
     "atr_days": 14,
@@ -2782,10 +2790,18 @@
     {
      "t": "2026-10-20T12:15:00+00:00",
      "o": 29503.5,
-     "h": 29522.25,
-     "l": 29501.75,
-     "c": 29514.5,
-     "v": 531.0
+     "h": 29542.0,
+     "l": 29481.5,
+     "c": 29491.0,
+     "v": 4453.0
+    },
+    {
+     "t": "2026-10-20T12:30:00+00:00",
+     "o": 29491.25,
+     "h": 29502.0,
+     "l": 29478.5,
+     "c": 29494.0,
+     "v": 657.0
     }
    ]
   }
@@ -2798,8 +2814,17 @@
     "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOUHRoMVBGRXVRTWhCb2RFUlUtcWtYeDFCbFF1RmJaZTFINWpiOFJXcGJOM1NUczZ5a0U5emZGRk1zUjNYcVg4aE5HR2gzUTR4SERSaFk2NjEzMnZzZkV1azJveUppMEFBY2c5bmNBRTNZTVIxcFZaSXpRSUtmVlRPRVZIM1dMY0EzcWE3QWUwc2Z4SUd1UEJaaUFyeE5wZUx1aFE1c1dKNGJaVUdrSDFOMnVrdEtjVFJGSmxxNUZn?oc=5",
     "source": "gnews_macro",
     "published_utc": "2026-10-20T09:04:12+00:00",
-    "score": 8.94,
+    "score": 8.89,
     "duplicates": 0
+   },
+   {
+    "id": "09d9750980",
+    "title": "Nasdaq futures fall as oil prices jump, key earnings loom - Free Malaysia Today",
+    "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQbE1STXg0QnU1anBhaWZXZ29mNUFQbHdIOWN0cTVSQ2FIY1EzVzVHbi1qd09YSVhwU3lUeVNMaEhhLTNMcl9McGZ0TkdtRzB0ZVNlMWw2c0JQS1h4M1h2SFVtMWxDSE1kOUJMZ1JYRUk4b2VhVmFZZTkzNnQxX1Z6aDlSVzZiY0ZhM2hoa283WURCUjJpSV84US1NMzVhTmRLUVhvQlJiWE9MTkZBRTlHWG9IdXVqemtLOVdr?oc=5",
+    "source": "gnews_futures",
+    "published_utc": "2026-10-20T12:14:17+00:00",
+    "score": 8.42,
+    "duplicates": 3
    },
    {
     "id": "dc2b13bdf3",
@@ -2807,7 +2832,7 @@
     "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPbWlzZ3Nfa0htQUkxLTBvdG9xZFJqZHJPQm84cTltTG84XzF5R3Qyb05SSDJueXdMOHJaSUFiVVlLSmhIVTF4YmtpWWlVTWdWMkZ1OTExTHJOaUdjMklKM2VkQmVDTkRNRnEtNURuOUdTWjBKeXpneFhMS1hKRC1MUjE2dVNYV2o2YWFDVzR3VF9VODRmTUNBTk1xUW1FLWJhN1BjUktn?oc=5",
     "source": "gnews_fed",
     "published_utc": "2026-10-20T10:03:06+00:00",
-    "score": 8.1,
+    "score": 8.06,
     "duplicates": 0
    },
    {
@@ -2816,7 +2841,7 @@
     "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNb1kzd3RhLXZ2MWc1b3JaaDFhbV9JcWZpdGNDaWVsRUZfdTJDWGlIaWUzbHQ5aHV1T2NWYVduTUF1RXF0eHAyRUExcTRqbGE2Q0Q5U2xJcVJGeFFQejFBMlJuNXFCYWdJWnpHdnpUSVptMXBjNTRGZU9WX1BENUY0ajNSZFNJR2M1SW85RG16aWtaNDNkNlhFYi14ZVRPLVg3NlE?oc=5",
     "source": "gnews_macro",
     "published_utc": "2026-10-20T09:53:52+00:00",
-    "score": 8.07,
+    "score": 8.03,
     "duplicates": 0
    },
    {
@@ -2825,7 +2850,7 @@
     "link": "https://news.google.com/rss/articles/CBMi-gFBVV95cUxPcXFXOUljSFN4ZjdHUlFDMkNtNUZjdmItTnlyTVZRdjVRWG9tall6Y1NJRHFtdmJpT19Kd3BBT190WkJReElmLWc0LUlsZDBJbVZmSXpab2NFX2pRSDVhNDBxV3AtSDFRNWk2NFh4NVJhemRUbXJkZWNPUnNnNkpEUURmTERaQVZxdmFhc3RmYVlRb0VvTVZzN1RNWHNjTlVpOG5sRlRWZU9CeUxUekg3UU9iWFg3V3lvalB1RERBN0JNQ3pOSDRjTEZiemZ1X25UWXdNMEpqSll6VjFPd3pZWjZJR2ZXZlR3Vk9zRWxUVmZmd01HQkx2cEdB?oc=5",
     "source": "gnews_megacap",
     "published_utc": "2026-10-20T12:16:37+00:00",
-    "score": 7.97,
+    "score": 7.93,
     "duplicates": 0
    },
    {
@@ -2834,7 +2859,7 @@
     "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPTGtPMVduaC1xMzlyODUzRWZrUnlYcHY2T3JBdURoV19nNjBOSGg1WWR3dm1ZcDRxbktCUmVqZU81MURyTzU1N1c2bUJDYzJuTUpRb1ltU2kwTVhUUVdjeDNYNWEwV1VCdkh5aFVXTV90ZDEyZWRVZ05lOHJsRXVnWnpqS2ZrSFVHRWxSNG03MGxOSHVQWHQ2U3dWZGVhVXE3Y2YtZENhUVBQU3llUlFBd29wX0YzN3dnNC1UZmNvSQ?oc=5",
     "source": "gnews_futures",
     "published_utc": "2026-10-20T10:35:31+00:00",
-    "score": 7.69,
+    "score": 7.65,
     "duplicates": 0
    },
    {
@@ -2843,8 +2868,17 @@
     "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNWXNrVF9vRkFfd1lIS1pDRzl1TldxWnRqeUlDQmF5Tjk4ZXhubVdoWS1qNFB0XzBOVGQ0c0FXNkEyWVBCQU1URE5yZkt2ajhFZjNUT2xzV21rYzI1N2Q5RlRLRmZYNUxiWVZpazFGRWVaUzZDVWZqUUxlV040Q1VQTFBUWjg4TkJKVEdvY1c0QkxjcVo2MHJuTDNn?oc=5",
     "source": "gnews_fed",
     "published_utc": "2026-10-20T10:03:00+00:00",
-    "score": 7.6,
+    "score": 7.56,
     "duplicates": 1
+   },
+   {
+    "id": "c128be42fe",
+    "title": "Inflation Jolt to Fade, Fed to Stay on Sidelines - Moomoo",
+    "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNVkdpU1pDdHBTT3ZBQW0xajZSUVZjenExSUxlanFsWFd1bm5tQnFwd0RjdTRxRnhhcFhIT0YtUU5yOTNacDVSdmNtblJLUkRRRi05X1dPZ2ZMd0FRT05rM3pKaXhpVDZvSl9DTDNfU3o1S2M3SFY2Z3lSejlFU1I2VWRGZUZEUVFKSVRreFBiWGx4STIzNXFV?oc=5",
+    "source": "gnews_macro",
+    "published_utc": "2026-10-20T12:24:25+00:00",
+    "score": 7.45,
+    "duplicates": 0
    },
    {
     "id": "fe4229c0fc",
@@ -2852,17 +2886,8 @@
     "link": "https://www.cnbc.com/2026/10/20/ai-rally-fades-elice-ipo-dives.html",
     "source": "cnbc_markets",
     "published_utc": "2026-10-20T11:34:03+00:00",
-    "score": 7.35,
+    "score": 7.31,
     "duplicates": 0
-   },
-   {
-    "id": "5bdb337c72",
-    "title": "Nasdaq futures fall as oil prices jump, key earnings loom - Reuters",
-    "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOT2JsXzZ4YTVKcDJjNE9iTW42aU0wY0VOZXRtdDYxTzJTanBUOGZIT1FLSl9FVTNxQ1RpTVFSWHlsejgyR0Y1b3JQWXRlT0dEMjJPWWpXYlpfdFJQaHZKZG5KdUNMdW53NmlMd2RwUWJKWFB3dE9Xc2ZBbnRfalF3cWNzblhxTGJOTGlKYUh1a0FmWC1vaGQydWZXdTMzemJjSVg5NWZ0bw?oc=5",
-    "source": "gnews_futures",
-    "published_utc": "2026-10-20T11:26:25+00:00",
-    "score": 7.33,
-    "duplicates": 1
    },
    {
     "id": "ea3e50ffb5",
@@ -2870,17 +2895,8 @@
     "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxORWJkR0lOMlhNNl94X3BmRmhzVDVCQXQyamhyZGFoS25CZy14MHg1eW1aaEVvSm9FemhibnFIaEMxZHVQUW1JS0RNalVNUndQXzRKY1R0c1YwLXQ3dGlDbXpyMWMxeC1hMG9KZHB2UWF1RnlDakROQXN4c3pzdzVZdEx4S3VPWUUzNlV1akE4YVlpenl2d05CRVkteDFYb1NQRDdkWGNpVlBkVDlCRllhTEl2Z0VrZ9IBvgFBVV95cUxPTzJWR0djRlhKUC1ZR3FMalVEeXY4RHZ4dXNHWl9QT2NRZDNSQ1JYV0lwSmxNVEdSZzZFSG5SQlJlb2dsN0JZcDZqV1lXU2R5UFVtODdvM3JwUkVEcnJ5YzNqWGJySk81ZkJEYWYyVnZJU2J4Y2R3UTBhbjFKQkNGZndpNDZnZzJabXAtdTFiMF90OEdhUllyS1NXMUZxWl95cWY2dFF5bDBOcGJieUp2ZmRFYmdja01fUFFaRFZ3?oc=5",
     "source": "gnews_futures",
     "published_utc": "2026-10-20T10:43:52+00:00",
-    "score": 7.21,
+    "score": 7.17,
     "duplicates": 0
-   },
-   {
-    "id": "1ee5646b5d",
-    "title": "Fed sees AI boom adding to inflation headache, but others may pay for the medicine - Reuters",
-    "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQbWZLVGpmVmN6M1o1UUJnRXhSMmVWdjY2Mm4tR0IyeXk0OHZzOVRPamx6eEdEVjhEUHVXMlkzeFhoWkg4Qnl0a3lYQ0xJdWNzVHcydDA0NFdVb0ctbEVoMExGek50RHoxWF9TRThVMXRENDhWV2RUbVRGOVhvOEtoTmlTS1NlZGk0UldmSEY4N0tRVVRBeWc5SmJqRGlaVWwzeHRPa1hHZDNHZ3UxUjhwZHBGQXo0YlIw?oc=5",
-    "source": "gnews_fed",
-    "published_utc": "2026-10-19T18:39:36+00:00",
-    "score": 7.0,
-    "duplicates": 1
    },
    {
     "id": "0edc502ee9",
@@ -2888,7 +2904,7 @@
     "link": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxPTFNGd2FPb242SEZIU3luSU1UTGhtcUI1cWN3RlZsdjlBSTZXbHV6YmllZG9BbDRQeXl1cmhNTXUtNWg3VHFHckJrbEtvRklHTFN3RXVkZ2JBSTU0c3MwUG1xOFQtZ3RVOEN1dkg0aEpOdWhtRmNKUFpMYXJKbWtsWnJ6VUMtTXRYS0dqSmtVenQtbExGbzYtWmRhWXNTRC1zZjRqRlhiMnJoQ01PWVJkQ2tRZjVlczZpZnVGUVdPTndHcEFpZ3IxYm9ueDB5SzZoNmtPSkpaU2xleEV4Q0RYbENoZm5zNkVC?oc=5",
     "source": "gnews_macro",
     "published_utc": "2026-10-20T12:21:00+00:00",
-    "score": 6.98,
+    "score": 6.94,
     "duplicates": 0
    },
    {
@@ -2897,17 +2913,17 @@
     "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQNjdmMHdmdVBVUERTWGtvSkFLbFdxc1BNOEJNVFpTUmRFcmpvTXRlblJaQVBkM1IzRHVfTmlTc1hoZUpXdFJ3UG5YM0x2Y3UwZ2t4YXN2aEgtYm10OERUSUgzak9DdGwzRVlTY1dRLTJ2VktEb0h5SWh2MklyQnl4em1qbzc?oc=5",
     "source": "gnews_megacap",
     "published_utc": "2026-10-20T12:08:13+00:00",
-    "score": 6.95,
+    "score": 6.91,
     "duplicates": 0
    }
   ],
   "summary": {
    "lines": [
     "Gold dips as oil prices fuel inflation fears, Fed outlook in focus - Investing.com [95314736ff]",
+    "Nasdaq futures fall as oil prices jump, key earnings loom - Free Malaysia Today [09d9750980]",
     "Can Wall Street’s Selloff Convince the Fed to Hold Interest Rates? - Modern Diplomacy [dc2b13bdf3]",
     "Gold Prices Fall for Third Session as Oil-Driven Inflation Concerns Shift Focus to Fed Rates - Yahoo Finance [70fcc7b480]",
-    "Meta Q3 Earnings Preview: Wall Street Eyes Muse AI Monetization As Mark Zuckerberg's AI Bet Faces Its Next Test - Benzinga [8bd0b1cd94]",
-    "Nasdaq Futures Slip as AI Stocks Resume Slide, Oil Jumps; SpaceX Earnings on Tap - Barchart.com [c5de9ebee3]"
+    "Meta Q3 Earnings Preview: Wall Street Eyes Muse AI Monetization As Mark Zuckerberg's AI Bet Faces Its Next Test - Benzinga [8bd0b1cd94]"
    ],
    "backend": "none",
    "model": null,
