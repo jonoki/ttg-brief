@@ -1,7 +1,7 @@
 {
  "meta": {
-  "generated_at_utc": "2026-10-20T15:45:27.141931+00:00",
-  "generated_at_local": "Tue 20 Oct 2026 12:45 ADT",
+  "generated_at_utc": "2026-10-20T16:00:45.546770+00:00",
+  "generated_at_local": "Tue 20 Oct 2026 13:00 ADT",
   "trading_day": "2026-10-20",
   "display_tz": "America/Halifax",
   "version": "0.1.0",
@@ -37,7 +37,7 @@
    "time_utc": "2026-10-21T17:00:00+00:00",
    "local": "14:00 ADT",
    "et": "13:00 ET",
-   "in": "25h 14m",
+   "in": "24h 59m",
    "consensus": null,
    "prior": null
   },
@@ -48,10 +48,10 @@
   {
    "root": "ES",
    "trading_day": "2026-10-20",
-   "as_of_utc": "2026-10-20T15:45:27.141931+00:00",
+   "as_of_utc": "2026-10-20T16:00:45.546770+00:00",
    "source": "yahoo",
    "delayed": true,
-   "last_price": 7755.5,
+   "last_price": 7760.75,
    "levels": [
     {
      "tag": "exp_hi",
@@ -216,8 +216,8 @@
     }
    ],
    "stats": {
-    "last_bar_utc": "2026-10-20T15:35:00+00:00",
-    "last_bar_age_min": 10.5,
+    "last_bar_utc": "2026-10-20T15:50:00+00:00",
+    "last_bar_age_min": 10.8,
     "market_state": "open",
     "profile_volume": 1326673.0000000002,
     "prior_day": "2026-10-19",
@@ -1539,25 +1539,33 @@
     {
      "t": "2026-10-20T15:30:00+00:00",
      "o": 7760.25,
-     "h": 7761.0,
-     "l": 7753.25,
-     "c": 7755.5,
-     "v": 16977.0
+     "h": 7766.75,
+     "l": 7753.0,
+     "c": 7763.5,
+     "v": 51930.0
+    },
+    {
+     "t": "2026-10-20T15:45:00+00:00",
+     "o": 7763.25,
+     "h": 7763.75,
+     "l": 7757.0,
+     "c": 7760.75,
+     "v": 17789.0
     }
    ]
   },
   {
    "root": "NQ",
    "trading_day": "2026-10-20",
-   "as_of_utc": "2026-10-20T15:45:27.141931+00:00",
+   "as_of_utc": "2026-10-20T16:00:45.546770+00:00",
    "source": "yahoo",
    "delayed": true,
-   "last_price": 29720.5,
+   "last_price": 29751.0,
    "levels": [
     {
      "tag": "pwh",
      "label": "Prior-week high",
-     "price": 30364.25,
+     "price": 30339.75,
      "group": "week",
      "note": "3 session(s) of data — PARTIAL"
     },
@@ -1625,8 +1633,8 @@
      "note": "2026-10-19 RTH, bin 1.0"
     },
     {
-     "tag": "rn_minor_up",
-     "label": "Round 50 above",
+     "tag": "rn_minor_dn",
+     "label": "Round 50 below",
      "price": 29750.0,
      "group": "round",
      "note": ""
@@ -1717,8 +1725,8 @@
     }
    ],
    "stats": {
-    "last_bar_utc": "2026-10-20T15:35:00+00:00",
-    "last_bar_age_min": 10.5,
+    "last_bar_utc": "2026-10-20T15:50:00+00:00",
+    "last_bar_age_min": 10.8,
     "market_state": "open",
     "profile_volume": 438216.0,
     "prior_day": "2026-10-19",
@@ -3032,10 +3040,18 @@
     {
      "t": "2026-10-20T15:30:00+00:00",
      "o": 29750.25,
-     "h": 29758.25,
-     "l": 29706.5,
-     "c": 29720.5,
-     "v": 6357.0
+     "h": 29777.75,
+     "l": 29700.5,
+     "c": 29755.25,
+     "v": 19096.0
+    },
+    {
+     "t": "2026-10-20T15:45:00+00:00",
+     "o": 29755.0,
+     "h": 29769.25,
+     "l": 29723.5,
+     "c": 29751.0,
+     "v": 5391.0
     }
    ]
   }
@@ -3048,7 +3064,7 @@
     "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQeUEzbVRQczE3S0tNSzRLaFROVFF3SkM2NWE0WGZQUWlpLWZZRlltbVU3WmtiLUVDR0VDbTlINXY3WW5jSjc5WGpEanRaYWhWUC1tTFJPT1dxZW5pZldFU1hET0lOb0luc251bGcxTGRXOEFZbXl6WlpTSTJsdHEzUHdBeTNyc19RVURUU0g5NjN6QkRVTjRYTmJzcG9UTzNVNEhkenFGVQ?oc=5",
     "source": "gnews_futures",
     "published_utc": "2026-10-20T13:10:09+00:00",
-    "score": 8.57,
+    "score": 8.53,
     "duplicates": 4
    },
    {
@@ -3057,7 +3073,7 @@
     "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNcnBRR2I5RjMyaHFXc0JCN0lIMXcyMi1CWkRSTHh2ZzRDcnNXMll5b3BNekduWGo0N0lYczFPbWNuQmRpZTlnTlBkbFlLTS1lQ3U3NWlwTW1WeG1VSk1MSGJJTFVpWUNMaWhrTVZ4M29HTUdpYVVFUVUweEdEMHpBbzhKVjROSlo4ZXZRODRNQ1dhS09uenZTVy1hRlBYbTViX0F2Z29kWUl0UHpx?oc=5",
     "source": "gnews_megacap",
     "published_utc": "2026-10-20T14:50:03+00:00",
-    "score": 7.85,
+    "score": 7.8,
     "duplicates": 0
    },
    {
@@ -3066,7 +3082,7 @@
     "link": "https://news.google.com/rss/articles/CBMiiAJBVV95cUxQY1AySFZieWp2WW5VbXdRb0pvVkNXVzRuUENOZ3VLdFgzcWp5VEdQYVEyN2N6MkpabG1ST1lCSlo4Q0dSR0ZPakdoZGF2TlVsSDNRSkRRaFU5TGdLUmtCQzBUV1llWjFnMG04NWRoWTVUb3YxRUxiYmhxbi1udkpuSXhuWGE0NVF4alItV3RiQjFoWk51d3UtT3lyUmtuV21xT2lSVUZpd0pHRWVaTFNRRWM4ZmU5OHJabldCU0hqc2dOM0dCcmRLSVg4UHJLOW5kYUM4ZkFQMHpNTEpTVHp4dTJsd2ZmVGlXQ01zalAxVDdUNDM3WnRHMFhpamV3Y2JKdTNrMGxYZzQ?oc=5",
     "source": "gnews_macro",
     "published_utc": "2026-10-20T14:47:16+00:00",
-    "score": 7.84,
+    "score": 7.8,
     "duplicates": 0
    },
    {
@@ -3075,7 +3091,7 @@
     "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPbWlzZ3Nfa0htQUkxLTBvdG9xZFJqZHJPQm84cTltTG84XzF5R3Qyb05SSDJueXdMOHJaSUFiVVlLSmhIVTF4YmtpWWlVTWdWMkZ1OTExTHJOaUdjMklKM2VkQmVDTkRNRnEtNURuOUdTWjBKeXpneFhMS1hKRC1MUjE2dVNYV2o2YWFDVzR3VF9VODRmTUNBTk1xUW1FLWJhN1BjUktn?oc=5",
     "source": "gnews_fed",
     "published_utc": "2026-10-20T10:03:06+00:00",
-    "score": 7.55,
+    "score": 7.51,
     "duplicates": 0
    },
    {
@@ -3084,7 +3100,7 @@
     "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNb1kzd3RhLXZ2MWc1b3JaaDFhbV9JcWZpdGNDaWVsRUZfdTJDWGlIaWUzbHQ5aHV1T2NWYVduTUF1RXF0eHAyRUExcTRqbGE2Q0Q5U2xJcVJGeFFQejFBMlJuNXFCYWdJWnpHdnpUSVptMXBjNTRGZU9WX1BENUY0ajNSZFNJR2M1SW85RG16aWtaNDNkNlhFYi14ZVRPLVg3NlE?oc=5",
     "source": "gnews_macro",
     "published_utc": "2026-10-20T09:53:52+00:00",
-    "score": 7.52,
+    "score": 7.48,
     "duplicates": 0
    },
    {
@@ -3093,8 +3109,17 @@
     "link": "https://news.google.com/rss/articles/CBMi-gFBVV95cUxPcXFXOUljSFN4ZjdHUlFDMkNtNUZjdmItTnlyTVZRdjVRWG9tall6Y1NJRHFtdmJpT19Kd3BBT190WkJReElmLWc0LUlsZDBJbVZmSXpab2NFX2pRSDVhNDBxV3AtSDFRNWk2NFh4NVJhemRUbXJkZWNPUnNnNkpEUURmTERaQVZxdmFhc3RmYVlRb0VvTVZzN1RNWHNjTlVpOG5sRlRWZU9CeUxUekg3UU9iWFg3V3lvalB1RERBN0JNQ3pOSDRjTEZiemZ1X25UWXdNMEpqSll6VjFPd3pZWjZJR2ZXZlR3Vk9zRWxUVmZmd01HQkx2cEdB?oc=5",
     "source": "gnews_megacap",
     "published_utc": "2026-10-20T12:16:37+00:00",
-    "score": 7.42,
+    "score": 7.38,
     "duplicates": 0
+   },
+   {
+    "id": "ed51eec677",
+    "title": "Fed Minutes Show Another Rate Hike Is Likely This Year as Kevin Warsh's FOMC Battles Persistent Inflation. Here's Why That Signal Matters for Stocks and Bonds Heading Into Year-End. - The Motley Fool",
+    "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNOHY5QVRILW9reEFLcmw2eDYxZGhTaFRXV2kyQTMxYnRSQ1dyblRLQXQ0TTdkUklNLVJYQVBlLVZVUGM4MGstbzZveW53aEttemVaWXYxSnJXWE9aejVBYV9yT0NmM1ZRVTBaWmRmWW5yVlc5NFpjQURxSlk0YnFFd250dGxCeXdhNl96RUplNGZtMDhfR2FR?oc=5",
+    "source": "gnews_fed",
+    "published_utc": "2026-10-20T10:43:00+00:00",
+    "score": 7.12,
+    "duplicates": 1
    },
    {
     "id": "c5de9ebee3",
@@ -3102,7 +3127,7 @@
     "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPTGtPMVduaC1xMzlyODUzRWZrUnlYcHY2T3JBdURoV19nNjBOSGg1WWR3dm1ZcDRxbktCUmVqZU81MURyTzU1N1c2bUJDYzJuTUpRb1ltU2kwTVhUUVdjeDNYNWEwV1VCdkh5aFVXTV90ZDEyZWRVZ05lOHJsRXVnWnpqS2ZrSFVHRWxSNG03MGxOSHVQWHQ2U3dWZGVhVXE3Y2YtZENhUVBQU3llUlFBd29wX0YzN3dnNC1UZmNvSQ?oc=5",
     "source": "gnews_futures",
     "published_utc": "2026-10-20T10:35:31+00:00",
-    "score": 7.14,
+    "score": 7.1,
     "duplicates": 0
    },
    {
@@ -3111,17 +3136,8 @@
     "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQdVhTZG42RDlqYWNfNzFHT0RHVzJHLUhRRVg0X3JLTnl6TUZEWWt5Njl1ZWFfcjhtSW56RjhDMzRKM2RDeXJyVGppMEYxT3h0aTl4ajRzY0FObUp5Tlk5RUkyR2NWeklsZE1kUXpURU9zYnRFUVBiZ3dRN0lBSjd0bmlVZUhMbmdDRjZoaVhXZFZTSGxUSTYteVRhLXB2aWI1ZW81RVppY2dDay1zaGhEN2xBWEc3dURp?oc=5",
     "source": "gnews_futures",
     "published_utc": "2026-10-20T13:22:20+00:00",
-    "score": 7.1,
+    "score": 7.06,
     "duplicates": 0
-   },
-   {
-    "id": "012e27342b",
-    "title": "Fed Minutes Show Another Rate Hike Is Likely This Year as Kevin Warsh's FOMC Battles Persistent Inflation. Here's Why That Signal Matters for Stocks and Bonds Heading Into Year-End. - Yahoo Finance",
-    "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNWXNrVF9vRkFfd1lIS1pDRzl1TldxWnRqeUlDQmF5Tjk4ZXhubVdoWS1qNFB0XzBOVGQ0c0FXNkEyWVBCQU1URE5yZkt2ajhFZjNUT2xzV21rYzI1N2Q5RlRLRmZYNUxiWVZpazFGRWVaUzZDVWZqUUxlV040Q1VQTFBUWjg4TkJKVEdvY1c0QkxjcVo2MHJuTDNn?oc=5",
-    "source": "gnews_fed",
-    "published_utc": "2026-10-20T10:03:00+00:00",
-    "score": 7.05,
-    "duplicates": 1
    },
    {
     "id": "d6dff64f0a",
@@ -3129,7 +3145,7 @@
     "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPYy1XSFEzWGxieHMxUkQxcm1mN0NCTlRENnhxSHFmY3Y5Tll5SWpjWG81eVk2djhvLXYtSGFuaFNPUUQzTXFzQ3Naa3czTHFDdUNPeDBHT3REZmtWcHZNOXhka1JpZGQ1dWV5ckxSajdpU3NXM3JmV0tHX3lQNC1WZ2U1aXZuNHV2ckFnWTZSV2w3M3JfNEw2VGZKV3NfbWp4N2lKRFpPYnFWTEhobUs5RGRqLWZWU3czMGNqRWpBLXk?oc=5",
     "source": "gnews_futures",
     "published_utc": "2026-10-20T12:45:00+00:00",
-    "score": 7.0,
+    "score": 6.96,
     "duplicates": 1
    },
    {
@@ -3138,16 +3154,16 @@
     "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNVkdpU1pDdHBTT3ZBQW0xajZSUVZjenExSUxlanFsWFd1bm5tQnFwd0RjdTRxRnhhcFhIT0YtUU5yOTNacDVSdmNtblJLUkRRRi05X1dPZ2ZMd0FRT05rM3pKaXhpVDZvSl9DTDNfU3o1S2M3SFY2Z3lSejlFU1I2VWRGZUZEUVFKSVRreFBiWGx4STIzNXFV?oc=5",
     "source": "gnews_macro",
     "published_utc": "2026-10-20T12:24:25+00:00",
-    "score": 6.94,
+    "score": 6.9,
     "duplicates": 0
    },
    {
-    "id": "ea3e50ffb5",
-    "title": "Crude Surge Among Three Reasons Why US Stock Futures Are Under Pressure - NDTV Profit",
-    "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxORWJkR0lOMlhNNl94X3BmRmhzVDVCQXQyamhyZGFoS25CZy14MHg1eW1aaEVvSm9FemhibnFIaEMxZHVQUW1JS0RNalVNUndQXzRKY1R0c1YwLXQ3dGlDbXpyMWMxeC1hMG9KZHB2UWF1RnlDakROQXN4c3pzdzVZdEx4S3VPWUUzNlV1akE4YVlpenl2d05CRVkteDFYb1NQRDdkWGNpVlBkVDlCRllhTEl2Z0VrZ9IBvgFBVV95cUxPTzJWR0djRlhKUC1ZR3FMalVEeXY4RHZ4dXNHWl9QT2NRZDNSQ1JYV0lwSmxNVEdSZzZFSG5SQlJlb2dsN0JZcDZqV1lXU2R5UFVtODdvM3JwUkVEcnJ5YzNqWGJySk81ZkJEYWYyVnZJU2J4Y2R3UTBhbjFKQkNGZndpNDZnZzJabXAtdTFiMF90OEdhUllyS1NXMUZxWl95cWY2dFF5bDBOcGJieUp2ZmRFYmdja01fUFFaRFZ3?oc=5",
-    "source": "gnews_futures",
-    "published_utc": "2026-10-20T10:43:52+00:00",
-    "score": 6.66,
+    "id": "fd43c1b791",
+    "title": "Small Businesses Face Uneven Effects From Inflation, Tariffs and Fuel Costs - news8000.com",
+    "link": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxNOWxVSGk5S3VMc1BWWlQ1YVgzTk5SbnNmNHlTZXh0RXBFeXRGTG9JQ2g5Sm82S2NuT05keHNrN2libDFYWUpLNFR2SzFLLTZVTEs0X3VkZG1uck9sS2dhbWxYY0k3YVhTMFlKbHR5d1AyenFEZHFIVFVtM0VBQ1owdkM3bTlnTE9COGNDTDFITVpPbmN1Q1g4cmtaSU9ERThoMU1WU2xNcXNFd3FMVHFCeWlEUk1icGtzSFIwaW5XOWRNMVdLQWd5OWhhSTF6c0tzbFlkamRkXy15UHZKSUp1UFFEZHJpMXJ2?oc=5",
+    "source": "gnews_macro",
+    "published_utc": "2026-10-20T14:37:20+00:00",
+    "score": 6.77,
     "duplicates": 0
    }
   ],
