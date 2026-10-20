@@ -1,7 +1,7 @@
 {
  "meta": {
-  "generated_at_utc": "2026-10-20T10:25:02.078972+00:00",
-  "generated_at_local": "Tue 20 Oct 2026 07:25 ADT",
+  "generated_at_utc": "2026-10-20T10:40:17.906541+00:00",
+  "generated_at_local": "Tue 20 Oct 2026 07:40 ADT",
   "trading_day": "2026-10-20",
   "display_tz": "America/Halifax",
   "version": "0.1.0",
@@ -37,7 +37,7 @@
    "time_utc": "2026-10-21T17:00:00+00:00",
    "local": "14:00 ADT",
    "et": "13:00 ET",
-   "in": "30h 34m",
+   "in": "30h 19m",
    "consensus": null,
    "prior": null
   },
@@ -48,10 +48,10 @@
   {
    "root": "ES",
    "trading_day": "2026-10-20",
-   "as_of_utc": "2026-10-20T10:25:02.078972+00:00",
+   "as_of_utc": "2026-10-20T10:40:17.906541+00:00",
    "source": "yahoo",
    "delayed": true,
-   "last_price": 7734.0,
+   "last_price": 7731.25,
    "levels": [
     {
      "tag": "pwh",
@@ -93,7 +93,7 @@
      "label": "Overnight high",
      "price": 7752.75,
      "group": "overnight",
-     "note": "since 18:00 ET, 717 bars"
+     "note": "since 18:00 ET, 732 bars"
     },
     {
      "tag": "rn_major_up",
@@ -119,7 +119,7 @@
     {
      "tag": "onvwap",
      "label": "Overnight VWAP",
-     "price": 7737.32,
+     "price": 7737.13,
      "group": "overnight",
      "note": "typical-price VWAP"
     },
@@ -195,14 +195,14 @@
     }
    ],
    "stats": {
-    "last_bar_utc": "2026-10-20T10:15:00+00:00",
-    "last_bar_age_min": 10.0,
+    "last_bar_utc": "2026-10-20T10:30:00+00:00",
+    "last_bar_age_min": 10.3,
     "market_state": "open",
     "profile_volume": 1326673.0000000002,
     "prior_day": "2026-10-19",
     "prior_day_rth_range": 45.75,
     "overnight_range": 32.75,
-    "gap_vs_prior_close": -0.75,
+    "gap_vs_prior_close": -3.5,
     "gap_basis": "last price (pre-market)",
     "atr14": 81.32,
     "atr_days": 14,
@@ -1350,9 +1350,17 @@
     {
      "t": "2026-10-20T10:15:00+00:00",
      "o": 7733.75,
-     "h": 7734.0,
-     "l": 7733.0,
-     "c": 7734.0,
+     "h": 7736.25,
+     "l": 7729.25,
+     "c": 7730.75,
+     "v": 7131.0
+    },
+    {
+     "t": "2026-10-20T10:30:00+00:00",
+     "o": 7731.0,
+     "h": 7731.5,
+     "l": 7729.25,
+     "c": 7731.25,
      "v": 0.0
     }
    ]
@@ -1360,10 +1368,10 @@
   {
    "root": "NQ",
    "trading_day": "2026-10-20",
-   "as_of_utc": "2026-10-20T10:25:02.078972+00:00",
+   "as_of_utc": "2026-10-20T10:40:17.906541+00:00",
    "source": "yahoo",
    "delayed": true,
-   "last_price": 29628.25,
+   "last_price": 29600.0,
    "levels": [
     {
      "tag": "pwh",
@@ -1405,7 +1413,7 @@
      "label": "Overnight high",
      "price": 29803.5,
      "group": "overnight",
-     "note": "since 18:00 ET, 716 bars"
+     "note": "since 18:00 ET, 732 bars"
     },
     {
      "tag": "pdo",
@@ -1445,7 +1453,7 @@
     {
      "tag": "onvwap",
      "label": "Overnight VWAP",
-     "price": 29669.24,
+     "price": 29668.45,
      "group": "overnight",
      "note": "typical-price VWAP"
     },
@@ -1507,14 +1515,14 @@
     }
    ],
    "stats": {
-    "last_bar_utc": "2026-10-20T10:14:00+00:00",
-    "last_bar_age_min": 11.0,
+    "last_bar_utc": "2026-10-20T10:30:00+00:00",
+    "last_bar_age_min": 10.3,
     "market_state": "open",
     "profile_volume": 438216.0,
     "prior_day": "2026-10-19",
     "prior_day_rth_range": 329.75,
     "overnight_range": 275.75,
-    "gap_vs_prior_close": -93.5,
+    "gap_vs_prior_close": -121.75,
     "gap_basis": "last price (pre-market)",
     "atr14": 534.7,
     "atr_days": 14,
@@ -2650,6 +2658,22 @@
      "l": 29587.5,
      "c": 29628.25,
      "v": 1867.0
+    },
+    {
+     "t": "2026-10-20T10:15:00+00:00",
+     "o": 29629.5,
+     "h": 29633.0,
+     "l": 29591.5,
+     "c": 29600.0,
+     "v": 1766.0
+    },
+    {
+     "t": "2026-10-20T10:30:00+00:00",
+     "o": 29601.5,
+     "h": 29602.5,
+     "l": 29590.0,
+     "c": 29600.0,
+     "v": 0.0
     }
    ]
   }
@@ -2662,7 +2686,7 @@
     "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOUHRoMVBGRXVRTWhCb2RFUlUtcWtYeDFCbFF1RmJaZTFINWpiOFJXcGJOM1NUczZ5a0U5emZGRk1zUjNYcVg4aE5HR2gzUTR4SERSaFk2NjEzMnZzZkV1azJveUppMEFBY2c5bmNBRTNZTVIxcFZaSXpRSUtmVlRPRVZIM1dMY0EzcWE3QWUwc2Z4SUd1UEJaaUFyeE5wZUx1aFE1c1dKNGJaVUdrSDFOMnVrdEtjVFJGSmxxNUZn?oc=5",
     "source": "gnews_macro",
     "published_utc": "2026-10-20T09:00:00+00:00",
-    "score": 9.26,
+    "score": 9.22,
     "duplicates": 0
    },
    {
@@ -2671,25 +2695,16 @@
     "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPbWlzZ3Nfa0htQUkxLTBvdG9xZFJqZHJPQm84cTltTG84XzF5R3Qyb05SSDJueXdMOHJaSUFiVVlLSmhIVTF4YmtpWWlVTWdWMkZ1OTExTHJOaUdjMklKM2VkQmVDTkRNRnEtNURuOUdTWjBKeXpneFhMS1hKRC1MUjE2dVNYV2o2YWFDVzR3VF9VODRmTUNBTk1xUW1FLWJhN1BjUktn?oc=5",
     "source": "gnews_fed",
     "published_utc": "2026-10-20T10:03:06+00:00",
-    "score": 8.44,
+    "score": 8.4,
     "duplicates": 0
    },
    {
-    "id": "5bdb337c72",
-    "title": "Nasdaq futures dip as oil prices climb, earnings loom - Reuters",
-    "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOT2JsXzZ4YTVKcDJjNE9iTW42aU0wY0VOZXRtdDYxTzJTanBUOGZIT1FLSl9FVTNxQ1RpTVFSWHlsejgyR0Y1b3JQWXRlT0dEMjJPWWpXYlpfdFJQaHZKZG5KdUNMdW53NmlMd2RwUWJKWFB3dE9Xc2ZBbnRfalF3cWNzblhxTGJOTGlKYUh1a0FmWC1vaGQydWZXdTMzemJjSVg5NWZ0bw?oc=5",
-    "source": "gnews_futures",
-    "published_utc": "2026-10-20T10:14:26+00:00",
-    "score": 7.47,
-    "duplicates": 1
-   },
-   {
-    "id": "ed51eec677",
-    "title": "Fed Minutes Show Another Rate Hike Is Likely This Year as Kevin Warsh's FOMC Battles Persistent Inflation. Here's Why That Signal Matters for Stocks and Bonds Heading Into Year-End. - The Motley Fool",
-    "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNOHY5QVRILW9reEFLcmw2eDYxZGhTaFRXV2kyQTMxYnRSQ1dyblRLQXQ0TTdkUklNLVJYQVBlLVZVUGM4MGstbzZveW53aEttemVaWXYxSnJXWE9aejVBYV9yT0NmM1ZRVTBaWmRmWW5yVlc5NFpjQURxSlk0YnFFd250dGxCeXdhNl96RUplNGZtMDhfR2FR?oc=5",
-    "source": "gnews_fed",
-    "published_utc": "2026-10-20T10:03:10+00:00",
-    "score": 7.44,
+    "id": "70fcc7b480",
+    "title": "Gold Prices Fall for Third Session as Oil-Driven Inflation Concerns Shift Focus to Fed Rates - Yahoo Finance",
+    "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNb1kzd3RhLXZ2MWc1b3JaaDFhbV9JcWZpdGNDaWVsRUZfdTJDWGlIaWUzbHQ5aHV1T2NWYVduTUF1RXF0eHAyRUExcTRqbGE2Q0Q5U2xJcVJGeFFQejFBMlJuNXFCYWdJWnpHdnpUSVptMXBjNTRGZU9WX1BENUY0ajNSZFNJR2M1SW85RG16aWtaNDNkNlhFYi14ZVRPLVg3NlE?oc=5",
+    "source": "gnews_macro",
+    "published_utc": "2026-10-20T09:53:52+00:00",
+    "score": 8.37,
     "duplicates": 0
    },
    {
@@ -2698,16 +2713,25 @@
     "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPNFRxT3JwM1BxR3VxQ1I1a1BCSkNJUmNIQ1lUXzF0M1M3WUNRM0M0NWx5aVpwd0dKUnFpQjBGbHpueXJwa01OMnpueWtYZUoxRFVSQXpTOWRicy1TbDVnOUJZb011M1hEeVE2YW93YkZQdTFKb1ZreEhlaHI5ZUVObUc2ZzZEaElMZDlKeGlDc2s1TDFIYWVOaDQzR3Z4SFJ5M2dqSk14YVYtTnJkckdXOEFYOU5zVjcxc294bUxxVWhobm90S294c3ZrQQ?oc=5",
     "source": "gnews_macro",
     "published_utc": "2026-10-20T09:04:41+00:00",
-    "score": 7.28,
+    "score": 7.73,
+    "duplicates": 2
+   },
+   {
+    "id": "5bdb337c72",
+    "title": "Nasdaq futures dip as oil prices climb, earnings loom - Reuters",
+    "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOT2JsXzZ4YTVKcDJjNE9iTW42aU0wY0VOZXRtdDYxTzJTanBUOGZIT1FLSl9FVTNxQ1RpTVFSWHlsejgyR0Y1b3JQWXRlT0dEMjJPWWpXYlpfdFJQaHZKZG5KdUNMdW53NmlMd2RwUWJKWFB3dE9Xc2ZBbnRfalF3cWNzblhxTGJOTGlKYUh1a0FmWC1vaGQydWZXdTMzemJjSVg5NWZ0bw?oc=5",
+    "source": "gnews_futures",
+    "published_utc": "2026-10-20T10:14:26+00:00",
+    "score": 7.43,
     "duplicates": 1
    },
    {
-    "id": "6268d007e8",
-    "title": "Copper is outshining gold this year. Investors say the rally can survive an AI correction",
-    "link": "https://www.cnbc.com/2026/10/20/copper-prices-ai-spending-demand.html",
-    "source": "cnbc_markets",
-    "published_utc": "2026-10-20T05:57:34+00:00",
-    "score": 7.26,
+    "id": "ed51eec677",
+    "title": "Fed Minutes Show Another Rate Hike Is Likely This Year as Kevin Warsh's FOMC Battles Persistent Inflation. Here's Why That Signal Matters for Stocks and Bonds Heading Into Year-End. - The Motley Fool",
+    "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNOHY5QVRILW9reEFLcmw2eDYxZGhTaFRXV2kyQTMxYnRSQ1dyblRLQXQ0TTdkUklNLVJYQVBlLVZVUGM4MGstbzZveW53aEttemVaWXYxSnJXWE9aejVBYV9yT0NmM1ZRVTBaWmRmWW5yVlc5NFpjQURxSlk0YnFFd250dGxCeXdhNl96RUplNGZtMDhfR2FR?oc=5",
+    "source": "gnews_fed",
+    "published_utc": "2026-10-20T10:03:10+00:00",
+    "score": 7.4,
     "duplicates": 0
    },
    {
@@ -2716,7 +2740,16 @@
     "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOc0toSGR0YWJublNVdGMtMEVsOEJRYnpoSjd4M1Bic3ZXOGRpNzUtcWZ5N2xfRXlQa1o4c3ZNSUdKcnFqLVppdWRYS3VEaUVnNGVNbkF5MGxDcDlINTFhbzFKX1pzbGpya2lRQ1I2dmFwRVBlbWhlQ0FERFFQTFFpVTJR?oc=5",
     "source": "gnews_macro",
     "published_utc": "2026-10-20T09:00:00+00:00",
-    "score": 7.26,
+    "score": 7.22,
+    "duplicates": 0
+   },
+   {
+    "id": "6268d007e8",
+    "title": "Copper is outshining gold this year. Investors say the rally can survive an AI correction",
+    "link": "https://www.cnbc.com/2026/10/20/copper-prices-ai-spending-demand.html",
+    "source": "cnbc_markets",
+    "published_utc": "2026-10-20T05:57:34+00:00",
+    "score": 7.21,
     "duplicates": 0
    },
    {
@@ -2725,7 +2758,7 @@
     "link": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxQNGpmNi1XRDhWenJST2VFYXJ3Z0JWTjNGMnFRS0k4Z21weEx3ZEg4bDFPRXR2UXIzNXViRVNtVjJObkhDdEJVWVJuaTJnQ3loNXBHSnZ4RmVacHVla3ZNNkVidnZKRHcybGRHeGRIZ0d2T1hzTXBWeEt0TnliU21FM2FqaFFfMVd1UEJzQmdnU1pGajZBUzYtT0ZZSmFxQUJ1TDRGNmdJdWNTbEJRT3hrVUlYV1pFRXpEVjVjbl9WX09mSVNyRm9SN0NJWjNER1dDWV9hNUJtR1N3Qm94eVNKbWhuT2xoQjA?oc=5",
     "source": "gnews_fed",
     "published_utc": "2026-10-20T07:43:36+00:00",
-    "score": 7.05,
+    "score": 7.01,
     "duplicates": 0
    },
    {
@@ -2743,7 +2776,7 @@
     "link": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxQN1p2UDR2QnVsRTFYeFB5RDk1TVRBYWttcTdxWG1oa2cwT1gya21NNEM4d0FQWXhfYlR2UTREVkJYZHU2WldMcDVCZ0ljblVwb2lLemN5bjlxM2s4NElCdjhCa29ENXZRcm03SW5fZmZuUUE4N3Z4SEpNVmJUNjBCTmE3N2ZkaUgtOERVbWJYdF9IbEk5ZTFBeG9xSHdReEQ4VDZRMHlxejROX3AxRUF5Yl9pdVdtQ0djbHV6QzZZS0FBTy1wSVM2Z2p5RnplWU1FY1NLRUE0b3djTF9LaGNOS21odXJMaUhMZml2clhn?oc=5",
     "source": "gnews_futures",
     "published_utc": "2026-10-20T08:52:00+00:00",
-    "score": 6.74,
+    "score": 6.7,
     "duplicates": 0
    },
    {
@@ -2752,16 +2785,7 @@
     "link": "https://news.google.com/rss/articles/CBMimAJBVV95cUxQa2ZOTFlkdU1Qemt2czVrQnQ1ZkRETTlqNEdULWJaMFh2ZzRlVlRkVEFIRGFmOFBBVTBwNlEyNlpKZm00QlN5UHlzSlJQc0xwWGNjZ2E5dnZhV2RkZjRUM05zcFp4OVAzSEdaZ0hzcnZDUVJRLXZqbEhrOXVEVW9PS0tMcURJeFdqYVV6MS1VWldxTFo5YW96UEE3QUpoZjNLellkbU1hV3JOQWpRTkN3VlUyT0dzNmExN05RSF8zTFczRkQzbGRuaDVmSkJiLWhiZXprd0dMUzAwc3dTNzI1ZGh0UDJWbi1jWGMwcTktTHRGMV9XY1IyX3k3TzQ3STM1bnBGQ2s3bDMyRU5nT3VXUVV0VTZpVWo2?oc=5",
     "source": "gnews_megacap",
     "published_utc": "2026-10-20T08:31:55+00:00",
-    "score": 6.69,
-    "duplicates": 0
-   },
-   {
-    "id": "8f2e84c87b",
-    "title": "Dow Jones Futures: AMD, Nvidia Lead AI Trade Higher; Meta, Netflix, SpaceX, Tesla Earnings On Deck - Investor's Business Daily",
-    "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOZ2gtZmlxbk85a0hhLTVERkNDU2xKTnI2bDd1aGthazZObV9mLTdYMXBUaUxxaDFZRzNNZEt5QXdzVDNNVnNDMWtObkNycTNLc2tmWGZFTWhNU2RpN3JTMTBmUlFlZ2xzb3NiSGFMVTZ3d21lRjVHbVdUYkMyOHViVGlYcFNlUlM0eTZIQ0M0OUhvSlNHTTRHbWgtdFpRVDBLbVE5VG9DV01md0pjdERyUVp1dw?oc=5",
-    "source": "gnews_megacap",
-    "published_utc": "2026-10-20T01:48:00+00:00",
-    "score": 6.56,
+    "score": 6.64,
     "duplicates": 0
    }
   ],
@@ -2769,9 +2793,9 @@
    "lines": [
     "Gold dips as oil prices fuel inflation fears, Fed outlook in focus - Investing.com [95314736ff]",
     "Can Wall Street’s Selloff Convince the Fed to Hold Interest Rates? - Modern Diplomacy [dc2b13bdf3]",
-    "Nasdaq futures dip as oil prices climb, earnings loom - Reuters [5bdb337c72]",
-    "Fed Minutes Show Another Rate Hike Is Likely This Year as Kevin Warsh's FOMC Battles Persistent Inflation. Here's Why That Signal Matters for Stocks and Bonds Heading Into Year-End. - The Motley Fool [ed51eec677]",
-    "President Donald Trump Claims, \"We Don't Have Inflation, and Tariffs Don't Cause Inflation,\" but a New Report Strongly Disagrees - The Motley Fool [577cbc5248]"
+    "Gold Prices Fall for Third Session as Oil-Driven Inflation Concerns Shift Focus to Fed Rates - Yahoo Finance [70fcc7b480]",
+    "President Donald Trump Claims, \"We Don't Have Inflation, and Tariffs Don't Cause Inflation,\" but a New Report Strongly Disagrees - The Motley Fool [577cbc5248]",
+    "Nasdaq futures dip as oil prices climb, earnings loom - Reuters [5bdb337c72]"
    ],
    "backend": "none",
    "model": null,
