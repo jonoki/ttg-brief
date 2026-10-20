@@ -1,7 +1,7 @@
 {
  "meta": {
-  "generated_at_utc": "2026-10-20T14:59:37.638269+00:00",
-  "generated_at_local": "Tue 20 Oct 2026 11:59 ADT",
+  "generated_at_utc": "2026-10-20T15:14:54.082401+00:00",
+  "generated_at_local": "Tue 20 Oct 2026 12:14 ADT",
   "trading_day": "2026-10-20",
   "display_tz": "America/Halifax",
   "version": "0.1.0",
@@ -37,7 +37,7 @@
    "time_utc": "2026-10-21T17:00:00+00:00",
    "local": "14:00 ADT",
    "et": "13:00 ET",
-   "in": "26h 00m",
+   "in": "25h 45m",
    "consensus": null,
    "prior": null
   },
@@ -48,10 +48,10 @@
   {
    "root": "ES",
    "trading_day": "2026-10-20",
-   "as_of_utc": "2026-10-20T14:59:37.638269+00:00",
+   "as_of_utc": "2026-10-20T15:14:54.082401+00:00",
    "source": "yahoo",
    "delayed": true,
-   "last_price": 7781.25,
+   "last_price": 7779.0,
    "levels": [
     {
      "tag": "exp_hi",
@@ -216,8 +216,8 @@
     }
    ],
    "stats": {
-    "last_bar_utc": "2026-10-20T14:49:00+00:00",
-    "last_bar_age_min": 10.6,
+    "last_bar_utc": "2026-10-20T15:04:00+00:00",
+    "last_bar_age_min": 10.9,
     "market_state": "open",
     "profile_volume": 1326673.0000000002,
     "prior_day": "2026-10-19",
@@ -1515,25 +1515,33 @@
     {
      "t": "2026-10-20T14:45:00+00:00",
      "o": 7783.75,
-     "h": 7787.0,
-     "l": 7779.75,
-     "c": 7781.25,
-     "v": 14628.0
+     "h": 7790.5,
+     "l": 7779.25,
+     "c": 7785.0,
+     "v": 47917.0
+    },
+    {
+     "t": "2026-10-20T15:00:00+00:00",
+     "o": 7785.0,
+     "h": 7785.75,
+     "l": 7777.75,
+     "c": 7779.0,
+     "v": 17268.0
     }
    ]
   },
   {
    "root": "NQ",
    "trading_day": "2026-10-20",
-   "as_of_utc": "2026-10-20T14:59:37.638269+00:00",
+   "as_of_utc": "2026-10-20T15:14:54.082401+00:00",
    "source": "yahoo",
    "delayed": true,
-   "last_price": 29832.25,
+   "last_price": 29843.25,
    "levels": [
     {
      "tag": "pwh",
      "label": "Prior-week high",
-     "price": 30491.0,
+     "price": 30439.25,
      "group": "week",
      "note": "3 session(s) of data — PARTIAL"
     },
@@ -1693,8 +1701,8 @@
     }
    ],
    "stats": {
-    "last_bar_utc": "2026-10-20T14:49:00+00:00",
-    "last_bar_age_min": 10.6,
+    "last_bar_utc": "2026-10-20T15:04:00+00:00",
+    "last_bar_age_min": 10.9,
     "market_state": "open",
     "profile_volume": 438216.0,
     "prior_day": "2026-10-19",
@@ -2984,10 +2992,18 @@
     {
      "t": "2026-10-20T14:45:00+00:00",
      "o": 29852.0,
-     "h": 29873.5,
-     "l": 29823.0,
-     "c": 29832.25,
-     "v": 6112.0
+     "h": 29897.25,
+     "l": 29822.0,
+     "c": 29871.0,
+     "v": 20018.0
+    },
+    {
+     "t": "2026-10-20T15:00:00+00:00",
+     "o": 29870.0,
+     "h": 29876.75,
+     "l": 29840.25,
+     "c": 29843.25,
+     "v": 5677.0
     }
    ]
   }
@@ -2995,22 +3011,31 @@
  "news": {
   "headlines": [
    {
-    "id": "38c915e201",
-    "title": "Meta Q3 Earnings Preview: Can ad growth offset AI’s free cash flow drain? (META:NASDAQ) - Seeking Alpha",
-    "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNcnBRR2I5RjMyaHFXc0JCN0lIMXcyMi1CWkRSTHh2ZzRDcnNXMll5b3BNekduWGo0N0lYczFPbWNuQmRpZTlnTlBkbFlLTS1lQ3U3NWlwTW1WeG1VSk1MSGJJTFVpWUNMaWhrTVZ4M29HTUdpYVVFUVUweEdEMHpBbzhKVjROSlo4ZXZRODRNQ1dhS09uenZTVy1hRlBYbTViX0F2Z29kWUl0UHpx?oc=5",
-    "source": "gnews_megacap",
-    "published_utc": "2026-10-20T14:50:03+00:00",
-    "score": 7.97,
-    "duplicates": 0
-   },
-   {
     "id": "c8d8e3f8da",
     "title": "Nasdaq futures fall as oil prices jump, key earnings loom - Kitco",
     "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQeUEzbVRQczE3S0tNSzRLaFROVFF3SkM2NWE0WGZQUWlpLWZZRlltbVU3WmtiLUVDR0VDbTlINXY3WW5jSjc5WGpEanRaYWhWUC1tTFJPT1dxZW5pZldFU1hET0lOb0luc251bGcxTGRXOEFZbXl6WlpTSTJsdHEzUHdBeTNyc19RVURUU0g5NjN6QkRVTjRYTmJzcG9UTzNVNEhkenFGVQ?oc=5",
     "source": "gnews_futures",
     "published_utc": "2026-10-20T13:10:09+00:00",
-    "score": 7.7,
-    "duplicates": 2
+    "score": 8.15,
+    "duplicates": 3
+   },
+   {
+    "id": "38c915e201",
+    "title": "Meta Q3 Earnings Preview: Can ad growth offset AI’s free cash flow drain? (META:NASDAQ) - Seeking Alpha",
+    "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNcnBRR2I5RjMyaHFXc0JCN0lIMXcyMi1CWkRSTHh2ZzRDcnNXMll5b3BNekduWGo0N0lYczFPbWNuQmRpZTlnTlBkbFlLTS1lQ3U3NWlwTW1WeG1VSk1MSGJJTFVpWUNMaWhrTVZ4M29HTUdpYVVFUVUweEdEMHpBbzhKVjROSlo4ZXZRODRNQ1dhS09uenZTVy1hRlBYbTViX0F2Z29kWUl0UHpx?oc=5",
+    "source": "gnews_megacap",
+    "published_utc": "2026-10-20T14:50:03+00:00",
+    "score": 7.93,
+    "duplicates": 0
+   },
+   {
+    "id": "ba3b004362",
+    "title": "Citi's Nathan Sheets Warns Markets Could Misread The Fed — Sees Fiscal, AI Financing Worries Pushing Up Treasury Yields - TradingView",
+    "link": "https://news.google.com/rss/articles/CBMiiAJBVV95cUxQY1AySFZieWp2WW5VbXdRb0pvVkNXVzRuUENOZ3VLdFgzcWp5VEdQYVEyN2N6MkpabG1ST1lCSlo4Q0dSR0ZPakdoZGF2TlVsSDNRSkRRaFU5TGdLUmtCQzBUV1llWjFnMG04NWRoWTVUb3YxRUxiYmhxbi1udkpuSXhuWGE0NVF4alItV3RiQjFoWk51d3UtT3lyUmtuV21xT2lSVUZpd0pHRWVaTFNRRWM4ZmU5OHJabldCU0hqc2dOM0dCcmRLSVg4UHJLOW5kYUM4ZkFQMHpNTEpTVHp4dTJsd2ZmVGlXQ01zalAxVDdUNDM3WnRHMFhpamV3Y2JKdTNrMGxYZzQ?oc=5",
+    "source": "gnews_macro",
+    "published_utc": "2026-10-20T14:47:16+00:00",
+    "score": 7.92,
+    "duplicates": 0
    },
    {
     "id": "dc2b13bdf3",
@@ -3018,7 +3043,7 @@
     "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPbWlzZ3Nfa0htQUkxLTBvdG9xZFJqZHJPQm84cTltTG84XzF5R3Qyb05SSDJueXdMOHJaSUFiVVlLSmhIVTF4YmtpWWlVTWdWMkZ1OTExTHJOaUdjMklKM2VkQmVDTkRNRnEtNURuOUdTWjBKeXpneFhMS1hKRC1MUjE2dVNYV2o2YWFDVzR3VF9VODRmTUNBTk1xUW1FLWJhN1BjUktn?oc=5",
     "source": "gnews_fed",
     "published_utc": "2026-10-20T10:03:06+00:00",
-    "score": 7.68,
+    "score": 7.63,
     "duplicates": 0
    },
    {
@@ -3027,7 +3052,7 @@
     "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNb1kzd3RhLXZ2MWc1b3JaaDFhbV9JcWZpdGNDaWVsRUZfdTJDWGlIaWUzbHQ5aHV1T2NWYVduTUF1RXF0eHAyRUExcTRqbGE2Q0Q5U2xJcVJGeFFQejFBMlJuNXFCYWdJWnpHdnpUSVptMXBjNTRGZU9WX1BENUY0ajNSZFNJR2M1SW85RG16aWtaNDNkNlhFYi14ZVRPLVg3NlE?oc=5",
     "source": "gnews_macro",
     "published_utc": "2026-10-20T09:53:52+00:00",
-    "score": 7.65,
+    "score": 7.61,
     "duplicates": 0
    },
    {
@@ -3036,7 +3061,7 @@
     "link": "https://news.google.com/rss/articles/CBMi-gFBVV95cUxPcXFXOUljSFN4ZjdHUlFDMkNtNUZjdmItTnlyTVZRdjVRWG9tall6Y1NJRHFtdmJpT19Kd3BBT190WkJReElmLWc0LUlsZDBJbVZmSXpab2NFX2pRSDVhNDBxV3AtSDFRNWk2NFh4NVJhemRUbXJkZWNPUnNnNkpEUURmTERaQVZxdmFhc3RmYVlRb0VvTVZzN1RNWHNjTlVpOG5sRlRWZU9CeUxUekg3UU9iWFg3V3lvalB1RERBN0JNQ3pOSDRjTEZiemZ1X25UWXdNMEpqSll6VjFPd3pZWjZJR2ZXZlR3Vk9zRWxUVmZmd01HQkx2cEdB?oc=5",
     "source": "gnews_megacap",
     "published_utc": "2026-10-20T12:16:37+00:00",
-    "score": 7.55,
+    "score": 7.5,
     "duplicates": 0
    },
    {
@@ -3045,7 +3070,16 @@
     "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPTGtPMVduaC1xMzlyODUzRWZrUnlYcHY2T3JBdURoV19nNjBOSGg1WWR3dm1ZcDRxbktCUmVqZU81MURyTzU1N1c2bUJDYzJuTUpRb1ltU2kwTVhUUVdjeDNYNWEwV1VCdkh5aFVXTV90ZDEyZWRVZ05lOHJsRXVnWnpqS2ZrSFVHRWxSNG03MGxOSHVQWHQ2U3dWZGVhVXE3Y2YtZENhUVBQU3llUlFBd29wX0YzN3dnNC1UZmNvSQ?oc=5",
     "source": "gnews_futures",
     "published_utc": "2026-10-20T10:35:31+00:00",
-    "score": 7.27,
+    "score": 7.22,
+    "duplicates": 0
+   },
+   {
+    "id": "a7356bc94f",
+    "title": "Nasdaq Futures Slide Over 200 Points as Chip Rally Sours - Schaeffer's Investment Research",
+    "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQdVhTZG42RDlqYWNfNzFHT0RHVzJHLUhRRVg0X3JLTnl6TUZEWWt5Njl1ZWFfcjhtSW56RjhDMzRKM2RDeXJyVGppMEYxT3h0aTl4ajRzY0FObUp5Tlk5RUkyR2NWeklsZE1kUXpURU9zYnRFUVBiZ3dRN0lBSjd0bmlVZUhMbmdDRjZoaVhXZFZTSGxUSTYteVRhLXB2aWI1ZW81RVppY2dDay1zaGhEN2xBWEc3dURp?oc=5",
+    "source": "gnews_futures",
+    "published_utc": "2026-10-20T13:22:20+00:00",
+    "score": 7.19,
     "duplicates": 0
    },
    {
@@ -3054,7 +3088,7 @@
     "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNWXNrVF9vRkFfd1lIS1pDRzl1TldxWnRqeUlDQmF5Tjk4ZXhubVdoWS1qNFB0XzBOVGQ0c0FXNkEyWVBCQU1URE5yZkt2ajhFZjNUT2xzV21rYzI1N2Q5RlRLRmZYNUxiWVZpazFGRWVaUzZDVWZqUUxlV040Q1VQTFBUWjg4TkJKVEdvY1c0QkxjcVo2MHJuTDNn?oc=5",
     "source": "gnews_fed",
     "published_utc": "2026-10-20T10:03:00+00:00",
-    "score": 7.18,
+    "score": 7.13,
     "duplicates": 1
    },
    {
@@ -3063,7 +3097,7 @@
     "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPYy1XSFEzWGxieHMxUkQxcm1mN0NCTlRENnhxSHFmY3Y5Tll5SWpjWG81eVk2djhvLXYtSGFuaFNPUUQzTXFzQ3Naa3czTHFDdUNPeDBHT3REZmtWcHZNOXhka1JpZGQ1dWV5ckxSajdpU3NXM3JmV0tHX3lQNC1WZ2U1aXZuNHV2ckFnWTZSV2w3M3JfNEw2VGZKV3NfbWp4N2lKRFpPYnFWTEhobUs5RGRqLWZWU3czMGNqRWpBLXk?oc=5",
     "source": "gnews_futures",
     "published_utc": "2026-10-20T12:45:00+00:00",
-    "score": 7.13,
+    "score": 7.08,
     "duplicates": 1
    },
    {
@@ -3072,7 +3106,7 @@
     "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNVkdpU1pDdHBTT3ZBQW0xajZSUVZjenExSUxlanFsWFd1bm5tQnFwd0RjdTRxRnhhcFhIT0YtUU5yOTNacDVSdmNtblJLUkRRRi05X1dPZ2ZMd0FRT05rM3pKaXhpVDZvSl9DTDNfU3o1S2M3SFY2Z3lSejlFU1I2VWRGZUZEUVFKSVRreFBiWGx4STIzNXFV?oc=5",
     "source": "gnews_macro",
     "published_utc": "2026-10-20T12:24:25+00:00",
-    "score": 7.07,
+    "score": 7.03,
     "duplicates": 0
    },
    {
@@ -3081,35 +3115,17 @@
     "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxORWJkR0lOMlhNNl94X3BmRmhzVDVCQXQyamhyZGFoS25CZy14MHg1eW1aaEVvSm9FemhibnFIaEMxZHVQUW1JS0RNalVNUndQXzRKY1R0c1YwLXQ3dGlDbXpyMWMxeC1hMG9KZHB2UWF1RnlDakROQXN4c3pzdzVZdEx4S3VPWUUzNlV1akE4YVlpenl2d05CRVkteDFYb1NQRDdkWGNpVlBkVDlCRllhTEl2Z0VrZ9IBvgFBVV95cUxPTzJWR0djRlhKUC1ZR3FMalVEeXY4RHZ4dXNHWl9QT2NRZDNSQ1JYV0lwSmxNVEdSZzZFSG5SQlJlb2dsN0JZcDZqV1lXU2R5UFVtODdvM3JwUkVEcnJ5YzNqWGJySk81ZkJEYWYyVnZJU2J4Y2R3UTBhbjFKQkNGZndpNDZnZzJabXAtdTFiMF90OEdhUllyS1NXMUZxWl95cWY2dFF5bDBOcGJieUp2ZmRFYmdja01fUFFaRFZ3?oc=5",
     "source": "gnews_futures",
     "published_utc": "2026-10-20T10:43:52+00:00",
-    "score": 6.79,
-    "duplicates": 0
-   },
-   {
-    "id": "0edc502ee9",
-    "title": "Small businesses split on economy as inflation, tariffs remain key concerns - cbs19.tv",
-    "link": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxPTFNGd2FPb242SEZIU3luSU1UTGhtcUI1cWN3RlZsdjlBSTZXbHV6YmllZG9BbDRQeXl1cmhNTXUtNWg3VHFHckJrbEtvRklHTFN3RXVkZ2JBSTU0c3MwUG1xOFQtZ3RVOEN1dkg0aEpOdWhtRmNKUFpMYXJKbWtsWnJ6VUMtTXRYS0dqSmtVenQtbExGbzYtWmRhWXNTRC1zZjRqRlhiMnJoQ01PWVJkQ2tRZjVlczZpZnVGUVdPTndHcEFpZ3IxYm9ueDB5SzZoNmtPSkpaU2xleEV4Q0RYbENoZm5zNkVC?oc=5",
-    "source": "gnews_macro",
-    "published_utc": "2026-10-20T12:21:00+00:00",
-    "score": 6.56,
-    "duplicates": 0
-   },
-   {
-    "id": "c562229eba",
-    "title": "TSLL: A Buy For Tesla’s Earnings Window (NASDAQ:TSLL) - Seeking Alpha",
-    "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQNjdmMHdmdVBVUERTWGtvSkFLbFdxc1BNOEJNVFpTUmRFcmpvTXRlblJaQVBkM1IzRHVfTmlTc1hoZUpXdFJ3UG5YM0x2Y3UwZ2t4YXN2aEgtYm10OERUSUgzak9DdGwzRVlTY1dRLTJ2VktEb0h5SWh2MklyQnl4em1qbzc?oc=5",
-    "source": "gnews_megacap",
-    "published_utc": "2026-10-20T12:08:13+00:00",
-    "score": 6.52,
+    "score": 6.75,
     "duplicates": 0
    }
   ],
   "summary": {
    "lines": [
-    "Meta Q3 Earnings Preview: Can ad growth offset AI’s free cash flow drain? (META:NASDAQ) - Seeking Alpha [38c915e201]",
     "Nasdaq futures fall as oil prices jump, key earnings loom - Kitco [c8d8e3f8da]",
+    "Meta Q3 Earnings Preview: Can ad growth offset AI’s free cash flow drain? (META:NASDAQ) - Seeking Alpha [38c915e201]",
+    "Citi's Nathan Sheets Warns Markets Could Misread The Fed — Sees Fiscal, AI Financing Worries Pushing Up Treasury Yields - TradingView [ba3b004362]",
     "Can Wall Street’s Selloff Convince the Fed to Hold Interest Rates? - Modern Diplomacy [dc2b13bdf3]",
-    "Gold Prices Fall for Third Session as Oil-Driven Inflation Concerns Shift Focus to Fed Rates - Yahoo Finance [70fcc7b480]",
-    "Meta Q3 Earnings Preview: Wall Street Eyes Muse AI Monetization As Mark Zuckerberg's AI Bet Faces Its Next Test - Benzinga [8bd0b1cd94]"
+    "Gold Prices Fall for Third Session as Oil-Driven Inflation Concerns Shift Focus to Fed Rates - Yahoo Finance [70fcc7b480]"
    ],
    "backend": "none",
    "model": null,
