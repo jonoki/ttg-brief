@@ -1,7 +1,7 @@
 {
  "meta": {
-  "generated_at_utc": "2026-10-20T10:40:17.906541+00:00",
-  "generated_at_local": "Tue 20 Oct 2026 07:40 ADT",
+  "generated_at_utc": "2026-10-20T10:55:32.354109+00:00",
+  "generated_at_local": "Tue 20 Oct 2026 07:55 ADT",
   "trading_day": "2026-10-20",
   "display_tz": "America/Halifax",
   "version": "0.1.0",
@@ -37,7 +37,7 @@
    "time_utc": "2026-10-21T17:00:00+00:00",
    "local": "14:00 ADT",
    "et": "13:00 ET",
-   "in": "30h 19m",
+   "in": "30h 04m",
    "consensus": null,
    "prior": null
   },
@@ -48,10 +48,10 @@
   {
    "root": "ES",
    "trading_day": "2026-10-20",
-   "as_of_utc": "2026-10-20T10:40:17.906541+00:00",
+   "as_of_utc": "2026-10-20T10:55:32.354109+00:00",
    "source": "yahoo",
    "delayed": true,
-   "last_price": 7731.25,
+   "last_price": 7725.5,
    "levels": [
     {
      "tag": "pwh",
@@ -93,7 +93,7 @@
      "label": "Overnight high",
      "price": 7752.75,
      "group": "overnight",
-     "note": "since 18:00 ET, 732 bars"
+     "note": "since 18:00 ET, 747 bars"
     },
     {
      "tag": "rn_major_up",
@@ -119,7 +119,7 @@
     {
      "tag": "onvwap",
      "label": "Overnight VWAP",
-     "price": 7737.13,
+     "price": 7736.72,
      "group": "overnight",
      "note": "typical-price VWAP"
     },
@@ -195,14 +195,14 @@
     }
    ],
    "stats": {
-    "last_bar_utc": "2026-10-20T10:30:00+00:00",
-    "last_bar_age_min": 10.3,
+    "last_bar_utc": "2026-10-20T10:45:00+00:00",
+    "last_bar_age_min": 10.5,
     "market_state": "open",
     "profile_volume": 1326673.0000000002,
     "prior_day": "2026-10-19",
     "prior_day_rth_range": 45.75,
     "overnight_range": 32.75,
-    "gap_vs_prior_close": -3.5,
+    "gap_vs_prior_close": -9.25,
     "gap_basis": "last price (pre-market)",
     "atr14": 81.32,
     "atr_days": 14,
@@ -1359,8 +1359,16 @@
      "t": "2026-10-20T10:30:00+00:00",
      "o": 7731.0,
      "h": 7731.5,
-     "l": 7729.25,
-     "c": 7731.25,
+     "l": 7723.25,
+     "c": 7725.5,
+     "v": 8067.0
+    },
+    {
+     "t": "2026-10-20T10:45:00+00:00",
+     "o": 7725.5,
+     "h": 7726.0,
+     "l": 7725.25,
+     "c": 7725.5,
      "v": 0.0
     }
    ]
@@ -1368,10 +1376,10 @@
   {
    "root": "NQ",
    "trading_day": "2026-10-20",
-   "as_of_utc": "2026-10-20T10:40:17.906541+00:00",
+   "as_of_utc": "2026-10-20T10:55:32.354109+00:00",
    "source": "yahoo",
    "delayed": true,
-   "last_price": 29600.0,
+   "last_price": 29582.0,
    "levels": [
     {
      "tag": "pwh",
@@ -1413,7 +1421,7 @@
      "label": "Overnight high",
      "price": 29803.5,
      "group": "overnight",
-     "note": "since 18:00 ET, 732 bars"
+     "note": "since 18:00 ET, 747 bars"
     },
     {
      "tag": "pdo",
@@ -1444,16 +1452,9 @@
      "note": "70 % value area"
     },
     {
-     "tag": "rn_major_up",
-     "label": "Round 100 above",
-     "price": 29700.0,
-     "group": "round",
-     "note": ""
-    },
-    {
      "tag": "onvwap",
      "label": "Overnight VWAP",
-     "price": 29668.45,
+     "price": 29667.42,
      "group": "overnight",
      "note": "typical-price VWAP"
     },
@@ -1465,16 +1466,16 @@
      "note": "2026-10-19"
     },
     {
-     "tag": "rn_minor_up",
-     "label": "Round 50 above",
-     "price": 29650.0,
+     "tag": "rn_major_up",
+     "label": "Round 100 above",
+     "price": 29600.0,
      "group": "round",
      "note": ""
     },
     {
-     "tag": "rn_major_dn",
-     "label": "Round 100 below",
-     "price": 29600.0,
+     "tag": "rn_minor_dn",
+     "label": "Round 50 below",
+     "price": 29550.0,
      "group": "round",
      "note": ""
     },
@@ -1500,6 +1501,13 @@
      "note": ""
     },
     {
+     "tag": "rn_major_dn",
+     "label": "Round 100 below",
+     "price": 29500.0,
+     "group": "round",
+     "note": ""
+    },
+    {
      "tag": "pwl",
      "label": "Prior-week low",
      "price": 29268.75,
@@ -1515,14 +1523,14 @@
     }
    ],
    "stats": {
-    "last_bar_utc": "2026-10-20T10:30:00+00:00",
-    "last_bar_age_min": 10.3,
+    "last_bar_utc": "2026-10-20T10:45:00+00:00",
+    "last_bar_age_min": 10.5,
     "market_state": "open",
     "profile_volume": 438216.0,
     "prior_day": "2026-10-19",
     "prior_day_rth_range": 329.75,
     "overnight_range": 275.75,
-    "gap_vs_prior_close": -121.75,
+    "gap_vs_prior_close": -139.75,
     "gap_basis": "last price (pre-market)",
     "atr14": 534.7,
     "atr_days": 14,
@@ -2669,10 +2677,18 @@
     },
     {
      "t": "2026-10-20T10:30:00+00:00",
-     "o": 29601.5,
-     "h": 29602.5,
-     "l": 29590.0,
-     "c": 29600.0,
+     "o": 29601.0,
+     "h": 29607.25,
+     "l": 29568.25,
+     "c": 29580.75,
+     "v": 1653.0
+    },
+    {
+     "t": "2026-10-20T10:45:00+00:00",
+     "o": 29582.25,
+     "h": 29588.0,
+     "l": 29578.5,
+     "c": 29582.0,
      "v": 0.0
     }
    ]
@@ -2686,7 +2702,7 @@
     "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOUHRoMVBGRXVRTWhCb2RFUlUtcWtYeDFCbFF1RmJaZTFINWpiOFJXcGJOM1NUczZ5a0U5emZGRk1zUjNYcVg4aE5HR2gzUTR4SERSaFk2NjEzMnZzZkV1azJveUppMEFBY2c5bmNBRTNZTVIxcFZaSXpRSUtmVlRPRVZIM1dMY0EzcWE3QWUwc2Z4SUd1UEJaaUFyeE5wZUx1aFE1c1dKNGJaVUdrSDFOMnVrdEtjVFJGSmxxNUZn?oc=5",
     "source": "gnews_macro",
     "published_utc": "2026-10-20T09:00:00+00:00",
-    "score": 9.22,
+    "score": 9.18,
     "duplicates": 0
    },
    {
@@ -2695,7 +2711,7 @@
     "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPbWlzZ3Nfa0htQUkxLTBvdG9xZFJqZHJPQm84cTltTG84XzF5R3Qyb05SSDJueXdMOHJaSUFiVVlLSmhIVTF4YmtpWWlVTWdWMkZ1OTExTHJOaUdjMklKM2VkQmVDTkRNRnEtNURuOUdTWjBKeXpneFhMS1hKRC1MUjE2dVNYV2o2YWFDVzR3VF9VODRmTUNBTk1xUW1FLWJhN1BjUktn?oc=5",
     "source": "gnews_fed",
     "published_utc": "2026-10-20T10:03:06+00:00",
-    "score": 8.4,
+    "score": 8.35,
     "duplicates": 0
    },
    {
@@ -2704,7 +2720,16 @@
     "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNb1kzd3RhLXZ2MWc1b3JaaDFhbV9JcWZpdGNDaWVsRUZfdTJDWGlIaWUzbHQ5aHV1T2NWYVduTUF1RXF0eHAyRUExcTRqbGE2Q0Q5U2xJcVJGeFFQejFBMlJuNXFCYWdJWnpHdnpUSVptMXBjNTRGZU9WX1BENUY0ajNSZFNJR2M1SW85RG16aWtaNDNkNlhFYi14ZVRPLVg3NlE?oc=5",
     "source": "gnews_macro",
     "published_utc": "2026-10-20T09:53:52+00:00",
-    "score": 8.37,
+    "score": 8.33,
+    "duplicates": 0
+   },
+   {
+    "id": "c5de9ebee3",
+    "title": "Nasdaq Futures Slip as AI Stocks Resume Slide, Oil Jumps; SpaceX Earnings on Tap - Barchart.com",
+    "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPTGtPMVduaC1xMzlyODUzRWZrUnlYcHY2T3JBdURoV19nNjBOSGg1WWR3dm1ZcDRxbktCUmVqZU81MURyTzU1N1c2bUJDYzJuTUpRb1ltU2kwTVhUUVdjeDNYNWEwV1VCdkh5aFVXTV90ZDEyZWRVZ05lOHJsRXVnWnpqS2ZrSFVHRWxSNG03MGxOSHVQWHQ2U3dWZGVhVXE3Y2YtZENhUVBQU3llUlFBd29wX0YzN3dnNC1UZmNvSQ?oc=5",
+    "source": "gnews_futures",
+    "published_utc": "2026-10-20T10:35:31+00:00",
+    "score": 7.94,
     "duplicates": 0
    },
    {
@@ -2713,8 +2738,17 @@
     "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPNFRxT3JwM1BxR3VxQ1I1a1BCSkNJUmNIQ1lUXzF0M1M3WUNRM0M0NWx5aVpwd0dKUnFpQjBGbHpueXJwa01OMnpueWtYZUoxRFVSQXpTOWRicy1TbDVnOUJZb011M1hEeVE2YW93YkZQdTFKb1ZreEhlaHI5ZUVObUc2ZzZEaElMZDlKeGlDc2s1TDFIYWVOaDQzR3Z4SFJ5M2dqSk14YVYtTnJkckdXOEFYOU5zVjcxc294bUxxVWhobm90S294c3ZrQQ?oc=5",
     "source": "gnews_macro",
     "published_utc": "2026-10-20T09:04:41+00:00",
-    "score": 7.73,
+    "score": 7.69,
     "duplicates": 2
+   },
+   {
+    "id": "ea3e50ffb5",
+    "title": "Crude Surge Among Three Reasons Why US Stock Futures Are Under Pressure - NDTV Profit",
+    "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxORWJkR0lOMlhNNl94X3BmRmhzVDVCQXQyamhyZGFoS25CZy14MHg1eW1aaEVvSm9FemhibnFIaEMxZHVQUW1JS0RNalVNUndQXzRKY1R0c1YwLXQ3dGlDbXpyMWMxeC1hMG9KZHB2UWF1RnlDakROQXN4c3pzdzVZdEx4S3VPWUUzNlV1akE4YVlpenl2d05CRVkteDFYb1NQRDdkWGNpVlBkVDlCRllhTEl2Z0VrZ9IBvgFBVV95cUxPTzJWR0djRlhKUC1ZR3FMalVEeXY4RHZ4dXNHWl9QT2NRZDNSQ1JYV0lwSmxNVEdSZzZFSG5SQlJlb2dsN0JZcDZqV1lXU2R5UFVtODdvM3JwUkVEcnJ5YzNqWGJySk81ZkJEYWYyVnZJU2J4Y2R3UTBhbjFKQkNGZndpNDZnZzJabXAtdTFiMF90OEdhUllyS1NXMUZxWl95cWY2dFF5bDBOcGJieUp2ZmRFYmdja01fUFFaRFZ3?oc=5",
+    "source": "gnews_futures",
+    "published_utc": "2026-10-20T10:43:52+00:00",
+    "score": 7.47,
+    "duplicates": 0
    },
    {
     "id": "5bdb337c72",
@@ -2722,7 +2756,7 @@
     "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOT2JsXzZ4YTVKcDJjNE9iTW42aU0wY0VOZXRtdDYxTzJTanBUOGZIT1FLSl9FVTNxQ1RpTVFSWHlsejgyR0Y1b3JQWXRlT0dEMjJPWWpXYlpfdFJQaHZKZG5KdUNMdW53NmlMd2RwUWJKWFB3dE9Xc2ZBbnRfalF3cWNzblhxTGJOTGlKYUh1a0FmWC1vaGQydWZXdTMzemJjSVg5NWZ0bw?oc=5",
     "source": "gnews_futures",
     "published_utc": "2026-10-20T10:14:26+00:00",
-    "score": 7.43,
+    "score": 7.39,
     "duplicates": 1
    },
    {
@@ -2731,7 +2765,7 @@
     "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNOHY5QVRILW9reEFLcmw2eDYxZGhTaFRXV2kyQTMxYnRSQ1dyblRLQXQ0TTdkUklNLVJYQVBlLVZVUGM4MGstbzZveW53aEttemVaWXYxSnJXWE9aejVBYV9yT0NmM1ZRVTBaWmRmWW5yVlc5NFpjQURxSlk0YnFFd250dGxCeXdhNl96RUplNGZtMDhfR2FR?oc=5",
     "source": "gnews_fed",
     "published_utc": "2026-10-20T10:03:10+00:00",
-    "score": 7.4,
+    "score": 7.35,
     "duplicates": 0
    },
    {
@@ -2740,7 +2774,7 @@
     "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOc0toSGR0YWJublNVdGMtMEVsOEJRYnpoSjd4M1Bic3ZXOGRpNzUtcWZ5N2xfRXlQa1o4c3ZNSUdKcnFqLVppdWRYS3VEaUVnNGVNbkF5MGxDcDlINTFhbzFKX1pzbGpya2lRQ1I2dmFwRVBlbWhlQ0FERFFQTFFpVTJR?oc=5",
     "source": "gnews_macro",
     "published_utc": "2026-10-20T09:00:00+00:00",
-    "score": 7.22,
+    "score": 7.18,
     "duplicates": 0
    },
    {
@@ -2749,16 +2783,7 @@
     "link": "https://www.cnbc.com/2026/10/20/copper-prices-ai-spending-demand.html",
     "source": "cnbc_markets",
     "published_utc": "2026-10-20T05:57:34+00:00",
-    "score": 7.21,
-    "duplicates": 0
-   },
-   {
-    "id": "af8328add6",
-    "title": "Gold prices declined amid cautious anticipation of the Federal Reserve meeting and US inflation data - صوت الإمارات",
-    "link": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxQNGpmNi1XRDhWenJST2VFYXJ3Z0JWTjNGMnFRS0k4Z21weEx3ZEg4bDFPRXR2UXIzNXViRVNtVjJObkhDdEJVWVJuaTJnQ3loNXBHSnZ4RmVacHVla3ZNNkVidnZKRHcybGRHeGRIZ0d2T1hzTXBWeEt0TnliU21FM2FqaFFfMVd1UEJzQmdnU1pGajZBUzYtT0ZZSmFxQUJ1TDRGNmdJdWNTbEJRT3hrVUlYV1pFRXpEVjVjbl9WX09mSVNyRm9SN0NJWjNER1dDWV9hNUJtR1N3Qm94eVNKbWhuT2xoQjA?oc=5",
-    "source": "gnews_fed",
-    "published_utc": "2026-10-20T07:43:36+00:00",
-    "score": 7.01,
+    "score": 7.17,
     "duplicates": 0
    },
    {
@@ -2771,21 +2796,12 @@
     "duplicates": 1
    },
    {
-    "id": "a75b09551d",
-    "title": "Why Are Nasdaq Futures Falling Premarket? CRWV, NBIS, TSLA, SPCX, MU, ASTS, NFLX, SLS Stocks In Focus - Stocktwits",
-    "link": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxQN1p2UDR2QnVsRTFYeFB5RDk1TVRBYWttcTdxWG1oa2cwT1gya21NNEM4d0FQWXhfYlR2UTREVkJYZHU2WldMcDVCZ0ljblVwb2lLemN5bjlxM2s4NElCdjhCa29ENXZRcm03SW5fZmZuUUE4N3Z4SEpNVmJUNjBCTmE3N2ZkaUgtOERVbWJYdF9IbEk5ZTFBeG9xSHdReEQ4VDZRMHlxejROX3AxRUF5Yl9pdVdtQ0djbHV6QzZZS0FBTy1wSVM2Z2p5RnplWU1FY1NLRUE0b3djTF9LaGNOS21odXJMaUhMZml2clhn?oc=5",
-    "source": "gnews_futures",
-    "published_utc": "2026-10-20T08:52:00+00:00",
-    "score": 6.7,
-    "duplicates": 0
-   },
-   {
-    "id": "c4db89fe9f",
-    "title": "Jim Cramer Has a Warning for AI Data Center Investors - Alphabet (NASDAQ:GOOGL) - Benzinga",
-    "link": "https://news.google.com/rss/articles/CBMimAJBVV95cUxQa2ZOTFlkdU1Qemt2czVrQnQ1ZkRETTlqNEdULWJaMFh2ZzRlVlRkVEFIRGFmOFBBVTBwNlEyNlpKZm00QlN5UHlzSlJQc0xwWGNjZ2E5dnZhV2RkZjRUM05zcFp4OVAzSEdaZ0hzcnZDUVJRLXZqbEhrOXVEVW9PS0tMcURJeFdqYVV6MS1VWldxTFo5YW96UEE3QUpoZjNLellkbU1hV3JOQWpRTkN3VlUyT0dzNmExN05RSF8zTFczRkQzbGRuaDVmSkJiLWhiZXprd0dMUzAwc3dTNzI1ZGh0UDJWbi1jWGMwcTktTHRGMV9XY1IyX3k3TzQ3STM1bnBGQ2s3bDMyRU5nT3VXUVV0VTZpVWo2?oc=5",
-    "source": "gnews_megacap",
-    "published_utc": "2026-10-20T08:31:55+00:00",
-    "score": 6.64,
+    "id": "e2a8ad836c",
+    "title": "U.S. oil surges to top $107, Brent crude at five-month high amid Mideast tensions",
+    "link": "https://www.cnbc.com/2026/10/20/oil-price-wti-brent-crude.html",
+    "source": "cnbc_markets",
+    "published_utc": "2026-10-20T10:48:27+00:00",
+    "score": 6.98,
     "duplicates": 0
    }
   ],
@@ -2794,8 +2810,8 @@
     "Gold dips as oil prices fuel inflation fears, Fed outlook in focus - Investing.com [95314736ff]",
     "Can Wall Street’s Selloff Convince the Fed to Hold Interest Rates? - Modern Diplomacy [dc2b13bdf3]",
     "Gold Prices Fall for Third Session as Oil-Driven Inflation Concerns Shift Focus to Fed Rates - Yahoo Finance [70fcc7b480]",
-    "President Donald Trump Claims, \"We Don't Have Inflation, and Tariffs Don't Cause Inflation,\" but a New Report Strongly Disagrees - The Motley Fool [577cbc5248]",
-    "Nasdaq futures dip as oil prices climb, earnings loom - Reuters [5bdb337c72]"
+    "Nasdaq Futures Slip as AI Stocks Resume Slide, Oil Jumps; SpaceX Earnings on Tap - Barchart.com [c5de9ebee3]",
+    "President Donald Trump Claims, \"We Don't Have Inflation, and Tariffs Don't Cause Inflation,\" but a New Report Strongly Disagrees - The Motley Fool [577cbc5248]"
    ],
    "backend": "none",
    "model": null,
