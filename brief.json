@@ -1,7 +1,7 @@
 {
  "meta": {
-  "generated_at_utc": "2026-10-21T10:40:25.071328+00:00",
-  "generated_at_local": "Wed 21 Oct 2026 07:40 ADT",
+  "generated_at_utc": "2026-10-21T10:55:49.279106+00:00",
+  "generated_at_local": "Wed 21 Oct 2026 07:55 ADT",
   "trading_day": "2026-10-21",
   "display_tz": "America/Halifax",
   "version": "0.1.0",
@@ -55,7 +55,7 @@
    "time_utc": "2026-10-21T17:00:00+00:00",
    "local": "14:00 ADT",
    "et": "13:00 ET",
-   "in": "6h 19m",
+   "in": "6h 04m",
    "consensus": null,
    "prior": null
   },
@@ -66,10 +66,10 @@
   {
    "root": "ES",
    "trading_day": "2026-10-21",
-   "as_of_utc": "2026-10-21T10:40:25.071328+00:00",
+   "as_of_utc": "2026-10-21T10:55:49.279106+00:00",
    "source": "yahoo",
    "delayed": true,
-   "last_price": 7764.75,
+   "last_price": 7769.75,
    "levels": [
     {
      "tag": "exp_hi",
@@ -97,7 +97,7 @@
      "label": "Overnight high",
      "price": 7793.0,
      "group": "overnight",
-     "note": "since 18:00 ET, 720 bars"
+     "note": "since 18:00 ET, 735 bars"
     },
     {
      "tag": "wh",
@@ -130,7 +130,7 @@
     {
      "tag": "onvwap",
      "label": "Overnight VWAP",
-     "price": 7773.41,
+     "price": 7773.2,
      "group": "overnight",
      "note": "typical-price VWAP"
     },
@@ -213,14 +213,14 @@
     }
    ],
    "stats": {
-    "last_bar_utc": "2026-10-21T10:30:00+00:00",
-    "last_bar_age_min": 10.4,
+    "last_bar_utc": "2026-10-21T10:45:00+00:00",
+    "last_bar_age_min": 10.8,
     "market_state": "open",
     "profile_volume": 1273074.0,
     "prior_day": "2026-10-20",
     "prior_day_rth_range": 81.25,
     "overnight_range": 36.0,
-    "gap_vs_prior_close": 5.75,
+    "gap_vs_prior_close": 10.75,
     "gap_basis": "last price (pre-market)",
     "atr14": 82.07,
     "atr_days": 14,
@@ -1368,9 +1368,17 @@
     {
      "t": "2026-10-21T10:30:00+00:00",
      "o": 7764.75,
-     "h": 7765.25,
+     "h": 7770.75,
      "l": 7762.75,
-     "c": 7764.75,
+     "c": 7770.5,
+     "v": 4925.0
+    },
+    {
+     "t": "2026-10-21T10:45:00+00:00",
+     "o": 7770.5,
+     "h": 7770.75,
+     "l": 7769.25,
+     "c": 7769.75,
      "v": 0.0
     }
    ]
@@ -1378,10 +1386,10 @@
   {
    "root": "NQ",
    "trading_day": "2026-10-21",
-   "as_of_utc": "2026-10-21T10:40:25.071328+00:00",
+   "as_of_utc": "2026-10-21T10:55:49.279106+00:00",
    "source": "yahoo",
    "delayed": true,
-   "last_price": 29780.25,
+   "last_price": 29820.25,
    "levels": [
     {
      "tag": "exp_hi",
@@ -1402,7 +1410,7 @@
      "label": "Overnight high",
      "price": 30010.25,
      "group": "overnight",
-     "note": "since 18:00 ET, 722 bars"
+     "note": "since 18:00 ET, 737 bars"
     },
     {
      "tag": "wh",
@@ -1419,11 +1427,25 @@
      "note": "2026-10-20"
     },
     {
+     "tag": "rn_major_up",
+     "label": "Round 100 above",
+     "price": 29900.0,
+     "group": "round",
+     "note": ""
+    },
+    {
      "tag": "onvwap",
      "label": "Overnight VWAP",
-     "price": 29892.19,
+     "price": 29890.5,
      "group": "overnight",
      "note": "typical-price VWAP"
+    },
+    {
+     "tag": "rn_minor_up",
+     "label": "Round 50 above",
+     "price": 29850.0,
+     "group": "round",
+     "note": ""
     },
     {
      "tag": "vah",
@@ -1433,8 +1455,8 @@
      "note": "70 % value area"
     },
     {
-     "tag": "rn_major_up",
-     "label": "Round 100 above",
+     "tag": "rn_major_dn",
+     "label": "Round 100 below",
      "price": 29800.0,
      "group": "round",
      "note": ""
@@ -1447,24 +1469,10 @@
      "note": "2026-10-20 RTH, bin 1.0"
     },
     {
-     "tag": "rn_minor_dn",
-     "label": "Round 50 below",
-     "price": 29750.0,
-     "group": "round",
-     "note": ""
-    },
-    {
      "tag": "onl",
      "label": "Overnight low",
      "price": 29727.5,
      "group": "overnight",
-     "note": ""
-    },
-    {
-     "tag": "rn_major_dn",
-     "label": "Round 100 below",
-     "price": 29700.0,
-     "group": "round",
      "note": ""
     },
     {
@@ -1518,14 +1526,14 @@
     }
    ],
    "stats": {
-    "last_bar_utc": "2026-10-21T10:30:00+00:00",
-    "last_bar_age_min": 10.4,
+    "last_bar_utc": "2026-10-21T10:45:00+00:00",
+    "last_bar_age_min": 10.8,
     "market_state": "open",
     "profile_volume": 491774.00000000006,
     "prior_day": "2026-10-20",
     "prior_day_rth_range": 511.75,
     "overnight_range": 282.75,
-    "gap_vs_prior_close": 92.5,
+    "gap_vs_prior_close": 132.5,
     "gap_basis": "last price (pre-market)",
     "atr14": 543.12,
     "atr_days": 14,
@@ -2672,10 +2680,18 @@
     },
     {
      "t": "2026-10-21T10:30:00+00:00",
-     "o": 29778.25,
-     "h": 29782.75,
+     "o": 29778.0,
+     "h": 29827.5,
      "l": 29767.0,
-     "c": 29780.25,
+     "c": 29825.5,
+     "v": 2277.0
+    },
+    {
+     "t": "2026-10-21T10:45:00+00:00",
+     "o": 29826.25,
+     "h": 29827.25,
+     "l": 29819.25,
+     "c": 29820.25,
      "v": 0.0
     }
    ]
@@ -2684,12 +2700,21 @@
  "news": {
   "headlines": [
    {
+    "id": "7822249a26",
+    "title": "Nasdaq Futures Gain as SpaceX Rekindles AI Optimism; Meta and Tesla Earnings on Tap - Barchart.com",
+    "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNNXJHLTJPY09TWTV4aE1SUERqMFk1SDIxeUdsblF3bTBFM3E4dXhpX3lHdzhGc3RKNThGLTNkZ2xGTmdWaXA1OENiakhneDczUDNNQkFhNDE1VF9IS0ZPeWxZT2hvanBwbklhU1hpWHUzblp3dGRUS2ZnelpGTFJEQWxjWEozVUw0S21fNXBBREVFU2d3ckY2ZzFMV3p6RW9aazd5UjFOUXZMRVJ1cjdCNF9waERqSl9IREx5Z0xkTHRldUJC?oc=5",
+    "source": "gnews_futures",
+    "published_utc": "2026-10-21T10:34:11+00:00",
+    "score": 9.44,
+    "duplicates": 1
+   },
+   {
     "id": "1282242a27",
     "title": "UK inflation jumps to 3.5% — cementing rate hike expectations",
     "link": "https://www.cnbc.com/2026/10/21/inflation-uk-cpi-interest-rates.html",
     "source": "cnbc_markets",
     "published_utc": "2026-10-21T07:50:10+00:00",
-    "score": 8.53,
+    "score": 8.48,
     "duplicates": 1
    },
    {
@@ -2698,7 +2723,7 @@
     "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOazVLcDItRGFmTHc0VFY0M3FhV1B4Ymg2NUl0eGRDc0JHb25hUkZrblhjelAzM3JjYVU5Z1BMald1NFZRSVhFcFVLcFB5MmhLYlktcVVrREN1aHk1bGNKaEdHejB3cHVmUzFvaXIwaHc1WEFnQS1QczNHVHNNOFhtUTBkZWFhdGtacXpwQ1BjbW1kV1FGQU90VA?oc=5",
     "source": "gnews_futures",
     "published_utc": "2026-10-21T09:47:45+00:00",
-    "score": 8.35,
+    "score": 8.31,
     "duplicates": 1
    },
    {
@@ -2707,7 +2732,7 @@
     "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQbnUwRElSUTlnMGw0SWlCbEpiSnJCSU1vSzVCRlFZa0J2eFFIWGNuWlJlaGN6SmthX2ZyZlE3U2xsbkh2WW9Lek44NkgyeFpOUXd4RDUtSWI3R1M4cXNGY1JPbXpPNm5MalRKOW9PbTg3ME45SFAyTTl2MlFwQ1k3c3VQV2gxYWUtYVktdTJSdTB2dEp4UzRXTzlPQ0RTTjNPYXZz?oc=5",
     "source": "gnews_futures",
     "published_utc": "2026-10-21T08:41:06+00:00",
-    "score": 8.17,
+    "score": 8.13,
     "duplicates": 1
    },
    {
@@ -2716,7 +2741,7 @@
     "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPQkUxWWNmVENYWHNyd3ZtSlV1SGVPSGpFdXl0dm5GWHpVVktsMi1wZ3RmdG4xdkV4SUpmaVMxLTFhQkpDLUs0VDdWOXZnVGZidXVZRGdkOUFNS0E4Tmd2Z3VLZ0wyUjY3SGptbjZnLWp5TUVJekdodHdId0trTWFWUTZQT09YVWluWkdCNFBIaFhfYjZRQkRfNEVRS21PV181TlQyaklJNVM1Qm8?oc=5",
     "source": "gnews_fed",
     "published_utc": "2026-10-21T10:00:10+00:00",
-    "score": 7.89,
+    "score": 7.85,
     "duplicates": 1
    },
    {
@@ -2725,7 +2750,7 @@
     "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQNlAyblFGLUlJSVhLQkFHWGk4QzRlMWloQUw1SXRrNUpjY0VFaGhqZXM2S3FRNWJjZHlqVHY2RHZoOTdKNkttcTJtZmIwZ2lVYXAzR3B5WHRzaVM2Y21HY2pfajN4Ym1WWkszR29Va2lkc1pFTnlJd3RZQUtvZExVNVdLd1hOOEx4VHNnaEtYN1l6SDVBNlJiQ0RtRUlRX3RTam9BN18yUWY?oc=5",
     "source": "gnews_megacap",
     "published_utc": "2026-10-21T09:15:00+00:00",
-    "score": 7.76,
+    "score": 7.72,
     "duplicates": 0
    },
    {
@@ -2734,7 +2759,7 @@
     "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxQMWppdy12Wl9VdHZZb05uRHdaeDh5ajJjZ0FRdF9iN0FqRzZHei16UWRWRXlwU1JRcklZRVZpWnc2SmlUcV9mc1dpVjlUdkZDeHZnYVozYzNrZld5aXNDTUNJdkhKeXFDNTNHUy1WRk9MUE5EYTVneWMxTzM4VDNoM2M0cTY1Mmx5Yk9DM3YyNFE3Y2x1WFI1cm1EQ3ljUQ?oc=5",
     "source": "gnews_fed",
     "published_utc": "2026-10-21T09:50:44+00:00",
-    "score": 7.36,
+    "score": 7.32,
     "duplicates": 0
    },
    {
@@ -2743,7 +2768,7 @@
     "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPTlp1R2VXaXJ1WWU4am5yYVpMeFFab0FLbzdfemR2RWpGTWx5ZnY4MEthdmFCbHF0X2xfcWNKUXRfT3QzeURpZkxicFBab2Z4bFhLY09Td1ZOaHpPanlPQ2dWM29peDVVSE5MMklrVllqOGlUV2UyV01nelpSNHhOX3hpZ3BocFhOaDUwNzVQdkUtSmJjRlVScnBB?oc=5",
     "source": "gnews_macro",
     "published_utc": "2026-10-21T09:50:00+00:00",
-    "score": 7.36,
+    "score": 7.32,
     "duplicates": 0
    },
    {
@@ -2752,7 +2777,7 @@
     "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNbTJsX1NtRDJUT3dRdnJmeUtkN0RLNF9GWkl4WEZxWTY5dmtJRkxPVEJfajFoRnR1TUV4d2VNUXJFdXhVZDA0a2hsb2pESHdYdFlWTGZaZ1RtVk9SdldFMURxWk5MN1dVWXJuSFRWaU5EdllXbzZjelJwMzFvT2tDajNGMGtLcVJpNmJ0Q0hweVRnWGdIMDVHVzRuUkpBcTc1WE5mZGgyRjA?oc=5",
     "source": "gnews_macro",
     "published_utc": "2026-10-21T08:52:55+00:00",
-    "score": 7.2,
+    "score": 7.16,
     "duplicates": 0
    },
    {
@@ -2761,7 +2786,7 @@
     "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOSmEtOENDbk1wMmlSbkM0MHdhdTNrM245Y09fcWJYZHlVVWJZakV1cVFVRjhXMThHb0lHTHU5dE5RVEdYdHpZTS13UVk2MWlZWjB3czlQTFd5MVp1QlJ6QWthV2tlc3pmVTlKQU9FYmtQVklNYk1STzR3TTg4Qk94Y0hIeGFoSTVxOUJ2YWVUcw?oc=5",
     "source": "gnews_futures",
     "published_utc": "2026-10-21T08:43:00+00:00",
-    "score": 7.17,
+    "score": 7.13,
     "duplicates": 0
    },
    {
@@ -2770,35 +2795,26 @@
     "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNX09tZldBMmVJcjJ0bTFtWGNBUkhzVENHbDg2Q0dBOG5BV3J0XzdrLVdSdmNzWE95Ui1tYW9iY1BSQjctWUl1bGUzbjJTTFJnYlgwTUU3aUl3UjJMeFpSWlBkREpwc21IVEJDOWRoSEVfUlgxMmJ3UWE0X1FTNm85TjJNSFFfc0l5U0poa0NuY3E1c3lVVEE?oc=5",
     "source": "gnews_macro",
     "published_utc": "2026-10-21T08:07:00+00:00",
-    "score": 7.07,
+    "score": 7.03,
     "duplicates": 0
    },
    {
-    "id": "fe23e1f42d",
-    "title": "Nasdaq futures lead gains as SpaceX, Super Micro results lift AI trade - StreetInsider",
-    "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxONHZpN0IzbW50VEIxV3U5aDg0MlZlN3E1aW9fUC1tZk1TckJESVVBMnVKR044Yzl4NlUtQlBxZXBlalVSUEF0MmF4M1JEYlRFdXFlbi14eWNQeDR2eU0wTFIzVXdfZURhLTZBcm5WQ2puMVc5Mm9LQkZLaFA1bmFJRldjRFlYNzBVRnJNeFQ5eVpfYW5tRVVqT0ZPdmw0WkFzUWVyVHhSU3hieWx6Wkl3cDVndUNaX0dNQXI3Ty0wREZqdw?oc=5",
+    "id": "d8bfdb78df",
+    "title": "Nasdaq futures lead gains as SpaceX, Super Micro results lift AI trade By Reuters - Investing.com",
+    "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQMms4R0xKUGtwd0M2aWJyOEhmdG9UakVKay01bDlVcVZISlZJUEVFbFJWYWdfTmJIMlU0MVdubVFya3o4cjV2dUZPVkl4QmJJWkg1QVlmN3RMWHpGNGFLMlE0UG9WRTJkWTRSQUZSTmNYZXJDOXJvdlB5UmJqU2NfT1hZbEF1UkdkLTJjWFBaUG85OWN6TUkwSmJIc2pHRDNEZHdsblJPc2lwQXRWazY1RFE0aG16bWE3Y09VNF9n?oc=5",
     "source": "gnews_futures",
-    "published_utc": "2026-10-21T10:32:13+00:00",
-    "score": 6.98,
+    "published_utc": "2026-10-21T10:41:15+00:00",
+    "score": 6.96,
     "duplicates": 2
-   },
-   {
-    "id": "f4b3ac04e5",
-    "title": "In the battle for AI supremacy, China is only six months behind the U.S — but that means it’s winning, says former Google CEO",
-    "link": "https://www.marketwatch.com/story/in-the-battle-for-ai-supremacy-china-is-only-six-months-behind-the-u-s-but-that-means-theyre-winning-says-former-google-ceo-82d71e7a?mod=mw_rss_topstories",
-    "source": "marketwatch_top",
-    "published_utc": "2026-10-21T10:12:00+00:00",
-    "score": 6.92,
-    "duplicates": 0
    }
   ],
   "summary": {
    "lines": [
+    "Nasdaq Futures Gain as SpaceX Rekindles AI Optimism; Meta and Tesla Earnings on Tap - Barchart.com [7822249a26]",
     "UK inflation jumps to 3.5% — cementing rate hike expectations [1282242a27]",
     "US Stock Futures Edge Higher as SpaceX and Tesla Explore Merger and Meta Earnings Approach: Dow Jones, S&P, Nasdaq, Wall Street - Yahoo Finance [f8d6a48657]",
     "Nasdaq Futures Rise Premarket As SpaceX AI Boom Lifts Chip Stocks: SMCI, TSLA, META, IBM, CRWV, NFLX, BE In Focus - Yahoo Finance [d9c9b20534]",
-    "Sticky Inflation Is Testing the Fed’s Resolve - Bloomberg.com [63c6d70838]",
-    "Wall Street is going into Tesla's Q3 earnings looking for fresh merger clues and AI updates - Business Insider [d8cc413be0]"
+    "Sticky Inflation Is Testing the Fed’s Resolve - Bloomberg.com [63c6d70838]"
    ],
    "backend": "none",
    "model": null,
