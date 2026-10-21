@@ -1,11 +1,11 @@
 {
  "meta": {
-  "generated_at_utc": "2026-10-21T12:27:29.625925+00:00",
-  "generated_at_local": "Wed 21 Oct 2026 09:27 ADT",
+  "generated_at_utc": "2026-10-21T12:42:46.000102+00:00",
+  "generated_at_local": "Wed 21 Oct 2026 09:42 ADT",
   "trading_day": "2026-10-21",
   "display_tz": "America/Halifax",
   "version": "0.1.0",
-  "run": "overnight",
+  "run": "post-data",
   "variant": "public"
  },
  "calendar": {
@@ -55,7 +55,7 @@
    "time_utc": "2026-10-21T17:00:00+00:00",
    "local": "14:00 ADT",
    "et": "13:00 ET",
-   "in": "4h 32m",
+   "in": "4h 17m",
    "consensus": null,
    "prior": null
   },
@@ -66,10 +66,10 @@
   {
    "root": "ES",
    "trading_day": "2026-10-21",
-   "as_of_utc": "2026-10-21T12:27:29.625925+00:00",
+   "as_of_utc": "2026-10-21T12:42:46.000102+00:00",
    "source": "yahoo",
    "delayed": true,
-   "last_price": 7774.75,
+   "last_price": 7778.75,
    "levels": [
     {
      "tag": "exp_hi",
@@ -97,7 +97,7 @@
      "label": "Overnight high",
      "price": 7793.0,
      "group": "overnight",
-     "note": "since 18:00 ET, 827 bars"
+     "note": "since 18:00 ET, 842 bars"
     },
     {
      "tag": "wh",
@@ -121,8 +121,8 @@
      "note": "70 % value area"
     },
     {
-     "tag": "rn_minor_up",
-     "label": "Round 25 above",
+     "tag": "rn_minor_dn",
+     "label": "Round 25 below",
      "price": 7775.0,
      "group": "round",
      "note": ""
@@ -130,7 +130,7 @@
     {
      "tag": "onvwap",
      "label": "Overnight VWAP",
-     "price": 7773.33,
+     "price": 7773.49,
      "group": "overnight",
      "note": "typical-price VWAP"
     },
@@ -213,14 +213,14 @@
     }
    ],
    "stats": {
-    "last_bar_utc": "2026-10-21T12:17:00+00:00",
-    "last_bar_age_min": 10.5,
+    "last_bar_utc": "2026-10-21T12:32:00+00:00",
+    "last_bar_age_min": 10.8,
     "market_state": "open",
     "profile_volume": 1273074.0,
     "prior_day": "2026-10-20",
     "prior_day_rth_range": 81.25,
     "overnight_range": 36.0,
-    "gap_vs_prior_close": 15.75,
+    "gap_vs_prior_close": 19.75,
     "gap_basis": "last price (pre-market)",
     "atr14": 82.07,
     "atr_days": 14,
@@ -1424,20 +1424,28 @@
     {
      "t": "2026-10-21T12:15:00+00:00",
      "o": 7773.25,
-     "h": 7775.25,
+     "h": 7780.25,
      "l": 7772.5,
-     "c": 7774.75,
-     "v": 880.0
+     "c": 7779.75,
+     "v": 10643.0
+    },
+    {
+     "t": "2026-10-21T12:30:00+00:00",
+     "o": 7779.5,
+     "h": 7779.5,
+     "l": 7775.0,
+     "c": 7778.75,
+     "v": 2126.0
     }
    ]
   },
   {
    "root": "NQ",
    "trading_day": "2026-10-21",
-   "as_of_utc": "2026-10-21T12:27:29.625925+00:00",
+   "as_of_utc": "2026-10-21T12:42:46.000102+00:00",
    "source": "yahoo",
    "delayed": true,
-   "last_price": 29857.5,
+   "last_price": 29875.0,
    "levels": [
     {
      "tag": "exp_hi",
@@ -1458,7 +1466,7 @@
      "label": "Overnight high",
      "price": 30010.25,
      "group": "overnight",
-     "note": "since 18:00 ET, 829 bars"
+     "note": "since 18:00 ET, 844 bars"
     },
     {
      "tag": "wh",
@@ -1484,7 +1492,7 @@
     {
      "tag": "onvwap",
      "label": "Overnight VWAP",
-     "price": 29886.53,
+     "price": 29886.09,
      "group": "overnight",
      "note": "typical-price VWAP"
     },
@@ -1574,14 +1582,14 @@
     }
    ],
    "stats": {
-    "last_bar_utc": "2026-10-21T12:17:00+00:00",
-    "last_bar_age_min": 10.5,
+    "last_bar_utc": "2026-10-21T12:32:00+00:00",
+    "last_bar_age_min": 10.8,
     "market_state": "open",
     "profile_volume": 491774.00000000006,
     "prior_day": "2026-10-20",
     "prior_day_rth_range": 511.75,
     "overnight_range": 282.75,
-    "gap_vs_prior_close": 169.75,
+    "gap_vs_prior_close": 187.25,
     "gap_basis": "last price (pre-market)",
     "atr14": 543.12,
     "atr_days": 14,
@@ -2785,10 +2793,18 @@
     {
      "t": "2026-10-21T12:15:00+00:00",
      "o": 29849.75,
-     "h": 29862.0,
+     "h": 29894.75,
      "l": 29846.25,
-     "c": 29857.5,
-     "v": 261.0
+     "c": 29887.75,
+     "v": 3400.0
+    },
+    {
+     "t": "2026-10-21T12:30:00+00:00",
+     "o": 29887.0,
+     "h": 29887.75,
+     "l": 29854.0,
+     "c": 29875.0,
+     "v": 656.0
     }
    ]
   }
@@ -2801,7 +2817,7 @@
     "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNNXJHLTJPY09TWTV4aE1SUERqMFk1SDIxeUdsblF3bTBFM3E4dXhpX3lHdzhGc3RKNThGLTNkZ2xGTmdWaXA1OENiakhneDczUDNNQkFhNDE1VF9IS0ZPeWxZT2hvanBwbklhU1hpWHUzblp3dGRUS2ZnelpGTFJEQWxjWEozVUw0S21fNXBBREVFU2d3ckY2ZzFMV3p6RW9aazd5UjFOUXZMRVJ1cjdCNF9waERqSl9IREx5Z0xkTHRldUJC?oc=5",
     "source": "gnews_futures",
     "published_utc": "2026-10-21T10:34:11+00:00",
-    "score": 9.19,
+    "score": 9.14,
     "duplicates": 1
    },
    {
@@ -2810,7 +2826,7 @@
     "link": "https://www.cnbc.com/2026/10/21/inflation-uk-cpi-interest-rates.html",
     "source": "cnbc_markets",
     "published_utc": "2026-10-21T07:50:10+00:00",
-    "score": 8.23,
+    "score": 8.19,
     "duplicates": 1
    },
    {
@@ -2819,7 +2835,7 @@
     "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOazVLcDItRGFmTHc0VFY0M3FhV1B4Ymg2NUl0eGRDc0JHb25hUkZrblhjelAzM3JjYVU5Z1BMald1NFZRSVhFcFVLcFB5MmhLYlktcVVrREN1aHk1bGNKaEdHejB3cHVmUzFvaXIwaHc1WEFnQS1QczNHVHNNOFhtUTBkZWFhdGtacXpwQ1BjbW1kV1FGQU90VA?oc=5",
     "source": "gnews_futures",
     "published_utc": "2026-10-21T09:47:45+00:00",
-    "score": 8.06,
+    "score": 8.01,
     "duplicates": 1
    },
    {
@@ -2828,7 +2844,7 @@
     "link": "https://news.google.com/rss/articles/CBMi_gFBVV95cUxNZTB0LUxESHVjTENJN0RQZFNXb3h2Xy1oZnhKc1hDcUxub3ItNFJTM0tyVEhWM2taWDhXQUtqcF83dV9nVWp5WVp4ZldWNEM5bUdUX01iak5QaXIxNXVOaVcyUEtzbUVOV2dGaklsLXhrTWtoWnVXRXc5SjRJUHV4YXppb1J3WEFhQTl5YjRkb043bm5vNFFrbWo4QWVHMkJGU2JPQ0xPdm4wTHNRQjZtdjFObk5pa1ZOQm5ucG5MbTVSOWdXb0tnTEVXcGx0NnF3STltZEROTHNfamt2a21hdmxNR1c3MUlQNDUzRm1aeVd3U1k1azNYNG1GNUh1QQ?oc=5",
     "source": "gnews_futures",
     "published_utc": "2026-10-21T11:56:28+00:00",
-    "score": 7.91,
+    "score": 7.87,
     "duplicates": 4
    },
    {
@@ -2837,7 +2853,7 @@
     "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQbnUwRElSUTlnMGw0SWlCbEpiSnJCSU1vSzVCRlFZa0J2eFFIWGNuWlJlaGN6SmthX2ZyZlE3U2xsbkh2WW9Lek44NkgyeFpOUXd4RDUtSWI3R1M4cXNGY1JPbXpPNm5MalRKOW9PbTg3ME45SFAyTTl2MlFwQ1k3c3VQV2gxYWUtYVktdTJSdTB2dEp4UzRXTzlPQ0RTTjNPYXZz?oc=5",
     "source": "gnews_futures",
     "published_utc": "2026-10-21T08:41:06+00:00",
-    "score": 7.87,
+    "score": 7.83,
     "duplicates": 1
    },
    {
@@ -2846,7 +2862,7 @@
     "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPQkUxWWNmVENYWHNyd3ZtSlV1SGVPSGpFdXl0dm5GWHpVVktsMi1wZ3RmdG4xdkV4SUpmaVMxLTFhQkpDLUs0VDdWOXZnVGZidXVZRGdkOUFNS0E4Tmd2Z3VLZ0wyUjY3SGptbjZnLWp5TUVJekdodHdId0trTWFWUTZQT09YVWluWkdCNFBIaFhfYjZRQkRfNEVRS21PV181TlQyaklJNVM1Qm8?oc=5",
     "source": "gnews_fed",
     "published_utc": "2026-10-21T10:00:10+00:00",
-    "score": 7.59,
+    "score": 7.55,
     "duplicates": 1
    },
    {
@@ -2855,7 +2871,7 @@
     "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQNlAyblFGLUlJSVhLQkFHWGk4QzRlMWloQUw1SXRrNUpjY0VFaGhqZXM2S3FRNWJjZHlqVHY2RHZoOTdKNkttcTJtZmIwZ2lVYXAzR3B5WHRzaVM2Y21HY2pfajN4Ym1WWkszR29Va2lkc1pFTnlJd3RZQUtvZExVNVdLd1hOOEx4VHNnaEtYN1l6SDVBNlJiQ0RtRUlRX3RTam9BN18yUWY?oc=5",
     "source": "gnews_megacap",
     "published_utc": "2026-10-21T09:15:00+00:00",
-    "score": 7.47,
+    "score": 7.42,
     "duplicates": 0
    },
    {
@@ -2864,7 +2880,7 @@
     "link": "https://www.marketwatch.com/story/musk-says-hes-exploring-a-spacex-tesla-megamerger-what-would-a-combined-company-be-worth-f35566aa?mod=mw_rss_topstories",
     "source": "marketwatch_top",
     "published_utc": "2026-10-21T11:39:00+00:00",
-    "score": 7.37,
+    "score": 7.32,
     "duplicates": 0
    },
    {
@@ -2873,7 +2889,7 @@
     "link": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxOeGpZbTZyNDNockRzazhUeVlUOXB4dzRTZ2FtcGFyUmJzQ2hpSXpYbklHOElVVHd3dzlXVktZTzZ5Q21DcWVYNXI1TWk0ZmZpN2dQbVhuXzNqZ240cVBtVVBWWGdvUEpkVWcyZlNJckN6MW1XQ2Uyenp1b1VnZE5ONllvbk8tc3ZqcDRuMThEbUswc05aLWpUYW5WRTR4T2ljcDBsY0F4WUM2aTRVWkw1cHM4X0NxVXkxSTRiV2k0QS1hV192ZE9CREtkQVU4cWtPcUFUU1ZMaW90QdIB4gFBVV95cUxONGxaXzc1Xy04VzMzZFJSaFBrQmZoWmZESUhaN2tiQW9NVDk3S0ZtUXFHVjMyMnlVMnluS2ZtWlZJZS1tMkhHT3ExSGxnbDdjNldNUU51ZnlnRmxVeFc0TVRLcE1INkNkN3ZhNFpyQkJ3SXNOWl9NdnNicnpMSTgyN2NhLW9lTG1GYndjNHNrMlFOdUZLWmkzbUhPUDhxZEM5ZzZnUjEtUXNxZU5rUkY3Zk9ZQmoyQ2l4SGJxZHlZZ0dueG9kczJ5UHNnUHk3dDQwU0lEa1BMNkE0WVVrZUJERk13?oc=5",
     "source": "gnews_futures",
     "published_utc": "2026-10-21T11:29:58+00:00",
-    "score": 7.34,
+    "score": 7.3,
     "duplicates": 0
    },
    {
@@ -2882,7 +2898,7 @@
     "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOWjRJemVrWGhJUEduNl9iY1hBSFNwMXJ4SEFrb0Z1VEpNQWNxMmljTE5nRDNUSnZFZVotMnNLQ2xoV0ppalNraXJIWUlDWTgyZ2tmUmN0ZHdXUGNLclRTVlNqczJCN0U3Znlsckl0d2JhaUd5LU1iRF96ektDZDZ3X1ZMTHg3dEk?oc=5",
     "source": "gnews_macro",
     "published_utc": "2026-10-21T11:29:30+00:00",
-    "score": 7.34,
+    "score": 7.3,
     "duplicates": 0
    },
    {
@@ -2891,7 +2907,7 @@
     "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxOMTFxV2Q1T3BEeG9mQmd5bk80VEh2Zkg2QnAzcDU2cVl4ZDVWZXZKd3dIblI5S2Y4cU13QkNiYjR2TWhtQThTZXBzeU1xalhRa0g1SGpUck8wRG1qU2ZLMjY0SHdrZ1dDeDN1ck9scmdtcnQ5MFdkUF9VdXRZNEoxbkVVUjYzdw?oc=5",
     "source": "gnews_macro",
     "published_utc": "2026-10-21T11:00:00+00:00",
-    "score": 7.26,
+    "score": 7.21,
     "duplicates": 0
    },
    {
@@ -2900,7 +2916,7 @@
     "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPTlp1R2VXaXJ1WWU4am5yYVpMeFFab0FLbzdfemR2RWpGTWx5ZnY4MEthdmFCbHF0X2xfcWNKUXRfT3QzeURpZkxicFBab2Z4bFhLY09Td1ZOaHpPanlPQ2dWM29peDVVSE5MMklrVllqOGlUV2UyV01nelpSNHhOX3hpZ3BocFhOaDUwNzVQdkUtSmJjRlVScnBB?oc=5",
     "source": "gnews_macro",
     "published_utc": "2026-10-21T09:56:12+00:00",
-    "score": 7.08,
+    "score": 7.04,
     "duplicates": 0
    }
   ],
@@ -2924,7 +2940,96 @@
  },
  "flags": [],
  "earnings": {
-  "reported": [],
+  "reported": [
+   {
+    "symbol": "NFLX",
+    "name": "Netflix, Inc.",
+    "timing": "unknown",
+    "date": "2026-10-20",
+    "reported_at": "10/20/2026",
+    "reported": true
+   },
+   {
+    "symbol": "SPCX",
+    "name": "Space Exploration Technologies Corp.",
+    "timing": "unknown",
+    "date": "2026-10-20",
+    "reported_at": "10/20/2026",
+    "reported": true
+   },
+   {
+    "symbol": "GE",
+    "name": "GE Aerospace",
+    "timing": "unknown",
+    "date": "2026-10-20",
+    "reported_at": "10/20/2026",
+    "reported": true
+   },
+   {
+    "symbol": "RTX",
+    "name": "RTX Corporation",
+    "timing": "unknown",
+    "date": "2026-10-20",
+    "reported_at": "10/20/2026",
+    "reported": true
+   },
+   {
+    "symbol": "ISRG",
+    "name": "Intuitive Surgical, Inc.",
+    "timing": "unknown",
+    "date": "2026-10-20",
+    "reported_at": "10/20/2026",
+    "reported": true
+   },
+   {
+    "symbol": "CB",
+    "name": "Chubb Limited",
+    "timing": "unknown",
+    "date": "2026-10-20",
+    "reported_at": "10/20/2026",
+    "reported": true
+   },
+   {
+    "symbol": "COF",
+    "name": "Capital One Financial Corporation",
+    "timing": "unknown",
+    "date": "2026-10-20",
+    "reported_at": "10/20/2026",
+    "reported": true
+   },
+   {
+    "symbol": "MMM",
+    "name": "3M Company",
+    "timing": "unknown",
+    "date": "2026-10-20",
+    "reported_at": "10/20/2026",
+    "reported": true
+   },
+   {
+    "symbol": "NOC",
+    "name": "Northrop Grumman Corporation",
+    "timing": "unknown",
+    "date": "2026-10-20",
+    "reported_at": "10/20/2026",
+    "reported": true
+   },
+   {
+    "symbol": "AMX",
+    "name": "America Movil, S.A.B. de C.V.",
+    "timing": "unknown",
+    "date": "2026-10-20",
+    "reported_at": "10/20/2026",
+    "reported": true
+   },
+   {
+    "symbol": "GM",
+    "name": "General Motors Company",
+    "timing": "unknown",
+    "date": "2026-10-20",
+    "reported_at": "10/20/2026",
+    "reported": true
+   }
+  ],
   "today": [
    {
     "symbol": "META",
