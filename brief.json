@@ -1,11 +1,11 @@
 {
  "meta": {
-  "generated_at_utc": "2026-10-21T16:01:57.891519+00:00",
-  "generated_at_local": "Wed 21 Oct 2026 13:01 ADT",
+  "generated_at_utc": "2026-10-21T20:05:01.867049+00:00",
+  "generated_at_local": "Wed 21 Oct 2026 17:05 ADT",
   "trading_day": "2026-10-21",
   "display_tz": "America/Halifax",
   "version": "0.1.0",
-  "run": "intraday",
+  "run": "post-close",
   "variant": "public"
  },
  "calendar": {
@@ -50,14 +50,14 @@
    }
   ],
   "next_event": {
-   "name": "20-Year bond auction (reopening)",
+   "name": "Unemployment Claims",
    "impact": "medium",
-   "time_utc": "2026-10-21T17:00:00+00:00",
-   "local": "14:00 ADT",
-   "et": "13:00 ET",
-   "in": "58 min",
-   "consensus": null,
-   "prior": null
+   "time_utc": "2026-10-22T12:30:00+00:00",
+   "local": "09:30 ADT",
+   "et": "08:30 ET",
+   "in": "16h 24m",
+   "consensus": "200K",
+   "prior": "199K"
   },
   "sources": [],
   "warnings": []
@@ -66,17 +66,45 @@
   {
    "root": "ES",
    "trading_day": "2026-10-21",
-   "as_of_utc": "2026-10-21T16:01:57.891519+00:00",
+   "as_of_utc": "2026-10-21T20:05:01.867049+00:00",
    "source": "yahoo",
    "delayed": true,
-   "last_price": 7795.5,
+   "last_price": 7804.0,
    "levels": [
+    {
+     "tag": "rn_major_up",
+     "label": "Round 50 above",
+     "price": 7850.0,
+     "group": "round",
+     "note": ""
+    },
     {
      "tag": "exp_hi",
      "label": "Expected-range high (close + ATR)",
      "price": 7841.07,
      "group": "range",
      "note": "ATR over 14 days"
+    },
+    {
+     "tag": "rn_minor_up",
+     "label": "Round 25 above",
+     "price": 7825.0,
+     "group": "round",
+     "note": ""
+    },
+    {
+     "tag": "tdh",
+     "label": "Today's RTH high",
+     "price": 7812.25,
+     "group": "today",
+     "note": "session complete"
+    },
+    {
+     "tag": "wh",
+     "label": "Week high",
+     "price": 7812.25,
+     "group": "week",
+     "note": "since 2026-10-19"
     },
     {
      "tag": "pwh",
@@ -86,25 +114,18 @@
      "note": "2 session(s) of data — PARTIAL"
     },
     {
-     "tag": "rn_major_up",
-     "label": "Round 50 above",
+     "tag": "tdc",
+     "label": "Today's RTH close (16:00 bar)",
+     "price": 7804.0,
+     "group": "today",
+     "note": "becomes next session's prior-day close"
+    },
+    {
+     "tag": "rn_major_dn",
+     "label": "Round 50 below",
      "price": 7800.0,
      "group": "round",
      "note": ""
-    },
-    {
-     "tag": "tdh",
-     "label": "Today's RTH high",
-     "price": 7796.75,
-     "group": "today",
-     "note": "so far"
-    },
-    {
-     "tag": "wh",
-     "label": "Week high",
-     "price": 7796.75,
-     "group": "week",
-     "note": "since 2026-10-19"
     },
     {
      "tag": "onh",
@@ -133,13 +154,6 @@
      "price": 7775.5,
      "group": "profile",
      "note": "70 % value area"
-    },
-    {
-     "tag": "rn_minor_dn",
-     "label": "Round 25 below",
-     "price": 7775.0,
-     "group": "round",
-     "note": ""
     },
     {
      "tag": "onvwap",
@@ -174,13 +188,6 @@
      "label": "Today's RTH low",
      "price": 7751.0,
      "group": "today",
-     "note": ""
-    },
-    {
-     "tag": "rn_major_dn",
-     "label": "Round 50 below",
-     "price": 7750.0,
-     "group": "round",
      "note": ""
     },
     {
@@ -234,8 +241,8 @@
     }
    ],
    "stats": {
-    "last_bar_utc": "2026-10-21T15:51:00+00:00",
-    "last_bar_age_min": 11.0,
+    "last_bar_utc": "2026-10-21T19:55:00+00:00",
+    "last_bar_age_min": 10.0,
     "market_state": "open",
     "profile_volume": 1273074.0,
     "prior_day": "2026-10-20",
@@ -1559,18 +1566,146 @@
      "o": 7793.0,
      "h": 7796.75,
      "l": 7793.0,
-     "c": 7795.5,
-     "v": 14097.0
+     "c": 7794.0,
+     "v": 29765.0
+    },
+    {
+     "t": "2026-10-21T16:00:00+00:00",
+     "o": 7794.0,
+     "h": 7795.0,
+     "l": 7789.75,
+     "c": 7793.25,
+     "v": 30411.0
+    },
+    {
+     "t": "2026-10-21T16:15:00+00:00",
+     "o": 7793.25,
+     "h": 7794.25,
+     "l": 7787.5,
+     "c": 7790.25,
+     "v": 24008.0
+    },
+    {
+     "t": "2026-10-21T16:30:00+00:00",
+     "o": 7790.25,
+     "h": 7806.5,
+     "l": 7788.75,
+     "c": 7798.0,
+     "v": 58056.0
+    },
+    {
+     "t": "2026-10-21T16:45:00+00:00",
+     "o": 7798.0,
+     "h": 7804.25,
+     "l": 7794.75,
+     "c": 7801.75,
+     "v": 31642.0
+    },
+    {
+     "t": "2026-10-21T17:00:00+00:00",
+     "o": 7801.75,
+     "h": 7807.75,
+     "l": 7799.25,
+     "c": 7806.25,
+     "v": 25171.0
+    },
+    {
+     "t": "2026-10-21T17:15:00+00:00",
+     "o": 7806.25,
+     "h": 7810.5,
+     "l": 7806.0,
+     "c": 7807.0,
+     "v": 28074.0
+    },
+    {
+     "t": "2026-10-21T17:30:00+00:00",
+     "o": 7807.25,
+     "h": 7809.0,
+     "l": 7801.5,
+     "c": 7806.75,
+     "v": 25907.0
+    },
+    {
+     "t": "2026-10-21T17:45:00+00:00",
+     "o": 7807.0,
+     "h": 7809.0,
+     "l": 7804.75,
+     "c": 7805.25,
+     "v": 18540.0
+    },
+    {
+     "t": "2026-10-21T18:00:00+00:00",
+     "o": 7805.5,
+     "h": 7808.5,
+     "l": 7802.75,
+     "c": 7807.75,
+     "v": 17714.0
+    },
+    {
+     "t": "2026-10-21T18:15:00+00:00",
+     "o": 7807.5,
+     "h": 7812.25,
+     "l": 7807.5,
+     "c": 7810.0,
+     "v": 20900.0
+    },
+    {
+     "t": "2026-10-21T18:30:00+00:00",
+     "o": 7809.75,
+     "h": 7811.0,
+     "l": 7808.0,
+     "c": 7809.0,
+     "v": 15891.0
+    },
+    {
+     "t": "2026-10-21T18:45:00+00:00",
+     "o": 7808.75,
+     "h": 7809.75,
+     "l": 7785.75,
+     "c": 7787.5,
+     "v": 91895.0
+    },
+    {
+     "t": "2026-10-21T19:00:00+00:00",
+     "o": 7787.5,
+     "h": 7787.75,
+     "l": 7771.0,
+     "c": 7783.0,
+     "v": 102568.0
+    },
+    {
+     "t": "2026-10-21T19:15:00+00:00",
+     "o": 7782.75,
+     "h": 7800.0,
+     "l": 7782.25,
+     "c": 7799.75,
+     "v": 77395.0
+    },
+    {
+     "t": "2026-10-21T19:30:00+00:00",
+     "o": 7799.5,
+     "h": 7800.0,
+     "l": 7794.0,
+     "c": 7798.0,
+     "v": 40890.0
+    },
+    {
+     "t": "2026-10-21T19:45:00+00:00",
+     "o": 7798.0,
+     "h": 7806.0,
+     "l": 7797.5,
+     "c": 7804.0,
+     "v": 42118.0
     }
    ]
   },
   {
    "root": "NQ",
    "trading_day": "2026-10-21",
-   "as_of_utc": "2026-10-21T16:01:57.891519+00:00",
+   "as_of_utc": "2026-10-21T20:05:01.867049+00:00",
    "source": "yahoo",
    "delayed": true,
-   "last_price": 30045.5,
+   "last_price": 30033.25,
    "levels": [
     {
      "tag": "exp_hi",
@@ -1587,6 +1722,20 @@
      "note": "2 session(s) of data — PARTIAL"
     },
     {
+     "tag": "tdh",
+     "label": "Today's RTH high",
+     "price": 30113.0,
+     "group": "today",
+     "note": "session complete"
+    },
+    {
+     "tag": "wh",
+     "label": "Week high",
+     "price": 30113.0,
+     "group": "week",
+     "note": "since 2026-10-19"
+    },
+    {
      "tag": "rn_major_up",
      "label": "Round 100 above",
      "price": 30100.0,
@@ -1594,25 +1743,18 @@
      "note": ""
     },
     {
-     "tag": "tdh",
-     "label": "Today's RTH high",
-     "price": 30059.5,
-     "group": "today",
-     "note": "so far"
-    },
-    {
-     "tag": "wh",
-     "label": "Week high",
-     "price": 30059.5,
-     "group": "week",
-     "note": "since 2026-10-19"
-    },
-    {
      "tag": "rn_minor_up",
      "label": "Round 50 above",
      "price": 30050.0,
      "group": "round",
      "note": ""
+    },
+    {
+     "tag": "tdc",
+     "label": "Today's RTH close (16:00 bar)",
+     "price": 30033.25,
+     "group": "today",
+     "note": "becomes next session's prior-day close"
     },
     {
      "tag": "onh",
@@ -1728,8 +1870,8 @@
     }
    ],
    "stats": {
-    "last_bar_utc": "2026-10-21T15:51:00+00:00",
-    "last_bar_age_min": 11.0,
+    "last_bar_utc": "2026-10-21T19:55:00+00:00",
+    "last_bar_age_min": 10.0,
     "market_state": "open",
     "profile_volume": 491774.00000000006,
     "prior_day": "2026-10-20",
@@ -3053,8 +3195,136 @@
      "o": 30031.75,
      "h": 30059.5,
      "l": 30031.75,
-     "c": 30045.5,
-     "v": 5721.0
+     "c": 30041.5,
+     "v": 11276.0
+    },
+    {
+     "t": "2026-10-21T16:00:00+00:00",
+     "o": 30041.5,
+     "h": 30041.5,
+     "l": 30006.75,
+     "c": 30021.75,
+     "v": 11469.0
+    },
+    {
+     "t": "2026-10-21T16:15:00+00:00",
+     "o": 30022.0,
+     "h": 30028.75,
+     "l": 29984.5,
+     "c": 30001.0,
+     "v": 8892.0
+    },
+    {
+     "t": "2026-10-21T16:30:00+00:00",
+     "o": 30001.25,
+     "h": 30110.75,
+     "l": 29990.25,
+     "c": 30065.25,
+     "v": 17130.0
+    },
+    {
+     "t": "2026-10-21T16:45:00+00:00",
+     "o": 30065.25,
+     "h": 30088.25,
+     "l": 30041.25,
+     "c": 30069.0,
+     "v": 9558.0
+    },
+    {
+     "t": "2026-10-21T17:00:00+00:00",
+     "o": 30069.5,
+     "h": 30098.25,
+     "l": 30058.5,
+     "c": 30087.25,
+     "v": 8042.0
+    },
+    {
+     "t": "2026-10-21T17:15:00+00:00",
+     "o": 30087.75,
+     "h": 30113.0,
+     "l": 30079.5,
+     "c": 30085.5,
+     "v": 9979.0
+    },
+    {
+     "t": "2026-10-21T17:30:00+00:00",
+     "o": 30086.75,
+     "h": 30087.0,
+     "l": 30046.75,
+     "c": 30066.0,
+     "v": 9025.0
+    },
+    {
+     "t": "2026-10-21T17:45:00+00:00",
+     "o": 30065.5,
+     "h": 30071.75,
+     "l": 30047.5,
+     "c": 30049.75,
+     "v": 6616.0
+    },
+    {
+     "t": "2026-10-21T18:00:00+00:00",
+     "o": 30049.5,
+     "h": 30066.0,
+     "l": 30040.75,
+     "c": 30060.5,
+     "v": 7021.0
+    },
+    {
+     "t": "2026-10-21T18:15:00+00:00",
+     "o": 30060.0,
+     "h": 30084.5,
+     "l": 30059.25,
+     "c": 30081.5,
+     "v": 7069.0
+    },
+    {
+     "t": "2026-10-21T18:30:00+00:00",
+     "o": 30082.25,
+     "h": 30088.75,
+     "l": 30065.5,
+     "c": 30068.75,
+     "v": 6137.0
+    },
+    {
+     "t": "2026-10-21T18:45:00+00:00",
+     "o": 30070.5,
+     "h": 30075.75,
+     "l": 29952.0,
+     "c": 29965.5,
+     "v": 23752.0
+    },
+    {
+     "t": "2026-10-21T19:00:00+00:00",
+     "o": 29965.75,
+     "h": 29966.75,
+     "l": 29885.75,
+     "c": 29949.25,
+     "v": 26369.0
+    },
+    {
+     "t": "2026-10-21T19:15:00+00:00",
+     "o": 29949.25,
+     "h": 30035.0,
+     "l": 29946.5,
+     "c": 30033.5,
+     "v": 20164.0
+    },
+    {
+     "t": "2026-10-21T19:30:00+00:00",
+     "o": 30033.5,
+     "h": 30038.75,
+     "l": 29999.0,
+     "c": 30022.25,
+     "v": 10523.0
+    },
+    {
+     "t": "2026-10-21T19:45:00+00:00",
+     "o": 30024.5,
+     "h": 30059.25,
+     "l": 30021.75,
+     "c": 30033.25,
+     "v": 13164.0
     }
    ]
   }
@@ -3062,13 +3332,40 @@
  "news": {
   "headlines": [
    {
+    "id": "1407113f00",
+    "title": "Treasury yields hold as brokers track October Fed outlook - www.mpamag.com",
+    "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxON2IwR2d0ekV0Q1MzV3U4UU5TVmQwMGNPZXVjVnJIY2NjMGVGRXVQSUNGbTB3YkVneURZNVlxVjdyZDRkRmtpYUdvOUZ5cWcxb2hPbG02dURkZW5TOFpIRkp5NktoUF9qcFR5OTYtZnpCakZYNEIwLTRJaDExZ2pLM2RvWmdURmFJVm5ISmtfS09xVEFXZk9iOXQteW55ZGlCZ3Q2MFpMY0J6b0R3UVBQUWNRSDA2dDNTMk90Qk5NLWY?oc=5",
+    "source": "gnews_macro",
+    "published_utc": "2026-10-21T17:44:27+00:00",
+    "score": 7.61,
+    "duplicates": 0
+   },
+   {
+    "id": "5d2b5f8e7d",
+    "title": "Meta earnings live: Meta Q3 earnings to test Wall Street's stomach for AI spending - AOL.com",
+    "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE5UM2NMaUh4ZWpXdXpjMjNTLVRweXFPZUd2RVdCTk1SM203d1pmWUhlaEw2MGpKVEFDRWc4MHllcVYtWFpjMk9TdVZ5cGw4dlJqY2ZwdERDT1FvZ3J0UGsta0l6VFVjZXVxVWFNb1dXSFRMUlRYWV8wYkVB?oc=5",
+    "source": "gnews_megacap",
+    "published_utc": "2026-10-21T17:30:00+00:00",
+    "score": 7.57,
+    "duplicates": 0
+   },
+   {
     "id": "9fa1a822a2",
     "title": "Sticky Inflation Is Testing the Fed’s Resolve - Advisor Perspectives",
     "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPQk9sRUJSQkhxdXl5X2NlNjdyNnJhckZjV1NSUXdsbWhNT2lkZm5pNEUtaV9UT2JScVNlb0V3bU5KX2FGako2M1RKbzIwT3ZkX01IYVU3Q29BUjhiMjFFRkp5MXVIMW1UY0J3a3FDV0owTmNxSE1mQ0RKbHJiYXZTbm93Qk5ZS0JHTERKUThFeFRYeHlZaDlZ?oc=5",
     "source": "gnews_macro",
     "published_utc": "2026-10-21T13:43:17+00:00",
-    "score": 8.11,
+    "score": 7.44,
     "duplicates": 2
+   },
+   {
+    "id": "64bdae0c66",
+    "title": "Meta and Tesla bulls get confidence boost after SpaceX earnings",
+    "link": "https://www.cnbc.com/2026/10/21/meta-tesla-options-earnings.html",
+    "source": "cnbc_markets",
+    "published_utc": "2026-10-21T16:35:48+00:00",
+    "score": 7.42,
+    "duplicates": 1
    },
    {
     "id": "633e4ac95e",
@@ -3076,34 +3373,16 @@
     "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPR1MtbnBSUElwWl9MX0ZPNGRyYnI1RFpNOHgxSUdpekYyLUJiVHgzZDJjcjNWdmZRektqek0tS3hrMGF5cDFteTBwWTJDc0dLTHZtWVEyM1NJRjRKUXpTWXcwRzB6VHd2UnhtMGlHOGRjTUMySEtsNWRpV2M2dURsSXlLdXJCUXg1WU9vSnF2blN6QmVEYzR6bVluZkI3YkRnd29jWW5BQmJGMVYya2ItVS1Wa0RhWHhKR1B4Y1lTQVFMNWFWTTlNX0FmeGVYUQ?oc=5",
     "source": "gnews_futures",
     "published_utc": "2026-10-21T12:54:30+00:00",
-    "score": 7.98,
+    "score": 7.3,
     "duplicates": 0
    },
    {
-    "id": "277508d17f",
-    "title": "Business inflation expectations decelerate in October: Atlanta Fed - TradingView",
-    "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQR2hCOVVpczdxMmJYbDJYU1VIRzQ5SENYNTQ5S3FISVRDdUQzTXhodFBrYmYzdHhhSUlpQVQydWdYY25EbUxNS005RUd4Vk1HVzAyaGJGVWJwM21nQTlkMGlYMk81MmVBSThEdHFDTkc4U3V6WFpyVnBlTkxaLWpNdEVxZjB0bzJZLVBoU2hodnM4c3pHc0xVQ1RHcW9DZ2lCOXM0bng0T2lEYU9nLTEyVnFyUFczUlQwR3J2OUVHN0RDeHFmdm1V?oc=5",
-    "source": "gnews_macro",
-    "published_utc": "2026-10-21T14:03:00+00:00",
-    "score": 7.67,
-    "duplicates": 1
-   },
-   {
-    "id": "1282242a27",
-    "title": "UK inflation jumps to 3.5% — cementing rate hike expectations",
-    "link": "https://www.cnbc.com/2026/10/21/inflation-uk-cpi-interest-rates.html",
-    "source": "cnbc_markets",
-    "published_utc": "2026-10-21T07:50:10+00:00",
-    "score": 7.63,
-    "duplicates": 1
-   },
-   {
-    "id": "7822249a26",
-    "title": "Nasdaq Futures Climb as SpaceX and Super Micro Provide a Boost; Meta and Tesla Earnings on Tap - Barchart.com",
-    "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNNXJHLTJPY09TWTV4aE1SUERqMFk1SDIxeUdsblF3bTBFM3E4dXhpX3lHdzhGc3RKNThGLTNkZ2xGTmdWaXA1OENiakhneDczUDNNQkFhNDE1VF9IS0ZPeWxZT2hvanBwbklhU1hpWHUzblp3dGRUS2ZnelpGTFJEQWxjWEozVUw0S21fNXBBREVFU2d3ckY2ZzFMV3p6RW9aazd5UjFOUXZMRVJ1cjdCNF9waERqSl9IREx5Z0xkTHRldUJC?oc=5",
+    "id": "39df83f253",
+    "title": "Nasdaq Futures Climb as SpaceX and Super Micro Provide a Boost; Meta and Tesla Earnings on Tap - Yahoo Finance",
+    "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNam1iS1g2R3JwVzZHbWVBMnVaenFRQkx2ZTlrQmFmZUFDTDhUYWQzMEJ0LUxHd1NLeWVTamRtMDhadjQ0UmNoR1Z3Zk5wZHNMcXdZeTdFb2h5RVdrX2hkMlBUUXZrd0ltYmlMOENzMkNySFhDOGloc3NIdmFOVHJqa2JnZHA5akN0aUtjXzZCWlNDT19WdmN6bTU4V0s4R2M?oc=5",
     "source": "gnews_futures",
     "published_utc": "2026-10-21T10:34:11+00:00",
-    "score": 7.59,
+    "score": 6.91,
     "duplicates": 1
    },
    {
@@ -3112,25 +3391,7 @@
     "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQZ0pDcTNuWVIxcnVmV1h6aUlUREtIRGxMNEZLOHJCNGd2MllrUjF4bkxKendYN1ZKcTlHcDR4b0xhekd0TUQtc1loalVFbEQ3bWRVaXZPbXAwWFc1NlpUQ2Q0OWo1aWdyVUluLTAxemE4OWxYUDdpajd6b0p4WmZMNjF0TVpuaFpxeGtUbVRHYUo1UzlRbm93a0F0VFZFdEYyU1phSGVvTm5NdFNnSDUwd0pTWC1vOUYwMXVNYXFsQ0x4Y2dYcEsyMXN30gHSAUFVX3lxTFA4VnVpQmtOU0Y5c1FNckZ4OUdwaWpHS2pZSXdYZGs0OFJBaWc1MTVFMWU3UjVtM1gtVzd4OS0xM3JJd25tWTlFM0laSTUtMldWYmt6d29hM19fQnloOGc1VExvSjRBRU9fdXo0cU1FOEs5T1BKZVdveEN3WU42LUk2bXpBenBwb2E1cFB4NDk1cjR1OVRFUlowZmc4cHhvdG5hcU5TUzRBWnpzamM1SjNyZUVPczI3Tm9VeFJOYlBYcGc1SndoNmJtT2Y0NGRSLW5SQQ?oc=5",
     "source": "gnews_futures",
     "published_utc": "2026-10-21T13:09:20+00:00",
-    "score": 7.52,
-    "duplicates": 0
-   },
-   {
-    "id": "329e406253",
-    "title": "US stock market today: Nasdaq futures rise as SpaceX jumps, Tesla earnings in focus - CNBC TV18",
-    "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNV0k2M1ExaDRQc1FPZm9GMlBUczBWaDAtZlM1OGZJWXo0dFl5Q3FxNmxoSXRxX0NMRExJZnlLNVVaajBiRU5ZaHJuOUlxT1Z2VHY5SFIwTXM4RWxONklHWkFxUUQzc1V6T3V3NzN1MXFUdllQdDY3d0IzRzJjS3FpUVFEZ1JLaXBkNDlxeWRMWDdoWTdGcTh5cGNxTGQybzdWcGZGTHdob0VPUS1ZX3RUR9IBtgFBVV95cUxNeFNFaEtpcWVRUXBMU0VwQmp4dFZmNWF4Wi00ZzF6SkVIampSM0hJbmxGcllQc2dyYlRqTll6aDRyLWlDQllHUVFPdFFpWENiaERVMlN5VFRXX29rZTg0cXNmWVFaY2RFZ3J5TFpiRE8tQ05uYUxxNlVYVTBqUGFJT2dPMzd3enJFVXEwM2VkVlRUUkZ1Q2tjV0szMk0zeXVoVEhXVlZxaWt2eVJHeU56TXlURUZGZw?oc=5",
-    "source": "gnews_futures",
-    "published_utc": "2026-10-21T12:44:00+00:00",
-    "score": 7.45,
-    "duplicates": 0
-   },
-   {
-    "id": "6127630352",
-    "title": "Stock futures rise as SpaceX jumps 7% on 161% revenue growth and Tesla merger talk - Quartz",
-    "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBtdXhkdE9kcVQ2cGdMZkQzNWRjNGdxWEdwNjdTUy1wQXRqdUVoZU9oM0JSUF9rbm00MC04T3JFMzBndl9icEtEWnliTDY4MnZibVpraDh1Y2xiUkhPWlZGM21lWmxUcGpnNHVORHhn?oc=5",
-    "source": "gnews_futures",
-    "published_utc": "2026-10-21T12:04:38+00:00",
-    "score": 7.34,
+    "score": 6.85,
     "duplicates": 0
    },
    {
@@ -3139,7 +3400,7 @@
     "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQbnUwRElSUTlnMGw0SWlCbEpiSnJCSU1vSzVCRlFZa0J2eFFIWGNuWlJlaGN6SmthX2ZyZlE3U2xsbkh2WW9Lek44NkgyeFpOUXd4RDUtSWI3R1M4cXNGY1JPbXpPNm5MalRKOW9PbTg3ME45SFAyTTl2MlFwQ1k3c3VQV2gxYWUtYVktdTJSdTB2dEp4UzRXTzlPQ0RTTjNPYXZz?oc=5",
     "source": "gnews_futures",
     "published_utc": "2026-10-21T08:41:06+00:00",
-    "score": 7.28,
+    "score": 6.6,
     "duplicates": 1
    },
    {
@@ -3148,7 +3409,16 @@
     "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOazVLcDItRGFmTHc0VFY0M3FhV1B4Ymg2NUl0eGRDc0JHb25hUkZrblhjelAzM3JjYVU5Z1BMald1NFZRSVhFcFVLcFB5MmhLYlktcVVrREN1aHk1bGNKaEdHejB3cHVmUzFvaXIwaHc1WEFnQS1QczNHVHNNOFhtUTBkZWFhdGtacXpwQ1BjbW1kV1FGQU90VA?oc=5",
     "source": "gnews_futures",
     "published_utc": "2026-10-21T09:47:45+00:00",
-    "score": 6.96,
+    "score": 6.29,
+    "duplicates": 0
+   },
+   {
+    "id": "108ed1c3f3",
+    "title": "CPI | OpenAI Strikes Google Cloud Deal in Push Beyond Microsoft - PYMNTS.com",
+    "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOSl9yc3dYNDdMZ09wWnlqTFhmbkhyZy12NldHRkZUUzcxZVE2ZVBpY1RzYm1hU282RTdLZEpXeUdPNnN4amo1aXFUQ0dNUGRSTkI1dWMzcDA2NF9UWjhvTjRFaFlVVUpFTVFJY0FxZUt4dV83MjVMUzltWUYyS2VUbUp5Y0g2a1BkLVVuUGpqQ29xZk1qUVE?oc=5",
+    "source": "gnews_macro",
+    "published_utc": "2026-10-21T18:47:40+00:00",
+    "score": 6.29,
     "duplicates": 0
    },
    {
@@ -3157,7 +3427,7 @@
     "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE40RGxIZW9mUWs5S3JpTUFPcTV2Y3o5aU1IQ0F4QU9OSmxTbEVJcjd5dHlkOUdkWDM1czhUUU1FUTRqdFNpcU5vdlBJakZfY1paSFA4?oc=5",
     "source": "gnews_futures",
     "published_utc": "2026-10-21T12:44:52+00:00",
-    "score": 6.95,
+    "score": 6.28,
     "duplicates": 3
    },
    {
@@ -3166,17 +3436,17 @@
     "link": "https://www.cnbc.com/2026/10/21/goldman-sachs-jpmorgan-morgan-stanley-ai-trading.html",
     "source": "cnbc_markets",
     "published_utc": "2026-10-21T15:30:50+00:00",
-    "score": 6.91,
+    "score": 6.24,
     "duplicates": 0
    }
   ],
   "summary": {
    "lines": [
+    "Treasury yields hold as brokers track October Fed outlook - www.mpamag.com [1407113f00]",
+    "Meta earnings live: Meta Q3 earnings to test Wall Street's stomach for AI spending - AOL.com [5d2b5f8e7d]",
     "Sticky Inflation Is Testing the Fed’s Resolve - Advisor Perspectives [9fa1a822a2]",
-    "Nasdaq Futures Higher After Asian AI Rally, Brent Crude Holds Close to $110 -- Update - marketscreener.com [633e4ac95e]",
-    "Business inflation expectations decelerate in October: Atlanta Fed - TradingView [277508d17f]",
-    "UK inflation jumps to 3.5% — cementing rate hike expectations [1282242a27]",
-    "Nasdaq Futures Climb as SpaceX and Super Micro Provide a Boost; Meta and Tesla Earnings on Tap - Barchart.com [7822249a26]"
+    "Meta and Tesla bulls get confidence boost after SpaceX earnings [64bdae0c66]",
+    "Nasdaq Futures Higher After Asian AI Rally, Brent Crude Holds Close to $110 -- Update - marketscreener.com [633e4ac95e]"
    ],
    "backend": "none",
    "model": null,
