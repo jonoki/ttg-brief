@@ -1,7 +1,7 @@
 {
  "meta": {
-  "generated_at_utc": "2026-10-21T15:46:39.582225+00:00",
-  "generated_at_local": "Wed 21 Oct 2026 12:46 ADT",
+  "generated_at_utc": "2026-10-21T16:01:57.891519+00:00",
+  "generated_at_local": "Wed 21 Oct 2026 13:01 ADT",
   "trading_day": "2026-10-21",
   "display_tz": "America/Halifax",
   "version": "0.1.0",
@@ -55,7 +55,7 @@
    "time_utc": "2026-10-21T17:00:00+00:00",
    "local": "14:00 ADT",
    "et": "13:00 ET",
-   "in": "1h 13m",
+   "in": "58 min",
    "consensus": null,
    "prior": null
   },
@@ -66,10 +66,10 @@
   {
    "root": "ES",
    "trading_day": "2026-10-21",
-   "as_of_utc": "2026-10-21T15:46:39.582225+00:00",
+   "as_of_utc": "2026-10-21T16:01:57.891519+00:00",
    "source": "yahoo",
    "delayed": true,
-   "last_price": 7791.25,
+   "last_price": 7795.5,
    "levels": [
     {
      "tag": "exp_hi",
@@ -95,14 +95,14 @@
     {
      "tag": "tdh",
      "label": "Today's RTH high",
-     "price": 7793.5,
+     "price": 7796.75,
      "group": "today",
      "note": "so far"
     },
     {
      "tag": "wh",
      "label": "Week high",
-     "price": 7793.5,
+     "price": 7796.75,
      "group": "week",
      "note": "since 2026-10-19"
     },
@@ -234,8 +234,8 @@
     }
    ],
    "stats": {
-    "last_bar_utc": "2026-10-21T15:36:00+00:00",
-    "last_bar_age_min": 10.7,
+    "last_bar_utc": "2026-10-21T15:51:00+00:00",
+    "last_bar_age_min": 11.0,
     "market_state": "open",
     "profile_volume": 1273074.0,
     "prior_day": "2026-10-20",
@@ -1549,20 +1549,28 @@
     {
      "t": "2026-10-21T15:30:00+00:00",
      "o": 7787.5,
-     "h": 7793.5,
+     "h": 7795.75,
      "l": 7786.75,
-     "c": 7791.25,
-     "v": 18822.0
+     "c": 7793.0,
+     "v": 54271.0
+    },
+    {
+     "t": "2026-10-21T15:45:00+00:00",
+     "o": 7793.0,
+     "h": 7796.75,
+     "l": 7793.0,
+     "c": 7795.5,
+     "v": 14097.0
     }
    ]
   },
   {
    "root": "NQ",
    "trading_day": "2026-10-21",
-   "as_of_utc": "2026-10-21T15:46:39.582225+00:00",
+   "as_of_utc": "2026-10-21T16:01:57.891519+00:00",
    "source": "yahoo",
    "delayed": true,
-   "last_price": 30019.75,
+   "last_price": 30045.5,
    "levels": [
     {
      "tag": "exp_hi",
@@ -1586,25 +1594,25 @@
      "note": ""
     },
     {
-     "tag": "rn_minor_up",
-     "label": "Round 50 above",
-     "price": 30050.0,
-     "group": "round",
-     "note": ""
-    },
-    {
      "tag": "tdh",
      "label": "Today's RTH high",
-     "price": 30031.25,
+     "price": 30059.5,
      "group": "today",
      "note": "so far"
     },
     {
      "tag": "wh",
      "label": "Week high",
-     "price": 30031.25,
+     "price": 30059.5,
      "group": "week",
      "note": "since 2026-10-19"
+    },
+    {
+     "tag": "rn_minor_up",
+     "label": "Round 50 above",
+     "price": 30050.0,
+     "group": "round",
+     "note": ""
     },
     {
      "tag": "onh",
@@ -1720,8 +1728,8 @@
     }
    ],
    "stats": {
-    "last_bar_utc": "2026-10-21T15:36:00+00:00",
-    "last_bar_age_min": 10.7,
+    "last_bar_utc": "2026-10-21T15:51:00+00:00",
+    "last_bar_age_min": 11.0,
     "market_state": "open",
     "profile_volume": 491774.00000000006,
     "prior_day": "2026-10-20",
@@ -3035,10 +3043,18 @@
     {
      "t": "2026-10-21T15:30:00+00:00",
      "o": 29981.5,
-     "h": 30031.25,
+     "h": 30044.0,
      "l": 29981.0,
-     "c": 30019.75,
-     "v": 6657.0
+     "c": 30032.75,
+     "v": 17597.0
+    },
+    {
+     "t": "2026-10-21T15:45:00+00:00",
+     "o": 30031.75,
+     "h": 30059.5,
+     "l": 30031.75,
+     "c": 30045.5,
+     "v": 5721.0
     }
    ]
   }
@@ -3051,7 +3067,7 @@
     "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPQk9sRUJSQkhxdXl5X2NlNjdyNnJhckZjV1NSUXdsbWhNT2lkZm5pNEUtaV9UT2JScVNlb0V3bU5KX2FGako2M1RKbzIwT3ZkX01IYVU3Q29BUjhiMjFFRkp5MXVIMW1UY0J3a3FDV0owTmNxSE1mQ0RKbHJiYXZTbm93Qk5ZS0JHTERKUThFeFRYeHlZaDlZ?oc=5",
     "source": "gnews_macro",
     "published_utc": "2026-10-21T13:43:17+00:00",
-    "score": 8.16,
+    "score": 8.11,
     "duplicates": 2
    },
    {
@@ -3060,7 +3076,7 @@
     "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPR1MtbnBSUElwWl9MX0ZPNGRyYnI1RFpNOHgxSUdpekYyLUJiVHgzZDJjcjNWdmZRektqek0tS3hrMGF5cDFteTBwWTJDc0dLTHZtWVEyM1NJRjRKUXpTWXcwRzB6VHd2UnhtMGlHOGRjTUMySEtsNWRpV2M2dURsSXlLdXJCUXg1WU9vSnF2blN6QmVEYzR6bVluZkI3YkRnd29jWW5BQmJGMVYya2ItVS1Wa0RhWHhKR1B4Y1lTQVFMNWFWTTlNX0FmeGVYUQ?oc=5",
     "source": "gnews_futures",
     "published_utc": "2026-10-21T12:54:30+00:00",
-    "score": 8.02,
+    "score": 7.98,
     "duplicates": 0
    },
    {
@@ -3069,7 +3085,7 @@
     "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQR2hCOVVpczdxMmJYbDJYU1VIRzQ5SENYNTQ5S3FISVRDdUQzTXhodFBrYmYzdHhhSUlpQVQydWdYY25EbUxNS005RUd4Vk1HVzAyaGJGVWJwM21nQTlkMGlYMk81MmVBSThEdHFDTkc4U3V6WFpyVnBlTkxaLWpNdEVxZjB0bzJZLVBoU2hodnM4c3pHc0xVQ1RHcW9DZ2lCOXM0bng0T2lEYU9nLTEyVnFyUFczUlQwR3J2OUVHN0RDeHFmdm1V?oc=5",
     "source": "gnews_macro",
     "published_utc": "2026-10-21T14:03:00+00:00",
-    "score": 7.71,
+    "score": 7.67,
     "duplicates": 1
    },
    {
@@ -3078,7 +3094,7 @@
     "link": "https://www.cnbc.com/2026/10/21/inflation-uk-cpi-interest-rates.html",
     "source": "cnbc_markets",
     "published_utc": "2026-10-21T07:50:10+00:00",
-    "score": 7.68,
+    "score": 7.63,
     "duplicates": 1
    },
    {
@@ -3087,7 +3103,7 @@
     "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNNXJHLTJPY09TWTV4aE1SUERqMFk1SDIxeUdsblF3bTBFM3E4dXhpX3lHdzhGc3RKNThGLTNkZ2xGTmdWaXA1OENiakhneDczUDNNQkFhNDE1VF9IS0ZPeWxZT2hvanBwbklhU1hpWHUzblp3dGRUS2ZnelpGTFJEQWxjWEozVUw0S21fNXBBREVFU2d3ckY2ZzFMV3p6RW9aazd5UjFOUXZMRVJ1cjdCNF9waERqSl9IREx5Z0xkTHRldUJC?oc=5",
     "source": "gnews_futures",
     "published_utc": "2026-10-21T10:34:11+00:00",
-    "score": 7.63,
+    "score": 7.59,
     "duplicates": 1
    },
    {
@@ -3096,7 +3112,7 @@
     "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQZ0pDcTNuWVIxcnVmV1h6aUlUREtIRGxMNEZLOHJCNGd2MllrUjF4bkxKendYN1ZKcTlHcDR4b0xhekd0TUQtc1loalVFbEQ3bWRVaXZPbXAwWFc1NlpUQ2Q0OWo1aWdyVUluLTAxemE4OWxYUDdpajd6b0p4WmZMNjF0TVpuaFpxeGtUbVRHYUo1UzlRbm93a0F0VFZFdEYyU1phSGVvTm5NdFNnSDUwd0pTWC1vOUYwMXVNYXFsQ0x4Y2dYcEsyMXN30gHSAUFVX3lxTFA4VnVpQmtOU0Y5c1FNckZ4OUdwaWpHS2pZSXdYZGs0OFJBaWc1MTVFMWU3UjVtM1gtVzd4OS0xM3JJd25tWTlFM0laSTUtMldWYmt6d29hM19fQnloOGc1VExvSjRBRU9fdXo0cU1FOEs5T1BKZVdveEN3WU42LUk2bXpBenBwb2E1cFB4NDk1cjR1OVRFUlowZmc4cHhvdG5hcU5TUzRBWnpzamM1SjNyZUVPczI3Tm9VeFJOYlBYcGc1SndoNmJtT2Y0NGRSLW5SQQ?oc=5",
     "source": "gnews_futures",
     "published_utc": "2026-10-21T13:09:20+00:00",
-    "score": 7.56,
+    "score": 7.52,
     "duplicates": 0
    },
    {
@@ -3105,7 +3121,7 @@
     "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNV0k2M1ExaDRQc1FPZm9GMlBUczBWaDAtZlM1OGZJWXo0dFl5Q3FxNmxoSXRxX0NMRExJZnlLNVVaajBiRU5ZaHJuOUlxT1Z2VHY5SFIwTXM4RWxONklHWkFxUUQzc1V6T3V3NzN1MXFUdllQdDY3d0IzRzJjS3FpUVFEZ1JLaXBkNDlxeWRMWDdoWTdGcTh5cGNxTGQybzdWcGZGTHdob0VPUS1ZX3RUR9IBtgFBVV95cUxNeFNFaEtpcWVRUXBMU0VwQmp4dFZmNWF4Wi00ZzF6SkVIampSM0hJbmxGcllQc2dyYlRqTll6aDRyLWlDQllHUVFPdFFpWENiaERVMlN5VFRXX29rZTg0cXNmWVFaY2RFZ3J5TFpiRE8tQ05uYUxxNlVYVTBqUGFJT2dPMzd3enJFVXEwM2VkVlRUUkZ1Q2tjV0szMk0zeXVoVEhXVlZxaWt2eVJHeU56TXlURUZGZw?oc=5",
     "source": "gnews_futures",
     "published_utc": "2026-10-21T12:44:00+00:00",
-    "score": 7.49,
+    "score": 7.45,
     "duplicates": 0
    },
    {
@@ -3114,7 +3130,7 @@
     "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBtdXhkdE9kcVQ2cGdMZkQzNWRjNGdxWEdwNjdTUy1wQXRqdUVoZU9oM0JSUF9rbm00MC04T3JFMzBndl9icEtEWnliTDY4MnZibVpraDh1Y2xiUkhPWlZGM21lWmxUcGpnNHVORHhn?oc=5",
     "source": "gnews_futures",
     "published_utc": "2026-10-21T12:04:38+00:00",
-    "score": 7.38,
+    "score": 7.34,
     "duplicates": 0
    },
    {
@@ -3123,7 +3139,7 @@
     "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQbnUwRElSUTlnMGw0SWlCbEpiSnJCSU1vSzVCRlFZa0J2eFFIWGNuWlJlaGN6SmthX2ZyZlE3U2xsbkh2WW9Lek44NkgyeFpOUXd4RDUtSWI3R1M4cXNGY1JPbXpPNm5MalRKOW9PbTg3ME45SFAyTTl2MlFwQ1k3c3VQV2gxYWUtYVktdTJSdTB2dEp4UzRXTzlPQ0RTTjNPYXZz?oc=5",
     "source": "gnews_futures",
     "published_utc": "2026-10-21T08:41:06+00:00",
-    "score": 7.32,
+    "score": 7.28,
     "duplicates": 1
    },
    {
@@ -3132,7 +3148,7 @@
     "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOazVLcDItRGFmTHc0VFY0M3FhV1B4Ymg2NUl0eGRDc0JHb25hUkZrblhjelAzM3JjYVU5Z1BMald1NFZRSVhFcFVLcFB5MmhLYlktcVVrREN1aHk1bGNKaEdHejB3cHVmUzFvaXIwaHc1WEFnQS1QczNHVHNNOFhtUTBkZWFhdGtacXpwQ1BjbW1kV1FGQU90VA?oc=5",
     "source": "gnews_futures",
     "published_utc": "2026-10-21T09:47:45+00:00",
-    "score": 7.0,
+    "score": 6.96,
     "duplicates": 0
    },
    {
@@ -3141,7 +3157,7 @@
     "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE40RGxIZW9mUWs5S3JpTUFPcTV2Y3o5aU1IQ0F4QU9OSmxTbEVJcjd5dHlkOUdkWDM1czhUUU1FUTRqdFNpcU5vdlBJakZfY1paSFA4?oc=5",
     "source": "gnews_futures",
     "published_utc": "2026-10-21T12:44:52+00:00",
-    "score": 7.0,
+    "score": 6.95,
     "duplicates": 3
    },
    {
@@ -3150,7 +3166,7 @@
     "link": "https://www.cnbc.com/2026/10/21/goldman-sachs-jpmorgan-morgan-stanley-ai-trading.html",
     "source": "cnbc_markets",
     "published_utc": "2026-10-21T15:30:50+00:00",
-    "score": 6.96,
+    "score": 6.91,
     "duplicates": 0
    }
   ],
