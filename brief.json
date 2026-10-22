@@ -1,7 +1,7 @@
 {
  "meta": {
-  "generated_at_utc": "2026-10-22T13:41:16.027553+00:00",
-  "generated_at_local": "Thu 22 Oct 2026 10:41 ADT",
+  "generated_at_utc": "2026-10-22T13:56:42.521125+00:00",
+  "generated_at_local": "Thu 22 Oct 2026 10:56 ADT",
   "trading_day": "2026-10-22",
   "display_tz": "America/Halifax",
   "version": "0.1.0",
@@ -109,7 +109,7 @@
    "time_utc": "2026-10-23T13:45:00+00:00",
    "local": "10:45 ADT",
    "et": "09:45 ET",
-   "in": "24h 03m",
+   "in": "23h 48m",
    "consensus": "55.4",
    "prior": "57.0"
   },
@@ -120,10 +120,10 @@
   {
    "root": "ES",
    "trading_day": "2026-10-22",
-   "as_of_utc": "2026-10-22T13:41:16.027553+00:00",
+   "as_of_utc": "2026-10-22T13:56:42.521125+00:00",
    "source": "yahoo",
    "delayed": true,
-   "last_price": 7731.0,
+   "last_price": 7726.75,
    "levels": [
     {
      "tag": "exp_hi",
@@ -210,18 +210,18 @@
      "note": ""
     },
     {
+     "tag": "tdh",
+     "label": "Today's RTH high",
+     "price": 7740.75,
+     "group": "today",
+     "note": "so far"
+    },
+    {
      "tag": "onvwap",
      "label": "Overnight VWAP",
      "price": 7734.67,
      "group": "overnight",
      "note": "typical-price VWAP"
-    },
-    {
-     "tag": "tdh",
-     "label": "Today's RTH high",
-     "price": 7734.0,
-     "group": "today",
-     "note": "so far"
     },
     {
      "tag": "rtho",
@@ -231,17 +231,17 @@
      "note": "09:30 bar open"
     },
     {
-     "tag": "tdl",
-     "label": "Today's RTH low",
-     "price": 7725.0,
-     "group": "today",
-     "note": ""
-    },
-    {
      "tag": "rn_minor_dn",
      "label": "Round 25 below",
      "price": 7725.0,
      "group": "round",
+     "note": ""
+    },
+    {
+     "tag": "tdl",
+     "label": "Today's RTH low",
+     "price": 7721.5,
+     "group": "today",
      "note": ""
     },
     {
@@ -281,8 +281,8 @@
     }
    ],
    "stats": {
-    "last_bar_utc": "2026-10-22T13:31:00+00:00",
-    "last_bar_age_min": 10.3,
+    "last_bar_utc": "2026-10-22T13:46:00+00:00",
+    "last_bar_age_min": 10.7,
     "market_state": "open",
     "profile_volume": 1288773.0,
     "prior_day": "2026-10-21",
@@ -1532,20 +1532,28 @@
     {
      "t": "2026-10-22T13:30:00+00:00",
      "o": 7729.25,
-     "h": 7734.0,
+     "h": 7740.75,
      "l": 7725.0,
-     "c": 7731.0,
-     "v": 12054.0
+     "c": 7732.0,
+     "v": 97802.0
+    },
+    {
+     "t": "2026-10-22T13:45:00+00:00",
+     "o": 7731.75,
+     "h": 7732.0,
+     "l": 7721.5,
+     "c": 7726.75,
+     "v": 12157.0
     }
    ]
   },
   {
    "root": "NQ",
    "trading_day": "2026-10-22",
-   "as_of_utc": "2026-10-22T13:41:16.027553+00:00",
+   "as_of_utc": "2026-10-22T13:56:42.521125+00:00",
    "source": "yahoo",
    "delayed": true,
-   "last_price": 29485.0,
+   "last_price": 29484.0,
    "levels": [
     {
      "tag": "exp_hi",
@@ -1599,7 +1607,7 @@
     {
      "tag": "pwh",
      "label": "Prior-week high",
-     "price": 29948.75,
+     "price": 29947.0,
      "group": "week",
      "note": "1 session(s) of data — PARTIAL"
     },
@@ -1641,7 +1649,7 @@
     {
      "tag": "tdh",
      "label": "Today's RTH high",
-     "price": 29529.25,
+     "price": 29560.0,
      "group": "today",
      "note": "so far"
     },
@@ -1667,17 +1675,17 @@
      "note": ""
     },
     {
-     "tag": "tdl",
-     "label": "Today's RTH low",
-     "price": 29465.25,
-     "group": "today",
-     "note": ""
-    },
-    {
      "tag": "rn_minor_dn",
      "label": "Round 50 below",
      "price": 29450.0,
      "group": "round",
+     "note": ""
+    },
+    {
+     "tag": "tdl",
+     "label": "Today's RTH low",
+     "price": 29443.25,
+     "group": "today",
      "note": ""
     },
     {
@@ -1710,8 +1718,8 @@
     }
    ],
    "stats": {
-    "last_bar_utc": "2026-10-22T13:31:00+00:00",
-    "last_bar_age_min": 10.3,
+    "last_bar_utc": "2026-10-22T13:46:00+00:00",
+    "last_bar_age_min": 10.7,
     "market_state": "open",
     "profile_volume": 454631.0,
     "prior_day": "2026-10-21",
@@ -2961,10 +2969,18 @@
     {
      "t": "2026-10-22T13:30:00+00:00",
      "o": 29515.75,
-     "h": 29529.25,
+     "h": 29560.0,
      "l": 29465.25,
-     "c": 29485.0,
-     "v": 6168.0
+     "c": 29520.5,
+     "v": 47065.0
+    },
+    {
+     "t": "2026-10-22T13:45:00+00:00",
+     "o": 29521.0,
+     "h": 29521.0,
+     "l": 29443.25,
+     "c": 29484.0,
+     "v": 5244.0
     }
    ]
   }
@@ -2977,7 +2993,16 @@
     "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxNakFIRzZlSGZZVDhMLWsxMlZzRkMwTGF5dDBGQkMxa3p3dFNJbjA0eFRtLVRLdGRINV9TYnU3U0lpemRpYTZEdV9VUjZLT1hwNzJrS3kzUDBrcGxXdVZaQzFuSU5QYjd4WlFwNFNKcVk0aHdLeDJkZnprb0pLQTcwUFJnR0pvSl9RYjdMbmZiTDJsOXh3SzhPZEs1YmNQZ3ZTc1g0bDE2S0hlNmxKWk1WZ3ZGc2ZGaFFkSDB2NW1wcE5LYnUxYzFyNFBtcTZubWItT2Rj0gHbAUFVX3lxTE1Vdm5yT0xNcFpZT2ZONnZoSzFTOVZIY0FEclV5d21GcnNmMFR4dzNTc3lTRHpFWFFNeGVHQ1B1QnY4UUFVZFJzRXdWV1ZDVkEtMjVpQlgySFE4QXRYamFSYVhXeEVUU0UyWFFQb2VSalBuTU9TaWVSXzVOeTlrZHZucXJlRVZVOURxT2pWLTNLNWxNZHVBQVhKVjNianZTX0JQVVBTeTY0YVZKblhPdEhHMlVwNHg4ckJCZHBjY1Z6czVtVUFLS0RkNW13eVpaSi1wLTY2c0Z0TUIzNA?oc=5",
     "source": "gnews_futures",
     "published_utc": "2026-10-22T11:21:53+00:00",
-    "score": 9.11,
+    "score": 9.07,
+    "duplicates": 1
+   },
+   {
+    "id": "13ccaab7e5",
+    "title": "U.S. stock futures drop as Tesla, Meta fall after earnings; oil jumps, bonds rally - Investing.com",
+    "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQNkowUHE3dTByTkVGOVhPWVduSGxsaGduRmJxMzFjZGlaek4wZVFDeEU4TGswbWNiODBEQ0taT3NMVHBNblJEdV9ybXVrdnpkUTJTU3FkcUswdHMwY1hQT0Q4TG1NZEFWSlZyOTQwSlNOcVN6dWdNSVhmZFdyUE40S3FyWXJyQnBwOVJLOFR2SHNFUnprekZTMC1lRmlxRUpnOUpPMWZyNGk2ZHdHOV94clVRamtTWWEy?oc=5",
+    "source": "gnews_futures",
+    "published_utc": "2026-10-22T01:12:28+00:00",
+    "score": 9.0,
     "duplicates": 1
    },
    {
@@ -2986,7 +3011,7 @@
     "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNNEIydGszTXFVOHJjR3BkeWdHYWpMMXZPN0tOM1dkRkVDaTFLdFZHWUpBVm9GRkR4T3M4ZG9lckx3Nm1hMkFDNXo3R3J5dThLazQyVzZZV3F6aldWS010WEt0dEtPOWVydTBJTlAwQnpGOTFCS3V5WGp1Y214QWtfbE1RdUxnYzlKV19uUGNEZURkNWZOTmJ2c2dvdDlURVE?oc=5",
     "source": "gnews_futures",
     "published_utc": "2026-10-22T11:16:59+00:00",
-    "score": 8.1,
+    "score": 8.06,
     "duplicates": 0
    },
    {
@@ -2995,17 +3020,8 @@
     "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOMzh5bko5NnlhSmNzNVZFQXpSOUNxWHVGSnpUVDJ2YUF0OTA2VENCbW5veTFfUndsaG1iOU1SNFo5T25PUXBmbWJRMUFFd2pkR3NzNy1FM1ZSLWxsdUZxd1JUWDZDYlctMVoxNmJ0cTZERE9uMFBMaV9SV1pBeDd2dk1mS3V0WlBIZmI5VG1NRldJem5na212QXk1d0tzLWRYam1oUThLN2w?oc=5",
     "source": "gnews_futures",
     "published_utc": "2026-10-22T13:17:52+00:00",
-    "score": 7.93,
+    "score": 7.89,
     "duplicates": 2
-   },
-   {
-    "id": "6c3896f10a",
-    "title": "U.S. stock futures drop as investors weigh Tesla, Meta earnings; oil prices jump By Investing.com - Investing.com Nigeria",
-    "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPVlJyWWtUejF5N2MxY3dLd3c0Q1JwcUlXMm82LXdja0lRNWVnUVVfTFN0WDdZb1ZmbHhGZFY0TTNJUmVUazVfME54SllSODY4MGdRVTU1Z0RNS3p5MVBXQUVENDFhM0tVVVlMVy1fSG1oMHI1Qk5Oc3d2OXFETmxzcEVhN2J5cU51emNpdUV1Sm9OOXk0LUk2SklEbVN0MFRBUVVNSk41c2EwOTQydWhJR25hNFI4dW8?oc=5",
-    "source": "gnews_megacap",
-    "published_utc": "2026-10-22T12:56:50+00:00",
-    "score": 7.88,
-    "duplicates": 0
    },
    {
     "id": "da365fc8dc",
@@ -3013,8 +3029,17 @@
     "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTFBFOTFqU3NYNjhiNDJfNnR6UDN2di0yRzhDUXM0TWYzTV8wcGlQUnBmYXY3cVM3bHNPRzVOWHZfSXJPTUx4TUlUM1VURWpEVTJlQ3hFenRaOW40SlRHU29OelQyYmVHNnBOVGxLem0wczh6MHB6bjZwM24tZlI?oc=5",
     "source": "gnews_futures",
     "published_utc": "2026-10-22T12:18:44+00:00",
-    "score": 7.77,
+    "score": 7.73,
     "duplicates": 1
+   },
+   {
+    "id": "d6fc81dfac",
+    "title": "How Are Dow, S&P 500, Nasdaq Futures Trading After META, TSLA Earnings? - Yahoo Finance",
+    "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxON3o4R1lpRkJwUl9FR0F3RThnR2N6dEhNMkl6TFZyVUY4R0JRenhWY2xFRjR3dXA4WHVmQzZ3LXZQcTY0Q3N1ZE5TaktteXFteE1kRmhtZTlXbUNKRklOdTlWWkJXdElxM1lEX20yU3U4TlV4ck0xLUNiN1A5RjlDbE9ZMGUyY055NjNzMWthUXB2NEU?oc=5",
+    "source": "gnews_futures",
+    "published_utc": "2026-10-22T03:11:00+00:00",
+    "score": 7.71,
+    "duplicates": 3
    },
    {
     "id": "84cf92fd86",
@@ -3022,25 +3047,7 @@
     "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxPLS1sQUJTbm1SZnI5OXMyVFJvVFBzYW5TZHBUU19FdXUzOTBMSUd5UDVueUc0blJtYjJLak5HRlU1bXZCdjV6U0kxdHV5clRsaGxoVGQ3ckFjX1hqLW1LN01SYkVfQWpSX295UWJkbWpGNVgxek1ONjNDWF8zaXhzOXhET2V6Z1hZSXBIalhtdmxVdGpyUURTRnZFWkZ1RVRjSFBpV0Z1aFhpMUlkMUdHMk85ZFFiNFlicllNQ1Y2dmZZZndCSTVfYURSVk9JdjFRV2FCTQ?oc=5",
     "source": "gnews_futures",
     "published_utc": "2026-10-22T11:26:03+00:00",
-    "score": 7.62,
-    "duplicates": 0
-   },
-   {
-    "id": "560530a41c",
-    "title": "U.S. stock futures fall as investors weigh Tesla, Meta earnings - Yahoo Finance Australia",
-    "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNVWxmZnM4bWZuckF1WVBrMjh3M2dqa2s5WWZYbi1DUjRfREh2VWhCOVl1RVF4WlRBdU1CRHh2MURuRE5SZkNjRVo0YlRoQ1RWMmJKeWI4UkpPM2hwT19sblVfMVMzRzZUVmF5QXd6b0tqd3YySTZkbi1yWkVvRnNleGY4ZGNvZw?oc=5",
-    "source": "gnews_futures",
-    "published_utc": "2026-10-22T01:44:00+00:00",
-    "score": 7.51,
-    "duplicates": 3
-   },
-   {
-    "id": "0542cf8582",
-    "title": "U.S. stock futures drop as Tesla, Meta fall after earnings; oil jumps, bonds rally - Investing.com",
-    "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQNkowUHE3dTByTkVGOVhPWVduSGxsaGduRmJxMzFjZGlaek4wZVFDeEU4TGswbWNiODBEQ0taT3NMVHBNblJEdV9ybXVrdnpkUTJTU3FkcUswdHMwY1hQT0Q4TG1NZEFWSlZyOTQwSlNOcVN6dWdNSVhmZFdyUE40S3FyWXJyQnBwOVJLOFR2SHNFUnprekZTMC1lRmlxRUpnOUpPMWZyNGk2ZHdHOV94clVRamtTWWEy?oc=5",
-    "source": "gnews_megacap",
-    "published_utc": "2026-10-22T01:12:28+00:00",
-    "score": 7.5,
+    "score": 7.58,
     "duplicates": 0
    },
    {
@@ -3049,7 +3056,7 @@
     "link": "https://news.google.com/rss/articles/CBMiowJBVV95cUxQZm9qaDRCSlF2YnpyU1ZFRk1JZnpJZHF4Ym5iZEZBT1NwSnBxYy1nNHF0TDFPUVNBRlNHMFhQUDJRWmRGN2V3R1psLWR0b25BR05jb2RDMHd6aHZSeXVMZkpocm0tX01hT0IzQVFMb0ZhUjBCUGp4WnM2Q0w3M1F6V0pXOVVyclItTVgtTG5TaDVwU2kxeHV3dWdPOC1SZnpkQTYyZGpFY3E0cHJDcVVZQWluTXE1a3MzVlpneTI5YXphSnhxMm1EWnBxY094TkFJQW1TRkliS2piTjJyNm9mX3E0NUtBZFVackpxTDVZcFJEQ1R3aGpGaHEzNzlZdjdDTTM2RTNMWGMwaVBMamZ1eHEwdy1qZE5qSWEyMEhVb3JVLXM?oc=5",
     "source": "gnews_fed",
     "published_utc": "2026-10-22T13:09:00+00:00",
-    "score": 7.41,
+    "score": 7.37,
     "duplicates": 0
    },
    {
@@ -3058,7 +3065,7 @@
     "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNdWN5TzJiNG5XMFJvcTdNbUxMTHd2MllzY05iR0V4UklVV20wRTYtMlZ1YzVSQkwyZ2p5OFkxNFNTM19DVjhFZTI3UkdESFJkMm5CSFV5cXVqR0VkYk5jZzdiZ2c4VUEtcVJ2eFZHTjdDUVhnSVRzMVBodGQ2YkZmcF9vZXJfQQ?oc=5",
     "source": "gnews_macro",
     "published_utc": "2026-10-22T12:56:00+00:00",
-    "score": 7.37,
+    "score": 7.33,
     "duplicates": 0
    },
    {
@@ -3067,7 +3074,7 @@
     "link": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxNQ281aU1NcFU5bDAtRkhHSXVpaE12b3lrYkw2c3UyeW1MRlM5eUFGNkJRNHJvWWxZQlBsMWhPVUlPOF9YRGJHc3RlRV9pamJtd2dLc20zaHZIR3dqcmZuRW1ydDFLRFdhc2RmQTJkM2tmM0JOZmt4QUR6ZXRNbGxfNm9leEFYWm5pZnd3cnpnRm40ZTFJY19Gc09UUklocU02MzAwbktjV05FSm9WQVZxbjluaDc5aHlDN3dHWV9sTWg4UlQtYVNrNmNxeXhKV0FpS3BudWw0N1pYNVJudUNMbmpiOEE5a2VoNWIzZVg0RnB0dw?oc=5",
     "source": "gnews_macro",
     "published_utc": "2026-10-22T12:50:00+00:00",
-    "score": 7.36,
+    "score": 7.31,
     "duplicates": 0
    },
    {
@@ -3076,16 +3083,25 @@
     "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOaHkzVk1fTzlucTV0WFN6LVc0aHNGMmxBZ2VkTldvNjc3VmM2NTBXYXh1YmdVZ0QyQTVQSVV0bFNiZ2xvUVF6OWNxS3EyRFpJM01lZXN4RGhjaExidEVWZGNZdTFjV0NMVE90OUJ6UFJHbkg2UTA0cDF3UmhYd1RSUExHNUVILTVrQ0cxU01SUEYwVk1uaWRoZnYzSHVnMmtzM2xxYm90cFhaRDM4Y0g5bENfTG0wcWNWVXFydktR?oc=5",
     "source": "gnews_futures",
     "published_utc": "2026-10-22T09:45:00+00:00",
-    "score": 7.34,
+    "score": 7.3,
     "duplicates": 0
+   },
+   {
+    "id": "242f088f9c",
+    "title": "Gold hits over two-month low as oil rally fuels inflation worries - Kitco",
+    "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNRkNES3NPNlFvRjF1QzlSaFdaMjE0XzNIM1BHdmVXTXp3QXh1MERlNE5BZFFwalJreGkxZUJKVDFmd1ZxR1phWkM0SmhuTVJISUhXVVk5UzdUbkkxVmtSUHJQejhlM1FWeDNJN2tuWl9ibGVMdW9QNlNuclRzaGpYSVA1Z0l6SHRqMUlaU2lDZ2lSc2dpRTY0aUNiR2tXeTR5Szd2MEdvM0xmVHhScWpKVTMxMA?oc=5",
+    "source": "gnews_macro",
+    "published_utc": "2026-10-22T12:13:37+00:00",
+    "score": 7.21,
+    "duplicates": 1
    }
   ],
   "summary": {
    "lines": [
     "Wall Street To Open Lower? Nasdaq Futures Fall As Tesla, Meta Earnings Fail To Allay AI Worries - NDTV Profit [d033d1f27c]",
+    "U.S. stock futures drop as Tesla, Meta fall after earnings; oil jumps, bonds rally - Investing.com [13ccaab7e5]",
     "Nasdaq Futures Slide Premarket As AI Spending Worries Resurface — Oil Tops $112 On Iran Tensions, Supply Concerns - Yahoo Finance [71eaad3d68]",
     "Nasdaq futures sink as AI doubts resurface, oil jumps - marketscreener.com [6ceae926b8]",
-    "U.S. stock futures drop as investors weigh Tesla, Meta earnings; oil prices jump By Investing.com - Investing.com Nigeria [6c3896f10a]",
     "US Stock Market Today: S&P 500 Futures Fall On Hot UK Inflation Surprise - Yahoo Finance Singapore [da365fc8dc]"
    ],
    "backend": "none",
