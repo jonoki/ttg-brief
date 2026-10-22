@@ -1,7 +1,7 @@
 {
  "meta": {
-  "generated_at_utc": "2026-10-22T14:42:43.563840+00:00",
-  "generated_at_local": "Thu 22 Oct 2026 11:42 ADT",
+  "generated_at_utc": "2026-10-22T14:58:02.955076+00:00",
+  "generated_at_local": "Thu 22 Oct 2026 11:58 ADT",
   "trading_day": "2026-10-22",
   "display_tz": "America/Halifax",
   "version": "0.1.0",
@@ -109,7 +109,7 @@
    "time_utc": "2026-10-23T13:45:00+00:00",
    "local": "10:45 ADT",
    "et": "09:45 ET",
-   "in": "23h 02m",
+   "in": "22h 46m",
    "consensus": "55.4",
    "prior": "57.0"
   },
@@ -120,10 +120,10 @@
   {
    "root": "ES",
    "trading_day": "2026-10-22",
-   "as_of_utc": "2026-10-22T14:42:43.563840+00:00",
+   "as_of_utc": "2026-10-22T14:58:02.955076+00:00",
    "source": "yahoo",
    "delayed": true,
-   "last_price": 7689.75,
+   "last_price": 7688.0,
    "levels": [
     {
      "tag": "exp_hi",
@@ -177,7 +177,7 @@
     {
      "tag": "pwh",
      "label": "Prior-week high",
-     "price": 7796.5,
+     "price": 7784.75,
      "group": "week",
      "note": "1 session(s) of data — PARTIAL"
     },
@@ -247,14 +247,14 @@
     {
      "tag": "tdl",
      "label": "Today's RTH low",
-     "price": 7688.25,
+     "price": 7686.0,
      "group": "today",
      "note": ""
     },
     {
      "tag": "wl",
      "label": "Week low",
-     "price": 7688.25,
+     "price": 7686.0,
      "group": "week",
      "note": ""
     },
@@ -281,8 +281,8 @@
     }
    ],
    "stats": {
-    "last_bar_utc": "2026-10-22T14:32:00+00:00",
-    "last_bar_age_min": 10.7,
+    "last_bar_utc": "2026-10-22T14:48:00+00:00",
+    "last_bar_age_min": 10.0,
     "market_state": "open",
     "profile_volume": 1288773.0,
     "prior_day": "2026-10-21",
@@ -1565,19 +1565,27 @@
      "t": "2026-10-22T14:30:00+00:00",
      "o": 7698.25,
      "h": 7699.75,
-     "l": 7688.25,
-     "c": 7689.75,
-     "v": 20653.0
+     "l": 7686.0,
+     "c": 7690.5,
+     "v": 126645.0
+    },
+    {
+     "t": "2026-10-22T14:45:00+00:00",
+     "o": 7690.25,
+     "h": 7693.75,
+     "l": 7686.25,
+     "c": 7688.0,
+     "v": 20054.0
     }
    ]
   },
   {
    "root": "NQ",
    "trading_day": "2026-10-22",
-   "as_of_utc": "2026-10-22T14:42:43.563840+00:00",
+   "as_of_utc": "2026-10-22T14:58:02.955076+00:00",
    "source": "yahoo",
    "delayed": true,
-   "last_price": 29317.25,
+   "last_price": 29257.25,
    "levels": [
     {
      "tag": "exp_hi",
@@ -1629,13 +1637,6 @@
      "note": "since 18:00 ET, 915 bars"
     },
     {
-     "tag": "pwh",
-     "label": "Prior-week high",
-     "price": 29947.0,
-     "group": "week",
-     "note": "1 session(s) of data — PARTIAL"
-    },
-    {
      "tag": "val",
      "label": "Prior-day VAL",
      "price": 29883.0,
@@ -1648,6 +1649,13 @@
      "price": 29874.0,
      "group": "prior_day",
      "note": "2026-10-21"
+    },
+    {
+     "tag": "pwh",
+     "label": "Prior-week high",
+     "price": 29862.75,
+     "group": "week",
+     "note": "1 session(s) of data — PARTIAL"
     },
     {
      "tag": "pdl",
@@ -1701,34 +1709,6 @@
     {
      "tag": "rn_major_up",
      "label": "Round 100 above",
-     "price": 29400.0,
-     "group": "round",
-     "note": ""
-    },
-    {
-     "tag": "rn_minor_up",
-     "label": "Round 50 above",
-     "price": 29350.0,
-     "group": "round",
-     "note": ""
-    },
-    {
-     "tag": "tdl",
-     "label": "Today's RTH low",
-     "price": 29306.0,
-     "group": "today",
-     "note": ""
-    },
-    {
-     "tag": "wl",
-     "label": "Week low",
-     "price": 29306.0,
-     "group": "week",
-     "note": ""
-    },
-    {
-     "tag": "rn_major_dn",
-     "label": "Round 100 below",
      "price": 29300.0,
      "group": "round",
      "note": ""
@@ -1739,11 +1719,39 @@
      "price": 29268.75,
      "group": "week",
      "note": "1 session(s) of data — PARTIAL"
+    },
+    {
+     "tag": "tdl",
+     "label": "Today's RTH low",
+     "price": 29250.0,
+     "group": "today",
+     "note": ""
+    },
+    {
+     "tag": "wl",
+     "label": "Week low",
+     "price": 29250.0,
+     "group": "week",
+     "note": ""
+    },
+    {
+     "tag": "rn_minor_dn",
+     "label": "Round 50 below",
+     "price": 29250.0,
+     "group": "round",
+     "note": ""
+    },
+    {
+     "tag": "rn_major_dn",
+     "label": "Round 100 below",
+     "price": 29200.0,
+     "group": "round",
+     "note": ""
     }
    ],
    "stats": {
-    "last_bar_utc": "2026-10-22T14:32:00+00:00",
-    "last_bar_age_min": 10.7,
+    "last_bar_utc": "2026-10-22T14:48:00+00:00",
+    "last_bar_age_min": 10.0,
     "market_state": "open",
     "profile_volume": 454631.0,
     "prior_day": "2026-10-21",
@@ -3026,9 +3034,17 @@
      "t": "2026-10-22T14:30:00+00:00",
      "o": 29359.0,
      "h": 29371.0,
-     "l": 29306.0,
-     "c": 29317.25,
-     "v": 7699.0
+     "l": 29279.75,
+     "c": 29297.0,
+     "v": 41905.0
+    },
+    {
+     "t": "2026-10-22T14:45:00+00:00",
+     "o": 29296.0,
+     "h": 29314.5,
+     "l": 29250.0,
+     "c": 29257.25,
+     "v": 7031.0
     }
    ]
   }
@@ -3036,12 +3052,21 @@
  "news": {
   "headlines": [
    {
+    "id": "9b916ae4e4",
+    "title": "Stock market today: Dow, S&P 500, Nasdaq futures fall as oil climbs, investors weigh Tesla, Meta earnings - Yahoo Finance",
+    "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNN25FM2VQb2hlbTFoTl9SQmp3QzhBdnhER0NValF0Wm9Fdml5M2taT2NGQldFeFE5ZXRLbDBVZU5yOE9WdDdxRFVQZ3Q3LVNxbkRyUC01OWJ3eHREZ3RnZE1YR2dsQm9taFpsT3NlWkl3WTBNaGppRi1ZRmdxaUdEX2d2VWhPR19IZUN0TTdfVzBFNm8yZ0wzVFRDZUgzbnpTd0ZhVy1zcmZjRGlYZ2NmdGJFNTFydDFzLUZNYVBXNXFDUQ?oc=5",
+    "source": "gnews_futures",
+    "published_utc": "2026-10-22T11:23:44+00:00",
+    "score": 8.9,
+    "duplicates": 1
+   },
+   {
     "id": "d033d1f27c",
     "title": "Wall Street To Open Lower? Nasdaq Futures Fall As Tesla, Meta Earnings Fail To Allay AI Worries - NDTV Profit",
     "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxNakFIRzZlSGZZVDhMLWsxMlZzRkMwTGF5dDBGQkMxa3p3dFNJbjA0eFRtLVRLdGRINV9TYnU3U0lpemRpYTZEdV9VUjZLT1hwNzJrS3kzUDBrcGxXdVZaQzFuSU5QYjd4WlFwNFNKcVk0aHdLeDJkZnprb0pLQTcwUFJnR0pvSl9RYjdMbmZiTDJsOXh3SzhPZEs1YmNQZ3ZTc1g0bDE2S0hlNmxKWk1WZ3ZGc2ZGaFFkSDB2NW1wcE5LYnUxYzFyNFBtcTZubWItT2Rj0gHbAUFVX3lxTE1Vdm5yT0xNcFpZT2ZONnZoSzFTOVZIY0FEclV5d21GcnNmMFR4dzNTc3lTRHpFWFFNeGVHQ1B1QnY4UUFVZFJzRXdWV1ZDVkEtMjVpQlgySFE4QXRYamFSYVhXeEVUU0UyWFFQb2VSalBuTU9TaWVSXzVOeTlrZHZucXJlRVZVOURxT2pWLTNLNWxNZHVBQVhKVjNianZTX0JQVVBTeTY0YVZKblhPdEhHMlVwNHg4ckJCZHBjY1Z6czVtVUFLS0RkNW13eVpaSi1wLTY2c0Z0TUIzNA?oc=5",
     "source": "gnews_futures",
     "published_utc": "2026-10-22T11:21:53+00:00",
-    "score": 8.94,
+    "score": 8.9,
     "duplicates": 1
    },
    {
@@ -3050,7 +3075,7 @@
     "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE95SzRUM0lIai1jTlF3eW1rd2pwUUxfUGN4WlZTMDZZUVhFZmFNb3NTS1JfRHpxSHFzUVdVZTZZLXdPSWlvWmc5emdnQTVuSEdCR05SNExlY0NpdVBnZmhfdGVzSWJGTTZkUWlKRzlhdHloR3dvRXk4eTZRSQ?oc=5",
     "source": "gnews_macro",
     "published_utc": "2026-10-22T14:20:00+00:00",
-    "score": 8.44,
+    "score": 8.39,
     "duplicates": 0
    },
    {
@@ -3059,16 +3084,16 @@
     "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNNEIydGszTXFVOHJjR3BkeWdHYWpMMXZPN0tOM1dkRkVDaTFLdFZHWUpBVm9GRkR4T3M4ZG9lckx3Nm1hMkFDNXo3R3J5dThLazQyVzZZV3F6aldWS010WEt0dEtPOWVydTBJTlAwQnpGOTFCS3V5WGp1Y214QWtfbE1RdUxnYzlKV19uUGNEZURkNWZOTmJ2c2dvdDlURVE?oc=5",
     "source": "gnews_futures",
     "published_utc": "2026-10-22T11:16:59+00:00",
-    "score": 7.93,
+    "score": 7.89,
     "duplicates": 0
    },
    {
-    "id": "da365fc8dc",
-    "title": "US Stock Market Today: S&P 500 Futures Fall On Hot UK Inflation Surprise - Yahoo Finance Singapore",
-    "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTFBFOTFqU3NYNjhiNDJfNnR6UDN2di0yRzhDUXM0TWYzTV8wcGlQUnBmYXY3cVM3bHNPRzVOWHZfSXJPTUx4TUlUM1VURWpEVTJlQ3hFenRaOW40SlRHU29OelQyYmVHNnBOVGxLem0wczh6MHB6bjZwM24tZlI?oc=5",
+    "id": "1a9d8f82f8",
+    "title": "US Stock Market Today: S&P 500 Futures Fall On Hot UK Inflation Surprise - Yahoo Finance",
+    "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOTkZXbThyZm5IalZxc2oza0tVRWxnYk5sT3BZdVdzSHUyRTQyYVVTaXptUjdpZC00NmJpRHE1N1FLY2JZc3U0T1g4QVR6VnptQUJKTjdUQ1VjelgzM0JXcXN6NkVvUWVHSnFlanBHaUVTUmxPSU9mU2dtWUt0aGdrTlB6NEpqbjFJMGdrOTFId2pFUQ?oc=5",
     "source": "gnews_futures",
     "published_utc": "2026-10-22T12:18:44+00:00",
-    "score": 7.6,
+    "score": 7.56,
     "duplicates": 1
    },
    {
@@ -3086,7 +3111,7 @@
     "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxPLS1sQUJTbm1SZnI5OXMyVFJvVFBzYW5TZHBUU19FdXUzOTBMSUd5UDVueUc0blJtYjJLak5HRlU1bXZCdjV6U0kxdHV5clRsaGxoVGQ3ckFjX1hqLW1LN01SYkVfQWpSX295UWJkbWpGNVgxek1ONjNDWF8zaXhzOXhET2V6Z1hZSXBIalhtdmxVdGpyUURTRnZFWkZ1RVRjSFBpV0Z1aFhpMUlkMUdHMk85ZFFiNFlicllNQ1Y2dmZZZndCSTVfYURSVk9JdjFRV2FCTQ?oc=5",
     "source": "gnews_futures",
     "published_utc": "2026-10-22T11:26:03+00:00",
-    "score": 7.45,
+    "score": 7.41,
     "duplicates": 0
    },
    {
@@ -3095,7 +3120,7 @@
     "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQYzlYMElEZWpheDcybHdGNUJyelJDb1JNSVlBbHZQWXd5Znp3OGNWSnYyZ2MzRElldkFsblhleUtJZGxTYUVuQ01TZnoyeUxra29SRGZnc2JWRHo2NU5NMmY0YXhoeTBpY0xzd0Z0cWxXUFhIdHJNeHFOdHJiSEdVdXdyeTFfcGJnM2xVdWN0MkdPUVNRVGc?oc=5",
     "source": "gnews_futures",
     "published_utc": "2026-10-22T14:20:01+00:00",
-    "score": 7.44,
+    "score": 7.39,
     "duplicates": 1
    },
    {
@@ -3104,7 +3129,7 @@
     "link": "https://news.google.com/rss/articles/CBMiowJBVV95cUxQZm9qaDRCSlF2YnpyU1ZFRk1JZnpJZHF4Ym5iZEZBT1NwSnBxYy1nNHF0TDFPUVNBRlNHMFhQUDJRWmRGN2V3R1psLWR0b25BR05jb2RDMHd6aHZSeXVMZkpocm0tX01hT0IzQVFMb0ZhUjBCUGp4WnM2Q0w3M1F6V0pXOVVyclItTVgtTG5TaDVwU2kxeHV3dWdPOC1SZnpkQTYyZGpFY3E0cHJDcVVZQWluTXE1a3MzVlpneTI5YXphSnhxMm1EWnBxY094TkFJQW1TRkliS2piTjJyNm9mX3E0NUtBZFVackpxTDVZcFJEQ1R3aGpGaHEzNzlZdjdDTTM2RTNMWGMwaVBMamZ1eHEwdy1qZE5qSWEyMEhVb3JVLXM?oc=5",
     "source": "gnews_fed",
     "published_utc": "2026-10-22T13:09:00+00:00",
-    "score": 7.24,
+    "score": 7.2,
     "duplicates": 0
    },
    {
@@ -3113,7 +3138,7 @@
     "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNdWN5TzJiNG5XMFJvcTdNbUxMTHd2MllzY05iR0V4UklVV20wRTYtMlZ1YzVSQkwyZ2p5OFkxNFNTM19DVjhFZTI3UkdESFJkMm5CSFV5cXVqR0VkYk5jZzdiZ2c4VUEtcVJ2eFZHTjdDUVhnSVRzMVBodGQ2YkZmcF9vZXJfQQ?oc=5",
     "source": "gnews_macro",
     "published_utc": "2026-10-22T12:56:00+00:00",
-    "score": 7.2,
+    "score": 7.16,
     "duplicates": 0
    },
    {
@@ -3122,16 +3147,7 @@
     "link": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxNQ281aU1NcFU5bDAtRkhHSXVpaE12b3lrYkw2c3UyeW1MRlM5eUFGNkJRNHJvWWxZQlBsMWhPVUlPOF9YRGJHc3RlRV9pamJtd2dLc20zaHZIR3dqcmZuRW1ydDFLRFdhc2RmQTJkM2tmM0JOZmt4QUR6ZXRNbGxfNm9leEFYWm5pZnd3cnpnRm40ZTFJY19Gc09UUklocU02MzAwbktjV05FSm9WQVZxbjluaDc5aHlDN3dHWV9sTWg4UlQtYVNrNmNxeXhKV0FpS3BudWw0N1pYNVJudUNMbmpiOEE5a2VoNWIzZVg0RnB0dw?oc=5",
     "source": "gnews_macro",
     "published_utc": "2026-10-22T12:50:00+00:00",
-    "score": 7.19,
-    "duplicates": 0
-   },
-   {
-    "id": "1276eb9a5e",
-    "title": "Stock market today: Dow, S&P 500, Nasdaq futures fall as traders assess Tesla, Meta earnings - Yahoo Finance",
-    "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOaHkzVk1fTzlucTV0WFN6LVc0aHNGMmxBZ2VkTldvNjc3VmM2NTBXYXh1YmdVZ0QyQTVQSVV0bFNiZ2xvUVF6OWNxS3EyRFpJM01lZXN4RGhjaExidEVWZGNZdTFjV0NMVE90OUJ6UFJHbkg2UTA0cDF3UmhYd1RSUExHNUVILTVrQ0cxU01SUEYwVk1uaWRoZnYzSHVnMmtzM2xxYm90cFhaRDM4Y0g5bENfTG0wcWNWVXFydktR?oc=5",
-    "source": "gnews_futures",
-    "published_utc": "2026-10-22T09:45:00+00:00",
-    "score": 7.17,
+    "score": 7.14,
     "duplicates": 0
    },
    {
@@ -3140,17 +3156,17 @@
     "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPQUhJdWYzN2t5ZVFabzhzLVVhakFaQ2xWUHVxV21uZ0Z4U0FLX0FDSk9RdzFkSkZzNjZ3X1lObHRMWnhRM3dnTUFDNXpfWTJieWdIeXVyWVVwdnAwVy1zNDYwSFk3LWh2dDRBM2YtZkhhOVNtcVBsLXY1U3lwNGp4LWVfWm90OXdzc1pQc1RkYnJwUFVBaFE?oc=5",
     "source": "gnews_macro",
     "published_utc": "2026-10-22T09:23:00+00:00",
-    "score": 7.11,
+    "score": 7.07,
     "duplicates": 1
    }
   ],
   "summary": {
    "lines": [
+    "Stock market today: Dow, S&P 500, Nasdaq futures fall as oil climbs, investors weigh Tesla, Meta earnings - Yahoo Finance [9b916ae4e4]",
     "Wall Street To Open Lower? Nasdaq Futures Fall As Tesla, Meta Earnings Fail To Allay AI Worries - NDTV Profit [d033d1f27c]",
     "Oil Prices Surge on Renewed Iran Tensions, Rekindling Inflation Fears - Barron's [971f37b488]",
     "Nasdaq Futures Slide Premarket As AI Spending Worries Resurface — Oil Tops $112 On Iran Tensions, Supply Concerns - Yahoo Finance [71eaad3d68]",
-    "US Stock Market Today: S&P 500 Futures Fall On Hot UK Inflation Surprise - Yahoo Finance Singapore [da365fc8dc]",
-    "U.S. stock futures drop as Tesla, Meta fall after earnings; oil jumps, bonds rally - Investing.com [0542cf8582]"
+    "US Stock Market Today: S&P 500 Futures Fall On Hot UK Inflation Surprise - Yahoo Finance [1a9d8f82f8]"
    ],
    "backend": "none",
    "model": null,
@@ -3408,17 +3424,17 @@
     "reported": false
    },
    {
-    "symbol": "HON",
-    "name": "Honeywell International Inc.",
-    "timing": "pre",
+    "symbol": "BE",
+    "name": "Bloom Energy Corporation",
+    "timing": "post",
     "date": "2026-10-22",
     "reported_at": null,
     "reported": false
    },
    {
-    "symbol": "BE",
-    "name": "Bloom Energy Corporation",
-    "timing": "post",
+    "symbol": "HON",
+    "name": "Honeywell International Inc.",
+    "timing": "pre",
     "date": "2026-10-22",
     "reported_at": null,
     "reported": false
