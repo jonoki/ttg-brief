@@ -1,7 +1,7 @@
 {
  "meta": {
-  "generated_at_utc": "2026-10-22T11:57:13.176840+00:00",
-  "generated_at_local": "Thu 22 Oct 2026 08:57 ADT",
+  "generated_at_utc": "2026-10-22T12:12:28.813207+00:00",
+  "generated_at_local": "Thu 22 Oct 2026 09:12 ADT",
   "trading_day": "2026-10-22",
   "display_tz": "America/Halifax",
   "version": "0.1.0",
@@ -109,7 +109,7 @@
    "time_utc": "2026-10-22T12:30:00+00:00",
    "local": "09:30 ADT",
    "et": "08:30 ET",
-   "in": "32 min",
+   "in": "17 min",
    "consensus": "200K",
    "prior": "199K"
   },
@@ -120,10 +120,10 @@
   {
    "root": "ES",
    "trading_day": "2026-10-22",
-   "as_of_utc": "2026-10-22T11:57:13.176840+00:00",
+   "as_of_utc": "2026-10-22T12:12:28.813207+00:00",
    "source": "yahoo",
    "delayed": true,
-   "last_price": 7724.25,
+   "last_price": 7723.5,
    "levels": [
     {
      "tag": "exp_hi",
@@ -179,7 +179,7 @@
      "label": "Overnight high",
      "price": 7798.75,
      "group": "overnight",
-     "note": "since 18:00 ET, 813 bars"
+     "note": "since 18:00 ET, 828 bars"
     },
     {
      "tag": "pdo",
@@ -212,7 +212,7 @@
     {
      "tag": "onvwap",
      "label": "Overnight VWAP",
-     "price": 7736.91,
+     "price": 7736.57,
      "group": "overnight",
      "note": "typical-price VWAP"
     },
@@ -260,14 +260,14 @@
     }
    ],
    "stats": {
-    "last_bar_utc": "2026-10-22T11:47:00+00:00",
-    "last_bar_age_min": 10.2,
+    "last_bar_utc": "2026-10-22T12:02:00+00:00",
+    "last_bar_age_min": 10.5,
     "market_state": "open",
     "profile_volume": 1288773.0,
     "prior_day": "2026-10-21",
     "prior_day_rth_range": 61.25,
     "overnight_range": 88.5,
-    "gap_vs_prior_close": -74.75,
+    "gap_vs_prior_close": -75.5,
     "gap_basis": "last price (pre-market)",
     "atr14": 79.66,
     "atr_days": 14,
@@ -1456,19 +1456,27 @@
      "t": "2026-10-22T11:45:00+00:00",
      "o": 7724.5,
      "h": 7726.0,
-     "l": 7723.5,
-     "c": 7724.25,
-     "v": 857.0
+     "l": 7720.5,
+     "c": 7723.75,
+     "v": 6822.0
+    },
+    {
+     "t": "2026-10-22T12:00:00+00:00",
+     "o": 7723.75,
+     "h": 7724.25,
+     "l": 7721.5,
+     "c": 7723.5,
+     "v": 1548.0
     }
    ]
   },
   {
    "root": "NQ",
    "trading_day": "2026-10-22",
-   "as_of_utc": "2026-10-22T11:57:13.176840+00:00",
+   "as_of_utc": "2026-10-22T12:12:28.813207+00:00",
    "source": "yahoo",
    "delayed": true,
-   "last_price": 29502.0,
+   "last_price": 29516.75,
    "levels": [
     {
      "tag": "exp_hi",
@@ -1480,7 +1488,7 @@
     {
      "tag": "pwh",
      "label": "Prior-week high",
-     "price": 30129.75,
+     "price": 30126.25,
      "group": "week",
      "note": "1 session(s) of data — PARTIAL"
     },
@@ -1524,7 +1532,7 @@
      "label": "Overnight high",
      "price": 29993.25,
      "group": "overnight",
-     "note": "since 18:00 ET, 813 bars"
+     "note": "since 18:00 ET, 828 bars"
     },
     {
      "tag": "val",
@@ -1557,7 +1565,7 @@
     {
      "tag": "onvwap",
      "label": "Overnight VWAP",
-     "price": 29620.61,
+     "price": 29618.75,
      "group": "overnight",
      "note": "typical-price VWAP"
     },
@@ -1612,14 +1620,14 @@
     }
    ],
    "stats": {
-    "last_bar_utc": "2026-10-22T11:47:00+00:00",
-    "last_bar_age_min": 10.2,
+    "last_bar_utc": "2026-10-22T12:02:00+00:00",
+    "last_bar_age_min": 10.5,
     "market_state": "open",
     "profile_volume": 454631.0,
     "prior_day": "2026-10-21",
     "prior_day_rth_range": 342.0,
     "overnight_range": 576.25,
-    "gap_vs_prior_close": -495.75,
+    "gap_vs_prior_close": -481.0,
     "gap_basis": "last price (pre-market)",
     "atr14": 529.95,
     "atr_days": 14,
@@ -2807,10 +2815,18 @@
     {
      "t": "2026-10-22T11:45:00+00:00",
      "o": 29505.25,
-     "h": 29510.75,
-     "l": 29499.0,
-     "c": 29502.0,
-     "v": 297.0
+     "h": 29522.25,
+     "l": 29492.5,
+     "c": 29514.0,
+     "v": 2324.0
+    },
+    {
+     "t": "2026-10-22T12:00:00+00:00",
+     "o": 29515.0,
+     "h": 29521.75,
+     "l": 29503.0,
+     "c": 29516.75,
+     "v": 643.0
     }
    ]
   }
@@ -2823,7 +2839,7 @@
     "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQNkowUHE3dTByTkVGOVhPWVduSGxsaGduRmJxMzFjZGlaek4wZVFDeEU4TGswbWNiODBEQ0taT3NMVHBNblJEdV9ybXVrdnpkUTJTU3FkcUswdHMwY1hQT0Q4TG1NZEFWSlZyOTQwSlNOcVN6dWdNSVhmZFdyUE40S3FyWXJyQnBwOVJLOFR2SHNFUnprekZTMC1lRmlxRUpnOUpPMWZyNGk2ZHdHOV94clVRamtTWWEy?oc=5",
     "source": "gnews_futures",
     "published_utc": "2026-10-22T10:35:29+00:00",
-    "score": 10.27,
+    "score": 10.23,
     "duplicates": 5
    },
    {
@@ -2832,17 +2848,26 @@
     "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxNakFIRzZlSGZZVDhMLWsxMlZzRkMwTGF5dDBGQkMxa3p3dFNJbjA0eFRtLVRLdGRINV9TYnU3U0lpemRpYTZEdV9VUjZLT1hwNzJrS3kzUDBrcGxXdVZaQzFuSU5QYjd4WlFwNFNKcVk0aHdLeDJkZnprb0pLQTcwUFJnR0pvSl9RYjdMbmZiTDJsOXh3SzhPZEs1YmNQZ3ZTc1g0bDE2S0hlNmxKWk1WZ3ZGc2ZGaFFkSDB2NW1wcE5LYnUxYzFyNFBtcTZubWItT2Rj0gHbAUFVX3lxTE1Vdm5yT0xNcFpZT2ZONnZoSzFTOVZIY0FEclV5d21GcnNmMFR4dzNTc3lTRHpFWFFNeGVHQ1B1QnY4UUFVZFJzRXdWV1ZDVkEtMjVpQlgySFE4QXRYamFSYVhXeEVUU0UyWFFQb2VSalBuTU9TaWVSXzVOeTlrZHZucXJlRVZVOURxT2pWLTNLNWxNZHVBQVhKVjNianZTX0JQVVBTeTY0YVZKblhPdEhHMlVwNHg4ckJCZHBjY1Z6czVtVUFLS0RkNW13eVpaSi1wLTY2c0Z0TUIzNA?oc=5",
     "source": "gnews_futures",
     "published_utc": "2026-10-22T11:21:53+00:00",
-    "score": 9.4,
+    "score": 9.36,
     "duplicates": 1
    },
    {
-    "id": "bb3532dbfe",
-    "title": "Nasdaq Futures Slide Premarket As AI Spending Worries Resurface — Oil Tops $112 On Iran Tensions, Supply Concerns - TradingView",
-    "link": "https://news.google.com/rss/articles/CBMi_wFBVV95cUxPWWdDVjRDS1dFdW5CSWxlOFJ3NXY4M3hZemZFY0RocmFHU05mY1p3RjZrZzRYSlVRT0dxRDR2LTNmMWhCVHN4QVNheExTQUozOU02eURtUUJMaUxZLVVRbzkxLXBtYTVDeW9SSGllYXpOUFpzNDNUTUs2Y3U4aDBNX3ZjTm02a2VMNmlGdXZrUDVQVHFpZ3A1SlhuSWtIUTlxSTB1blY0Yk44QUt5VkhoU3VfdjRYTzg4UVAzajJ4RnNSNWtoLW1NTjU0UkJtTzdRdnpSalhvdzE1N0xhd2pKcUZlWjNRRklUZ2NPTkNGVmVCU2s3YUh6UUJfSmZsUHc?oc=5",
+    "id": "71eaad3d68",
+    "title": "Nasdaq Futures Slide Premarket As AI Spending Worries Resurface — Oil Tops $112 On Iran Tensions, Supply Concerns - Yahoo Finance",
+    "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNNEIydGszTXFVOHJjR3BkeWdHYWpMMXZPN0tOM1dkRkVDaTFLdFZHWUpBVm9GRkR4T3M4ZG9lckx3Nm1hMkFDNXo3R3J5dThLazQyVzZZV3F6aldWS010WEt0dEtPOWVydTBJTlAwQnpGOTFCS3V5WGp1Y214QWtfbE1RdUxnYzlKV19uUGNEZURkNWZOTmJ2c2dvdDlURVE?oc=5",
     "source": "gnews_futures",
     "published_utc": "2026-10-22T11:16:59+00:00",
-    "score": 8.39,
+    "score": 8.35,
     "duplicates": 0
+   },
+   {
+    "id": "d6fc81dfac",
+    "title": "How Are Dow, S&P 500, Nasdaq Futures Trading After META, TSLA Earnings? - Yahoo Finance",
+    "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxON3o4R1lpRkJwUl9FR0F3RThnR2N6dEhNMkl6TFZyVUY4R0JRenhWY2xFRjR3dXA4WHVmQzZ3LXZQcTY0Q3N1ZE5TaktteXFteE1kRmhtZTlXbUNKRklOdTlWWkJXdElxM1lEX20yU3U4TlV4ck0xLUNiN1A5RjlDbE9ZMGUyY055NjNzMWthUXB2NEU?oc=5",
+    "source": "gnews_futures",
+    "published_utc": "2026-10-22T03:11:00+00:00",
+    "score": 8.0,
+    "duplicates": 3
    },
    {
     "id": "84cf92fd86",
@@ -2850,7 +2875,7 @@
     "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxPLS1sQUJTbm1SZnI5OXMyVFJvVFBzYW5TZHBUU19FdXUzOTBMSUd5UDVueUc0blJtYjJLak5HRlU1bXZCdjV6U0kxdHV5clRsaGxoVGQ3ckFjX1hqLW1LN01SYkVfQWpSX295UWJkbWpGNVgxek1ONjNDWF8zaXhzOXhET2V6Z1hZSXBIalhtdmxVdGpyUURTRnZFWkZ1RVRjSFBpV0Z1aFhpMUlkMUdHMk85ZFFiNFlicllNQ1Y2dmZZZndCSTVfYURSVk9JdjFRV2FCTQ?oc=5",
     "source": "gnews_futures",
     "published_utc": "2026-10-22T11:26:03+00:00",
-    "score": 7.91,
+    "score": 7.87,
     "duplicates": 0
    },
    {
@@ -2859,17 +2884,17 @@
     "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOaHkzVk1fTzlucTV0WFN6LVc0aHNGMmxBZ2VkTldvNjc3VmM2NTBXYXh1YmdVZ0QyQTVQSVV0bFNiZ2xvUVF6OWNxS3EyRFpJM01lZXN4RGhjaExidEVWZGNZdTFjV0NMVE90OUJ6UFJHbkg2UTA0cDF3UmhYd1RSUExHNUVILTVrQ0cxU01SUEYwVk1uaWRoZnYzSHVnMmtzM2xxYm90cFhaRDM4Y0g5bENfTG0wcWNWVXFydktR?oc=5",
     "source": "gnews_futures",
     "published_utc": "2026-10-22T09:45:00+00:00",
-    "score": 7.63,
+    "score": 7.59,
     "duplicates": 0
    },
    {
-    "id": "2800965bca",
-    "title": "How Are Dow, S&P 500, Nasdaq Futures Trading After META, TSLA Earnings? - Stocktwits",
-    "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPOVZMTjBjR29lVmM4cUdwTVRLckZCY2hBVVpDdW42VWNKb2ZGYTVhdWVtbnNjOEx0X253TXVjZEV4Z3VZSjZkVUNnenVOczdIcGZha003Vm81SHZWQkRVTGVzVnpTa0w0QThPN1JYX0w4dXQ0RGNCZ2tkaDBBRHdpOVNUNUJZMklCWGZaWVVlZUlhdkhuYVFIanRWRGRxMFVZRFl6SkI1a2VIYldXTzAxdG52aGo4TkViY0l6WW83dXM4bXJNNGUyQXhVQWdFaG9D?oc=5",
-    "source": "gnews_futures",
-    "published_utc": "2026-10-22T03:15:02+00:00",
-    "score": 7.55,
-    "duplicates": 2
+    "id": "1e54def6e2",
+    "title": "The Latest Inflation Data Spells Bad News for Fed Chair Kevin Warsh and the Stock Market - Yahoo Finance",
+    "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxORHdfZmpSc0NKQXBmZGV1ZU1ZQmhwbHdmRHhvZ2UyY0ZDM2pLN0Fsazd1WWVJdEFBazdHY0tpOXVIcmY3VTc0aGFPalBlZWtWbzlRY3N1LUM0d2RqLVZHM1ljSExYTy1oMVFKckVzV3FIZVZ1VHpiaVlxVWg5R0FpYXB5THZWSFhURVR0ZHNfb2ZiN3k0MGlWTGh6Mmo4dw?oc=5",
+    "source": "gnews_macro",
+    "published_utc": "2026-10-22T08:43:00+00:00",
+    "score": 7.42,
+    "duplicates": 1
    },
    {
     "id": "ed0003c8b7",
@@ -2877,7 +2902,7 @@
     "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQYzlYMElEZWpheDcybHdGNUJyelJDb1JNSVlBbHZQWXd5Znp3OGNWSnYyZ2MzRElldkFsblhleUtJZGxTYUVuQ01TZnoyeUxra29SRGZnc2JWRHo2NU5NMmY0YXhoeTBpY0xzd0Z0cWxXUFhIdHJNeHFOdHJiSEdVdXdyeTFfcGJnM2xVdWN0MkdPUVNRVGc?oc=5",
     "source": "gnews_futures",
     "published_utc": "2026-10-22T11:39:28+00:00",
-    "score": 7.45,
+    "score": 7.41,
     "duplicates": 1
    },
    {
@@ -2886,7 +2911,7 @@
     "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNdWN5TzJiNG5XMFJvcTdNbUxMTHd2MllzY05iR0V4UklVV20wRTYtMlZ1YzVSQkwyZ2p5OFkxNFNTM19DVjhFZTI3UkdESFJkMm5CSFV5cXVqR0VkYk5jZzdiZ2c4VUEtcVJ2eFZHTjdDUVhnSVRzMVBodGQ2YkZmcF9vZXJfQQ?oc=5",
     "source": "gnews_macro",
     "published_utc": "2026-10-22T10:30:00+00:00",
-    "score": 7.26,
+    "score": 7.22,
     "duplicates": 0
    },
    {
@@ -2895,7 +2920,7 @@
     "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBNdVhnNngxbmNiNmJlcVE2ZXFKNnhNTE1ORm0wdktkWUJxbXExNllhUmtzcXNrNmtIRXBJYU03N3k5THdqWmNqRTJDMy1QalNiUGV2elRyTk56QmxDOExvQlJOY01CZVVJYThvejRvVGlCQ0I4cVE?oc=5",
     "source": "gnews_macro",
     "published_utc": "2026-10-22T10:31:17+00:00",
-    "score": 7.26,
+    "score": 7.22,
     "duplicates": 1
    },
    {
@@ -2904,7 +2929,7 @@
     "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPMDlsUGNEZ3Rqc0JRMkVHMV83VVBrV2lfbC1WbzJ3Y21OS0N1YV9oRHZhYUxFcnRnenl2NUdvQ2pJdXhHVV96RVdIeFExeEdvbkNxMldwei1OWkUxc09tYWNjZVZkdTVCMDUzYjhuU1lrVXdOeGFBN1ZSTlNWLUotdlRvREN2Z2tDdC1kTW9kVmdaVkFLbm84OWlOeUNmcEQyM1hXOGdzWE1vMlpQUTNBV1hnVUpNME1ieTA4Ti15RUptdw?oc=5",
     "source": "gnews_macro",
     "published_utc": "2026-10-22T10:14:00+00:00",
-    "score": 7.21,
+    "score": 7.17,
     "duplicates": 0
    },
    {
@@ -2913,16 +2938,7 @@
     "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNTWxDZDg5X0padGNvb2k2V2ZkX2tEWW9YWkdjeVdMZHNUTlg1MXY4TmUyTDZHdUhNTHFRNWRPRjc2VFlEN3RXTDhNSjhDYmRfTWZGXzdKYXdLejRHNGgwRVdNbmZRUkFhSm9GakxMek56UUZ2OUtqajd6NVkzRkR1VzBNWlo5VWp5NUFkX2phUjlSSFlndUlNNGxvUXlHSm1wMlpTbkRR?oc=5",
     "source": "gnews_futures",
     "published_utc": "2026-10-22T09:46:51+00:00",
-    "score": 7.14,
-    "duplicates": 1
-   },
-   {
-    "id": "31019c5dce",
-    "title": "The Inflation Nemesis—More Fed Rate Hikes Are Coming - Cabot Wealth Network",
-    "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPZkdNWlNnTHI1dUJKWTBnaG9PbVl0dXpkVW8tcjJsS3Y5S1hGVlR5Ukh1d3JBVEQ4ajE5aVEybDhyMkVYbVhUT3NJSTQwUVRwUkI3WVZkMHRJSGtCYWpsR2RaaEJZZlQ4VnVZY2NfaG9XR3FqQTJOWVpDZlBab19UeE1n?oc=5",
-    "source": "gnews_fed",
-    "published_utc": "2026-10-22T06:00:00+00:00",
-    "score": 7.01,
+    "score": 7.1,
     "duplicates": 1
    }
   ],
@@ -2930,9 +2946,9 @@
    "lines": [
     "U.S. stock futures retreat as investors weigh Tesla, Meta earnings By Investing.com - Investing.com [13ccaab7e5]",
     "Wall Street To Open Lower? Nasdaq Futures Fall As Tesla, Meta Earnings Fail To Allay AI Worries - NDTV Profit [d033d1f27c]",
-    "Nasdaq Futures Slide Premarket As AI Spending Worries Resurface — Oil Tops $112 On Iran Tensions, Supply Concerns - TradingView [bb3532dbfe]",
-    "U.S. Earnings Season Heats Up as MEXC TSLA Stock Futures Weekly Volume Jumps 101% - markets.businessinsider.com [84cf92fd86]",
-    "Stock market today: Dow, S&P 500, Nasdaq futures fall as traders assess Tesla, Meta earnings - Yahoo Finance [1276eb9a5e]"
+    "Nasdaq Futures Slide Premarket As AI Spending Worries Resurface — Oil Tops $112 On Iran Tensions, Supply Concerns - Yahoo Finance [71eaad3d68]",
+    "How Are Dow, S&P 500, Nasdaq Futures Trading After META, TSLA Earnings? - Yahoo Finance [d6fc81dfac]",
+    "U.S. Earnings Season Heats Up as MEXC TSLA Stock Futures Weekly Volume Jumps 101% - markets.businessinsider.com [84cf92fd86]"
    ],
    "backend": "none",
    "model": null,
