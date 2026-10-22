@@ -1,7 +1,7 @@
 {
  "meta": {
-  "generated_at_utc": "2026-10-22T10:55:42.201029+00:00",
-  "generated_at_local": "Thu 22 Oct 2026 07:55 ADT",
+  "generated_at_utc": "2026-10-22T11:11:03.645350+00:00",
+  "generated_at_local": "Thu 22 Oct 2026 08:11 ADT",
   "trading_day": "2026-10-22",
   "display_tz": "America/Halifax",
   "version": "0.1.0",
@@ -109,7 +109,7 @@
    "time_utc": "2026-10-22T12:30:00+00:00",
    "local": "09:30 ADT",
    "et": "08:30 ET",
-   "in": "1h 34m",
+   "in": "1h 18m",
    "consensus": "200K",
    "prior": "199K"
   },
@@ -120,10 +120,10 @@
   {
    "root": "ES",
    "trading_day": "2026-10-22",
-   "as_of_utc": "2026-10-22T10:55:42.201029+00:00",
+   "as_of_utc": "2026-10-22T11:11:03.645350+00:00",
    "source": "yahoo",
    "delayed": true,
-   "last_price": 7726.75,
+   "last_price": 7720.25,
    "levels": [
     {
      "tag": "exp_hi",
@@ -179,7 +179,7 @@
      "label": "Overnight high",
      "price": 7798.75,
      "group": "overnight",
-     "note": "since 18:00 ET, 751 bars"
+     "note": "since 18:00 ET, 767 bars"
     },
     {
      "tag": "pdo",
@@ -212,13 +212,13 @@
     {
      "tag": "onvwap",
      "label": "Overnight VWAP",
-     "price": 7739.38,
+     "price": 7738.93,
      "group": "overnight",
      "note": "typical-price VWAP"
     },
     {
-     "tag": "rn_minor_dn",
-     "label": "Round 25 below",
+     "tag": "rn_minor_up",
+     "label": "Round 25 above",
      "price": 7725.0,
      "group": "round",
      "note": ""
@@ -260,14 +260,14 @@
     }
    ],
    "stats": {
-    "last_bar_utc": "2026-10-22T10:45:00+00:00",
-    "last_bar_age_min": 10.7,
+    "last_bar_utc": "2026-10-22T11:01:00+00:00",
+    "last_bar_age_min": 10.1,
     "market_state": "open",
     "profile_volume": 1288773.0,
     "prior_day": "2026-10-21",
     "prior_day_rth_range": 61.25,
     "overnight_range": 88.5,
-    "gap_vs_prior_close": -72.25,
+    "gap_vs_prior_close": -78.75,
     "gap_basis": "last price (pre-market)",
     "atr14": 79.66,
     "atr_days": 14,
@@ -1423,20 +1423,28 @@
     {
      "t": "2026-10-22T10:45:00+00:00",
      "o": 7726.75,
-     "h": 7727.25,
-     "l": 7726.5,
-     "c": 7726.75,
-     "v": 0.0
+     "h": 7727.75,
+     "l": 7720.5,
+     "c": 7722.0,
+     "v": 5765.0
+    },
+    {
+     "t": "2026-10-22T11:00:00+00:00",
+     "o": 7722.25,
+     "h": 7723.0,
+     "l": 7719.0,
+     "c": 7720.25,
+     "v": 1468.0
     }
    ]
   },
   {
    "root": "NQ",
    "trading_day": "2026-10-22",
-   "as_of_utc": "2026-10-22T10:55:42.201029+00:00",
+   "as_of_utc": "2026-10-22T11:11:03.645350+00:00",
    "source": "yahoo",
    "delayed": true,
-   "last_price": 29533.5,
+   "last_price": 29506.25,
    "levels": [
     {
      "tag": "exp_hi",
@@ -1492,7 +1500,7 @@
      "label": "Overnight high",
      "price": 29993.25,
      "group": "overnight",
-     "note": "since 18:00 ET, 751 bars"
+     "note": "since 18:00 ET, 767 bars"
     },
     {
      "tag": "val",
@@ -1525,7 +1533,7 @@
     {
      "tag": "onvwap",
      "label": "Overnight VWAP",
-     "price": 29632.95,
+     "price": 29630.25,
      "group": "overnight",
      "note": "typical-price VWAP"
     },
@@ -1580,14 +1588,14 @@
     }
    ],
    "stats": {
-    "last_bar_utc": "2026-10-22T10:45:00+00:00",
-    "last_bar_age_min": 10.7,
+    "last_bar_utc": "2026-10-22T11:01:00+00:00",
+    "last_bar_age_min": 10.1,
     "market_state": "open",
     "profile_volume": 454631.0,
     "prior_day": "2026-10-21",
     "prior_day_rth_range": 342.0,
     "overnight_range": 576.25,
-    "gap_vs_prior_close": -464.25,
+    "gap_vs_prior_close": -491.5,
     "gap_basis": "last price (pre-market)",
     "atr14": 529.95,
     "atr_days": 14,
@@ -2743,10 +2751,18 @@
     {
      "t": "2026-10-22T10:45:00+00:00",
      "o": 29528.5,
-     "h": 29536.5,
-     "l": 29527.0,
-     "c": 29533.5,
-     "v": 0.0
+     "h": 29545.75,
+     "l": 29504.5,
+     "c": 29514.0,
+     "v": 2714.0
+    },
+    {
+     "t": "2026-10-22T11:00:00+00:00",
+     "o": 29516.5,
+     "h": 29518.75,
+     "l": 29496.75,
+     "c": 29506.25,
+     "v": 804.0
     }
    ]
   }
@@ -2759,7 +2775,7 @@
     "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQNkowUHE3dTByTkVGOVhPWVduSGxsaGduRmJxMzFjZGlaek4wZVFDeEU4TGswbWNiODBEQ0taT3NMVHBNblJEdV9ybXVrdnpkUTJTU3FkcUswdHMwY1hQT0Q4TG1NZEFWSlZyOTQwSlNOcVN6dWdNSVhmZFdyUE40S3FyWXJyQnBwOVJLOFR2SHNFUnprekZTMC1lRmlxRUpnOUpPMWZyNGk2ZHdHOV94clVRamtTWWEy?oc=5",
     "source": "gnews_futures",
     "published_utc": "2026-10-22T10:35:29+00:00",
-    "score": 10.44,
+    "score": 10.4,
     "duplicates": 5
    },
    {
@@ -2768,7 +2784,7 @@
     "link": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxPYmI0SjBzMUQzLXN0UGNMd1BhN28wemNJU3lGcUc1NGhHQnczeUJSOUdMazUxZnVnZXo0eEtNMkNSeXVnZnBDWjAtWl9heG1POXdSUWIwb0dxX3M1Yk05UlllQmU3VnhYZlZMajBYYXpxZW10YmFFaEZyN2VUX1V6QnFQMElZOW5qZ2RBRHVXbjM3anlMdTNfQ2ZxcEZ2VDl3dF94NFh6V0NlazQtWU9OdTlWMl8tSjRweW9GM2lqcko4V3B2eUt3OUtXcTEzYUZiSlBady1HS1g2dVhwdl91NWcxTU9TUQ?oc=5",
     "source": "gnews_futures",
     "published_utc": "2026-10-22T10:30:00+00:00",
-    "score": 7.93,
+    "score": 7.89,
     "duplicates": 0
    },
    {
@@ -2777,7 +2793,7 @@
     "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNTWxDZDg5X0padGNvb2k2V2ZkX2tEWW9YWkdjeVdMZHNUTlg1MXY4TmUyTDZHdUhNTHFRNWRPRjc2VFlEN3RXTDhNSjhDYmRfTWZGXzdKYXdLejRHNGgwRVdNbmZRUkFhSm9GakxMek56UUZ2OUtqajd6NVkzRkR1VzBNWlo5VWp5NUFkX2phUjlSSFlndUlNNGxvUXlHSm1wMlpTbkRR?oc=5",
     "source": "gnews_futures",
     "published_utc": "2026-10-22T09:46:51+00:00",
-    "score": 7.81,
+    "score": 7.77,
     "duplicates": 2
    },
    {
@@ -2786,7 +2802,7 @@
     "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOaHkzVk1fTzlucTV0WFN6LVc0aHNGMmxBZ2VkTldvNjc3VmM2NTBXYXh1YmdVZ0QyQTVQSVV0bFNiZ2xvUVF6OWNxS3EyRFpJM01lZXN4RGhjaExidEVWZGNZdTFjV0NMVE90OUJ6UFJHbkg2UTA0cDF3UmhYd1RSUExHNUVILTVrQ0cxU01SUEYwVk1uaWRoZnYzSHVnMmtzM2xxYm90cFhaRDM4Y0g5bENfTG0wcWNWVXFydktR?oc=5",
     "source": "gnews_futures",
     "published_utc": "2026-10-22T09:45:00+00:00",
-    "score": 7.8,
+    "score": 7.76,
     "duplicates": 0
    },
    {
@@ -2795,8 +2811,17 @@
     "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPOVZMTjBjR29lVmM4cUdwTVRLckZCY2hBVVpDdW42VWNKb2ZGYTVhdWVtbnNjOEx0X253TXVjZEV4Z3VZSjZkVUNnenVOczdIcGZha003Vm81SHZWQkRVTGVzVnpTa0w0QThPN1JYX0w4dXQ0RGNCZ2tkaDBBRHdpOVNUNUJZMklCWGZaWVVlZUlhdkhuYVFIanRWRGRxMFVZRFl6SkI1a2VIYldXTzAxdG52aGo4TkViY0l6WW83dXM4bXJNNGUyQXhVQWdFaG9D?oc=5",
     "source": "gnews_futures",
     "published_utc": "2026-10-22T03:15:02+00:00",
-    "score": 7.72,
+    "score": 7.68,
     "duplicates": 2
+   },
+   {
+    "id": "ac97f34cdd",
+    "title": "Nasdaq Futures Slide as Meta and Tesla Earnings Rattle Markets - Demokratis.co.id",
+    "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTFB3X2V4SDFaUVc5ODlsNGY5TVZKb25JUzQzdnRfaC1HbDh2Zm5Rdi14RDJMckVWWk5IZ3VEamJyN2FqZ3lNVzJXR3ZMOWhoVEhSb0V6dnE1U2Z6a0NuN2NoU3NPRURKS0M2aVBRZHZCZw?oc=5",
+    "source": "gnews_futures",
+    "published_utc": "2026-10-22T08:47:55+00:00",
+    "score": 7.6,
+    "duplicates": 0
    },
    {
     "id": "a5a5639e13",
@@ -2804,7 +2829,7 @@
     "link": "https://news.google.com/rss/articles/CBMihAJBVV95cUxOamhLMG5zX3NQTy1uekR4YnROdXdkM1VhOVJfZ1A3V0tFXzF5dUo3S0g5Smg4YzhXcEMyNXVfdm5XM2RxZDJZZWdYM0prWkw4NHZOZFRxVHBBMS03ZWltYjFoSklUdlp0aU1sVmF6RFNMdWk0QnlUa055aFA0bDFJcE42cHhtNGlGUzRTTVVhUVIyZ1ZMb3Q5Unhhc1p0M2tXZENhMldxS0JKZ25qdXNyeEl2ZHdYbnpUREJBdFJrNkdnVzN2Y3ZvNlRmbnU3T1JUaTNrLTdOVThHaDJrTDJ5OU9jQmg4Zm44TTc0OFU1X2dMb0tKd3UybHg2ZzdSTVF4S3NEWg?oc=5",
     "source": "gnews_macro",
     "published_utc": "2026-10-22T08:43:38+00:00",
-    "score": 7.63,
+    "score": 7.59,
     "duplicates": 1
    },
    {
@@ -2813,7 +2838,7 @@
     "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNdWN5TzJiNG5XMFJvcTdNbUxMTHd2MllzY05iR0V4UklVV20wRTYtMlZ1YzVSQkwyZ2p5OFkxNFNTM19DVjhFZTI3UkdESFJkMm5CSFV5cXVqR0VkYk5jZzdiZ2c4VUEtcVJ2eFZHTjdDUVhnSVRzMVBodGQ2YkZmcF9vZXJfQQ?oc=5",
     "source": "gnews_macro",
     "published_utc": "2026-10-22T10:30:00+00:00",
-    "score": 7.43,
+    "score": 7.39,
     "duplicates": 0
    },
    {
@@ -2822,7 +2847,7 @@
     "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBNdVhnNngxbmNiNmJlcVE2ZXFKNnhNTE1ORm0wdktkWUJxbXExNllhUmtzcXNrNmtIRXBJYU03N3k5THdqWmNqRTJDMy1QalNiUGV2elRyTk56QmxDOExvQlJOY01CZVVJYThvejRvVGlCQ0I4cVE?oc=5",
     "source": "gnews_macro",
     "published_utc": "2026-10-22T10:31:17+00:00",
-    "score": 7.43,
+    "score": 7.39,
     "duplicates": 1
    },
    {
@@ -2831,8 +2856,17 @@
     "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPZkdNWlNnTHI1dUJKWTBnaG9PbVl0dXpkVW8tcjJsS3Y5S1hGVlR5Ukh1d3JBVEQ4ajE5aVEybDhyMkVYbVhUT3NJSTQwUVRwUkI3WVZkMHRJSGtCYWpsR2RaaEJZZlQ4VnVZY2NfaG9XR3FqQTJOWVpDZlBab19UeE1n?oc=5",
     "source": "gnews_fed",
     "published_utc": "2026-10-22T06:00:00+00:00",
-    "score": 7.18,
+    "score": 7.14,
     "duplicates": 1
+   },
+   {
+    "id": "88700bd8fd",
+    "title": "Sterling Holds Firm as Inflation Surprise Fuels BoE Rate Hike Bets - TradingPedia",
+    "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNbDl6LU1GYjFvQk5FWG81MHZkSHByTTdFOFNiVTZKZVozMmFid2ViRnRRdTJ6dVVhM0h0WG5CUy1LdWl1Yi1ZcXd6T2tDSFhjMmpGWE1vRHVzaXQ0ejJRY0JNZURLSEljOUJsWGQ4bk5PSk5NN1ZmYWVkNDRfaHF5Vm9uMXRNMFNjXy1EREtLZDJ4ZmJFcGhGS3BYUlZWTXFweHV6OUZQTmh2NE0?oc=5",
+    "source": "gnews_macro",
+    "published_utc": "2026-10-22T08:48:43+00:00",
+    "score": 7.1,
+    "duplicates": 0
    },
    {
     "id": "ab0df6c41f",
@@ -2841,24 +2875,6 @@
     "source": "gnews_macro",
     "published_utc": "2026-10-21T21:48:25+00:00",
     "score": 7.0,
-    "duplicates": 0
-   },
-   {
-    "id": "1b990deafb",
-    "title": "Can a Weakening Jobs Report Slow Wall Street’s AI Slide? - Benzinga",
-    "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOR29FUVVsWlVSOWlGV3lEUkUwZHkxOWpBc0VPbUJjRlQwWkZzTzYxV21LVWt4SmpDek5Qb1Q4SDNYOUlqaC1NdmRhVXNHRHJIRzRsM0xHRVF3UGRlaHk2Ry1RWDdhSVlzZWc1bjd0VTgyeVdmUERqZ3Frd1VHU1MtR3pxVVpFaS11X2NUY0pZU1hEQkJrRTBjVjFLcUQxcXVZNFBDbA?oc=5",
-    "source": "gnews_macro",
-    "published_utc": "2026-10-22T07:49:45+00:00",
-    "score": 6.98,
-    "duplicates": 0
-   },
-   {
-    "id": "9cb598e5b7",
-    "title": "Philippines Delivers Jumbo Rate Hike as Inflation Heats Up Anew - Bloomberg.com",
-    "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQS0s1RFVqalVtVXJWd2w5TWtQaFF6VlBrMGxBR2Rja01CUlJOUHotTV9uUU1FSjBTMG1CZmhZMk9IdXJYcm43VkVTMWp2RHFhdUkwSEZleEQ4YUtONHB4ajNXTjlncW84cTNmVWdicUhZZmlka2dVQnRWLVR1bkdDcEdpeTU2UW9pREZOQ18tQUZHSjBtTHdoLVhGeWdyRU5FNHpPLVRyNUZPei04SjZudG9fMGU?oc=5",
-    "source": "gnews_macro",
-    "published_utc": "2026-10-22T07:42:58+00:00",
-    "score": 6.96,
     "duplicates": 0
    }
   ],
