@@ -1,7 +1,7 @@
 {
  "meta": {
-  "generated_at_utc": "2026-10-22T15:13:25.701314+00:00",
-  "generated_at_local": "Thu 22 Oct 2026 12:13 ADT",
+  "generated_at_utc": "2026-10-22T15:28:46.313671+00:00",
+  "generated_at_local": "Thu 22 Oct 2026 12:28 ADT",
   "trading_day": "2026-10-22",
   "display_tz": "America/Halifax",
   "version": "0.1.0",
@@ -109,7 +109,7 @@
    "time_utc": "2026-10-23T13:45:00+00:00",
    "local": "10:45 ADT",
    "et": "09:45 ET",
-   "in": "22h 31m",
+   "in": "22h 16m",
    "consensus": "55.4",
    "prior": "57.0"
   },
@@ -120,10 +120,10 @@
   {
    "root": "ES",
    "trading_day": "2026-10-22",
-   "as_of_utc": "2026-10-22T15:13:25.701314+00:00",
+   "as_of_utc": "2026-10-22T15:28:46.313671+00:00",
    "source": "yahoo",
    "delayed": true,
-   "last_price": 7692.5,
+   "last_price": 7701.25,
    "levels": [
     {
      "tag": "exp_hi",
@@ -191,7 +191,7 @@
     {
      "tag": "pwh",
      "label": "Prior-week high",
-     "price": 7771.0,
+     "price": 7765.25,
      "group": "week",
      "note": "1 session(s) of data — PARTIAL"
     },
@@ -201,6 +201,13 @@
      "price": 7751.0,
      "group": "prior_day",
      "note": "2026-10-21"
+    },
+    {
+     "tag": "rn_major_up",
+     "label": "Round 50 above",
+     "price": 7750.0,
+     "group": "round",
+     "note": ""
     },
     {
      "tag": "tdh",
@@ -224,6 +231,13 @@
      "note": "09:30 bar open"
     },
     {
+     "tag": "rn_minor_up",
+     "label": "Round 25 above",
+     "price": 7725.0,
+     "group": "round",
+     "note": ""
+    },
+    {
      "tag": "exp_lo",
      "label": "Expected-range low (close − ATR)",
      "price": 7719.34,
@@ -238,8 +252,8 @@
      "note": ""
     },
     {
-     "tag": "rn_major_up",
-     "label": "Round 50 above",
+     "tag": "rn_major_dn",
+     "label": "Round 50 below",
      "price": 7700.0,
      "group": "round",
      "note": ""
@@ -264,25 +278,11 @@
      "price": 7676.0,
      "group": "week",
      "note": "1 session(s) of data — PARTIAL"
-    },
-    {
-     "tag": "rn_minor_dn",
-     "label": "Round 25 below",
-     "price": 7675.0,
-     "group": "round",
-     "note": ""
-    },
-    {
-     "tag": "rn_major_dn",
-     "label": "Round 50 below",
-     "price": 7650.0,
-     "group": "round",
-     "note": ""
     }
    ],
    "stats": {
-    "last_bar_utc": "2026-10-22T15:03:00+00:00",
-    "last_bar_age_min": 10.4,
+    "last_bar_utc": "2026-10-22T15:18:00+00:00",
+    "last_bar_age_min": 10.8,
     "market_state": "open",
     "profile_volume": 1288773.0,
     "prior_day": "2026-10-21",
@@ -1581,19 +1581,27 @@
      "t": "2026-10-22T15:00:00+00:00",
      "o": 7698.5,
      "h": 7701.75,
-     "l": 7692.25,
-     "c": 7692.5,
-     "v": 16061.0
+     "l": 7689.0,
+     "c": 7692.0,
+     "v": 66818.0
+    },
+    {
+     "t": "2026-10-22T15:15:00+00:00",
+     "o": 7691.75,
+     "h": 7702.25,
+     "l": 7691.0,
+     "c": 7701.25,
+     "v": 12291.0
     }
    ]
   },
   {
    "root": "NQ",
    "trading_day": "2026-10-22",
-   "as_of_utc": "2026-10-22T15:13:25.701314+00:00",
+   "as_of_utc": "2026-10-22T15:28:46.313671+00:00",
    "source": "yahoo",
    "delayed": true,
-   "last_price": 29275.25,
+   "last_price": 29296.0,
    "levels": [
     {
      "tag": "exp_hi",
@@ -1729,24 +1737,24 @@
      "note": "1 session(s) of data — PARTIAL"
     },
     {
+     "tag": "rn_minor_dn",
+     "label": "Round 50 below",
+     "price": 29250.0,
+     "group": "round",
+     "note": ""
+    },
+    {
      "tag": "tdl",
      "label": "Today's RTH low",
-     "price": 29250.0,
+     "price": 29227.75,
      "group": "today",
      "note": ""
     },
     {
      "tag": "wl",
      "label": "Week low",
-     "price": 29250.0,
+     "price": 29227.75,
      "group": "week",
-     "note": ""
-    },
-    {
-     "tag": "rn_minor_dn",
-     "label": "Round 50 below",
-     "price": 29250.0,
-     "group": "round",
      "note": ""
     },
     {
@@ -1758,8 +1766,8 @@
     }
    ],
    "stats": {
-    "last_bar_utc": "2026-10-22T15:03:00+00:00",
-    "last_bar_age_min": 10.4,
+    "last_bar_utc": "2026-10-22T15:18:00+00:00",
+    "last_bar_age_min": 10.8,
     "market_state": "open",
     "profile_volume": 454631.0,
     "prior_day": "2026-10-21",
@@ -3058,9 +3066,17 @@
      "t": "2026-10-22T15:00:00+00:00",
      "o": 29307.75,
      "h": 29323.75,
-     "l": 29273.5,
-     "c": 29275.25,
-     "v": 5729.0
+     "l": 29227.75,
+     "c": 29243.0,
+     "v": 27446.0
+    },
+    {
+     "t": "2026-10-22T15:15:00+00:00",
+     "o": 29241.75,
+     "h": 29306.75,
+     "l": 29235.75,
+     "c": 29296.0,
+     "v": 5580.0
     }
    ]
   }
@@ -3068,21 +3084,12 @@
  "news": {
   "headlines": [
    {
-    "id": "13ccaab7e5",
-    "title": "U.S. stock futures drop as Tesla, Meta fall after earnings; oil jumps, bonds rally - Investing.com",
-    "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQNkowUHE3dTByTkVGOVhPWVduSGxsaGduRmJxMzFjZGlaek4wZVFDeEU4TGswbWNiODBEQ0taT3NMVHBNblJEdV9ybXVrdnpkUTJTU3FkcUswdHMwY1hQT0Q4TG1NZEFWSlZyOTQwSlNOcVN6dWdNSVhmZFdyUE40S3FyWXJyQnBwOVJLOFR2SHNFUnprekZTMC1lRmlxRUpnOUpPMWZyNGk2ZHdHOV94clVRamtTWWEy?oc=5",
-    "source": "gnews_futures",
-    "published_utc": "2026-10-22T01:12:28+00:00",
-    "score": 9.0,
-    "duplicates": 1
-   },
-   {
     "id": "d033d1f27c",
     "title": "Wall Street To Open Lower? Nasdaq Futures Fall As Tesla, Meta Earnings Fail To Allay AI Worries - NDTV Profit",
     "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxNakFIRzZlSGZZVDhMLWsxMlZzRkMwTGF5dDBGQkMxa3p3dFNJbjA0eFRtLVRLdGRINV9TYnU3U0lpemRpYTZEdV9VUjZLT1hwNzJrS3kzUDBrcGxXdVZaQzFuSU5QYjd4WlFwNFNKcVk0aHdLeDJkZnprb0pLQTcwUFJnR0pvSl9RYjdMbmZiTDJsOXh3SzhPZEs1YmNQZ3ZTc1g0bDE2S0hlNmxKWk1WZ3ZGc2ZGaFFkSDB2NW1wcE5LYnUxYzFyNFBtcTZubWItT2Rj0gHbAUFVX3lxTE1Vdm5yT0xNcFpZT2ZONnZoSzFTOVZIY0FEclV5d21GcnNmMFR4dzNTc3lTRHpFWFFNeGVHQ1B1QnY4UUFVZFJzRXdWV1ZDVkEtMjVpQlgySFE4QXRYamFSYVhXeEVUU0UyWFFQb2VSalBuTU9TaWVSXzVOeTlrZHZucXJlRVZVOURxT2pWLTNLNWxNZHVBQVhKVjNianZTX0JQVVBTeTY0YVZKblhPdEhHMlVwNHg4ckJCZHBjY1Z6czVtVUFLS0RkNW13eVpaSi1wLTY2c0Z0TUIzNA?oc=5",
     "source": "gnews_futures",
     "published_utc": "2026-10-22T11:21:53+00:00",
-    "score": 8.86,
+    "score": 8.81,
     "duplicates": 1
    },
    {
@@ -3091,7 +3098,7 @@
     "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE95SzRUM0lIai1jTlF3eW1rd2pwUUxfUGN4WlZTMDZZUVhFZmFNb3NTS1JfRHpxSHFzUVdVZTZZLXdPSWlvWmc5emdnQTVuSEdCR05SNExlY0NpdVBnZmhfdGVzSWJGTTZkUWlKRzlhdHloR3dvRXk4eTZRSQ?oc=5",
     "source": "gnews_macro",
     "published_utc": "2026-10-22T14:20:00+00:00",
-    "score": 8.35,
+    "score": 8.31,
     "duplicates": 0
    },
    {
@@ -3100,7 +3107,16 @@
     "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNNEIydGszTXFVOHJjR3BkeWdHYWpMMXZPN0tOM1dkRkVDaTFLdFZHWUpBVm9GRkR4T3M4ZG9lckx3Nm1hMkFDNXo3R3J5dThLazQyVzZZV3F6aldWS010WEt0dEtPOWVydTBJTlAwQnpGOTFCS3V5WGp1Y214QWtfbE1RdUxnYzlKV19uUGNEZURkNWZOTmJ2c2dvdDlURVE?oc=5",
     "source": "gnews_futures",
     "published_utc": "2026-10-22T11:16:59+00:00",
-    "score": 7.84,
+    "score": 7.8,
+    "duplicates": 0
+   },
+   {
+    "id": "0542cf8582",
+    "title": "U.S. stock futures drop as Tesla, Meta fall after earnings; oil jumps, bonds rally - Investing.com",
+    "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQNkowUHE3dTByTkVGOVhPWVduSGxsaGduRmJxMzFjZGlaek4wZVFDeEU4TGswbWNiODBEQ0taT3NMVHBNblJEdV9ybXVrdnpkUTJTU3FkcUswdHMwY1hQT0Q4TG1NZEFWSlZyOTQwSlNOcVN6dWdNSVhmZFdyUE40S3FyWXJyQnBwOVJLOFR2SHNFUnprekZTMC1lRmlxRUpnOUpPMWZyNGk2ZHdHOV94clVRamtTWWEy?oc=5",
+    "source": "gnews_megacap",
+    "published_utc": "2026-10-22T01:12:28+00:00",
+    "score": 7.5,
     "duplicates": 0
    },
    {
@@ -3109,8 +3125,17 @@
     "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTFBFOTFqU3NYNjhiNDJfNnR6UDN2di0yRzhDUXM0TWYzTV8wcGlQUnBmYXY3cVM3bHNPRzVOWHZfSXJPTUx4TUlUM1VURWpEVTJlQ3hFenRaOW40SlRHU29OelQyYmVHNnBOVGxLem0wczh6MHB6bjZwM24tZlI?oc=5",
     "source": "gnews_futures",
     "published_utc": "2026-10-22T12:18:44+00:00",
-    "score": 7.51,
+    "score": 7.47,
     "duplicates": 1
+   },
+   {
+    "id": "de8f93b34c",
+    "title": "Rob Kaplan Sees Fed Hike Likely In December — Warns Aggressive Tightening May Hurt Jobs Without Taming Inflation - TradingView",
+    "link": "https://news.google.com/rss/articles/CBMigAJBVV95cUxQY3dZYmtNSThJUVdDU0NxeC10MExrN1RVUHBCdEZWMF9sTUQycTY5OURObGNBcXphbDB0Qm5KejdnVXlUTFg1OE43Z2RNLWtvRzU0WkFFdVdoRkFSdXVqUkh1MldGRVprWUxzaWZGOUpLOHJKOEdKRHdrTXJfNExxOE9XYngzSzhNOW1OaTB2SlozeXZ2Zm51TUROLUhudThfSzFhOTB3cnlSTmpGYm9sOFJqY2dmdUk5aVZqVm1lUm1DbDU1eDJfQVJ3MzJ6MWYybW1jUklDMmYzNGNNaGdGREpNQjBONGxPeWd4Y2g1THIxV0h3YnN2SFltTmVTVXpO?oc=5",
+    "source": "gnews_macro",
+    "published_utc": "2026-10-22T14:56:15+00:00",
+    "score": 7.41,
+    "duplicates": 0
    },
    {
     "id": "84cf92fd86",
@@ -3118,7 +3143,7 @@
     "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxPLS1sQUJTbm1SZnI5OXMyVFJvVFBzYW5TZHBUU19FdXUzOTBMSUd5UDVueUc0blJtYjJLak5HRlU1bXZCdjV6U0kxdHV5clRsaGxoVGQ3ckFjX1hqLW1LN01SYkVfQWpSX295UWJkbWpGNVgxek1ONjNDWF8zaXhzOXhET2V6Z1hZSXBIalhtdmxVdGpyUURTRnZFWkZ1RVRjSFBpV0Z1aFhpMUlkMUdHMk85ZFFiNFlicllNQ1Y2dmZZZndCSTVfYURSVk9JdjFRV2FCTQ?oc=5",
     "source": "gnews_futures",
     "published_utc": "2026-10-22T11:26:03+00:00",
-    "score": 7.37,
+    "score": 7.33,
     "duplicates": 0
    },
    {
@@ -3127,7 +3152,7 @@
     "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQYzlYMElEZWpheDcybHdGNUJyelJDb1JNSVlBbHZQWXd5Znp3OGNWSnYyZ2MzRElldkFsblhleUtJZGxTYUVuQ01TZnoyeUxra29SRGZnc2JWRHo2NU5NMmY0YXhoeTBpY0xzd0Z0cWxXUFhIdHJNeHFOdHJiSEdVdXdyeTFfcGJnM2xVdWN0MkdPUVNRVGc?oc=5",
     "source": "gnews_futures",
     "published_utc": "2026-10-22T14:20:01+00:00",
-    "score": 7.35,
+    "score": 7.31,
     "duplicates": 1
    },
    {
@@ -3136,7 +3161,7 @@
     "link": "https://news.google.com/rss/articles/CBMiowJBVV95cUxQZm9qaDRCSlF2YnpyU1ZFRk1JZnpJZHF4Ym5iZEZBT1NwSnBxYy1nNHF0TDFPUVNBRlNHMFhQUDJRWmRGN2V3R1psLWR0b25BR05jb2RDMHd6aHZSeXVMZkpocm0tX01hT0IzQVFMb0ZhUjBCUGp4WnM2Q0w3M1F6V0pXOVVyclItTVgtTG5TaDVwU2kxeHV3dWdPOC1SZnpkQTYyZGpFY3E0cHJDcVVZQWluTXE1a3MzVlpneTI5YXphSnhxMm1EWnBxY094TkFJQW1TRkliS2piTjJyNm9mX3E0NUtBZFVackpxTDVZcFJEQ1R3aGpGaHEzNzlZdjdDTTM2RTNMWGMwaVBMamZ1eHEwdy1qZE5qSWEyMEhVb3JVLXM?oc=5",
     "source": "gnews_fed",
     "published_utc": "2026-10-22T13:09:00+00:00",
-    "score": 7.15,
+    "score": 7.11,
     "duplicates": 0
    },
    {
@@ -3145,7 +3170,7 @@
     "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNdWN5TzJiNG5XMFJvcTdNbUxMTHd2MllzY05iR0V4UklVV20wRTYtMlZ1YzVSQkwyZ2p5OFkxNFNTM19DVjhFZTI3UkdESFJkMm5CSFV5cXVqR0VkYk5jZzdiZ2c4VUEtcVJ2eFZHTjdDUVhnSVRzMVBodGQ2YkZmcF9vZXJfQQ?oc=5",
     "source": "gnews_macro",
     "published_utc": "2026-10-22T12:56:00+00:00",
-    "score": 7.12,
+    "score": 7.08,
     "duplicates": 0
    },
    {
@@ -3154,7 +3179,7 @@
     "link": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxNQ281aU1NcFU5bDAtRkhHSXVpaE12b3lrYkw2c3UyeW1MRlM5eUFGNkJRNHJvWWxZQlBsMWhPVUlPOF9YRGJHc3RlRV9pamJtd2dLc20zaHZIR3dqcmZuRW1ydDFLRFdhc2RmQTJkM2tmM0JOZmt4QUR6ZXRNbGxfNm9leEFYWm5pZnd3cnpnRm40ZTFJY19Gc09UUklocU02MzAwbktjV05FSm9WQVZxbjluaDc5aHlDN3dHWV9sTWg4UlQtYVNrNmNxeXhKV0FpS3BudWw0N1pYNVJudUNMbmpiOEE5a2VoNWIzZVg0RnB0dw?oc=5",
     "source": "gnews_macro",
     "published_utc": "2026-10-22T12:50:00+00:00",
-    "score": 7.1,
+    "score": 7.06,
     "duplicates": 0
    },
    {
@@ -3163,25 +3188,16 @@
     "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOaHkzVk1fTzlucTV0WFN6LVc0aHNGMmxBZ2VkTldvNjc3VmM2NTBXYXh1YmdVZ0QyQTVQSVV0bFNiZ2xvUVF6OWNxS3EyRFpJM01lZXN4RGhjaExidEVWZGNZdTFjV0NMVE90OUJ6UFJHbkg2UTA0cDF3UmhYd1RSUExHNUVILTVrQ0cxU01SUEYwVk1uaWRoZnYzSHVnMmtzM2xxYm90cFhaRDM4Y0g5bENfTG0wcWNWVXFydktR?oc=5",
     "source": "gnews_futures",
     "published_utc": "2026-10-22T09:45:00+00:00",
-    "score": 7.09,
+    "score": 7.05,
     "duplicates": 0
-   },
-   {
-    "id": "a7ef27848a",
-    "title": "The Latest Inflation Data Spells Bad News for Fed Chair Kevin Warsh and the Stock Market - The Motley Fool",
-    "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPQUhJdWYzN2t5ZVFabzhzLVVhakFaQ2xWUHVxV21uZ0Z4U0FLX0FDSk9RdzFkSkZzNjZ3X1lObHRMWnhRM3dnTUFDNXpfWTJieWdIeXVyWVVwdnAwVy1zNDYwSFk3LWh2dDRBM2YtZkhhOVNtcVBsLXY1U3lwNGp4LWVfWm90OXdzc1pQc1RkYnJwUFVBaFE?oc=5",
-    "source": "gnews_macro",
-    "published_utc": "2026-10-22T09:23:00+00:00",
-    "score": 7.03,
-    "duplicates": 1
    }
   ],
   "summary": {
    "lines": [
-    "U.S. stock futures drop as Tesla, Meta fall after earnings; oil jumps, bonds rally - Investing.com [13ccaab7e5]",
     "Wall Street To Open Lower? Nasdaq Futures Fall As Tesla, Meta Earnings Fail To Allay AI Worries - NDTV Profit [d033d1f27c]",
     "Oil Prices Surge on Renewed Iran Tensions, Rekindling Inflation Fears - Barron's [971f37b488]",
     "Nasdaq Futures Slide Premarket As AI Spending Worries Resurface — Oil Tops $112 On Iran Tensions, Supply Concerns - Yahoo Finance [71eaad3d68]",
+    "U.S. stock futures drop as Tesla, Meta fall after earnings; oil jumps, bonds rally - Investing.com [0542cf8582]",
     "US Stock Market Today: S&P 500 Futures Fall On Hot UK Inflation Surprise - Yahoo Finance Singapore [da365fc8dc]"
    ],
    "backend": "none",
