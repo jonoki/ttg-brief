@@ -1,7 +1,7 @@
 {
  "meta": {
-  "generated_at_utc": "2026-10-22T10:25:03.490880+00:00",
-  "generated_at_local": "Thu 22 Oct 2026 07:25 ADT",
+  "generated_at_utc": "2026-10-22T10:40:23.884148+00:00",
+  "generated_at_local": "Thu 22 Oct 2026 07:40 ADT",
   "trading_day": "2026-10-22",
   "display_tz": "America/Halifax",
   "version": "0.1.0",
@@ -109,7 +109,7 @@
    "time_utc": "2026-10-22T12:30:00+00:00",
    "local": "09:30 ADT",
    "et": "08:30 ET",
-   "in": "2h 04m",
+   "in": "1h 49m",
    "consensus": "200K",
    "prior": "199K"
   },
@@ -120,10 +120,10 @@
   {
    "root": "ES",
    "trading_day": "2026-10-22",
-   "as_of_utc": "2026-10-22T10:25:03.490880+00:00",
+   "as_of_utc": "2026-10-22T10:40:23.884148+00:00",
    "source": "yahoo",
    "delayed": true,
-   "last_price": 7718.5,
+   "last_price": 7725.0,
    "levels": [
     {
      "tag": "exp_hi",
@@ -179,7 +179,7 @@
      "label": "Overnight high",
      "price": 7798.75,
      "group": "overnight",
-     "note": "since 18:00 ET, 721 bars"
+     "note": "since 18:00 ET, 736 bars"
     },
     {
      "tag": "pdo",
@@ -212,13 +212,13 @@
     {
      "tag": "onvwap",
      "label": "Overnight VWAP",
-     "price": 7740.09,
+     "price": 7739.68,
      "group": "overnight",
      "note": "typical-price VWAP"
     },
     {
-     "tag": "rn_minor_up",
-     "label": "Round 25 above",
+     "tag": "rn_minor_dn",
+     "label": "Round 25 below",
      "price": 7725.0,
      "group": "round",
      "note": ""
@@ -260,14 +260,14 @@
     }
    ],
    "stats": {
-    "last_bar_utc": "2026-10-22T10:15:00+00:00",
-    "last_bar_age_min": 10.1,
+    "last_bar_utc": "2026-10-22T10:30:00+00:00",
+    "last_bar_age_min": 10.4,
     "market_state": "open",
     "profile_volume": 1288773.0,
     "prior_day": "2026-10-21",
     "prior_day_rth_range": 61.25,
     "overnight_range": 88.5,
-    "gap_vs_prior_close": -80.5,
+    "gap_vs_prior_close": -74.0,
     "gap_basis": "last price (pre-market)",
     "atr14": 79.66,
     "atr_days": 14,
@@ -1407,9 +1407,17 @@
     {
      "t": "2026-10-22T10:15:00+00:00",
      "o": 7718.75,
-     "h": 7718.75,
-     "l": 7716.5,
-     "c": 7718.5,
+     "h": 7725.0,
+     "l": 7716.25,
+     "c": 7724.25,
+     "v": 5309.0
+    },
+    {
+     "t": "2026-10-22T10:30:00+00:00",
+     "o": 7724.25,
+     "h": 7725.5,
+     "l": 7724.25,
+     "c": 7725.0,
      "v": 0.0
     }
    ]
@@ -1417,10 +1425,10 @@
   {
    "root": "NQ",
    "trading_day": "2026-10-22",
-   "as_of_utc": "2026-10-22T10:25:03.490880+00:00",
+   "as_of_utc": "2026-10-22T10:40:23.884148+00:00",
    "source": "yahoo",
    "delayed": true,
-   "last_price": 29454.75,
+   "last_price": 29515.5,
    "levels": [
     {
      "tag": "exp_hi",
@@ -1476,7 +1484,7 @@
      "label": "Overnight high",
      "price": 29993.25,
      "group": "overnight",
-     "note": "since 18:00 ET, 721 bars"
+     "note": "since 18:00 ET, 736 bars"
     },
     {
      "tag": "val",
@@ -1509,13 +1517,27 @@
     {
      "tag": "onvwap",
      "label": "Overnight VWAP",
-     "price": 29637.83,
+     "price": 29635.15,
      "group": "overnight",
      "note": "typical-price VWAP"
     },
     {
      "tag": "rn_major_up",
      "label": "Round 100 above",
+     "price": 29600.0,
+     "group": "round",
+     "note": ""
+    },
+    {
+     "tag": "rn_minor_up",
+     "label": "Round 50 above",
+     "price": 29550.0,
+     "group": "round",
+     "note": ""
+    },
+    {
+     "tag": "rn_major_dn",
+     "label": "Round 100 below",
      "price": 29500.0,
      "group": "round",
      "note": ""
@@ -1528,24 +1550,10 @@
      "note": ""
     },
     {
-     "tag": "rn_minor_dn",
-     "label": "Round 50 below",
-     "price": 29450.0,
-     "group": "round",
-     "note": ""
-    },
-    {
      "tag": "onl",
      "label": "Overnight low",
      "price": 29417.0,
      "group": "overnight",
-     "note": ""
-    },
-    {
-     "tag": "rn_major_dn",
-     "label": "Round 100 below",
-     "price": 29400.0,
-     "group": "round",
      "note": ""
     },
     {
@@ -1564,14 +1572,14 @@
     }
    ],
    "stats": {
-    "last_bar_utc": "2026-10-22T10:15:00+00:00",
-    "last_bar_age_min": 10.1,
+    "last_bar_utc": "2026-10-22T10:30:00+00:00",
+    "last_bar_age_min": 10.4,
     "market_state": "open",
     "profile_volume": 454631.0,
     "prior_day": "2026-10-21",
     "prior_day_rth_range": 342.0,
     "overnight_range": 576.25,
-    "gap_vs_prior_close": -543.0,
+    "gap_vs_prior_close": -482.25,
     "gap_basis": "last price (pre-market)",
     "atr14": 529.95,
     "atr_days": 14,
@@ -2711,9 +2719,17 @@
     {
      "t": "2026-10-22T10:15:00+00:00",
      "o": 29455.25,
-     "h": 29455.25,
-     "l": 29449.0,
-     "c": 29454.75,
+     "h": 29508.75,
+     "l": 29445.75,
+     "c": 29506.0,
+     "v": 2397.0
+    },
+    {
+     "t": "2026-10-22T10:30:00+00:00",
+     "o": 29506.0,
+     "h": 29518.5,
+     "l": 29505.25,
+     "c": 29515.5,
      "v": 0.0
     }
    ]
@@ -2727,8 +2743,17 @@
     "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQNkowUHE3dTByTkVGOVhPWVduSGxsaGduRmJxMzFjZGlaek4wZVFDeEU4TGswbWNiODBEQ0taT3NMVHBNblJEdV9ybXVrdnpkUTJTU3FkcUswdHMwY1hQT0Q4TG1NZEFWSlZyOTQwSlNOcVN6dWdNSVhmZFdyUE40S3FyWXJyQnBwOVJLOFR2SHNFUnprekZTMC1lRmlxRUpnOUpPMWZyNGk2ZHdHOV94clVRamtTWWEy?oc=5",
     "source": "gnews_futures",
     "published_utc": "2026-10-22T07:39:18+00:00",
-    "score": 9.04,
+    "score": 9.0,
     "duplicates": 3
+   },
+   {
+    "id": "51e602fc21",
+    "title": "U.S. Earnings Season Heats Up as MEXC TSLA Stock Futures Weekly Volume Jumps 101% - The Manila Times",
+    "link": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxOemt1NXh0QWFnSV9UQm9jSTNhWHBma295UGJlSGlHMjlxUkR2M0RzMXphZGplSS1oa1F0WjZvTGMwaVBTVWtBR3NKZEQtYnA0MUsyUkxjdEctTFc4TGlOSDV5U0lOU01QRDB4VVYycUhWeDFjNEpUSWU2OWVHRXc3VHViS0NIdXFGc3JRWkFFNUFlRjJxb3dINFFOVWd6UmFxSjNvUGcxMTQ3YV9TRXYyZGFwZ0ppbjYyT0h6bjhmdER6Zy1ucmJtMmFtQ3ZRLVBLbnV0dXAybVJnYm1HRjY0UTg1Z01mMUHSAewBQVVfeXFMTms4MnlRWC1Da0RLaWhTTklSZE84YWJkWkJmdlR3WUxuN2tqek9FeXNYMU85R0pjejVWLXN2U1k5RGVjYlpjRWZxbUpocXVrakhXM0RsYTlVMkxGMXdNWVNyVkZsT056cnVXYVZXTHdGMVl5aThuNDFFaFFraHR5MFVQRlNVc29RcmRkVk1GVkVMengydkx1NndWOVNaY3d4ek5ubWlLYkZodUJLQ3doLW1FS01yNmdBaXduOXdkQzZZUVBOUFhLZVVzMXZvNFZFbEc5Qmd2R2d4V2VhZ25LbURoZzJXQkV5UlJod18?oc=5",
+    "source": "gnews_futures",
+    "published_utc": "2026-10-22T10:33:39+00:00",
+    "score": 7.98,
+    "duplicates": 0
    },
    {
     "id": "1276eb9a5e",
@@ -2736,7 +2761,7 @@
     "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOaHkzVk1fTzlucTV0WFN6LVc0aHNGMmxBZ2VkTldvNjc3VmM2NTBXYXh1YmdVZ0QyQTVQSVV0bFNiZ2xvUVF6OWNxS3EyRFpJM01lZXN4RGhjaExidEVWZGNZdTFjV0NMVE90OUJ6UFJHbkg2UTA0cDF3UmhYd1RSUExHNUVILTVrQ0cxU01SUEYwVk1uaWRoZnYzSHVnMmtzM2xxYm90cFhaRDM4Y0g5bENfTG0wcWNWVXFydktR?oc=5",
     "source": "gnews_futures",
     "published_utc": "2026-10-22T09:45:00+00:00",
-    "score": 7.89,
+    "score": 7.85,
     "duplicates": 0
    },
    {
@@ -2745,7 +2770,7 @@
     "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNTWxDZDg5X0padGNvb2k2V2ZkX2tEWW9YWkdjeVdMZHNUTlg1MXY4TmUyTDZHdUhNTHFRNWRPRjc2VFlEN3RXTDhNSjhDYmRfTWZGXzdKYXdLejRHNGgwRVdNbmZRUkFhSm9GakxMek56UUZ2OUtqajd6NVkzRkR1VzBNWlo5VWp5NUFkX2phUjlSSFlndUlNNGxvUXlHSm1wMlpTbkRR?oc=5",
     "source": "gnews_futures",
     "published_utc": "2026-10-22T09:46:51+00:00",
-    "score": 7.89,
+    "score": 7.85,
     "duplicates": 2
    },
    {
@@ -2754,7 +2779,7 @@
     "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPOVZMTjBjR29lVmM4cUdwTVRLckZCY2hBVVpDdW42VWNKb2ZGYTVhdWVtbnNjOEx0X253TXVjZEV4Z3VZSjZkVUNnenVOczdIcGZha003Vm81SHZWQkRVTGVzVnpTa0w0QThPN1JYX0w4dXQ0RGNCZ2tkaDBBRHdpOVNUNUJZMklCWGZaWVVlZUlhdkhuYVFIanRWRGRxMFVZRFl6SkI1a2VIYldXTzAxdG52aGo4TkViY0l6WW83dXM4bXJNNGUyQXhVQWdFaG9D?oc=5",
     "source": "gnews_futures",
     "published_utc": "2026-10-22T03:15:02+00:00",
-    "score": 7.81,
+    "score": 7.76,
     "duplicates": 2
    },
    {
@@ -2763,7 +2788,25 @@
     "link": "https://news.google.com/rss/articles/CBMihAJBVV95cUxOamhLMG5zX3NQTy1uekR4YnROdXdkM1VhOVJfZ1A3V0tFXzF5dUo3S0g5Smg4YzhXcEMyNXVfdm5XM2RxZDJZZWdYM0prWkw4NHZOZFRxVHBBMS03ZWltYjFoSklUdlp0aU1sVmF6RFNMdWk0QnlUa055aFA0bDFJcE42cHhtNGlGUzRTTVVhUVIyZ1ZMb3Q5Unhhc1p0M2tXZENhMldxS0JKZ25qdXNyeEl2ZHdYbnpUREJBdFJrNkdnVzN2Y3ZvNlRmbnU3T1JUaTNrLTdOVThHaDJrTDJ5OU9jQmg4Zm44TTc0OFU1X2dMb0tKd3UybHg2ZzdSTVF4S3NEWg?oc=5",
     "source": "gnews_macro",
     "published_utc": "2026-10-22T08:43:38+00:00",
-    "score": 7.72,
+    "score": 7.68,
+    "duplicates": 1
+   },
+   {
+    "id": "0e94c27b34",
+    "title": "The Fed’s Dilemma: Can Markets Damp Inflation or Is Another Rate Hike Necessary? - Barron's",
+    "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNdWN5TzJiNG5XMFJvcTdNbUxMTHd2MllzY05iR0V4UklVV20wRTYtMlZ1YzVSQkwyZ2p5OFkxNFNTM19DVjhFZTI3UkdESFJkMm5CSFV5cXVqR0VkYk5jZzdiZ2c4VUEtcVJ2eFZHTjdDUVhnSVRzMVBodGQ2YkZmcF9vZXJfQQ?oc=5",
+    "source": "gnews_macro",
+    "published_utc": "2026-10-22T10:30:00+00:00",
+    "score": 7.47,
+    "duplicates": 0
+   },
+   {
+    "id": "375edf952d",
+    "title": "Tariffs and inflation. 36 varieties of Keynesianism. T.W. Schultz and the battle over margarine in Iowa. Surviving AIDS. - Chartbook | Adam Tooze",
+    "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBNdVhnNngxbmNiNmJlcVE2ZXFKNnhNTE1ORm0wdktkWUJxbXExNllhUmtzcXNrNmtIRXBJYU03N3k5THdqWmNqRTJDMy1QalNiUGV2elRyTk56QmxDOExvQlJOY01CZVVJYThvejRvVGlCQ0I4cVE?oc=5",
+    "source": "gnews_macro",
+    "published_utc": "2026-10-22T10:31:17+00:00",
+    "score": 7.47,
     "duplicates": 1
    },
    {
@@ -2772,7 +2815,7 @@
     "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPZkdNWlNnTHI1dUJKWTBnaG9PbVl0dXpkVW8tcjJsS3Y5S1hGVlR5Ukh1d3JBVEQ4ajE5aVEybDhyMkVYbVhUT3NJSTQwUVRwUkI3WVZkMHRJSGtCYWpsR2RaaEJZZlQ4VnVZY2NfaG9XR3FqQTJOWVpDZlBab19UeE1n?oc=5",
     "source": "gnews_fed",
     "published_utc": "2026-10-22T06:00:00+00:00",
-    "score": 7.26,
+    "score": 7.22,
     "duplicates": 1
    },
    {
@@ -2781,7 +2824,16 @@
     "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNbDl6LU1GYjFvQk5FWG81MHZkSHByTTdFOFNiVTZKZVozMmFid2ViRnRRdTJ6dVVhM0h0WG5CUy1LdWl1Yi1ZcXd6T2tDSFhjMmpGWE1vRHVzaXQ0ejJRY0JNZURLSEljOUJsWGQ4bk5PSk5NN1ZmYWVkNDRfaHF5Vm9uMXRNMFNjXy1EREtLZDJ4ZmJFcGhGS3BYUlZWTXFweHV6OUZQTmh2NE0?oc=5",
     "source": "gnews_macro",
     "published_utc": "2026-10-22T08:48:43+00:00",
-    "score": 7.23,
+    "score": 7.19,
+    "duplicates": 0
+   },
+   {
+    "id": "e689ba0827",
+    "title": "Bitcoin outlook hinges on Fed policy, inflation, and ETF demand for Q4 gains - Pluang",
+    "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQMlFqa180V2lHYVNKWEFQOFlGZmt6MjZhRDItYUQtR3VCUkRieGpDZjItMjdRbGZFbXlYalA3SFREaE04S2k2UFpyX1M5bTZTN0lBY2RoYndJa0NNeW9hWjExZUNJTk1Fbjlfd3dpQWdoR3BRQWt6bXFzQThqc29YM1VPakc3MnFxN1psekItR0dvdnRMT1QxNllaUDQyaFdjX00yQU83XzNDdm92bUtYMFR3?oc=5",
+    "source": "gnews_fed",
+    "published_utc": "2026-10-22T02:23:47+00:00",
+    "score": 7.12,
     "duplicates": 0
    },
    {
@@ -2790,53 +2842,17 @@
     "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPNXZoNzR2YWtodkNGbVdsVk5kTFN6aW5sNjBCNy03V1ZZbzY5S0hfbVFQUEJUOTM4T19VYldnNUZzbWVHa25FSnF4SGxsZjlNbU9vSFRKcVBqbGtlZEs1bEZSRzJlYVZQS1ZNSlRHWmtNTFBid2JnX01Ma2pPalFfcy1rRXg1eHpzRkV4NzNONmFYZVZOb05ieldzZ1RvUk5HNDJkZUdZTFExT3R5Q3ZRVGRn?oc=5",
     "source": "gnews_megacap",
     "published_utc": "2026-10-22T08:05:37+00:00",
-    "score": 7.11,
-    "duplicates": 0
-   },
-   {
-    "id": "1b990deafb",
-    "title": "Can a Weakening Jobs Report Slow Wall Street’s AI Slide? - Benzinga",
-    "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOR29FUVVsWlVSOWlGV3lEUkUwZHkxOWpBc0VPbUJjRlQwWkZzTzYxV21LVWt4SmpDek5Qb1Q4SDNYOUlqaC1NdmRhVXNHRHJIRzRsM0xHRVF3UGRlaHk2Ry1RWDdhSVlzZWc1bjd0VTgyeVdmUERqZ3Frd1VHU1MtR3pxVVpFaS11X2NUY0pZU1hEQkJrRTBjVjFLcUQxcXVZNFBDbA?oc=5",
-    "source": "gnews_macro",
-    "published_utc": "2026-10-22T07:49:45+00:00",
     "score": 7.07,
     "duplicates": 0
-   },
-   {
-    "id": "9cb598e5b7",
-    "title": "Philippines Delivers Jumbo Rate Hike as Inflation Heats Up Anew - Bloomberg.com",
-    "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQS0s1RFVqalVtVXJWd2w5TWtQaFF6VlBrMGxBR2Rja01CUlJOUHotTV9uUU1FSjBTMG1CZmhZMk9IdXJYcm43VkVTMWp2RHFhdUkwSEZleEQ4YUtONHB4ajNXTjlncW84cTNmVWdicUhZZmlka2dVQnRWLVR1bkdDcEdpeTU2UW9pREZOQ18tQUZHSjBtTHdoLVhGeWdyRU5FNHpPLVRyNUZPei04SjZudG9fMGU?oc=5",
-    "source": "gnews_macro",
-    "published_utc": "2026-10-22T07:42:58+00:00",
-    "score": 7.05,
-    "duplicates": 0
-   },
-   {
-    "id": "ab0df6c41f",
-    "title": "Gold gains as Treasury yields stabilize, Nasdaq surges despite Fed tightening concerns - Kitco PM Report - Kitco",
-    "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQUGxuTFo5VGp0TGhZcEozV0RBZ2JmQ0lGX2czWkhhdjViVEc1eENPWmR2RlpFVzdFRGUycWxBSklHZkxXRHN6bnZocDZuMDdTNGRnN2lQLWY3MEtVbktuNllWODNyMzNkWHlMV18xcjIyQ0RadHpaRzZNcldTbjU1T29FbURsSV9FVmc1VEZ5TzhlZXo1VjNRODMtVkdLR3E2UWhESEpRTVB6N0pGZHdLZGJNWUZzemlDUEM0?oc=5",
-    "source": "gnews_macro",
-    "published_utc": "2026-10-21T21:48:25+00:00",
-    "score": 7.0,
-    "duplicates": 0
-   },
-   {
-    "id": "e322f4d16c",
-    "title": "US stock futures slip as tech earnings rally fades - The Edge Singapore",
-    "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQWVdKaEFsR1plXzNGN1htdkdvZG9hQkIwX1JFXzkxeWdFVVhhZ3hIc3NpS2JZLUtJWk41ZkF2Y3FIempEYlFLczY3VXdNYlVWMDF2bEt6MUZlMl9rU2YxRFl5Qm05YWg2alFiMzRKRE1keFcyTmZDOC1IdWRkQVBING1uZkxqWXM0Tkl5SHFQakdOSU5QRE5ud2Nrdw?oc=5",
-    "source": "gnews_futures",
-    "published_utc": "2026-10-21T23:06:59+00:00",
-    "score": 6.62,
-    "duplicates": 2
    }
   ],
   "summary": {
    "lines": [
     "U.S. stock futures drop as investors weigh Tesla, Meta earnings By Investing.com - Investing.com [13ccaab7e5]",
+    "U.S. Earnings Season Heats Up as MEXC TSLA Stock Futures Weekly Volume Jumps 101% - The Manila Times [51e602fc21]",
     "Stock market today: Dow, S&P 500, Nasdaq futures fall as traders assess Tesla, Meta earnings - Yahoo Finance [1276eb9a5e]",
     "Nasdaq futures drop over 1% as AI worries resurface, oil climbs - Reuters [8f24d110ca]",
-    "How Are Dow, S&P 500, Nasdaq Futures Trading After META, TSLA Earnings? - Stocktwits [2800965bca]",
-    "The Latest Inflation Data Spells Bad News for Fed Chair Kevin Warsh and the Stock Market - The Globe and Mail [a5a5639e13]"
+    "How Are Dow, S&P 500, Nasdaq Futures Trading After META, TSLA Earnings? - Stocktwits [2800965bca]"
    ],
    "backend": "none",
    "model": null,
