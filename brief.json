@@ -1,11 +1,11 @@
 {
  "meta": {
-  "generated_at_utc": "2026-10-23T12:27:17.342675+00:00",
-  "generated_at_local": "Fri 23 Oct 2026 09:27 ADT",
+  "generated_at_utc": "2026-10-23T12:42:33.776216+00:00",
+  "generated_at_local": "Fri 23 Oct 2026 09:42 ADT",
   "trading_day": "2026-10-23",
   "display_tz": "America/Halifax",
   "version": "0.1.0",
-  "run": "overnight",
+  "run": "post-data",
   "variant": "public"
  },
  "calendar": {
@@ -91,7 +91,7 @@
    "time_utc": "2026-10-23T13:45:00+00:00",
    "local": "10:45 ADT",
    "et": "09:45 ET",
-   "in": "1h 17m",
+   "in": "1h 02m",
    "consensus": "55.4",
    "prior": "57.0"
   },
@@ -102,10 +102,10 @@
   {
    "root": "ES",
    "trading_day": "2026-10-23",
-   "as_of_utc": "2026-10-23T12:27:17.342675+00:00",
+   "as_of_utc": "2026-10-23T12:42:33.776216+00:00",
    "source": "yahoo",
    "delayed": true,
-   "last_price": 7676.5,
+   "last_price": 7672.0,
    "levels": [
     {
      "tag": "wh",
@@ -147,7 +147,7 @@
      "label": "Overnight high",
      "price": 7714.25,
      "group": "overnight",
-     "note": "since 18:00 ET, 840 bars"
+     "note": "since 18:00 ET, 855 bars"
     },
     {
      "tag": "vah",
@@ -173,7 +173,7 @@
     {
      "tag": "onvwap",
      "label": "Overnight VWAP",
-     "price": 7696.66,
+     "price": 7695.99,
      "group": "overnight",
      "note": "typical-price VWAP"
     },
@@ -199,8 +199,8 @@
      "note": "2026-10-22"
     },
     {
-     "tag": "rn_minor_dn",
-     "label": "Round 25 below",
+     "tag": "rn_minor_up",
+     "label": "Round 25 above",
      "price": 7675.0,
      "group": "round",
      "note": ""
@@ -208,14 +208,14 @@
     {
      "tag": "onl",
      "label": "Overnight low",
-     "price": 7673.5,
+     "price": 7671.0,
      "group": "overnight",
      "note": ""
     },
     {
      "tag": "wl",
      "label": "Week low",
-     "price": 7673.5,
+     "price": 7671.0,
      "group": "week",
      "note": ""
     },
@@ -235,14 +235,14 @@
     }
    ],
    "stats": {
-    "last_bar_utc": "2026-10-23T12:17:00+00:00",
-    "last_bar_age_min": 10.3,
+    "last_bar_utc": "2026-10-23T12:32:00+00:00",
+    "last_bar_age_min": 10.6,
     "market_state": "open",
     "profile_volume": 1737098.0,
     "prior_day": "2026-10-22",
     "prior_day_rth_range": 65.75,
-    "overnight_range": 40.75,
-    "gap_vs_prior_close": -30.0,
+    "overnight_range": 43.25,
+    "gap_vs_prior_close": -34.5,
     "gap_basis": "last price (pre-market)",
     "atr14": 82.27,
     "atr_days": 14,
@@ -1446,20 +1446,28 @@
     {
      "t": "2026-10-23T12:15:00+00:00",
      "o": 7677.5,
-     "h": 7678.5,
-     "l": 7676.25,
-     "c": 7676.5,
-     "v": 822.0
+     "h": 7683.0,
+     "l": 7675.0,
+     "c": 7676.25,
+     "v": 9440.0
+    },
+    {
+     "t": "2026-10-23T12:30:00+00:00",
+     "o": 7676.25,
+     "h": 7677.25,
+     "l": 7671.0,
+     "c": 7672.0,
+     "v": 1768.0
     }
    ]
   },
   {
    "root": "NQ",
    "trading_day": "2026-10-23",
-   "as_of_utc": "2026-10-23T12:27:17.342675+00:00",
+   "as_of_utc": "2026-10-23T12:42:33.776216+00:00",
    "source": "yahoo",
    "delayed": true,
-   "last_price": 29075.5,
+   "last_price": 29065.5,
    "levels": [
     {
      "tag": "wh",
@@ -1515,12 +1523,12 @@
      "label": "Overnight high",
      "price": 29276.75,
      "group": "overnight",
-     "note": "since 18:00 ET, 840 bars"
+     "note": "since 18:00 ET, 855 bars"
     },
     {
      "tag": "onvwap",
      "label": "Overnight VWAP",
-     "price": 29149.48,
+     "price": 29148.23,
      "group": "overnight",
      "note": "typical-price VWAP"
     },
@@ -1589,14 +1597,14 @@
     }
    ],
    "stats": {
-    "last_bar_utc": "2026-10-23T12:17:00+00:00",
-    "last_bar_age_min": 10.3,
+    "last_bar_utc": "2026-10-23T12:32:00+00:00",
+    "last_bar_age_min": 10.6,
     "market_state": "open",
     "profile_volume": 600311.0,
     "prior_day": "2026-10-22",
     "prior_day_rth_range": 561.75,
     "overnight_range": 254.0,
-    "gap_vs_prior_close": -71.0,
+    "gap_vs_prior_close": -81.0,
     "gap_basis": "last price (pre-market)",
     "atr14": 562.21,
     "atr_days": 14,
@@ -2800,10 +2808,18 @@
     {
      "t": "2026-10-23T12:15:00+00:00",
      "o": 29083.75,
-     "h": 29091.0,
+     "h": 29117.5,
      "l": 29073.0,
-     "c": 29075.5,
-     "v": 507.0
+     "c": 29084.75,
+     "v": 3668.0
+    },
+    {
+     "t": "2026-10-23T12:30:00+00:00",
+     "o": 29084.0,
+     "h": 29094.5,
+     "l": 29059.0,
+     "c": 29065.5,
+     "v": 668.0
     }
    ]
   }
@@ -2816,7 +2832,7 @@
     "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxOZlFWWHJZVmpuZkFFV2QwZW4zN1I3MXFzdDNfZjMxdUdSdkpPejZSQldLM2NHN2pINFhsYTFkNWJrNnB0emZLNzZUd1l1b1Q1REdtRHBTR2N1VlVpVzR1ZnlhVlRxRl8xQjdtWURlcG5RdjB2c2xuTVVURDJVV1NGZXg2bXNuVGwtMEpDR3BkalNZMmRpZjZVY3RlX1RXOTlhZEJUemRyeml2d0Zldm1HUTlVdG5tU0xDbUxUQkhzQUhYNFdlZ3lWOWF3?oc=5",
     "source": "gnews_fed",
     "published_utc": "2026-10-23T09:06:00+00:00",
-    "score": 10.94,
+    "score": 10.9,
     "duplicates": 2
    },
    {
@@ -2834,7 +2850,7 @@
     "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQaUpILXJxSjEwUFB0dGFRNWNmd0hHZEFzSXlYT3dPODh2M01CTkwxaDczSmdkMS1NS0F2RU1kU1l2a1VURW1fVG1MaW4tcnFJSE1KSVUwR3g5MmRSTk44TUxabDZlaVRGclk2ZXZjdzIyQWZxUXJHM0lOY2xVRm5DbWx4N3luX2xtaUw2enBDSGFLcHVmVHVfeFRPYmJrYU5hLXFqVlZB?oc=5",
     "source": "gnews_futures",
     "published_utc": "2026-10-23T10:29:54+00:00",
-    "score": 8.17,
+    "score": 8.13,
     "duplicates": 0
    },
    {
@@ -2843,7 +2859,7 @@
     "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPYldRczJRSEJ6Tm9tc0U4aG5PdGtaQ1FJWjBIM011ODhFMTc2VEFpYTdkTEJGcHpiaXg4Z1FJcFlkV2V6eDBNbTNYbTVsRHlWMmZxT3JPMDlsQm5TeUd3eGZMSFVPbThWbncydTF5dmJ5T19ybjdrN1ZxUXF2S1Z1cmk1Y245Tm9zS2lEZWhlVVR3OEV2VEFkTDVIbXRuTDlUUm1lc2FVVm9rUDNkQzl1emxOOGh1N3ZtMW03eQ?oc=5",
     "source": "gnews_fed",
     "published_utc": "2026-10-23T04:55:07+00:00",
-    "score": 7.74,
+    "score": 7.7,
     "duplicates": 0
    },
    {
@@ -2852,8 +2868,17 @@
     "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNZks2RHRYUXRFdi1sZEcxR29WTHBNLUdtSF9QWVRIaEppdnRQSHpMdnQ0V1dDSk5LUHQwNjkxU3BQd09FaHlYZFc2QWNXRS12VVFxd3RRZjdmVDdqNjl1YzY4c0VDajlCd3BsOEZBYWRYSkZBT295QTczX2kxdHltVkU5NGZBRURtQWVwZktzUXJadzdpYW9sZUY5NFE4a0JrbWM3OTVRN29Hb3BfRkdhVGoxM1lUUE5NdWVBZllibTA?oc=5",
     "source": "gnews_futures",
     "published_utc": "2026-10-23T10:46:03+00:00",
-    "score": 7.72,
+    "score": 7.68,
     "duplicates": 1
+   },
+   {
+    "id": "4171cf5474",
+    "title": "US Stock Market Today: S&P 500 Futures Steady On Strong Jobs And PMI Focus - Yahoo Finance",
+    "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQNDBOQ1dkbktOWXVmaFVma2Q0VHY3NmswODNqTUtCYVUycjdTR2pxVnNKRVFfRTE4LVBtakJtNVRZUVMtUjU1WWlCTmg4dFdrQmpqWWJKQ3NOcjBuclhNZVJaX1ppYkk0RFVvdDFjTi02V3Q3MzdHZVE2YzdWZG1xeXhxdC1SSGtuTkpYdmNrcmI3dw?oc=5",
+    "source": "gnews_futures",
+    "published_utc": "2026-10-23T12:12:28+00:00",
+    "score": 7.42,
+    "duplicates": 0
    },
    {
     "id": "a5e56527b1",
@@ -2861,8 +2886,17 @@
     "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOQlZib09tUlBIb3VBX3YxWlZZZjNOMEoxSWVoMFltOFJKRWZDbGhBc1E4b2JxNFRKT3NuRWg1X29RWjlBd3AxcjNuRU1WWU8zVk9iRVpoWjJ2WnhUUnlwY0RJbTZ2RkV6NmpOYnNDTXp3dHpQVTUyNFhUVXFJV0NJektXQm1oN2o3QW9PNi1tbTFnWFg5eUE?oc=5",
     "source": "gnews_megacap",
     "published_utc": "2026-10-23T01:29:00+00:00",
-    "score": 7.17,
+    "score": 7.13,
     "duplicates": 0
+   },
+   {
+    "id": "2a6e8ab643",
+    "title": "S&P futures slip amid AI-driven tech jitters, oil price spike - Investing.com India",
+    "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOWHY0amkwSzJQZ2RISWlHbXpRRzRWbkdiUHdXTko3LThld1BCMHRJZy1fempFNTZqMFlyRWZYZjhzaEF5RkdpUjM5blc5U3NpbXZYOWhZMnBRQmdMWUljTVZ6UHZVMTJkbUY3a0cxOG9GQ3ZwcEVfYnNvdzRDaDY0c3diWTVQdnY3eE5rSXBaYXA4ekVEdzdSWmFGR1plN19xZV94T2FoVVpZaTJoSEpEczVLNnR2SElBeTRN?oc=5",
+    "source": "gnews_futures",
+    "published_utc": "2026-10-23T10:12:35+00:00",
+    "score": 7.08,
+    "duplicates": 1
    },
    {
     "id": "4ff6ebcdb6",
@@ -2870,7 +2904,16 @@
     "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE9ibDMwcWoyUzg1bTQ2bmFubkJtMXlON0h6ZjNlSTgzSzE0OEZpYkd4cXlvbmxEakp5T2hTNldwcmY5RWVJQW45QnJ3VDRpNjVQNU5kMkRLcEM0WmhraUZucmdmM3VvVnI3UFJzOUpOang0cnNzWGcyT0YzQU9UUQ?oc=5",
     "source": "gnews_macro",
     "published_utc": "2026-10-23T10:06:00+00:00",
-    "score": 7.11,
+    "score": 7.07,
+    "duplicates": 0
+   },
+   {
+    "id": "c1effcd884",
+    "title": "TSX futures slip as oil rally adds to inflation worries - Kitco",
+    "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxONERwVU5VM0YzS1VZaHdNRkpTUE05LW9hQXJPMW5mcDVjcmItUkxKaWsyOTc4aS1VQmJRdm5Jd1pqdzJkRFNlUnFIc1pyS0tYQ3d3bXVTY0Y0aVNkNzcyelgtU1FPdEVrRi00Ykg0bktsRzF6WEJwVmF1QURSenJzUUFZYnAzdGZsQ25sbHpOcWRBMlEwRWFLck4tUVJrbkxuTFE?oc=5",
+    "source": "gnews_macro",
+    "published_utc": "2026-10-23T12:28:49+00:00",
+    "score": 6.96,
     "duplicates": 0
    },
    {
@@ -2879,7 +2922,7 @@
     "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE9fUFhkR0R0cmxYeWNRb2Y2LXEyNUlGQnozcWxNUW1jaWRDcUdpYnBTWVZGR3p4OWwydEdicWRMMEozdXpxUl9td1V6SVVZM2JOT25hOWU3TUFLU1h4aHk0VC1VcjQ2bkhyMGJSVzduZ9IBdEFVX3lxTE1KUjZzM3JxQnUxN2Y0LVlocU52STl2ZUIwSlNOMFNnY3hyUlJ5TGJpZjJlc3VRaS1LdDh1ZlNvSDNCYWlmdnpIMHk4ZWFTT1E3UmplVjAwRm5MNnM5V2FsSWVpZ0Z3aWVhMjNVeWhrX1lRWWtk?oc=5",
     "source": "gnews_fed",
     "published_utc": "2026-10-23T09:11:42+00:00",
-    "score": 6.96,
+    "score": 6.91,
     "duplicates": 1
    },
    {
@@ -2888,34 +2931,7 @@
     "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPZ0VLcjUyVmtISG5uUVBpbjNndFBQV1ZqV3RqY0xwZjhvVFlfZ3dFdjYtNV9CNHdVek4wMUtYQnFLc0xEcnpZTWZRLWw3cm01cG9YaU4zcjdLeVFKZEE2MlNwWXJHaWY4M0IxS25iSjlCbUdmYmZBdVFrY0lFZmQ2RUtYc2NGV21FcjNWQU4wMA?oc=5",
     "source": "gnews_futures",
     "published_utc": "2026-10-23T08:44:00+00:00",
-    "score": 6.88,
-    "duplicates": 0
-   },
-   {
-    "id": "c0cd4ec688",
-    "title": "Nasdaq, Dow, S&P 500 Futures Drop Premarket: NVDA, AMD, META, CRWV, MRNA, WDC, BE In Focus - Yahoo Finance",
-    "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxON0pWLThkWllqVTRvcVRMY1NVeUN0UVNxa08tNkRhbzQxTUFlaTZON1BOYkh4bDEtaHB4X2d6dHk3VS1sVDhYMEhhZ0IyMVpjTXJjWVJ3WE9ZTDdWWG9paC1zdHZpbFpFNVZNTk9aYXhQRnRtWVlXRE0tZ2hOaDFmc2RIQUV5aTRBbEJaaDNsWUNxUXc?oc=5",
-    "source": "gnews_futures",
-    "published_utc": "2026-10-23T10:13:48+00:00",
-    "score": 6.63,
-    "duplicates": 0
-   },
-   {
-    "id": "97c1626d02",
-    "title": "S&P 500 Forecast: SPX Falls 1.10% on Meta, Tesla [2026] - https://tech-insider.org/",
-    "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNZUVhQXE5R0FSZURLeVA2dTdMN0ZDblA4MzNXTW5TeDN3bGRNZkxWMncwU2QxblkwWEZVWFRxdzYxTVpUM0NwRlRUcWczQl9jTkVpdmpYN1FOSWZDalRNV0FUbmRybklhSTNYdjUxRmNvZGJySWpMMkJydFBmYklKeFJ3?oc=5",
-    "source": "gnews_megacap",
-    "published_utc": "2026-10-23T10:09:27+00:00",
-    "score": 6.62,
-    "duplicates": 0
-   },
-   {
-    "id": "675b6b97c7",
-    "title": "Bond Market Tests the Inflation Narrative as Yields Tumble - Investing.com",
-    "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPZElKN29CdW9lTmlQdnpHQ3ZxSTZzck01QlpFZEk3SFJwSHdmbTlReVRTbmgyZE5QX1REazJfamhHRUxJdGhYclN3S0RmcG92aGEwTjNwU2lCSEtEVWl4OGJUTlN6cVJDQWJDLXBHT3pmVmVlbzdDSm55MTZWYXZRVmhMaHltek1raS1qWnlYZFlfOEF6MU1nZ0E2MUk1UjdWSlpaOXl3?oc=5",
-    "source": "gnews_macro",
-    "published_utc": "2026-10-23T12:11:42+00:00",
-    "score": 6.46,
+    "score": 6.84,
     "duplicates": 0
    }
   ],
@@ -2939,7 +2955,128 @@
  },
  "flags": [],
  "earnings": {
-  "reported": [],
+  "reported": [
+   {
+    "symbol": "PG",
+    "name": "Procter & Gamble Company (The)",
+    "timing": "unknown",
+    "date": "2026-10-22",
+    "reported_at": "10/22/2026",
+    "reported": true
+   },
+   {
+    "symbol": "UNP",
+    "name": "Union Pacific Corporation",
+    "timing": "unknown",
+    "date": "2026-10-22",
+    "reported_at": "10/22/2026",
+    "reported": true
+   },
+   {
+    "symbol": "LMT",
+    "name": "Lockheed Martin Corporation",
+    "timing": "unknown",
+    "date": "2026-10-22",
+    "reported_at": "10/22/2026",
+    "reported": true
+   },
+   {
+    "symbol": "WDC",
+    "name": "Western Digital Corporation",
+    "timing": "unknown",
+    "date": "2026-10-22",
+    "reported_at": "10/22/2026",
+    "reported": true
+   },
+   {
+    "symbol": "VLO",
+    "name": "Valero Energy Corporation",
+    "timing": "unknown",
+    "date": "2026-10-22",
+    "reported_at": "10/22/2026",
+    "reported": true
+   },
+   {
+    "symbol": "NEM",
+    "name": "Newmont Corporation",
+    "timing": "unknown",
+    "date": "2026-10-22",
+    "reported_at": "10/22/2026",
+    "reported": true
+   },
+   {
+    "symbol": "SPOT",
+    "name": "Spotify Technology S.A.",
+    "timing": "unknown",
+    "date": "2026-10-22",
+    "reported_at": "10/22/2026",
+    "reported": true
+   },
+   {
+    "symbol": "BX",
+    "name": "Blackstone Inc.",
+    "timing": "unknown",
+    "date": "2026-10-22",
+    "reported_at": "10/22/2026",
+    "reported": true
+   },
+   {
+    "symbol": "CMCSA",
+    "name": "Comcast Corporation",
+    "timing": "unknown",
+    "date": "2026-10-22",
+    "reported_at": "10/22/2026",
+    "reported": true
+   },
+   {
+    "symbol": "NSC",
+    "name": "Norfolk Southern Corporation",
+    "timing": "unknown",
+    "date": "2026-10-22",
+    "reported_at": "10/22/2026",
+    "reported": true
+   },
+   {
+    "symbol": "BCS",
+    "name": "Barclays PLC",
+    "timing": "unknown",
+    "date": "2026-10-22",
+    "reported_at": "10/22/2026",
+    "reported": true
+   },
+   {
+    "symbol": "HON",
+    "name": "Honeywell International Inc.",
+    "timing": "unknown",
+    "date": "2026-10-22",
+    "reported_at": "10/22/2026",
+    "reported": true
+   },
+   {
+    "symbol": "BE",
+    "name": "Bloom Energy Corporation",
+    "timing": "unknown",
+    "date": "2026-10-22",
+    "reported_at": "10/22/2026",
+    "reported": true
+   },
+   {
+    "symbol": "NDAQ",
+    "name": "Nasdaq, Inc.",
+    "timing": "unknown",
+    "date": "2026-10-22",
+    "reported_at": "10/22/2026",
+    "reported": true
+   },
+   {
+    "symbol": "ARGX",
+    "name": "argenx SE",
+    "timing": "unknown",
+    "date": "2026-10-22",
+    "reported_at": "10/22/2026",
+    "reported": true
+   }
+  ],
   "today": [
    {
     "symbol": "AXP",
