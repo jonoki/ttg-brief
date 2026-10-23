@@ -1,7 +1,7 @@
 {
  "meta": {
-  "generated_at_utc": "2026-10-23T10:40:23.927364+00:00",
-  "generated_at_local": "Fri 23 Oct 2026 07:40 ADT",
+  "generated_at_utc": "2026-10-23T10:55:39.760522+00:00",
+  "generated_at_local": "Fri 23 Oct 2026 07:55 ADT",
   "trading_day": "2026-10-23",
   "display_tz": "America/Halifax",
   "version": "0.1.0",
@@ -91,7 +91,7 @@
    "time_utc": "2026-10-23T13:45:00+00:00",
    "local": "10:45 ADT",
    "et": "09:45 ET",
-   "in": "3h 04m",
+   "in": "2h 49m",
    "consensus": "55.4",
    "prior": "57.0"
   },
@@ -102,10 +102,10 @@
   {
    "root": "ES",
    "trading_day": "2026-10-23",
-   "as_of_utc": "2026-10-23T10:40:23.927364+00:00",
+   "as_of_utc": "2026-10-23T10:55:39.760522+00:00",
    "source": "yahoo",
    "delayed": true,
-   "last_price": 7686.0,
+   "last_price": 7685.75,
    "levels": [
     {
      "tag": "wh",
@@ -147,7 +147,7 @@
      "label": "Overnight high",
      "price": 7714.25,
      "group": "overnight",
-     "note": "since 18:00 ET, 733 bars"
+     "note": "since 18:00 ET, 748 bars"
     },
     {
      "tag": "vah",
@@ -173,7 +173,7 @@
     {
      "tag": "onvwap",
      "label": "Overnight VWAP",
-     "price": 7699.44,
+     "price": 7699.18,
      "group": "overnight",
      "note": "typical-price VWAP"
     },
@@ -235,14 +235,14 @@
     }
    ],
    "stats": {
-    "last_bar_utc": "2026-10-23T10:30:00+00:00",
-    "last_bar_age_min": 10.4,
+    "last_bar_utc": "2026-10-23T10:45:00+00:00",
+    "last_bar_age_min": 10.7,
     "market_state": "open",
     "profile_volume": 1737098.0,
     "prior_day": "2026-10-22",
     "prior_day_rth_range": 65.75,
     "overnight_range": 33.25,
-    "gap_vs_prior_close": -20.5,
+    "gap_vs_prior_close": -20.75,
     "gap_basis": "last price (pre-market)",
     "atr14": 82.27,
     "atr_days": 14,
@@ -1390,9 +1390,17 @@
     {
      "t": "2026-10-23T10:30:00+00:00",
      "o": 7687.75,
-     "h": 7687.75,
-     "l": 7686.0,
-     "c": 7686.0,
+     "h": 7689.5,
+     "l": 7684.25,
+     "c": 7684.5,
+     "v": 4871.0
+    },
+    {
+     "t": "2026-10-23T10:45:00+00:00",
+     "o": 7684.5,
+     "h": 7686.25,
+     "l": 7684.25,
+     "c": 7685.75,
      "v": 0.0
     }
    ]
@@ -1400,10 +1408,10 @@
   {
    "root": "NQ",
    "trading_day": "2026-10-23",
-   "as_of_utc": "2026-10-23T10:40:23.927364+00:00",
+   "as_of_utc": "2026-10-23T10:55:39.760522+00:00",
    "source": "yahoo",
    "delayed": true,
-   "last_price": 29132.25,
+   "last_price": 29121.5,
    "levels": [
     {
      "tag": "wh",
@@ -1459,7 +1467,7 @@
      "label": "Overnight high",
      "price": 29276.75,
      "group": "overnight",
-     "note": "since 18:00 ET, 733 bars"
+     "note": "since 18:00 ET, 748 bars"
     },
     {
      "tag": "rn_major_up",
@@ -1471,7 +1479,7 @@
     {
      "tag": "onvwap",
      "label": "Overnight VWAP",
-     "price": 29156.38,
+     "price": 29156.08,
      "group": "overnight",
      "note": "typical-price VWAP"
     },
@@ -1533,14 +1541,14 @@
     }
    ],
    "stats": {
-    "last_bar_utc": "2026-10-23T10:30:00+00:00",
-    "last_bar_age_min": 10.4,
+    "last_bar_utc": "2026-10-23T10:45:00+00:00",
+    "last_bar_age_min": 10.7,
     "market_state": "open",
     "profile_volume": 600311.0,
     "prior_day": "2026-10-22",
     "prior_day_rth_range": 561.75,
     "overnight_range": 254.0,
-    "gap_vs_prior_close": -14.25,
+    "gap_vs_prior_close": -25.0,
     "gap_basis": "last price (pre-market)",
     "atr14": 562.21,
     "atr_days": 14,
@@ -2688,9 +2696,17 @@
     {
      "t": "2026-10-23T10:30:00+00:00",
      "o": 29137.25,
-     "h": 29137.75,
-     "l": 29129.0,
-     "c": 29132.25,
+     "h": 29154.25,
+     "l": 29113.25,
+     "c": 29113.25,
+     "v": 2486.0
+    },
+    {
+     "t": "2026-10-23T10:45:00+00:00",
+     "o": 29115.0,
+     "h": 29124.5,
+     "l": 29113.5,
+     "c": 29121.5,
      "v": 0.0
     }
    ]
@@ -2704,7 +2720,7 @@
     "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQTXQwS1U1WlVTeTlmY2xLdVdUTDVaRlNNZTRORlk0VVEtQkpGWjVzeUxFdGpiZ3VlOVhoTHRXMGNSdXBUeWloYU1JcGJZZW5JU1JWS0NjbWRlV2ZzU2tWRk5NSjN6eDFyTnhwcmFCNkdsdGo1Y2t6UWZDNVdhaE5UdjFhSmRULXpJd2Vqa1lB?oc=5",
     "source": "gnews_fed",
     "published_utc": "2026-10-23T08:26:02+00:00",
-    "score": 11.13,
+    "score": 11.08,
     "duplicates": 2
    },
    {
@@ -2731,7 +2747,7 @@
     "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQaUpILXJxSjEwUFB0dGFRNWNmd0hHZEFzSXlYT3dPODh2M01CTkwxaDczSmdkMS1NS0F2RU1kU1l2a1VURW1fVG1MaW4tcnFJSE1KSVUwR3g5MmRSTk44TUxabDZlaVRGclk2ZXZjdzIyQWZxUXJHM0lOY2xVRm5DbWx4N3luX2xtaUw2enBDSGFLcHVmVHVfeFRPYmJrYU5hLXFqVlZB?oc=5",
     "source": "gnews_futures",
     "published_utc": "2026-10-23T10:29:54+00:00",
-    "score": 8.47,
+    "score": 8.43,
     "duplicates": 0
    },
    {
@@ -2740,8 +2756,17 @@
     "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQdUV4SU1NY0ZxNWd2Mm96d2h3VWR4UndwWGlmVUUxeG9NdEtvWWdCcC1tMXhJWDIzWHFlWUpvbS1pVzhEOHBBLVk2WHJXb2x5WXY5WW9qSjJESU8xemUxZ0xlRXp3azd1U2RNVll1QWpDWDhfQk9oakp2X0F4SFpJWXhWWi1zQ3JYdTU3eWQ3OVlFbTJIQlUtX1ZDYm8?oc=5",
     "source": "gnews_megacap",
     "published_utc": "2026-10-23T10:05:57+00:00",
-    "score": 8.4,
+    "score": 8.36,
     "duplicates": 0
+   },
+   {
+    "id": "404ed4b7f2",
+    "title": "US stock futures slide after tech sell-off as oil climbs to 5-month highs - LinkedIn",
+    "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNZks2RHRYUXRFdi1sZEcxR29WTHBNLUdtSF9QWVRIaEppdnRQSHpMdnQ0V1dDSk5LUHQwNjkxU3BQd09FaHlYZFc2QWNXRS12VVFxd3RRZjdmVDdqNjl1YzY4c0VDajlCd3BsOEZBYWRYSkZBT295QTczX2kxdHltVkU5NGZBRURtQWVwZktzUXJadzdpYW9sZUY5NFE4a0JrbWM3OTVRN29Hb3BfRkdhVGoxM1lUUE5NdWVBZllibTA?oc=5",
+    "source": "gnews_futures",
+    "published_utc": "2026-10-23T10:46:03+00:00",
+    "score": 7.97,
+    "duplicates": 1
    },
    {
     "id": "a5e56527b1",
@@ -2749,7 +2774,7 @@
     "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOQlZib09tUlBIb3VBX3YxWlZZZjNOMEoxSWVoMFltOFJKRWZDbGhBc1E4b2JxNFRKT3NuRWg1X29RWjlBd3AxcjNuRU1WWU8zVk9iRVpoWjJ2WnhUUnlwY0RJbTZ2RkV6NmpOYnNDTXp3dHpQVTUyNFhUVXFJV0NJektXQm1oN2o3QW9PNi1tbTFnWFg5eUE?oc=5",
     "source": "gnews_megacap",
     "published_utc": "2026-10-23T01:29:00+00:00",
-    "score": 7.47,
+    "score": 7.43,
     "duplicates": 0
    },
    {
@@ -2758,7 +2783,7 @@
     "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE9ibDMwcWoyUzg1bTQ2bmFubkJtMXlON0h6ZjNlSTgzSzE0OEZpYkd4cXlvbmxEakp5T2hTNldwcmY5RWVJQW45QnJ3VDRpNjVQNU5kMkRLcEM0WmhraUZucmdmM3VvVnI3UFJzOUpOang0cnNzWGcyT0YzQU9UUQ?oc=5",
     "source": "gnews_macro",
     "published_utc": "2026-10-23T10:06:00+00:00",
-    "score": 7.4,
+    "score": 7.36,
     "duplicates": 0
    },
    {
@@ -2767,7 +2792,7 @@
     "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE9fUFhkR0R0cmxYeWNRb2Y2LXEyNUlGQnozcWxNUW1jaWRDcUdpYnBTWVZGR3p4OWwydEdicWRMMEozdXpxUl9td1V6SVVZM2JOT25hOWU3TUFLU1h4aHk0VC1VcjQ2bkhyMGJSVzduZ9IBdEFVX3lxTE1KUjZzM3JxQnUxN2Y0LVlocU52STl2ZUIwSlNOMFNnY3hyUlJ5TGJpZjJlc3VRaS1LdDh1ZlNvSDNCYWlmdnpIMHk4ZWFTT1E3UmplVjAwRm5MNnM5V2FsSWVpZ0Z3aWVhMjNVeWhrX1lRWWtk?oc=5",
     "source": "gnews_fed",
     "published_utc": "2026-10-23T09:11:42+00:00",
-    "score": 7.25,
+    "score": 7.21,
     "duplicates": 1
    },
    {
@@ -2776,7 +2801,7 @@
     "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPZ0VLcjUyVmtISG5uUVBpbjNndFBQV1ZqV3RqY0xwZjhvVFlfZ3dFdjYtNV9CNHdVek4wMUtYQnFLc0xEcnpZTWZRLWw3cm01cG9YaU4zcjdLeVFKZEE2MlNwWXJHaWY4M0IxS25iSjlCbUdmYmZBdVFrY0lFZmQ2RUtYc2NGV21FcjNWQU4wMA?oc=5",
     "source": "gnews_futures",
     "published_utc": "2026-10-23T08:44:00+00:00",
-    "score": 7.18,
+    "score": 7.13,
     "duplicates": 0
    },
    {
@@ -2785,7 +2810,7 @@
     "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxON0pWLThkWllqVTRvcVRMY1NVeUN0UVNxa08tNkRhbzQxTUFlaTZON1BOYkh4bDEtaHB4X2d6dHk3VS1sVDhYMEhhZ0IyMVpjTXJjWVJ3WE9ZTDdWWG9paC1zdHZpbFpFNVZNTk9aYXhQRnRtWVlXRE0tZ2hOaDFmc2RIQUV5aTRBbEJaaDNsWUNxUXc?oc=5",
     "source": "gnews_futures",
     "published_utc": "2026-10-23T10:13:48+00:00",
-    "score": 6.93,
+    "score": 6.88,
     "duplicates": 0
    },
    {
@@ -2794,17 +2819,8 @@
     "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNZUVhQXE5R0FSZURLeVA2dTdMN0ZDblA4MzNXTW5TeDN3bGRNZkxWMncwU2QxblkwWEZVWFRxdzYxTVpUM0NwRlRUcWczQl9jTkVpdmpYN1FOSWZDalRNV0FUbmRybklhSTNYdjUxRmNvZGJySWpMMkJydFBmYklKeFJ3?oc=5",
     "source": "gnews_megacap",
     "published_utc": "2026-10-23T10:09:27+00:00",
-    "score": 6.91,
+    "score": 6.87,
     "duplicates": 0
-   },
-   {
-    "id": "5aba26a11e",
-    "title": "Japan core inflation in September surges to its highest this year at 2.1%",
-    "link": "https://www.cnbc.com/2026/10/23/japan-inflation-september-highest-in-2026.html",
-    "source": "cnbc_markets",
-    "published_utc": "2026-10-23T08:06:37+00:00",
-    "score": 6.57,
-    "duplicates": 1
    }
   ],
   "summary": {
