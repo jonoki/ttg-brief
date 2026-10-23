@@ -1,7 +1,7 @@
 {
  "meta": {
-  "generated_at_utc": "2026-10-23T13:55:04.241865+00:00",
-  "generated_at_local": "Fri 23 Oct 2026 10:55 ADT",
+  "generated_at_utc": "2026-10-23T14:10:07.021903+00:00",
+  "generated_at_local": "Fri 23 Oct 2026 11:10 ADT",
   "trading_day": "2026-10-23",
   "display_tz": "America/Halifax",
   "version": "0.1.0",
@@ -85,16 +85,7 @@
     "source_url": null
    }
   ],
-  "next_event": {
-   "name": "Revised UoM Consumer Sentiment",
-   "impact": "medium",
-   "time_utc": "2026-10-23T14:00:00+00:00",
-   "local": "11:00 ADT",
-   "et": "10:00 ET",
-   "in": "4 min",
-   "consensus": "46.3",
-   "prior": "46.3"
-  },
+  "next_event": null,
   "sources": [],
   "warnings": []
  },
@@ -102,10 +93,10 @@
   {
    "root": "ES",
    "trading_day": "2026-10-23",
-   "as_of_utc": "2026-10-23T13:55:04.241865+00:00",
+   "as_of_utc": "2026-10-23T14:10:07.021903+00:00",
    "source": "yahoo",
    "delayed": true,
-   "last_price": 7668.0,
+   "last_price": 7671.25,
    "levels": [
     {
      "tag": "wh",
@@ -199,18 +190,18 @@
      "note": "2026-10-22"
     },
     {
+     "tag": "tdh",
+     "label": "Today's RTH high",
+     "price": 7675.0,
+     "group": "today",
+     "note": "so far"
+    },
+    {
      "tag": "rn_minor_up",
      "label": "Round 25 above",
      "price": 7675.0,
      "group": "round",
      "note": ""
-    },
-    {
-     "tag": "tdh",
-     "label": "Today's RTH high",
-     "price": 7671.75,
-     "group": "today",
-     "note": "so far"
     },
     {
      "tag": "rtho",
@@ -256,7 +247,7 @@
     }
    ],
    "stats": {
-    "last_bar_utc": "2026-10-23T13:45:00+00:00",
+    "last_bar_utc": "2026-10-23T14:00:00+00:00",
     "last_bar_age_min": 10.1,
     "market_state": "open",
     "profile_volume": 1737098.0,
@@ -1514,10 +1505,18 @@
     },
     {
      "t": "2026-10-23T13:45:00+00:00",
-     "o": 7667.0,
-     "h": 7671.75,
-     "l": 7664.25,
-     "c": 7668.0,
+     "o": 7667.75,
+     "h": 7674.0,
+     "l": 7662.0,
+     "c": 7671.25,
+     "v": 77386.0
+    },
+    {
+     "t": "2026-10-23T14:00:00+00:00",
+     "o": 7671.25,
+     "h": 7675.0,
+     "l": 7664.5,
+     "c": 7671.25,
      "v": 0.0
     }
    ]
@@ -1525,10 +1524,10 @@
   {
    "root": "NQ",
    "trading_day": "2026-10-23",
-   "as_of_utc": "2026-10-23T13:55:04.241865+00:00",
+   "as_of_utc": "2026-10-23T14:10:07.021903+00:00",
    "source": "yahoo",
    "delayed": true,
-   "last_price": 29116.5,
+   "last_price": 29177.0,
    "levels": [
     {
      "tag": "wh",
@@ -1594,18 +1593,18 @@
      "note": ""
     },
     {
-     "tag": "rn_minor_up",
-     "label": "Round 50 above",
+     "tag": "tdh",
+     "label": "Today's RTH high",
+     "price": 29189.5,
+     "group": "today",
+     "note": "so far"
+    },
+    {
+     "tag": "rn_minor_dn",
+     "label": "Round 50 below",
      "price": 29150.0,
      "group": "round",
      "note": ""
-    },
-    {
-     "tag": "tdh",
-     "label": "Today's RTH high",
-     "price": 29147.0,
-     "group": "today",
-     "note": "so far"
     },
     {
      "tag": "pdc",
@@ -1679,7 +1678,7 @@
     }
    ],
    "stats": {
-    "last_bar_utc": "2026-10-23T13:45:00+00:00",
+    "last_bar_utc": "2026-10-23T14:00:00+00:00",
     "last_bar_age_min": 10.1,
     "market_state": "open",
     "profile_volume": 600311.0,
@@ -2937,10 +2936,18 @@
     },
     {
      "t": "2026-10-23T13:45:00+00:00",
-     "o": 29123.5,
-     "h": 29147.0,
-     "l": 29097.75,
-     "c": 29116.5,
+     "o": 29123.75,
+     "h": 29175.5,
+     "l": 29086.25,
+     "c": 29169.25,
+     "v": 36552.0
+    },
+    {
+     "t": "2026-10-23T14:00:00+00:00",
+     "o": 29170.25,
+     "h": 29189.5,
+     "l": 29123.25,
+     "c": 29177.0,
      "v": 0.0
     }
    ]
