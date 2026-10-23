@@ -1,7 +1,7 @@
 {
  "meta": {
-  "generated_at_utc": "2026-10-23T11:10:55.569420+00:00",
-  "generated_at_local": "Fri 23 Oct 2026 08:10 ADT",
+  "generated_at_utc": "2026-10-23T11:26:11.950464+00:00",
+  "generated_at_local": "Fri 23 Oct 2026 08:26 ADT",
   "trading_day": "2026-10-23",
   "display_tz": "America/Halifax",
   "version": "0.1.0",
@@ -91,7 +91,7 @@
    "time_utc": "2026-10-23T13:45:00+00:00",
    "local": "10:45 ADT",
    "et": "09:45 ET",
-   "in": "2h 34m",
+   "in": "2h 18m",
    "consensus": "55.4",
    "prior": "57.0"
   },
@@ -102,10 +102,10 @@
   {
    "root": "ES",
    "trading_day": "2026-10-23",
-   "as_of_utc": "2026-10-23T11:10:55.569420+00:00",
+   "as_of_utc": "2026-10-23T11:26:11.950464+00:00",
    "source": "yahoo",
    "delayed": true,
-   "last_price": 7680.75,
+   "last_price": 7685.25,
    "levels": [
     {
      "tag": "wh",
@@ -147,7 +147,7 @@
      "label": "Overnight high",
      "price": 7714.25,
      "group": "overnight",
-     "note": "since 18:00 ET, 763 bars"
+     "note": "since 18:00 ET, 779 bars"
     },
     {
      "tag": "vah",
@@ -173,7 +173,7 @@
     {
      "tag": "onvwap",
      "label": "Overnight VWAP",
-     "price": 7698.69,
+     "price": 7698.28,
      "group": "overnight",
      "note": "typical-price VWAP"
     },
@@ -235,14 +235,14 @@
     }
    ],
    "stats": {
-    "last_bar_utc": "2026-10-23T11:00:00+00:00",
-    "last_bar_age_min": 10.9,
+    "last_bar_utc": "2026-10-23T11:16:00+00:00",
+    "last_bar_age_min": 10.2,
     "market_state": "open",
     "profile_volume": 1737098.0,
     "prior_day": "2026-10-22",
     "prior_day_rth_range": 65.75,
     "overnight_range": 36.25,
-    "gap_vs_prior_close": -25.75,
+    "gap_vs_prior_close": -21.25,
     "gap_basis": "last price (pre-market)",
     "atr14": 82.27,
     "atr_days": 14,
@@ -1405,21 +1405,29 @@
     },
     {
      "t": "2026-10-23T11:00:00+00:00",
-     "o": 7680.75,
-     "h": 7682.25,
+     "o": 7681.0,
+     "h": 7687.0,
      "l": 7679.0,
-     "c": 7680.75,
-     "v": 0.0
+     "c": 7684.25,
+     "v": 6125.0
+    },
+    {
+     "t": "2026-10-23T11:15:00+00:00",
+     "o": 7684.25,
+     "h": 7686.75,
+     "l": 7684.0,
+     "c": 7685.25,
+     "v": 426.0
     }
    ]
   },
   {
    "root": "NQ",
    "trading_day": "2026-10-23",
-   "as_of_utc": "2026-10-23T11:10:55.569420+00:00",
+   "as_of_utc": "2026-10-23T11:26:11.950464+00:00",
    "source": "yahoo",
    "delayed": true,
-   "last_price": 29080.25,
+   "last_price": 29110.25,
    "levels": [
     {
      "tag": "wh",
@@ -1475,14 +1483,28 @@
      "label": "Overnight high",
      "price": 29276.75,
      "group": "overnight",
-     "note": "since 18:00 ET, 763 bars"
+     "note": "since 18:00 ET, 779 bars"
+    },
+    {
+     "tag": "rn_major_up",
+     "label": "Round 100 above",
+     "price": 29200.0,
+     "group": "round",
+     "note": ""
     },
     {
      "tag": "onvwap",
      "label": "Overnight VWAP",
-     "price": 29155.28,
+     "price": 29153.83,
      "group": "overnight",
      "note": "typical-price VWAP"
+    },
+    {
+     "tag": "rn_minor_up",
+     "label": "Round 50 above",
+     "price": 29150.0,
+     "group": "round",
+     "note": ""
     },
     {
      "tag": "pdc",
@@ -1492,8 +1514,8 @@
      "note": "2026-10-22"
     },
     {
-     "tag": "rn_major_up",
-     "label": "Round 100 above",
+     "tag": "rn_major_dn",
+     "label": "Round 100 below",
      "price": 29100.0,
      "group": "round",
      "note": ""
@@ -1504,13 +1526,6 @@
      "price": 29079.0,
      "group": "profile",
      "note": "70 % value area"
-    },
-    {
-     "tag": "rn_minor_dn",
-     "label": "Round 50 below",
-     "price": 29050.0,
-     "group": "round",
-     "note": ""
     },
     {
      "tag": "pdl",
@@ -1534,13 +1549,6 @@
      "note": ""
     },
     {
-     "tag": "rn_major_dn",
-     "label": "Round 100 below",
-     "price": 29000.0,
-     "group": "round",
-     "note": ""
-    },
-    {
      "tag": "exp_lo",
      "label": "Expected-range low (close − ATR)",
      "price": 28584.29,
@@ -1549,14 +1557,14 @@
     }
    ],
    "stats": {
-    "last_bar_utc": "2026-10-23T11:00:00+00:00",
-    "last_bar_age_min": 10.9,
+    "last_bar_utc": "2026-10-23T11:16:00+00:00",
+    "last_bar_age_min": 10.2,
     "market_state": "open",
     "profile_volume": 600311.0,
     "prior_day": "2026-10-22",
     "prior_day_rth_range": 561.75,
     "overnight_range": 254.0,
-    "gap_vs_prior_close": -66.25,
+    "gap_vs_prior_close": -36.25,
     "gap_basis": "last price (pre-market)",
     "atr14": 562.21,
     "atr_days": 14,
@@ -2719,11 +2727,19 @@
     },
     {
      "t": "2026-10-23T11:00:00+00:00",
-     "o": 29097.0,
-     "h": 29098.0,
-     "l": 29078.5,
-     "c": 29080.25,
-     "v": 0.0
+     "o": 29097.5,
+     "h": 29128.75,
+     "l": 29076.25,
+     "c": 29100.25,
+     "v": 3720.0
+    },
+    {
+     "t": "2026-10-23T11:15:00+00:00",
+     "o": 29101.25,
+     "h": 29119.25,
+     "l": 29100.0,
+     "c": 29110.25,
+     "v": 326.0
     }
    ]
   }
@@ -2736,7 +2752,7 @@
     "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQTXQwS1U1WlVTeTlmY2xLdVdUTDVaRlNNZTRORlk0VVEtQkpGWjVzeUxFdGpiZ3VlOVhoTHRXMGNSdXBUeWloYU1JcGJZZW5JU1JWS0NjbWRlV2ZzU2tWRk5NSjN6eDFyTnhwcmFCNkdsdGo1Y2t6UWZDNVdhaE5UdjFhSmRULXpJd2Vqa1lB?oc=5",
     "source": "gnews_fed",
     "published_utc": "2026-10-23T08:26:02+00:00",
-    "score": 11.04,
+    "score": 11.0,
     "duplicates": 2
    },
    {
@@ -2763,7 +2779,7 @@
     "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQaUpILXJxSjEwUFB0dGFRNWNmd0hHZEFzSXlYT3dPODh2M01CTkwxaDczSmdkMS1NS0F2RU1kU1l2a1VURW1fVG1MaW4tcnFJSE1KSVUwR3g5MmRSTk44TUxabDZlaVRGclk2ZXZjdzIyQWZxUXJHM0lOY2xVRm5DbWx4N3luX2xtaUw2enBDSGFLcHVmVHVfeFRPYmJrYU5hLXFqVlZB?oc=5",
     "source": "gnews_futures",
     "published_utc": "2026-10-23T10:29:54+00:00",
-    "score": 8.39,
+    "score": 8.34,
     "duplicates": 0
    },
    {
@@ -2772,7 +2788,7 @@
     "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQdUV4SU1NY0ZxNWd2Mm96d2h3VWR4UndwWGlmVUUxeG9NdEtvWWdCcC1tMXhJWDIzWHFlWUpvbS1pVzhEOHBBLVk2WHJXb2x5WXY5WW9qSjJESU8xemUxZ0xlRXp3azd1U2RNVll1QWpDWDhfQk9oakp2X0F4SFpJWXhWWi1zQ3JYdTU3eWQ3OVlFbTJIQlUtX1ZDYm8?oc=5",
     "source": "gnews_megacap",
     "published_utc": "2026-10-23T10:05:57+00:00",
-    "score": 8.32,
+    "score": 8.28,
     "duplicates": 0
    },
    {
@@ -2781,7 +2797,7 @@
     "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPYldRczJRSEJ6Tm9tc0U4aG5PdGtaQ1FJWjBIM011ODhFMTc2VEFpYTdkTEJGcHpiaXg4Z1FJcFlkV2V6eDBNbTNYbTVsRHlWMmZxT3JPMDlsQm5TeUd3eGZMSFVPbThWbncydTF5dmJ5T19ybjdrN1ZxUXF2S1Z1cmk1Y245Tm9zS2lEZWhlVVR3OEV2VEFkTDVIbXRuTDlUUm1lc2FVVm9rUDNkQzl1emxOOGh1N3ZtMW03eQ?oc=5",
     "source": "gnews_fed",
     "published_utc": "2026-10-23T04:55:07+00:00",
-    "score": 7.96,
+    "score": 7.91,
     "duplicates": 0
    },
    {
@@ -2790,7 +2806,7 @@
     "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNZks2RHRYUXRFdi1sZEcxR29WTHBNLUdtSF9QWVRIaEppdnRQSHpMdnQ0V1dDSk5LUHQwNjkxU3BQd09FaHlYZFc2QWNXRS12VVFxd3RRZjdmVDdqNjl1YzY4c0VDajlCd3BsOEZBYWRYSkZBT295QTczX2kxdHltVkU5NGZBRURtQWVwZktzUXJadzdpYW9sZUY5NFE4a0JrbWM3OTVRN29Hb3BfRkdhVGoxM1lUUE5NdWVBZllibTA?oc=5",
     "source": "gnews_futures",
     "published_utc": "2026-10-23T10:46:03+00:00",
-    "score": 7.93,
+    "score": 7.89,
     "duplicates": 1
    },
    {
@@ -2799,7 +2815,7 @@
     "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOQlZib09tUlBIb3VBX3YxWlZZZjNOMEoxSWVoMFltOFJKRWZDbGhBc1E4b2JxNFRKT3NuRWg1X29RWjlBd3AxcjNuRU1WWU8zVk9iRVpoWjJ2WnhUUnlwY0RJbTZ2RkV6NmpOYnNDTXp3dHpQVTUyNFhUVXFJV0NJektXQm1oN2o3QW9PNi1tbTFnWFg5eUE?oc=5",
     "source": "gnews_megacap",
     "published_utc": "2026-10-23T01:29:00+00:00",
-    "score": 7.38,
+    "score": 7.34,
     "duplicates": 0
    },
    {
@@ -2808,7 +2824,7 @@
     "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE9ibDMwcWoyUzg1bTQ2bmFubkJtMXlON0h6ZjNlSTgzSzE0OEZpYkd4cXlvbmxEakp5T2hTNldwcmY5RWVJQW45QnJ3VDRpNjVQNU5kMkRLcEM0WmhraUZucmdmM3VvVnI3UFJzOUpOang0cnNzWGcyT0YzQU9UUQ?oc=5",
     "source": "gnews_macro",
     "published_utc": "2026-10-23T10:06:00+00:00",
-    "score": 7.32,
+    "score": 7.28,
     "duplicates": 0
    },
    {
@@ -2817,7 +2833,7 @@
     "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE9fUFhkR0R0cmxYeWNRb2Y2LXEyNUlGQnozcWxNUW1jaWRDcUdpYnBTWVZGR3p4OWwydEdicWRMMEozdXpxUl9td1V6SVVZM2JOT25hOWU3TUFLU1h4aHk0VC1VcjQ2bkhyMGJSVzduZ9IBdEFVX3lxTE1KUjZzM3JxQnUxN2Y0LVlocU52STl2ZUIwSlNOMFNnY3hyUlJ5TGJpZjJlc3VRaS1LdDh1ZlNvSDNCYWlmdnpIMHk4ZWFTT1E3UmplVjAwRm5MNnM5V2FsSWVpZ0Z3aWVhMjNVeWhrX1lRWWtk?oc=5",
     "source": "gnews_fed",
     "published_utc": "2026-10-23T09:11:42+00:00",
-    "score": 7.17,
+    "score": 7.13,
     "duplicates": 1
    },
    {
@@ -2826,16 +2842,16 @@
     "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPZ0VLcjUyVmtISG5uUVBpbjNndFBQV1ZqV3RqY0xwZjhvVFlfZ3dFdjYtNV9CNHdVek4wMUtYQnFLc0xEcnpZTWZRLWw3cm01cG9YaU4zcjdLeVFKZEE2MlNwWXJHaWY4M0IxS25iSjlCbUdmYmZBdVFrY0lFZmQ2RUtYc2NGV21FcjNWQU4wMA?oc=5",
     "source": "gnews_futures",
     "published_utc": "2026-10-23T08:44:00+00:00",
-    "score": 7.09,
+    "score": 7.05,
     "duplicates": 0
    },
    {
-    "id": "97c1626d02",
-    "title": "S&P 500 Forecast: SPX Falls 1.10% on Meta, Tesla [2026] - https://tech-insider.org/",
-    "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNZUVhQXE5R0FSZURLeVA2dTdMN0ZDblA4MzNXTW5TeDN3bGRNZkxWMncwU2QxblkwWEZVWFRxdzYxTVpUM0NwRlRUcWczQl9jTkVpdmpYN1FOSWZDalRNV0FUbmRybklhSTNYdjUxRmNvZGJySWpMMkJydFBmYklKeFJ3?oc=5",
-    "source": "gnews_megacap",
-    "published_utc": "2026-10-23T10:09:27+00:00",
-    "score": 6.83,
+    "id": "7cfa22c51c",
+    "title": "Nasdaq, Dow, S&P 500 Futures Drop Premarket: NVDA, AMD, META, CRWV, MRNA, WDC, BE In Focus - Stocktwits",
+    "link": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxPTkdvbFVJa29HTEFkOUxMdEYzNDNrQXJDUzlkbk82NWJ5THBnSmNuYVdEQjJfUGdkLXpLYXpGY0FDWVdTcVJCUTRLTTVrWXJLQ1BTaGRFQkZBVkRtTFgxMF9iOU95MXhRR2FRN3I1SWZiaG1wWEFpazVBMnlkb3VNRkEzNWRWRTFnREVBUDcwQ1Exal9QUGczbXdWZW5IQWlMZEd6Qmctd0dwLWNwZkNGM3RlNzBIbXpjRHdlYUlsejR0WnNJTVB0V3M3TzdtV3I1RmZhb1hJZmFtZ1FILWZKZHhEOA?oc=5",
+    "source": "gnews_futures",
+    "published_utc": "2026-10-23T10:20:09+00:00",
+    "score": 6.82,
     "duplicates": 0
    }
   ],
