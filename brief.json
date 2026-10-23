@@ -1,11 +1,11 @@
 {
  "meta": {
-  "generated_at_utc": "2026-10-23T13:28:28.888404+00:00",
-  "generated_at_local": "Fri 23 Oct 2026 10:28 ADT",
+  "generated_at_utc": "2026-10-23T13:43:46.187484+00:00",
+  "generated_at_local": "Fri 23 Oct 2026 10:43 ADT",
   "trading_day": "2026-10-23",
   "display_tz": "America/Halifax",
   "version": "0.1.0",
-  "run": "post-data",
+  "run": "intraday",
   "variant": "public"
  },
  "calendar": {
@@ -91,7 +91,7 @@
    "time_utc": "2026-10-23T13:45:00+00:00",
    "local": "10:45 ADT",
    "et": "09:45 ET",
-   "in": "16 min",
+   "in": "1 min",
    "consensus": "55.4",
    "prior": "57.0"
   },
@@ -102,10 +102,10 @@
   {
    "root": "ES",
    "trading_day": "2026-10-23",
-   "as_of_utc": "2026-10-23T13:28:28.888404+00:00",
+   "as_of_utc": "2026-10-23T13:43:46.187484+00:00",
    "source": "yahoo",
    "delayed": true,
-   "last_price": 7668.0,
+   "last_price": 7660.5,
    "levels": [
     {
      "tag": "wh",
@@ -147,7 +147,7 @@
      "label": "Overnight high",
      "price": 7714.25,
      "group": "overnight",
-     "note": "since 18:00 ET, 901 bars"
+     "note": "since 18:00 ET, 912 bars"
     },
     {
      "tag": "vah",
@@ -171,18 +171,18 @@
      "note": ""
     },
     {
-     "tag": "onvwap",
-     "label": "Overnight VWAP",
-     "price": 7691.85,
-     "group": "overnight",
-     "note": "typical-price VWAP"
-    },
-    {
      "tag": "poc",
      "label": "Prior-day POC",
      "price": 7691.12,
      "group": "profile",
      "note": "2026-10-22 RTH, bin 0.25"
+    },
+    {
+     "tag": "onvwap",
+     "label": "Overnight VWAP",
+     "price": 7690.48,
+     "group": "overnight",
+     "note": "typical-price VWAP"
     },
     {
      "tag": "val",
@@ -206,16 +206,37 @@
      "note": ""
     },
     {
+     "tag": "tdh",
+     "label": "Today's RTH high",
+     "price": 7669.75,
+     "group": "today",
+     "note": "so far"
+    },
+    {
+     "tag": "rtho",
+     "label": "Today's RTH open",
+     "price": 7661.25,
+     "group": "today",
+     "note": "09:30 bar open"
+    },
+    {
      "tag": "onl",
      "label": "Overnight low",
-     "price": 7660.75,
+     "price": 7660.0,
      "group": "overnight",
+     "note": ""
+    },
+    {
+     "tag": "tdl",
+     "label": "Today's RTH low",
+     "price": 7659.25,
+     "group": "today",
      "note": ""
     },
     {
      "tag": "wl",
      "label": "Week low",
-     "price": 7660.75,
+     "price": 7659.25,
      "group": "week",
      "note": ""
     },
@@ -235,15 +256,15 @@
     }
    ],
    "stats": {
-    "last_bar_utc": "2026-10-23T13:18:00+00:00",
-    "last_bar_age_min": 10.5,
+    "last_bar_utc": "2026-10-23T13:33:00+00:00",
+    "last_bar_age_min": 10.8,
     "market_state": "open",
     "profile_volume": 1737098.0,
     "prior_day": "2026-10-22",
     "prior_day_rth_range": 65.75,
-    "overnight_range": 53.5,
-    "gap_vs_prior_close": -38.5,
-    "gap_basis": "last price (pre-market)",
+    "overnight_range": 54.25,
+    "gap_vs_prior_close": -45.25,
+    "gap_basis": "RTH open",
     "atr14": 82.27,
     "atr_days": 14,
     "avg_daily_range": 82.25,
@@ -1478,20 +1499,28 @@
     {
      "t": "2026-10-23T13:15:00+00:00",
      "o": 7666.75,
-     "h": 7669.25,
-     "l": 7662.0,
-     "c": 7668.0,
-     "v": 6277.0
+     "h": 7670.25,
+     "l": 7660.0,
+     "c": 7660.75,
+     "v": 25970.0
+    },
+    {
+     "t": "2026-10-23T13:30:00+00:00",
+     "o": 7661.25,
+     "h": 7669.75,
+     "l": 7659.25,
+     "c": 7660.5,
+     "v": 29548.0
     }
    ]
   },
   {
    "root": "NQ",
    "trading_day": "2026-10-23",
-   "as_of_utc": "2026-10-23T13:28:28.888404+00:00",
+   "as_of_utc": "2026-10-23T13:43:46.187484+00:00",
    "source": "yahoo",
    "delayed": true,
-   "last_price": 29032.75,
+   "last_price": 29036.25,
    "levels": [
     {
      "tag": "wh",
@@ -1547,7 +1576,7 @@
      "label": "Overnight high",
      "price": 29276.75,
      "group": "overnight",
-     "note": "since 18:00 ET, 901 bars"
+     "note": "since 18:00 ET, 912 bars"
     },
     {
      "tag": "pdc",
@@ -1559,9 +1588,16 @@
     {
      "tag": "onvwap",
      "label": "Overnight VWAP",
-     "price": 29137.1,
+     "price": 29132.88,
      "group": "overnight",
      "note": "typical-price VWAP"
+    },
+    {
+     "tag": "tdh",
+     "label": "Today's RTH high",
+     "price": 29102.5,
+     "group": "today",
+     "note": "so far"
     },
     {
      "tag": "rn_major_up",
@@ -1592,6 +1628,13 @@
      "note": "2026-10-22"
     },
     {
+     "tag": "rtho",
+     "label": "Today's RTH open",
+     "price": 29029.5,
+     "group": "today",
+     "note": "09:30 bar open"
+    },
+    {
      "tag": "onl",
      "label": "Overnight low",
      "price": 29006.0,
@@ -1599,17 +1642,24 @@
      "note": ""
     },
     {
-     "tag": "wl",
-     "label": "Week low",
-     "price": 29006.0,
-     "group": "week",
-     "note": ""
-    },
-    {
      "tag": "rn_major_dn",
      "label": "Round 100 below",
      "price": 29000.0,
      "group": "round",
+     "note": ""
+    },
+    {
+     "tag": "tdl",
+     "label": "Today's RTH low",
+     "price": 28994.75,
+     "group": "today",
+     "note": ""
+    },
+    {
+     "tag": "wl",
+     "label": "Week low",
+     "price": 28994.75,
+     "group": "week",
      "note": ""
     },
     {
@@ -1621,15 +1671,15 @@
     }
    ],
    "stats": {
-    "last_bar_utc": "2026-10-23T13:18:00+00:00",
-    "last_bar_age_min": 10.5,
+    "last_bar_utc": "2026-10-23T13:33:00+00:00",
+    "last_bar_age_min": 10.8,
     "market_state": "open",
     "profile_volume": 600311.0,
     "prior_day": "2026-10-22",
     "prior_day_rth_range": 561.75,
     "overnight_range": 270.75,
-    "gap_vs_prior_close": -113.75,
-    "gap_basis": "last price (pre-market)",
+    "gap_vs_prior_close": -117.0,
+    "gap_basis": "RTH open",
     "atr14": 562.21,
     "atr_days": 14,
     "avg_daily_range": 555.15,
@@ -2864,10 +2914,18 @@
     {
      "t": "2026-10-23T13:15:00+00:00",
      "o": 29033.75,
-     "h": 29046.25,
+     "h": 29068.25,
      "l": 29006.0,
-     "c": 29032.75,
-     "v": 3008.0
+     "c": 29029.5,
+     "v": 12388.0
+    },
+    {
+     "t": "2026-10-23T13:30:00+00:00",
+     "o": 29029.5,
+     "h": 29102.5,
+     "l": 28994.75,
+     "c": 29036.25,
+     "v": 18706.0
     }
    ]
   }
@@ -2880,7 +2938,7 @@
     "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOa2s3NEZYYmJtU2hVQ3RiQVZNaGRsSDVyS2NDSmN3anhMQk1CaWRaZmUydGlFZllIamQzVWRWdkRPbkFVM3RZWEl2d01xUGJEQVRUMmVIUHFNOGRLYWdHcWx4cHFMQ052ZVh4cmFZUG1HalcxcDU5Z1Ffa0haVUNabXZpbjcydm03VlExb04wNDVBdWRmWU5iRzVPOHFSSldNcUJhX3hCRk5NZw?oc=5",
     "source": "gnews_fed",
     "published_utc": "2026-10-23T08:26:02+00:00",
-    "score": 10.16,
+    "score": 10.12,
     "duplicates": 1
    },
    {
@@ -2889,7 +2947,7 @@
     "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQaUpILXJxSjEwUFB0dGFRNWNmd0hHZEFzSXlYT3dPODh2M01CTkwxaDczSmdkMS1NS0F2RU1kU1l2a1VURW1fVG1MaW4tcnFJSE1KSVUwR3g5MmRSTk44TUxabDZlaVRGclk2ZXZjdzIyQWZxUXJHM0lOY2xVRm5DbWx4N3luX2xtaUw2enBDSGFLcHVmVHVfeFRPYmJrYU5hLXFqVlZB?oc=5",
     "source": "gnews_futures",
     "published_utc": "2026-10-23T10:29:54+00:00",
-    "score": 8.0,
+    "score": 7.96,
     "duplicates": 0
    },
    {
@@ -2898,7 +2956,7 @@
     "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOQjJmaEN2dEswQk9IckNvR0lQQUxwSUtxc0JqLVdkeWxhSE1NNURjanlUX2VvUzhQbVJxRzJZN0g4ZkpvMEplek9qN3hlcWhjMGNCaWFVckpZUzlySG5OZ0FQa0RoOWZVd0MwSmxDdFdfXzJZRThLUlFNTUpvUXVybXRaNmZtV0t4cU1meGtwSFdFZlZWN19sbTF5eVpVbHkwZnB6US1WekhuZkJIT0hTR1ZmeHJDdw?oc=5",
     "source": "gnews_megacap",
     "published_utc": "2026-10-23T12:59:23+00:00",
-    "score": 7.92,
+    "score": 7.88,
     "duplicates": 1
    },
    {
@@ -2907,7 +2965,7 @@
     "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPZ0VLcjUyVmtISG5uUVBpbjNndFBQV1ZqV3RqY0xwZjhvVFlfZ3dFdjYtNV9CNHdVek4wMUtYQnFLc0xEcnpZTWZRLWw3cm01cG9YaU4zcjdLeVFKZEE2MlNwWXJHaWY4M0IxS25iSjlCbUdmYmZBdVFrY0lFZmQ2RUtYc2NGV21FcjNWQU4wMA?oc=5",
     "source": "gnews_futures",
     "published_utc": "2026-10-23T12:35:00+00:00",
-    "score": 7.85,
+    "score": 7.81,
     "duplicates": 1
    },
    {
@@ -2916,7 +2974,7 @@
     "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPYldRczJRSEJ6Tm9tc0U4aG5PdGtaQ1FJWjBIM011ODhFMTc2VEFpYTdkTEJGcHpiaXg4Z1FJcFlkV2V6eDBNbTNYbTVsRHlWMmZxT3JPMDlsQm5TeUd3eGZMSFVPbThWbncydTF5dmJ5T19ybjdrN1ZxUXF2S1Z1cmk1Y245Tm9zS2lEZWhlVVR3OEV2VEFkTDVIbXRuTDlUUm1lc2FVVm9rUDNkQzl1emxOOGh1N3ZtMW03eQ?oc=5",
     "source": "gnews_fed",
     "published_utc": "2026-10-23T04:55:07+00:00",
-    "score": 7.57,
+    "score": 7.53,
     "duplicates": 0
    },
    {
@@ -2925,7 +2983,7 @@
     "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNZks2RHRYUXRFdi1sZEcxR29WTHBNLUdtSF9QWVRIaEppdnRQSHpMdnQ0V1dDSk5LUHQwNjkxU3BQd09FaHlYZFc2QWNXRS12VVFxd3RRZjdmVDdqNjl1YzY4c0VDajlCd3BsOEZBYWRYSkZBT295QTczX2kxdHltVkU5NGZBRURtQWVwZktzUXJadzdpYW9sZUY5NFE4a0JrbWM3OTVRN29Hb3BfRkdhVGoxM1lUUE5NdWVBZllibTA?oc=5",
     "source": "gnews_futures",
     "published_utc": "2026-10-23T10:46:03+00:00",
-    "score": 7.55,
+    "score": 7.51,
     "duplicates": 1
    },
    {
@@ -2934,7 +2992,7 @@
     "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQNDBOQ1dkbktOWXVmaFVma2Q0VHY3NmswODNqTUtCYVUycjdTR2pxVnNKRVFfRTE4LVBtakJtNVRZUVMtUjU1WWlCTmg4dFdrQmpqWWJKQ3NOcjBuclhNZVJaX1ppYkk0RFVvdDFjTi02V3Q3MzdHZVE2YzdWZG1xeXhxdC1SSGtuTkpYdmNrcmI3dw?oc=5",
     "source": "gnews_futures",
     "published_utc": "2026-10-23T12:12:28+00:00",
-    "score": 7.29,
+    "score": 7.25,
     "duplicates": 0
    },
    {
@@ -2952,7 +3010,7 @@
     "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOWHY0amkwSzJQZ2RISWlHbXpRRzRWbkdiUHdXTko3LThld1BCMHRJZy1fempFNTZqMFlyRWZYZjhzaEF5RkdpUjM5blc5U3NpbXZYOWhZMnBRQmdMWUljTVZ6UHZVMTJkbUY3a0cxOG9GQ3ZwcEVfYnNvdzRDaDY0c3diWTVQdnY3eE5rSXBaYXA4ekVEdzdSWmFGR1plN19xZV94T2FoVVpZaTJoSEpEczVLNnR2SElBeTRN?oc=5",
     "source": "gnews_futures",
     "published_utc": "2026-10-23T10:12:35+00:00",
-    "score": 6.96,
+    "score": 6.91,
     "duplicates": 1
    },
    {
@@ -2961,7 +3019,7 @@
     "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE9ibDMwcWoyUzg1bTQ2bmFubkJtMXlON0h6ZjNlSTgzSzE0OEZpYkd4cXlvbmxEakp5T2hTNldwcmY5RWVJQW45QnJ3VDRpNjVQNU5kMkRLcEM0WmhraUZucmdmM3VvVnI3UFJzOUpOang0cnNzWGcyT0YzQU9UUQ?oc=5",
     "source": "gnews_macro",
     "published_utc": "2026-10-23T10:06:00+00:00",
-    "score": 6.94,
+    "score": 6.9,
     "duplicates": 0
    },
    {
@@ -2970,17 +3028,17 @@
     "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxONERwVU5VM0YzS1VZaHdNRkpTUE05LW9hQXJPMW5mcDVjcmItUkxKaWsyOTc4aS1VQmJRdm5Jd1pqdzJkRFNlUnFIc1pyS0tYQ3d3bXVTY0Y0aVNkNzcyelgtU1FPdEVrRi00Ykg0bktsRzF6WEJwVmF1QURSenJzUUFZYnAzdGZsQ25sbHpOcWRBMlEwRWFLck4tUVJrbkxuTFE?oc=5",
     "source": "gnews_macro",
     "published_utc": "2026-10-23T12:28:49+00:00",
-    "score": 6.83,
+    "score": 6.79,
     "duplicates": 0
    },
    {
-    "id": "fb1430891c",
-    "title": "Gold off three-month lows as oil rally fans inflation worries - CNBC",
-    "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOS0x2VHNBWkt6RWNETndlR0p1eDd4UnhlZFFFbWpaYWdocUl2MnRCQm16RFpYbHQ3dF9jOEtLMENKOHUySjNmaW03YkhFRmR3WXRnbWtIaGZwbVVQNHJMMC11aklCdlBNcjMySDZsOU16WVBaZl8zR2ttZkgxMXVVWldnY25RRjJzbks3WFJwZWpnUE9maFdseVAwcmlmRHFJYUxCTEJ4RmN5QdIBrwFBVV95cUxNUEhSek0wcnlJbXhsZ0NkYmVoNEJmSUF5NEdCRElnZUVtNEcyY1hJSUloNEVtV3RRcDNXazdBUzc5a0V5OS1JXzFZMkROWVU2VHE3dUZmUExCMzdiRkNXZ0ZTY3pwUEJXR2RGaWY2QXVJOEtxV3lCWmV6OGdkZEE2NmJxcGZpSUYzZUhFNnRCVkotekVpY3BrWEVudnJkckF6dmVVZl9qNUtwN193MVV3?oc=5",
-    "source": "gnews_macro",
-    "published_utc": "2026-10-23T04:29:38+00:00",
-    "score": 6.5,
-    "duplicates": 2
+    "id": "b1773f31c6",
+    "title": "Seeking Clues to Microsoft (MSFT) Q1 Earnings? A Peek Into Wall Street Projections for Key Metrics - Yahoo Finance",
+    "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQYkxldmNtU2E3NVlJM0QzOFV5enVyOThvWnN6bllld0VwYkpBeG8xZUlNTEloeDBQb0pFVnJjQmNXakdIWTRVcUJGeFRwelVWcjZGNEVZejJwZWMzem5MdXRkUG1lM1JreUhXZDlKYmRLTG4yaU1JQ1pZRVJMaHltaDQ5aHU0aUFyNW5DNHZoYmJJTld0enBnUFFVeVY?oc=5",
+    "source": "gnews_megacap",
+    "published_utc": "2026-10-23T12:15:07+00:00",
+    "score": 6.75,
+    "duplicates": 0
    }
   ],
   "summary": {
