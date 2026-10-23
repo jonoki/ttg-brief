@@ -1,7 +1,7 @@
 {
  "meta": {
-  "generated_at_utc": "2026-10-23T14:10:07.021903+00:00",
-  "generated_at_local": "Fri 23 Oct 2026 11:10 ADT",
+  "generated_at_utc": "2026-10-23T14:25:19.058930+00:00",
+  "generated_at_local": "Fri 23 Oct 2026 11:25 ADT",
   "trading_day": "2026-10-23",
   "display_tz": "America/Halifax",
   "version": "0.1.0",
@@ -93,10 +93,10 @@
   {
    "root": "ES",
    "trading_day": "2026-10-23",
-   "as_of_utc": "2026-10-23T14:10:07.021903+00:00",
+   "as_of_utc": "2026-10-23T14:25:19.058930+00:00",
    "source": "yahoo",
    "delayed": true,
-   "last_price": 7671.25,
+   "last_price": 7663.75,
    "levels": [
     {
      "tag": "wh",
@@ -247,8 +247,8 @@
     }
    ],
    "stats": {
-    "last_bar_utc": "2026-10-23T14:00:00+00:00",
-    "last_bar_age_min": 10.1,
+    "last_bar_utc": "2026-10-23T14:15:00+00:00",
+    "last_bar_age_min": 10.3,
     "market_state": "open",
     "profile_volume": 1737098.0,
     "prior_day": "2026-10-22",
@@ -1513,10 +1513,18 @@
     },
     {
      "t": "2026-10-23T14:00:00+00:00",
-     "o": 7671.25,
+     "o": 7671.5,
      "h": 7675.0,
-     "l": 7664.5,
-     "c": 7671.25,
+     "l": 7660.75,
+     "c": 7664.5,
+     "v": 71886.0
+    },
+    {
+     "t": "2026-10-23T14:15:00+00:00",
+     "o": 7664.5,
+     "h": 7666.75,
+     "l": 7662.5,
+     "c": 7663.75,
      "v": 0.0
     }
    ]
@@ -1524,10 +1532,10 @@
   {
    "root": "NQ",
    "trading_day": "2026-10-23",
-   "as_of_utc": "2026-10-23T14:10:07.021903+00:00",
+   "as_of_utc": "2026-10-23T14:25:19.058930+00:00",
    "source": "yahoo",
    "delayed": true,
-   "last_price": 29177.0,
+   "last_price": 29163.75,
    "levels": [
     {
      "tag": "wh",
@@ -1595,7 +1603,7 @@
     {
      "tag": "tdh",
      "label": "Today's RTH high",
-     "price": 29189.5,
+     "price": 29193.5,
      "group": "today",
      "note": "so far"
     },
@@ -1678,8 +1686,8 @@
     }
    ],
    "stats": {
-    "last_bar_utc": "2026-10-23T14:00:00+00:00",
-    "last_bar_age_min": 10.1,
+    "last_bar_utc": "2026-10-23T14:15:00+00:00",
+    "last_bar_age_min": 10.3,
     "market_state": "open",
     "profile_volume": 600311.0,
     "prior_day": "2026-10-22",
@@ -2944,10 +2952,18 @@
     },
     {
      "t": "2026-10-23T14:00:00+00:00",
-     "o": 29170.25,
-     "h": 29189.5,
+     "o": 29167.75,
+     "h": 29193.5,
      "l": 29123.25,
-     "c": 29177.0,
+     "c": 29168.25,
+     "v": 31336.0
+    },
+    {
+     "t": "2026-10-23T14:15:00+00:00",
+     "o": 29168.75,
+     "h": 29183.25,
+     "l": 29151.5,
+     "c": 29163.75,
      "v": 0.0
     }
    ]
@@ -2961,7 +2977,16 @@
     "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOa2s3NEZYYmJtU2hVQ3RiQVZNaGRsSDVyS2NDSmN3anhMQk1CaWRaZmUydGlFZllIamQzVWRWdkRPbkFVM3RZWEl2d01xUGJEQVRUMmVIUHFNOGRLYWdHcWx4cHFMQ052ZVh4cmFZUG1HalcxcDU5Z1Ffa0haVUNabXZpbjcydm03VlExb04wNDVBdWRmWU5iRzVPOHFSSldNcUJhX3hCRk5NZw?oc=5",
     "source": "gnews_fed",
     "published_utc": "2026-10-23T08:26:02+00:00",
-    "score": 10.12,
+    "score": 10.0,
+    "duplicates": 1
+   },
+   {
+    "id": "346bfef5e8",
+    "title": "Gold set for second weekly loss as oil-fuelled inflation concerns bolster Fed hike outlook - Reuters",
+    "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOWE1LcUgzRWRwVDZmX3FEaWszVHF0cFQ1ekt6M1pyQ0lfc05PQm9DekdZcXprdm1vQk00SlNEZjEwQllCd1VwMUJySnIxcF9ZblFaRHFsV3BzSU52SlJSSi1TeWxoTmdYc1h6UHhPQTFQYU41ZEdQTFRNY3l0N1Q2bnRDV2x1MjlveGtxTk1oQWlGd3ExcUZEd2QzdF9TUkVKcXotUlIycUgtb1RrZjJ3?oc=5",
+    "source": "gnews_fed",
+    "published_utc": "2026-10-23T04:14:00+00:00",
+    "score": 8.3,
     "duplicates": 1
    },
    {
@@ -2970,16 +2995,16 @@
     "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQaUpILXJxSjEwUFB0dGFRNWNmd0hHZEFzSXlYT3dPODh2M01CTkwxaDczSmdkMS1NS0F2RU1kU1l2a1VURW1fVG1MaW4tcnFJSE1KSVUwR3g5MmRSTk44TUxabDZlaVRGclk2ZXZjdzIyQWZxUXJHM0lOY2xVRm5DbWx4N3luX2xtaUw2enBDSGFLcHVmVHVfeFRPYmJrYU5hLXFqVlZB?oc=5",
     "source": "gnews_futures",
     "published_utc": "2026-10-23T10:29:54+00:00",
-    "score": 7.96,
+    "score": 7.85,
     "duplicates": 0
    },
    {
-    "id": "b183274299",
+    "id": "d50c5cbfd1",
     "title": "The Week Ahead: US rate decision, PCE inflation, Microsoft earnings - CMC Markets",
     "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOQjJmaEN2dEswQk9IckNvR0lQQUxwSUtxc0JqLVdkeWxhSE1NNURjanlUX2VvUzhQbVJxRzJZN0g4ZkpvMEplek9qN3hlcWhjMGNCaWFVckpZUzlySG5OZ0FQa0RoOWZVd0MwSmxDdFdfXzJZRThLUlFNTUpvUXVybXRaNmZtV0t4cU1meGtwSFdFZlZWN19sbTF5eVpVbHkwZnB6US1WekhuZkJIT0hTR1ZmeHJDdw?oc=5",
-    "source": "gnews_megacap",
+    "source": "gnews_macro",
     "published_utc": "2026-10-23T12:59:23+00:00",
-    "score": 7.88,
+    "score": 7.76,
     "duplicates": 1
    },
    {
@@ -2988,7 +3013,7 @@
     "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPZ0VLcjUyVmtISG5uUVBpbjNndFBQV1ZqV3RqY0xwZjhvVFlfZ3dFdjYtNV9CNHdVek4wMUtYQnFLc0xEcnpZTWZRLWw3cm01cG9YaU4zcjdLeVFKZEE2MlNwWXJHaWY4M0IxS25iSjlCbUdmYmZBdVFrY0lFZmQ2RUtYc2NGV21FcjNWQU4wMA?oc=5",
     "source": "gnews_futures",
     "published_utc": "2026-10-23T12:35:00+00:00",
-    "score": 7.81,
+    "score": 7.69,
     "duplicates": 1
    },
    {
@@ -2997,7 +3022,7 @@
     "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPYldRczJRSEJ6Tm9tc0U4aG5PdGtaQ1FJWjBIM011ODhFMTc2VEFpYTdkTEJGcHpiaXg4Z1FJcFlkV2V6eDBNbTNYbTVsRHlWMmZxT3JPMDlsQm5TeUd3eGZMSFVPbThWbncydTF5dmJ5T19ybjdrN1ZxUXF2S1Z1cmk1Y245Tm9zS2lEZWhlVVR3OEV2VEFkTDVIbXRuTDlUUm1lc2FVVm9rUDNkQzl1emxOOGh1N3ZtMW03eQ?oc=5",
     "source": "gnews_fed",
     "published_utc": "2026-10-23T04:55:07+00:00",
-    "score": 7.53,
+    "score": 7.42,
     "duplicates": 0
    },
    {
@@ -3006,7 +3031,7 @@
     "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNZks2RHRYUXRFdi1sZEcxR29WTHBNLUdtSF9QWVRIaEppdnRQSHpMdnQ0V1dDSk5LUHQwNjkxU3BQd09FaHlYZFc2QWNXRS12VVFxd3RRZjdmVDdqNjl1YzY4c0VDajlCd3BsOEZBYWRYSkZBT295QTczX2kxdHltVkU5NGZBRURtQWVwZktzUXJadzdpYW9sZUY5NFE4a0JrbWM3OTVRN29Hb3BfRkdhVGoxM1lUUE5NdWVBZllibTA?oc=5",
     "source": "gnews_futures",
     "published_utc": "2026-10-23T10:46:03+00:00",
-    "score": 7.51,
+    "score": 7.39,
     "duplicates": 1
    },
    {
@@ -3015,7 +3040,7 @@
     "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQNDBOQ1dkbktOWXVmaFVma2Q0VHY3NmswODNqTUtCYVUycjdTR2pxVnNKRVFfRTE4LVBtakJtNVRZUVMtUjU1WWlCTmg4dFdrQmpqWWJKQ3NOcjBuclhNZVJaX1ppYkk0RFVvdDFjTi02V3Q3MzdHZVE2YzdWZG1xeXhxdC1SSGtuTkpYdmNrcmI3dw?oc=5",
     "source": "gnews_futures",
     "published_utc": "2026-10-23T12:12:28+00:00",
-    "score": 7.25,
+    "score": 7.13,
     "duplicates": 0
    },
    {
@@ -3033,7 +3058,7 @@
     "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOWHY0amkwSzJQZ2RISWlHbXpRRzRWbkdiUHdXTko3LThld1BCMHRJZy1fempFNTZqMFlyRWZYZjhzaEF5RkdpUjM5blc5U3NpbXZYOWhZMnBRQmdMWUljTVZ6UHZVMTJkbUY3a0cxOG9GQ3ZwcEVfYnNvdzRDaDY0c3diWTVQdnY3eE5rSXBaYXA4ekVEdzdSWmFGR1plN19xZV94T2FoVVpZaTJoSEpEczVLNnR2SElBeTRN?oc=5",
     "source": "gnews_futures",
     "published_utc": "2026-10-23T10:12:35+00:00",
-    "score": 6.91,
+    "score": 6.8,
     "duplicates": 1
    },
    {
@@ -3042,7 +3067,7 @@
     "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE9ibDMwcWoyUzg1bTQ2bmFubkJtMXlON0h6ZjNlSTgzSzE0OEZpYkd4cXlvbmxEakp5T2hTNldwcmY5RWVJQW45QnJ3VDRpNjVQNU5kMkRLcEM0WmhraUZucmdmM3VvVnI3UFJzOUpOang0cnNzWGcyT0YzQU9UUQ?oc=5",
     "source": "gnews_macro",
     "published_utc": "2026-10-23T10:06:00+00:00",
-    "score": 6.9,
+    "score": 6.78,
     "duplicates": 0
    },
    {
@@ -3051,26 +3076,17 @@
     "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxONERwVU5VM0YzS1VZaHdNRkpTUE05LW9hQXJPMW5mcDVjcmItUkxKaWsyOTc4aS1VQmJRdm5Jd1pqdzJkRFNlUnFIc1pyS0tYQ3d3bXVTY0Y0aVNkNzcyelgtU1FPdEVrRi00Ykg0bktsRzF6WEJwVmF1QURSenJzUUFZYnAzdGZsQ25sbHpOcWRBMlEwRWFLck4tUVJrbkxuTFE?oc=5",
     "source": "gnews_macro",
     "published_utc": "2026-10-23T12:28:49+00:00",
-    "score": 6.79,
-    "duplicates": 0
-   },
-   {
-    "id": "b1773f31c6",
-    "title": "Seeking Clues to Microsoft (MSFT) Q1 Earnings? A Peek Into Wall Street Projections for Key Metrics - Yahoo Finance",
-    "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQYkxldmNtU2E3NVlJM0QzOFV5enVyOThvWnN6bllld0VwYkpBeG8xZUlNTEloeDBQb0pFVnJjQmNXakdIWTRVcUJGeFRwelVWcjZGNEVZejJwZWMzem5MdXRkUG1lM1JreUhXZDlKYmRLTG4yaU1JQ1pZRVJMaHltaDQ5aHU0aUFyNW5DNHZoYmJJTld0enBnUFFVeVY?oc=5",
-    "source": "gnews_megacap",
-    "published_utc": "2026-10-23T12:15:07+00:00",
-    "score": 6.75,
+    "score": 6.68,
     "duplicates": 0
    }
   ],
   "summary": {
    "lines": [
     "The Federal Reserve's Latest October Inflation Forecast Has Arrived, and It's Terrible News for Wall Street - Yahoo Finance [74864ddb2f]",
+    "Gold set for second weekly loss as oil-fuelled inflation concerns bolster Fed hike outlook - Reuters [346bfef5e8]",
     "Nasdaq Futures Muted as AI Rout Eases; U.S. PMI Data in Focus - Barchart.com [66618e7868]",
-    "The Week Ahead: US rate decision, PCE inflation, Microsoft earnings - CMC Markets [b183274299]",
-    "Nasdaq Futures Steady as AI Selloff Pauses - WSJ [1fb9240396]",
-    "Former Fed Insider Warns Recession May Already Be Underway - iShares 7-10 Year Treasury Bond ETF (NASDAQ - Benzinga [57925c7c6f]"
+    "The Week Ahead: US rate decision, PCE inflation, Microsoft earnings - CMC Markets [d50c5cbfd1]",
+    "Nasdaq Futures Steady as AI Selloff Pauses - WSJ [1fb9240396]"
    ],
    "backend": "none",
    "model": null,
