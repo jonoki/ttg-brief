@@ -1,11 +1,11 @@
 {
  "meta": {
-  "generated_at_utc": "2026-10-23T15:56:59.429666+00:00",
-  "generated_at_local": "Fri 23 Oct 2026 12:56 ADT",
+  "generated_at_utc": "2026-10-23T20:05:01.576323+00:00",
+  "generated_at_local": "Fri 23 Oct 2026 17:05 ADT",
   "trading_day": "2026-10-23",
   "display_tz": "America/Halifax",
   "version": "0.1.0",
-  "run": "intraday",
+  "run": "post-close",
   "variant": "public"
  },
  "calendar": {
@@ -93,10 +93,10 @@
   {
    "root": "ES",
    "trading_day": "2026-10-23",
-   "as_of_utc": "2026-10-23T15:56:59.429666+00:00",
+   "as_of_utc": "2026-10-23T20:05:01.576323+00:00",
    "source": "yahoo",
    "delayed": true,
-   "last_price": 7683.75,
+   "last_price": 7660.5,
    "levels": [
     {
      "tag": "wh",
@@ -166,7 +166,7 @@
      "label": "Today's RTH high",
      "price": 7697.25,
      "group": "today",
-     "note": "so far"
+     "note": "session complete"
     },
     {
      "tag": "poc",
@@ -197,8 +197,8 @@
      "note": "2026-10-22"
     },
     {
-     "tag": "rn_minor_dn",
-     "label": "Round 25 below",
+     "tag": "rn_minor_up",
+     "label": "Round 25 above",
      "price": 7675.0,
      "group": "round",
      "note": ""
@@ -209,6 +209,13 @@
      "price": 7661.25,
      "group": "today",
      "note": "09:30 bar open"
+    },
+    {
+     "tag": "tdc",
+     "label": "Today's RTH close (16:00 bar)",
+     "price": 7660.5,
+     "group": "today",
+     "note": "becomes next session's prior-day close"
     },
     {
      "tag": "onl",
@@ -247,8 +254,8 @@
     }
    ],
    "stats": {
-    "last_bar_utc": "2026-10-23T15:46:00+00:00",
-    "last_bar_age_min": 11.0,
+    "last_bar_utc": "2026-10-23T19:55:00+00:00",
+    "last_bar_age_min": 10.0,
     "market_state": "open",
     "profile_volume": 1737098.0,
     "prior_day": "2026-10-22",
@@ -1570,20 +1577,148 @@
     {
      "t": "2026-10-23T15:45:00+00:00",
      "o": 7684.5,
-     "h": 7685.25,
+     "h": 7693.5,
      "l": 7681.25,
-     "c": 7683.75,
-     "v": 2632.0
+     "c": 7692.75,
+     "v": 39597.0
+    },
+    {
+     "t": "2026-10-23T16:00:00+00:00",
+     "o": 7692.75,
+     "h": 7693.75,
+     "l": 7685.25,
+     "c": 7686.0,
+     "v": 36408.0
+    },
+    {
+     "t": "2026-10-23T16:15:00+00:00",
+     "o": 7686.0,
+     "h": 7690.75,
+     "l": 7676.25,
+     "c": 7678.75,
+     "v": 39308.0
+    },
+    {
+     "t": "2026-10-23T16:30:00+00:00",
+     "o": 7679.0,
+     "h": 7688.25,
+     "l": 7678.0,
+     "c": 7687.5,
+     "v": 40867.0
+    },
+    {
+     "t": "2026-10-23T16:45:00+00:00",
+     "o": 7687.25,
+     "h": 7690.5,
+     "l": 7674.75,
+     "c": 7676.0,
+     "v": 36336.0
+    },
+    {
+     "t": "2026-10-23T17:00:00+00:00",
+     "o": 7676.0,
+     "h": 7677.5,
+     "l": 7664.25,
+     "c": 7667.75,
+     "v": 40283.0
+    },
+    {
+     "t": "2026-10-23T17:15:00+00:00",
+     "o": 7667.5,
+     "h": 7671.75,
+     "l": 7661.5,
+     "c": 7665.5,
+     "v": 36941.0
+    },
+    {
+     "t": "2026-10-23T17:30:00+00:00",
+     "o": 7665.5,
+     "h": 7669.25,
+     "l": 7662.5,
+     "c": 7666.25,
+     "v": 30909.0
+    },
+    {
+     "t": "2026-10-23T17:45:00+00:00",
+     "o": 7666.25,
+     "h": 7677.25,
+     "l": 7664.75,
+     "c": 7674.0,
+     "v": 41848.0
+    },
+    {
+     "t": "2026-10-23T18:00:00+00:00",
+     "o": 7674.25,
+     "h": 7675.0,
+     "l": 7667.0,
+     "c": 7669.25,
+     "v": 31627.0
+    },
+    {
+     "t": "2026-10-23T18:15:00+00:00",
+     "o": 7669.25,
+     "h": 7674.25,
+     "l": 7668.25,
+     "c": 7670.75,
+     "v": 24190.0
+    },
+    {
+     "t": "2026-10-23T18:30:00+00:00",
+     "o": 7670.75,
+     "h": 7673.5,
+     "l": 7663.25,
+     "c": 7666.0,
+     "v": 29157.0
+    },
+    {
+     "t": "2026-10-23T18:45:00+00:00",
+     "o": 7665.75,
+     "h": 7669.75,
+     "l": 7661.75,
+     "c": 7667.75,
+     "v": 29233.0
+    },
+    {
+     "t": "2026-10-23T19:00:00+00:00",
+     "o": 7668.0,
+     "h": 7671.25,
+     "l": 7665.5,
+     "c": 7668.5,
+     "v": 24003.0
+    },
+    {
+     "t": "2026-10-23T19:15:00+00:00",
+     "o": 7668.75,
+     "h": 7670.0,
+     "l": 7664.0,
+     "c": 7667.25,
+     "v": 25943.0
+    },
+    {
+     "t": "2026-10-23T19:30:00+00:00",
+     "o": 7667.0,
+     "h": 7667.5,
+     "l": 7662.0,
+     "c": 7664.0,
+     "v": 33204.0
+    },
+    {
+     "t": "2026-10-23T19:45:00+00:00",
+     "o": 7664.25,
+     "h": 7666.25,
+     "l": 7658.75,
+     "c": 7660.5,
+     "v": 35494.0
     }
    ]
   },
   {
    "root": "NQ",
    "trading_day": "2026-10-23",
-   "as_of_utc": "2026-10-23T15:56:59.429666+00:00",
+   "as_of_utc": "2026-10-23T20:05:01.576323+00:00",
    "source": "yahoo",
    "delayed": true,
-   "last_price": 29228.75,
+   "last_price": 29117.5,
    "levels": [
     {
      "tag": "wh",
@@ -1632,14 +1767,7 @@
      "label": "Today's RTH high",
      "price": 29326.0,
      "group": "today",
-     "note": "so far"
-    },
-    {
-     "tag": "rn_major_up",
-     "label": "Round 100 above",
-     "price": 29300.0,
-     "group": "round",
-     "note": ""
+     "note": "session complete"
     },
     {
      "tag": "poc",
@@ -1656,16 +1784,16 @@
      "note": "since 18:00 ET, 912 bars"
     },
     {
-     "tag": "rn_minor_up",
-     "label": "Round 50 above",
-     "price": 29250.0,
+     "tag": "rn_major_up",
+     "label": "Round 100 above",
+     "price": 29200.0,
      "group": "round",
      "note": ""
     },
     {
-     "tag": "rn_major_dn",
-     "label": "Round 100 below",
-     "price": 29200.0,
+     "tag": "rn_minor_up",
+     "label": "Round 50 above",
+     "price": 29150.0,
      "group": "round",
      "note": ""
     },
@@ -1682,6 +1810,20 @@
      "price": 29132.88,
      "group": "overnight",
      "note": "typical-price VWAP"
+    },
+    {
+     "tag": "tdc",
+     "label": "Today's RTH close (16:00 bar)",
+     "price": 29117.5,
+     "group": "today",
+     "note": "becomes next session's prior-day close"
+    },
+    {
+     "tag": "rn_major_dn",
+     "label": "Round 100 below",
+     "price": 29100.0,
+     "group": "round",
+     "note": ""
     },
     {
      "tag": "val",
@@ -1734,8 +1876,8 @@
     }
    ],
    "stats": {
-    "last_bar_utc": "2026-10-23T15:46:00+00:00",
-    "last_bar_age_min": 11.0,
+    "last_bar_utc": "2026-10-23T19:55:00+00:00",
+    "last_bar_age_min": 10.0,
     "market_state": "open",
     "profile_volume": 600311.0,
     "prior_day": "2026-10-22",
@@ -3057,10 +3199,138 @@
     {
      "t": "2026-10-23T15:45:00+00:00",
      "o": 29232.0,
-     "h": 29236.75,
+     "h": 29298.25,
      "l": 29217.5,
-     "c": 29228.75,
-     "v": 976.0
+     "c": 29293.75,
+     "v": 13124.0
+    },
+    {
+     "t": "2026-10-23T16:00:00+00:00",
+     "o": 29294.0,
+     "h": 29306.0,
+     "l": 29242.25,
+     "c": 29245.75,
+     "v": 11273.0
+    },
+    {
+     "t": "2026-10-23T16:15:00+00:00",
+     "o": 29245.0,
+     "h": 29274.5,
+     "l": 29204.5,
+     "c": 29214.25,
+     "v": 11870.0
+    },
+    {
+     "t": "2026-10-23T16:30:00+00:00",
+     "o": 29214.5,
+     "h": 29263.0,
+     "l": 29213.75,
+     "c": 29254.0,
+     "v": 12626.0
+    },
+    {
+     "t": "2026-10-23T16:45:00+00:00",
+     "o": 29252.75,
+     "h": 29273.5,
+     "l": 29195.25,
+     "c": 29203.5,
+     "v": 12203.0
+    },
+    {
+     "t": "2026-10-23T17:00:00+00:00",
+     "o": 29204.25,
+     "h": 29216.75,
+     "l": 29154.25,
+     "c": 29179.0,
+     "v": 11933.0
+    },
+    {
+     "t": "2026-10-23T17:15:00+00:00",
+     "o": 29179.0,
+     "h": 29200.0,
+     "l": 29145.0,
+     "c": 29159.0,
+     "v": 12578.0
+    },
+    {
+     "t": "2026-10-23T17:30:00+00:00",
+     "o": 29160.0,
+     "h": 29181.0,
+     "l": 29144.0,
+     "c": 29166.75,
+     "v": 8626.0
+    },
+    {
+     "t": "2026-10-23T17:45:00+00:00",
+     "o": 29166.25,
+     "h": 29224.5,
+     "l": 29158.75,
+     "c": 29208.25,
+     "v": 10234.0
+    },
+    {
+     "t": "2026-10-23T18:00:00+00:00",
+     "o": 29207.75,
+     "h": 29215.0,
+     "l": 29170.75,
+     "c": 29175.0,
+     "v": 8577.0
+    },
+    {
+     "t": "2026-10-23T18:15:00+00:00",
+     "o": 29175.25,
+     "h": 29199.75,
+     "l": 29169.25,
+     "c": 29183.5,
+     "v": 5972.0
+    },
+    {
+     "t": "2026-10-23T18:30:00+00:00",
+     "o": 29184.0,
+     "h": 29197.75,
+     "l": 29147.0,
+     "c": 29162.5,
+     "v": 8222.0
+    },
+    {
+     "t": "2026-10-23T18:45:00+00:00",
+     "o": 29161.75,
+     "h": 29167.5,
+     "l": 29134.0,
+     "c": 29151.0,
+     "v": 9023.0
+    },
+    {
+     "t": "2026-10-23T19:00:00+00:00",
+     "o": 29152.75,
+     "h": 29163.75,
+     "l": 29131.75,
+     "c": 29146.5,
+     "v": 7454.0
+    },
+    {
+     "t": "2026-10-23T19:15:00+00:00",
+     "o": 29147.5,
+     "h": 29160.0,
+     "l": 29126.0,
+     "c": 29141.75,
+     "v": 7692.0
+    },
+    {
+     "t": "2026-10-23T19:30:00+00:00",
+     "o": 29141.25,
+     "h": 29150.0,
+     "l": 29120.0,
+     "c": 29129.0,
+     "v": 8735.0
+    },
+    {
+     "t": "2026-10-23T19:45:00+00:00",
+     "o": 29130.0,
+     "h": 29143.0,
+     "l": 29101.5,
+     "c": 29117.5,
+     "v": 10012.0
     }
    ]
   }
@@ -3068,22 +3338,31 @@
  "news": {
   "headlines": [
    {
-    "id": "74864ddb2f",
-    "title": "The Federal Reserve's Latest October Inflation Forecast Has Arrived, and It's Terrible News for Wall Street - Yahoo Finance",
-    "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOa2s3NEZYYmJtU2hVQ3RiQVZNaGRsSDVyS2NDSmN3anhMQk1CaWRaZmUydGlFZllIamQzVWRWdkRPbkFVM3RZWEl2d01xUGJEQVRUMmVIUHFNOGRLYWdHcWx4cHFMQ052ZVh4cmFZUG1HalcxcDU5Z1Ffa0haVUNabXZpbjcydm03VlExb04wNDVBdWRmWU5iRzVPOHFSSldNcUJhX3hCRk5NZw?oc=5",
+    "id": "957030b51a",
+    "title": "The Federal Reserve's Latest October Inflation Forecast Has Arrived, and It's Terrible News for Wall Street - The Motley Fool",
+    "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxOZlFWWHJZVmpuZkFFV2QwZW4zN1I3MXFzdDNfZjMxdUdSdkpPejZSQldLM2NHN2pINFhsYTFkNWJrNnB0emZLNzZUd1l1b1Q1REdtRHBTR2N1VlVpVzR1ZnlhVlRxRl8xQjdtWURlcG5RdjB2c2xuTVVURDJVV1NGZXg2bXNuVGwtMEpDR3BkalNZMmRpZjZVY3RlX1RXOTlhZEJUemRyeml2d0Zldm1HUTlVdG5tU0xDbUxUQkhzQUhYNFdlZ3lWOWF3?oc=5",
     "source": "gnews_fed",
-    "published_utc": "2026-10-23T08:26:02+00:00",
-    "score": 9.75,
+    "published_utc": "2026-10-23T09:06:00+00:00",
+    "score": 9.17,
     "duplicates": 1
    },
    {
-    "id": "346bfef5e8",
-    "title": "Gold set for second weekly loss as oil-fuelled inflation concerns bolster Fed hike outlook - Reuters",
-    "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOWE1LcUgzRWRwVDZmX3FEaWszVHF0cFQ1ekt6M1pyQ0lfc05PQm9DekdZcXprdm1vQk00SlNEZjEwQllCd1VwMUJySnIxcF9ZblFaRHFsV3BzSU52SlJSSi1TeWxoTmdYc1h6UHhPQTFQYU41ZEdQTFRNY3l0N1Q2bnRDV2x1MjlveGtxTk1oQWlGd3ExcUZEd2QzdF9TUkVKcXotUlIycUgtb1RrZjJ3?oc=5",
+    "id": "ff8b4c6a2d",
+    "title": "Can Nvidia’s stock become a safe haven as Wall Street rethinks the AI trade?",
+    "link": "https://www.marketwatch.com/story/can-nvidias-stock-become-a-safe-haven-as-wall-street-rethinks-the-ai-trade-64862936?mod=mw_rss_topstories",
+    "source": "marketwatch_top",
+    "published_utc": "2026-10-23T18:19:00+00:00",
+    "score": 7.21,
+    "duplicates": 0
+   },
+   {
+    "id": "57925c7c6f",
+    "title": "Former Fed Insider Warns Recession May Already Be Underway - iShares 7-10 Year Treasury Bond ETF (NASDAQ - Benzinga",
+    "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPYldRczJRSEJ6Tm9tc0U4aG5PdGtaQ1FJWjBIM011ODhFMTc2VEFpYTdkTEJGcHpiaXg4Z1FJcFlkV2V6eDBNbTNYbTVsRHlWMmZxT3JPMDlsQm5TeUd3eGZMSFVPbThWbncydTF5dmJ5T19ybjdrN1ZxUXF2S1Z1cmk1Y245Tm9zS2lEZWhlVVR3OEV2VEFkTDVIbXRuTDlUUm1lc2FVVm9rUDNkQzl1emxOOGh1N3ZtMW03eQ?oc=5",
     "source": "gnews_fed",
-    "published_utc": "2026-10-23T04:14:00+00:00",
-    "score": 8.05,
-    "duplicates": 1
+    "published_utc": "2026-10-23T04:55:07+00:00",
+    "score": 7.0,
+    "duplicates": 0
    },
    {
     "id": "66618e7868",
@@ -3091,7 +3370,7 @@
     "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQaUpILXJxSjEwUFB0dGFRNWNmd0hHZEFzSXlYT3dPODh2M01CTkwxaDczSmdkMS1NS0F2RU1kU1l2a1VURW1fVG1MaW4tcnFJSE1KSVUwR3g5MmRSTk44TUxabDZlaVRGclk2ZXZjdzIyQWZxUXJHM0lOY2xVRm5DbWx4N3luX2xtaUw2enBDSGFLcHVmVHVfeFRPYmJrYU5hLXFqVlZB?oc=5",
     "source": "gnews_futures",
     "published_utc": "2026-10-23T10:29:54+00:00",
-    "score": 7.59,
+    "score": 6.9,
     "duplicates": 0
    },
    {
@@ -3100,7 +3379,7 @@
     "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTFB5dTJndjhMczdoSGExYWdFRVFyZDFqc1B6NnVXcnhONG1Eb1VISWEtbWF1WnZnaWdiTnVKaDY4Qm5rSnRySGlreHdVN2NoYlU1c1RQS1A1czhwOGU0ZGdEM19FemtoZGIwWlBQMFln?oc=5",
     "source": "gnews_macro",
     "published_utc": "2026-10-23T15:42:23+00:00",
-    "score": 7.46,
+    "score": 6.77,
     "duplicates": 0
    },
    {
@@ -3109,43 +3388,34 @@
     "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPZ0VLcjUyVmtISG5uUVBpbjNndFBQV1ZqV3RqY0xwZjhvVFlfZ3dFdjYtNV9CNHdVek4wMUtYQnFLc0xEcnpZTWZRLWw3cm01cG9YaU4zcjdLeVFKZEE2MlNwWXJHaWY4M0IxS25iSjlCbUdmYmZBdVFrY0lFZmQ2RUtYc2NGV21FcjNWQU4wMA?oc=5",
     "source": "gnews_futures",
     "published_utc": "2026-10-23T12:35:00+00:00",
-    "score": 7.44,
+    "score": 6.75,
     "duplicates": 1
    },
    {
-    "id": "57925c7c6f",
-    "title": "Former Fed Insider Warns Recession May Already Be Underway - iShares 7-10 Year Treasury Bond ETF (NASDAQ - Benzinga",
-    "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPYldRczJRSEJ6Tm9tc0U4aG5PdGtaQ1FJWjBIM011ODhFMTc2VEFpYTdkTEJGcHpiaXg4Z1FJcFlkV2V6eDBNbTNYbTVsRHlWMmZxT3JPMDlsQm5TeUd3eGZMSFVPbThWbncydTF5dmJ5T19ybjdrN1ZxUXF2S1Z1cmk1Y245Tm9zS2lEZWhlVVR3OEV2VEFkTDVIbXRuTDlUUm1lc2FVVm9rUDNkQzl1emxOOGh1N3ZtMW03eQ?oc=5",
-    "source": "gnews_fed",
-    "published_utc": "2026-10-23T04:55:07+00:00",
-    "score": 7.16,
-    "duplicates": 0
-   },
-   {
-    "id": "404ed4b7f2",
-    "title": "US stock futures slide after tech sell-off as oil climbs to 5-month highs - LinkedIn",
-    "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNZks2RHRYUXRFdi1sZEcxR29WTHBNLUdtSF9QWVRIaEppdnRQSHpMdnQ0V1dDSk5LUHQwNjkxU3BQd09FaHlYZFc2QWNXRS12VVFxd3RRZjdmVDdqNjl1YzY4c0VDajlCd3BsOEZBYWRYSkZBT295QTczX2kxdHltVkU5NGZBRURtQWVwZktzUXJadzdpYW9sZUY5NFE4a0JrbWM3OTVRN29Hb3BfRkdhVGoxM1lUUE5NdWVBZllibTA?oc=5",
-    "source": "gnews_futures",
-    "published_utc": "2026-10-23T10:46:03+00:00",
-    "score": 7.14,
-    "duplicates": 1
-   },
-   {
-    "id": "d50c5cbfd1",
-    "title": "The Week Ahead: US rate decision, PCE inflation, Microsoft earnings - CMC Markets",
-    "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOQjJmaEN2dEswQk9IckNvR0lQQUxwSUtxc0JqLVdkeWxhSE1NNURjanlUX2VvUzhQbVJxRzJZN0g4ZkpvMEplek9qN3hlcWhjMGNCaWFVckpZUzlySG5OZ0FQa0RoOWZVd0MwSmxDdFdfXzJZRThLUlFNTUpvUXVybXRaNmZtV0t4cU1meGtwSFdFZlZWN19sbTF5eVpVbHkwZnB6US1WekhuZkJIT0hTR1ZmeHJDdw?oc=5",
+    "id": "66dc9ddda1",
+    "title": "Halloween candy prices up 15% this year, report says; inflation, tariffs blamed for rising costs - MyStateline",
+    "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxObVdDcExBYmVZUEFCWGVrSVhWU2ZpNDJKZFNnRkxINm5RY3A0MDc3NWFYS2FRTEwyWGp1VjZieHIyYndwUnB6c1pfa2NQOGdFT1V2ODdUb1ZsSVhjdDVBRW5ma1F2MVpkUm1PSTllLUZQeEt5WEQzcHptbDRrRkZ3Q0V1N2wzWkJZWHc2QU9ibmxWRTY4YURJaFlVekZlNUlFUW1OSkYtOWgwNXhFMUl1SGtGczNhSHdPTm1kT2kxaUVJNzVz0gHKAUFVX3lxTE9aSkVQZmxxMHd5MWczRGVXMWVRVWhLdFh5d1hRUFVMQkItbU4waHlfeGFJNWVaMTQzR3lpckMzTWRhUFJYaGtvNzZIVUdibmVhdVZBR3pLUHgwUzdhME93a1FxQ1F3SnJId2x5emlFQzR2c1ZsdFZnZkpFUV96TlhOdEdBMjYtM0Nhcmc5NDhvQy1JaU85LS1fblZ3TzUyUHJzYnlYR2RESHI3WVBEYkdNLWRsM29zSGxXWHpHUkdkR0ZsT05Gd1FkNWc?oc=5",
     "source": "gnews_macro",
-    "published_utc": "2026-10-23T12:59:23+00:00",
-    "score": 7.01,
+    "published_utc": "2026-10-23T17:58:43+00:00",
+    "score": 6.65,
     "duplicates": 0
    },
    {
-    "id": "a5e56527b1",
-    "title": "Broadcom Stock Fell 4% as Chip Stocks Slid Days After a 10-Year VMware Deal. Here’s What Wall Street’s Targets Say - Yahoo Finance",
-    "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOQlZib09tUlBIb3VBX3YxWlZZZjNOMEoxSWVoMFltOFJKRWZDbGhBc1E4b2JxNFRKT3NuRWg1X29RWjlBd3AxcjNuRU1WWU8zVk9iRVpoWjJ2WnhUUnlwY0RJbTZ2RkV6NmpOYnNDTXp3dHpQVTUyNFhUVXFJV0NJektXQm1oN2o3QW9PNi1tbTFnWFg5eUE?oc=5",
-    "source": "gnews_megacap",
-    "published_utc": "2026-10-23T01:29:00+00:00",
-    "score": 7.0,
+    "id": "d8cebedd7a",
+    "title": "Bond Market Tests The Inflation Narrative As Yields Tumble - Seeking Alpha",
+    "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPUDdwX0Jibms4bjdkQkRQOFVTRGZNX2F1WmVmbUhTQ2sxM21iNEZ5dXl4MmFybThOU3lJVG0yYk13SE8wMkRnZ01palM4ZVE4ZVpBMjBWZTNGM0REZmh1TDdXOEpOVUMyS3ZtOGNsQ2FmNWlMVExQcXpNZ1RDWXpRU0NnWVY2QWRXYUkzWWJPTkNqUWJ6TGdSeVV5TQ?oc=5",
+    "source": "gnews_macro",
+    "published_utc": "2026-10-23T16:05:00+00:00",
+    "score": 6.33,
+    "duplicates": 1
+   },
+   {
+    "id": "0b829f5494",
+    "title": "Russian central bank keeps key rate on hold at 14%, raises 2026 inflation forecast - Reuters",
+    "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPQ1lYMHE1UVNEa0dXTWVkQjZ0OUJIOVNQRm5laTJuRlZpakY2R012ekNrRmZ6LTdNYmNqLVBCOFBJekpQWXFrejA0Y0xjZ2UwVjR1d2QtZ1NxYi1GUFBFa3NSNy12anA5WE84amszX2t4Z1JoZXRndDVBcS1NTDluU2NuODd1b25GSWNpNjNSdFc3cF9sQlp2RUx1VTI3U3piNkstRGdZN0ZHTkwxLVhaNFRTM0szQjdKT2lN?oc=5",
+    "source": "gnews_macro",
+    "published_utc": "2026-10-23T15:52:09+00:00",
+    "score": 6.3,
     "duplicates": 0
    },
    {
@@ -3154,35 +3424,35 @@
     "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQNDBOQ1dkbktOWXVmaFVma2Q0VHY3NmswODNqTUtCYVUycjdTR2pxVnNKRVFfRTE4LVBtakJtNVRZUVMtUjU1WWlCTmg4dFdrQmpqWWJKQ3NOcjBuclhNZVJaX1ppYkk0RFVvdDFjTi02V3Q3MzdHZVE2YzdWZG1xeXhxdC1SSGtuTkpYdmNrcmI3dw?oc=5",
     "source": "gnews_futures",
     "published_utc": "2026-10-23T12:12:28+00:00",
-    "score": 6.88,
+    "score": 6.19,
     "duplicates": 0
    },
    {
-    "id": "2a6e8ab643",
-    "title": "S&P futures slip amid AI-driven tech jitters, oil price spike - Investing.com India",
-    "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOWHY0amkwSzJQZ2RISWlHbXpRRzRWbkdiUHdXTko3LThld1BCMHRJZy1fempFNTZqMFlyRWZYZjhzaEF5RkdpUjM5blc5U3NpbXZYOWhZMnBRQmdMWUljTVZ6UHZVMTJkbUY3a0cxOG9GQ3ZwcEVfYnNvdzRDaDY0c3diWTVQdnY3eE5rSXBaYXA4ekVEdzdSWmFGR1plN19xZV94T2FoVVpZaTJoSEpEczVLNnR2SElBeTRN?oc=5",
+    "id": "6bf57a25ad",
+    "title": "US stock futures slide after tech sell-off as oil climbs to 5-month highs - markets.businessinsider.com",
+    "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPSzQ1QUoza0tWVmQ1akVMci1kQXNIZHpBcFZTRDdmZ0dBM0FXQUZRdXBsdUhrWHQ2aFg4SXdwY2NZa2t3WTZFN1g0aThOcTItTk1vaGUxdHVoNHlSVXFZWEtxVFkzaVhvX0p3S2pDZ2dOSUtVTmoyUU5NV1paTWkwWENwZEk1U3BocURoYU9nVEdKWDEzbkhTdUV0MUN2SllGS29WbHJCdW1YR3lkdmNtMUpfRQ?oc=5",
     "source": "gnews_futures",
-    "published_utc": "2026-10-23T10:12:35+00:00",
-    "score": 6.54,
-    "duplicates": 1
+    "published_utc": "2026-10-23T10:42:00+00:00",
+    "score": 5.94,
+    "duplicates": 0
    },
    {
-    "id": "4ff6ebcdb6",
-    "title": "The Fed Can Pause, But Inflation Won’t - The Daily Economy",
-    "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE9ibDMwcWoyUzg1bTQ2bmFubkJtMXlON0h6ZjNlSTgzSzE0OEZpYkd4cXlvbmxEakp5T2hTNldwcmY5RWVJQW45QnJ3VDRpNjVQNU5kMkRLcEM0WmhraUZucmdmM3VvVnI3UFJzOUpOang0cnNzWGcyT0YzQU9UUQ?oc=5",
+    "id": "2ce4cc1e24",
+    "title": "Kalshi Takes on Wall Street’s $7.6 Trillion Inflation Futures Curse - Finance Magnates",
+    "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxONThaajh3VlljMkxObFRlZDBQSHhVMnpEOFhjLTBzZGlQZFZYVjdoX1Vna0JrdVJjQk1RZ014NFhsbFA2a25TZ1VpMUhPOXZqcm9GSUtkX1JGdFNyRHM3M0h6TTlCZGpJRER6Y0FSd28zQ21Xak1VNF9pSGphaGhjUG1FdlNWcmc1OXBkRzBfLWo0RkprZEdUcWttMGp4d3dEQWpxaHAtZ3FRTkU4NmdGUkxTTHIxOGtx?oc=5",
     "source": "gnews_macro",
-    "published_utc": "2026-10-23T10:06:00+00:00",
-    "score": 6.53,
+    "published_utc": "2026-10-23T16:25:06+00:00",
+    "score": 5.89,
     "duplicates": 0
    }
   ],
   "summary": {
    "lines": [
-    "The Federal Reserve's Latest October Inflation Forecast Has Arrived, and It's Terrible News for Wall Street - Yahoo Finance [74864ddb2f]",
-    "Gold set for second weekly loss as oil-fuelled inflation concerns bolster Fed hike outlook - Reuters [346bfef5e8]",
+    "The Federal Reserve's Latest October Inflation Forecast Has Arrived, and It's Terrible News for Wall Street - The Motley Fool [957030b51a]",
+    "Can Nvidia’s stock become a safe haven as Wall Street rethinks the AI trade? [ff8b4c6a2d]",
+    "Former Fed Insider Warns Recession May Already Be Underway - iShares 7-10 Year Treasury Bond ETF (NASDAQ - Benzinga [57925c7c6f]",
     "Nasdaq Futures Muted as AI Rout Eases; U.S. PMI Data in Focus - Barchart.com [66618e7868]",
-    "Fed Tightens Rates As Inflation Persists, Rochester Fuel Costs Climb To Regional Highs - KROC-AM [92e51ce839]",
-    "Nasdaq Futures Steady as AI Selloff Pauses - WSJ [1fb9240396]"
+    "Fed Tightens Rates As Inflation Persists, Rochester Fuel Costs Climb To Regional Highs - KROC-AM [92e51ce839]"
    ],
    "backend": "none",
    "model": null,
