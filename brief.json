@@ -1,7 +1,7 @@
 {
  "meta": {
-  "generated_at_utc": "2026-10-23T11:56:44.023253+00:00",
-  "generated_at_local": "Fri 23 Oct 2026 08:56 ADT",
+  "generated_at_utc": "2026-10-23T12:12:00.375758+00:00",
+  "generated_at_local": "Fri 23 Oct 2026 09:12 ADT",
   "trading_day": "2026-10-23",
   "display_tz": "America/Halifax",
   "version": "0.1.0",
@@ -91,7 +91,7 @@
    "time_utc": "2026-10-23T13:45:00+00:00",
    "local": "10:45 ADT",
    "et": "09:45 ET",
-   "in": "1h 48m",
+   "in": "1h 32m",
    "consensus": "55.4",
    "prior": "57.0"
   },
@@ -102,10 +102,10 @@
   {
    "root": "ES",
    "trading_day": "2026-10-23",
-   "as_of_utc": "2026-10-23T11:56:44.023253+00:00",
+   "as_of_utc": "2026-10-23T12:12:00.375758+00:00",
    "source": "yahoo",
    "delayed": true,
-   "last_price": 7685.5,
+   "last_price": 7683.25,
    "levels": [
     {
      "tag": "wh",
@@ -147,7 +147,7 @@
      "label": "Overnight high",
      "price": 7714.25,
      "group": "overnight",
-     "note": "since 18:00 ET, 809 bars"
+     "note": "since 18:00 ET, 824 bars"
     },
     {
      "tag": "vah",
@@ -173,7 +173,7 @@
     {
      "tag": "onvwap",
      "label": "Overnight VWAP",
-     "price": 7697.66,
+     "price": 7697.44,
      "group": "overnight",
      "note": "typical-price VWAP"
     },
@@ -235,14 +235,14 @@
     }
    ],
    "stats": {
-    "last_bar_utc": "2026-10-23T11:46:00+00:00",
-    "last_bar_age_min": 10.7,
+    "last_bar_utc": "2026-10-23T12:01:00+00:00",
+    "last_bar_age_min": 11.0,
     "market_state": "open",
     "profile_volume": 1737098.0,
     "prior_day": "2026-10-22",
     "prior_day_rth_range": 65.75,
     "overnight_range": 36.25,
-    "gap_vs_prior_close": -21.0,
+    "gap_vs_prior_close": -23.25,
     "gap_basis": "last price (pre-market)",
     "atr14": 82.27,
     "atr_days": 14,
@@ -1430,20 +1430,28 @@
     {
      "t": "2026-10-23T11:45:00+00:00",
      "o": 7687.0,
-     "h": 7688.0,
-     "l": 7685.25,
-     "c": 7685.5,
-     "v": 334.0
+     "h": 7690.0,
+     "l": 7684.25,
+     "c": 7687.75,
+     "v": 5315.0
+    },
+    {
+     "t": "2026-10-23T12:00:00+00:00",
+     "o": 7687.5,
+     "h": 7687.75,
+     "l": 7682.25,
+     "c": 7683.25,
+     "v": 666.0
     }
    ]
   },
   {
    "root": "NQ",
    "trading_day": "2026-10-23",
-   "as_of_utc": "2026-10-23T11:56:44.023253+00:00",
+   "as_of_utc": "2026-10-23T12:12:00.375758+00:00",
    "source": "yahoo",
    "delayed": true,
-   "last_price": 29121.75,
+   "last_price": 29110.75,
    "levels": [
     {
      "tag": "wh",
@@ -1499,7 +1507,7 @@
      "label": "Overnight high",
      "price": 29276.75,
      "group": "overnight",
-     "note": "since 18:00 ET, 809 bars"
+     "note": "since 18:00 ET, 824 bars"
     },
     {
      "tag": "rn_major_up",
@@ -1511,7 +1519,7 @@
     {
      "tag": "onvwap",
      "label": "Overnight VWAP",
-     "price": 29151.83,
+     "price": 29151.28,
      "group": "overnight",
      "note": "typical-price VWAP"
     },
@@ -1573,14 +1581,14 @@
     }
    ],
    "stats": {
-    "last_bar_utc": "2026-10-23T11:46:00+00:00",
-    "last_bar_age_min": 10.7,
+    "last_bar_utc": "2026-10-23T12:01:00+00:00",
+    "last_bar_age_min": 11.0,
     "market_state": "open",
     "profile_volume": 600311.0,
     "prior_day": "2026-10-22",
     "prior_day_rth_range": 561.75,
     "overnight_range": 254.0,
-    "gap_vs_prior_close": -24.75,
+    "gap_vs_prior_close": -35.75,
     "gap_basis": "last price (pre-market)",
     "atr14": 562.21,
     "atr_days": 14,
@@ -2768,10 +2776,18 @@
     {
      "t": "2026-10-23T11:45:00+00:00",
      "o": 29128.0,
-     "h": 29137.75,
-     "l": 29117.5,
-     "c": 29121.75,
-     "v": 285.0
+     "h": 29145.0,
+     "l": 29115.0,
+     "c": 29135.75,
+     "v": 3264.0
+    },
+    {
+     "t": "2026-10-23T12:00:00+00:00",
+     "o": 29135.0,
+     "h": 29135.25,
+     "l": 29099.25,
+     "c": 29110.75,
+     "v": 925.0
     }
    ]
   }
@@ -2784,8 +2800,17 @@
     "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxOZlFWWHJZVmpuZkFFV2QwZW4zN1I3MXFzdDNfZjMxdUdSdkpPejZSQldLM2NHN2pINFhsYTFkNWJrNnB0emZLNzZUd1l1b1Q1REdtRHBTR2N1VlVpVzR1ZnlhVlRxRl8xQjdtWURlcG5RdjB2c2xuTVVURDJVV1NGZXg2bXNuVGwtMEpDR3BkalNZMmRpZjZVY3RlX1RXOTlhZEJUemRyeml2d0Zldm1HUTlVdG5tU0xDbUxUQkhzQUhYNFdlZ3lWOWF3?oc=5",
     "source": "gnews_fed",
     "published_utc": "2026-10-23T09:06:00+00:00",
-    "score": 11.03,
+    "score": 10.98,
     "duplicates": 2
+   },
+   {
+    "id": "6971549b9f",
+    "title": "Nasdaq Futures Sink 1.6% as Meta and Tesla Fail to Halt Tech Selloff; Brent Crude Tops $111 on Iran Strike Fears - BigGo Finance",
+    "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5iT3BWOHBJYV9DcjhZNVhzaVk5SUlFZ1VLdmdxY3lKdHBmaFlDV2liRDJ5S1B4SnEwcW9YVkMwUHNxR3ZDcmVpUjZFNWxpU29YODh0c25rTzU4bXBVMjZHSnhRTzBveklybW5oZ3VnMkRsYzRJT1E?oc=5",
+    "source": "gnews_futures",
+    "published_utc": "2026-10-22T18:16:00+00:00",
+    "score": 9.0,
+    "duplicates": 0
    },
    {
     "id": "1f2bf5ef1b",
@@ -2802,7 +2827,7 @@
     "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQaUpILXJxSjEwUFB0dGFRNWNmd0hHZEFzSXlYT3dPODh2M01CTkwxaDczSmdkMS1NS0F2RU1kU1l2a1VURW1fVG1MaW4tcnFJSE1KSVUwR3g5MmRSTk44TUxabDZlaVRGclk2ZXZjdzIyQWZxUXJHM0lOY2xVRm5DbWx4N3luX2xtaUw2enBDSGFLcHVmVHVfeFRPYmJrYU5hLXFqVlZB?oc=5",
     "source": "gnews_futures",
     "published_utc": "2026-10-23T10:29:54+00:00",
-    "score": 8.26,
+    "score": 8.22,
     "duplicates": 0
    },
    {
@@ -2811,7 +2836,7 @@
     "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQdUV4SU1NY0ZxNWd2Mm96d2h3VWR4UndwWGlmVUUxeG9NdEtvWWdCcC1tMXhJWDIzWHFlWUpvbS1pVzhEOHBBLVk2WHJXb2x5WXY5WW9qSjJESU8xemUxZ0xlRXp3azd1U2RNVll1QWpDWDhfQk9oakp2X0F4SFpJWXhWWi1zQ3JYdTU3eWQ3OVlFbTJIQlUtX1ZDYm8?oc=5",
     "source": "gnews_megacap",
     "published_utc": "2026-10-23T10:05:57+00:00",
-    "score": 8.19,
+    "score": 8.15,
     "duplicates": 0
    },
    {
@@ -2820,7 +2845,7 @@
     "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPYldRczJRSEJ6Tm9tc0U4aG5PdGtaQ1FJWjBIM011ODhFMTc2VEFpYTdkTEJGcHpiaXg4Z1FJcFlkV2V6eDBNbTNYbTVsRHlWMmZxT3JPMDlsQm5TeUd3eGZMSFVPbThWbncydTF5dmJ5T19ybjdrN1ZxUXF2S1Z1cmk1Y245Tm9zS2lEZWhlVVR3OEV2VEFkTDVIbXRuTDlUUm1lc2FVVm9rUDNkQzl1emxOOGh1N3ZtMW03eQ?oc=5",
     "source": "gnews_fed",
     "published_utc": "2026-10-23T04:55:07+00:00",
-    "score": 7.83,
+    "score": 7.79,
     "duplicates": 0
    },
    {
@@ -2829,7 +2854,7 @@
     "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNZks2RHRYUXRFdi1sZEcxR29WTHBNLUdtSF9QWVRIaEppdnRQSHpMdnQ0V1dDSk5LUHQwNjkxU3BQd09FaHlYZFc2QWNXRS12VVFxd3RRZjdmVDdqNjl1YzY4c0VDajlCd3BsOEZBYWRYSkZBT295QTczX2kxdHltVkU5NGZBRURtQWVwZktzUXJadzdpYW9sZUY5NFE4a0JrbWM3OTVRN29Hb3BfRkdhVGoxM1lUUE5NdWVBZllibTA?oc=5",
     "source": "gnews_futures",
     "published_utc": "2026-10-23T10:46:03+00:00",
-    "score": 7.8,
+    "score": 7.76,
     "duplicates": 1
    },
    {
@@ -2838,7 +2863,7 @@
     "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOQlZib09tUlBIb3VBX3YxWlZZZjNOMEoxSWVoMFltOFJKRWZDbGhBc1E4b2JxNFRKT3NuRWg1X29RWjlBd3AxcjNuRU1WWU8zVk9iRVpoWjJ2WnhUUnlwY0RJbTZ2RkV6NmpOYnNDTXp3dHpQVTUyNFhUVXFJV0NJektXQm1oN2o3QW9PNi1tbTFnWFg5eUE?oc=5",
     "source": "gnews_megacap",
     "published_utc": "2026-10-23T01:29:00+00:00",
-    "score": 7.26,
+    "score": 7.21,
     "duplicates": 0
    },
    {
@@ -2847,7 +2872,7 @@
     "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE9ibDMwcWoyUzg1bTQ2bmFubkJtMXlON0h6ZjNlSTgzSzE0OEZpYkd4cXlvbmxEakp5T2hTNldwcmY5RWVJQW45QnJ3VDRpNjVQNU5kMkRLcEM0WmhraUZucmdmM3VvVnI3UFJzOUpOang0cnNzWGcyT0YzQU9UUQ?oc=5",
     "source": "gnews_macro",
     "published_utc": "2026-10-23T10:06:00+00:00",
-    "score": 7.19,
+    "score": 7.15,
     "duplicates": 0
    },
    {
@@ -2856,7 +2881,7 @@
     "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE9fUFhkR0R0cmxYeWNRb2Y2LXEyNUlGQnozcWxNUW1jaWRDcUdpYnBTWVZGR3p4OWwydEdicWRMMEozdXpxUl9td1V6SVVZM2JOT25hOWU3TUFLU1h4aHk0VC1VcjQ2bkhyMGJSVzduZ9IBdEFVX3lxTE1KUjZzM3JxQnUxN2Y0LVlocU52STl2ZUIwSlNOMFNnY3hyUlJ5TGJpZjJlc3VRaS1LdDh1ZlNvSDNCYWlmdnpIMHk4ZWFTT1E3UmplVjAwRm5MNnM5V2FsSWVpZ0Z3aWVhMjNVeWhrX1lRWWtk?oc=5",
     "source": "gnews_fed",
     "published_utc": "2026-10-23T09:11:42+00:00",
-    "score": 7.04,
+    "score": 7.0,
     "duplicates": 1
    },
    {
@@ -2865,7 +2890,7 @@
     "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPZ0VLcjUyVmtISG5uUVBpbjNndFBQV1ZqV3RqY0xwZjhvVFlfZ3dFdjYtNV9CNHdVek4wMUtYQnFLc0xEcnpZTWZRLWw3cm01cG9YaU4zcjdLeVFKZEE2MlNwWXJHaWY4M0IxS25iSjlCbUdmYmZBdVFrY0lFZmQ2RUtYc2NGV21FcjNWQU4wMA?oc=5",
     "source": "gnews_futures",
     "published_utc": "2026-10-23T08:44:00+00:00",
-    "score": 6.96,
+    "score": 6.92,
     "duplicates": 0
    },
    {
@@ -2874,26 +2899,17 @@
     "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOS0x2VHNBWkt6RWNETndlR0p1eDd4UnhlZFFFbWpaYWdocUl2MnRCQm16RFpYbHQ3dF9jOEtLMENKOHUySjNmaW03YkhFRmR3WXRnbWtIaGZwbVVQNHJMMC11aklCdlBNcjMySDZsOU16WVBaZl8zR2ttZkgxMXVVWldnY25RRjJzbks3WFJwZWpnUE9maFdseVAwcmlmRHFJYUxCTEJ4RmN5QdIBrwFBVV95cUxNUEhSek0wcnlJbXhsZ0NkYmVoNEJmSUF5NEdCRElnZUVtNEcyY1hJSUloNEVtV3RRcDNXazdBUzc5a0V5OS1JXzFZMkROWVU2VHE3dUZmUExCMzdiRkNXZ0ZTY3pwUEJXR2RGaWY2QXVJOEtxV3lCWmV6OGdkZEE2NmJxcGZpSUYzZUhFNnRCVkotekVpY3BrWEVudnJkckF6dmVVZl9qNUtwN193MVV3?oc=5",
     "source": "gnews_macro",
     "published_utc": "2026-10-23T04:29:38+00:00",
-    "score": 6.76,
+    "score": 6.72,
     "duplicates": 2
-   },
-   {
-    "id": "c0cd4ec688",
-    "title": "Nasdaq, Dow, S&P 500 Futures Drop Premarket: NVDA, AMD, META, CRWV, MRNA, WDC, BE In Focus - Yahoo Finance",
-    "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxON0pWLThkWllqVTRvcVRMY1NVeUN0UVNxa08tNkRhbzQxTUFlaTZON1BOYkh4bDEtaHB4X2d6dHk3VS1sVDhYMEhhZ0IyMVpjTXJjWVJ3WE9ZTDdWWG9paC1zdHZpbFpFNVZNTk9aYXhQRnRtWVlXRE0tZ2hOaDFmc2RIQUV5aTRBbEJaaDNsWUNxUXc?oc=5",
-    "source": "gnews_futures",
-    "published_utc": "2026-10-23T10:13:48+00:00",
-    "score": 6.71,
-    "duplicates": 0
    }
   ],
   "summary": {
    "lines": [
     "The Federal Reserve's Latest October Inflation Forecast Has Arrived, and It's Terrible News for Wall Street - The Motley Fool [957030b51a]",
+    "Nasdaq Futures Sink 1.6% as Meta and Tesla Fail to Halt Tech Selloff; Brent Crude Tops $111 on Iran Strike Fears - BigGo Finance [6971549b9f]",
     "A lesson from poker tells us not to fold on Meta after its earnings sell-off. Here’s why [1f2bf5ef1b]",
     "Nasdaq Futures Muted as AI Rout Eases; U.S. PMI Data in Focus - Barchart.com [66618e7868]",
-    "Earnings flood, Fed meeting pose pivotal tests for rickety AI market rally - Yahoo Finance [6efe786ffb]",
-    "Former Fed Insider Warns Recession May Already Be Underway - iShares 7-10 Year Treasury Bond ETF (NASDAQ - Benzinga [57925c7c6f]"
+    "Earnings flood, Fed meeting pose pivotal tests for rickety AI market rally - Yahoo Finance [6efe786ffb]"
    ],
    "backend": "none",
    "model": null,
