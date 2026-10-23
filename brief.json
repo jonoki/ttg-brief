@@ -1,7 +1,7 @@
 {
  "meta": {
-  "generated_at_utc": "2026-10-23T15:11:09.820780+00:00",
-  "generated_at_local": "Fri 23 Oct 2026 12:11 ADT",
+  "generated_at_utc": "2026-10-23T15:26:26.484426+00:00",
+  "generated_at_local": "Fri 23 Oct 2026 12:26 ADT",
   "trading_day": "2026-10-23",
   "display_tz": "America/Halifax",
   "version": "0.1.0",
@@ -93,10 +93,10 @@
   {
    "root": "ES",
    "trading_day": "2026-10-23",
-   "as_of_utc": "2026-10-23T15:11:09.820780+00:00",
+   "as_of_utc": "2026-10-23T15:26:26.484426+00:00",
    "source": "yahoo",
    "delayed": true,
-   "last_price": 7690.0,
+   "last_price": 7689.75,
    "levels": [
     {
      "tag": "wh",
@@ -247,8 +247,8 @@
     }
    ],
    "stats": {
-    "last_bar_utc": "2026-10-23T15:01:00+00:00",
-    "last_bar_age_min": 10.2,
+    "last_bar_utc": "2026-10-23T15:16:00+00:00",
+    "last_bar_age_min": 10.4,
     "market_state": "open",
     "profile_volume": 1737098.0,
     "prior_day": "2026-10-22",
@@ -1547,19 +1547,27 @@
      "t": "2026-10-23T15:00:00+00:00",
      "o": 7691.25,
      "h": 7691.75,
-     "l": 7687.5,
-     "c": 7690.0,
-     "v": 4148.0
+     "l": 7679.75,
+     "c": 7684.5,
+     "v": 63439.0
+    },
+    {
+     "t": "2026-10-23T15:15:00+00:00",
+     "o": 7684.75,
+     "h": 7692.25,
+     "l": 7684.5,
+     "c": 7689.75,
+     "v": 4469.0
     }
    ]
   },
   {
    "root": "NQ",
    "trading_day": "2026-10-23",
-   "as_of_utc": "2026-10-23T15:11:09.820780+00:00",
+   "as_of_utc": "2026-10-23T15:26:26.484426+00:00",
    "source": "yahoo",
    "delayed": true,
-   "last_price": 29280.5,
+   "last_price": 29257.0,
    "levels": [
     {
      "tag": "wh",
@@ -1710,8 +1718,8 @@
     }
    ],
    "stats": {
-    "last_bar_utc": "2026-10-23T15:01:00+00:00",
-    "last_bar_age_min": 10.2,
+    "last_bar_utc": "2026-10-23T15:16:00+00:00",
+    "last_bar_age_min": 10.4,
     "market_state": "open",
     "profile_volume": 600311.0,
     "prior_day": "2026-10-22",
@@ -3010,9 +3018,17 @@
      "t": "2026-10-23T15:00:00+00:00",
      "o": 29292.75,
      "h": 29296.25,
-     "l": 29270.5,
-     "c": 29280.5,
-     "v": 1911.0
+     "l": 29222.0,
+     "c": 29230.5,
+     "v": 23087.0
+    },
+    {
+     "t": "2026-10-23T15:15:00+00:00",
+     "o": 29232.0,
+     "h": 29270.75,
+     "l": 29230.25,
+     "c": 29257.0,
+     "v": 1784.0
     }
    ]
   }
@@ -3025,7 +3041,7 @@
     "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOa2s3NEZYYmJtU2hVQ3RiQVZNaGRsSDVyS2NDSmN3anhMQk1CaWRaZmUydGlFZllIamQzVWRWdkRPbkFVM3RZWEl2d01xUGJEQVRUMmVIUHFNOGRLYWdHcWx4cHFMQ052ZVh4cmFZUG1HalcxcDU5Z1Ffa0haVUNabXZpbjcydm03VlExb04wNDVBdWRmWU5iRzVPOHFSSldNcUJhX3hCRk5NZw?oc=5",
     "source": "gnews_fed",
     "published_utc": "2026-10-23T08:26:02+00:00",
-    "score": 9.87,
+    "score": 9.83,
     "duplicates": 1
    },
    {
@@ -3034,7 +3050,7 @@
     "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOWE1LcUgzRWRwVDZmX3FEaWszVHF0cFQ1ekt6M1pyQ0lfc05PQm9DekdZcXprdm1vQk00SlNEZjEwQllCd1VwMUJySnIxcF9ZblFaRHFsV3BzSU52SlJSSi1TeWxoTmdYc1h6UHhPQTFQYU41ZEdQTFRNY3l0N1Q2bnRDV2x1MjlveGtxTk1oQWlGd3ExcUZEd2QzdF9TUkVKcXotUlIycUgtb1RrZjJ3?oc=5",
     "source": "gnews_fed",
     "published_utc": "2026-10-23T04:14:00+00:00",
-    "score": 8.17,
+    "score": 8.13,
     "duplicates": 1
    },
    {
@@ -3043,7 +3059,7 @@
     "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQaUpILXJxSjEwUFB0dGFRNWNmd0hHZEFzSXlYT3dPODh2M01CTkwxaDczSmdkMS1NS0F2RU1kU1l2a1VURW1fVG1MaW4tcnFJSE1KSVUwR3g5MmRSTk44TUxabDZlaVRGclk2ZXZjdzIyQWZxUXJHM0lOY2xVRm5DbWx4N3luX2xtaUw2enBDSGFLcHVmVHVfeFRPYmJrYU5hLXFqVlZB?oc=5",
     "source": "gnews_futures",
     "published_utc": "2026-10-23T10:29:54+00:00",
-    "score": 7.72,
+    "score": 7.68,
     "duplicates": 0
    },
    {
@@ -3052,7 +3068,7 @@
     "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPZ0VLcjUyVmtISG5uUVBpbjNndFBQV1ZqV3RqY0xwZjhvVFlfZ3dFdjYtNV9CNHdVek4wMUtYQnFLc0xEcnpZTWZRLWw3cm01cG9YaU4zcjdLeVFKZEE2MlNwWXJHaWY4M0IxS25iSjlCbUdmYmZBdVFrY0lFZmQ2RUtYc2NGV21FcjNWQU4wMA?oc=5",
     "source": "gnews_futures",
     "published_utc": "2026-10-23T12:35:00+00:00",
-    "score": 7.57,
+    "score": 7.52,
     "duplicates": 1
    },
    {
@@ -3061,7 +3077,7 @@
     "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPYldRczJRSEJ6Tm9tc0U4aG5PdGtaQ1FJWjBIM011ODhFMTc2VEFpYTdkTEJGcHpiaXg4Z1FJcFlkV2V6eDBNbTNYbTVsRHlWMmZxT3JPMDlsQm5TeUd3eGZMSFVPbThWbncydTF5dmJ5T19ybjdrN1ZxUXF2S1Z1cmk1Y245Tm9zS2lEZWhlVVR3OEV2VEFkTDVIbXRuTDlUUm1lc2FVVm9rUDNkQzl1emxOOGh1N3ZtMW03eQ?oc=5",
     "source": "gnews_fed",
     "published_utc": "2026-10-23T04:55:07+00:00",
-    "score": 7.29,
+    "score": 7.25,
     "duplicates": 0
    },
    {
@@ -3070,7 +3086,7 @@
     "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNZks2RHRYUXRFdi1sZEcxR29WTHBNLUdtSF9QWVRIaEppdnRQSHpMdnQ0V1dDSk5LUHQwNjkxU3BQd09FaHlYZFc2QWNXRS12VVFxd3RRZjdmVDdqNjl1YzY4c0VDajlCd3BsOEZBYWRYSkZBT295QTczX2kxdHltVkU5NGZBRURtQWVwZktzUXJadzdpYW9sZUY5NFE4a0JrbWM3OTVRN29Hb3BfRkdhVGoxM1lUUE5NdWVBZllibTA?oc=5",
     "source": "gnews_futures",
     "published_utc": "2026-10-23T10:46:03+00:00",
-    "score": 7.26,
+    "score": 7.22,
     "duplicates": 1
    },
    {
@@ -3079,16 +3095,7 @@
     "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOQjJmaEN2dEswQk9IckNvR0lQQUxwSUtxc0JqLVdkeWxhSE1NNURjanlUX2VvUzhQbVJxRzJZN0g4ZkpvMEplek9qN3hlcWhjMGNCaWFVckpZUzlySG5OZ0FQa0RoOWZVd0MwSmxDdFdfXzJZRThLUlFNTUpvUXVybXRaNmZtV0t4cU1meGtwSFdFZlZWN19sbTF5eVpVbHkwZnB6US1WekhuZkJIT0hTR1ZmeHJDdw?oc=5",
     "source": "gnews_macro",
     "published_utc": "2026-10-23T12:59:23+00:00",
-    "score": 7.13,
-    "duplicates": 0
-   },
-   {
-    "id": "4171cf5474",
-    "title": "US Stock Market Today: S&P 500 Futures Steady On Strong Jobs And PMI Focus - Yahoo Finance",
-    "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQNDBOQ1dkbktOWXVmaFVma2Q0VHY3NmswODNqTUtCYVUycjdTR2pxVnNKRVFfRTE4LVBtakJtNVRZUVMtUjU1WWlCTmg4dFdrQmpqWWJKQ3NOcjBuclhNZVJaX1ppYkk0RFVvdDFjTi02V3Q3MzdHZVE2YzdWZG1xeXhxdC1SSGtuTkpYdmNrcmI3dw?oc=5",
-    "source": "gnews_futures",
-    "published_utc": "2026-10-23T12:12:28+00:00",
-    "score": 7.0,
+    "score": 7.09,
     "duplicates": 0
    },
    {
@@ -3101,12 +3108,21 @@
     "duplicates": 0
    },
    {
+    "id": "4171cf5474",
+    "title": "US Stock Market Today: S&P 500 Futures Steady On Strong Jobs And PMI Focus - Yahoo Finance",
+    "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQNDBOQ1dkbktOWXVmaFVma2Q0VHY3NmswODNqTUtCYVUycjdTR2pxVnNKRVFfRTE4LVBtakJtNVRZUVMtUjU1WWlCTmg4dFdrQmpqWWJKQ3NOcjBuclhNZVJaX1ppYkk0RFVvdDFjTi02V3Q3MzdHZVE2YzdWZG1xeXhxdC1SSGtuTkpYdmNrcmI3dw?oc=5",
+    "source": "gnews_futures",
+    "published_utc": "2026-10-23T12:12:28+00:00",
+    "score": 6.96,
+    "duplicates": 0
+   },
+   {
     "id": "8d5bf4b838",
     "title": "If this happens, we can reach the 'vicinity' of the Fed's 2% inflation target - Yahoo Finance",
     "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOTGpDX2VIWlNydGtacm9kXzFuUVA4OG1mM1A2dVQweGdnM1I2SlgwU29qaWNrSTdEQ2tPRk5LRzFXZmdudm5VMV9CX0xueDJoUTViQnA5VTNlbHBaSkJ3a0c1TG1OYkJCTVZpbkNoNzB3VGFzWGhaV0NjcnN6THlXUmZR?oc=5",
     "source": "gnews_macro",
     "published_utc": "2026-10-23T12:00:00+00:00",
-    "score": 6.97,
+    "score": 6.93,
     "duplicates": 0
    },
    {
@@ -3115,7 +3131,7 @@
     "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOWHY0amkwSzJQZ2RISWlHbXpRRzRWbkdiUHdXTko3LThld1BCMHRJZy1fempFNTZqMFlyRWZYZjhzaEF5RkdpUjM5blc5U3NpbXZYOWhZMnBRQmdMWUljTVZ6UHZVMTJkbUY3a0cxOG9GQ3ZwcEVfYnNvdzRDaDY0c3diWTVQdnY3eE5rSXBaYXA4ekVEdzdSWmFGR1plN19xZV94T2FoVVpZaTJoSEpEczVLNnR2SElBeTRN?oc=5",
     "source": "gnews_futures",
     "published_utc": "2026-10-23T10:12:35+00:00",
-    "score": 6.67,
+    "score": 6.63,
     "duplicates": 1
    },
    {
@@ -3124,7 +3140,7 @@
     "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE9ibDMwcWoyUzg1bTQ2bmFubkJtMXlON0h6ZjNlSTgzSzE0OEZpYkd4cXlvbmxEakp5T2hTNldwcmY5RWVJQW45QnJ3VDRpNjVQNU5kMkRLcEM0WmhraUZucmdmM3VvVnI3UFJzOUpOang0cnNzWGcyT0YzQU9UUQ?oc=5",
     "source": "gnews_macro",
     "published_utc": "2026-10-23T10:06:00+00:00",
-    "score": 6.65,
+    "score": 6.61,
     "duplicates": 0
    }
   ],
