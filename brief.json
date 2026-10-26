@@ -1,7 +1,7 @@
 {
  "meta": {
-  "generated_at_utc": "2026-10-26T15:30:22.594773+00:00",
-  "generated_at_local": "Mon 26 Oct 2026 12:30 ADT",
+  "generated_at_utc": "2026-10-26T15:45:39.899011+00:00",
+  "generated_at_local": "Mon 26 Oct 2026 12:45 ADT",
   "trading_day": "2026-10-26",
   "display_tz": "America/Halifax",
   "version": "0.1.0",
@@ -73,7 +73,7 @@
    "time_utc": "2026-10-26T17:00:00+00:00",
    "local": "14:00 ADT",
    "et": "13:00 ET",
-   "in": "1h 29m",
+   "in": "1h 14m",
    "consensus": null,
    "prior": null
   },
@@ -84,10 +84,10 @@
   {
    "root": "ES",
    "trading_day": "2026-10-26",
-   "as_of_utc": "2026-10-26T15:30:22.594773+00:00",
+   "as_of_utc": "2026-10-26T15:45:39.899011+00:00",
    "source": "yahoo",
    "delayed": true,
-   "last_price": 7734.25,
+   "last_price": 7727.75,
    "levels": [
     {
      "tag": "pwh",
@@ -252,8 +252,8 @@
     }
    ],
    "stats": {
-    "last_bar_utc": "2026-10-26T15:20:00+00:00",
-    "last_bar_age_min": 10.4,
+    "last_bar_utc": "2026-10-26T15:35:00+00:00",
+    "last_bar_age_min": 10.7,
     "market_state": "open",
     "profile_volume": 1334050.0,
     "prior_day": "2026-10-23",
@@ -1567,20 +1567,28 @@
     {
      "t": "2026-10-26T15:15:00+00:00",
      "o": 7733.5,
-     "h": 7735.25,
-     "l": 7730.5,
-     "c": 7734.25,
-     "v": 13032.0
+     "h": 7736.75,
+     "l": 7729.5,
+     "c": 7730.5,
+     "v": 37898.0
+    },
+    {
+     "t": "2026-10-26T15:30:00+00:00",
+     "o": 7730.25,
+     "h": 7730.75,
+     "l": 7726.75,
+     "c": 7727.75,
+     "v": 13724.0
     }
    ]
   },
   {
    "root": "NQ",
    "trading_day": "2026-10-26",
-   "as_of_utc": "2026-10-26T15:30:22.594773+00:00",
+   "as_of_utc": "2026-10-26T15:45:39.899011+00:00",
    "source": "yahoo",
    "delayed": true,
-   "last_price": 29540.0,
+   "last_price": 29531.25,
    "levels": [
     {
      "tag": "pwh",
@@ -1738,8 +1746,8 @@
     }
    ],
    "stats": {
-    "last_bar_utc": "2026-10-26T15:20:00+00:00",
-    "last_bar_age_min": 10.4,
+    "last_bar_utc": "2026-10-26T15:35:00+00:00",
+    "last_bar_age_min": 10.7,
     "market_state": "open",
     "profile_volume": 452986.0,
     "prior_day": "2026-10-23",
@@ -3045,10 +3053,18 @@
     {
      "t": "2026-10-26T15:15:00+00:00",
      "o": 29530.5,
-     "h": 29546.5,
+     "h": 29568.5,
      "l": 29506.75,
-     "c": 29540.0,
-     "v": 4878.0
+     "c": 29545.0,
+     "v": 14095.0
+    },
+    {
+     "t": "2026-10-26T15:30:00+00:00",
+     "o": 29544.75,
+     "h": 29550.0,
+     "l": 29523.5,
+     "c": 29531.25,
+     "v": 5505.0
     }
    ]
   }
@@ -3061,7 +3077,7 @@
     "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxQY0szVVZqR190bXJjZUlXYXB3UGRQd2tuM2xFUHBsTlREdDRvSUdleHJzWkJqVUpEVEtLZnREVDVBdEdlS05qNlZ0d3NZN2hnOHpNR1ktQl9EdUlURzA2a0tHcDRNR0JORjQya1c0dmV3LW5LMEVVS3lyRk9BTE5kMmRsdlJTQ2xSU004UDdleDJkQ0pYWFV3MWh0ekdHRUZQRmsxTXlWV3NXMXJxMnNlVVdibUUyaExyV2ZuSk5RaVFYWjRnOXhSc2NjM0JlTknSAdQBQVVfeXFMT2FaakhsVV80QnpiUmJaR3FLc3BDcjE2M01qOEp4TXdBZVpHbXJBa2FaQjI3T0ozRXk1S0lJQklPU2NLT29sS0RZWnI5SXpqc2JDeVA5WVZVNlc0X01Oc0QtSWEteTczM2ZlYW9IYmlUQXh0Q09yallodU5MdXJobHA1dFpFTWU2OEduaW9LbWZBcUJ4ZEJ5Yk5ib2NUWG5wTjNOUGhLdms1R3BLR0NmaWRRaEpmSGhSOTMzOXMwbGs2anFGX3dNV3NnNjZReU5HQ2RrUG0?oc=5",
     "source": "gnews_futures",
     "published_utc": "2026-10-26T12:48:19+00:00",
-    "score": 11.05,
+    "score": 11.01,
     "duplicates": 2
    },
    {
@@ -3079,7 +3095,7 @@
     "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE5aZnI4OWd3UVp5UTRLSjVUcUxkdmdLek9ZUkRPNzRzamw1UE5mRGdiWjRYVVI0NkExUHpmcTUzS0hJbnFjMTN6WlB2bmNaR0dVYThXZXAzYlptQUJ0b3dvbkRn?oc=5",
     "source": "gnews_futures",
     "published_utc": "2026-10-26T11:37:21+00:00",
-    "score": 9.35,
+    "score": 9.31,
     "duplicates": 0
    },
    {
@@ -3088,7 +3104,7 @@
     "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNLWdBVGtDU3FCOURzT1VvVGs1dTRMeG9KZDVJRUxHUDFJNVM5VWNocjN0cnR0SVJnaURJa29QTlM0SlZzWHFvcmNaZjNDa3Y2VVZoLW5jRXc4QW9UaXpQY2pWS1F5eV85a0xMWk1ydmhRcmZuSmYzczFXbjR3LXB0NFpWU0l2dW9BUEJiZG5NZ2FvaDVsZnZUV3Fzd3NiZC10N3JtU0tPMjE4RE9UTUN6cjkwMlRjVUxlbDRoVy1xemNzUQ?oc=5",
     "source": "gnews_futures",
     "published_utc": "2026-10-26T10:29:45+00:00",
-    "score": 9.16,
+    "score": 9.12,
     "duplicates": 0
    },
    {
@@ -3097,7 +3113,7 @@
     "link": "https://news.google.com/rss/articles/CBMiigJBVV95cUxQanN1aS0zUTFSTTM3RVFNWDBpb0JIRVRUNTFyaHBidU1mUkxNUDlqY2JURFlJSE1MbEJ5ZDZzRUVsQ25kb2t0U3BLWjFyNmxpRDRlTnpyZnZfa1JFQUZ2SjhkVVdKd3dRSUp2QTEwNjlFZFdkU2NjMmNDM2lqd2ZnR2Q3UDhwOFg1Tk1fOFU2Vkh5M0ZIS0xJNEZiX0FDSzZqYV8zVWs3WkZsV2ZBM0c5U3ZvQng0alNocGJmUFU1Q1JpSGRGNFIxLUJCRWRaNzBQSTVXR0J5eC1adUw5V2duQkdsTlJ5M2hQQm14a2dWclBURlFfSHVwR09QMkJtNVZDQ2huRHdVS2dnUQ?oc=5",
     "source": "gnews_macro",
     "published_utc": "2026-10-26T13:02:56+00:00",
-    "score": 9.09,
+    "score": 9.05,
     "duplicates": 0
    },
    {
@@ -3106,7 +3122,7 @@
     "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOWjRNaTdzZnZMZ0ZNV3VkNnpRZTVKV0lpVDJmXzh5bUt2UTZLalNHVzFJdy1fdkF6TVo4ak0wZEUzV3JZTFI5SE9rOUpTcWhBaHFWa0JqOWpmdDZBZnBSLXlXVDluY0dQOTltV2lVUUVReEFtdllsNUtzNXkyQTV4azJmYWlwUmJmWnY2YmV3RlZJbUxqMVBJ?oc=5",
     "source": "gnews_futures",
     "published_utc": "2026-10-26T11:42:10+00:00",
-    "score": 8.87,
+    "score": 8.82,
     "duplicates": 1
    },
    {
@@ -3115,7 +3131,7 @@
     "link": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxNTTNOanNvNFJmSjhVUmw2ajJxRXF2SDhfMHhhdUtXYkE1UEYxejM2MTVZUWd3dFFhZXRJdmVDY1NJUG45dldzSWNzT0UyTjJTMmtSSXdBLXVoOUo4WGxDQTRwSzFTaWdMMVFFcmdwdXNXY1B3Q3Z1V0ZfTVN1T1l1VmhVRGp5blhXLUhuellhWkNfMmNycmViQzhJSEhfRTRBVjYzWGJIQllGdlgybXpKREJqZ0hDWUZ1MXdoME5ITUVkb1hPTDE4T0htLTdPeC1UZzNaSlQzU3B6dw?oc=5",
     "source": "gnews_macro",
     "published_utc": "2026-10-26T13:47:51+00:00",
-    "score": 8.72,
+    "score": 8.67,
     "duplicates": 1
    },
    {
@@ -3124,7 +3140,7 @@
     "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOOHFmZGFLNEJMVlYxdFBjdHJteDQyMnhrR2JNTGtDcnVtSE9NOGpuT2FKdVZ5OTBLb2N4cDl1cFBvaHRFMTI5Q1JpLUhlSlhPN3JzM2tKNDJmQVNTRm5XMkJmNzNvblpaVWgySVljc2RwQTBwczJNc3d0NFpFN1ZQZV9MRFFFOThvOFIzNlFRNUQwdEZ5TTlkOE9aTlY?oc=5",
     "source": "gnews_macro",
     "published_utc": "2026-10-26T10:25:18+00:00",
-    "score": 8.65,
+    "score": 8.61,
     "duplicates": 0
    },
    {
@@ -3133,7 +3149,7 @@
     "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNaTR4cGxWcm92cG9jSmt5Wm1MdWhBQmp0ZkpLVUV4WGlabUlqWDF4VXRWUER2TEZUT055OVdtWFNWbzhSWklZdXFYcEtNMjV0X0JkLVlsSGVQeC0yZGxYMktMR1Z1WmxGaFNfMmtzTGNrUnFlbUxwSW5QZy1KNy1mZ25oZUo?oc=5",
     "source": "gnews_futures",
     "published_utc": "2026-10-26T13:18:12+00:00",
-    "score": 8.63,
+    "score": 8.59,
     "duplicates": 0
    },
    {
@@ -3142,7 +3158,7 @@
     "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPQnpLLW5IZGhkM1JidmtsQVYyT0dlUm9SZl9nWXBScFRJQl84RVBEY2lnb1ZScnpUcmRJSFV5SFh2WUNsUENjNTRROWxUQ1ZxN2FMelY5ZG44WDh2MmxuWmEyMjByMmFMak5OQTY2c3Nmdkl3NkppVTdpNXhjRUpoWGV5a1RYSkVIQlpxUHVVNy1XbDJ2eW9TZmdqMmxMWi04WmRHZG9XaURMcXhWajlicV9tUnZwQUlFc2tLZmZ5eEhmSF9sNC0wVG9VUEJaMkcx?oc=5",
     "source": "gnews_futures",
     "published_utc": "2026-10-26T12:38:56+00:00",
-    "score": 8.52,
+    "score": 8.48,
     "duplicates": 0
    },
    {
@@ -3151,16 +3167,16 @@
     "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNcm5VZGZoSnR4djlIc1ctVWJpQ21LcE80OFk4VmRnWDNNUkRwTlpQQnR2Q2gxRk1yYVlWOGFuNUJlSTVsT09oV2pTS1ZHX0JlUHRtbzFPRHV6SEg3YUpweGlyX0dNRWVvOFVGdW5FSndrczQtZHRSTFRIVnZuTURCMmZfVV95N0U3QW91aUs5QzQzNnBFeWpEQjBhMFp1dzRqeW5NSDdNcjE0SXFCdGcyOE5NdUc?oc=5",
     "source": "gnews_futures",
     "published_utc": "2026-10-26T13:14:42+00:00",
-    "score": 8.12,
+    "score": 8.08,
     "duplicates": 0
    },
    {
-    "id": "be740383bf",
-    "title": "Stock market today: Dow, S&P 500, Nasdaq futures rise ahead of busy week of earnings, Fed rate decision - AOL.com",
-    "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTFBQSnF6OTNpOUs1UWRvd1ZPV3NBNWdQM09xS0htVWxHOGlhNGdDQWgwWDVXY0w5Y3BOQjdNcGUzZFhRcng3SkNGVzIzblpKVXlqSzhlZ3dGZ2R0Y1JnRGNoYnJJblRkZGNvWDBzX1JRMnhHZGMtY3NV?oc=5",
-    "source": "gnews_futures",
-    "published_utc": "2026-10-26T10:11:53+00:00",
-    "score": 8.12,
+    "id": "f31bf791ca",
+    "title": "Treasury Yields Dip As Wall Street Waits On AI Earnings - Finimize",
+    "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNbDJsbE1vWlBTb1pIMHRpRlctWFFweGpfTFNkc3BMZjVOVGJMdElKS1pPNzlzVFRlZ0xXOVo2ckE4ZU9LMThWOHNuMXFMQS1fejVnSEREdXlCLUxlM1FodXJNVWV2dHpUcDh1UnVoZWJMcm1VZ1ZLNHE1emRrNmFaN1JYdXB4czF5U1lMUw?oc=5",
+    "source": "gnews_macro",
+    "published_utc": "2026-10-26T15:02:39+00:00",
+    "score": 7.88,
     "duplicates": 0
    }
   ],
