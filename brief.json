@@ -1,7 +1,7 @@
 {
  "meta": {
-  "generated_at_utc": "2026-10-26T10:40:19.466398+00:00",
-  "generated_at_local": "Mon 26 Oct 2026 07:40 ADT",
+  "generated_at_utc": "2026-10-26T10:55:35.644963+00:00",
+  "generated_at_local": "Mon 26 Oct 2026 07:55 ADT",
   "trading_day": "2026-10-26",
   "display_tz": "America/Halifax",
   "version": "0.1.0",
@@ -73,7 +73,7 @@
    "time_utc": "2026-10-26T17:00:00+00:00",
    "local": "14:00 ADT",
    "et": "13:00 ET",
-   "in": "6h 19m",
+   "in": "6h 04m",
    "consensus": null,
    "prior": null
   },
@@ -84,10 +84,10 @@
   {
    "root": "ES",
    "trading_day": "2026-10-26",
-   "as_of_utc": "2026-10-26T10:40:19.466398+00:00",
+   "as_of_utc": "2026-10-26T10:55:35.644963+00:00",
    "source": "yahoo",
    "delayed": true,
-   "last_price": 7671.5,
+   "last_price": 7668.75,
    "levels": [
     {
      "tag": "pwh",
@@ -122,7 +122,7 @@
      "label": "Overnight high",
      "price": 7697.75,
      "group": "overnight",
-     "note": "since 18:00 ET, 740 bars"
+     "note": "since 18:00 ET, 755 bars"
     },
     {
      "tag": "wh",
@@ -155,7 +155,7 @@
     {
      "tag": "onvwap",
      "label": "Overnight VWAP",
-     "price": 7673.59,
+     "price": 7673.57,
      "group": "overnight",
      "note": "typical-price VWAP"
     },
@@ -231,14 +231,14 @@
     }
    ],
    "stats": {
-    "last_bar_utc": "2026-10-26T10:30:00+00:00",
-    "last_bar_age_min": 10.3,
+    "last_bar_utc": "2026-10-26T10:45:00+00:00",
+    "last_bar_age_min": 10.6,
     "market_state": "open",
     "profile_volume": 1334050.0,
     "prior_day": "2026-10-23",
     "prior_day_rth_range": 48.75,
     "overnight_range": 46.0,
-    "gap_vs_prior_close": 10.5,
+    "gap_vs_prior_close": 7.75,
     "gap_basis": "last price (pre-market)",
     "atr14": 80.73,
     "atr_days": 14,
@@ -1394,9 +1394,17 @@
     {
      "t": "2026-10-26T10:30:00+00:00",
      "o": 7671.75,
-     "h": 7672.5,
-     "l": 7670.5,
-     "c": 7671.5,
+     "h": 7675.25,
+     "l": 7669.25,
+     "c": 7670.5,
+     "v": 3963.0
+    },
+    {
+     "t": "2026-10-26T10:45:00+00:00",
+     "o": 7670.25,
+     "h": 7670.75,
+     "l": 7668.5,
+     "c": 7668.75,
      "v": 0.0
     }
    ]
@@ -1404,10 +1412,10 @@
   {
    "root": "NQ",
    "trading_day": "2026-10-26",
-   "as_of_utc": "2026-10-26T10:40:19.466398+00:00",
+   "as_of_utc": "2026-10-26T10:55:35.644963+00:00",
    "source": "yahoo",
    "delayed": true,
-   "last_price": 29130.5,
+   "last_price": 29115.5,
    "levels": [
     {
      "tag": "pwh",
@@ -1428,7 +1436,7 @@
      "label": "Overnight high",
      "price": 29345.0,
      "group": "overnight",
-     "note": "since 18:00 ET, 740 bars"
+     "note": "since 18:00 ET, 755 bars"
     },
     {
      "tag": "wh",
@@ -1475,7 +1483,7 @@
     {
      "tag": "onvwap",
      "label": "Overnight VWAP",
-     "price": 29147.92,
+     "price": 29147.85,
      "group": "overnight",
      "note": "typical-price VWAP"
     },
@@ -1544,14 +1552,14 @@
     }
    ],
    "stats": {
-    "last_bar_utc": "2026-10-26T10:30:00+00:00",
-    "last_bar_age_min": 10.3,
+    "last_bar_utc": "2026-10-26T10:45:00+00:00",
+    "last_bar_age_min": 10.6,
     "market_state": "open",
     "profile_volume": 452986.0,
     "prior_day": "2026-10-23",
     "prior_day_rth_range": 339.0,
     "overnight_range": 320.75,
-    "gap_vs_prior_close": 8.0,
+    "gap_vs_prior_close": -7.0,
     "gap_basis": "last price (pre-market)",
     "atr14": 556.89,
     "atr_days": 14,
@@ -2699,9 +2707,17 @@
     {
      "t": "2026-10-26T10:30:00+00:00",
      "o": 29134.25,
-     "h": 29141.75,
-     "l": 29128.5,
-     "c": 29130.5,
+     "h": 29163.75,
+     "l": 29121.5,
+     "c": 29126.75,
+     "v": 2384.0
+    },
+    {
+     "t": "2026-10-26T10:45:00+00:00",
+     "o": 29127.25,
+     "h": 29130.25,
+     "l": 29114.0,
+     "c": 29115.5,
      "v": 0.0
     }
    ]
@@ -2715,7 +2731,7 @@
     "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNLWdBVGtDU3FCOURzT1VvVGs1dTRMeG9KZDVJRUxHUDFJNVM5VWNocjN0cnR0SVJnaURJa29QTlM0SlZzWHFvcmNaZjNDa3Y2VVZoLW5jRXc4QW9UaXpQY2pWS1F5eV85a0xMWk1ydmhRcmZuSmYzczFXbjR3LXB0NFpWU0l2dW9BUEJiZG5NZ2FvaDVsZnZUV3Fzd3NiZC10N3JtU0tPMjE4RE9UTUN6cjkwMlRjVUxlbDRoVy1xemNzUQ?oc=5",
     "source": "gnews_futures",
     "published_utc": "2026-10-26T10:29:45+00:00",
-    "score": 9.97,
+    "score": 9.93,
     "duplicates": 0
    },
    {
@@ -2724,7 +2740,7 @@
     "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOOHFmZGFLNEJMVlYxdFBjdHJteDQyMnhrR2JNTGtDcnVtSE9NOGpuT2FKdVZ5OTBLb2N4cDl1cFBvaHRFMTI5Q1JpLUhlSlhPN3JzM2tKNDJmQVNTRm5XMkJmNzNvblpaVWgySVljc2RwQTBwczJNc3d0NFpFN1ZQZV9MRFFFOThvOFIzNlFRNUQwdEZ5TTlkOE9aTlY?oc=5",
     "source": "gnews_macro",
     "published_utc": "2026-10-26T10:25:18+00:00",
-    "score": 9.46,
+    "score": 9.42,
     "duplicates": 0
    },
    {
@@ -2733,8 +2749,17 @@
     "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPOHVaWTd2WndoRzE5MUZqRVRWTmg1Q0RZelZ2ZnJsNnhSTTJ0eGtNVlJWeXpEODhuQTBJWGtUbTdKUXdsYUZncWl2ZGJremxoT3FUVFNhejNSczVOTXVKalJ1aTNzeEVGN2dEb1E3ZFc2WXg4SGV5NnVXUTQwWnpPNEdleWxaRGpJSVItcm9hdlI1R3cySEl1ZGdhbHZiaG5hMFVYTVVJQnp5M0otZ2FjTGYyQ2VwdHltNlNtRmw0ZWdZTGprMkt3TmJNMjI?oc=5",
     "source": "gnews_futures",
     "published_utc": "2026-10-26T06:57:04+00:00",
-    "score": 9.38,
+    "score": 9.34,
     "duplicates": 2
+   },
+   {
+    "id": "ed558fd6b5",
+    "title": "Why the Fed may hold off on another rate hike despite high inflation - USA Today",
+    "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPRmpIemZMampsNnRvQ2l0MzhWa3huOWk5SGNOSkdMZTN2Sk9lY01fN1NNdW5aS1ZSUG9ZTXRtdHU1MjRlTnlOT1JiQUp5c2NaS2NsUFM0Tm9Jem9yLTdqVThEVTVxUk5CWEtaZTduZTVCMEluakJxblNvcG1iMngxVVBrTGlDMHNGUndoR2R1NkRnemEwcEhVU3RwWGhTTUxpNk9yNUNkSms0T2l6dVpYZHFubGdwZllZbkdhZjNtbkFqSFNOWlNv?oc=5",
+    "source": "gnews_fed",
+    "published_utc": "2026-10-26T10:41:30+00:00",
+    "score": 7.96,
+    "duplicates": 1
    },
    {
     "id": "78d830482a",
@@ -2742,15 +2767,15 @@
     "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOMVFOb3dKdXlMNEotWDY3dGx0SVRvRy1Na2hpcF9xOTVSekwzRl9yTFdwUkdxMjdMNFp1RTlSQTRLM01OU1pZeXBRLUhPQWZQR29sYVEwOTQ2aFAwaWlIY1dvVUdVeWpwRGhXMGFRY290QmdFU1c5M0FrYy1JTzkteE1MNkV4XzllY19pWkNlSHBobG8xRmp1OGQ3TnRjRXhFY3VjX1I2ZTA?oc=5",
     "source": "gnews_fed",
     "published_utc": "2026-10-26T07:34:37+00:00",
-    "score": 7.98,
+    "score": 7.94,
     "duplicates": 0
    },
    {
-    "id": "ed558fd6b5",
-    "title": "Why the Fed may hold off on another rate hike despite high inflation - USA Today",
-    "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPRmpIemZMampsNnRvQ2l0MzhWa3huOWk5SGNOSkdMZTN2Sk9lY01fN1NNdW5aS1ZSUG9ZTXRtdHU1MjRlTnlOT1JiQUp5c2NaS2NsUFM0Tm9Jem9yLTdqVThEVTVxUk5CWEtaZTduZTVCMEluakJxblNvcG1iMngxVVBrTGlDMHNGUndoR2R1NkRnemEwcEhVU3RwWGhTTUxpNk9yNUNkSms0T2l6dVpYZHFubGdwZllZbkdhZjNtbkFqSFNOWlNv?oc=5",
+    "id": "570141731d",
+    "title": "Fed expected to hold rates steady ahead of US midterm elections as inflation remains elevated - Firstpost",
+    "link": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxNbUxFakZPM3hZZ1ZFVEExQ216dEN2aXN0TU1DOFdaZTVBX3VmeVFNQ1RTUkJzbHRrcjJ6X3NwZVFyX1hhYlRlRmdZN1FqMkRuQTVWTERkREthSjlYamdaajFMeUpSMHhpQkNKbERSYjNNZ2dzWG9qMU1CTW1EUUlCUHF2Y2NEcVVvMUYzWUhEMWNUUGRGZ0F5VlNBQ3pKVF9TYlhKSEQ4MEpFbFNrUGlCNU5vdXZfelVrdEV3ZkJ6c3M0a0NGQV9EMUNLVGU5S2ZFQlktWTBtNndBd9IB3wFBVV95cUxNZ2VTWXYteEt1NXRHRU9UTVNUYjZnSl9FTlp4eUJtM1BlZ1dJMlJiRzd5NWl5cF9Tb2Z2S3ZERm5MMzF6UEQyckstWW1BRjJRcV85N2JFcWtfcGxxSWRGbTJzSFpnc01UYWdURmZTaXFpS0REMUprMlNfRXV2bjFvTXprei1XVkdLbWpTTUJaYTFKSVVHTHdUaHBwelljdEd4TVFYRDBocG02b0dpMU1pWUFoMWJXeG9qcG9nLS1Bd1N4ZEMtV3VjbVlXaXVPQm5tdTFPcUlCNmtfckt3N05N?oc=5",
     "source": "gnews_fed",
-    "published_utc": "2026-10-26T10:03:00+00:00",
+    "published_utc": "2026-10-26T10:17:57+00:00",
     "score": 7.9,
     "duplicates": 1
    },
@@ -2760,7 +2785,7 @@
     "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQN2pnX1dmMUltOWhEdkVFWlhFc05KTnhNZmV3SEVPZ2RVWWZVTm1tRW1jUlZnZjNJaUQ5cWx5ZVFOM2kzcElsRWtUWnpuVXhINjdzQkZSS001VEJCODJzdmtOZ01GZ21WeDlpWGg1WW50b2tPXzlIRWNwYkdzcC1aOEpPd1hKTjItNnNyeG9ENnNXZDFaZkVEYmVNV1MxUEcwLUJmRkdELUtlRTNxWDBaOW8wY08ybm5JU242YWlR?oc=5",
     "source": "gnews_macro",
     "published_utc": "2026-10-26T06:50:51+00:00",
-    "score": 7.86,
+    "score": 7.82,
     "duplicates": 0
    },
    {
@@ -2769,7 +2794,7 @@
     "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBfWkM5V1A2ZEptSkJHWVVBZGFLUURISF83R3B4U0RDcXgxTlNYYXh3MEFobjIyZEkzcm5ndUhLS3dSZ1U4NjNraDJMVnl1dzNDYW1vM0hNSGhYSE9kNklVQlJaMzRYdmNvdmhYeVd0N3BTSFlzZ1E?oc=5",
     "source": "gnews_fed",
     "published_utc": "2026-10-26T08:39:05+00:00",
-    "score": 7.66,
+    "score": 7.62,
     "duplicates": 1
    },
    {
@@ -2782,30 +2807,12 @@
     "duplicates": 0
    },
    {
-    "id": "570141731d",
-    "title": "Fed expected to hold rates steady ahead of US midterm elections as inflation remains elevated - Firstpost",
-    "link": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxNbUxFakZPM3hZZ1ZFVEExQ216dEN2aXN0TU1DOFdaZTVBX3VmeVFNQ1RTUkJzbHRrcjJ6X3NwZVFyX1hhYlRlRmdZN1FqMkRuQTVWTERkREthSjlYamdaajFMeUpSMHhpQkNKbERSYjNNZ2dzWG9qMU1CTW1EUUlCUHF2Y2NEcVVvMUYzWUhEMWNUUGRGZ0F5VlNBQ3pKVF9TYlhKSEQ4MEpFbFNrUGlCNU5vdXZfelVrdEV3ZkJ6c3M0a0NGQV9EMUNLVGU5S2ZFQlktWTBtNndBd9IB3wFBVV95cUxNZ2VTWXYteEt1NXRHRU9UTVNUYjZnSl9FTlp4eUJtM1BlZ1dJMlJiRzd5NWl5cF9Tb2Z2S3ZERm5MMzF6UEQyckstWW1BRjJRcV85N2JFcWtfcGxxSWRGbTJzSFpnc01UYWdURmZTaXFpS0REMUprMlNfRXV2bjFvTXprei1XVkdLbWpTTUJaYTFKSVVHTHdUaHBwelljdEd4TVFYRDBocG02b0dpMU1pWUFoMWJXeG9qcG9nLS1Bd1N4ZEMtV3VjbVlXaXVPQm5tdTFPcUlCNmtfckt3N05N?oc=5",
-    "source": "gnews_fed",
-    "published_utc": "2026-10-26T10:17:57+00:00",
-    "score": 7.44,
-    "duplicates": 0
-   },
-   {
-    "id": "c21967b986",
-    "title": "Fed, ECB and BoJ to make rate decisions amid inflation risks - Anadolu Ajansı",
-    "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPczY0R1FGUHFnbC12dGRFUEFkWE04ZlhPTEthYXM5QVhXb0pDWndKdzhIMWNXUGZicko0RkhLdU56TmJjaFRIYlpmUHlZd1M0UTRwVWVLLTZYSG9qb2xIdGk2QnFDR2FQcnRKVTZlTVFPSHpCZVlOdDB5TFl5M2Q4ejFtMmJrdWNDOXpaSFAzcmx0YVZxX1ZZRjJURnc?oc=5",
-    "source": "gnews_macro",
-    "published_utc": "2026-10-26T10:13:18+00:00",
-    "score": 7.42,
-    "duplicates": 0
-   },
-   {
     "id": "902279bab9",
     "title": "SPX: S&P 500 Futures Steady as Big Fed Decision Keeps a Lid on Optimism - TradingView",
     "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPMWF1YnNOeUR5ZVNZQ0I4Z01ZekE4ZUFQVXowV3J1TlVXUW01Q2tkZjd4bU9OQWVhdnliMjBEZlBTWVlZQXlLVmVBRDVZcjR5dlcyNlhHbENHUlpMbFl2S1hnbXNJNlVuQ2ZIN2J5TjU4T3ZEUlNPVV9qUUhTdjYtU3FhR0psNVFTTXJHa2NwNnoxaXdkQjlZbk9OUHp5S0wwd1ZQTDNKREV6TTNZOXZ5V1VxN01scEZ5bGN2bmprbkdBVjgySlVRVkg0NVQ?oc=5",
     "source": "gnews_futures",
     "published_utc": "2026-10-26T07:08:33+00:00",
-    "score": 7.41,
+    "score": 7.37,
     "duplicates": 0
    },
    {
@@ -2814,8 +2821,17 @@
     "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPVVlfUU5UYnVIOHVRRHJCaWJNQ0NtM0V5aXdZUE5QSEhGVTAxWmdXcU1KeGVEaEtYTXlEal9YNjMwblR6bGZQcm5HODd6N2xnNUppZzdXMDVTSWwtZEc3a3p3Q0M4VzRtaHo3QTd1VDJpaGNPQmw0WjFNaEMyQ2JyOVpGcmZEbktIdk45OHp4blZxdzc5UllRT2V1cnllVTVVTjVYZm1IZ0VjWDlwTnc?oc=5",
     "source": "gnews_futures",
     "published_utc": "2026-10-26T10:03:44+00:00",
-    "score": 7.4,
+    "score": 7.36,
     "duplicates": 1
+   },
+   {
+    "id": "6d442307ee",
+    "title": "FOMC and Big Tech Earnings Drive U.S. Stock Futures Higher - SBS 뉴스",
+    "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBIQW9GeFFySVhLeFRSclJfZkp6aXZJMm9uUy1MLWZxSkRJa1hYNC0zOGlOM0NsblhsOFNZU21rYlhsaW01N2ZyOEhadVRJdzZURE1QWExXZS1KOC1rNFRlNkJQc2Q0cjZNTElCNlhR0gFmQVVfeXFMT2kxbHgzakx2MHpVOFdNRmZQX2VTVkNPckw0NjE1bmJJSktjeXBwQ2NnV0QtOEJVUWxnZ1ViNUh0V1N2bG5oYW41czdpdGZDd2FDQUI2RXZyeDJlbEdYeEMyd3I4U2pR?oc=5",
+    "source": "gnews_futures",
+    "published_utc": "2026-10-25T22:58:55+00:00",
+    "score": 7.01,
+    "duplicates": 0
    }
   ],
   "summary": {
@@ -2823,8 +2839,8 @@
     "U.S. Stock Futures Gain as Oil Retreats; Big Tech Earnings and Fed Meeting Awaited - Barchart.com [61c5835931]",
     "US Equity Investors to Monitor Mag-7 Earnings, Fed's Monetary Policy Path, Inflation Data This Week Amid Faltering AI Trade - Yahoo Finance [f2c8bbf3f8]",
     "U.S. stock futures muted after bruising tech losses; Fed, earnings on tap - Investing.com [a30636f792]",
-    "A Perfect Storm for Bitcoin? Fed, PCE, GDP and Big Tech Earnings Ahead - CryptoRank [78d830482a]",
-    "Why the Fed may hold off on another rate hike despite high inflation - USA Today [ed558fd6b5]"
+    "Why the Fed may hold off on another rate hike despite high inflation - USA Today [ed558fd6b5]",
+    "A Perfect Storm for Bitcoin? Fed, PCE, GDP and Big Tech Earnings Ahead - CryptoRank [78d830482a]"
    ],
    "backend": "none",
    "model": null,
