@@ -1,11 +1,11 @@
 {
  "meta": {
-  "generated_at_utc": "2026-10-26T12:27:05.245524+00:00",
-  "generated_at_local": "Mon 26 Oct 2026 09:27 ADT",
+  "generated_at_utc": "2026-10-26T12:42:20.264690+00:00",
+  "generated_at_local": "Mon 26 Oct 2026 09:42 ADT",
   "trading_day": "2026-10-26",
   "display_tz": "America/Halifax",
   "version": "0.1.0",
-  "run": "overnight",
+  "run": "post-data",
   "variant": "public"
  },
  "calendar": {
@@ -73,7 +73,7 @@
    "time_utc": "2026-10-26T17:00:00+00:00",
    "local": "14:00 ADT",
    "et": "13:00 ET",
-   "in": "4h 32m",
+   "in": "4h 17m",
    "consensus": null,
    "prior": null
   },
@@ -84,10 +84,10 @@
   {
    "root": "ES",
    "trading_day": "2026-10-26",
-   "as_of_utc": "2026-10-26T12:27:05.245524+00:00",
+   "as_of_utc": "2026-10-26T12:42:20.264690+00:00",
    "source": "yahoo",
    "delayed": true,
-   "last_price": 7690.5,
+   "last_price": 7690.25,
    "levels": [
     {
      "tag": "pwh",
@@ -122,7 +122,7 @@
      "label": "Overnight high",
      "price": 7697.75,
      "group": "overnight",
-     "note": "since 18:00 ET, 847 bars"
+     "note": "since 18:00 ET, 862 bars"
     },
     {
      "tag": "wh",
@@ -146,18 +146,18 @@
      "note": "70 % value area"
     },
     {
+     "tag": "onvwap",
+     "label": "Overnight VWAP",
+     "price": 7675.1,
+     "group": "overnight",
+     "note": "typical-price VWAP"
+    },
+    {
      "tag": "rn_minor_dn",
      "label": "Round 25 below",
      "price": 7675.0,
      "group": "round",
      "note": ""
-    },
-    {
-     "tag": "onvwap",
-     "label": "Overnight VWAP",
-     "price": 7674.4,
-     "group": "overnight",
-     "note": "typical-price VWAP"
     },
     {
      "tag": "poc",
@@ -231,14 +231,14 @@
     }
    ],
    "stats": {
-    "last_bar_utc": "2026-10-26T12:17:00+00:00",
-    "last_bar_age_min": 10.1,
+    "last_bar_utc": "2026-10-26T12:32:00+00:00",
+    "last_bar_age_min": 10.3,
     "market_state": "open",
     "profile_volume": 1334050.0,
     "prior_day": "2026-10-23",
     "prior_day_rth_range": 48.75,
     "overnight_range": 46.0,
-    "gap_vs_prior_close": 29.5,
+    "gap_vs_prior_close": 29.25,
     "gap_basis": "last price (pre-market)",
     "atr14": 80.73,
     "atr_days": 14,
@@ -1450,20 +1450,28 @@
     {
      "t": "2026-10-26T12:15:00+00:00",
      "o": 7692.75,
-     "h": 7693.25,
+     "h": 7695.0,
      "l": 7689.5,
-     "c": 7690.5,
-     "v": 978.0
+     "c": 7692.25,
+     "v": 9458.0
+    },
+    {
+     "t": "2026-10-26T12:30:00+00:00",
+     "o": 7692.25,
+     "h": 7692.75,
+     "l": 7689.0,
+     "c": 7690.25,
+     "v": 1362.0
     }
    ]
   },
   {
    "root": "NQ",
    "trading_day": "2026-10-26",
-   "as_of_utc": "2026-10-26T12:27:05.245524+00:00",
+   "as_of_utc": "2026-10-26T12:42:20.264690+00:00",
    "source": "yahoo",
    "delayed": true,
-   "last_price": 29299.75,
+   "last_price": 29320.5,
    "levels": [
     {
      "tag": "pwh",
@@ -1480,18 +1488,32 @@
      "note": "ATR over 14 days"
     },
     {
+     "tag": "rn_major_up",
+     "label": "Round 100 above",
+     "price": 29400.0,
+     "group": "round",
+     "note": ""
+    },
+    {
      "tag": "onh",
      "label": "Overnight high",
-     "price": 29345.0,
+     "price": 29354.0,
      "group": "overnight",
-     "note": "since 18:00 ET, 847 bars"
+     "note": "since 18:00 ET, 862 bars"
     },
     {
      "tag": "wh",
      "label": "Week high",
-     "price": 29345.0,
+     "price": 29354.0,
      "group": "week",
      "note": "since 2026-10-26"
+    },
+    {
+     "tag": "rn_minor_up",
+     "label": "Round 50 above",
+     "price": 29350.0,
+     "group": "round",
+     "note": ""
     },
     {
      "tag": "pdh",
@@ -1501,8 +1523,8 @@
      "note": "2026-10-23"
     },
     {
-     "tag": "rn_major_up",
-     "label": "Round 100 above",
+     "tag": "rn_major_dn",
+     "label": "Round 100 below",
      "price": 29300.0,
      "group": "round",
      "note": ""
@@ -1515,23 +1537,9 @@
      "note": "70 % value area"
     },
     {
-     "tag": "rn_minor_dn",
-     "label": "Round 50 below",
-     "price": 29250.0,
-     "group": "round",
-     "note": ""
-    },
-    {
-     "tag": "rn_major_dn",
-     "label": "Round 100 below",
-     "price": 29200.0,
-     "group": "round",
-     "note": ""
-    },
-    {
      "tag": "onvwap",
      "label": "Overnight VWAP",
-     "price": 29160.63,
+     "price": 29167.59,
      "group": "overnight",
      "note": "typical-price VWAP"
     },
@@ -1600,14 +1608,14 @@
     }
    ],
    "stats": {
-    "last_bar_utc": "2026-10-26T12:17:00+00:00",
-    "last_bar_age_min": 10.1,
+    "last_bar_utc": "2026-10-26T12:32:00+00:00",
+    "last_bar_age_min": 10.3,
     "market_state": "open",
     "profile_volume": 452986.0,
     "prior_day": "2026-10-23",
     "prior_day_rth_range": 339.0,
-    "overnight_range": 320.75,
-    "gap_vs_prior_close": 177.25,
+    "overnight_range": 329.75,
+    "gap_vs_prior_close": 198.0,
     "gap_basis": "last price (pre-market)",
     "atr14": 556.89,
     "atr_days": 14,
@@ -2811,10 +2819,18 @@
     {
      "t": "2026-10-26T12:15:00+00:00",
      "o": 29319.75,
-     "h": 29323.5,
+     "h": 29354.0,
      "l": 29297.5,
-     "c": 29299.75,
-     "v": 655.0
+     "c": 29329.0,
+     "v": 7001.0
+    },
+    {
+     "t": "2026-10-26T12:30:00+00:00",
+     "o": 29330.25,
+     "h": 29335.25,
+     "l": 29310.25,
+     "c": 29320.5,
+     "v": 690.0
     }
    ]
   }
@@ -2822,12 +2838,30 @@
  "news": {
   "headlines": [
    {
+    "id": "3d23595c66",
+    "title": "US Stock Market Today: S&P 500 Futures Edge Higher On Fed Inflation Crossroads - Yahoo Finance",
+    "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNbmtIdVk0TW8ySTFXWE5Xdmp2Qmg0NmVyOUtEM212VlBtcXZjZTc3Y2JVNlBiNGxGdjFtNDZienJUVmFENjZTMDZ0d2JQQ3lKeEtuVzYtVFVSQ25KU3ZmT1RBdXFDNFR6R0pWOHNQSWhmb00zeU81SGRSaWowTV9MQnQ4LVV3VmZLZmZtX3lGcElNdw?oc=5",
+    "source": "gnews_futures",
+    "published_utc": "2026-10-26T12:08:23+00:00",
+    "score": 10.91,
+    "duplicates": 1
+   },
+   {
+    "id": "c2f21c156e",
+    "title": "U.S. stock futures rise as oil eases ahead of earnings and Fed decision - Traders Union",
+    "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPZ21oWnphY3lUdWJFV3RjREFaVVUtZ004V19uVzJUTlBOdmgxcUdYV3k1STRGZDRVWFJsci1PbV9qdHZUbFZ4cjBJSnJ0N1M5Mk5aMk1aaWRpcVVLSE5fWGl1YkNUYUotTUlLNm1VVlBMMlpYYUZsSkYzaElzWndVcHEySEIyMzdDNlhKLQ?oc=5",
+    "source": "gnews_futures",
+    "published_utc": "2026-10-26T10:12:36+00:00",
+    "score": 10.08,
+    "duplicates": 1
+   },
+   {
     "id": "ddf4ebc840",
     "title": "Stock futures edge up as oil falls, with AI and Fed in focus - Quartz",
     "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE5aZnI4OWd3UVp5UTRLSjVUcUxkdmdLek9ZUkRPNzRzamw1UE5mRGdiWjRYVVI0NkExUHpmcTUzS0hJbnFjMTN6WlB2bmNaR0dVYThXZXAzYlptQUJ0b3dvbkRn?oc=5",
     "source": "gnews_futures",
     "published_utc": "2026-10-26T11:37:21+00:00",
-    "score": 9.86,
+    "score": 9.82,
     "duplicates": 0
    },
    {
@@ -2836,7 +2870,7 @@
     "link": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxOTzh2Ym5tVlVVTWdHZVZ6VmsweGN3aUlkb3dDWTNtbGlHLXRZZEZaSUFDdHFjaU9NcVVMQTRPaHJvOU9QZGVSdjVmVlh5U1VzekVpZ0RQMXZvX3NfQVdIcXBxLWdBcTRyNVg2NTJ5ZWtLeDV2bGp1bWtpdTJmRVRHbW1JdjNHMUlMYTlBYk9jdlNWbGFadmpWekx1WWRES1RBSUdPVUVodi13ZHlQWlM5SE52S3NCYU9rVnFxRGk0dDdOajNid1V0UXRnRGhOSWExUm1RZUt2TQ?oc=5",
     "source": "gnews_macro",
     "published_utc": "2026-10-26T11:18:12+00:00",
-    "score": 9.81,
+    "score": 9.77,
     "duplicates": 0
    },
    {
@@ -2845,8 +2879,17 @@
     "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNLWdBVGtDU3FCOURzT1VvVGs1dTRMeG9KZDVJRUxHUDFJNVM5VWNocjN0cnR0SVJnaURJa29QTlM0SlZzWHFvcmNaZjNDa3Y2VVZoLW5jRXc4QW9UaXpQY2pWS1F5eV85a0xMWk1ydmhRcmZuSmYzczFXbjR3LXB0NFpWU0l2dW9BUEJiZG5NZ2FvaDVsZnZUV3Fzd3NiZC10N3JtU0tPMjE4RE9UTUN6cjkwMlRjVUxlbDRoVy1xemNzUQ?oc=5",
     "source": "gnews_futures",
     "published_utc": "2026-10-26T10:29:45+00:00",
-    "score": 9.67,
+    "score": 9.63,
     "duplicates": 0
+   },
+   {
+    "id": "ba5814efb5",
+    "title": "US Stock Futures Rise Ahead of Federal Reserve Decision and Major Technology Earnings - Yahoo Finance",
+    "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOWjRNaTdzZnZMZ0ZNV3VkNnpRZTVKV0lpVDJmXzh5bUt2UTZLalNHVzFJdy1fdkF6TVo4ak0wZEUzV3JZTFI5SE9rOUpTcWhBaHFWa0JqOWpmdDZBZnBSLXlXVDluY0dQOTltV2lVUUVReEFtdllsNUtzNXkyQTV4azJmYWlwUmJmWnY2YmV3RlZJbUxqMVBJ?oc=5",
+    "source": "gnews_futures",
+    "published_utc": "2026-10-26T11:42:10+00:00",
+    "score": 9.33,
+    "duplicates": 1
    },
    {
     "id": "f2c8bbf3f8",
@@ -2854,7 +2897,7 @@
     "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOOHFmZGFLNEJMVlYxdFBjdHJteDQyMnhrR2JNTGtDcnVtSE9NOGpuT2FKdVZ5OTBLb2N4cDl1cFBvaHRFMTI5Q1JpLUhlSlhPN3JzM2tKNDJmQVNTRm5XMkJmNzNvblpaVWgySVljc2RwQTBwczJNc3d0NFpFN1ZQZV9MRFFFOThvOFIzNlFRNUQwdEZ5TTlkOE9aTlY?oc=5",
     "source": "gnews_macro",
     "published_utc": "2026-10-26T10:25:18+00:00",
-    "score": 9.16,
+    "score": 9.12,
     "duplicates": 0
    },
    {
@@ -2863,7 +2906,7 @@
     "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPOHVaWTd2WndoRzE5MUZqRVRWTmg1Q0RZelZ2ZnJsNnhSTTJ0eGtNVlJWeXpEODhuQTBJWGtUbTdKUXdsYUZncWl2ZGJremxoT3FUVFNhejNSczVOTXVKalJ1aTNzeEVGN2dEb1E3ZFc2WXg4SGV5NnVXUTQwWnpPNEdleWxaRGpJSVItcm9hdlI1R3cySEl1ZGdhbHZiaG5hMFVYTVVJQnp5M0otZ2FjTGYyQ2VwdHltNlNtRmw0ZWdZTGprMkt3TmJNMjI?oc=5",
     "source": "gnews_futures",
     "published_utc": "2026-10-26T06:57:04+00:00",
-    "score": 9.08,
+    "score": 9.04,
     "duplicates": 2
    },
    {
@@ -2872,7 +2915,7 @@
     "link": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxNNG91MEtkR0FBNEN1VVNZWHJTX0Z6NXNueW0wM29QcjItWDR2NkZpYmJQZXNRWENURHA0bEt6cktGQUc1WDFDVHBoM1ZfTHg1NTRIbHpaMllyTGV6VmQ5S0RtT1RwZkVQeUR3ZE1QZ1hDYVVVS1M3aTBVSG9LSlFlTUJNNTdsWHd1YWZOTUs0d1hWbTFpNWJTUU56UHRrREdubkt5WU1yTUk1bnJYTTJ4M0tHNTFvd3BYWGdkY3ZvS29wWTZlU29DZUg3bEEtbUt6S1V0SXdxdk1sTHNkeWp3?oc=5",
     "source": "gnews_fed",
     "published_utc": "2026-10-26T11:37:01+00:00",
-    "score": 8.36,
+    "score": 8.32,
     "duplicates": 1
    },
    {
@@ -2881,7 +2924,7 @@
     "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNdnplcnZ3bll1ZUtsRm9WTUVSRDMwOE1oOVdxcEsyMFE4eUlaUGVDZVEzOXBVcWt6aDJsQzZsdERMVW9uYmFiWFhvbkZ5a3ZGT3RhOXV1WkUtM29lUDdONHVsaVpYSkJxN0lReGp2Um1xQk1Uc2QzVzZHVUhuY3FVSks2NFBLdU9yMnZVVnlHM3ExSDlCNXpCeA?oc=5",
     "source": "gnews_macro",
     "published_utc": "2026-10-26T10:41:44+00:00",
-    "score": 8.21,
+    "score": 8.16,
     "duplicates": 0
    },
    {
@@ -2890,7 +2933,7 @@
     "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPRmpIemZMampsNnRvQ2l0MzhWa3huOWk5SGNOSkdMZTN2Sk9lY01fN1NNdW5aS1ZSUG9ZTXRtdHU1MjRlTnlOT1JiQUp5c2NaS2NsUFM0Tm9Jem9yLTdqVThEVTVxUk5CWEtaZTduZTVCMEluakJxblNvcG1iMngxVVBrTGlDMHNGUndoR2R1NkRnemEwcEhVU3RwWGhTTUxpNk9yNUNkSms0T2l6dVpYZHFubGdwZllZbkdhZjNtbkFqSFNOWlNv?oc=5",
     "source": "gnews_fed",
     "published_utc": "2026-10-26T12:11:30+00:00",
-    "score": 7.96,
+    "score": 7.91,
     "duplicates": 1
    },
    {
@@ -2899,44 +2942,17 @@
     "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE1TWWtoUTJpSElEZVlQSk9Sb1pfZEo5M1k0M2VIRTdHYlRfd1FmcTNpY0Z2RkNfNlMybVVfcWZQdml3aWl6YkJhb1ZJNHl2YU9xS0lTZFJpVFpCTGd6V3JwUEVvQjNRcEtqNnUtRUpqRDRWdlhWeGw4?oc=5",
     "source": "gnews_megacap",
     "published_utc": "2026-10-26T12:03:49+00:00",
-    "score": 7.94,
-    "duplicates": 0
-   },
-   {
-    "id": "05b3dd6239",
-    "title": "Fed rate decision and Google, Microsoft and Amazon earnings: What to Watch - Yahoo Finance",
-    "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOVWpuS0YwZU5VbkY5Z0twa0h1Z3M5YUtxcmJhNDYxNjhFX3VzRThyUlJEOGF0cTA5ZGhIZEI2Z3k3aDZ5ZllxQjhwTkZpa216N1N1NzF1VUxZanRVYXB4N2JJUzBGbDhOMWYzUGtMRWRBbFRLcFdkU0x0THNhQ1VjaDVaSDQzUTJu?oc=5",
-    "source": "gnews_megacap",
-    "published_utc": "2026-10-26T12:00:00+00:00",
-    "score": 7.92,
-    "duplicates": 0
-   },
-   {
-    "id": "78d830482a",
-    "title": "A Perfect Storm for Bitcoin? Fed, PCE, GDP and Big Tech Earnings Ahead - CryptoRank",
-    "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOMVFOb3dKdXlMNEotWDY3dGx0SVRvRy1Na2hpcF9xOTVSekwzRl9yTFdwUkdxMjdMNFp1RTlSQTRLM01OU1pZeXBRLUhPQWZQR29sYVEwOTQ2aFAwaWlIY1dvVUdVeWpwRGhXMGFRY290QmdFU1c5M0FrYy1JTzkteE1MNkV4XzllY19pWkNlSHBobG8xRmp1OGQ3TnRjRXhFY3VjX1I2ZTA?oc=5",
-    "source": "gnews_fed",
-    "published_utc": "2026-10-26T07:34:37+00:00",
-    "score": 7.69,
-    "duplicates": 0
-   },
-   {
-    "id": "410a0edc74",
-    "title": "Economic Week Ahead: Fed Decision, US Inflation and Big Tech Earnings in Focus - Investing.com",
-    "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQN2pnX1dmMUltOWhEdkVFWlhFc05KTnhNZmV3SEVPZ2RVWWZVTm1tRW1jUlZnZjNJaUQ5cWx5ZVFOM2kzcElsRWtUWnpuVXhINjdzQkZSS001VEJCODJzdmtOZ01GZ21WeDlpWGg1WW50b2tPXzlIRWNwYkdzcC1aOEpPd1hKTjItNnNyeG9ENnNXZDFaZkVEYmVNV1MxUEcwLUJmRkdELUtlRTNxWDBaOW8wY08ybm5JU242YWlR?oc=5",
-    "source": "gnews_macro",
-    "published_utc": "2026-10-26T06:50:51+00:00",
-    "score": 7.57,
+    "score": 7.89,
     "duplicates": 0
    }
   ],
   "summary": {
    "lines": [
+    "US Stock Market Today: S&P 500 Futures Edge Higher On Fed Inflation Crossroads - Yahoo Finance [3d23595c66]",
+    "U.S. stock futures rise as oil eases ahead of earnings and Fed decision - Traders Union [c2f21c156e]",
     "Stock futures edge up as oil falls, with AI and Fed in focus - Quartz [ddf4ebc840]",
     "Oil surge fuels inflation fears as stocks test key support ahead of Fed decision and midterms - FXStreet [7a1ef396b5]",
-    "U.S. Stock Futures Gain as Oil Retreats; Big Tech Earnings and Fed Meeting Awaited - Barchart.com [61c5835931]",
-    "US Equity Investors to Monitor Mag-7 Earnings, Fed's Monetary Policy Path, Inflation Data This Week Amid Faltering AI Trade - Yahoo Finance [f2c8bbf3f8]",
-    "U.S. stock futures muted after bruising tech losses; Fed, earnings on tap - Investing.com [a30636f792]"
+    "U.S. Stock Futures Gain as Oil Retreats; Big Tech Earnings and Fed Meeting Awaited - Barchart.com [61c5835931]"
    ],
    "backend": "none",
    "model": null,
@@ -2950,7 +2966,40 @@
  },
  "flags": [],
  "earnings": {
-  "reported": [],
+  "reported": [
+   {
+    "symbol": "AXP",
+    "name": "American Express Company",
+    "timing": "unknown",
+    "date": "2026-10-23",
+    "reported_at": "10/23/2026",
+    "reported": true
+   },
+   {
+    "symbol": "E",
+    "name": "ENI S.p.A.",
+    "timing": "unknown",
+    "date": "2026-10-23",
+    "reported_at": "10/23/2026",
+    "reported": true
+   },
+   {
+    "symbol": "SLB",
+    "name": "SLB Limited",
+    "timing": "unknown",
+    "date": "2026-10-23",
+    "reported_at": "10/23/2026",
+    "reported": true
+   },
+   {
+    "symbol": "INFY",
+    "name": "Infosys Limited",
+    "timing": "unknown",
+    "date": "2026-10-23",
+    "reported_at": "10/23/2026",
+    "reported": true
+   }
+  ],
   "today": [
    {
     "symbol": "VZ",
