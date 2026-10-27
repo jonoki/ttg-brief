@@ -1,7 +1,7 @@
 {
  "meta": {
-  "generated_at_utc": "2026-10-27T13:59:09.554603+00:00",
-  "generated_at_local": "Tue 27 Oct 2026 10:59 ADT",
+  "generated_at_utc": "2026-10-27T14:10:05.412786+00:00",
+  "generated_at_local": "Tue 27 Oct 2026 11:10 ADT",
   "trading_day": "2026-10-27",
   "display_tz": "America/Halifax",
   "version": "0.1.0",
@@ -104,14 +104,14 @@
    }
   ],
   "next_event": {
-   "name": "CB Consumer Confidence",
+   "name": "5-Year note auction",
    "impact": "medium",
-   "time_utc": "2026-10-27T14:00:00+00:00",
-   "local": "11:00 ADT",
-   "et": "10:00 ET",
-   "in": "0 min",
-   "consensus": "81.2",
-   "prior": "81.9"
+   "time_utc": "2026-10-27T17:00:00+00:00",
+   "local": "14:00 ADT",
+   "et": "13:00 ET",
+   "in": "2h 49m",
+   "consensus": null,
+   "prior": null
   },
   "sources": [],
   "warnings": []
@@ -120,10 +120,10 @@
   {
    "root": "ES",
    "trading_day": "2026-10-27",
-   "as_of_utc": "2026-10-27T13:59:09.554603+00:00",
+   "as_of_utc": "2026-10-27T14:10:05.412786+00:00",
    "source": "yahoo",
    "delayed": true,
-   "last_price": 7731.25,
+   "last_price": 7722.75,
    "levels": [
     {
      "tag": "pwh",
@@ -189,8 +189,8 @@
      "note": "70 % value area"
     },
     {
-     "tag": "rn_minor_dn",
-     "label": "Round 25 below",
+     "tag": "rn_minor_up",
+     "label": "Round 25 above",
      "price": 7725.0,
      "group": "round",
      "note": ""
@@ -205,7 +205,7 @@
     {
      "tag": "tdl",
      "label": "Today's RTH low",
-     "price": 7724.0,
+     "price": 7718.25,
      "group": "today",
      "note": ""
     },
@@ -288,8 +288,8 @@
     }
    ],
    "stats": {
-    "last_bar_utc": "2026-10-27T13:49:00+00:00",
-    "last_bar_age_min": 10.2,
+    "last_bar_utc": "2026-10-27T14:00:00+00:00",
+    "last_bar_age_min": 10.1,
     "market_state": "open",
     "profile_volume": 1278160.0,
     "prior_day": "2026-10-26",
@@ -1548,19 +1548,27 @@
      "t": "2026-10-27T13:45:00+00:00",
      "o": 7738.5,
      "h": 7741.75,
-     "l": 7724.0,
-     "c": 7731.25,
-     "v": 17751.0
+     "l": 7718.25,
+     "c": 7723.0,
+     "v": 68322.0
+    },
+    {
+     "t": "2026-10-27T14:00:00+00:00",
+     "o": 7723.0,
+     "h": 7724.0,
+     "l": 7718.5,
+     "c": 7722.75,
+     "v": 0.0
     }
    ]
   },
   {
    "root": "NQ",
    "trading_day": "2026-10-27",
-   "as_of_utc": "2026-10-27T13:59:09.554603+00:00",
+   "as_of_utc": "2026-10-27T14:10:05.412786+00:00",
    "source": "yahoo",
    "delayed": true,
-   "last_price": 29605.25,
+   "last_price": 29566.75,
    "levels": [
     {
      "tag": "pwh",
@@ -1577,13 +1585,6 @@
      "note": "ATR over 14 days"
     },
     {
-     "tag": "rn_major_up",
-     "label": "Round 100 above",
-     "price": 29700.0,
-     "group": "round",
-     "note": ""
-    },
-    {
      "tag": "tdh",
      "label": "Today's RTH high",
      "price": 29687.75,
@@ -1598,13 +1599,6 @@
      "note": "since 2026-10-26"
     },
     {
-     "tag": "rn_minor_up",
-     "label": "Round 50 above",
-     "price": 29650.0,
-     "group": "round",
-     "note": ""
-    },
-    {
      "tag": "onh",
      "label": "Overnight high",
      "price": 29628.75,
@@ -1612,8 +1606,8 @@
      "note": "since 18:00 ET, 919 bars"
     },
     {
-     "tag": "rn_major_dn",
-     "label": "Round 100 below",
+     "tag": "rn_major_up",
+     "label": "Round 100 above",
      "price": 29600.0,
      "group": "round",
      "note": ""
@@ -1640,10 +1634,24 @@
      "note": "09:30 bar open"
     },
     {
+     "tag": "rn_minor_dn",
+     "label": "Round 50 below",
+     "price": 29550.0,
+     "group": "round",
+     "note": ""
+    },
+    {
      "tag": "tdl",
      "label": "Today's RTH low",
-     "price": 29541.25,
+     "price": 29523.75,
      "group": "today",
+     "note": ""
+    },
+    {
+     "tag": "rn_major_dn",
+     "label": "Round 100 below",
+     "price": 29500.0,
+     "group": "round",
      "note": ""
     },
     {
@@ -1725,8 +1733,8 @@
     }
    ],
    "stats": {
-    "last_bar_utc": "2026-10-27T13:49:00+00:00",
-    "last_bar_age_min": 10.2,
+    "last_bar_utc": "2026-10-27T14:00:00+00:00",
+    "last_bar_age_min": 10.1,
     "market_state": "open",
     "profile_volume": 459454.0,
     "prior_day": "2026-10-26",
@@ -2985,9 +2993,17 @@
      "t": "2026-10-27T13:45:00+00:00",
      "o": 29648.5,
      "h": 29677.75,
-     "l": 29548.0,
-     "c": 29605.25,
-     "v": 9769.0
+     "l": 29523.75,
+     "c": 29574.25,
+     "v": 33427.0
+    },
+    {
+     "t": "2026-10-27T14:00:00+00:00",
+     "o": 29574.75,
+     "h": 29578.0,
+     "l": 29540.75,
+     "c": 29566.75,
+     "v": 0.0
     }
    ]
   }
