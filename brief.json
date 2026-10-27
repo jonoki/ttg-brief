@@ -1,7 +1,7 @@
 {
  "meta": {
-  "generated_at_utc": "2026-10-27T14:55:54.820522+00:00",
-  "generated_at_local": "Tue 27 Oct 2026 11:55 ADT",
+  "generated_at_utc": "2026-10-27T15:11:13.647127+00:00",
+  "generated_at_local": "Tue 27 Oct 2026 12:11 ADT",
   "trading_day": "2026-10-27",
   "display_tz": "America/Halifax",
   "version": "0.1.0",
@@ -109,7 +109,7 @@
    "time_utc": "2026-10-27T17:00:00+00:00",
    "local": "14:00 ADT",
    "et": "13:00 ET",
-   "in": "2h 04m",
+   "in": "1h 48m",
    "consensus": null,
    "prior": null
   },
@@ -120,10 +120,10 @@
   {
    "root": "ES",
    "trading_day": "2026-10-27",
-   "as_of_utc": "2026-10-27T14:55:54.820522+00:00",
+   "as_of_utc": "2026-10-27T15:11:13.647127+00:00",
    "source": "yahoo",
    "delayed": true,
-   "last_price": 7737.0,
+   "last_price": 7754.25,
    "levels": [
     {
      "tag": "pwh",
@@ -133,6 +133,13 @@
      "note": "3 session(s) of data — PARTIAL"
     },
     {
+     "tag": "rn_major_up",
+     "label": "Round 50 above",
+     "price": 7800.0,
+     "group": "round",
+     "note": ""
+    },
+    {
      "tag": "exp_hi",
      "label": "Expected-range high (close + ATR)",
      "price": 7796.41,
@@ -140,8 +147,29 @@
      "note": "ATR over 14 days"
     },
     {
-     "tag": "rn_major_up",
-     "label": "Round 50 above",
+     "tag": "rn_minor_up",
+     "label": "Round 25 above",
+     "price": 7775.0,
+     "group": "round",
+     "note": ""
+    },
+    {
+     "tag": "tdh",
+     "label": "Today's RTH high",
+     "price": 7755.0,
+     "group": "today",
+     "note": "so far"
+    },
+    {
+     "tag": "wh",
+     "label": "Week high",
+     "price": 7755.0,
+     "group": "week",
+     "note": "since 2026-10-26"
+    },
+    {
+     "tag": "rn_major_dn",
+     "label": "Round 50 below",
      "price": 7750.0,
      "group": "round",
      "note": ""
@@ -152,20 +180,6 @@
      "price": 7749.25,
      "group": "overnight",
      "note": "since 18:00 ET, 919 bars"
-    },
-    {
-     "tag": "wh",
-     "label": "Week high",
-     "price": 7749.25,
-     "group": "week",
-     "note": "since 2026-10-26"
-    },
-    {
-     "tag": "tdh",
-     "label": "Today's RTH high",
-     "price": 7745.0,
-     "group": "today",
-     "note": "so far"
     },
     {
      "tag": "pdh",
@@ -187,13 +201,6 @@
      "price": 7729.0,
      "group": "profile",
      "note": "70 % value area"
-    },
-    {
-     "tag": "rn_minor_dn",
-     "label": "Round 25 below",
-     "price": 7725.0,
-     "group": "round",
-     "note": ""
     },
     {
      "tag": "onvwap",
@@ -229,13 +236,6 @@
      "price": 7704.75,
      "group": "profile",
      "note": "70 % value area"
-    },
-    {
-     "tag": "rn_major_dn",
-     "label": "Round 50 below",
-     "price": 7700.0,
-     "group": "round",
-     "note": ""
     },
     {
      "tag": "onl",
@@ -288,8 +288,8 @@
     }
    ],
    "stats": {
-    "last_bar_utc": "2026-10-27T14:45:00+00:00",
-    "last_bar_age_min": 10.9,
+    "last_bar_utc": "2026-10-27T15:01:00+00:00",
+    "last_bar_age_min": 10.2,
     "market_state": "open",
     "profile_volume": 1278160.0,
     "prior_day": "2026-10-26",
@@ -1578,21 +1578,29 @@
     },
     {
      "t": "2026-10-27T14:45:00+00:00",
-     "o": 7734.75,
-     "h": 7738.75,
+     "o": 7734.5,
+     "h": 7749.75,
      "l": 7734.0,
-     "c": 7737.0,
-     "v": 0.0
+     "c": 7748.5,
+     "v": 55787.0
+    },
+    {
+     "t": "2026-10-27T15:00:00+00:00",
+     "o": 7748.5,
+     "h": 7755.0,
+     "l": 7748.5,
+     "c": 7754.25,
+     "v": 11102.0
     }
    ]
   },
   {
    "root": "NQ",
    "trading_day": "2026-10-27",
-   "as_of_utc": "2026-10-27T14:55:54.820522+00:00",
+   "as_of_utc": "2026-10-27T15:11:13.647127+00:00",
    "source": "yahoo",
    "delayed": true,
-   "last_price": 29646.5,
+   "last_price": 29728.5,
    "levels": [
     {
      "tag": "pwh",
@@ -1611,28 +1619,35 @@
     {
      "tag": "rn_major_up",
      "label": "Round 100 above",
-     "price": 29700.0,
+     "price": 29800.0,
+     "group": "round",
+     "note": ""
+    },
+    {
+     "tag": "rn_minor_up",
+     "label": "Round 50 above",
+     "price": 29750.0,
      "group": "round",
      "note": ""
     },
     {
      "tag": "tdh",
      "label": "Today's RTH high",
-     "price": 29687.75,
+     "price": 29731.5,
      "group": "today",
      "note": "so far"
     },
     {
      "tag": "wh",
      "label": "Week high",
-     "price": 29687.75,
+     "price": 29731.5,
      "group": "week",
      "note": "since 2026-10-26"
     },
     {
-     "tag": "rn_minor_up",
-     "label": "Round 50 above",
-     "price": 29650.0,
+     "tag": "rn_major_dn",
+     "label": "Round 100 below",
+     "price": 29700.0,
      "group": "round",
      "note": ""
     },
@@ -1642,13 +1657,6 @@
      "price": 29628.75,
      "group": "overnight",
      "note": "since 18:00 ET, 919 bars"
-    },
-    {
-     "tag": "rn_major_dn",
-     "label": "Round 100 below",
-     "price": 29600.0,
-     "group": "round",
-     "note": ""
     },
     {
      "tag": "pdh",
@@ -1757,8 +1765,8 @@
     }
    ],
    "stats": {
-    "last_bar_utc": "2026-10-27T14:45:00+00:00",
-    "last_bar_age_min": 10.9,
+    "last_bar_utc": "2026-10-27T15:01:00+00:00",
+    "last_bar_age_min": 10.2,
     "market_state": "open",
     "profile_volume": 459454.0,
     "prior_day": "2026-10-26",
@@ -3047,11 +3055,19 @@
     },
     {
      "t": "2026-10-27T14:45:00+00:00",
-     "o": 29634.5,
-     "h": 29648.75,
+     "o": 29632.5,
+     "h": 29716.0,
      "l": 29631.25,
-     "c": 29646.5,
-     "v": 0.0
+     "c": 29708.75,
+     "v": 16050.0
+    },
+    {
+     "t": "2026-10-27T15:00:00+00:00",
+     "o": 29709.0,
+     "h": 29731.5,
+     "l": 29707.5,
+     "c": 29728.5,
+     "v": 2385.0
     }
    ]
   }
@@ -3064,7 +3080,16 @@
     "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPb1lxS1VQZVJjcjlBWkRydHJsN2wyc2FJSFRfZldMc2VtZ1FuZ1hyZ3FaSS1fVi12WlBVMXBGT2d4UUF2YzZ4cGRiTko2czhBYWNFbmlTT2l5cDRhRDRxYkN2bUd1U1ZRS1ZHemhaSEtWS1R5UC1DN3ItcHFDM2NVbzBUZ0Nhelpvb0FiU1U4N1NXUndZb0dMOVNhTkx0cUZYQ2VmVS1rZUNrVXUyLVJWM21wYjU?oc=5",
     "source": "gnews_futures",
     "published_utc": "2026-10-27T13:12:04+00:00",
-    "score": 9.21,
+    "score": 9.17,
+    "duplicates": 1
+   },
+   {
+    "id": "50cc945088",
+    "title": "US stock futures gain as oil pulls back ahead of Fed decision - TradingView",
+    "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQQWo2UTFjR19tbzEyRktBWHVGb3N0LVZwSnFPMmw5MFBjLVhNY2J4VlJBY1JwVXIzZEdBN3E0Skg1Nk4tc3gtTncwZUoyTHpGSGFnQUZ3ZXFiM2dneUxnNmQ2OTk2YnRtbktHSGUydS1NOS13V0hzeHVtTGVNa3NsRmZjYWtWZDliNXZYZ21KbFV6MmRzZVpkVkl4aE0zS2FTdU9LeThzQnJVelk3STRPM2NPRHpFbEtXdEJQbnVKRlRxLUFXaEZaMnBvYw?oc=5",
+    "source": "gnews_futures",
+    "published_utc": "2026-10-27T11:27:21+00:00",
+    "score": 8.88,
     "duplicates": 1
    },
    {
@@ -3073,43 +3098,7 @@
     "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNR21qQWZsLUZqbWRjR2YtQ3FGakpEWWVjSUVFNjVDSi01MnRiWmV3Z2pPQUsyVGhJR3UxQ1o4RjRVa2tCLXNXbnJjNE9fbE5KVzlKTEZtNHpZb3lPR0hXcFFSVGVydlpnR3RQdVM5bDE3aVI3aVowN0NqY3NHb3VDN3hlaXpLTmxkeFc3NE13dUNqYUtIMHNxRFR5M3VYZmpKUDRzVE5WLUdwRHJCeEpQM1pKaw?oc=5",
     "source": "gnews_futures",
     "published_utc": "2026-10-27T14:07:12+00:00",
-    "score": 8.86,
-    "duplicates": 0
-   },
-   {
-    "id": "4605dc2b9e",
-    "title": "US stock futures muted as oil holds near April highs ahead of Fed decision - Bradenton Herald",
-    "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTFB4cFg2enNNYlNJdWhVZjJvd1JIWHN4UEJrclhQZFZtM1FMR1RfeHZJVXhwZUp6OWpLTlJFUzZheWZrMllkczRiM1FtRGZkalRhMld1OTJtQTBXMEtNN3RyT21fTnluMWR0dExJNW42c2lWak5RRjhLaWoxV3h2MjQ?oc=5",
-    "source": "gnews_futures",
-    "published_utc": "2026-10-27T10:01:08+00:00",
-    "score": 8.68,
-    "duplicates": 1
-   },
-   {
-    "id": "83937ea478",
-    "title": "U.S. stock futures rise ahead of tech earnings, Fed decision By Investing.com - Investing.com South Africa",
-    "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNQ3BIZ1pydnZIWDluTE9lSlQxeVJpbEhfbHk4bmIyT05vR3pEXy16QXNIRFpBRWMybUI4cU1NaEM4NFlRTWFYMnFOWWlMbUdWTk00clJLN1FSZmpTOEFsVXhmYk0zVkVJOXZkWTV6dFEtSmNPR3l1bllUSGtKV0FmSjZjd29hMmRzMWFaSGFDTlFjZ2RfWWdaS21YSFNLOVU4c1FjV0tldGN3a3JDbEljcUNSMWxNTVdNV3ZVUUhSaUdYUEV5aGhCT3pPaWlyQQ?oc=5",
-    "source": "gnews_futures",
-    "published_utc": "2026-10-27T12:01:09+00:00",
-    "score": 8.51,
-    "duplicates": 0
-   },
-   {
-    "id": "3069cf3e3d",
-    "title": "US stock futures gain as oil pulls back ahead of Fed decision - StreetInsider",
-    "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNa2djRjc5M0NSejVVcXhtRlpMRnc5N2JqVnlPTWFRZkExX2FvUl9sdlQ0RFV6VkhjRlRMV25tRVpYeWN2U25najNDN1hOb3dONmU3WEt2QnNJWkJEX1dxdW1XMEVsN3R2eHJjQXBEV2hEWFhPdkJic01WODVsOXR6bUJodzM4OUV4MlJUWC1mQXZMYUt4RHBrb1NSUHMxcUppX3RDdG5mNEpHRGlMWmJEQ3hYUFJWVUNrbFE?oc=5",
-    "source": "gnews_futures",
-    "published_utc": "2026-10-27T11:26:46+00:00",
-    "score": 8.42,
-    "duplicates": 0
-   },
-   {
-    "id": "e49937f7bb",
-    "title": "What to expect from the Fed as Warsh weighs hot inflation, oil and US midterms - Yahoo",
-    "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE81YXBFbHVIcExuRThKNDE0ZHpiWnJtUUI0Y3pjWTRhaGc5bWE1TWd3eUNsZFNIR1VlbUQwQkQ5ZUNOd1JTZWJLSTExLWllWTQ3UHotTlpmM2o1cmZ2UmVkUjJTbGhQSFo3RjJEM3J3c3loeXZadUVBek9BR2oyd3c?oc=5",
-    "source": "gnews_macro",
-    "published_utc": "2026-10-27T14:23:30+00:00",
-    "score": 8.41,
+    "score": 8.82,
     "duplicates": 0
    },
    {
@@ -3118,7 +3107,7 @@
     "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxObE5RU1BJQllobHcxTHFzT1B6Wld4R3dPRjZUVzMwMXlnSE1zNUJQU2w5ME1XUW9JaUY1NWpjMTV1aFpGbGI0Y2syVHRpeEgxVzZISmJqcEhOMy1YOURnX3ZIY0Q2b2JETHFDMTJDT1Z6dXRQakxwc2Y1ODk4TXM1aEY3YTFOSEFnWTUwR2pHX1F6RzBZYlhNMEFyUXNwSzZFV25IaFNLLUo1em8?oc=5",
     "source": "gnews_futures",
     "published_utc": "2026-10-27T10:50:43+00:00",
-    "score": 8.32,
+    "score": 8.28,
     "duplicates": 0
    },
    {
@@ -3127,16 +3116,25 @@
     "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPLUNNcVpOZUlrU21YOGhjTGs3VkJDdDFQTU13aE12U3lpY3p1b0dTajB3X3pSdDlqcXJ1c2J1T2ExaHJkVkRLS0xFek05czA0bnJES0lUbGprbWU1ZXI5M3RtbGpkeGVPeDNyMWxMWnZKbW9SXzhZaHpRZUNueHMyNkVnblcwNWIydk5VS0Vva0F4d3lWRmxN?oc=5",
     "source": "gnews_futures",
     "published_utc": "2026-10-27T10:23:29+00:00",
-    "score": 8.24,
+    "score": 8.2,
     "duplicates": 0
    },
    {
-    "id": "08fa5c798b",
-    "title": "Gold Under Pressure as Oil-Driven Inflation Fears Reshape Federal Reserve Expectations - Al-Bawaba",
-    "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQZlVGLVFNemRIQlVyM1BRWGkwSkc0WUczcmVWbGpZRnU4cklsUE1mZXB1dHVtLXlNQXB5TWxTZHNGOThyQWRKVWQ2SDY4R3BoTWM2ZENNbmFLdGNFejVQa3pVYzZXbkZDLWhtaFRSczVWNHMzc01qaTZ0UDlwb2Znb0E1RnA0bHV0RkE?oc=5",
-    "source": "gnews_fed",
-    "published_utc": "2026-10-27T11:59:25+00:00",
-    "score": 8.01,
+    "id": "9700ebec65",
+    "title": "U.S. stock futures edge higher as oil stays near six-week peak before Fed decision - Traders Union",
+    "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNQzJmdlNkVXBfVk4xZHBtbTZ5Rnh4M2tocHp3enZaSUV5eXhQTU83UDRzNjVMZzJEd1RvR2V1RlNEd050Y01GMVRmOEozbVNZU2RaRG5fdm5KRFQ4eDNJZV9ock9BY2dKOThJWDVUdjI2SDZpVWZyNkZkQmVjdlhicQ?oc=5",
+    "source": "gnews_futures",
+    "published_utc": "2026-10-27T10:11:23+00:00",
+    "score": 8.17,
+    "duplicates": 0
+   },
+   {
+    "id": "2b199cd409",
+    "title": "US stock futures muted as oil holds near April highs ahead of Fed decision By Reuters - Investing.com",
+    "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPYl9JY3JMaDJsV0Zzck5GRDJZbW9kSThVcjI4YXdTX3pRQmRnTk5yaU9OczNZMTZaMWVLY044OVZDM284Nm1fbVVROG9jZERmWko0TFFyOS1HVUxFLU1rOElGLUxCU05OOFZ0dk55anVFNkFQNUxWSTNxejlvM3MzX2t6dllxQi1ZZkdNd1ZXVGZjZVJmMzBUQjAtbC0zdlpYT0JMeTZiRlZYQkx4R1Zad1Q5VHBubXd6LWdKZ2FrWHA4TE5w?oc=5",
+    "source": "gnews_futures",
+    "published_utc": "2026-10-27T09:55:57+00:00",
+    "score": 8.12,
     "duplicates": 0
    },
    {
@@ -3149,12 +3147,12 @@
     "duplicates": 0
    },
    {
-    "id": "1356a088db",
-    "title": "Stock futures mixed ahead of Fed decision, tech earnings (SPX:) - Seeking Alpha",
-    "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxONjdRZWN6UENrUXFfeHcyb2otcTJiVHlPWFNYYXhlT1U3VWJWb3QtRWJQbzFrazhteFRrcUFxdmx2SjhhYXFSaHNsLVFxeVBiRFBPRkdjMWlnVjUzMnBoUTc5TF9KbzJ2bVY0Y1dfU2c1eGJNTUxrVmxHZHpFSlNWcTN1emZwZmlz?oc=5",
+    "id": "f71aff58be",
+    "title": "Stock futures mixed ahead of Fed decision, tech earnings - TradingView",
+    "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOOHhzRlhtejdJYW1sSEtYZ0ludks4UWFyLTBJbm03TFpLRWUtZ3p3bGEwNUNGRndNNk5DcnduaGVheFpIa05Sd0NFN0ZLWWdncTFMejg4TkFwaV9wRUhTQ0dDMjRRVHM3WnBGSGRtQUVpaTBlYWpqclFNOFNCLU9pZzdWcDk0cGg4XzBBenhLdS1vX2daV2NLSVRsaW92NTAzRHVXYU16X3RSTFRuNDZxX3JycERtQTU5dmc?oc=5",
     "source": "gnews_futures",
     "published_utc": "2026-10-27T08:32:01+00:00",
-    "score": 7.93,
+    "score": 7.89,
     "duplicates": 0
    },
    {
@@ -3163,17 +3161,35 @@
     "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNM0k2NDB5VVRWVzhDMEROOWpnMTIxeHJoLWdzMDg3MHE0NGhxbHVWaGhLWDRINmgtb0c2b0xzRGtjTXktNTBFeHBvQUdxR19XUHFhcVFrUHdtYnRmeE9EeS0zUmFTZ1RrQlJnaThFWndFX09mXzczYXEtMGNHckNHNkJNQk9zcTVTMWVPNm1kQmQ3dDBodjY2c2F5U3R5LVFsVFFQRVRlWTlsZTBwcklySTkxNGJZSVpHSUZHZjJiVnFvNTd0VUpYblNiajdJd9IB1gFBVV95cUxQeDlhOTl6ZjdyZGZubmZHZUVuSFQ2RzJwTkVJUnc0dGlGcDctUDkwVE9kQkgzNmg1ZTlLQWxfS0dEUUwwOWhDbkd5YmtSdk84ZmR4UGtCSkdLSUhJM1NkMGt4VElueVp1UVhFXzJkOE5pTFY3VkZOZVE3LXA2U3V4NzZvNU9hMWtETGhZSW9VbXVqd3p5UHpxRndjV0pqcVQ4WXZ6cU9aYnotclluNU00dm5rdHpLaEtqNWZNSDdUNk1neGJKT2I0SDdjbjNhb1AxYjlDSnlB?oc=5",
     "source": "gnews_futures",
     "published_utc": "2026-10-27T13:19:12+00:00",
-    "score": 7.73,
+    "score": 7.69,
+    "duplicates": 0
+   },
+   {
+    "id": "f4652f8a35",
+    "title": "Stock Futures Higher as Anthropic Rally Continues, Israel Election in Focus -- Update - marketscreener.com",
+    "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxOa2pWbU1QaDlvSWFvblN2czZGTEk5YzhtNy00NWRaSHg3TGM5ZTZYNkxrdXVSMjRDWW44TFVhNmxrODlSSDd5UWdCZHRxYVd0YjltenNiT1p1Sm1zY1hXTU5mQURiRnV6ejFnUzhfcTRSTWc4TmMwV0Y4bXllSTdKSU5Ub1Nrd1VEVlROWnRuVE9IN1pRdHBkcTg3QS1TczMzaURhaldTVUJTRmtuc1lQTG5jcXg5aGZaR1NndkNvdmc0TURnVmxnWktIUVRfMTA?oc=5",
+    "source": "gnews_futures",
+    "published_utc": "2026-10-27T12:21:26+00:00",
+    "score": 7.53,
+    "duplicates": 0
+   },
+   {
+    "id": "a4fad50e24",
+    "title": "US Stock Market Today: S&P 500 Futures Ease As Traders Weigh Fed Path - Yahoo Finance",
+    "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOM1RNZHdNdmVsMk5EODNxZ3J3TTdtMURZU3phR0ZhSlpCcC1fNmpJLWZkek5JQXVEWUtyYl84dkY2SjhJRUt0NVRmaGhxSW5wMTZPWVpXbC05MmVfa0JsdGk4cnZOaGV4X3Nzd1NrYUdnRmk0VVItNExybUJxaVNILVBIR2ZqQ3FDMUlQR1NNSERhZw?oc=5",
+    "source": "gnews_futures",
+    "published_utc": "2026-10-27T12:09:12+00:00",
+    "score": 7.49,
     "duplicates": 0
    }
   ],
   "summary": {
    "lines": [
     "Stock Futures Higher Amid Fresh Earnings, FOMC Meeting - Schaeffer's Investment Research [541da21a43]",
+    "US stock futures gain as oil pulls back ahead of Fed decision - TradingView [50cc945088]",
     "S&P 500, Nasdaq open higher as oil pulls back ahead of Fed decision - Reuters [8b7d084777]",
-    "US stock futures muted as oil holds near April highs ahead of Fed decision - Bradenton Herald [4605dc2b9e]",
-    "U.S. stock futures rise ahead of tech earnings, Fed decision By Investing.com - Investing.com South Africa [83937ea478]",
-    "US stock futures gain as oil pulls back ahead of Fed decision - StreetInsider [3069cf3e3d]"
+    "Stock Market Today (Oct. 27, 2026): Nasdaq futures edge lower as Wall Street gears up for earnings, Fed meeting - TheStreet [8a5c17b351]",
+    "US Stock Futures Edge Lower as Anthropic IPO Filing, Boeing Earnings and Fed Meeting Draw Attention: Dow Jones, S&P, Nasdaq, Wall Street - Yahoo Finance [d4c2f3174e]"
    ],
    "backend": "none",
    "model": null,
