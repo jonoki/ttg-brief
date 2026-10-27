@@ -1,7 +1,7 @@
 {
  "meta": {
-  "generated_at_utc": "2026-10-27T10:25:03.198404+00:00",
-  "generated_at_local": "Tue 27 Oct 2026 07:25 ADT",
+  "generated_at_utc": "2026-10-27T10:40:21.977289+00:00",
+  "generated_at_local": "Tue 27 Oct 2026 07:40 ADT",
   "trading_day": "2026-10-27",
   "display_tz": "America/Halifax",
   "version": "0.1.0",
@@ -109,7 +109,7 @@
    "time_utc": "2026-10-27T14:00:00+00:00",
    "local": "11:00 ADT",
    "et": "10:00 ET",
-   "in": "3h 34m",
+   "in": "3h 19m",
    "consensus": "81.2",
    "prior": "81.9"
   },
@@ -120,10 +120,10 @@
   {
    "root": "ES",
    "trading_day": "2026-10-27",
-   "as_of_utc": "2026-10-27T10:25:03.198404+00:00",
+   "as_of_utc": "2026-10-27T10:40:21.977289+00:00",
    "source": "yahoo",
    "delayed": true,
-   "last_price": 7708.0,
+   "last_price": 7710.5,
    "levels": [
     {
      "tag": "pwh",
@@ -165,7 +165,7 @@
      "label": "Overnight high",
      "price": 7731.0,
      "group": "overnight",
-     "note": "since 18:00 ET, 725 bars"
+     "note": "since 18:00 ET, 740 bars"
     },
     {
      "tag": "vah",
@@ -184,7 +184,7 @@
     {
      "tag": "onvwap",
      "label": "Overnight VWAP",
-     "price": 7717.52,
+     "price": 7717.33,
      "group": "overnight",
      "note": "typical-price VWAP"
     },
@@ -267,14 +267,14 @@
     }
    ],
    "stats": {
-    "last_bar_utc": "2026-10-27T10:15:00+00:00",
-    "last_bar_age_min": 10.1,
+    "last_bar_utc": "2026-10-27T10:30:00+00:00",
+    "last_bar_age_min": 10.4,
     "market_state": "open",
     "profile_volume": 1278160.0,
     "prior_day": "2026-10-26",
     "prior_day_rth_range": 62.5,
     "overnight_range": 31.25,
-    "gap_vs_prior_close": -6.5,
+    "gap_vs_prior_close": -4.0,
     "gap_basis": "last price (pre-market)",
     "atr14": 81.91,
     "atr_days": 14,
@@ -1413,10 +1413,18 @@
     },
     {
      "t": "2026-10-27T10:15:00+00:00",
-     "o": 7707.75,
-     "h": 7709.5,
+     "o": 7708.0,
+     "h": 7712.5,
      "l": 7707.75,
-     "c": 7708.0,
+     "c": 7711.0,
+     "v": 4529.0
+    },
+    {
+     "t": "2026-10-27T10:30:00+00:00",
+     "o": 7711.0,
+     "h": 7711.0,
+     "l": 7710.0,
+     "c": 7710.5,
      "v": 0.0
     }
    ]
@@ -1424,10 +1432,10 @@
   {
    "root": "NQ",
    "trading_day": "2026-10-27",
-   "as_of_utc": "2026-10-27T10:25:03.198404+00:00",
+   "as_of_utc": "2026-10-27T10:40:21.977289+00:00",
    "source": "yahoo",
    "delayed": true,
-   "last_price": 29400.25,
+   "last_price": 29420.75,
    "levels": [
     {
      "tag": "pwh",
@@ -1448,7 +1456,7 @@
      "label": "Overnight high",
      "price": 29589.5,
      "group": "overnight",
-     "note": "since 18:00 ET, 725 bars"
+     "note": "since 18:00 ET, 740 bars"
     },
     {
      "tag": "wh",
@@ -1495,7 +1503,7 @@
     {
      "tag": "onvwap",
      "label": "Overnight VWAP",
-     "price": 29443.52,
+     "price": 29443.04,
      "group": "overnight",
      "note": "typical-price VWAP"
     },
@@ -1571,14 +1579,14 @@
     }
    ],
    "stats": {
-    "last_bar_utc": "2026-10-27T10:15:00+00:00",
-    "last_bar_age_min": 10.1,
+    "last_bar_utc": "2026-10-27T10:30:00+00:00",
+    "last_bar_age_min": 10.4,
     "market_state": "open",
     "profile_volume": 459454.0,
     "prior_day": "2026-10-26",
     "prior_day_rth_range": 406.75,
     "overnight_range": 301.5,
-    "gap_vs_prior_close": -39.25,
+    "gap_vs_prior_close": -18.75,
     "gap_basis": "last price (pre-market)",
     "atr14": 574.07,
     "atr_days": 14,
@@ -2717,10 +2725,18 @@
     },
     {
      "t": "2026-10-27T10:15:00+00:00",
-     "o": 29399.0,
-     "h": 29406.5,
+     "o": 29399.5,
+     "h": 29437.75,
      "l": 29397.75,
-     "c": 29400.25,
+     "c": 29426.25,
+     "v": 1850.0
+    },
+    {
+     "t": "2026-10-27T10:30:00+00:00",
+     "o": 29426.0,
+     "h": 29426.0,
+     "l": 29418.0,
+     "c": 29420.75,
      "v": 0.0
     }
    ]
@@ -2738,12 +2754,12 @@
     "duplicates": 0
    },
    {
-    "id": "7f82e1f084",
-    "title": "U.S. stock futures turn lower as AI rebound loses steam before tech earnings, Fed - Investing.com Australia",
-    "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNbVVmNUFTTU1TYWVNTTZTamxoQ0IwamZyN0tqMDNCdDJ6REhGdW42SlJWaWhXRUFJVENIUU5raGQzaEotN0F4dks3MW5nX0x0cXJhcFRfRHBYSUkzR0dsZndSeFBiZDhFNDNDQXl0a29mRVVGSGJscUhnVW1RZ0s5OURxeVVKbVRCMjlUUlQ0RU9mdlNZZEFCUkc5YW1GcHBfRkgzMGEwaS1NSE1kTDJrMGNwRGUwNl9VTFE1WTg3THcta0Y5SkhydmJ1YWtlUQ?oc=5",
+    "id": "b5908623a5",
+    "title": "U.S. stock futures turn lower as AI rebound loses steam before tech earnings, Fed - Investing.com India",
+    "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNN2JUTW01cVVMYzhXbGx4d1U4Ri1BamJ2eUdpYW9WU05kVlk3Rnl6RXpPXzdWZWFxZzRRWS1rUGNrWUV6aENwUlhoOFdGZ3AybmM4OVJiTTNLaUR4OVpEdnNlZm96NW1hVFVKa2JnLTRrRllvUHVjTXN0RUhVZW10dmVmTGxNYzJiS25melhQQjdPYi02SVRWczRzeF92aWM5SFNaM0g2UWlDTDVBUzdKdHhaMjUyRFZGbHlnZUxYMElSOEVSZFNMU0V0cnpoQQ?oc=5",
     "source": "gnews_futures",
-    "published_utc": "2026-10-27T07:52:59+00:00",
-    "score": 9.58,
+    "published_utc": "2026-10-27T06:56:15+00:00",
+    "score": 9.38,
     "duplicates": 0
    },
    {
@@ -2752,7 +2768,7 @@
     "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNR21qQWZsLUZqbWRjR2YtQ3FGakpEWWVjSUVFNjVDSi01MnRiWmV3Z2pPQUsyVGhJR3UxQ1o4RjRVa2tCLXNXbnJjNE9fbE5KVzlKTEZtNHpZb3lPR0hXcFFSVGVydlpnR3RQdVM5bDE3aVI3aVowN0NqY3NHb3VDN3hlaXpLTmxkeFc3NE13dUNqYUtIMHNxRFR5M3VYZmpKUDRzVE5WLUdwRHJCeEpQM1pKaw?oc=5",
     "source": "gnews_futures",
     "published_utc": "2026-10-27T09:53:44+00:00",
-    "score": 9.41,
+    "score": 9.37,
     "duplicates": 1
    },
    {
@@ -2761,7 +2777,7 @@
     "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxONjdRZWN6UENrUXFfeHcyb2otcTJiVHlPWFNYYXhlT1U3VWJWb3QtRWJQbzFrazhteFRrcUFxdmx2SjhhYXFSaHNsLVFxeVBiRFBPRkdjMWlnVjUzMnBoUTc5TF9KbzJ2bVY0Y1dfU2c1eGJNTUxrVmxHZHpFSlNWcTN1emZwZmlz?oc=5",
     "source": "gnews_futures",
     "published_utc": "2026-10-27T08:32:01+00:00",
-    "score": 9.19,
+    "score": 9.14,
     "duplicates": 1
    },
    {
@@ -2770,7 +2786,7 @@
     "link": "https://news.google.com/rss/articles/CBMipgJBVV95cUxNLUpBNUZTSW11WDZFeXdfT0xocTlpdUNTOHVwZGNoeENyU0hPRUdVZ0pXUHcxNDZqUVhKRFBBN3d5bGNwZnZyUUt1ZzA3VktlRjFfamk0ekNucDZfbElhb1dnYXBseVRZWTV0ZXNSVzBWVXYtU0hMMHlpME5KV2dWRGZmZlN4UFFsejVXcXpJRk13c3E5UXdIVjM3aFZ2SXpOem9TY2tMTE5FYV9CNGpnTnVjcTlKNl9FT2ZGX09JTUNPMmZkYVhCdWtLMHZ1NHhoLXd5ZWE5UlEzY1NXdERzMVgtamEwM2Ntak9vYllZamNHS3A0ZVRtSU40TmZPNjZzWFg5bUhZelNsTXplVlQtYVJ4MjNkMmp4ZVY5WTEyVjh5UFpRM0E?oc=5",
     "source": "gnews_macro",
     "published_utc": "2026-10-27T08:49:29+00:00",
-    "score": 8.23,
+    "score": 8.19,
     "duplicates": 2
    },
    {
@@ -2779,7 +2795,7 @@
     "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNZWwzcHBmUUN6QzV4Q0RnQnQzcVNmRktUUjlIdmtmUkt6RFdTd2pfOGVscEt3U3NRZmdqYlp2azluQkpZclNZUWtKY0dOZ095LUhUR3NxejJudk9vWXVZVllGbnlnRjBEYkZCTDhjYjBlc3V2SUNhMU5KUmRpckRGeURkakI2UXJQcm9YcEYtOXJnUWZMSm1sRW5zSm04YWFCTXZxVVk0SHBCV1lJN2RQRXIzcw?oc=5",
     "source": "gnews_megacap",
     "published_utc": "2026-10-26T23:12:00+00:00",
-    "score": 8.13,
+    "score": 8.09,
     "duplicates": 0
    },
    {
@@ -2788,7 +2804,7 @@
     "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQdGU5ZkRDczRlZDhJWUp4dU9BaWhCbEtUNGVUNHlFS2M2a0txbk1oczR0UngzSlZyY29PQkJIc3ZIN3J3QUM3RThBT0J5eno5ZUUzRll0QS1fUGhsWUo0U1hqcHNJYlM3LWUxYjJPQnY3UWNXeGp4YlJPN0hTazgwanZ2cUtvUEI1T1dKNXF4and4VWNDVmNoenotVnROZTQ5YjJpNDBSeVZMaTM1VDBmZDFPaWs5b19O?oc=5",
     "source": "gnews_fed",
     "published_utc": "2026-10-27T07:35:33+00:00",
-    "score": 8.03,
+    "score": 7.99,
     "duplicates": 0
    },
    {
@@ -2797,7 +2813,7 @@
     "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQT3JwdW0zaTY4LTYtWHR0VVRPVUV0T0tmWmFkVkRIMzdZcGIyalNnT3pPeUZQLWNCdzRhZTdoOHpSWi0tdUwyR013aldzekZoT3Q0bDlPTFc3LUw0cmw4bUgtN1k3YTFGSVlta2FlWEM2aVFlQWhoYnY2M2l3OVdwS09iWlpIWmNVTTB2eDN0RU1Db1dEczBZb1VWdzBfLXNMSjRtMzBXNk1GSzB5dXIzeEhIS0Jfdw?oc=5",
     "source": "gnews_futures",
     "published_utc": "2026-10-27T09:41:00+00:00",
-    "score": 7.88,
+    "score": 7.84,
     "duplicates": 0
    },
    {
@@ -2806,7 +2822,7 @@
     "link": "https://news.google.com/rss/articles/CBMi-gFBVV95cUxPaTBMM0ZzS2pIVDhqUjhHekJrU0hZQjh5SXZGbEwzMzhnYUZvOGJ2TDRnSHlWYzVqblBrUXdKVzNPOHQtd3F2YUJsQTE3eFR5RlFlc05Va3M4TnpkWTJGZ2kyZjNmeTBpY3B5ZWdyTlBKNm9pR1hhMG9uN0g2UmFsTXBqaFRJRFhGRWtSZGFVTzZBWGcweTBZZTQxQVktM0ZvYVBfTEhuRnl0T2JsQlVoV1JweUhUbV9YMUJsTktMMGl0TFZRbjZuak1oTF8yU1VrVVVRMDExTEtiTkNBZ21fSUpScVJJNGhsekk1cEhTNGFBOW82QWhGZXZB?oc=5",
     "source": "gnews_futures",
     "published_utc": "2026-10-27T09:33:44+00:00",
-    "score": 7.86,
+    "score": 7.81,
     "duplicates": 0
    },
    {
@@ -2815,7 +2831,7 @@
     "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNa2xVSmtpdWJYRTdsMFVnekZkNGJLaGFoc1pIWXhsWm9NR1c2ckY4NDJHN2dJTTl2X1hWTTh0ZUsxTUR2MHZmM1NQOVVBSHNxa2hvWTJoeTVmSWgxZDQzZ2FiVWZ6VWZLRkkzbTJobzAyYjlKQWJBazI1Y09YNnlMZ2o5M1RQb21XOHdJNEpRb1ZkczRkUVFMcWhHcEZNaV9WUUJSRTN3?oc=5",
     "source": "gnews_fed",
     "published_utc": "2026-10-27T08:25:54+00:00",
-    "score": 7.67,
+    "score": 7.63,
     "duplicates": 0
    },
    {
@@ -2824,7 +2840,7 @@
     "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQNmh6WFAzNWdIOWhlWXJxTjdEVk44cmliSXBmSlVuVDVmMkNxVzY0Ykc5TzFBVEVrNXcxSXNnc0VqZlAxemFpTEJHczdCSHBGTWFBclBQVkcyUm5qQzF0am5OOHhYVnRBTnhZYlFGRmRKOTJfX0RFOXd0bHZ0VXhNRmhoUWZfeVREdFQ3MWpOcGtIaHZMeHZB0gGcAUFVX3lxTE92WXJpR0xaYlIzNERkNzFvZHJnek1vLTIzNjhLUWRGb2RBTnhfQWMzQ2ttREhuZHowck9iY2hDM3VrRnUtd25EWVh1cWM2bG9VSWw3N0VSUWVLV3IwbG9tUWhXWnRjenZ1bFRTaDhtX2FJN0E1VzJnWkUwbU9DQk4tZXp5MVhXaExXQnRZc2xFdEc5QUFZVXVWQ0VSVA?oc=5",
     "source": "gnews_fed",
     "published_utc": "2026-10-27T09:44:07+00:00",
-    "score": 7.39,
+    "score": 7.34,
     "duplicates": 1
    },
    {
@@ -2833,14 +2849,14 @@
     "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOa1p1WExJNjhWUVU4N1FZWVpwa0FkLV9RdzY5VnpxOWoyekIzcEJFbUd6NjRjbWRDOWlXTnpTcmFrTXNuX1I3U2JJa2dvLTgwRVRCeEh4S1M2Y1dWcnk5ZUhaclVqdDY2ZEcyZjJvX2VWTDd3SlE4R25XcUpaXzFxOWtYdlVHUmpCM29nRno4OFFuVFRNbUtzN2Fabw?oc=5",
     "source": "gnews_futures",
     "published_utc": "2026-10-27T00:40:00+00:00",
-    "score": 7.37,
+    "score": 7.33,
     "duplicates": 0
    }
   ],
   "summary": {
    "lines": [
     "US Stock Futures Edge Higher After Tech Selloff, Big Tech Earnings (MSFT, GOOGL, AMZN) and Fed Week Ahead - Gotrade [af97c1ad0e]",
-    "U.S. stock futures turn lower as AI rebound loses steam before tech earnings, Fed - Investing.com Australia [7f82e1f084]",
+    "U.S. stock futures turn lower as AI rebound loses steam before tech earnings, Fed - Investing.com India [b5908623a5]",
     "US stock futures muted as oil holds near April highs ahead of Fed decision - Reuters [8b7d084777]",
     "Stock futures mixed ahead of Fed decision, tech earnings (SPX:) - Seeking Alpha [1356a088db]",
     "There's a New Source of Inflation, and It's Put Fed Chair Kevin Warsh and the FOMC Between a Rock and a Hard Place - The Globe and Mail [0d1ce44868]"
