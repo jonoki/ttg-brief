@@ -1,7 +1,7 @@
 {
  "meta": {
-  "generated_at_utc": "2026-10-28T11:56:49.600239+00:00",
-  "generated_at_local": "Wed 28 Oct 2026 08:56 ADT",
+  "generated_at_utc": "2026-10-28T12:12:09.319489+00:00",
+  "generated_at_local": "Wed 28 Oct 2026 09:12 ADT",
   "trading_day": "2026-10-28",
   "display_tz": "America/Halifax",
   "version": "0.1.0",
@@ -163,7 +163,7 @@
    "time_utc": "2026-10-28T18:00:00+00:00",
    "local": "15:00 ADT",
    "et": "14:00 ET",
-   "in": "6h 03m",
+   "in": "5h 47m",
    "consensus": "4.00%",
    "prior": "4.00%"
   },
@@ -174,10 +174,10 @@
   {
    "root": "ES",
    "trading_day": "2026-10-28",
-   "as_of_utc": "2026-10-28T11:56:49.600239+00:00",
+   "as_of_utc": "2026-10-28T12:12:09.319489+00:00",
    "source": "yahoo",
    "delayed": true,
-   "last_price": 7773.75,
+   "last_price": 7767.25,
    "levels": [
     {
      "tag": "exp_hi",
@@ -205,7 +205,7 @@
      "label": "Overnight high",
      "price": 7774.0,
      "group": "overnight",
-     "note": "since 18:00 ET, 817 bars"
+     "note": "since 18:00 ET, 833 bars"
     },
     {
      "tag": "wh",
@@ -231,7 +231,7 @@
     {
      "tag": "onvwap",
      "label": "Overnight VWAP",
-     "price": 7762.51,
+     "price": 7762.79,
      "group": "overnight",
      "note": "typical-price VWAP"
     },
@@ -321,14 +321,14 @@
     }
    ],
    "stats": {
-    "last_bar_utc": "2026-10-28T11:46:00+00:00",
-    "last_bar_age_min": 10.8,
+    "last_bar_utc": "2026-10-28T12:02:00+00:00",
+    "last_bar_age_min": 10.2,
     "market_state": "open",
     "profile_volume": 1129528.0,
     "prior_day": "2026-10-27",
     "prior_day_rth_range": 60.25,
     "overnight_range": 21.75,
-    "gap_vs_prior_close": 15.75,
+    "gap_vs_prior_close": 9.25,
     "gap_basis": "last price (pre-market)",
     "atr14": 82.21,
     "atr_days": 14,
@@ -1517,19 +1517,27 @@
      "t": "2026-10-28T11:45:00+00:00",
      "o": 7772.5,
      "h": 7774.0,
-     "l": 7772.5,
-     "c": 7773.75,
-     "v": 279.0
+     "l": 7765.75,
+     "c": 7766.5,
+     "v": 5368.0
+    },
+    {
+     "t": "2026-10-28T12:00:00+00:00",
+     "o": 7766.25,
+     "h": 7767.75,
+     "l": 7765.75,
+     "c": 7767.25,
+     "v": 1169.0
     }
    ]
   },
   {
    "root": "NQ",
    "trading_day": "2026-10-28",
-   "as_of_utc": "2026-10-28T11:56:49.600239+00:00",
+   "as_of_utc": "2026-10-28T12:12:09.319489+00:00",
    "source": "yahoo",
    "delayed": true,
-   "last_price": 29965.25,
+   "last_price": 29920.25,
    "levels": [
     {
      "tag": "exp_hi",
@@ -1550,7 +1558,7 @@
      "label": "Overnight high",
      "price": 29989.25,
      "group": "overnight",
-     "note": "since 18:00 ET, 817 bars"
+     "note": "since 18:00 ET, 833 bars"
     },
     {
      "tag": "wh",
@@ -1560,8 +1568,8 @@
      "note": "since 2026-10-26"
     },
     {
-     "tag": "rn_minor_dn",
-     "label": "Round 50 below",
+     "tag": "rn_minor_up",
+     "label": "Round 50 above",
      "price": 29950.0,
      "group": "round",
      "note": ""
@@ -1569,7 +1577,7 @@
     {
      "tag": "onvwap",
      "label": "Overnight VWAP",
-     "price": 29900.51,
+     "price": 29901.69,
      "group": "overnight",
      "note": "typical-price VWAP"
     },
@@ -1673,14 +1681,14 @@
     }
    ],
    "stats": {
-    "last_bar_utc": "2026-10-28T11:46:00+00:00",
-    "last_bar_age_min": 10.8,
+    "last_bar_utc": "2026-10-28T12:02:00+00:00",
+    "last_bar_age_min": 10.2,
     "market_state": "open",
     "profile_volume": 400620.0,
     "prior_day": "2026-10-27",
     "prior_day_rth_range": 386.75,
     "overnight_range": 205.5,
-    "gap_vs_prior_close": 152.0,
+    "gap_vs_prior_close": 107.0,
     "gap_basis": "last price (pre-market)",
     "atr14": 589.45,
     "atr_days": 14,
@@ -2868,10 +2876,18 @@
     {
      "t": "2026-10-28T11:45:00+00:00",
      "o": 29954.5,
-     "h": 29966.5,
-     "l": 29953.25,
-     "c": 29965.25,
-     "v": 165.0
+     "h": 29969.0,
+     "l": 29918.25,
+     "c": 29920.0,
+     "v": 2743.0
+    },
+    {
+     "t": "2026-10-28T12:00:00+00:00",
+     "o": 29919.75,
+     "h": 29925.5,
+     "l": 29913.75,
+     "c": 29920.25,
+     "v": 431.0
     }
    ]
   }
@@ -2884,7 +2900,16 @@
     "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOd2xfcTN0UklocUc0ZHluT0RKdnRnUTVyUGx5TXZTNXRCVTZhV1BwT2l3N1B5eHF0MGJReXduTEFDd1paNUpxcEVrZUt5MUdRc050SnRaUUktTUJnb0RPQWtfWlBfN2gxNVllOFBTcDVwMU5MZ2VnOXFlc200ckE0ZlZiR051RVh5ejM3eWVhNHhFajk2VUdFMg?oc=5",
     "source": "gnews_futures",
     "published_utc": "2026-10-28T10:49:43+00:00",
-    "score": 11.81,
+    "score": 11.77,
+    "duplicates": 2
+   },
+   {
+    "id": "bd8bb55ee8",
+    "title": "Stock futures mixed as traders await Fed decision, Alphabet and Microsoft earnings (SPX:) - Seeking Alpha",
+    "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNTUpjMDk2Q3hVRnpRYmpJeFRPdUd3RzF0R2J5bnZrajFza3QtZmtmLUxmY2JUZnpud1RuQk1hc1VhVXF2N21GazRrbXc2YktHTFVVcFlSWl90V3J0elhBcl9qc0ExU3BKVWNuNGNHUXAyRUJqMnQ2ZnQwV2U1cWZZaGRhbklfMTZt?oc=5",
+    "source": "gnews_futures",
+    "published_utc": "2026-10-28T08:00:48+00:00",
+    "score": 11.3,
     "duplicates": 2
    },
    {
@@ -2893,7 +2918,7 @@
     "link": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxNdE0tczJvNmRuTndZV3N0ci1XNlYzcmpRNHdCR3FGMFJHbUFrRFMwa1FLQUQxSU1IODZ5WWtUUE5zTjdRQUFYNFFlMlFCcjluUVNKX0d3V2FDb0pBdTNfNDZtRzFWa0o1SWhMR2dJMWJHOF95T1ppV3B4ZmZadkZvTVlQT01KRmxMVm5RbEFFZFo0eGlnZ3ZPajVuZHZ0Ri1GWC0wZnY1cmNIQXh2UGNOY1A4M0xTeDlsWXZ6d05mcWJUMHprZWo4bHJmbnFyZkJqRUJtWU5UWFZWZU5f?oc=5",
     "source": "gnews_futures",
     "published_utc": "2026-10-28T10:30:44+00:00",
-    "score": 11.26,
+    "score": 11.22,
     "duplicates": 0
    },
    {
@@ -2902,16 +2927,7 @@
     "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPQjZwTGV3WDM1WGdBWUlMckZzMTJNUWhGeUJKU1R4SFBUNldhUXZKMkFPMWNPTnhhQ0pFTUJJTW9yeS1OMU5mVVcwTGZUaXpSRDhFV2lDbjNtN1B0ODdUZ1k5czgyMVg1VTlFR0kzR1Jod2RVd29Ea1J0elU1NU9vMW9qNU1SZVdzbTZQbzlnSXU5ejIyQXc?oc=5",
     "source": "gnews_futures",
     "published_utc": "2026-10-28T09:48:36+00:00",
-    "score": 11.14,
-    "duplicates": 1
-   },
-   {
-    "id": "bd8bb55ee8",
-    "title": "Stock futures mixed as traders await Fed decision, Alphabet and Microsoft earnings (SPX:) - Seeking Alpha",
-    "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNTUpjMDk2Q3hVRnpRYmpJeFRPdUd3RzF0R2J5bnZrajFza3QtZmtmLUxmY2JUZnpud1RuQk1hc1VhVXF2N21GazRrbXc2YktHTFVVcFlSWl90V3J0elhBcl9qc0ExU3BKVWNuNGNHUXAyRUJqMnQ2ZnQwV2U1cWZZaGRhbklfMTZt?oc=5",
-    "source": "gnews_futures",
-    "published_utc": "2026-10-28T08:00:48+00:00",
-    "score": 10.84,
+    "score": 11.1,
     "duplicates": 1
    },
    {
@@ -2920,7 +2936,7 @@
     "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPQVNrQUVwN1c3SjBCODU1TXUwRy1hQ2lIQUxFZkJ3dGhXa0NZalhVTFFoeTU4MlB3VDRwWE1QRktITG5FZnd1eUVDTjRUankwRGgzRkRKTGdwZDVDbWUyTWVKNlRKVld5RVdaTllzZkVhdXUzNkZUOU5RWWNOQVJTY2xuaDJZZXlybC05LXRmTmpPb2RvVlliLWxBUXZVRldXU3kyY2pWb1ZmZlFNUU1KMmN4aV9wMk9Lai01YXcza0JqdDQ?oc=5",
     "source": "gnews_futures",
     "published_utc": "2026-10-28T09:57:59+00:00",
-    "score": 10.17,
+    "score": 10.13,
     "duplicates": 1
    },
    {
@@ -2929,7 +2945,7 @@
     "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQVEptampCZlBOc0tidWEzdUhSZW90U01fclJlQVhhTFZXQ2hxaXBrTU9NY21NeVZJSGpuV0VwX1hrcWxyb24xMFNhY08tTU5HVDU0aG5OZ1NKRW9XNGtmV1NzQ3lrcnhmcTM3aHpLbWdHMkRNWHBnUllOMkR2OWRaQzg4cTFLbmxCNFRpaGx4T2pUaUVkZlk0Wms2RG1KZS1mRWFOZm9yelQ0VHFkNkx4QnZOajdVSVdQOHp4QlBHTWRCTzdHdWI2cQ?oc=5",
     "source": "gnews_futures",
     "published_utc": "2026-10-28T06:56:02+00:00",
-    "score": 10.16,
+    "score": 10.12,
     "duplicates": 1
    },
    {
@@ -2938,8 +2954,26 @@
     "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNWmc1QWhpbVFESkhwdWxUaFQ2bF9GN0cwUU1fTXJLNzItcktwU0xnZ3dTRGxScmpNQlZUU2RvVV83WENQQmxJb1E4R1BXNGh3eU55c05MdGNBeTZTR2tjcVBGQ0FjOEV0ck5sNDZITURXRUpieWNIOGhXR2ZLa0VMOGxicHlHSm9EdkttdThSQjIyU3pHc0pXdVNIa0tvYWo5T2dzRFFR?oc=5",
     "source": "gnews_fed",
     "published_utc": "2026-10-28T09:25:35+00:00",
-    "score": 10.08,
+    "score": 10.04,
     "duplicates": 6
+   },
+   {
+    "id": "5d2b9457d0",
+    "title": "Nasdaq futures rise as chip stocks gain ahead of Fed decision and big tech earnings - Traders Union",
+    "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOR012eGR4dXU2cDVLcFkyZ05JSVB2MEdNVWxfWnVFUHVqRU41cW92VWdQbFFtdGVxbEREQ3FCX2QzcFpFR080NF9WUWQ1MktFMTVwSEJTUlF1cVBZaU51YVVEN2VCTFhEVTM0R2NBcE5Qeng1dnhYZXphT0FSRlFvTll1clc5Z3pFbWVqMWJmVVVCMFct?oc=5",
+    "source": "gnews_futures",
+    "published_utc": "2026-10-28T09:56:23+00:00",
+    "score": 9.62,
+    "duplicates": 0
+   },
+   {
+    "id": "f0a43a508c",
+    "title": "Premarket: Nasdaq futures gain as SK Hynix lifts chips ahead of Fed decision, earnings - The Globe and Mail",
+    "link": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxOVXBEX0J3RWpYc3VZaGNfeU1jXzBJd2g0MjVndGhxeVJ3TE9qa2p5RzlRVXI2eUpZOW9DSC1SQW4yRENUaV9YY2RMRlpmcHBuLWdJYXZGb3BnU1ZLYTBCLVY0ZFUyWWxTS216dGdKRWlvQ19fV3lJU0pKWVZnWnZTSkNuMGdWYmd5RkFQMG1fLVVZLWEzYmpRc05RVmxmMXNxNF9qMVdkSlJJaWNKVUVvMGR3S2M2Y2I2ZnZvQXIyWndVVjRvNXF5cXZ6SjhNWThlaUpGTjcxTURQYVZMTFRnSHJUMA?oc=5",
+    "source": "gnews_futures",
+    "published_utc": "2026-10-28T09:07:31+00:00",
+    "score": 9.49,
+    "duplicates": 0
    },
    {
     "id": "0c41d1bac0",
@@ -2947,7 +2981,7 @@
     "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNQS02TUtVR24xWjdGNTJrLXR6bGtDYW5EclpiY2JOMDJvX1lMN1BDd3NEalhRb3lsdUpsNW1Uc0FjdlFDV3pCTHU3aEY0Mm1qajZaMmd0QWNRcl9JVE93M2txc2ExR3JkbU1qUk0tZDFPd1ZsQUx4dEJabmpSQ1RxQkljSVdqdlczX3JNaHVHWTJDMDQ2X285ZDhYZW9LaV9aMlVBVm5lZFJFZw?oc=5",
     "source": "gnews_futures",
     "published_utc": "2026-10-28T09:24:00+00:00",
-    "score": 9.08,
+    "score": 9.03,
     "duplicates": 0
    },
    {
@@ -2956,7 +2990,7 @@
     "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQbXFpNW9RVEo3WTdHcUROTjhyek0tUGQzVFhKc3ctVm9BOGZ0MERmdWtUbFhVU0VUR0g3LTdMSEhuT3N1R1draXlJRW9yb3p3a0hZZHZaLVFoN2dyVWlHaFBZUWFBY3JrQk1UN1dLV05mcWt3bTBDY0doRTZLQ21lUGUtVWt6aXdVbFRES1JGUmFTZHVYeXg4RjNpbGY4bWRUWFRFOVVENWhVMGw3d21obmFwTzl0NGFXWXc?oc=5",
     "source": "gnews_megacap",
     "published_utc": "2026-10-28T04:57:31+00:00",
-    "score": 8.84,
+    "score": 8.79,
     "duplicates": 0
    },
    {
@@ -2965,34 +2999,16 @@
     "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQTGMyNlVMOV9mTHQ1ZEd2MWZiZDZsYUZ3U1dYQVVoeDBsbVd4V3BhemNaeTV1UjgxTDUwNEZsMzEyWjB4cUExZTBYS3d0b2dUX2NWa3p3N3RpWE9yZ1dpekd6cjNyOThHRDJST3dXaEs0R084Wk1kdmY3cHA2SXdFTEs1a1ByQ3RpZTNxUllGczdDMnktd1pmdnRON1duQ0Z2VHhRMF9iU3E?oc=5",
     "source": "gnews_megacap",
     "published_utc": "2026-10-28T09:54:50+00:00",
-    "score": 8.66,
-    "duplicates": 0
-   },
-   {
-    "id": "063231056a",
-    "title": "Stock Market Today: S&P 500, Dow Jones Futures Trade Mixed Ahead of Federal Reserve Interest Rate Decision — SKHY, STX, V, GOOGL in Focus - TradingView",
-    "link": "https://news.google.com/rss/articles/CBMimAJBVV95cUxNOHIyTThiOE03WlhxUFYxRTBxMy1RVm53Wkh1NDg5Z1lmVEp3c1JRSlJtRzJQV09faVNvWEZHOFRJOUtSWDdKbjVGaHpYZmZiQUJfU1dEUUV0c0lDWEw2TjJmc0xKY1RyZkJwcm4wUmd3ay1DTy1jWDNYcVpxWlFMcFBReUl4N3hoaGtfZVU0NVJMRS1zazlEdjZxbGpVbnBjTFBIcjlnNGVET1RXTk50STZHTXExb1MybUt2UEF4XzJuQnNOcHJhdU1na1REMzlNWmZCc0c3QnBUWG84VFQ4eGt3bmgtakZWUmNsbXFueGFINF9RbE1Jbm1ndFFEQVVnQkg1b2p6VnJoSElMeTItV2YwYkowS1Bw?oc=5",
-    "source": "gnews_fed",
-    "published_utc": "2026-10-28T09:47:15+00:00",
-    "score": 8.64,
-    "duplicates": 0
-   },
-   {
-    "id": "68ad4c10d7",
-    "title": "Stock market today: Dow futures fall, S&P 500 and Nasdaq futures climb ahead of Fed decision, Big Tech earnings - AOL.com",
-    "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1ZdW1udWVEcXJJV0t5VmNsMEFKSFZYTGdteVN5TF9vcnptRXBNOEhCYWZKamtxMGZBTG1iQ2N2bktnajZfMG1BT0U2MjcyaG9kVGpwenF0STFGZzFnRm43cDhrNHpQWWFVZ081dmc2b0h4ZVgtS3BIOU1LNkpQelE?oc=5",
-    "source": "gnews_futures",
-    "published_utc": "2026-10-28T08:06:42+00:00",
-    "score": 8.36,
+    "score": 8.62,
     "duplicates": 0
    }
   ],
   "summary": {
    "lines": [
     "US Stock Futures Mixed Ahead of Alphabet, Microsoft Earnings and Federal Reserve Rate Decision: Dow Jones, S&P, Nasdaq, Wall Street - Yahoo Finance [2dfe601b81]",
+    "Stock futures mixed as traders await Fed decision, Alphabet and Microsoft earnings (SPX:) - Seeking Alpha [bd8bb55ee8]",
     "Nasdaq Futures Climb as SK Hynix Adds Fuel to Chip Rally; Fed Decision and Big Tech Earnings in Focus - Barchart.com [af4b33f45f]",
     "S&P 500, Nasdaq Futures Mixed Ahead Of Fed Decision, Big Tech Earnings: GOOGL, MSFT, HOOD, SOFI In Focus - Yahoo Finance [2339d5ebb5]",
-    "Stock futures mixed as traders await Fed decision, Alphabet and Microsoft earnings (SPX:) - Seeking Alpha [bd8bb55ee8]",
     "Nasdaq futures rise as SK Hynix boosts chips before Fed decision, earnings - Reuters [95ef527608]"
    ],
    "backend": "none",
