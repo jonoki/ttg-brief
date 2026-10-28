@@ -1,11 +1,11 @@
 {
  "meta": {
-  "generated_at_utc": "2026-10-28T12:58:09.749472+00:00",
-  "generated_at_local": "Wed 28 Oct 2026 09:58 ADT",
+  "generated_at_utc": "2026-10-28T20:05:01.723409+00:00",
+  "generated_at_local": "Wed 28 Oct 2026 17:05 ADT",
   "trading_day": "2026-10-28",
   "display_tz": "America/Halifax",
   "version": "0.1.0",
-  "run": "post-data",
+  "run": "post-close",
   "variant": "public"
  },
  "calendar": {
@@ -158,14 +158,14 @@
    }
   ],
   "next_event": {
-   "name": "Federal Funds Rate",
+   "name": "Advance GDP q/q",
    "impact": "high",
-   "time_utc": "2026-10-28T18:00:00+00:00",
-   "local": "15:00 ADT",
-   "et": "14:00 ET",
-   "in": "5h 01m",
-   "consensus": "4.00%",
-   "prior": "4.00%"
+   "time_utc": "2026-10-29T12:30:00+00:00",
+   "local": "09:30 ADT",
+   "et": "08:30 ET",
+   "in": "16h 24m",
+   "consensus": "3.2%",
+   "prior": "1.5%"
   },
   "sources": [],
   "warnings": []
@@ -174,10 +174,10 @@
   {
    "root": "ES",
    "trading_day": "2026-10-28",
-   "as_of_utc": "2026-10-28T12:58:09.749472+00:00",
+   "as_of_utc": "2026-10-28T20:05:01.723409+00:00",
    "source": "yahoo",
    "delayed": true,
-   "last_price": 7771.75,
+   "last_price": 7776.0,
    "levels": [
     {
      "tag": "exp_hi",
@@ -194,25 +194,46 @@
      "note": ""
     },
     {
-     "tag": "onh",
-     "label": "Overnight high",
-     "price": 7778.25,
-     "group": "overnight",
-     "note": "since 18:00 ET, 879 bars"
+     "tag": "tdh",
+     "label": "Today's RTH high",
+     "price": 7794.25,
+     "group": "today",
+     "note": "session complete"
     },
     {
      "tag": "wh",
      "label": "Week high",
-     "price": 7778.25,
+     "price": 7794.25,
      "group": "week",
      "note": "since 2026-10-26"
     },
     {
-     "tag": "rn_minor_up",
-     "label": "Round 25 above",
+     "tag": "onh",
+     "label": "Overnight high",
+     "price": 7778.25,
+     "group": "overnight",
+     "note": "since 18:00 ET, 920 bars"
+    },
+    {
+     "tag": "tdc",
+     "label": "Today's RTH close (16:00 bar)",
+     "price": 7776.0,
+     "group": "today",
+     "note": "becomes next session's prior-day close"
+    },
+    {
+     "tag": "rn_minor_dn",
+     "label": "Round 25 below",
      "price": 7775.0,
      "group": "round",
      "note": ""
+    },
+    {
+     "tag": "rtho",
+     "label": "Today's RTH open",
+     "price": 7774.75,
+     "group": "today",
+     "note": "09:30 bar open"
     },
     {
      "tag": "pdh",
@@ -231,7 +252,7 @@
     {
      "tag": "onvwap",
      "label": "Overnight VWAP",
-     "price": 7764.14,
+     "price": 7765.19,
      "group": "overnight",
      "note": "typical-price VWAP"
     },
@@ -257,18 +278,18 @@
      "note": ""
     },
     {
+     "tag": "tdl",
+     "label": "Today's RTH low",
+     "price": 7751.5,
+     "group": "today",
+     "note": ""
+    },
+    {
      "tag": "rn_major_dn",
      "label": "Round 50 below",
      "price": 7750.0,
      "group": "round",
      "note": ""
-    },
-    {
-     "tag": "pwh",
-     "label": "Prior-week high",
-     "price": 7742.5,
-     "group": "week",
-     "note": "2 session(s) of data — PARTIAL"
     },
     {
      "tag": "val",
@@ -283,6 +304,13 @@
      "price": 7734.75,
      "group": "prior_day",
      "note": "2026-10-27"
+    },
+    {
+     "tag": "pwh",
+     "label": "Prior-week high",
+     "price": 7714.25,
+     "group": "week",
+     "note": "2 session(s) of data — PARTIAL"
     },
     {
      "tag": "pdl",
@@ -321,15 +349,15 @@
     }
    ],
    "stats": {
-    "last_bar_utc": "2026-10-28T12:48:00+00:00",
-    "last_bar_age_min": 10.2,
+    "last_bar_utc": "2026-10-28T19:55:00+00:00",
+    "last_bar_age_min": 10.0,
     "market_state": "open",
     "profile_volume": 1129528.0,
     "prior_day": "2026-10-27",
     "prior_day_rth_range": 60.25,
     "overnight_range": 26.0,
-    "gap_vs_prior_close": 13.75,
-    "gap_basis": "last price (pre-market)",
+    "gap_vs_prior_close": 16.75,
+    "gap_basis": "RTH open",
     "atr14": 82.21,
     "atr_days": 14,
     "avg_daily_range": 81.17,
@@ -1550,18 +1578,242 @@
      "o": 7774.25,
      "h": 7774.75,
      "l": 7770.0,
-     "c": 7771.75,
-     "v": 1182.0
+     "c": 7773.0,
+     "v": 5173.0
+    },
+    {
+     "t": "2026-10-28T13:00:00+00:00",
+     "o": 7772.75,
+     "h": 7777.75,
+     "l": 7772.5,
+     "c": 7775.0,
+     "v": 6877.0
+    },
+    {
+     "t": "2026-10-28T13:15:00+00:00",
+     "o": 7775.25,
+     "h": 7776.5,
+     "l": 7772.0,
+     "c": 7774.5,
+     "v": 9478.0
+    },
+    {
+     "t": "2026-10-28T13:30:00+00:00",
+     "o": 7774.75,
+     "h": 7777.25,
+     "l": 7763.75,
+     "c": 7764.75,
+     "v": 56606.0
+    },
+    {
+     "t": "2026-10-28T13:45:00+00:00",
+     "o": 7764.5,
+     "h": 7766.5,
+     "l": 7751.5,
+     "c": 7765.75,
+     "v": 58829.0
+    },
+    {
+     "t": "2026-10-28T14:00:00+00:00",
+     "o": 7765.75,
+     "h": 7770.5,
+     "l": 7761.0,
+     "c": 7769.25,
+     "v": 53435.0
+    },
+    {
+     "t": "2026-10-28T14:15:00+00:00",
+     "o": 7769.25,
+     "h": 7771.0,
+     "l": 7763.5,
+     "c": 7767.25,
+     "v": 37211.0
+    },
+    {
+     "t": "2026-10-28T14:30:00+00:00",
+     "o": 7767.0,
+     "h": 7771.25,
+     "l": 7762.25,
+     "c": 7765.0,
+     "v": 34586.0
+    },
+    {
+     "t": "2026-10-28T14:45:00+00:00",
+     "o": 7765.25,
+     "h": 7767.5,
+     "l": 7759.25,
+     "c": 7762.25,
+     "v": 32571.0
+    },
+    {
+     "t": "2026-10-28T15:00:00+00:00",
+     "o": 7762.5,
+     "h": 7771.25,
+     "l": 7761.0,
+     "c": 7770.25,
+     "v": 31139.0
+    },
+    {
+     "t": "2026-10-28T15:15:00+00:00",
+     "o": 7769.75,
+     "h": 7775.25,
+     "l": 7768.75,
+     "c": 7769.75,
+     "v": 27487.0
+    },
+    {
+     "t": "2026-10-28T15:30:00+00:00",
+     "o": 7770.0,
+     "h": 7775.5,
+     "l": 7767.75,
+     "c": 7774.5,
+     "v": 26940.0
+    },
+    {
+     "t": "2026-10-28T15:45:00+00:00",
+     "o": 7774.5,
+     "h": 7776.75,
+     "l": 7769.25,
+     "c": 7773.5,
+     "v": 25616.0
+    },
+    {
+     "t": "2026-10-28T16:00:00+00:00",
+     "o": 7773.25,
+     "h": 7776.5,
+     "l": 7772.75,
+     "c": 7774.5,
+     "v": 21277.0
+    },
+    {
+     "t": "2026-10-28T16:15:00+00:00",
+     "o": 7774.5,
+     "h": 7774.5,
+     "l": 7768.5,
+     "c": 7772.75,
+     "v": 17859.0
+    },
+    {
+     "t": "2026-10-28T16:30:00+00:00",
+     "o": 7772.75,
+     "h": 7775.25,
+     "l": 7770.5,
+     "c": 7773.0,
+     "v": 16737.0
+    },
+    {
+     "t": "2026-10-28T16:45:00+00:00",
+     "o": 7773.0,
+     "h": 7787.25,
+     "l": 7772.25,
+     "c": 7778.75,
+     "v": 53655.0
+    },
+    {
+     "t": "2026-10-28T17:00:00+00:00",
+     "o": 7778.75,
+     "h": 7779.25,
+     "l": 7771.25,
+     "c": 7772.75,
+     "v": 27473.0
+    },
+    {
+     "t": "2026-10-28T17:15:00+00:00",
+     "o": 7772.75,
+     "h": 7773.5,
+     "l": 7766.75,
+     "c": 7768.75,
+     "v": 21807.0
+    },
+    {
+     "t": "2026-10-28T17:30:00+00:00",
+     "o": 7769.0,
+     "h": 7771.75,
+     "l": 7766.75,
+     "c": 7769.5,
+     "v": 18337.0
+    },
+    {
+     "t": "2026-10-28T17:45:00+00:00",
+     "o": 7769.5,
+     "h": 7776.25,
+     "l": 7768.75,
+     "c": 7772.25,
+     "v": 17946.0
+    },
+    {
+     "t": "2026-10-28T18:00:00+00:00",
+     "o": 7773.5,
+     "h": 7788.5,
+     "l": 7761.25,
+     "c": 7764.25,
+     "v": 46291.0
+    },
+    {
+     "t": "2026-10-28T18:15:00+00:00",
+     "o": 7764.25,
+     "h": 7770.5,
+     "l": 7758.0,
+     "c": 7769.0,
+     "v": 41678.0
+    },
+    {
+     "t": "2026-10-28T18:30:00+00:00",
+     "o": 7769.0,
+     "h": 7794.25,
+     "l": 7756.25,
+     "c": 7781.5,
+     "v": 112324.0
+    },
+    {
+     "t": "2026-10-28T18:45:00+00:00",
+     "o": 7781.75,
+     "h": 7788.0,
+     "l": 7762.25,
+     "c": 7772.5,
+     "v": 101179.0
+    },
+    {
+     "t": "2026-10-28T19:00:00+00:00",
+     "o": 7772.25,
+     "h": 7786.25,
+     "l": 7757.0,
+     "c": 7767.5,
+     "v": 82440.0
+    },
+    {
+     "t": "2026-10-28T19:15:00+00:00",
+     "o": 7767.5,
+     "h": 7771.75,
+     "l": 7757.0,
+     "c": 7768.25,
+     "v": 54509.0
+    },
+    {
+     "t": "2026-10-28T19:30:00+00:00",
+     "o": 7768.5,
+     "h": 7774.25,
+     "l": 7763.5,
+     "c": 7773.0,
+     "v": 57532.0
+    },
+    {
+     "t": "2026-10-28T19:45:00+00:00",
+     "o": 7773.0,
+     "h": 7784.25,
+     "l": 7770.75,
+     "c": 7776.0,
+     "v": 42153.0
     }
    ]
   },
   {
    "root": "NQ",
    "trading_day": "2026-10-28",
-   "as_of_utc": "2026-10-28T12:58:09.749472+00:00",
+   "as_of_utc": "2026-10-28T20:05:01.723409+00:00",
    "source": "yahoo",
    "delayed": true,
-   "last_price": 29901.75,
+   "last_price": 29939.5,
    "levels": [
     {
      "tag": "exp_hi",
@@ -1569,6 +1821,20 @@
      "price": 30402.7,
      "group": "range",
      "note": "ATR over 14 days"
+    },
+    {
+     "tag": "tdh",
+     "label": "Today's RTH high",
+     "price": 30009.0,
+     "group": "today",
+     "note": "session complete"
+    },
+    {
+     "tag": "wh",
+     "label": "Week high",
+     "price": 30009.0,
+     "group": "week",
+     "note": "since 2026-10-26"
     },
     {
      "tag": "rn_major_up",
@@ -1582,14 +1848,7 @@
      "label": "Overnight high",
      "price": 29989.25,
      "group": "overnight",
-     "note": "since 18:00 ET, 879 bars"
-    },
-    {
-     "tag": "wh",
-     "label": "Week high",
-     "price": 29989.25,
-     "group": "week",
-     "note": "since 2026-10-26"
+     "note": "since 18:00 ET, 920 bars"
     },
     {
      "tag": "rn_minor_up",
@@ -1599,9 +1858,23 @@
      "note": ""
     },
     {
+     "tag": "tdc",
+     "label": "Today's RTH close (16:00 bar)",
+     "price": 29939.5,
+     "group": "today",
+     "note": "becomes next session's prior-day close"
+    },
+    {
+     "tag": "rtho",
+     "label": "Today's RTH open",
+     "price": 29929.25,
+     "group": "today",
+     "note": "09:30 bar open"
+    },
+    {
      "tag": "onvwap",
      "label": "Overnight VWAP",
-     "price": 29903.69,
+     "price": 29904.81,
      "group": "overnight",
      "note": "typical-price VWAP"
     },
@@ -1648,18 +1921,18 @@
      "note": ""
     },
     {
+     "tag": "tdl",
+     "label": "Today's RTH low",
+     "price": 29767.25,
+     "group": "today",
+     "note": ""
+    },
+    {
      "tag": "val",
      "label": "Prior-day VAL",
      "price": 29638.0,
      "group": "profile",
      "note": "70 % value area"
-    },
-    {
-     "tag": "pwh",
-     "label": "Prior-week high",
-     "price": 29594.75,
-     "group": "week",
-     "note": "2 session(s) of data — PARTIAL"
     },
     {
      "tag": "pdo",
@@ -1674,6 +1947,13 @@
      "price": 29494.5,
      "group": "prior_day",
      "note": "2026-10-27"
+    },
+    {
+     "tag": "pwh",
+     "label": "Prior-week high",
+     "price": 29326.0,
+     "group": "week",
+     "note": "2 session(s) of data — PARTIAL"
     },
     {
      "tag": "pgl",
@@ -1705,15 +1985,15 @@
     }
    ],
    "stats": {
-    "last_bar_utc": "2026-10-28T12:48:00+00:00",
-    "last_bar_age_min": 10.2,
+    "last_bar_utc": "2026-10-28T19:55:00+00:00",
+    "last_bar_age_min": 10.0,
     "market_state": "open",
     "profile_volume": 400620.0,
     "prior_day": "2026-10-27",
     "prior_day_rth_range": 386.75,
     "overnight_range": 205.5,
-    "gap_vs_prior_close": 88.5,
-    "gap_basis": "last price (pre-market)",
+    "gap_vs_prior_close": 116.0,
+    "gap_basis": "RTH open",
     "atr14": 589.45,
     "atr_days": 14,
     "avg_daily_range": 570.95,
@@ -2934,8 +3214,232 @@
      "o": 29919.25,
      "h": 29924.0,
      "l": 29888.25,
-     "c": 29901.75,
-     "v": 710.0
+     "c": 29900.25,
+     "v": 3125.0
+    },
+    {
+     "t": "2026-10-28T13:00:00+00:00",
+     "o": 29900.0,
+     "h": 29940.75,
+     "l": 29895.75,
+     "c": 29928.5,
+     "v": 4046.0
+    },
+    {
+     "t": "2026-10-28T13:15:00+00:00",
+     "o": 29928.75,
+     "h": 29935.0,
+     "l": 29897.75,
+     "c": 29929.5,
+     "v": 5325.0
+    },
+    {
+     "t": "2026-10-28T13:30:00+00:00",
+     "o": 29929.25,
+     "h": 29952.75,
+     "l": 29861.0,
+     "c": 29878.0,
+     "v": 34410.0
+    },
+    {
+     "t": "2026-10-28T13:45:00+00:00",
+     "o": 29879.25,
+     "h": 29879.25,
+     "l": 29767.25,
+     "c": 29858.5,
+     "v": 28538.0
+    },
+    {
+     "t": "2026-10-28T14:00:00+00:00",
+     "o": 29858.5,
+     "h": 29874.0,
+     "l": 29793.5,
+     "c": 29833.0,
+     "v": 26080.0
+    },
+    {
+     "t": "2026-10-28T14:15:00+00:00",
+     "o": 29834.25,
+     "h": 29853.5,
+     "l": 29798.75,
+     "c": 29843.25,
+     "v": 16762.0
+    },
+    {
+     "t": "2026-10-28T14:30:00+00:00",
+     "o": 29844.5,
+     "h": 29864.0,
+     "l": 29807.0,
+     "c": 29823.5,
+     "v": 15209.0
+    },
+    {
+     "t": "2026-10-28T14:45:00+00:00",
+     "o": 29825.75,
+     "h": 29835.5,
+     "l": 29784.0,
+     "c": 29804.5,
+     "v": 12778.0
+    },
+    {
+     "t": "2026-10-28T15:00:00+00:00",
+     "o": 29804.75,
+     "h": 29860.25,
+     "l": 29802.5,
+     "c": 29852.75,
+     "v": 13010.0
+    },
+    {
+     "t": "2026-10-28T15:15:00+00:00",
+     "o": 29852.75,
+     "h": 29861.5,
+     "l": 29831.25,
+     "c": 29831.5,
+     "v": 9026.0
+    },
+    {
+     "t": "2026-10-28T15:30:00+00:00",
+     "o": 29835.0,
+     "h": 29863.5,
+     "l": 29827.25,
+     "c": 29858.75,
+     "v": 7067.0
+    },
+    {
+     "t": "2026-10-28T15:45:00+00:00",
+     "o": 29859.25,
+     "h": 29870.0,
+     "l": 29825.75,
+     "c": 29847.75,
+     "v": 8841.0
+    },
+    {
+     "t": "2026-10-28T16:00:00+00:00",
+     "o": 29849.0,
+     "h": 29866.0,
+     "l": 29837.75,
+     "c": 29846.25,
+     "v": 7027.0
+    },
+    {
+     "t": "2026-10-28T16:15:00+00:00",
+     "o": 29846.0,
+     "h": 29849.5,
+     "l": 29827.5,
+     "c": 29846.25,
+     "v": 5216.0
+    },
+    {
+     "t": "2026-10-28T16:30:00+00:00",
+     "o": 29846.0,
+     "h": 29860.0,
+     "l": 29838.0,
+     "c": 29853.75,
+     "v": 5079.0
+    },
+    {
+     "t": "2026-10-28T16:45:00+00:00",
+     "o": 29852.5,
+     "h": 29920.5,
+     "l": 29832.75,
+     "c": 29885.25,
+     "v": 15608.0
+    },
+    {
+     "t": "2026-10-28T17:00:00+00:00",
+     "o": 29885.5,
+     "h": 29892.25,
+     "l": 29845.75,
+     "c": 29852.0,
+     "v": 7579.0
+    },
+    {
+     "t": "2026-10-28T17:15:00+00:00",
+     "o": 29851.75,
+     "h": 29855.5,
+     "l": 29811.0,
+     "c": 29817.75,
+     "v": 6793.0
+    },
+    {
+     "t": "2026-10-28T17:30:00+00:00",
+     "o": 29818.0,
+     "h": 29849.5,
+     "l": 29811.5,
+     "c": 29840.0,
+     "v": 5231.0
+    },
+    {
+     "t": "2026-10-28T17:45:00+00:00",
+     "o": 29840.5,
+     "h": 29874.5,
+     "l": 29835.5,
+     "c": 29864.25,
+     "v": 5916.0
+    },
+    {
+     "t": "2026-10-28T18:00:00+00:00",
+     "o": 29858.75,
+     "h": 29918.25,
+     "l": 29801.75,
+     "c": 29818.25,
+     "v": 15585.0
+    },
+    {
+     "t": "2026-10-28T18:15:00+00:00",
+     "o": 29818.0,
+     "h": 29868.5,
+     "l": 29785.75,
+     "c": 29859.75,
+     "v": 13377.0
+    },
+    {
+     "t": "2026-10-28T18:30:00+00:00",
+     "o": 29860.25,
+     "h": 30009.0,
+     "l": 29797.0,
+     "c": 29943.5,
+     "v": 49339.0
+    },
+    {
+     "t": "2026-10-28T18:45:00+00:00",
+     "o": 29946.5,
+     "h": 29966.75,
+     "l": 29837.25,
+     "c": 29903.5,
+     "v": 37884.0
+    },
+    {
+     "t": "2026-10-28T19:00:00+00:00",
+     "o": 29904.5,
+     "h": 29970.5,
+     "l": 29821.5,
+     "c": 29883.0,
+     "v": 30342.0
+    },
+    {
+     "t": "2026-10-28T19:15:00+00:00",
+     "o": 29881.75,
+     "h": 29903.5,
+     "l": 29827.75,
+     "c": 29875.75,
+     "v": 18192.0
+    },
+    {
+     "t": "2026-10-28T19:30:00+00:00",
+     "o": 29876.0,
+     "h": 29924.5,
+     "l": 29853.25,
+     "c": 29915.5,
+     "v": 14968.0
+    },
+    {
+     "t": "2026-10-28T19:45:00+00:00",
+     "o": 29915.5,
+     "h": 29995.0,
+     "l": 29907.75,
+     "c": 29939.5,
+     "v": 12252.0
     }
    ]
   }
@@ -2943,31 +3447,49 @@
  "news": {
   "headlines": [
    {
-    "id": "298a44e293",
-    "title": "Nasdaq futures gain as SK Hynix lifts chips ahead of Fed decision, earnings - Free Malaysia Today",
-    "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxQWmRtMXFmM1BQRDVWVWt4SE1mRm1fV3BKaVVaZy1keEo2Qjl5MC03bXRveHJxWF9QcHdjZjZsT0U4WEVwektrdk1YUnBlcktLOWl2cng1a2duWG9JOFlvblc4anZGdnJmMHUxaGlfZmJJLUJFeDUyb2RWczRMUW9yRTF5ZFFtWEsteVVkWHF1RUtRV1MtVkRzM0QxT29fWjFuaERWRnFjTXFJUF9kZlU5Rm1WZ21zUnIzYlpTRHBSS1pxa2VIaHBqSGQ5X041cWNyT1dR?oc=5",
-    "source": "gnews_futures",
-    "published_utc": "2026-10-28T12:48:22+00:00",
-    "score": 12.47,
-    "duplicates": 5
+    "id": "7ac8613b10",
+    "title": "Federal Reserve keeps rates unchanged despite elevated inflation - AP News",
+    "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQdmpNR3hXT3B1c2RacHY4TFZnNjlfaTY2c0tXMXZjSWE5Z2JCZlNDZTE0dGRQYjNEejl5ZXFILTNPQ05pX0NyRWpwNW1YVzdpREhYblpHWTZMZkkzNFZnVTZ1NWV4M3FtR0VMUmRNTjczY1NGaTEtSFptWEY0NF9RZ1otWWdjMTZDYXE3SHRWM0NhdEtyczFDeXFYT3RWVF9DTmdGTHdGWHR1QQ?oc=5",
+    "source": "gnews_fed",
+    "published_utc": "2026-10-28T19:47:00+00:00",
+    "score": 14.95,
+    "duplicates": 15
    },
    {
-    "id": "2dfe601b81",
-    "title": "US Stock Futures Mixed Ahead of Alphabet, Microsoft Earnings and Federal Reserve Rate Decision: Dow Jones, S&P, Nasdaq, Wall Street - Yahoo Finance",
-    "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOd2xfcTN0UklocUc0ZHluT0RKdnRnUTVyUGx5TXZTNXRCVTZhV1BwT2l3N1B5eHF0MGJReXduTEFDd1paNUpxcEVrZUt5MUdRc050SnRaUUktTUJnb0RPQWtfWlBfN2gxNVllOFBTcDVwMU5MZ2VnOXFlc200ckE0ZlZiR051RVh5ejM3eWVhNHhFajk2VUdFMg?oc=5",
-    "source": "gnews_futures",
-    "published_utc": "2026-10-28T10:49:43+00:00",
-    "score": 11.64,
-    "duplicates": 2
+    "id": "d1ab0e0a7d",
+    "title": "Federal Reserve holds interest rates steady in face of persistent inflation - WFLA",
+    "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOckZQR19uZVlJMVlpTTV3Nk5BZzFFdUFIOERyZ0lYdy0tQVJiWkVFLUhpajRIbWd4M0t4S29YYWtPMTdUY3FYNVdMdjhpdThsTkI4WXlKLVAzUHFmdXZfaUtuTkc3YUJhNlNqZ2xLWWt4V0hUSVZNUUpCWDlGUXpaLU0yWWVzR2h2d29MY2VQNGk1cjJoTzBlbkZscjd2TnhLejI5Y2J5QUp3YVlHQWdLX1F3?oc=5",
+    "source": "gnews_fed",
+    "published_utc": "2026-10-28T19:24:00+00:00",
+    "score": 11.89,
+    "duplicates": 9
    },
    {
-    "id": "bd8bb55ee8",
-    "title": "Stock futures mixed as traders await Fed decision, Alphabet and Microsoft earnings (SPX:) - Seeking Alpha",
-    "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNTUpjMDk2Q3hVRnpRYmpJeFRPdUd3RzF0R2J5bnZrajFza3QtZmtmLUxmY2JUZnpud1RuQk1hc1VhVXF2N21GazRrbXc2YktHTFVVcFlSWl90V3J0elhBcl9qc0ExU3BKVWNuNGNHUXAyRUJqMnQ2ZnQwV2U1cWZZaGRhbklfMTZt?oc=5",
+    "id": "b641015b3a",
+    "title": "Nasdaq futures gain as SK Hynix lifts chips ahead of Fed decision, earnings - marketscreener.com",
+    "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPR25lSWVDRzZrSl8zeW95S1VtczNkVUphSGZSY0F1VVZkbk8wTW9wcDZaZFZNRjliWnNPSzVIU2FiZ2dRemdheFQyOUl2MFZGRWZXTy14NXpmR2g5eEM5aG9zZ1NoUXcyNDhQZHRsYjNMaTdzMDV2R1BROUd6dEtFSGRVSGdnYUwwaFhkZTFxaUF5MDEzVUxoUTJ1LWFzYVBSY2tIVlEta3k2VTlsQXltUFZoOTNUaHdKZ1J3Ny1LT3hPLTNVS3c?oc=5",
     "source": "gnews_futures",
-    "published_utc": "2026-10-28T08:00:48+00:00",
-    "score": 11.17,
-    "duplicates": 2
+    "published_utc": "2026-10-28T13:25:46+00:00",
+    "score": 10.39,
+    "duplicates": 3
+   },
+   {
+    "id": "7bb3192fad",
+    "title": "US Fed holds interest rates steady despite surging inflation - South China Morning Post",
+    "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQU2JaMTdvVVY5WWFSQXNmRERHeVp1Q1FBZ1lXT3FtMVNuVC04b0d2VU1GTVNYN21XaG1BcnBiaGU5M0ZxUHRNV3pxQmdKczBfVUdMU2ZJVGpUZ0s3dXY3LWUzWjFpaWNLNHQtZGNJNGcxek5OWmFJLUdWV2JpS3RWWWtHWUtpSTUtWjNob2xfZkJPQm5kN3ktQzBzUm0wb0VSRzNGRDVuZXlSOFJYQlR3dG1Sak1KYktSMmVzNWNnbVEtNENOMEVaTtIByAFBVV95cUxPcFJCQktsTVlteFhyY0c3VmwyWW9IVVRJZFMxdzlDNldLRWVpSExsYk1xQlFvdVIxa3lHaEktTFhzYXNQUmoxeW5MR3JXbEh4djZ4ZU5TWjZhTDhjcjk2ZDBMenBWbGs2VHlCRXBTZm5Nd0x3ZWFvZndqU1RjN1Ita2IxRU9JTHlILXlxUGFlUDAwLXBYQkhhdURnd3JJTXRrR2RpVnVtdnpSamRBUEhuS3laYUFMc1pnU0V0ZjhtaTRETjl3ZWRJLQ?oc=5",
+    "source": "gnews_macro",
+    "published_utc": "2026-10-28T18:37:06+00:00",
+    "score": 10.26,
+    "duplicates": 3
+   },
+   {
+    "id": "3943cbf452",
+    "title": "Nasdaq futures rise as SK Hynix sparks chips rally; Fed decision, earnings ahead By Investing.com - Investing.com South Africa",
+    "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQVEptampCZlBOc0tidWEzdUhSZW90U01fclJlQVhhTFZXQ2hxaXBrTU9NY21NeVZJSGpuV0VwX1hrcWxyb24xMFNhY08tTU5HVDU0aG5OZ1NKRW9XNGtmV1NzQ3lrcnhmcTM3aHpLbWdHMkRNWHBnUllOMkR2OWRaQzg4cTFLbmxCNFRpaGx4T2pUaUVkZlk0Wms2RG1KZS1mRWFOZm9yelQ0VHFkNkx4QnZOajdVSVdQOHp4QlBHTWRCTzdHdWI2cQ?oc=5",
+    "source": "gnews_futures",
+    "published_utc": "2026-10-28T12:26:12+00:00",
+    "score": 10.23,
+    "duplicates": 0
    },
    {
     "id": "af4b33f45f",
@@ -2975,7 +3497,7 @@
     "link": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxNdE0tczJvNmRuTndZV3N0ci1XNlYzcmpRNHdCR3FGMFJHbUFrRFMwa1FLQUQxSU1IODZ5WWtUUE5zTjdRQUFYNFFlMlFCcjluUVNKX0d3V2FDb0pBdTNfNDZtRzFWa0o1SWhMR2dJMWJHOF95T1ppV3B4ZmZadkZvTVlQT01KRmxMVm5RbEFFZFo0eGlnZ3ZPajVuZHZ0Ri1GWC0wZnY1cmNIQXh2UGNOY1A4M0xTeDlsWXZ6d05mcWJUMHprZWo4bHJmbnFyZkJqRUJtWU5UWFZWZU5f?oc=5",
     "source": "gnews_futures",
     "published_utc": "2026-10-28T10:30:44+00:00",
-    "score": 11.09,
+    "score": 9.9,
     "duplicates": 0
    },
    {
@@ -2984,80 +3506,62 @@
     "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPQjZwTGV3WDM1WGdBWUlMckZzMTJNUWhGeUJKU1R4SFBUNldhUXZKMkFPMWNPTnhhQ0pFTUJJTW9yeS1OMU5mVVcwTGZUaXpSRDhFV2lDbjNtN1B0ODdUZ1k5czgyMVg1VTlFR0kzR1Jod2RVd29Ea1J0elU1NU9vMW9qNU1SZVdzbTZQbzlnSXU5ejIyQXc?oc=5",
     "source": "gnews_futures",
     "published_utc": "2026-10-28T09:48:36+00:00",
-    "score": 10.97,
+    "score": 9.79,
     "duplicates": 1
    },
    {
-    "id": "5d2b9457d0",
-    "title": "Nasdaq futures rise as chip stocks gain ahead of Fed decision and big tech earnings - Traders Union",
-    "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOR012eGR4dXU2cDVLcFkyZ05JSVB2MEdNVWxfWnVFUHVqRU41cW92VWdQbFFtdGVxbEREQ3FCX2QzcFpFR080NF9WUWQ1MktFMTVwSEJTUlF1cVBZaU51YVVEN2VCTFhEVTM0R2NBcE5Qeng1dnhYZXphT0FSRlFvTll1clc5Z3pFbWVqMWJmVVVCMFct?oc=5",
+    "id": "b6f1235c6b",
+    "title": "Stock futures mixed as traders await Fed decision, Alphabet and Microsoft earnings (SPX:) - Seeking Alpha",
+    "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQMl9IaEd3SFpkUFphVnE2TnlkZXBIcDF2ckt3LUtMNTFnamlBZ0cwQU5ZTlZka3prOFZiQjk5dEFYV0ZZOWNoMDQ2QnByVTU5OEM0SnlCcVdhWDJHNDdoODB3WURlM2I1S0Qtd29mUG1iaTJDb183a3JtLW9fc3hrNzlmY1hYcFpkMkxYLTltbVZ4VTVFREt3VkVNcVZ5a1IwbGc?oc=5",
     "source": "gnews_futures",
-    "published_utc": "2026-10-28T09:56:23+00:00",
+    "published_utc": "2026-10-28T08:00:48+00:00",
     "score": 9.5,
-    "duplicates": 0
-   },
-   {
-    "id": "3943cbf452",
-    "title": "Nasdaq futures rise after SK Hynix sparks AI rally; Fed rate decision awaited By Investing.com - Investing.com South Africa",
-    "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQVEptampCZlBOc0tidWEzdUhSZW90U01fclJlQVhhTFZXQ2hxaXBrTU9NY21NeVZJSGpuV0VwX1hrcWxyb24xMFNhY08tTU5HVDU0aG5OZ1NKRW9XNGtmV1NzQ3lrcnhmcTM3aHpLbWdHMkRNWHBnUllOMkR2OWRaQzg4cTFLbmxCNFRpaGx4T2pUaUVkZlk0Wms2RG1KZS1mRWFOZm9yelQ0VHFkNkx4QnZOajdVSVdQOHp4QlBHTWRCTzdHdWI2cQ?oc=5",
-    "source": "gnews_futures",
-    "published_utc": "2026-10-28T06:56:02+00:00",
-    "score": 9.49,
-    "duplicates": 0
-   },
-   {
-    "id": "25f98a195c",
-    "title": "Federal Reserve likely to skip rate hike as elevated inflation drives voters to the polls - WRAL",
-    "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNWmc1QWhpbVFESkhwdWxUaFQ2bF9GN0cwUU1fTXJLNzItcktwU0xnZ3dTRGxScmpNQlZUU2RvVV83WENQQmxJb1E4R1BXNGh3eU55c05MdGNBeTZTR2tjcVBGQ0FjOEV0ck5sNDZITURXRUpieWNIOGhXR2ZLa0VMOGxicHlHSm9EdkttdThSQjIyU3pHc0pXdVNIa0tvYWo5T2dzRFFR?oc=5",
-    "source": "gnews_fed",
-    "published_utc": "2026-10-28T09:25:35+00:00",
-    "score": 9.41,
-    "duplicates": 5
-   },
-   {
-    "id": "b2217c3936",
-    "title": "Fed Decision US Stocks Impact Amid Microsoft Alphabet Earnings - The Cryptonomist",
-    "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE83M2s2UDJrSl9zbnA3WndOa1J3bjhRQTlFVmZvQWxoeVB0V2UzSjZmMEdPNTNRMGd1cWU0NFUzX0FmbWNLT0RTRTFmdnZrWXczdkJ2WXc5Yy1zLXVZYUZzSFJCLU5ZTG5wbTZ2RDdR?oc=5",
-    "source": "gnews_futures",
-    "published_utc": "2026-10-28T09:56:46+00:00",
-    "score": 9.0,
     "duplicates": 1
    },
    {
-    "id": "0c41d1bac0",
-    "title": "Tech Rally Continues, Treasurys Weaken Ahead of Fed Decision - WSJ",
-    "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNQS02TUtVR24xWjdGNTJrLXR6bGtDYW5EclpiY2JOMDJvX1lMN1BDd3NEalhRb3lsdUpsNW1Uc0FjdlFDV3pCTHU3aEY0Mm1qajZaMmd0QWNRcl9JVE93M2txc2ExR3JkbU1qUk0tZDFPd1ZsQUx4dEJabmpSQ1RxQkljSVdqdlczX3JNaHVHWTJDMDQ2X285ZDhYZW9LaV9aMlVBVm5lZFJFZw?oc=5",
+    "id": "2dfe601b81",
+    "title": "US Stock Futures Mixed Ahead of Alphabet, Microsoft Earnings and Federal Reserve Rate Decision: Dow Jones, S&P, Nasdaq, Wall Street - Yahoo Finance",
+    "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOd2xfcTN0UklocUc0ZHluT0RKdnRnUTVyUGx5TXZTNXRCVTZhV1BwT2l3N1B5eHF0MGJReXduTEFDd1paNUpxcEVrZUt5MUdRc050SnRaUUktTUJnb0RPQWtfWlBfN2gxNVllOFBTcDVwMU5MZ2VnOXFlc200ckE0ZlZiR051RVh5ejM3eWVhNHhFajk2VUdFMg?oc=5",
     "source": "gnews_futures",
-    "published_utc": "2026-10-28T09:24:00+00:00",
-    "score": 8.91,
+    "published_utc": "2026-10-28T10:49:43+00:00",
+    "score": 9.46,
     "duplicates": 0
    },
    {
-    "id": "08fca1dc1a",
-    "title": "Wall Street faces a double test as Fed decision and Microsoft, Alphabet earnings loom - investingLive",
-    "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQbXFpNW9RVEo3WTdHcUROTjhyek0tUGQzVFhKc3ctVm9BOGZ0MERmdWtUbFhVU0VUR0g3LTdMSEhuT3N1R1draXlJRW9yb3p3a0hZZHZaLVFoN2dyVWlHaFBZUWFBY3JrQk1UN1dLV05mcWt3bTBDY0doRTZLQ21lUGUtVWt6aXdVbFRES1JGUmFTZHVYeXg4RjNpbGY4bWRUWFRFOVVENWhVMGw3d21obmFwTzl0NGFXWXc?oc=5",
+    "id": "831975f70d",
+    "title": "Federal Reserve holds interest rates steady even as inflation remains high - CBS News",
+    "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPSk1RMm9QTGg5a0ZmU1d1OXRGZlFMZjJwZ0pHczhCR3ZHNjdNT0R6ZnhPRjJfMlY3SFB0RzFUcjJQMWQzM01TREpIRlNaaXRYVTVQRXI3S0tTVUJSWkZuMnRHY3JaeVB0cEQ1RmJUSnZZT2prSFk0Z0Z0eFNvREs4Ti1FcWtjNjZSUEJF?oc=5",
+    "source": "gnews_macro",
+    "published_utc": "2026-10-28T19:11:53+00:00",
+    "score": 9.35,
+    "duplicates": 4
+   },
+   {
+    "id": "b0325c78b5",
+    "title": "Wall Street rises as traders await Fed decision, Alphabet and Microsoft earnings (COMP:IND:) - Seeking Alpha",
+    "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNTUpjMDk2Q3hVRnpRYmpJeFRPdUd3RzF0R2J5bnZrajFza3QtZmtmLUxmY2JUZnpud1RuQk1hc1VhVXF2N21GazRrbXc2YktHTFVVcFlSWl90V3J0elhBcl9qc0ExU3BKVWNuNGNHUXAyRUJqMnQ2ZnQwV2U1cWZZaGRhbklfMTZt?oc=5",
     "source": "gnews_megacap",
-    "published_utc": "2026-10-28T04:57:31+00:00",
-    "score": 8.66,
+    "published_utc": "2026-10-28T14:36:00+00:00",
+    "score": 9.09,
     "duplicates": 0
    },
    {
-    "id": "ea1850ddce",
-    "title": "Nasdaq futures rise as SK Hynix earnings fuel chip rally - Traders Union",
-    "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE5YaURJcDBMVkxTQUtmMmszb3FvRnluVkFBc1l4aENuVHpxci1XOTJYNElzSmpySlFjazY4bTMtWEV3RnVlY21kNDBpV1ZxQXkwTWJ0X3hlNERtM0o0X3R0SGJwdERHSVhCdlZXRWg1YjRGRVdYRXUtQUxB?oc=5",
-    "source": "gnews_futures",
-    "published_utc": "2026-10-28T12:54:02+00:00",
-    "score": 8.49,
+    "id": "b162678a1d",
+    "title": "Fed decision, Google and Microsoft earnings test Wall Street - Quartz",
+    "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5VXzQxT3FrTE51eS1XWTFXVEdkU2UzTDNWMXRiM2ZwejZrUzN3amN3Nm1BWnhWX1NPV3lUcllwTmhLWUtkcjhqd3R4cTBDVlRXYUt2MnBDU3JlMGVjOFMyZVdnTG1xcnRvUktYZHBrdUZNYXEtdUlEVEhLaVVRbkE?oc=5",
+    "source": "gnews_megacap",
+    "published_utc": "2026-10-28T14:16:05+00:00",
+    "score": 9.03,
     "duplicates": 0
    }
   ],
   "summary": {
    "lines": [
-    "Nasdaq futures gain as SK Hynix lifts chips ahead of Fed decision, earnings - Free Malaysia Today [298a44e293]",
-    "US Stock Futures Mixed Ahead of Alphabet, Microsoft Earnings and Federal Reserve Rate Decision: Dow Jones, S&P, Nasdaq, Wall Street - Yahoo Finance [2dfe601b81]",
-    "Stock futures mixed as traders await Fed decision, Alphabet and Microsoft earnings (SPX:) - Seeking Alpha [bd8bb55ee8]",
-    "Nasdaq Futures Climb as SK Hynix Adds Fuel to Chip Rally; Fed Decision and Big Tech Earnings in Focus - Barchart.com [af4b33f45f]",
-    "S&P 500, Nasdaq Futures Mixed Ahead Of Fed Decision, Big Tech Earnings: GOOGL, MSFT, HOOD, SOFI In Focus - Yahoo Finance [2339d5ebb5]"
+    "Federal Reserve keeps rates unchanged despite elevated inflation - AP News [7ac8613b10]",
+    "Federal Reserve holds interest rates steady in face of persistent inflation - WFLA [d1ab0e0a7d]",
+    "Nasdaq futures gain as SK Hynix lifts chips ahead of Fed decision, earnings - marketscreener.com [b641015b3a]",
+    "US Fed holds interest rates steady despite surging inflation - South China Morning Post [7bb3192fad]",
+    "Nasdaq futures rise as SK Hynix sparks chips rally; Fed decision, earnings ahead By Investing.com - Investing.com South Africa [3943cbf452]"
    ],
    "backend": "none",
    "model": null,
@@ -3105,16 +3609,16 @@
     "reported": true
    },
    {
-    "symbol": "BA",
-    "name": "Boeing Company (The)",
+    "symbol": "STX",
+    "name": "Seagate Technology Holdings PLC",
     "timing": "unknown",
     "date": "2026-10-27",
     "reported_at": "10/27/2026",
     "reported": true
    },
    {
-    "symbol": "STX",
-    "name": "Seagate Technology Holdings PLC",
+    "symbol": "BA",
+    "name": "Boeing Company (The)",
     "timing": "unknown",
     "date": "2026-10-27",
     "reported_at": "10/27/2026",
@@ -3145,14 +3649,6 @@
     "reported": true
    },
    {
-    "symbol": "WM",
-    "name": "Waste Management, Inc.",
-    "timing": "unknown",
-    "date": "2026-10-27",
-    "reported_at": "10/27/2026",
-    "reported": true
-   },
-   {
     "symbol": "FCX",
     "name": "Freeport-McMoran, Inc.",
     "timing": "unknown",
@@ -3169,8 +3665,8 @@
     "reported": true
    },
    {
-    "symbol": "AMT",
-    "name": "American Tower Corporation (REIT)",
+    "symbol": "WM",
+    "name": "Waste Management, Inc.",
     "timing": "unknown",
     "date": "2026-10-27",
     "reported_at": "10/27/2026",
@@ -3185,16 +3681,16 @@
     "reported": true
    },
    {
-    "symbol": "HOOD",
-    "name": "Robinhood Markets, Inc.",
+    "symbol": "AMT",
+    "name": "American Tower Corporation (REIT)",
     "timing": "unknown",
     "date": "2026-10-27",
     "reported_at": "10/27/2026",
     "reported": true
    },
    {
-    "symbol": "SHW",
-    "name": "Sherwin-Williams Company (The)",
+    "symbol": "HOOD",
+    "name": "Robinhood Markets, Inc.",
     "timing": "unknown",
     "date": "2026-10-27",
     "reported_at": "10/27/2026",
@@ -3209,8 +3705,16 @@
     "reported": true
    },
    {
-    "symbol": "HLT",
-    "name": "Hilton Worldwide Holdings Inc.",
+    "symbol": "RCL",
+    "name": "Royal Caribbean Cruises Ltd.",
+    "timing": "unknown",
+    "date": "2026-10-27",
+    "reported_at": "10/27/2026",
+    "reported": true
+   },
+   {
+    "symbol": "SHW",
+    "name": "Sherwin-Williams Company (The)",
     "timing": "unknown",
     "date": "2026-10-27",
     "reported_at": "10/27/2026",
@@ -3225,8 +3729,8 @@
     "reported": true
    },
    {
-    "symbol": "RCL",
-    "name": "Royal Caribbean Cruises Ltd.",
+    "symbol": "HLT",
+    "name": "Hilton Worldwide Holdings Inc.",
     "timing": "unknown",
     "date": "2026-10-27",
     "reported_at": "10/27/2026",
@@ -3259,6 +3763,14 @@
    {
     "symbol": "PCAR",
     "name": "PACCAR Inc.",
+    "timing": "unknown",
+    "date": "2026-10-27",
+    "reported_at": "10/27/2026",
+    "reported": true
+   },
+   {
+    "symbol": "TER",
+    "name": "Teradyne, Inc.",
     "timing": "unknown",
     "date": "2026-10-27",
     "reported_at": "10/27/2026",
@@ -3315,16 +3827,16 @@
     "reported": false
    },
    {
-    "symbol": "SAN",
-    "name": "Banco Santander, S.A.",
+    "symbol": "APH",
+    "name": "Amphenol Corporation",
     "timing": "pre",
     "date": "2026-10-28",
     "reported_at": null,
     "reported": false
    },
    {
-    "symbol": "APH",
-    "name": "Amphenol Corporation",
+    "symbol": "SAN",
+    "name": "Banco Santander, S.A.",
     "timing": "pre",
     "date": "2026-10-28",
     "reported_at": null,
@@ -3419,16 +3931,16 @@
     "reported": false
    },
    {
-    "symbol": "ORLY",
-    "name": "O'Reilly Automotive, Inc.",
+    "symbol": "FDX",
+    "name": "FedEx Corporation",
     "timing": "post",
     "date": "2026-10-28",
     "reported_at": null,
     "reported": false
    },
    {
-    "symbol": "FDX",
-    "name": "FedEx Corporation",
+    "symbol": "ORLY",
+    "name": "O'Reilly Automotive, Inc.",
     "timing": "post",
     "date": "2026-10-28",
     "reported_at": null,
@@ -3451,8 +3963,8 @@
     "reported": false
    },
    {
-    "symbol": "AON",
-    "name": "Aon plc",
+    "symbol": "TEL",
+    "name": "TE Connectivity plc",
     "timing": "pre",
     "date": "2026-10-28",
     "reported_at": null,
@@ -3467,8 +3979,8 @@
     "reported": false
    },
    {
-    "symbol": "TEL",
-    "name": "TE Connectivity plc",
+    "symbol": "AON",
+    "name": "Aon plc",
     "timing": "pre",
     "date": "2026-10-28",
     "reported_at": null,
