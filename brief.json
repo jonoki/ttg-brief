@@ -1,7 +1,7 @@
 {
  "meta": {
-  "generated_at_utc": "2026-10-28T12:42:47.995327+00:00",
-  "generated_at_local": "Wed 28 Oct 2026 09:42 ADT",
+  "generated_at_utc": "2026-10-28T12:58:09.749472+00:00",
+  "generated_at_local": "Wed 28 Oct 2026 09:58 ADT",
   "trading_day": "2026-10-28",
   "display_tz": "America/Halifax",
   "version": "0.1.0",
@@ -163,7 +163,7 @@
    "time_utc": "2026-10-28T18:00:00+00:00",
    "local": "15:00 ADT",
    "et": "14:00 ET",
-   "in": "5h 17m",
+   "in": "5h 01m",
    "consensus": "4.00%",
    "prior": "4.00%"
   },
@@ -174,10 +174,10 @@
   {
    "root": "ES",
    "trading_day": "2026-10-28",
-   "as_of_utc": "2026-10-28T12:42:47.995327+00:00",
+   "as_of_utc": "2026-10-28T12:58:09.749472+00:00",
    "source": "yahoo",
    "delayed": true,
-   "last_price": 7777.0,
+   "last_price": 7771.75,
    "levels": [
     {
      "tag": "exp_hi",
@@ -198,7 +198,7 @@
      "label": "Overnight high",
      "price": 7778.25,
      "group": "overnight",
-     "note": "since 18:00 ET, 863 bars"
+     "note": "since 18:00 ET, 879 bars"
     },
     {
      "tag": "wh",
@@ -208,8 +208,8 @@
      "note": "since 2026-10-26"
     },
     {
-     "tag": "rn_minor_dn",
-     "label": "Round 25 below",
+     "tag": "rn_minor_up",
+     "label": "Round 25 above",
      "price": 7775.0,
      "group": "round",
      "note": ""
@@ -231,7 +231,7 @@
     {
      "tag": "onvwap",
      "label": "Overnight VWAP",
-     "price": 7763.75,
+     "price": 7764.14,
      "group": "overnight",
      "note": "typical-price VWAP"
     },
@@ -321,14 +321,14 @@
     }
    ],
    "stats": {
-    "last_bar_utc": "2026-10-28T12:32:00+00:00",
-    "last_bar_age_min": 10.8,
+    "last_bar_utc": "2026-10-28T12:48:00+00:00",
+    "last_bar_age_min": 10.2,
     "market_state": "open",
     "profile_volume": 1129528.0,
     "prior_day": "2026-10-27",
     "prior_day_rth_range": 60.25,
     "overnight_range": 26.0,
-    "gap_vs_prior_close": 19.0,
+    "gap_vs_prior_close": 13.75,
     "gap_basis": "last price (pre-market)",
     "atr14": 82.21,
     "atr_days": 14,
@@ -1541,19 +1541,27 @@
      "t": "2026-10-28T12:30:00+00:00",
      "o": 7776.0,
      "h": 7778.25,
-     "l": 7775.5,
-     "c": 7777.0,
-     "v": 1165.0
+     "l": 7773.0,
+     "c": 7774.25,
+     "v": 6120.0
+    },
+    {
+     "t": "2026-10-28T12:45:00+00:00",
+     "o": 7774.25,
+     "h": 7774.75,
+     "l": 7770.0,
+     "c": 7771.75,
+     "v": 1182.0
     }
    ]
   },
   {
    "root": "NQ",
    "trading_day": "2026-10-28",
-   "as_of_utc": "2026-10-28T12:42:47.995327+00:00",
+   "as_of_utc": "2026-10-28T12:58:09.749472+00:00",
    "source": "yahoo",
    "delayed": true,
-   "last_price": 29937.0,
+   "last_price": 29901.75,
    "levels": [
     {
      "tag": "exp_hi",
@@ -1574,7 +1582,7 @@
      "label": "Overnight high",
      "price": 29989.25,
      "group": "overnight",
-     "note": "since 18:00 ET, 863 bars"
+     "note": "since 18:00 ET, 879 bars"
     },
     {
      "tag": "wh",
@@ -1593,7 +1601,7 @@
     {
      "tag": "onvwap",
      "label": "Overnight VWAP",
-     "price": 29903.29,
+     "price": 29903.69,
      "group": "overnight",
      "note": "typical-price VWAP"
     },
@@ -1697,14 +1705,14 @@
     }
    ],
    "stats": {
-    "last_bar_utc": "2026-10-28T12:32:00+00:00",
-    "last_bar_age_min": 10.8,
+    "last_bar_utc": "2026-10-28T12:48:00+00:00",
+    "last_bar_age_min": 10.2,
     "market_state": "open",
     "profile_volume": 400620.0,
     "prior_day": "2026-10-27",
     "prior_day_rth_range": 386.75,
     "overnight_range": 205.5,
-    "gap_vs_prior_close": 123.75,
+    "gap_vs_prior_close": 88.5,
     "gap_basis": "last price (pre-market)",
     "atr14": 589.45,
     "atr_days": 14,
@@ -2917,9 +2925,17 @@
      "t": "2026-10-28T12:30:00+00:00",
      "o": 29933.5,
      "h": 29938.75,
-     "l": 29926.0,
-     "c": 29937.0,
-     "v": 456.0
+     "l": 29908.25,
+     "c": 29920.25,
+     "v": 2556.0
+    },
+    {
+     "t": "2026-10-28T12:45:00+00:00",
+     "o": 29919.25,
+     "h": 29924.0,
+     "l": 29888.25,
+     "c": 29901.75,
+     "v": 710.0
     }
    ]
   }
@@ -2927,12 +2943,21 @@
  "news": {
   "headlines": [
    {
+    "id": "298a44e293",
+    "title": "Nasdaq futures gain as SK Hynix lifts chips ahead of Fed decision, earnings - Free Malaysia Today",
+    "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxQWmRtMXFmM1BQRDVWVWt4SE1mRm1fV3BKaVVaZy1keEo2Qjl5MC03bXRveHJxWF9QcHdjZjZsT0U4WEVwektrdk1YUnBlcktLOWl2cng1a2duWG9JOFlvblc4anZGdnJmMHUxaGlfZmJJLUJFeDUyb2RWczRMUW9yRTF5ZFFtWEsteVVkWHF1RUtRV1MtVkRzM0QxT29fWjFuaERWRnFjTXFJUF9kZlU5Rm1WZ21zUnIzYlpTRHBSS1pxa2VIaHBqSGQ5X041cWNyT1dR?oc=5",
+    "source": "gnews_futures",
+    "published_utc": "2026-10-28T12:48:22+00:00",
+    "score": 12.47,
+    "duplicates": 5
+   },
+   {
     "id": "2dfe601b81",
     "title": "US Stock Futures Mixed Ahead of Alphabet, Microsoft Earnings and Federal Reserve Rate Decision: Dow Jones, S&P, Nasdaq, Wall Street - Yahoo Finance",
     "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOd2xfcTN0UklocUc0ZHluT0RKdnRnUTVyUGx5TXZTNXRCVTZhV1BwT2l3N1B5eHF0MGJReXduTEFDd1paNUpxcEVrZUt5MUdRc050SnRaUUktTUJnb0RPQWtfWlBfN2gxNVllOFBTcDVwMU5MZ2VnOXFlc200ckE0ZlZiR051RVh5ejM3eWVhNHhFajk2VUdFMg?oc=5",
     "source": "gnews_futures",
     "published_utc": "2026-10-28T10:49:43+00:00",
-    "score": 11.69,
+    "score": 11.64,
     "duplicates": 2
    },
    {
@@ -2941,7 +2966,7 @@
     "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNTUpjMDk2Q3hVRnpRYmpJeFRPdUd3RzF0R2J5bnZrajFza3QtZmtmLUxmY2JUZnpud1RuQk1hc1VhVXF2N21GazRrbXc2YktHTFVVcFlSWl90V3J0elhBcl9qc0ExU3BKVWNuNGNHUXAyRUJqMnQ2ZnQwV2U1cWZZaGRhbklfMTZt?oc=5",
     "source": "gnews_futures",
     "published_utc": "2026-10-28T08:00:48+00:00",
-    "score": 11.22,
+    "score": 11.17,
     "duplicates": 2
    },
    {
@@ -2950,7 +2975,7 @@
     "link": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxNdE0tczJvNmRuTndZV3N0ci1XNlYzcmpRNHdCR3FGMFJHbUFrRFMwa1FLQUQxSU1IODZ5WWtUUE5zTjdRQUFYNFFlMlFCcjluUVNKX0d3V2FDb0pBdTNfNDZtRzFWa0o1SWhMR2dJMWJHOF95T1ppV3B4ZmZadkZvTVlQT01KRmxMVm5RbEFFZFo0eGlnZ3ZPajVuZHZ0Ri1GWC0wZnY1cmNIQXh2UGNOY1A4M0xTeDlsWXZ6d05mcWJUMHprZWo4bHJmbnFyZkJqRUJtWU5UWFZWZU5f?oc=5",
     "source": "gnews_futures",
     "published_utc": "2026-10-28T10:30:44+00:00",
-    "score": 11.13,
+    "score": 11.09,
     "duplicates": 0
    },
    {
@@ -2959,25 +2984,7 @@
     "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPQjZwTGV3WDM1WGdBWUlMckZzMTJNUWhGeUJKU1R4SFBUNldhUXZKMkFPMWNPTnhhQ0pFTUJJTW9yeS1OMU5mVVcwTGZUaXpSRDhFV2lDbjNtN1B0ODdUZ1k5czgyMVg1VTlFR0kzR1Jod2RVd29Ea1J0elU1NU9vMW9qNU1SZVdzbTZQbzlnSXU5ejIyQXc?oc=5",
     "source": "gnews_futures",
     "published_utc": "2026-10-28T09:48:36+00:00",
-    "score": 11.02,
-    "duplicates": 1
-   },
-   {
-    "id": "95ef527608",
-    "title": "Nasdaq futures rise as SK Hynix boosts chips before Fed decision, earnings - Reuters",
-    "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPQVNrQUVwN1c3SjBCODU1TXUwRy1hQ2lIQUxFZkJ3dGhXa0NZalhVTFFoeTU4MlB3VDRwWE1QRktITG5FZnd1eUVDTjRUankwRGgzRkRKTGdwZDVDbWUyTWVKNlRKVld5RVdaTllzZkVhdXUzNkZUOU5RWWNOQVJTY2xuaDJZZXlybC05LXRmTmpPb2RvVlliLWxBUXZVRldXU3kyY2pWb1ZmZlFNUU1KMmN4aV9wMk9Lai01YXcza0JqdDQ?oc=5",
-    "source": "gnews_futures",
-    "published_utc": "2026-10-28T09:57:59+00:00",
-    "score": 10.04,
-    "duplicates": 1
-   },
-   {
-    "id": "3943cbf452",
-    "title": "Nasdaq futures rise after SK Hynix sparks AI rally; Fed rate decision awaited By Investing.com - Investing.com South Africa",
-    "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQVEptampCZlBOc0tidWEzdUhSZW90U01fclJlQVhhTFZXQ2hxaXBrTU9NY21NeVZJSGpuV0VwX1hrcWxyb24xMFNhY08tTU5HVDU0aG5OZ1NKRW9XNGtmV1NzQ3lrcnhmcTM3aHpLbWdHMkRNWHBnUllOMkR2OWRaQzg4cTFLbmxCNFRpaGx4T2pUaUVkZlk0Wms2RG1KZS1mRWFOZm9yelQ0VHFkNkx4QnZOajdVSVdQOHp4QlBHTWRCTzdHdWI2cQ?oc=5",
-    "source": "gnews_futures",
-    "published_utc": "2026-10-28T06:56:02+00:00",
-    "score": 10.04,
+    "score": 10.97,
     "duplicates": 1
    },
    {
@@ -2986,7 +2993,16 @@
     "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOR012eGR4dXU2cDVLcFkyZ05JSVB2MEdNVWxfWnVFUHVqRU41cW92VWdQbFFtdGVxbEREQ3FCX2QzcFpFR080NF9WUWQ1MktFMTVwSEJTUlF1cVBZaU51YVVEN2VCTFhEVTM0R2NBcE5Qeng1dnhYZXphT0FSRlFvTll1clc5Z3pFbWVqMWJmVVVCMFct?oc=5",
     "source": "gnews_futures",
     "published_utc": "2026-10-28T09:56:23+00:00",
-    "score": 9.54,
+    "score": 9.5,
+    "duplicates": 0
+   },
+   {
+    "id": "3943cbf452",
+    "title": "Nasdaq futures rise after SK Hynix sparks AI rally; Fed rate decision awaited By Investing.com - Investing.com South Africa",
+    "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQVEptampCZlBOc0tidWEzdUhSZW90U01fclJlQVhhTFZXQ2hxaXBrTU9NY21NeVZJSGpuV0VwX1hrcWxyb24xMFNhY08tTU5HVDU0aG5OZ1NKRW9XNGtmV1NzQ3lrcnhmcTM3aHpLbWdHMkRNWHBnUllOMkR2OWRaQzg4cTFLbmxCNFRpaGx4T2pUaUVkZlk0Wms2RG1KZS1mRWFOZm9yelQ0VHFkNkx4QnZOajdVSVdQOHp4QlBHTWRCTzdHdWI2cQ?oc=5",
+    "source": "gnews_futures",
+    "published_utc": "2026-10-28T06:56:02+00:00",
+    "score": 9.49,
     "duplicates": 0
    },
    {
@@ -2995,17 +3011,8 @@
     "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNWmc1QWhpbVFESkhwdWxUaFQ2bF9GN0cwUU1fTXJLNzItcktwU0xnZ3dTRGxScmpNQlZUU2RvVV83WENQQmxJb1E4R1BXNGh3eU55c05MdGNBeTZTR2tjcVBGQ0FjOEV0ck5sNDZITURXRUpieWNIOGhXR2ZLa0VMOGxicHlHSm9EdkttdThSQjIyU3pHc0pXdVNIa0tvYWo5T2dzRFFR?oc=5",
     "source": "gnews_fed",
     "published_utc": "2026-10-28T09:25:35+00:00",
-    "score": 9.45,
+    "score": 9.41,
     "duplicates": 5
-   },
-   {
-    "id": "f0a43a508c",
-    "title": "Premarket: Nasdaq futures gain as SK Hynix lifts chips ahead of Fed decision, earnings - The Globe and Mail",
-    "link": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxOVXBEX0J3RWpYc3VZaGNfeU1jXzBJd2g0MjVndGhxeVJ3TE9qa2p5RzlRVXI2eUpZOW9DSC1SQW4yRENUaV9YY2RMRlpmcHBuLWdJYXZGb3BnU1ZLYTBCLVY0ZFUyWWxTS216dGdKRWlvQ19fV3lJU0pKWVZnWnZTSkNuMGdWYmd5RkFQMG1fLVVZLWEzYmpRc05RVmxmMXNxNF9qMVdkSlJJaWNKVUVvMGR3S2M2Y2I2ZnZvQXIyWndVVjRvNXF5cXZ6SjhNWThlaUpGTjcxTURQYVZMTFRnSHJUMA?oc=5",
-    "source": "gnews_futures",
-    "published_utc": "2026-10-28T09:07:31+00:00",
-    "score": 9.4,
-    "duplicates": 0
    },
    {
     "id": "b2217c3936",
@@ -3013,7 +3020,7 @@
     "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE83M2s2UDJrSl9zbnA3WndOa1J3bjhRQTlFVmZvQWxoeVB0V2UzSjZmMEdPNTNRMGd1cWU0NFUzX0FmbWNLT0RTRTFmdnZrWXczdkJ2WXc5Yy1zLXVZYUZzSFJCLU5ZTG5wbTZ2RDdR?oc=5",
     "source": "gnews_futures",
     "published_utc": "2026-10-28T09:56:46+00:00",
-    "score": 9.04,
+    "score": 9.0,
     "duplicates": 1
    },
    {
@@ -3022,7 +3029,7 @@
     "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNQS02TUtVR24xWjdGNTJrLXR6bGtDYW5EclpiY2JOMDJvX1lMN1BDd3NEalhRb3lsdUpsNW1Uc0FjdlFDV3pCTHU3aEY0Mm1qajZaMmd0QWNRcl9JVE93M2txc2ExR3JkbU1qUk0tZDFPd1ZsQUx4dEJabmpSQ1RxQkljSVdqdlczX3JNaHVHWTJDMDQ2X285ZDhYZW9LaV9aMlVBVm5lZFJFZw?oc=5",
     "source": "gnews_futures",
     "published_utc": "2026-10-28T09:24:00+00:00",
-    "score": 8.95,
+    "score": 8.91,
     "duplicates": 0
    },
    {
@@ -3031,17 +3038,26 @@
     "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQbXFpNW9RVEo3WTdHcUROTjhyek0tUGQzVFhKc3ctVm9BOGZ0MERmdWtUbFhVU0VUR0g3LTdMSEhuT3N1R1draXlJRW9yb3p3a0hZZHZaLVFoN2dyVWlHaFBZUWFBY3JrQk1UN1dLV05mcWt3bTBDY0doRTZLQ21lUGUtVWt6aXdVbFRES1JGUmFTZHVYeXg4RjNpbGY4bWRUWFRFOVVENWhVMGw3d21obmFwTzl0NGFXWXc?oc=5",
     "source": "gnews_megacap",
     "published_utc": "2026-10-28T04:57:31+00:00",
-    "score": 8.71,
+    "score": 8.66,
+    "duplicates": 0
+   },
+   {
+    "id": "ea1850ddce",
+    "title": "Nasdaq futures rise as SK Hynix earnings fuel chip rally - Traders Union",
+    "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE5YaURJcDBMVkxTQUtmMmszb3FvRnluVkFBc1l4aENuVHpxci1XOTJYNElzSmpySlFjazY4bTMtWEV3RnVlY21kNDBpV1ZxQXkwTWJ0X3hlNERtM0o0X3R0SGJwdERHSVhCdlZXRWg1YjRGRVdYRXUtQUxB?oc=5",
+    "source": "gnews_futures",
+    "published_utc": "2026-10-28T12:54:02+00:00",
+    "score": 8.49,
     "duplicates": 0
    }
   ],
   "summary": {
    "lines": [
+    "Nasdaq futures gain as SK Hynix lifts chips ahead of Fed decision, earnings - Free Malaysia Today [298a44e293]",
     "US Stock Futures Mixed Ahead of Alphabet, Microsoft Earnings and Federal Reserve Rate Decision: Dow Jones, S&P, Nasdaq, Wall Street - Yahoo Finance [2dfe601b81]",
     "Stock futures mixed as traders await Fed decision, Alphabet and Microsoft earnings (SPX:) - Seeking Alpha [bd8bb55ee8]",
     "Nasdaq Futures Climb as SK Hynix Adds Fuel to Chip Rally; Fed Decision and Big Tech Earnings in Focus - Barchart.com [af4b33f45f]",
-    "S&P 500, Nasdaq Futures Mixed Ahead Of Fed Decision, Big Tech Earnings: GOOGL, MSFT, HOOD, SOFI In Focus - Yahoo Finance [2339d5ebb5]",
-    "Nasdaq futures rise as SK Hynix boosts chips before Fed decision, earnings - Reuters [95ef527608]"
+    "S&P 500, Nasdaq Futures Mixed Ahead Of Fed Decision, Big Tech Earnings: GOOGL, MSFT, HOOD, SOFI In Focus - Yahoo Finance [2339d5ebb5]"
    ],
    "backend": "none",
    "model": null,
@@ -3581,16 +3597,16 @@
     "reported": false
    },
    {
-    "symbol": "ICE",
-    "name": "Intercontinental Exchange Inc.",
+    "symbol": "ASX",
+    "name": "ASE Technology Holding Co., Ltd.",
     "timing": "pre",
     "date": "2026-10-29",
     "reported_at": null,
     "reported": false
    },
    {
-    "symbol": "ASX",
-    "name": "ASE Technology Holding Co., Ltd.",
+    "symbol": "ICE",
+    "name": "Intercontinental Exchange Inc.",
     "timing": "pre",
     "date": "2026-10-29",
     "reported_at": null,
@@ -3605,16 +3621,16 @@
     "reported": false
    },
    {
-    "symbol": "EPD",
-    "name": "Enterprise Products Partners L.P.",
+    "symbol": "LYG",
+    "name": "Lloyds Banking Group Plc",
     "timing": "pre",
     "date": "2026-10-29",
     "reported_at": null,
     "reported": false
    },
    {
-    "symbol": "LYG",
-    "name": "Lloyds Banking Group Plc",
+    "symbol": "EPD",
+    "name": "Enterprise Products Partners L.P.",
     "timing": "pre",
     "date": "2026-10-29",
     "reported_at": null,
