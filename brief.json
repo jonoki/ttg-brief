@@ -1,7 +1,7 @@
 {
  "meta": {
-  "generated_at_utc": "2026-10-28T11:10:58.333564+00:00",
-  "generated_at_local": "Wed 28 Oct 2026 08:10 ADT",
+  "generated_at_utc": "2026-10-28T11:26:14.119806+00:00",
+  "generated_at_local": "Wed 28 Oct 2026 08:26 ADT",
   "trading_day": "2026-10-28",
   "display_tz": "America/Halifax",
   "version": "0.1.0",
@@ -163,7 +163,7 @@
    "time_utc": "2026-10-28T18:00:00+00:00",
    "local": "15:00 ADT",
    "et": "14:00 ET",
-   "in": "6h 49m",
+   "in": "6h 33m",
    "consensus": "4.00%",
    "prior": "4.00%"
   },
@@ -174,7 +174,7 @@
   {
    "root": "ES",
    "trading_day": "2026-10-28",
-   "as_of_utc": "2026-10-28T11:10:58.333564+00:00",
+   "as_of_utc": "2026-10-28T11:26:14.119806+00:00",
    "source": "yahoo",
    "delayed": true,
    "last_price": 7768.25,
@@ -212,7 +212,7 @@
      "label": "Overnight high",
      "price": 7772.75,
      "group": "overnight",
-     "note": "since 18:00 ET, 771 bars"
+     "note": "since 18:00 ET, 787 bars"
     },
     {
      "tag": "wh",
@@ -231,7 +231,7 @@
     {
      "tag": "onvwap",
      "label": "Overnight VWAP",
-     "price": 7762.0,
+     "price": 7762.24,
      "group": "overnight",
      "note": "typical-price VWAP"
     },
@@ -321,8 +321,8 @@
     }
    ],
    "stats": {
-    "last_bar_utc": "2026-10-28T11:00:00+00:00",
-    "last_bar_age_min": 11.0,
+    "last_bar_utc": "2026-10-28T11:16:00+00:00",
+    "last_bar_age_min": 10.2,
     "market_state": "open",
     "profile_volume": 1129528.0,
     "prior_day": "2026-10-27",
@@ -1492,20 +1492,28 @@
     {
      "t": "2026-10-28T11:00:00+00:00",
      "o": 7768.25,
-     "h": 7768.75,
-     "l": 7767.0,
+     "h": 7769.5,
+     "l": 7764.75,
+     "c": 7768.5,
+     "v": 5609.0
+    },
+    {
+     "t": "2026-10-28T11:15:00+00:00",
+     "o": 7768.25,
+     "h": 7769.5,
+     "l": 7767.5,
      "c": 7768.25,
-     "v": 0.0
+     "v": 571.0
     }
    ]
   },
   {
    "root": "NQ",
    "trading_day": "2026-10-28",
-   "as_of_utc": "2026-10-28T11:10:58.333564+00:00",
+   "as_of_utc": "2026-10-28T11:26:14.119806+00:00",
    "source": "yahoo",
    "delayed": true,
-   "last_price": 29950.75,
+   "last_price": 29922.75,
    "levels": [
     {
      "tag": "exp_hi",
@@ -1526,7 +1534,7 @@
      "label": "Overnight high",
      "price": 29989.25,
      "group": "overnight",
-     "note": "since 18:00 ET, 771 bars"
+     "note": "since 18:00 ET, 787 bars"
     },
     {
      "tag": "wh",
@@ -1536,8 +1544,8 @@
      "note": "since 2026-10-26"
     },
     {
-     "tag": "rn_minor_dn",
-     "label": "Round 50 below",
+     "tag": "rn_minor_up",
+     "label": "Round 50 above",
      "price": 29950.0,
      "group": "round",
      "note": ""
@@ -1552,7 +1560,7 @@
     {
      "tag": "onvwap",
      "label": "Overnight VWAP",
-     "price": 29898.25,
+     "price": 29899.25,
      "group": "overnight",
      "note": "typical-price VWAP"
     },
@@ -1649,14 +1657,14 @@
     }
    ],
    "stats": {
-    "last_bar_utc": "2026-10-28T11:00:00+00:00",
-    "last_bar_age_min": 11.0,
+    "last_bar_utc": "2026-10-28T11:16:00+00:00",
+    "last_bar_age_min": 10.2,
     "market_state": "open",
     "profile_volume": 400620.0,
     "prior_day": "2026-10-27",
     "prior_day_rth_range": 386.75,
     "overnight_range": 205.5,
-    "gap_vs_prior_close": 137.5,
+    "gap_vs_prior_close": 109.5,
     "gap_basis": "last price (pre-market)",
     "atr14": 589.45,
     "atr_days": 14,
@@ -2819,11 +2827,19 @@
     },
     {
      "t": "2026-10-28T11:00:00+00:00",
-     "o": 29946.5,
-     "h": 29953.75,
-     "l": 29941.0,
-     "c": 29950.75,
-     "v": 0.0
+     "o": 29948.0,
+     "h": 29955.0,
+     "l": 29910.5,
+     "c": 29925.0,
+     "v": 2879.0
+    },
+    {
+     "t": "2026-10-28T11:15:00+00:00",
+     "o": 29923.5,
+     "h": 29926.25,
+     "l": 29918.75,
+     "c": 29922.75,
+     "v": 120.0
     }
    ]
   }
@@ -2836,7 +2852,16 @@
     "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPQjZwTGV3WDM1WGdBWUlMckZzMTJNUWhGeUJKU1R4SFBUNldhUXZKMkFPMWNPTnhhQ0pFTUJJTW9yeS1OMU5mVVcwTGZUaXpSRDhFV2lDbjNtN1B0ODdUZ1k5czgyMVg1VTlFR0kzR1Jod2RVd29Ea1J0elU1NU9vMW9qNU1SZVdzbTZQbzlnSXU5ejIyQXc?oc=5",
     "source": "gnews_futures",
     "published_utc": "2026-10-28T09:48:36+00:00",
-    "score": 11.77,
+    "score": 11.73,
+    "duplicates": 2
+   },
+   {
+    "id": "bd8bb55ee8",
+    "title": "Stock futures mixed as traders await Fed decision, Alphabet and Microsoft earnings (SPX:) - Seeking Alpha",
+    "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNTUpjMDk2Q3hVRnpRYmpJeFRPdUd3RzF0R2J5bnZrajFza3QtZmtmLUxmY2JUZnpud1RuQk1hc1VhVXF2N21GazRrbXc2YktHTFVVcFlSWl90V3J0elhBcl9qc0ExU3BKVWNuNGNHUXAyRUJqMnQ2ZnQwV2U1cWZZaGRhbklfMTZt?oc=5",
+    "source": "gnews_futures",
+    "published_utc": "2026-10-28T08:00:48+00:00",
+    "score": 11.43,
     "duplicates": 2
    },
    {
@@ -2845,26 +2870,8 @@
     "link": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxNdE0tczJvNmRuTndZV3N0ci1XNlYzcmpRNHdCR3FGMFJHbUFrRFMwa1FLQUQxSU1IODZ5WWtUUE5zTjdRQUFYNFFlMlFCcjluUVNKX0d3V2FDb0pBdTNfNDZtRzFWa0o1SWhMR2dJMWJHOF95T1ppV3B4ZmZadkZvTVlQT01KRmxMVm5RbEFFZFo0eGlnZ3ZPajVuZHZ0Ri1GWC0wZnY1cmNIQXh2UGNOY1A4M0xTeDlsWXZ6d05mcWJUMHprZWo4bHJmbnFyZkJqRUJtWU5UWFZWZU5f?oc=5",
     "source": "gnews_futures",
     "published_utc": "2026-10-28T10:30:44+00:00",
-    "score": 11.39,
+    "score": 11.35,
     "duplicates": 0
-   },
-   {
-    "id": "bd8bb55ee8",
-    "title": "Stock futures mixed as traders await Fed decision, Alphabet and Microsoft earnings (SPX:) - Seeking Alpha",
-    "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNTUpjMDk2Q3hVRnpRYmpJeFRPdUd3RzF0R2J5bnZrajFza3QtZmtmLUxmY2JUZnpud1RuQk1hc1VhVXF2N21GazRrbXc2YktHTFVVcFlSWl90V3J0elhBcl9qc0ExU3BKVWNuNGNHUXAyRUJqMnQ2ZnQwV2U1cWZZaGRhbklfMTZt?oc=5",
-    "source": "gnews_futures",
-    "published_utc": "2026-10-28T08:00:48+00:00",
-    "score": 10.97,
-    "duplicates": 1
-   },
-   {
-    "id": "25f98a195c",
-    "title": "Federal Reserve likely to skip rate hike as elevated inflation drives voters to the polls - WRAL",
-    "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNWmc1QWhpbVFESkhwdWxUaFQ2bF9GN0cwUU1fTXJLNzItcktwU0xnZ3dTRGxScmpNQlZUU2RvVV83WENQQmxJb1E4R1BXNGh3eU55c05MdGNBeTZTR2tjcVBGQ0FjOEV0ck5sNDZITURXRUpieWNIOGhXR2ZLa0VMOGxicHlHSm9EdkttdThSQjIyU3pHc0pXdVNIa0tvYWo5T2dzRFFR?oc=5",
-    "source": "gnews_fed",
-    "published_utc": "2026-10-28T09:25:35+00:00",
-    "score": 10.71,
-    "duplicates": 7
    },
    {
     "id": "95ef527608",
@@ -2872,8 +2879,17 @@
     "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPQVNrQUVwN1c3SjBCODU1TXUwRy1hQ2lIQUxFZkJ3dGhXa0NZalhVTFFoeTU4MlB3VDRwWE1QRktITG5FZnd1eUVDTjRUankwRGgzRkRKTGdwZDVDbWUyTWVKNlRKVld5RVdaTllzZkVhdXUzNkZUOU5RWWNOQVJTY2xuaDJZZXlybC05LXRmTmpPb2RvVlliLWxBUXZVRldXU3kyY2pWb1ZmZlFNUU1KMmN4aV9wMk9Lai01YXcza0JqdDQ?oc=5",
     "source": "gnews_futures",
     "published_utc": "2026-10-28T09:57:59+00:00",
-    "score": 10.3,
+    "score": 10.25,
     "duplicates": 1
+   },
+   {
+    "id": "5d2b9457d0",
+    "title": "Nasdaq futures rise as chip stocks gain ahead of Fed decision and big tech earnings - Traders Union",
+    "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOR012eGR4dXU2cDVLcFkyZ05JSVB2MEdNVWxfWnVFUHVqRU41cW92VWdQbFFtdGVxbEREQ3FCX2QzcFpFR080NF9WUWQ1MktFMTVwSEJTUlF1cVBZaU51YVVEN2VCTFhEVTM0R2NBcE5Qeng1dnhYZXphT0FSRlFvTll1clc5Z3pFbWVqMWJmVVVCMFct?oc=5",
+    "source": "gnews_futures",
+    "published_utc": "2026-10-28T09:56:23+00:00",
+    "score": 9.75,
+    "duplicates": 0
    },
    {
     "id": "ded637ca77",
@@ -2881,8 +2897,17 @@
     "link": "https://www.cnbc.com/2026/10/28/us-treasurys-bonds-yields-federal-reserve.html",
     "source": "cnbc_markets",
     "published_utc": "2026-10-28T09:22:26+00:00",
-    "score": 9.7,
+    "score": 9.66,
     "duplicates": 4
+   },
+   {
+    "id": "25f98a195c",
+    "title": "Federal Reserve likely to skip rate hike as elevated inflation drives voters to the polls - WRAL",
+    "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNWmc1QWhpbVFESkhwdWxUaFQ2bF9GN0cwUU1fTXJLNzItcktwU0xnZ3dTRGxScmpNQlZUU2RvVV83WENQQmxJb1E4R1BXNGh3eU55c05MdGNBeTZTR2tjcVBGQ0FjOEV0ck5sNDZITURXRUpieWNIOGhXR2ZLa0VMOGxicHlHSm9EdkttdThSQjIyU3pHc0pXdVNIa0tvYWo5T2dzRFFR?oc=5",
+    "source": "gnews_fed",
+    "published_utc": "2026-10-28T09:25:35+00:00",
+    "score": 9.66,
+    "duplicates": 5
    },
    {
     "id": "c0a7746a37",
@@ -2890,7 +2915,7 @@
     "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQX2FQRmJjRHp3cEhwRWZwR0x2cGRpWmphMWNmVGdDbjRXT1UxVjMzMDkwU1JBZlVJX2RQazJkY1k0MUFqSjJ4ZEwtYUFfR3ZsU2VSYjFPTmhOTTlaSmhvWXRrY3dTVzlZaDEzS1BpNXhYcF83UWZESzl3V21aalNNTk5GNHlJa0s3V3ladjVjOE1ZZEwyNVp6by1vN3ViQW1NY2JmUU1oYXpRYnVTT0xpY1pOSU83VEdrcldPZmZBUkNBNHJEcnZfQXln?oc=5",
     "source": "gnews_futures",
     "published_utc": "2026-10-28T05:51:04+00:00",
-    "score": 9.61,
+    "score": 9.57,
     "duplicates": 0
    },
    {
@@ -2899,7 +2924,7 @@
     "link": "https://news.google.com/rss/articles/CBMimAJBVV95cUxNOHIyTThiOE03WlhxUFYxRTBxMy1RVm53Wkh1NDg5Z1lmVEp3c1JRSlJtRzJQV09faVNvWEZHOFRJOUtSWDdKbjVGaHpYZmZiQUJfU1dEUUV0c0lDWEw2TjJmc0xKY1RyZkJwcm4wUmd3ay1DTy1jWDNYcVpxWlFMcFBReUl4N3hoaGtfZVU0NVJMRS1zazlEdjZxbGpVbnBjTFBIcjlnNGVET1RXTk50STZHTXExb1MybUt2UEF4XzJuQnNOcHJhdU1na1REMzlNWmZCc0c3QnBUWG84VFQ4eGt3bmgtakZWUmNsbXFueGFINF9RbE1Jbm1ndFFEQVVnQkg1b2p6VnJoSElMeTItV2YwYkowS1Bw?oc=5",
     "source": "gnews_fed",
     "published_utc": "2026-10-28T09:47:15+00:00",
-    "score": 9.27,
+    "score": 9.23,
     "duplicates": 1
    },
    {
@@ -2908,7 +2933,7 @@
     "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNQS02TUtVR24xWjdGNTJrLXR6bGtDYW5EclpiY2JOMDJvX1lMN1BDd3NEalhRb3lsdUpsNW1Uc0FjdlFDV3pCTHU3aEY0Mm1qajZaMmd0QWNRcl9JVE93M2txc2ExR3JkbU1qUk0tZDFPd1ZsQUx4dEJabmpSQ1RxQkljSVdqdlczX3JNaHVHWTJDMDQ2X285ZDhYZW9LaV9aMlVBVm5lZFJFZw?oc=5",
     "source": "gnews_futures",
     "published_utc": "2026-10-28T09:24:00+00:00",
-    "score": 9.2,
+    "score": 9.16,
     "duplicates": 0
    },
    {
@@ -2917,7 +2942,7 @@
     "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQbXFpNW9RVEo3WTdHcUROTjhyek0tUGQzVFhKc3ctVm9BOGZ0MERmdWtUbFhVU0VUR0g3LTdMSEhuT3N1R1draXlJRW9yb3p3a0hZZHZaLVFoN2dyVWlHaFBZUWFBY3JrQk1UN1dLV05mcWt3bTBDY0doRTZLQ21lUGUtVWt6aXdVbFRES1JGUmFTZHVYeXg4RjNpbGY4bWRUWFRFOVVENWhVMGw3d21obmFwTzl0NGFXWXc?oc=5",
     "source": "gnews_megacap",
     "published_utc": "2026-10-28T04:57:31+00:00",
-    "score": 8.96,
+    "score": 8.92,
     "duplicates": 0
    },
    {
@@ -2926,26 +2951,17 @@
     "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxOYjk4WU14X1p0U19nQWF0NHBxbTNpdnFkSFNSLWNHVURLcFFNWFJZak9EbjlKc0NlMk5hOXF2V01xNWM5YVJwWGFnakNQYTVRZnpBR3lmTklyV0dIVzdpdGxpVi1ySG5iNVVWUEVaNzRiWWhFM1NCNDlTQkxWdk9GY2ttQ2U5MkNLUTZvVjhNTE5KOS03VF9qRjhhY1A2QktNWUxTV0tIR24wT3c1UTV6UF9LRmZoQmdmeXgxVWVWdWU0MmJCUGZfal9uamo?oc=5",
     "source": "gnews_macro",
     "published_utc": "2026-10-28T04:17:16+00:00",
-    "score": 8.85,
-    "duplicates": 0
-   },
-   {
-    "id": "254e490e13",
-    "title": "Fed decision and Alphabet, Microsoft, Amazon earnings could shake up the AI trade over the next 48 hours - Business Insider",
-    "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQTGMyNlVMOV9mTHQ1ZEd2MWZiZDZsYUZ3U1dYQVVoeDBsbVd4V3BhemNaeTV1UjgxTDUwNEZsMzEyWjB4cUExZTBYS3d0b2dUX2NWa3p3N3RpWE9yZ1dpekd6cjNyOThHRDJST3dXaEs0R084Wk1kdmY3cHA2SXdFTEs1a1ByQ3RpZTNxUllGczdDMnktd1pmdnRON1duQ0Z2VHhRMF9iU3E?oc=5",
-    "source": "gnews_megacap",
-    "published_utc": "2026-10-28T09:54:50+00:00",
-    "score": 8.79,
+    "score": 8.81,
     "duplicates": 0
    }
   ],
   "summary": {
    "lines": [
     "S&P 500, Nasdaq Futures Mixed Ahead Of Fed Decision, Big Tech Earnings: GOOGL, MSFT, HOOD, SOFI In Focus - Yahoo Finance [2339d5ebb5]",
-    "Nasdaq Futures Climb as SK Hynix Adds Fuel to Chip Rally; Fed Decision and Big Tech Earnings in Focus - Barchart.com [af4b33f45f]",
     "Stock futures mixed as traders await Fed decision, Alphabet and Microsoft earnings (SPX:) - Seeking Alpha [bd8bb55ee8]",
-    "Federal Reserve likely to skip rate hike as elevated inflation drives voters to the polls - WRAL [25f98a195c]",
-    "Nasdaq futures rise as SK Hynix boosts chips before Fed decision, earnings - Reuters [95ef527608]"
+    "Nasdaq Futures Climb as SK Hynix Adds Fuel to Chip Rally; Fed Decision and Big Tech Earnings in Focus - Barchart.com [af4b33f45f]",
+    "Nasdaq futures rise as SK Hynix boosts chips before Fed decision, earnings - Reuters [95ef527608]",
+    "Nasdaq futures rise as chip stocks gain ahead of Fed decision and big tech earnings - Traders Union [5d2b9457d0]"
    ],
    "backend": "none",
    "model": null,
