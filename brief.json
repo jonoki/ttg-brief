@@ -1,11 +1,11 @@
 {
  "meta": {
-  "generated_at_utc": "2026-10-29T12:27:46.930265+00:00",
-  "generated_at_local": "Thu 29 Oct 2026 09:27 ADT",
+  "generated_at_utc": "2026-10-29T12:40:04.523722+00:00",
+  "generated_at_local": "Thu 29 Oct 2026 09:40 ADT",
   "trading_day": "2026-10-29",
   "display_tz": "America/Halifax",
   "version": "0.1.0",
-  "run": "overnight",
+  "run": "post-data",
   "variant": "public"
  },
  "calendar": {
@@ -119,14 +119,14 @@
    }
   ],
   "next_event": {
-   "name": "Advance GDP q/q",
-   "impact": "high",
-   "time_utc": "2026-10-29T12:30:00+00:00",
-   "local": "09:30 ADT",
-   "et": "08:30 ET",
-   "in": "2 min",
-   "consensus": "3.2%",
-   "prior": "1.5%"
+   "name": "7-Year note auction",
+   "impact": "medium",
+   "time_utc": "2026-10-29T17:00:00+00:00",
+   "local": "14:00 ADT",
+   "et": "13:00 ET",
+   "in": "4h 19m",
+   "consensus": null,
+   "prior": null
   },
   "sources": [],
   "warnings": []
@@ -135,10 +135,10 @@
   {
    "root": "ES",
    "trading_day": "2026-10-29",
-   "as_of_utc": "2026-10-29T12:27:46.930265+00:00",
+   "as_of_utc": "2026-10-29T12:40:04.523722+00:00",
    "source": "yahoo",
    "delayed": true,
-   "last_price": 7751.75,
+   "last_price": 7755.75,
    "levels": [
     {
      "tag": "exp_hi",
@@ -208,7 +208,7 @@
      "label": "Overnight high",
      "price": 7773.75,
      "group": "overnight",
-     "note": "since 18:00 ET, 848 bars"
+     "note": "since 18:00 ET, 861 bars"
     },
     {
      "tag": "poc",
@@ -227,7 +227,7 @@
     {
      "tag": "onvwap",
      "label": "Overnight VWAP",
-     "price": 7757.3,
+     "price": 7757.22,
      "group": "overnight",
      "note": "typical-price VWAP"
     },
@@ -289,14 +289,14 @@
     }
    ],
    "stats": {
-    "last_bar_utc": "2026-10-29T12:17:00+00:00",
-    "last_bar_age_min": 10.8,
+    "last_bar_utc": "2026-10-29T12:30:00+00:00",
+    "last_bar_age_min": 10.1,
     "market_state": "open",
     "profile_volume": 1199240.0,
     "prior_day": "2026-10-28",
     "prior_day_rth_range": 42.75,
     "overnight_range": 33.75,
-    "gap_vs_prior_close": -32.75,
+    "gap_vs_prior_close": -28.75,
     "gap_basis": "last price (pre-market)",
     "atr14": 81.79,
     "atr_days": 14,
@@ -1500,20 +1500,28 @@
     {
      "t": "2026-10-29T12:15:00+00:00",
      "o": 7748.5,
-     "h": 7752.25,
+     "h": 7756.75,
      "l": 7748.25,
-     "c": 7751.75,
-     "v": 1454.0
+     "c": 7755.25,
+     "v": 8384.0
+    },
+    {
+     "t": "2026-10-29T12:30:00+00:00",
+     "o": 7755.75,
+     "h": 7761.25,
+     "l": 7753.0,
+     "c": 7755.75,
+     "v": 0.0
     }
    ]
   },
   {
    "root": "NQ",
    "trading_day": "2026-10-29",
-   "as_of_utc": "2026-10-29T12:27:46.930265+00:00",
+   "as_of_utc": "2026-10-29T12:40:04.523722+00:00",
    "source": "yahoo",
    "delayed": true,
-   "last_price": 29613.25,
+   "last_price": 29637.0,
    "levels": [
     {
      "tag": "exp_hi",
@@ -1583,7 +1591,7 @@
      "label": "Overnight high",
      "price": 29794.25,
      "group": "overnight",
-     "note": "since 18:00 ET, 848 bars"
+     "note": "since 18:00 ET, 861 bars"
     },
     {
      "tag": "pdl",
@@ -1616,7 +1624,7 @@
     {
      "tag": "onvwap",
      "label": "Overnight VWAP",
-     "price": 29647.38,
+     "price": 29647.02,
      "group": "overnight",
      "note": "typical-price VWAP"
     },
@@ -1664,14 +1672,14 @@
     }
    ],
    "stats": {
-    "last_bar_utc": "2026-10-29T12:17:00+00:00",
-    "last_bar_age_min": 10.8,
+    "last_bar_utc": "2026-10-29T12:30:00+00:00",
+    "last_bar_age_min": 10.1,
     "market_state": "open",
     "profile_volume": 435690.0,
     "prior_day": "2026-10-28",
     "prior_day_rth_range": 241.75,
     "overnight_range": 311.75,
-    "gap_vs_prior_close": -377.5,
+    "gap_vs_prior_close": -353.75,
     "gap_basis": "last price (pre-market)",
     "atr14": 577.29,
     "atr_days": 14,
@@ -2875,10 +2883,18 @@
     {
      "t": "2026-10-29T12:15:00+00:00",
      "o": 29607.75,
-     "h": 29613.75,
-     "l": 29600.75,
-     "c": 29613.25,
-     "v": 366.0
+     "h": 29647.75,
+     "l": 29600.5,
+     "c": 29641.25,
+     "v": 3103.0
+    },
+    {
+     "t": "2026-10-29T12:30:00+00:00",
+     "o": 29641.75,
+     "h": 29670.25,
+     "l": 29624.5,
+     "c": 29637.0,
+     "v": 0.0
     }
    ]
   }
@@ -3014,7 +3030,256 @@
  },
  "flags": [],
  "earnings": {
-  "reported": [],
+  "reported": [
+   {
+    "symbol": "MSFT",
+    "name": "Microsoft Corporation",
+    "timing": "unknown",
+    "date": "2026-10-28",
+    "reported_at": "10/28/2026",
+    "reported": true
+   },
+   {
+    "symbol": "GOOG",
+    "name": "Alphabet Inc.",
+    "timing": "unknown",
+    "date": "2026-10-28",
+    "reported_at": "10/28/2026",
+    "reported": true
+   },
+   {
+    "symbol": "GOOGL",
+    "name": "Alphabet Inc.",
+    "timing": "unknown",
+    "date": "2026-10-28",
+    "reported_at": "10/28/2026",
+    "reported": true
+   },
+   {
+    "symbol": "KLAC",
+    "name": "KLA Corporation",
+    "timing": "unknown",
+    "date": "2026-10-28",
+    "reported_at": "10/28/2026",
+    "reported": true
+   },
+   {
+    "symbol": "NOW",
+    "name": "ServiceNow, Inc.",
+    "timing": "unknown",
+    "date": "2026-10-28",
+    "reported_at": "10/28/2026",
+    "reported": true
+   },
+   {
+    "symbol": "SKHY",
+    "name": "SK hynix Inc.",
+    "timing": "unknown",
+    "date": "2026-10-28",
+    "reported_at": "10/28/2026",
+    "reported": true
+   },
+   {
+    "symbol": "GEV",
+    "name": "GE Vernova Inc.",
+    "timing": "unknown",
+    "date": "2026-10-28",
+    "reported_at": "10/28/2026",
+    "reported": true
+   },
+   {
+    "symbol": "APH",
+    "name": "Amphenol Corporation",
+    "timing": "unknown",
+    "date": "2026-10-28",
+    "reported_at": "10/28/2026",
+    "reported": true
+   },
+   {
+    "symbol": "SAN",
+    "name": "Banco Santander, S.A.",
+    "timing": "unknown",
+    "date": "2026-10-28",
+    "reported_at": "10/28/2026",
+    "reported": true
+   },
+   {
+    "symbol": "TMUS",
+    "name": "T-Mobile US, Inc.",
+    "timing": "unknown",
+    "date": "2026-10-28",
+    "reported_at": "10/28/2026",
+    "reported": true
+   },
+   {
+    "symbol": "UBS",
+    "name": "UBS AG",
+    "timing": "unknown",
+    "date": "2026-10-28",
+    "reported_at": "10/28/2026",
+    "reported": true
+   },
+   {
+    "symbol": "FTNT",
+    "name": "Fortinet, Inc.",
+    "timing": "unknown",
+    "date": "2026-10-28",
+    "reported_at": "10/28/2026",
+    "reported": true
+   },
+   {
+    "symbol": "EQNR",
+    "name": "Equinor ASA",
+    "timing": "unknown",
+    "date": "2026-10-28",
+    "reported_at": "10/28/2026",
+    "reported": true
+   },
+   {
+    "symbol": "ADP",
+    "name": "Automatic Data Processing, Inc.",
+    "timing": "unknown",
+    "date": "2026-10-28",
+    "reported_at": "10/28/2026",
+    "reported": true
+   },
+   {
+    "symbol": "PSX",
+    "name": "Phillips 66",
+    "timing": "unknown",
+    "date": "2026-10-28",
+    "reported_at": "10/28/2026",
+    "reported": true
+   },
+   {
+    "symbol": "GSK",
+    "name": "GSK plc",
+    "timing": "unknown",
+    "date": "2026-10-28",
+    "reported_at": "10/28/2026",
+    "reported": true
+   },
+   {
+    "symbol": "EQIX",
+    "name": "Equinix, Inc.",
+    "timing": "unknown",
+    "date": "2026-10-28",
+    "reported_at": "10/28/2026",
+    "reported": true
+   },
+   {
+    "symbol": "AEM",
+    "name": "Agnico Eagle Mines Limited",
+    "timing": "unknown",
+    "date": "2026-10-28",
+    "reported_at": "10/28/2026",
+    "reported": true
+   },
+   {
+    "symbol": "CP",
+    "name": "Canadian Pacific Kansas City Limited",
+    "timing": "unknown",
+    "date": "2026-10-28",
+    "reported_at": "10/28/2026",
+    "reported": true
+   },
+   {
+    "symbol": "VRT",
+    "name": "Vertiv Holdings, LLC",
+    "timing": "unknown",
+    "date": "2026-10-28",
+    "reported_at": "10/28/2026",
+    "reported": true
+   },
+   {
+    "symbol": "FDX",
+    "name": "FedEx Corporation",
+    "timing": "unknown",
+    "date": "2026-10-28",
+    "reported_at": "10/28/2026",
+    "reported": true
+   },
+   {
+    "symbol": "ORLY",
+    "name": "O'Reilly Automotive, Inc.",
+    "timing": "unknown",
+    "date": "2026-10-28",
+    "reported_at": "10/28/2026",
+    "reported": true
+   },
+   {
+    "symbol": "AEP",
+    "name": "American Electric Power Company, Inc.",
+    "timing": "unknown",
+    "date": "2026-10-28",
+    "reported_at": "10/28/2026",
+    "reported": true
+   },
+   {
+    "symbol": "BSX",
+    "name": "Boston Scientific Corporation",
+    "timing": "unknown",
+    "date": "2026-10-28",
+    "reported_at": "10/28/2026",
+    "reported": true
+   },
+   {
+    "symbol": "TEL",
+    "name": "TE Connectivity plc",
+    "timing": "unknown",
+    "date": "2026-10-28",
+    "reported_at": "10/28/2026",
+    "reported": true
+   },
+   {
+    "symbol": "CVNA",
+    "name": "Carvana Co.",
+    "timing": "unknown",
+    "date": "2026-10-28",
+    "reported_at": "10/28/2026",
+    "reported": true
+   },
+   {
+    "symbol": "AON",
+    "name": "Aon plc",
+    "timing": "unknown",
+    "date": "2026-10-28",
+    "reported_at": "10/28/2026",
+    "reported": true
+   },
+   {
+    "symbol": "DB",
+    "name": "Deutsche Bank AG",
+    "timing": "unknown",
+    "date": "2026-10-28",
+    "reported_at": "10/28/2026",
+    "reported": true
+   },
+   {
+    "symbol": "GRMN",
+    "name": "Garmin Ltd.",
+    "timing": "unknown",
+    "date": "2026-10-28",
+    "reported_at": "10/28/2026",
+    "reported": true
+   },
+   {
+    "symbol": "HONA",
+    "name": "Honeywell Aerospace Inc.",
+    "timing": "unknown",
+    "date": "2026-10-28",
+    "reported_at": "10/28/2026",
+    "reported": true
+   },
+   {
+    "symbol": "EBAY",
+    "name": "eBay Inc.",
+    "timing": "unknown",
+    "date": "2026-10-28",
+    "reported_at": "10/28/2026",
+    "reported": true
+   }
+  ],
   "today": [
    {
     "symbol": "AMZN",
