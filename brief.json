@@ -1,7 +1,7 @@
 {
  "meta": {
-  "generated_at_utc": "2026-10-29T10:25:02.294114+00:00",
-  "generated_at_local": "Thu 29 Oct 2026 07:25 ADT",
+  "generated_at_utc": "2026-10-29T10:40:23.708882+00:00",
+  "generated_at_local": "Thu 29 Oct 2026 07:40 ADT",
   "trading_day": "2026-10-29",
   "display_tz": "America/Halifax",
   "version": "0.1.0",
@@ -124,7 +124,7 @@
    "time_utc": "2026-10-29T12:30:00+00:00",
    "local": "09:30 ADT",
    "et": "08:30 ET",
-   "in": "2h 04m",
+   "in": "1h 49m",
    "consensus": "3.2%",
    "prior": "1.5%"
   },
@@ -135,10 +135,10 @@
   {
    "root": "ES",
    "trading_day": "2026-10-29",
-   "as_of_utc": "2026-10-29T10:25:02.294114+00:00",
+   "as_of_utc": "2026-10-29T10:40:23.708882+00:00",
    "source": "yahoo",
    "delayed": true,
-   "last_price": 7766.0,
+   "last_price": 7760.75,
    "levels": [
     {
      "tag": "exp_hi",
@@ -208,7 +208,7 @@
      "label": "Overnight high",
      "price": 7773.75,
      "group": "overnight",
-     "note": "since 18:00 ET, 726 bars"
+     "note": "since 18:00 ET, 741 bars"
     },
     {
      "tag": "poc",
@@ -227,7 +227,7 @@
     {
      "tag": "onvwap",
      "label": "Overnight VWAP",
-     "price": 7756.63,
+     "price": 7756.75,
      "group": "overnight",
      "note": "typical-price VWAP"
     },
@@ -289,14 +289,14 @@
     }
    ],
    "stats": {
-    "last_bar_utc": "2026-10-29T10:15:00+00:00",
-    "last_bar_age_min": 10.0,
+    "last_bar_utc": "2026-10-29T10:30:00+00:00",
+    "last_bar_age_min": 10.4,
     "market_state": "open",
     "profile_volume": 1199240.0,
     "prior_day": "2026-10-28",
     "prior_day_rth_range": 42.75,
     "overnight_range": 33.75,
-    "gap_vs_prior_close": -18.5,
+    "gap_vs_prior_close": -23.75,
     "gap_basis": "last price (pre-market)",
     "atr14": 81.79,
     "atr_days": 14,
@@ -1437,8 +1437,16 @@
      "t": "2026-10-29T10:15:00+00:00",
      "o": 7766.25,
      "h": 7766.25,
-     "l": 7765.5,
-     "c": 7766.0,
+     "l": 7761.0,
+     "c": 7761.25,
+     "v": 4149.0
+    },
+    {
+     "t": "2026-10-29T10:30:00+00:00",
+     "o": 7762.25,
+     "h": 7763.0,
+     "l": 7758.75,
+     "c": 7760.75,
      "v": 0.0
     }
    ]
@@ -1446,10 +1454,10 @@
   {
    "root": "NQ",
    "trading_day": "2026-10-29",
-   "as_of_utc": "2026-10-29T10:25:02.294114+00:00",
+   "as_of_utc": "2026-10-29T10:40:23.708882+00:00",
    "source": "yahoo",
    "delayed": true,
-   "last_price": 29688.0,
+   "last_price": 29654.0,
    "levels": [
     {
      "tag": "exp_hi",
@@ -1519,7 +1527,7 @@
      "label": "Overnight high",
      "price": 29794.25,
      "group": "overnight",
-     "note": "since 18:00 ET, 726 bars"
+     "note": "since 18:00 ET, 741 bars"
     },
     {
      "tag": "pdl",
@@ -1552,7 +1560,7 @@
     {
      "tag": "onvwap",
      "label": "Overnight VWAP",
-     "price": 29644.83,
+     "price": 29645.08,
      "group": "overnight",
      "note": "typical-price VWAP"
     },
@@ -1600,14 +1608,14 @@
     }
    ],
    "stats": {
-    "last_bar_utc": "2026-10-29T10:15:00+00:00",
-    "last_bar_age_min": 10.0,
+    "last_bar_utc": "2026-10-29T10:30:00+00:00",
+    "last_bar_age_min": 10.4,
     "market_state": "open",
     "profile_volume": 435690.0,
     "prior_day": "2026-10-28",
     "prior_day_rth_range": 241.75,
     "overnight_range": 311.75,
-    "gap_vs_prior_close": -302.75,
+    "gap_vs_prior_close": -336.75,
     "gap_basis": "last price (pre-market)",
     "atr14": 577.29,
     "atr_days": 14,
@@ -2748,8 +2756,16 @@
      "t": "2026-10-29T10:15:00+00:00",
      "o": 29691.5,
      "h": 29692.0,
-     "l": 29684.75,
-     "c": 29688.0,
+     "l": 29653.75,
+     "c": 29655.5,
+     "v": 1544.0
+    },
+    {
+     "t": "2026-10-29T10:30:00+00:00",
+     "o": 29658.0,
+     "h": 29659.25,
+     "l": 29646.0,
+     "c": 29654.0,
      "v": 0.0
     }
    ]
@@ -2758,31 +2774,22 @@
  "news": {
   "headlines": [
    {
+    "id": "1ed0f402c0",
+    "title": "Federal Reserve keeps interest rates unchanged despite elevated inflation concerns - KMMO",
+    "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQNTg2QzNLUFRWUGlSZFhSbW92Z3ZnUzA2QnpIdVF2YlVVVmtRNERNVWZmWmVGQTRlXzBwZENIMmdXRTlacDJzS1lfZ3BYM05ROE5vakwtSzhNUE5CdnBvZTUwQmlwczczaGZjMDZQUFQxcVNVaEdoTC1xdWo4NDMzcTNMbks1VGZKWGVNbjkzb0ZiVThFT1ZLc1FSTlJzYm5IbWJnOGpRZTdOMFdLVE9KQXFaYmFfUQ?oc=5",
+    "source": "gnews_fed",
+    "published_utc": "2026-10-29T10:25:52+00:00",
+    "score": 13.96,
+    "duplicates": 13
+   },
+   {
     "id": "71e8d4e863",
     "title": "Federal Reserve holds interest rates steady as inflation surges - The San Joaquin Valley Sun",
     "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPVmlVU1BMTUZhS29uMXdVQUgwb2RzVDVyOVQ1NVRpRGJ0ZjJtU0ZZV3VPSER4bXh2UWd3bDNBc3NLYmd1ZUNHZjd2WEUwVkxWSGV2TWVVcXJiZmFmUTFYSUlYTklWZ1Z2c1d4SjkzVVZGZDBsZGZqTXJYa2NER1VDS0otUGVPQ0RySkw3VWczY3A?oc=5",
     "source": "gnews_fed",
     "published_utc": "2026-10-29T06:00:00+00:00",
-    "score": 13.76,
+    "score": 13.72,
     "duplicates": 14
-   },
-   {
-    "id": "71f98ba4d8",
-    "title": "Federal Reserve keeps interest rates unchanged despite elevated inflation concerns - E Communications",
-    "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQczVFeUhFR09jc2R2d0ozOVFlYksyX3VuTG00elpENGxqRml3Qkp0YzEzdGhVMGFNTU1Deno5VlBRUXdqZ3BDNkR6QnVyR3pibGVQcWRtOC1WTEd4M3VheWdMRWY1VFE3SkxLcTlSM1licnZNeUltYWJfLUxieWc5UndtaUZ2ZWd0bHA0S2tuQ0ZJQmY2VGYwbXRDZE5XZWU3WXB0V3hnZzIzR0V4NFlLWVpuSlNKRkh1ODk2ZHgwRFhpUFh4ZGc?oc=5",
-    "source": "gnews_fed",
-    "published_utc": "2026-10-29T10:16:20+00:00",
-    "score": 13.48,
-    "duplicates": 12
-   },
-   {
-    "id": "7739d2656a",
-    "title": "Stock Market Today: Dow Jones, S&P 500 Futures Trade Mixed After Fed Keeps Rates Unchanged — MSFT, GOOG - Benzinga",
-    "link": "https://news.google.com/rss/articles/CBMi_AFBVV95cUxNY0xYOTAzdVlaMV9uTHNQWDJwMVEzTnYtcTNNNzRud2pOT3AwclRqOVpjOGs2XzJuS2lxWmtnSUFyVmtMSUxqN1NNTFJ4aGVsaVpDNFhLNG9KQWV3MHFLTElpRFFveG1VUUp6WE1VZ3o5X05pb2Q0QTNkYnUzN3lGQTNhR3ltb1p5enVES0M0N3BpRnM1OVBWNGdrck0yX0F3dXZGQ0hUM2llRWZZcmZUUWFRc3EtbDZ4QjU1WnFmTTlfdWNvTVE4V2ZXRVFRRnYzdDVqRXI3ODlic0tUWFEwQ0lhbmNQMl9ONFdhVmlxTElxU3dHQ1pZSDlSaTY?oc=5",
-    "source": "gnews_futures",
-    "published_utc": "2026-10-29T09:33:23+00:00",
-    "score": 9.86,
-    "duplicates": 0
    },
    {
     "id": "c37970da46",
@@ -2790,34 +2797,16 @@
     "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQUmR6blpYMmFFSTZOTHlEYTRKVE9sVk50Mm9NTi02LU1TQlRQTklycFN1WHV3bEZPWC1SeGppYlc1M0dneWhpYkl3Z2NXME1qb3JRNGpJVUxlUmkzcHQ4ZEtVTWFCcnNWalpsVW9tU1JITDJjeXJfUVY2LTMtdWNHYVhpNnI5UFEzM2Ffb1hscWhwNm5WUTZVOExBTElfWG1nb2kwVnA5Y1ZlWlBxZHNjLXZnMUoyblNhdnhNWEU4YUNaU3R3b0E2V2hfX3RZU0xx?oc=5",
     "source": "gnews_megacap",
     "published_utc": "2026-10-29T09:51:13+00:00",
-    "score": 9.41,
-    "duplicates": 9
+    "score": 9.86,
+    "duplicates": 10
    },
    {
-    "id": "7bb3192fad",
-    "title": "US Fed holds interest rates steady despite surging inflation - South China Morning Post",
-    "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQU2JaMTdvVVY5WWFSQXNmRERHeVp1Q1FBZ1lXT3FtMVNuVC04b0d2VU1GTVNYN21XaG1BcnBiaGU5M0ZxUHRNV3pxQmdKczBfVUdMU2ZJVGpUZ0s3dXY3LWUzWjFpaWNLNHQtZGNJNGcxek5OWmFJLUdWV2JpS3RWWWtHWUtpSTUtWjNob2xfZkJPQm5kN3ktQzBzUm0wb0VSRzNGRDVuZXlSOFJYQlR3dG1Sak1KYktSMmVzNWNnbVEtNENOMEVaTtIByAFBVV95cUxPcFJCQktsTVlteFhyY0c3VmwyWW9IVVRJZFMxdzlDNldLRWVpSExsYk1xQlFvdVIxa3lHaEktTFhzYXNQUmoxeW5MR3JXbEh4djZ4ZU5TWjZhTDhjcjk2ZDBMenBWbGs2VHlCRXBTZm5Nd0x3ZWFvZndqU1RjN1Ita2IxRU9JTHlILXlxUGFlUDAwLXBYQkhhdURnd3JJTXRrR2RpVnVtdnpSamRBUEhuS3laYUFMc1pnU0V0ZjhtaTRETjl3ZWRJLQ?oc=5",
-    "source": "gnews_macro",
-    "published_utc": "2026-10-28T18:37:06+00:00",
-    "score": 9.0,
-    "duplicates": 4
-   },
-   {
-    "id": "26e062a350",
-    "title": "Asian shares wobble as Alphabet earnings miss drags Wall St futures lower - The Irish Times",
-    "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOUm9SVVc5RVJzUEQ5OHhXWkV3dTZjZEdUTWNsRjhzaGs2bTlxQWNLTG1Kb2FzeGxhWjJYUE9KX0ROdVlQQXdJcldScXBVTjdiTnZQVF9SUVJXX1Z0cURjcUxHamRMNlJZWlJMTGpoTWtldzdTbHZudmdYNmtfZWRTQnJDc0t3aTVDWHB0QVNmN1lldUZ2TnI4VWUtTVJlN01oeEV6Yk16M2pxM1h6Tnl5UFc1aGhXMEtDa1FmYUJDcXdtX3pxU0RRag?oc=5",
-    "source": "gnews_megacap",
-    "published_utc": "2026-10-29T07:00:44+00:00",
-    "score": 8.93,
-    "duplicates": 9
-   },
-   {
-    "id": "c890006080",
-    "title": "Dow, S&P 500, Nasdaq Futures Mixed After Fed Holds Rates Steady: GOOG, GOOGL, IOVA, MSFT, NOW In Focus - Yahoo Finance",
-    "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQUlZCYVZTNjdUbS1rVXljY21oU0NVNXNZSlVBQnBZWWNHQWw2TThJOXNwNG9hNFJ2c190dFJlZWxtWW1tRUY4ZjJuQjQ1cjYzUkFkUGlDZ0w4T080eHpuLTVVd3FWcWVnVTFvczdzTjdFZVd2Z1ozU0dqam9BOGxhbVQ0MnV4YmV3MDdkTTZtRWN2SkE?oc=5",
+    "id": "7739d2656a",
+    "title": "Stock Market Today: Dow Jones, S&P 500 Futures Trade Mixed After Fed Keeps Rates Unchanged — MSFT, GOOG - Benzinga",
+    "link": "https://news.google.com/rss/articles/CBMi_AFBVV95cUxNY0xYOTAzdVlaMV9uTHNQWDJwMVEzTnYtcTNNNzRud2pOT3AwclRqOVpjOGs2XzJuS2lxWmtnSUFyVmtMSUxqN1NNTFJ4aGVsaVpDNFhLNG9KQWV3MHFLTElpRFFveG1VUUp6WE1VZ3o5X05pb2Q0QTNkYnUzN3lGQTNhR3ltb1p5enVES0M0N3BpRnM1OVBWNGdrck0yX0F3dXZGQ0hUM2llRWZZcmZUUWFRc3EtbDZ4QjU1WnFmTTlfdWNvTVE4V2ZXRVFRRnYzdDVqRXI3ODlic0tUWFEwQ0lhbmNQMl9ONFdhVmlxTElxU3dHQ1pZSDlSaTY?oc=5",
     "source": "gnews_futures",
-    "published_utc": "2026-10-29T02:59:00+00:00",
-    "score": 8.76,
+    "published_utc": "2026-10-29T09:33:23+00:00",
+    "score": 9.81,
     "duplicates": 0
    },
    {
@@ -2826,8 +2815,35 @@
     "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxObTRZdktaNHNaUkc2SG45TFV3V3hKRlMwdWdFTEhyUVFSRnBodWFIM0gxSHh5NWZDVkp3WnJOX3RTZGFtUDVIN3ZPQnB6NlNOQ01OOXhTRnNhNjkyajZ2ejhEZkRBS1IxMkxjVWJmY3FYa3lqcHUxajVqRXpWdS1UWjdxZFZYTW8tUjBtN2NZTGlLSWFiRlpjTDNKaVlVbHRiLVRCcA?oc=5",
     "source": "gnews_futures",
     "published_utc": "2026-10-29T09:58:03+00:00",
-    "score": 8.43,
-    "duplicates": 1
+    "score": 8.88,
+    "duplicates": 2
+   },
+   {
+    "id": "c890006080",
+    "title": "Dow, S&P 500, Nasdaq Futures Mixed After Fed Holds Rates Steady: GOOG, GOOGL, IOVA, MSFT, NOW In Focus - Yahoo Finance",
+    "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQUlZCYVZTNjdUbS1rVXljY21oU0NVNXNZSlVBQnBZWWNHQWw2TThJOXNwNG9hNFJ2c190dFJlZWxtWW1tRUY4ZjJuQjQ1cjYzUkFkUGlDZ0w4T080eHpuLTVVd3FWcWVnVTFvczdzTjdFZVd2Z1ozU0dqam9BOGxhbVQ0MnV4YmV3MDdkTTZtRWN2SkE?oc=5",
+    "source": "gnews_futures",
+    "published_utc": "2026-10-29T02:59:00+00:00",
+    "score": 8.72,
+    "duplicates": 0
+   },
+   {
+    "id": "7bb3192fad",
+    "title": "US Fed holds interest rates steady despite surging inflation - South China Morning Post",
+    "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQU2JaMTdvVVY5WWFSQXNmRERHeVp1Q1FBZ1lXT3FtMVNuVC04b0d2VU1GTVNYN21XaG1BcnBiaGU5M0ZxUHRNV3pxQmdKczBfVUdMU2ZJVGpUZ0s3dXY3LWUzWjFpaWNLNHQtZGNJNGcxek5OWmFJLUdWV2JpS3RWWWtHWUtpSTUtWjNob2xfZkJPQm5kN3ktQzBzUm0wb0VSRzNGRDVuZXlSOFJYQlR3dG1Sak1KYktSMmVzNWNnbVEtNENOMEVaTtIByAFBVV95cUxPcFJCQktsTVlteFhyY0c3VmwyWW9IVVRJZFMxdzlDNldLRWVpSExsYk1xQlFvdVIxa3lHaEktTFhzYXNQUmoxeW5MR3JXbEh4djZ4ZU5TWjZhTDhjcjk2ZDBMenBWbGs2VHlCRXBTZm5Nd0x3ZWFvZndqU1RjN1Ita2IxRU9JTHlILXlxUGFlUDAwLXBYQkhhdURnd3JJTXRrR2RpVnVtdnpSamRBUEhuS3laYUFMc1pnU0V0ZjhtaTRETjl3ZWRJLQ?oc=5",
+    "source": "gnews_macro",
+    "published_utc": "2026-10-28T18:37:06+00:00",
+    "score": 8.5,
+    "duplicates": 3
+   },
+   {
+    "id": "c97b7c9e9d",
+    "title": "Asian shares wobble as Alphabet earnings miss drags Wall St futures - Gulf Today",
+    "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQM3hRZVBRMXQtNndNZC1CWDEyRmx0OG4xS2trSnRpMTdrTHBrUXlZQXRwa1U0bDBxN3R5NGtHZU5qRDkzLXdiSUJjVDhmVDNrQlFjYUN5b3lfandOaWI3d3kwVWE2TUFpeVI1OFZlUmRvQ1ZrdkctMFd5UGQxdXkxR09WSmY1V05GTDZfODc5MnpGS0lJX0hzUTdsbXM0NDh2NENXTE1EOTRLNF9ROHRBRHVB?oc=5",
+    "source": "gnews_megacap",
+    "published_utc": "2026-10-29T07:38:54+00:00",
+    "score": 8.5,
+    "duplicates": 8
    },
    {
     "id": "d9bba34645",
@@ -2835,17 +2851,17 @@
     "link": "https://www.marketwatch.com/story/why-alphabets-stock-could-see-its-worst-drop-in-years-after-the-latest-results-6b64cf98?mod=mw_rss_topstories",
     "source": "marketwatch_top",
     "published_utc": "2026-10-29T09:08:00+00:00",
-    "score": 8.29,
+    "score": 8.24,
     "duplicates": 0
    },
    {
-    "id": "6dc614cdcb",
-    "title": "U.S. stock futures drop as Alphabet slides on soft earnings, Microsoft firms - Investing.com",
-    "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxOdjB0N1U5ZjdmTVFTOHFuVWJmdUl3SzBERUZhd25hbEIzc0F1bTFBb2hhb1pjcmNkWF9JYWFQMF9VNVItUkpjcXBYdzZ5SF83Tko4X010MGkxZldTSmxEckZyNXI5V2pET0lodW5rS3V2N2k5UXF3dDRuQ0FmbnJQTE5oWFlLdWxwLTJaUTFuNzVVUnlVcU51dEhEbmtNM2x2N2dtSEhObnZxQlpJR2RmRTdfZWJvUEtfNXJucEd6T2FsNFFRTENhSkJR?oc=5",
-    "source": "gnews_futures",
-    "published_utc": "2026-10-29T07:35:00+00:00",
-    "score": 8.03,
-    "duplicates": 1
+    "id": "e7fcbe290d",
+    "title": "Federal Reserve keeps rates unchanged despite elevated inflation, gives little signal of next move - Magnolia Tribune",
+    "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxOWDR5Qk9WeGdqVzVhai0yeHJKYlA5VVRNSFJ6aE5EYVFubTZtd3VGMDN2TUpuX2dhcGFaQlRrSmtnM3h6R1VSWlJlMG4zWjZkdFBkZ3FrUEw4eDNfb29NVTg0Tkg3LXhqQkpudWY3UlZNQzJWeF9ObE9RSkVTTmhmb0VVUXZNd09zOVZNSVZCRGROdWpoX2kwZXJBc21jQ3JiYUxfYk1nNjJnZlRLdk1qRkplVTFPWnFnVVpkMmZIWGdGejZXOVlRb3J3cDYxSW9Ldk0w?oc=5",
+    "source": "gnews_fed",
+    "published_utc": "2026-10-28T20:28:03+00:00",
+    "score": 8.0,
+    "duplicates": 5
    },
    {
     "id": "d65030eba5",
@@ -2857,22 +2873,22 @@
     "duplicates": 5
    },
    {
-    "id": "b0035afc76",
-    "title": "Gold falls toward $4,040 as Fed outlook leaves traders awaiting inflation data - Investing.com",
-    "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQcUpsZi16cVBvbXg5bWFlS2ZDOUM1R1N2QnVTYUEzSzJQVFZqaWFCd1RKTFBTNTZjTl9IZFJfVmVPblpfRHdENlAwVVpFV3ZQbEJLcVlGOHJsWEFSeTduMk15V2t1UngwaVJzUnZYUnI1ejF1Y0QxY0FHYUdqLURVNTNoRmZRY0w1d1VOVkpQUERkU2hGMW81TmZ0dHhvcjU5cmgzdEtobzNPR0JrdjAwZjktbUFRYlU?oc=5",
-    "source": "gnews_macro",
-    "published_utc": "2026-10-29T06:52:46+00:00",
-    "score": 7.91,
+    "id": "2a0f38934f",
+    "title": "Nasdaq futures fall as Alphabet's AI spending concerns weigh on tech stocks | Business News - Hindustan Times",
+    "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxNajd5bGd1MU5iMmU5WHRMbGV0YTBTTDZPWUtpdlN4S29FbWZoeHJia3JraXkyNnNNQUFWMElhc29nLWh3TTc0Y1BYTnRZd25vQVhLc3hMLVh5LXNoUjJzaUlQTU90dGRJYTBfeUF1Si02TDRUWnVVYW9OWGxUV1pTSlBycWFFaElVZXRkQzJIRFpScG1HWU52ZDcweWtmN3gtblhOR2tZWFlOUTByNnBsTVNpZk9sc0xxc000UG51RThkcGVBVXNiaVdjZ3ZJWjNf0gHWAUFVX3lxTE5WaVN1VDRnVzVtT21BRE5jc3RQX3VvdWVReXk0QWpDbXFDYy11QWw0VF9tQVl3MS1RWlJScklwdVBYRHBJeHAyb2xtaElyMHF4c3dFWEdCS0ViRE5hWGI0am00V2ZncF9PMWduTnZVUTAyYUtCMFNVVjdlU05UUkxRRUd5TFVub1BHdk5CNzhsWHVFV0lIbHNmQVZEcmhWM2Zaal82XzFiZjdWTXJGcWlSUWN5c3pnUmJxV0dWcDFrUkhuMVVzbW9HREdCQ1FkZUpRWlhQcGc?oc=5",
+    "source": "gnews_futures",
+    "published_utc": "2026-10-29T10:27:15+00:00",
+    "score": 7.96,
     "duplicates": 0
    }
   ],
   "summary": {
    "lines": [
+    "Federal Reserve keeps interest rates unchanged despite elevated inflation concerns - KMMO [1ed0f402c0]",
     "Federal Reserve holds interest rates steady as inflation surges - The San Joaquin Valley Sun [71e8d4e863]",
-    "Federal Reserve keeps interest rates unchanged despite elevated inflation concerns - E Communications [71f98ba4d8]",
-    "Stock Market Today: Dow Jones, S&P 500 Futures Trade Mixed After Fed Keeps Rates Unchanged — MSFT, GOOG - Benzinga [7739d2656a]",
     "World shares and U.S. futures are mixed after Google parent Alphabet's earnings disappoint - BNN Bloomberg [c37970da46]",
-    "US Fed holds interest rates steady despite surging inflation - South China Morning Post [7bb3192fad]"
+    "Stock Market Today: Dow Jones, S&P 500 Futures Trade Mixed After Fed Keeps Rates Unchanged — MSFT, GOOG - Benzinga [7739d2656a]",
+    "Nasdaq futures fall 1% as Alphabet results intensify AI spending fears - Reuters [0574656b2e]"
    ],
    "backend": "none",
    "model": null,
