@@ -1,11 +1,11 @@
 {
  "meta": {
-  "generated_at_utc": "2026-10-29T16:00:03.202880+00:00",
-  "generated_at_local": "Thu 29 Oct 2026 13:00 ADT",
+  "generated_at_utc": "2026-10-29T20:05:01.826644+00:00",
+  "generated_at_local": "Thu 29 Oct 2026 17:05 ADT",
   "trading_day": "2026-10-29",
   "display_tz": "America/Halifax",
   "version": "0.1.0",
-  "run": "intraday",
+  "run": "post-close",
   "variant": "public"
  },
  "calendar": {
@@ -119,14 +119,14 @@
    }
   ],
   "next_event": {
-   "name": "7-Year note auction",
+   "name": "Employment Cost Index q/q",
    "impact": "medium",
-   "time_utc": "2026-10-29T17:00:00+00:00",
-   "local": "14:00 ADT",
-   "et": "13:00 ET",
-   "in": "59 min",
-   "consensus": null,
-   "prior": null
+   "time_utc": "2026-10-30T12:30:00+00:00",
+   "local": "09:30 ADT",
+   "et": "08:30 ET",
+   "in": "16h 24m",
+   "consensus": "0.8%",
+   "prior": "0.9%"
   },
   "sources": [],
   "warnings": []
@@ -135,10 +135,10 @@
   {
    "root": "ES",
    "trading_day": "2026-10-29",
-   "as_of_utc": "2026-10-29T16:00:03.202880+00:00",
+   "as_of_utc": "2026-10-29T20:05:01.826644+00:00",
    "source": "yahoo",
    "delayed": true,
-   "last_price": 7751.75,
+   "last_price": 7749.25,
    "levels": [
     {
      "tag": "exp_hi",
@@ -162,13 +162,6 @@
      "note": "since 2026-10-26"
     },
     {
-     "tag": "rn_major_up",
-     "label": "Round 50 above",
-     "price": 7800.0,
-     "group": "round",
-     "note": ""
-    },
-    {
      "tag": "pdh",
      "label": "Prior-day high (RTH)",
      "price": 7794.25,
@@ -188,13 +181,6 @@
      "price": 7776.5,
      "group": "profile",
      "note": "70 % value area"
-    },
-    {
-     "tag": "rn_minor_up",
-     "label": "Round 25 above",
-     "price": 7775.0,
-     "group": "round",
-     "note": ""
     },
     {
      "tag": "pdo",
@@ -222,7 +208,7 @@
      "label": "Today's RTH high",
      "price": 7767.25,
      "group": "today",
-     "note": "so far"
+     "note": "session complete"
     },
     {
      "tag": "val",
@@ -253,11 +239,18 @@
      "note": "full 18:00→17:00 session"
     },
     {
-     "tag": "rn_major_dn",
-     "label": "Round 50 below",
+     "tag": "rn_major_up",
+     "label": "Round 50 above",
      "price": 7750.0,
      "group": "round",
      "note": ""
+    },
+    {
+     "tag": "tdc",
+     "label": "Today's RTH close (16:00 bar)",
+     "price": 7749.25,
+     "group": "today",
+     "note": "becomes next session's prior-day close"
     },
     {
      "tag": "rtho",
@@ -276,8 +269,15 @@
     {
      "tag": "tdl",
      "label": "Today's RTH low",
-     "price": 7732.25,
+     "price": 7725.25,
      "group": "today",
+     "note": ""
+    },
+    {
+     "tag": "rn_minor_dn",
+     "label": "Round 25 below",
+     "price": 7725.0,
+     "group": "round",
      "note": ""
     },
     {
@@ -288,16 +288,23 @@
      "note": ""
     },
     {
+     "tag": "rn_major_dn",
+     "label": "Round 50 below",
+     "price": 7700.0,
+     "group": "round",
+     "note": ""
+    },
+    {
      "tag": "pwh",
      "label": "Prior-week high",
-     "price": 7693.25,
+     "price": 7674.0,
      "group": "week",
      "note": "1 session(s) of data — PARTIAL"
     },
     {
      "tag": "pwl",
      "label": "Prior-week low",
-     "price": 7657.75,
+     "price": 7659.75,
      "group": "week",
      "note": "1 session(s) of data — PARTIAL"
     },
@@ -310,8 +317,8 @@
     }
    ],
    "stats": {
-    "last_bar_utc": "2026-10-29T15:50:00+00:00",
-    "last_bar_age_min": 10.1,
+    "last_bar_utc": "2026-10-29T19:55:00+00:00",
+    "last_bar_age_min": 10.0,
     "market_state": "open",
     "profile_volume": 1199240.0,
     "prior_day": "2026-10-28",
@@ -1633,20 +1640,148 @@
     {
      "t": "2026-10-29T15:45:00+00:00",
      "o": 7758.5,
-     "h": 7758.5,
-     "l": 7750.75,
+     "h": 7761.5,
+     "l": 7748.75,
+     "c": 7761.25,
+     "v": 47340.0
+    },
+    {
+     "t": "2026-10-29T16:00:00+00:00",
+     "o": 7761.25,
+     "h": 7761.75,
+     "l": 7747.75,
+     "c": 7750.75,
+     "v": 40088.0
+    },
+    {
+     "t": "2026-10-29T16:15:00+00:00",
+     "o": 7751.0,
+     "h": 7755.5,
+     "l": 7747.25,
+     "c": 7752.5,
+     "v": 42430.0
+    },
+    {
+     "t": "2026-10-29T16:30:00+00:00",
+     "o": 7752.5,
+     "h": 7753.75,
+     "l": 7744.75,
      "c": 7751.75,
-     "v": 19222.0
+     "v": 37710.0
+    },
+    {
+     "t": "2026-10-29T16:45:00+00:00",
+     "o": 7751.5,
+     "h": 7756.25,
+     "l": 7746.5,
+     "c": 7754.5,
+     "v": 27584.0
+    },
+    {
+     "t": "2026-10-29T17:00:00+00:00",
+     "o": 7754.5,
+     "h": 7755.75,
+     "l": 7740.0,
+     "c": 7741.0,
+     "v": 37638.0
+    },
+    {
+     "t": "2026-10-29T17:15:00+00:00",
+     "o": 7740.75,
+     "h": 7746.0,
+     "l": 7740.75,
+     "c": 7744.5,
+     "v": 30861.0
+    },
+    {
+     "t": "2026-10-29T17:30:00+00:00",
+     "o": 7744.75,
+     "h": 7746.5,
+     "l": 7736.25,
+     "c": 7738.0,
+     "v": 40426.0
+    },
+    {
+     "t": "2026-10-29T17:45:00+00:00",
+     "o": 7738.0,
+     "h": 7740.0,
+     "l": 7725.25,
+     "c": 7732.0,
+     "v": 49845.0
+    },
+    {
+     "t": "2026-10-29T18:00:00+00:00",
+     "o": 7732.5,
+     "h": 7737.25,
+     "l": 7728.5,
+     "c": 7736.75,
+     "v": 35074.0
+    },
+    {
+     "t": "2026-10-29T18:15:00+00:00",
+     "o": 7736.75,
+     "h": 7738.25,
+     "l": 7730.5,
+     "c": 7733.0,
+     "v": 29304.0
+    },
+    {
+     "t": "2026-10-29T18:30:00+00:00",
+     "o": 7733.25,
+     "h": 7733.75,
+     "l": 7726.25,
+     "c": 7730.0,
+     "v": 28497.0
+    },
+    {
+     "t": "2026-10-29T18:45:00+00:00",
+     "o": 7730.0,
+     "h": 7738.25,
+     "l": 7729.0,
+     "c": 7735.0,
+     "v": 29404.0
+    },
+    {
+     "t": "2026-10-29T19:00:00+00:00",
+     "o": 7734.75,
+     "h": 7738.5,
+     "l": 7731.75,
+     "c": 7733.25,
+     "v": 33529.0
+    },
+    {
+     "t": "2026-10-29T19:15:00+00:00",
+     "o": 7733.5,
+     "h": 7742.25,
+     "l": 7732.75,
+     "c": 7741.5,
+     "v": 33781.0
+    },
+    {
+     "t": "2026-10-29T19:30:00+00:00",
+     "o": 7741.75,
+     "h": 7747.5,
+     "l": 7739.75,
+     "c": 7740.25,
+     "v": 45127.0
+    },
+    {
+     "t": "2026-10-29T19:45:00+00:00",
+     "o": 7740.0,
+     "h": 7751.5,
+     "l": 7735.5,
+     "c": 7749.25,
+     "v": 59828.0
     }
    ]
   },
   {
    "root": "NQ",
    "trading_day": "2026-10-29",
-   "as_of_utc": "2026-10-29T16:00:03.202880+00:00",
+   "as_of_utc": "2026-10-29T20:05:01.826644+00:00",
    "source": "yahoo",
    "delayed": true,
-   "last_price": 29596.75,
+   "last_price": 29536.75,
    "levels": [
     {
      "tag": "exp_hi",
@@ -1730,7 +1865,7 @@
      "label": "Today's RTH high",
      "price": 29677.0,
      "group": "today",
-     "note": "so far"
+     "note": "session complete"
     },
     {
      "tag": "pgl",
@@ -1761,11 +1896,18 @@
      "note": ""
     },
     {
-     "tag": "rn_minor_dn",
-     "label": "Round 50 below",
+     "tag": "rn_minor_up",
+     "label": "Round 50 above",
      "price": 29550.0,
      "group": "round",
      "note": ""
+    },
+    {
+     "tag": "tdc",
+     "label": "Today's RTH close (16:00 bar)",
+     "price": 29536.75,
+     "group": "today",
+     "note": "becomes next session's prior-day close"
     },
     {
      "tag": "rn_major_dn",
@@ -1798,14 +1940,14 @@
     {
      "tag": "pwh",
      "label": "Prior-week high",
-     "price": 29306.0,
+     "price": 29177.75,
      "group": "week",
      "note": "1 session(s) of data — PARTIAL"
     },
     {
      "tag": "pwl",
      "label": "Prior-week low",
-     "price": 29101.5,
+     "price": 29117.75,
      "group": "week",
      "note": "1 session(s) of data — PARTIAL"
     },
@@ -1818,8 +1960,8 @@
     }
    ],
    "stats": {
-    "last_bar_utc": "2026-10-29T15:50:00+00:00",
-    "last_bar_age_min": 10.1,
+    "last_bar_utc": "2026-10-29T19:55:00+00:00",
+    "last_bar_age_min": 10.0,
     "market_state": "open",
     "profile_volume": 435690.0,
     "prior_day": "2026-10-28",
@@ -3141,10 +3283,138 @@
     {
      "t": "2026-10-29T15:45:00+00:00",
      "o": 29633.5,
-     "h": 29634.75,
-     "l": 29587.75,
-     "c": 29596.75,
-     "v": 6756.0
+     "h": 29657.25,
+     "l": 29579.0,
+     "c": 29654.75,
+     "v": 17427.0
+    },
+    {
+     "t": "2026-10-29T16:00:00+00:00",
+     "o": 29657.75,
+     "h": 29658.5,
+     "l": 29553.0,
+     "c": 29562.75,
+     "v": 14944.0
+    },
+    {
+     "t": "2026-10-29T16:15:00+00:00",
+     "o": 29564.75,
+     "h": 29584.5,
+     "l": 29538.5,
+     "c": 29567.75,
+     "v": 14308.0
+    },
+    {
+     "t": "2026-10-29T16:30:00+00:00",
+     "o": 29566.75,
+     "h": 29573.25,
+     "l": 29519.75,
+     "c": 29564.5,
+     "v": 12693.0
+    },
+    {
+     "t": "2026-10-29T16:45:00+00:00",
+     "o": 29563.5,
+     "h": 29606.75,
+     "l": 29532.75,
+     "c": 29591.25,
+     "v": 10536.0
+    },
+    {
+     "t": "2026-10-29T17:00:00+00:00",
+     "o": 29591.25,
+     "h": 29593.75,
+     "l": 29494.25,
+     "c": 29496.5,
+     "v": 12420.0
+    },
+    {
+     "t": "2026-10-29T17:15:00+00:00",
+     "o": 29495.25,
+     "h": 29538.25,
+     "l": 29491.5,
+     "c": 29529.5,
+     "v": 8707.0
+    },
+    {
+     "t": "2026-10-29T17:30:00+00:00",
+     "o": 29529.75,
+     "h": 29544.75,
+     "l": 29494.25,
+     "c": 29509.0,
+     "v": 12310.0
+    },
+    {
+     "t": "2026-10-29T17:45:00+00:00",
+     "o": 29507.25,
+     "h": 29519.25,
+     "l": 29431.5,
+     "c": 29462.75,
+     "v": 16862.0
+    },
+    {
+     "t": "2026-10-29T18:00:00+00:00",
+     "o": 29464.0,
+     "h": 29487.5,
+     "l": 29443.5,
+     "c": 29484.25,
+     "v": 10209.0
+    },
+    {
+     "t": "2026-10-29T18:15:00+00:00",
+     "o": 29484.5,
+     "h": 29494.5,
+     "l": 29454.25,
+     "c": 29471.0,
+     "v": 9575.0
+    },
+    {
+     "t": "2026-10-29T18:30:00+00:00",
+     "o": 29471.5,
+     "h": 29476.0,
+     "l": 29423.25,
+     "c": 29443.0,
+     "v": 11902.0
+    },
+    {
+     "t": "2026-10-29T18:45:00+00:00",
+     "o": 29443.5,
+     "h": 29486.25,
+     "l": 29433.75,
+     "c": 29465.0,
+     "v": 8885.0
+    },
+    {
+     "t": "2026-10-29T19:00:00+00:00",
+     "o": 29464.0,
+     "h": 29490.75,
+     "l": 29443.25,
+     "c": 29451.75,
+     "v": 11568.0
+    },
+    {
+     "t": "2026-10-29T19:15:00+00:00",
+     "o": 29452.0,
+     "h": 29500.0,
+     "l": 29443.25,
+     "c": 29493.75,
+     "v": 9964.0
+    },
+    {
+     "t": "2026-10-29T19:30:00+00:00",
+     "o": 29495.5,
+     "h": 29531.5,
+     "l": 29475.5,
+     "c": 29477.0,
+     "v": 14466.0
+    },
+    {
+     "t": "2026-10-29T19:45:00+00:00",
+     "o": 29475.25,
+     "h": 29549.0,
+     "l": 29452.5,
+     "c": 29536.75,
+     "v": 16337.0
     }
    ]
   }
@@ -3152,39 +3422,21 @@
  "news": {
   "headlines": [
    {
-    "id": "afbace85d2",
-    "title": "Nasdaq futures fall 1% as Alphabet results intensify AI spending fears - marketscreener.com",
-    "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNbHFVMnJQMTBZaVFoQUQ4WkJLSHkzUmllUWhxbG5BQWFZY2tZU3NLbE9GT2NrQ0ZJZXlJUWg1Z0JlWTFWZVdvSUNqNnR2eXpSN0xBXy1obE1IT2ZIM3pocVhDMWhfRVFDN1JHUUIxLWpGZm5HcnM3WUszRmlpWWczbFpBT1c5UU11VFBtLWlNTFBGcllldmdMVy1MM1N6bzhyTENiWENaZDd5d2l6Z0ctOHJ1eXRxNUphR1dlRWg3Zw?oc=5",
-    "source": "gnews_futures",
-    "published_utc": "2026-10-29T14:44:38+00:00",
-    "score": 10.29,
-    "duplicates": 5
-   },
-   {
     "id": "82c85c61e2",
     "title": "US Stock Futures Mixed as Alphabet Falls, Microsoft Gains and Fed Comments Draw Attention to AI Spending: Dow Jones, S&P, Nasdaq, Wall Street - Yahoo Finance",
     "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQdURLVzBmX2N0aFJwbU5LUHo5cmo1VDFqaXlzdk5yQTRKaUFHeERjMHZuSlh2QXA2S2ZpM1Rob1FLMWJnTTZMNlRvVmhWR3VteFNVVlRfa2FKRFJLTC1yV0k0Qll2QUN5czhNME13ZHIwMmx1Q0R6MkxNLTFzZUZoZk9oRExzTGt3SDlqRjNST3A2OXNwQUMxVHBRLWo?oc=5",
     "source": "gnews_futures",
     "published_utc": "2026-10-29T11:26:40+00:00",
-    "score": 10.24,
+    "score": 9.56,
     "duplicates": 0
    },
    {
-    "id": "5736b57e1c",
-    "title": "Federal Reserve holds interest rates steady despite high inflation - WPLG Local 10",
-    "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQYzRUY0t6LTFPRTllVERKdHVRLTRHM3JiXzc4Y2xPOFlOV0puaHU5WXpVT01qTG5LLUxCT05aSTFQLUg3TUlMYm50UkpGbUtMY05VeVNBWlJISUd4XzBYQ2M1UTcxeVFwWmlkUERmZzg3NjYxWVM5enIxZXBkWGZJTnBDWHl6QzZMQmhQXzBwa0Z4dmdGUFE2Y0wtMnlYWXE4MEJKTGdLWUJiNzR2aUp1bFROYw?oc=5",
-    "source": "gnews_fed",
-    "published_utc": "2026-10-29T13:03:08+00:00",
-    "score": 9.51,
-    "duplicates": 5
-   },
-   {
-    "id": "b285df699b",
-    "title": "Nasdaq futures lead losses as Alphabet results disappoint, PCE comes in line - TradingView",
-    "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNbklsbDR6XzRNR2dhUEVJMEdMYjZ6enJPc0UyN1hUZjQwaHRkbklNd3hUQWlHaGxmYmRMRklvZHJxU0FCaW8xVUYxSnVkdk9SakltRF9iUXMwVFliZTU3QlJoZmQ5TlBBTlNuMS1Ma00xZmQyaUY3ZXZBdmsxZmNuUHVlUFd3LVJ0dV91eXN2d1Bhd2lLSGc0LTNiMGctcjJQV2V5TkEzaVNVV3BhUVh1QW1Xc2ZUMDF1UmlRcXZpWjAxV00?oc=5",
+    "id": "0574656b2e",
+    "title": "Wall Street slides as Alphabet revenue miss revives AI capex jitters - Reuters",
+    "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxObTRZdktaNHNaUkc2SG45TFV3V3hKRlMwdWdFTEhyUVFSRnBodWFIM0gxSHh5NWZDVkp3WnJOX3RTZGFtUDVIN3ZPQnB6NlNOQ01OOXhTRnNhNjkyajZ2ejhEZkRBS1IxMkxjVWJmY3FYa3lqcHUxajVqRXpWdS1UWjdxZFZYTW8tUjBtN2NZTGlLSWFiRlpjTDNKaVlVbHRiLVRCcA?oc=5",
     "source": "gnews_futures",
-    "published_utc": "2026-10-29T12:51:35+00:00",
-    "score": 9.48,
+    "published_utc": "2026-10-29T18:49:14+00:00",
+    "score": 9.29,
     "duplicates": 1
    },
    {
@@ -3192,9 +3444,36 @@
     "title": "Alphabet earnings miss reflects first real sign that AI is taking a bite out of search",
     "link": "https://www.cnbc.com/2026/10/29/alphabet-google-search-ai-earnings.html",
     "source": "cnbc_markets",
-    "published_utc": "2026-10-29T14:34:21+00:00",
-    "score": 9.26,
+    "published_utc": "2026-10-29T16:25:40+00:00",
+    "score": 8.89,
     "duplicates": 1
+   },
+   {
+    "id": "b285df699b",
+    "title": "Nasdaq futures lead losses as Alphabet results disappoint, PCE comes in line - TradingView",
+    "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNbklsbDR6XzRNR2dhUEVJMEdMYjZ6enJPc0UyN1hUZjQwaHRkbklNd3hUQWlHaGxmYmRMRklvZHJxU0FCaW8xVUYxSnVkdk9SakltRF9iUXMwVFliZTU3QlJoZmQ5TlBBTlNuMS1Ma00xZmQyaUY3ZXZBdmsxZmNuUHVlUFd3LVJ0dV91eXN2d1Bhd2lLSGc0LTNiMGctcjJQV2V5TkEzaVNVV3BhUVh1QW1Xc2ZUMDF1UmlRcXZpWjAxV00?oc=5",
+    "source": "gnews_futures",
+    "published_utc": "2026-10-29T12:51:35+00:00",
+    "score": 8.8,
+    "duplicates": 1
+   },
+   {
+    "id": "408e964baa",
+    "title": "Nasdaq futures slide as Alphabet results intensify AI spending fears - marketscreener.com",
+    "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOUThNaC1EZlRiTUxKWnlwRWpnWDd2cHdaNmVCMkpPY3hOc2ItajZuT1RfWnREZEVJaWxoa0tXZ21USDloTElsSFFoMHZJNHpLdlNvd3A2MTE4SEJlS2huWkx1NVBGTm1Qc3MxbGRlWEsyNW55NkgwTmNFRU9oeWRwVkhBWHRYR2NWZFQ0aWZ3Z0JIajBHdkZjU2NfSXo2TXZqNWVwTzVQdk9FZUJPcmNKWlZDZ0NNekVFb1JWbm13?oc=5",
+    "source": "gnews_futures",
+    "published_utc": "2026-10-29T17:36:49+00:00",
+    "score": 8.59,
+    "duplicates": 2
+   },
+   {
+    "id": "d9bba34645",
+    "title": "Why Alphabet’s stock is on track for its worst day ever after the latest results",
+    "link": "https://www.marketwatch.com/story/why-alphabets-stock-could-see-its-worst-drop-in-years-after-the-latest-results-6b64cf98?mod=mw_rss_topstories",
+    "source": "marketwatch_top",
+    "published_utc": "2026-10-29T18:50:00+00:00",
+    "score": 8.29,
+    "duplicates": 0
    },
    {
     "id": "7739d2656a",
@@ -3202,7 +3481,7 @@
     "link": "https://news.google.com/rss/articles/CBMi_AFBVV95cUxNY0xYOTAzdVlaMV9uTHNQWDJwMVEzTnYtcTNNNzRud2pOT3AwclRqOVpjOGs2XzJuS2lxWmtnSUFyVmtMSUxqN1NNTFJ4aGVsaVpDNFhLNG9KQWV3MHFLTElpRFFveG1VUUp6WE1VZ3o5X05pb2Q0QTNkYnUzN3lGQTNhR3ltb1p5enVES0M0N3BpRnM1OVBWNGdrck0yX0F3dXZGQ0hUM2llRWZZcmZUUWFRc3EtbDZ4QjU1WnFmTTlfdWNvTVE4V2ZXRVFRRnYzdDVqRXI3ODlic0tUWFEwQ0lhbmNQMl9ONFdhVmlxTElxU3dHQ1pZSDlSaTY?oc=5",
     "source": "gnews_futures",
     "published_utc": "2026-10-29T09:33:23+00:00",
-    "score": 8.93,
+    "score": 8.25,
     "duplicates": 0
    },
    {
@@ -3210,18 +3489,27 @@
     "title": "Third-quarter U.S. GDP increases a better-than-expected 3.4% as September inflation accelerates",
     "link": "https://www.cnbc.com/2026/10/29/pce-inflation-report-september-2026-.html",
     "source": "cnbc_markets",
-    "published_utc": "2026-10-29T14:11:31+00:00",
-    "score": 8.7,
-    "duplicates": 3
+    "published_utc": "2026-10-29T18:06:31+00:00",
+    "score": 8.17,
+    "duplicates": 2
    },
    {
-    "id": "3cab5d8e31",
-    "title": "Wall Street breaks winning streak as Alphabet shares slump, inflation concerns reignite - Seeking Alpha",
-    "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQM0gzU2NqR3FpdzlOdmVTYlI4aEpIaVk1YUtzQmdaWjZ6VE9WOUJLclpjbHpRZHd1dml4MjZOeW1ZT2VEVmlSS25hNlBkU1BQTllwc0tSMnRocUdOeklJZDh3T014dUlmc0VpZ3FZV0YxTDVHbkVYRlFXazlreU1EenpR?oc=5",
-    "source": "gnews_megacap",
-    "published_utc": "2026-10-29T13:58:51+00:00",
-    "score": 8.66,
-    "duplicates": 1
+    "id": "c890006080",
+    "title": "Dow, S&P 500, Nasdaq Futures Mixed After Fed Holds Rates Steady: GOOG, GOOGL, IOVA, MSFT, NOW In Focus - Yahoo Finance",
+    "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQUlZCYVZTNjdUbS1rVXljY21oU0NVNXNZSlVBQnBZWWNHQWw2TThJOXNwNG9hNFJ2c190dFJlZWxtWW1tRUY4ZjJuQjQ1cjYzUkFkUGlDZ0w4T080eHpuLTVVd3FWcWVnVTFvczdzTjdFZVd2Z1ozU0dqam9BOGxhbVQ0MnV4YmV3MDdkTTZtRWN2SkE?oc=5",
+    "source": "gnews_futures",
+    "published_utc": "2026-10-29T02:59:00+00:00",
+    "score": 8.0,
+    "duplicates": 0
+   },
+   {
+    "id": "cac5f3ef19",
+    "title": "Stock Market Today: Nasdaq Futures Plunge as Alphabet Leads Tech Shares Lower; Caterpillar Weighs on Dow; Oil Prices Slip - Yahoo Finance",
+    "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQOU9vekp0dFZ6RUUxSGpqaDlBeUR4WmFEMWZ4TENPTUNzazBjUlZxYmhGN2hNZFNMZFBCVUgtZDBjQWVQNnVFZjR6NGxyRHY2VkZJVlExQVFsbTRQYXFWcjhoTFNmTC11eW9WUzVoUzNUUGRlWXBfT05xMEw5MXFHcUlPQ2liVk95MGsxSXR2WU1iYkloRFhra21EbjBYSTQ?oc=5",
+    "source": "gnews_futures",
+    "published_utc": "2026-10-29T10:49:43+00:00",
+    "score": 7.96,
+    "duplicates": 0
    },
    {
     "id": "7b952021e9",
@@ -3229,44 +3517,26 @@
     "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxQUFJCODlvc0t4alRPVGVDVTNRMWRvRnJuNGU2TzVEWmxXVHZzT2pKN1FJaDk4cXdBMUlTMnItNjNURGUtN1htX1I1Vkx5ZWRERVprSzFzYmlRdW5fMUpRSE1PQ3l3dGctcVljQVROc05scTVTbnlqcFBxZWEzeFBaWWpxZjNDSGFCRUlzTzBMeWtGXzNVejdEUVBidDAtMGd0ak9PaGhtb0JvUXVCc2twTW9YYmU3Y0VjNnpYMTlVdVNVUnhhOWVQcXMyTEVzdw?oc=5",
     "source": "gnews_futures",
     "published_utc": "2026-10-29T10:41:56+00:00",
-    "score": 8.62,
+    "score": 7.94,
     "duplicates": 0
    },
    {
-    "id": "2d36f156f8",
-    "title": "Inflation surges, PCE shows. Fed pause on rate hikes unlikely to last with prices still rising.",
-    "link": "https://www.marketwatch.com/story/inflation-surges-pce-shows-fed-pause-on-rate-hikes-unlikely-to-last-long-with-prices-still-rising-79128886?mod=mw_rss_topstories",
-    "source": "marketwatch_top",
-    "published_utc": "2026-10-29T14:38:00+00:00",
-    "score": 8.27,
-    "duplicates": 1
-   },
-   {
-    "id": "d10c9ac89f",
-    "title": "Nasdaq futures drop as Alphabet earnings revive AI jitters By Investing.com - Investing.com India",
-    "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQdnYzSjRKeDdIRC0xaFN5STctZlBJdUVKdTdfQWM1NlA5a3BrcGZzeURYZjhhQ1FDbVpfQ0JxVXZzNFVvcVFJX3dwdzFVV3g1X3l3bFJPY2hVZmwtZ2xZZjZUNkJraks2OC12ckp2Tk1ocDJHWGZyR3R5VlYySDB2aFUtSGFfcUMxQk12YTJBTWFWb1hFV2lMVW1uRno3NmZUWTEwcmxhSnJVajRUbUhyT3o5NTk2V1ZpaHJYbFBkcFFvWTdWUV84Vg?oc=5",
+    "id": "69641451c3",
+    "title": "Market Warning: Nasdaq Futures Fall After a Volatile Fed Day - Investing.com",
+    "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOMnhEdkdwVkY0V3dsSjlzX0JDQjhCalhkcVF2Nm9mLVJjZ3p3NU5oZVBnTTd2S2dTOXo1MTNCNU1ObTVlTE1SWlhOUFJzU1ZHYTdFak1vWGFlLXpfVnEtZEpnYlBoWDNTSW5ydUhZSDVCb1dSYVBVT2ZiVmZxTzhBTmNMSXp6a0dKU2lqaTdvSEt6dmFadlFnb2RVczBzWllEWkV0XzBrSQ?oc=5",
     "source": "gnews_futures",
-    "published_utc": "2026-10-29T11:28:24+00:00",
-    "score": 8.25,
+    "published_utc": "2026-10-29T19:36:05+00:00",
+    "score": 7.92,
     "duplicates": 0
-   },
-   {
-    "id": "0574656b2e",
-    "title": "Nasdaq slides over 1% as Alphabet results revive AI spending fears - Reuters",
-    "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxObTRZdktaNHNaUkc2SG45TFV3V3hKRlMwdWdFTEhyUVFSRnBodWFIM0gxSHh5NWZDVkp3WnJOX3RTZGFtUDVIN3ZPQnB6NlNOQ01OOXhTRnNhNjkyajZ2ejhEZkRBS1IxMkxjVWJmY3FYa3lqcHUxajVqRXpWdS1UWjdxZFZYTW8tUjBtN2NZTGlLSWFiRlpjTDNKaVlVbHRiLVRCcA?oc=5",
-    "source": "gnews_futures",
-    "published_utc": "2026-10-29T14:24:42+00:00",
-    "score": 8.24,
-    "duplicates": 1
    }
   ],
   "summary": {
    "lines": [
-    "Nasdaq futures fall 1% as Alphabet results intensify AI spending fears - marketscreener.com [afbace85d2]",
     "US Stock Futures Mixed as Alphabet Falls, Microsoft Gains and Fed Comments Draw Attention to AI Spending: Dow Jones, S&P, Nasdaq, Wall Street - Yahoo Finance [82c85c61e2]",
-    "Federal Reserve holds interest rates steady despite high inflation - WPLG Local 10 [5736b57e1c]",
+    "Wall Street slides as Alphabet revenue miss revives AI capex jitters - Reuters [0574656b2e]",
+    "Alphabet earnings miss reflects first real sign that AI is taking a bite out of search [72059928d6]",
     "Nasdaq futures lead losses as Alphabet results disappoint, PCE comes in line - TradingView [b285df699b]",
-    "Alphabet earnings miss reflects first real sign that AI is taking a bite out of search [72059928d6]"
+    "Nasdaq futures slide as Alphabet results intensify AI spending fears - marketscreener.com [408e964baa]"
    ],
    "backend": "none",
    "model": null,
