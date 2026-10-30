@@ -1,7 +1,7 @@
 {
  "meta": {
-  "generated_at_utc": "2026-10-30T13:10:45.469704+00:00",
-  "generated_at_local": "Fri 30 Oct 2026 10:10 ADT",
+  "generated_at_utc": "2026-10-30T13:26:11.885488+00:00",
+  "generated_at_local": "Fri 30 Oct 2026 10:26 ADT",
   "trading_day": "2026-10-30",
   "display_tz": "America/Halifax",
   "version": "0.1.0",
@@ -36,10 +36,10 @@
   {
    "root": "ES",
    "trading_day": "2026-10-30",
-   "as_of_utc": "2026-10-30T13:10:45.469704+00:00",
+   "as_of_utc": "2026-10-30T13:26:11.885488+00:00",
    "source": "yahoo",
    "delayed": true,
-   "last_price": 7672.75,
+   "last_price": 7670.25,
    "levels": [
     {
      "tag": "exp_hi",
@@ -116,7 +116,7 @@
      "label": "Overnight high",
      "price": 7713.0,
      "group": "overnight",
-     "note": "since 18:00 ET, 876 bars"
+     "note": "since 18:00 ET, 892 bars"
     },
     {
      "tag": "pgl",
@@ -135,7 +135,7 @@
     {
      "tag": "onvwap",
      "label": "Overnight VWAP",
-     "price": 7679.77,
+     "price": 7679.35,
      "group": "overnight",
      "note": "typical-price VWAP"
     },
@@ -176,14 +176,14 @@
     }
    ],
    "stats": {
-    "last_bar_utc": "2026-10-30T13:00:00+00:00",
-    "last_bar_age_min": 10.8,
+    "last_bar_utc": "2026-10-30T13:16:00+00:00",
+    "last_bar_age_min": 10.2,
     "market_state": "open",
     "profile_volume": 1426298.0,
     "prior_day": "2026-10-29",
     "prior_day_rth_range": 42.0,
     "overnight_range": 49.0,
-    "gap_vs_prior_close": -81.5,
+    "gap_vs_prior_close": -84.0,
     "gap_basis": "last price (pre-market)",
     "atr14": 83.18,
     "atr_days": 14,
@@ -1412,19 +1412,27 @@
      "t": "2026-10-30T13:00:00+00:00",
      "o": 7672.75,
      "h": 7673.25,
-     "l": 7671.25,
-     "c": 7672.75,
-     "v": 0.0
+     "l": 7664.25,
+     "c": 7669.25,
+     "v": 11903.0
+    },
+    {
+     "t": "2026-10-30T13:15:00+00:00",
+     "o": 7669.75,
+     "h": 7671.0,
+     "l": 7669.0,
+     "c": 7670.25,
+     "v": 746.0
     }
    ]
   },
   {
    "root": "NQ",
    "trading_day": "2026-10-30",
-   "as_of_utc": "2026-10-30T13:10:45.469704+00:00",
+   "as_of_utc": "2026-10-30T13:26:11.885488+00:00",
    "source": "yahoo",
    "delayed": true,
-   "last_price": 28812.0,
+   "last_price": 28785.25,
    "levels": [
     {
      "tag": "exp_hi",
@@ -1501,7 +1509,7 @@
      "label": "Overnight high",
      "price": 29180.0,
      "group": "overnight",
-     "note": "since 18:00 ET, 876 bars"
+     "note": "since 18:00 ET, 892 bars"
     },
     {
      "tag": "pgl",
@@ -1520,27 +1528,13 @@
     {
      "tag": "onvwap",
      "label": "Overnight VWAP",
-     "price": 28928.4,
+     "price": 28923.6,
      "group": "overnight",
      "note": "typical-price VWAP"
     },
     {
      "tag": "rn_major_up",
      "label": "Round 100 above",
-     "price": 28900.0,
-     "group": "round",
-     "note": ""
-    },
-    {
-     "tag": "rn_minor_up",
-     "label": "Round 50 above",
-     "price": 28850.0,
-     "group": "round",
-     "note": ""
-    },
-    {
-     "tag": "rn_major_dn",
-     "label": "Round 100 below",
      "price": 28800.0,
      "group": "round",
      "note": ""
@@ -1548,27 +1542,41 @@
     {
      "tag": "onl",
      "label": "Overnight low",
-     "price": 28761.0,
+     "price": 28756.25,
      "group": "overnight",
      "note": ""
     },
     {
      "tag": "wl",
      "label": "Week low",
-     "price": 28761.0,
+     "price": 28756.25,
      "group": "week",
+     "note": ""
+    },
+    {
+     "tag": "rn_minor_dn",
+     "label": "Round 50 below",
+     "price": 28750.0,
+     "group": "round",
+     "note": ""
+    },
+    {
+     "tag": "rn_major_dn",
+     "label": "Round 100 below",
+     "price": 28700.0,
+     "group": "round",
      "note": ""
     }
    ],
    "stats": {
-    "last_bar_utc": "2026-10-30T13:00:00+00:00",
-    "last_bar_age_min": 10.8,
+    "last_bar_utc": "2026-10-30T13:16:00+00:00",
+    "last_bar_age_min": 10.2,
     "market_state": "open",
     "profile_volume": 527185.0,
     "prior_day": "2026-10-29",
     "prior_day_rth_range": 272.0,
-    "overnight_range": 419.0,
-    "gap_vs_prior_close": -754.0,
+    "overnight_range": 423.75,
+    "gap_vs_prior_close": -780.75,
     "gap_basis": "last price (pre-market)",
     "atr14": 616.93,
     "atr_days": 14,
@@ -2795,11 +2803,19 @@
     },
     {
      "t": "2026-10-30T13:00:00+00:00",
-     "o": 28815.5,
+     "o": 28813.25,
      "h": 28817.75,
-     "l": 28801.75,
-     "c": 28812.0,
-     "v": 0.0
+     "l": 28756.25,
+     "c": 28780.0,
+     "v": 6983.0
+    },
+    {
+     "t": "2026-10-30T13:15:00+00:00",
+     "o": 28780.5,
+     "h": 28794.0,
+     "l": 28775.5,
+     "c": 28785.25,
+     "v": 693.0
     }
    ]
   }
@@ -2812,17 +2828,8 @@
     "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBXT2d3MVZJMHB2NVBvdGRNQmN4NnI5R3gwajVtdkNPWDhhTThtV2h2RmtLcmdCdXhkUmQ0X0h6NlB5bnk2YzlQS003SUNfSldaSUZ0aVlhY2VUbl9saU0weVVjSGVSM2hSR1EzcQ?oc=5",
     "source": "gnews_futures",
     "published_utc": "2026-10-30T10:35:56+00:00",
-    "score": 9.57,
+    "score": 9.53,
     "duplicates": 1
-   },
-   {
-    "id": "22566cf615",
-    "title": "US Stock Futures Fall As AMZN, INTC Earnings Trigger Tech Sell-Off: NVDA, RDDT, RIVN, SFM In Focus - Yahoo Finance",
-    "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPQ1ctcnhsa2NJNTBEZHkyTTZqa041WWh1MGYwRUdNXzVTZXBnX2xrRjRFVGMxWG5ERFZxNDlIRlF3NjRZN29QNDhCZ0g1SUVTQlhLRnJhWFhPeEI3UWdKQWNIUGxLWHhhOUJlZnVWSS03X0dmOGQxbUJSUmJ4VGxSSk1obHhkSHhBclN6TGlKN0laVFVQVkE?oc=5",
-    "source": "gnews_futures",
-    "published_utc": "2026-10-30T10:07:38+00:00",
-    "score": 8.99,
-    "duplicates": 0
    },
    {
     "id": "1a9e7f53a8",
@@ -2830,8 +2837,17 @@
     "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPNTM1RjhCODBSclVNVWNWYy1ObVBIbHlvblN0SEZYLWF3Q1ducFVEOGoxQlVmR1hSVlQ1ZEhvYmtkM3BYaTZsQnBVQmhoSmZiR2I0ZmFJU1hDS2NxcFFUMHUzOUdwdDE3d1BVVi10WUtQU2RSTWp6WU1ialhMVC1TeERvYldXeUhCbjFIZzZzWHRLc3dFbF9HM0wxZ3lvNzA1NlJTY2dkYWdVbU1xcUh5cGxCLXhZcVp6Smd6emVqLUZWazBT?oc=5",
     "source": "gnews_futures",
     "published_utc": "2026-10-30T12:33:52+00:00",
-    "score": 8.9,
-    "duplicates": 2
+    "score": 9.35,
+    "duplicates": 3
+   },
+   {
+    "id": "22566cf615",
+    "title": "US Stock Futures Fall As AMZN, INTC Earnings Trigger Tech Sell-Off: NVDA, RDDT, RIVN, SFM In Focus - Yahoo Finance",
+    "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPQ1ctcnhsa2NJNTBEZHkyTTZqa041WWh1MGYwRUdNXzVTZXBnX2xrRjRFVGMxWG5ERFZxNDlIRlF3NjRZN29QNDhCZ0g1SUVTQlhLRnJhWFhPeEI3UWdKQWNIUGxLWHhhOUJlZnVWSS03X0dmOGQxbUJSUmJ4VGxSSk1obHhkSHhBclN6TGlKN0laVFVQVkE?oc=5",
+    "source": "gnews_futures",
+    "published_utc": "2026-10-30T10:07:38+00:00",
+    "score": 8.95,
+    "duplicates": 0
    },
    {
     "id": "51be37d938",
@@ -2839,7 +2855,7 @@
     "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOTmVkOXVpX01IQXVSdHRlSmdoWVROcE16RWJhMGhleXQyS205WnJRNWRZaXB6cW5wWmh4SG4tS3NWSzJMeFpxLWwzem5tVXN6Qjl1MGdhX0sxLW12Q01LdG9UWEVGdTVodUt4T3NRdWliN1NnNm5McVJYaENyaC1UaXc2OWtRVG9TZGpuUXpLOGxXQUE?oc=5",
     "source": "gnews_futures",
     "published_utc": "2026-10-30T10:01:19+00:00",
-    "score": 8.47,
+    "score": 8.43,
     "duplicates": 0
    },
    {
@@ -2848,7 +2864,7 @@
     "link": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxPbVlXZjdiZG1FVXVnZUlaS2J1QkNtd0daekRJU05MMzEyd0ZyUG5NdWxZRE9vZllTYXc3bDY3Qi1VNWVxOUtXdU9SZkRfT2dlT05mdnhGVlEyMWZjdlZqVThueGhOTUxiMk4xaEY2RTFKNVl6N25QVmJVaEVydjRta1d5em94THJoQUUybTFxQmZiSW91NXZIdmgwNHl3ajVvcWk3emtubXZHRkF0NmlPMFN4MlladUNVdXEwVnZ6TXlJT0t4YU5hQVUyRGVTa1BhVndILWJTaDRGYzEyYzNzZkxLN3ZHOGs?oc=5",
     "source": "gnews_futures",
     "published_utc": "2026-10-30T09:48:46+00:00",
-    "score": 8.44,
+    "score": 8.4,
     "duplicates": 1
    },
    {
@@ -2857,7 +2873,7 @@
     "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQaGJScHBhVmdWUFBoblhIYUFKMFZkWHFJSS1IalFfekpOb3p0MHBtemVtTWFTR1U4Zk9nWEZ3TGEzZThDR3h2MTZ1bUd4d3pja1hzcFFEZUsxenZCZGpPSDZ6bW9semNldDI3Z3VTMW1GTVZqdmtFUE5yWnNmT2tBU0FVM1p2cG9ONGhXNm1pR04wUQ?oc=5",
     "source": "gnews_futures",
     "published_utc": "2026-10-30T12:10:18+00:00",
-    "score": 8.33,
+    "score": 8.29,
     "duplicates": 2
    },
    {
@@ -2866,7 +2882,7 @@
     "link": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxOZzNHdWtkZE9KcEJzTVFPZUFILWR4bGh6NnIxNUhqTjM0RHk3bTZRaHBGUWdHM2xFVDd4QlZFTUU5cTVrQms4em9vVVh2ZVZYRjlfUHhGa1o2YlFFVmxaZ2FUWjJkcDFFekUyV1k3bUp4VXZ1ckw4NWh5dklocWxqd1dpNnlaMHcyVmR1SWltcEE4NUV5SGl1X0xTRkdYMVFFVHFJcW9VdXVyOU4zVHNPd1Zqa2FVSG1OR01GaHlYc0NPdkstdXpucTlkRDIxQ3JRRkN1b1dBVWQ4ZV9HeEhHWQ?oc=5",
     "source": "gnews_futures",
     "published_utc": "2026-10-30T11:46:09+00:00",
-    "score": 8.26,
+    "score": 8.22,
     "duplicates": 0
    },
    {
@@ -2875,7 +2891,7 @@
     "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPSk1wdkdHYkxkTUF5S3k4TjFOU3dPWWthSThtQUZRRjZ5a1BUVDljVUZhWXp2cDB3NWM2elNnUzRGTFMwYjlwTGpHVkhKNkpIcmN3ZHNDQlJIZW5iUXQ4V0Zhd3FaV041eVJ6ek50WDdGeWZ5MjBZTjFIeGVGLUsxbXdBSmY5MkpWeHhFLWtBNDFoekZUOVNTS2NNemZmb1NnbHRjVHpOWERMcUNJVkFRU2Q5VmloUHJfWkhlTw?oc=5",
     "source": "gnews_megacap",
     "published_utc": "2026-10-30T10:26:13+00:00",
-    "score": 8.04,
+    "score": 8.0,
     "duplicates": 0
    },
    {
@@ -2888,22 +2904,22 @@
     "duplicates": 2
    },
    {
-    "id": "31075ef399",
-    "title": "Nasdaq futures tumble as Amazon, Intel results deepen AI spending woes - KSLM Radio",
-    "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPLUJTRlJvbXY2WlY2VlBkMlhmeHZ5TmU3MkFtMF9YU0Q0V1NPSHVwRkxkZXZqVXZ4VjN5YUZHUmJmRFhnWi0taEZleDZkdzdFbFhsZWFIY2NNLXoyb1JLcW9xMUVqbHE5WHpwOEVXRmQwbUFLU3dNcUxCOFFIOTkzemtZX0UxX3otNDJhcmtCaVFOVFlncHBCWXp4MTM4cnRILVBrdWROQUU?oc=5",
-    "source": "gnews_futures",
-    "published_utc": "2026-10-30T10:05:22+00:00",
-    "score": 7.99,
-    "duplicates": 1
-   },
-   {
     "id": "4be629fe0e",
     "title": "Dow, S&P 500, Nasdaq Futures Fall As Weak Tech Earnings Trigger Selloff: INTC, IOVA, SLS, AMZN Stocks In Focus - Yahoo Finance",
     "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQc1pfMWFrRUUxaDVLaVhOZlE5WTlYbHE1czI5QnR2YWFWTDhSMUdkODRZYm15RGszeFk2WUhqcUlDT1F5VjZlaWdHRlJ5a3pxMTI2VUNyQ0VXSzNkcDk0VDV1T2l2dU9RTlpKMXdsMWFqODJ0LU9Xa190QU1VV29UQVQxTHlaY1VxSU5fejJ3bTV1YTA?oc=5",
     "source": "gnews_futures",
     "published_utc": "2026-10-30T04:03:00+00:00",
-    "score": 7.98,
+    "score": 7.94,
     "duplicates": 0
+   },
+   {
+    "id": "31075ef399",
+    "title": "Nasdaq futures tumble as Amazon, Intel results deepen AI spending woes - KSLM Radio",
+    "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPLUJTRlJvbXY2WlY2VlBkMlhmeHZ5TmU3MkFtMF9YU0Q0V1NPSHVwRkxkZXZqVXZ4VjN5YUZHUmJmRFhnWi0taEZleDZkdzdFbFhsZWFIY2NNLXoyb1JLcW9xMUVqbHE5WHpwOEVXRmQwbUFLU3dNcUxCOFFIOTkzemtZX0UxX3otNDJhcmtCaVFOVFlncHBCWXp4MTM4cnRILVBrdWROQUU?oc=5",
+    "source": "gnews_futures",
+    "published_utc": "2026-10-30T10:05:22+00:00",
+    "score": 7.94,
+    "duplicates": 1
    },
    {
     "id": "eb67a8287b",
@@ -2911,15 +2927,15 @@
     "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxPUTZNOWZiRzFmQUxta25VWEhIT0dYTFVnZ2VLUWlNTDlleE9hTmF6ODNaeXRCSnRXMEdOVENiTVQtNndFUUNWZDdmY0M0UUVaUVR6c0tMdktWcmxJMDItT3dPbl8tcGhSSm0wZ2lRa0RjLW81Ri1RTUlRX0tOUDRHakNwUDdIVFZIc1hMUVBrVi1CY0RRNU9xZmZVU202QQ?oc=5",
     "source": "gnews_futures",
     "published_utc": "2026-10-30T12:42:18+00:00",
-    "score": 7.92,
+    "score": 7.88,
     "duplicates": 0
    }
   ],
   "summary": {
    "lines": [
     "Intel, Amazon shares fall as AI selloff hits Nasdaq stock futures - Quartz [15eaf867f3]",
-    "US Stock Futures Fall As AMZN, INTC Earnings Trigger Tech Sell-Off: NVDA, RDDT, RIVN, SFM In Focus - Yahoo Finance [22566cf615]",
     "Nasdaq futures sink as Amazon, Intel intensify AI spending fears By Reuters - Investing.com [1a9e7f53a8]",
+    "US Stock Futures Fall As AMZN, INTC Earnings Trigger Tech Sell-Off: NVDA, RDDT, RIVN, SFM In Focus - Yahoo Finance [22566cf615]",
     "Nasdaq Futures Slide 2.2% as Amazon and Intel Earnings Fuel AI Spending Concerns, Binance Hit by $6.3 Billion Hack: Dow Jones, S&P, Wall Street - Yahoo Finance [51be37d938]",
     "Nasdaq Futures Sink 650 Points Early Friday as Intel, Amazon Plunge Following Disappointing Quarterly Results - marketscreener.com [8dd914ff96]"
    ],
