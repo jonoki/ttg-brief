@@ -1,11 +1,11 @@
 {
  "meta": {
-  "generated_at_utc": "2026-10-30T12:27:31.828966+00:00",
-  "generated_at_local": "Fri 30 Oct 2026 09:27 ADT",
+  "generated_at_utc": "2026-10-30T12:40:04.769320+00:00",
+  "generated_at_local": "Fri 30 Oct 2026 09:40 ADT",
   "trading_day": "2026-10-30",
   "display_tz": "America/Halifax",
   "version": "0.1.0",
-  "run": "overnight",
+  "run": "post-data",
   "variant": "public"
  },
  "calendar": {
@@ -28,16 +28,7 @@
     "source_url": null
    }
   ],
-  "next_event": {
-   "name": "Employment Cost Index q/q",
-   "impact": "medium",
-   "time_utc": "2026-10-30T12:30:00+00:00",
-   "local": "09:30 ADT",
-   "et": "08:30 ET",
-   "in": "2 min",
-   "consensus": "0.8%",
-   "prior": "0.9%"
-  },
+  "next_event": null,
   "sources": [],
   "warnings": []
  },
@@ -45,10 +36,10 @@
   {
    "root": "ES",
    "trading_day": "2026-10-30",
-   "as_of_utc": "2026-10-30T12:27:31.828966+00:00",
+   "as_of_utc": "2026-10-30T12:40:04.769320+00:00",
    "source": "yahoo",
    "delayed": true,
-   "last_price": 7665.75,
+   "last_price": 7668.5,
    "levels": [
     {
      "tag": "exp_hi",
@@ -125,7 +116,7 @@
      "label": "Overnight high",
      "price": 7713.0,
      "group": "overnight",
-     "note": "since 18:00 ET, 833 bars"
+     "note": "since 18:00 ET, 846 bars"
     },
     {
      "tag": "pgl",
@@ -144,7 +135,7 @@
     {
      "tag": "onvwap",
      "label": "Overnight VWAP",
-     "price": 7680.66,
+     "price": 7680.35,
      "group": "overnight",
      "note": "typical-price VWAP"
     },
@@ -185,14 +176,14 @@
     }
    ],
    "stats": {
-    "last_bar_utc": "2026-10-30T12:17:00+00:00",
-    "last_bar_age_min": 10.5,
+    "last_bar_utc": "2026-10-30T12:30:00+00:00",
+    "last_bar_age_min": 10.1,
     "market_state": "open",
     "profile_volume": 1426298.0,
     "prior_day": "2026-10-29",
     "prior_day_rth_range": 42.0,
     "overnight_range": 49.0,
-    "gap_vs_prior_close": -88.5,
+    "gap_vs_prior_close": -85.75,
     "gap_basis": "last price (pre-market)",
     "atr14": 83.18,
     "atr_days": 14,
@@ -1396,20 +1387,28 @@
     {
      "t": "2026-10-30T12:15:00+00:00",
      "o": 7668.25,
-     "h": 7669.5,
+     "h": 7670.75,
      "l": 7664.75,
-     "c": 7665.75,
-     "v": 1640.0
+     "c": 7668.75,
+     "v": 8794.0
+    },
+    {
+     "t": "2026-10-30T12:30:00+00:00",
+     "o": 7668.75,
+     "h": 7670.25,
+     "l": 7668.0,
+     "c": 7668.5,
+     "v": 0.0
     }
    ]
   },
   {
    "root": "NQ",
    "trading_day": "2026-10-30",
-   "as_of_utc": "2026-10-30T12:27:31.828966+00:00",
+   "as_of_utc": "2026-10-30T12:40:04.769320+00:00",
    "source": "yahoo",
    "delayed": true,
-   "last_price": 28783.75,
+   "last_price": 28796.0,
    "levels": [
     {
      "tag": "exp_hi",
@@ -1486,7 +1485,7 @@
      "label": "Overnight high",
      "price": 29180.0,
      "group": "overnight",
-     "note": "since 18:00 ET, 833 bars"
+     "note": "since 18:00 ET, 846 bars"
     },
     {
      "tag": "pgl",
@@ -1505,7 +1504,7 @@
     {
      "tag": "onvwap",
      "label": "Overnight VWAP",
-     "price": 28937.78,
+     "price": 28934.78,
      "group": "overnight",
      "note": "typical-price VWAP"
     },
@@ -1546,14 +1545,14 @@
     }
    ],
    "stats": {
-    "last_bar_utc": "2026-10-30T12:17:00+00:00",
-    "last_bar_age_min": 10.5,
+    "last_bar_utc": "2026-10-30T12:30:00+00:00",
+    "last_bar_age_min": 10.1,
     "market_state": "open",
     "profile_volume": 527185.0,
     "prior_day": "2026-10-29",
     "prior_day_rth_range": 272.0,
     "overnight_range": 417.25,
-    "gap_vs_prior_close": -782.25,
+    "gap_vs_prior_close": -770.0,
     "gap_basis": "last price (pre-market)",
     "atr14": 616.93,
     "atr_days": 14,
@@ -2757,10 +2756,18 @@
     {
      "t": "2026-10-30T12:15:00+00:00",
      "o": 28793.0,
-     "h": 28799.0,
-     "l": 28776.5,
-     "c": 28783.75,
-     "v": 667.0
+     "h": 28809.5,
+     "l": 28775.5,
+     "c": 28793.75,
+     "v": 4849.0
+    },
+    {
+     "t": "2026-10-30T12:30:00+00:00",
+     "o": 28798.5,
+     "h": 28804.25,
+     "l": 28786.0,
+     "c": 28796.0,
+     "v": 0.0
     }
    ]
   }
@@ -2896,7 +2903,296 @@
  },
  "flags": [],
  "earnings": {
-  "reported": [],
+  "reported": [
+   {
+    "symbol": "AMZN",
+    "name": "Amazon.com, Inc.",
+    "timing": "unknown",
+    "date": "2026-10-29",
+    "reported_at": "10/29/2026",
+    "reported": true
+   },
+   {
+    "symbol": "LLY",
+    "name": "Eli Lilly and Company",
+    "timing": "unknown",
+    "date": "2026-10-29",
+    "reported_at": "10/29/2026",
+    "reported": true
+   },
+   {
+    "symbol": "MA",
+    "name": "Mastercard Incorporated",
+    "timing": "unknown",
+    "date": "2026-10-29",
+    "reported_at": "10/29/2026",
+    "reported": true
+   },
+   {
+    "symbol": "INTC",
+    "name": "Intel Corporation",
+    "timing": "unknown",
+    "date": "2026-10-29",
+    "reported_at": "10/29/2026",
+    "reported": true
+   },
+   {
+    "symbol": "MRK",
+    "name": "Merck & Company, Inc.",
+    "timing": "unknown",
+    "date": "2026-10-29",
+    "reported_at": "10/29/2026",
+    "reported": true
+   },
+   {
+    "symbol": "CAT",
+    "name": "Caterpillar, Inc.",
+    "timing": "unknown",
+    "date": "2026-10-29",
+    "reported_at": "10/29/2026",
+    "reported": true
+   },
+   {
+    "symbol": "SHEL",
+    "name": "Shell PLC",
+    "timing": "unknown",
+    "date": "2026-10-29",
+    "reported_at": "10/29/2026",
+    "reported": true
+   },
+   {
+    "symbol": "LIN",
+    "name": "Linde plc",
+    "timing": "unknown",
+    "date": "2026-10-29",
+    "reported_at": "10/29/2026",
+    "reported": true
+   },
+   {
+    "symbol": "TTE",
+    "name": "TotalEnergies SE",
+    "timing": "unknown",
+    "date": "2026-10-29",
+    "reported_at": "10/29/2026",
+    "reported": true
+   },
+   {
+    "symbol": "GILD",
+    "name": "Gilead Sciences, Inc.",
+    "timing": "unknown",
+    "date": "2026-10-29",
+    "reported_at": "10/29/2026",
+    "reported": true
+   },
+   {
+    "symbol": "SNDK",
+    "name": "Sandisk Corporation",
+    "timing": "unknown",
+    "date": "2026-10-29",
+    "reported_at": "10/29/2026",
+    "reported": true
+   },
+   {
+    "symbol": "BUD",
+    "name": "Anheuser-Busch Inbev SA",
+    "timing": "unknown",
+    "date": "2026-10-29",
+    "reported_at": "10/29/2026",
+    "reported": true
+   },
+   {
+    "symbol": "BBVA",
+    "name": "Banco Bilbao Vizcaya Argentaria S.A.",
+    "timing": "unknown",
+    "date": "2026-10-29",
+    "reported_at": "10/29/2026",
+    "reported": true
+   },
+   {
+    "symbol": "MO",
+    "name": "Altria Group",
+    "timing": "unknown",
+    "date": "2026-10-29",
+    "reported_at": "10/29/2026",
+    "reported": true
+   },
+   {
+    "symbol": "BMY",
+    "name": "Bristol-Myers Squibb Company",
+    "timing": "unknown",
+    "date": "2026-10-29",
+    "reported_at": "10/29/2026",
+    "reported": true
+   },
+   {
+    "symbol": "SBUX",
+    "name": "Starbucks Corporation",
+    "timing": "unknown",
+    "date": "2026-10-29",
+    "reported_at": "10/29/2026",
+    "reported": true
+   },
+   {
+    "symbol": "SYK",
+    "name": "Stryker Corporation",
+    "timing": "unknown",
+    "date": "2026-10-29",
+    "reported_at": "10/29/2026",
+    "reported": true
+   },
+   {
+    "symbol": "ASX",
+    "name": "ASE Technology Holding Co., Ltd.",
+    "timing": "unknown",
+    "date": "2026-10-29",
+    "reported_at": "10/29/2026",
+    "reported": true
+   },
+   {
+    "symbol": "TT",
+    "name": "Trane Technologies plc",
+    "timing": "unknown",
+    "date": "2026-10-29",
+    "reported_at": "10/29/2026",
+    "reported": true
+   },
+   {
+    "symbol": "PWR",
+    "name": "Quanta Services, Inc.",
+    "timing": "unknown",
+    "date": "2026-10-29",
+    "reported_at": "10/29/2026",
+    "reported": true
+   },
+   {
+    "symbol": "ING",
+    "name": "ING Group, N.V.",
+    "timing": "unknown",
+    "date": "2026-10-29",
+    "reported_at": "10/29/2026",
+    "reported": true
+   },
+   {
+    "symbol": "ICE",
+    "name": "Intercontinental Exchange Inc.",
+    "timing": "unknown",
+    "date": "2026-10-29",
+    "reported_at": "10/29/2026",
+    "reported": true
+   },
+   {
+    "symbol": "EPD",
+    "name": "Enterprise Products Partners L.P.",
+    "timing": "unknown",
+    "date": "2026-10-29",
+    "reported_at": "10/29/2026",
+    "reported": true
+   },
+   {
+    "symbol": "HWM",
+    "name": "Howmet Aerospace Inc.",
+    "timing": "unknown",
+    "date": "2026-10-29",
+    "reported_at": "10/29/2026",
+    "reported": true
+   },
+   {
+    "symbol": "LYG",
+    "name": "Lloyds Banking Group Plc",
+    "timing": "unknown",
+    "date": "2026-10-29",
+    "reported_at": "10/29/2026",
+    "reported": true
+   },
+   {
+    "symbol": "MDLZ",
+    "name": "Mondelez International, Inc.",
+    "timing": "unknown",
+    "date": "2026-10-29",
+    "reported_at": "10/29/2026",
+    "reported": true
+   },
+   {
+    "symbol": "DASH",
+    "name": "DoorDash, Inc.",
+    "timing": "unknown",
+    "date": "2026-10-29",
+    "reported_at": "10/29/2026",
+    "reported": true
+   },
+   {
+    "symbol": "RSG",
+    "name": "Republic Services, Inc.",
+    "timing": "unknown",
+    "date": "2026-10-29",
+    "reported_at": "10/29/2026",
+    "reported": true
+   },
+   {
+    "symbol": "AJG",
+    "name": "Arthur J. Gallagher & Co.",
+    "timing": "unknown",
+    "date": "2026-10-29",
+    "reported_at": "10/29/2026",
+    "reported": true
+   },
+   {
+    "symbol": "DLR",
+    "name": "Digital Realty Trust, Inc.",
+    "timing": "unknown",
+    "date": "2026-10-29",
+    "reported_at": "10/29/2026",
+    "reported": true
+   },
+   {
+    "symbol": "LNG",
+    "name": "Cheniere Energy, Inc.",
+    "timing": "unknown",
+    "date": "2026-10-29",
+    "reported_at": "10/29/2026",
+    "reported": true
+   },
+   {
+    "symbol": "TAK",
+    "name": "Takeda Pharmaceutical Company Limited",
+    "timing": "unknown",
+    "date": "2026-10-29",
+    "reported_at": "10/29/2026",
+    "reported": true
+   },
+   {
+    "symbol": "CRH",
+    "name": "CRH PLC",
+    "timing": "unknown",
+    "date": "2026-10-29",
+    "reported_at": "10/29/2026",
+    "reported": true
+   },
+   {
+    "symbol": "MSTR",
+    "name": "Strategy Inc",
+    "timing": "unknown",
+    "date": "2026-10-29",
+    "reported_at": "10/29/2026",
+    "reported": true
+   },
+   {
+    "symbol": "MPWR",
+    "name": "Monolithic Power Systems, Inc.",
+    "timing": "unknown",
+    "date": "2026-10-29",
+    "reported_at": "10/29/2026",
+    "reported": true
+   },
+   {
+    "symbol": "LHX",
+    "name": "L3Harris Technologies, Inc.",
+    "timing": "unknown",
+    "date": "2026-10-29",
+    "reported_at": "10/29/2026",
+    "reported": true
+   }
+  ],
   "today": [
    {
     "symbol": "XOM",
