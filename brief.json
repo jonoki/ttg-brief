@@ -1,11 +1,11 @@
 {
  "meta": {
-  "generated_at_utc": "2026-10-30T13:26:11.885488+00:00",
-  "generated_at_local": "Fri 30 Oct 2026 10:26 ADT",
+  "generated_at_utc": "2026-10-30T20:05:06.308377+00:00",
+  "generated_at_local": "Fri 30 Oct 2026 17:05 ADT",
   "trading_day": "2026-10-30",
   "display_tz": "America/Halifax",
   "version": "0.1.0",
-  "run": "post-data",
+  "run": "post-close",
   "variant": "public"
  },
  "calendar": {
@@ -36,10 +36,10 @@
   {
    "root": "ES",
    "trading_day": "2026-10-30",
-   "as_of_utc": "2026-10-30T13:26:11.885488+00:00",
+   "as_of_utc": "2026-10-30T20:05:06.308377+00:00",
    "source": "yahoo",
    "delayed": true,
-   "last_price": 7670.25,
+   "last_price": 7588.5,
    "levels": [
     {
      "tag": "exp_hi",
@@ -84,6 +84,13 @@
      "note": "2026-10-29"
     },
     {
+     "tag": "tdh",
+     "label": "Today's RTH high",
+     "price": 7754.25,
+     "group": "today",
+     "note": "session complete"
+    },
+    {
      "tag": "poc",
      "label": "Prior-day POC",
      "price": 7752.38,
@@ -116,7 +123,7 @@
      "label": "Overnight high",
      "price": 7713.0,
      "group": "overnight",
-     "note": "since 18:00 ET, 892 bars"
+     "note": "since 18:00 ET, 905 bars"
     },
     {
      "tag": "pgl",
@@ -126,25 +133,11 @@
      "note": "full 18:00→17:00 session"
     },
     {
-     "tag": "rn_major_up",
-     "label": "Round 50 above",
-     "price": 7700.0,
-     "group": "round",
-     "note": ""
-    },
-    {
      "tag": "onvwap",
      "label": "Overnight VWAP",
-     "price": 7679.35,
+     "price": 7678.89,
      "group": "overnight",
      "note": "typical-price VWAP"
-    },
-    {
-     "tag": "rn_minor_up",
-     "label": "Round 25 above",
-     "price": 7675.0,
-     "group": "round",
-     "note": ""
     },
     {
      "tag": "exp_lo",
@@ -154,6 +147,13 @@
      "note": ""
     },
     {
+     "tag": "rtho",
+     "label": "Today's RTH open",
+     "price": 7669.5,
+     "group": "today",
+     "note": "09:30 bar open"
+    },
+    {
      "tag": "onl",
      "label": "Overnight low",
      "price": 7664.0,
@@ -161,30 +161,58 @@
      "note": ""
     },
     {
+     "tag": "rn_major_up",
+     "label": "Round 50 above",
+     "price": 7600.0,
+     "group": "round",
+     "note": ""
+    },
+    {
+     "tag": "tdc",
+     "label": "Today's RTH close (16:00 bar)",
+     "price": 7588.5,
+     "group": "today",
+     "note": "becomes next session's prior-day close"
+    },
+    {
+     "tag": "rn_minor_dn",
+     "label": "Round 25 below",
+     "price": 7575.0,
+     "group": "round",
+     "note": ""
+    },
+    {
+     "tag": "tdl",
+     "label": "Today's RTH low",
+     "price": 7558.25,
+     "group": "today",
+     "note": ""
+    },
+    {
      "tag": "wl",
      "label": "Week low",
-     "price": 7651.75,
+     "price": 7558.25,
      "group": "week",
      "note": ""
     },
     {
      "tag": "rn_major_dn",
      "label": "Round 50 below",
-     "price": 7650.0,
+     "price": 7550.0,
      "group": "round",
      "note": ""
     }
    ],
    "stats": {
-    "last_bar_utc": "2026-10-30T13:16:00+00:00",
-    "last_bar_age_min": 10.2,
+    "last_bar_utc": "2026-10-30T19:44:00+00:00",
+    "last_bar_age_min": 21.1,
     "market_state": "open",
     "profile_volume": 1426298.0,
     "prior_day": "2026-10-29",
     "prior_day_rth_range": 42.0,
     "overnight_range": 49.0,
-    "gap_vs_prior_close": -84.0,
-    "gap_basis": "last price (pre-market)",
+    "gap_vs_prior_close": -84.75,
+    "gap_basis": "RTH open",
     "atr14": 83.18,
     "atr_days": 14,
     "avg_daily_range": 80.47,
@@ -1419,20 +1447,220 @@
     {
      "t": "2026-10-30T13:15:00+00:00",
      "o": 7669.75,
-     "h": 7671.0,
-     "l": 7669.0,
-     "c": 7670.25,
-     "v": 746.0
+     "h": 7671.25,
+     "l": 7666.0,
+     "c": 7669.5,
+     "v": 16192.0
+    },
+    {
+     "t": "2026-10-30T13:30:00+00:00",
+     "o": 7669.5,
+     "h": 7670.0,
+     "l": 7649.75,
+     "c": 7656.75,
+     "v": 117073.0
+    },
+    {
+     "t": "2026-10-30T13:45:00+00:00",
+     "o": 7656.5,
+     "h": 7669.75,
+     "l": 7652.75,
+     "c": 7667.0,
+     "v": 74174.0
+    },
+    {
+     "t": "2026-10-30T14:00:00+00:00",
+     "o": 7666.75,
+     "h": 7668.5,
+     "l": 7641.25,
+     "c": 7641.5,
+     "v": 85641.0
+    },
+    {
+     "t": "2026-10-30T14:15:00+00:00",
+     "o": 7641.5,
+     "h": 7644.25,
+     "l": 7628.25,
+     "c": 7636.25,
+     "v": 95831.0
+    },
+    {
+     "t": "2026-10-30T14:30:00+00:00",
+     "o": 7636.0,
+     "h": 7657.0,
+     "l": 7632.75,
+     "c": 7654.75,
+     "v": 86822.0
+    },
+    {
+     "t": "2026-10-30T14:45:00+00:00",
+     "o": 7654.25,
+     "h": 7659.75,
+     "l": 7647.75,
+     "c": 7654.0,
+     "v": 68519.0
+    },
+    {
+     "t": "2026-10-30T15:00:00+00:00",
+     "o": 7654.0,
+     "h": 7656.0,
+     "l": 7641.25,
+     "c": 7641.75,
+     "v": 56085.0
+    },
+    {
+     "t": "2026-10-30T15:15:00+00:00",
+     "o": 7641.5,
+     "h": 7648.5,
+     "l": 7639.75,
+     "c": 7641.0,
+     "v": 58854.0
+    },
+    {
+     "t": "2026-10-30T15:30:00+00:00",
+     "o": 7641.0,
+     "h": 7641.25,
+     "l": 7628.75,
+     "c": 7629.5,
+     "v": 52790.0
+    },
+    {
+     "t": "2026-10-30T15:45:00+00:00",
+     "o": 7629.25,
+     "h": 7636.5,
+     "l": 7626.75,
+     "c": 7635.75,
+     "v": 54144.0
+    },
+    {
+     "t": "2026-10-30T16:00:00+00:00",
+     "o": 7635.75,
+     "h": 7636.0,
+     "l": 7622.25,
+     "c": 7625.5,
+     "v": 46324.0
+    },
+    {
+     "t": "2026-10-30T16:15:00+00:00",
+     "o": 7625.75,
+     "h": 7632.5,
+     "l": 7623.5,
+     "c": 7631.5,
+     "v": 41437.0
+    },
+    {
+     "t": "2026-10-30T16:30:00+00:00",
+     "o": 7631.25,
+     "h": 7635.5,
+     "l": 7626.25,
+     "c": 7629.5,
+     "v": 43470.0
+    },
+    {
+     "t": "2026-10-30T16:45:00+00:00",
+     "o": 7629.25,
+     "h": 7629.5,
+     "l": 7607.75,
+     "c": 7614.0,
+     "v": 79331.0
+    },
+    {
+     "t": "2026-10-30T17:00:00+00:00",
+     "o": 7613.75,
+     "h": 7616.25,
+     "l": 7605.75,
+     "c": 7608.75,
+     "v": 51824.0
+    },
+    {
+     "t": "2026-10-30T17:15:00+00:00",
+     "o": 7608.75,
+     "h": 7613.5,
+     "l": 7607.0,
+     "c": 7611.25,
+     "v": 41659.0
+    },
+    {
+     "t": "2026-10-30T17:30:00+00:00",
+     "o": 7611.5,
+     "h": 7611.75,
+     "l": 7601.5,
+     "c": 7609.0,
+     "v": 46959.0
+    },
+    {
+     "t": "2026-10-30T17:45:00+00:00",
+     "o": 7609.0,
+     "h": 7609.75,
+     "l": 7592.0,
+     "c": 7595.25,
+     "v": 53540.0
+    },
+    {
+     "t": "2026-10-30T18:00:00+00:00",
+     "o": 7595.25,
+     "h": 7595.25,
+     "l": 7584.5,
+     "c": 7586.0,
+     "v": 51340.0
+    },
+    {
+     "t": "2026-10-30T18:15:00+00:00",
+     "o": 7586.0,
+     "h": 7586.0,
+     "l": 7567.25,
+     "c": 7569.5,
+     "v": 74897.0
+    },
+    {
+     "t": "2026-10-30T18:30:00+00:00",
+     "o": 7569.75,
+     "h": 7576.0,
+     "l": 7560.0,
+     "c": 7571.0,
+     "v": 88200.0
+    },
+    {
+     "t": "2026-10-30T18:45:00+00:00",
+     "o": 7570.75,
+     "h": 7571.25,
+     "l": 7558.25,
+     "c": 7559.0,
+     "v": 33865.0
+    },
+    {
+     "t": "2026-10-30T19:00:00+00:00",
+     "o": 7754.25,
+     "h": 7754.25,
+     "l": 7568.25,
+     "c": 7587.25,
+     "v": 118909.0
+    },
+    {
+     "t": "2026-10-30T19:15:00+00:00",
+     "o": 7587.25,
+     "h": 7591.0,
+     "l": 7572.75,
+     "c": 7583.75,
+     "v": 76199.0
+    },
+    {
+     "t": "2026-10-30T19:30:00+00:00",
+     "o": 7583.75,
+     "h": 7594.0,
+     "l": 7578.5,
+     "c": 7588.5,
+     "v": 68868.0
     }
    ]
   },
   {
    "root": "NQ",
    "trading_day": "2026-10-30",
-   "as_of_utc": "2026-10-30T13:26:11.885488+00:00",
+   "as_of_utc": "2026-10-30T20:05:06.308377+00:00",
    "source": "yahoo",
    "delayed": true,
-   "last_price": 28785.25,
+   "last_price": 28372.5,
    "levels": [
     {
      "tag": "exp_hi",
@@ -1484,6 +1712,13 @@
      "note": "2026-10-29"
     },
     {
+     "tag": "tdh",
+     "label": "Today's RTH high",
+     "price": 29562.0,
+     "group": "today",
+     "note": "session complete"
+    },
+    {
      "tag": "poc",
      "label": "Prior-day POC",
      "price": 29556.5,
@@ -1509,7 +1744,7 @@
      "label": "Overnight high",
      "price": 29180.0,
      "group": "overnight",
-     "note": "since 18:00 ET, 892 bars"
+     "note": "since 18:00 ET, 905 bars"
     },
     {
      "tag": "pgl",
@@ -1528,16 +1763,16 @@
     {
      "tag": "onvwap",
      "label": "Overnight VWAP",
-     "price": 28923.6,
+     "price": 28918.35,
      "group": "overnight",
      "note": "typical-price VWAP"
     },
     {
-     "tag": "rn_major_up",
-     "label": "Round 100 above",
-     "price": 28800.0,
-     "group": "round",
-     "note": ""
+     "tag": "rtho",
+     "label": "Today's RTH open",
+     "price": 28798.5,
+     "group": "today",
+     "note": "09:30 bar open"
     },
     {
      "tag": "onl",
@@ -1547,37 +1782,58 @@
      "note": ""
     },
     {
-     "tag": "wl",
-     "label": "Week low",
-     "price": 28756.25,
-     "group": "week",
+     "tag": "rn_major_up",
+     "label": "Round 100 above",
+     "price": 28400.0,
+     "group": "round",
      "note": ""
+    },
+    {
+     "tag": "tdc",
+     "label": "Today's RTH close (16:00 bar)",
+     "price": 28372.5,
+     "group": "today",
+     "note": "becomes next session's prior-day close"
     },
     {
      "tag": "rn_minor_dn",
      "label": "Round 50 below",
-     "price": 28750.0,
+     "price": 28350.0,
      "group": "round",
      "note": ""
     },
     {
      "tag": "rn_major_dn",
      "label": "Round 100 below",
-     "price": 28700.0,
+     "price": 28300.0,
      "group": "round",
+     "note": ""
+    },
+    {
+     "tag": "tdl",
+     "label": "Today's RTH low",
+     "price": 28232.75,
+     "group": "today",
+     "note": ""
+    },
+    {
+     "tag": "wl",
+     "label": "Week low",
+     "price": 28232.75,
+     "group": "week",
      "note": ""
     }
    ],
    "stats": {
-    "last_bar_utc": "2026-10-30T13:16:00+00:00",
-    "last_bar_age_min": 10.2,
+    "last_bar_utc": "2026-10-30T19:13:00+00:00",
+    "last_bar_age_min": 52.1,
     "market_state": "open",
     "profile_volume": 527185.0,
     "prior_day": "2026-10-29",
     "prior_day_rth_range": 272.0,
     "overnight_range": 423.75,
-    "gap_vs_prior_close": -780.75,
-    "gap_basis": "last price (pre-market)",
+    "gap_vs_prior_close": -767.5,
+    "gap_basis": "RTH open",
     "atr14": 616.93,
     "atr_days": 14,
     "avg_daily_range": 579.95,
@@ -2812,10 +3068,194 @@
     {
      "t": "2026-10-30T13:15:00+00:00",
      "o": 28780.5,
-     "h": 28794.0,
+     "h": 28821.0,
      "l": 28775.5,
-     "c": 28785.25,
-     "v": 693.0
+     "c": 28799.5,
+     "v": 10501.0
+    },
+    {
+     "t": "2026-10-30T13:30:00+00:00",
+     "o": 28798.5,
+     "h": 28809.0,
+     "l": 28668.25,
+     "c": 28746.0,
+     "v": 73830.0
+    },
+    {
+     "t": "2026-10-30T13:45:00+00:00",
+     "o": 28745.75,
+     "h": 28860.5,
+     "l": 28718.25,
+     "c": 28843.0,
+     "v": 38496.0
+    },
+    {
+     "t": "2026-10-30T14:00:00+00:00",
+     "o": 28841.75,
+     "h": 28858.75,
+     "l": 28678.25,
+     "c": 28678.5,
+     "v": 38108.0
+    },
+    {
+     "t": "2026-10-30T14:15:00+00:00",
+     "o": 28680.0,
+     "h": 28704.75,
+     "l": 28614.75,
+     "c": 28672.0,
+     "v": 37101.0
+    },
+    {
+     "t": "2026-10-30T14:30:00+00:00",
+     "o": 28673.25,
+     "h": 28834.0,
+     "l": 28664.75,
+     "c": 28792.25,
+     "v": 39952.0
+    },
+    {
+     "t": "2026-10-30T14:45:00+00:00",
+     "o": 28792.5,
+     "h": 28830.25,
+     "l": 28752.0,
+     "c": 28779.0,
+     "v": 27752.0
+    },
+    {
+     "t": "2026-10-30T15:00:00+00:00",
+     "o": 28779.0,
+     "h": 28793.75,
+     "l": 28707.0,
+     "c": 28707.5,
+     "v": 21882.0
+    },
+    {
+     "t": "2026-10-30T15:15:00+00:00",
+     "o": 28706.5,
+     "h": 28756.0,
+     "l": 28695.25,
+     "c": 28701.0,
+     "v": 18635.0
+    },
+    {
+     "t": "2026-10-30T15:30:00+00:00",
+     "o": 28701.0,
+     "h": 28702.0,
+     "l": 28610.75,
+     "c": 28627.75,
+     "v": 20468.0
+    },
+    {
+     "t": "2026-10-30T15:45:00+00:00",
+     "o": 28626.0,
+     "h": 28673.0,
+     "l": 28613.75,
+     "c": 28669.25,
+     "v": 18103.0
+    },
+    {
+     "t": "2026-10-30T16:00:00+00:00",
+     "o": 28669.75,
+     "h": 28670.25,
+     "l": 28578.75,
+     "c": 28590.0,
+     "v": 20158.0
+    },
+    {
+     "t": "2026-10-30T16:15:00+00:00",
+     "o": 28590.5,
+     "h": 28622.0,
+     "l": 28568.25,
+     "c": 28614.0,
+     "v": 16229.0
+    },
+    {
+     "t": "2026-10-30T16:30:00+00:00",
+     "o": 28613.5,
+     "h": 28637.5,
+     "l": 28585.0,
+     "c": 28606.75,
+     "v": 15622.0
+    },
+    {
+     "t": "2026-10-30T16:45:00+00:00",
+     "o": 28606.5,
+     "h": 28613.0,
+     "l": 28491.0,
+     "c": 28524.5,
+     "v": 31176.0
+    },
+    {
+     "t": "2026-10-30T17:00:00+00:00",
+     "o": 28523.5,
+     "h": 28533.25,
+     "l": 28462.5,
+     "c": 28469.0,
+     "v": 19003.0
+    },
+    {
+     "t": "2026-10-30T17:15:00+00:00",
+     "o": 28469.0,
+     "h": 28499.0,
+     "l": 28453.75,
+     "c": 28487.5,
+     "v": 17179.0
+    },
+    {
+     "t": "2026-10-30T17:30:00+00:00",
+     "o": 28487.0,
+     "h": 28489.25,
+     "l": 28421.75,
+     "c": 28466.5,
+     "v": 18578.0
+    },
+    {
+     "t": "2026-10-30T17:45:00+00:00",
+     "o": 28465.5,
+     "h": 28473.75,
+     "l": 28381.5,
+     "c": 28394.5,
+     "v": 20845.0
+    },
+    {
+     "t": "2026-10-30T18:00:00+00:00",
+     "o": 28394.25,
+     "h": 28399.5,
+     "l": 28355.25,
+     "c": 28362.0,
+     "v": 19023.0
+    },
+    {
+     "t": "2026-10-30T18:15:00+00:00",
+     "o": 28362.5,
+     "h": 28363.75,
+     "l": 28288.25,
+     "c": 28304.0,
+     "v": 27333.0
+    },
+    {
+     "t": "2026-10-30T18:30:00+00:00",
+     "o": 28303.5,
+     "h": 28320.5,
+     "l": 28241.0,
+     "c": 28308.75,
+     "v": 34104.0
+    },
+    {
+     "t": "2026-10-30T18:45:00+00:00",
+     "o": 28308.75,
+     "h": 28310.25,
+     "l": 28232.75,
+     "c": 28234.5,
+     "v": 16063.0
+    },
+    {
+     "t": "2026-10-30T19:00:00+00:00",
+     "o": 29562.0,
+     "h": 29562.0,
+     "l": 28283.25,
+     "c": 28372.5,
+     "v": 48136.0
     }
    ]
   }
@@ -2823,22 +3263,49 @@
  "news": {
   "headlines": [
    {
-    "id": "15eaf867f3",
-    "title": "Intel, Amazon shares fall as AI selloff hits Nasdaq stock futures - Quartz",
-    "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBXT2d3MVZJMHB2NVBvdGRNQmN4NnI5R3gwajVtdkNPWDhhTThtV2h2RmtLcmdCdXhkUmQ0X0h6NlB5bnk2YzlQS003SUNfSldaSUZ0aVlhY2VUbl9saU0weVVjSGVSM2hSR1EzcQ?oc=5",
-    "source": "gnews_futures",
-    "published_utc": "2026-10-30T10:35:56+00:00",
-    "score": 9.53,
+    "id": "7093e76e2e",
+    "title": "Midterms, Apple earnings, jobs report. Wall Street faces a big week ahead just as investors dump tech - CNBC",
+    "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPRXRoRjlKQ2xUdm85RThaVVZWSEZLa3E0SkxqczlRN1YxWmtNc1FTZkJyZEUtQ3JES3RtTzE3TVlUY1JSTmNZYWFqbFNxcjJPOTZrajhpb19RTXJVTmFfSFhPTGh4SUlNc0g0YXJIV3QyRkVUYmhrQnBydGtuZTlZYlZSLU0xeERodlAzVA?oc=5",
+    "source": "gnews_megacap",
+    "published_utc": "2026-10-30T18:55:15+00:00",
+    "score": 9.81,
     "duplicates": 1
    },
    {
-    "id": "1a9e7f53a8",
-    "title": "Nasdaq futures sink as Amazon, Intel intensify AI spending fears By Reuters - Investing.com",
-    "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPNTM1RjhCODBSclVNVWNWYy1ObVBIbHlvblN0SEZYLWF3Q1ducFVEOGoxQlVmR1hSVlQ1ZEhvYmtkM3BYaTZsQnBVQmhoSmZiR2I0ZmFJU1hDS2NxcFFUMHUzOUdwdDE3d1BVVi10WUtQU2RSTWp6WU1ialhMVC1TeERvYldXeUhCbjFIZzZzWHRLc3dFbF9HM0wxZ3lvNzA1NlJTY2dkYWdVbU1xcUh5cGxCLXhZcVp6Smd6emVqLUZWazBT?oc=5",
+    "id": "fa7064cc26",
+    "title": "US Stock Futures Tumble as Intel and Amazon Lead Tech Rout, Oil Jumps on Middle East Risks: Dow Jones, S&P, Nasdaq, Wall Street - Yahoo Finance UK",
+    "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPRUt3V1JPa29JeFVHak91cGkyYVNEMktzN1lxMlFjcUZmUlBVZkFTS0dCWDZJd1BMN0I0RFNWTFFWcUNReGM3R3RfRXhRVmYxTmlNYl94b3FHbU1VVV9ZQ25rZFl4cGpkakhhRG14SnJWT3U3WHpGMHNsM09panp4Y3lkem8?oc=5",
     "source": "gnews_futures",
-    "published_utc": "2026-10-30T12:33:52+00:00",
-    "score": 9.35,
-    "duplicates": 3
+    "published_utc": "2026-10-30T13:19:08+00:00",
+    "score": 8.37,
+    "duplicates": 0
+   },
+   {
+    "id": "61973fef20",
+    "title": "Stock Market Today: Nasdaq, S&P 500 Futures Slide as Amazon and Intel Plunge After Earnings - Yahoo Finance",
+    "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPSE9SSUhpWk5CZkNpbDlGZzBId0ZsMEpzQnNtNmtYNGluNWNSampUUTNjTS0yaGNpVWZmekw5by1VZExvVFVtMEdYM3dNRWZyNlhVd1h3VjBIZXp6dnBrNFk1ZTczOXM4VkFCeV9IWEVDUjU3dTljQ2Y2cTZSRTBRM3RCQzE2MG9NTmlETE1BTWpfTWdBNl9B?oc=5",
+    "source": "gnews_futures",
+    "published_utc": "2026-10-30T12:35:40+00:00",
+    "score": 8.25,
+    "duplicates": 0
+   },
+   {
+    "id": "f6083d25b4",
+    "title": "Nasdaq futures sink as Amazon, Intel intensify AI spending fears - marketscreener.com",
+    "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQeldmUnpVZGU1QVVNaXhYSVVCWGlVck02b0UxZkh0Qk1IaGVLZkVURThUQUFkajNJRzZQTnRtd1N2MlFIdVBGTU1yeHhla0JZVFhSWjVoU29aWTNzSFNkV3NjZkpXTjlSRGdRWlI1ZVA0LVBTOTE1NDdLT2xHN3lmNkhwWlRHNjYyRE80My1fb295djdjWnFRM0FLQWJKd0JWQlZpOGE5WGpIeEhURWJ2RHN0dGhKdFk?oc=5",
+    "source": "gnews_futures",
+    "published_utc": "2026-10-30T14:24:25+00:00",
+    "score": 8.05,
+    "duplicates": 2
+   },
+   {
+    "id": "15eaf867f3",
+    "title": "AI selloff hammers tech stocks as Intel and Amazon drag down the Nasdaq - Quartz",
+    "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBXT2d3MVZJMHB2NVBvdGRNQmN4NnI5R3gwajVtdkNPWDhhTThtV2h2RmtLcmdCdXhkUmQ0X0h6NlB5bnk2YzlQS003SUNfSldaSUZ0aVlhY2VUbl9saU0weVVjSGVSM2hSR1EzcQ?oc=5",
+    "source": "gnews_futures",
+    "published_utc": "2026-10-30T10:35:56+00:00",
+    "score": 7.92,
+    "duplicates": 0
    },
    {
     "id": "22566cf615",
@@ -2846,7 +3313,43 @@
     "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPQ1ctcnhsa2NJNTBEZHkyTTZqa041WWh1MGYwRUdNXzVTZXBnX2xrRjRFVGMxWG5ERFZxNDlIRlF3NjRZN29QNDhCZ0g1SUVTQlhLRnJhWFhPeEI3UWdKQWNIUGxLWHhhOUJlZnVWSS03X0dmOGQxbUJSUmJ4VGxSSk1obHhkSHhBclN6TGlKN0laVFVQVkE?oc=5",
     "source": "gnews_futures",
     "published_utc": "2026-10-30T10:07:38+00:00",
-    "score": 8.95,
+    "score": 7.84,
+    "duplicates": 0
+   },
+   {
+    "id": "107477f4f4",
+    "title": "Dow, S&P 500, Nasdaq Futures Fall As Weak Tech Earnings Trigger Selloff: INTC, IOVA, SLS, AMZN Stocks In Focus - Stocktwits",
+    "link": "https://news.google.com/rss/articles/CBMiggJBVV95cUxOU3M3MS1kTnRIOURKdlJVU1VTdGQxeGxzeUxXRnBaa25VYVpUYVBQcWlLcVdVTzZnTkcwNk5wT2J6eFdSY0sxeHVobDl1dm1fRE9KdG8tRElYOU5sYnR4VWFQbGdBZ0lwbld1MWZSUUFrQVM0NTlBU2FYZkpULXowVmVrTzN3aDlpcEE5U3EtRU81QjR5ZnZoTFFIX3BMSVJXOFJFQjd6a3c1alc3RjIySmV2QnBLUUNvbGtCY3hfd1gtSTRMT3pnVnlvdy1LRUFjaGNRQnNtMFMwQV9sRFE1Y043T09YcE96enhNSXBxNVlWU2lQZjhMRGpRelFJSnNzMkE?oc=5",
+    "source": "gnews_futures",
+    "published_utc": "2026-10-30T04:06:12+00:00",
+    "score": 7.5,
+    "duplicates": 0
+   },
+   {
+    "id": "eb67a8287b",
+    "title": "Nasdaq hits near three-month low as Amazon, Intel rattle AI trade - Yahoo Finance",
+    "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxPUTZNOWZiRzFmQUxta25VWEhIT0dYTFVnZ2VLUWlNTDlleE9hTmF6ODNaeXRCSnRXMEdOVENiTVQtNndFUUNWZDdmY0M0UUVaUVR6c0tMdktWcmxJMDItT3dPbl8tcGhSSm0wZ2lRa0RjLW81Ri1RTUlRX0tOUDRHakNwUDdIVFZIc1hMUVBrVi1CY0RRNU9xZmZVU202QQ?oc=5",
+    "source": "gnews_futures",
+    "published_utc": "2026-10-30T16:42:46+00:00",
+    "score": 7.44,
+    "duplicates": 0
+   },
+   {
+    "id": "410bf9f016",
+    "title": "Fed’s Musalem Says More Rate Hikes Needed Soon to Tame Inflation - Bloomberg.com",
+    "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNdldJX2pTRXJVUGVnT25uX2NIbzUzWnF4V1R0alZxTjNGa0t1d1ZmZko3dW5xcjhoQ3hCUUFOVURGcnNlZHNFc0dZNTVQSjZBQlVlb1NJeDF5VTlNT3BnZFBqTnhWdDVvN1hXQU15aVUwSVh5Uzd4OTR0dnA2RURLN3FSYVBoRThTREZuNlRYMlVnelZKMnpKbGZtcVNuZVZGTk5qdWtKazR0QzAzczl1RFVER05YUQ?oc=5",
+    "source": "gnews_fed",
+    "published_utc": "2026-10-30T16:30:00+00:00",
+    "score": 7.4,
+    "duplicates": 1
+   },
+   {
+    "id": "caa1275330",
+    "title": "Dow Jones Futures: Nasdaq Futures Plunge 2% On Amazon, Intel After Google, ServiceNow, Fortinet Dive - Investor's Business Daily",
+    "link": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxQM1BHRGJMcGo1YUNPZFVLcnRvZk8zemVSYW1Za0xXVzNHblNoWllibEhqVUNxX0QxRzhSNjIzT3RqdGVEVWtCbWtSLVp6czliQnlMbDZza3A4ZzYwdXN1ODFIMVhnZzRIcUUtbnNLampvUkxoV2ZCSEtCRDVUTTlnMkk2dURYZ3dKYndNczlieXlUcC1XcWZQTVh0aHE4MlpqU0V5Sm9ySjZqb0hPeUZoQTl5U1pRNkVENE4yanQxczJGaG9aeHZMWXZSbXZGd0ZreDBwdUhn?oc=5",
+    "source": "gnews_futures",
+    "published_utc": "2026-10-30T13:05:00+00:00",
+    "score": 7.33,
     "duplicates": 0
    },
    {
@@ -2855,89 +3358,26 @@
     "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOTmVkOXVpX01IQXVSdHRlSmdoWVROcE16RWJhMGhleXQyS205WnJRNWRZaXB6cW5wWmh4SG4tS3NWSzJMeFpxLWwzem5tVXN6Qjl1MGdhX0sxLW12Q01LdG9UWEVGdTVodUt4T3NRdWliN1NnNm5McVJYaENyaC1UaXc2OWtRVG9TZGpuUXpLOGxXQUE?oc=5",
     "source": "gnews_futures",
     "published_utc": "2026-10-30T10:01:19+00:00",
-    "score": 8.43,
+    "score": 7.32,
     "duplicates": 0
    },
    {
-    "id": "8dd914ff96",
-    "title": "Nasdaq Futures Sink 650 Points Early Friday as Intel, Amazon Plunge Following Disappointing Quarterly Results - marketscreener.com",
-    "link": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxPbVlXZjdiZG1FVXVnZUlaS2J1QkNtd0daekRJU05MMzEyd0ZyUG5NdWxZRE9vZllTYXc3bDY3Qi1VNWVxOUtXdU9SZkRfT2dlT05mdnhGVlEyMWZjdlZqVThueGhOTUxiMk4xaEY2RTFKNVl6N25QVmJVaEVydjRta1d5em94THJoQUUybTFxQmZiSW91NXZIdmgwNHl3ajVvcWk3emtubXZHRkF0NmlPMFN4MlladUNVdXEwVnZ6TXlJT0t4YU5hQVUyRGVTa1BhVndILWJTaDRGYzEyYzNzZkxLN3ZHOGs?oc=5",
-    "source": "gnews_futures",
-    "published_utc": "2026-10-30T09:48:46+00:00",
-    "score": 8.4,
-    "duplicates": 1
-   },
-   {
-    "id": "60ea16b77e",
-    "title": "US Stock Market Today: S&P 500 Futures Drop On Energy Inflation And Wage Risks - Yahoo Finance",
-    "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQaGJScHBhVmdWUFBoblhIYUFKMFZkWHFJSS1IalFfekpOb3p0MHBtemVtTWFTR1U4Zk9nWEZ3TGEzZThDR3h2MTZ1bUd4d3pja1hzcFFEZUsxenZCZGpPSDZ6bW9semNldDI3Z3VTMW1GTVZqdmtFUE5yWnNmT2tBU0FVM1p2cG9ONGhXNm1pR04wUQ?oc=5",
-    "source": "gnews_futures",
-    "published_utc": "2026-10-30T12:10:18+00:00",
-    "score": 8.29,
-    "duplicates": 2
-   },
-   {
-    "id": "781fe3f67b",
-    "title": "Nasdaq futures crash up to 2.5% as tech stock selloff deepens; Nvidia, AMD fall up to 7% - TradingView",
-    "link": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxOZzNHdWtkZE9KcEJzTVFPZUFILWR4bGh6NnIxNUhqTjM0RHk3bTZRaHBGUWdHM2xFVDd4QlZFTUU5cTVrQms4em9vVVh2ZVZYRjlfUHhGa1o2YlFFVmxaZ2FUWjJkcDFFekUyV1k3bUp4VXZ1ckw4NWh5dklocWxqd1dpNnlaMHcyVmR1SWltcEE4NUV5SGl1X0xTRkdYMVFFVHFJcW9VdXVyOU4zVHNPd1Zqa2FVSG1OR01GaHlYc0NPdkstdXpucTlkRDIxQ3JRRkN1b1dBVWQ4ZV9HeEhHWQ?oc=5",
-    "source": "gnews_futures",
-    "published_utc": "2026-10-30T11:46:09+00:00",
-    "score": 8.22,
-    "duplicates": 0
-   },
-   {
-    "id": "db29c80f2f",
-    "title": "Dan Loeb’s $783 Million Alphabet, Amazon Bets Face Post-Earnings Selloff - Amazon.com (NASDAQ:AMZN), Alph - Benzinga",
-    "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPSk1wdkdHYkxkTUF5S3k4TjFOU3dPWWthSThtQUZRRjZ5a1BUVDljVUZhWXp2cDB3NWM2elNnUzRGTFMwYjlwTGpHVkhKNkpIcmN3ZHNDQlJIZW5iUXQ4V0Zhd3FaV041eVJ6ek50WDdGeWZ5MjBZTjFIeGVGLUsxbXdBSmY5MkpWeHhFLWtBNDFoekZUOVNTS2NNemZmb1NnbHRjVHpOWERMcUNJVkFRU2Q5VmloUHJfWkhlTw?oc=5",
-    "source": "gnews_megacap",
-    "published_utc": "2026-10-30T10:26:13+00:00",
-    "score": 8.0,
-    "duplicates": 0
-   },
-   {
-    "id": "0574656b2e",
-    "title": "Wall Street ends lower as Alphabet revenue miss revives AI capex jitters - Reuters",
-    "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxObTRZdktaNHNaUkc2SG45TFV3V3hKRlMwdWdFTEhyUVFSRnBodWFIM0gxSHh5NWZDVkp3WnJOX3RTZGFtUDVIN3ZPQnB6NlNOQ01OOXhTRnNhNjkyajZ2ejhEZkRBS1IxMkxjVWJmY3FYa3lqcHUxajVqRXpWdS1UWjdxZFZYTW8tUjBtN2NZTGlLSWFiRlpjTDNKaVlVbHRiLVRCcA?oc=5",
-    "source": "gnews_futures",
-    "published_utc": "2026-10-29T23:35:39+00:00",
-    "score": 8.0,
-    "duplicates": 2
-   },
-   {
-    "id": "4be629fe0e",
-    "title": "Dow, S&P 500, Nasdaq Futures Fall As Weak Tech Earnings Trigger Selloff: INTC, IOVA, SLS, AMZN Stocks In Focus - Yahoo Finance",
-    "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQc1pfMWFrRUUxaDVLaVhOZlE5WTlYbHE1czI5QnR2YWFWTDhSMUdkODRZYm15RGszeFk2WUhqcUlDT1F5VjZlaWdHRlJ5a3pxMTI2VUNyQ0VXSzNkcDk0VDV1T2l2dU9RTlpKMXdsMWFqODJ0LU9Xa190QU1VV29UQVQxTHlaY1VxSU5fejJ3bTV1YTA?oc=5",
-    "source": "gnews_futures",
-    "published_utc": "2026-10-30T04:03:00+00:00",
-    "score": 7.94,
-    "duplicates": 0
-   },
-   {
-    "id": "31075ef399",
-    "title": "Nasdaq futures tumble as Amazon, Intel results deepen AI spending woes - KSLM Radio",
-    "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPLUJTRlJvbXY2WlY2VlBkMlhmeHZ5TmU3MkFtMF9YU0Q0V1NPSHVwRkxkZXZqVXZ4VjN5YUZHUmJmRFhnWi0taEZleDZkdzdFbFhsZWFIY2NNLXoyb1JLcW9xMUVqbHE5WHpwOEVXRmQwbUFLU3dNcUxCOFFIOTkzemtZX0UxX3otNDJhcmtCaVFOVFlncHBCWXp4MTM4cnRILVBrdWROQUU?oc=5",
-    "source": "gnews_futures",
-    "published_utc": "2026-10-30T10:05:22+00:00",
-    "score": 7.94,
-    "duplicates": 1
-   },
-   {
-    "id": "eb67a8287b",
-    "title": "Nasdaq set for sharp drop as Amazon, Intel amplify AI spending worries - Yahoo Finance",
-    "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxPUTZNOWZiRzFmQUxta25VWEhIT0dYTFVnZ2VLUWlNTDlleE9hTmF6ODNaeXRCSnRXMEdOVENiTVQtNndFUUNWZDdmY0M0UUVaUVR6c0tMdktWcmxJMDItT3dPbl8tcGhSSm0wZ2lRa0RjLW81Ri1RTUlRX0tOUDRHakNwUDdIVFZIc1hMUVBrVi1CY0RRNU9xZmZVU202QQ?oc=5",
-    "source": "gnews_futures",
-    "published_utc": "2026-10-30T12:42:18+00:00",
-    "score": 7.88,
+    "id": "6702b49a90",
+    "title": "Catalyst watch: Election drama, jobs report, Apple and McDonald's in the earnings confessional (SPY:NYSEARCA) - Seeking Alpha",
+    "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQRjBZRDg5cU5FQ0tYS1ptZWZlWTJVWllMYkxtdkNFSW5Mc2ZuUjM0NlFLNEQyTWlHcldfdHNBQkVLQmxnMXVQYlpSU01jSUFnYk8zb1BMNGJyeEh0SlJDSi1OcTUydDB2NzVJZDAxZDBlVDhHc3dQS19sNFpKeTE0aHpyNGtVZ1Bvcl9KN0RtZng3WU9fcTNzQ0hVYlhtQlE5ZUZ0Z0lRYVRnUzh3czFYTi1lWUw2UkZ6Tm53LV9TUzdfMUpYUXo4?oc=5",
+    "source": "gnews_macro",
+    "published_utc": "2026-10-30T19:00:08+00:00",
+    "score": 7.32,
     "duplicates": 0
    }
   ],
   "summary": {
    "lines": [
-    "Intel, Amazon shares fall as AI selloff hits Nasdaq stock futures - Quartz [15eaf867f3]",
-    "Nasdaq futures sink as Amazon, Intel intensify AI spending fears By Reuters - Investing.com [1a9e7f53a8]",
-    "US Stock Futures Fall As AMZN, INTC Earnings Trigger Tech Sell-Off: NVDA, RDDT, RIVN, SFM In Focus - Yahoo Finance [22566cf615]",
-    "Nasdaq Futures Slide 2.2% as Amazon and Intel Earnings Fuel AI Spending Concerns, Binance Hit by $6.3 Billion Hack: Dow Jones, S&P, Wall Street - Yahoo Finance [51be37d938]",
-    "Nasdaq Futures Sink 650 Points Early Friday as Intel, Amazon Plunge Following Disappointing Quarterly Results - marketscreener.com [8dd914ff96]"
+    "Midterms, Apple earnings, jobs report. Wall Street faces a big week ahead just as investors dump tech - CNBC [7093e76e2e]",
+    "US Stock Futures Tumble as Intel and Amazon Lead Tech Rout, Oil Jumps on Middle East Risks: Dow Jones, S&P, Nasdaq, Wall Street - Yahoo Finance UK [fa7064cc26]",
+    "Stock Market Today: Nasdaq, S&P 500 Futures Slide as Amazon and Intel Plunge After Earnings - Yahoo Finance [61973fef20]",
+    "Nasdaq futures sink as Amazon, Intel intensify AI spending fears - marketscreener.com [f6083d25b4]",
+    "AI selloff hammers tech stocks as Intel and Amazon drag down the Nasdaq - Quartz [15eaf867f3]"
    ],
    "backend": "none",
    "model": null,
