@@ -1,7 +1,7 @@
 {
  "meta": {
-  "generated_at_utc": "2026-11-02T16:41:44.226019+00:00",
-  "generated_at_local": "Mon 02 Nov 2026 12:41 AST",
+  "generated_at_utc": "2026-11-02T16:57:00.541944+00:00",
+  "generated_at_local": "Mon 02 Nov 2026 12:57 AST",
   "trading_day": "2026-11-02",
   "display_tz": "America/Halifax",
   "version": "0.1.0",
@@ -70,7 +70,7 @@
    "time_utc": "2026-11-03T15:00:00+00:00",
    "local": "11:00 AST",
    "et": "10:00 ET",
-   "in": "22h 18m",
+   "in": "22h 02m",
    "consensus": "7.11M",
    "prior": "7.08M"
   },
@@ -81,10 +81,10 @@
   {
    "root": "ES",
    "trading_day": "2026-11-02",
-   "as_of_utc": "2026-11-02T16:41:44.226019+00:00",
+   "as_of_utc": "2026-11-02T16:57:00.541944+00:00",
    "source": "yahoo",
    "delayed": true,
-   "last_price": 7659.75,
+   "last_price": 7656.0,
    "levels": [
     {
      "tag": "pwh",
@@ -242,8 +242,8 @@
     }
    ],
    "stats": {
-    "last_bar_utc": "2026-11-02T16:31:00+00:00",
-    "last_bar_age_min": 10.7,
+    "last_bar_utc": "2026-11-02T16:46:00+00:00",
+    "last_bar_age_min": 11.0,
     "market_state": "open",
     "profile_volume": 1921720.0,
     "prior_day": "2026-10-30",
@@ -1565,20 +1565,28 @@
     {
      "t": "2026-11-02T16:30:00+00:00",
      "o": 7655.0,
-     "h": 7660.25,
-     "l": 7655.0,
-     "c": 7659.75,
-     "v": 4091.0
+     "h": 7661.25,
+     "l": 7652.5,
+     "c": 7656.75,
+     "v": 38455.0
+    },
+    {
+     "t": "2026-11-02T16:45:00+00:00",
+     "o": 7657.0,
+     "h": 7659.75,
+     "l": 7655.75,
+     "c": 7656.0,
+     "v": 2527.0
     }
    ]
   },
   {
    "root": "NQ",
    "trading_day": "2026-11-02",
-   "as_of_utc": "2026-11-02T16:41:44.226019+00:00",
+   "as_of_utc": "2026-11-02T16:57:00.541944+00:00",
    "source": "yahoo",
    "delayed": true,
-   "last_price": 28686.5,
+   "last_price": 28652.0,
    "levels": [
     {
      "tag": "pwh",
@@ -1736,8 +1744,8 @@
     }
    ],
    "stats": {
-    "last_bar_utc": "2026-11-02T16:31:00+00:00",
-    "last_bar_age_min": 10.7,
+    "last_bar_utc": "2026-11-02T16:47:00+00:00",
+    "last_bar_age_min": 10.0,
     "market_state": "open",
     "profile_volume": 755234.0,
     "prior_day": "2026-10-30",
@@ -3059,10 +3067,18 @@
     {
      "t": "2026-11-02T16:30:00+00:00",
      "o": 28657.25,
-     "h": 28688.25,
-     "l": 28655.5,
-     "c": 28686.5,
-     "v": 1474.0
+     "h": 28699.0,
+     "l": 28647.0,
+     "c": 28657.5,
+     "v": 13931.0
+    },
+    {
+     "t": "2026-11-02T16:45:00+00:00",
+     "o": 28658.0,
+     "h": 28674.0,
+     "l": 28641.25,
+     "c": 28652.0,
+     "v": 1483.0
     }
    ]
   }
@@ -3070,12 +3086,21 @@
  "news": {
   "headlines": [
    {
+    "id": "dadaadb535",
+    "title": "6 dividend stocks for investors who want to cut their exposure to the S&P 500",
+    "link": "https://www.marketwatch.com/story/6-dividend-stocks-for-investors-who-want-to-cut-their-exposure-to-the-s-p-500-52519928?mod=mw_rss_topstories",
+    "source": "marketwatch_top",
+    "published_utc": "2026-11-02T16:52:00+00:00",
+    "score": 8.99,
+    "duplicates": 0
+   },
+   {
     "id": "fe9b757dc2",
     "title": "The market view of the oil, AI and bond trades went through a major change in October",
     "link": "https://www.cnbc.com/2026/11/01/oil-bond-yields-ai-market.html",
     "source": "cnbc_markets",
     "published_utc": "2026-11-02T13:26:05+00:00",
-    "score": 8.96,
+    "score": 8.91,
     "duplicates": 0
    },
    {
@@ -3084,7 +3109,7 @@
     "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNVS0yWjN5aXJSajNON0VNVV9OMFh2VjBPVWJpWmcwcE41R2g4cnp2LWhpbGlNWEVWZ1ltWkprTEdfUFF6Qm5OWXkyLVJTTzRWODNuUEc5R1l5Y2xVb3l3Vk1EQ05ybG9rZENudHRJdlZCYmNuLWN0RFNLNXVLZk40dnJfa0ZxbGp4emRYdEpTOF8yRWpkRmRpZExkWEU2NWtkajhHXzJ1NEZoN1FFNktCdVBBal8?oc=5",
     "source": "gnews_megacap",
     "published_utc": "2026-11-02T06:52:55+00:00",
-    "score": 8.86,
+    "score": 8.82,
     "duplicates": 0
    },
    {
@@ -3093,7 +3118,7 @@
     "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNZTFkbzFjTC16VjBnNUo3N2YxRU41dWtzRU56THg5dkFmWkxxaHpjb0hOWmdZWmdSODIzU2hiTjFLVXVsVXR4VUlPR3ZnUEdKRkpiRTJnV09ROEswVEJ6RDhpQ3VKNU9IRjZyT3NkZjMyM0w2UkpUemlSVmpyalRFa0dUczV6a2JBMmdreXE3QWM0T296alIw?oc=5",
     "source": "gnews_futures",
     "published_utc": "2026-11-02T10:23:24+00:00",
-    "score": 8.45,
+    "score": 8.41,
     "duplicates": 1
    },
    {
@@ -3102,7 +3127,7 @@
     "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE9PeE1oQkY4Z3lRdXRVVFJaNGd0ZktoOURWN1RVWWlGQ0lqSTkzbmFFdTJsVFVWdjMxT01ZelNHcmRZQXBRU05oUzBrSW1rdTJ4N21zTmVPekJkeXp0dVZOYVdHLVgxZXUzdkl2Y1Awckx5OHZKdXhKN0tR?oc=5",
     "source": "gnews_macro",
     "published_utc": "2026-11-02T12:24:12+00:00",
-    "score": 7.78,
+    "score": 7.74,
     "duplicates": 0
    },
    {
@@ -3111,17 +3136,8 @@
     "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPVkVCZzY4M2xqWDhwb01NRC15Ui1xRTBJQ0x5MjhsUFFjUjUwMHBVMmlOQkRqTURJOFljOUFXUEdUVVVDeGVXU1I0Umt2aFo4TzRHUlJoZEROTVFQdEMzU1RBQWpRY0hIS2oycGtiUlkyNkMxVVhnaFQ4d2paeTdKSXdXUlhIQjN5bm9vMWU5Xzl6NzFPQ2NIZTJEVVV1SEcxcjdCSDE0NGJmQV9DVUtPMUY3T3cyVEVRZGlMcmt0SXZnR2lZ0gHQAUFVX3lxTE5kOW5uRjFoVFVZVTZCdHExY2NCbHo5RHpoc2VqRWNnbXg1UWtIZXZURWpjUFRwOFQ1OEdmVUdxT1hKX284T1ZaMlFiVWxCeVpWMWFCdXhTdVJuc3owM1Z6Zm1nbjZuN3FqWVItTWJKM3hSd0lFYWRaenh1VVNaMDNaZEo2QWFhN2Q0V2FvMXZSdWZKR2pOVElZaklJU1RTQnFoWG9TNE1jeW1iclNxYUdsY3NzWnJ2QndHTTlseVZoZDlWOVN1NUFTSjd6M2JRSFY?oc=5",
     "source": "gnews_megacap",
     "published_utc": "2026-11-02T14:22:12+00:00",
-    "score": 7.61,
+    "score": 7.57,
     "duplicates": 0
-   },
-   {
-    "id": "b37d7b7ae9",
-    "title": "Stock Market Today: Dow Jones, S&P 500 Futures Rise Ahead of Apple, Palantir Earnings: RYAAY, USLM, INO in Focus - Yahoo Finance",
-    "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPNGVTNnRya2xiS01lZGhBQ0JvRnQ0VWt0b180TXJ5ZmZNcHVGMFFZUFZNaFhlUGIwcjcyUDFPZG1HM1dXcG5rRU9SN2RjbGRHN256N2kzT3FWUnNuTFBJR3V0ZGROYlgtQVM4SjlrakptODdUaFp3bi1kOWlkZXQwWHVDRldzd3ZDT1E3TktTeEtDTjZWb3ptVA?oc=5",
-    "source": "gnews_futures",
-    "published_utc": "2026-11-02T10:29:28+00:00",
-    "score": 7.47,
-    "duplicates": 1
    },
    {
     "id": "92314ec1fd",
@@ -3129,7 +3145,16 @@
     "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQQm4wdEp1S1ZOd2pqX09EQXRPSmJ5ZFRRTWZFMU5MYmpGUm9MOVlFdVdKb2hBMThsR0VHQjF3Q1ZVLV8wWGJhSndaMnJOaGV6R2NrZFNBbWZ2NnZJQ2NLWk5fVDRSNVZTN0ZDMTNic2dWYkRZYzFWZjlpLTBYcEh6X0M4aVZQcGlMalNwdzhBYjFRcGlFSTkya0hXUjUtM1RFMW5zXzBOREZEalhfQWFHQWZhUW5tNGk2WWROeVJBUlM?oc=5",
     "source": "gnews_macro",
     "published_utc": "2026-11-02T16:28:22+00:00",
-    "score": 7.46,
+    "score": 7.42,
+    "duplicates": 0
+   },
+   {
+    "id": "9591d5a5b5",
+    "title": "Canadian bond yields retreat as oil prices ease inflation concerns, data in focus - Investing.com",
+    "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPSzBnd3g4enVIeFdGSzM1bWhsSWFwa19VZmlWMk5oUWl3R01nTDg4MW1TaDVyMGM3Y0tpaHBEVHlfVkxoTG9oUzRoZjZvcTduakZzeTk4dDJuUFZlZmEyNnl6aF9kU2QwdFdleXljTEt0ZlI5VUFBYThSOXBMMjhCZ3ZPQW1aYUZMekc3ZmI2NTFMMWEzREJDOXRoZzZXRHdPVTVfYW9ONzNBSHBVMVctOHpJa1IzaklmVzJWdXF1YnVtXzF4X3JjTHF0MGk?oc=5",
+    "source": "gnews_macro",
+    "published_utc": "2026-11-02T16:22:05+00:00",
+    "score": 7.4,
     "duplicates": 0
    },
    {
@@ -3138,7 +3163,7 @@
     "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNbUotU2RVM0hOLXh3NjJONXZBR2MyN1o3ci11dmJ3TmlaTGlNSUlFNXVJSXZ4MWRLVHozX1dzMS0xRG1zeUY2ejBHM1dDRE5PNG1pTjJSelRQWkxMQkhRWk1jZU42cHByWkFzQXFZMkxFcHdwdWJFN1ZMRWhiYXNhNnpMTGxBc3lsM2xWM0xuY2tZdw?oc=5",
     "source": "gnews_futures",
     "published_utc": "2026-11-02T13:05:41+00:00",
-    "score": 7.4,
+    "score": 7.36,
     "duplicates": 1
    },
    {
@@ -3147,7 +3172,7 @@
     "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPN3NpVHFOMTN6X0YzWWtQX3NaeENfYlVrZWFsa1ltYTl6RWxQcllmRm5rQVNpcFp0eGpfSG56dGg4T2ZKTzhhdXlidWlfVjEzTzlQejNSLVJYTEdBRVR3c3A3c3M5bEg3Uk1hcTVzNGNEaEI0MmZIMVRWaTJOQzliR3lHTHNidmtNQVE?oc=5",
     "source": "gnews_megacap",
     "published_utc": "2026-11-02T13:00:00+00:00",
-    "score": 7.38,
+    "score": 7.34,
     "duplicates": 1
    },
    {
@@ -3156,7 +3181,7 @@
     "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPZHJ6YXh1NGtjUFBnZFJpekExR211b3YzOW9ZZWR4SldVTFFZVlNtSzBveGxzUW5OYko5QUJPdFAxRmhyRXpmWWE3R2t4RURnajQtS00zZkJjTnV4Sm1sU2VzdkpTcVd3dktwRnpDbS03TDlzOUdEeld6Z29RRGVZNGU5WjllY0Z4cHhKWEJubTFIcnM3OEItY3VVU1hTU3RNZVd2SmYzRElKUFRET1RZVUlEbi1jbm1pTWY5a3VoSEN2Nk1LM25IRw?oc=5",
     "source": "gnews_futures",
     "published_utc": "2026-11-02T12:45:00+00:00",
-    "score": 7.34,
+    "score": 7.3,
     "duplicates": 0
    },
    {
@@ -3165,26 +3190,17 @@
     "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPaEFEMVJfWHd6YWFaNC1yMmhlSjNWS0hvRXA4bzlHNTk2STdsajhrb0w3dGJpN3hhQmM5UWl2Q1Q5M0hXMHJkOHFrckdBQjE4bGJJN3dZeFVkR2NPclJCUGROOXhTZmt2bzJUdUFIZlc4b2lVazN5dGhDMVB4V1AydGFXOU5vN1BOZGU1TmRmMjNmSWdLZXFFS1p4UEY3eDVkYm1GVnVR?oc=5",
     "source": "gnews_megacap",
     "published_utc": "2026-11-02T12:12:35+00:00",
-    "score": 7.25,
-    "duplicates": 0
-   },
-   {
-    "id": "7a9daaa95d",
-    "title": "Apple (NASDAQ: AAPL) stock price forecast: Wall Street targets ahead of Q4 earnings - Beinsure",
-    "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxON1RsOGxWcUpBZzRad3RQTWh4WGlGSENqNWxSVU51T2M5UG94YjlSaUlXS09NVHdCU0dGemlVSUxvY3FFcWY4STlseW1OTmJKVnAyNXNTSTZxSDZrOVNQLXVpcFo4dUJPeUtQLU96T2NhTHVLdHh6ZWhCNVFtRHY2VVpLZE96SzR4bzIzWjYzRmd5M2tlLW1ncVRB?oc=5",
-    "source": "gnews_megacap",
-    "published_utc": "2026-11-02T16:30:33+00:00",
-    "score": 6.97,
+    "score": 7.21,
     "duplicates": 0
    }
   ],
   "summary": {
    "lines": [
+    "6 dividend stocks for investors who want to cut their exposure to the S&P 500 [dadaadb535]",
     "The market view of the oil, AI and bond trades went through a major change in October [fe9b757dc2]",
     "Economic Week Ahead: Payrolls, Fed Speakers and Apple Earnings to Watch - Investing.com [f574c95dc9]",
     "US Stock Futures Rise Ahead of Apple Earnings as Binance Hack, Oil Prices and Midterm Elections Take Focus: Dow Jones, S&P, Nasdaq, Wall Street - Yahoo Finance [c5f2a2bd3e]",
-    "WuBlockchain Weekly Outlook | U.S. Midterms and Jobs Report Lead as AMD and Palantir Test AI Demand - Substack [8e11570594]",
-    "Nasdaq 100 Forecast: NDX rebounds as oil prices fall and ahead of Apple earnings - FOREX.com [024b48087d]"
+    "WuBlockchain Weekly Outlook | U.S. Midterms and Jobs Report Lead as AMD and Palantir Test AI Demand - Substack [8e11570594]"
    ],
    "backend": "none",
    "model": null,
