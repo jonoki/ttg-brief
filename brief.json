@@ -1,7 +1,7 @@
 {
  "meta": {
-  "generated_at_utc": "2026-11-02T12:10:51.782829+00:00",
-  "generated_at_local": "Mon 02 Nov 2026 08:10 AST",
+  "generated_at_utc": "2026-11-02T12:26:07.019751+00:00",
+  "generated_at_local": "Mon 02 Nov 2026 08:26 AST",
   "trading_day": "2026-11-02",
   "display_tz": "America/Halifax",
   "version": "0.1.0",
@@ -70,7 +70,7 @@
    "time_utc": "2026-11-02T15:00:00+00:00",
    "local": "11:00 AST",
    "et": "10:00 ET",
-   "in": "2h 49m",
+   "in": "2h 33m",
    "consensus": "54.5",
    "prior": "54.5"
   },
@@ -81,10 +81,10 @@
   {
    "root": "ES",
    "trading_day": "2026-11-02",
-   "as_of_utc": "2026-11-02T12:10:51.782829+00:00",
+   "as_of_utc": "2026-11-02T12:26:07.019751+00:00",
    "source": "yahoo",
    "delayed": true,
-   "last_price": 7649.25,
+   "last_price": 7646.75,
    "levels": [
     {
      "tag": "pwh",
@@ -119,7 +119,7 @@
      "label": "Overnight high",
      "price": 7659.25,
      "group": "overnight",
-     "note": "since 18:00 ET, 770 bars"
+     "note": "since 18:00 ET, 786 bars"
     },
     {
      "tag": "wh",
@@ -138,7 +138,7 @@
     {
      "tag": "onvwap",
      "label": "Overnight VWAP",
-     "price": 7646.33,
+     "price": 7646.36,
      "group": "overnight",
      "note": "typical-price VWAP"
     },
@@ -221,14 +221,14 @@
     }
    ],
    "stats": {
-    "last_bar_utc": "2026-11-02T12:00:00+00:00",
-    "last_bar_age_min": 10.9,
+    "last_bar_utc": "2026-11-02T12:16:00+00:00",
+    "last_bar_age_min": 10.1,
     "market_state": "open",
     "profile_volume": 1921720.0,
     "prior_day": "2026-10-30",
     "prior_day_rth_range": 196.0,
     "overnight_range": 30.5,
-    "gap_vs_prior_close": 36.5,
+    "gap_vs_prior_close": 34.0,
     "gap_basis": "last price (pre-market)",
     "atr14": 94.27,
     "atr_days": 14,
@@ -1400,20 +1400,28 @@
     {
      "t": "2026-11-02T12:00:00+00:00",
      "o": 7649.0,
-     "h": 7649.25,
-     "l": 7648.5,
-     "c": 7649.25,
-     "v": 0.0
+     "h": 7649.5,
+     "l": 7645.0,
+     "c": 7647.25,
+     "v": 6164.0
+    },
+    {
+     "t": "2026-11-02T12:15:00+00:00",
+     "o": 7647.25,
+     "h": 7647.5,
+     "l": 7645.25,
+     "c": 7646.75,
+     "v": 328.0
     }
    ]
   },
   {
    "root": "NQ",
    "trading_day": "2026-11-02",
-   "as_of_utc": "2026-11-02T12:10:51.782829+00:00",
+   "as_of_utc": "2026-11-02T12:26:07.019751+00:00",
    "source": "yahoo",
    "delayed": true,
-   "last_price": 28749.0,
+   "last_price": 28768.75,
    "levels": [
     {
      "tag": "pwh",
@@ -1448,7 +1456,7 @@
      "label": "Overnight high",
      "price": 28831.5,
      "group": "overnight",
-     "note": "since 18:00 ET, 770 bars"
+     "note": "since 18:00 ET, 786 bars"
     },
     {
      "tag": "wh",
@@ -1481,13 +1489,13 @@
     {
      "tag": "onvwap",
      "label": "Overnight VWAP",
-     "price": 28751.47,
+     "price": 28751.52,
      "group": "overnight",
      "note": "typical-price VWAP"
     },
     {
-     "tag": "rn_minor_up",
-     "label": "Round 50 above",
+     "tag": "rn_minor_dn",
+     "label": "Round 50 below",
      "price": 28750.0,
      "group": "round",
      "note": ""
@@ -1550,14 +1558,14 @@
     }
    ],
    "stats": {
-    "last_bar_utc": "2026-11-02T12:00:00+00:00",
-    "last_bar_age_min": 10.9,
+    "last_bar_utc": "2026-11-02T12:16:00+00:00",
+    "last_bar_age_min": 10.1,
     "market_state": "open",
     "profile_volume": 755234.0,
     "prior_day": "2026-10-30",
     "prior_day_rth_range": 1329.25,
     "overnight_range": 219.25,
-    "gap_vs_prior_close": 221.5,
+    "gap_vs_prior_close": 241.25,
     "gap_basis": "last price (pre-market)",
     "atr14": 680.09,
     "atr_days": 14,
@@ -2729,10 +2737,18 @@
     {
      "t": "2026-11-02T12:00:00+00:00",
      "o": 28752.5,
-     "h": 28753.75,
-     "l": 28741.5,
-     "c": 28749.0,
-     "v": 0.0
+     "h": 28775.5,
+     "l": 28727.25,
+     "c": 28769.75,
+     "v": 2936.0
+    },
+    {
+     "t": "2026-11-02T12:15:00+00:00",
+     "o": 28768.75,
+     "h": 28771.75,
+     "l": 28759.75,
+     "c": 28768.75,
+     "v": 149.0
     }
    ]
   }
@@ -2745,7 +2761,7 @@
     "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNVS0yWjN5aXJSajNON0VNVV9OMFh2VjBPVWJpWmcwcE41R2g4cnp2LWhpbGlNWEVWZ1ltWkprTEdfUFF6Qm5OWXkyLVJTTzRWODNuUEc5R1l5Y2xVb3l3Vk1EQ05ybG9rZENudHRJdlZCYmNuLWN0RFNLNXVLZk40dnJfa0ZxbGp4emRYdEpTOF8yRWpkRmRpZExkWEU2NWtkajhHXzJ1NEZoN1FFNktCdVBBal8?oc=5",
     "source": "gnews_megacap",
     "published_utc": "2026-11-02T06:52:55+00:00",
-    "score": 9.62,
+    "score": 9.57,
     "duplicates": 0
    },
    {
@@ -2754,7 +2770,25 @@
     "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNZTFkbzFjTC16VjBnNUo3N2YxRU41dWtzRU56THg5dkFmWkxxaHpjb0hOWmdZWmdSODIzU2hiTjFLVXVsVXR4VUlPR3ZnUEdKRkpiRTJnV09ROEswVEJ6RDhpQ3VKNU9IRjZyT3NkZjMyM0w2UkpUemlSVmpyalRFa0dUczV6a2JBMmdreXE3QWM0T296alIw?oc=5",
     "source": "gnews_futures",
     "published_utc": "2026-11-02T10:23:24+00:00",
-    "score": 9.2,
+    "score": 9.16,
+    "duplicates": 1
+   },
+   {
+    "id": "8e11570594",
+    "title": "WuBlockchain Weekly Outlook | U.S. Midterms and Jobs Report Lead as AMD and Palantir Test AI Demand - Substack",
+    "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE9PeE1oQkY4Z3lRdXRVVFJaNGd0ZktoOURWN1RVWWlGQ0lqSTkzbmFFdTJsVFVWdjMxT01ZelNHcmRZQXBRU05oUzBrSW1rdTJ4N21zTmVPekJkeXp0dVZOYVdHLVgxZXUzdkl2Y1Awckx5OHZKdXhKN0tR?oc=5",
+    "source": "gnews_macro",
+    "published_utc": "2026-11-02T12:24:12+00:00",
+    "score": 8.49,
+    "duplicates": 0
+   },
+   {
+    "id": "ba95265765",
+    "title": "Stock Market Today (Nov. 2, 2026): Nasdaq futures rise ahead of Apple’s earnings report - TheStreet",
+    "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQZF9nVnRSN1E4bXVmS2JMWndJQ2pXRnRmV0pYMFNPOEpUbVI5dUtfZVlacldidGxJTVhqNUlPR2xMUDg4Yld5YWZEM25QRDZGcUc4SzUyT2RMMWVoUjRBb1pTTVp4Mk1kYVFYekwtOVhObGxjWGQ2VFAydk9rZExiYVdxWkdrRHAwZ21Pd2F6NXB2eU5WUFBiNEc0RjBpUjJwa18yZUpkUTR4TVk?oc=5",
+    "source": "gnews_futures",
+    "published_utc": "2026-11-02T11:44:46+00:00",
+    "score": 8.39,
     "duplicates": 1
    },
    {
@@ -2763,7 +2797,7 @@
     "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBxVnJXSURVazJzU0ZJVWI2cFEzdmdFY3dRdlVLS2JEVWdZVHBPeGJ6YkxMMERIcXh1LUhoQ2ZNS3Vmd0tObTVsT3NJdTFRMENQdXRHVERsRTRmcDMxNU4tQml0V3BrWXgt?oc=5",
     "source": "gnews_macro",
     "published_utc": "2026-11-02T11:00:00+00:00",
-    "score": 8.3,
+    "score": 8.26,
     "duplicates": 0
    },
    {
@@ -2772,16 +2806,16 @@
     "link": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxNbXBKa3FoWUVHMTZtY25nNXk2dmxQcVFyY1ZCNGNZTTUteU43ZFpIZXVDZEY0VlIxUzhlUk1qYjZEWTRPWWQwRFUtNjRIanltQnE1aTJoMzFSY2tCQmtaQWZWOE9MNnlGSEd4dFZGSU1lVHZodDQtRWR3SjFhV01yUWx2bDEzYkIwYmR6akt6TkkzajBuOU9IQlNuNUFBeVplV1g3RWc0Y0g1RnotckNnWkhEU01xemRtOGYxemNlUzZ6X2c2VnBuMGxzd21RelNkalB1RE84UVNvMlF6aGdrY1NpcXBaWEo3YUczQ0F0aU02bV81QWtIRQ?oc=5",
     "source": "gnews_futures",
     "published_utc": "2026-11-02T10:29:28+00:00",
-    "score": 8.22,
+    "score": 8.18,
     "duplicates": 1
    },
    {
-    "id": "ba95265765",
-    "title": "Stock Market Today (Nov. 2, 2026): Nasdaq futures rise ahead of Apple’s earnings report - TheStreet",
-    "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQZF9nVnRSN1E4bXVmS2JMWndJQ2pXRnRmV0pYMFNPOEpUbVI5dUtfZVlacldidGxJTVhqNUlPR2xMUDg4Yld5YWZEM25QRDZGcUc4SzUyT2RMMWVoUjRBb1pTTVp4Mk1kYVFYekwtOVhObGxjWGQ2VFAydk9rZExiYVdxWkdrRHAwZ21Pd2F6NXB2eU5WUFBiNEc0RjBpUjJwa18yZUpkUTR4TVk?oc=5",
-    "source": "gnews_futures",
-    "published_utc": "2026-11-02T11:44:46+00:00",
-    "score": 7.93,
+    "id": "0b05c376ed",
+    "title": "Earnings Day: Can hardware rescue Apple from Big Tech's AI hangover? (AAPL:NASDAQ) - Seeking Alpha",
+    "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPaEFEMVJfWHd6YWFaNC1yMmhlSjNWS0hvRXA4bzlHNTk2STdsajhrb0w3dGJpN3hhQmM5UWl2Q1Q5M0hXMHJkOHFrckdBQjE4bGJJN3dZeFVkR2NPclJCUGROOXhTZmt2bzJUdUFIZlc4b2lVazN5dGhDMVB4V1AydGFXOU5vN1BOZGU1TmRmMjNmSWdLZXFFS1p4UEY3eDVkYm1GVnVR?oc=5",
+    "source": "gnews_megacap",
+    "published_utc": "2026-11-02T12:12:35+00:00",
+    "score": 7.96,
     "duplicates": 0
    },
    {
@@ -2790,7 +2824,7 @@
     "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPVElYM3k0UEltR0tNaE5WRnR2bjVQbkwxcDcyal90MTBMUjBjelpUX1pmWC1EUjJROGFBdzJhN01mQmZXeUZmNmRNY25VaGRHdV9OVElobndPUFdVVGNGaE0yZ29TZW5SRGpCYVE2aktDRnFKb1lacjRrclpwbWlZMWtldndNQ2Y2MlY0NFdBSmZZUXFlbVVXZmNTZVJYZXdvVlVEemFDY0FZekVKcnNTRmtwcWpvTlVMZU5mdDdWbWJGUW1nQzZ6eQ?oc=5",
     "source": "gnews_futures",
     "published_utc": "2026-11-02T11:15:00+00:00",
-    "score": 7.84,
+    "score": 7.8,
     "duplicates": 0
    },
    {
@@ -2799,7 +2833,7 @@
     "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxQOVQ4WklneEhpM3VyQUNmMDF1eVpWWlZIYXJ3OWU2NlU3bnpuTG1jVnNGODJfeVVjUUhaRlN5b0p6Q3FfdTlienR0VTJiTUZ5MlJwc1ZtUVlJdmZYTHVhOW5LLUNualhicUlJQWJHTV94S3VOUUt5cGhpczZta1FpT0JQTV96SmJWYTNTZ1ViLTBMcTB4aG9EMzJUVTZmV2tmWnpyakF1dWlKVW5rZVg2YXh5WVN3aEw5QndJMXF2VDk0UDhIYWtwa1k0amlNXzREYmc?oc=5",
     "source": "gnews_futures",
     "published_utc": "2026-11-02T07:30:06+00:00",
-    "score": 7.72,
+    "score": 7.68,
     "duplicates": 1
    },
    {
@@ -2826,25 +2860,7 @@
     "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNUy1qdGRmUlhla244NXh5a3lqZnZCN0QwUi1jWGI4ZUJJMDJ1NzhiMy1YUjlDeExSRUZkbUNVVzBwUHZkbUR1b2R3VWkyMWpnTlY5SnNQZjJSSndkNXk0M1pzVGpCemRyNEVpc2haNXF6c1Zvc3FHWTd5cDZrMWpWeWJxdGw0U0Z4bGg3eHBnOGxLcDVkbTVnRjBSV0lwbVdWVHFJdFNoNFRwUGIx?oc=5",
     "source": "gnews_macro",
     "published_utc": "2026-11-02T05:23:15+00:00",
-    "score": 7.37,
-    "duplicates": 0
-   },
-   {
-    "id": "ac30310473",
-    "title": "S&P 500, Nasdaq Futures Rise Premarket After Wall Street’s Worst Week In Months: AAPL, PLTR, GOOGL, INTC, TGTX In Focus - Yahoo Finance",
-    "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQM2dGUDRxakhxZlROS0didEV3ZkJmMGpSMXM5N2h4ZjF4MWlVNGNTYndOUDlDTlZBaXUydE5hNXBLZjQya2FtLVhJT1FmUEtUcWpNblJEUkJYMW1SdWYtdGNZX0kzUWN1b3BmT0w5Ym82Vm54NGtyT3hxX0U4Y09ha1A1WFVwb2VDSHhTVDBCemhQTnFY?oc=5",
-    "source": "gnews_futures",
-    "published_utc": "2026-11-02T10:18:32+00:00",
-    "score": 6.69,
-    "duplicates": 0
-   },
-   {
-    "id": "f635df380b",
-    "title": "US Stock Futures Gain After Selloff, Oil Declines: Markets Wrap - SWI swissinfo.ch",
-    "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQSUFsVkZkYXdvRTFYZmxvajhtd2RuNnZxUFAyem5YbUw3NlFwMFdvSFVmYzJld1BjUUhndjlObms0anNPSVk3M1M4TG1JendHd1ZMX3ZUMHQ4OHVwcVk4TjBqUW42clFTXzdUclpKWF9KWFZqeFdIcWlDeGFxTDhHMXMxOTNjS2ZmMDdKMFFuUjdqTjB3ZkMzODBMSlV1TGhLUHhsdXlCcW4?oc=5",
-    "source": "gnews_futures",
-    "published_utc": "2026-11-02T07:00:56+00:00",
-    "score": 6.64,
+    "score": 7.33,
     "duplicates": 0
    }
   ],
@@ -2852,9 +2868,9 @@
    "lines": [
     "Economic Week Ahead: Payrolls, Fed Speakers and Apple Earnings to Watch - Investing.com [f574c95dc9]",
     "US Stock Futures Rise Ahead of Apple Earnings as Binance Hack, Oil Prices and Midterm Elections Take Focus: Dow Jones, S&P, Nasdaq, Wall Street - Yahoo Finance [c5f2a2bd3e]",
-    "AI Stocks Finally Help the Fed Fight Inflation, by Falling - BeInCrypto [1ac1813977]",
-    "Stock Market Today: Dow Jones, S&P 500 Futures Rise Ahead of Apple, Palantir Earnings: RYAAY, USLM, INO in Focus - TradingView [44da7c1518]",
-    "Stock Market Today (Nov. 2, 2026): Nasdaq futures rise ahead of Apple’s earnings report - TheStreet [ba95265765]"
+    "WuBlockchain Weekly Outlook | U.S. Midterms and Jobs Report Lead as AMD and Palantir Test AI Demand - Substack [8e11570594]",
+    "Stock Market Today (Nov. 2, 2026): Nasdaq futures rise ahead of Apple’s earnings report - TheStreet [ba95265765]",
+    "AI Stocks Finally Help the Fed Fight Inflation, by Falling - BeInCrypto [1ac1813977]"
    ],
    "backend": "none",
    "model": null,
