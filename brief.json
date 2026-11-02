@@ -1,7 +1,7 @@
 {
  "meta": {
-  "generated_at_utc": "2026-11-02T13:57:39.396255+00:00",
-  "generated_at_local": "Mon 02 Nov 2026 09:57 AST",
+  "generated_at_utc": "2026-11-02T14:12:57.341196+00:00",
+  "generated_at_local": "Mon 02 Nov 2026 10:12 AST",
   "trading_day": "2026-11-02",
   "display_tz": "America/Halifax",
   "version": "0.1.0",
@@ -70,7 +70,7 @@
    "time_utc": "2026-11-02T15:00:00+00:00",
    "local": "11:00 AST",
    "et": "10:00 ET",
-   "in": "1h 02m",
+   "in": "47 min",
    "consensus": "54.5",
    "prior": "54.5"
   },
@@ -81,10 +81,10 @@
   {
    "root": "ES",
    "trading_day": "2026-11-02",
-   "as_of_utc": "2026-11-02T13:57:39.396255+00:00",
+   "as_of_utc": "2026-11-02T14:12:57.341196+00:00",
    "source": "yahoo",
    "delayed": true,
-   "last_price": 7657.5,
+   "last_price": 7650.75,
    "levels": [
     {
      "tag": "pwh",
@@ -133,7 +133,7 @@
      "label": "Overnight high",
      "price": 7662.0,
      "group": "overnight",
-     "note": "since 18:00 ET, 877 bars"
+     "note": "since 18:00 ET, 891 bars"
     },
     {
      "tag": "wh",
@@ -152,7 +152,7 @@
     {
      "tag": "onvwap",
      "label": "Overnight VWAP",
-     "price": 7646.76,
+     "price": 7647.08,
      "group": "overnight",
      "note": "typical-price VWAP"
     },
@@ -221,14 +221,14 @@
     }
    ],
    "stats": {
-    "last_bar_utc": "2026-11-02T13:47:00+00:00",
-    "last_bar_age_min": 10.7,
+    "last_bar_utc": "2026-11-02T14:01:00+00:00",
+    "last_bar_age_min": 12.0,
     "market_state": "open",
     "profile_volume": 1921720.0,
     "prior_day": "2026-10-30",
     "prior_day_rth_range": 196.0,
     "overnight_range": 33.25,
-    "gap_vs_prior_close": 44.75,
+    "gap_vs_prior_close": 38.0,
     "gap_basis": "last price (pre-market)",
     "atr14": 94.27,
     "atr_days": 14,
@@ -1457,19 +1457,27 @@
      "t": "2026-11-02T13:45:00+00:00",
      "o": 7658.5,
      "h": 7662.0,
-     "l": 7654.75,
-     "c": 7657.5,
-     "v": 4849.0
+     "l": 7647.25,
+     "c": 7650.75,
+     "v": 24272.0
+    },
+    {
+     "t": "2026-11-02T14:00:00+00:00",
+     "o": 7650.5,
+     "h": 7652.0,
+     "l": 7650.0,
+     "c": 7650.75,
+     "v": 1775.0
     }
    ]
   },
   {
    "root": "NQ",
    "trading_day": "2026-11-02",
-   "as_of_utc": "2026-11-02T13:57:39.396255+00:00",
+   "as_of_utc": "2026-11-02T14:12:57.341196+00:00",
    "source": "yahoo",
    "delayed": true,
-   "last_price": 28812.5,
+   "last_price": 28752.0,
    "levels": [
     {
      "tag": "pwh",
@@ -1493,13 +1501,6 @@
      "note": "ATR over 14 days"
     },
     {
-     "tag": "rn_major_up",
-     "label": "Round 100 above",
-     "price": 28900.0,
-     "group": "round",
-     "note": ""
-    },
-    {
      "tag": "vah",
      "label": "Prior-day VAH",
      "price": 28858.0,
@@ -1507,18 +1508,11 @@
      "note": "70 % value area"
     },
     {
-     "tag": "rn_minor_up",
-     "label": "Round 50 above",
-     "price": 28850.0,
-     "group": "round",
-     "note": ""
-    },
-    {
      "tag": "onh",
      "label": "Overnight high",
      "price": 28844.0,
      "group": "overnight",
-     "note": "since 18:00 ET, 877 bars"
+     "note": "since 18:00 ET, 891 bars"
     },
     {
      "tag": "wh",
@@ -1528,8 +1522,8 @@
      "note": "since 2026-11-02"
     },
     {
-     "tag": "rn_major_dn",
-     "label": "Round 100 below",
+     "tag": "rn_major_up",
+     "label": "Round 100 above",
      "price": 28800.0,
      "group": "round",
      "note": ""
@@ -1551,9 +1545,23 @@
     {
      "tag": "onvwap",
      "label": "Overnight VWAP",
-     "price": 28752.48,
+     "price": 28753.67,
      "group": "overnight",
      "note": "typical-price VWAP"
+    },
+    {
+     "tag": "rn_minor_dn",
+     "label": "Round 50 below",
+     "price": 28750.0,
+     "group": "round",
+     "note": ""
+    },
+    {
+     "tag": "rn_major_dn",
+     "label": "Round 100 below",
+     "price": 28700.0,
+     "group": "round",
+     "note": ""
     },
     {
      "tag": "onl",
@@ -1606,14 +1614,14 @@
     }
    ],
    "stats": {
-    "last_bar_utc": "2026-11-02T13:47:00+00:00",
-    "last_bar_age_min": 10.7,
+    "last_bar_utc": "2026-11-02T14:01:00+00:00",
+    "last_bar_age_min": 12.0,
     "market_state": "open",
     "profile_volume": 755234.0,
     "prior_day": "2026-10-30",
     "prior_day_rth_range": 1329.25,
     "overnight_range": 231.75,
-    "gap_vs_prior_close": 285.0,
+    "gap_vs_prior_close": 224.5,
     "gap_basis": "last price (pre-market)",
     "atr14": 680.09,
     "atr_days": 14,
@@ -2842,9 +2850,17 @@
      "t": "2026-11-02T13:45:00+00:00",
      "o": 28817.75,
      "h": 28840.0,
-     "l": 28797.5,
-     "c": 28812.5,
-     "v": 2506.0
+     "l": 28749.0,
+     "c": 28754.5,
+     "v": 9879.0
+    },
+    {
+     "t": "2026-11-02T14:00:00+00:00",
+     "o": 28753.0,
+     "h": 28762.75,
+     "l": 28751.0,
+     "c": 28752.0,
+     "v": 808.0
     }
    ]
   }
@@ -2857,7 +2873,7 @@
     "link": "https://www.cnbc.com/2026/11/01/oil-bond-yields-ai-market.html",
     "source": "cnbc_markets",
     "published_utc": "2026-11-02T13:26:05+00:00",
-    "score": 9.41,
+    "score": 9.37,
     "duplicates": 0
    },
    {
@@ -2866,7 +2882,7 @@
     "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNVS0yWjN5aXJSajNON0VNVV9OMFh2VjBPVWJpWmcwcE41R2g4cnp2LWhpbGlNWEVWZ1ltWkprTEdfUFF6Qm5OWXkyLVJTTzRWODNuUEc5R1l5Y2xVb3l3Vk1EQ05ybG9rZENudHRJdlZCYmNuLWN0RFNLNXVLZk40dnJfa0ZxbGp4emRYdEpTOF8yRWpkRmRpZExkWEU2NWtkajhHXzJ1NEZoN1FFNktCdVBBal8?oc=5",
     "source": "gnews_megacap",
     "published_utc": "2026-11-02T06:52:55+00:00",
-    "score": 9.32,
+    "score": 9.28,
     "duplicates": 0
    },
    {
@@ -2875,7 +2891,7 @@
     "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNZTFkbzFjTC16VjBnNUo3N2YxRU41dWtzRU56THg5dkFmWkxxaHpjb0hOWmdZWmdSODIzU2hiTjFLVXVsVXR4VUlPR3ZnUEdKRkpiRTJnV09ROEswVEJ6RDhpQ3VKNU9IRjZyT3NkZjMyM0w2UkpUemlSVmpyalRFa0dUczV6a2JBMmdreXE3QWM0T296alIw?oc=5",
     "source": "gnews_futures",
     "published_utc": "2026-11-02T10:23:24+00:00",
-    "score": 8.9,
+    "score": 8.86,
     "duplicates": 1
    },
    {
@@ -2884,7 +2900,7 @@
     "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNT0c0ajcwSC1TMmdqcklFOVR5M1lxNzFzRHZ0MTBILTlITXBKYXpFbTBaN2dFdnVNbmR4U2Jsa2kyYngzVnp5Tkd3OG9mNmpXd0EwY0ttem9zeGhGRmg3S0ZFNnIyNXNHdE1DSGJNU3E1UkNoR0N1bDFNbjIyUDcyaHJKaDhEQVUtbjlrWXBRZi1WS3IxVnhnMVN2S1NacTczejdUaWVjM1o3Y1A5bnQ5QXdlNA?oc=5",
     "source": "gnews_futures",
     "published_utc": "2026-11-02T13:08:30+00:00",
-    "score": 8.36,
+    "score": 8.32,
     "duplicates": 0
    },
    {
@@ -2893,7 +2909,7 @@
     "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE9PeE1oQkY4Z3lRdXRVVFJaNGd0ZktoOURWN1RVWWlGQ0lqSTkzbmFFdTJsVFVWdjMxT01ZelNHcmRZQXBRU05oUzBrSW1rdTJ4N21zTmVPekJkeXp0dVZOYVdHLVgxZXUzdkl2Y1Awckx5OHZKdXhKN0tR?oc=5",
     "source": "gnews_macro",
     "published_utc": "2026-11-02T12:24:12+00:00",
-    "score": 8.24,
+    "score": 8.2,
     "duplicates": 0
    },
    {
@@ -2902,7 +2918,7 @@
     "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQZF9nVnRSN1E4bXVmS2JMWndJQ2pXRnRmV0pYMFNPOEpUbVI5dUtfZVlacldidGxJTVhqNUlPR2xMUDg4Yld5YWZEM25QRDZGcUc4SzUyT2RMMWVoUjRBb1pTTVp4Mk1kYVFYekwtOVhObGxjWGQ2VFAydk9rZExiYVdxWkdrRHAwZ21Pd2F6NXB2eU5WUFBiNEc0RjBpUjJwa18yZUpkUTR4TVk?oc=5",
     "source": "gnews_futures",
     "published_utc": "2026-11-02T11:44:46+00:00",
-    "score": 8.13,
+    "score": 8.09,
     "duplicates": 1
    },
    {
@@ -2911,16 +2927,25 @@
     "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBxVnJXSURVazJzU0ZJVWI2cFEzdmdFY3dRdlVLS2JEVWdZVHBPeGJ6YkxMMERIcXh1LUhoQ2ZNS3Vmd0tObTVsT3NJdTFRMENQdXRHVERsRTRmcDMxNU4tQml0V3BrWXgt?oc=5",
     "source": "gnews_macro",
     "published_utc": "2026-11-02T11:00:00+00:00",
-    "score": 8.01,
+    "score": 7.96,
     "duplicates": 0
    },
    {
-    "id": "44da7c1518",
-    "title": "Stock Market Today: Dow Jones, S&P 500 Futures Rise Ahead of Apple, Palantir Earnings: RYAAY, USLM, INO in Focus - TradingView",
-    "link": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxNbXBKa3FoWUVHMTZtY25nNXk2dmxQcVFyY1ZCNGNZTTUteU43ZFpIZXVDZEY0VlIxUzhlUk1qYjZEWTRPWWQwRFUtNjRIanltQnE1aTJoMzFSY2tCQmtaQWZWOE9MNnlGSEd4dFZGSU1lVHZodDQtRWR3SjFhV01yUWx2bDEzYkIwYmR6akt6TkkzajBuOU9IQlNuNUFBeVplV1g3RWc0Y0g1RnotckNnWkhEU01xemRtOGYxemNlUzZ6X2c2VnBuMGxzd21RelNkalB1RE84UVNvMlF6aGdrY1NpcXBaWEo3YUczQ0F0aU02bV81QWtIRQ?oc=5",
+    "id": "c6ee9235ba",
+    "title": "Nasdaq 100 Forecast: NDX rebounds as oil prices fall and ahead of Apple earnings - FOREX.com",
+    "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPdHlocHFHUTBYUF9MWWZ4ekJVS1JJOFZTYzZTMUFZMXZPZVgtZWpfeGhfRnpOamNOQnZKamxrbjd0RGtveThzYXhDZ1NtZk43cmlyRV85eDg4S0x5em04SXRFNXFHc0hWUG90MXI4clFZbzNsT25XTEhmUHZtM1pwQ09IQTlEei16RnlpZnBab29CMHBhVVNVRFZLVXM3dzRwYVFhZi1JMFNuX0FPWE1aS2gyVWpFLU9Xd3FzMkR3RkVvb2lO0gHQAUFVX3lxTFBKUXdhM1lYem1HbEhGSjJyYlgxOGJxN1NJWlpSWlJ2ZWcxaHZyOS0tYnFnblFNa2EzYjNkOG1taVNlM3l0cmJ6RjJaV1lWWW1UQzAzV1ZYX1d5YW9fVkRwM3VXdkVDcTRvX3ZycjAzVl9leW5jeFhWZFp2RzhNLXlLRnAxS3F6UmdsVnFDWjRHQlNNeHFxQ0cwdC1MMTBMRFdUeXBwS2lTc3VvbHJSZ3ZHZzlfai1rODBIX0VPRjBGaEFpOFdFRE5oTE5GbTVycmE?oc=5",
+    "source": "gnews_megacap",
+    "published_utc": "2026-11-02T13:43:16+00:00",
+    "score": 7.92,
+    "duplicates": 0
+   },
+   {
+    "id": "b37d7b7ae9",
+    "title": "Stock Market Today: Dow Jones, S&P 500 Futures Rise Ahead of Apple, Palantir Earnings: RYAAY, USLM, INO in Focus - Yahoo Finance",
+    "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPNGVTNnRya2xiS01lZGhBQ0JvRnQ0VWt0b180TXJ5ZmZNcHVGMFFZUFZNaFhlUGIwcjcyUDFPZG1HM1dXcG5rRU9SN2RjbGRHN256N2kzT3FWUnNuTFBJR3V0ZGROYlgtQVM4SjlrakptODdUaFp3bi1kOWlkZXQwWHVDRldzd3ZDT1E3TktTeEtDTjZWb3ptVA?oc=5",
     "source": "gnews_futures",
     "published_utc": "2026-11-02T10:29:28+00:00",
-    "score": 7.92,
+    "score": 7.88,
     "duplicates": 1
    },
    {
@@ -2929,7 +2954,7 @@
     "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNbUotU2RVM0hOLXh3NjJONXZBR2MyN1o3ci11dmJ3TmlaTGlNSUlFNXVJSXZ4MWRLVHozX1dzMS0xRG1zeUY2ejBHM1dDRE5PNG1pTjJSelRQWkxMQkhRWk1jZU42cHByWkFzQXFZMkxFcHdwdWJFN1ZMRWhiYXNhNnpMTGxBc3lsM2xWM0xuY2tZdw?oc=5",
     "source": "gnews_futures",
     "published_utc": "2026-11-02T13:05:41+00:00",
-    "score": 7.86,
+    "score": 7.81,
     "duplicates": 1
    },
    {
@@ -2938,7 +2963,7 @@
     "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPN3NpVHFOMTN6X0YzWWtQX3NaeENfYlVrZWFsa1ltYTl6RWxQcllmRm5rQVNpcFp0eGpfSG56dGg4T2ZKTzhhdXlidWlfVjEzTzlQejNSLVJYTEdBRVR3c3A3c3M5bEg3Uk1hcTVzNGNEaEI0MmZIMVRWaTJOQzliR3lHTHNidmtNQVE?oc=5",
     "source": "gnews_megacap",
     "published_utc": "2026-11-02T13:00:00+00:00",
-    "score": 7.84,
+    "score": 7.8,
     "duplicates": 1
    },
    {
@@ -2947,16 +2972,7 @@
     "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPaEFEMVJfWHd6YWFaNC1yMmhlSjNWS0hvRXA4bzlHNTk2STdsajhrb0w3dGJpN3hhQmM5UWl2Q1Q5M0hXMHJkOHFrckdBQjE4bGJJN3dZeFVkR2NPclJCUGROOXhTZmt2bzJUdUFIZlc4b2lVazN5dGhDMVB4V1AydGFXOU5vN1BOZGU1TmRmMjNmSWdLZXFFS1p4UEY3eDVkYm1GVnVR?oc=5",
     "source": "gnews_megacap",
     "published_utc": "2026-11-02T12:12:35+00:00",
-    "score": 7.71,
-    "duplicates": 0
-   },
-   {
-    "id": "60804f1110",
-    "title": "Apple (NASDAQ:AAPL) Earnings Preview: US$113 Billion Revenue Expected as AI Stock Selloff Deepens - Stocks Down Under",
-    "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE93WkhRcGQ2RDEyOHBSZjJOVUxNUGhNcm0zZnZlajZqRlFTakFPM0ZYeEd2UXRUbW41MGV4WWFiRU5NZ2hnMk9kR1ZFNm1ZQ1owX09rcm9sbElCUllNRVdPSzQ0d1hheWJTQ3VLU1BkQkNiZw?oc=5",
-    "source": "gnews_megacap",
-    "published_utc": "2026-11-01T21:42:37+00:00",
-    "score": 7.5,
+    "score": 7.67,
     "duplicates": 0
    }
   ],
@@ -3046,14 +3062,6 @@
     "reported": true
    },
    {
-    "symbol": "CNI",
-    "name": "Canadian National Railway Company",
-    "timing": "unknown",
-    "date": "2026-10-30",
-    "reported_at": "10/30/2026",
-    "reported": true
-   },
-   {
     "symbol": "CL",
     "name": "Colgate-Palmolive Company",
     "timing": "unknown",
@@ -3062,8 +3070,8 @@
     "reported": true
    },
    {
-    "symbol": "NWG",
-    "name": "NatWest Group plc",
+    "symbol": "CNI",
+    "name": "Canadian National Railway Company",
     "timing": "unknown",
     "date": "2026-10-30",
     "reported_at": "10/30/2026",
@@ -3072,6 +3080,14 @@
    {
     "symbol": "IMO",
     "name": "Imperial Oil Limited",
+    "timing": "unknown",
+    "date": "2026-10-30",
+    "reported_at": "10/30/2026",
+    "reported": true
+   },
+   {
+    "symbol": "NWG",
+    "name": "NatWest Group plc",
     "timing": "unknown",
     "date": "2026-10-30",
     "reported_at": "10/30/2026",
