@@ -1,7 +1,7 @@
 {
  "meta": {
-  "generated_at_utc": "2026-11-02T14:58:47.275128+00:00",
-  "generated_at_local": "Mon 02 Nov 2026 10:58 AST",
+  "generated_at_utc": "2026-11-02T15:10:07.008997+00:00",
+  "generated_at_local": "Mon 02 Nov 2026 11:10 AST",
   "trading_day": "2026-11-02",
   "display_tz": "America/Halifax",
   "version": "0.1.0",
@@ -65,14 +65,14 @@
    }
   ],
   "next_event": {
-   "name": "ISM Manufacturing PMI",
+   "name": "JOLTS Job Openings",
    "impact": "medium",
-   "time_utc": "2026-11-02T15:00:00+00:00",
+   "time_utc": "2026-11-03T15:00:00+00:00",
    "local": "11:00 AST",
    "et": "10:00 ET",
-   "in": "1 min",
-   "consensus": "54.5",
-   "prior": "54.5"
+   "in": "23h 49m",
+   "consensus": "7.11M",
+   "prior": "7.08M"
   },
   "sources": [],
   "warnings": []
@@ -81,10 +81,10 @@
   {
    "root": "ES",
    "trading_day": "2026-11-02",
-   "as_of_utc": "2026-11-02T14:58:47.275128+00:00",
+   "as_of_utc": "2026-11-02T15:10:07.008997+00:00",
    "source": "yahoo",
    "delayed": true,
-   "last_price": 7647.0,
+   "last_price": 7656.5,
    "levels": [
     {
      "tag": "pwh",
@@ -106,6 +106,20 @@
      "price": 7707.02,
      "group": "range",
      "note": "ATR over 14 days"
+    },
+    {
+     "tag": "rn_major_up",
+     "label": "Round 50 above",
+     "price": 7700.0,
+     "group": "round",
+     "note": ""
+    },
+    {
+     "tag": "rn_minor_up",
+     "label": "Round 25 above",
+     "price": 7675.0,
+     "group": "round",
+     "note": ""
     },
     {
      "tag": "pdo",
@@ -131,13 +145,13 @@
     {
      "tag": "tdh",
      "label": "Today's RTH high",
-     "price": 7654.0,
+     "price": 7656.75,
      "group": "today",
      "note": "so far"
     },
     {
-     "tag": "rn_major_up",
-     "label": "Round 50 above",
+     "tag": "rn_major_dn",
+     "label": "Round 50 below",
      "price": 7650.0,
      "group": "round",
      "note": ""
@@ -185,13 +199,6 @@
      "note": ""
     },
     {
-     "tag": "rn_minor_dn",
-     "label": "Round 25 below",
-     "price": 7625.0,
-     "group": "round",
-     "note": ""
-    },
-    {
      "tag": "pdc",
      "label": "Prior-day close (16:00 bar)",
      "price": 7612.75,
@@ -204,13 +211,6 @@
      "price": 7610.38,
      "group": "profile",
      "note": "2026-10-30 RTH, bin 0.25"
-    },
-    {
-     "tag": "rn_major_dn",
-     "label": "Round 50 below",
-     "price": 7600.0,
-     "group": "round",
-     "note": ""
     },
     {
      "tag": "val",
@@ -242,8 +242,8 @@
     }
    ],
    "stats": {
-    "last_bar_utc": "2026-11-02T14:41:00+00:00",
-    "last_bar_age_min": 17.8,
+    "last_bar_utc": "2026-11-02T14:45:00+00:00",
+    "last_bar_age_min": 25.1,
     "market_state": "open",
     "profile_volume": 1921720.0,
     "prior_day": "2026-10-30",
@@ -1501,20 +1501,28 @@
     {
      "t": "2026-11-02T14:30:00+00:00",
      "o": 7649.0,
-     "h": 7654.0,
+     "h": 7654.75,
      "l": 7641.5,
-     "c": 7647.0,
-     "v": 70893.0
+     "c": 7653.25,
+     "v": 86205.0
+    },
+    {
+     "t": "2026-11-02T14:45:00+00:00",
+     "o": 7653.0,
+     "h": 7656.75,
+     "l": 7652.0,
+     "c": 7656.5,
+     "v": 0.0
     }
    ]
   },
   {
    "root": "NQ",
    "trading_day": "2026-11-02",
-   "as_of_utc": "2026-11-02T14:58:47.275128+00:00",
+   "as_of_utc": "2026-11-02T15:10:07.008997+00:00",
    "source": "yahoo",
    "delayed": true,
-   "last_price": 28700.75,
+   "last_price": 28738.5,
    "levels": [
     {
      "tag": "pwh",
@@ -1596,7 +1604,7 @@
     {
      "tag": "tdh",
      "label": "Today's RTH high",
-     "price": 28738.75,
+     "price": 28749.5,
      "group": "today",
      "note": "so far"
     },
@@ -1672,8 +1680,8 @@
     }
    ],
    "stats": {
-    "last_bar_utc": "2026-11-02T14:40:00+00:00",
-    "last_bar_age_min": 18.8,
+    "last_bar_utc": "2026-11-02T14:45:00+00:00",
+    "last_bar_age_min": 25.1,
     "market_state": "open",
     "profile_volume": 755234.0,
     "prior_day": "2026-10-30",
@@ -2931,10 +2939,18 @@
     {
      "t": "2026-11-02T14:30:00+00:00",
      "o": 28721.25,
-     "h": 28738.75,
+     "h": 28749.5,
      "l": 28639.0,
-     "c": 28700.75,
-     "v": 36295.0
+     "c": 28714.0,
+     "v": 47890.0
+    },
+    {
+     "t": "2026-11-02T14:45:00+00:00",
+     "o": 28714.0,
+     "h": 28741.0,
+     "l": 28706.75,
+     "c": 28738.5,
+     "v": 0.0
     }
    ]
   }
