@@ -1,7 +1,7 @@
 {
  "meta": {
-  "generated_at_utc": "2026-11-02T16:26:25.941180+00:00",
-  "generated_at_local": "Mon 02 Nov 2026 12:26 AST",
+  "generated_at_utc": "2026-11-02T16:41:44.226019+00:00",
+  "generated_at_local": "Mon 02 Nov 2026 12:41 AST",
   "trading_day": "2026-11-02",
   "display_tz": "America/Halifax",
   "version": "0.1.0",
@@ -70,7 +70,7 @@
    "time_utc": "2026-11-03T15:00:00+00:00",
    "local": "11:00 AST",
    "et": "10:00 ET",
-   "in": "22h 33m",
+   "in": "22h 18m",
    "consensus": "7.11M",
    "prior": "7.08M"
   },
@@ -81,10 +81,10 @@
   {
    "root": "ES",
    "trading_day": "2026-11-02",
-   "as_of_utc": "2026-11-02T16:26:25.941180+00:00",
+   "as_of_utc": "2026-11-02T16:41:44.226019+00:00",
    "source": "yahoo",
    "delayed": true,
-   "last_price": 7660.75,
+   "last_price": 7659.75,
    "levels": [
     {
      "tag": "pwh",
@@ -242,8 +242,8 @@
     }
    ],
    "stats": {
-    "last_bar_utc": "2026-11-02T16:16:00+00:00",
-    "last_bar_age_min": 10.4,
+    "last_bar_utc": "2026-11-02T16:31:00+00:00",
+    "last_bar_age_min": 10.7,
     "market_state": "open",
     "profile_volume": 1921720.0,
     "prior_day": "2026-10-30",
@@ -1558,19 +1558,27 @@
      "t": "2026-11-02T16:15:00+00:00",
      "o": 7659.75,
      "h": 7662.75,
-     "l": 7659.75,
-     "c": 7660.75,
-     "v": 2933.0
+     "l": 7652.75,
+     "c": 7655.0,
+     "v": 42144.0
+    },
+    {
+     "t": "2026-11-02T16:30:00+00:00",
+     "o": 7655.0,
+     "h": 7660.25,
+     "l": 7655.0,
+     "c": 7659.75,
+     "v": 4091.0
     }
    ]
   },
   {
    "root": "NQ",
    "trading_day": "2026-11-02",
-   "as_of_utc": "2026-11-02T16:26:25.941180+00:00",
+   "as_of_utc": "2026-11-02T16:41:44.226019+00:00",
    "source": "yahoo",
    "delayed": true,
-   "last_price": 28690.0,
+   "last_price": 28686.5,
    "levels": [
     {
      "tag": "pwh",
@@ -1728,8 +1736,8 @@
     }
    ],
    "stats": {
-    "last_bar_utc": "2026-11-02T16:16:00+00:00",
-    "last_bar_age_min": 10.4,
+    "last_bar_utc": "2026-11-02T16:31:00+00:00",
+    "last_bar_age_min": 10.7,
     "market_state": "open",
     "profile_volume": 755234.0,
     "prior_day": "2026-10-30",
@@ -3044,9 +3052,17 @@
      "t": "2026-11-02T16:15:00+00:00",
      "o": 28694.0,
      "h": 28708.75,
-     "l": 28683.5,
-     "c": 28690.0,
-     "v": 1010.0
+     "l": 28645.0,
+     "c": 28656.0,
+     "v": 16330.0
+    },
+    {
+     "t": "2026-11-02T16:30:00+00:00",
+     "o": 28657.25,
+     "h": 28688.25,
+     "l": 28655.5,
+     "c": 28686.5,
+     "v": 1474.0
     }
    ]
   }
@@ -3059,7 +3075,7 @@
     "link": "https://www.cnbc.com/2026/11/01/oil-bond-yields-ai-market.html",
     "source": "cnbc_markets",
     "published_utc": "2026-11-02T13:26:05+00:00",
-    "score": 9.0,
+    "score": 8.96,
     "duplicates": 0
    },
    {
@@ -3068,7 +3084,7 @@
     "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNVS0yWjN5aXJSajNON0VNVV9OMFh2VjBPVWJpWmcwcE41R2g4cnp2LWhpbGlNWEVWZ1ltWkprTEdfUFF6Qm5OWXkyLVJTTzRWODNuUEc5R1l5Y2xVb3l3Vk1EQ05ybG9rZENudHRJdlZCYmNuLWN0RFNLNXVLZk40dnJfa0ZxbGp4emRYdEpTOF8yRWpkRmRpZExkWEU2NWtkajhHXzJ1NEZoN1FFNktCdVBBal8?oc=5",
     "source": "gnews_megacap",
     "published_utc": "2026-11-02T06:52:55+00:00",
-    "score": 8.91,
+    "score": 8.86,
     "duplicates": 0
    },
    {
@@ -3077,7 +3093,7 @@
     "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNZTFkbzFjTC16VjBnNUo3N2YxRU41dWtzRU56THg5dkFmWkxxaHpjb0hOWmdZWmdSODIzU2hiTjFLVXVsVXR4VUlPR3ZnUEdKRkpiRTJnV09ROEswVEJ6RDhpQ3VKNU9IRjZyT3NkZjMyM0w2UkpUemlSVmpyalRFa0dUczV6a2JBMmdreXE3QWM0T296alIw?oc=5",
     "source": "gnews_futures",
     "published_utc": "2026-11-02T10:23:24+00:00",
-    "score": 8.49,
+    "score": 8.45,
     "duplicates": 1
    },
    {
@@ -3086,7 +3102,7 @@
     "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE9PeE1oQkY4Z3lRdXRVVFJaNGd0ZktoOURWN1RVWWlGQ0lqSTkzbmFFdTJsVFVWdjMxT01ZelNHcmRZQXBRU05oUzBrSW1rdTJ4N21zTmVPekJkeXp0dVZOYVdHLVgxZXUzdkl2Y1Awckx5OHZKdXhKN0tR?oc=5",
     "source": "gnews_macro",
     "published_utc": "2026-11-02T12:24:12+00:00",
-    "score": 7.83,
+    "score": 7.78,
     "duplicates": 0
    },
    {
@@ -3095,26 +3111,26 @@
     "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPVkVCZzY4M2xqWDhwb01NRC15Ui1xRTBJQ0x5MjhsUFFjUjUwMHBVMmlOQkRqTURJOFljOUFXUEdUVVVDeGVXU1I0Umt2aFo4TzRHUlJoZEROTVFQdEMzU1RBQWpRY0hIS2oycGtiUlkyNkMxVVhnaFQ4d2paeTdKSXdXUlhIQjN5bm9vMWU5Xzl6NzFPQ2NIZTJEVVV1SEcxcjdCSDE0NGJmQV9DVUtPMUY3T3cyVEVRZGlMcmt0SXZnR2lZ0gHQAUFVX3lxTE5kOW5uRjFoVFVZVTZCdHExY2NCbHo5RHpoc2VqRWNnbXg1UWtIZXZURWpjUFRwOFQ1OEdmVUdxT1hKX284T1ZaMlFiVWxCeVpWMWFCdXhTdVJuc3owM1Z6Zm1nbjZuN3FqWVItTWJKM3hSd0lFYWRaenh1VVNaMDNaZEo2QWFhN2Q0V2FvMXZSdWZKR2pOVElZaklJU1RTQnFoWG9TNE1jeW1iclNxYUdsY3NzWnJ2QndHTTlseVZoZDlWOVN1NUFTSjd6M2JRSFY?oc=5",
     "source": "gnews_megacap",
     "published_utc": "2026-11-02T14:22:12+00:00",
-    "score": 7.65,
+    "score": 7.61,
     "duplicates": 0
    },
    {
-    "id": "1ac1813977",
-    "title": "AI Stocks Finally Help the Fed Fight Inflation, by Falling - BeInCrypto",
-    "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBxVnJXSURVazJzU0ZJVWI2cFEzdmdFY3dRdlVLS2JEVWdZVHBPeGJ6YkxMMERIcXh1LUhoQ2ZNS3Vmd0tObTVsT3NJdTFRMENQdXRHVERsRTRmcDMxNU4tQml0V3BrWXgt?oc=5",
-    "source": "gnews_macro",
-    "published_utc": "2026-11-02T11:00:00+00:00",
-    "score": 7.59,
-    "duplicates": 0
-   },
-   {
-    "id": "44da7c1518",
-    "title": "Stock Market Today: Dow Jones, S&P 500 Futures Rise Ahead of Apple, Palantir Earnings: RYAAY, USLM, INO in Focus - TradingView",
-    "link": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxNbXBKa3FoWUVHMTZtY25nNXk2dmxQcVFyY1ZCNGNZTTUteU43ZFpIZXVDZEY0VlIxUzhlUk1qYjZEWTRPWWQwRFUtNjRIanltQnE1aTJoMzFSY2tCQmtaQWZWOE9MNnlGSEd4dFZGSU1lVHZodDQtRWR3SjFhV01yUWx2bDEzYkIwYmR6akt6TkkzajBuOU9IQlNuNUFBeVplV1g3RWc0Y0g1RnotckNnWkhEU01xemRtOGYxemNlUzZ6X2c2VnBuMGxzd21RelNkalB1RE84UVNvMlF6aGdrY1NpcXBaWEo3YUczQ0F0aU02bV81QWtIRQ?oc=5",
+    "id": "b37d7b7ae9",
+    "title": "Stock Market Today: Dow Jones, S&P 500 Futures Rise Ahead of Apple, Palantir Earnings: RYAAY, USLM, INO in Focus - Yahoo Finance",
+    "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPNGVTNnRya2xiS01lZGhBQ0JvRnQ0VWt0b180TXJ5ZmZNcHVGMFFZUFZNaFhlUGIwcjcyUDFPZG1HM1dXcG5rRU9SN2RjbGRHN256N2kzT3FWUnNuTFBJR3V0ZGROYlgtQVM4SjlrakptODdUaFp3bi1kOWlkZXQwWHVDRldzd3ZDT1E3TktTeEtDTjZWb3ptVA?oc=5",
     "source": "gnews_futures",
     "published_utc": "2026-11-02T10:29:28+00:00",
-    "score": 7.51,
+    "score": 7.47,
     "duplicates": 1
+   },
+   {
+    "id": "92314ec1fd",
+    "title": "The Fed can't fix this inflation. It's a mechanical weight, not a demand problem - FXStreet",
+    "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQQm4wdEp1S1ZOd2pqX09EQXRPSmJ5ZFRRTWZFMU5MYmpGUm9MOVlFdVdKb2hBMThsR0VHQjF3Q1ZVLV8wWGJhSndaMnJOaGV6R2NrZFNBbWZ2NnZJQ2NLWk5fVDRSNVZTN0ZDMTNic2dWYkRZYzFWZjlpLTBYcEh6X0M4aVZQcGlMalNwdzhBYjFRcGlFSTkya0hXUjUtM1RFMW5zXzBOREZEalhfQWFHQWZhUW5tNGk2WWROeVJBUlM?oc=5",
+    "source": "gnews_macro",
+    "published_utc": "2026-11-02T16:28:22+00:00",
+    "score": 7.46,
+    "duplicates": 0
    },
    {
     "id": "684217a3e8",
@@ -3122,7 +3138,7 @@
     "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNbUotU2RVM0hOLXh3NjJONXZBR2MyN1o3ci11dmJ3TmlaTGlNSUlFNXVJSXZ4MWRLVHozX1dzMS0xRG1zeUY2ejBHM1dDRE5PNG1pTjJSelRQWkxMQkhRWk1jZU42cHByWkFzQXFZMkxFcHdwdWJFN1ZMRWhiYXNhNnpMTGxBc3lsM2xWM0xuY2tZdw?oc=5",
     "source": "gnews_futures",
     "published_utc": "2026-11-02T13:05:41+00:00",
-    "score": 7.44,
+    "score": 7.4,
     "duplicates": 1
    },
    {
@@ -3131,7 +3147,7 @@
     "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPN3NpVHFOMTN6X0YzWWtQX3NaeENfYlVrZWFsa1ltYTl6RWxQcllmRm5rQVNpcFp0eGpfSG56dGg4T2ZKTzhhdXlidWlfVjEzTzlQejNSLVJYTEdBRVR3c3A3c3M5bEg3Uk1hcTVzNGNEaEI0MmZIMVRWaTJOQzliR3lHTHNidmtNQVE?oc=5",
     "source": "gnews_megacap",
     "published_utc": "2026-11-02T13:00:00+00:00",
-    "score": 7.43,
+    "score": 7.38,
     "duplicates": 1
    },
    {
@@ -3140,7 +3156,7 @@
     "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPZHJ6YXh1NGtjUFBnZFJpekExR211b3YzOW9ZZWR4SldVTFFZVlNtSzBveGxzUW5OYko5QUJPdFAxRmhyRXpmWWE3R2t4RURnajQtS00zZkJjTnV4Sm1sU2VzdkpTcVd3dktwRnpDbS03TDlzOUdEeld6Z29RRGVZNGU5WjllY0Z4cHhKWEJubTFIcnM3OEItY3VVU1hTU3RNZVd2SmYzRElKUFRET1RZVUlEbi1jbm1pTWY5a3VoSEN2Nk1LM25IRw?oc=5",
     "source": "gnews_futures",
     "published_utc": "2026-11-02T12:45:00+00:00",
-    "score": 7.38,
+    "score": 7.34,
     "duplicates": 0
    },
    {
@@ -3149,17 +3165,17 @@
     "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPaEFEMVJfWHd6YWFaNC1yMmhlSjNWS0hvRXA4bzlHNTk2STdsajhrb0w3dGJpN3hhQmM5UWl2Q1Q5M0hXMHJkOHFrckdBQjE4bGJJN3dZeFVkR2NPclJCUGROOXhTZmt2bzJUdUFIZlc4b2lVazN5dGhDMVB4V1AydGFXOU5vN1BOZGU1TmRmMjNmSWdLZXFFS1p4UEY3eDVkYm1GVnVR?oc=5",
     "source": "gnews_megacap",
     "published_utc": "2026-11-02T12:12:35+00:00",
-    "score": 7.29,
+    "score": 7.25,
     "duplicates": 0
    },
    {
-    "id": "25a18a63cc",
-    "title": "IXIC: Nasdaq Futures Rebound with Apple Earnings, US Midterm Elections Ahead - TradingView",
-    "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxQOVQ4WklneEhpM3VyQUNmMDF1eVpWWlZIYXJ3OWU2NlU3bnpuTG1jVnNGODJfeVVjUUhaRlN5b0p6Q3FfdTlienR0VTJiTUZ5MlJwc1ZtUVlJdmZYTHVhOW5LLUNualhicUlJQWJHTV94S3VOUUt5cGhpczZta1FpT0JQTV96SmJWYTNTZ1ViLTBMcTB4aG9EMzJUVTZmV2tmWnpyakF1dWlKVW5rZVg2YXh5WVN3aEw5QndJMXF2VDk0UDhIYWtwa1k0amlNXzREYmc?oc=5",
-    "source": "gnews_futures",
-    "published_utc": "2026-11-02T07:30:06+00:00",
-    "score": 7.01,
-    "duplicates": 1
+    "id": "7a9daaa95d",
+    "title": "Apple (NASDAQ: AAPL) stock price forecast: Wall Street targets ahead of Q4 earnings - Beinsure",
+    "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxON1RsOGxWcUpBZzRad3RQTWh4WGlGSENqNWxSVU51T2M5UG94YjlSaUlXS09NVHdCU0dGemlVSUxvY3FFcWY4STlseW1OTmJKVnAyNXNTSTZxSDZrOVNQLXVpcFo4dUJPeUtQLU96T2NhTHVLdHh6ZWhCNVFtRHY2VVpLZE96SzR4bzIzWjYzRmd5M2tlLW1ncVRB?oc=5",
+    "source": "gnews_megacap",
+    "published_utc": "2026-11-02T16:30:33+00:00",
+    "score": 6.97,
+    "duplicates": 0
    }
   ],
   "summary": {
