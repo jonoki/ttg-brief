@@ -1,7 +1,7 @@
 {
  "meta": {
-  "generated_at_utc": "2026-11-02T15:55:51.722566+00:00",
-  "generated_at_local": "Mon 02 Nov 2026 11:55 AST",
+  "generated_at_utc": "2026-11-02T16:11:08.096932+00:00",
+  "generated_at_local": "Mon 02 Nov 2026 12:11 AST",
   "trading_day": "2026-11-02",
   "display_tz": "America/Halifax",
   "version": "0.1.0",
@@ -70,7 +70,7 @@
    "time_utc": "2026-11-03T15:00:00+00:00",
    "local": "11:00 AST",
    "et": "10:00 ET",
-   "in": "23h 04m",
+   "in": "22h 48m",
    "consensus": "7.11M",
    "prior": "7.08M"
   },
@@ -81,10 +81,10 @@
   {
    "root": "ES",
    "trading_day": "2026-11-02",
-   "as_of_utc": "2026-11-02T15:55:51.722566+00:00",
+   "as_of_utc": "2026-11-02T16:11:08.096932+00:00",
    "source": "yahoo",
    "delayed": true,
-   "last_price": 7686.25,
+   "last_price": 7665.0,
    "levels": [
     {
      "tag": "pwh",
@@ -129,8 +129,8 @@
      "note": "since 2026-11-02"
     },
     {
-     "tag": "rn_minor_dn",
-     "label": "Round 25 below",
+     "tag": "rn_minor_up",
+     "label": "Round 25 above",
      "price": 7675.0,
      "group": "round",
      "note": ""
@@ -242,8 +242,8 @@
     }
    ],
    "stats": {
-    "last_bar_utc": "2026-11-02T15:45:00+00:00",
-    "last_bar_age_min": 10.9,
+    "last_bar_utc": "2026-11-02T16:01:00+00:00",
+    "last_bar_age_min": 10.1,
     "market_state": "open",
     "profile_volume": 1921720.0,
     "prior_day": "2026-10-30",
@@ -1540,21 +1540,29 @@
     },
     {
      "t": "2026-11-02T15:45:00+00:00",
-     "o": 7685.25,
+     "o": 7685.5,
      "h": 7687.25,
-     "l": 7685.25,
-     "c": 7686.25,
-     "v": 0.0
+     "l": 7661.75,
+     "c": 7664.75,
+     "v": 52089.0
+    },
+    {
+     "t": "2026-11-02T16:00:00+00:00",
+     "o": 7664.75,
+     "h": 7667.5,
+     "l": 7663.25,
+     "c": 7665.0,
+     "v": 3700.0
     }
    ]
   },
   {
    "root": "NQ",
    "trading_day": "2026-11-02",
-   "as_of_utc": "2026-11-02T15:55:51.722566+00:00",
+   "as_of_utc": "2026-11-02T16:11:08.096932+00:00",
    "source": "yahoo",
    "delayed": true,
-   "last_price": 28836.75,
+   "last_price": 28729.5,
    "levels": [
     {
      "tag": "pwh",
@@ -1578,13 +1586,6 @@
      "note": "ATR over 14 days"
     },
     {
-     "tag": "rn_major_up",
-     "label": "Round 100 above",
-     "price": 28900.0,
-     "group": "round",
-     "note": ""
-    },
-    {
      "tag": "tdh",
      "label": "Today's RTH high",
      "price": 28891.25,
@@ -1606,13 +1607,6 @@
      "note": "70 % value area"
     },
     {
-     "tag": "rn_minor_up",
-     "label": "Round 50 above",
-     "price": 28850.0,
-     "group": "round",
-     "note": ""
-    },
-    {
      "tag": "onh",
      "label": "Overnight high",
      "price": 28844.0,
@@ -1620,8 +1614,8 @@
      "note": "since 18:00 ET, 919 bars"
     },
     {
-     "tag": "rn_major_dn",
-     "label": "Round 100 below",
+     "tag": "rn_major_up",
+     "label": "Round 100 above",
      "price": 28800.0,
      "group": "round",
      "note": ""
@@ -1648,11 +1642,25 @@
      "note": "typical-price VWAP"
     },
     {
+     "tag": "rn_minor_up",
+     "label": "Round 50 above",
+     "price": 28750.0,
+     "group": "round",
+     "note": ""
+    },
+    {
      "tag": "rtho",
      "label": "Today's RTH open",
      "price": 28721.25,
      "group": "today",
      "note": "09:30 bar open"
+    },
+    {
+     "tag": "rn_major_dn",
+     "label": "Round 100 below",
+     "price": 28700.0,
+     "group": "round",
+     "note": ""
     },
     {
      "tag": "tdl",
@@ -1712,8 +1720,8 @@
     }
    ],
    "stats": {
-    "last_bar_utc": "2026-11-02T15:45:00+00:00",
-    "last_bar_age_min": 10.9,
+    "last_bar_utc": "2026-11-02T16:01:00+00:00",
+    "last_bar_age_min": 10.1,
     "market_state": "open",
     "profile_volume": 755234.0,
     "prior_day": "2026-10-30",
@@ -3010,11 +3018,19 @@
     },
     {
      "t": "2026-11-02T15:45:00+00:00",
-     "o": 28831.25,
-     "h": 28843.75,
-     "l": 28828.0,
-     "c": 28836.75,
-     "v": 0.0
+     "o": 28831.5,
+     "h": 28844.5,
+     "l": 28710.0,
+     "c": 28725.75,
+     "v": 18919.0
+    },
+    {
+     "t": "2026-11-02T16:00:00+00:00",
+     "o": 28726.5,
+     "h": 28741.75,
+     "l": 28717.0,
+     "c": 28729.5,
+     "v": 1212.0
     }
    ]
   }
@@ -3027,7 +3043,7 @@
     "link": "https://www.cnbc.com/2026/11/01/oil-bond-yields-ai-market.html",
     "source": "cnbc_markets",
     "published_utc": "2026-11-02T13:26:05+00:00",
-    "score": 9.08,
+    "score": 9.04,
     "duplicates": 0
    },
    {
@@ -3036,7 +3052,7 @@
     "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNVS0yWjN5aXJSajNON0VNVV9OMFh2VjBPVWJpWmcwcE41R2g4cnp2LWhpbGlNWEVWZ1ltWkprTEdfUFF6Qm5OWXkyLVJTTzRWODNuUEc5R1l5Y2xVb3l3Vk1EQ05ybG9rZENudHRJdlZCYmNuLWN0RFNLNXVLZk40dnJfa0ZxbGp4emRYdEpTOF8yRWpkRmRpZExkWEU2NWtkajhHXzJ1NEZoN1FFNktCdVBBal8?oc=5",
     "source": "gnews_megacap",
     "published_utc": "2026-11-02T06:52:55+00:00",
-    "score": 8.99,
+    "score": 8.95,
     "duplicates": 0
    },
    {
@@ -3045,7 +3061,7 @@
     "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNZTFkbzFjTC16VjBnNUo3N2YxRU41dWtzRU56THg5dkFmWkxxaHpjb0hOWmdZWmdSODIzU2hiTjFLVXVsVXR4VUlPR3ZnUEdKRkpiRTJnV09ROEswVEJ6RDhpQ3VKNU9IRjZyT3NkZjMyM0w2UkpUemlSVmpyalRFa0dUczV6a2JBMmdreXE3QWM0T296alIw?oc=5",
     "source": "gnews_futures",
     "published_utc": "2026-11-02T10:23:24+00:00",
-    "score": 8.58,
+    "score": 8.53,
     "duplicates": 1
    },
    {
@@ -3054,7 +3070,7 @@
     "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNT0c0ajcwSC1TMmdqcklFOVR5M1lxNzFzRHZ0MTBILTlITXBKYXpFbTBaN2dFdnVNbmR4U2Jsa2kyYngzVnp5Tkd3OG9mNmpXd0EwY0ttem9zeGhGRmg3S0ZFNnIyNXNHdE1DSGJNU3E1UkNoR0N1bDFNbjIyUDcyaHJKaDhEQVUtbjlrWXBRZi1WS3IxVnhnMVN2S1NacTczejdUaWVjM1o3Y1A5bnQ5QXdlNA?oc=5",
     "source": "gnews_futures",
     "published_utc": "2026-11-02T13:08:30+00:00",
-    "score": 8.04,
+    "score": 7.99,
     "duplicates": 0
    },
    {
@@ -3063,17 +3079,8 @@
     "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE9PeE1oQkY4Z3lRdXRVVFJaNGd0ZktoOURWN1RVWWlGQ0lqSTkzbmFFdTJsVFVWdjMxT01ZelNHcmRZQXBRU05oUzBrSW1rdTJ4N21zTmVPekJkeXp0dVZOYVdHLVgxZXUzdkl2Y1Awckx5OHZKdXhKN0tR?oc=5",
     "source": "gnews_macro",
     "published_utc": "2026-11-02T12:24:12+00:00",
-    "score": 7.91,
+    "score": 7.87,
     "duplicates": 0
-   },
-   {
-    "id": "ba95265765",
-    "title": "Stock Market Today (Nov. 2, 2026): Nasdaq futures rise ahead of Apple’s earnings report - TheStreet",
-    "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQZF9nVnRSN1E4bXVmS2JMWndJQ2pXRnRmV0pYMFNPOEpUbVI5dUtfZVlacldidGxJTVhqNUlPR2xMUDg4Yld5YWZEM25QRDZGcUc4SzUyT2RMMWVoUjRBb1pTTVp4Mk1kYVFYekwtOVhObGxjWGQ2VFAydk9rZExiYVdxWkdrRHAwZ21Pd2F6NXB2eU5WUFBiNEc0RjBpUjJwa18yZUpkUTR4TVk?oc=5",
-    "source": "gnews_futures",
-    "published_utc": "2026-11-02T11:44:46+00:00",
-    "score": 7.8,
-    "duplicates": 1
    },
    {
     "id": "024b48087d",
@@ -3081,16 +3088,16 @@
     "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPVkVCZzY4M2xqWDhwb01NRC15Ui1xRTBJQ0x5MjhsUFFjUjUwMHBVMmlOQkRqTURJOFljOUFXUEdUVVVDeGVXU1I0Umt2aFo4TzRHUlJoZEROTVFQdEMzU1RBQWpRY0hIS2oycGtiUlkyNkMxVVhnaFQ4d2paeTdKSXdXUlhIQjN5bm9vMWU5Xzl6NzFPQ2NIZTJEVVV1SEcxcjdCSDE0NGJmQV9DVUtPMUY3T3cyVEVRZGlMcmt0SXZnR2lZ0gHQAUFVX3lxTE5kOW5uRjFoVFVZVTZCdHExY2NCbHo5RHpoc2VqRWNnbXg1UWtIZXZURWpjUFRwOFQ1OEdmVUdxT1hKX284T1ZaMlFiVWxCeVpWMWFCdXhTdVJuc3owM1Z6Zm1nbjZuN3FqWVItTWJKM3hSd0lFYWRaenh1VVNaMDNaZEo2QWFhN2Q0V2FvMXZSdWZKR2pOVElZaklJU1RTQnFoWG9TNE1jeW1iclNxYUdsY3NzWnJ2QndHTTlseVZoZDlWOVN1NUFTSjd6M2JRSFY?oc=5",
     "source": "gnews_megacap",
     "published_utc": "2026-11-02T14:22:12+00:00",
-    "score": 7.74,
+    "score": 7.7,
     "duplicates": 0
    },
    {
-    "id": "b37d7b7ae9",
-    "title": "Stock Market Today: Dow Jones, S&P 500 Futures Rise Ahead of Apple, Palantir Earnings: RYAAY, USLM, INO in Focus - Yahoo Finance",
-    "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPNGVTNnRya2xiS01lZGhBQ0JvRnQ0VWt0b180TXJ5ZmZNcHVGMFFZUFZNaFhlUGIwcjcyUDFPZG1HM1dXcG5rRU9SN2RjbGRHN256N2kzT3FWUnNuTFBJR3V0ZGROYlgtQVM4SjlrakptODdUaFp3bi1kOWlkZXQwWHVDRldzd3ZDT1E3TktTeEtDTjZWb3ptVA?oc=5",
+    "id": "44da7c1518",
+    "title": "Stock Market Today: Dow Jones, S&P 500 Futures Rise Ahead of Apple, Palantir Earnings: RYAAY, USLM, INO in Focus - TradingView",
+    "link": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxNbXBKa3FoWUVHMTZtY25nNXk2dmxQcVFyY1ZCNGNZTTUteU43ZFpIZXVDZEY0VlIxUzhlUk1qYjZEWTRPWWQwRFUtNjRIanltQnE1aTJoMzFSY2tCQmtaQWZWOE9MNnlGSEd4dFZGSU1lVHZodDQtRWR3SjFhV01yUWx2bDEzYkIwYmR6akt6TkkzajBuOU9IQlNuNUFBeVplV1g3RWc0Y0g1RnotckNnWkhEU01xemRtOGYxemNlUzZ6X2c2VnBuMGxzd21RelNkalB1RE84UVNvMlF6aGdrY1NpcXBaWEo3YUczQ0F0aU02bV81QWtIRQ?oc=5",
     "source": "gnews_futures",
     "published_utc": "2026-11-02T10:29:28+00:00",
-    "score": 7.59,
+    "score": 7.55,
     "duplicates": 1
    },
    {
@@ -3099,7 +3106,7 @@
     "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNbUotU2RVM0hOLXh3NjJONXZBR2MyN1o3ci11dmJ3TmlaTGlNSUlFNXVJSXZ4MWRLVHozX1dzMS0xRG1zeUY2ejBHM1dDRE5PNG1pTjJSelRQWkxMQkhRWk1jZU42cHByWkFzQXFZMkxFcHdwdWJFN1ZMRWhiYXNhNnpMTGxBc3lsM2xWM0xuY2tZdw?oc=5",
     "source": "gnews_futures",
     "published_utc": "2026-11-02T13:05:41+00:00",
-    "score": 7.53,
+    "score": 7.48,
     "duplicates": 1
    },
    {
@@ -3108,7 +3115,7 @@
     "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPN3NpVHFOMTN6X0YzWWtQX3NaeENfYlVrZWFsa1ltYTl6RWxQcllmRm5rQVNpcFp0eGpfSG56dGg4T2ZKTzhhdXlidWlfVjEzTzlQejNSLVJYTEdBRVR3c3A3c3M5bEg3Uk1hcTVzNGNEaEI0MmZIMVRWaTJOQzliR3lHTHNidmtNQVE?oc=5",
     "source": "gnews_megacap",
     "published_utc": "2026-11-02T13:00:00+00:00",
-    "score": 7.51,
+    "score": 7.47,
     "duplicates": 1
    },
    {
@@ -3117,7 +3124,7 @@
     "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPaEFEMVJfWHd6YWFaNC1yMmhlSjNWS0hvRXA4bzlHNTk2STdsajhrb0w3dGJpN3hhQmM5UWl2Q1Q5M0hXMHJkOHFrckdBQjE4bGJJN3dZeFVkR2NPclJCUGROOXhTZmt2bzJUdUFIZlc4b2lVazN5dGhDMVB4V1AydGFXOU5vN1BOZGU1TmRmMjNmSWdLZXFFS1p4UEY3eDVkYm1GVnVR?oc=5",
     "source": "gnews_megacap",
     "published_utc": "2026-11-02T12:12:35+00:00",
-    "score": 7.38,
+    "score": 7.34,
     "duplicates": 0
    },
    {
@@ -3126,8 +3133,17 @@
     "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxQOVQ4WklneEhpM3VyQUNmMDF1eVpWWlZIYXJ3OWU2NlU3bnpuTG1jVnNGODJfeVVjUUhaRlN5b0p6Q3FfdTlienR0VTJiTUZ5MlJwc1ZtUVlJdmZYTHVhOW5LLUNualhicUlJQWJHTV94S3VOUUt5cGhpczZta1FpT0JQTV96SmJWYTNTZ1ViLTBMcTB4aG9EMzJUVTZmV2tmWnpyakF1dWlKVW5rZVg2YXh5WVN3aEw5QndJMXF2VDk0UDhIYWtwa1k0amlNXzREYmc?oc=5",
     "source": "gnews_futures",
     "published_utc": "2026-11-02T07:30:06+00:00",
-    "score": 7.1,
+    "score": 7.05,
     "duplicates": 1
+   },
+   {
+    "id": "bc01eff666",
+    "title": "BOJ Report: Inflation Expectations Converging on 2%, Supporting Rate Hike Case - News and Statistics - IndexBox",
+    "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPTGtMbmktZ0NxcllGUlVqc3cyalpmMjJNQS1FY3VadjNMeU9WczBnNVRwU2NFLXZReVVBMGh0d2F4Qy1fQlU2eHVpYWtWN3JrRm1uemVqZUlJckFDM1BOY3ota1N5YkI4cGotY0Y0V25vQkx0c25SanFtRzM3cDRYUy1NN0tXYkxkcjNmSDF0RkVvRlVtWTBaMzBwdzZDdGVrWnJJV1AwNA?oc=5",
+    "source": "gnews_macro",
+    "published_utc": "2026-11-02T13:00:53+00:00",
+    "score": 6.97,
+    "duplicates": 0
    }
   ],
   "summary": {
