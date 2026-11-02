@@ -1,7 +1,7 @@
 {
  "meta": {
-  "generated_at_utc": "2026-11-02T11:55:37.355352+00:00",
-  "generated_at_local": "Mon 02 Nov 2026 07:55 AST",
+  "generated_at_utc": "2026-11-02T12:10:51.782829+00:00",
+  "generated_at_local": "Mon 02 Nov 2026 08:10 AST",
   "trading_day": "2026-11-02",
   "display_tz": "America/Halifax",
   "version": "0.1.0",
@@ -70,7 +70,7 @@
    "time_utc": "2026-11-02T15:00:00+00:00",
    "local": "11:00 AST",
    "et": "10:00 ET",
-   "in": "3h 04m",
+   "in": "2h 49m",
    "consensus": "54.5",
    "prior": "54.5"
   },
@@ -81,10 +81,10 @@
   {
    "root": "ES",
    "trading_day": "2026-11-02",
-   "as_of_utc": "2026-11-02T11:55:37.355352+00:00",
+   "as_of_utc": "2026-11-02T12:10:51.782829+00:00",
    "source": "yahoo",
    "delayed": true,
-   "last_price": 7653.25,
+   "last_price": 7649.25,
    "levels": [
     {
      "tag": "pwh",
@@ -108,20 +108,6 @@
      "note": "ATR over 14 days"
     },
     {
-     "tag": "rn_major_up",
-     "label": "Round 50 above",
-     "price": 7700.0,
-     "group": "round",
-     "note": ""
-    },
-    {
-     "tag": "rn_minor_up",
-     "label": "Round 25 above",
-     "price": 7675.0,
-     "group": "round",
-     "note": ""
-    },
-    {
      "tag": "pdo",
      "label": "Prior-day RTH open",
      "price": 7669.5,
@@ -133,7 +119,7 @@
      "label": "Overnight high",
      "price": 7659.25,
      "group": "overnight",
-     "note": "since 18:00 ET, 755 bars"
+     "note": "since 18:00 ET, 770 bars"
     },
     {
      "tag": "wh",
@@ -143,8 +129,8 @@
      "note": "since 2026-11-02"
     },
     {
-     "tag": "rn_major_dn",
-     "label": "Round 50 below",
+     "tag": "rn_major_up",
+     "label": "Round 50 above",
      "price": 7650.0,
      "group": "round",
      "note": ""
@@ -152,7 +138,7 @@
     {
      "tag": "onvwap",
      "label": "Overnight VWAP",
-     "price": 7646.22,
+     "price": 7646.33,
      "group": "overnight",
      "note": "typical-price VWAP"
     },
@@ -178,6 +164,13 @@
      "note": ""
     },
     {
+     "tag": "rn_minor_dn",
+     "label": "Round 25 below",
+     "price": 7625.0,
+     "group": "round",
+     "note": ""
+    },
+    {
      "tag": "pdc",
      "label": "Prior-day close (16:00 bar)",
      "price": 7612.75,
@@ -190,6 +183,13 @@
      "price": 7610.38,
      "group": "profile",
      "note": "2026-10-30 RTH, bin 0.25"
+    },
+    {
+     "tag": "rn_major_dn",
+     "label": "Round 50 below",
+     "price": 7600.0,
+     "group": "round",
+     "note": ""
     },
     {
      "tag": "val",
@@ -221,14 +221,14 @@
     }
    ],
    "stats": {
-    "last_bar_utc": "2026-11-02T11:45:00+00:00",
-    "last_bar_age_min": 10.6,
+    "last_bar_utc": "2026-11-02T12:00:00+00:00",
+    "last_bar_age_min": 10.9,
     "market_state": "open",
     "profile_volume": 1921720.0,
     "prior_day": "2026-10-30",
     "prior_day_rth_range": 196.0,
     "overnight_range": 30.5,
-    "gap_vs_prior_close": 40.5,
+    "gap_vs_prior_close": 36.5,
     "gap_basis": "last price (pre-market)",
     "atr14": 94.27,
     "atr_days": 14,
@@ -1393,8 +1393,16 @@
      "t": "2026-11-02T11:45:00+00:00",
      "o": 7653.75,
      "h": 7653.75,
-     "l": 7652.75,
-     "c": 7653.25,
+     "l": 7648.25,
+     "c": 7649.25,
+     "v": 5048.0
+    },
+    {
+     "t": "2026-11-02T12:00:00+00:00",
+     "o": 7649.0,
+     "h": 7649.25,
+     "l": 7648.5,
+     "c": 7649.25,
      "v": 0.0
     }
    ]
@@ -1402,10 +1410,10 @@
   {
    "root": "NQ",
    "trading_day": "2026-11-02",
-   "as_of_utc": "2026-11-02T11:55:37.355352+00:00",
+   "as_of_utc": "2026-11-02T12:10:51.782829+00:00",
    "source": "yahoo",
    "delayed": true,
-   "last_price": 28769.75,
+   "last_price": 28749.0,
    "levels": [
     {
      "tag": "pwh",
@@ -1440,7 +1448,7 @@
      "label": "Overnight high",
      "price": 28831.5,
      "group": "overnight",
-     "note": "since 18:00 ET, 755 bars"
+     "note": "since 18:00 ET, 770 bars"
     },
     {
      "tag": "wh",
@@ -1473,13 +1481,13 @@
     {
      "tag": "onvwap",
      "label": "Overnight VWAP",
-     "price": 28751.42,
+     "price": 28751.47,
      "group": "overnight",
      "note": "typical-price VWAP"
     },
     {
-     "tag": "rn_minor_dn",
-     "label": "Round 50 below",
+     "tag": "rn_minor_up",
+     "label": "Round 50 above",
      "price": 28750.0,
      "group": "round",
      "note": ""
@@ -1542,14 +1550,14 @@
     }
    ],
    "stats": {
-    "last_bar_utc": "2026-11-02T11:45:00+00:00",
-    "last_bar_age_min": 10.6,
+    "last_bar_utc": "2026-11-02T12:00:00+00:00",
+    "last_bar_age_min": 10.9,
     "market_state": "open",
     "profile_volume": 755234.0,
     "prior_day": "2026-10-30",
     "prior_day_rth_range": 1329.25,
     "overnight_range": 219.25,
-    "gap_vs_prior_close": 242.25,
+    "gap_vs_prior_close": 221.5,
     "gap_basis": "last price (pre-market)",
     "atr14": 680.09,
     "atr_days": 14,
@@ -2714,8 +2722,16 @@
      "t": "2026-11-02T11:45:00+00:00",
      "o": 28767.75,
      "h": 28771.0,
-     "l": 28765.75,
-     "c": 28769.75,
+     "l": 28743.25,
+     "c": 28752.5,
+     "v": 1918.0
+    },
+    {
+     "t": "2026-11-02T12:00:00+00:00",
+     "o": 28752.5,
+     "h": 28753.75,
+     "l": 28741.5,
+     "c": 28749.0,
      "v": 0.0
     }
    ]
@@ -2729,7 +2745,7 @@
     "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNVS0yWjN5aXJSajNON0VNVV9OMFh2VjBPVWJpWmcwcE41R2g4cnp2LWhpbGlNWEVWZ1ltWkprTEdfUFF6Qm5OWXkyLVJTTzRWODNuUEc5R1l5Y2xVb3l3Vk1EQ05ybG9rZENudHRJdlZCYmNuLWN0RFNLNXVLZk40dnJfa0ZxbGp4emRYdEpTOF8yRWpkRmRpZExkWEU2NWtkajhHXzJ1NEZoN1FFNktCdVBBal8?oc=5",
     "source": "gnews_megacap",
     "published_utc": "2026-11-02T06:52:55+00:00",
-    "score": 9.66,
+    "score": 9.62,
     "duplicates": 0
    },
    {
@@ -2738,7 +2754,7 @@
     "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNZTFkbzFjTC16VjBnNUo3N2YxRU41dWtzRU56THg5dkFmWkxxaHpjb0hOWmdZWmdSODIzU2hiTjFLVXVsVXR4VUlPR3ZnUEdKRkpiRTJnV09ROEswVEJ6RDhpQ3VKNU9IRjZyT3NkZjMyM0w2UkpUemlSVmpyalRFa0dUczV6a2JBMmdreXE3QWM0T296alIw?oc=5",
     "source": "gnews_futures",
     "published_utc": "2026-11-02T10:23:24+00:00",
-    "score": 9.24,
+    "score": 9.2,
     "duplicates": 1
    },
    {
@@ -2747,16 +2763,16 @@
     "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBxVnJXSURVazJzU0ZJVWI2cFEzdmdFY3dRdlVLS2JEVWdZVHBPeGJ6YkxMMERIcXh1LUhoQ2ZNS3Vmd0tObTVsT3NJdTFRMENQdXRHVERsRTRmcDMxNU4tQml0V3BrWXgt?oc=5",
     "source": "gnews_macro",
     "published_utc": "2026-11-02T11:00:00+00:00",
-    "score": 8.35,
+    "score": 8.3,
     "duplicates": 0
    },
    {
-    "id": "e1be32d759",
-    "title": "Stock Market Today: Dow Jones, S&P 500 Futures Rise Ahead of Apple, Palantir Earnings: RYAAY, USLM, INO in Focus - Benzinga",
-    "link": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxQS0I4TndwX2lhUDdjS3FSenhLdUJaaVpJZlNLblpkaTdCV2hpZll0ZG9iOGdaNHlURDIySnQ1dHE1dTZ2ZTktdGdJelJNcDltd1doRFdWdV9nbGFpMkN1NzRDNTZIWEZISVRXbjBUdUdiSEZFVmgtZ2R6VTBaeXZCTkZWNzZXcGZiLUJsQjVYMk1WUzB2N3FKUDB6ODlhMDlVbVRSaUVxWTlBYWliT3pOcDdQZlBVVi0wckxacjNjcUR4Nl8wd1B0UTljTUtmU0hZQzZBU3dMNTRTZE9LazhRazYtcHpRZndKOUtBXzJBR1h3bUxV?oc=5",
+    "id": "44da7c1518",
+    "title": "Stock Market Today: Dow Jones, S&P 500 Futures Rise Ahead of Apple, Palantir Earnings: RYAAY, USLM, INO in Focus - TradingView",
+    "link": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxNbXBKa3FoWUVHMTZtY25nNXk2dmxQcVFyY1ZCNGNZTTUteU43ZFpIZXVDZEY0VlIxUzhlUk1qYjZEWTRPWWQwRFUtNjRIanltQnE1aTJoMzFSY2tCQmtaQWZWOE9MNnlGSEd4dFZGSU1lVHZodDQtRWR3SjFhV01yUWx2bDEzYkIwYmR6akt6TkkzajBuOU9IQlNuNUFBeVplV1g3RWc0Y0g1RnotckNnWkhEU01xemRtOGYxemNlUzZ6X2c2VnBuMGxzd21RelNkalB1RE84UVNvMlF6aGdrY1NpcXBaWEo3YUczQ0F0aU02bV81QWtIRQ?oc=5",
     "source": "gnews_futures",
     "published_utc": "2026-11-02T10:29:28+00:00",
-    "score": 8.26,
+    "score": 8.22,
     "duplicates": 1
    },
    {
@@ -2765,7 +2781,7 @@
     "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQZF9nVnRSN1E4bXVmS2JMWndJQ2pXRnRmV0pYMFNPOEpUbVI5dUtfZVlacldidGxJTVhqNUlPR2xMUDg4Yld5YWZEM25QRDZGcUc4SzUyT2RMMWVoUjRBb1pTTVp4Mk1kYVFYekwtOVhObGxjWGQ2VFAydk9rZExiYVdxWkdrRHAwZ21Pd2F6NXB2eU5WUFBiNEc0RjBpUjJwa18yZUpkUTR4TVk?oc=5",
     "source": "gnews_futures",
     "published_utc": "2026-11-02T11:44:46+00:00",
-    "score": 7.97,
+    "score": 7.93,
     "duplicates": 0
    },
    {
@@ -2774,7 +2790,7 @@
     "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPVElYM3k0UEltR0tNaE5WRnR2bjVQbkwxcDcyal90MTBMUjBjelpUX1pmWC1EUjJROGFBdzJhN01mQmZXeUZmNmRNY25VaGRHdV9OVElobndPUFdVVGNGaE0yZ29TZW5SRGpCYVE2aktDRnFKb1lacjRrclpwbWlZMWtldndNQ2Y2MlY0NFdBSmZZUXFlbVVXZmNTZVJYZXdvVlVEemFDY0FZekVKcnNTRmtwcWpvTlVMZU5mdDdWbWJGUW1nQzZ6eQ?oc=5",
     "source": "gnews_futures",
     "published_utc": "2026-11-02T11:15:00+00:00",
-    "score": 7.89,
+    "score": 7.84,
     "duplicates": 0
    },
    {
@@ -2783,7 +2799,7 @@
     "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxQOVQ4WklneEhpM3VyQUNmMDF1eVpWWlZIYXJ3OWU2NlU3bnpuTG1jVnNGODJfeVVjUUhaRlN5b0p6Q3FfdTlienR0VTJiTUZ5MlJwc1ZtUVlJdmZYTHVhOW5LLUNualhicUlJQWJHTV94S3VOUUt5cGhpczZta1FpT0JQTV96SmJWYTNTZ1ViLTBMcTB4aG9EMzJUVTZmV2tmWnpyakF1dWlKVW5rZVg2YXh5WVN3aEw5QndJMXF2VDk0UDhIYWtwa1k0amlNXzREYmc?oc=5",
     "source": "gnews_futures",
     "published_utc": "2026-11-02T07:30:06+00:00",
-    "score": 7.76,
+    "score": 7.72,
     "duplicates": 1
    },
    {
@@ -2810,7 +2826,7 @@
     "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNUy1qdGRmUlhla244NXh5a3lqZnZCN0QwUi1jWGI4ZUJJMDJ1NzhiMy1YUjlDeExSRUZkbUNVVzBwUHZkbUR1b2R3VWkyMWpnTlY5SnNQZjJSSndkNXk0M1pzVGpCemRyNEVpc2haNXF6c1Zvc3FHWTd5cDZrMWpWeWJxdGw0U0Z4bGg3eHBnOGxLcDVkbTVnRjBSV0lwbVdWVHFJdFNoNFRwUGIx?oc=5",
     "source": "gnews_macro",
     "published_utc": "2026-11-02T05:23:15+00:00",
-    "score": 7.41,
+    "score": 7.37,
     "duplicates": 0
    },
    {
@@ -2819,16 +2835,16 @@
     "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQM2dGUDRxakhxZlROS0didEV3ZkJmMGpSMXM5N2h4ZjF4MWlVNGNTYndOUDlDTlZBaXUydE5hNXBLZjQya2FtLVhJT1FmUEtUcWpNblJEUkJYMW1SdWYtdGNZX0kzUWN1b3BmT0w5Ym82Vm54NGtyT3hxX0U4Y09ha1A1WFVwb2VDSHhTVDBCemhQTnFY?oc=5",
     "source": "gnews_futures",
     "published_utc": "2026-11-02T10:18:32+00:00",
-    "score": 6.73,
+    "score": 6.69,
     "duplicates": 0
    },
    {
-    "id": "85ed605211",
-    "title": "2 Words From Fed Chair Kevin Warsh Are Echoing Through Wall Street and Unnerving Investors - The Motley Fool",
-    "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPSGU4TjVLSlZYUHJHcUQ4cGQxMGF5WU43WllObHdLbVlObktwZDhrbUU2cUstUnA5di1reGEwdkt6bXJwTS1jVnFjX0syLVc1UmJHQ0ZJSlMzTnh3c21BUkZxWXZNZDJlc3BUY256S0NyWXN5MVhZaWd5MXpwTGVURVcxa1hycURqMzluMmM0cl82X3lBRDJZcU1aajB0UFZ4N2o3MTRrOGpyTENVUGlrWU12a1N1WlhsNmpvcw?oc=5",
-    "source": "gnews_fed",
-    "published_utc": "2026-11-02T09:06:00+00:00",
-    "score": 6.53,
+    "id": "f635df380b",
+    "title": "US Stock Futures Gain After Selloff, Oil Declines: Markets Wrap - SWI swissinfo.ch",
+    "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQSUFsVkZkYXdvRTFYZmxvajhtd2RuNnZxUFAyem5YbUw3NlFwMFdvSFVmYzJld1BjUUhndjlObms0anNPSVk3M1M4TG1JendHd1ZMX3ZUMHQ4OHVwcVk4TjBqUW42clFTXzdUclpKWF9KWFZqeFdIcWlDeGFxTDhHMXMxOTNjS2ZmMDdKMFFuUjdqTjB3ZkMzODBMSlV1TGhLUHhsdXlCcW4?oc=5",
+    "source": "gnews_futures",
+    "published_utc": "2026-11-02T07:00:56+00:00",
+    "score": 6.64,
     "duplicates": 0
    }
   ],
@@ -2837,7 +2853,7 @@
     "Economic Week Ahead: Payrolls, Fed Speakers and Apple Earnings to Watch - Investing.com [f574c95dc9]",
     "US Stock Futures Rise Ahead of Apple Earnings as Binance Hack, Oil Prices and Midterm Elections Take Focus: Dow Jones, S&P, Nasdaq, Wall Street - Yahoo Finance [c5f2a2bd3e]",
     "AI Stocks Finally Help the Fed Fight Inflation, by Falling - BeInCrypto [1ac1813977]",
-    "Stock Market Today: Dow Jones, S&P 500 Futures Rise Ahead of Apple, Palantir Earnings: RYAAY, USLM, INO in Focus - Benzinga [e1be32d759]",
+    "Stock Market Today: Dow Jones, S&P 500 Futures Rise Ahead of Apple, Palantir Earnings: RYAAY, USLM, INO in Focus - TradingView [44da7c1518]",
     "Stock Market Today (Nov. 2, 2026): Nasdaq futures rise ahead of Apple’s earnings report - TheStreet [ba95265765]"
    ],
    "backend": "none",
