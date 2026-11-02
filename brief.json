@@ -1,7 +1,7 @@
 {
  "meta": {
-  "generated_at_utc": "2026-11-02T15:40:35.277836+00:00",
-  "generated_at_local": "Mon 02 Nov 2026 11:40 AST",
+  "generated_at_utc": "2026-11-02T15:55:51.722566+00:00",
+  "generated_at_local": "Mon 02 Nov 2026 11:55 AST",
   "trading_day": "2026-11-02",
   "display_tz": "America/Halifax",
   "version": "0.1.0",
@@ -70,7 +70,7 @@
    "time_utc": "2026-11-03T15:00:00+00:00",
    "local": "11:00 AST",
    "et": "10:00 ET",
-   "in": "23h 19m",
+   "in": "23h 04m",
    "consensus": "7.11M",
    "prior": "7.08M"
   },
@@ -81,10 +81,10 @@
   {
    "root": "ES",
    "trading_day": "2026-11-02",
-   "as_of_utc": "2026-11-02T15:40:35.277836+00:00",
+   "as_of_utc": "2026-11-02T15:55:51.722566+00:00",
    "source": "yahoo",
    "delayed": true,
-   "last_price": 7688.25,
+   "last_price": 7686.25,
    "levels": [
     {
      "tag": "pwh",
@@ -117,14 +117,14 @@
     {
      "tag": "tdh",
      "label": "Today's RTH high",
-     "price": 7691.0,
+     "price": 7693.75,
      "group": "today",
      "note": "so far"
     },
     {
      "tag": "wh",
      "label": "Week high",
-     "price": 7691.0,
+     "price": 7693.75,
      "group": "week",
      "note": "since 2026-11-02"
     },
@@ -242,8 +242,8 @@
     }
    ],
    "stats": {
-    "last_bar_utc": "2026-11-02T15:25:00+00:00",
-    "last_bar_age_min": 15.6,
+    "last_bar_utc": "2026-11-02T15:45:00+00:00",
+    "last_bar_age_min": 10.9,
     "market_state": "open",
     "profile_volume": 1921720.0,
     "prior_day": "2026-10-30",
@@ -1525,20 +1525,36 @@
     {
      "t": "2026-11-02T15:15:00+00:00",
      "o": 7670.0,
-     "h": 7691.0,
+     "h": 7693.75,
      "l": 7669.25,
-     "c": 7688.25,
-     "v": 63304.0
+     "c": 7691.5,
+     "v": 86434.0
+    },
+    {
+     "t": "2026-11-02T15:30:00+00:00",
+     "o": 7691.25,
+     "h": 7691.5,
+     "l": 7677.5,
+     "c": 7685.5,
+     "v": 52993.0
+    },
+    {
+     "t": "2026-11-02T15:45:00+00:00",
+     "o": 7685.25,
+     "h": 7687.25,
+     "l": 7685.25,
+     "c": 7686.25,
+     "v": 0.0
     }
    ]
   },
   {
    "root": "NQ",
    "trading_day": "2026-11-02",
-   "as_of_utc": "2026-11-02T15:40:35.277836+00:00",
+   "as_of_utc": "2026-11-02T15:55:51.722566+00:00",
    "source": "yahoo",
    "delayed": true,
-   "last_price": 28845.5,
+   "last_price": 28836.75,
    "levels": [
     {
      "tag": "pwh",
@@ -1571,14 +1587,14 @@
     {
      "tag": "tdh",
      "label": "Today's RTH high",
-     "price": 28866.75,
+     "price": 28891.25,
      "group": "today",
      "note": "so far"
     },
     {
      "tag": "wh",
      "label": "Week high",
-     "price": 28866.75,
+     "price": 28891.25,
      "group": "week",
      "note": "since 2026-11-02"
     },
@@ -1696,8 +1712,8 @@
     }
    ],
    "stats": {
-    "last_bar_utc": "2026-11-02T15:25:00+00:00",
-    "last_bar_age_min": 15.6,
+    "last_bar_utc": "2026-11-02T15:45:00+00:00",
+    "last_bar_age_min": 10.9,
     "market_state": "open",
     "profile_volume": 755234.0,
     "prior_day": "2026-10-30",
@@ -2979,10 +2995,26 @@
     {
      "t": "2026-11-02T15:15:00+00:00",
      "o": 28770.5,
-     "h": 28866.75,
+     "h": 28891.25,
      "l": 28750.0,
-     "c": 28845.5,
-     "v": 16846.0
+     "c": 28886.75,
+     "v": 26169.0
+    },
+    {
+     "t": "2026-11-02T15:30:00+00:00",
+     "o": 28886.5,
+     "h": 28889.25,
+     "l": 28800.75,
+     "c": 28830.25,
+     "v": 18322.0
+    },
+    {
+     "t": "2026-11-02T15:45:00+00:00",
+     "o": 28831.25,
+     "h": 28843.75,
+     "l": 28828.0,
+     "c": 28836.75,
+     "v": 0.0
     }
    ]
   }
@@ -2995,7 +3027,7 @@
     "link": "https://www.cnbc.com/2026/11/01/oil-bond-yields-ai-market.html",
     "source": "cnbc_markets",
     "published_utc": "2026-11-02T13:26:05+00:00",
-    "score": 9.13,
+    "score": 9.08,
     "duplicates": 0
    },
    {
@@ -3004,7 +3036,7 @@
     "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNVS0yWjN5aXJSajNON0VNVV9OMFh2VjBPVWJpWmcwcE41R2g4cnp2LWhpbGlNWEVWZ1ltWkprTEdfUFF6Qm5OWXkyLVJTTzRWODNuUEc5R1l5Y2xVb3l3Vk1EQ05ybG9rZENudHRJdlZCYmNuLWN0RFNLNXVLZk40dnJfa0ZxbGp4emRYdEpTOF8yRWpkRmRpZExkWEU2NWtkajhHXzJ1NEZoN1FFNktCdVBBal8?oc=5",
     "source": "gnews_megacap",
     "published_utc": "2026-11-02T06:52:55+00:00",
-    "score": 9.03,
+    "score": 8.99,
     "duplicates": 0
    },
    {
@@ -3013,7 +3045,7 @@
     "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNZTFkbzFjTC16VjBnNUo3N2YxRU41dWtzRU56THg5dkFmWkxxaHpjb0hOWmdZWmdSODIzU2hiTjFLVXVsVXR4VUlPR3ZnUEdKRkpiRTJnV09ROEswVEJ6RDhpQ3VKNU9IRjZyT3NkZjMyM0w2UkpUemlSVmpyalRFa0dUczV6a2JBMmdreXE3QWM0T296alIw?oc=5",
     "source": "gnews_futures",
     "published_utc": "2026-11-02T10:23:24+00:00",
-    "score": 8.62,
+    "score": 8.58,
     "duplicates": 1
    },
    {
@@ -3022,7 +3054,7 @@
     "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNT0c0ajcwSC1TMmdqcklFOVR5M1lxNzFzRHZ0MTBILTlITXBKYXpFbTBaN2dFdnVNbmR4U2Jsa2kyYngzVnp5Tkd3OG9mNmpXd0EwY0ttem9zeGhGRmg3S0ZFNnIyNXNHdE1DSGJNU3E1UkNoR0N1bDFNbjIyUDcyaHJKaDhEQVUtbjlrWXBRZi1WS3IxVnhnMVN2S1NacTczejdUaWVjM1o3Y1A5bnQ5QXdlNA?oc=5",
     "source": "gnews_futures",
     "published_utc": "2026-11-02T13:08:30+00:00",
-    "score": 8.08,
+    "score": 8.04,
     "duplicates": 0
    },
    {
@@ -3031,7 +3063,7 @@
     "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE9PeE1oQkY4Z3lRdXRVVFJaNGd0ZktoOURWN1RVWWlGQ0lqSTkzbmFFdTJsVFVWdjMxT01ZelNHcmRZQXBRU05oUzBrSW1rdTJ4N21zTmVPekJkeXp0dVZOYVdHLVgxZXUzdkl2Y1Awckx5OHZKdXhKN0tR?oc=5",
     "source": "gnews_macro",
     "published_utc": "2026-11-02T12:24:12+00:00",
-    "score": 7.95,
+    "score": 7.91,
     "duplicates": 0
    },
    {
@@ -3040,7 +3072,7 @@
     "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQZF9nVnRSN1E4bXVmS2JMWndJQ2pXRnRmV0pYMFNPOEpUbVI5dUtfZVlacldidGxJTVhqNUlPR2xMUDg4Yld5YWZEM25QRDZGcUc4SzUyT2RMMWVoUjRBb1pTTVp4Mk1kYVFYekwtOVhObGxjWGQ2VFAydk9rZExiYVdxWkdrRHAwZ21Pd2F6NXB2eU5WUFBiNEc0RjBpUjJwa18yZUpkUTR4TVk?oc=5",
     "source": "gnews_futures",
     "published_utc": "2026-11-02T11:44:46+00:00",
-    "score": 7.84,
+    "score": 7.8,
     "duplicates": 1
    },
    {
@@ -3049,16 +3081,7 @@
     "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPVkVCZzY4M2xqWDhwb01NRC15Ui1xRTBJQ0x5MjhsUFFjUjUwMHBVMmlOQkRqTURJOFljOUFXUEdUVVVDeGVXU1I0Umt2aFo4TzRHUlJoZEROTVFQdEMzU1RBQWpRY0hIS2oycGtiUlkyNkMxVVhnaFQ4d2paeTdKSXdXUlhIQjN5bm9vMWU5Xzl6NzFPQ2NIZTJEVVV1SEcxcjdCSDE0NGJmQV9DVUtPMUY3T3cyVEVRZGlMcmt0SXZnR2lZ0gHQAUFVX3lxTE5kOW5uRjFoVFVZVTZCdHExY2NCbHo5RHpoc2VqRWNnbXg1UWtIZXZURWpjUFRwOFQ1OEdmVUdxT1hKX284T1ZaMlFiVWxCeVpWMWFCdXhTdVJuc3owM1Z6Zm1nbjZuN3FqWVItTWJKM3hSd0lFYWRaenh1VVNaMDNaZEo2QWFhN2Q0V2FvMXZSdWZKR2pOVElZaklJU1RTQnFoWG9TNE1jeW1iclNxYUdsY3NzWnJ2QndHTTlseVZoZDlWOVN1NUFTSjd6M2JRSFY?oc=5",
     "source": "gnews_megacap",
     "published_utc": "2026-11-02T14:22:12+00:00",
-    "score": 7.78,
-    "duplicates": 0
-   },
-   {
-    "id": "1ac1813977",
-    "title": "AI Stocks Finally Help the Fed Fight Inflation, by Falling - BeInCrypto",
-    "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBxVnJXSURVazJzU0ZJVWI2cFEzdmdFY3dRdlVLS2JEVWdZVHBPeGJ6YkxMMERIcXh1LUhoQ2ZNS3Vmd0tObTVsT3NJdTFRMENQdXRHVERsRTRmcDMxNU4tQml0V3BrWXgt?oc=5",
-    "source": "gnews_macro",
-    "published_utc": "2026-11-02T11:00:00+00:00",
-    "score": 7.72,
+    "score": 7.74,
     "duplicates": 0
    },
    {
@@ -3067,7 +3090,7 @@
     "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPNGVTNnRya2xiS01lZGhBQ0JvRnQ0VWt0b180TXJ5ZmZNcHVGMFFZUFZNaFhlUGIwcjcyUDFPZG1HM1dXcG5rRU9SN2RjbGRHN256N2kzT3FWUnNuTFBJR3V0ZGROYlgtQVM4SjlrakptODdUaFp3bi1kOWlkZXQwWHVDRldzd3ZDT1E3TktTeEtDTjZWb3ptVA?oc=5",
     "source": "gnews_futures",
     "published_utc": "2026-11-02T10:29:28+00:00",
-    "score": 7.64,
+    "score": 7.59,
     "duplicates": 1
    },
    {
@@ -3076,7 +3099,7 @@
     "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNbUotU2RVM0hOLXh3NjJONXZBR2MyN1o3ci11dmJ3TmlaTGlNSUlFNXVJSXZ4MWRLVHozX1dzMS0xRG1zeUY2ejBHM1dDRE5PNG1pTjJSelRQWkxMQkhRWk1jZU42cHByWkFzQXFZMkxFcHdwdWJFN1ZMRWhiYXNhNnpMTGxBc3lsM2xWM0xuY2tZdw?oc=5",
     "source": "gnews_futures",
     "published_utc": "2026-11-02T13:05:41+00:00",
-    "score": 7.57,
+    "score": 7.53,
     "duplicates": 1
    },
    {
@@ -3085,17 +3108,26 @@
     "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPN3NpVHFOMTN6X0YzWWtQX3NaeENfYlVrZWFsa1ltYTl6RWxQcllmRm5rQVNpcFp0eGpfSG56dGg4T2ZKTzhhdXlidWlfVjEzTzlQejNSLVJYTEdBRVR3c3A3c3M5bEg3Uk1hcTVzNGNEaEI0MmZIMVRWaTJOQzliR3lHTHNidmtNQVE?oc=5",
     "source": "gnews_megacap",
     "published_utc": "2026-11-02T13:00:00+00:00",
-    "score": 7.55,
+    "score": 7.51,
     "duplicates": 1
    },
    {
-    "id": "60804f1110",
-    "title": "Apple (NASDAQ:AAPL) Earnings Preview: US$113 Billion Revenue Expected as AI Stock Selloff Deepens - Stocks Down Under",
-    "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE93WkhRcGQ2RDEyOHBSZjJOVUxNUGhNcm0zZnZlajZqRlFTakFPM0ZYeEd2UXRUbW41MGV4WWFiRU5NZ2hnMk9kR1ZFNm1ZQ1owX09rcm9sbElCUllNRVdPSzQ0d1hheWJTQ3VLU1BkQkNiZw?oc=5",
+    "id": "0b05c376ed",
+    "title": "Earnings Day: Can hardware rescue Apple from Big Tech's AI hangover? (AAPL:NASDAQ) - Seeking Alpha",
+    "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPaEFEMVJfWHd6YWFaNC1yMmhlSjNWS0hvRXA4bzlHNTk2STdsajhrb0w3dGJpN3hhQmM5UWl2Q1Q5M0hXMHJkOHFrckdBQjE4bGJJN3dZeFVkR2NPclJCUGROOXhTZmt2bzJUdUFIZlc4b2lVazN5dGhDMVB4V1AydGFXOU5vN1BOZGU1TmRmMjNmSWdLZXFFS1p4UEY3eDVkYm1GVnVR?oc=5",
     "source": "gnews_megacap",
-    "published_utc": "2026-11-01T21:42:37+00:00",
-    "score": 7.5,
+    "published_utc": "2026-11-02T12:12:35+00:00",
+    "score": 7.38,
     "duplicates": 0
+   },
+   {
+    "id": "25a18a63cc",
+    "title": "IXIC: Nasdaq Futures Rebound with Apple Earnings, US Midterm Elections Ahead - TradingView",
+    "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxQOVQ4WklneEhpM3VyQUNmMDF1eVpWWlZIYXJ3OWU2NlU3bnpuTG1jVnNGODJfeVVjUUhaRlN5b0p6Q3FfdTlienR0VTJiTUZ5MlJwc1ZtUVlJdmZYTHVhOW5LLUNualhicUlJQWJHTV94S3VOUUt5cGhpczZta1FpT0JQTV96SmJWYTNTZ1ViLTBMcTB4aG9EMzJUVTZmV2tmWnpyakF1dWlKVW5rZVg2YXh5WVN3aEw5QndJMXF2VDk0UDhIYWtwa1k0amlNXzREYmc?oc=5",
+    "source": "gnews_futures",
+    "published_utc": "2026-11-02T07:30:06+00:00",
+    "score": 7.1,
+    "duplicates": 1
    }
   ],
   "summary": {
