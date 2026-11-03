@@ -1,7 +1,7 @@
 {
  "meta": {
-  "generated_at_utc": "2026-11-03T13:57:52.732400+00:00",
-  "generated_at_local": "Tue 03 Nov 2026 09:57 AST",
+  "generated_at_utc": "2026-11-03T14:13:11.038102+00:00",
+  "generated_at_local": "Tue 03 Nov 2026 10:13 AST",
   "trading_day": "2026-11-03",
   "display_tz": "America/Halifax",
   "version": "0.1.0",
@@ -70,7 +70,7 @@
    "time_utc": "2026-11-03T15:00:00+00:00",
    "local": "11:00 AST",
    "et": "10:00 ET",
-   "in": "1h 02m",
+   "in": "46 min",
    "consensus": "7.15M",
    "prior": "7.08M"
   },
@@ -81,10 +81,10 @@
   {
    "root": "ES",
    "trading_day": "2026-11-03",
-   "as_of_utc": "2026-11-03T13:57:52.732400+00:00",
+   "as_of_utc": "2026-11-03T14:13:11.038102+00:00",
    "source": "yahoo",
    "delayed": true,
-   "last_price": 7587.0,
+   "last_price": 7575.75,
    "levels": [
     {
      "tag": "pwh",
@@ -147,7 +147,7 @@
      "label": "Overnight high",
      "price": 7604.75,
      "group": "overnight",
-     "note": "since 18:00 ET, 878 bars"
+     "note": "since 18:00 ET, 894 bars"
     },
     {
      "tag": "rn_major_up",
@@ -173,7 +173,7 @@
     {
      "tag": "onvwap",
      "label": "Overnight VWAP",
-     "price": 7571.56,
+     "price": 7572.46,
      "group": "overnight",
      "note": "typical-price VWAP"
     },
@@ -221,14 +221,14 @@
     }
    ],
    "stats": {
-    "last_bar_utc": "2026-11-03T13:47:00+00:00",
-    "last_bar_age_min": 10.9,
+    "last_bar_utc": "2026-11-03T14:03:00+00:00",
+    "last_bar_age_min": 10.2,
     "market_state": "open",
     "profile_volume": 1520392.0,
     "prior_day": "2026-11-02",
     "prior_day_rth_range": 123.0,
     "overnight_range": 58.75,
-    "gap_vs_prior_close": 10.75,
+    "gap_vs_prior_close": -0.5,
     "gap_basis": "last price (pre-market)",
     "atr14": 100.95,
     "atr_days": 14,
@@ -1449,19 +1449,27 @@
      "t": "2026-11-03T13:45:00+00:00",
      "o": 7587.0,
      "h": 7590.75,
-     "l": 7583.0,
-     "c": 7587.0,
-     "v": 5666.0
+     "l": 7582.5,
+     "c": 7584.75,
+     "v": 25957.0
+    },
+    {
+     "t": "2026-11-03T14:00:00+00:00",
+     "o": 7584.75,
+     "h": 7586.25,
+     "l": 7574.75,
+     "c": 7575.75,
+     "v": 8556.0
     }
    ]
   },
   {
    "root": "NQ",
    "trading_day": "2026-11-03",
-   "as_of_utc": "2026-11-03T13:57:52.732400+00:00",
+   "as_of_utc": "2026-11-03T14:13:11.038102+00:00",
    "source": "yahoo",
    "delayed": true,
-   "last_price": 28339.0,
+   "last_price": 28283.5,
    "levels": [
     {
      "tag": "pwh",
@@ -1517,21 +1525,7 @@
      "label": "Overnight high",
      "price": 28426.5,
      "group": "overnight",
-     "note": "since 18:00 ET, 878 bars"
-    },
-    {
-     "tag": "rn_major_up",
-     "label": "Round 100 above",
-     "price": 28400.0,
-     "group": "round",
-     "note": ""
-    },
-    {
-     "tag": "rn_minor_up",
-     "label": "Round 50 above",
-     "price": 28350.0,
-     "group": "round",
-     "note": ""
+     "note": "since 18:00 ET, 894 bars"
     },
     {
      "tag": "val",
@@ -1541,9 +1535,16 @@
      "note": "70 % value area"
     },
     {
-     "tag": "rn_major_dn",
-     "label": "Round 100 below",
+     "tag": "rn_major_up",
+     "label": "Round 100 above",
      "price": 28300.0,
+     "group": "round",
+     "note": ""
+    },
+    {
+     "tag": "rn_minor_dn",
+     "label": "Round 50 below",
+     "price": 28250.0,
      "group": "round",
      "note": ""
     },
@@ -1557,9 +1558,16 @@
     {
      "tag": "onvwap",
      "label": "Overnight VWAP",
-     "price": 28217.03,
+     "price": 28223.65,
      "group": "overnight",
      "note": "typical-price VWAP"
+    },
+    {
+     "tag": "rn_major_dn",
+     "label": "Round 100 below",
+     "price": 28200.0,
+     "group": "round",
+     "note": ""
     },
     {
      "tag": "pdc",
@@ -1598,14 +1606,14 @@
     }
    ],
    "stats": {
-    "last_bar_utc": "2026-11-03T13:47:00+00:00",
-    "last_bar_age_min": 10.9,
+    "last_bar_utc": "2026-11-03T14:03:00+00:00",
+    "last_bar_age_min": 10.2,
     "market_state": "open",
     "profile_volume": 537790.0,
     "prior_day": "2026-11-02",
     "prior_day_rth_range": 789.5,
     "overnight_range": 388.25,
-    "gap_vs_prior_close": 200.25,
+    "gap_vs_prior_close": 144.75,
     "gap_basis": "last price (pre-market)",
     "atr14": 714.0,
     "atr_days": 14,
@@ -2825,10 +2833,18 @@
     {
      "t": "2026-11-03T13:45:00+00:00",
      "o": 28333.5,
-     "h": 28342.5,
-     "l": 28306.0,
-     "c": 28339.0,
-     "v": 2480.0
+     "h": 28351.75,
+     "l": 28300.0,
+     "c": 28316.75,
+     "v": 11066.0
+    },
+    {
+     "t": "2026-11-03T14:00:00+00:00",
+     "o": 28316.5,
+     "h": 28322.0,
+     "l": 28279.0,
+     "c": 28283.5,
+     "v": 2333.0
     }
    ]
   }
@@ -2841,7 +2857,7 @@
     "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOQ3VEMVBJekR3YkhqVzlaaU96RnJ5bkJBZXY0Ynk1RkREU0xIUGFSaWxZNmNVbXUxY29wdU1Pam5fOUhQbmdsU2ZBaDRKalNxWDVmN21nNlVUT1MzVkpkLXdoQU80NFNTMHNYYXpEMVF0SzhmczNNeTNHX3NGclRtaHZhUTkwMWNSTDhzd1dCUTN4eWlzMFdNSU9IMHZJUUtkbVRDZlJJaUo1eVAzSk9Oc1RzbFRldmJoX00yMnhFME1US0FC?oc=5",
     "source": "gnews_fed",
     "published_utc": "2026-11-03T09:06:00+00:00",
-    "score": 8.69,
+    "score": 8.65,
     "duplicates": 0
    },
    {
@@ -2850,7 +2866,7 @@
     "link": "https://www.cnbc.com/2026/11/03/apple-earnings-john-ternus-faces-first-test-amid-high-memory-costs.html",
     "source": "cnbc_markets",
     "published_utc": "2026-11-03T13:55:52+00:00",
-    "score": 8.49,
+    "score": 8.45,
     "duplicates": 1
    },
    {
@@ -2868,7 +2884,7 @@
     "link": "https://www.cnbc.com/2026/11/03/midterm-election-stock-market.html",
     "source": "cnbc_markets",
     "published_utc": "2026-11-03T13:28:36+00:00",
-    "score": 7.92,
+    "score": 7.88,
     "duplicates": 0
    },
    {
@@ -2877,35 +2893,17 @@
     "link": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxOVkduQVhSVzQ5dlYzdWt5ZzNnOU00X192U0NfUG81NDRFamROXy1fMFMyN1pudmZET3kyakdFbEdNcFZtSV9nLURoY3NYY2I4WHl1ekEyd2RMdTJWazFwNUpPcG96c2U3RFR2VkkxSVN0UEc4Q1hWMy1Jd3p0dWpXYmZPUmlNenoxTERrMFNXd0JpV3RHakNoYlpuUEE3RWQtbkZES3hOVXZVVnBRbC0tN3owZ2hnUnFRWDc4ZDEySHJnNVVMYThULXlnQ0VBZ0RRdHQxUXE4a1dJMjR4b3dYYnNSeGVrRVpxVEZPT2NtaHVqMEE0dnc?oc=5",
     "source": "gnews_futures",
     "published_utc": "2026-11-03T10:06:30+00:00",
-    "score": 7.86,
+    "score": 7.81,
     "duplicates": 0
    },
    {
-    "id": "ad544e9ac5",
-    "title": "U.S. stock futures turn lower ahead of midterms; Apple dips on mixed earnings By Investing.com - Investing.com India",
-    "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOakZfbzU1RDlSTXdNQW5meU1IRjRIMUVhazduY1FoYWZ3RDN6aTd4Z0NFTm5ncTdGeXBnV3BpcWdqcl8wc2tOVFZDUWx1dXZjZnAwMmFVZEQwTFdJSzFYckYzNnJkWGoxX00xLWtBYmFpR09jekN5bWE4UDZ4SWFnU2dXemh2Qko4NkVvblJ0TXdrTkN5SGFtZ1NpeUhReF8zemJlWVdPMG1TU2R0aEJGbDVuczM1NFp2YkxBY29qWGlOS3NCZDVqTw?oc=5",
+    "id": "f1c7fe3830",
+    "title": "U.S. stock futures turn lower ahead of midterms; Apple dips on mixed earnings By Investing.com - Investing.com South Africa",
+    "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOY2cwZjBFMG9CVzNKOVRYMTB2TERrbXFCVWtaX1MwNlZNdl9oQ2VMeWpOdHhlYjNjTl9aUVM1MmhPdE5FdWdqYUZIS3Y3bTNKQS1rYmpJUDRGd2pGTHNLM3BYUGxuOGJyYkR2RkpQSHRuSWJpZUJPSWJPSTgxeDFkNkNJeDc0Nk9RUE1pS3Z4NlpwcTJnYTA5dWFkckV1WXBVQWh0N0hVWjR0X0V2ZGJVa1puUGZsUDN2b25NQzNvSWdZNmtTek1mbw?oc=5",
     "source": "gnews_futures",
-    "published_utc": "2026-11-03T09:22:30+00:00",
-    "score": 7.74,
+    "published_utc": "2026-11-03T08:31:08+00:00",
+    "score": 7.55,
     "duplicates": 1
-   },
-   {
-    "id": "65dac7f1d7",
-    "title": "U.S. Stock Futures Fall as Apple Earnings Disappoint, Midterm Elections in Focus - TipRanks",
-    "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPQlF4N1JMS01xLXV0LVE2QjZjN0RDZTBHUkdhcVROTlRBaXg1d0oyek43SktJMHRNV2JDaGhUWl9DbnRNUjB0LTdDc1g5TlNfSXB2Ry1JVzA2dnFxWjh2ZzFUaXY1RWVTQW1qQzRkdGhsMTBVMUNYLWcydjRqbUt5U0oxZDJTTktJZzdjOG8xUUJpaGZwai13SlVTMmZwN1lKRnNlZWgzUXZaTnVq?oc=5",
-    "source": "gnews_futures",
-    "published_utc": "2026-11-03T11:02:41+00:00",
-    "score": 7.51,
-    "duplicates": 0
-   },
-   {
-    "id": "e4616154fa",
-    "title": "US stock futures mixed as Apple slides, midterms loom By Reuters - Investing.com",
-    "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxObHBBY2s4Zk5vN2tVYU82WUlmR0FBVkFyR191R2JVb2FvMjFnRjVyamYyTm9vc3M1ZmRjVzR0N193WGNVaWNpMV9NRGtwbExHV1VrdXQ3bWdETkd1dUVyT2h1cEZoZ1BtT1lWeGJlN3U2dmMtaGRRbGtTR0RqY09DZEd0WWxReFRwM0RiNXZSU1JONUNnSUNaWEpBd3pSckFXQ3p2WGZPdktEQkF1Y2c?oc=5",
-    "source": "gnews_futures",
-    "published_utc": "2026-11-03T11:02:04+00:00",
-    "score": 7.51,
-    "duplicates": 2
    },
    {
     "id": "6c00a7a85b",
@@ -2922,17 +2920,8 @@
     "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQWVJHVXljZXZUczVDVnJrblpiZUY4RUhEbXlBcXU0NkVNMlJDQWJnWlBCLTc1NnpFRGNDR0pSSEt1dzh6R1NJTjNHWW5GZTlKM2RkUHVPTTNEbzloeVFVMjFlSmFvclJGRkVSUjlZVV9xSHk2c04zSVA5WldFNGNvVDFJbkI0eWNoTGN2LUFIX0h4VmYyTlEw?oc=5",
     "source": "gnews_futures",
     "published_utc": "2026-11-03T10:06:05+00:00",
-    "score": 7.36,
+    "score": 7.31,
     "duplicates": 0
-   },
-   {
-    "id": "181137c7dc",
-    "title": "US stock futures mixed as Apple slides 4.5%, investors await midterm election results | Hindustan Times - Hindustan Times",
-    "link": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxQMmZSQnQ5cjVnbTFrbUhHTHB5eEtOaGpoRDBRZjgzM3lpTlNqc2VuZ2NnN1RaS0tRU2tDT3ZvQ3RzV3g0Z3d6Z1gwNTA1Y250QjVVQ2hMMjREd1hhdFQxVzJMRmdCNzhLdzVsTlRRdzVHbFhLUW1aTW03ZjNqU2ZuYmVWcW9mMllFd1VNNTRReVVOdzliaDhENUVod3BjSWF1TmVnZlFyUXhTeFk3elZqVjBoV0hPc0lyQWktd25SOTNvUWNvOGFubFZkellUY3FldjNDT21fN1BicGJ2Yk5zTjd6ZHk3cmtsTEHSAe8BQVVfeXFMUHhOdXlEUDNQM2w4RWJhOUhFaHRrbGlrUHNRRjVYOV9MN1BkSkcxQi1LQ09sWHhrbFNBeHlKRlhETi01YU9SMGlMcHo1X0ZNdldyUm5hUFpmaEtoWXhvOEpsTDdBMUsyMGxPcTJZYjM4enIyVGlLU0dJdWtVclhFSmdsTVdCa2JsWGlPdTB0ckxFMTBtNUk1UTFYNlVVb2hWR3dOaGVhcExvZ0lwdzNWSWdYbTFMWkgtMllwNXQ4QVZMRjFFeS01Y3Ryb01qaVVpSFpnOE90N3JlVE5UdDZsMmkzMFloWXd6UHl1c1YyVTA?oc=5",
-    "source": "gnews_futures",
-    "published_utc": "2026-11-03T12:43:05+00:00",
-    "score": 7.29,
-    "duplicates": 1
    },
    {
     "id": "7ed5f58b4d",
@@ -2940,7 +2929,34 @@
     "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOamlNY3dJUGMxZkR2cUcyVnZIN3d4UTZjMmN2elI5aXRtRFJtYTFJNFN6S3ZJaHVEXzRxbklyVEhjdWFpalRKZnFzMWhSdktZZVd5OXNoLVVOQjl5bmxadktCckdKd3V4Vl9SaFZlRG9QY0hQdWJhMVh5ZVdlXzBmYmZtUXVTbTZqTnRjbVp2dlpZZGNhdU5vUHViRUxPS25tbzJRTlJqZW1IN0lYdm5YYlpxd3IzWU4t0gG0AUFVX3lxTE96aTBDOGRJMG5KbTdjZzFYX2FuNzM2a216ZFZKYVFENV9rSDlMTzdPN0IwSHd4VFd4Tko3elhFZE41UVJKQ3V3LWsxZlJrOVVQdnJXVWFJZDlScEJLcDdJaXJfQlVzWlFLMlR1RTljamZnSGtEYkV4Z3E1MXEtNHRvNXdRNmdHMTdBb2dHUmRJM0drdjFhRnE2UXdMR0d6WjVhTHktb1BYc1JXY1VkZnBNRmNZNQ?oc=5",
     "source": "gnews_futures",
     "published_utc": "2026-11-03T12:04:00+00:00",
-    "score": 7.18,
+    "score": 7.14,
+    "duplicates": 1
+   },
+   {
+    "id": "60db2c709c",
+    "title": "Black Friday 2026: UB experts on AI, tariffs and inflation - Buffalo News",
+    "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOVDlFaWZ5Z2xUdkpDcGhRdU1QZlowMkV5S1ZqVzhBQ2szS0VGT0tOdHRoOUtXUk1QTHg3bExFYmZFUTl0aktoZTI2ZWhacUl1eXdfaWpoWXFDdFBRQnhPUFRiaXg0TzcySHdDM1U2VjBHQWhXVzF6RmtUVk5KV01zWlRDLW1YMGJ1LVUtNTZwQ0dkdw?oc=5",
+    "source": "gnews_macro",
+    "published_utc": "2026-11-03T08:56:24+00:00",
+    "score": 7.12,
+    "duplicates": 0
+   },
+   {
+    "id": "4ce8e27168",
+    "title": "Georgia Economist Dr Nikki Finlay Explains What 3.7 Percent Inflation, Slower Hiring and a Fed Pause Mean for Households - Cincinnati Enquirer",
+    "link": "https://news.google.com/rss/articles/CBMihAJBVV95cUxQNmxwdV9yMzU4T1ZYVHQ1VEFoZUJ2Uk81V1llUVhkRzhmcE10d1RPRmZleW03WlcwQ1AwYkt0OVhaZC1qZnczd0hrMnh3cFFLVEdhLTVMMzZuYUFJMUJMTWdDOFp5cmtCTGxUQ3hVR3N4d1hMMVZpSFpjdXZLbWdvMjJjcXdBNzllbDhVejBEQW9hNzE5YmJNSkVTNFZnYVptNWtmaDE5Ni1mUHk3V3NGd2J5NzhISXB1SkhTczBsUUE5dy1zSVhJX3JjeC03bWhaZU9oY3VXZlhaQmg4SS1BZlVURmk5dFZQVkFJVDFLYXVXb05oYlhuWkE0ZkJWSzlvVzgxUw?oc=5",
+    "source": "gnews_macro",
+    "published_utc": "2026-11-03T11:53:26+00:00",
+    "score": 7.11,
+    "duplicates": 0
+   },
+   {
+    "id": "e4616154fa",
+    "title": "US stock futures mixed as Apple slides, midterms loom By Reuters - Investing.com",
+    "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxObHBBY2s4Zk5vN2tVYU82WUlmR0FBVkFyR191R2JVb2FvMjFnRjVyamYyTm9vc3M1ZmRjVzR0N193WGNVaWNpMV9NRGtwbExHV1VrdXQ3bWdETkd1dUVyT2h1cEZoZ1BtT1lWeGJlN3U2dmMtaGRRbGtTR0RqY09DZEd0WWxReFRwM0RiNXZSU1JONUNnSUNaWEpBd3pSckFXQ3p2WGZPdktEQkF1Y2c?oc=5",
+    "source": "gnews_futures",
+    "published_utc": "2026-11-03T11:02:04+00:00",
+    "score": 6.97,
     "duplicates": 1
    }
   ],
