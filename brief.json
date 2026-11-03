@@ -1,7 +1,7 @@
 {
  "meta": {
-  "generated_at_utc": "2026-11-03T16:27:48.975119+00:00",
-  "generated_at_local": "Tue 03 Nov 2026 12:27 AST",
+  "generated_at_utc": "2026-11-03T16:43:13.982737+00:00",
+  "generated_at_local": "Tue 03 Nov 2026 12:43 AST",
   "trading_day": "2026-11-03",
   "display_tz": "America/Halifax",
   "version": "0.1.0",
@@ -70,7 +70,7 @@
    "time_utc": "2026-11-04T15:00:00+00:00",
    "local": "11:00 AST",
    "et": "10:00 ET",
-   "in": "22h 32m",
+   "in": "22h 16m",
    "consensus": "54.8",
    "prior": "54.9"
   },
@@ -81,10 +81,10 @@
   {
    "root": "ES",
    "trading_day": "2026-11-03",
-   "as_of_utc": "2026-11-03T16:27:48.975119+00:00",
+   "as_of_utc": "2026-11-03T16:43:13.982737+00:00",
    "source": "yahoo",
    "delayed": true,
-   "last_price": 7613.25,
+   "last_price": 7601.5,
    "levels": [
     {
      "tag": "pwh",
@@ -242,8 +242,8 @@
     }
    ],
    "stats": {
-    "last_bar_utc": "2026-11-03T16:17:00+00:00",
-    "last_bar_age_min": 10.8,
+    "last_bar_utc": "2026-11-03T16:33:00+00:00",
+    "last_bar_age_min": 10.2,
     "market_state": "open",
     "profile_volume": 1520392.0,
     "prior_day": "2026-11-02",
@@ -1550,19 +1550,27 @@
      "t": "2026-11-03T16:15:00+00:00",
      "o": 7615.0,
      "h": 7618.25,
-     "l": 7612.25,
-     "c": 7613.25,
-     "v": 5199.0
+     "l": 7603.0,
+     "c": 7611.0,
+     "v": 43546.0
+    },
+    {
+     "t": "2026-11-03T16:30:00+00:00",
+     "o": 7611.0,
+     "h": 7612.0,
+     "l": 7598.5,
+     "c": 7601.5,
+     "v": 11797.0
     }
    ]
   },
   {
    "root": "NQ",
    "trading_day": "2026-11-03",
-   "as_of_utc": "2026-11-03T16:27:48.975119+00:00",
+   "as_of_utc": "2026-11-03T16:43:13.982737+00:00",
    "source": "yahoo",
    "delayed": true,
-   "last_price": 28373.25,
+   "last_price": 28305.0,
    "levels": [
     {
      "tag": "pwh",
@@ -1635,8 +1643,8 @@
      "note": ""
     },
     {
-     "tag": "rn_minor_dn",
-     "label": "Round 50 below",
+     "tag": "rn_minor_up",
+     "label": "Round 50 above",
      "price": 28350.0,
      "group": "round",
      "note": ""
@@ -1720,8 +1728,8 @@
     }
    ],
    "stats": {
-    "last_bar_utc": "2026-11-03T16:17:00+00:00",
-    "last_bar_age_min": 10.8,
+    "last_bar_utc": "2026-11-03T16:33:00+00:00",
+    "last_bar_age_min": 10.2,
     "market_state": "open",
     "profile_volume": 537790.0,
     "prior_day": "2026-11-02",
@@ -3028,9 +3036,17 @@
      "t": "2026-11-03T16:15:00+00:00",
      "o": 28396.75,
      "h": 28414.5,
-     "l": 28367.5,
-     "c": 28373.25,
-     "v": 1917.0
+     "l": 28316.5,
+     "c": 28350.25,
+     "v": 17376.0
+    },
+    {
+     "t": "2026-11-03T16:30:00+00:00",
+     "o": 28350.75,
+     "h": 28356.5,
+     "l": 28282.75,
+     "c": 28305.0,
+     "v": 5134.0
     }
    ]
   }
@@ -3043,7 +3059,7 @@
     "link": "https://www.cnbc.com/2026/11/03/job-openings-posted-big-september-gain-in-positive-sign-for-labor-market-ahead-of-payrolls-report.html",
     "source": "cnbc_markets",
     "published_utc": "2026-11-03T16:10:21+00:00",
-    "score": 8.45,
+    "score": 8.41,
     "duplicates": 0
    },
    {
@@ -3052,7 +3068,7 @@
     "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOQ3VEMVBJekR3YkhqVzlaaU96RnJ5bkJBZXY0Ynk1RkREU0xIUGFSaWxZNmNVbXUxY29wdU1Pam5fOUhQbmdsU2ZBaDRKalNxWDVmN21nNlVUT1MzVkpkLXdoQU80NFNTMHNYYXpEMVF0SzhmczNNeTNHX3NGclRtaHZhUTkwMWNSTDhzd1dCUTN4eWlzMFdNSU9IMHZJUUtkbVRDZlJJaUo1eVAzSk9Oc1RzbFRldmJoX00yMnhFME1US0FC?oc=5",
     "source": "gnews_fed",
     "published_utc": "2026-11-03T09:06:00+00:00",
-    "score": 8.27,
+    "score": 8.23,
     "duplicates": 0
    },
    {
@@ -3061,7 +3077,7 @@
     "link": "https://www.cnbc.com/2026/11/03/apple-earnings-john-ternus-faces-first-test-amid-high-memory-costs.html",
     "source": "cnbc_markets",
     "published_utc": "2026-11-03T14:38:03+00:00",
-    "score": 8.2,
+    "score": 8.15,
     "duplicates": 1
    },
    {
@@ -3069,7 +3085,7 @@
     "title": "Midterm elections could jolt stocks if Democrats sweep Congress",
     "link": "https://www.cnbc.com/2026/11/03/midterm-election-stock-market.html",
     "source": "cnbc_markets",
-    "published_utc": "2026-11-03T16:18:48+00:00",
+    "published_utc": "2026-11-03T16:31:52+00:00",
     "score": 7.97,
     "duplicates": 0
    },
@@ -3083,12 +3099,21 @@
     "duplicates": 0
    },
    {
+    "id": "6de28855dc",
+    "title": "Stock Market Today: Dow, S&P 500 Futures Mixed as Trump Touts Iran Settlement Hopes — AAPL, PLTR, AMD in Focus - TradingView",
+    "link": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxOVkduQVhSVzQ5dlYzdWt5ZzNnOU00X192U0NfUG81NDRFamROXy1fMFMyN1pudmZET3kyakdFbEdNcFZtSV9nLURoY3NYY2I4WHl1ekEyd2RMdTJWazFwNUpPcG96c2U3RFR2VkkxSVN0UEc4Q1hWMy1Jd3p0dWpXYmZPUmlNenoxTERrMFNXd0JpV3RHakNoYlpuUEE3RWQtbkZES3hOVXZVVnBRbC0tN3owZ2hnUnFRWDc4ZDEySHJnNVVMYThULXlnQ0VBZ0RRdHQxUXE4a1dJMjR4b3dYYnNSeGVrRVpxVEZPT2NtaHVqMEE0dnc?oc=5",
+    "source": "gnews_futures",
+    "published_utc": "2026-11-03T10:06:30+00:00",
+    "score": 7.4,
+    "duplicates": 0
+   },
+   {
     "id": "c844df625f",
     "title": "Nvidia, SK Hynix, SanDisk Spike Up To 7% Ahead Of AMD Earnings As Chips Rebound From Multi-Week Selloff - NDTV Profit",
     "link": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxPaFdvOU5EXzZqeXUwend1YU9pTHd6dXVoOGF5emNLdDR1dG5vckFpRTk5NlBXMFJPYlVFai1BSlhFQkFDWVBMWUpMNXBMWjBhb3NJVUpTUTBQcnFzT2JSMjJCVkM0X21HaEdxbURSY3JWTmlha3FfR1JQLUE1WmVlRWppSno1cU1jZEN6bmc0WTBoalgyNW1fOTVXWElodWRaOTh6U1VRTXBJbVRFTWswMFd4YmFGNU40eGVZNkcyRmVzbF9ON1RRQVNoZzdTVml0M3BLX3BJUEswZGxi0gHkAUFVX3lxTE9ELVNIdGxvZXFLeExobENfYk9fVmRXaUM4OFlWOUJ1Tm1jTmppNmM5dXdHNGlMbXV0R0J3eVdIQXdZdzU2TzV4aUxNakpPdVktSFNmTXJVQkhpRHBUX0g5UUlKcUdBS2tpQjJYUWN6N2E4QkZzRXBBN3RDRHVGRjNoaDlsQXJjVmlVYnVoZzJRbUN6bkpTcmN0cWJXOHNUR3FxaUdPQUhhcUtVZWx2NXYzSlpfUXZPdzZybVFlY2hhenJyWjNtdTBOOHREdmpTOGZKbkpvOF9HM0FEOUNlWlV4OWNVbQ?oc=5",
     "source": "gnews_megacap",
     "published_utc": "2026-11-03T15:04:24+00:00",
-    "score": 7.27,
+    "score": 7.23,
     "duplicates": 0
    },
    {
@@ -3097,7 +3122,7 @@
     "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPbm92MnUtZC05TWlYQWpPb2NTT1l6MzNLTFNRZ0ZKMF93QWtwbGpKdDZuUVFvVDl0QjNjbmtjZEw3TmNnUDFQSXM1YmxFTkVuRHNhMFJta0lkNEFCOEdKeDgyRjZvR2cwNW5pM1F5MkwtSm1XU0xzWHJtZUJQcEVIU0wzNFZaRTFtRERSUEhDRUR6dnBuTTZYVmJvMGtBblF6dTdTV3gyUXRqdEZJXzNvVDZwUC1GcEVpalE?oc=5",
     "source": "gnews_fed",
     "published_utc": "2026-11-03T14:53:59+00:00",
-    "score": 7.24,
+    "score": 7.2,
     "duplicates": 0
    },
    {
@@ -3106,7 +3131,7 @@
     "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQWVJHVXljZXZUczVDVnJrblpiZUY4RUhEbXlBcXU0NkVNMlJDQWJnWlBCLTc1NnpFRGNDR0pSSEt1dzh6R1NJTjNHWW5GZTlKM2RkUHVPTTNEbzloeVFVMjFlSmFvclJGRkVSUjlZVV9xSHk2c04zSVA5WldFNGNvVDFJbkI0eWNoTGN2LUFIX0h4VmYyTlEw?oc=5",
     "source": "gnews_futures",
     "published_utc": "2026-11-03T10:06:05+00:00",
-    "score": 6.94,
+    "score": 6.9,
     "duplicates": 0
    },
    {
@@ -3115,7 +3140,7 @@
     "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNWVp0N2w0REZqOUJ3YkRxcmliYkhtX25yTkFtdmJDUFdSVm5CcXRQYjdMeFFLU0gxcHk1STM2R0xXaGJ6TW9ZN2ZQS2RReVRiXzNtY1B3Qm5fZ1lfTUFaMVpRM2d2ZVZodnZtbUFFLUtkcURfUEtENElyNG5YcFRGcncteEFaZFUwOGxVUmpTMWFkMEtvb09VTG50a2NSbjhLUm5Zc3EtZS1XUU5lWm9B?oc=5",
     "source": "gnews_futures",
     "published_utc": "2026-11-03T15:38:24+00:00",
-    "score": 6.86,
+    "score": 6.82,
     "duplicates": 0
    },
    {
@@ -3124,7 +3149,7 @@
     "link": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxOdjJWZldGdFhZRFRrS2tnTG95MU00dG1pdU9DYmlKbHhhUUR2RG1Hcm8wb1B6ZDB0a21fSFkwaDlJVXA5VXBlanZ6cTBZT0JjV1A3dzBfUHVWSzdqdHhKYlQtWENTSkFkVXV3cEd5Wm9fSkJrNjBRMkN0QkwxMzh6MEszVk54UmhDalFHNXMwV3hpeEoyUnJoTXJVMl9Tc2NlMXRwN1YtY3BQeEVMQnNXaEpuWW8wOWloZXRKc3BwckJfeV9oem5PMmhBTk5KaG1JT3BjY0dVa2JFYUs4UWgwOVJoSQ?oc=5",
     "source": "gnews_megacap",
     "published_utc": "2026-11-03T15:17:51+00:00",
-    "score": 6.81,
+    "score": 6.76,
     "duplicates": 0
    },
    {
@@ -3133,17 +3158,8 @@
     "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOamlNY3dJUGMxZkR2cUcyVnZIN3d4UTZjMmN2elI5aXRtRFJtYTFJNFN6S3ZJaHVEXzRxbklyVEhjdWFpalRKZnFzMWhSdktZZVd5OXNoLVVOQjl5bmxadktCckdKd3V4Vl9SaFZlRG9QY0hQdWJhMVh5ZVdlXzBmYmZtUXVTbTZqTnRjbVp2dlpZZGNhdU5vUHViRUxPS25tbzJRTlJqZW1IN0lYdm5YYlpxd3IzWU4t0gG0AUFVX3lxTE96aTBDOGRJMG5KbTdjZzFYX2FuNzM2a216ZFZKYVFENV9rSDlMTzdPN0IwSHd4VFd4Tko3elhFZE41UVJKQ3V3LWsxZlJrOVVQdnJXVWFJZDlScEJLcDdJaXJfQlVzWlFLMlR1RTljamZnSGtEYkV4Z3E1MXEtNHRvNXdRNmdHMTdBb2dHUmRJM0drdjFhRnE2UXdMR0d6WjVhTHktb1BYc1JXY1VkZnBNRmNZNQ?oc=5",
     "source": "gnews_futures",
     "published_utc": "2026-11-03T12:04:00+00:00",
-    "score": 6.77,
+    "score": 6.72,
     "duplicates": 1
-   },
-   {
-    "id": "60db2c709c",
-    "title": "Black Friday 2026: UB experts on AI, tariffs and inflation - Buffalo News",
-    "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOVDlFaWZ5Z2xUdkpDcGhRdU1QZlowMkV5S1ZqVzhBQ2szS0VGT0tOdHRoOUtXUk1QTHg3bExFYmZFUTl0aktoZTI2ZWhacUl1eXdfaWpoWXFDdFBRQnhPUFRiaXg0TzcySHdDM1U2VjBHQWhXVzF6RmtUVk5KV01zWlRDLW1YMGJ1LVUtNTZwQ0dkdw?oc=5",
-    "source": "gnews_macro",
-    "published_utc": "2026-11-03T08:56:24+00:00",
-    "score": 6.75,
-    "duplicates": 0
    }
   ],
   "summary": {
