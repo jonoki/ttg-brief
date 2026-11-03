@@ -1,7 +1,7 @@
 {
  "meta": {
-  "generated_at_utc": "2026-11-03T15:10:01.392114+00:00",
-  "generated_at_local": "Tue 03 Nov 2026 11:10 AST",
+  "generated_at_utc": "2026-11-03T15:26:05.201001+00:00",
+  "generated_at_local": "Tue 03 Nov 2026 11:26 AST",
   "trading_day": "2026-11-03",
   "display_tz": "America/Halifax",
   "version": "0.1.0",
@@ -65,14 +65,14 @@
    }
   ],
   "next_event": {
-   "name": "Congressional Elections",
-   "impact": "high",
-   "time_utc": "2026-11-03T15:16:00+00:00",
-   "local": "11:16 AST",
-   "et": "10:16 ET",
-   "in": "5 min",
-   "consensus": null,
-   "prior": null
+   "name": "ISM Services PMI",
+   "impact": "medium",
+   "time_utc": "2026-11-04T15:00:00+00:00",
+   "local": "11:00 AST",
+   "et": "10:00 ET",
+   "in": "23h 33m",
+   "consensus": "54.8",
+   "prior": "54.9"
   },
   "sources": [],
   "warnings": []
@@ -81,10 +81,10 @@
   {
    "root": "ES",
    "trading_day": "2026-11-03",
-   "as_of_utc": "2026-11-03T15:10:01.392114+00:00",
+   "as_of_utc": "2026-11-03T15:26:05.201001+00:00",
    "source": "yahoo",
    "delayed": true,
-   "last_price": 7588.5,
+   "last_price": 7595.5,
    "levels": [
     {
      "tag": "pwh",
@@ -242,8 +242,8 @@
     }
    ],
    "stats": {
-    "last_bar_utc": "2026-11-03T15:00:00+00:00",
-    "last_bar_age_min": 10.0,
+    "last_bar_utc": "2026-11-03T15:16:00+00:00",
+    "last_bar_age_min": 10.1,
     "market_state": "open",
     "profile_volume": 1520392.0,
     "prior_day": "2026-11-02",
@@ -1509,20 +1509,28 @@
     {
      "t": "2026-11-03T15:00:00+00:00",
      "o": 7591.25,
-     "h": 7592.5,
+     "h": 7597.25,
      "l": 7583.5,
-     "c": 7588.5,
-     "v": 0.0
+     "c": 7596.5,
+     "v": 62816.0
+    },
+    {
+     "t": "2026-11-03T15:15:00+00:00",
+     "o": 7596.25,
+     "h": 7599.5,
+     "l": 7591.5,
+     "c": 7595.5,
+     "v": 6041.0
     }
    ]
   },
   {
    "root": "NQ",
    "trading_day": "2026-11-03",
-   "as_of_utc": "2026-11-03T15:10:01.392114+00:00",
+   "as_of_utc": "2026-11-03T15:26:05.201001+00:00",
    "source": "yahoo",
    "delayed": true,
-   "last_price": 28279.5,
+   "last_price": 28327.5,
    "levels": [
     {
      "tag": "pwh",
@@ -1581,11 +1589,25 @@
      "note": "since 18:00 ET, 920 bars"
     },
     {
+     "tag": "rn_major_up",
+     "label": "Round 100 above",
+     "price": 28400.0,
+     "group": "round",
+     "note": ""
+    },
+    {
      "tag": "tdh",
      "label": "Today's RTH high",
      "price": 28385.75,
      "group": "today",
      "note": "so far"
+    },
+    {
+     "tag": "rn_minor_up",
+     "label": "Round 50 above",
+     "price": 28350.0,
+     "group": "round",
+     "note": ""
     },
     {
      "tag": "val",
@@ -1595,8 +1617,8 @@
      "note": "70 % value area"
     },
     {
-     "tag": "rn_major_up",
-     "label": "Round 100 above",
+     "tag": "rn_major_dn",
+     "label": "Round 100 below",
      "price": 28300.0,
      "group": "round",
      "note": ""
@@ -1607,13 +1629,6 @@
      "price": 28266.5,
      "group": "today",
      "note": "09:30 bar open"
-    },
-    {
-     "tag": "rn_minor_dn",
-     "label": "Round 50 below",
-     "price": 28250.0,
-     "group": "round",
-     "note": ""
     },
     {
      "tag": "pwl",
@@ -1634,13 +1649,6 @@
      "label": "Today's RTH low",
      "price": 28215.75,
      "group": "today",
-     "note": ""
-    },
-    {
-     "tag": "rn_major_dn",
-     "label": "Round 100 below",
-     "price": 28200.0,
-     "group": "round",
      "note": ""
     },
     {
@@ -1680,8 +1688,8 @@
     }
    ],
    "stats": {
-    "last_bar_utc": "2026-11-03T15:00:00+00:00",
-    "last_bar_age_min": 10.0,
+    "last_bar_utc": "2026-11-03T15:16:00+00:00",
+    "last_bar_age_min": 10.1,
     "market_state": "open",
     "profile_volume": 537790.0,
     "prior_day": "2026-11-02",
@@ -2946,11 +2954,19 @@
     },
     {
      "t": "2026-11-03T15:00:00+00:00",
-     "o": 28286.0,
-     "h": 28292.75,
+     "o": 28289.25,
+     "h": 28347.25,
      "l": 28248.0,
-     "c": 28279.5,
-     "v": 0.0
+     "c": 28328.25,
+     "v": 30472.0
+    },
+    {
+     "t": "2026-11-03T15:15:00+00:00",
+     "o": 28327.25,
+     "h": 28348.75,
+     "l": 28296.25,
+     "c": 28327.5,
+     "v": 2204.0
     }
    ]
   }
