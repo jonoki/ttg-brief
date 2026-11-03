@@ -1,7 +1,7 @@
 {
  "meta": {
-  "generated_at_utc": "2026-11-03T11:40:20.107625+00:00",
-  "generated_at_local": "Tue 03 Nov 2026 07:40 AST",
+  "generated_at_utc": "2026-11-03T11:55:35.941379+00:00",
+  "generated_at_local": "Tue 03 Nov 2026 07:55 AST",
   "trading_day": "2026-11-03",
   "display_tz": "America/Halifax",
   "version": "0.1.0",
@@ -70,7 +70,7 @@
    "time_utc": "2026-11-03T15:00:00+00:00",
    "local": "11:00 AST",
    "et": "10:00 ET",
-   "in": "3h 19m",
+   "in": "3h 04m",
    "consensus": "7.15M",
    "prior": "7.08M"
   },
@@ -81,10 +81,10 @@
   {
    "root": "ES",
    "trading_day": "2026-11-03",
-   "as_of_utc": "2026-11-03T11:40:20.107625+00:00",
+   "as_of_utc": "2026-11-03T11:55:35.941379+00:00",
    "source": "yahoo",
    "delayed": true,
-   "last_price": 7563.75,
+   "last_price": 7564.5,
    "levels": [
     {
      "tag": "pwh",
@@ -154,7 +154,7 @@
      "label": "Overnight high",
      "price": 7591.5,
      "group": "overnight",
-     "note": "since 18:00 ET, 741 bars"
+     "note": "since 18:00 ET, 756 bars"
     },
     {
      "tag": "pdc",
@@ -180,7 +180,7 @@
     {
      "tag": "onvwap",
      "label": "Overnight VWAP",
-     "price": 7567.78,
+     "price": 7567.72,
      "group": "overnight",
      "note": "typical-price VWAP"
     },
@@ -221,14 +221,14 @@
     }
    ],
    "stats": {
-    "last_bar_utc": "2026-11-03T11:30:00+00:00",
-    "last_bar_age_min": 10.3,
+    "last_bar_utc": "2026-11-03T11:45:00+00:00",
+    "last_bar_age_min": 10.6,
     "market_state": "open",
     "profile_volume": 1520392.0,
     "prior_day": "2026-11-02",
     "prior_day_rth_range": 123.0,
     "overnight_range": 45.5,
-    "gap_vs_prior_close": -12.5,
+    "gap_vs_prior_close": -11.75,
     "gap_basis": "last price (pre-market)",
     "atr14": 100.95,
     "atr_days": 14,
@@ -1376,9 +1376,17 @@
     {
      "t": "2026-11-03T11:30:00+00:00",
      "o": 7564.75,
-     "h": 7565.25,
-     "l": 7563.75,
-     "c": 7563.75,
+     "h": 7567.5,
+     "l": 7563.0,
+     "c": 7564.75,
+     "v": 4680.0
+    },
+    {
+     "t": "2026-11-03T11:45:00+00:00",
+     "o": 7565.5,
+     "h": 7565.5,
+     "l": 7563.5,
+     "c": 7564.5,
      "v": 0.0
     }
    ]
@@ -1386,10 +1394,10 @@
   {
    "root": "NQ",
    "trading_day": "2026-11-03",
-   "as_of_utc": "2026-11-03T11:40:20.107625+00:00",
+   "as_of_utc": "2026-11-03T11:55:35.941379+00:00",
    "source": "yahoo",
    "delayed": true,
-   "last_price": 28213.5,
+   "last_price": 28208.25,
    "levels": [
     {
      "tag": "pwh",
@@ -1459,7 +1467,7 @@
      "label": "Overnight high",
      "price": 28284.5,
      "group": "overnight",
-     "note": "since 18:00 ET, 741 bars"
+     "note": "since 18:00 ET, 756 bars"
     },
     {
      "tag": "rn_minor_up",
@@ -1485,7 +1493,7 @@
     {
      "tag": "onvwap",
      "label": "Overnight VWAP",
-     "price": 28178.83,
+     "price": 28179.25,
      "group": "overnight",
      "note": "typical-price VWAP"
     },
@@ -1526,14 +1534,14 @@
     }
    ],
    "stats": {
-    "last_bar_utc": "2026-11-03T11:30:00+00:00",
-    "last_bar_age_min": 10.3,
+    "last_bar_utc": "2026-11-03T11:45:00+00:00",
+    "last_bar_age_min": 10.6,
     "market_state": "open",
     "profile_volume": 537790.0,
     "prior_day": "2026-11-02",
     "prior_day_rth_range": 789.5,
     "overnight_range": 246.25,
-    "gap_vs_prior_close": 74.75,
+    "gap_vs_prior_close": 69.5,
     "gap_basis": "last price (pre-market)",
     "atr14": 714.0,
     "atr_days": 14,
@@ -2681,9 +2689,17 @@
     {
      "t": "2026-11-03T11:30:00+00:00",
      "o": 28220.25,
-     "h": 28222.0,
-     "l": 28211.0,
-     "c": 28213.5,
+     "h": 28226.5,
+     "l": 28198.75,
+     "c": 28208.75,
+     "v": 1505.0
+    },
+    {
+     "t": "2026-11-03T11:45:00+00:00",
+     "o": 28209.75,
+     "h": 28212.25,
+     "l": 28202.5,
+     "c": 28208.25,
      "v": 0.0
     }
    ]
@@ -2697,7 +2713,7 @@
     "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOQ3VEMVBJekR3YkhqVzlaaU96RnJ5bkJBZXY0Ynk1RkREU0xIUGFSaWxZNmNVbXUxY29wdU1Pam5fOUhQbmdsU2ZBaDRKalNxWDVmN21nNlVUT1MzVkpkLXdoQU80NFNTMHNYYXpEMVF0SzhmczNNeTNHX3NGclRtaHZhUTkwMWNSTDhzd1dCUTN4eWlzMFdNSU9IMHZJUUtkbVRDZlJJaUo1eVAzSk9Oc1RzbFRldmJoX00yMnhFME1US0FC?oc=5",
     "source": "gnews_fed",
     "published_utc": "2026-11-03T09:06:00+00:00",
-    "score": 9.07,
+    "score": 9.03,
     "duplicates": 0
    },
    {
@@ -2706,7 +2722,7 @@
     "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNWVp0N2w0REZqOUJ3YkRxcmliYkhtX25yTkFtdmJDUFdSVm5CcXRQYjdMeFFLU0gxcHk1STM2R0xXaGJ6TW9ZN2ZQS2RReVRiXzNtY1B3Qm5fZ1lfTUFaMVpRM2d2ZVZodnZtbUFFLUtkcURfUEtENElyNG5YcFRGcncteEFaZFUwOGxVUmpTMWFkMEtvb09VTG50a2NSbjhLUm5Zc3EtZS1XUU5lWm9B?oc=5",
     "source": "gnews_futures",
     "published_utc": "2026-11-03T10:51:43+00:00",
-    "score": 8.36,
+    "score": 8.32,
     "duplicates": 3
    },
    {
@@ -2715,7 +2731,16 @@
     "link": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxNOS1VSksxcV80OVktM2o3cHZuQ2RpYUNiRzkxMG4yWEhJbUhjOVRyWTdSdEZhUks5OHB3Xy1QOGhfb2xza2wxdEFyQjlPeURlYm5PdE90XzEtallPZExzeFJqSGdEblRHLTBlZGFuSXFISzJzM1BWV2ViMl9ucDdfM2diVFVwRmxIOTZOd3l5Y1ctMzItR0trWmE3TDhUTEF0aE05MzdiZl9KaGptTFJMUmFwbnJic0h2S0FSOWpTMHF2NFJJNG43d0d3NWlTdHFLSXRldk1Wb1hIRXNVYUlXM1pxOXQ4Y1gzV3dacHZxXy11Zw?oc=5",
     "source": "gnews_futures",
     "published_utc": "2026-11-03T10:06:30+00:00",
-    "score": 8.24,
+    "score": 8.2,
+    "duplicates": 0
+   },
+   {
+    "id": "8bb8b3faa1",
+    "title": "Midterm elections could jolt stocks if Democrats sweep Congress",
+    "link": "https://www.cnbc.com/2026/11/03/midterm-election-stock-market.html",
+    "source": "cnbc_markets",
+    "published_utc": "2026-11-03T11:54:28+00:00",
+    "score": 8.0,
     "duplicates": 0
    },
    {
@@ -2728,21 +2753,12 @@
     "duplicates": 0
    },
    {
-    "id": "8bb8b3faa1",
-    "title": "Midterm elections could jolt stocks if Democrats sweep Congress",
-    "link": "https://www.cnbc.com/2026/11/03/midterm-election-stock-market.html",
-    "source": "cnbc_markets",
-    "published_utc": "2026-11-03T11:37:27+00:00",
-    "score": 7.99,
-    "duplicates": 0
-   },
-   {
     "id": "e6b9e4ada3",
     "title": "US Stock Futures Slip as Apple Margin Outlook and Palantir Contract Growth Disappoint Ahead of Midterm Elections: Dow Jones, S&P, Nasdaq, Wall Street - Yahoo Finance",
     "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQWVJHVXljZXZUczVDVnJrblpiZUY4RUhEbXlBcXU0NkVNMlJDQWJnWlBCLTc1NnpFRGNDR0pSSEt1dzh6R1NJTjNHWW5GZTlKM2RkUHVPTTNEbzloeVFVMjFlSmFvclJGRkVSUjlZVV9xSHk2c04zSVA5WldFNGNvVDFJbkI0eWNoTGN2LUFIX0h4VmYyTlEw?oc=5",
     "source": "gnews_futures",
     "published_utc": "2026-11-03T10:06:05+00:00",
-    "score": 7.74,
+    "score": 7.7,
     "duplicates": 0
    },
    {
@@ -2751,7 +2767,7 @@
     "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOVWlSTDN0T3BSMGpscFRDcTRpWTJoRHJ4RXpxV0IxTmtHMHhFSlVlYnF2YkNvRlJkS01GdThmZE1HM2VBaUF3ZXpOaEVZb2drcW4zeFphVWV6VUV5bzZoSDQwa25Kc3NBcVhXYjlUYmRrVjBHdHdUSG5ZWjVJZ3lNNldSSkVHWWE0YnlPcTlXaU9hTDZQdnA5cExfZFhaaW9vTmtKd2cyMHIzZE9FWHBSWHZ3?oc=5",
     "source": "gnews_futures",
     "published_utc": "2026-11-03T06:46:27+00:00",
-    "score": 7.68,
+    "score": 7.64,
     "duplicates": 1
    },
    {
@@ -2760,7 +2776,7 @@
     "link": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxQN180aVVkY3RDYkNSQ05rZURzc004czdmUzViNndDbUxWaFhkOVpvSW1IRDhqRjAxNEdVcS1UNUE4aGhXd1FhM0RUa3B5MUVjVm44MFVFQWV1QkppcXZDS2ZYQWpCeFEyOERBNm9RcjlodEtCaXpSdkNQT0thbWVadkdsbHNaRUZxeThPWWo3VEYyMTg5bDVTUl9CZnBpSV9VaERZYzVndHZqc1ZfMVp0dkJ1dTYxZzhVbF9QYUUzZm5vaHkzU0kwUGJ5YzdTX0hKR3cxVkFwUEdCdlNUWWgxWlVWblpleWVuLUxGZFpR?oc=5",
     "source": "gnews_futures",
     "published_utc": "2026-11-03T00:15:59+00:00",
-    "score": 7.6,
+    "score": 7.56,
     "duplicates": 0
    },
    {
@@ -2769,7 +2785,7 @@
     "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOVDlFaWZ5Z2xUdkpDcGhRdU1QZlowMkV5S1ZqVzhBQ2szS0VGT0tOdHRoOUtXUk1QTHg3bExFYmZFUTl0aktoZTI2ZWhacUl1eXdfaWpoWXFDdFBRQnhPUFRiaXg0TzcySHdDM1U2VjBHQWhXVzF6RmtUVk5KV01zWlRDLW1YMGJ1LVUtNTZwQ0dkdw?oc=5",
     "source": "gnews_macro",
     "published_utc": "2026-11-03T08:56:24+00:00",
-    "score": 7.54,
+    "score": 7.5,
     "duplicates": 0
    },
    {
@@ -2778,7 +2794,7 @@
     "link": "https://news.google.com/rss/articles/CBMijgJBVV95cUxNdEdDRGhrejBfbl9xbE9Fd1U3ZUEtUXBueDEzQndCUjh6eEVJcUkwdV9LOXg4aF93V1Fka1hJWVNfajI3Tjh4V28zd3dpZ2toVmV5MGZnS3poUzhBMHp4MlRaWWlVNER0OHJiTFA4UjZIbzVyei1nUlozeTQyN2tfRmx2TnZWTUFPM2RXSWg2LTFMNnpXVUJrNk9yYVl2S0YtVDlwWjc1R2RfeGU5THZ5aGduLUJrVEdIU0xKa2hVLVNiRlYzNjlSZVlmbWIwemtkdHNIUUpORF9LVjc4MlYwNVFEZWtvZFVaUDU3VE83ajZIYW1DQ1k2X0Jlb05QOUdNLVpUZkZaeTZjTml2b3c?oc=5",
     "source": "gnews_macro",
     "published_utc": "2026-11-03T11:03:10+00:00",
-    "score": 7.4,
+    "score": 7.35,
     "duplicates": 0
    },
    {
@@ -2787,16 +2803,16 @@
     "link": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxQekx3TGQ2V0RtcG5TZnJHeTNfYUtCWTh0eXQwWjhGeHU4MXVlT1hueER6em1XZDhKd3VtWnQ3cTVTM01KUFhlZjdJUHY0RTJfZmVqY2VOelRudkV3WFctek9CcjFiV21SQUFJSXFrSFdFSE1HUmtWRThnR0xCMmx3UV9yeER2TVM0Mm5CZ1J0dXcyTnBOdHB1TUJDWlBRNUJjV0ZRZG9aTlFpSlVNQ2pjY3RmdnVsakFEMl83dmJOYjZ0cXhLMEJSdmxDLWMyaTZJVVpfUGxVc2ZXWDJzS0p6XzlkSGZ0TnJ3MkREQU9NTkdsYkVWQ0E?oc=5",
     "source": "gnews_futures",
     "published_utc": "2026-11-03T10:10:45+00:00",
-    "score": 6.75,
+    "score": 6.71,
     "duplicates": 0
    },
    {
-    "id": "be1a8ceaf1",
-    "title": "This signal from the corporate bond market has historically preceded big drawdowns for the S&P 500",
-    "link": "https://www.marketwatch.com/story/this-signal-from-the-corporate-bond-market-has-historically-preceded-big-drawdowns-for-the-s-p-500-8c1a3d25?mod=mw_rss_topstories",
-    "source": "marketwatch_top",
-    "published_utc": "2026-11-03T10:31:00+00:00",
-    "score": 6.31,
+    "id": "f043426f2f",
+    "title": "Apple shares fall as China revenue misses estimates - Traders Union",
+    "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE5KdGVzWURieE5fY2F4TlkzX1ItSjR1ZEdaLWJOdmVHVGRTbHp5Z3duNmhVaDlWT2psSUJDWHotUG5MVWZIT0tjUkRJeG1nbFpvbUlRZkl6RVd2Wmp0b0xoOVUxQ1FpaVJXYVhUNnY3ZVUtZW5IX1ZF?oc=5",
+    "source": "gnews_megacap",
+    "published_utc": "2026-11-03T11:19:36+00:00",
+    "score": 6.4,
     "duplicates": 0
    }
   ],
@@ -2805,8 +2821,8 @@
     "Fed Chair Kevin Warsh Just Drove a Dagger Through Wall Street's AI-Driven Rally With 6 Blunt Words - The Motley Fool [ab544d4cd4]",
     "US stock futures mixed as Apple slides, midterms loom - Reuters [d1722588eb]",
     "Stock Market Today: Dow, S&P 500 Futures Mixed as Trump Touts Iran Settlement Hopes — AAPL, PLTR, AMD in - Benzinga [d777a626a0]",
-    "Credit pressures test bond rally as inflation complicates Fed policy outlook - Fox Business [8086965549]",
-    "Midterm elections could jolt stocks if Democrats sweep Congress [8bb8b3faa1]"
+    "Midterm elections could jolt stocks if Democrats sweep Congress [8bb8b3faa1]",
+    "Credit pressures test bond rally as inflation complicates Fed policy outlook - Fox Business [8086965549]"
    ],
    "backend": "none",
    "model": null,
