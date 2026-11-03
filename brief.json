@@ -1,7 +1,7 @@
 {
  "meta": {
-  "generated_at_utc": "2026-11-03T16:12:18.164762+00:00",
-  "generated_at_local": "Tue 03 Nov 2026 12:12 AST",
+  "generated_at_utc": "2026-11-03T16:27:48.975119+00:00",
+  "generated_at_local": "Tue 03 Nov 2026 12:27 AST",
   "trading_day": "2026-11-03",
   "display_tz": "America/Halifax",
   "version": "0.1.0",
@@ -70,7 +70,7 @@
    "time_utc": "2026-11-04T15:00:00+00:00",
    "local": "11:00 AST",
    "et": "10:00 ET",
-   "in": "22h 47m",
+   "in": "22h 32m",
    "consensus": "54.8",
    "prior": "54.9"
   },
@@ -81,10 +81,10 @@
   {
    "root": "ES",
    "trading_day": "2026-11-03",
-   "as_of_utc": "2026-11-03T16:12:18.164762+00:00",
+   "as_of_utc": "2026-11-03T16:27:48.975119+00:00",
    "source": "yahoo",
    "delayed": true,
-   "last_price": 7614.25,
+   "last_price": 7613.25,
    "levels": [
     {
      "tag": "pwh",
@@ -152,7 +152,7 @@
     {
      "tag": "tdh",
      "label": "Today's RTH high",
-     "price": 7616.75,
+     "price": 7618.25,
      "group": "today",
      "note": "so far"
     },
@@ -242,8 +242,8 @@
     }
    ],
    "stats": {
-    "last_bar_utc": "2026-11-03T16:02:00+00:00",
-    "last_bar_age_min": 10.3,
+    "last_bar_utc": "2026-11-03T16:17:00+00:00",
+    "last_bar_age_min": 10.8,
     "market_state": "open",
     "profile_volume": 1520392.0,
     "prior_day": "2026-11-02",
@@ -1541,20 +1541,28 @@
     {
      "t": "2026-11-03T16:00:00+00:00",
      "o": 7615.25,
-     "h": 7616.75,
+     "h": 7617.5,
      "l": 7611.75,
-     "c": 7614.25,
-     "v": 7315.0
+     "c": 7614.75,
+     "v": 40517.0
+    },
+    {
+     "t": "2026-11-03T16:15:00+00:00",
+     "o": 7615.0,
+     "h": 7618.25,
+     "l": 7612.25,
+     "c": 7613.25,
+     "v": 5199.0
     }
    ]
   },
   {
    "root": "NQ",
    "trading_day": "2026-11-03",
-   "as_of_utc": "2026-11-03T16:12:18.164762+00:00",
+   "as_of_utc": "2026-11-03T16:27:48.975119+00:00",
    "source": "yahoo",
    "delayed": true,
-   "last_price": 28429.0,
+   "last_price": 28373.25,
    "levels": [
     {
      "tag": "pwh",
@@ -1606,23 +1614,9 @@
      "note": "2026-11-02 RTH, bin 1.0"
     },
     {
-     "tag": "rn_major_up",
-     "label": "Round 100 above",
-     "price": 28500.0,
-     "group": "round",
-     "note": ""
-    },
-    {
-     "tag": "rn_minor_up",
-     "label": "Round 50 above",
-     "price": 28450.0,
-     "group": "round",
-     "note": ""
-    },
-    {
      "tag": "tdh",
      "label": "Today's RTH high",
-     "price": 28438.25,
+     "price": 28443.5,
      "group": "today",
      "note": "so far"
     },
@@ -1634,9 +1628,16 @@
      "note": "since 18:00 ET, 920 bars"
     },
     {
-     "tag": "rn_major_dn",
-     "label": "Round 100 below",
+     "tag": "rn_major_up",
+     "label": "Round 100 above",
      "price": 28400.0,
+     "group": "round",
+     "note": ""
+    },
+    {
+     "tag": "rn_minor_dn",
+     "label": "Round 50 below",
+     "price": 28350.0,
      "group": "round",
      "note": ""
     },
@@ -1646,6 +1647,13 @@
      "price": 28341.0,
      "group": "profile",
      "note": "70 % value area"
+    },
+    {
+     "tag": "rn_major_dn",
+     "label": "Round 100 below",
+     "price": 28300.0,
+     "group": "round",
+     "note": ""
     },
     {
      "tag": "rtho",
@@ -1712,8 +1720,8 @@
     }
    ],
    "stats": {
-    "last_bar_utc": "2026-11-03T16:02:00+00:00",
-    "last_bar_age_min": 10.3,
+    "last_bar_utc": "2026-11-03T16:17:00+00:00",
+    "last_bar_age_min": 10.8,
     "market_state": "open",
     "profile_volume": 537790.0,
     "prior_day": "2026-11-02",
@@ -3011,10 +3019,18 @@
     {
      "t": "2026-11-03T16:00:00+00:00",
      "o": 28418.25,
-     "h": 28438.25,
-     "l": 28403.75,
-     "c": 28429.0,
-     "v": 3817.0
+     "h": 28443.5,
+     "l": 28383.5,
+     "c": 28394.5,
+     "v": 17914.0
+    },
+    {
+     "t": "2026-11-03T16:15:00+00:00",
+     "o": 28396.75,
+     "h": 28414.5,
+     "l": 28367.5,
+     "c": 28373.25,
+     "v": 1917.0
     }
    ]
   }
@@ -3027,7 +3043,7 @@
     "link": "https://www.cnbc.com/2026/11/03/job-openings-posted-big-september-gain-in-positive-sign-for-labor-market-ahead-of-payrolls-report.html",
     "source": "cnbc_markets",
     "published_utc": "2026-11-03T16:10:21+00:00",
-    "score": 8.49,
+    "score": 8.45,
     "duplicates": 0
    },
    {
@@ -3036,7 +3052,7 @@
     "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOQ3VEMVBJekR3YkhqVzlaaU96RnJ5bkJBZXY0Ynk1RkREU0xIUGFSaWxZNmNVbXUxY29wdU1Pam5fOUhQbmdsU2ZBaDRKalNxWDVmN21nNlVUT1MzVkpkLXdoQU80NFNTMHNYYXpEMVF0SzhmczNNeTNHX3NGclRtaHZhUTkwMWNSTDhzd1dCUTN4eWlzMFdNSU9IMHZJUUtkbVRDZlJJaUo1eVAzSk9Oc1RzbFRldmJoX00yMnhFME1US0FC?oc=5",
     "source": "gnews_fed",
     "published_utc": "2026-11-03T09:06:00+00:00",
-    "score": 8.32,
+    "score": 8.27,
     "duplicates": 0
    },
    {
@@ -3045,7 +3061,7 @@
     "link": "https://www.cnbc.com/2026/11/03/apple-earnings-john-ternus-faces-first-test-amid-high-memory-costs.html",
     "source": "cnbc_markets",
     "published_utc": "2026-11-03T14:38:03+00:00",
-    "score": 8.24,
+    "score": 8.2,
     "duplicates": 1
    },
    {
@@ -3053,8 +3069,8 @@
     "title": "Midterm elections could jolt stocks if Democrats sweep Congress",
     "link": "https://www.cnbc.com/2026/11/03/midterm-election-stock-market.html",
     "source": "cnbc_markets",
-    "published_utc": "2026-11-03T13:28:36+00:00",
-    "score": 7.55,
+    "published_utc": "2026-11-03T16:18:48+00:00",
+    "score": 7.97,
     "duplicates": 0
    },
    {
@@ -3072,7 +3088,7 @@
     "link": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxPaFdvOU5EXzZqeXUwend1YU9pTHd6dXVoOGF5emNLdDR1dG5vckFpRTk5NlBXMFJPYlVFai1BSlhFQkFDWVBMWUpMNXBMWjBhb3NJVUpTUTBQcnFzT2JSMjJCVkM0X21HaEdxbURSY3JWTmlha3FfR1JQLUE1WmVlRWppSno1cU1jZEN6bmc0WTBoalgyNW1fOTVXWElodWRaOTh6U1VRTXBJbVRFTWswMFd4YmFGNU40eGVZNkcyRmVzbF9ON1RRQVNoZzdTVml0M3BLX3BJUEswZGxi0gHkAUFVX3lxTE9ELVNIdGxvZXFLeExobENfYk9fVmRXaUM4OFlWOUJ1Tm1jTmppNmM5dXdHNGlMbXV0R0J3eVdIQXdZdzU2TzV4aUxNakpPdVktSFNmTXJVQkhpRHBUX0g5UUlKcUdBS2tpQjJYUWN6N2E4QkZzRXBBN3RDRHVGRjNoaDlsQXJjVmlVYnVoZzJRbUN6bkpTcmN0cWJXOHNUR3FxaUdPQUhhcUtVZWx2NXYzSlpfUXZPdzZybVFlY2hhenJyWjNtdTBOOHREdmpTOGZKbkpvOF9HM0FEOUNlWlV4OWNVbQ?oc=5",
     "source": "gnews_megacap",
     "published_utc": "2026-11-03T15:04:24+00:00",
-    "score": 7.31,
+    "score": 7.27,
     "duplicates": 0
    },
    {
@@ -3081,7 +3097,7 @@
     "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPbm92MnUtZC05TWlYQWpPb2NTT1l6MzNLTFNRZ0ZKMF93QWtwbGpKdDZuUVFvVDl0QjNjbmtjZEw3TmNnUDFQSXM1YmxFTkVuRHNhMFJta0lkNEFCOEdKeDgyRjZvR2cwNW5pM1F5MkwtSm1XU0xzWHJtZUJQcEVIU0wzNFZaRTFtRERSUEhDRUR6dnBuTTZYVmJvMGtBblF6dTdTV3gyUXRqdEZJXzNvVDZwUC1GcEVpalE?oc=5",
     "source": "gnews_fed",
     "published_utc": "2026-11-03T14:53:59+00:00",
-    "score": 7.28,
+    "score": 7.24,
     "duplicates": 0
    },
    {
@@ -3090,17 +3106,8 @@
     "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQWVJHVXljZXZUczVDVnJrblpiZUY4RUhEbXlBcXU0NkVNMlJDQWJnWlBCLTc1NnpFRGNDR0pSSEt1dzh6R1NJTjNHWW5GZTlKM2RkUHVPTTNEbzloeVFVMjFlSmFvclJGRkVSUjlZVV9xSHk2c04zSVA5WldFNGNvVDFJbkI0eWNoTGN2LUFIX0h4VmYyTlEw?oc=5",
     "source": "gnews_futures",
     "published_utc": "2026-11-03T10:06:05+00:00",
-    "score": 6.98,
+    "score": 6.94,
     "duplicates": 0
-   },
-   {
-    "id": "181137c7dc",
-    "title": "US stock futures mixed as Apple slides 4.5%, investors await midterm election results | Hindustan Times - Hindustan Times",
-    "link": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxQMmZSQnQ5cjVnbTFrbUhHTHB5eEtOaGpoRDBRZjgzM3lpTlNqc2VuZ2NnN1RaS0tRU2tDT3ZvQ3RzV3g0Z3d6Z1gwNTA1Y250QjVVQ2hMMjREd1hhdFQxVzJMRmdCNzhLdzVsTlRRdzVHbFhLUW1aTW03ZjNqU2ZuYmVWcW9mMllFd1VNNTRReVVOdzliaDhENUVod3BjSWF1TmVnZlFyUXhTeFk3elZqVjBoV0hPc0lyQWktd25SOTNvUWNvOGFubFZkellUY3FldjNDT21fN1BicGJ2Yk5zTjd6ZHk3cmtsTEHSAe8BQVVfeXFMUHhOdXlEUDNQM2w4RWJhOUhFaHRrbGlrUHNRRjVYOV9MN1BkSkcxQi1LQ09sWHhrbFNBeHlKRlhETi01YU9SMGlMcHo1X0ZNdldyUm5hUFpmaEtoWXhvOEpsTDdBMUsyMGxPcTJZYjM4enIyVGlLU0dJdWtVclhFSmdsTVdCa2JsWGlPdTB0ckxFMTBtNUk1UTFYNlVVb2hWR3dOaGVhcExvZ0lwdzNWSWdYbTFMWkgtMllwNXQ4QVZMRjFFeS01Y3Ryb01qaVVpSFpnOE90N3JlVE5UdDZsMmkzMFloWXd6UHl1c1YyVTA?oc=5",
-    "source": "gnews_futures",
-    "published_utc": "2026-11-03T12:43:05+00:00",
-    "score": 6.92,
-    "duplicates": 1
    },
    {
     "id": "d1722588eb",
@@ -3108,16 +3115,16 @@
     "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNWVp0N2w0REZqOUJ3YkRxcmliYkhtX25yTkFtdmJDUFdSVm5CcXRQYjdMeFFLU0gxcHk1STM2R0xXaGJ6TW9ZN2ZQS2RReVRiXzNtY1B3Qm5fZ1lfTUFaMVpRM2d2ZVZodnZtbUFFLUtkcURfUEtENElyNG5YcFRGcncteEFaZFUwOGxVUmpTMWFkMEtvb09VTG50a2NSbjhLUm5Zc3EtZS1XUU5lWm9B?oc=5",
     "source": "gnews_futures",
     "published_utc": "2026-11-03T15:38:24+00:00",
-    "score": 6.91,
+    "score": 6.86,
     "duplicates": 0
    },
    {
-    "id": "eff30e53c6",
-    "title": "Apple (NASDAQ:AAPL) Stock Slides Despite US$114.5 Billion Revenue Beat: What Went Wrong? - Stocks Down Under",
-    "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPVDJEM1V3RE91VEdDRFFTZE9OXy1qVEpHMXlNeWJlbG9oQzNLRFl0cy01MXNXZXM2Z3BwM1FKdnFRNkFUX1NKSlJRR1RCXzdOXzB3X2dETTFPVlNMN0R0NDAzVDZ4UlZDQXhYYWx2R0RGd0V3aU5OSmd4b2tIdkdCMw?oc=5",
+    "id": "6ddbe395e4",
+    "title": "Nasdaq Rises on Chip Rebound as Dow Falls on Apple Weakness - HDFC Sky",
+    "link": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxOdjJWZldGdFhZRFRrS2tnTG95MU00dG1pdU9DYmlKbHhhUUR2RG1Hcm8wb1B6ZDB0a21fSFkwaDlJVXA5VXBlanZ6cTBZT0JjV1A3dzBfUHVWSzdqdHhKYlQtWENTSkFkVXV3cEd5Wm9fSkJrNjBRMkN0QkwxMzh6MEszVk54UmhDalFHNXMwV3hpeEoyUnJoTXJVMl9Tc2NlMXRwN1YtY3BQeEVMQnNXaEpuWW8wOWloZXRKc3BwckJfeV9oem5PMmhBTk5KaG1JT3BjY0dVa2JFYUs4UWgwOVJoSQ?oc=5",
     "source": "gnews_megacap",
-    "published_utc": "2026-11-03T15:40:45+00:00",
-    "score": 6.91,
+    "published_utc": "2026-11-03T15:17:51+00:00",
+    "score": 6.81,
     "duplicates": 0
    },
    {
@@ -3126,8 +3133,17 @@
     "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOamlNY3dJUGMxZkR2cUcyVnZIN3d4UTZjMmN2elI5aXRtRFJtYTFJNFN6S3ZJaHVEXzRxbklyVEhjdWFpalRKZnFzMWhSdktZZVd5OXNoLVVOQjl5bmxadktCckdKd3V4Vl9SaFZlRG9QY0hQdWJhMVh5ZVdlXzBmYmZtUXVTbTZqTnRjbVp2dlpZZGNhdU5vUHViRUxPS25tbzJRTlJqZW1IN0lYdm5YYlpxd3IzWU4t0gG0AUFVX3lxTE96aTBDOGRJMG5KbTdjZzFYX2FuNzM2a216ZFZKYVFENV9rSDlMTzdPN0IwSHd4VFd4Tko3elhFZE41UVJKQ3V3LWsxZlJrOVVQdnJXVWFJZDlScEJLcDdJaXJfQlVzWlFLMlR1RTljamZnSGtEYkV4Z3E1MXEtNHRvNXdRNmdHMTdBb2dHUmRJM0drdjFhRnE2UXdMR0d6WjVhTHktb1BYc1JXY1VkZnBNRmNZNQ?oc=5",
     "source": "gnews_futures",
     "published_utc": "2026-11-03T12:04:00+00:00",
-    "score": 6.81,
+    "score": 6.77,
     "duplicates": 1
+   },
+   {
+    "id": "60db2c709c",
+    "title": "Black Friday 2026: UB experts on AI, tariffs and inflation - Buffalo News",
+    "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOVDlFaWZ5Z2xUdkpDcGhRdU1QZlowMkV5S1ZqVzhBQ2szS0VGT0tOdHRoOUtXUk1QTHg3bExFYmZFUTl0aktoZTI2ZWhacUl1eXdfaWpoWXFDdFBRQnhPUFRiaXg0TzcySHdDM1U2VjBHQWhXVzF6RmtUVk5KV01zWlRDLW1YMGJ1LVUtNTZwQ0dkdw?oc=5",
+    "source": "gnews_macro",
+    "published_utc": "2026-11-03T08:56:24+00:00",
+    "score": 6.75,
+    "duplicates": 0
    }
   ],
   "summary": {
