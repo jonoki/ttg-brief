@@ -1,7 +1,7 @@
 {
  "meta": {
-  "generated_at_utc": "2026-11-03T15:56:34.901914+00:00",
-  "generated_at_local": "Tue 03 Nov 2026 11:56 AST",
+  "generated_at_utc": "2026-11-03T16:12:18.164762+00:00",
+  "generated_at_local": "Tue 03 Nov 2026 12:12 AST",
   "trading_day": "2026-11-03",
   "display_tz": "America/Halifax",
   "version": "0.1.0",
@@ -70,7 +70,7 @@
    "time_utc": "2026-11-04T15:00:00+00:00",
    "local": "11:00 AST",
    "et": "10:00 ET",
-   "in": "23h 03m",
+   "in": "22h 47m",
    "consensus": "54.8",
    "prior": "54.9"
   },
@@ -81,10 +81,10 @@
   {
    "root": "ES",
    "trading_day": "2026-11-03",
-   "as_of_utc": "2026-11-03T15:56:34.901914+00:00",
+   "as_of_utc": "2026-11-03T16:12:18.164762+00:00",
    "source": "yahoo",
    "delayed": true,
-   "last_price": 7608.5,
+   "last_price": 7614.25,
    "levels": [
     {
      "tag": "pwh",
@@ -152,7 +152,7 @@
     {
      "tag": "tdh",
      "label": "Today's RTH high",
-     "price": 7608.75,
+     "price": 7616.75,
      "group": "today",
      "note": "so far"
     },
@@ -242,8 +242,8 @@
     }
    ],
    "stats": {
-    "last_bar_utc": "2026-11-03T15:43:00+00:00",
-    "last_bar_age_min": 13.6,
+    "last_bar_utc": "2026-11-03T16:02:00+00:00",
+    "last_bar_age_min": 10.3,
     "market_state": "open",
     "profile_volume": 1520392.0,
     "prior_day": "2026-11-02",
@@ -1527,18 +1527,34 @@
      "o": 7599.0,
      "h": 7608.75,
      "l": 7590.75,
-     "c": 7608.5,
-     "v": 42610.0
+     "c": 7601.75,
+     "v": 49375.0
+    },
+    {
+     "t": "2026-11-03T15:45:00+00:00",
+     "o": 7602.0,
+     "h": 7616.25,
+     "l": 7599.25,
+     "c": 7615.25,
+     "v": 40560.0
+    },
+    {
+     "t": "2026-11-03T16:00:00+00:00",
+     "o": 7615.25,
+     "h": 7616.75,
+     "l": 7611.75,
+     "c": 7614.25,
+     "v": 7315.0
     }
    ]
   },
   {
    "root": "NQ",
    "trading_day": "2026-11-03",
-   "as_of_utc": "2026-11-03T15:56:34.901914+00:00",
+   "as_of_utc": "2026-11-03T16:12:18.164762+00:00",
    "source": "yahoo",
    "delayed": true,
-   "last_price": 28377.0,
+   "last_price": 28429.0,
    "levels": [
     {
      "tag": "pwh",
@@ -1590,6 +1606,27 @@
      "note": "2026-11-02 RTH, bin 1.0"
     },
     {
+     "tag": "rn_major_up",
+     "label": "Round 100 above",
+     "price": 28500.0,
+     "group": "round",
+     "note": ""
+    },
+    {
+     "tag": "rn_minor_up",
+     "label": "Round 50 above",
+     "price": 28450.0,
+     "group": "round",
+     "note": ""
+    },
+    {
+     "tag": "tdh",
+     "label": "Today's RTH high",
+     "price": 28438.25,
+     "group": "today",
+     "note": "so far"
+    },
+    {
      "tag": "onh",
      "label": "Overnight high",
      "price": 28426.5,
@@ -1597,23 +1634,9 @@
      "note": "since 18:00 ET, 920 bars"
     },
     {
-     "tag": "rn_major_up",
-     "label": "Round 100 above",
+     "tag": "rn_major_dn",
+     "label": "Round 100 below",
      "price": 28400.0,
-     "group": "round",
-     "note": ""
-    },
-    {
-     "tag": "tdh",
-     "label": "Today's RTH high",
-     "price": 28389.0,
-     "group": "today",
-     "note": "so far"
-    },
-    {
-     "tag": "rn_minor_dn",
-     "label": "Round 50 below",
-     "price": 28350.0,
      "group": "round",
      "note": ""
     },
@@ -1623,13 +1646,6 @@
      "price": 28341.0,
      "group": "profile",
      "note": "70 % value area"
-    },
-    {
-     "tag": "rn_major_dn",
-     "label": "Round 100 below",
-     "price": 28300.0,
-     "group": "round",
-     "note": ""
     },
     {
      "tag": "rtho",
@@ -1696,8 +1712,8 @@
     }
    ],
    "stats": {
-    "last_bar_utc": "2026-11-03T15:44:00+00:00",
-    "last_bar_age_min": 12.6,
+    "last_bar_utc": "2026-11-03T16:02:00+00:00",
+    "last_bar_age_min": 10.3,
     "market_state": "open",
     "profile_volume": 537790.0,
     "prior_day": "2026-11-02",
@@ -2981,8 +2997,24 @@
      "o": 28339.5,
      "h": 28389.0,
      "l": 28288.75,
-     "c": 28377.0,
-     "v": 15823.0
+     "c": 28345.75,
+     "v": 17201.0
+    },
+    {
+     "t": "2026-11-03T15:45:00+00:00",
+     "o": 28345.25,
+     "h": 28422.5,
+     "l": 28326.0,
+     "c": 28417.5,
+     "v": 18269.0
+    },
+    {
+     "t": "2026-11-03T16:00:00+00:00",
+     "o": 28418.25,
+     "h": 28438.25,
+     "l": 28403.75,
+     "c": 28429.0,
+     "v": 3817.0
     }
    ]
   }
@@ -2994,8 +3026,8 @@
     "title": "Job openings posted big September gain in positive sign for labor market ahead of payrolls report",
     "link": "https://www.cnbc.com/2026/11/03/job-openings-posted-big-september-gain-in-positive-sign-for-labor-market-ahead-of-payrolls-report.html",
     "source": "cnbc_markets",
-    "published_utc": "2026-11-03T15:37:34+00:00",
-    "score": 8.45,
+    "published_utc": "2026-11-03T16:10:21+00:00",
+    "score": 8.49,
     "duplicates": 0
    },
    {
@@ -3004,7 +3036,7 @@
     "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOQ3VEMVBJekR3YkhqVzlaaU96RnJ5bkJBZXY0Ynk1RkREU0xIUGFSaWxZNmNVbXUxY29wdU1Pam5fOUhQbmdsU2ZBaDRKalNxWDVmN21nNlVUT1MzVkpkLXdoQU80NFNTMHNYYXpEMVF0SzhmczNNeTNHX3NGclRtaHZhUTkwMWNSTDhzd1dCUTN4eWlzMFdNSU9IMHZJUUtkbVRDZlJJaUo1eVAzSk9Oc1RzbFRldmJoX00yMnhFME1US0FC?oc=5",
     "source": "gnews_fed",
     "published_utc": "2026-11-03T09:06:00+00:00",
-    "score": 8.36,
+    "score": 8.32,
     "duplicates": 0
    },
    {
@@ -3013,17 +3045,8 @@
     "link": "https://www.cnbc.com/2026/11/03/apple-earnings-john-ternus-faces-first-test-amid-high-memory-costs.html",
     "source": "cnbc_markets",
     "published_utc": "2026-11-03T14:38:03+00:00",
-    "score": 8.28,
+    "score": 8.24,
     "duplicates": 1
-   },
-   {
-    "id": "8a9ec0f252",
-    "title": "Stock Market Today: Dow, S&P 500 Futures Fall as AMD Earnings and US Elections Put Wall Street on Edge - Coinpaper",
-    "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQR0pheGdPc0lHdlJad1ZzM1gxM3R4UHdUaEVwY205bHBjRmZ0ZlZodmtYYkNqRFZwT0N2TkVKOFJYalpROXJBWGFxeGdRZHp6bktTYTRJLW5xZW5fLTNicXMwNmFSYVdxVDB2QkR2VUxFYjhiMWxLZndGZFU3YlR5VXo2eDBwZVRLTEJxTWZxTGk4ZVVTTGlfM0UwUHFpMjdrMFZuWkFvV3YtcXZxUlFvMzJ6dnFtV3dvSm9OZGxES2JiQlRxbkVGRXdhcUQ?oc=5",
-    "source": "gnews_futures",
-    "published_utc": "2026-11-03T14:50:31+00:00",
-    "score": 7.82,
-    "duplicates": 0
    },
    {
     "id": "8bb8b3faa1",
@@ -3031,7 +3054,7 @@
     "link": "https://www.cnbc.com/2026/11/03/midterm-election-stock-market.html",
     "source": "cnbc_markets",
     "published_utc": "2026-11-03T13:28:36+00:00",
-    "score": 7.59,
+    "score": 7.55,
     "duplicates": 0
    },
    {
@@ -3049,7 +3072,7 @@
     "link": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxPaFdvOU5EXzZqeXUwend1YU9pTHd6dXVoOGF5emNLdDR1dG5vckFpRTk5NlBXMFJPYlVFai1BSlhFQkFDWVBMWUpMNXBMWjBhb3NJVUpTUTBQcnFzT2JSMjJCVkM0X21HaEdxbURSY3JWTmlha3FfR1JQLUE1WmVlRWppSno1cU1jZEN6bmc0WTBoalgyNW1fOTVXWElodWRaOTh6U1VRTXBJbVRFTWswMFd4YmFGNU40eGVZNkcyRmVzbF9ON1RRQVNoZzdTVml0M3BLX3BJUEswZGxi0gHkAUFVX3lxTE9ELVNIdGxvZXFLeExobENfYk9fVmRXaUM4OFlWOUJ1Tm1jTmppNmM5dXdHNGlMbXV0R0J3eVdIQXdZdzU2TzV4aUxNakpPdVktSFNmTXJVQkhpRHBUX0g5UUlKcUdBS2tpQjJYUWN6N2E4QkZzRXBBN3RDRHVGRjNoaDlsQXJjVmlVYnVoZzJRbUN6bkpTcmN0cWJXOHNUR3FxaUdPQUhhcUtVZWx2NXYzSlpfUXZPdzZybVFlY2hhenJyWjNtdTBOOHREdmpTOGZKbkpvOF9HM0FEOUNlWlV4OWNVbQ?oc=5",
     "source": "gnews_megacap",
     "published_utc": "2026-11-03T15:04:24+00:00",
-    "score": 7.36,
+    "score": 7.31,
     "duplicates": 0
    },
    {
@@ -3058,16 +3081,7 @@
     "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPbm92MnUtZC05TWlYQWpPb2NTT1l6MzNLTFNRZ0ZKMF93QWtwbGpKdDZuUVFvVDl0QjNjbmtjZEw3TmNnUDFQSXM1YmxFTkVuRHNhMFJta0lkNEFCOEdKeDgyRjZvR2cwNW5pM1F5MkwtSm1XU0xzWHJtZUJQcEVIU0wzNFZaRTFtRERSUEhDRUR6dnBuTTZYVmJvMGtBblF6dTdTV3gyUXRqdEZJXzNvVDZwUC1GcEVpalE?oc=5",
     "source": "gnews_fed",
     "published_utc": "2026-11-03T14:53:59+00:00",
-    "score": 7.33,
-    "duplicates": 0
-   },
-   {
-    "id": "65dac7f1d7",
-    "title": "U.S. Stock Futures Fall as Apple Earnings Disappoint, Midterm Elections in Focus - TipRanks",
-    "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPQlF4N1JMS01xLXV0LVE2QjZjN0RDZTBHUkdhcVROTlRBaXg1d0oyek43SktJMHRNV2JDaGhUWl9DbnRNUjB0LTdDc1g5TlNfSXB2Ry1JVzA2dnFxWjh2ZzFUaXY1RWVTQW1qQzRkdGhsMTBVMUNYLWcydjRqbUt5U0oxZDJTTktJZzdjOG8xUUJpaGZwai13SlVTMmZwN1lKRnNlZWgzUXZaTnVq?oc=5",
-    "source": "gnews_futures",
-    "published_utc": "2026-11-03T11:02:41+00:00",
-    "score": 7.18,
+    "score": 7.28,
     "duplicates": 0
    },
    {
@@ -3076,16 +3090,7 @@
     "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQWVJHVXljZXZUczVDVnJrblpiZUY4RUhEbXlBcXU0NkVNMlJDQWJnWlBCLTc1NnpFRGNDR0pSSEt1dzh6R1NJTjNHWW5GZTlKM2RkUHVPTTNEbzloeVFVMjFlSmFvclJGRkVSUjlZVV9xSHk2c04zSVA5WldFNGNvVDFJbkI0eWNoTGN2LUFIX0h4VmYyTlEw?oc=5",
     "source": "gnews_futures",
     "published_utc": "2026-11-03T10:06:05+00:00",
-    "score": 7.03,
-    "duplicates": 0
-   },
-   {
-    "id": "eff30e53c6",
-    "title": "Apple (NASDAQ:AAPL) Stock Slides Despite US$114.5 Billion Revenue Beat: What Went Wrong? - Stocks Down Under",
-    "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPVDJEM1V3RE91VEdDRFFTZE9OXy1qVEpHMXlNeWJlbG9oQzNLRFl0cy01MXNXZXM2Z3BwM1FKdnFRNkFUX1NKSlJRR1RCXzdOXzB3X2dETTFPVlNMN0R0NDAzVDZ4UlZDQXhYYWx2R0RGd0V3aU5OSmd4b2tIdkdCMw?oc=5",
-    "source": "gnews_megacap",
-    "published_utc": "2026-11-03T15:40:45+00:00",
-    "score": 6.96,
+    "score": 6.98,
     "duplicates": 0
    },
    {
@@ -3094,7 +3099,34 @@
     "link": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxQMmZSQnQ5cjVnbTFrbUhHTHB5eEtOaGpoRDBRZjgzM3lpTlNqc2VuZ2NnN1RaS0tRU2tDT3ZvQ3RzV3g0Z3d6Z1gwNTA1Y250QjVVQ2hMMjREd1hhdFQxVzJMRmdCNzhLdzVsTlRRdzVHbFhLUW1aTW03ZjNqU2ZuYmVWcW9mMllFd1VNNTRReVVOdzliaDhENUVod3BjSWF1TmVnZlFyUXhTeFk3elZqVjBoV0hPc0lyQWktd25SOTNvUWNvOGFubFZkellUY3FldjNDT21fN1BicGJ2Yk5zTjd6ZHk3cmtsTEHSAe8BQVVfeXFMUHhOdXlEUDNQM2w4RWJhOUhFaHRrbGlrUHNRRjVYOV9MN1BkSkcxQi1LQ09sWHhrbFNBeHlKRlhETi01YU9SMGlMcHo1X0ZNdldyUm5hUFpmaEtoWXhvOEpsTDdBMUsyMGxPcTJZYjM4enIyVGlLU0dJdWtVclhFSmdsTVdCa2JsWGlPdTB0ckxFMTBtNUk1UTFYNlVVb2hWR3dOaGVhcExvZ0lwdzNWSWdYbTFMWkgtMllwNXQ4QVZMRjFFeS01Y3Ryb01qaVVpSFpnOE90N3JlVE5UdDZsMmkzMFloWXd6UHl1c1YyVTA?oc=5",
     "source": "gnews_futures",
     "published_utc": "2026-11-03T12:43:05+00:00",
-    "score": 6.96,
+    "score": 6.92,
+    "duplicates": 1
+   },
+   {
+    "id": "d1722588eb",
+    "title": "S&P 500, Nasdaq edge higher ahead of midterm results; Apple falls - Reuters",
+    "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNWVp0N2w0REZqOUJ3YkRxcmliYkhtX25yTkFtdmJDUFdSVm5CcXRQYjdMeFFLU0gxcHk1STM2R0xXaGJ6TW9ZN2ZQS2RReVRiXzNtY1B3Qm5fZ1lfTUFaMVpRM2d2ZVZodnZtbUFFLUtkcURfUEtENElyNG5YcFRGcncteEFaZFUwOGxVUmpTMWFkMEtvb09VTG50a2NSbjhLUm5Zc3EtZS1XUU5lWm9B?oc=5",
+    "source": "gnews_futures",
+    "published_utc": "2026-11-03T15:38:24+00:00",
+    "score": 6.91,
+    "duplicates": 0
+   },
+   {
+    "id": "eff30e53c6",
+    "title": "Apple (NASDAQ:AAPL) Stock Slides Despite US$114.5 Billion Revenue Beat: What Went Wrong? - Stocks Down Under",
+    "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPVDJEM1V3RE91VEdDRFFTZE9OXy1qVEpHMXlNeWJlbG9oQzNLRFl0cy01MXNXZXM2Z3BwM1FKdnFRNkFUX1NKSlJRR1RCXzdOXzB3X2dETTFPVlNMN0R0NDAzVDZ4UlZDQXhYYWx2R0RGd0V3aU5OSmd4b2tIdkdCMw?oc=5",
+    "source": "gnews_megacap",
+    "published_utc": "2026-11-03T15:40:45+00:00",
+    "score": 6.91,
+    "duplicates": 0
+   },
+   {
+    "id": "7ed5f58b4d",
+    "title": "Apple shares slide as US stock futures turn mixed on midterm election today - The News International",
+    "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOamlNY3dJUGMxZkR2cUcyVnZIN3d4UTZjMmN2elI5aXRtRFJtYTFJNFN6S3ZJaHVEXzRxbklyVEhjdWFpalRKZnFzMWhSdktZZVd5OXNoLVVOQjl5bmxadktCckdKd3V4Vl9SaFZlRG9QY0hQdWJhMVh5ZVdlXzBmYmZtUXVTbTZqTnRjbVp2dlpZZGNhdU5vUHViRUxPS25tbzJRTlJqZW1IN0lYdm5YYlpxd3IzWU4t0gG0AUFVX3lxTE96aTBDOGRJMG5KbTdjZzFYX2FuNzM2a216ZFZKYVFENV9rSDlMTzdPN0IwSHd4VFd4Tko3elhFZE41UVJKQ3V3LWsxZlJrOVVQdnJXVWFJZDlScEJLcDdJaXJfQlVzWlFLMlR1RTljamZnSGtEYkV4Z3E1MXEtNHRvNXdRNmdHMTdBb2dHUmRJM0drdjFhRnE2UXdMR0d6WjVhTHktb1BYc1JXY1VkZnBNRmNZNQ?oc=5",
+    "source": "gnews_futures",
+    "published_utc": "2026-11-03T12:04:00+00:00",
+    "score": 6.81,
     "duplicates": 1
    }
   ],
@@ -3103,8 +3135,8 @@
     "Job openings posted big September gain in positive sign for labor market ahead of payrolls report [ca0aae419a]",
     "Fed Chair Kevin Warsh Just Drove a Dagger Through Wall Street's AI-Driven Rally With 6 Blunt Words - The Motley Fool [ab544d4cd4]",
     "Apple stock sinks as global memory crisis hurts profits, giving Ternus his first big test [e0c4d1361e]",
-    "Stock Market Today: Dow, S&P 500 Futures Fall as AMD Earnings and US Elections Put Wall Street on Edge - Coinpaper [8a9ec0f252]",
-    "Midterm elections could jolt stocks if Democrats sweep Congress [8bb8b3faa1]"
+    "Midterm elections could jolt stocks if Democrats sweep Congress [8bb8b3faa1]",
+    "US Stock Futures Fall As AMZN, INTC Earnings Trigger Tech Sell-Off: NVDA, RDDT, RIVN, SFM In Focus - Stocktwits [6c00a7a85b]"
    ],
    "backend": "none",
    "model": null,
