@@ -1,7 +1,7 @@
 {
  "meta": {
-  "generated_at_utc": "2026-11-03T14:13:11.038102+00:00",
-  "generated_at_local": "Tue 03 Nov 2026 10:13 AST",
+  "generated_at_utc": "2026-11-03T14:28:28.869409+00:00",
+  "generated_at_local": "Tue 03 Nov 2026 10:28 AST",
   "trading_day": "2026-11-03",
   "display_tz": "America/Halifax",
   "version": "0.1.0",
@@ -70,7 +70,7 @@
    "time_utc": "2026-11-03T15:00:00+00:00",
    "local": "11:00 AST",
    "et": "10:00 ET",
-   "in": "46 min",
+   "in": "31 min",
    "consensus": "7.15M",
    "prior": "7.08M"
   },
@@ -81,10 +81,10 @@
   {
    "root": "ES",
    "trading_day": "2026-11-03",
-   "as_of_utc": "2026-11-03T14:13:11.038102+00:00",
+   "as_of_utc": "2026-11-03T14:28:28.869409+00:00",
    "source": "yahoo",
    "delayed": true,
-   "last_price": 7575.75,
+   "last_price": 7579.25,
    "levels": [
     {
      "tag": "pwh",
@@ -147,7 +147,7 @@
      "label": "Overnight high",
      "price": 7604.75,
      "group": "overnight",
-     "note": "since 18:00 ET, 894 bars"
+     "note": "since 18:00 ET, 909 bars"
     },
     {
      "tag": "rn_major_up",
@@ -173,7 +173,7 @@
     {
      "tag": "onvwap",
      "label": "Overnight VWAP",
-     "price": 7572.46,
+     "price": 7572.75,
      "group": "overnight",
      "note": "typical-price VWAP"
     },
@@ -221,14 +221,14 @@
     }
    ],
    "stats": {
-    "last_bar_utc": "2026-11-03T14:03:00+00:00",
-    "last_bar_age_min": 10.2,
+    "last_bar_utc": "2026-11-03T14:18:00+00:00",
+    "last_bar_age_min": 10.5,
     "market_state": "open",
     "profile_volume": 1520392.0,
     "prior_day": "2026-11-02",
     "prior_day_rth_range": 123.0,
     "overnight_range": 58.75,
-    "gap_vs_prior_close": -0.5,
+    "gap_vs_prior_close": 3.0,
     "gap_basis": "last price (pre-market)",
     "atr14": 100.95,
     "atr_days": 14,
@@ -1458,18 +1458,26 @@
      "o": 7584.75,
      "h": 7586.25,
      "l": 7574.75,
-     "c": 7575.75,
-     "v": 8556.0
+     "c": 7581.5,
+     "v": 25681.0
+    },
+    {
+     "t": "2026-11-03T14:15:00+00:00",
+     "o": 7581.5,
+     "h": 7583.0,
+     "l": 7579.0,
+     "c": 7579.25,
+     "v": 2682.0
     }
    ]
   },
   {
    "root": "NQ",
    "trading_day": "2026-11-03",
-   "as_of_utc": "2026-11-03T14:13:11.038102+00:00",
+   "as_of_utc": "2026-11-03T14:28:28.869409+00:00",
    "source": "yahoo",
    "delayed": true,
-   "last_price": 28283.5,
+   "last_price": 28294.5,
    "levels": [
     {
      "tag": "pwh",
@@ -1525,7 +1533,7 @@
      "label": "Overnight high",
      "price": 28426.5,
      "group": "overnight",
-     "note": "since 18:00 ET, 894 bars"
+     "note": "since 18:00 ET, 909 bars"
     },
     {
      "tag": "val",
@@ -1558,7 +1566,7 @@
     {
      "tag": "onvwap",
      "label": "Overnight VWAP",
-     "price": 28223.65,
+     "price": 28227.43,
      "group": "overnight",
      "note": "typical-price VWAP"
     },
@@ -1606,14 +1614,14 @@
     }
    ],
    "stats": {
-    "last_bar_utc": "2026-11-03T14:03:00+00:00",
-    "last_bar_age_min": 10.2,
+    "last_bar_utc": "2026-11-03T14:18:00+00:00",
+    "last_bar_age_min": 10.5,
     "market_state": "open",
     "profile_volume": 537790.0,
     "prior_day": "2026-11-02",
     "prior_day_rth_range": 789.5,
     "overnight_range": 388.25,
-    "gap_vs_prior_close": 144.75,
+    "gap_vs_prior_close": 155.75,
     "gap_basis": "last price (pre-market)",
     "atr14": 714.0,
     "atr_days": 14,
@@ -2841,10 +2849,18 @@
     {
      "t": "2026-11-03T14:00:00+00:00",
      "o": 28316.5,
-     "h": 28322.0,
+     "h": 28336.75,
      "l": 28279.0,
-     "c": 28283.5,
-     "v": 2333.0
+     "c": 28313.75,
+     "v": 9905.0
+    },
+    {
+     "t": "2026-11-03T14:15:00+00:00",
+     "o": 28313.25,
+     "h": 28317.75,
+     "l": 28293.75,
+     "c": 28294.5,
+     "v": 996.0
     }
    ]
   }
@@ -2857,7 +2873,7 @@
     "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOQ3VEMVBJekR3YkhqVzlaaU96RnJ5bkJBZXY0Ynk1RkREU0xIUGFSaWxZNmNVbXUxY29wdU1Pam5fOUhQbmdsU2ZBaDRKalNxWDVmN21nNlVUT1MzVkpkLXdoQU80NFNTMHNYYXpEMVF0SzhmczNNeTNHX3NGclRtaHZhUTkwMWNSTDhzd1dCUTN4eWlzMFdNSU9IMHZJUUtkbVRDZlJJaUo1eVAzSk9Oc1RzbFRldmJoX00yMnhFME1US0FC?oc=5",
     "source": "gnews_fed",
     "published_utc": "2026-11-03T09:06:00+00:00",
-    "score": 8.65,
+    "score": 8.6,
     "duplicates": 0
    },
    {
@@ -2866,7 +2882,7 @@
     "link": "https://www.cnbc.com/2026/11/03/apple-earnings-john-ternus-faces-first-test-amid-high-memory-costs.html",
     "source": "cnbc_markets",
     "published_utc": "2026-11-03T13:55:52+00:00",
-    "score": 8.45,
+    "score": 8.41,
     "duplicates": 1
    },
    {
@@ -2884,7 +2900,7 @@
     "link": "https://www.cnbc.com/2026/11/03/midterm-election-stock-market.html",
     "source": "cnbc_markets",
     "published_utc": "2026-11-03T13:28:36+00:00",
-    "score": 7.88,
+    "score": 7.83,
     "duplicates": 0
    },
    {
@@ -2893,7 +2909,7 @@
     "link": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxOVkduQVhSVzQ5dlYzdWt5ZzNnOU00X192U0NfUG81NDRFamROXy1fMFMyN1pudmZET3kyakdFbEdNcFZtSV9nLURoY3NYY2I4WHl1ekEyd2RMdTJWazFwNUpPcG96c2U3RFR2VkkxSVN0UEc4Q1hWMy1Jd3p0dWpXYmZPUmlNenoxTERrMFNXd0JpV3RHakNoYlpuUEE3RWQtbkZES3hOVXZVVnBRbC0tN3owZ2hnUnFRWDc4ZDEySHJnNVVMYThULXlnQ0VBZ0RRdHQxUXE4a1dJMjR4b3dYYnNSeGVrRVpxVEZPT2NtaHVqMEE0dnc?oc=5",
     "source": "gnews_futures",
     "published_utc": "2026-11-03T10:06:30+00:00",
-    "score": 7.81,
+    "score": 7.77,
     "duplicates": 0
    },
    {
@@ -2902,7 +2918,7 @@
     "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOY2cwZjBFMG9CVzNKOVRYMTB2TERrbXFCVWtaX1MwNlZNdl9oQ2VMeWpOdHhlYjNjTl9aUVM1MmhPdE5FdWdqYUZIS3Y3bTNKQS1rYmpJUDRGd2pGTHNLM3BYUGxuOGJyYkR2RkpQSHRuSWJpZUJPSWJPSTgxeDFkNkNJeDc0Nk9RUE1pS3Z4NlpwcTJnYTA5dWFkckV1WXBVQWh0N0hVWjR0X0V2ZGJVa1puUGZsUDN2b25NQzNvSWdZNmtTek1mbw?oc=5",
     "source": "gnews_futures",
     "published_utc": "2026-11-03T08:31:08+00:00",
-    "score": 7.55,
+    "score": 7.51,
     "duplicates": 1
    },
    {
@@ -2915,12 +2931,21 @@
     "duplicates": 0
    },
    {
+    "id": "40596c3901",
+    "title": "US stock futures mixed as Apple falls on margin warning, midterm results awaited - The Economic Times",
+    "link": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxNVWJLdlE2R0JqQk0yc0ZJZTJIc3I4dVFtM2lqbkc1SjVzVXM0NW5GVmRYQzJXZmtCektnRk80RWNVdW1ZLWNscnlvNlVkd1F3Tk9NdTNJXzZVanZFd1VXbTNrcTZleFZHUUt3STdJYjk0YnpCZEprSUZsTTE1RVRBY0pWbEJhSi1CdXpfSjBOSUw5ODl6a0xIN0ZlNzZKM0RZNDhTUWxvMEVJeWFhaGQ4STJUQ0tXZkRQUHpzbEZuOXRlbmZJZWwxd0hyOG1rMWlub0k4clBhNlM3SC1sUmVkUXJQeW9sVlBvaUVuTdIB8gFBVV95cUxQdXNwbE9XU2dsVk5GZEpmWnMyVW9rLUdWSEhweUVUZzhUVS1yWi1fUS1lMXJ3Ykx2RzhlalBXNVp1U3ZaQXRIMVNmRU5rOHE2OTM5dm45VTFYNFZ3LVVMdGZCXzdiZS01TEV6b19RcG5UWWZwcWpkLW9WWmV5RThZeUMxX08tbXBwaVJ0MjJ4el9LcWpaWDg1a0dUb3ZNNVlHTV9BWDFrWFBuQjUwMlRCdnRFS0lzRkhmQktXNmtoSG83NkM4dXdBVnpuM2Fncmg4UmhXb0FiTDh5M0w2RWlSbFNWWUM1VTkwMzVqQWNORV9TUQ?oc=5",
+    "source": "gnews_futures",
+    "published_utc": "2026-11-03T13:17:16+00:00",
+    "score": 7.3,
+    "duplicates": 1
+   },
+   {
     "id": "e6b9e4ada3",
     "title": "US Stock Futures Slip as Apple Margin Outlook and Palantir Contract Growth Disappoint Ahead of Midterm Elections: Dow Jones, S&P, Nasdaq, Wall Street - Yahoo Finance",
     "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQWVJHVXljZXZUczVDVnJrblpiZUY4RUhEbXlBcXU0NkVNMlJDQWJnWlBCLTc1NnpFRGNDR0pSSEt1dzh6R1NJTjNHWW5GZTlKM2RkUHVPTTNEbzloeVFVMjFlSmFvclJGRkVSUjlZVV9xSHk2c04zSVA5WldFNGNvVDFJbkI0eWNoTGN2LUFIX0h4VmYyTlEw?oc=5",
     "source": "gnews_futures",
     "published_utc": "2026-11-03T10:06:05+00:00",
-    "score": 7.31,
+    "score": 7.27,
     "duplicates": 0
    },
    {
@@ -2929,7 +2954,7 @@
     "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOamlNY3dJUGMxZkR2cUcyVnZIN3d4UTZjMmN2elI5aXRtRFJtYTFJNFN6S3ZJaHVEXzRxbklyVEhjdWFpalRKZnFzMWhSdktZZVd5OXNoLVVOQjl5bmxadktCckdKd3V4Vl9SaFZlRG9QY0hQdWJhMVh5ZVdlXzBmYmZtUXVTbTZqTnRjbVp2dlpZZGNhdU5vUHViRUxPS25tbzJRTlJqZW1IN0lYdm5YYlpxd3IzWU4t0gG0AUFVX3lxTE96aTBDOGRJMG5KbTdjZzFYX2FuNzM2a216ZFZKYVFENV9rSDlMTzdPN0IwSHd4VFd4Tko3elhFZE41UVJKQ3V3LWsxZlJrOVVQdnJXVWFJZDlScEJLcDdJaXJfQlVzWlFLMlR1RTljamZnSGtEYkV4Z3E1MXEtNHRvNXdRNmdHMTdBb2dHUmRJM0drdjFhRnE2UXdMR0d6WjVhTHktb1BYc1JXY1VkZnBNRmNZNQ?oc=5",
     "source": "gnews_futures",
     "published_utc": "2026-11-03T12:04:00+00:00",
-    "score": 7.14,
+    "score": 7.1,
     "duplicates": 1
    },
    {
@@ -2938,26 +2963,17 @@
     "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOVDlFaWZ5Z2xUdkpDcGhRdU1QZlowMkV5S1ZqVzhBQ2szS0VGT0tOdHRoOUtXUk1QTHg3bExFYmZFUTl0aktoZTI2ZWhacUl1eXdfaWpoWXFDdFBRQnhPUFRiaXg0TzcySHdDM1U2VjBHQWhXVzF6RmtUVk5KV01zWlRDLW1YMGJ1LVUtNTZwQ0dkdw?oc=5",
     "source": "gnews_macro",
     "published_utc": "2026-11-03T08:56:24+00:00",
-    "score": 7.12,
+    "score": 7.08,
     "duplicates": 0
    },
    {
-    "id": "4ce8e27168",
-    "title": "Georgia Economist Dr Nikki Finlay Explains What 3.7 Percent Inflation, Slower Hiring and a Fed Pause Mean for Households - Cincinnati Enquirer",
-    "link": "https://news.google.com/rss/articles/CBMihAJBVV95cUxQNmxwdV9yMzU4T1ZYVHQ1VEFoZUJ2Uk81V1llUVhkRzhmcE10d1RPRmZleW03WlcwQ1AwYkt0OVhaZC1qZnczd0hrMnh3cFFLVEdhLTVMMzZuYUFJMUJMTWdDOFp5cmtCTGxUQ3hVR3N4d1hMMVZpSFpjdXZLbWdvMjJjcXdBNzllbDhVejBEQW9hNzE5YmJNSkVTNFZnYVptNWtmaDE5Ni1mUHk3V3NGd2J5NzhISXB1SkhTczBsUUE5dy1zSVhJX3JjeC03bWhaZU9oY3VXZlhaQmg4SS1BZlVURmk5dFZQVkFJVDFLYXVXb05oYlhuWkE0ZkJWSzlvVzgxUw?oc=5",
+    "id": "4fce8526f0",
+    "title": "Georgia Economist Dr Nikki Finlay Explains What 3.7 Percent Inflation, Slower Hiring and a Fed Pause Mean for Households - Akron Beacon Journal",
+    "link": "https://news.google.com/rss/articles/CBMiiAJBVV95cUxNTnhmNWZuam9BWU0ydjVpcGYzUDAzZG9HRmI0TjdjYWJjbHhSdGQtMUZkbU5rM1lXYkkwN1Qwel9QZV9nY1A0cmdMZ256cjB5eWF1Ml9kWWN2ZDEwRlRXS3dEUUJlbkpScExvckQzTU1HMnpPVjBXM0FJNklQaGdhR29HcG1VODI0YW1QN28xcnBtVHZZZEN6YXR5UjlGODN2aEl5ZHB6TUhJNWVOZ1Rxc3dxUnJZRXVtMmFRcXkzZkk3eVRvbG5Kb0RhMTRGUkI4VjBBeElhY2VESFhMRU0zM2o1WDZBcUtDaXhWYXN1bngxckFhcEVfcjB6emkydGNIMkpUQ2gwbTA?oc=5",
     "source": "gnews_macro",
-    "published_utc": "2026-11-03T11:53:26+00:00",
-    "score": 7.11,
+    "published_utc": "2026-11-03T11:30:55+00:00",
+    "score": 7.01,
     "duplicates": 0
-   },
-   {
-    "id": "e4616154fa",
-    "title": "US stock futures mixed as Apple slides, midterms loom By Reuters - Investing.com",
-    "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxObHBBY2s4Zk5vN2tVYU82WUlmR0FBVkFyR191R2JVb2FvMjFnRjVyamYyTm9vc3M1ZmRjVzR0N193WGNVaWNpMV9NRGtwbExHV1VrdXQ3bWdETkd1dUVyT2h1cEZoZ1BtT1lWeGJlN3U2dmMtaGRRbGtTR0RqY09DZEd0WWxReFRwM0RiNXZSU1JONUNnSUNaWEpBd3pSckFXQ3p2WGZPdktEQkF1Y2c?oc=5",
-    "source": "gnews_futures",
-    "published_utc": "2026-11-03T11:02:04+00:00",
-    "score": 6.97,
-    "duplicates": 1
    }
   ],
   "summary": {
