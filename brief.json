@@ -1,7 +1,7 @@
 {
  "meta": {
-  "generated_at_utc": "2026-11-03T14:59:05.236642+00:00",
-  "generated_at_local": "Tue 03 Nov 2026 10:59 AST",
+  "generated_at_utc": "2026-11-03T15:00:24.911932+00:00",
+  "generated_at_local": "Tue 03 Nov 2026 11:00 AST",
   "trading_day": "2026-11-03",
   "display_tz": "America/Halifax",
   "version": "0.1.0",
@@ -22,8 +22,8 @@
      "what": "Job openings, hires and quits from the BLS (10:00 ET).",
      "why": "A 10:00 ET print inside the trading window; a large drop in openings reads as labour-market cooling."
     },
-    "actual": null,
-    "note": null,
+    "actual": "7.52M",
+    "note": "actual via BLS API",
     "consensus": "7.15M",
     "prior": "7.08M",
     "source": "",
@@ -65,14 +65,14 @@
    }
   ],
   "next_event": {
-   "name": "JOLTS Job Openings",
-   "impact": "medium",
-   "time_utc": "2026-11-03T15:00:00+00:00",
-   "local": "11:00 AST",
-   "et": "10:00 ET",
-   "in": "0 min",
-   "consensus": "7.15M",
-   "prior": "7.08M"
+   "name": "Congressional Elections",
+   "impact": "high",
+   "time_utc": "2026-11-03T15:16:00+00:00",
+   "local": "11:16 AST",
+   "et": "10:16 ET",
+   "in": "15 min",
+   "consensus": null,
+   "prior": null
   },
   "sources": [],
   "warnings": []
