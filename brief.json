@@ -1,7 +1,7 @@
 {
  "meta": {
-  "generated_at_utc": "2026-11-04T12:10:51.129760+00:00",
-  "generated_at_local": "Wed 04 Nov 2026 08:10 AST",
+  "generated_at_utc": "2026-11-04T12:26:08.281940+00:00",
+  "generated_at_local": "Wed 04 Nov 2026 08:26 AST",
   "trading_day": "2026-11-04",
   "display_tz": "America/Halifax",
   "version": "0.1.0",
@@ -55,7 +55,7 @@
    "time_utc": "2026-11-04T15:00:00+00:00",
    "local": "11:00 AST",
    "et": "10:00 ET",
-   "in": "2h 49m",
+   "in": "2h 33m",
    "consensus": "54.8",
    "prior": "54.9"
   },
@@ -66,10 +66,10 @@
   {
    "root": "ES",
    "trading_day": "2026-11-04",
-   "as_of_utc": "2026-11-04T12:10:51.129760+00:00",
+   "as_of_utc": "2026-11-04T12:26:08.281940+00:00",
    "source": "yahoo",
    "delayed": true,
-   "last_price": 7679.75,
+   "last_price": 7654.75,
    "levels": [
     {
      "tag": "pwh",
@@ -104,11 +104,11 @@
      "label": "Overnight high",
      "price": 7687.75,
      "group": "overnight",
-     "note": "since 18:00 ET, 766 bars"
+     "note": "since 18:00 ET, 782 bars"
     },
     {
-     "tag": "rn_minor_dn",
-     "label": "Round 25 below",
+     "tag": "rn_minor_up",
+     "label": "Round 25 above",
      "price": 7675.0,
      "group": "round",
      "note": ""
@@ -158,7 +158,7 @@
     {
      "tag": "onvwap",
      "label": "Overnight VWAP",
-     "price": 7583.81,
+     "price": 7587.77,
      "group": "overnight",
      "note": "typical-price VWAP"
     },
@@ -213,14 +213,14 @@
     }
    ],
    "stats": {
-    "last_bar_utc": "2026-11-04T12:00:00+00:00",
-    "last_bar_age_min": 10.9,
+    "last_bar_utc": "2026-11-04T12:16:00+00:00",
+    "last_bar_age_min": 10.1,
     "market_state": "open",
     "profile_volume": 1054636.0,
     "prior_day": "2026-11-03",
     "prior_day_rth_range": 47.25,
     "overnight_range": 197.75,
-    "gap_vs_prior_close": 83.25,
+    "gap_vs_prior_close": 58.25,
     "gap_basis": "last price (pre-market)",
     "atr14": 96.59,
     "atr_days": 14,
@@ -1383,21 +1383,29 @@
     },
     {
      "t": "2026-11-04T12:00:00+00:00",
-     "o": 7683.75,
+     "o": 7684.25,
      "h": 7685.75,
-     "l": 7679.0,
-     "c": 7679.75,
-     "v": 0.0
+     "l": 7657.5,
+     "c": 7658.25,
+     "v": 20906.0
+    },
+    {
+     "t": "2026-11-04T12:15:00+00:00",
+     "o": 7657.75,
+     "h": 7658.5,
+     "l": 7652.0,
+     "c": 7654.75,
+     "v": 2721.0
     }
    ]
   },
   {
    "root": "NQ",
    "trading_day": "2026-11-04",
-   "as_of_utc": "2026-11-04T12:10:51.129760+00:00",
+   "as_of_utc": "2026-11-04T12:26:08.281940+00:00",
    "source": "yahoo",
    "delayed": true,
-   "last_price": 28525.5,
+   "last_price": 28347.0,
    "levels": [
     {
      "tag": "pwh",
@@ -1425,28 +1433,7 @@
      "label": "Overnight high",
      "price": 28662.0,
      "group": "overnight",
-     "note": "since 18:00 ET, 766 bars"
-    },
-    {
-     "tag": "rn_major_up",
-     "label": "Round 100 above",
-     "price": 28600.0,
-     "group": "round",
-     "note": ""
-    },
-    {
-     "tag": "rn_minor_up",
-     "label": "Round 50 above",
-     "price": 28550.0,
-     "group": "round",
-     "note": ""
-    },
-    {
-     "tag": "rn_major_dn",
-     "label": "Round 100 below",
-     "price": 28500.0,
-     "group": "round",
-     "note": ""
+     "note": "since 18:00 ET, 782 bars"
     },
     {
      "tag": "pgh",
@@ -1463,11 +1450,25 @@
      "note": "2026-11-03"
     },
     {
+     "tag": "rn_major_up",
+     "label": "Round 100 above",
+     "price": 28400.0,
+     "group": "round",
+     "note": ""
+    },
+    {
      "tag": "vah",
      "label": "Prior-day VAH",
      "price": 28386.0,
      "group": "profile",
      "note": "70 % value area"
+    },
+    {
+     "tag": "rn_minor_up",
+     "label": "Round 50 above",
+     "price": 28350.0,
+     "group": "round",
+     "note": ""
     },
     {
      "tag": "poc",
@@ -1482,6 +1483,13 @@
      "price": 28300.75,
      "group": "prior_day",
      "note": "2026-11-03"
+    },
+    {
+     "tag": "rn_major_dn",
+     "label": "Round 100 below",
+     "price": 28300.0,
+     "group": "round",
+     "note": ""
     },
     {
      "tag": "val",
@@ -1514,7 +1522,7 @@
     {
      "tag": "onvwap",
      "label": "Overnight VWAP",
-     "price": 28125.86,
+     "price": 28139.99,
      "group": "overnight",
      "note": "typical-price VWAP"
     },
@@ -1548,14 +1556,14 @@
     }
    ],
    "stats": {
-    "last_bar_utc": "2026-11-04T12:00:00+00:00",
-    "last_bar_age_min": 10.9,
+    "last_bar_utc": "2026-11-04T12:16:00+00:00",
+    "last_bar_age_min": 10.1,
     "market_state": "open",
     "profile_volume": 416597.0,
     "prior_day": "2026-11-03",
     "prior_day_rth_range": 227.75,
     "overnight_range": 1046.25,
-    "gap_vs_prior_close": 224.75,
+    "gap_vs_prior_close": 46.25,
     "gap_basis": "last price (pre-market)",
     "atr14": 685.27,
     "atr_days": 14,
@@ -2718,11 +2726,19 @@
     },
     {
      "t": "2026-11-04T12:00:00+00:00",
-     "o": 28567.75,
+     "o": 28571.25,
      "h": 28571.25,
-     "l": 28520.0,
-     "c": 28525.5,
-     "v": 0.0
+     "l": 28367.0,
+     "c": 28370.25,
+     "v": 10998.0
+    },
+    {
+     "t": "2026-11-04T12:15:00+00:00",
+     "o": 28369.5,
+     "h": 28380.75,
+     "l": 28326.0,
+     "c": 28347.0,
+     "v": 1355.0
     }
    ]
   }
@@ -2735,7 +2751,7 @@
     "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNTFp4aTJNa00wNmxyZFp2d3BGUVI4b193SU9IVF9lQkIxSk96c0k4X2tHNWlRZEU3UHhLa1A2aW1XQlcyZ2l3cy14YTFZYmQzR0E1aThUdVBTQkd2UG5WQkQ2eUpVbS1HOGtOLXR4WFQzMm9RS3I2cG1HNy1WLUVLckdLaWY5UERWcGpyUTVGV0ZvN2VCcUd0QzJhWGk?oc=5",
     "source": "gnews_futures",
     "published_utc": "2026-11-04T10:52:59+00:00",
-    "score": 10.28,
+    "score": 10.24,
     "duplicates": 0
    },
    {
@@ -2744,7 +2760,7 @@
     "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxONVFJRHRnbXFVZk1nWnFDSE1ZUjhaY20wY2dVRnpnUnZZYzQ2OXM4NE5CRFJsemNDcXZ1dkhUSl9BSnRaMTdzU2xNZExWdWNjZmNFNGd6Qllpcjk1eUVwMTZrc3pSdnlCV09uSlM2XzJ5d3ZMTnA5VHB3RWRVdE1fVFRkY2lVbXJfaXpCVW10OEtNZ2N6NWFUbjdfRXpCbUlaeThkTnozWl9oVXhSVGxNZ1RodUhWUQ?oc=5",
     "source": "gnews_futures",
     "published_utc": "2026-11-04T11:23:00+00:00",
-    "score": 9.37,
+    "score": 9.32,
     "duplicates": 2
    },
    {
@@ -2753,25 +2769,16 @@
     "link": "https://www.cnbc.com/2026/11/04/euro-zone-cpi-inflation-october-ecb-rate-hike.html",
     "source": "cnbc_markets",
     "published_utc": "2026-11-04T10:47:30+00:00",
-    "score": 8.77,
+    "score": 8.73,
     "duplicates": 1
    },
    {
-    "id": "0b8f1a049e",
-    "title": "Treasury yields fall as investors crowd into bonds for safety amid election stock sell-off",
-    "link": "https://www.cnbc.com/2026/11/03/treasury-yields-fall-as-democrats-win-big-in-us-midterm-elections.html",
-    "source": "cnbc_markets",
-    "published_utc": "2026-11-04T10:02:00+00:00",
-    "score": 8.64,
-    "duplicates": 1
-   },
-   {
-    "id": "b453d39d4f",
-    "title": "ECB rate hike looks nearly certain after inflation rises to three-year high - The Lufkin Daily News",
-    "link": "https://news.google.com/rss/articles/CBMihgJBVV95cUxNOFRRaEZKajdEeF9KNW9CZVBYc2I4d2xwaUZFcWtYc3h0OWxwUGZLejhqWlhKOUVoclBBY05fSFV6YzZtOWlTNlBRV1ptSTdxeTY3VXZHdFBJNHp3eFFMa1FkYUF5QzZjcjkwaEE3RzRzUWltaFVxbkI3dHF4aWdFeDNyOTRiMGFjOHB0WUNvbVY2SDVPSVNqOG5sdHhRWVFsaEg0c2FldEkwZ3lTRUZITmZ6X1BsdE5Vb3Z2VFJZZG1TZFFTSUYydWJxX0FOUDVtYzZGV1cyejlhM3NESVlfWDZwWjNqYk1wRUdUSVAyZElLR2IyQWZDUV8wSERfcm9kWlMtQkpB?oc=5",
+    "id": "5747f10d64",
+    "title": "ECB rate hike looks nearly certain after inflation rises to three-year high By Reuters - Investing.com",
+    "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQLTN0YUFWUlFoM2x1RWY0VFhCd3lPSEYtN1Q2dnE0MHpkeEY2S29CVTNDd0xadDcxaVI2QXlqdk9UVkVGVjZhdV9MZzhUY3Y3RlZGTDZfWmk1ME54UWt1MzFDUGpGbEFwN1JaMHdLcGV2SzZqZUxjRm1DT1NLcldid3RjUGN6a3VMTkdVMzJEN3pMV2NSNGE1a3V2TQ?oc=5",
     "source": "gnews_macro",
-    "published_utc": "2026-11-04T11:47:59+00:00",
-    "score": 8.44,
+    "published_utc": "2026-11-04T12:09:08+00:00",
+    "score": 8.45,
     "duplicates": 2
    },
    {
@@ -2780,7 +2787,7 @@
     "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNcWVOTU84Tk40OGpBSG1CMDFqaHI0NERCMTNQb29CRGw1dlM1VU56UHlOaTdvZk14UkpGeTNva3hHRjNNNUlIdHp3ZWlGZUlYeGlCWkFFcnNBM0F5Vm1PRWlDQ2pCUlRrYW9GVTFZRDQtekpQQ2JOdmJPXzlxdzNiaXZ6Y0d6Sl91QU9rV0ZlUDAxRE1ZM1hUOGk2d2VySkVjeXN6R0w4Vkp0V3VrME5NZlFRVFBjOWRV?oc=5",
     "source": "gnews_macro",
     "published_utc": "2026-11-04T11:48:45+00:00",
-    "score": 7.44,
+    "score": 7.4,
     "duplicates": 0
    },
    {
@@ -2789,7 +2796,7 @@
     "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE42NFNpOXZkTE1uVmpINlJ0NElJRndGRlFmYTcyZmVIN180V1RKUmI1ZWh3dkh3a0s3NlExS0pfY3lnODF3UTE1ZE9EV2w2c1hBOHVpLTF3aTZhblU5eEV2XzVZbWlQeXVMZUpxcVpMTjVORnU2cUxoZ1ZR?oc=5",
     "source": "gnews_macro",
     "published_utc": "2026-11-04T11:43:55+00:00",
-    "score": 7.43,
+    "score": 7.38,
     "duplicates": 0
    },
    {
@@ -2798,7 +2805,7 @@
     "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxNZ25BOExabF9pWHRSMzU1aVJBXzY2WmNiVUdiblcxRzNlaUZPZTR2Y3dEd20taXdRb1lmSGFCS21FSnVXYWdpZlVUb054T2liM052NDJBUGdaLUl1U2IycUh0Z2pubFdKbW9ROWcxckh6U1lfU21id0JwcnZPUHNjTU9NSHY2Yks0ZGZGcXBoTHBOd0VIWVlKNnl4Rm9KS1FvQlpMakE1MEV0dFR3U3h4Uk9DN0VSYlVZS1hObG9Ic2tBSTVodU05X3J4RGNzRE0?oc=5",
     "source": "gnews_futures",
     "published_utc": "2026-11-04T09:45:00+00:00",
-    "score": 7.09,
+    "score": 7.05,
     "duplicates": 1
    },
    {
@@ -2807,7 +2814,7 @@
     "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOenVNalRlNk9YTXhjekJfN04weGZXNGsxM1BsSU5SMy1CQUZTM1lmcWYtSWVtUEdlSW9YejRrYjluQm9fV2tfc3BiSzNTSzVuV1UtM2FLMWk3VFcxcDlDM01hZGlrS2JBV2R1R2kwdXZQekFUc2dYQmVzdEVoakVnaHJqa3lEcDBnek5MV2NQbDhqRXJScTJuVkd6Z2dQQ0J6YW1PaWZ2OTNOVFMyNnFaZGV5SQ?oc=5",
     "source": "gnews_futures",
     "published_utc": "2026-11-04T11:24:25+00:00",
-    "score": 6.87,
+    "score": 6.83,
     "duplicates": 1
    },
    {
@@ -2816,7 +2823,7 @@
     "link": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxOM1VCTElaajQ3dmQzal9zQmpST0JCRmZCTEZLNFdGT25wZ2NxWFpKbVFKY1dqbUcyWV9ISW52SUxCWF95RGpFRDdyMlpIa3k1RXBQaFNZTmlSN0pxb2dKR1RXZmF2WVU1dW1ZekxMQ3FnalI0OGYxbk1MQS1xbkhjZEFxNkctVkJiTVR3dEtSNDFhTVd3X2YwdGxTWXo3TFZMLTdOYWtjN1ZWZTF3Q2dOZWVaa3RWNXo4VjJPWVQ0V1lyX0JlYWNSQkFvRkhYOUxNdXJSTWFHS21ZdEkxbHc4X3R0dWFPWjY1eFBvcGpzajI3c3RVSTgzaA?oc=5",
     "source": "gnews_futures",
     "published_utc": "2026-11-04T10:17:28+00:00",
-    "score": 6.69,
+    "score": 6.64,
     "duplicates": 0
    },
    {
@@ -2825,7 +2832,7 @@
     "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNT29wRlA1bkxjTUkxYlQ1QTcxak1fb2tSOS1jSjc0dVBZWERWZGpBTVdVeEZsUkJDcXB6a1duU0ZXSDJ4N0FxZk5jQTBFYVFpWXlpaDRkZ1E1Q0VCcmQ3dktxUXMzR3F5eDdnYTNjN2gxSXRJWjdTdlFDVWF5ekJqYlF6b0ZWV3EwdEg2RHlXdkd4bURTMk9MdnpVQV8?oc=5",
     "source": "gnews_futures",
     "published_utc": "2026-11-04T09:51:38+00:00",
-    "score": 6.61,
+    "score": 6.57,
     "duplicates": 0
    },
    {
@@ -2836,6 +2843,15 @@
     "published_utc": "2026-11-03T20:09:59+00:00",
     "score": 6.5,
     "duplicates": 0
+   },
+   {
+    "id": "9f230a41c7",
+    "title": "Bullard Bets on December Rate Hike, More Needed If Inflation Stays Hot - Kathleen Hays Presents: Central Bank Central",
+    "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE9BWkxHZFlaUWpObTRvUEwxMDN2TVV5YXlYU2t6OGdPNEJYVlR5c1B6eWVBbGtweUNMYk1ZRWNCTWs5ZlU3QW91cUJySklzekFSTEtuMDRCdTNvbE5CaURJTjd2WjF6SC0xaHNldU4xT1BZUWhQSnQtVUtn?oc=5",
+    "source": "gnews_macro",
+    "published_utc": "2026-11-04T06:11:06+00:00",
+    "score": 6.46,
+    "duplicates": 0
    }
   ],
   "summary": {
@@ -2843,8 +2859,8 @@
     "US Stock Futures Rise as Democrats Win Congress and AMD Shares Surge on AI Growth Outlook: Dow Jones, S&P, Nasdaq, Wall Street - Yahoo Finance [310ef5b751]",
     "Stock Futures Rally, Treasurys Strengthen After Democratic Sweep - WSJ [3d8432587e]",
     "Euro zone inflation hits 4% for first time in three years as interest rate hike looms [316b69a36c]",
-    "Treasury yields fall as investors crowd into bonds for safety amid election stock sell-off [0b8f1a049e]",
-    "ECB rate hike looks nearly certain after inflation rises to three-year high - The Lufkin Daily News [b453d39d4f]"
+    "ECB rate hike looks nearly certain after inflation rises to three-year high By Reuters - Investing.com [5747f10d64]",
+    "Eurozone Inflation Rises to 4%, Boosting Case for ECB Interest Rate Hike in December - Morningstar [b9c00e13c3]"
    ],
    "backend": "none",
    "model": null,
