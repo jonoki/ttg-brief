@@ -1,11 +1,11 @@
 {
  "meta": {
-  "generated_at_utc": "2026-11-04T14:13:17.542919+00:00",
-  "generated_at_local": "Wed 04 Nov 2026 10:13 AST",
+  "generated_at_utc": "2026-11-04T21:05:01.586407+00:00",
+  "generated_at_local": "Wed 04 Nov 2026 17:05 AST",
   "trading_day": "2026-11-04",
   "display_tz": "America/Halifax",
   "version": "0.1.0",
-  "run": "post-data",
+  "run": "post-close",
   "variant": "public"
  },
  "calendar": {
@@ -50,14 +50,14 @@
    }
   ],
   "next_event": {
-   "name": "ISM Services PMI",
+   "name": "Unemployment Claims",
    "impact": "medium",
-   "time_utc": "2026-11-04T15:00:00+00:00",
-   "local": "11:00 AST",
-   "et": "10:00 ET",
-   "in": "46 min",
-   "consensus": "54.8",
-   "prior": "54.9"
+   "time_utc": "2026-11-05T13:30:00+00:00",
+   "local": "09:30 AST",
+   "et": "08:30 ET",
+   "in": "16h 24m",
+   "consensus": "197K",
+   "prior": "194K"
   },
   "sources": [],
   "warnings": []
@@ -66,31 +66,59 @@
   {
    "root": "ES",
    "trading_day": "2026-11-04",
-   "as_of_utc": "2026-11-04T14:13:17.542919+00:00",
+   "as_of_utc": "2026-11-04T21:05:01.586407+00:00",
    "source": "yahoo",
    "delayed": true,
-   "last_price": 7680.75,
+   "last_price": 7713.25,
    "levels": [
     {
      "tag": "pwh",
      "label": "Prior-week high",
-     "price": 7767.25,
+     "price": 7754.25,
      "group": "week",
-     "note": "2 session(s) of data — PARTIAL"
+     "note": "1 session(s) of data — PARTIAL"
     },
     {
      "tag": "rn_major_up",
      "label": "Round 50 above",
-     "price": 7700.0,
+     "price": 7750.0,
      "group": "round",
      "note": ""
     },
     {
+     "tag": "tdh",
+     "label": "Today's RTH high",
+     "price": 7746.25,
+     "group": "today",
+     "note": "session complete"
+    },
+    {
      "tag": "wh",
      "label": "Week high",
-     "price": 7693.75,
+     "price": 7746.25,
      "group": "week",
      "note": "since 2026-11-02"
+    },
+    {
+     "tag": "rn_minor_up",
+     "label": "Round 25 above",
+     "price": 7725.0,
+     "group": "round",
+     "note": ""
+    },
+    {
+     "tag": "tdc",
+     "label": "Today's RTH close (16:00 bar)",
+     "price": 7713.25,
+     "group": "today",
+     "note": "becomes next session's prior-day close"
+    },
+    {
+     "tag": "rn_major_dn",
+     "label": "Round 50 below",
+     "price": 7700.0,
+     "group": "round",
+     "note": ""
     },
     {
      "tag": "exp_hi",
@@ -102,22 +130,22 @@
     {
      "tag": "onh",
      "label": "Overnight high",
-     "price": 7688.5,
+     "price": 7692.5,
      "group": "overnight",
-     "note": "since 18:00 ET, 889 bars"
+     "note": "since 18:00 ET, 915 bars"
     },
     {
-     "tag": "rn_minor_dn",
-     "label": "Round 25 below",
-     "price": 7675.0,
-     "group": "round",
-     "note": ""
+     "tag": "rtho",
+     "label": "Today's RTH open",
+     "price": 7683.0,
+     "group": "today",
+     "note": "09:30 bar open"
     },
     {
-     "tag": "rn_major_dn",
-     "label": "Round 50 below",
-     "price": 7650.0,
-     "group": "round",
+     "tag": "tdl",
+     "label": "Today's RTH low",
+     "price": 7679.75,
+     "group": "today",
      "note": ""
     },
     {
@@ -137,7 +165,7 @@
     {
      "tag": "onvwap",
      "label": "Overnight VWAP",
-     "price": 7602.17,
+     "price": 7607.03,
      "group": "overnight",
      "note": "typical-price VWAP"
     },
@@ -181,7 +209,7 @@
      "label": "Prior-week low",
      "price": 7558.25,
      "group": "week",
-     "note": "2 session(s) of data — PARTIAL"
+     "note": "1 session(s) of data — PARTIAL"
     },
     {
      "tag": "pgl",
@@ -213,15 +241,15 @@
     }
    ],
    "stats": {
-    "last_bar_utc": "2026-11-04T14:03:00+00:00",
-    "last_bar_age_min": 10.3,
+    "last_bar_utc": "2026-11-04T20:55:00+00:00",
+    "last_bar_age_min": 10.0,
     "market_state": "open",
     "profile_volume": 1054636.0,
     "prior_day": "2026-11-03",
     "prior_day_rth_range": 47.25,
-    "overnight_range": 198.5,
-    "gap_vs_prior_close": 84.25,
-    "gap_basis": "last price (pre-market)",
+    "overnight_range": 202.5,
+    "gap_vs_prior_close": 86.5,
+    "gap_basis": "RTH open",
     "atr14": 96.59,
     "atr_days": 14,
     "avg_daily_range": 95.92,
@@ -1448,27 +1476,243 @@
     {
      "t": "2026-11-04T14:00:00+00:00",
      "o": 7687.25,
-     "h": 7687.25,
+     "h": 7688.75,
      "l": 7678.25,
-     "c": 7680.75,
-     "v": 4744.0
+     "c": 7686.0,
+     "v": 20571.0
+    },
+    {
+     "t": "2026-11-04T14:15:00+00:00",
+     "o": 7685.75,
+     "h": 7692.5,
+     "l": 7682.25,
+     "c": 7683.25,
+     "v": 21669.0
+    },
+    {
+     "t": "2026-11-04T14:30:00+00:00",
+     "o": 7683.0,
+     "h": 7731.5,
+     "l": 7679.75,
+     "c": 7730.75,
+     "v": 141544.0
+    },
+    {
+     "t": "2026-11-04T14:45:00+00:00",
+     "o": 7730.75,
+     "h": 7734.75,
+     "l": 7712.75,
+     "c": 7726.0,
+     "v": 106924.0
+    },
+    {
+     "t": "2026-11-04T15:00:00+00:00",
+     "o": 7726.25,
+     "h": 7737.0,
+     "l": 7723.0,
+     "c": 7736.0,
+     "v": 93375.0
+    },
+    {
+     "t": "2026-11-04T15:15:00+00:00",
+     "o": 7736.0,
+     "h": 7739.75,
+     "l": 7708.75,
+     "c": 7719.0,
+     "v": 84734.0
+    },
+    {
+     "t": "2026-11-04T15:30:00+00:00",
+     "o": 7719.0,
+     "h": 7730.75,
+     "l": 7711.25,
+     "c": 7717.0,
+     "v": 71484.0
+    },
+    {
+     "t": "2026-11-04T15:45:00+00:00",
+     "o": 7716.75,
+     "h": 7718.5,
+     "l": 7698.5,
+     "c": 7714.25,
+     "v": 93333.0
+    },
+    {
+     "t": "2026-11-04T16:00:00+00:00",
+     "o": 7714.5,
+     "h": 7722.0,
+     "l": 7692.25,
+     "c": 7712.0,
+     "v": 90358.0
+    },
+    {
+     "t": "2026-11-04T16:15:00+00:00",
+     "o": 7712.0,
+     "h": 7717.25,
+     "l": 7687.5,
+     "c": 7695.25,
+     "v": 65096.0
+    },
+    {
+     "t": "2026-11-04T16:30:00+00:00",
+     "o": 7695.25,
+     "h": 7727.0,
+     "l": 7694.5,
+     "c": 7725.25,
+     "v": 84731.0
+    },
+    {
+     "t": "2026-11-04T16:45:00+00:00",
+     "o": 7725.25,
+     "h": 7744.25,
+     "l": 7722.25,
+     "c": 7739.75,
+     "v": 64613.0
+    },
+    {
+     "t": "2026-11-04T17:00:00+00:00",
+     "o": 7739.5,
+     "h": 7740.25,
+     "l": 7724.5,
+     "c": 7730.0,
+     "v": 63593.0
+    },
+    {
+     "t": "2026-11-04T17:15:00+00:00",
+     "o": 7730.0,
+     "h": 7740.25,
+     "l": 7726.75,
+     "c": 7737.75,
+     "v": 37579.0
+    },
+    {
+     "t": "2026-11-04T17:30:00+00:00",
+     "o": 7738.0,
+     "h": 7739.5,
+     "l": 7733.0,
+     "c": 7736.25,
+     "v": 36899.0
+    },
+    {
+     "t": "2026-11-04T17:45:00+00:00",
+     "o": 7736.5,
+     "h": 7744.25,
+     "l": 7733.5,
+     "c": 7741.75,
+     "v": 33487.0
+    },
+    {
+     "t": "2026-11-04T18:00:00+00:00",
+     "o": 7741.75,
+     "h": 7746.25,
+     "l": 7736.0,
+     "c": 7742.5,
+     "v": 44433.0
+    },
+    {
+     "t": "2026-11-04T18:15:00+00:00",
+     "o": 7742.5,
+     "h": 7742.75,
+     "l": 7731.5,
+     "c": 7736.75,
+     "v": 40808.0
+    },
+    {
+     "t": "2026-11-04T18:30:00+00:00",
+     "o": 7737.0,
+     "h": 7737.5,
+     "l": 7729.25,
+     "c": 7732.5,
+     "v": 26574.0
+    },
+    {
+     "t": "2026-11-04T18:45:00+00:00",
+     "o": 7732.25,
+     "h": 7732.5,
+     "l": 7724.5,
+     "c": 7727.75,
+     "v": 31072.0
+    },
+    {
+     "t": "2026-11-04T19:00:00+00:00",
+     "o": 7727.75,
+     "h": 7742.5,
+     "l": 7725.75,
+     "c": 7737.25,
+     "v": 33521.0
+    },
+    {
+     "t": "2026-11-04T19:15:00+00:00",
+     "o": 7737.25,
+     "h": 7739.25,
+     "l": 7733.25,
+     "c": 7734.0,
+     "v": 25340.0
+    },
+    {
+     "t": "2026-11-04T19:30:00+00:00",
+     "o": 7734.0,
+     "h": 7736.0,
+     "l": 7727.25,
+     "c": 7734.0,
+     "v": 31729.0
+    },
+    {
+     "t": "2026-11-04T19:45:00+00:00",
+     "o": 7734.0,
+     "h": 7734.75,
+     "l": 7725.25,
+     "c": 7726.75,
+     "v": 35289.0
+    },
+    {
+     "t": "2026-11-04T20:00:00+00:00",
+     "o": 7727.0,
+     "h": 7730.5,
+     "l": 7725.25,
+     "c": 7727.5,
+     "v": 29291.0
+    },
+    {
+     "t": "2026-11-04T20:15:00+00:00",
+     "o": 7727.5,
+     "h": 7735.5,
+     "l": 7726.75,
+     "c": 7732.75,
+     "v": 29758.0
+    },
+    {
+     "t": "2026-11-04T20:30:00+00:00",
+     "o": 7732.5,
+     "h": 7740.75,
+     "l": 7725.0,
+     "c": 7726.0,
+     "v": 48143.0
+    },
+    {
+     "t": "2026-11-04T20:45:00+00:00",
+     "o": 7725.75,
+     "h": 7728.75,
+     "l": 7712.75,
+     "c": 7713.25,
+     "v": 56097.0
     }
    ]
   },
   {
    "root": "NQ",
    "trading_day": "2026-11-04",
-   "as_of_utc": "2026-11-04T14:13:17.542919+00:00",
+   "as_of_utc": "2026-11-04T21:05:01.586407+00:00",
    "source": "yahoo",
    "delayed": true,
-   "last_price": 28381.25,
+   "last_price": 28533.5,
    "levels": [
     {
      "tag": "pwh",
      "label": "Prior-week high",
-     "price": 29677.0,
+     "price": 29562.0,
      "group": "week",
-     "note": "2 session(s) of data — PARTIAL"
+     "note": "1 session(s) of data — PARTIAL"
     },
     {
      "tag": "exp_hi",
@@ -1478,9 +1722,16 @@
      "note": "ATR over 14 days"
     },
     {
+     "tag": "tdh",
+     "label": "Today's RTH high",
+     "price": 28969.0,
+     "group": "today",
+     "note": "session complete"
+    },
+    {
      "tag": "wh",
      "label": "Week high",
-     "price": 28891.25,
+     "price": 28969.0,
      "group": "week",
      "note": "since 2026-11-02"
     },
@@ -1489,7 +1740,35 @@
      "label": "Overnight high",
      "price": 28662.0,
      "group": "overnight",
-     "note": "since 18:00 ET, 889 bars"
+     "note": "since 18:00 ET, 915 bars"
+    },
+    {
+     "tag": "rn_major_up",
+     "label": "Round 100 above",
+     "price": 28600.0,
+     "group": "round",
+     "note": ""
+    },
+    {
+     "tag": "rn_minor_up",
+     "label": "Round 50 above",
+     "price": 28550.0,
+     "group": "round",
+     "note": ""
+    },
+    {
+     "tag": "tdc",
+     "label": "Today's RTH close (16:00 bar)",
+     "price": 28533.5,
+     "group": "today",
+     "note": "becomes next session's prior-day close"
+    },
+    {
+     "tag": "rn_major_dn",
+     "label": "Round 100 below",
+     "price": 28500.0,
+     "group": "round",
+     "note": ""
     },
     {
      "tag": "pgh",
@@ -1506,10 +1785,17 @@
      "note": "2026-11-03"
     },
     {
-     "tag": "rn_major_up",
-     "label": "Round 100 above",
-     "price": 28400.0,
-     "group": "round",
+     "tag": "rtho",
+     "label": "Today's RTH open",
+     "price": 28430.25,
+     "group": "today",
+     "note": "09:30 bar open"
+    },
+    {
+     "tag": "tdl",
+     "label": "Today's RTH low",
+     "price": 28405.0,
+     "group": "today",
      "note": ""
     },
     {
@@ -1518,13 +1804,6 @@
      "price": 28386.0,
      "group": "profile",
      "note": "70 % value area"
-    },
-    {
-     "tag": "rn_minor_dn",
-     "label": "Round 50 below",
-     "price": 28350.0,
-     "group": "round",
-     "note": ""
     },
     {
      "tag": "poc",
@@ -1539,13 +1818,6 @@
      "price": 28300.75,
      "group": "prior_day",
      "note": "2026-11-03"
-    },
-    {
-     "tag": "rn_major_dn",
-     "label": "Round 100 below",
-     "price": 28300.0,
-     "group": "round",
-     "note": ""
     },
     {
      "tag": "val",
@@ -1566,7 +1838,7 @@
      "label": "Prior-week low",
      "price": 28232.75,
      "group": "week",
-     "note": "2 session(s) of data — PARTIAL"
+     "note": "1 session(s) of data — PARTIAL"
     },
     {
      "tag": "pdl",
@@ -1578,7 +1850,7 @@
     {
      "tag": "onvwap",
      "label": "Overnight VWAP",
-     "price": 28182.92,
+     "price": 28194.87,
      "group": "overnight",
      "note": "typical-price VWAP"
     },
@@ -1612,15 +1884,15 @@
     }
    ],
    "stats": {
-    "last_bar_utc": "2026-11-04T14:03:00+00:00",
-    "last_bar_age_min": 10.3,
+    "last_bar_utc": "2026-11-04T20:55:00+00:00",
+    "last_bar_age_min": 10.0,
     "market_state": "open",
     "profile_volume": 416597.0,
     "prior_day": "2026-11-03",
     "prior_day_rth_range": 227.75,
     "overnight_range": 1046.25,
-    "gap_vs_prior_close": 80.5,
-    "gap_basis": "last price (pre-market)",
+    "gap_vs_prior_close": 129.5,
+    "gap_basis": "RTH open",
     "atr14": 685.27,
     "atr_days": 14,
     "avg_daily_range": 651.6,
@@ -2847,10 +3119,226 @@
     {
      "t": "2026-11-04T14:00:00+00:00",
      "o": 28410.75,
-     "h": 28411.0,
+     "h": 28422.75,
      "l": 28359.75,
-     "c": 28381.25,
-     "v": 2696.0
+     "c": 28414.25,
+     "v": 9534.0
+    },
+    {
+     "t": "2026-11-04T14:15:00+00:00",
+     "o": 28413.75,
+     "h": 28469.75,
+     "l": 28410.75,
+     "c": 28430.75,
+     "v": 10686.0
+    },
+    {
+     "t": "2026-11-04T14:30:00+00:00",
+     "o": 28430.25,
+     "h": 28808.75,
+     "l": 28405.0,
+     "c": 28808.0,
+     "v": 66418.0
+    },
+    {
+     "t": "2026-11-04T14:45:00+00:00",
+     "o": 28811.75,
+     "h": 28868.5,
+     "l": 28690.0,
+     "c": 28810.75,
+     "v": 54152.0
+    },
+    {
+     "t": "2026-11-04T15:00:00+00:00",
+     "o": 28817.75,
+     "h": 28944.75,
+     "l": 28788.25,
+     "c": 28941.25,
+     "v": 42044.0
+    },
+    {
+     "t": "2026-11-04T15:15:00+00:00",
+     "o": 28941.25,
+     "h": 28969.0,
+     "l": 28743.5,
+     "c": 28817.0,
+     "v": 37369.0
+    },
+    {
+     "t": "2026-11-04T15:30:00+00:00",
+     "o": 28817.0,
+     "h": 28839.75,
+     "l": 28671.75,
+     "c": 28694.25,
+     "v": 30808.0
+    },
+    {
+     "t": "2026-11-04T15:45:00+00:00",
+     "o": 28693.0,
+     "h": 28696.25,
+     "l": 28570.0,
+     "c": 28629.0,
+     "v": 40392.0
+    },
+    {
+     "t": "2026-11-04T16:00:00+00:00",
+     "o": 28628.75,
+     "h": 28675.0,
+     "l": 28481.25,
+     "c": 28620.5,
+     "v": 34464.0
+    },
+    {
+     "t": "2026-11-04T16:15:00+00:00",
+     "o": 28622.25,
+     "h": 28654.5,
+     "l": 28474.0,
+     "c": 28518.0,
+     "v": 25560.0
+    },
+    {
+     "t": "2026-11-04T16:30:00+00:00",
+     "o": 28518.5,
+     "h": 28693.0,
+     "l": 28513.25,
+     "c": 28683.0,
+     "v": 29767.0
+    },
+    {
+     "t": "2026-11-04T16:45:00+00:00",
+     "o": 28683.25,
+     "h": 28792.0,
+     "l": 28661.0,
+     "c": 28759.0,
+     "v": 21864.0
+    },
+    {
+     "t": "2026-11-04T17:00:00+00:00",
+     "o": 28760.0,
+     "h": 28761.75,
+     "l": 28648.25,
+     "c": 28682.5,
+     "v": 20431.0
+    },
+    {
+     "t": "2026-11-04T17:15:00+00:00",
+     "o": 28683.75,
+     "h": 28768.5,
+     "l": 28669.75,
+     "c": 28759.5,
+     "v": 15696.0
+    },
+    {
+     "t": "2026-11-04T17:30:00+00:00",
+     "o": 28760.25,
+     "h": 28762.75,
+     "l": 28709.25,
+     "c": 28741.5,
+     "v": 12857.0
+    },
+    {
+     "t": "2026-11-04T17:45:00+00:00",
+     "o": 28743.25,
+     "h": 28776.25,
+     "l": 28710.5,
+     "c": 28762.25,
+     "v": 10192.0
+    },
+    {
+     "t": "2026-11-04T18:00:00+00:00",
+     "o": 28763.0,
+     "h": 28775.5,
+     "l": 28702.75,
+     "c": 28733.25,
+     "v": 12836.0
+    },
+    {
+     "t": "2026-11-04T18:15:00+00:00",
+     "o": 28734.25,
+     "h": 28735.0,
+     "l": 28682.75,
+     "c": 28703.75,
+     "v": 12293.0
+    },
+    {
+     "t": "2026-11-04T18:30:00+00:00",
+     "o": 28705.25,
+     "h": 28709.25,
+     "l": 28652.25,
+     "c": 28659.5,
+     "v": 9903.0
+    },
+    {
+     "t": "2026-11-04T18:45:00+00:00",
+     "o": 28658.75,
+     "h": 28658.75,
+     "l": 28602.0,
+     "c": 28621.75,
+     "v": 9912.0
+    },
+    {
+     "t": "2026-11-04T19:00:00+00:00",
+     "o": 28622.0,
+     "h": 28719.25,
+     "l": 28606.5,
+     "c": 28684.5,
+     "v": 12454.0
+    },
+    {
+     "t": "2026-11-04T19:15:00+00:00",
+     "o": 28686.5,
+     "h": 28694.25,
+     "l": 28640.75,
+     "c": 28653.25,
+     "v": 9274.0
+    },
+    {
+     "t": "2026-11-04T19:30:00+00:00",
+     "o": 28652.75,
+     "h": 28657.0,
+     "l": 28612.75,
+     "c": 28632.75,
+     "v": 9919.0
+    },
+    {
+     "t": "2026-11-04T19:45:00+00:00",
+     "o": 28633.25,
+     "h": 28646.0,
+     "l": 28591.5,
+     "c": 28592.75,
+     "v": 11493.0
+    },
+    {
+     "t": "2026-11-04T20:00:00+00:00",
+     "o": 28596.0,
+     "h": 28618.5,
+     "l": 28572.25,
+     "c": 28588.5,
+     "v": 10157.0
+    },
+    {
+     "t": "2026-11-04T20:15:00+00:00",
+     "o": 28587.5,
+     "h": 28647.0,
+     "l": 28586.25,
+     "c": 28612.5,
+     "v": 11414.0
+    },
+    {
+     "t": "2026-11-04T20:30:00+00:00",
+     "o": 28611.5,
+     "h": 28655.5,
+     "l": 28555.0,
+     "c": 28563.75,
+     "v": 15213.0
+    },
+    {
+     "t": "2026-11-04T20:45:00+00:00",
+     "o": 28560.0,
+     "h": 28595.75,
+     "l": 28510.5,
+     "c": 28533.5,
+     "v": 15777.0
     }
    ]
   }
@@ -2863,44 +3351,71 @@
     "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNTFp4aTJNa00wNmxyZFp2d3BGUVI4b193SU9IVF9lQkIxSk96c0k4X2tHNWlRZEU3UHhLa1A2aW1XQlcyZ2l3cy14YTFZYmQzR0E1aThUdVBTQkd2UG5WQkQ2eUpVbS1HOGtOLXR4WFQzMm9RS3I2cG1HNy1WLUVLckdLaWY5UERWcGpyUTVGV0ZvN2VCcUd0QzJhWGk?oc=5",
     "source": "gnews_futures",
     "published_utc": "2026-11-04T10:52:59+00:00",
-    "score": 9.94,
+    "score": 8.8,
     "duplicates": 0
    },
    {
-    "id": "3d8432587e",
-    "title": "Stock Futures Rally, Treasurys Strengthen After Democratic Sweep - WSJ",
-    "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxONVFJRHRnbXFVZk1nWnFDSE1ZUjhaY20wY2dVRnpnUnZZYzQ2OXM4NE5CRFJsemNDcXZ1dkhUSl9BSnRaMTdzU2xNZExWdWNjZmNFNGd6Qllpcjk1eUVwMTZrc3pSdnlCV09uSlM2XzJ5d3ZMTnA5VHB3RWRVdE1fVFRkY2lVbXJfaXpCVW10OEtNZ2N6NWFUbjdfRXpCbUlaeThkTnozWl9oVXhSVGxNZ1RodUhWUQ?oc=5",
+    "id": "88f1c5f6d7",
+    "title": "Friday’s jobs report looms as Fed weighs December move on interest rates - Scotsman Guide",
+    "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxNbHA2eWVMUkdVLVpTRzVjZDAzQS1tUHNDNzEycFpWTEY0R0szd0U5a1VCd3VXV3l2aWJDX0pFaVBrMTJ2X2dNdVJNTGc4Y09wNEgzZXg4ZEQ1Y3MycUtjaEVTM2gwX0syYXNYa0pUQmFvTi1rdjg0MXNLcWhmcjluSHZORG9hZERJcVNFLW1uMUV3ci1IT3JxWV9DNzQ2Zw?oc=5",
+    "source": "gnews_fed",
+    "published_utc": "2026-11-04T20:39:38+00:00",
+    "score": 7.93,
+    "duplicates": 1
+   },
+   {
+    "id": "1f8a0fb46c",
+    "title": "Stock Futures Rally, Treasurys Strengthen After Democratic Sweep -- 3nd Update - marketscreener.com",
+    "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQemUyczY5RzlwSUUtN3gzR2dFeVlrNVVGdl8ybUpVTVd3YUhtdGpkZE9mZU9FbU5TT19pMTJNWnpnUTlvQ2FnZllJTk43b18xaFkya0ZmQVNnRGVzX2tmb21jTHo0TW1SbmxvdjUtQWRJbkdxMmx1ZnloZWs3TC1WNDE4SGxaZFdWTW5HdVd1eUtqampMQ051UkcxN1dicHR4Znc2bkxxX3JwZjQtMWtOaXNWRkw4ZEJKTEFseGV0Q3pnUzdDblE?oc=5",
     "source": "gnews_futures",
-    "published_utc": "2026-11-04T11:23:00+00:00",
-    "score": 9.03,
-    "duplicates": 2
-   },
-   {
-    "id": "316b69a36c",
-    "title": "Euro zone inflation hits 4% for first time in three years as interest rate hike looms",
-    "link": "https://www.cnbc.com/2026/11/04/euro-zone-cpi-inflation-october-ecb-rate-hike.html",
-    "source": "cnbc_markets",
-    "published_utc": "2026-11-04T10:47:30+00:00",
-    "score": 8.43,
+    "published_utc": "2026-11-04T14:39:09+00:00",
+    "score": 7.93,
     "duplicates": 1
    },
    {
-    "id": "bf657a758c",
-    "title": "Think the Fed will be done after two more rate hikes? How Friday’s jobs report may trigger a major market repricing.",
-    "link": "https://www.marketwatch.com/story/think-the-fed-will-be-done-after-two-more-rate-hikes-how-fridays-jobs-report-may-trigger-a-major-market-repricing-6aca874c?mod=mw_rss_topstories",
-    "source": "marketwatch_top",
-    "published_utc": "2026-11-04T13:00:00+00:00",
-    "score": 8.3,
-    "duplicates": 1
-   },
-   {
-    "id": "7efa06ce70",
-    "title": "ECB rate hike looks nearly certain after inflation rises to three-year high - Reuters",
-    "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNSnlWVjhZeXhCME9sTHdmcC1RWTdrNUVIbUhhbE1td2t3Z2VDbzh1SW1kSmJJdWU5aVRSeW8tQ3hweVJwTDdVMGR0XzdtM0UtSGhkRnY1NWN6ZUkxR05xb2NadnJuNjEza3d4cDNOcTRnWXJBT2MzYnJjY2hkbjdHUmxoWjVsWGE0UE5NOUx0QQ?oc=5",
+    "id": "9bbb7aee4f",
+    "title": "CPI | OpenAI Says Apple ChatGPT Deal Doesn’t Shut Out AI Rivals - PYMNTS.com",
+    "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNcUJyR1VMWDNNeGUzQVhfQlZSSmwzYWFnQjgwRXVFNVhud3VCUjRYM0FEM253TWNHUjlhb1NwN2lITFhiT1dfcGIzbUp1MDR1a3htelJRUGZ0MGQ0UmYxNmtCeGxBbFR1VzdJVDJaQjBHU2d0QmFrWEFsNjJkRVFfdVotalRpVUlBOFdNUExfUWY0aFI2?oc=5",
     "source": "gnews_macro",
-    "published_utc": "2026-11-04T11:49:22+00:00",
-    "score": 7.6,
-    "duplicates": 1
+    "published_utc": "2026-11-04T19:28:12+00:00",
+    "score": 7.23,
+    "duplicates": 0
+   },
+   {
+    "id": "7cbff9bf84",
+    "title": "CPI | Google’s School AI Strategy Raises Questions Over Market Power - PYMNTS.com",
+    "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQaGU1WTNMZU13U3BfV2FqWFRXUkxGLVlPb2Z0UEJBMVg4eFFRRjhQUkJ0b0hpWEZUcnBaUWs0SUlqV3VpUTRpSXd4TWduNFI0UkxVOTc3aUpwVndiS2hNV2psWVNLOTNNOGZMbnRoMG5ERTlCVVNJOVNCZDA4LWNicjBwZ1lGZ0NHRVpXbE1CamhFS1JhV2xHZzBUQQ?oc=5",
+    "source": "gnews_macro",
+    "published_utc": "2026-11-04T18:42:28+00:00",
+    "score": 7.1,
+    "duplicates": 0
+   },
+   {
+    "id": "b1a8ecc426",
+    "title": "What Republicans' huge loss means for Trump",
+    "link": "https://www.cnbc.com/2026/11/04/trump-midterm-election-results-congress.html",
+    "source": "cnbc_markets",
+    "published_utc": "2026-11-04T20:23:18+00:00",
+    "score": 6.88,
+    "duplicates": 0
+   },
+   {
+    "id": "4eca906eb2",
+    "title": "El Nino Poses ‘Meaningful Risk’ of Higher Inflation in 2027, SF Fed Paper Says - Insurance Journal",
+    "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE5PVHVPMUp1MlY1LXNzLS1OTjRRcUJiOEY4VGVXajFjcV80dGRfd0NJdzdlYkNudktERTRQOUl4Wl9EbXZoSHlST3k5bGlWOEhhRHhFTVgzT3lnZl81SUM3RTduODlPdW1IbHczdFZwWmZ0ejVyUEI0?oc=5",
+    "source": "gnews_macro",
+    "published_utc": "2026-11-04T15:24:34+00:00",
+    "score": 6.55,
+    "duplicates": 0
+   },
+   {
+    "id": "af5c691c82",
+    "title": "Services sector maintains expansion in October, while supply chain and tariff pressures persist, reports ISM - Logistics Management",
+    "link": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxONkJyZmM3R2ZBazZ4bC1CaW9PUUZXOEV2eTJveE1tYjBoVFdmMXJjYXJBRHRTTWNlUUxSWXhsdlh1ZGVaM0ZQeXJ3RURicmhsbDFuVmtlRVJQeW9vVE9DanJIZzZwUHJhU2NLWFRhLW5Bbl9sZGVVNzYxdXNkTzNzQ3FxSVFkOFlZTWxXbzduT1UyRnVsSjR5dXlEOUdkNnlEQ2VFYnRncHRPRDEyRWlNaE9kc3plRms2dndZYnJQcmRTMkd2bnptR3ByRUp2eng5QkZuRTBjVnhiSUVs?oc=5",
+    "source": "gnews_macro",
+    "published_utc": "2026-11-04T16:59:44+00:00",
+    "score": 6.32,
+    "duplicates": 0
    },
    {
     "id": "3db6a8753b",
@@ -2908,7 +3423,16 @@
     "link": "https://news.google.com/rss/articles/CBMi_AFBVV95cUxOMUhJRGhlOTVNNDNWYVRDWEVGRTcwNEh3RmRYelljQnJ0MFBlWTdwZEtjaUZfdHlTWjFYelMwS3BfV3l2dlBCS195UXp6NmY2bkFnTUhiMlBUVUJrQ0FtS3VsSXFZTGIzTGhMM3pkcUpUdDFpX1BrTlBEem1FcFQ3LWdib0xkYjFrMmpsVWk0Z3hwdjRvSVNEN3p0MXdlNUlXVXJoX0toWnIzWUQ3d0hNLTJvWGx6VjgtLTB5am9ldFExdVc0MExsVlAtWGpMYms5RHllM2I4UVFGb21samNpTy0zSUVOYmxWdURvandlakw4ZGdVejZkNGJYYnc?oc=5",
     "source": "gnews_futures",
     "published_utc": "2026-11-04T13:51:00+00:00",
-    "score": 7.44,
+    "score": 6.29,
+    "duplicates": 0
+   },
+   {
+    "id": "1ceb3c0827",
+    "title": "Hyperscalers and Apple surge after election results remove investor uncertainty",
+    "link": "https://www.cnbc.com/2026/11/04/apple-and-other-big-tech-stocks-surge-after-2026-midterm-elections.html",
+    "source": "cnbc_markets",
+    "published_utc": "2026-11-04T19:37:43+00:00",
+    "score": 6.26,
     "duplicates": 0
    },
    {
@@ -2917,62 +3441,26 @@
     "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPZTRablNvN19aQ1hzT2J4UUhRaHJXUXFSem9IekN2TG9ra0FWT2tiTHlCMWNZZTNEZFBBRGdJRDdXdVowcEYxSHJPZEwtYjZ0LXF5a3AzbG5oUG0zaXVCSEE3dFlMTk9YQk1NaVMtdWVHT0pTb2J3ZXloaE1FRFpCT3RoQVpuLWdsNVNJVGs4eVFOa0o0N1RLVUlXeHp1X2FXQ3RhUW1ZQmR2eVZQc0E2WDlyelczNTNwVk9LMEZOVWo2X3k1dzFvd2Z6WGXSAdIBQVVfeXFMTk5TMG54Tk53NVRhQW02TER6Nl9ZeVd2WDJCSTgtcTNQVTZCTmZNc1YtWGNLaHR4c25mNUptczFsNl9VR19ndDNDdUwzRVVfWHd5SHF1b2hQYXVxVlJuTGJaQzhvZTlKWV9jTG1FMDU5VnRTYnY0dk4yZXRWd0RqTnpzUjVvNE8wX3FrTWd3VUFLa0VwNnlWaXctWUZFRHltRWU5OVhobUZKd3JBdFE0UWFwTlNxTXZ1Y1k0cm5HRG85Nm5kQmpNSWx5TE5vR3hPZEt3?oc=5",
     "source": "gnews_futures",
     "published_utc": "2026-11-04T13:15:24+00:00",
-    "score": 7.34,
+    "score": 6.2,
     "duplicates": 0
    },
    {
-    "id": "a2022e117f",
-    "title": "Midterm elections deliver a ‘blue wave.’ The stock market sees green.",
-    "link": "https://www.marketwatch.com/story/midterm-elections-deliver-a-blue-wave-the-stock-market-sees-green-5900a779?mod=mw_rss_topstories",
-    "source": "marketwatch_top",
-    "published_utc": "2026-11-04T12:27:00+00:00",
-    "score": 7.2,
-    "duplicates": 0
-   },
-   {
-    "id": "b9c00e13c3",
-    "title": "Eurozone Inflation Rises to 4%, Boosting Case for ECB Interest Rate Hike in December - Morningstar",
-    "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNcWVOTU84Tk40OGpBSG1CMDFqaHI0NERCMTNQb29CRGw1dlM1VU56UHlOaTdvZk14UkpGeTNva3hHRjNNNUlIdHp3ZWlGZUlYeGlCWkFFcnNBM0F5Vm1PRWlDQ2pCUlRrYW9GVTFZRDQtekpQQ2JOdmJPXzlxdzNiaXZ6Y0d6Sl91QU9rV0ZlUDAxRE1ZM1hUOGk2d2VySkVjeXN6R0w4Vkp0V3VrME5NZlFRVFBjOWRV?oc=5",
+    "id": "d08219e0c9",
+    "title": "Think the Fed will be done after two more rate hikes? How Friday’s jobs report may trigger a major market repricing. - MarketWatch",
+    "link": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxOV3llTFJvRmk3UV9aa0huQjEwTXlfc2pldzlLLU5BQmo4UlNBNEJsemdQQmp6TmtWeVMtLWkxSlhNUk10VDUyX2NyakhtTXFZUFNQQmZvQWRiOTgtLVhHeXdrSWlFc1lVMG1TdXNvSWw5UWlhZmEyZzFTcWVxMC1EakdHa1dwNWtJcExnc1ZqOU9SZTVpcFRQOGpWenZTcE5oVmZlaFJNQkhWcTlKWEI4N09VWDRySUhHMXZLblFsdnl4cG1zVXZnMmwyODRZUzdRNkNVdWVfcHF4d2F0VWNXZkFTT0x2NE0yT1Z4bg?oc=5",
     "source": "gnews_macro",
-    "published_utc": "2026-11-04T11:48:45+00:00",
-    "score": 7.1,
+    "published_utc": "2026-11-04T13:00:00+00:00",
+    "score": 6.15,
     "duplicates": 0
-   },
-   {
-    "id": "935c4ae6fa",
-    "title": "US Stock Futures Rally as Democrats Take Control of Congress - www.marketscreener.com",
-    "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOenVNalRlNk9YTXhjekJfN04weGZXNGsxM1BsSU5SMy1CQUZTM1lmcWYtSWVtUEdlSW9YejRrYjluQm9fV2tfc3BiSzNTSzVuV1UtM2FLMWk3VFcxcDlDM01hZGlrS2JBV2R1R2kwdXZQekFUc2dYQmVzdEVoakVnaHJqa3lEcDBnek5MV2NQbDhqRXJScTJuVkd6Z2dQQ0J6YW1PaWZ2OTNOVFMyNnFaZGV5SQ?oc=5",
-    "source": "gnews_futures",
-    "published_utc": "2026-11-04T11:24:25+00:00",
-    "score": 7.03,
-    "duplicates": 2
-   },
-   {
-    "id": "9ace65281a",
-    "title": "[On-chain stock futures] Tesla trades 4.93% below its regular-session close - www.tokenpost.com",
-    "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5MMW5zbFZqYThMRnVvRDY5MU1TdEY3TnJUUVh3N19kZEhleWNaZFdLNW1ubHhJakIzZ3ROMzBBWEREQjA5WGk2NlUxQjUwX0w2OWM3ak9WWHlhdw?oc=5",
-    "source": "gnews_futures",
-    "published_utc": "2026-11-04T12:00:43+00:00",
-    "score": 6.63,
-    "duplicates": 0
-   },
-   {
-    "id": "5c7a61fab0",
-    "title": "Stock futures rise after Democrats sweep the midterm elections - Quartz",
-    "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9lZ2JTUDRqa3RmbExNWEthNmRsZkl3Sy1VekdmekduRzFyTmRZdHNLZjZPczcyTEs3S2xVRFA1UVpwY2hpUFpQalo0SmQ0VDhDZmRJNU1rMGczYm9kTHNIUEczczZCYy1PaWpGdG1yZ011cmlfdFZvcWFSVjMtaUk?oc=5",
-    "source": "gnews_futures",
-    "published_utc": "2026-11-04T13:38:34+00:00",
-    "score": 6.4,
-    "duplicates": 3
    }
   ],
   "summary": {
    "lines": [
     "US Stock Futures Rise as Democrats Win Congress and AMD Shares Surge on AI Growth Outlook: Dow Jones, S&P, Nasdaq, Wall Street - Yahoo Finance [310ef5b751]",
-    "Stock Futures Rally, Treasurys Strengthen After Democratic Sweep - WSJ [3d8432587e]",
-    "Euro zone inflation hits 4% for first time in three years as interest rate hike looms [316b69a36c]",
-    "Think the Fed will be done after two more rate hikes? How Friday’s jobs report may trigger a major market repricing. [bf657a758c]",
-    "ECB rate hike looks nearly certain after inflation rises to three-year high - Reuters [7efa06ce70]"
+    "Friday’s jobs report looms as Fed weighs December move on interest rates - Scotsman Guide [88f1c5f6d7]",
+    "Stock Futures Rally, Treasurys Strengthen After Democratic Sweep -- 3nd Update - marketscreener.com [1f8a0fb46c]",
+    "CPI | OpenAI Says Apple ChatGPT Deal Doesn’t Shut Out AI Rivals - PYMNTS.com [9bbb7aee4f]",
+    "CPI | Google’s School AI Strategy Raises Questions Over Market Power - PYMNTS.com [7cbff9bf84]"
    ],
    "backend": "none",
    "model": null,
@@ -3158,17 +3646,17 @@
     "reported": false
    },
    {
-    "symbol": "MCK",
-    "name": "McKesson Corporation",
-    "timing": "post",
+    "symbol": "CVS",
+    "name": "CVS Health Corporation",
+    "timing": "pre",
     "date": "2026-11-04",
     "reported_at": null,
     "reported": false
    },
    {
-    "symbol": "CVS",
-    "name": "CVS Health Corporation",
-    "timing": "pre",
+    "symbol": "MCK",
+    "name": "McKesson Corporation",
+    "timing": "post",
     "date": "2026-11-04",
     "reported_at": null,
     "reported": false
@@ -3190,6 +3678,14 @@
     "reported": false
    },
    {
+    "symbol": "APP",
+    "name": "Applovin Corporation",
+    "timing": "post",
+    "date": "2026-11-04",
+    "reported_at": null,
+    "reported": false
+   },
+   {
     "symbol": "MSI",
     "name": "Motorola Solutions, Inc.",
     "timing": "post",
@@ -3201,14 +3697,6 @@
     "symbol": "DDOG",
     "name": "Datadog, Inc.",
     "timing": "pre",
-    "date": "2026-11-04",
-    "reported_at": null,
-    "reported": false
-   },
-   {
-    "symbol": "APP",
-    "name": "Applovin Corporation",
-    "timing": "post",
     "date": "2026-11-04",
     "reported_at": null,
     "reported": false
@@ -3352,8 +3840,8 @@
     "reported": false
    },
    {
-    "symbol": "TRP",
-    "name": "TC Energy Corporation",
+    "symbol": "KMB",
+    "name": "Kimberly-Clark Corporation",
     "timing": "pre",
     "date": "2026-11-05",
     "reported_at": null,
@@ -3362,6 +3850,14 @@
    {
     "symbol": "TRGP",
     "name": "Targa Resources, Inc.",
+    "timing": "pre",
+    "date": "2026-11-05",
+    "reported_at": null,
+    "reported": false
+   },
+   {
+    "symbol": "TRP",
+    "name": "TC Energy Corporation",
     "timing": "pre",
     "date": "2026-11-05",
     "reported_at": null,
