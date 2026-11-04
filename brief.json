@@ -1,7 +1,7 @@
 {
  "meta": {
-  "generated_at_utc": "2026-11-04T11:40:19.805976+00:00",
-  "generated_at_local": "Wed 04 Nov 2026 07:40 AST",
+  "generated_at_utc": "2026-11-04T11:55:35.092506+00:00",
+  "generated_at_local": "Wed 04 Nov 2026 07:55 AST",
   "trading_day": "2026-11-04",
   "display_tz": "America/Halifax",
   "version": "0.1.0",
@@ -55,7 +55,7 @@
    "time_utc": "2026-11-04T15:00:00+00:00",
    "local": "11:00 AST",
    "et": "10:00 ET",
-   "in": "3h 19m",
+   "in": "3h 04m",
    "consensus": "54.8",
    "prior": "54.9"
   },
@@ -66,10 +66,10 @@
   {
    "root": "ES",
    "trading_day": "2026-11-04",
-   "as_of_utc": "2026-11-04T11:40:19.805976+00:00",
+   "as_of_utc": "2026-11-04T11:55:35.092506+00:00",
    "source": "yahoo",
    "delayed": true,
-   "last_price": 7683.25,
+   "last_price": 7685.5,
    "levels": [
     {
      "tag": "pwh",
@@ -102,9 +102,9 @@
     {
      "tag": "onh",
      "label": "Overnight high",
-     "price": 7684.75,
+     "price": 7686.25,
      "group": "overnight",
-     "note": "since 18:00 ET, 736 bars"
+     "note": "since 18:00 ET, 751 bars"
     },
     {
      "tag": "rn_minor_dn",
@@ -156,18 +156,18 @@
      "note": "70 % value area"
     },
     {
+     "tag": "onvwap",
+     "label": "Overnight VWAP",
+     "price": 7582.11,
+     "group": "overnight",
+     "note": "typical-price VWAP"
+    },
+    {
      "tag": "pdo",
      "label": "Prior-day RTH open",
      "price": 7580.0,
      "group": "prior_day",
      "note": "2026-11-03"
-    },
-    {
-     "tag": "onvwap",
-     "label": "Overnight VWAP",
-     "price": 7579.79,
-     "group": "overnight",
-     "note": "typical-price VWAP"
     },
     {
      "tag": "pdl",
@@ -213,14 +213,14 @@
     }
    ],
    "stats": {
-    "last_bar_utc": "2026-11-04T11:30:00+00:00",
-    "last_bar_age_min": 10.3,
+    "last_bar_utc": "2026-11-04T11:45:00+00:00",
+    "last_bar_age_min": 10.6,
     "market_state": "open",
     "profile_volume": 1054636.0,
     "prior_day": "2026-11-03",
     "prior_day_rth_range": 47.25,
-    "overnight_range": 194.75,
-    "gap_vs_prior_close": 86.75,
+    "overnight_range": 196.25,
+    "gap_vs_prior_close": 89.0,
     "gap_basis": "last price (pre-market)",
     "atr14": 96.59,
     "atr_days": 14,
@@ -1368,9 +1368,17 @@
     {
      "t": "2026-11-04T11:30:00+00:00",
      "o": 7682.5,
-     "h": 7684.0,
-     "l": 7682.25,
-     "c": 7683.25,
+     "h": 7686.25,
+     "l": 7678.5,
+     "c": 7684.75,
+     "v": 10593.0
+    },
+    {
+     "t": "2026-11-04T11:45:00+00:00",
+     "o": 7684.75,
+     "h": 7685.5,
+     "l": 7684.5,
+     "c": 7685.5,
      "v": 0.0
     }
    ]
@@ -1378,10 +1386,10 @@
   {
    "root": "NQ",
    "trading_day": "2026-11-04",
-   "as_of_utc": "2026-11-04T11:40:19.805976+00:00",
+   "as_of_utc": "2026-11-04T11:55:35.092506+00:00",
    "source": "yahoo",
    "delayed": true,
-   "last_price": 28582.25,
+   "last_price": 28578.0,
    "levels": [
     {
      "tag": "pwh",
@@ -1409,7 +1417,7 @@
      "label": "Overnight high",
      "price": 28662.0,
      "group": "overnight",
-     "note": "since 18:00 ET, 736 bars"
+     "note": "since 18:00 ET, 751 bars"
     },
     {
      "tag": "rn_major_up",
@@ -1498,7 +1506,7 @@
     {
      "tag": "onvwap",
      "label": "Overnight VWAP",
-     "price": 28117.0,
+     "price": 28121.31,
      "group": "overnight",
      "note": "typical-price VWAP"
     },
@@ -1532,14 +1540,14 @@
     }
    ],
    "stats": {
-    "last_bar_utc": "2026-11-04T11:30:00+00:00",
-    "last_bar_age_min": 10.3,
+    "last_bar_utc": "2026-11-04T11:45:00+00:00",
+    "last_bar_age_min": 10.6,
     "market_state": "open",
     "profile_volume": 416597.0,
     "prior_day": "2026-11-03",
     "prior_day_rth_range": 227.75,
     "overnight_range": 1046.25,
-    "gap_vs_prior_close": 281.5,
+    "gap_vs_prior_close": 277.25,
     "gap_basis": "last price (pre-market)",
     "atr14": 685.27,
     "atr_days": 14,
@@ -2688,8 +2696,16 @@
      "t": "2026-11-04T11:30:00+00:00",
      "o": 28576.75,
      "h": 28585.0,
-     "l": 28576.25,
-     "c": 28582.25,
+     "l": 28556.0,
+     "c": 28579.5,
+     "v": 2460.0
+    },
+    {
+     "t": "2026-11-04T11:45:00+00:00",
+     "o": 28578.0,
+     "h": 28582.0,
+     "l": 28575.75,
+     "c": 28578.0,
      "v": 0.0
     }
    ]
@@ -2698,12 +2714,30 @@
  "news": {
   "headlines": [
    {
+    "id": "310ef5b751",
+    "title": "US Stock Futures Rise as Democrats Win Congress and AMD Shares Surge on AI Growth Outlook: Dow Jones, S&P, Nasdaq, Wall Street - Yahoo Finance",
+    "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNTFp4aTJNa00wNmxyZFp2d3BGUVI4b193SU9IVF9lQkIxSk96c0k4X2tHNWlRZEU3UHhLa1A2aW1XQlcyZ2l3cy14YTFZYmQzR0E1aThUdVBTQkd2UG5WQkQ2eUpVbS1HOGtOLXR4WFQzMm9RS3I2cG1HNy1WLUVLckdLaWY5UERWcGpyUTVGV0ZvN2VCcUd0QzJhWGk?oc=5",
+    "source": "gnews_futures",
+    "published_utc": "2026-11-04T10:52:59+00:00",
+    "score": 10.33,
+    "duplicates": 0
+   },
+   {
+    "id": "3d8432587e",
+    "title": "Stock Futures Rally, Treasurys Strengthen After Democratic Sweep - WSJ",
+    "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxONVFJRHRnbXFVZk1nWnFDSE1ZUjhaY20wY2dVRnpnUnZZYzQ2OXM4NE5CRFJsemNDcXZ1dkhUSl9BSnRaMTdzU2xNZExWdWNjZmNFNGd6Qllpcjk1eUVwMTZrc3pSdnlCV09uSlM2XzJ5d3ZMTnA5VHB3RWRVdE1fVFRkY2lVbXJfaXpCVW10OEtNZ2N6NWFUbjdfRXpCbUlaeThkTnozWl9oVXhSVGxNZ1RodUhWUQ?oc=5",
+    "source": "gnews_futures",
+    "published_utc": "2026-11-04T11:23:00+00:00",
+    "score": 9.41,
+    "duplicates": 2
+   },
+   {
     "id": "316b69a36c",
     "title": "Euro zone inflation hits 4% for first time in three years as interest rate hike looms",
     "link": "https://www.cnbc.com/2026/11/04/euro-zone-cpi-inflation-october-ecb-rate-hike.html",
     "source": "cnbc_markets",
     "published_utc": "2026-11-04T10:47:30+00:00",
-    "score": 8.85,
+    "score": 8.81,
     "duplicates": 1
    },
    {
@@ -2712,26 +2746,26 @@
     "link": "https://www.cnbc.com/2026/11/03/treasury-yields-fall-as-democrats-win-big-in-us-midterm-elections.html",
     "source": "cnbc_markets",
     "published_utc": "2026-11-04T10:02:00+00:00",
-    "score": 8.73,
+    "score": 8.68,
     "duplicates": 1
    },
    {
-    "id": "fcae80c0b6",
-    "title": "Stock Futures Rally, Treasurys Strengthen After Democratic Sweep -- 2nd Update - marketscreener.com",
-    "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPOVU3LWxEajlOMTZidzJZRF9SVGxJeE5lSGlVQzYyWUx3Y1RleXU4Z19iSmQtYnNzWW1XSDhsT2ZXcno5WFczZFdsZjg5R3U2SXM4WjZRSlhyQ1R3am1SdGRuWGZVSFF2aDlyaEtzbmNuX25XOVYydmVGRmJyZGtsTWRWSjVndVhPQmlyZDVZeGpkUFEwVGlwd0dER2RETWVqVE83bkVxYk5hblZCN2dEM1BSZE5FUmdIcEFqYjYyUkhXWVZBTkE?oc=5",
-    "source": "gnews_futures",
-    "published_utc": "2026-11-04T11:18:00+00:00",
-    "score": 8.44,
+    "id": "b9c00e13c3",
+    "title": "Eurozone Inflation Rises to 4%, Boosting Case for ECB Interest Rate Hike in December - Morningstar",
+    "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNcWVOTU84Tk40OGpBSG1CMDFqaHI0NERCMTNQb29CRGw1dlM1VU56UHlOaTdvZk14UkpGeTNva3hHRjNNNUlIdHp3ZWlGZUlYeGlCWkFFcnNBM0F5Vm1PRWlDQ2pCUlRrYW9GVTFZRDQtekpQQ2JOdmJPXzlxdzNiaXZ6Y0d6Sl91QU9rV0ZlUDAxRE1ZM1hUOGk2d2VySkVjeXN6R0w4Vkp0V3VrME5NZlFRVFBjOWRV?oc=5",
+    "source": "gnews_macro",
+    "published_utc": "2026-11-04T11:47:44+00:00",
+    "score": 7.48,
     "duplicates": 0
    },
    {
-    "id": "3d8432587e",
-    "title": "Stock Futures Turn Higher, Treasurys Strengthen After Democratic Sweep - WSJ",
-    "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxONVFJRHRnbXFVZk1nWnFDSE1ZUjhaY20wY2dVRnpnUnZZYzQ2OXM4NE5CRFJsemNDcXZ1dkhUSl9BSnRaMTdzU2xNZExWdWNjZmNFNGd6Qllpcjk1eUVwMTZrc3pSdnlCV09uSlM2XzJ5d3ZMTnA5VHB3RWRVdE1fVFRkY2lVbXJfaXpCVW10OEtNZ2N6NWFUbjdfRXpCbUlaeThkTnozWl9oVXhSVGxNZ1RodUhWUQ?oc=5",
-    "source": "gnews_futures",
-    "published_utc": "2026-11-04T09:47:55+00:00",
-    "score": 7.19,
-    "duplicates": 1
+    "id": "ce8f3765d7",
+    "title": "Czech core inflation warrants a rate hike - ing think",
+    "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE42NFNpOXZkTE1uVmpINlJ0NElJRndGRlFmYTcyZmVIN180V1RKUmI1ZWh3dkh3a0s3NlExS0pfY3lnODF3UTE1ZE9EV2w2c1hBOHVpLTF3aTZhblU5eEV2XzVZbWlQeXVMZUpxcVpMTjVORnU2cUxoZ1ZR?oc=5",
+    "source": "gnews_macro",
+    "published_utc": "2026-11-04T11:43:55+00:00",
+    "score": 7.47,
+    "duplicates": 0
    },
    {
     "id": "ed16192210",
@@ -2739,17 +2773,8 @@
     "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxNZ25BOExabF9pWHRSMzU1aVJBXzY2WmNiVUdiblcxRzNlaUZPZTR2Y3dEd20taXdRb1lmSGFCS21FSnVXYWdpZlVUb054T2liM052NDJBUGdaLUl1U2IycUh0Z2pubFdKbW9ROWcxckh6U1lfU21id0JwcnZPUHNjTU9NSHY2Yks0ZGZGcXBoTHBOd0VIWVlKNnl4Rm9KS1FvQlpMakE1MEV0dFR3U3h4Uk9DN0VSYlVZS1hObG9Ic2tBSTVodU05X3J4RGNzRE0?oc=5",
     "source": "gnews_futures",
     "published_utc": "2026-11-04T09:45:00+00:00",
-    "score": 7.18,
+    "score": 7.14,
     "duplicates": 1
-   },
-   {
-    "id": "e33cb1ba2f",
-    "title": "Czech inflation eases a little in October, rate hike bets remain - TradingView",
-    "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxQVHIxbC15cnZmVWF6aU50VTBuaEFOUTBkdFhRbkh4dlBJeGV2MnMtN0xTb05VdzFkRkEwd0ZUUm9CaElPV1M5UkhvS1ZMc0dRWUN1eGZnVmdtZDJDbE00ZXpVYjkwSGNuYmozOE1SZ1BhZDc5VXpnUjlIRkN0UTZZa3JPQkNvMG5Rbm5vVUpObTF6UWM2MHhuZXAzejhfMVFWWi1ZS3ZKNjYtTmk3UUJkc0g2emktOGZoU0pWTTh2MGJuLXZjeDRmeFN1SjJqQQ?oc=5",
-    "source": "gnews_macro",
-    "published_utc": "2026-11-04T09:05:14+00:00",
-    "score": 7.07,
-    "duplicates": 0
    },
    {
     "id": "935c4ae6fa",
@@ -2757,7 +2782,7 @@
     "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOenVNalRlNk9YTXhjekJfN04weGZXNGsxM1BsSU5SMy1CQUZTM1lmcWYtSWVtUEdlSW9YejRrYjluQm9fV2tfc3BiSzNTSzVuV1UtM2FLMWk3VFcxcDlDM01hZGlrS2JBV2R1R2kwdXZQekFUc2dYQmVzdEVoakVnaHJqa3lEcDBnek5MV2NQbDhqRXJScTJuVkd6Z2dQQ0J6YW1PaWZ2OTNOVFMyNnFaZGV5SQ?oc=5",
     "source": "gnews_futures",
     "published_utc": "2026-11-04T11:24:25+00:00",
-    "score": 6.96,
+    "score": 6.91,
     "duplicates": 1
    },
    {
@@ -2766,7 +2791,7 @@
     "link": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxOM1VCTElaajQ3dmQzal9zQmpST0JCRmZCTEZLNFdGT25wZ2NxWFpKbVFKY1dqbUcyWV9ISW52SUxCWF95RGpFRDdyMlpIa3k1RXBQaFNZTmlSN0pxb2dKR1RXZmF2WVU1dW1ZekxMQ3FnalI0OGYxbk1MQS1xbkhjZEFxNkctVkJiTVR3dEtSNDFhTVd3X2YwdGxTWXo3TFZMLTdOYWtjN1ZWZTF3Q2dOZWVaa3RWNXo4VjJPWVQ0V1lyX0JlYWNSQkFvRkhYOUxNdXJSTWFHS21ZdEkxbHc4X3R0dWFPWjY1eFBvcGpzajI3c3RVSTgzaA?oc=5",
     "source": "gnews_futures",
     "published_utc": "2026-11-04T10:17:28+00:00",
-    "score": 6.77,
+    "score": 6.73,
     "duplicates": 0
    },
    {
@@ -2775,7 +2800,7 @@
     "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNT29wRlA1bkxjTUkxYlQ1QTcxak1fb2tSOS1jSjc0dVBZWERWZGpBTVdVeEZsUkJDcXB6a1duU0ZXSDJ4N0FxZk5jQTBFYVFpWXlpaDRkZ1E1Q0VCcmQ3dktxUXMzR3F5eDdnYTNjN2gxSXRJWjdTdlFDVWF5ekJqYlF6b0ZWV3EwdEg2RHlXdkd4bURTMk9MdnpVQV8?oc=5",
     "source": "gnews_futures",
     "published_utc": "2026-11-04T09:51:38+00:00",
-    "score": 6.7,
+    "score": 6.66,
     "duplicates": 0
    },
    {
@@ -2784,7 +2809,7 @@
     "link": "https://www.cnbc.com/2026/11/03/midterm-election-stock-market.html",
     "source": "cnbc_markets",
     "published_utc": "2026-11-04T03:38:08+00:00",
-    "score": 6.66,
+    "score": 6.62,
     "duplicates": 0
    },
    {
@@ -2793,26 +2818,17 @@
     "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE9BWkxHZFlaUWpObTRvUEwxMDN2TVV5YXlYU2t6OGdPNEJYVlR5c1B6eWVBbGtweUNMYk1ZRWNCTWs5ZlU3QW91cUJySklzekFSTEtuMDRCdTNvbE5CaURJTjd2WjF6SC0xaHNldU4xT1BZUWhQSnQtVUtn?oc=5",
     "source": "gnews_macro",
     "published_utc": "2026-11-04T06:11:06+00:00",
-    "score": 6.59,
-    "duplicates": 0
-   },
-   {
-    "id": "4a0e8a3c87",
-    "title": "Nasdaq futures slide after Trump's midterm setback. AMD and Arista are telling a different story. - investingLive",
-    "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOMmQ5RmFZaWZEZHRJenRxZFk0WDJjcURYVWVhTjNPTm9VNXdkMXp1MXkwb214cUdjUjcweW1CWlY0eDFfUXNWRXFEaWZaUkowNTBOMHJhZVp0dVQ4cGJfR2JTZjNLclFKQVBZWFR5U0xJSTl5aG4zV0ZobHhlbkVybTBtSnhJMnVORUdNaHNBOGM5NXEtbEdjOXdWdTRmc3lTbTVfSU1jU0x4cmctOEZONW9BNjNCbFc0Y0Q5czR0Q0FrQkJEaEtlMQ?oc=5",
-    "source": "gnews_futures",
-    "published_utc": "2026-11-04T09:04:16+00:00",
-    "score": 6.57,
+    "score": 6.54,
     "duplicates": 0
    }
   ],
   "summary": {
    "lines": [
+    "US Stock Futures Rise as Democrats Win Congress and AMD Shares Surge on AI Growth Outlook: Dow Jones, S&P, Nasdaq, Wall Street - Yahoo Finance [310ef5b751]",
+    "Stock Futures Rally, Treasurys Strengthen After Democratic Sweep - WSJ [3d8432587e]",
     "Euro zone inflation hits 4% for first time in three years as interest rate hike looms [316b69a36c]",
     "Treasury yields fall as investors crowd into bonds for safety amid election stock sell-off [0b8f1a049e]",
-    "Stock Futures Rally, Treasurys Strengthen After Democratic Sweep -- 2nd Update - marketscreener.com [fcae80c0b6]",
-    "Stock Futures Turn Higher, Treasurys Strengthen After Democratic Sweep - WSJ [3d8432587e]",
-    "U.S. stock futures turn positive as Dems sweep Congress; AMD rises - Investing.com [ed16192210]"
+    "Eurozone Inflation Rises to 4%, Boosting Case for ECB Interest Rate Hike in December - Morningstar [b9c00e13c3]"
    ],
    "backend": "none",
    "model": null,
