@@ -1,7 +1,7 @@
 {
  "meta": {
-  "generated_at_utc": "2026-11-04T13:57:58.273662+00:00",
-  "generated_at_local": "Wed 04 Nov 2026 09:57 AST",
+  "generated_at_utc": "2026-11-04T14:13:17.542919+00:00",
+  "generated_at_local": "Wed 04 Nov 2026 10:13 AST",
   "trading_day": "2026-11-04",
   "display_tz": "America/Halifax",
   "version": "0.1.0",
@@ -55,7 +55,7 @@
    "time_utc": "2026-11-04T15:00:00+00:00",
    "local": "11:00 AST",
    "et": "10:00 ET",
-   "in": "1h 02m",
+   "in": "46 min",
    "consensus": "54.8",
    "prior": "54.9"
   },
@@ -66,10 +66,10 @@
   {
    "root": "ES",
    "trading_day": "2026-11-04",
-   "as_of_utc": "2026-11-04T13:57:58.273662+00:00",
+   "as_of_utc": "2026-11-04T14:13:17.542919+00:00",
    "source": "yahoo",
    "delayed": true,
-   "last_price": 7682.0,
+   "last_price": 7680.75,
    "levels": [
     {
      "tag": "pwh",
@@ -102,9 +102,9 @@
     {
      "tag": "onh",
      "label": "Overnight high",
-     "price": 7687.75,
+     "price": 7688.5,
      "group": "overnight",
-     "note": "since 18:00 ET, 873 bars"
+     "note": "since 18:00 ET, 889 bars"
     },
     {
      "tag": "rn_minor_dn",
@@ -137,7 +137,7 @@
     {
      "tag": "onvwap",
      "label": "Overnight VWAP",
-     "price": 7599.44,
+     "price": 7602.17,
      "group": "overnight",
      "note": "typical-price VWAP"
     },
@@ -213,14 +213,14 @@
     }
    ],
    "stats": {
-    "last_bar_utc": "2026-11-04T13:47:00+00:00",
-    "last_bar_age_min": 11.0,
+    "last_bar_utc": "2026-11-04T14:03:00+00:00",
+    "last_bar_age_min": 10.3,
     "market_state": "open",
     "profile_volume": 1054636.0,
     "prior_day": "2026-11-03",
     "prior_day_rth_range": 47.25,
-    "overnight_range": 197.75,
-    "gap_vs_prior_close": 85.5,
+    "overnight_range": 198.5,
+    "gap_vs_prior_close": 84.25,
     "gap_basis": "last price (pre-market)",
     "atr14": 96.59,
     "atr_days": 14,
@@ -1440,20 +1440,28 @@
     {
      "t": "2026-11-04T13:45:00+00:00",
      "o": 7681.25,
-     "h": 7684.0,
-     "l": 7680.5,
-     "c": 7682.0,
-     "v": 2027.0
+     "h": 7688.5,
+     "l": 7678.0,
+     "c": 7687.25,
+     "v": 17309.0
+    },
+    {
+     "t": "2026-11-04T14:00:00+00:00",
+     "o": 7687.25,
+     "h": 7687.25,
+     "l": 7678.25,
+     "c": 7680.75,
+     "v": 4744.0
     }
    ]
   },
   {
    "root": "NQ",
    "trading_day": "2026-11-04",
-   "as_of_utc": "2026-11-04T13:57:58.273662+00:00",
+   "as_of_utc": "2026-11-04T14:13:17.542919+00:00",
    "source": "yahoo",
    "delayed": true,
-   "last_price": 28430.0,
+   "last_price": 28381.25,
    "levels": [
     {
      "tag": "pwh",
@@ -1481,21 +1489,7 @@
      "label": "Overnight high",
      "price": 28662.0,
      "group": "overnight",
-     "note": "since 18:00 ET, 873 bars"
-    },
-    {
-     "tag": "rn_major_up",
-     "label": "Round 100 above",
-     "price": 28500.0,
-     "group": "round",
-     "note": ""
-    },
-    {
-     "tag": "rn_minor_up",
-     "label": "Round 50 above",
-     "price": 28450.0,
-     "group": "round",
-     "note": ""
+     "note": "since 18:00 ET, 889 bars"
     },
     {
      "tag": "pgh",
@@ -1512,8 +1506,8 @@
      "note": "2026-11-03"
     },
     {
-     "tag": "rn_major_dn",
-     "label": "Round 100 below",
+     "tag": "rn_major_up",
+     "label": "Round 100 above",
      "price": 28400.0,
      "group": "round",
      "note": ""
@@ -1524,6 +1518,13 @@
      "price": 28386.0,
      "group": "profile",
      "note": "70 % value area"
+    },
+    {
+     "tag": "rn_minor_dn",
+     "label": "Round 50 below",
+     "price": 28350.0,
+     "group": "round",
+     "note": ""
     },
     {
      "tag": "poc",
@@ -1538,6 +1539,13 @@
      "price": 28300.75,
      "group": "prior_day",
      "note": "2026-11-03"
+    },
+    {
+     "tag": "rn_major_dn",
+     "label": "Round 100 below",
+     "price": 28300.0,
+     "group": "round",
+     "note": ""
     },
     {
      "tag": "val",
@@ -1570,7 +1578,7 @@
     {
      "tag": "onvwap",
      "label": "Overnight VWAP",
-     "price": 28175.67,
+     "price": 28182.92,
      "group": "overnight",
      "note": "typical-price VWAP"
     },
@@ -1604,14 +1612,14 @@
     }
    ],
    "stats": {
-    "last_bar_utc": "2026-11-04T13:47:00+00:00",
-    "last_bar_age_min": 11.0,
+    "last_bar_utc": "2026-11-04T14:03:00+00:00",
+    "last_bar_age_min": 10.3,
     "market_state": "open",
     "profile_volume": 416597.0,
     "prior_day": "2026-11-03",
     "prior_day_rth_range": 227.75,
     "overnight_range": 1046.25,
-    "gap_vs_prior_close": 129.25,
+    "gap_vs_prior_close": 80.5,
     "gap_basis": "last price (pre-market)",
     "atr14": 685.27,
     "atr_days": 14,
@@ -2832,9 +2840,17 @@
      "t": "2026-11-04T13:45:00+00:00",
      "o": 28434.5,
      "h": 28444.0,
-     "l": 28422.0,
-     "c": 28430.0,
-     "v": 1023.0
+     "l": 28385.75,
+     "c": 28411.0,
+     "v": 9117.0
+    },
+    {
+     "t": "2026-11-04T14:00:00+00:00",
+     "o": 28410.75,
+     "h": 28411.0,
+     "l": 28359.75,
+     "c": 28381.25,
+     "v": 2696.0
     }
    ]
   }
@@ -2847,7 +2863,7 @@
     "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNTFp4aTJNa00wNmxyZFp2d3BGUVI4b193SU9IVF9lQkIxSk96c0k4X2tHNWlRZEU3UHhLa1A2aW1XQlcyZ2l3cy14YTFZYmQzR0E1aThUdVBTQkd2UG5WQkQ2eUpVbS1HOGtOLXR4WFQzMm9RS3I2cG1HNy1WLUVLckdLaWY5UERWcGpyUTVGV0ZvN2VCcUd0QzJhWGk?oc=5",
     "source": "gnews_futures",
     "published_utc": "2026-11-04T10:52:59+00:00",
-    "score": 9.99,
+    "score": 9.94,
     "duplicates": 0
    },
    {
@@ -2856,7 +2872,7 @@
     "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxONVFJRHRnbXFVZk1nWnFDSE1ZUjhaY20wY2dVRnpnUnZZYzQ2OXM4NE5CRFJsemNDcXZ1dkhUSl9BSnRaMTdzU2xNZExWdWNjZmNFNGd6Qllpcjk1eUVwMTZrc3pSdnlCV09uSlM2XzJ5d3ZMTnA5VHB3RWRVdE1fVFRkY2lVbXJfaXpCVW10OEtNZ2N6NWFUbjdfRXpCbUlaeThkTnozWl9oVXhSVGxNZ1RodUhWUQ?oc=5",
     "source": "gnews_futures",
     "published_utc": "2026-11-04T11:23:00+00:00",
-    "score": 9.07,
+    "score": 9.03,
     "duplicates": 2
    },
    {
@@ -2865,7 +2881,7 @@
     "link": "https://www.cnbc.com/2026/11/04/euro-zone-cpi-inflation-october-ecb-rate-hike.html",
     "source": "cnbc_markets",
     "published_utc": "2026-11-04T10:47:30+00:00",
-    "score": 8.47,
+    "score": 8.43,
     "duplicates": 1
    },
    {
@@ -2874,7 +2890,7 @@
     "link": "https://www.marketwatch.com/story/think-the-fed-will-be-done-after-two-more-rate-hikes-how-fridays-jobs-report-may-trigger-a-major-market-repricing-6aca874c?mod=mw_rss_topstories",
     "source": "marketwatch_top",
     "published_utc": "2026-11-04T13:00:00+00:00",
-    "score": 8.34,
+    "score": 8.3,
     "duplicates": 1
    },
    {
@@ -2883,8 +2899,17 @@
     "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNSnlWVjhZeXhCME9sTHdmcC1RWTdrNUVIbUhhbE1td2t3Z2VDbzh1SW1kSmJJdWU5aVRSeW8tQ3hweVJwTDdVMGR0XzdtM0UtSGhkRnY1NWN6ZUkxR05xb2NadnJuNjEza3d4cDNOcTRnWXJBT2MzYnJjY2hkbjdHUmxoWjVsWGE0UE5NOUx0QQ?oc=5",
     "source": "gnews_macro",
     "published_utc": "2026-11-04T11:49:22+00:00",
-    "score": 8.14,
-    "duplicates": 2
+    "score": 7.6,
+    "duplicates": 1
+   },
+   {
+    "id": "3db6a8753b",
+    "title": "MARKETS UPDATE: DJIA FUTURES +1,023/+1.97%; S&P FUTURES +78/+1.04%; NASDAQ FUTURES +0.42%; VIX 18.50, -11.23%; WTI $93.67, -2.41% - TradingView",
+    "link": "https://news.google.com/rss/articles/CBMi_AFBVV95cUxOMUhJRGhlOTVNNDNWYVRDWEVGRTcwNEh3RmRYelljQnJ0MFBlWTdwZEtjaUZfdHlTWjFYelMwS3BfV3l2dlBCS195UXp6NmY2bkFnTUhiMlBUVUJrQ0FtS3VsSXFZTGIzTGhMM3pkcUpUdDFpX1BrTlBEem1FcFQ3LWdib0xkYjFrMmpsVWk0Z3hwdjRvSVNEN3p0MXdlNUlXVXJoX0toWnIzWUQ3d0hNLTJvWGx6VjgtLTB5am9ldFExdVc0MExsVlAtWGpMYms5RHllM2I4UVFGb21samNpTy0zSUVOYmxWdURvandlakw4ZGdVejZkNGJYYnc?oc=5",
+    "source": "gnews_futures",
+    "published_utc": "2026-11-04T13:51:00+00:00",
+    "score": 7.44,
+    "duplicates": 0
    },
    {
     "id": "7404982ff8",
@@ -2892,7 +2917,7 @@
     "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPZTRablNvN19aQ1hzT2J4UUhRaHJXUXFSem9IekN2TG9ra0FWT2tiTHlCMWNZZTNEZFBBRGdJRDdXdVowcEYxSHJPZEwtYjZ0LXF5a3AzbG5oUG0zaXVCSEE3dFlMTk9YQk1NaVMtdWVHT0pTb2J3ZXloaE1FRFpCT3RoQVpuLWdsNVNJVGs4eVFOa0o0N1RLVUlXeHp1X2FXQ3RhUW1ZQmR2eVZQc0E2WDlyelczNTNwVk9LMEZOVWo2X3k1dzFvd2Z6WGXSAdIBQVVfeXFMTk5TMG54Tk53NVRhQW02TER6Nl9ZeVd2WDJCSTgtcTNQVTZCTmZNc1YtWGNLaHR4c25mNUptczFsNl9VR19ndDNDdUwzRVVfWHd5SHF1b2hQYXVxVlJuTGJaQzhvZTlKWV9jTG1FMDU5VnRTYnY0dk4yZXRWd0RqTnpzUjVvNE8wX3FrTWd3VUFLa0VwNnlWaXctWUZFRHltRWU5OVhobUZKd3JBdFE0UWFwTlNxTXZ1Y1k0cm5HRG85Nm5kQmpNSWx5TE5vR3hPZEt3?oc=5",
     "source": "gnews_futures",
     "published_utc": "2026-11-04T13:15:24+00:00",
-    "score": 7.38,
+    "score": 7.34,
     "duplicates": 0
    },
    {
@@ -2901,7 +2926,7 @@
     "link": "https://www.marketwatch.com/story/midterm-elections-deliver-a-blue-wave-the-stock-market-sees-green-5900a779?mod=mw_rss_topstories",
     "source": "marketwatch_top",
     "published_utc": "2026-11-04T12:27:00+00:00",
-    "score": 7.25,
+    "score": 7.2,
     "duplicates": 0
    },
    {
@@ -2910,16 +2935,7 @@
     "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNcWVOTU84Tk40OGpBSG1CMDFqaHI0NERCMTNQb29CRGw1dlM1VU56UHlOaTdvZk14UkpGeTNva3hHRjNNNUlIdHp3ZWlGZUlYeGlCWkFFcnNBM0F5Vm1PRWlDQ2pCUlRrYW9GVTFZRDQtekpQQ2JOdmJPXzlxdzNiaXZ6Y0d6Sl91QU9rV0ZlUDAxRE1ZM1hUOGk2d2VySkVjeXN6R0w4Vkp0V3VrME5NZlFRVFBjOWRV?oc=5",
     "source": "gnews_macro",
     "published_utc": "2026-11-04T11:48:45+00:00",
-    "score": 7.14,
-    "duplicates": 0
-   },
-   {
-    "id": "ce8f3765d7",
-    "title": "Czech core inflation warrants a rate hike - ing think",
-    "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE42NFNpOXZkTE1uVmpINlJ0NElJRndGRlFmYTcyZmVIN180V1RKUmI1ZWh3dkh3a0s3NlExS0pfY3lnODF3UTE1ZE9EV2w2c1hBOHVpLTF3aTZhblU5eEV2XzVZbWlQeXVMZUpxcVpMTjVORnU2cUxoZ1ZR?oc=5",
-    "source": "gnews_macro",
-    "published_utc": "2026-11-04T11:43:55+00:00",
-    "score": 7.13,
+    "score": 7.1,
     "duplicates": 0
    },
    {
@@ -2928,7 +2944,7 @@
     "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOenVNalRlNk9YTXhjekJfN04weGZXNGsxM1BsSU5SMy1CQUZTM1lmcWYtSWVtUEdlSW9YejRrYjluQm9fV2tfc3BiSzNTSzVuV1UtM2FLMWk3VFcxcDlDM01hZGlrS2JBV2R1R2kwdXZQekFUc2dYQmVzdEVoakVnaHJqa3lEcDBnek5MV2NQbDhqRXJScTJuVkd6Z2dQQ0J6YW1PaWZ2OTNOVFMyNnFaZGV5SQ?oc=5",
     "source": "gnews_futures",
     "published_utc": "2026-11-04T11:24:25+00:00",
-    "score": 7.07,
+    "score": 7.03,
     "duplicates": 2
    },
    {
@@ -2937,17 +2953,17 @@
     "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5MMW5zbFZqYThMRnVvRDY5MU1TdEY3TnJUUVh3N19kZEhleWNaZFdLNW1ubHhJakIzZ3ROMzBBWEREQjA5WGk2NlUxQjUwX0w2OWM3ak9WWHlhdw?oc=5",
     "source": "gnews_futures",
     "published_utc": "2026-11-04T12:00:43+00:00",
-    "score": 6.67,
+    "score": 6.63,
     "duplicates": 0
    },
    {
-    "id": "6717766f74",
-    "title": "FOMC Meeting: Why the Fed Is Nervous About Inflation and AI - Briefs Finance",
-    "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE1wNGd2ekVsejBOeGh6akM5ZUp0cFRUQTBTWmp5LUpLb1VIZEktQ1lEenM4SW1HcnJobGhMTzNqclJJVnFWREtsblpfUlBwXzQzTXMyS3JvcUR5RGUwUTc2Z1dnNnJFQQ?oc=5",
-    "source": "gnews_fed",
-    "published_utc": "2026-11-03T20:09:59+00:00",
-    "score": 6.5,
-    "duplicates": 0
+    "id": "5c7a61fab0",
+    "title": "Stock futures rise after Democrats sweep the midterm elections - Quartz",
+    "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9lZ2JTUDRqa3RmbExNWEthNmRsZkl3Sy1VekdmekduRzFyTmRZdHNLZjZPczcyTEs3S2xVRFA1UVpwY2hpUFpQalo0SmQ0VDhDZmRJNU1rMGczYm9kTHNIUEczczZCYy1PaWpGdG1yZ011cmlfdFZvcWFSVjMtaUk?oc=5",
+    "source": "gnews_futures",
+    "published_utc": "2026-11-04T13:38:34+00:00",
+    "score": 6.4,
+    "duplicates": 3
    }
   ],
   "summary": {
@@ -2974,7 +2990,7 @@
    {
     "symbol": "AMD",
     "name": "Advanced Micro Devices, Inc.",
-    "timing": "post",
+    "timing": "unknown",
     "date": "2026-11-03",
     "reported_at": "11/3/2026",
     "reported": true
@@ -2982,7 +2998,7 @@
    {
     "symbol": "SMCI",
     "name": "Super Micro Computer, Inc.",
-    "timing": "post",
+    "timing": "unknown",
     "date": "2026-11-03",
     "reported_at": "11/3/2026",
     "reported": true
@@ -2990,7 +3006,7 @@
    {
     "symbol": "AMGN",
     "name": "Amgen Inc.",
-    "timing": "post",
+    "timing": "unknown",
     "date": "2026-11-03",
     "reported_at": "11/3/2026",
     "reported": true
@@ -2998,7 +3014,39 @@
    {
     "symbol": "ANET",
     "name": "Arista Networks, Inc.",
-    "timing": "post",
+    "timing": "unknown",
+    "date": "2026-11-03",
+    "reported_at": "11/3/2026",
+    "reported": true
+   },
+   {
+    "symbol": "SHOP",
+    "name": "Shopify Inc.",
+    "timing": "unknown",
+    "date": "2026-11-03",
+    "reported_at": "11/3/2026",
+    "reported": true
+   },
+   {
+    "symbol": "PFE",
+    "name": "Pfizer, Inc.",
+    "timing": "unknown",
+    "date": "2026-11-03",
+    "reported_at": "11/3/2026",
+    "reported": true
+   },
+   {
+    "symbol": "ETN",
+    "name": "Eaton Corporation, PLC",
+    "timing": "unknown",
+    "date": "2026-11-03",
+    "reported_at": "11/3/2026",
+    "reported": true
+   },
+   {
+    "symbol": "MPC",
+    "name": "Marathon Petroleum Corporation",
+    "timing": "unknown",
     "date": "2026-11-03",
     "reported_at": "11/3/2026",
     "reported": true
@@ -3006,7 +3054,15 @@
    {
     "symbol": "BKNG",
     "name": "Booking Holdings Inc.",
-    "timing": "post",
+    "timing": "unknown",
+    "date": "2026-11-03",
+    "reported_at": "11/3/2026",
+    "reported": true
+   },
+   {
+    "symbol": "RACE",
+    "name": "Ferrari N.V.",
+    "timing": "unknown",
     "date": "2026-11-03",
     "reported_at": "11/3/2026",
     "reported": true
@@ -3014,7 +3070,7 @@
    {
     "symbol": "SU",
     "name": "Suncor Energy  Inc.",
-    "timing": "post",
+    "timing": "unknown",
     "date": "2026-11-03",
     "reported_at": "11/3/2026",
     "reported": true
@@ -3022,7 +3078,31 @@
    {
     "symbol": "ITUB",
     "name": "Itau Unibanco Banco Holding SA",
-    "timing": "post",
+    "timing": "unknown",
+    "date": "2026-11-03",
+    "reported_at": "11/3/2026",
+    "reported": true
+   },
+   {
+    "symbol": "APO",
+    "name": "Apollo Global Management, Inc.",
+    "timing": "unknown",
+    "date": "2026-11-03",
+    "reported_at": "11/3/2026",
+    "reported": true
+   },
+   {
+    "symbol": "MPLX",
+    "name": "MPLX LP",
+    "timing": "unknown",
+    "date": "2026-11-03",
+    "reported_at": "11/3/2026",
+    "reported": true
+   },
+   {
+    "symbol": "AME",
+    "name": "AMTEK, Inc.",
+    "timing": "unknown",
     "date": "2026-11-03",
     "reported_at": "11/3/2026",
     "reported": true
