@@ -1,7 +1,7 @@
 {
  "meta": {
-  "generated_at_utc": "2026-11-04T12:26:08.281940+00:00",
-  "generated_at_local": "Wed 04 Nov 2026 08:26 AST",
+  "generated_at_utc": "2026-11-04T12:41:25.232285+00:00",
+  "generated_at_local": "Wed 04 Nov 2026 08:41 AST",
   "trading_day": "2026-11-04",
   "display_tz": "America/Halifax",
   "version": "0.1.0",
@@ -55,7 +55,7 @@
    "time_utc": "2026-11-04T15:00:00+00:00",
    "local": "11:00 AST",
    "et": "10:00 ET",
-   "in": "2h 33m",
+   "in": "2h 18m",
    "consensus": "54.8",
    "prior": "54.9"
   },
@@ -66,10 +66,10 @@
   {
    "root": "ES",
    "trading_day": "2026-11-04",
-   "as_of_utc": "2026-11-04T12:26:08.281940+00:00",
+   "as_of_utc": "2026-11-04T12:41:25.232285+00:00",
    "source": "yahoo",
    "delayed": true,
-   "last_price": 7654.75,
+   "last_price": 7669.75,
    "levels": [
     {
      "tag": "pwh",
@@ -104,7 +104,7 @@
      "label": "Overnight high",
      "price": 7687.75,
      "group": "overnight",
-     "note": "since 18:00 ET, 782 bars"
+     "note": "since 18:00 ET, 797 bars"
     },
     {
      "tag": "rn_minor_up",
@@ -149,18 +149,18 @@
      "note": "2026-11-03 RTH, bin 0.25"
     },
     {
+     "tag": "onvwap",
+     "label": "Overnight VWAP",
+     "price": 7589.74,
+     "group": "overnight",
+     "note": "typical-price VWAP"
+    },
+    {
      "tag": "val",
      "label": "Prior-day VAL",
      "price": 7589.25,
      "group": "profile",
      "note": "70 % value area"
-    },
-    {
-     "tag": "onvwap",
-     "label": "Overnight VWAP",
-     "price": 7587.77,
-     "group": "overnight",
-     "note": "typical-price VWAP"
     },
     {
      "tag": "pdo",
@@ -213,14 +213,14 @@
     }
    ],
    "stats": {
-    "last_bar_utc": "2026-11-04T12:16:00+00:00",
-    "last_bar_age_min": 10.1,
+    "last_bar_utc": "2026-11-04T12:31:00+00:00",
+    "last_bar_age_min": 10.4,
     "market_state": "open",
     "profile_volume": 1054636.0,
     "prior_day": "2026-11-03",
     "prior_day_rth_range": 47.25,
     "overnight_range": 197.75,
-    "gap_vs_prior_close": 58.25,
+    "gap_vs_prior_close": 73.25,
     "gap_basis": "last price (pre-market)",
     "atr14": 96.59,
     "atr_days": 14,
@@ -1392,20 +1392,28 @@
     {
      "t": "2026-11-04T12:15:00+00:00",
      "o": 7657.75,
-     "h": 7658.5,
+     "h": 7671.75,
      "l": 7652.0,
-     "c": 7654.75,
-     "v": 2721.0
+     "c": 7669.75,
+     "v": 15462.0
+    },
+    {
+     "t": "2026-11-04T12:30:00+00:00",
+     "o": 7670.0,
+     "h": 7673.75,
+     "l": 7668.25,
+     "c": 7669.75,
+     "v": 544.0
     }
    ]
   },
   {
    "root": "NQ",
    "trading_day": "2026-11-04",
-   "as_of_utc": "2026-11-04T12:26:08.281940+00:00",
+   "as_of_utc": "2026-11-04T12:41:25.232285+00:00",
    "source": "yahoo",
    "delayed": true,
-   "last_price": 28347.0,
+   "last_price": 28431.25,
    "levels": [
     {
      "tag": "pwh",
@@ -1433,7 +1441,21 @@
      "label": "Overnight high",
      "price": 28662.0,
      "group": "overnight",
-     "note": "since 18:00 ET, 782 bars"
+     "note": "since 18:00 ET, 797 bars"
+    },
+    {
+     "tag": "rn_major_up",
+     "label": "Round 100 above",
+     "price": 28500.0,
+     "group": "round",
+     "note": ""
+    },
+    {
+     "tag": "rn_minor_up",
+     "label": "Round 50 above",
+     "price": 28450.0,
+     "group": "round",
+     "note": ""
     },
     {
      "tag": "pgh",
@@ -1450,8 +1472,8 @@
      "note": "2026-11-03"
     },
     {
-     "tag": "rn_major_up",
-     "label": "Round 100 above",
+     "tag": "rn_major_dn",
+     "label": "Round 100 below",
      "price": 28400.0,
      "group": "round",
      "note": ""
@@ -1462,13 +1484,6 @@
      "price": 28386.0,
      "group": "profile",
      "note": "70 % value area"
-    },
-    {
-     "tag": "rn_minor_up",
-     "label": "Round 50 above",
-     "price": 28350.0,
-     "group": "round",
-     "note": ""
     },
     {
      "tag": "poc",
@@ -1483,13 +1498,6 @@
      "price": 28300.75,
      "group": "prior_day",
      "note": "2026-11-03"
-    },
-    {
-     "tag": "rn_major_dn",
-     "label": "Round 100 below",
-     "price": 28300.0,
-     "group": "round",
-     "note": ""
     },
     {
      "tag": "val",
@@ -1522,7 +1530,7 @@
     {
      "tag": "onvwap",
      "label": "Overnight VWAP",
-     "price": 28139.99,
+     "price": 28147.14,
      "group": "overnight",
      "note": "typical-price VWAP"
     },
@@ -1556,14 +1564,14 @@
     }
    ],
    "stats": {
-    "last_bar_utc": "2026-11-04T12:16:00+00:00",
-    "last_bar_age_min": 10.1,
+    "last_bar_utc": "2026-11-04T12:31:00+00:00",
+    "last_bar_age_min": 10.4,
     "market_state": "open",
     "profile_volume": 416597.0,
     "prior_day": "2026-11-03",
     "prior_day_rth_range": 227.75,
     "overnight_range": 1046.25,
-    "gap_vs_prior_close": 46.25,
+    "gap_vs_prior_close": 130.5,
     "gap_basis": "last price (pre-market)",
     "atr14": 685.27,
     "atr_days": 14,
@@ -2735,10 +2743,18 @@
     {
      "t": "2026-11-04T12:15:00+00:00",
      "o": 28369.5,
-     "h": 28380.75,
+     "h": 28440.25,
      "l": 28326.0,
-     "c": 28347.0,
-     "v": 1355.0
+     "c": 28420.0,
+     "v": 8904.0
+    },
+    {
+     "t": "2026-11-04T12:30:00+00:00",
+     "o": 28416.75,
+     "h": 28454.25,
+     "l": 28410.0,
+     "c": 28431.25,
+     "v": 257.0
     }
    ]
   }
@@ -2751,7 +2767,7 @@
     "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNTFp4aTJNa00wNmxyZFp2d3BGUVI4b193SU9IVF9lQkIxSk96c0k4X2tHNWlRZEU3UHhLa1A2aW1XQlcyZ2l3cy14YTFZYmQzR0E1aThUdVBTQkd2UG5WQkQ2eUpVbS1HOGtOLXR4WFQzMm9RS3I2cG1HNy1WLUVLckdLaWY5UERWcGpyUTVGV0ZvN2VCcUd0QzJhWGk?oc=5",
     "source": "gnews_futures",
     "published_utc": "2026-11-04T10:52:59+00:00",
-    "score": 10.24,
+    "score": 10.2,
     "duplicates": 0
    },
    {
@@ -2760,7 +2776,7 @@
     "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxONVFJRHRnbXFVZk1nWnFDSE1ZUjhaY20wY2dVRnpnUnZZYzQ2OXM4NE5CRFJsemNDcXZ1dkhUSl9BSnRaMTdzU2xNZExWdWNjZmNFNGd6Qllpcjk1eUVwMTZrc3pSdnlCV09uSlM2XzJ5d3ZMTnA5VHB3RWRVdE1fVFRkY2lVbXJfaXpCVW10OEtNZ2N6NWFUbjdfRXpCbUlaeThkTnozWl9oVXhSVGxNZ1RodUhWUQ?oc=5",
     "source": "gnews_futures",
     "published_utc": "2026-11-04T11:23:00+00:00",
-    "score": 9.32,
+    "score": 9.28,
     "duplicates": 2
    },
    {
@@ -2769,7 +2785,7 @@
     "link": "https://www.cnbc.com/2026/11/04/euro-zone-cpi-inflation-october-ecb-rate-hike.html",
     "source": "cnbc_markets",
     "published_utc": "2026-11-04T10:47:30+00:00",
-    "score": 8.73,
+    "score": 8.68,
     "duplicates": 1
    },
    {
@@ -2778,8 +2794,17 @@
     "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQLTN0YUFWUlFoM2x1RWY0VFhCd3lPSEYtN1Q2dnE0MHpkeEY2S29CVTNDd0xadDcxaVI2QXlqdk9UVkVGVjZhdV9MZzhUY3Y3RlZGTDZfWmk1ME54UWt1MzFDUGpGbEFwN1JaMHdLcGV2SzZqZUxjRm1DT1NLcldid3RjUGN6a3VMTkdVMzJEN3pMV2NSNGE1a3V2TQ?oc=5",
     "source": "gnews_macro",
     "published_utc": "2026-11-04T12:09:08+00:00",
-    "score": 8.45,
+    "score": 8.41,
     "duplicates": 2
+   },
+   {
+    "id": "a2022e117f",
+    "title": "Midterm elections deliver a ‘blue wave.’ The stock market sees green.",
+    "link": "https://www.marketwatch.com/story/midterm-elections-deliver-a-blue-wave-the-stock-market-sees-green-5900a779?mod=mw_rss_topstories",
+    "source": "marketwatch_top",
+    "published_utc": "2026-11-04T12:27:00+00:00",
+    "score": 7.46,
+    "duplicates": 0
    },
    {
     "id": "b9c00e13c3",
@@ -2787,7 +2812,7 @@
     "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNcWVOTU84Tk40OGpBSG1CMDFqaHI0NERCMTNQb29CRGw1dlM1VU56UHlOaTdvZk14UkpGeTNva3hHRjNNNUlIdHp3ZWlGZUlYeGlCWkFFcnNBM0F5Vm1PRWlDQ2pCUlRrYW9GVTFZRDQtekpQQ2JOdmJPXzlxdzNiaXZ6Y0d6Sl91QU9rV0ZlUDAxRE1ZM1hUOGk2d2VySkVjeXN6R0w4Vkp0V3VrME5NZlFRVFBjOWRV?oc=5",
     "source": "gnews_macro",
     "published_utc": "2026-11-04T11:48:45+00:00",
-    "score": 7.4,
+    "score": 7.35,
     "duplicates": 0
    },
    {
@@ -2796,7 +2821,7 @@
     "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE42NFNpOXZkTE1uVmpINlJ0NElJRndGRlFmYTcyZmVIN180V1RKUmI1ZWh3dkh3a0s3NlExS0pfY3lnODF3UTE1ZE9EV2w2c1hBOHVpLTF3aTZhblU5eEV2XzVZbWlQeXVMZUpxcVpMTjVORnU2cUxoZ1ZR?oc=5",
     "source": "gnews_macro",
     "published_utc": "2026-11-04T11:43:55+00:00",
-    "score": 7.38,
+    "score": 7.34,
     "duplicates": 0
    },
    {
@@ -2805,8 +2830,17 @@
     "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxNZ25BOExabF9pWHRSMzU1aVJBXzY2WmNiVUdiblcxRzNlaUZPZTR2Y3dEd20taXdRb1lmSGFCS21FSnVXYWdpZlVUb054T2liM052NDJBUGdaLUl1U2IycUh0Z2pubFdKbW9ROWcxckh6U1lfU21id0JwcnZPUHNjTU9NSHY2Yks0ZGZGcXBoTHBOd0VIWVlKNnl4Rm9KS1FvQlpMakE1MEV0dFR3U3h4Uk9DN0VSYlVZS1hObG9Ic2tBSTVodU05X3J4RGNzRE0?oc=5",
     "source": "gnews_futures",
     "published_utc": "2026-11-04T09:45:00+00:00",
-    "score": 7.05,
+    "score": 7.01,
     "duplicates": 1
+   },
+   {
+    "id": "9ace65281a",
+    "title": "[On-chain stock futures] Tesla trades 4.93% below its regular-session close - www.tokenpost.com",
+    "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5MMW5zbFZqYThMRnVvRDY5MU1TdEY3TnJUUVh3N19kZEhleWNaZFdLNW1ubHhJakIzZ3ROMzBBWEREQjA5WGk2NlUxQjUwX0w2OWM3ak9WWHlhdw?oc=5",
+    "source": "gnews_futures",
+    "published_utc": "2026-11-04T12:00:43+00:00",
+    "score": 6.89,
+    "duplicates": 0
    },
    {
     "id": "935c4ae6fa",
@@ -2814,16 +2848,16 @@
     "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOenVNalRlNk9YTXhjekJfN04weGZXNGsxM1BsSU5SMy1CQUZTM1lmcWYtSWVtUEdlSW9YejRrYjluQm9fV2tfc3BiSzNTSzVuV1UtM2FLMWk3VFcxcDlDM01hZGlrS2JBV2R1R2kwdXZQekFUc2dYQmVzdEVoakVnaHJqa3lEcDBnek5MV2NQbDhqRXJScTJuVkd6Z2dQQ0J6YW1PaWZ2OTNOVFMyNnFaZGV5SQ?oc=5",
     "source": "gnews_futures",
     "published_utc": "2026-11-04T11:24:25+00:00",
-    "score": 6.83,
+    "score": 6.79,
     "duplicates": 1
    },
    {
-    "id": "6f0a17cb50",
-    "title": "Stock Market Today: Dow Jones, S&P 500 Futures Rise as Democrats Take Control of Congress—AMD, AMGN, NVO - Benzinga",
-    "link": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxOM1VCTElaajQ3dmQzal9zQmpST0JCRmZCTEZLNFdGT25wZ2NxWFpKbVFKY1dqbUcyWV9ISW52SUxCWF95RGpFRDdyMlpIa3k1RXBQaFNZTmlSN0pxb2dKR1RXZmF2WVU1dW1ZekxMQ3FnalI0OGYxbk1MQS1xbkhjZEFxNkctVkJiTVR3dEtSNDFhTVd3X2YwdGxTWXo3TFZMLTdOYWtjN1ZWZTF3Q2dOZWVaa3RWNXo4VjJPWVQ0V1lyX0JlYWNSQkFvRkhYOUxNdXJSTWFHS21ZdEkxbHc4X3R0dWFPWjY1eFBvcGpzajI3c3RVSTgzaA?oc=5",
+    "id": "b890a301f8",
+    "title": "Stock Market Today: Dow Jones, S&P 500 Futures Rise as Democrats Take Control of Congress—AMD, AMGN, NVO in Focus - TradingView",
+    "link": "https://news.google.com/rss/articles/CBMi_AFBVV95cUxPNEttcDc2YmxaLWhvNnh6TTk2bUtzSVlhNm1vTEJ3cFdYRXk5VTdfTTJ3aHEtS1BZa19vMHlXRm8wa2w2UE5VRnpqN3Y3UEdPeVV4Q3VGSExBY2xWRWVyY0wybHRLRER3b0VTX2J4WExEa0ZmeHJqemtlcWN3d1p1cWp6bm5WS2dMVFN1NFlGY2s5Ul9zeWY0Mk1Od192TUR2N1NkLWoydjFPVXJJTFhMOHFtc2M1UHhHOEJ1THMwZnlDQ1pxbUNub3VYNXNnVUU3Rl9OUXR2M0Zza0xWSk1VODNXOWR1cS1faDBoQVctZU9QZ2xjcTNmSzVtaDU?oc=5",
     "source": "gnews_futures",
     "published_utc": "2026-11-04T10:17:28+00:00",
-    "score": 6.64,
+    "score": 6.6,
     "duplicates": 0
    },
    {
@@ -2832,25 +2866,7 @@
     "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNT29wRlA1bkxjTUkxYlQ1QTcxak1fb2tSOS1jSjc0dVBZWERWZGpBTVdVeEZsUkJDcXB6a1duU0ZXSDJ4N0FxZk5jQTBFYVFpWXlpaDRkZ1E1Q0VCcmQ3dktxUXMzR3F5eDdnYTNjN2gxSXRJWjdTdlFDVWF5ekJqYlF6b0ZWV3EwdEg2RHlXdkd4bURTMk9MdnpVQV8?oc=5",
     "source": "gnews_futures",
     "published_utc": "2026-11-04T09:51:38+00:00",
-    "score": 6.57,
-    "duplicates": 0
-   },
-   {
-    "id": "6717766f74",
-    "title": "FOMC Meeting: Why the Fed Is Nervous About Inflation and AI - Briefs Finance",
-    "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE1wNGd2ekVsejBOeGh6akM5ZUp0cFRUQTBTWmp5LUpLb1VIZEktQ1lEenM4SW1HcnJobGhMTzNqclJJVnFWREtsblpfUlBwXzQzTXMyS3JvcUR5RGUwUTc2Z1dnNnJFQQ?oc=5",
-    "source": "gnews_fed",
-    "published_utc": "2026-11-03T20:09:59+00:00",
-    "score": 6.5,
-    "duplicates": 0
-   },
-   {
-    "id": "9f230a41c7",
-    "title": "Bullard Bets on December Rate Hike, More Needed If Inflation Stays Hot - Kathleen Hays Presents: Central Bank Central",
-    "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE9BWkxHZFlaUWpObTRvUEwxMDN2TVV5YXlYU2t6OGdPNEJYVlR5c1B6eWVBbGtweUNMYk1ZRWNCTWs5ZlU3QW91cUJySklzekFSTEtuMDRCdTNvbE5CaURJTjd2WjF6SC0xaHNldU4xT1BZUWhQSnQtVUtn?oc=5",
-    "source": "gnews_macro",
-    "published_utc": "2026-11-04T06:11:06+00:00",
-    "score": 6.46,
+    "score": 6.53,
     "duplicates": 0
    }
   ],
@@ -2860,7 +2876,7 @@
     "Stock Futures Rally, Treasurys Strengthen After Democratic Sweep - WSJ [3d8432587e]",
     "Euro zone inflation hits 4% for first time in three years as interest rate hike looms [316b69a36c]",
     "ECB rate hike looks nearly certain after inflation rises to three-year high By Reuters - Investing.com [5747f10d64]",
-    "Eurozone Inflation Rises to 4%, Boosting Case for ECB Interest Rate Hike in December - Morningstar [b9c00e13c3]"
+    "Midterm elections deliver a ‘blue wave.’ The stock market sees green. [a2022e117f]"
    ],
    "backend": "none",
    "model": null,
