@@ -1,11 +1,11 @@
 {
  "meta": {
-  "generated_at_utc": "2026-11-05T16:59:20.999263+00:00",
-  "generated_at_local": "Thu 05 Nov 2026 12:59 AST",
+  "generated_at_utc": "2026-11-05T21:05:01.311747+00:00",
+  "generated_at_local": "Thu 05 Nov 2026 17:05 AST",
   "trading_day": "2026-11-05",
   "display_tz": "America/Halifax",
   "version": "0.1.0",
-  "run": "intraday",
+  "run": "post-close",
   "variant": "public"
  },
  "calendar": {
@@ -127,7 +127,7 @@
    "time_utc": "2026-11-06T13:30:00+00:00",
    "local": "09:30 AST",
    "et": "08:30 ET",
-   "in": "20h 30m",
+   "in": "16h 24m",
    "consensus": "0.3%",
    "prior": "0.1%"
   },
@@ -138,10 +138,10 @@
   {
    "root": "ES",
    "trading_day": "2026-11-05",
-   "as_of_utc": "2026-11-05T16:59:20.999263+00:00",
+   "as_of_utc": "2026-11-05T21:05:01.311747+00:00",
    "source": "yahoo",
    "delayed": true,
-   "last_price": 7475.25,
+   "last_price": 7399.0,
    "levels": [
     {
      "tag": "exp_hi",
@@ -149,13 +149,6 @@
      "price": 7830.61,
      "group": "range",
      "note": "ATR over 14 days"
-    },
-    {
-     "tag": "pwh",
-     "label": "Prior-week high",
-     "price": 7754.25,
-     "group": "week",
-     "note": "1 session(s) of data — PARTIAL"
     },
     {
      "tag": "pdh",
@@ -218,7 +211,7 @@
      "label": "Today's RTH high",
      "price": 7712.5,
      "group": "today",
-     "note": "so far"
+     "note": "session complete"
     },
     {
      "tag": "rtho",
@@ -256,20 +249,6 @@
      "note": ""
     },
     {
-     "tag": "pwl",
-     "label": "Prior-week low",
-     "price": 7558.25,
-     "group": "week",
-     "note": "1 session(s) of data — PARTIAL"
-    },
-    {
-     "tag": "rn_major_up",
-     "label": "Round 50 above",
-     "price": 7500.0,
-     "group": "round",
-     "note": ""
-    },
-    {
      "tag": "pgl",
      "label": "Prior Globex-session low",
      "price": 7490.0,
@@ -277,37 +256,51 @@
      "note": "full 18:00→17:00 session"
     },
     {
-     "tag": "rn_minor_dn",
-     "label": "Round 25 below",
-     "price": 7475.0,
+     "tag": "rn_major_up",
+     "label": "Round 50 above",
+     "price": 7400.0,
      "group": "round",
      "note": ""
     },
     {
-     "tag": "rn_major_dn",
-     "label": "Round 50 below",
-     "price": 7450.0,
-     "group": "round",
-     "note": ""
+     "tag": "tdc",
+     "label": "Today's RTH close (16:00 bar)",
+     "price": 7399.0,
+     "group": "today",
+     "note": "becomes next session's prior-day close"
     },
     {
      "tag": "tdl",
      "label": "Today's RTH low",
-     "price": 7421.0,
+     "price": 7382.0,
      "group": "today",
      "note": ""
     },
     {
      "tag": "wl",
      "label": "Week low",
-     "price": 7421.0,
+     "price": 7382.0,
      "group": "week",
+     "note": ""
+    },
+    {
+     "tag": "rn_minor_dn",
+     "label": "Round 25 below",
+     "price": 7375.0,
+     "group": "round",
+     "note": ""
+    },
+    {
+     "tag": "rn_major_dn",
+     "label": "Round 50 below",
+     "price": 7350.0,
+     "group": "round",
      "note": ""
     }
    ],
    "stats": {
-    "last_bar_utc": "2026-11-05T16:49:00+00:00",
-    "last_bar_age_min": 10.3,
+    "last_bar_utc": "2026-11-05T20:55:00+00:00",
+    "last_bar_age_min": 10.0,
     "market_state": "open",
     "profile_volume": 1614792.0,
     "prior_day": "2026-11-04",
@@ -1630,27 +1623,148 @@
      "t": "2026-11-05T16:45:00+00:00",
      "o": 7474.5,
      "h": 7484.25,
-     "l": 7469.0,
-     "c": 7475.25,
-     "v": 25037.0
+     "l": 7464.25,
+     "c": 7472.5,
+     "v": 74859.0
+    },
+    {
+     "t": "2026-11-05T17:00:00+00:00",
+     "o": 7472.25,
+     "h": 7472.25,
+     "l": 7447.25,
+     "c": 7461.25,
+     "v": 73602.0
+    },
+    {
+     "t": "2026-11-05T17:15:00+00:00",
+     "o": 7461.25,
+     "h": 7468.0,
+     "l": 7441.25,
+     "c": 7444.0,
+     "v": 51271.0
+    },
+    {
+     "t": "2026-11-05T17:30:00+00:00",
+     "o": 7443.75,
+     "h": 7450.5,
+     "l": 7420.5,
+     "c": 7429.0,
+     "v": 53652.0
+    },
+    {
+     "t": "2026-11-05T17:45:00+00:00",
+     "o": 7428.5,
+     "h": 7439.5,
+     "l": 7418.75,
+     "c": 7421.5,
+     "v": 52986.0
+    },
+    {
+     "t": "2026-11-05T18:00:00+00:00",
+     "o": 7421.25,
+     "h": 7436.0,
+     "l": 7391.25,
+     "c": 7430.25,
+     "v": 86520.0
+    },
+    {
+     "t": "2026-11-05T18:15:00+00:00",
+     "o": 7429.75,
+     "h": 7431.25,
+     "l": 7400.0,
+     "c": 7415.25,
+     "v": 61621.0
+    },
+    {
+     "t": "2026-11-05T18:30:00+00:00",
+     "o": 7415.5,
+     "h": 7418.0,
+     "l": 7400.5,
+     "c": 7407.0,
+     "v": 50540.0
+    },
+    {
+     "t": "2026-11-05T18:45:00+00:00",
+     "o": 7407.0,
+     "h": 7419.75,
+     "l": 7400.25,
+     "c": 7418.75,
+     "v": 50595.0
+    },
+    {
+     "t": "2026-11-05T19:00:00+00:00",
+     "o": 7418.75,
+     "h": 7432.0,
+     "l": 7388.0,
+     "c": 7429.25,
+     "v": 66740.0
+    },
+    {
+     "t": "2026-11-05T19:15:00+00:00",
+     "o": 7429.0,
+     "h": 7439.75,
+     "l": 7400.0,
+     "c": 7404.0,
+     "v": 59680.0
+    },
+    {
+     "t": "2026-11-05T19:30:00+00:00",
+     "o": 7403.75,
+     "h": 7439.0,
+     "l": 7401.25,
+     "c": 7437.0,
+     "v": 60087.0
+    },
+    {
+     "t": "2026-11-05T19:45:00+00:00",
+     "o": 7437.0,
+     "h": 7457.75,
+     "l": 7434.25,
+     "c": 7447.25,
+     "v": 65689.0
+    },
+    {
+     "t": "2026-11-05T20:00:00+00:00",
+     "o": 7447.25,
+     "h": 7447.25,
+     "l": 7395.75,
+     "c": 7407.75,
+     "v": 65395.0
+    },
+    {
+     "t": "2026-11-05T20:15:00+00:00",
+     "o": 7407.25,
+     "h": 7416.25,
+     "l": 7397.25,
+     "c": 7400.75,
+     "v": 52311.0
+    },
+    {
+     "t": "2026-11-05T20:30:00+00:00",
+     "o": 7400.75,
+     "h": 7414.0,
+     "l": 7382.0,
+     "c": 7393.5,
+     "v": 81560.0
+    },
+    {
+     "t": "2026-11-05T20:45:00+00:00",
+     "o": 7394.0,
+     "h": 7414.0,
+     "l": 7389.5,
+     "c": 7399.0,
+     "v": 67884.0
     }
    ]
   },
   {
    "root": "NQ",
    "trading_day": "2026-11-05",
-   "as_of_utc": "2026-11-05T16:59:20.999263+00:00",
+   "as_of_utc": "2026-11-05T21:05:01.311747+00:00",
    "source": "yahoo",
    "delayed": true,
-   "last_price": 27182.0,
+   "last_price": 26837.5,
    "levels": [
-    {
-     "tag": "pwh",
-     "label": "Prior-week high",
-     "price": 29562.0,
-     "group": "week",
-     "note": "1 session(s) of data — PARTIAL"
-    },
     {
      "tag": "exp_hi",
      "label": "Expected-range high (close + ATR)",
@@ -1729,18 +1843,11 @@
      "note": "typical-price VWAP"
     },
     {
-     "tag": "pwl",
-     "label": "Prior-week low",
-     "price": 28232.75,
-     "group": "week",
-     "note": "1 session(s) of data — PARTIAL"
-    },
-    {
      "tag": "tdh",
      "label": "Today's RTH high",
      "price": 28228.25,
      "group": "today",
-     "note": "so far"
+     "note": "session complete"
     },
     {
      "tag": "rtho",
@@ -1773,21 +1880,28 @@
     {
      "tag": "rn_major_up",
      "label": "Round 100 above",
-     "price": 27200.0,
+     "price": 26900.0,
      "group": "round",
      "note": ""
     },
     {
-     "tag": "rn_minor_dn",
-     "label": "Round 50 below",
-     "price": 27150.0,
+     "tag": "rn_minor_up",
+     "label": "Round 50 above",
+     "price": 26850.0,
      "group": "round",
      "note": ""
+    },
+    {
+     "tag": "tdc",
+     "label": "Today's RTH close (16:00 bar)",
+     "price": 26837.5,
+     "group": "today",
+     "note": "becomes next session's prior-day close"
     },
     {
      "tag": "rn_major_dn",
      "label": "Round 100 below",
-     "price": 27100.0,
+     "price": 26800.0,
      "group": "round",
      "note": ""
     },
@@ -1807,8 +1921,8 @@
     }
    ],
    "stats": {
-    "last_bar_utc": "2026-11-05T16:49:00+00:00",
-    "last_bar_age_min": 10.3,
+    "last_bar_utc": "2026-11-05T20:55:00+00:00",
+    "last_bar_age_min": 10.0,
     "market_state": "open",
     "profile_volume": 601332.0,
     "prior_day": "2026-11-04",
@@ -3131,9 +3245,137 @@
      "t": "2026-11-05T16:45:00+00:00",
      "o": 27169.5,
      "h": 27233.0,
-     "l": 27126.25,
-     "c": 27182.0,
-     "v": 9419.0
+     "l": 27111.0,
+     "c": 27153.5,
+     "v": 25806.0
+    },
+    {
+     "t": "2026-11-05T17:00:00+00:00",
+     "o": 27151.5,
+     "h": 27151.5,
+     "l": 27019.5,
+     "c": 27105.0,
+     "v": 25083.0
+    },
+    {
+     "t": "2026-11-05T17:15:00+00:00",
+     "o": 27104.25,
+     "h": 27151.25,
+     "l": 27011.25,
+     "c": 27034.75,
+     "v": 21219.0
+    },
+    {
+     "t": "2026-11-05T17:30:00+00:00",
+     "o": 27034.25,
+     "h": 27068.75,
+     "l": 26927.5,
+     "c": 26965.5,
+     "v": 18029.0
+    },
+    {
+     "t": "2026-11-05T17:45:00+00:00",
+     "o": 26965.5,
+     "h": 27016.75,
+     "l": 26915.25,
+     "c": 26933.25,
+     "v": 18248.0
+    },
+    {
+     "t": "2026-11-05T18:00:00+00:00",
+     "o": 26929.75,
+     "h": 27010.0,
+     "l": 26816.0,
+     "c": 26976.0,
+     "v": 27334.0
+    },
+    {
+     "t": "2026-11-05T18:15:00+00:00",
+     "o": 26971.75,
+     "h": 26988.0,
+     "l": 26842.25,
+     "c": 26920.25,
+     "v": 17800.0
+    },
+    {
+     "t": "2026-11-05T18:30:00+00:00",
+     "o": 26921.75,
+     "h": 26937.5,
+     "l": 26858.5,
+     "c": 26900.0,
+     "v": 13763.0
+    },
+    {
+     "t": "2026-11-05T18:45:00+00:00",
+     "o": 26901.0,
+     "h": 26963.25,
+     "l": 26861.5,
+     "c": 26958.25,
+     "v": 14867.0
+    },
+    {
+     "t": "2026-11-05T19:00:00+00:00",
+     "o": 26959.75,
+     "h": 27037.0,
+     "l": 26836.0,
+     "c": 27028.25,
+     "v": 19216.0
+    },
+    {
+     "t": "2026-11-05T19:15:00+00:00",
+     "o": 27030.0,
+     "h": 27082.75,
+     "l": 26885.0,
+     "c": 26906.25,
+     "v": 18284.0
+    },
+    {
+     "t": "2026-11-05T19:30:00+00:00",
+     "o": 26901.5,
+     "h": 27102.25,
+     "l": 26888.5,
+     "c": 27080.75,
+     "v": 18357.0
+    },
+    {
+     "t": "2026-11-05T19:45:00+00:00",
+     "o": 27083.75,
+     "h": 27180.0,
+     "l": 27071.5,
+     "c": 27118.0,
+     "v": 19635.0
+    },
+    {
+     "t": "2026-11-05T20:00:00+00:00",
+     "o": 27115.25,
+     "h": 27117.0,
+     "l": 26851.5,
+     "c": 26906.0,
+     "v": 18247.0
+    },
+    {
+     "t": "2026-11-05T20:15:00+00:00",
+     "o": 26902.5,
+     "h": 26958.25,
+     "l": 26868.5,
+     "c": 26889.5,
+     "v": 14716.0
+    },
+    {
+     "t": "2026-11-05T20:30:00+00:00",
+     "o": 26889.5,
+     "h": 26955.5,
+     "l": 26790.75,
+     "c": 26845.0,
+     "v": 21054.0
+    },
+    {
+     "t": "2026-11-05T20:45:00+00:00",
+     "o": 26849.75,
+     "h": 26930.25,
+     "l": 26806.5,
+     "c": 26837.5,
+     "v": 21747.0
     }
    ]
   }
@@ -3146,7 +3388,7 @@
     "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQVFVfQVktUmNubUdnTm5YYWNwa2s4ZzRLSWxpYnZDRDJIaklIQmdFUnNnX2tOQ2plOXlXeG9BcTVpQkw5dXJrdEQ5VEJWMy0wT0h1dF9HTkdmcUdOY1RsbEd5b19waDdacG13RnRWTmtNYk9pdWFOOGZTWGhmUzJ0Y1RVWUlucE5od2xRcDB0dWFBeVN0dV9ucHlrMmh4Y1ZwV3RwUy04RHBpdmda?oc=5",
     "source": "gnews_fed",
     "published_utc": "2026-11-05T09:26:01+00:00",
-    "score": 10.74,
+    "score": 10.06,
     "duplicates": 3
    },
    {
@@ -3155,7 +3397,7 @@
     "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPaURpY2VwV0xyc3Z4bnVmcHlaRUpadWFHMkNObW5lRkwycnhnOC1Gb2gyMWV3al93alEtRjdQM1hUclpUYi1zcWRhVUtsSE4taTBoR0VvaFNMZlJQSHRVdzUzRzhwVnMxd1BXdnRyWXZzUmZrNkhLNHVQaGkwVXhEV0xDSUlqRmR4ZGdSZl9TSUs1djA4Q0ZIZ1l5T0hCZ0RQYmV0VVAxT0FCNjBKb1dUZlV4elhDRHN0MHFnQU9n?oc=5",
     "source": "gnews_futures",
     "published_utc": "2026-11-05T11:24:04+00:00",
-    "score": 10.57,
+    "score": 9.89,
     "duplicates": 0
    },
    {
@@ -3164,25 +3406,25 @@
     "link": "https://www.cnbc.com/2026/11/05/moonshot-ai-nvidia-chips-europe-china.html",
     "source": "cnbc_markets",
     "published_utc": "2026-11-05T13:34:14+00:00",
-    "score": 9.43,
+    "score": 8.75,
     "duplicates": 0
    },
    {
-    "id": "09ce28d7b9",
-    "title": "Cleveland Fed president says restrictive rates are needed to cool inflation - Quartz",
-    "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTFBZWVE3ZGF6RGxtWS1fanNNM3RXNG56QTRYOTFnN0VBbF8zaUFLYUdXZ1pCQmZGM2dPeXJRRE5Odml0UUx5WTNsTWp6VExZWWI1ZFJVaTl2bzlUdjdtT3ItS3FCSjNlWldzcmd4RDVBUUVUY3I4X0IxVXZxTQ?oc=5",
+    "id": "eecec1c269",
+    "title": "CPI | Amazon Accused of Rigging Ad Auctions With Hidden Fees of Up to 250% - PYMNTS.com",
+    "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQeXUtMUNoWHhCQ3BjaTJxRWZwbzI0X3o2eG11SDJ3bXhrbEZnYWY3eGUwMk5tX0VSMm9XejhQSUpXLWRvNDhqZjZNREhMQkYyZ3BpaGhZV2owVGlwUnFoVWRER2Rpa2lPYXhZMmI2dGd2OW96aHM4UXAwMFBrMHVMVmJuZU93YTJ0NUpJTHRfZzZpRF9xUmJkVklJcWZ0LXdBa2hr?oc=5",
     "source": "gnews_macro",
-    "published_utc": "2026-11-05T15:42:12+00:00",
-    "score": 8.29,
-    "duplicates": 2
+    "published_utc": "2026-11-05T20:09:59+00:00",
+    "score": 8.35,
+    "duplicates": 0
    },
    {
     "id": "ad4be6b1e7",
-    "title": "Fed's Hammack favors gradual rate-hike path to lower inflation - Reuters",
+    "title": "Fed's Hammack, Barkin favor gradual rate-hike path to lower inflation - Reuters",
     "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPTDI4cDU1ODdtRUFrTlZiTjZUbUlKNjZicWpjOHp0YnhONENvNEhMemJ3bWNyR1Rpd0d5akp3Yk1FVElzaDlBenRLRkttdjFvOXFZaGt6dm05WWdZZXpqcU5vazJSY2p3UEx6dkFtM18tNU5nVFZEb0dFY3NHUkRGZlAxS2xJVHZPWWFYOWNUd1lsU2VnbEliTXZDYnp1Um5aX2M1a3Fn?oc=5",
     "source": "gnews_fed",
-    "published_utc": "2026-11-05T13:55:22+00:00",
-    "score": 7.99,
+    "published_utc": "2026-11-05T18:07:06+00:00",
+    "score": 8.01,
     "duplicates": 2
    },
    {
@@ -3191,7 +3433,43 @@
     "link": "https://www.federalreserve.gov/newsevents/pressreleases/enforcement20261105a.htm",
     "source": "fed_press",
     "published_utc": "2026-11-05T16:00:00+00:00",
-    "score": 7.84,
+    "score": 7.65,
+    "duplicates": 1
+   },
+   {
+    "id": "695f5b5cba",
+    "title": "FOMC May Need to Tighten Monetary Policy Gradually to Combat Inflation, Cleveland Fed's Hammack Says - Yahoo Finance",
+    "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxQbDljRUZESWdKYUQxcGVmUG9vdjFIdmF6bDlNQlg5ZUFFc1dpbzFaVFZzVTBFcWtka1FIUTFoMU5sMXpHUGdMa2hmWWY5ZERzNkxFMlhDeUFwbGdGTWhQekVSMmUycVcyTHFfYVNNbDRVX0Ryem1qMXJNaHBGd3QyNWVheGdkalhfQTRqc1JqSnJpd1lXZDZtQ0x6Ul9qQQ?oc=5",
+    "source": "gnews_fed",
+    "published_utc": "2026-11-05T18:15:43+00:00",
+    "score": 7.53,
+    "duplicates": 1
+   },
+   {
+    "id": "c398c72e77",
+    "title": "AI meltdown: Chip stocks and neoclouds plunge, pushing Nasdaq to worst day since April 2025",
+    "link": "https://www.cnbc.com/2026/11/05/qualcomm-earnings-chip-stocks-election.html",
+    "source": "cnbc_markets",
+    "published_utc": "2026-11-05T20:08:49+00:00",
+    "score": 7.34,
+    "duplicates": 0
+   },
+   {
+    "id": "344f0f0f38",
+    "title": "Federal Reserve holds interest rates steady as inflation and consumer debt remain concerns - Spectrum News",
+    "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPY241ODBrZ3VXak1ubmpXalpIREpnNEVSN1ZNWDFNN3B0YVZDX3RWcFpsbXVlbVQ1S1NMWnFnNE9HMTBzN0Y3b0VQZndYd0hTb2pIeEtsaWJQa0MyX1o4YXNGcW1SbzhXUm82MDV3YW1zcmJPOG5JdWo0VTJ0UEV1eWZrckJBbWhNT3pwMWpnNzlDdS0tSUtkdVNFUm1SQ3lZeEE?oc=5",
+    "source": "gnews_fed",
+    "published_utc": "2026-11-05T19:00:00+00:00",
+    "score": 7.15,
+    "duplicates": 0
+   },
+   {
+    "id": "c9c76d31c7",
+    "title": "US Stock Futures Diverge as Chip Selloff Extends Into Second Day - Bloomberg.com",
+    "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPSGhDSzhCYkhQQlg2TDJ4OHFfREQ1bEFUWjlmUlYwLXNSS3dCbjh1YWJ3d21xcEJabjhkMWZyR05XQUItd2pFaEtzNDBrOFZ0eVhrb0xId2J6R2NSbjRFbUlKQ2ZTZWEwYzhZX2swQk5jOVV2LXptLXZab0tUVUNkZHliVFVJYnNreTBDTkw0b25fa3c4NFBZOThFQUYyOTN3MmprcURGSFZyNGswU3BxS0k0UC1aQQ?oc=5",
+    "source": "gnews_futures",
+    "published_utc": "2026-11-05T18:20:00+00:00",
+    "score": 7.04,
     "duplicates": 0
    },
    {
@@ -3200,52 +3478,16 @@
     "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNTDlqOEZOTkV6b2ZsWGNHMmlNU1R1WWdhVVRfN1Rud3NJb0lWV1BsVnpwMm9GS3RnX21nSlFqVGRoWFdBelVyWHNEaGhmQTBzdHlDN0VPS2FudHZYZkRhdG56UHBtLXEwaHY4dVJIaTVfMmRVeERKWjgwbHp4M3M2RGZzZDBuLUpoTEtDcVdHZ0NZVXRkRXl3OEJRQkNkRWV6SWQxcWM1SG9EOEFUVWVwY2c1QkNKV0RBNnMxbDBYelpvVy1XWFE?oc=5",
     "source": "gnews_fed",
     "published_utc": "2026-11-05T14:55:00+00:00",
-    "score": 7.65,
+    "score": 6.97,
     "duplicates": 1
    },
    {
-    "id": "7348b01607",
-    "title": "S&P 500 futures steady after midterm rally; Nasdaq lags on chip weakness - marketscreener.com",
-    "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNODVkZm1EOGNScjI3OEJYdXdIVEVMUWZ5U3hKOHZTVXJhUXJUQnZ5bXpzb0F2Y0pRcmt0WHZCOFhUYUVKTURISndQeWtkeHZLbnlSU1JLNGFQQXE0WUs4VG5Mc3hheU9CZFdIYTBJQjR1UmtXRkpxakZJZndTcTNteUJwYVlfMW5pUmIxMmFQNkUzeGdiOWJYMXhTTlVQNHdSMXZrT21kSzJvY0xDVEl6cWxzS1gtaE56QWEyX2xidm1Tdw?oc=5",
-    "source": "gnews_futures",
-    "published_utc": "2026-11-05T14:45:24+00:00",
-    "score": 7.63,
-    "duplicates": 1
-   },
-   {
-    "id": "388a45633e",
-    "title": "Getting inflation down to 2% should be through frequent small adjustments: FOMC's Hammack (DXY:) (DXY:) - Seeking Alpha",
-    "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQWEo3Tnc2TVpIclcxclZHZ2JwLTJBbUJweUhjcE1FZHNvcVpTbzMtdkF2VXBDbUhtZHpoLTFlQ2QwMkNjaTBCYzdxQjlaQWR2UWlNRnItZ2JjT1hHWDZYQU5NWUZLTkRhVjhFZ19NTk5fWXJuMGZIQmkwVk5aSFBPOWpHZ2FDOEZBdjE0dzZUZWZYQ3FXdGt5bHBQUmNiSWZoem90WmxUazIzQzR0aHVHN0VSdjdPMnYyRk1GRGZJb1lIZw?oc=5",
-    "source": "gnews_fed",
-    "published_utc": "2026-11-05T13:50:45+00:00",
-    "score": 7.48,
-    "duplicates": 1
-   },
-   {
-    "id": "969204a029",
-    "title": "An Anthropic IPO when the AI trade is this turbulent? Goodspeed!",
-    "link": "https://www.marketwatch.com/story/an-anthropic-ipo-when-the-ai-trade-is-this-turbulent-godspeed-08ca0496?mod=mw_rss_topstories",
-    "source": "marketwatch_top",
-    "published_utc": "2026-11-05T16:00:00+00:00",
-    "score": 7.34,
-    "duplicates": 0
-   },
-   {
-    "id": "c9c76d31c7",
-    "title": "US Stock Futures Diverge as Chip Selloff Extends Into Second Day - Bloomberg.com",
-    "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPSGhDSzhCYkhQQlg2TDJ4OHFfREQ1bEFUWjlmUlYwLXNSS3dCbjh1YWJ3d21xcEJabjhkMWZyR05XQUItd2pFaEtzNDBrOFZ0eVhrb0xId2J6R2NSbjRFbUlKQ2ZTZWEwYzhZX2swQk5jOVV2LXptLXZab0tUVUNkZHliVFVJYnNreTBDTkw0b25fa3c4NFBZOThFQUYyOTN3MmprcURGSFZyNGswU3BxS0k0UC1aQQ?oc=5",
-    "source": "gnews_futures",
-    "published_utc": "2026-11-05T15:53:04+00:00",
-    "score": 7.32,
-    "duplicates": 0
-   },
-   {
-    "id": "6fdcb9cc15",
-    "title": "Fed’s Barkin backs gradual rate hikes as inflation stays too high - FXStreet",
-    "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPZ2hPR2RHTkxORzZ4c3FOM3dweVdsTnc4S1NTN29NZXlQVXZxNjN0OTlsMS1nRjdWd2I1NFpFN1l0TFBqYXgwMlJYWHE4YmJXc0RSeFVNNGswTmhHS1I1azBDazhJQ0I0YXZyQVVXX3NRY1FqWUlMYm9ISUJzNzlST0s4ODJVbVZmd2szVTdUQTdwT1FvX2prdGN4dEZlQndrZDFmcVlpX0haZ28?oc=5",
+    "id": "a424a91502",
+    "title": "AI chip stocks drag Wall Street toward worst day since Trump's tariff announcements in 2025 - The Korea Times",
+    "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxQWG9EVkRURmJEWXFoNFlYdHhRMlM3X0Zld3lDSm9mcGZrTUQwU2tVRkx5RFlPTVBEWlVWaTdTVUh6Z1llelcwODdZQ1dBZVRtalhRQzV0M3JmSEw2d3BHV0lvN2hsSnBIWXJnMXVzOFhETGJmN2puUkxDZTdqOU1CNVJSWXd6VkgxUXFVeXBFaHRjclpjb0ctOFU2UmFwTHY0NXBXRWZMaGVsTnctR2tCYmFxXzBzQU5INl8ycDllQTE3VTVJdEpsSDFMZlMzMHfSAdQBQVVfeXFMT1NyVk01d01TRTZ5SWlncEl0REtiTElMaGZFSXdzWGFkQmhKaDdkQWdWa09DNGMwaEt1MUJCMlNpamdkMmQ2MGQ2dkVDc19Tb3ktek5UbXFvSHJETFBqNHNMZU1WbzhEVVlsY1BQbTBLRWpLR3dDOWRsVV9TZW9Gc3pVWGQwcnJRWDBuTUZwOFBiZW5YdEplRVFLUUh5X2NNaXdKZnFHdXF1R0V3a3UwUldTRm9HU0tUckcyeW1DazRGSjBPWWQ1RzVuZGpQVnA5V1dEbkQ?oc=5",
     "source": "gnews_macro",
-    "published_utc": "2026-11-05T15:48:02+00:00",
-    "score": 7.3,
+    "published_utc": "2026-11-05T16:12:00+00:00",
+    "score": 6.69,
     "duplicates": 0
    }
   ],
@@ -3254,8 +3496,8 @@
     "The Federal Reserve's Initial November Inflation Forecast Has Arrived, and Things Are Getting Downright Ugly for Wall Street - Yahoo Finance [0563238013]",
     "Nasdaq Futures Slip as Chip Selloff Rages On; Earnings and Fed Speak on Tap - Barchart.com [4c6aea0644]",
     "Chinese AI lab Moonshot turned to Europe for Nvidia Blackwell access amid U.S. China curbs, sources tell CNBC [6d33d9cbf6]",
-    "Cleveland Fed president says restrictive rates are needed to cool inflation - Quartz [09ce28d7b9]",
-    "Fed's Hammack favors gradual rate-hike path to lower inflation - Reuters [ad4be6b1e7]"
+    "CPI | Amazon Accused of Rigging Ad Auctions With Hidden Fees of Up to 250% - PYMNTS.com [eecec1c269]",
+    "Fed's Hammack, Barkin favor gradual rate-hike path to lower inflation - Reuters [ad4be6b1e7]"
    ],
    "backend": "none",
    "model": null,
@@ -3473,14 +3715,6 @@
     "reported": false
    },
    {
-    "symbol": "CNQ",
-    "name": "Canadian Natural Resources Limited",
-    "timing": "pre",
-    "date": "2026-11-05",
-    "reported_at": null,
-    "reported": false
-   },
-   {
     "symbol": "SO",
     "name": "Southern Company (The)",
     "timing": "pre",
@@ -3492,6 +3726,14 @@
     "symbol": "ABNB",
     "name": "Airbnb, Inc.",
     "timing": "post",
+    "date": "2026-11-05",
+    "reported_at": null,
+    "reported": false
+   },
+   {
+    "symbol": "CNQ",
+    "name": "Canadian Natural Resources Limited",
+    "timing": "pre",
     "date": "2026-11-05",
     "reported_at": null,
     "reported": false
@@ -3513,17 +3755,17 @@
     "reported": false
    },
    {
-    "symbol": "EOG",
-    "name": "EOG Resources, Inc.",
-    "timing": "post",
+    "symbol": "CI",
+    "name": "The Cigna Group",
+    "timing": "pre",
     "date": "2026-11-05",
     "reported_at": null,
     "reported": false
    },
    {
-    "symbol": "CI",
-    "name": "The Cigna Group",
-    "timing": "pre",
+    "symbol": "EOG",
+    "name": "EOG Resources, Inc.",
+    "timing": "post",
     "date": "2026-11-05",
     "reported_at": null,
     "reported": false
@@ -3545,14 +3787,6 @@
     "reported": false
    },
    {
-    "symbol": "CMI",
-    "name": "Cummins Inc.",
-    "timing": "pre",
-    "date": "2026-11-05",
-    "reported_at": null,
-    "reported": false
-   },
-   {
     "symbol": "KMB",
     "name": "Kimberly-Clark Corporation",
     "timing": "pre",
@@ -3561,8 +3795,8 @@
     "reported": false
    },
    {
-    "symbol": "TRGP",
-    "name": "Targa Resources, Inc.",
+    "symbol": "CMI",
+    "name": "Cummins Inc.",
     "timing": "pre",
     "date": "2026-11-05",
     "reported_at": null,
@@ -3577,8 +3811,32 @@
     "reported": false
    },
    {
+    "symbol": "TRGP",
+    "name": "Targa Resources, Inc.",
+    "timing": "pre",
+    "date": "2026-11-05",
+    "reported_at": null,
+    "reported": false
+   },
+   {
     "symbol": "CAH",
     "name": "Cardinal Health, Inc.",
+    "timing": "pre",
+    "date": "2026-11-05",
+    "reported_at": null,
+    "reported": false
+   },
+   {
+    "symbol": "WPM",
+    "name": "Wheaton Precious Metals Corp.",
+    "timing": "post",
+    "date": "2026-11-05",
+    "reported_at": null,
+    "reported": false
+   },
+   {
+    "symbol": "BDX",
+    "name": "Becton, Dickinson and Company",
     "timing": "pre",
     "date": "2026-11-05",
     "reported_at": null,
@@ -3596,30 +3854,6 @@
     "symbol": "SRE",
     "name": "Sempra",
     "timing": "pre",
-    "date": "2026-11-05",
-    "reported_at": null,
-    "reported": false
-   },
-   {
-    "symbol": "BDX",
-    "name": "Becton, Dickinson and Company",
-    "timing": "pre",
-    "date": "2026-11-05",
-    "reported_at": null,
-    "reported": false
-   },
-   {
-    "symbol": "WPM",
-    "name": "Wheaton Precious Metals Corp.",
-    "timing": "post",
-    "date": "2026-11-05",
-    "reported_at": null,
-    "reported": false
-   },
-   {
-    "symbol": "DVN",
-    "name": "Devon Energy Corporation",
-    "timing": "post",
     "date": "2026-11-05",
     "reported_at": null,
     "reported": false
