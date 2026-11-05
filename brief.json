@@ -1,7 +1,7 @@
 {
  "meta": {
-  "generated_at_utc": "2026-11-05T12:56:47.323085+00:00",
-  "generated_at_local": "Thu 05 Nov 2026 08:56 AST",
+  "generated_at_utc": "2026-11-05T13:12:04.201185+00:00",
+  "generated_at_local": "Thu 05 Nov 2026 09:12 AST",
   "trading_day": "2026-11-05",
   "display_tz": "America/Halifax",
   "version": "0.1.0",
@@ -127,7 +127,7 @@
    "time_utc": "2026-11-05T13:30:00+00:00",
    "local": "09:30 AST",
    "et": "08:30 ET",
-   "in": "33 min",
+   "in": "17 min",
    "consensus": "197K",
    "prior": "194K"
   },
@@ -138,10 +138,10 @@
   {
    "root": "ES",
    "trading_day": "2026-11-05",
-   "as_of_utc": "2026-11-05T12:56:47.323085+00:00",
+   "as_of_utc": "2026-11-05T13:12:04.201185+00:00",
    "source": "yahoo",
    "delayed": true,
-   "last_price": 7724.0,
+   "last_price": 7726.5,
    "levels": [
     {
      "tag": "exp_hi",
@@ -190,7 +190,7 @@
      "label": "Overnight high",
      "price": 7738.75,
      "group": "overnight",
-     "note": "since 18:00 ET, 813 bars"
+     "note": "since 18:00 ET, 829 bars"
     },
     {
      "tag": "poc",
@@ -200,8 +200,8 @@
      "note": "2026-11-04 RTH, bin 0.25"
     },
     {
-     "tag": "rn_minor_up",
-     "label": "Round 25 above",
+     "tag": "rn_minor_dn",
+     "label": "Round 25 below",
      "price": 7725.0,
      "group": "round",
      "note": ""
@@ -216,7 +216,7 @@
     {
      "tag": "onvwap",
      "label": "Overnight VWAP",
-     "price": 7716.16,
+     "price": 7716.51,
      "group": "overnight",
      "note": "typical-price VWAP"
     },
@@ -285,14 +285,14 @@
     }
    ],
    "stats": {
-    "last_bar_utc": "2026-11-05T12:46:00+00:00",
-    "last_bar_age_min": 10.8,
+    "last_bar_utc": "2026-11-05T13:02:00+00:00",
+    "last_bar_age_min": 10.1,
     "market_state": "open",
     "profile_volume": 1614792.0,
     "prior_day": "2026-11-04",
     "prior_day_rth_range": 66.5,
     "overnight_range": 47.75,
-    "gap_vs_prior_close": 2.25,
+    "gap_vs_prior_close": 4.75,
     "gap_basis": "last price (pre-market)",
     "atr14": 108.86,
     "atr_days": 14,
@@ -1480,20 +1480,28 @@
     {
      "t": "2026-11-05T12:45:00+00:00",
      "o": 7722.75,
-     "h": 7725.75,
+     "h": 7729.25,
      "l": 7722.75,
-     "c": 7724.0,
-     "v": 667.0
+     "c": 7728.5,
+     "v": 7511.0
+    },
+    {
+     "t": "2026-11-05T13:00:00+00:00",
+     "o": 7728.5,
+     "h": 7729.25,
+     "l": 7725.25,
+     "c": 7726.5,
+     "v": 1744.0
     }
    ]
   },
   {
    "root": "NQ",
    "trading_day": "2026-11-05",
-   "as_of_utc": "2026-11-05T12:56:47.323085+00:00",
+   "as_of_utc": "2026-11-05T13:12:04.201185+00:00",
    "source": "yahoo",
    "delayed": true,
-   "last_price": 28318.75,
+   "last_price": 28306.25,
    "levels": [
     {
      "tag": "pwh",
@@ -1542,7 +1550,7 @@
      "label": "Overnight high",
      "price": 28620.75,
      "group": "overnight",
-     "note": "since 18:00 ET, 813 bars"
+     "note": "since 18:00 ET, 829 bars"
     },
     {
      "tag": "pdc",
@@ -1582,7 +1590,7 @@
     {
      "tag": "onvwap",
      "label": "Overnight VWAP",
-     "price": 28356.89,
+     "price": 28355.93,
      "group": "overnight",
      "note": "typical-price VWAP"
     },
@@ -1637,14 +1645,14 @@
     }
    ],
    "stats": {
-    "last_bar_utc": "2026-11-05T12:46:00+00:00",
-    "last_bar_age_min": 10.8,
+    "last_bar_utc": "2026-11-05T13:02:00+00:00",
+    "last_bar_age_min": 10.1,
     "market_state": "open",
     "profile_volume": 601332.0,
     "prior_day": "2026-11-04",
     "prior_day_rth_range": 564.0,
     "overnight_range": 453.0,
-    "gap_vs_prior_close": -248.5,
+    "gap_vs_prior_close": -261.0,
     "gap_basis": "last price (pre-market)",
     "atr14": 740.91,
     "atr_days": 14,
@@ -2833,9 +2841,17 @@
      "t": "2026-11-05T12:45:00+00:00",
      "o": 28317.75,
      "h": 28332.5,
-     "l": 28316.25,
-     "c": 28318.75,
-     "v": 168.0
+     "l": 28293.5,
+     "c": 28328.0,
+     "v": 3017.0
+    },
+    {
+     "t": "2026-11-05T13:00:00+00:00",
+     "o": 28327.0,
+     "h": 28337.75,
+     "l": 28291.25,
+     "c": 28306.25,
+     "v": 897.0
     }
    ]
   }
@@ -2848,7 +2864,7 @@
     "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQVFVfQVktUmNubUdnTm5YYWNwa2s4ZzRLSWxpYnZDRDJIaklIQmdFUnNnX2tOQ2plOXlXeG9BcTVpQkw5dXJrdEQ5VEJWMy0wT0h1dF9HTkdmcUdOY1RsbEd5b19waDdacG13RnRWTmtNYk9pdWFOOGZTWGhmUzJ0Y1RVWUlucE5od2xRcDB0dWFBeVN0dV9ucHlrMmh4Y1ZwV3RwUy04RHBpdmda?oc=5",
     "source": "gnews_fed",
     "published_utc": "2026-11-05T09:26:01+00:00",
-    "score": 11.41,
+    "score": 11.37,
     "duplicates": 3
    },
    {
@@ -2857,7 +2873,7 @@
     "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPaURpY2VwV0xyc3Z4bnVmcHlaRUpadWFHMkNObW5lRkwycnhnOC1Gb2gyMWV3al93alEtRjdQM1hUclpUYi1zcWRhVUtsSE4taTBoR0VvaFNMZlJQSHRVdzUzRzhwVnMxd1BXdnRyWXZzUmZrNkhLNHVQaGkwVXhEV0xDSUlqRmR4ZGdSZl9TSUs1djA4Q0ZIZ1l5T0hCZ0RQYmV0VVAxT0FCNjBKb1dUZlV4elhDRHN0MHFnQU9n?oc=5",
     "source": "gnews_futures",
     "published_utc": "2026-11-05T11:24:04+00:00",
-    "score": 9.74,
+    "score": 9.7,
     "duplicates": 0
    },
    {
@@ -2866,7 +2882,7 @@
     "link": "https://www.marketwatch.com/story/a-strategist-draws-a-1980s-parallel-to-argue-bipartisanship-could-power-a-bull-stampede-609ddc9b?mod=mw_rss_topstories",
     "source": "marketwatch_top",
     "published_utc": "2026-11-05T11:56:00+00:00",
-    "score": 9.33,
+    "score": 9.29,
     "duplicates": 0
    },
    {
@@ -2875,25 +2891,16 @@
     "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOQ21uZTBtcHVVa1pjcFN6eHhxWllCcEpzV2hpTmN6SWhMY3dqY2dpOWtxd0dtdGFPRV9RSUM1SEhrSDVHUHI3YmIwZzZucVoyZDd2V1hzNGJLT2w4OG5VRGpDRkNYbmJ4V2xadVlUVldoOUJ1THc2RVA0WkFtZmpaRDdWdG9iU3pZX285WkRhRi1MUF90UF9SekFzVjMyRzZNTmZoQmlEMVdmb3lHaUV2WTBZdFU?oc=5",
     "source": "gnews_macro",
     "published_utc": "2026-11-05T09:45:00+00:00",
-    "score": 7.97,
-    "duplicates": 3
-   },
-   {
-    "id": "5adc8706aa",
-    "title": "Jim Cramer Warns Friday Jobs Report Could Undo Much of Wall Street's Midterm Rally - Binance",
-    "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE1mMi1ra1pRYmhCYXk1SGs0NFhqVE5Za0xaV2xRdnNKUTJRTUs2aHV3MmlTSjVWc0cxeVlGZHhaeGNwWldHXzZDbmZsT1BQdFh5MTBCbkNiVDRaSVVvdEduSEdhdXM?oc=5",
-    "source": "gnews_macro",
-    "published_utc": "2026-11-05T11:29:44+00:00",
-    "score": 7.76,
-    "duplicates": 0
+    "score": 8.42,
+    "duplicates": 4
    },
    {
     "id": "290fe3a0c5",
     "title": "S&P 500 futures steady after midterm rally; Nasdaq lags on chip weakness - Reuters",
     "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxObTdYYmZaZmRqRUt0TDhBbERraDF2VlpSTDJ4M1NyZ2dRRkNUUVJ0OVFHdzJyc01uNDZOV2YzZFprbU90aUNzTEtYTEdNWU5Jc19VVVlHc24tNkZ2VFhqOWg3b0swVDFnY2hHaGxuNVZXVkE5S09xZXV2eGRQb1kwdWFEZWxpeGMybDZRcGtyWW52Q1JfaHY4MVo1YmJfRW9KZmNsdVJqS24zeGRZVUpaV3VB?oc=5",
     "source": "gnews_futures",
-    "published_utc": "2026-11-05T11:02:31+00:00",
-    "score": 7.68,
+    "published_utc": "2026-11-05T11:35:38+00:00",
+    "score": 7.73,
     "duplicates": 1
    },
    {
@@ -2902,7 +2909,7 @@
     "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOQjYwRGNjTjBBYVNZUU5MS2F4NUZpMlhSZUVqYl96NjRLQ0NxU0w4NDR4bWJHemhILTV3dVZYOGg5V21VTFd5NldNd3gwYktZZncxWS1wQ3E4NmVIdlB6VEkwdWFEZTh6QWZHM1l2NFlpQUI3a0xWWHNPMmFfMDFxalVmUlZRLUQtaWhYSmJvX001di1IcjB2OVdabTZvSjl6VC1TWA?oc=5",
     "source": "gnews_macro",
     "published_utc": "2026-11-05T10:50:00+00:00",
-    "score": 7.65,
+    "score": 7.61,
     "duplicates": 1
    },
    {
@@ -2911,7 +2918,7 @@
     "link": "https://www.cnbc.com/2026/11/05/interest-rates-inflation-uk.html",
     "source": "cnbc_markets",
     "published_utc": "2026-11-05T12:37:57+00:00",
-    "score": 7.45,
+    "score": 7.41,
     "duplicates": 1
    },
    {
@@ -2920,7 +2927,7 @@
     "link": "https://www.marketwatch.com/story/an-anthropic-ipo-when-the-ai-trade-is-this-turbulent-godspeed-08ca0496?mod=mw_rss_topstories",
     "source": "marketwatch_top",
     "published_utc": "2026-11-05T12:16:00+00:00",
-    "score": 7.39,
+    "score": 7.34,
     "duplicates": 0
    },
    {
@@ -2929,16 +2936,16 @@
     "link": "https://news.google.com/rss/articles/CBMi_gFBVV95cUxNMEJMeHE2ZndzU2RKS2JrVHQxOXJuWHhjQUhMVlBZZlF2Q3V2Zkcwd2pRUkNSaFU2aUx5dlRBSkpfV0kzTWhVZGRiakpuSGU1bE5JSU9kcGd2WnJCRFhpNFRhZ2RZSU12Y3FTNFlOWGdKZDVMTUtqXzhRR29sb0JJYnBqVndaWjJvNmRjLTVkU19RUHRxdDd4NkFPbko1TTlHLUNyeVlLNHd4ZXBXRWJBMDFlczVHV3M2cERrR19BU1VsNFI2ZnJvellFSExtSTE3Q2x1ZDEweWV0SGZNZERGakx1eV90MXRlZW5zLW0yUWNET0JlZ1BFc3ZNeWNzdw?oc=5",
     "source": "gnews_macro",
     "published_utc": "2026-11-05T10:39:57+00:00",
-    "score": 7.12,
+    "score": 7.08,
     "duplicates": 3
    },
    {
-    "id": "946bad307e",
-    "title": "Bank of England Eyes First Rate Hike Since 2023 as Inflation Hits 3.5% - EBC Financial Group",
-    "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1LTlRuMndRTlYtMC1TUmoxbXVRb3p5b0ZMRnlyWVdlQ25zZ3I0R3MxUUNtSUtCdmFuQjQ0TW9fLXJhUEd5UUo4bWVlMWxIcXd1T1ZrU2hHaWVFblVnRGVtQ0YxcVlBTDg?oc=5",
+    "id": "b41b9023c5",
+    "title": "Stocks surge as tariff concerns ease, oil prices fall - WISH-TV",
+    "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQLWZrd0d2YkpDaEVfcFpzRWdCek9ncEprZGFUZVdadFVBTXdUc05ORF93dk53RUotSmt6bW42ZTNGSmM2N3FjMWRZeW5Bd0xZTjdoVGlpSGpYemtaeVJYa0tKbTBMWHZLTHNzYVcyNHZmVzJPaXlLTTlBTC1vaUZ2dFRwa1hIb1Rm?oc=5",
     "source": "gnews_macro",
-    "published_utc": "2026-11-05T10:10:00+00:00",
-    "score": 7.04,
+    "published_utc": "2026-11-05T13:04:00+00:00",
+    "score": 6.98,
     "duplicates": 0
    },
    {
@@ -2947,7 +2954,16 @@
     "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNNTMydXlRSVJ3RTdiSzlJeE4tM09PRm0tNURnT1BSUVpOdUNZNUU4QThuWlFKMzlpdzJGUkxmSWZ1MW5JdlBZck9rMVFOS0RiZHJZRHRzU0lBNlREVDlNeTdHTGxVTlNNWTg4ZXpLQzNTUDUwbDF1M3FhN3lITTJhUDBPUVdxS2Zq?oc=5",
     "source": "gnews_macro",
     "published_utc": "2026-11-05T12:54:30+00:00",
-    "score": 6.99,
+    "score": 6.95,
+    "duplicates": 0
+   },
+   {
+    "id": "961e74a1a6",
+    "title": "AI Selloff Extends, Treasurys Gain as Blue Wave Reverberates - WSJ",
+    "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPWXJzcWk4MlFxcUhTQV9qNEloN2tSdDQ5cFVYblN2TDhpdWR0V3JyWFhMZXFGT205aVpqa1Fwa0gwblEzUGRycHg2LVZSQ1FsN09EMWdSREU4OUdrQzVhOGhGellFNzV0cEFQX2gxTmNnZkhyMTZNR293REljWEtCUF83VDhyZ0VpbkEycVhuVTJwMWM2Q2RGWXRCbkxjbGtNSXpJT2tR?oc=5",
+    "source": "gnews_futures",
+    "published_utc": "2026-11-05T09:46:00+00:00",
+    "score": 6.93,
     "duplicates": 0
    }
   ],
@@ -2957,7 +2973,7 @@
     "Nasdaq Futures Slip as Chip Stocks Extend Slide; Earnings and Fed Speak on Tap - Barchart.com [4c6aea0644]",
     "A strategist draws a 1980s parallel to argue bipartisanship could power a ‘bull stampede’ [0632605d35]",
     "Inflation, tariffs and a voter revolt: The midterm verdict on Trump’s economy - AP News [3b1dfd0014]",
-    "Jim Cramer Warns Friday Jobs Report Could Undo Much of Wall Street's Midterm Rally - Binance [5adc8706aa]"
+    "S&P 500 futures steady after midterm rally; Nasdaq lags on chip weakness - Reuters [290fe3a0c5]"
    ],
    "backend": "none",
    "model": null,
