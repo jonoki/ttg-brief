@@ -1,11 +1,11 @@
 {
  "meta": {
-  "generated_at_utc": "2026-11-05T13:27:21.692902+00:00",
-  "generated_at_local": "Thu 05 Nov 2026 09:27 AST",
+  "generated_at_utc": "2026-11-05T13:40:04.781792+00:00",
+  "generated_at_local": "Thu 05 Nov 2026 09:40 AST",
   "trading_day": "2026-11-05",
   "display_tz": "America/Halifax",
   "version": "0.1.0",
-  "run": "overnight",
+  "run": "post-data",
   "variant": "public"
  },
  "calendar": {
@@ -122,14 +122,14 @@
    }
   ],
   "next_event": {
-   "name": "Unemployment Claims",
-   "impact": "medium",
-   "time_utc": "2026-11-05T13:30:00+00:00",
+   "name": "Average Hourly Earnings m/m",
+   "impact": "high",
+   "time_utc": "2026-11-06T13:30:00+00:00",
    "local": "09:30 AST",
    "et": "08:30 ET",
-   "in": "2 min",
-   "consensus": "197K",
-   "prior": "194K"
+   "in": "23h 49m",
+   "consensus": "0.3%",
+   "prior": "0.1%"
   },
   "sources": [],
   "warnings": []
@@ -138,10 +138,10 @@
   {
    "root": "ES",
    "trading_day": "2026-11-05",
-   "as_of_utc": "2026-11-05T13:27:21.692902+00:00",
+   "as_of_utc": "2026-11-05T13:40:04.781792+00:00",
    "source": "yahoo",
    "delayed": true,
-   "last_price": 7725.5,
+   "last_price": 7730.75,
    "levels": [
     {
      "tag": "exp_hi",
@@ -190,7 +190,7 @@
      "label": "Overnight high",
      "price": 7738.75,
      "group": "overnight",
-     "note": "since 18:00 ET, 844 bars"
+     "note": "since 18:00 ET, 857 bars"
     },
     {
      "tag": "poc",
@@ -216,7 +216,7 @@
     {
      "tag": "onvwap",
      "label": "Overnight VWAP",
-     "price": 7716.91,
+     "price": 7717.14,
      "group": "overnight",
      "note": "typical-price VWAP"
     },
@@ -285,14 +285,14 @@
     }
    ],
    "stats": {
-    "last_bar_utc": "2026-11-05T13:17:00+00:00",
-    "last_bar_age_min": 10.4,
+    "last_bar_utc": "2026-11-05T13:30:00+00:00",
+    "last_bar_age_min": 10.1,
     "market_state": "open",
     "profile_volume": 1614792.0,
     "prior_day": "2026-11-04",
     "prior_day_rth_range": 66.5,
     "overnight_range": 47.75,
-    "gap_vs_prior_close": 3.75,
+    "gap_vs_prior_close": 9.0,
     "gap_basis": "last price (pre-market)",
     "atr14": 108.86,
     "atr_days": 14,
@@ -1496,20 +1496,28 @@
     {
      "t": "2026-11-05T13:15:00+00:00",
      "o": 7726.0,
-     "h": 7728.5,
+     "h": 7731.75,
      "l": 7723.75,
-     "c": 7725.5,
-     "v": 716.0
+     "c": 7730.25,
+     "v": 5662.0
+    },
+    {
+     "t": "2026-11-05T13:30:00+00:00",
+     "o": 7730.75,
+     "h": 7734.0,
+     "l": 7726.75,
+     "c": 7730.75,
+     "v": 0.0
     }
    ]
   },
   {
    "root": "NQ",
    "trading_day": "2026-11-05",
-   "as_of_utc": "2026-11-05T13:27:21.692902+00:00",
+   "as_of_utc": "2026-11-05T13:40:04.781792+00:00",
    "source": "yahoo",
    "delayed": true,
-   "last_price": 28321.5,
+   "last_price": 28338.25,
    "levels": [
     {
      "tag": "pwh",
@@ -1558,7 +1566,7 @@
      "label": "Overnight high",
      "price": 28620.75,
      "group": "overnight",
-     "note": "since 18:00 ET, 844 bars"
+     "note": "since 18:00 ET, 857 bars"
     },
     {
      "tag": "pdc",
@@ -1598,7 +1606,7 @@
     {
      "tag": "onvwap",
      "label": "Overnight VWAP",
-     "price": 28354.99,
+     "price": 28354.8,
      "group": "overnight",
      "note": "typical-price VWAP"
     },
@@ -1653,14 +1661,14 @@
     }
    ],
    "stats": {
-    "last_bar_utc": "2026-11-05T13:17:00+00:00",
-    "last_bar_age_min": 10.4,
+    "last_bar_utc": "2026-11-05T13:30:00+00:00",
+    "last_bar_age_min": 10.1,
     "market_state": "open",
     "profile_volume": 601332.0,
     "prior_day": "2026-11-04",
     "prior_day_rth_range": 564.0,
     "overnight_range": 453.0,
-    "gap_vs_prior_close": -245.75,
+    "gap_vs_prior_close": -229.0,
     "gap_basis": "last price (pre-market)",
     "atr14": 740.91,
     "atr_days": 14,
@@ -2864,10 +2872,18 @@
     {
      "t": "2026-11-05T13:15:00+00:00",
      "o": 28323.0,
-     "h": 28342.25,
+     "h": 28358.5,
      "l": 28311.25,
-     "c": 28321.5,
-     "v": 570.0
+     "c": 28347.25,
+     "v": 3622.0
+    },
+    {
+     "t": "2026-11-05T13:30:00+00:00",
+     "o": 28351.75,
+     "h": 28354.75,
+     "l": 28315.25,
+     "c": 28338.25,
+     "v": 0.0
     }
    ]
   }
@@ -3003,7 +3019,176 @@
  },
  "flags": [],
  "earnings": {
-  "reported": [],
+  "reported": [
+   {
+    "symbol": "ARM",
+    "name": "Arm Holdings plc",
+    "timing": "unknown",
+    "date": "2026-11-04",
+    "reported_at": "11/4/2026",
+    "reported": true
+   },
+   {
+    "symbol": "QCOM",
+    "name": "QUALCOMM Incorporated",
+    "timing": "unknown",
+    "date": "2026-11-04",
+    "reported_at": "11/4/2026",
+    "reported": true
+   },
+   {
+    "symbol": "UBER",
+    "name": "Uber Technologies, Inc.",
+    "timing": "unknown",
+    "date": "2026-11-04",
+    "reported_at": "11/4/2026",
+    "reported": true
+   },
+   {
+    "symbol": "MCD",
+    "name": "McDonald's Corporation",
+    "timing": "unknown",
+    "date": "2026-11-04",
+    "reported_at": "11/4/2026",
+    "reported": true
+   },
+   {
+    "symbol": "NVO",
+    "name": "Novo Nordisk A/S",
+    "timing": "unknown",
+    "date": "2026-11-04",
+    "reported_at": "11/4/2026",
+    "reported": true
+   },
+   {
+    "symbol": "MCK",
+    "name": "McKesson Corporation",
+    "timing": "unknown",
+    "date": "2026-11-04",
+    "reported_at": "11/4/2026",
+    "reported": true
+   },
+   {
+    "symbol": "CVS",
+    "name": "CVS Health Corporation",
+    "timing": "unknown",
+    "date": "2026-11-04",
+    "reported_at": "11/4/2026",
+    "reported": true
+   },
+   {
+    "symbol": "EMR",
+    "name": "Emerson Electric Company",
+    "timing": "unknown",
+    "date": "2026-11-04",
+    "reported_at": "11/4/2026",
+    "reported": true
+   },
+   {
+    "symbol": "APP",
+    "name": "Applovin Corporation",
+    "timing": "unknown",
+    "date": "2026-11-04",
+    "reported_at": "11/4/2026",
+    "reported": true
+   },
+   {
+    "symbol": "MELI",
+    "name": "MercadoLibre, Inc.",
+    "timing": "unknown",
+    "date": "2026-11-04",
+    "reported_at": "11/4/2026",
+    "reported": true
+   },
+   {
+    "symbol": "MSI",
+    "name": "Motorola Solutions, Inc.",
+    "timing": "unknown",
+    "date": "2026-11-04",
+    "reported_at": "11/4/2026",
+    "reported": true
+   },
+   {
+    "symbol": "MFC",
+    "name": "Manulife Financial Corp",
+    "timing": "unknown",
+    "date": "2026-11-04",
+    "reported_at": "11/4/2026",
+    "reported": true
+   },
+   {
+    "symbol": "GWW",
+    "name": "W.W. Grainger, Inc.",
+    "timing": "unknown",
+    "date": "2026-11-04",
+    "reported_at": "11/4/2026",
+    "reported": true
+   },
+   {
+    "symbol": "ALL",
+    "name": "Allstate Corporation (The)",
+    "timing": "unknown",
+    "date": "2026-11-04",
+    "reported_at": "11/4/2026",
+    "reported": true
+   },
+   {
+    "symbol": "DDOG",
+    "name": "Datadog, Inc.",
+    "timing": "unknown",
+    "date": "2026-11-04",
+    "reported_at": "11/4/2026",
+    "reported": true
+   },
+   {
+    "symbol": "COR",
+    "name": "Cencora, Inc.",
+    "timing": "unknown",
+    "date": "2026-11-04",
+    "reported_at": "11/4/2026",
+    "reported": true
+   },
+   {
+    "symbol": "MET",
+    "name": "MetLife, Inc.",
+    "timing": "unknown",
+    "date": "2026-11-04",
+    "reported_at": "11/4/2026",
+    "reported": true
+   },
+   {
+    "symbol": "AFL",
+    "name": "Aflac Incorporated",
+    "timing": "unknown",
+    "date": "2026-11-04",
+    "reported_at": "11/4/2026",
+    "reported": true
+   },
+   {
+    "symbol": "EW",
+    "name": "Edwards Lifesciences Corporation",
+    "timing": "unknown",
+    "date": "2026-11-04",
+    "reported_at": "11/4/2026",
+    "reported": true
+   },
+   {
+    "symbol": "CVE",
+    "name": "Cenovus Energy Inc",
+    "timing": "unknown",
+    "date": "2026-11-04",
+    "reported_at": "11/4/2026",
+    "reported": true
+   },
+   {
+    "symbol": "MDLN",
+    "name": "Medline Inc.",
+    "timing": "unknown",
+    "date": "2026-11-04",
+    "reported_at": "11/4/2026",
+    "reported": true
+   }
+  ],
   "today": [
    {
     "symbol": "COP",
@@ -3038,14 +3223,6 @@
     "reported": false
    },
    {
-    "symbol": "CNQ",
-    "name": "Canadian Natural Resources Limited",
-    "timing": "pre",
-    "date": "2026-11-05",
-    "reported_at": null,
-    "reported": false
-   },
-   {
     "symbol": "SO",
     "name": "Southern Company (The)",
     "timing": "pre",
@@ -3057,6 +3234,14 @@
     "symbol": "ABNB",
     "name": "Airbnb, Inc.",
     "timing": "post",
+    "date": "2026-11-05",
+    "reported_at": null,
+    "reported": false
+   },
+   {
+    "symbol": "CNQ",
+    "name": "Canadian Natural Resources Limited",
+    "timing": "pre",
     "date": "2026-11-05",
     "reported_at": null,
     "reported": false
@@ -3078,17 +3263,17 @@
     "reported": false
    },
    {
-    "symbol": "EOG",
-    "name": "EOG Resources, Inc.",
-    "timing": "post",
+    "symbol": "CI",
+    "name": "The Cigna Group",
+    "timing": "pre",
     "date": "2026-11-05",
     "reported_at": null,
     "reported": false
    },
    {
-    "symbol": "CI",
-    "name": "The Cigna Group",
-    "timing": "pre",
+    "symbol": "EOG",
+    "name": "EOG Resources, Inc.",
+    "timing": "post",
     "date": "2026-11-05",
     "reported_at": null,
     "reported": false
@@ -3110,14 +3295,6 @@
     "reported": false
    },
    {
-    "symbol": "CMI",
-    "name": "Cummins Inc.",
-    "timing": "pre",
-    "date": "2026-11-05",
-    "reported_at": null,
-    "reported": false
-   },
-   {
     "symbol": "KMB",
     "name": "Kimberly-Clark Corporation",
     "timing": "pre",
@@ -3126,8 +3303,8 @@
     "reported": false
    },
    {
-    "symbol": "TRGP",
-    "name": "Targa Resources, Inc.",
+    "symbol": "CMI",
+    "name": "Cummins Inc.",
     "timing": "pre",
     "date": "2026-11-05",
     "reported_at": null,
@@ -3142,8 +3319,32 @@
     "reported": false
    },
    {
+    "symbol": "TRGP",
+    "name": "Targa Resources, Inc.",
+    "timing": "pre",
+    "date": "2026-11-05",
+    "reported_at": null,
+    "reported": false
+   },
+   {
     "symbol": "CAH",
     "name": "Cardinal Health, Inc.",
+    "timing": "pre",
+    "date": "2026-11-05",
+    "reported_at": null,
+    "reported": false
+   },
+   {
+    "symbol": "WPM",
+    "name": "Wheaton Precious Metals Corp.",
+    "timing": "post",
+    "date": "2026-11-05",
+    "reported_at": null,
+    "reported": false
+   },
+   {
+    "symbol": "BDX",
+    "name": "Becton, Dickinson and Company",
     "timing": "pre",
     "date": "2026-11-05",
     "reported_at": null,
@@ -3161,30 +3362,6 @@
     "symbol": "SRE",
     "name": "Sempra",
     "timing": "pre",
-    "date": "2026-11-05",
-    "reported_at": null,
-    "reported": false
-   },
-   {
-    "symbol": "BDX",
-    "name": "Becton, Dickinson and Company",
-    "timing": "pre",
-    "date": "2026-11-05",
-    "reported_at": null,
-    "reported": false
-   },
-   {
-    "symbol": "WPM",
-    "name": "Wheaton Precious Metals Corp.",
-    "timing": "post",
-    "date": "2026-11-05",
-    "reported_at": null,
-    "reported": false
-   },
-   {
-    "symbol": "DVN",
-    "name": "Devon Energy Corporation",
-    "timing": "post",
     "date": "2026-11-05",
     "reported_at": null,
     "reported": false
