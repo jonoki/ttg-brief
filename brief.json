@@ -1,11 +1,11 @@
 {
  "meta": {
-  "generated_at_utc": "2026-11-05T14:26:04.523610+00:00",
-  "generated_at_local": "Thu 05 Nov 2026 10:26 AST",
+  "generated_at_utc": "2026-11-05T14:41:23.673689+00:00",
+  "generated_at_local": "Thu 05 Nov 2026 10:41 AST",
   "trading_day": "2026-11-05",
   "display_tz": "America/Halifax",
   "version": "0.1.0",
-  "run": "post-data",
+  "run": "intraday",
   "variant": "public"
  },
  "calendar": {
@@ -127,7 +127,7 @@
    "time_utc": "2026-11-06T13:30:00+00:00",
    "local": "09:30 AST",
    "et": "08:30 ET",
-   "in": "23h 03m",
+   "in": "22h 48m",
    "consensus": "0.3%",
    "prior": "0.1%"
   },
@@ -138,10 +138,10 @@
   {
    "root": "ES",
    "trading_day": "2026-11-05",
-   "as_of_utc": "2026-11-05T14:26:04.523610+00:00",
+   "as_of_utc": "2026-11-05T14:41:23.673689+00:00",
    "source": "yahoo",
    "delayed": true,
-   "last_price": 7716.75,
+   "last_price": 7691.5,
    "levels": [
     {
      "tag": "exp_hi",
@@ -156,13 +156,6 @@
      "price": 7754.25,
      "group": "week",
      "note": "1 session(s) of data — PARTIAL"
-    },
-    {
-     "tag": "rn_major_up",
-     "label": "Round 50 above",
-     "price": 7750.0,
-     "group": "round",
-     "note": ""
     },
     {
      "tag": "pdh",
@@ -190,7 +183,7 @@
      "label": "Overnight high",
      "price": 7738.75,
      "group": "overnight",
-     "note": "since 18:00 ET, 903 bars"
+     "note": "since 18:00 ET, 916 bars"
     },
     {
      "tag": "poc",
@@ -198,13 +191,6 @@
      "price": 7729.62,
      "group": "profile",
      "note": "2026-11-04 RTH, bin 0.25"
-    },
-    {
-     "tag": "rn_minor_up",
-     "label": "Round 25 above",
-     "price": 7725.0,
-     "group": "round",
-     "note": ""
     },
     {
      "tag": "pdc",
@@ -216,7 +202,7 @@
     {
      "tag": "onvwap",
      "label": "Overnight VWAP",
-     "price": 7717.91,
+     "price": 7717.53,
      "group": "overnight",
      "note": "typical-price VWAP"
     },
@@ -228,8 +214,22 @@
      "note": "70 % value area"
     },
     {
-     "tag": "rn_major_dn",
-     "label": "Round 50 below",
+     "tag": "tdh",
+     "label": "Today's RTH high",
+     "price": 7712.5,
+     "group": "today",
+     "note": "so far"
+    },
+    {
+     "tag": "rtho",
+     "label": "Today's RTH open",
+     "price": 7707.5,
+     "group": "today",
+     "note": "09:30 bar open"
+    },
+    {
+     "tag": "rn_major_up",
+     "label": "Round 50 above",
      "price": 7700.0,
      "group": "round",
      "note": ""
@@ -239,6 +239,13 @@
      "label": "Overnight low",
      "price": 7691.0,
      "group": "overnight",
+     "note": ""
+    },
+    {
+     "tag": "tdl",
+     "label": "Today's RTH low",
+     "price": 7687.0,
+     "group": "today",
      "note": ""
     },
     {
@@ -254,6 +261,20 @@
      "price": 7679.75,
      "group": "prior_day",
      "note": "2026-11-04"
+    },
+    {
+     "tag": "rn_minor_dn",
+     "label": "Round 25 below",
+     "price": 7675.0,
+     "group": "round",
+     "note": ""
+    },
+    {
+     "tag": "rn_major_dn",
+     "label": "Round 50 below",
+     "price": 7650.0,
+     "group": "round",
+     "note": ""
     },
     {
      "tag": "exp_lo",
@@ -285,15 +306,15 @@
     }
    ],
    "stats": {
-    "last_bar_utc": "2026-11-05T14:16:00+00:00",
-    "last_bar_age_min": 10.1,
+    "last_bar_utc": "2026-11-05T14:31:00+00:00",
+    "last_bar_age_min": 10.4,
     "market_state": "open",
     "profile_volume": 1614792.0,
     "prior_day": "2026-11-04",
     "prior_day_rth_range": 66.5,
     "overnight_range": 47.75,
-    "gap_vs_prior_close": -5.0,
-    "gap_basis": "last price (pre-market)",
+    "gap_vs_prior_close": -14.25,
+    "gap_basis": "RTH open",
     "atr14": 108.86,
     "atr_days": 14,
     "avg_daily_range": 103.75,
@@ -1529,19 +1550,27 @@
      "t": "2026-11-05T14:15:00+00:00",
      "o": 7715.75,
      "h": 7719.25,
-     "l": 7715.5,
-     "c": 7716.75,
-     "v": 1469.0
+     "l": 7706.5,
+     "c": 7707.0,
+     "v": 20050.0
+    },
+    {
+     "t": "2026-11-05T14:30:00+00:00",
+     "o": 7707.5,
+     "h": 7712.5,
+     "l": 7687.0,
+     "c": 7691.5,
+     "v": 18639.0
     }
    ]
   },
   {
    "root": "NQ",
    "trading_day": "2026-11-05",
-   "as_of_utc": "2026-11-05T14:26:04.523610+00:00",
+   "as_of_utc": "2026-11-05T14:41:23.673689+00:00",
    "source": "yahoo",
    "delayed": true,
-   "last_price": 28247.5,
+   "last_price": 28072.0,
    "levels": [
     {
      "tag": "pwh",
@@ -1590,7 +1619,7 @@
      "label": "Overnight high",
      "price": 28620.75,
      "group": "overnight",
-     "note": "since 18:00 ET, 903 bars"
+     "note": "since 18:00 ET, 916 bars"
     },
     {
      "tag": "pdc",
@@ -1623,23 +1652,9 @@
     {
      "tag": "onvwap",
      "label": "Overnight VWAP",
-     "price": 28348.44,
+     "price": 28343.58,
      "group": "overnight",
      "note": "typical-price VWAP"
-    },
-    {
-     "tag": "rn_major_up",
-     "label": "Round 100 above",
-     "price": 28300.0,
-     "group": "round",
-     "note": ""
-    },
-    {
-     "tag": "rn_minor_up",
-     "label": "Round 50 above",
-     "price": 28250.0,
-     "group": "round",
-     "note": ""
     },
     {
      "tag": "pwl",
@@ -1649,17 +1664,52 @@
      "note": "1 session(s) of data — PARTIAL"
     },
     {
-     "tag": "rn_major_dn",
-     "label": "Round 100 below",
-     "price": 28200.0,
-     "group": "round",
-     "note": ""
+     "tag": "tdh",
+     "label": "Today's RTH high",
+     "price": 28228.25,
+     "group": "today",
+     "note": "so far"
+    },
+    {
+     "tag": "rtho",
+     "label": "Today's RTH open",
+     "price": 28203.0,
+     "group": "today",
+     "note": "09:30 bar open"
     },
     {
      "tag": "onl",
      "label": "Overnight low",
      "price": 28167.75,
      "group": "overnight",
+     "note": ""
+    },
+    {
+     "tag": "rn_major_up",
+     "label": "Round 100 above",
+     "price": 28100.0,
+     "group": "round",
+     "note": ""
+    },
+    {
+     "tag": "rn_minor_dn",
+     "label": "Round 50 below",
+     "price": 28050.0,
+     "group": "round",
+     "note": ""
+    },
+    {
+     "tag": "tdl",
+     "label": "Today's RTH low",
+     "price": 28039.0,
+     "group": "today",
+     "note": ""
+    },
+    {
+     "tag": "rn_major_dn",
+     "label": "Round 100 below",
+     "price": 28000.0,
+     "group": "round",
      "note": ""
     },
     {
@@ -1685,15 +1735,15 @@
     }
    ],
    "stats": {
-    "last_bar_utc": "2026-11-05T14:16:00+00:00",
-    "last_bar_age_min": 10.1,
+    "last_bar_utc": "2026-11-05T14:31:00+00:00",
+    "last_bar_age_min": 10.4,
     "market_state": "open",
     "profile_volume": 601332.0,
     "prior_day": "2026-11-04",
     "prior_day_rth_range": 564.0,
     "overnight_range": 453.0,
-    "gap_vs_prior_close": -319.75,
-    "gap_basis": "last price (pre-market)",
+    "gap_vs_prior_close": -364.25,
+    "gap_basis": "RTH open",
     "atr14": 740.91,
     "atr_days": 14,
     "avg_daily_range": 687.58,
@@ -2929,9 +2979,17 @@
      "t": "2026-11-05T14:15:00+00:00",
      "o": 28244.25,
      "h": 28264.0,
-     "l": 28241.0,
-     "c": 28247.5,
-     "v": 691.0
+     "l": 28200.25,
+     "c": 28205.0,
+     "v": 8728.0
+    },
+    {
+     "t": "2026-11-05T14:30:00+00:00",
+     "o": 28203.0,
+     "h": 28228.25,
+     "l": 28039.0,
+     "c": 28072.0,
+     "v": 8440.0
     }
    ]
   }
@@ -2944,7 +3002,7 @@
     "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQVFVfQVktUmNubUdnTm5YYWNwa2s4ZzRLSWxpYnZDRDJIaklIQmdFUnNnX2tOQ2plOXlXeG9BcTVpQkw5dXJrdEQ5VEJWMy0wT0h1dF9HTkdmcUdOY1RsbEd5b19waDdacG13RnRWTmtNYk9pdWFOOGZTWGhmUzJ0Y1RVWUlucE5od2xRcDB0dWFBeVN0dV9ucHlrMmh4Y1ZwV3RwUy04RHBpdmda?oc=5",
     "source": "gnews_fed",
     "published_utc": "2026-11-05T09:26:01+00:00",
-    "score": 11.17,
+    "score": 11.12,
     "duplicates": 3
    },
    {
@@ -2953,7 +3011,7 @@
     "link": "https://www.cnbc.com/2026/11/05/moonshot-ai-nvidia-chips-europe-china.html",
     "source": "cnbc_markets",
     "published_utc": "2026-11-05T13:34:14+00:00",
-    "score": 9.86,
+    "score": 9.81,
     "duplicates": 0
    },
    {
@@ -2962,16 +3020,16 @@
     "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPaURpY2VwV0xyc3Z4bnVmcHlaRUpadWFHMkNObW5lRkwycnhnOC1Gb2gyMWV3al93alEtRjdQM1hUclpUYi1zcWRhVUtsSE4taTBoR0VvaFNMZlJQSHRVdzUzRzhwVnMxd1BXdnRyWXZzUmZrNkhLNHVQaGkwVXhEV0xDSUlqRmR4ZGdSZl9TSUs1djA4Q0ZIZ1l5T0hCZ0RQYmV0VVAxT0FCNjBKb1dUZlV4elhDRHN0MHFnQU9n?oc=5",
     "source": "gnews_futures",
     "published_utc": "2026-11-05T11:24:04+00:00",
-    "score": 9.49,
+    "score": 9.45,
     "duplicates": 0
    },
    {
-    "id": "ad4be6b1e7",
-    "title": "Fed's Hammack favors gradual rate-hike path to lower inflation - Reuters",
-    "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPTDI4cDU1ODdtRUFrTlZiTjZUbUlKNjZicWpjOHp0YnhONENvNEhMemJ3bWNyR1Rpd0d5akp3Yk1FVElzaDlBenRLRkttdjFvOXFZaGt6dm05WWdZZXpqcU5vazJSY2p3UEx6dkFtM18tNU5nVFZEb0dFY3NHUkRGZlAxS2xJVHZPWWFYOWNUd1lsU2VnbEliTXZDYnp1Um5aX2M1a3Fn?oc=5",
-    "source": "gnews_fed",
-    "published_utc": "2026-11-05T13:55:22+00:00",
-    "score": 8.41,
+    "id": "68a936c2b1",
+    "title": "Fed's Hammack favors gradual rate-hike path to lower inflation - Kitco",
+    "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxONnVLUVpYWlh4NmhCUmdybDNyOS11dDFHbDVvV3ZHa1RlcHZZUkQtNXZFS2NBb2FKRExXQThXOExfZ1EyQ2lNRnVMbDFUc3NjaThmcU44bzRvQnpycTNKZjladTY3dk85STA1TEoxeXM3RW5hN2taakxpdU82c3Q4TDNWYTgzTktUcmxvSElJVWZ4UkF5cWkycG93cUY4cTM1R04yazZyRVhpeVBNZWc?oc=5",
+    "source": "gnews_macro",
+    "published_utc": "2026-11-05T14:27:54+00:00",
+    "score": 8.46,
     "duplicates": 2
    },
    {
@@ -2980,7 +3038,7 @@
     "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPU2c2UERBM24tYnJsM3UxR3pvTG9mYmZNZ0dDN3k4OHp6SUl3aUxKRXZkNlJVeFU4dTFoS1NtSHBZN0xIVG1GRnBNNmxxWU9MWUNWNmhkZXZPT1A5ZHN2RHZRWS1tMmtZV1BzSDJLLWpERnFoZTVLNDFsdWVlaENTdE5UZVZDanpTbTFtNDQ5WHJJYWt1Y0hGNnd5eEhXaVplZWJNcXFXVHpIMXVqa0c5Z2tn?oc=5",
     "source": "gnews_fed",
     "published_utc": "2026-11-05T13:50:00+00:00",
-    "score": 7.9,
+    "score": 7.86,
     "duplicates": 1
    },
    {
@@ -2989,7 +3047,7 @@
     "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQWEo3Tnc2TVpIclcxclZHZ2JwLTJBbUJweUhjcE1FZHNvcVpTbzMtdkF2VXBDbUhtZHpoLTFlQ2QwMkNjaTBCYzdxQjlaQWR2UWlNRnItZ2JjT1hHWDZYQU5NWUZLTkRhVjhFZ19NTk5fWXJuMGZIQmkwVk5aSFBPOWpHZ2FDOEZBdjE0dzZUZWZYQ3FXdGt5bHBQUmNiSWZoem90WmxUazIzQzR0aHVHN0VSdjdPMnYyRk1GRGZJb1lIZw?oc=5",
     "source": "gnews_fed",
     "published_utc": "2026-11-05T13:50:45+00:00",
-    "score": 7.9,
+    "score": 7.86,
     "duplicates": 1
    },
    {
@@ -2998,7 +3056,7 @@
     "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNX1lDZVpOc0NCYjl2UENGdkhibWVabGM1elBLME8yVUpBTG5fakdWaGZyM2dnQ0w2eEtGSFQybDBlcmVEcmc1elFmNGNBMUZBNEFZaFNpUnJ4NWFJYzljSlUyNndxRE5OQk5uTUtQQVhBLVJvbDFGdzRKZElzSndqSkdydnI4RHZtN3U4Wl9jVmVlMmF5eEdmYy00dWQ4QThZdEZ4YTBnMXQ5Wl9pQVlYajdZQW8xUFpGVVRVWUUyYW53eGNCZFE?oc=5",
     "source": "gnews_futures",
     "published_utc": "2026-11-05T11:45:49+00:00",
-    "score": 7.55,
+    "score": 7.51,
     "duplicates": 1
    },
    {
@@ -3007,7 +3065,7 @@
     "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOTDA1MjVIZU9ULVM2Smc2ck04ZndfbnE4NU1aeHQ0LUxuajJNTzdjZDRtYWpqcHNydjFlSUltRkFqc3JsTHE4MXVQWVdzaW9LWDRTU1NOUHlHWGh3Sjk5NzY0am9QT1RLR2ZYLWp6U3RJVmtTLUN6SFV2SWxTSi1ySUNDVXVCeW9KWVoxaC1UWTVVbUtYUFk5eUxMQQ?oc=5",
     "source": "gnews_fed",
     "published_utc": "2026-11-05T14:13:34+00:00",
-    "score": 7.47,
+    "score": 7.42,
     "duplicates": 0
    },
    {
@@ -3016,7 +3074,7 @@
     "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOQjYwRGNjTjBBYVNZUU5MS2F4NUZpMlhSZUVqYl96NjRLQ0NxU0w4NDR4bWJHemhILTV3dVZYOGg5V21VTFd5NldNd3gwYktZZncxWS1wQ3E4NmVIdlB6VEkwdWFEZTh6QWZHM1l2NFlpQUI3a0xWWHNPMmFfMDFxalVmUlZRLUQtaWhYSmJvX001di1IcjB2OVdabTZvSjl6VC1TWA?oc=5",
     "source": "gnews_macro",
     "published_utc": "2026-11-05T10:50:00+00:00",
-    "score": 7.4,
+    "score": 7.36,
     "duplicates": 1
    },
    {
@@ -3025,17 +3083,8 @@
     "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPSGhDSzhCYkhQQlg2TDJ4OHFfREQ1bEFUWjlmUlYwLXNSS3dCbjh1YWJ3d21xcEJabjhkMWZyR05XQUItd2pFaEtzNDBrOFZ0eVhrb0xId2J6R2NSbjRFbUlKQ2ZTZWEwYzhZX2swQk5jOVV2LXptLXZab0tUVUNkZHliVFVJYnNreTBDTkw0b25fa3c4NFBZOThFQUYyOTN3MmprcURGSFZyNGswU3BxS0k0UC1aQQ?oc=5",
     "source": "gnews_futures",
     "published_utc": "2026-11-05T12:54:02+00:00",
-    "score": 7.24,
+    "score": 7.2,
     "duplicates": 0
-   },
-   {
-    "id": "3b1dfd0014",
-    "title": "Inflation, tariffs and a voter revolt: The midterm verdict on Trump’s economy - AP News",
-    "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOQ21uZTBtcHVVa1pjcFN6eHhxWllCcEpzV2hpTmN6SWhMY3dqY2dpOWtxd0dtdGFPRV9RSUM1SEhrSDVHUHI3YmIwZzZucVoyZDd2V1hzNGJLT2w4OG5VRGpDRkNYbmJ4V2xadVlUVldoOUJ1THc2RVA0WkFtZmpaRDdWdG9iU3pZX285WkRhRi1MUF90UF9SekFzVjMyRzZNTmZoQmlEMVdmb3lHaUV2WTBZdFU?oc=5",
-    "source": "gnews_macro",
-    "published_utc": "2026-11-05T09:45:00+00:00",
-    "score": 7.22,
-    "duplicates": 2
    },
    {
     "id": "df754c55ef",
@@ -3043,8 +3092,17 @@
     "link": "https://www.cnbc.com/2026/11/05/interest-rates-inflation-uk.html",
     "source": "cnbc_markets",
     "published_utc": "2026-11-05T12:37:57+00:00",
-    "score": 7.2,
+    "score": 7.16,
     "duplicates": 1
+   },
+   {
+    "id": "969204a029",
+    "title": "An Anthropic IPO when the AI trade is this turbulent? Godspeed!",
+    "link": "https://www.marketwatch.com/story/an-anthropic-ipo-when-the-ai-trade-is-this-turbulent-godspeed-08ca0496?mod=mw_rss_topstories",
+    "source": "marketwatch_top",
+    "published_utc": "2026-11-05T12:16:00+00:00",
+    "score": 7.1,
+    "duplicates": 0
    }
   ],
   "summary": {
@@ -3052,7 +3110,7 @@
     "The Federal Reserve's Initial November Inflation Forecast Has Arrived, and Things Are Getting Downright Ugly for Wall Street - Yahoo Finance [0563238013]",
     "Chinese AI lab Moonshot turned to Europe for Nvidia Blackwell access amid U.S. China curbs, sources tell CNBC [6d33d9cbf6]",
     "Nasdaq Futures Slip as Chip Stocks Extend Slide; Earnings and Fed Speak on Tap - Barchart.com [4c6aea0644]",
-    "Fed's Hammack favors gradual rate-hike path to lower inflation - Reuters [ad4be6b1e7]",
+    "Fed's Hammack favors gradual rate-hike path to lower inflation - Kitco [68a936c2b1]",
     "Fed’s Hammack Says Restrictive Rates Needed to Cool Inflation - Bloomberg.com [6a1d5ee0f4]"
    ],
    "backend": "none",
