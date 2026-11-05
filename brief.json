@@ -1,7 +1,7 @@
 {
  "meta": {
-  "generated_at_utc": "2026-11-05T11:25:02.183281+00:00",
-  "generated_at_local": "Thu 05 Nov 2026 07:25 AST",
+  "generated_at_utc": "2026-11-05T11:40:20.966687+00:00",
+  "generated_at_local": "Thu 05 Nov 2026 07:40 AST",
   "trading_day": "2026-11-05",
   "display_tz": "America/Halifax",
   "version": "0.1.0",
@@ -127,7 +127,7 @@
    "time_utc": "2026-11-05T13:30:00+00:00",
    "local": "09:30 AST",
    "et": "08:30 ET",
-   "in": "2h 04m",
+   "in": "1h 49m",
    "consensus": "197K",
    "prior": "194K"
   },
@@ -138,10 +138,10 @@
   {
    "root": "ES",
    "trading_day": "2026-11-05",
-   "as_of_utc": "2026-11-05T11:25:02.183281+00:00",
+   "as_of_utc": "2026-11-05T11:40:20.966687+00:00",
    "source": "yahoo",
    "delayed": true,
-   "last_price": 7734.0,
+   "last_price": 7731.5,
    "levels": [
     {
      "tag": "exp_hi",
@@ -188,9 +188,9 @@
     {
      "tag": "onh",
      "label": "Overnight high",
-     "price": 7734.5,
+     "price": 7735.0,
      "group": "overnight",
-     "note": "since 18:00 ET, 721 bars"
+     "note": "since 18:00 ET, 737 bars"
     },
     {
      "tag": "poc",
@@ -223,7 +223,7 @@
     {
      "tag": "onvwap",
      "label": "Overnight VWAP",
-     "price": 7713.59,
+     "price": 7713.97,
      "group": "overnight",
      "note": "typical-price VWAP"
     },
@@ -285,14 +285,14 @@
     }
    ],
    "stats": {
-    "last_bar_utc": "2026-11-05T11:14:00+00:00",
-    "last_bar_age_min": 11.0,
+    "last_bar_utc": "2026-11-05T11:30:00+00:00",
+    "last_bar_age_min": 10.3,
     "market_state": "open",
     "profile_volume": 1614792.0,
     "prior_day": "2026-11-04",
     "prior_day_rth_range": 66.5,
-    "overnight_range": 43.5,
-    "gap_vs_prior_close": 12.25,
+    "overnight_range": 44.0,
+    "gap_vs_prior_close": 9.75,
     "gap_basis": "last price (pre-market)",
     "atr14": 108.86,
     "atr_days": 14,
@@ -1428,16 +1428,32 @@
      "l": 7730.0,
      "c": 7734.0,
      "v": 3855.0
+    },
+    {
+     "t": "2026-11-05T11:15:00+00:00",
+     "o": 7734.0,
+     "h": 7735.0,
+     "l": 7729.75,
+     "c": 7731.25,
+     "v": 4128.0
+    },
+    {
+     "t": "2026-11-05T11:30:00+00:00",
+     "o": 7731.25,
+     "h": 7732.0,
+     "l": 7731.25,
+     "c": 7731.5,
+     "v": 0.0
     }
    ]
   },
   {
    "root": "NQ",
    "trading_day": "2026-11-05",
-   "as_of_utc": "2026-11-05T11:25:02.183281+00:00",
+   "as_of_utc": "2026-11-05T11:40:20.966687+00:00",
    "source": "yahoo",
    "delayed": true,
-   "last_price": 28425.5,
+   "last_price": 28412.5,
    "levels": [
     {
      "tag": "pwh",
@@ -1486,7 +1502,7 @@
      "label": "Overnight high",
      "price": 28620.75,
      "group": "overnight",
-     "note": "since 18:00 ET, 722 bars"
+     "note": "since 18:00 ET, 737 bars"
     },
     {
      "tag": "pdc",
@@ -1540,7 +1556,7 @@
     {
      "tag": "onvwap",
      "label": "Overnight VWAP",
-     "price": 28353.04,
+     "price": 28353.84,
      "group": "overnight",
      "note": "typical-price VWAP"
     },
@@ -1581,14 +1597,14 @@
     }
    ],
    "stats": {
-    "last_bar_utc": "2026-11-05T11:15:00+00:00",
-    "last_bar_age_min": 10.0,
+    "last_bar_utc": "2026-11-05T11:30:00+00:00",
+    "last_bar_age_min": 10.3,
     "market_state": "open",
     "profile_volume": 601332.0,
     "prior_day": "2026-11-04",
     "prior_day_rth_range": 564.0,
     "overnight_range": 453.0,
-    "gap_vs_prior_close": -141.75,
+    "gap_vs_prior_close": -154.75,
     "gap_basis": "last price (pre-market)",
     "atr14": 740.91,
     "atr_days": 14,
@@ -2728,9 +2744,17 @@
     {
      "t": "2026-11-05T11:15:00+00:00",
      "o": 28425.25,
-     "h": 28426.25,
-     "l": 28417.5,
-     "c": 28425.5,
+     "h": 28433.75,
+     "l": 28388.75,
+     "c": 28406.25,
+     "v": 2040.0
+    },
+    {
+     "t": "2026-11-05T11:30:00+00:00",
+     "o": 28408.75,
+     "h": 28415.5,
+     "l": 28408.75,
+     "c": 28412.5,
      "v": 0.0
     }
    ]
@@ -2744,8 +2768,17 @@
     "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQVFVfQVktUmNubUdnTm5YYWNwa2s4ZzRLSWxpYnZDRDJIaklIQmdFUnNnX2tOQ2plOXlXeG9BcTVpQkw5dXJrdEQ5VEJWMy0wT0h1dF9HTkdmcUdOY1RsbEd5b19waDdacG13RnRWTmtNYk9pdWFOOGZTWGhmUzJ0Y1RVWUlucE5od2xRcDB0dWFBeVN0dV9ucHlrMmh4Y1ZwV3RwUy04RHBpdmda?oc=5",
     "source": "gnews_fed",
     "published_utc": "2026-11-05T09:26:01+00:00",
-    "score": 11.67,
+    "score": 11.63,
     "duplicates": 3
+   },
+   {
+    "id": "4c6aea0644",
+    "title": "Nasdaq Futures Slip as Chip Stocks Extend Slide; Earnings and Fed Speak on Tap - Barchart.com",
+    "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPaURpY2VwV0xyc3Z4bnVmcHlaRUpadWFHMkNObW5lRkwycnhnOC1Gb2gyMWV3al93alEtRjdQM1hUclpUYi1zcWRhVUtsSE4taTBoR0VvaFNMZlJQSHRVdzUzRzhwVnMxd1BXdnRyWXZzUmZrNkhLNHVQaGkwVXhEV0xDSUlqRmR4ZGdSZl9TSUs1djA4Q0ZIZ1l5T0hCZ0RQYmV0VVAxT0FCNjBKb1dUZlV4elhDRHN0MHFnQU9n?oc=5",
+    "source": "gnews_futures",
+    "published_utc": "2026-11-05T11:24:04+00:00",
+    "score": 9.95,
+    "duplicates": 0
    },
    {
     "id": "0d9c81ca79",
@@ -2753,7 +2786,7 @@
     "link": "https://www.marketwatch.com/story/dow-scores-its-best-day-in-18-months-in-a-broad-relief-rally-after-democrats-sweep-to-power-in-congress-d7348fc0?mod=mw_rss_topstories",
     "source": "marketwatch_top",
     "published_utc": "2026-11-05T08:13:00+00:00",
-    "score": 9.97,
+    "score": 9.92,
     "duplicates": 0
    },
    {
@@ -2762,7 +2795,7 @@
     "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxObTdYYmZaZmRqRUt0TDhBbERraDF2VlpSTDJ4M1NyZ2dRRkNUUVJ0OVFHdzJyc01uNDZOV2YzZFprbU90aUNzTEtYTEdNWU5Jc19VVVlHc24tNkZ2VFhqOWg3b0swVDFnY2hHaGxuNVZXVkE5S09xZXV2eGRQb1kwdWFEZWxpeGMybDZRcGtyWW52Q1JfaHY4MVo1YmJfRW9KZmNsdVJqS24zeGRZVUpaV3VB?oc=5",
     "source": "gnews_futures",
     "published_utc": "2026-11-05T11:02:31+00:00",
-    "score": 8.44,
+    "score": 8.39,
     "duplicates": 2
    },
    {
@@ -2771,8 +2804,8 @@
     "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOQ21uZTBtcHVVa1pjcFN6eHhxWllCcEpzV2hpTmN6SWhMY3dqY2dpOWtxd0dtdGFPRV9RSUM1SEhrSDVHUHI3YmIwZzZucVoyZDd2V1hzNGJLT2w4OG5VRGpDRkNYbmJ4V2xadVlUVldoOUJ1THc2RVA0WkFtZmpaRDdWdG9iU3pZX285WkRhRi1MUF90UF9SekFzVjMyRzZNTmZoQmlEMVdmb3lHaUV2WTBZdFU?oc=5",
     "source": "gnews_macro",
     "published_utc": "2026-11-05T09:45:00+00:00",
-    "score": 7.72,
-    "duplicates": 2
+    "score": 8.18,
+    "duplicates": 3
    },
    {
     "id": "1820673d2f",
@@ -2780,8 +2813,8 @@
     "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOQjYwRGNjTjBBYVNZUU5MS2F4NUZpMlhSZUVqYl96NjRLQ0NxU0w4NDR4bWJHemhILTV3dVZYOGg5V21VTFd5NldNd3gwYktZZncxWS1wQ3E4NmVIdlB6VEkwdWFEZTh6QWZHM1l2NFlpQUI3a0xWWHNPMmFfMDFxalVmUlZRLUQtaWhYSmJvX001di1IcjB2OVdabTZvSjl6VC1TWA?oc=5",
     "source": "gnews_macro",
     "published_utc": "2026-11-05T10:50:00+00:00",
-    "score": 7.4,
-    "duplicates": 0
+    "score": 7.86,
+    "duplicates": 1
    },
    {
     "id": "97896d2f44",
@@ -2789,7 +2822,7 @@
     "link": "https://news.google.com/rss/articles/CBMi_gFBVV95cUxNMEJMeHE2ZndzU2RKS2JrVHQxOXJuWHhjQUhMVlBZZlF2Q3V2Zkcwd2pRUkNSaFU2aUx5dlRBSkpfV0kzTWhVZGRiakpuSGU1bE5JSU9kcGd2WnJCRFhpNFRhZ2RZSU12Y3FTNFlOWGdKZDVMTUtqXzhRR29sb0JJYnBqVndaWjJvNmRjLTVkU19RUHRxdDd4NkFPbko1TTlHLUNyeVlLNHd4ZXBXRWJBMDFlczVHV3M2cERrR19BU1VsNFI2ZnJvellFSExtSTE3Q2x1ZDEweWV0SGZNZERGakx1eV90MXRlZW5zLW0yUWNET0JlZ1BFc3ZNeWNzdw?oc=5",
     "source": "gnews_macro",
     "published_utc": "2026-11-05T10:39:57+00:00",
-    "score": 7.37,
+    "score": 7.33,
     "duplicates": 3
    },
    {
@@ -2798,7 +2831,7 @@
     "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1LTlRuMndRTlYtMC1TUmoxbXVRb3p5b0ZMRnlyWVdlQ25zZ3I0R3MxUUNtSUtCdmFuQjQ0TW9fLXJhUEd5UUo4bWVlMWxIcXd1T1ZrU2hHaWVFblVnRGVtQ0YxcVlBTDg?oc=5",
     "source": "gnews_macro",
     "published_utc": "2026-11-05T10:10:00+00:00",
-    "score": 7.29,
+    "score": 7.25,
     "duplicates": 0
    },
    {
@@ -2807,16 +2840,7 @@
     "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPWXJzcWk4MlFxcUhTQV9qNEloN2tSdDQ5cFVYblN2TDhpdWR0V3JyWFhMZXFGT205aVpqa1Fwa0gwblEzUGRycHg2LVZSQ1FsN09EMWdSREU4OUdrQzVhOGhGellFNzV0cEFQX2gxTmNnZkhyMTZNR293REljWEtCUF83VDhyZ0VpbkEycVhuVTJwMWM2Q2RGWXRCbkxjbGtNSXpJT2tR?oc=5",
     "source": "gnews_futures",
     "published_utc": "2026-11-05T09:47:52+00:00",
-    "score": 7.23,
-    "duplicates": 0
-   },
-   {
-    "id": "8d6608ea62",
-    "title": "German yields slide to Aug lows as 20% weekly oil crash deflates inflation fears - Investing.com",
-    "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPMEZVNzlPN3d3cU5qNnh1UjEtZmNwQTRKY0pHajdtVl9ZbUFNcGs3TFpzeU80N09OWXRXaTF3V0RMaWdvMHRSTkh4elVPRHBJOFRWcnJ2Nk81MGtSRzlxYllwQmpFVE5Pd1BFWDJZV3RpbjFwcW1lNFdYckNzQjBKZXJ1RjRyRm14RGNyMFd1U2JMZFh1UGFvMk1tU2pLZ2hqeTR6UnctdHY5X1hHVXphZXBlSU95YUlOYjg2aDlESWRpRzlZNEUxZw?oc=5",
-    "source": "gnews_macro",
-    "published_utc": "2026-11-05T09:10:50+00:00",
-    "score": 7.13,
+    "score": 7.19,
     "duplicates": 0
    },
    {
@@ -2825,7 +2849,7 @@
     "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPYWZYVF80Z2F6VFlLTUlPUEgydktTWk5jNGJXUG1qTmxCV2hhb0JrZTBYRzZMU04zOGtZSGVlS244R2tQUjZ0YUUxXzdlR2JVZ3pWUmthNkdHT1daQ1NZYkgxRkE4NFVXVDNaaURkdmo2eWsyVHdCY2FWUVVWcjE3cmlPVGd4N1ZkTkJ1c2ZMd0FyblFfT3BnOXg3dEEyYUhSakcwUFNmX1BrZk9EOGM2U21XbV80T2NV?oc=5",
     "source": "gnews_macro",
     "published_utc": "2026-11-05T08:44:27+00:00",
-    "score": 7.05,
+    "score": 7.01,
     "duplicates": 0
    },
    {
@@ -2834,7 +2858,7 @@
     "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNNmZtcDBIVk9ycEgyUTViYWVpYzExcmdnbFBNUENtYTNveDdBVHQ0bm92R0REUWtqSHo3VVBoejJ1NVV6N1ljQ0VTczNYVUx6ckV5WW9wb0x1SUNGN0NxdUNqWFJfbDZWek5nTmNHV1hLUVJWQkZidGdhaDBFWnVRZnFqdV96alRZUVFjOUNpei1TV1hrMzJWTTlPS0JyOGlyRWtZaVBNdFhvYzQ5Snc?oc=5",
     "source": "gnews_macro",
     "published_utc": "2026-11-05T08:14:32+00:00",
-    "score": 6.97,
+    "score": 6.93,
     "duplicates": 0
    },
    {
@@ -2843,17 +2867,17 @@
     "link": "https://news.google.com/rss/articles/CBMikAJBVV95cUxOTW1zNFg1YURYLUZpMktMbENMenRsZ3hIRlFPV2NWMUItaTNQVEJfZzNVckpjdVB4bWtlLUR2eFlIbnNlVTcwSU5zUk9NWEw5a3EyZzN3MExQTmFHbjZPRHBZR3ZkMzdnQ2RrV2o5anZnTW1ZVXZTVjJBWXFQd3VwdGtaYldSMDA5M0twTWhTUmQ3RzFodFBRNnFmNXpQa2FPZXpUWmpIbUtoMXpzN0RWZUhpb0VzUHFTcmU5VUtmQndDcGJFWDVDVjc3RnRuV3Rta0d1S19jWXJxc09RVm1SdzdrM0x0QkZzcVdpR2xjZU1uOGV1RWpOQlByM1RoSGY4ejBROExOQWxzZUpBdVdFYQ?oc=5",
     "source": "gnews_macro",
     "published_utc": "2026-11-05T10:42:29+00:00",
-    "score": 6.88,
+    "score": 6.84,
     "duplicates": 0
    }
   ],
   "summary": {
    "lines": [
     "The Federal Reserve's Initial November Inflation Forecast Has Arrived, and Things Are Getting Downright Ugly for Wall Street - Yahoo Finance [0563238013]",
+    "Nasdaq Futures Slip as Chip Stocks Extend Slide; Earnings and Fed Speak on Tap - Barchart.com [4c6aea0644]",
     "Dow scores its best day in 18 months in a broad relief rally after Democrats sweep to power in Congress [0d9c81ca79]",
     "S&P 500 futures steady after midterm rally; Nasdaq lags on chip weakness - Reuters [290fe3a0c5]",
-    "Inflation, tariffs and a voter revolt: The midterm verdict on Trump’s economy - AP News [3b1dfd0014]",
-    "Friday's jobs report could be a tiebreaker for Wall Street's AI trade as inflation worries linger - Business Insider [1820673d2f]"
+    "Inflation, tariffs and a voter revolt: The midterm verdict on Trump’s economy - AP News [3b1dfd0014]"
    ],
    "backend": "none",
    "model": null,
