@@ -1,7 +1,7 @@
 {
  "meta": {
-  "generated_at_utc": "2026-11-05T15:58:01.630149+00:00",
-  "generated_at_local": "Thu 05 Nov 2026 11:58 AST",
+  "generated_at_utc": "2026-11-05T16:28:42.271619+00:00",
+  "generated_at_local": "Thu 05 Nov 2026 12:28 AST",
   "trading_day": "2026-11-05",
   "display_tz": "America/Halifax",
   "version": "0.1.0",
@@ -127,7 +127,7 @@
    "time_utc": "2026-11-06T13:30:00+00:00",
    "local": "09:30 AST",
    "et": "08:30 ET",
-   "in": "21h 31m",
+   "in": "21h 01m",
    "consensus": "0.3%",
    "prior": "0.1%"
   },
@@ -138,10 +138,10 @@
   {
    "root": "ES",
    "trading_day": "2026-11-05",
-   "as_of_utc": "2026-11-05T15:58:01.630149+00:00",
+   "as_of_utc": "2026-11-05T16:28:42.271619+00:00",
    "source": "yahoo",
    "delayed": true,
-   "last_price": 7472.25,
+   "last_price": 7494.75,
    "levels": [
     {
      "tag": "exp_hi",
@@ -277,24 +277,10 @@
      "note": "full 18:00→17:00 session"
     },
     {
-     "tag": "rn_minor_up",
-     "label": "Round 25 above",
+     "tag": "rn_minor_dn",
+     "label": "Round 25 below",
      "price": 7475.0,
      "group": "round",
-     "note": ""
-    },
-    {
-     "tag": "tdl",
-     "label": "Today's RTH low",
-     "price": 7470.5,
-     "group": "today",
-     "note": ""
-    },
-    {
-     "tag": "wl",
-     "label": "Week low",
-     "price": 7470.5,
-     "group": "week",
      "note": ""
     },
     {
@@ -303,11 +289,25 @@
      "price": 7450.0,
      "group": "round",
      "note": ""
+    },
+    {
+     "tag": "tdl",
+     "label": "Today's RTH low",
+     "price": 7421.0,
+     "group": "today",
+     "note": ""
+    },
+    {
+     "tag": "wl",
+     "label": "Week low",
+     "price": 7421.0,
+     "group": "week",
+     "note": ""
     }
    ],
    "stats": {
-    "last_bar_utc": "2026-11-05T15:48:00+00:00",
-    "last_bar_age_min": 10.0,
+    "last_bar_utc": "2026-11-05T16:18:00+00:00",
+    "last_bar_age_min": 10.7,
     "market_state": "open",
     "profile_volume": 1614792.0,
     "prior_day": "2026-11-04",
@@ -1598,19 +1598,35 @@
      "t": "2026-11-05T15:45:00+00:00",
      "o": 7500.25,
      "h": 7502.0,
-     "l": 7470.5,
-     "c": 7472.25,
-     "v": 38325.0
+     "l": 7421.0,
+     "c": 7470.0,
+     "v": 214802.0
+    },
+    {
+     "t": "2026-11-05T16:00:00+00:00",
+     "o": 7469.75,
+     "h": 7498.0,
+     "l": 7440.0,
+     "c": 7494.0,
+     "v": 166418.0
+    },
+    {
+     "t": "2026-11-05T16:15:00+00:00",
+     "o": 7493.75,
+     "h": 7502.5,
+     "l": 7474.5,
+     "c": 7494.75,
+     "v": 31257.0
     }
    ]
   },
   {
    "root": "NQ",
    "trading_day": "2026-11-05",
-   "as_of_utc": "2026-11-05T15:58:01.630149+00:00",
+   "as_of_utc": "2026-11-05T16:28:42.271619+00:00",
    "source": "yahoo",
    "delayed": true,
-   "last_price": 27013.0,
+   "last_price": 27231.75,
    "levels": [
     {
      "tag": "pwh",
@@ -1741,42 +1757,42 @@
     {
      "tag": "rn_major_up",
      "label": "Round 100 above",
-     "price": 27100.0,
+     "price": 27300.0,
      "group": "round",
      "note": ""
     },
     {
      "tag": "rn_minor_up",
      "label": "Round 50 above",
-     "price": 27050.0,
+     "price": 27250.0,
      "group": "round",
      "note": ""
     },
     {
      "tag": "rn_major_dn",
      "label": "Round 100 below",
-     "price": 27000.0,
+     "price": 27200.0,
      "group": "round",
      "note": ""
     },
     {
      "tag": "tdl",
      "label": "Today's RTH low",
-     "price": 26990.25,
+     "price": 26732.0,
      "group": "today",
      "note": ""
     },
     {
      "tag": "wl",
      "label": "Week low",
-     "price": 26990.25,
+     "price": 26732.0,
      "group": "week",
      "note": ""
     }
    ],
    "stats": {
-    "last_bar_utc": "2026-11-05T15:48:00+00:00",
-    "last_bar_age_min": 10.0,
+    "last_bar_utc": "2026-11-05T16:18:00+00:00",
+    "last_bar_age_min": 10.7,
     "market_state": "open",
     "profile_volume": 601332.0,
     "prior_day": "2026-11-04",
@@ -3067,9 +3083,25 @@
      "t": "2026-11-05T15:45:00+00:00",
      "o": 27139.5,
      "h": 27142.75,
-     "l": 26990.25,
-     "c": 27013.0,
-     "v": 12842.0
+     "l": 26732.0,
+     "c": 26979.75,
+     "v": 74228.0
+    },
+    {
+     "t": "2026-11-05T16:00:00+00:00",
+     "o": 26974.25,
+     "h": 27185.0,
+     "l": 26839.5,
+     "c": 27168.0,
+     "v": 64887.0
+    },
+    {
+     "t": "2026-11-05T16:15:00+00:00",
+     "o": 27170.5,
+     "h": 27258.75,
+     "l": 27110.0,
+     "c": 27231.75,
+     "v": 11387.0
     }
    ]
   }
@@ -3082,7 +3114,7 @@
     "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQVFVfQVktUmNubUdnTm5YYWNwa2s4ZzRLSWxpYnZDRDJIaklIQmdFUnNnX2tOQ2plOXlXeG9BcTVpQkw5dXJrdEQ5VEJWMy0wT0h1dF9HTkdmcUdOY1RsbEd5b19waDdacG13RnRWTmtNYk9pdWFOOGZTWGhmUzJ0Y1RVWUlucE5od2xRcDB0dWFBeVN0dV9ucHlrMmh4Y1ZwV3RwUy04RHBpdmda?oc=5",
     "source": "gnews_fed",
     "published_utc": "2026-11-05T09:26:01+00:00",
-    "score": 10.91,
+    "score": 10.83,
     "duplicates": 3
    },
    {
@@ -3091,7 +3123,7 @@
     "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPaURpY2VwV0xyc3Z4bnVmcHlaRUpadWFHMkNObW5lRkwycnhnOC1Gb2gyMWV3al93alEtRjdQM1hUclpUYi1zcWRhVUtsSE4taTBoR0VvaFNMZlJQSHRVdzUzRzhwVnMxd1BXdnRyWXZzUmZrNkhLNHVQaGkwVXhEV0xDSUlqRmR4ZGdSZl9TSUs1djA4Q0ZIZ1l5T0hCZ0RQYmV0VVAxT0FCNjBKb1dUZlV4elhDRHN0MHFnQU9n?oc=5",
     "source": "gnews_futures",
     "published_utc": "2026-11-05T11:24:04+00:00",
-    "score": 10.74,
+    "score": 10.65,
     "duplicates": 0
    },
    {
@@ -3100,7 +3132,7 @@
     "link": "https://www.cnbc.com/2026/11/05/moonshot-ai-nvidia-chips-europe-china.html",
     "source": "cnbc_markets",
     "published_utc": "2026-11-05T13:34:14+00:00",
-    "score": 9.6,
+    "score": 9.52,
     "duplicates": 0
    },
    {
@@ -3109,25 +3141,34 @@
     "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNVkQ0Vks1ZHdTRXJOeU53bDYway1uOWc1eXJJR204QVRleDNaeVhCS3N5TG1ucVE0c012a1pTSWVGbjBSRllEQlNPbkU4V1dSZ3NYa1JTUzNBaFlwYUQxa1h0WHZTb3pMZUx6ZmZCXzJJSzhEY3kzWjJhTlZPQ1puMFpaRmJpSmVzcF9sZFJMYlpubFg0bEk1YmcwSVdRbzFJcmRj?oc=5",
     "source": "gnews_macro",
     "published_utc": "2026-11-05T14:16:02+00:00",
-    "score": 8.72,
+    "score": 8.63,
     "duplicates": 3
    },
    {
-    "id": "09ce28d7b9",
-    "title": "Cleveland Fed president says restrictive rates are needed to cool inflation - Quartz",
-    "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTFBZWVE3ZGF6RGxtWS1fanNNM3RXNG56QTRYOTFnN0VBbF8zaUFLYUdXZ1pCQmZGM2dPeXJRRE5Odml0UUx5WTNsTWp6VExZWWI1ZFJVaTl2bzlUdjdtT3ItS3FCSjNlWldzcmd4RDVBUUVUY3I4X0IxVXZxTQ?oc=5",
-    "source": "gnews_macro",
-    "published_utc": "2026-11-05T15:42:12+00:00",
-    "score": 8.46,
+    "id": "6a1d5ee0f4",
+    "title": "Fed’s Hammack Says Restrictive Rates Needed to Cool Inflation - Bloomberg.com",
+    "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPU2c2UERBM24tYnJsM3UxR3pvTG9mYmZNZ0dDN3k4OHp6SUl3aUxKRXZkNlJVeFU4dTFoS1NtSHBZN0xIVG1GRnBNNmxxWU9MWUNWNmhkZXZPT1A5ZHN2RHZRWS1tMmtZV1BzSDJLLWpERnFoZTVLNDFsdWVlaENTdE5UZVZDanpTbTFtNDQ5WHJJYWt1Y0hGNnd5eEhXaVplZWJNcXFXVHpIMXVqa0c5Z2tn?oc=5",
+    "source": "gnews_fed",
+    "published_utc": "2026-11-05T15:41:26+00:00",
+    "score": 8.37,
     "duplicates": 2
    },
    {
-    "id": "221605b554",
-    "title": "The Fed’s New Inflation Warning Will Add Thousands to Families’ Already Soaring Bills - Yahoo Finance",
-    "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPTnZBYi1jTkFEb0QzYnJPVE00ZTkzYnRnMmg1VnRGTVUzaEJ4OGFzUzY0X0gxMHE1WjVJRTZYZnZhbHhXdUJkNHJDNy16RGFwQkpaTVBGaGZXZzlPb0k4d2xCbDF0UkdDbTduZzFwTEV4QTJTOTB3X3R5cXlsVUFTenk3dE82ZUo4Y0dwaEtlbTVlTm1ra0Qxaw?oc=5",
-    "source": "gnews_macro",
-    "published_utc": "2026-11-05T14:55:31+00:00",
-    "score": 7.83,
+    "id": "7ff994dfa9",
+    "title": "Federal Reserve Board announces termination of enforcement action with Allegiant United Holdings, LLC, Nano Financial Holdings, Inc., and Nano Banc",
+    "link": "https://www.federalreserve.gov/newsevents/pressreleases/enforcement20261105a.htm",
+    "source": "fed_press",
+    "published_utc": "2026-11-05T16:00:00+00:00",
+    "score": 7.92,
+    "duplicates": 0
+   },
+   {
+    "id": "c82c26ee87",
+    "title": "The Fed’s New Inflation Warning Will Add Thousands to Families’ Already Soaring Bills - 24/7 Wall St.",
+    "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNTDlqOEZOTkV6b2ZsWGNHMmlNU1R1WWdhVVRfN1Rud3NJb0lWV1BsVnpwMm9GS3RnX21nSlFqVGRoWFdBelVyWHNEaGhmQTBzdHlDN0VPS2FudHZYZkRhdG56UHBtLXEwaHY4dVJIaTVfMmRVeERKWjgwbHp4M3M2RGZzZDBuLUpoTEtDcVdHZ0NZVXRkRXl3OEJRQkNkRWV6SWQxcWM1SG9EOEFUVWVwY2c1QkNKV0RBNnMxbDBYelpvVy1XWFE?oc=5",
+    "source": "gnews_fed",
+    "published_utc": "2026-11-05T14:55:00+00:00",
+    "score": 7.74,
     "duplicates": 1
    },
    {
@@ -3136,17 +3177,8 @@
     "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNODVkZm1EOGNScjI3OEJYdXdIVEVMUWZ5U3hKOHZTVXJhUXJUQnZ5bXpzb0F2Y0pRcmt0WHZCOFhUYUVKTURISndQeWtkeHZLbnlSU1JLNGFQQXE0WUs4VG5Mc3hheU9CZFdIYTBJQjR1UmtXRkpxakZJZndTcTNteUJwYVlfMW5pUmIxMmFQNkUzeGdiOWJYMXhTTlVQNHdSMXZrT21kSzJvY0xDVEl6cWxzS1gtaE56QWEyX2xidm1Tdw?oc=5",
     "source": "gnews_futures",
     "published_utc": "2026-11-05T14:45:24+00:00",
-    "score": 7.8,
+    "score": 7.71,
     "duplicates": 1
-   },
-   {
-    "id": "dcd70e266d",
-    "title": "Inflation, tariffs and a voter revolt: The midterm verdict on Trump's economy - TelegraphHerald.com",
-    "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOcjVHX1lZUzh3YWlVemF4QWlKN250SVB4dko4Wl93aFJyZm9CZmx4NWl4MHYwdXRhZGp5cC1qdlpsWG1FbWNDX3hXTnFsYmpZNXZWSFNzMXlXeWdIcDdVZ3dNcy05MjNGYzVkN25Oem5MaF9KZl8tSXhza1VVRjdXUURsYkRoR3pNYU1tbHBEaHN0RmZyNjVsSA?oc=5",
-    "source": "gnews_macro",
-    "published_utc": "2026-11-05T14:45:00+00:00",
-    "score": 7.8,
-    "duplicates": 2
    },
    {
     "id": "388a45633e",
@@ -3154,34 +3186,34 @@
     "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQWEo3Tnc2TVpIclcxclZHZ2JwLTJBbUJweUhjcE1FZHNvcVpTbzMtdkF2VXBDbUhtZHpoLTFlQ2QwMkNjaTBCYzdxQjlaQWR2UWlNRnItZ2JjT1hHWDZYQU5NWUZLTkRhVjhFZ19NTk5fWXJuMGZIQmkwVk5aSFBPOWpHZ2FDOEZBdjE0dzZUZWZYQ3FXdGt5bHBQUmNiSWZoem90WmxUazIzQzR0aHVHN0VSdjdPMnYyRk1GRGZJb1lIZw?oc=5",
     "source": "gnews_fed",
     "published_utc": "2026-11-05T13:50:45+00:00",
-    "score": 7.65,
+    "score": 7.56,
     "duplicates": 1
    },
    {
-    "id": "a8d15957e3",
-    "title": "Fed’s Hammack backs restrictive rates, cites persistent inflation pressures - Investing.com",
-    "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQXzdHUi14VGZBZ2lTVzBaSG5nUHVlRFhyNGYtcEd0UFFYOFRvMXRUdWJPcjFrQUUtczBreDlicmpHR3NmRGpmR1pLUzJlaWVPQjNhRmxxQUFiYjdvdmV5eHdtXzllMDN2UlBwaDVDX3RzRzk5X0Q2SmJXSXp5ekJIQzJGNFZqVVhVdnZVRlk3aHFqYXFGSi1CQTRpUFhvY0daNGNMNXJrSzE4TmxwaVZoTnZXSk9lclpRQzFjejJMTVo0UzA?oc=5",
-    "source": "gnews_macro",
-    "published_utc": "2026-11-05T15:10:55+00:00",
-    "score": 7.37,
+    "id": "df754c55ef",
+    "title": "Bank of England hikes interest rate for the first time since Iran war, warns inflation will near 5%",
+    "link": "https://www.cnbc.com/2026/11/05/interest-rates-inflation-uk.html",
+    "source": "cnbc_markets",
+    "published_utc": "2026-11-05T16:01:47+00:00",
+    "score": 7.43,
+    "duplicates": 1
+   },
+   {
+    "id": "969204a029",
+    "title": "An Anthropic IPO when the AI trade is this turbulent? Goodspeed!",
+    "link": "https://www.marketwatch.com/story/an-anthropic-ipo-when-the-ai-trade-is-this-turbulent-godspeed-08ca0496?mod=mw_rss_topstories",
+    "source": "marketwatch_top",
+    "published_utc": "2026-11-05T16:00:00+00:00",
+    "score": 7.42,
     "duplicates": 0
    },
    {
-    "id": "06d874c202",
-    "title": "US Stock Futures Mixed as Investors Assess Election Results and Await October Jobs Report: Dow Jones, S&P, Nasdaq, Wall Street - Yahoo Finance",
-    "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxQc0NiZllqbTF2T0ZNcjE3X085cWZyZHB3VU56M1MxdXBXT1FBd1JwYVVOU0k3VEpKaFZwRjY3VlVUcTVaMVFJU2Z4REtMYlpSWE5NUlZodFA4QnBSa2c1V042aEFoV0NrdEhvekk3c2N0TlA2THVmaktHNFZqMTJwX1RXdnVvYnRFS0xFWmVGNGFGRFhrazFQWFIyZUVxQQ?oc=5",
+    "id": "c9c76d31c7",
+    "title": "US Stock Futures Diverge as Chip Selloff Extends Into Second Day - Bloomberg.com",
+    "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPSGhDSzhCYkhQQlg2TDJ4OHFfREQ1bEFUWjlmUlYwLXNSS3dCbjh1YWJ3d21xcEJabjhkMWZyR05XQUItd2pFaEtzNDBrOFZ0eVhrb0xId2J6R2NSbjRFbUlKQ2ZTZWEwYzhZX2swQk5jOVV2LXptLXZab0tUVUNkZHliVFVJYnNreTBDTkw0b25fa3c4NFBZOThFQUYyOTN3MmprcURGSFZyNGswU3BxS0k0UC1aQQ?oc=5",
     "source": "gnews_futures",
-    "published_utc": "2026-11-05T14:17:40+00:00",
-    "score": 7.22,
-    "duplicates": 0
-   },
-   {
-    "id": "70dc84f9fd",
-    "title": "Federal Reserve backs gradual rate increases as inflation stays above target - Traders Union",
-    "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOTDA1MjVIZU9ULVM2Smc2ck04ZndfbnE4NU1aeHQ0LUxuajJNTzdjZDRtYWpqcHNydjFlSUltRkFqc3JsTHE4MXVQWVdzaW9LWDRTU1NOUHlHWGh3Sjk5NzY0am9QT1RLR2ZYLWp6U3RJVmtTLUN6SFV2SWxTSi1ySUNDVXVCeW9KWVoxaC1UWTVVbUtYUFk5eUxMQQ?oc=5",
-    "source": "gnews_fed",
-    "published_utc": "2026-11-05T14:13:34+00:00",
-    "score": 7.21,
+    "published_utc": "2026-11-05T15:53:04+00:00",
+    "score": 7.4,
     "duplicates": 0
    }
   ],
@@ -3191,7 +3223,7 @@
     "Nasdaq Futures Slip as Chip Selloff Rages On; Earnings and Fed Speak on Tap - Barchart.com [4c6aea0644]",
     "Chinese AI lab Moonshot turned to Europe for Nvidia Blackwell access amid U.S. China curbs, sources tell CNBC [6d33d9cbf6]",
     "Fed’s Hammack favors gradual rate-hike path to lower inflation - 93.3 The Drive [cc248edaef]",
-    "Cleveland Fed president says restrictive rates are needed to cool inflation - Quartz [09ce28d7b9]"
+    "Fed’s Hammack Says Restrictive Rates Needed to Cool Inflation - Bloomberg.com [6a1d5ee0f4]"
    ],
    "backend": "none",
    "model": null,
