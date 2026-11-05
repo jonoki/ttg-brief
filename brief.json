@@ -1,7 +1,7 @@
 {
  "meta": {
-  "generated_at_utc": "2026-11-05T15:42:43.388666+00:00",
-  "generated_at_local": "Thu 05 Nov 2026 11:42 AST",
+  "generated_at_utc": "2026-11-05T15:58:01.630149+00:00",
+  "generated_at_local": "Thu 05 Nov 2026 11:58 AST",
   "trading_day": "2026-11-05",
   "display_tz": "America/Halifax",
   "version": "0.1.0",
@@ -127,7 +127,7 @@
    "time_utc": "2026-11-06T13:30:00+00:00",
    "local": "09:30 AST",
    "et": "08:30 ET",
-   "in": "21h 47m",
+   "in": "21h 31m",
    "consensus": "0.3%",
    "prior": "0.1%"
   },
@@ -138,10 +138,10 @@
   {
    "root": "ES",
    "trading_day": "2026-11-05",
-   "as_of_utc": "2026-11-05T15:42:43.388666+00:00",
+   "as_of_utc": "2026-11-05T15:58:01.630149+00:00",
    "source": "yahoo",
    "delayed": true,
-   "last_price": 7532.25,
+   "last_price": 7472.25,
    "levels": [
     {
      "tag": "exp_hi",
@@ -265,29 +265,8 @@
     {
      "tag": "rn_major_up",
      "label": "Round 50 above",
-     "price": 7550.0,
-     "group": "round",
-     "note": ""
-    },
-    {
-     "tag": "rn_minor_dn",
-     "label": "Round 25 below",
-     "price": 7525.0,
-     "group": "round",
-     "note": ""
-    },
-    {
-     "tag": "rn_major_dn",
-     "label": "Round 50 below",
      "price": 7500.0,
      "group": "round",
-     "note": ""
-    },
-    {
-     "tag": "tdl",
-     "label": "Today's RTH low",
-     "price": 7498.0,
-     "group": "today",
      "note": ""
     },
     {
@@ -298,16 +277,37 @@
      "note": "full 18:00→17:00 session"
     },
     {
+     "tag": "rn_minor_up",
+     "label": "Round 25 above",
+     "price": 7475.0,
+     "group": "round",
+     "note": ""
+    },
+    {
+     "tag": "tdl",
+     "label": "Today's RTH low",
+     "price": 7470.5,
+     "group": "today",
+     "note": ""
+    },
+    {
      "tag": "wl",
      "label": "Week low",
-     "price": 7490.0,
+     "price": 7470.5,
      "group": "week",
+     "note": ""
+    },
+    {
+     "tag": "rn_major_dn",
+     "label": "Round 50 below",
+     "price": 7450.0,
+     "group": "round",
      "note": ""
     }
    ],
    "stats": {
-    "last_bar_utc": "2026-11-05T15:32:00+00:00",
-    "last_bar_age_min": 10.7,
+    "last_bar_utc": "2026-11-05T15:48:00+00:00",
+    "last_bar_age_min": 10.0,
     "market_state": "open",
     "profile_volume": 1614792.0,
     "prior_day": "2026-11-04",
@@ -1590,19 +1590,27 @@
      "t": "2026-11-05T15:30:00+00:00",
      "o": 7524.25,
      "h": 7538.75,
-     "l": 7517.5,
-     "c": 7532.25,
-     "v": 33179.0
+     "l": 7494.0,
+     "c": 7500.25,
+     "v": 187682.0
+    },
+    {
+     "t": "2026-11-05T15:45:00+00:00",
+     "o": 7500.25,
+     "h": 7502.0,
+     "l": 7470.5,
+     "c": 7472.25,
+     "v": 38325.0
     }
    ]
   },
   {
    "root": "NQ",
    "trading_day": "2026-11-05",
-   "as_of_utc": "2026-11-05T15:42:43.388666+00:00",
+   "as_of_utc": "2026-11-05T15:58:01.630149+00:00",
    "source": "yahoo",
    "delayed": true,
-   "last_price": 27275.75,
+   "last_price": 27013.0,
    "levels": [
     {
      "tag": "pwh",
@@ -1733,42 +1741,42 @@
     {
      "tag": "rn_major_up",
      "label": "Round 100 above",
-     "price": 27300.0,
+     "price": 27100.0,
      "group": "round",
      "note": ""
     },
     {
-     "tag": "rn_minor_dn",
-     "label": "Round 50 below",
-     "price": 27250.0,
+     "tag": "rn_minor_up",
+     "label": "Round 50 above",
+     "price": 27050.0,
      "group": "round",
      "note": ""
     },
     {
      "tag": "rn_major_dn",
      "label": "Round 100 below",
-     "price": 27200.0,
+     "price": 27000.0,
      "group": "round",
      "note": ""
     },
     {
      "tag": "tdl",
      "label": "Today's RTH low",
-     "price": 27085.5,
+     "price": 26990.25,
      "group": "today",
      "note": ""
     },
     {
      "tag": "wl",
      "label": "Week low",
-     "price": 27085.5,
+     "price": 26990.25,
      "group": "week",
      "note": ""
     }
    ],
    "stats": {
-    "last_bar_utc": "2026-11-05T15:32:00+00:00",
-    "last_bar_age_min": 10.7,
+    "last_bar_utc": "2026-11-05T15:48:00+00:00",
+    "last_bar_age_min": 10.0,
     "market_state": "open",
     "profile_volume": 601332.0,
     "prior_day": "2026-11-04",
@@ -3050,10 +3058,18 @@
     {
      "t": "2026-11-05T15:30:00+00:00",
      "o": 27225.75,
-     "h": 27314.0,
-     "l": 27177.75,
-     "c": 27275.75,
-     "v": 11277.0
+     "h": 27326.75,
+     "l": 27101.25,
+     "c": 27138.25,
+     "v": 64896.0
+    },
+    {
+     "t": "2026-11-05T15:45:00+00:00",
+     "o": 27139.5,
+     "h": 27142.75,
+     "l": 26990.25,
+     "c": 27013.0,
+     "v": 12842.0
     }
    ]
   }
@@ -3066,7 +3082,7 @@
     "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQVFVfQVktUmNubUdnTm5YYWNwa2s4ZzRLSWxpYnZDRDJIaklIQmdFUnNnX2tOQ2plOXlXeG9BcTVpQkw5dXJrdEQ5VEJWMy0wT0h1dF9HTkdmcUdOY1RsbEd5b19waDdacG13RnRWTmtNYk9pdWFOOGZTWGhmUzJ0Y1RVWUlucE5od2xRcDB0dWFBeVN0dV9ucHlrMmh4Y1ZwV3RwUy04RHBpdmda?oc=5",
     "source": "gnews_fed",
     "published_utc": "2026-11-05T09:26:01+00:00",
-    "score": 10.95,
+    "score": 10.91,
     "duplicates": 3
    },
    {
@@ -3075,7 +3091,7 @@
     "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPaURpY2VwV0xyc3Z4bnVmcHlaRUpadWFHMkNObW5lRkwycnhnOC1Gb2gyMWV3al93alEtRjdQM1hUclpUYi1zcWRhVUtsSE4taTBoR0VvaFNMZlJQSHRVdzUzRzhwVnMxd1BXdnRyWXZzUmZrNkhLNHVQaGkwVXhEV0xDSUlqRmR4ZGdSZl9TSUs1djA4Q0ZIZ1l5T0hCZ0RQYmV0VVAxT0FCNjBKb1dUZlV4elhDRHN0MHFnQU9n?oc=5",
     "source": "gnews_futures",
     "published_utc": "2026-11-05T11:24:04+00:00",
-    "score": 10.78,
+    "score": 10.74,
     "duplicates": 0
    },
    {
@@ -3084,7 +3100,7 @@
     "link": "https://www.cnbc.com/2026/11/05/moonshot-ai-nvidia-chips-europe-china.html",
     "source": "cnbc_markets",
     "published_utc": "2026-11-05T13:34:14+00:00",
-    "score": 9.64,
+    "score": 9.6,
     "duplicates": 0
    },
    {
@@ -3093,25 +3109,25 @@
     "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNVkQ0Vks1ZHdTRXJOeU53bDYway1uOWc1eXJJR204QVRleDNaeVhCS3N5TG1ucVE0c012a1pTSWVGbjBSRllEQlNPbkU4V1dSZ3NYa1JTUzNBaFlwYUQxa1h0WHZTb3pMZUx6ZmZCXzJJSzhEY3kzWjJhTlZPQ1puMFpaRmJpSmVzcF9sZFJMYlpubFg0bEk1YmcwSVdRbzFJcmRj?oc=5",
     "source": "gnews_macro",
     "published_utc": "2026-11-05T14:16:02+00:00",
-    "score": 8.76,
+    "score": 8.72,
     "duplicates": 3
    },
    {
-    "id": "c82c26ee87",
-    "title": "The Fed’s New Inflation Warning Will Add Thousands to Families’ Already Soaring Bills - 24/7 Wall St.",
-    "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNTDlqOEZOTkV6b2ZsWGNHMmlNU1R1WWdhVVRfN1Rud3NJb0lWV1BsVnpwMm9GS3RnX21nSlFqVGRoWFdBelVyWHNEaGhmQTBzdHlDN0VPS2FudHZYZkRhdG56UHBtLXEwaHY4dVJIaTVfMmRVeERKWjgwbHp4M3M2RGZzZDBuLUpoTEtDcVdHZ0NZVXRkRXl3OEJRQkNkRWV6SWQxcWM1SG9EOEFUVWVwY2c1QkNKV0RBNnMxbDBYelpvVy1XWFE?oc=5",
-    "source": "gnews_fed",
-    "published_utc": "2026-11-05T14:55:00+00:00",
-    "score": 7.87,
-    "duplicates": 1
+    "id": "09ce28d7b9",
+    "title": "Cleveland Fed president says restrictive rates are needed to cool inflation - Quartz",
+    "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTFBZWVE3ZGF6RGxtWS1fanNNM3RXNG56QTRYOTFnN0VBbF8zaUFLYUdXZ1pCQmZGM2dPeXJRRE5Odml0UUx5WTNsTWp6VExZWWI1ZFJVaTl2bzlUdjdtT3ItS3FCSjNlWldzcmd4RDVBUUVUY3I4X0IxVXZxTQ?oc=5",
+    "source": "gnews_macro",
+    "published_utc": "2026-11-05T15:42:12+00:00",
+    "score": 8.46,
+    "duplicates": 2
    },
    {
-    "id": "6a1d5ee0f4",
-    "title": "Fed’s Hammack Says Restrictive Rates Needed to Cool Inflation - Bloomberg.com",
-    "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPU2c2UERBM24tYnJsM3UxR3pvTG9mYmZNZ0dDN3k4OHp6SUl3aUxKRXZkNlJVeFU4dTFoS1NtSHBZN0xIVG1GRnBNNmxxWU9MWUNWNmhkZXZPT1A5ZHN2RHZRWS1tMmtZV1BzSDJLLWpERnFoZTVLNDFsdWVlaENTdE5UZVZDanpTbTFtNDQ5WHJJYWt1Y0hGNnd5eEhXaVplZWJNcXFXVHpIMXVqa0c5Z2tn?oc=5",
-    "source": "gnews_fed",
-    "published_utc": "2026-11-05T14:43:40+00:00",
-    "score": 7.84,
+    "id": "221605b554",
+    "title": "The Fed’s New Inflation Warning Will Add Thousands to Families’ Already Soaring Bills - Yahoo Finance",
+    "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPTnZBYi1jTkFEb0QzYnJPVE00ZTkzYnRnMmg1VnRGTVUzaEJ4OGFzUzY0X0gxMHE1WjVJRTZYZnZhbHhXdUJkNHJDNy16RGFwQkpaTVBGaGZXZzlPb0k4d2xCbDF0UkdDbTduZzFwTEV4QTJTOTB3X3R5cXlsVUFTenk3dE82ZUo4Y0dwaEtlbTVlTm1ra0Qxaw?oc=5",
+    "source": "gnews_macro",
+    "published_utc": "2026-11-05T14:55:31+00:00",
+    "score": 7.83,
     "duplicates": 1
    },
    {
@@ -3120,7 +3136,7 @@
     "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNODVkZm1EOGNScjI3OEJYdXdIVEVMUWZ5U3hKOHZTVXJhUXJUQnZ5bXpzb0F2Y0pRcmt0WHZCOFhUYUVKTURISndQeWtkeHZLbnlSU1JLNGFQQXE0WUs4VG5Mc3hheU9CZFdIYTBJQjR1UmtXRkpxakZJZndTcTNteUJwYVlfMW5pUmIxMmFQNkUzeGdiOWJYMXhTTlVQNHdSMXZrT21kSzJvY0xDVEl6cWxzS1gtaE56QWEyX2xidm1Tdw?oc=5",
     "source": "gnews_futures",
     "published_utc": "2026-11-05T14:45:24+00:00",
-    "score": 7.84,
+    "score": 7.8,
     "duplicates": 1
    },
    {
@@ -3129,7 +3145,7 @@
     "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOcjVHX1lZUzh3YWlVemF4QWlKN250SVB4dko4Wl93aFJyZm9CZmx4NWl4MHYwdXRhZGp5cC1qdlpsWG1FbWNDX3hXTnFsYmpZNXZWSFNzMXlXeWdIcDdVZ3dNcy05MjNGYzVkN25Oem5MaF9KZl8tSXhza1VVRjdXUURsYkRoR3pNYU1tbHBEaHN0RmZyNjVsSA?oc=5",
     "source": "gnews_macro",
     "published_utc": "2026-11-05T14:45:00+00:00",
-    "score": 7.84,
+    "score": 7.8,
     "duplicates": 2
    },
    {
@@ -3138,7 +3154,7 @@
     "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQWEo3Tnc2TVpIclcxclZHZ2JwLTJBbUJweUhjcE1FZHNvcVpTbzMtdkF2VXBDbUhtZHpoLTFlQ2QwMkNjaTBCYzdxQjlaQWR2UWlNRnItZ2JjT1hHWDZYQU5NWUZLTkRhVjhFZ19NTk5fWXJuMGZIQmkwVk5aSFBPOWpHZ2FDOEZBdjE0dzZUZWZYQ3FXdGt5bHBQUmNiSWZoem90WmxUazIzQzR0aHVHN0VSdjdPMnYyRk1GRGZJb1lIZw?oc=5",
     "source": "gnews_fed",
     "published_utc": "2026-11-05T13:50:45+00:00",
-    "score": 7.69,
+    "score": 7.65,
     "duplicates": 1
    },
    {
@@ -3147,16 +3163,7 @@
     "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQXzdHUi14VGZBZ2lTVzBaSG5nUHVlRFhyNGYtcEd0UFFYOFRvMXRUdWJPcjFrQUUtczBreDlicmpHR3NmRGpmR1pLUzJlaWVPQjNhRmxxQUFiYjdvdmV5eHdtXzllMDN2UlBwaDVDX3RzRzk5X0Q2SmJXSXp5ekJIQzJGNFZqVVhVdnZVRlk3aHFqYXFGSi1CQTRpUFhvY0daNGNMNXJrSzE4TmxwaVZoTnZXSk9lclpRQzFjejJMTVo0UzA?oc=5",
     "source": "gnews_macro",
     "published_utc": "2026-11-05T15:10:55+00:00",
-    "score": 7.41,
-    "duplicates": 0
-   },
-   {
-    "id": "8a945cc6fe",
-    "title": "Fed's Hammack Repeats Call for Small Rate Increases to Curb Inflation - marketscreener.com",
-    "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPejJENnpxVldCamdPNmtHM1BHdFg4SXpERE43ZXBoRUk0bTBfODRiV1NUcWU4d2ZCY1hMWDNfREYzUnpQZjJ6ZnRDMjN5Z0ttTVlhNXJWWEtQN3BRQmlWdk9mMmkwaWZQbkdwWFhHWU9SZFJLU2lnZTFXc3VpMzNKUGZUdVRwNUZ1SUpxY01KOTJyMUpydGZHY25KSWtTUXZSaGY3ejZoQUhzQVEyd2pkVUhNZ2hMMHRKY1pjOTNGZw?oc=5",
-    "source": "gnews_macro",
-    "published_utc": "2026-11-05T15:03:56+00:00",
-    "score": 7.39,
+    "score": 7.37,
     "duplicates": 0
    },
    {
@@ -3165,7 +3172,16 @@
     "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxQc0NiZllqbTF2T0ZNcjE3X085cWZyZHB3VU56M1MxdXBXT1FBd1JwYVVOU0k3VEpKaFZwRjY3VlVUcTVaMVFJU2Z4REtMYlpSWE5NUlZodFA4QnBSa2c1V042aEFoV0NrdEhvekk3c2N0TlA2THVmaktHNFZqMTJwX1RXdnVvYnRFS0xFWmVGNGFGRFhrazFQWFIyZUVxQQ?oc=5",
     "source": "gnews_futures",
     "published_utc": "2026-11-05T14:17:40+00:00",
-    "score": 7.26,
+    "score": 7.22,
+    "duplicates": 0
+   },
+   {
+    "id": "70dc84f9fd",
+    "title": "Federal Reserve backs gradual rate increases as inflation stays above target - Traders Union",
+    "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOTDA1MjVIZU9ULVM2Smc2ck04ZndfbnE4NU1aeHQ0LUxuajJNTzdjZDRtYWpqcHNydjFlSUltRkFqc3JsTHE4MXVQWVdzaW9LWDRTU1NOUHlHWGh3Sjk5NzY0am9QT1RLR2ZYLWp6U3RJVmtTLUN6SFV2SWxTSi1ySUNDVXVCeW9KWVoxaC1UWTVVbUtYUFk5eUxMQQ?oc=5",
+    "source": "gnews_fed",
+    "published_utc": "2026-11-05T14:13:34+00:00",
+    "score": 7.21,
     "duplicates": 0
    }
   ],
@@ -3175,7 +3191,7 @@
     "Nasdaq Futures Slip as Chip Selloff Rages On; Earnings and Fed Speak on Tap - Barchart.com [4c6aea0644]",
     "Chinese AI lab Moonshot turned to Europe for Nvidia Blackwell access amid U.S. China curbs, sources tell CNBC [6d33d9cbf6]",
     "Fed’s Hammack favors gradual rate-hike path to lower inflation - 93.3 The Drive [cc248edaef]",
-    "The Fed’s New Inflation Warning Will Add Thousands to Families’ Already Soaring Bills - 24/7 Wall St. [c82c26ee87]"
+    "Cleveland Fed president says restrictive rates are needed to cool inflation - Quartz [09ce28d7b9]"
    ],
    "backend": "none",
    "model": null,
@@ -3231,16 +3247,16 @@
     "reported": true
    },
    {
-    "symbol": "CVS",
-    "name": "CVS Health Corporation",
+    "symbol": "MCK",
+    "name": "McKesson Corporation",
     "timing": "unknown",
     "date": "2026-11-04",
     "reported_at": "11/4/2026",
     "reported": true
    },
    {
-    "symbol": "MCK",
-    "name": "McKesson Corporation",
+    "symbol": "CVS",
+    "name": "CVS Health Corporation",
     "timing": "unknown",
     "date": "2026-11-04",
     "reported_at": "11/4/2026",
@@ -3255,16 +3271,16 @@
     "reported": true
    },
    {
-    "symbol": "MELI",
-    "name": "MercadoLibre, Inc.",
+    "symbol": "APP",
+    "name": "Applovin Corporation",
     "timing": "unknown",
     "date": "2026-11-04",
     "reported_at": "11/4/2026",
     "reported": true
    },
    {
-    "symbol": "APP",
-    "name": "Applovin Corporation",
+    "symbol": "MELI",
+    "name": "MercadoLibre, Inc.",
     "timing": "unknown",
     "date": "2026-11-04",
     "reported_at": "11/4/2026",
@@ -3279,16 +3295,16 @@
     "reported": true
    },
    {
-    "symbol": "DDOG",
-    "name": "Datadog, Inc.",
+    "symbol": "MFC",
+    "name": "Manulife Financial Corp",
     "timing": "unknown",
     "date": "2026-11-04",
     "reported_at": "11/4/2026",
     "reported": true
    },
    {
-    "symbol": "MFC",
-    "name": "Manulife Financial Corp",
+    "symbol": "GWW",
+    "name": "W.W. Grainger, Inc.",
     "timing": "unknown",
     "date": "2026-11-04",
     "reported_at": "11/4/2026",
@@ -3303,8 +3319,8 @@
     "reported": true
    },
    {
-    "symbol": "GWW",
-    "name": "W.W. Grainger, Inc.",
+    "symbol": "DDOG",
+    "name": "Datadog, Inc.",
     "timing": "unknown",
     "date": "2026-11-04",
     "reported_at": "11/4/2026",
@@ -3335,6 +3351,14 @@
     "reported": true
    },
    {
+    "symbol": "EW",
+    "name": "Edwards Lifesciences Corporation",
+    "timing": "unknown",
+    "date": "2026-11-04",
+    "reported_at": "11/4/2026",
+    "reported": true
+   },
+   {
     "symbol": "CVE",
     "name": "Cenovus Energy Inc",
     "timing": "unknown",
@@ -3343,8 +3367,8 @@
     "reported": true
    },
    {
-    "symbol": "EW",
-    "name": "Edwards Lifesciences Corporation",
+    "symbol": "MDLN",
+    "name": "Medline Inc.",
     "timing": "unknown",
     "date": "2026-11-04",
     "reported_at": "11/4/2026",
