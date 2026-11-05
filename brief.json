@@ -1,7 +1,7 @@
 {
  "meta": {
-  "generated_at_utc": "2026-11-05T15:12:03.467366+00:00",
-  "generated_at_local": "Thu 05 Nov 2026 11:12 AST",
+  "generated_at_utc": "2026-11-05T15:27:23.544516+00:00",
+  "generated_at_local": "Thu 05 Nov 2026 11:27 AST",
   "trading_day": "2026-11-05",
   "display_tz": "America/Halifax",
   "version": "0.1.0",
@@ -127,7 +127,7 @@
    "time_utc": "2026-11-06T13:30:00+00:00",
    "local": "09:30 AST",
    "et": "08:30 ET",
-   "in": "22h 17m",
+   "in": "22h 02m",
    "consensus": "0.3%",
    "prior": "0.1%"
   },
@@ -138,10 +138,10 @@
   {
    "root": "ES",
    "trading_day": "2026-11-05",
-   "as_of_utc": "2026-11-05T15:12:03.467366+00:00",
+   "as_of_utc": "2026-11-05T15:27:23.544516+00:00",
    "source": "yahoo",
    "delayed": true,
-   "last_price": 7598.75,
+   "last_price": 7563.0,
    "levels": [
     {
      "tag": "exp_hi",
@@ -263,15 +263,8 @@
      "note": ""
     },
     {
-     "tag": "tdl",
-     "label": "Today's RTH low",
-     "price": 7580.5,
-     "group": "today",
-     "note": ""
-    },
-    {
-     "tag": "rn_minor_dn",
-     "label": "Round 25 below",
+     "tag": "rn_minor_up",
+     "label": "Round 25 above",
      "price": 7575.0,
      "group": "round",
      "note": ""
@@ -291,6 +284,13 @@
      "note": ""
     },
     {
+     "tag": "tdl",
+     "label": "Today's RTH low",
+     "price": 7546.5,
+     "group": "today",
+     "note": ""
+    },
+    {
      "tag": "pgl",
      "label": "Prior Globex-session low",
      "price": 7490.0,
@@ -306,8 +306,8 @@
     }
    ],
    "stats": {
-    "last_bar_utc": "2026-11-05T15:00:00+00:00",
-    "last_bar_age_min": 12.1,
+    "last_bar_utc": "2026-11-05T15:17:00+00:00",
+    "last_bar_age_min": 10.4,
     "market_state": "open",
     "profile_volume": 1614792.0,
     "prior_day": "2026-11-04",
@@ -1574,19 +1574,27 @@
      "t": "2026-11-05T15:00:00+00:00",
      "o": 7593.75,
      "h": 7602.75,
-     "l": 7593.25,
-     "c": 7598.75,
-     "v": 0.0
+     "l": 7547.75,
+     "c": 7554.75,
+     "v": 211269.0
+    },
+    {
+     "t": "2026-11-05T15:15:00+00:00",
+     "o": 7555.5,
+     "h": 7568.5,
+     "l": 7546.5,
+     "c": 7563.0,
+     "v": 31902.0
     }
    ]
   },
   {
    "root": "NQ",
    "trading_day": "2026-11-05",
-   "as_of_utc": "2026-11-05T15:12:03.467366+00:00",
+   "as_of_utc": "2026-11-05T15:27:23.544516+00:00",
    "source": "yahoo",
    "delayed": true,
-   "last_price": 27556.5,
+   "last_price": 27403.5,
    "levels": [
     {
      "tag": "pwh",
@@ -1717,42 +1725,42 @@
     {
      "tag": "rn_major_up",
      "label": "Round 100 above",
-     "price": 27600.0,
+     "price": 27500.0,
      "group": "round",
      "note": ""
     },
     {
-     "tag": "rn_minor_dn",
-     "label": "Round 50 below",
-     "price": 27550.0,
+     "tag": "rn_minor_up",
+     "label": "Round 50 above",
+     "price": 27450.0,
      "group": "round",
      "note": ""
     },
     {
      "tag": "rn_major_dn",
      "label": "Round 100 below",
-     "price": 27500.0,
+     "price": 27400.0,
      "group": "round",
      "note": ""
     },
     {
      "tag": "tdl",
      "label": "Today's RTH low",
-     "price": 27457.5,
+     "price": 27303.0,
      "group": "today",
      "note": ""
     },
     {
      "tag": "wl",
      "label": "Week low",
-     "price": 27457.5,
+     "price": 27303.0,
      "group": "week",
      "note": ""
     }
    ],
    "stats": {
-    "last_bar_utc": "2026-11-05T15:00:00+00:00",
-    "last_bar_age_min": 12.1,
+    "last_bar_utc": "2026-11-05T15:17:00+00:00",
+    "last_bar_age_min": 10.4,
     "market_state": "open",
     "profile_volume": 601332.0,
     "prior_day": "2026-11-04",
@@ -3017,11 +3025,19 @@
     },
     {
      "t": "2026-11-05T15:00:00+00:00",
-     "o": 27535.0,
+     "o": 27534.25,
      "h": 27587.75,
-     "l": 27523.5,
-     "c": 27556.5,
-     "v": 0.0
+     "l": 27303.0,
+     "c": 27344.5,
+     "v": 76744.0
+    },
+    {
+     "t": "2026-11-05T15:15:00+00:00",
+     "o": 27346.75,
+     "h": 27428.5,
+     "l": 27325.5,
+     "c": 27403.5,
+     "v": 10976.0
     }
    ]
   }
@@ -3034,7 +3050,7 @@
     "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQVFVfQVktUmNubUdnTm5YYWNwa2s4ZzRLSWxpYnZDRDJIaklIQmdFUnNnX2tOQ2plOXlXeG9BcTVpQkw5dXJrdEQ5VEJWMy0wT0h1dF9HTkdmcUdOY1RsbEd5b19waDdacG13RnRWTmtNYk9pdWFOOGZTWGhmUzJ0Y1RVWUlucE5od2xRcDB0dWFBeVN0dV9ucHlrMmh4Y1ZwV3RwUy04RHBpdmda?oc=5",
     "source": "gnews_fed",
     "published_utc": "2026-11-05T09:26:01+00:00",
-    "score": 11.04,
+    "score": 11.0,
     "duplicates": 3
    },
    {
@@ -3043,7 +3059,7 @@
     "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPaURpY2VwV0xyc3Z4bnVmcHlaRUpadWFHMkNObW5lRkwycnhnOC1Gb2gyMWV3al93alEtRjdQM1hUclpUYi1zcWRhVUtsSE4taTBoR0VvaFNMZlJQSHRVdzUzRzhwVnMxd1BXdnRyWXZzUmZrNkhLNHVQaGkwVXhEV0xDSUlqRmR4ZGdSZl9TSUs1djA4Q0ZIZ1l5T0hCZ0RQYmV0VVAxT0FCNjBKb1dUZlV4elhDRHN0MHFnQU9n?oc=5",
     "source": "gnews_futures",
     "published_utc": "2026-11-05T11:24:04+00:00",
-    "score": 10.87,
+    "score": 10.82,
     "duplicates": 0
    },
    {
@@ -3052,7 +3068,7 @@
     "link": "https://www.cnbc.com/2026/11/05/moonshot-ai-nvidia-chips-europe-china.html",
     "source": "cnbc_markets",
     "published_utc": "2026-11-05T13:34:14+00:00",
-    "score": 9.73,
+    "score": 9.69,
     "duplicates": 0
    },
    {
@@ -3061,7 +3077,7 @@
     "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNTDlqOEZOTkV6b2ZsWGNHMmlNU1R1WWdhVVRfN1Rud3NJb0lWV1BsVnpwMm9GS3RnX21nSlFqVGRoWFdBelVyWHNEaGhmQTBzdHlDN0VPS2FudHZYZkRhdG56UHBtLXEwaHY4dVJIaTVfMmRVeERKWjgwbHp4M3M2RGZzZDBuLUpoTEtDcVdHZ0NZVXRkRXl3OEJRQkNkRWV6SWQxcWM1SG9EOEFUVWVwY2c1QkNKV0RBNnMxbDBYelpvVy1XWFE?oc=5",
     "source": "gnews_fed",
     "published_utc": "2026-11-05T14:55:00+00:00",
-    "score": 8.45,
+    "score": 8.41,
     "duplicates": 2
    },
    {
@@ -3070,7 +3086,7 @@
     "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPTDI4cDU1ODdtRUFrTlZiTjZUbUlKNjZicWpjOHp0YnhONENvNEhMemJ3bWNyR1Rpd0d5akp3Yk1FVElzaDlBenRLRkttdjFvOXFZaGt6dm05WWdZZXpqcU5vazJSY2p3UEx6dkFtM18tNU5nVFZEb0dFY3NHUkRGZlAxS2xJVHZPWWFYOWNUd1lsU2VnbEliTXZDYnp1Um5aX2M1a3Fn?oc=5",
     "source": "gnews_fed",
     "published_utc": "2026-11-05T13:55:22+00:00",
-    "score": 8.29,
+    "score": 8.24,
     "duplicates": 2
    },
    {
@@ -3079,7 +3095,7 @@
     "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPU2c2UERBM24tYnJsM3UxR3pvTG9mYmZNZ0dDN3k4OHp6SUl3aUxKRXZkNlJVeFU4dTFoS1NtSHBZN0xIVG1GRnBNNmxxWU9MWUNWNmhkZXZPT1A5ZHN2RHZRWS1tMmtZV1BzSDJLLWpERnFoZTVLNDFsdWVlaENTdE5UZVZDanpTbTFtNDQ5WHJJYWt1Y0hGNnd5eEhXaVplZWJNcXFXVHpIMXVqa0c5Z2tn?oc=5",
     "source": "gnews_fed",
     "published_utc": "2026-11-05T14:43:40+00:00",
-    "score": 7.92,
+    "score": 7.88,
     "duplicates": 1
    },
    {
@@ -3088,7 +3104,7 @@
     "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOcjVHX1lZUzh3YWlVemF4QWlKN250SVB4dko4Wl93aFJyZm9CZmx4NWl4MHYwdXRhZGp5cC1qdlpsWG1FbWNDX3hXTnFsYmpZNXZWSFNzMXlXeWdIcDdVZ3dNcy05MjNGYzVkN25Oem5MaF9KZl8tSXhza1VVRjdXUURsYkRoR3pNYU1tbHBEaHN0RmZyNjVsSA?oc=5",
     "source": "gnews_macro",
     "published_utc": "2026-11-05T14:45:00+00:00",
-    "score": 7.92,
+    "score": 7.88,
     "duplicates": 2
    },
    {
@@ -3097,7 +3113,7 @@
     "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQWEo3Tnc2TVpIclcxclZHZ2JwLTJBbUJweUhjcE1FZHNvcVpTbzMtdkF2VXBDbUhtZHpoLTFlQ2QwMkNjaTBCYzdxQjlaQWR2UWlNRnItZ2JjT1hHWDZYQU5NWUZLTkRhVjhFZ19NTk5fWXJuMGZIQmkwVk5aSFBPOWpHZ2FDOEZBdjE0dzZUZWZYQ3FXdGt5bHBQUmNiSWZoem90WmxUazIzQzR0aHVHN0VSdjdPMnYyRk1GRGZJb1lIZw?oc=5",
     "source": "gnews_fed",
     "published_utc": "2026-11-05T13:50:45+00:00",
-    "score": 7.77,
+    "score": 7.73,
     "duplicates": 1
    },
    {
@@ -3105,8 +3121,8 @@
     "title": "Fed’s Hammack backs restrictive rates, cites persistent inflation pressures - Investing.com",
     "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQXzdHUi14VGZBZ2lTVzBaSG5nUHVlRFhyNGYtcEd0UFFYOFRvMXRUdWJPcjFrQUUtczBreDlicmpHR3NmRGpmR1pLUzJlaWVPQjNhRmxxQUFiYjdvdmV5eHdtXzllMDN2UlBwaDVDX3RzRzk5X0Q2SmJXSXp5ekJIQzJGNFZqVVhVdnZVRlk3aHFqYXFGSi1CQTRpUFhvY0daNGNMNXJrSzE4TmxwaVZoTnZXSk9lclpRQzFjejJMTVo0UzA?oc=5",
     "source": "gnews_macro",
-    "published_utc": "2026-11-05T15:08:18+00:00",
-    "score": 7.49,
+    "published_utc": "2026-11-05T15:10:55+00:00",
+    "score": 7.45,
     "duplicates": 0
    },
    {
@@ -3115,7 +3131,7 @@
     "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxQc0NiZllqbTF2T0ZNcjE3X085cWZyZHB3VU56M1MxdXBXT1FBd1JwYVVOU0k3VEpKaFZwRjY3VlVUcTVaMVFJU2Z4REtMYlpSWE5NUlZodFA4QnBSa2c1V042aEFoV0NrdEhvekk3c2N0TlA2THVmaktHNFZqMTJwX1RXdnVvYnRFS0xFWmVGNGFGRFhrazFQWFIyZUVxQQ?oc=5",
     "source": "gnews_futures",
     "published_utc": "2026-11-05T14:17:40+00:00",
-    "score": 7.35,
+    "score": 7.31,
     "duplicates": 0
    },
    {
@@ -3124,7 +3140,7 @@
     "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOTDA1MjVIZU9ULVM2Smc2ck04ZndfbnE4NU1aeHQ0LUxuajJNTzdjZDRtYWpqcHNydjFlSUltRkFqc3JsTHE4MXVQWVdzaW9LWDRTU1NOUHlHWGh3Sjk5NzY0am9QT1RLR2ZYLWp6U3RJVmtTLUN6SFV2SWxTSi1ySUNDVXVCeW9KWVoxaC1UWTVVbUtYUFk5eUxMQQ?oc=5",
     "source": "gnews_fed",
     "published_utc": "2026-11-05T14:13:34+00:00",
-    "score": 7.34,
+    "score": 7.29,
     "duplicates": 0
    },
    {
@@ -3133,7 +3149,7 @@
     "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOM2JXMTBoRHFQeWpVNjJ4UklibUpkSWtUUzFVTXZFbTRnWE55bkJOcmxaeHhuS0RwSHkzUjJXanNVRHVvYmppM3gwYnU4TkdCekNmNnMxNkpJQ0VSZTgzM19DVmdOeDRYdnZWdU1kMmxBV0VsdHBkbG5uSmxnOUVsbi1xMWdSZ1JoLU9CNzZMRUI1M0FkYUZpcnY2QndjUnF0SW54MU9LcC1kSkhjMjFFR081cGktdkdm?oc=5",
     "source": "gnews_macro",
     "published_utc": "2026-11-05T13:52:45+00:00",
-    "score": 7.28,
+    "score": 7.24,
     "duplicates": 0
    }
   ],
