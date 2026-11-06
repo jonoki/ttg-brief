@@ -1,7 +1,7 @@
 {
  "meta": {
-  "generated_at_utc": "2026-11-06T15:10:04.776074+00:00",
-  "generated_at_local": "Fri 06 Nov 2026 11:10 AST",
+  "generated_at_utc": "2026-11-06T15:25:18.398712+00:00",
+  "generated_at_local": "Fri 06 Nov 2026 11:25 AST",
   "trading_day": "2026-11-06",
   "display_tz": "America/Halifax",
   "version": "0.1.0",
@@ -111,10 +111,10 @@
   {
    "root": "ES",
    "trading_day": "2026-11-06",
-   "as_of_utc": "2026-11-06T15:10:04.776074+00:00",
+   "as_of_utc": "2026-11-06T15:25:18.398712+00:00",
    "source": "yahoo",
    "delayed": true,
-   "last_price": 7456.0,
+   "last_price": 7459.25,
    "levels": [
     {
      "tag": "wh",
@@ -272,8 +272,8 @@
     }
    ],
    "stats": {
-    "last_bar_utc": "2026-11-06T15:00:00+00:00",
-    "last_bar_age_min": 10.1,
+    "last_bar_utc": "2026-11-06T15:15:00+00:00",
+    "last_bar_age_min": 10.3,
     "market_state": "open",
     "profile_volume": 2893197.0,
     "prior_day": "2026-11-05",
@@ -1540,8 +1540,16 @@
      "t": "2026-11-06T15:00:00+00:00",
      "o": 7451.75,
      "h": 7461.0,
-     "l": 7450.25,
-     "c": 7456.0,
+     "l": 7429.25,
+     "c": 7457.25,
+     "v": 85473.0
+    },
+    {
+     "t": "2026-11-06T15:15:00+00:00",
+     "o": 7457.25,
+     "h": 7461.5,
+     "l": 7456.0,
+     "c": 7459.25,
      "v": 0.0
     }
    ]
@@ -1549,10 +1557,10 @@
   {
    "root": "NQ",
    "trading_day": "2026-11-06",
-   "as_of_utc": "2026-11-06T15:10:04.776074+00:00",
+   "as_of_utc": "2026-11-06T15:25:18.398712+00:00",
    "source": "yahoo",
    "delayed": true,
-   "last_price": 27363.5,
+   "last_price": 27302.5,
    "levels": [
     {
      "tag": "wh",
@@ -1611,8 +1619,8 @@
      "note": "70 % value area"
     },
     {
-     "tag": "rn_minor_dn",
-     "label": "Round 50 below",
+     "tag": "rn_minor_up",
+     "label": "Round 50 above",
      "price": 27350.0,
      "group": "round",
      "note": ""
@@ -1710,8 +1718,8 @@
     }
    ],
    "stats": {
-    "last_bar_utc": "2026-11-06T15:00:00+00:00",
-    "last_bar_age_min": 10.1,
+    "last_bar_utc": "2026-11-06T15:15:00+00:00",
+    "last_bar_age_min": 10.3,
     "market_state": "open",
     "profile_volume": 987089.9999999999,
     "prior_day": "2026-11-05",
@@ -2976,10 +2984,18 @@
     },
     {
      "t": "2026-11-06T15:00:00+00:00",
-     "o": 27348.5,
+     "o": 27355.5,
      "h": 27382.5,
-     "l": 27324.75,
-     "c": 27363.5,
+     "l": 27182.5,
+     "c": 27300.0,
+     "v": 45094.0
+    },
+    {
+     "t": "2026-11-06T15:15:00+00:00",
+     "o": 27299.25,
+     "h": 27311.25,
+     "l": 27277.25,
+     "c": 27302.5,
      "v": 0.0
     }
    ]
@@ -2988,13 +3004,13 @@
  "news": {
   "headlines": [
    {
-    "id": "d09a7f81de",
-    "title": "Traders raise bets of Fed rate hike after jobs report By Reuters - Investing.com",
-    "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNRU5wVGRCSjZOdElwY252eE85OHh2QnFaTXZfVHBhd3hXaE4zZC1CWmVZamJUaDRRQXREb3QxdGVXUTJNR2RCUWw5ZVlKRG5RYVY1REQ0RlVQbzFGQ2p3Vk5HeDJLUEhNZkVrNDZLcjByMWctcW9vNjVlcDdaY1VjRUlRSVRYT0t3MjdLTXZsaEVaVzRFRDZEQ3FQTERiWWtlaDlNekVCTlY?oc=5",
-    "source": "gnews_macro",
-    "published_utc": "2026-11-06T14:06:12+00:00",
-    "score": 10.36,
-    "duplicates": 6
+    "id": "5d67be32aa",
+    "title": "Traders raise bets of Fed rate hike after jobs report - Merced Sun-Star",
+    "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPWnRza0staUVqQkFpelI3SmhtRVQ3SjlCTVg2NWo2VWlYc05VMUtudkY1OXZ5dEEtSWhwN0p0OU5EalJjLVFLUENKcVVqYTllZmM5QlNleW84ckdTRnJONmFtZUhJelR0UkJjQk9VcGN6dU1ZZmNqdjNaTEpYcHY1V1JxTzY?oc=5",
+    "source": "gnews_fed",
+    "published_utc": "2026-11-06T13:50:00+00:00",
+    "score": 9.74,
+    "duplicates": 5
    },
    {
     "id": "43caeb1f7e",
@@ -3002,7 +3018,7 @@
     "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNZmtadzVZZjgtZ1FOOWVPU21zaVV3cVM5VG9hRld6Vm9PSkVUeEZvVEx0b3U1a1BXZGJodEJoU0N6aVRMNzIzR3k0Q2RNQ1ZJUHd0Yk1oVExtNTBjUWpxcFd2eDJwVW9KSVY0YTJDLXhkUTB2U1JDeno4ME4tby0yWXNfTUs2VllYYllQZ3dYWGxYSXp6M1pFenR2UF9sVDhWZkxvQzRETXJ0dkU0cUhBQzlCSVlwa3J4?oc=5",
     "source": "gnews_futures",
     "published_utc": "2026-11-06T13:43:28+00:00",
-    "score": 9.8,
+    "score": 9.72,
     "duplicates": 5
    },
    {
@@ -3011,7 +3027,7 @@
     "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxOLWJoNFRvOHNLWDdBMlozb1VWSGFsTm9jd0Nzck5LZS1ScG5faTN6dF9tZDhBTXhPYmp5T0tPME5yNnhOQnNyRFJ6QlJMWmhBaGtRTkJtbXh6dDRBQlhaUkhDYVpBUndvcnpIQ2I2bGJ0UGViY0JNU3NxVWtzOGRuT1hLTnR3eENHVTdTYi02ZEROWF94V29icl9hVWIzdzdWcERVYXlLMmkwd05ZUFhqTEo1b181TVQ5WWhEMmpyR19OSGhNZHhSVmxn?oc=5",
     "source": "gnews_futures",
     "published_utc": "2026-11-06T13:45:16+00:00",
-    "score": 9.3,
+    "score": 9.22,
     "duplicates": 0
    },
    {
@@ -3020,7 +3036,7 @@
     "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQYzZucHoyRUR3UFJfNFhCZXlyYTRrUlVRdnNRU1JEa3VRTkQ0Ry1zcjVBUE1XZUVUZDBaS3paOF9BY29Kd1JWaUIxMGhvNE5KcVQyTVRiMFIzV0dPMmM3WmFIa0hST3RyaERkc3g2Tkh0Sk1EeDFDbVhJVG9vWFF4UTFzOVB0b0k2MXVxODg0MDB0cDN5ZEl5RVJLRzlrVWdwTmR0aEE0QkoyNkN3RFB1TUdUY2hwWGVCMGVieUxlMExjdw?oc=5",
     "source": "gnews_futures",
     "published_utc": "2026-11-06T13:41:15+00:00",
-    "score": 8.79,
+    "score": 8.71,
     "duplicates": 3
    },
    {
@@ -3029,7 +3045,7 @@
     "link": "https://news.google.com/rss/articles/CBMiiAJBVV95cUxPUm40Vzc5ZXFEWV9IX1MtZ0NPQ1VIZGdqcWhldFRxejl5OWpRSHZoeWlzanptcXZTdlVRUkpCY2VCUVhmVG82R0d6ZTZ0aS1PZ2NBMV9faE5iVm5xRnB0ZWhLR3V0WFZCVzhrWUd6YnhUbHpkWlZ5X0VWTE05WWd1OXRRRDlwdFZGeENsaTJ4ekN5YS1QMFc5dmhja21SU0ZaZWYzeUVMQVBfZFl4bGVPNzFiNmlKTF9WSk1xTjBrc1VHOFlwTk5Pdnp1TWtDeXE4RHFTSmxxd21tRzhtQ3pCN3poMTVoMDdLRGNoWktzdENHa1k1ODBlX3RkdUQwUDc1dm9FWjJHRXc?oc=5",
     "source": "gnews_futures",
     "published_utc": "2026-11-06T14:02:00+00:00",
-    "score": 8.35,
+    "score": 8.27,
     "duplicates": 0
    },
    {
@@ -3038,8 +3054,17 @@
     "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPeFByUUZ4blNDWU4zaHpuR2hnNnp2eGJ6bDhMT1pkMXM0UnpHRHhrVndZWFJTNElLMFpUUTVPNE9tYVpsM09XWVRXWXUxUW0tX3Z3QXYwWFMyNGwzTHkzc0MyaV84TjBIeDVlbFZmRE1SeVN0OG1OTzRrNWp1Si1WRzdPbnltaWgtcTQtQmJZamFEeVlEWHI4bUNISU1Fc0oya18wZ01SV3gxUlRTd1JYTEx3YTYyZ1NU?oc=5",
     "source": "gnews_futures",
     "published_utc": "2026-11-06T13:11:00+00:00",
-    "score": 8.21,
+    "score": 8.13,
     "duplicates": 2
+   },
+   {
+    "id": "2c7105f3c0",
+    "title": "Strong October jobs report sends yields higher - The Lufkin Daily News",
+    "link": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxNRmtVb09LQlBwYmc2RzVjMGxaOWU5RDV6cG1CYXU4VWsyNkExMzV5eldUMVVlRU1RVU92RFV5dUxkTlJGYU5Wb21saVZpbDRGNFBILTI3cFJiYlFVY1NMeW5ZU0VySENaM2ZnamlmSGZBT1RYSXR4UnpPUVdidGVHaTVXbElwblV4SWNxZDNZNnpmcjZhcWZJck5iYkpVM2JIb3hUNmVER3JuOVJrbFNfTzlsRGFSYTVxY25kOXJqQ1pFTkNPYzg1ZkhCSVdSODRjNXByMmkyUjMzX3dpQUVZ?oc=5",
+    "source": "gnews_macro",
+    "published_utc": "2026-11-06T14:45:00+00:00",
+    "score": 7.89,
+    "duplicates": 3
    },
    {
     "id": "c16ec60978",
@@ -3047,8 +3072,17 @@
     "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOMEcxRlBEcDZLR2pOTnVhWTZkSkZJdl82RXFheFJhNzhFQVJYZEJRX216WnRMTm5RaHBUcHhpa0xjYUJFRDA4NUQ1aVh3R3d3M1Q2T09lZU5PUzdaVjA4LWJMZkVXR012OTFwcW5ocXpCWlhXeTZMZkNhTmdlUDNfSTJROHNlcDBoZzhsX1NIVERDQ012dEpXU0FtczFCcnFoRDc5V2lfMDFfV2JPeTdISUJOa3htZ2VXU2MtTmkxUENYVGtR?oc=5",
     "source": "gnews_futures",
     "published_utc": "2026-11-06T11:33:55+00:00",
-    "score": 7.94,
+    "score": 7.86,
     "duplicates": 0
+   },
+   {
+    "id": "84163611d4",
+    "title": "Nasdaq Futures Rebound After Wall Street Rout as Strong US Jobs Report Divides Investors: Dow Jones, S&P - Yahoo Finance UK",
+    "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQVVMtMVVhQWRlTXlGS2pxRU83VWY5Y0xseTEzY3NFcGtBVHctUVJ3cG1tZ1AwQWt2Smp2TEJIZVBKZjFYek9UOTZwN3h2ckk2bWVMZ2ZrZ0RLYlZqaWNEWUNMQUN4dVlMbkNqMWVqLUZKLW0tQWF1VXV5eU5LVEJrenV5OVBFV044Mmlz?oc=5",
+    "source": "gnews_futures",
+    "published_utc": "2026-11-06T14:13:53+00:00",
+    "score": 7.8,
+    "duplicates": 1
    },
    {
     "id": "c3890e80ce",
@@ -3056,7 +3090,7 @@
     "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPUGdxQlg5RDNfVzMtLXFsVXZKU2RJeUFjZmwwWE9taVN4YUlNTnNlb3FvalpnWFNNUENOcGJIejRWWkp5R0dLZFRSbURaT3BZaTMwSDVQQ3FZbG1JQVBxRm8wa0ozYVFWQUY3VlBsNkNESkpYUndwN1NoNndsMXBfY2J1UmZRTE9oUzh5VkRRWFNrQzA3S0wxZGRYOTBLeG5ncEg2LXVjNEJldDg?oc=5",
     "source": "gnews_macro",
     "published_utc": "2026-11-06T13:06:11+00:00",
-    "score": 7.69,
+    "score": 7.61,
     "duplicates": 1
    },
    {
@@ -3065,7 +3099,7 @@
     "link": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxPcTF5S2huRmxYQ2pYUXBkN1dQa09MWHVQRFNzdUtqMHotblRHNkMxbGZsMmVOdF9ZdV84eDhzTUVZWW10MHdaUVpVSFBZNTVYVWZaV0dtMXM3Nm1VQm5mNUFlanFtTERvVWJQQ1ozT085ckFQNUNEVFFQUUhhXzhuVGtuMzFDVWh0WTdhS2laS0tvQndmRFJ2QlpEYzgzUTB2akZfQ0ZnTm9uVkNVZ3pHNEF4NktYN203NjlnQnQ5a1UxZW4zaGlXTlVLdUlxSTZXVlRSWDVKclpEMFU?oc=5",
     "source": "gnews_macro",
     "published_utc": "2026-11-06T12:14:00+00:00",
-    "score": 7.55,
+    "score": 7.47,
     "duplicates": 0
    },
    {
@@ -3074,31 +3108,13 @@
     "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxOdlUyRzZxV01QTEhhbGpPaDNBVmVwWl8yZkhNcHF2bFlUb293RUNkM3hudF9RYkVlQmZMQTF1ZmZCVnBOd2ZodlJYWFJuOVFmQnJVZkZfc1BfelE5Zzk2RE9zZVExOHVtU3dzcTlzckxnNEVFUnZwMnpJYmZ5VDdaT0cyQzBKVUJUenluSk5uQU1FcUZIZmd5Ym96elpWZWFGTHd1WEFERlZaX1p6LS15a09CR0ZubF9NQ1lQa25fVUVua0VrcXRobEZxenhuZw?oc=5",
     "source": "gnews_futures",
     "published_utc": "2026-11-06T12:10:11+00:00",
-    "score": 7.54,
+    "score": 7.46,
     "duplicates": 1
-   },
-   {
-    "id": "f636cda5d2",
-    "title": "Our top 10 things to watch in the stock market Friday",
-    "link": "https://www.cnbc.com/investingclub/2026/11/06/our-top-10-things-to-watch-in-the-stock-market-friday.html",
-    "source": "cnbc_markets",
-    "published_utc": "2026-11-06T14:01:45+00:00",
-    "score": 7.35,
-    "duplicates": 0
-   },
-   {
-    "id": "a3b2457a99",
-    "title": "The Jobs Report Just Changed the Math for Retirees. Here's What a Rate Hike Means for a 67-Year-Old With $400,000 and Social Security. - 24/7 Wall St.",
-    "link": "https://news.google.com/rss/articles/CBMigwJBVV95cUxQVTNLT3MwNzZCdXdEUHc0dUxKTUk2RFJ6NFhRdHdUUEhNSjliRzJseU5ROVNEV0padnVFdXRQUTFwdHA4NTZtTkhwRmpCakduemJ5V0Y3ajloc3lQb2p5SmNvNUZKWFBIb0kxSGV6c1JxQ1NvMlRqMlg2V0IzMmZDYnR4STJwdk0xNE5RVEtZRkhzanJTVkdrcDY1LVhmUERSLTNGdXE4X204X2ticjBxTS1OdEswaEU3aWRfb3JjdEZYc2VLczJsMl9xa3NvNERBVE9YQktTcERybHl6UzBKeGc0dHlFVjgtaldJejRFT0RTa0pBRFFDdEZhblNTaE5BQU1n?oc=5",
-    "source": "gnews_macro",
-    "published_utc": "2026-11-06T14:01:00+00:00",
-    "score": 7.35,
-    "duplicates": 0
    }
   ],
   "summary": {
    "lines": [
-    "Traders raise bets of Fed rate hike after jobs report By Reuters - Investing.com [d09a7f81de]",
+    "Traders raise bets of Fed rate hike after jobs report - Merced Sun-Star [5d67be32aa]",
     "S&P 500 futures pare gains after October non-farm payrolls data By Reuters - Investing.com South Africa [43caeb1f7e]",
     "U.S. stock futures show little reaction to blockbuster jobs report, yields spike By Investing.com - Investing.com India [51c1a79184]",
     "Nasdaq futures rise after steep AI selloff as chip stocks stabilize By Reuters - Investing.com [ec5d89c5b8]",
