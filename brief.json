@@ -1,11 +1,11 @@
 {
  "meta": {
-  "generated_at_utc": "2026-11-06T13:27:20.647582+00:00",
-  "generated_at_local": "Fri 06 Nov 2026 09:27 AST",
+  "generated_at_utc": "2026-11-06T13:30:26.920049+00:00",
+  "generated_at_local": "Fri 06 Nov 2026 09:30 AST",
   "trading_day": "2026-11-06",
   "display_tz": "America/Halifax",
   "version": "0.1.0",
-  "run": "overnight",
+  "run": "post-data",
   "variant": "public"
  },
  "calendar": {
@@ -22,8 +22,8 @@
      "what": "Month-on-month and year-on-year change in wages from the jobs report.",
      "why": "Wage growth is an inflation input the Fed watches; hot earnings can turn a good jobs print into a hawkish one."
     },
-    "actual": null,
-    "note": null,
+    "actual": "0.4%",
+    "note": "actual via BLS API",
     "consensus": "0.3%",
     "prior": "0.1%",
     "source": "",
@@ -40,8 +40,8 @@
      "what": "Monthly count of US jobs added outside farming, from the BLS employment report (first Friday, 08:30 ET).",
      "why": "The single biggest scheduled mover of index futures: it sets the tone for growth and Fed policy at once. Big beats or misses produce violent 08:30 moves and often the day's range."
     },
-    "actual": null,
-    "note": null,
+    "actual": "165K",
+    "note": "actual via BLS API",
     "consensus": "65K",
     "prior": "29K",
     "source": "",
@@ -58,8 +58,8 @@
      "what": "Share of the labour force without a job, from the same BLS household survey.",
      "why": "Read together with payrolls; a rising rate is a growth warning and raises rate-cut odds, a falling one supports the 'hot economy' narrative."
     },
-    "actual": null,
-    "note": null,
+    "actual": "4.1%",
+    "note": "actual via BLS API",
     "consensus": "4.2%",
     "prior": "4.2%",
     "source": "",
@@ -104,14 +104,14 @@
    }
   ],
   "next_event": {
-   "name": "Average Hourly Earnings m/m",
-   "impact": "high",
-   "time_utc": "2026-11-06T13:30:00+00:00",
-   "local": "09:30 AST",
-   "et": "08:30 ET",
-   "in": "2 min",
-   "consensus": "0.3%",
-   "prior": "0.1%"
+   "name": "Prelim UoM Consumer Sentiment",
+   "impact": "medium",
+   "time_utc": "2026-11-06T15:00:00+00:00",
+   "local": "11:00 AST",
+   "et": "10:00 ET",
+   "in": "1h 29m",
+   "consensus": "48.1",
+   "prior": "46.3"
   },
   "sources": [],
   "warnings": []
@@ -2971,24 +2971,201 @@
  },
  "flags": [],
  "earnings": {
-  "reported": [],
+  "reported": [
+   {
+    "symbol": "TM",
+    "name": "Toyota Motor Corp Ltd Ord",
+    "timing": "unknown",
+    "date": "2026-11-05",
+    "reported_at": "11/5/2026",
+    "reported": true
+   },
+   {
+    "symbol": "COP",
+    "name": "ConocoPhillips",
+    "timing": "unknown",
+    "date": "2026-11-05",
+    "reported_at": "11/5/2026",
+    "reported": true
+   },
+   {
+    "symbol": "SONY",
+    "name": "Sony Group Corporation",
+    "timing": "unknown",
+    "date": "2026-11-05",
+    "reported_at": "11/5/2026",
+    "reported": true
+   },
+   {
+    "symbol": "MNST",
+    "name": "Monster Beverage Corporation",
+    "timing": "unknown",
+    "date": "2026-11-05",
+    "reported_at": "11/5/2026",
+    "reported": true
+   },
+   {
+    "symbol": "PH",
+    "name": "Parker-Hannifin Corporation",
+    "timing": "unknown",
+    "date": "2026-11-05",
+    "reported_at": "11/5/2026",
+    "reported": true
+   },
+   {
+    "symbol": "SO",
+    "name": "Southern Company (The)",
+    "timing": "unknown",
+    "date": "2026-11-05",
+    "reported_at": "11/5/2026",
+    "reported": true
+   },
+   {
+    "symbol": "ABNB",
+    "name": "Airbnb, Inc.",
+    "timing": "unknown",
+    "date": "2026-11-05",
+    "reported_at": "11/5/2026",
+    "reported": true
+   },
+   {
+    "symbol": "DUK",
+    "name": "Duke Energy Corporation",
+    "timing": "unknown",
+    "date": "2026-11-05",
+    "reported_at": "11/5/2026",
+    "reported": true
+   },
+   {
+    "symbol": "CNQ",
+    "name": "Canadian Natural Resources Limited",
+    "timing": "unknown",
+    "date": "2026-11-05",
+    "reported_at": "11/5/2026",
+    "reported": true
+   },
+   {
+    "symbol": "NET",
+    "name": "Cloudflare, Inc.",
+    "timing": "unknown",
+    "date": "2026-11-05",
+    "reported_at": "11/5/2026",
+    "reported": true
+   },
+   {
+    "symbol": "CI",
+    "name": "The Cigna Group",
+    "timing": "unknown",
+    "date": "2026-11-05",
+    "reported_at": "11/5/2026",
+    "reported": true
+   },
+   {
+    "symbol": "EOG",
+    "name": "EOG Resources, Inc.",
+    "timing": "unknown",
+    "date": "2026-11-05",
+    "reported_at": "11/5/2026",
+    "reported": true
+   },
+   {
+    "symbol": "SPG",
+    "name": "Simon Property Group, Inc.",
+    "timing": "unknown",
+    "date": "2026-11-05",
+    "reported_at": "11/5/2026",
+    "reported": true
+   },
+   {
+    "symbol": "APD",
+    "name": "Air Products and Chemicals, Inc.",
+    "timing": "unknown",
+    "date": "2026-11-05",
+    "reported_at": "11/5/2026",
+    "reported": true
+   },
+   {
+    "symbol": "KMB",
+    "name": "Kimberly-Clark Corporation",
+    "timing": "unknown",
+    "date": "2026-11-05",
+    "reported_at": "11/5/2026",
+    "reported": true
+   },
+   {
+    "symbol": "TRP",
+    "name": "TC Energy Corporation",
+    "timing": "unknown",
+    "date": "2026-11-05",
+    "reported_at": "11/5/2026",
+    "reported": true
+   },
+   {
+    "symbol": "CAH",
+    "name": "Cardinal Health, Inc.",
+    "timing": "unknown",
+    "date": "2026-11-05",
+    "reported_at": "11/5/2026",
+    "reported": true
+   },
+   {
+    "symbol": "CMI",
+    "name": "Cummins Inc.",
+    "timing": "unknown",
+    "date": "2026-11-05",
+    "reported_at": "11/5/2026",
+    "reported": true
+   },
+   {
+    "symbol": "WPM",
+    "name": "Wheaton Precious Metals Corp.",
+    "timing": "unknown",
+    "date": "2026-11-05",
+    "reported_at": "11/5/2026",
+    "reported": true
+   },
+   {
+    "symbol": "TRGP",
+    "name": "Targa Resources, Inc.",
+    "timing": "unknown",
+    "date": "2026-11-05",
+    "reported_at": "11/5/2026",
+    "reported": true
+   },
+   {
+    "symbol": "BDX",
+    "name": "Becton, Dickinson and Company",
+    "timing": "unknown",
+    "date": "2026-11-05",
+    "reported_at": "11/5/2026",
+    "reported": true
+   },
+   {
+    "symbol": "NTRA",
+    "name": "Natera, Inc.",
+    "timing": "unknown",
+    "date": "2026-11-05",
+    "reported_at": "11/5/2026",
+    "reported": true
+   },
+   {
+    "symbol": "SRE",
+    "name": "Sempra",
+    "timing": "unknown",
+    "date": "2026-11-05",
+    "reported_at": "11/5/2026",
+    "reported": true
+   },
+   {
+    "symbol": "VMRK",
+    "name": "Vivmark Residential",
+    "timing": "unknown",
+    "date": "2026-11-05",
+    "reported_at": "11/5/2026",
+    "reported": true
+   }
+  ],
   "today": [
-   {
-    "symbol": "BRK.B",
-    "name": "Berkshire Hathaway Inc.",
-    "timing": "unknown",
-    "date": "2026-11-06",
-    "reported_at": null,
-    "reported": false
-   },
-   {
-    "symbol": "BRK.A",
-    "name": "Berkshire Hathaway Inc.",
-    "timing": "unknown",
-    "date": "2026-11-06",
-    "reported_at": null,
-    "reported": false
-   },
    {
     "symbol": "ENB",
     "name": "Enbridge Inc",
@@ -3008,14 +3185,6 @@
    {
     "symbol": "BAM",
     "name": "Brookfield Asset Management",
-    "timing": "pre",
-    "date": "2026-11-06",
-    "reported_at": null,
-    "reported": false
-   },
-   {
-    "symbol": "HUM",
-    "name": "Humana Inc.",
     "timing": "pre",
     "date": "2026-11-06",
     "reported_at": null,
