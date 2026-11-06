@@ -1,7 +1,7 @@
 {
  "meta": {
-  "generated_at_utc": "2026-11-06T11:25:03.143808+00:00",
-  "generated_at_local": "Fri 06 Nov 2026 07:25 AST",
+  "generated_at_utc": "2026-11-06T11:40:21.932384+00:00",
+  "generated_at_local": "Fri 06 Nov 2026 07:40 AST",
   "trading_day": "2026-11-06",
   "display_tz": "America/Halifax",
   "version": "0.1.0",
@@ -109,7 +109,7 @@
    "time_utc": "2026-11-06T13:30:00+00:00",
    "local": "09:30 AST",
    "et": "08:30 ET",
-   "in": "2h 04m",
+   "in": "1h 49m",
    "consensus": "0.3%",
    "prior": "0.1%"
   },
@@ -120,10 +120,10 @@
   {
    "root": "ES",
    "trading_day": "2026-11-06",
-   "as_of_utc": "2026-11-06T11:25:03.143808+00:00",
+   "as_of_utc": "2026-11-06T11:40:21.932384+00:00",
    "source": "yahoo",
    "delayed": true,
-   "last_price": 7399.75,
+   "last_price": 7406.0,
    "levels": [
     {
      "tag": "wh",
@@ -168,11 +168,25 @@
      "note": "ATR over 14 days"
     },
     {
+     "tag": "rn_major_up",
+     "label": "Round 50 above",
+     "price": 7450.0,
+     "group": "round",
+     "note": ""
+    },
+    {
      "tag": "onh",
      "label": "Overnight high",
      "price": 7427.25,
      "group": "overnight",
-     "note": "since 18:00 ET, 726 bars"
+     "note": "since 18:00 ET, 741 bars"
+    },
+    {
+     "tag": "rn_minor_up",
+     "label": "Round 25 above",
+     "price": 7425.0,
+     "group": "round",
+     "note": ""
     },
     {
      "tag": "poc",
@@ -182,8 +196,8 @@
      "note": "2026-11-05 RTH, bin 0.25"
     },
     {
-     "tag": "rn_major_up",
-     "label": "Round 50 above",
+     "tag": "rn_major_dn",
+     "label": "Round 50 below",
      "price": 7400.0,
      "group": "round",
      "note": ""
@@ -198,7 +212,7 @@
     {
      "tag": "onvwap",
      "label": "Overnight VWAP",
-     "price": 7385.89,
+     "price": 7386.14,
      "group": "overnight",
      "note": "typical-price VWAP"
     },
@@ -215,20 +229,6 @@
      "price": 7377.25,
      "group": "prior_day",
      "note": "2026-11-05"
-    },
-    {
-     "tag": "rn_minor_dn",
-     "label": "Round 25 below",
-     "price": 7375.0,
-     "group": "round",
-     "note": ""
-    },
-    {
-     "tag": "rn_major_dn",
-     "label": "Round 50 below",
-     "price": 7350.0,
-     "group": "round",
-     "note": ""
     },
     {
      "tag": "pgl",
@@ -260,14 +260,14 @@
     }
    ],
    "stats": {
-    "last_bar_utc": "2026-11-06T11:15:00+00:00",
-    "last_bar_age_min": 10.1,
+    "last_bar_utc": "2026-11-06T11:30:00+00:00",
+    "last_bar_age_min": 10.4,
     "market_state": "open",
     "profile_volume": 2893197.0,
     "prior_day": "2026-11-05",
     "prior_day_rth_range": 335.25,
     "overnight_range": 105.0,
-    "gap_vs_prior_close": 18.5,
+    "gap_vs_prior_close": 24.75,
     "gap_basis": "last price (pre-market)",
     "atr14": 127.38,
     "atr_days": 14,
@@ -1407,9 +1407,17 @@
     {
      "t": "2026-11-06T11:15:00+00:00",
      "o": 7401.25,
-     "h": 7401.75,
-     "l": 7399.5,
-     "c": 7399.75,
+     "h": 7406.75,
+     "l": 7398.25,
+     "c": 7406.0,
+     "v": 4698.0
+    },
+    {
+     "t": "2026-11-06T11:30:00+00:00",
+     "o": 7406.0,
+     "h": 7407.25,
+     "l": 7404.0,
+     "c": 7406.0,
      "v": 0.0
     }
    ]
@@ -1417,10 +1425,10 @@
   {
    "root": "NQ",
    "trading_day": "2026-11-06",
-   "as_of_utc": "2026-11-06T11:25:03.143808+00:00",
+   "as_of_utc": "2026-11-06T11:40:21.932384+00:00",
    "source": "yahoo",
    "delayed": true,
-   "last_price": 27097.0,
+   "last_price": 27146.5,
    "levels": [
     {
      "tag": "wh",
@@ -1469,33 +1477,33 @@
      "label": "Overnight high",
      "price": 27251.5,
      "group": "overnight",
-     "note": "since 18:00 ET, 726 bars"
+     "note": "since 18:00 ET, 741 bars"
     },
     {
      "tag": "rn_major_up",
      "label": "Round 100 above",
-     "price": 27100.0,
+     "price": 27200.0,
      "group": "round",
      "note": ""
     },
     {
-     "tag": "rn_minor_dn",
-     "label": "Round 50 below",
-     "price": 27050.0,
+     "tag": "rn_minor_up",
+     "label": "Round 50 above",
+     "price": 27150.0,
      "group": "round",
      "note": ""
     },
     {
      "tag": "rn_major_dn",
      "label": "Round 100 below",
-     "price": 27000.0,
+     "price": 27100.0,
      "group": "round",
      "note": ""
     },
     {
      "tag": "onvwap",
      "label": "Overnight VWAP",
-     "price": 26928.04,
+     "price": 26929.93,
      "group": "overnight",
      "note": "typical-price VWAP"
     },
@@ -1557,14 +1565,14 @@
     }
    ],
    "stats": {
-    "last_bar_utc": "2026-11-06T11:15:00+00:00",
-    "last_bar_age_min": 10.1,
+    "last_bar_utc": "2026-11-06T11:30:00+00:00",
+    "last_bar_age_min": 10.4,
     "market_state": "open",
     "profile_volume": 987089.9999999999,
     "prior_day": "2026-11-05",
     "prior_day_rth_range": 1510.25,
     "overnight_range": 885.0,
-    "gap_vs_prior_close": 350.5,
+    "gap_vs_prior_close": 400.0,
     "gap_basis": "last price (pre-market)",
     "atr14": 822.5,
     "atr_days": 14,
@@ -2704,9 +2712,17 @@
     {
      "t": "2026-11-06T11:15:00+00:00",
      "o": 27097.75,
-     "h": 27099.0,
-     "l": 27088.0,
-     "c": 27097.0,
+     "h": 27149.0,
+     "l": 27086.25,
+     "c": 27146.0,
+     "v": 1864.0
+    },
+    {
+     "t": "2026-11-06T11:30:00+00:00",
+     "o": 27145.75,
+     "h": 27153.0,
+     "l": 27134.75,
+     "c": 27146.5,
      "v": 0.0
     }
    ]
@@ -2720,7 +2736,7 @@
     "link": "https://www.cnbc.com/2026/11/06/tech-stocks-sk-hynix-samsung-softbank.html",
     "source": "cnbc_markets",
     "published_utc": "2026-11-06T11:06:58+00:00",
-    "score": 9.45,
+    "score": 9.41,
     "duplicates": 0
    },
    {
@@ -2729,16 +2745,16 @@
     "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQang5czlMS1c0LVRiTWdNdXItcDlKcTgyOXplSVVGRHljMGVrVG1KVGJTclR0TmtjWjFob0t1QWh6OTdkNzltaDJhTi1fdUdkM2tOb01JaVVlaVRWcWVTdkZFbmdBYlgxY2ktWVh6eFdZRVczekVTdFRCSWtOSzBGVnNCWHpFNFFXWFE2WDVQUjFCa19tbUhzNzdlNksyNFBqek4tcXdrcjVIVTQxMkE?oc=5",
     "source": "gnews_futures",
     "published_utc": "2026-11-06T10:22:47+00:00",
-    "score": 8.33,
+    "score": 8.28,
     "duplicates": 2
    },
    {
-    "id": "b09a744a43",
-    "title": "US inflation too high; essential to get back to 2%: Fed's Williams - Sacramento Bee",
-    "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTFB0QU9PcG5yN21ndEVITkwxMm5TVUw2TC1LMG11V1d4R1Jrb3EwdmJESHZNT3ZLZFh4alBWNkFuWDRyR2lZYnloZEgySFBtQ2gwUHFhY2NHZ0lnSGQ1RWRVaDcyWF9zR0lZYlZqNVgyVEE3bTR4Zy1oZUtzbw?oc=5",
+    "id": "4245e7ada8",
+    "title": "US inflation too high; essential to get back to 2%: Fed's Williams - Fort Worth Star-Telegram",
+    "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOYTlMS3l5dHFZV3VYeTZkc1FscC02SDNSd0g4UEFXR0U5RjBzdk11ZGplWmM4SGNhdmZ6X0dSZ2pwTFd3cTB0T212OUlFMlJPLVpIN05hd094dDJ4OFpGT2J0dHZ5UDNLQzJ0clV0RHA2ckRpbkpHVW1pLXd2OTJCbHlGV0E?oc=5",
     "source": "gnews_fed",
     "published_utc": "2026-11-06T10:55:08+00:00",
-    "score": 7.92,
+    "score": 7.87,
     "duplicates": 1
    },
    {
@@ -2747,7 +2763,7 @@
     "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNejlpWUc4VUFvcFM5UHNqNjFVR1phSkVfMVdfOEtnSEdXSmhQcndibElOb1pvQVplbm83MXNpSWhmY255cjN1TjVCOENBdmRtOEZVdW5lTVBrbnpqMHpXSk14M2VJSVJNYk5IVFpEVmpQbGNzMnVWbUkwVlhFcVRweFpsRVVHaTl3bGttQ2VMTDV5cWlELWN2UDBSdHhwRjFBU3ZkS3lGcUlqeG1rd0RKMkc3QkxsVTZwcWM5WVlITzloRG1YVFJZQ25yRQ?oc=5",
     "source": "gnews_futures",
     "published_utc": "2026-11-06T07:07:30+00:00",
-    "score": 7.78,
+    "score": 7.74,
     "duplicates": 0
    },
    {
@@ -2756,8 +2772,17 @@
     "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPeFByUUZ4blNDWU4zaHpuR2hnNnp2eGJ6bDhMT1pkMXM0UnpHRHhrVndZWFJTNElLMFpUUTVPNE9tYVpsM09XWVRXWXUxUW0tX3Z3QXYwWFMyNGwzTHkzc0MyaV84TjBIeDVlbFZmRE1SeVN0OG1OTzRrNWp1Si1WRzdPbnltaWgtcTQtQmJZamFEeVlEWHI4bUNISU1Fc0oya18wZ01SV3gxUlRTd1JYTEx3YTYyZ1NU?oc=5",
     "source": "gnews_futures",
     "published_utc": "2026-11-06T10:06:00+00:00",
-    "score": 7.78,
+    "score": 7.74,
     "duplicates": 1
+   },
+   {
+    "id": "44ed2a47f2",
+    "title": "US Stock Futures Rise as Dip Buyers Emerge After AI Selloff - Bloomberg.com",
+    "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNR05sbjJYQms1ODBsSHRqR1BMY2VLNTZpRERqb1BuYk5KdGFTdUJfWEdNZFlJT3JsSl9ZWFBGWUJjellkUDJQb1dJQkwwVnlGek1RdS1GQlpZaFJHMHZDMjJUY3FVdVIxT1VHakVJN3ltWkFjc3kya2Uyc241VVhoM3BQbUh6d3BjMjIxNS1SRmZrdWNSUEdVR1RSLURlR044TTF5ajN2ZURXVHQ0OFhB?oc=5",
+    "source": "gnews_futures",
+    "published_utc": "2026-11-06T11:25:55+00:00",
+    "score": 7.46,
+    "duplicates": 0
    },
    {
     "id": "242d5efaf5",
@@ -2765,7 +2790,7 @@
     "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9mYUQzZHdrUGdmQ3NpYm5JVXNsUlBLSEhFTEpJd01nQl8yVWZIVm5vTTZTTG5QN25pMHVpRXhGWW5mbjVxRU1YMWNYM2Mxams4dHZhVkpNWjBYOGFqc3RjRDloQXJPb0Q1TnV4OGFxV3FCOUNVcGc?oc=5",
     "source": "gnews_fed",
     "published_utc": "2026-11-06T11:05:00+00:00",
-    "score": 7.44,
+    "score": 7.4,
     "duplicates": 0
    },
    {
@@ -2774,7 +2799,7 @@
     "link": "https://news.google.com/rss/articles/CBMijwJBVV95cUxPM0lNVS1aWUE0a0lKUzQ0T25KMW9rbHB5U21xWnZxak5KdzJ1Yk9hc1Boc0drdEFIRTZZMW5TTXZBOWZJVzduSjdOWHJ1UC13d1MwalREdW9UNXh3aGMyb0p1dk1fVjNyWjR1MGN6ZzBYOWRwVmlBQ3ZSRFFfcmZyV3JEeGx6N19zZjBtVUxWR3pUbFpPbXV5ZmRBNTVuX3FIZEo4OGV1aU40TXJsRDRHaDZDR2s4VGhGRmdyRVcyOS1wUW1FMmEzNE1VOXE5UDZ3S1E2eDVLT1BxWVZlQndKbHFhZXhzTE1Sd0QxbmNHMTB5S0U4ZThkcTlWWWdSMU94Yk9ibVo2eG5UX3Myam1R?oc=5",
     "source": "gnews_futures",
     "published_utc": "2026-11-06T10:14:49+00:00",
-    "score": 7.3,
+    "score": 7.26,
     "duplicates": 0
    },
    {
@@ -2783,7 +2808,7 @@
     "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQZG94U1FnaFdKa2tSU3M5bG9CQ0tBeEVtRE9QOFpHajgtQml3ZWFheGE3eEppcGRkM29kdXEyY1lOSDFJd2Z5MVlHd1JpTjN5aW1PZkFPTzc5b2d6U1FhTldielQ3RGtIajc1S3pZbTRsMDN2alhBR3JwdEhaQ1JHNHJBT0plYkQ5X2N4UWRsWENBaWRXNDJiYzN0YThQTW1JUUdmbDZpeElKX29JYU1fQg?oc=5",
     "source": "gnews_fed",
     "published_utc": "2026-11-06T09:53:47+00:00",
-    "score": 7.25,
+    "score": 7.2,
     "duplicates": 0
    },
    {
@@ -2792,7 +2817,7 @@
     "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOR1A1d3lyMVFMVmdWU25xLURYYjd2UzRRLWpWOEtlazgyZm5jOVh2cFFobEhzNTdwNzVTVnhKR2h1Y3ZlX3F2RHBveXdVVVU1V0MwUjBlcEpES096M2lpTm5ZUkdEa3BmeFdSekR4Wmx6cFVwSzJMV2g3alJjT2d2dzZTaHg3MjdMY2dJMlptZ0tYTFBGUWZ2Mi1Fcjhtc2xUdlJjWHBGUUpqb2ZUOUE?oc=5",
     "source": "gnews_macro",
     "published_utc": "2026-11-06T07:51:01+00:00",
-    "score": 6.91,
+    "score": 6.86,
     "duplicates": 0
    },
    {
@@ -2801,7 +2826,7 @@
     "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNV2tGUlFzLXh4YWl5bUtuV1Nyckt4a2k1cFlXOU9kcVpseENZRks4NmJMOU92bDJZYW9ySm9vaV9pQVpZblM5WTBVOU5WRVRvYUtLTVg4Zy1JNjctWnhxdFRLTWNYNUFyTDloYWdPOFlhd3c2UnY0dEM5Umlza09obEFmUnlFTzZXSlpBazgxVGVXZw?oc=5",
     "source": "gnews_futures",
     "published_utc": "2026-11-06T01:42:48+00:00",
-    "score": 6.88,
+    "score": 6.84,
     "duplicates": 0
    },
    {
@@ -2810,16 +2835,7 @@
     "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOU0FKdHBXeUJQcF9vVHRaT0VqV1h0a2xLUDdoZjFmMlRkRnplWlZuamhsTmdxc0d2V0swYk5Ublc0Z0dKNlRTZERZMnZocEM5UDJSd25fQ3lseWZvZElwTWVqMDlLMF9Udm9UNGdTSkZmU1ZpNlREaDYtUm5hUG5FTGtXSUpwZlZ1LTNXeg?oc=5",
     "source": "gnews_macro",
     "published_utc": "2026-11-06T06:40:14+00:00",
-    "score": 6.71,
-    "duplicates": 0
-   },
-   {
-    "id": "6222325173",
-    "title": "Fed Chair Kevin Warsh Is Planning to Break 45 Years of Precedent With a Stunning Change to Monetary Policy -- It Could Rattle Wall Street for Years to Come - The Motley Fool",
-    "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPeUhpREp1aW9OdE1faWhHQkdZbUtUZEtmc0dJdVlFbUhJVTRUVFo2TktqUHlqNnpFdjBoMlJxMHBDTlNFSXM3MGdqcXRYWV9IVUJMcGs1Y2JoUWdSdGEyeDBoVktHVWttTXZ3VGlyUlhkZW9QU3dESmd2b01rdFhjZ2pPWWtsV0pQUk9YbGZCTVFOREJ2NXc?oc=5",
-    "source": "gnews_fed",
-    "published_utc": "2026-11-06T09:15:00+00:00",
-    "score": 6.64,
+    "score": 6.67,
     "duplicates": 0
    }
   ],
@@ -2827,7 +2843,7 @@
    "lines": [
     "Nasdaq sell-off batters Asian chip stocks as SK Hynix, Samsung, Softbank, TSMC tumble [fe67e64a8c]",
     "Nasdaq futures rise after steep AI selloff as chip stocks stabilize - Reuters [4db7683a1e]",
-    "US inflation too high; essential to get back to 2%: Fed's Williams - Sacramento Bee [b09a744a43]",
+    "US inflation too high; essential to get back to 2%: Fed's Williams - Fort Worth Star-Telegram [4245e7ada8]",
     "Nasdaq futures rise, Dow sinks after AI rout slams Wall St; payrolls in focus - Investing.com [08318b3302]",
     "Nasdaq Futures Rally After Asian AI Rout as Investors Brace for Jobs Day - WSJ [90cfb5ec1c]"
    ],
