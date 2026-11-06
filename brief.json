@@ -1,7 +1,7 @@
 {
  "meta": {
-  "generated_at_utc": "2026-11-06T14:10:39.529349+00:00",
-  "generated_at_local": "Fri 06 Nov 2026 10:10 AST",
+  "generated_at_utc": "2026-11-06T14:25:59.689736+00:00",
+  "generated_at_local": "Fri 06 Nov 2026 10:25 AST",
   "trading_day": "2026-11-06",
   "display_tz": "America/Halifax",
   "version": "0.1.0",
@@ -109,7 +109,7 @@
    "time_utc": "2026-11-06T15:00:00+00:00",
    "local": "11:00 AST",
    "et": "10:00 ET",
-   "in": "49 min",
+   "in": "34 min",
    "consensus": "48.1",
    "prior": "46.3"
   },
@@ -120,10 +120,10 @@
   {
    "root": "ES",
    "trading_day": "2026-11-06",
-   "as_of_utc": "2026-11-06T14:10:39.529349+00:00",
+   "as_of_utc": "2026-11-06T14:25:59.689736+00:00",
    "source": "yahoo",
    "delayed": true,
-   "last_price": 7397.25,
+   "last_price": 7390.25,
    "levels": [
     {
      "tag": "wh",
@@ -172,7 +172,7 @@
      "label": "Overnight high",
      "price": 7427.25,
      "group": "overnight",
-     "note": "since 18:00 ET, 891 bars"
+     "note": "since 18:00 ET, 906 bars"
     },
     {
      "tag": "poc",
@@ -191,7 +191,7 @@
     {
      "tag": "onvwap",
      "label": "Overnight VWAP",
-     "price": 7389.11,
+     "price": 7389.15,
      "group": "overnight",
      "note": "typical-price VWAP"
     },
@@ -260,14 +260,14 @@
     }
    ],
    "stats": {
-    "last_bar_utc": "2026-11-06T14:00:00+00:00",
-    "last_bar_age_min": 10.7,
+    "last_bar_utc": "2026-11-06T14:15:00+00:00",
+    "last_bar_age_min": 11.0,
     "market_state": "open",
     "profile_volume": 2893197.0,
     "prior_day": "2026-11-05",
     "prior_day_rth_range": 335.25,
     "overnight_range": 105.0,
-    "gap_vs_prior_close": 16.0,
+    "gap_vs_prior_close": 9.0,
     "gap_basis": "last price (pre-market)",
     "atr14": 127.38,
     "atr_days": 14,
@@ -1496,19 +1496,27 @@
      "t": "2026-11-06T14:00:00+00:00",
      "o": 7394.75,
      "h": 7400.25,
-     "l": 7394.5,
-     "c": 7397.25,
-     "v": 0.0
+     "l": 7382.0,
+     "c": 7391.25,
+     "v": 22801.0
+    },
+    {
+     "t": "2026-11-06T14:15:00+00:00",
+     "o": 7391.25,
+     "h": 7391.75,
+     "l": 7388.5,
+     "c": 7390.25,
+     "v": 1212.0
     }
    ]
   },
   {
    "root": "NQ",
    "trading_day": "2026-11-06",
-   "as_of_utc": "2026-11-06T14:10:39.529349+00:00",
+   "as_of_utc": "2026-11-06T14:25:59.689736+00:00",
    "source": "yahoo",
    "delayed": true,
-   "last_price": 27162.5,
+   "last_price": 27130.75,
    "levels": [
     {
      "tag": "wh",
@@ -1557,7 +1565,7 @@
      "label": "Overnight high",
      "price": 27251.5,
      "group": "overnight",
-     "note": "since 18:00 ET, 891 bars"
+     "note": "since 18:00 ET, 907 bars"
     },
     {
      "tag": "rn_major_up",
@@ -1567,8 +1575,8 @@
      "note": ""
     },
     {
-     "tag": "rn_minor_dn",
-     "label": "Round 50 below",
+     "tag": "rn_minor_up",
+     "label": "Round 50 above",
      "price": 27150.0,
      "group": "round",
      "note": ""
@@ -1583,7 +1591,7 @@
     {
      "tag": "onvwap",
      "label": "Overnight VWAP",
-     "price": 26975.5,
+     "price": 26984.57,
      "group": "overnight",
      "note": "typical-price VWAP"
     },
@@ -1645,14 +1653,14 @@
     }
    ],
    "stats": {
-    "last_bar_utc": "2026-11-06T14:00:00+00:00",
-    "last_bar_age_min": 10.7,
+    "last_bar_utc": "2026-11-06T14:16:00+00:00",
+    "last_bar_age_min": 10.0,
     "market_state": "open",
     "profile_volume": 987089.9999999999,
     "prior_day": "2026-11-05",
     "prior_day_rth_range": 1510.25,
     "overnight_range": 885.0,
-    "gap_vs_prior_close": 416.0,
+    "gap_vs_prior_close": 384.25,
     "gap_basis": "last price (pre-market)",
     "atr14": 822.5,
     "atr_days": 14,
@@ -2879,11 +2887,19 @@
     },
     {
      "t": "2026-11-06T14:00:00+00:00",
-     "o": 27155.0,
+     "o": 27154.25,
      "h": 27180.0,
-     "l": 27154.0,
-     "c": 27162.5,
-     "v": 0.0
+     "l": 27068.0,
+     "c": 27144.5,
+     "v": 15743.0
+    },
+    {
+     "t": "2026-11-06T14:15:00+00:00",
+     "o": 27144.5,
+     "h": 27150.0,
+     "l": 27126.0,
+     "c": 27130.75,
+     "v": 498.0
     }
    ]
   }
@@ -2896,17 +2912,26 @@
     "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPcGlvOTBmMTk2MTlXR2stLU9IRlpIVDZCVjEyS0RqMGlveHFXcjRUc0JrNmpXMkFZTzRQU0FLbkY3eFdCdlBRTHNRa0YtVERhamxsTEhuSm9pSWRGXzFOT3E1ZnVIdlJ0YWk5WUxTeU9JeVpqbG1tM05LcEg4MnQwRGRVSWlNNkVvRWJlYS1JLU9vNEJ3RkZSdVpJUXRid01zTS1RYjBnWlpwWUp2bFJYY3Fmd0RqS1dq?oc=5",
     "source": "gnews_futures",
     "published_utc": "2026-11-06T13:45:11+00:00",
-    "score": 9.93,
+    "score": 9.89,
     "duplicates": 5
    },
    {
-    "id": "9b320d789e",
-    "title": "Traders raise bets of Fed rate hike after jobs report - Reuters",
-    "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQMF93ekZ4N2wtdW4zX1llS2FoZWpNVlhMLTRNOGVJTUktZmpLQUNBSzY2bW16Mm9mb3lrZERqNFZ6WkRmYkhBTG00Z2k2NFYyNTVLcmVBSkV5eVJRU1RwZFc5blM4MkRmcUxYU2hadXRWbVh0VXpjektqM1BGS3ZlZlNMeW43VWxmeE5TQm13d0E3bTVwUnp5dzFFNA?oc=5",
-    "source": "gnews_fed",
-    "published_utc": "2026-11-06T13:51:45+00:00",
+    "id": "d09a7f81de",
+    "title": "Traders raise bets of Fed rate hike after jobs report By Reuters - Investing.com",
+    "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNRU5wVGRCSjZOdElwY252eE85OHh2QnFaTXZfVHBhd3hXaE4zZC1CWmVZamJUaDRRQXREb3QxdGVXUTJNR2RCUWw5ZVlKRG5RYVY1REQ0RlVQbzFGQ2p3Vk5HeDJLUEhNZkVrNDZLcjByMWctcW9vNjVlcDdaY1VjRUlRSVRYT0t3MjdLTXZsaEVaVzRFRDZEQ3FQTERiWWtlaDlNekVCTlY?oc=5",
+    "source": "gnews_macro",
+    "published_utc": "2026-11-06T14:06:12+00:00",
     "score": 9.45,
     "duplicates": 4
+   },
+   {
+    "id": "51c1a79184",
+    "title": "U.S. stock futures show little reaction to blockbuster jobs report, yields spike By Investing.com - Investing.com India",
+    "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxOLWJoNFRvOHNLWDdBMlozb1VWSGFsTm9jd0Nzck5LZS1ScG5faTN6dF9tZDhBTXhPYmp5T0tPME5yNnhOQnNyRFJ6QlJMWmhBaGtRTkJtbXh6dDRBQlhaUkhDYVpBUndvcnpIQ2I2bGJ0UGViY0JNU3NxVWtzOGRuT1hLTnR3eENHVTdTYi02ZEROWF94V29icl9hVWIzdzdWcERVYXlLMmkwd05ZUFhqTEo1b181TVQ5WWhEMmpyR19OSGhNZHhSVmxn?oc=5",
+    "source": "gnews_futures",
+    "published_utc": "2026-11-06T13:45:16+00:00",
+    "score": 9.39,
+    "duplicates": 0
    },
    {
     "id": "ec5d89c5b8",
@@ -2914,7 +2939,7 @@
     "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQYzZucHoyRUR3UFJfNFhCZXlyYTRrUlVRdnNRU1JEa3VRTkQ0Ry1zcjVBUE1XZUVUZDBaS3paOF9BY29Kd1JWaUIxMGhvNE5KcVQyTVRiMFIzV0dPMmM3WmFIa0hST3RyaERkc3g2Tkh0Sk1EeDFDbVhJVG9vWFF4UTFzOVB0b0k2MXVxODg0MDB0cDN5ZEl5RVJLRzlrVWdwTmR0aEE0QkoyNkN3RFB1TUdUY2hwWGVCMGVieUxlMExjdw?oc=5",
     "source": "gnews_futures",
     "published_utc": "2026-11-06T13:41:15+00:00",
-    "score": 8.92,
+    "score": 8.88,
     "duplicates": 3
    },
    {
@@ -2923,16 +2948,16 @@
     "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOMEcxRlBEcDZLR2pOTnVhWTZkSkZJdl82RXFheFJhNzhFQVJYZEJRX216WnRMTm5RaHBUcHhpa0xjYUJFRDA4NUQ1aVh3R3d3M1Q2T09lZU5PUzdaVjA4LWJMZkVXR012OTFwcW5ocXpCWlhXeTZMZkNhTmdlUDNfSTJROHNlcDBoZzhsX1NIVERDQ012dEpXU0FtczFCcnFoRDc5V2lfMDFfV2JPeTdISUJOa3htZ2VXU2MtTmkxUENYVGtR?oc=5",
     "source": "gnews_futures",
     "published_utc": "2026-11-06T11:33:55+00:00",
-    "score": 8.56,
+    "score": 8.52,
     "duplicates": 1
    },
    {
-    "id": "e858c11b04",
-    "title": "Nasdaq Futures Rally After Asian AI Rout as Investors Brace for Jobs Day - Yahoo Finance",
-    "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQOHZzRlNUTy1peVlRbVEzRVE0UDBhWkdyQXRNM0RVM3ZQckEta09hampVaEdGSmZBcU1wR1cxRTNZVGstQ0RYRElGQ09GRzY0RWxOeDRyOTBEZGpFRVVVZ256bHQ4d3lBbVFWZnNXRVJ0bDBaaVlTZWlmSVdUSFg1bXdaaW5sVFJzNllTTHJlbjVPVkR0Ym1VV3lR?oc=5",
+    "id": "90cfb5ec1c",
+    "title": "Nasdaq Futures Rally After Asian AI Rout as Investors Brace for Jobs Day - WSJ",
+    "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPeFByUUZ4blNDWU4zaHpuR2hnNnp2eGJ6bDhMT1pkMXM0UnpHRHhrVndZWFJTNElLMFpUUTVPNE9tYVpsM09XWVRXWXUxUW0tX3Z3QXYwWFMyNGwzTHkzc0MyaV84TjBIeDVlbFZmRE1SeVN0OG1OTzRrNWp1Si1WRzdPbnltaWgtcTQtQmJZamFEeVlEWHI4bUNISU1Fc0oya18wZ01SV3gxUlRTd1JYTEx3YTYyZ1NU?oc=5",
     "source": "gnews_futures",
     "published_utc": "2026-11-06T13:11:00+00:00",
-    "score": 8.33,
+    "score": 8.29,
     "duplicates": 2
    },
    {
@@ -2941,7 +2966,7 @@
     "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPUGdxQlg5RDNfVzMtLXFsVXZKU2RJeUFjZmwwWE9taVN4YUlNTnNlb3FvalpnWFNNUENOcGJIejRWWkp5R0dLZFRSbURaT3BZaTMwSDVQQ3FZbG1JQVBxRm8wa0ozYVFWQUY3VlBsNkNESkpYUndwN1NoNndsMXBfY2J1UmZRTE9oUzh5VkRRWFNrQzA3S0wxZGRYOTBLeG5ncEg2LXVjNEJldDg?oc=5",
     "source": "gnews_macro",
     "published_utc": "2026-11-06T13:06:11+00:00",
-    "score": 7.82,
+    "score": 7.78,
     "duplicates": 1
    },
    {
@@ -2950,7 +2975,7 @@
     "link": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxPcTF5S2huRmxYQ2pYUXBkN1dQa09MWHVQRFNzdUtqMHotblRHNkMxbGZsMmVOdF9ZdV84eDhzTUVZWW10MHdaUVpVSFBZNTVYVWZaV0dtMXM3Nm1VQm5mNUFlanFtTERvVWJQQ1ozT085ckFQNUNEVFFQUUhhXzhuVGtuMzFDVWh0WTdhS2laS0tvQndmRFJ2QlpEYzgzUTB2akZfQ0ZnTm9uVkNVZ3pHNEF4NktYN203NjlnQnQ5a1UxZW4zaGlXTlVLdUlxSTZXVlRSWDVKclpEMFU?oc=5",
     "source": "gnews_macro",
     "published_utc": "2026-11-06T12:14:00+00:00",
-    "score": 7.68,
+    "score": 7.63,
     "duplicates": 0
    },
    {
@@ -2959,17 +2984,8 @@
     "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxOdlUyRzZxV01QTEhhbGpPaDNBVmVwWl8yZkhNcHF2bFlUb293RUNkM3hudF9RYkVlQmZMQTF1ZmZCVnBOd2ZodlJYWFJuOVFmQnJVZkZfc1BfelE5Zzk2RE9zZVExOHVtU3dzcTlzckxnNEVFUnZwMnpJYmZ5VDdaT0cyQzBKVUJUenluSk5uQU1FcUZIZmd5Ym96elpWZWFGTHd1WEFERlZaX1p6LS15a09CR0ZubF9NQ1lQa25fVUVua0VrcXRobEZxenhuZw?oc=5",
     "source": "gnews_futures",
     "published_utc": "2026-11-06T12:10:11+00:00",
-    "score": 7.67,
+    "score": 7.62,
     "duplicates": 1
-   },
-   {
-    "id": "e6d113c850",
-    "title": "U.S. stock futures show little reaction to blockbuster jobs report, yields spike - Investing.com UK",
-    "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNbVd0THZUU0lyUjE4SVFvbFZlc1Q4STV1dktxYUdXclpvbGNkNV9yUmJNU3hRSlpWbFF4cTlvRkc1SS1zOFVkS21HZFdCT2xMeXV4Z1R4cWhHa1U0RC10ZUxiMTQ4ZzNGcG01RGJScEZfeXJ5UklDX0gtRjBobTJQejNiQUl1SHF4V1NtSUFqTUZaR1hiMUtUWXdfY0dTckRfQU5walBiUkVFcVFMNDhfM1dxWERGdEJpV01DbmFRb25CUC1HLURjemhn?oc=5",
-    "source": "gnews_futures",
-    "published_utc": "2026-11-06T01:58:00+00:00",
-    "score": 7.5,
-    "duplicates": 0
    },
    {
     "id": "f636cda5d2",
@@ -2977,7 +2993,7 @@
     "link": "https://www.cnbc.com/investingclub/2026/11/06/our-top-10-things-to-watch-in-the-stock-market-friday.html",
     "source": "cnbc_markets",
     "published_utc": "2026-11-06T14:01:45+00:00",
-    "score": 7.48,
+    "score": 7.43,
     "duplicates": 0
    },
    {
@@ -2986,26 +3002,26 @@
     "link": "https://news.google.com/rss/articles/CBMigwJBVV95cUxQVTNLT3MwNzZCdXdEUHc0dUxKTUk2RFJ6NFhRdHdUUEhNSjliRzJseU5ROVNEV0padnVFdXRQUTFwdHA4NTZtTkhwRmpCakduemJ5V0Y3ajloc3lQb2p5SmNvNUZKWFBIb0kxSGV6c1JxQ1NvMlRqMlg2V0IzMmZDYnR4STJwdk0xNE5RVEtZRkhzanJTVkdrcDY1LVhmUERSLTNGdXE4X204X2ticjBxTS1OdEswaEU3aWRfb3JjdEZYc2VLczJsMl9xa3NvNERBVE9YQktTcERybHl6UzBKeGc0dHlFVjgtaldJejRFT0RTa0pBRFFDdEZhblNTaE5BQU1n?oc=5",
     "source": "gnews_macro",
     "published_utc": "2026-11-06T14:01:00+00:00",
-    "score": 7.47,
+    "score": 7.43,
     "duplicates": 0
    },
    {
-    "id": "90e7e42acb",
-    "title": "Blockbuster October jobs report keeps Fed rate hike in play for December - Yahoo! Finance Canada",
-    "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQQmRfMVdUYVBQUW5kRHdyRlgxdkRRQ09nbjNOZWw5eHB5eElsQXhjZVRaeTE0SkhPMUM1X3dYekhsb0dURW5fbE5LNi0wODg3cEpJa3NUbU9XcE1DMlozbVJkVWlYajVqaEtmLUFpS0s0Ym40TUg0Q1pYYnd3SG5KMUJBbkhYZDNfekU2T1pQaHItdVN4LVJueFluXzZzMkhRZ3JzWW5Pb0tlYnFhZkxla1FuWGM5UHh2bXBOMUZ3?oc=5",
-    "source": "gnews_macro",
-    "published_utc": "2026-11-06T13:53:25+00:00",
-    "score": 7.45,
+    "id": "3e90ca329f",
+    "title": "Nasdaq Futures Rebound Ahead of Nonfarm Payrolls - Moomoo",
+    "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNenJnNDVkaC0yalNpMFRpSXJzRWdhUk9FalRkb2hsdkpXXzhpSVpvSHphRnpHMkd0OUlMZkNiano5ZFNya1ZCQzNSakFCUGRXSjFwQnB3TnpiNDdHb0dIREpWVnpfTHd2NV9tNHFkZkpXQm4tak01ckJXN1pRWU5CRnItT1Fxa1dZcDAxM01XU3JfX1FXSmpVM0RBMlpCY1F5V3FPaQ?oc=5",
+    "source": "gnews_futures",
+    "published_utc": "2026-11-06T13:04:54+00:00",
+    "score": 7.27,
     "duplicates": 0
    }
   ],
   "summary": {
    "lines": [
     "S&P 500 futures pare gains after October non-farm payrolls data By Reuters - Investing.com Canada [b8de4cb753]",
-    "Traders raise bets of Fed rate hike after jobs report - Reuters [9b320d789e]",
+    "Traders raise bets of Fed rate hike after jobs report By Reuters - Investing.com [d09a7f81de]",
+    "U.S. stock futures show little reaction to blockbuster jobs report, yields spike By Investing.com - Investing.com India [51c1a79184]",
     "Nasdaq futures rise after steep AI selloff as chip stocks stabilize By Reuters - Investing.com [ec5d89c5b8]",
-    "Nasdaq Futures Climb as Chip Stocks Bounce After Rout; Key U.S. Jobs Report in Focus - Barchart.com [c16ec60978]",
-    "Nasdaq Futures Rally After Asian AI Rout as Investors Brace for Jobs Day - Yahoo Finance [e858c11b04]"
+    "Nasdaq Futures Climb as Chip Stocks Bounce After Rout; Key U.S. Jobs Report in Focus - Barchart.com [c16ec60978]"
    ],
    "backend": "none",
    "model": null,
