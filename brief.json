@@ -1,7 +1,7 @@
 {
  "meta": {
-  "generated_at_utc": "2026-11-06T12:41:29.968968+00:00",
-  "generated_at_local": "Fri 06 Nov 2026 08:41 AST",
+  "generated_at_utc": "2026-11-06T12:56:46.656428+00:00",
+  "generated_at_local": "Fri 06 Nov 2026 08:56 AST",
   "trading_day": "2026-11-06",
   "display_tz": "America/Halifax",
   "version": "0.1.0",
@@ -109,7 +109,7 @@
    "time_utc": "2026-11-06T13:30:00+00:00",
    "local": "09:30 AST",
    "et": "08:30 ET",
-   "in": "48 min",
+   "in": "33 min",
    "consensus": "0.3%",
    "prior": "0.1%"
   },
@@ -120,10 +120,10 @@
   {
    "root": "ES",
    "trading_day": "2026-11-06",
-   "as_of_utc": "2026-11-06T12:41:29.968968+00:00",
+   "as_of_utc": "2026-11-06T12:56:46.656428+00:00",
    "source": "yahoo",
    "delayed": true,
-   "last_price": 7403.0,
+   "last_price": 7393.75,
    "levels": [
     {
      "tag": "wh",
@@ -168,25 +168,11 @@
      "note": "ATR over 14 days"
     },
     {
-     "tag": "rn_major_up",
-     "label": "Round 50 above",
-     "price": 7450.0,
-     "group": "round",
-     "note": ""
-    },
-    {
      "tag": "onh",
      "label": "Overnight high",
      "price": 7427.25,
      "group": "overnight",
-     "note": "since 18:00 ET, 802 bars"
-    },
-    {
-     "tag": "rn_minor_up",
-     "label": "Round 25 above",
-     "price": 7425.0,
-     "group": "round",
-     "note": ""
+     "note": "since 18:00 ET, 817 bars"
     },
     {
      "tag": "poc",
@@ -196,11 +182,18 @@
      "note": "2026-11-05 RTH, bin 0.25"
     },
     {
-     "tag": "rn_major_dn",
-     "label": "Round 50 below",
+     "tag": "rn_major_up",
+     "label": "Round 50 above",
      "price": 7400.0,
      "group": "round",
      "note": ""
+    },
+    {
+     "tag": "onvwap",
+     "label": "Overnight VWAP",
+     "price": 7388.33,
+     "group": "overnight",
+     "note": "typical-price VWAP"
     },
     {
      "tag": "val",
@@ -208,13 +201,6 @@
      "price": 7388.25,
      "group": "profile",
      "note": "70 % value area"
-    },
-    {
-     "tag": "onvwap",
-     "label": "Overnight VWAP",
-     "price": 7388.09,
-     "group": "overnight",
-     "note": "typical-price VWAP"
     },
     {
      "tag": "pdc",
@@ -229,6 +215,20 @@
      "price": 7377.25,
      "group": "prior_day",
      "note": "2026-11-05"
+    },
+    {
+     "tag": "rn_minor_dn",
+     "label": "Round 25 below",
+     "price": 7375.0,
+     "group": "round",
+     "note": ""
+    },
+    {
+     "tag": "rn_major_dn",
+     "label": "Round 50 below",
+     "price": 7350.0,
+     "group": "round",
+     "note": ""
     },
     {
      "tag": "pgl",
@@ -260,14 +260,14 @@
     }
    ],
    "stats": {
-    "last_bar_utc": "2026-11-06T12:31:00+00:00",
-    "last_bar_age_min": 10.5,
+    "last_bar_utc": "2026-11-06T12:46:00+00:00",
+    "last_bar_age_min": 10.8,
     "market_state": "open",
     "profile_volume": 2893197.0,
     "prior_day": "2026-11-05",
     "prior_day_rth_range": 335.25,
     "overnight_range": 105.0,
-    "gap_vs_prior_close": 21.75,
+    "gap_vs_prior_close": 12.5,
     "gap_basis": "last price (pre-market)",
     "atr14": 127.38,
     "atr_days": 14,
@@ -1448,19 +1448,27 @@
      "t": "2026-11-06T12:30:00+00:00",
      "o": 7405.5,
      "h": 7406.0,
-     "l": 7399.5,
-     "c": 7403.0,
-     "v": 750.0
+     "l": 7392.5,
+     "c": 7395.0,
+     "v": 8858.0
+    },
+    {
+     "t": "2026-11-06T12:45:00+00:00",
+     "o": 7395.0,
+     "h": 7395.75,
+     "l": 7392.25,
+     "c": 7393.75,
+     "v": 897.0
     }
    ]
   },
   {
    "root": "NQ",
    "trading_day": "2026-11-06",
-   "as_of_utc": "2026-11-06T12:41:29.968968+00:00",
+   "as_of_utc": "2026-11-06T12:56:46.656428+00:00",
    "source": "yahoo",
    "delayed": true,
-   "last_price": 27178.25,
+   "last_price": 27142.25,
    "levels": [
     {
      "tag": "wh",
@@ -1509,7 +1517,7 @@
      "label": "Overnight high",
      "price": 27251.5,
      "group": "overnight",
-     "note": "since 18:00 ET, 802 bars"
+     "note": "since 18:00 ET, 817 bars"
     },
     {
      "tag": "rn_major_up",
@@ -1519,8 +1527,8 @@
      "note": ""
     },
     {
-     "tag": "rn_minor_dn",
-     "label": "Round 50 below",
+     "tag": "rn_minor_up",
+     "label": "Round 50 above",
      "price": 27150.0,
      "group": "round",
      "note": ""
@@ -1535,7 +1543,7 @@
     {
      "tag": "onvwap",
      "label": "Overnight VWAP",
-     "price": 26947.92,
+     "price": 26950.98,
      "group": "overnight",
      "note": "typical-price VWAP"
     },
@@ -1597,14 +1605,14 @@
     }
    ],
    "stats": {
-    "last_bar_utc": "2026-11-06T12:31:00+00:00",
-    "last_bar_age_min": 10.5,
+    "last_bar_utc": "2026-11-06T12:46:00+00:00",
+    "last_bar_age_min": 10.8,
     "market_state": "open",
     "profile_volume": 987089.9999999999,
     "prior_day": "2026-11-05",
     "prior_day_rth_range": 1510.25,
     "overnight_range": 885.0,
-    "gap_vs_prior_close": 431.75,
+    "gap_vs_prior_close": 395.75,
     "gap_basis": "last price (pre-market)",
     "atr14": 822.5,
     "atr_days": 14,
@@ -2785,9 +2793,17 @@
      "t": "2026-11-06T12:30:00+00:00",
      "o": 27189.0,
      "h": 27193.5,
-     "l": 27153.75,
-     "c": 27178.25,
-     "v": 242.0
+     "l": 27123.0,
+     "c": 27147.0,
+     "v": 3218.0
+    },
+    {
+     "t": "2026-11-06T12:45:00+00:00",
+     "o": 27145.5,
+     "h": 27154.75,
+     "l": 27130.0,
+     "c": 27142.25,
+     "v": 187.0
     }
    ]
   }
@@ -2800,7 +2816,7 @@
     "link": "https://www.marketwatch.com/story/after-wall-streets-worst-selloff-since-the-2025-tariff-shock-heres-what-investors-need-to-watch-next-6e2e629a?mod=mw_rss_topstories",
     "source": "marketwatch_top",
     "published_utc": "2026-11-06T12:14:00+00:00",
-    "score": 9.92,
+    "score": 9.88,
     "duplicates": 1
    },
    {
@@ -2809,16 +2825,16 @@
     "link": "https://www.cnbc.com/2026/11/06/tech-stocks-sk-hynix-samsung-softbank.html",
     "source": "cnbc_markets",
     "published_utc": "2026-11-06T11:06:58+00:00",
-    "score": 9.24,
+    "score": 9.19,
     "duplicates": 0
    },
    {
-    "id": "7804c44849",
-    "title": "NASDAQ Futures Rise After Steep AI Selloff As Chip Stocks Gain Ground - Deccan Chronicle",
-    "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPRHhleldzcUVEZ0FZdklPekhzRWdLeWhEa05iQjJGNElQTFZoSjJUcHlkaFREV0JyVlFVYWV4bGZiaFk2MmZrSGFBeXl3bHhuUjU2WWp3alpyMnhZZ2xMZDRHaUFUb0FYSEQ5M1g4TTJ3RDluLUg4SVhwZnpOcm91TVBoRE5Mb2VXeHBOMlMxQXMzUVZfWC1ic1B3Yk5Oa2lBM3lwaFBleWxGb0NEY3pJdmNOME81Nm53WEMzbWg4RUdOQkHSAcgBQVVfeXFMTmJQaGc0enFRdHBpbXBpMjVib0lXUjhPMDNlUWhmVWNiTjhheUk0ZmEtQy1ycFhadUtaSXdIblpqMklyT09pZFpoRHg3TW9OSjVmTVJnMmhCWlFqdVUwTkVoNF9QemxQRHdmd3hRUWhmQXAwQUdhYTJoT2ZSM0tURVRYVnFraHNZOVBKcWN3RzBrN1F4Tm9OM2tHLXdRYWZyQTRQSGhrWkJFT0FqSlIzU3NNd3hCYld4WmhoSGltcXJpa2lvajY4VmQ?oc=5",
+    "id": "4db7683a1e",
+    "title": "Nasdaq futures rise after steep AI selloff as chip stocks stabilize - Reuters",
+    "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQang5czlMS1c0LVRiTWdNdXItcDlKcTgyOXplSVVGRHljMGVrVG1KVGJTclR0TmtjWjFob0t1QWh6OTdkNzltaDJhTi1fdUdkM2tOb01JaVVlaVRWcWVTdkZFbmdBYlgxY2ktWVh6eFdZRVczekVTdFRCSWtOSzBGVnNCWHpFNFFXWFE2WDVQUjFCa19tbUhzNzdlNksyNFBqek4tcXdrcjVIVTQxMkE?oc=5",
     "source": "gnews_futures",
-    "published_utc": "2026-11-06T12:33:29+00:00",
-    "score": 8.98,
+    "published_utc": "2026-11-06T12:44:05+00:00",
+    "score": 8.96,
     "duplicates": 3
    },
    {
@@ -2827,7 +2843,7 @@
     "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOMEcxRlBEcDZLR2pOTnVhWTZkSkZJdl82RXFheFJhNzhFQVJYZEJRX216WnRMTm5RaHBUcHhpa0xjYUJFRDA4NUQ1aVh3R3d3M1Q2T09lZU5PUzdaVjA4LWJMZkVXR012OTFwcW5ocXpCWlhXeTZMZkNhTmdlUDNfSTJROHNlcDBoZzhsX1NIVERDQ012dEpXU0FtczFCcnFoRDc5V2lfMDFfV2JPeTdISUJOa3htZ2VXU2MtTmkxUENYVGtR?oc=5",
     "source": "gnews_futures",
     "published_utc": "2026-11-06T11:33:55+00:00",
-    "score": 8.81,
+    "score": 8.77,
     "duplicates": 1
    },
    {
@@ -2836,16 +2852,25 @@
     "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxOdlUyRzZxV01QTEhhbGpPaDNBVmVwWl8yZkhNcHF2bFlUb293RUNkM3hudF9RYkVlQmZMQTF1ZmZCVnBOd2ZodlJYWFJuOVFmQnJVZkZfc1BfelE5Zzk2RE9zZVExOHVtU3dzcTlzckxnNEVFUnZwMnpJYmZ5VDdaT0cyQzBKVUJUenluSk5uQU1FcUZIZmd5Ym96elpWZWFGTHd1WEFERlZaX1p6LS15a09CR0ZubF9NQ1lQa25fVUVua0VrcXRobEZxenhuZw?oc=5",
     "source": "gnews_futures",
     "published_utc": "2026-11-06T12:10:11+00:00",
-    "score": 7.91,
+    "score": 7.87,
     "duplicates": 1
    },
    {
-    "id": "0915646fd2",
-    "title": "US inflation too high; essential to get back to 2%: Fed's Williams - Wichita Eagle",
-    "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE9WREloc18yMk5RYTlGMk9JQVNaZ2NkcG5kYlRHYWpMdkpLbWpQSjBQR0kwT1J5bXd0bmEydUNQbEhra0FHbHZvSzYxLWZKbmNVNnlGY2lrWEtqUThLeEg0YVFiQk9jX2xQbmR1bHVUZi1rQnhUMl9oM2Q0VQ?oc=5",
+    "id": "4245e7ada8",
+    "title": "US inflation too high; essential to get back to 2%: Fed's Williams - Fort Worth Star-Telegram",
+    "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOYTlMS3l5dHFZV3VYeTZkc1FscC02SDNSd0g4UEFXR0U5RjBzdk11ZGplWmM4SGNhdmZ6X0dSZ2pwTFd3cTB0T212OUlFMlJPLVpIN05hd094dDJ4OFpGT2J0dHZ5UDNLQzJ0clV0RHA2ckRpbkpHVW1pLXd2OTJCbHlGV0E?oc=5",
     "source": "gnews_fed",
-    "published_utc": "2026-11-06T11:00:08+00:00",
-    "score": 7.72,
+    "published_utc": "2026-11-06T10:55:08+00:00",
+    "score": 7.66,
+    "duplicates": 1
+   },
+   {
+    "id": "8b405a597c",
+    "title": "Nasdaq Futures Rally After Asian AI Rout as Investors Brace for Jobs Day -- Update - marketscreener.com",
+    "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxOTWZsSkNUWmltQTZHbHgwYnhUM0dmVi0zaGdlaUhyUnp0U1RmQnFKd2NVZGRVQy12Sy13ZXo4aFNNaGVJMzM2S2hJWEFlV25kamJGYTY1djhsdUhRRFBGTXNSN09EUVpkcEZnQXlZYW9DaVJKVjJPWDBndEY1VHktZlFWSUNQUnl6S28yaHBqZHQwQ3pLZW9VRjZqQTYzdFkyWmk1R1ViU0VPY0pMUDhpOTRLYWdGbTI3bVlvWDdYTlBtZlZ0empSRjJNM1o?oc=5",
+    "source": "gnews_futures",
+    "published_utc": "2026-11-06T10:15:36+00:00",
+    "score": 7.55,
     "duplicates": 1
    },
    {
@@ -2854,17 +2879,17 @@
     "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNejlpWUc4VUFvcFM5UHNqNjFVR1phSkVfMVdfOEtnSEdXSmhQcndibElOb1pvQVplbm83MXNpSWhmY255cjN1TjVCOENBdmRtOEZVdW5lTVBrbnpqMHpXSk14M2VJSVJNYk5IVFpEVmpQbGNzMnVWbUkwVlhFcVRweFpsRVVHaTl3bGttQ2VMTDV5cWlELWN2UDBSdHhwRjFBU3ZkS3lGcUlqeG1rd0RKMkc3QkxsVTZwcWM5WVlITzloRG1YVFJZQ25yRQ?oc=5",
     "source": "gnews_futures",
     "published_utc": "2026-11-06T07:07:30+00:00",
-    "score": 7.57,
+    "score": 7.53,
     "duplicates": 0
    },
    {
-    "id": "90cfb5ec1c",
-    "title": "Nasdaq Futures Rally After Asian AI Rout as Investors Brace for Jobs Day - WSJ",
-    "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPeFByUUZ4blNDWU4zaHpuR2hnNnp2eGJ6bDhMT1pkMXM0UnpHRHhrVndZWFJTNElLMFpUUTVPNE9tYVpsM09XWVRXWXUxUW0tX3Z3QXYwWFMyNGwzTHkzc0MyaV84TjBIeDVlbFZmRE1SeVN0OG1OTzRrNWp1Si1WRzdPbnltaWgtcTQtQmJZamFEeVlEWHI4bUNISU1Fc0oya18wZ01SV3gxUlRTd1JYTEx3YTYyZ1NU?oc=5",
-    "source": "gnews_futures",
-    "published_utc": "2026-11-06T10:06:00+00:00",
-    "score": 7.57,
-    "duplicates": 1
+    "id": "8abce7d09a",
+    "title": "Goldman’s new gold target: Why the Wall Street bank is saying it’s early to buy the yellow metal",
+    "link": "https://www.marketwatch.com/story/goldmans-new-gold-target-why-the-wall-street-bank-is-saying-its-early-to-buy-the-yellow-metal-d8ae35e0?mod=mw_rss_topstories",
+    "source": "marketwatch_top",
+    "published_utc": "2026-11-06T12:47:00+00:00",
+    "score": 7.47,
+    "duplicates": 0
    },
    {
     "id": "32740298ba",
@@ -2872,7 +2897,7 @@
     "link": "https://news.google.com/rss/articles/CBMi_gFBVV95cUxOX1ItRl94OUZjR01YZzVMLXlyNlNYbmRNb2VWNS1PMHBGY1NuUnppa2dhUW4teHQ5WjVWRm5rcjlEdHdmSWFHN2dFZ013UHZ6VjczcTBpZnNDdzlvelA5ZXZUS0tVUjQ2MWVhbUhKM2JsQmdya0lMOGszck5XT1RFUFFHWWNZUUpUUnlGei1NX21BSmFjdm5ueWd3cWd5N0ZtaFVkUFVZblQwZTJxQ2xYNU5tOWgtWm1UQjRQQVBIYnJUNGZyc2l0YXp2Zzd2YUxfaFNQbmZncEpWZHI5QllQWEk0VVNOU1ctNkNMdjhVbTM5VS1UdVpOU1ItMU1Rdw?oc=5",
     "source": "gnews_futures",
     "published_utc": "2026-11-06T11:45:00+00:00",
-    "score": 7.34,
+    "score": 7.3,
     "duplicates": 0
    },
    {
@@ -2881,16 +2906,7 @@
     "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNR05sbjJYQms1ODBsSHRqR1BMY2VLNTZpRERqb1BuYk5KdGFTdUJfWEdNZFlJT3JsSl9ZWFBGWUJjellkUDJQb1dJQkwwVnlGek1RdS1GQlpZaFJHMHZDMjJUY3FVdVIxT1VHakVJN3ltWkFjc3kya2Uyc241VVhoM3BQbUh6d3BjMjIxNS1SRmZrdWNSUEdVR1RSLURlR044TTF5ajN2ZURXVHQ0OFhB?oc=5",
     "source": "gnews_futures",
     "published_utc": "2026-11-06T11:25:55+00:00",
-    "score": 7.29,
-    "duplicates": 0
-   },
-   {
-    "id": "242d5efaf5",
-    "title": "New York Fed President Says Inflation \"Clearly Too High,\" Stresses Return to 2% - BigGo Finance",
-    "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9mYUQzZHdrUGdmQ3NpYm5JVXNsUlBLSEhFTEpJd01nQl8yVWZIVm5vTTZTTG5QN25pMHVpRXhGWW5mbjVxRU1YMWNYM2Mxams4dHZhVkpNWjBYOGFqc3RjRDloQXJPb0Q1TnV4OGFxV3FCOUNVcGc?oc=5",
-    "source": "gnews_fed",
-    "published_utc": "2026-11-06T11:05:00+00:00",
-    "score": 7.23,
+    "score": 7.25,
     "duplicates": 0
    },
    {
@@ -2899,7 +2915,7 @@
     "link": "https://news.google.com/rss/articles/CBMijwJBVV95cUxPM0lNVS1aWUE0a0lKUzQ0T25KMW9rbHB5U21xWnZxak5KdzJ1Yk9hc1Boc0drdEFIRTZZMW5TTXZBOWZJVzduSjdOWHJ1UC13d1MwalREdW9UNXh3aGMyb0p1dk1fVjNyWjR1MGN6ZzBYOWRwVmlBQ3ZSRFFfcmZyV3JEeGx6N19zZjBtVUxWR3pUbFpPbXV5ZmRBNTVuX3FIZEo4OGV1aU40TXJsRDRHaDZDR2s4VGhGRmdyRVcyOS1wUW1FMmEzNE1VOXE5UDZ3S1E2eDVLT1BxWVZlQndKbHFhZXhzTE1Sd0QxbmNHMTB5S0U4ZThkcTlWWWdSMU94Yk9ibVo2eG5UX3Myam1R?oc=5",
     "source": "gnews_futures",
     "published_utc": "2026-11-06T10:14:49+00:00",
-    "score": 7.09,
+    "score": 7.05,
     "duplicates": 0
    }
   ],
@@ -2907,7 +2923,7 @@
    "lines": [
     "After Wall Street’s worst selloff since the 2025 tariff shock, here’s what investors need to watch next [dbfa9fa5cf]",
     "Nasdaq sell-off batters Asian chip stocks as SK Hynix, Samsung, Softbank, TSMC tumble [fe67e64a8c]",
-    "NASDAQ Futures Rise After Steep AI Selloff As Chip Stocks Gain Ground - Deccan Chronicle [7804c44849]",
+    "Nasdaq futures rise after steep AI selloff as chip stocks stabilize - Reuters [4db7683a1e]",
     "Nasdaq Futures Climb as Chip Stocks Bounce After Rout; Key U.S. Jobs Report in Focus - Barchart.com [c16ec60978]",
     "Nasdaq futures rise up to 1.5% amid value buying after steep AI selloff - TradingView [d8a3beef45]"
    ],
