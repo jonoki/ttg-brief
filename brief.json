@@ -1,7 +1,7 @@
 {
  "meta": {
-  "generated_at_utc": "2026-11-06T13:40:06.249330+00:00",
-  "generated_at_local": "Fri 06 Nov 2026 09:40 AST",
+  "generated_at_utc": "2026-11-06T13:55:19.323362+00:00",
+  "generated_at_local": "Fri 06 Nov 2026 09:55 AST",
   "trading_day": "2026-11-06",
   "display_tz": "America/Halifax",
   "version": "0.1.0",
@@ -109,7 +109,7 @@
    "time_utc": "2026-11-06T15:00:00+00:00",
    "local": "11:00 AST",
    "et": "10:00 ET",
-   "in": "1h 19m",
+   "in": "1h 04m",
    "consensus": "48.1",
    "prior": "46.3"
   },
@@ -120,10 +120,10 @@
   {
    "root": "ES",
    "trading_day": "2026-11-06",
-   "as_of_utc": "2026-11-06T13:40:06.249330+00:00",
+   "as_of_utc": "2026-11-06T13:55:19.323362+00:00",
    "source": "yahoo",
    "delayed": true,
-   "last_price": 7387.25,
+   "last_price": 7388.75,
    "levels": [
     {
      "tag": "wh",
@@ -172,7 +172,7 @@
      "label": "Overnight high",
      "price": 7427.25,
      "group": "overnight",
-     "note": "since 18:00 ET, 861 bars"
+     "note": "since 18:00 ET, 876 bars"
     },
     {
      "tag": "poc",
@@ -191,7 +191,7 @@
     {
      "tag": "onvwap",
      "label": "Overnight VWAP",
-     "price": 7388.59,
+     "price": 7388.82,
      "group": "overnight",
      "note": "typical-price VWAP"
     },
@@ -260,14 +260,14 @@
     }
    ],
    "stats": {
-    "last_bar_utc": "2026-11-06T13:30:00+00:00",
-    "last_bar_age_min": 10.1,
+    "last_bar_utc": "2026-11-06T13:45:00+00:00",
+    "last_bar_age_min": 10.3,
     "market_state": "open",
     "profile_volume": 2893197.0,
     "prior_day": "2026-11-05",
     "prior_day_rth_range": 335.25,
     "overnight_range": 105.0,
-    "gap_vs_prior_close": 6.0,
+    "gap_vs_prior_close": 7.5,
     "gap_basis": "last price (pre-market)",
     "atr14": 127.38,
     "atr_days": 14,
@@ -1481,7 +1481,15 @@
      "o": 7401.5,
      "h": 7402.5,
      "l": 7378.0,
-     "c": 7387.25,
+     "c": 7389.25,
+     "v": 22819.0
+    },
+    {
+     "t": "2026-11-06T13:45:00+00:00",
+     "o": 7389.0,
+     "h": 7394.0,
+     "l": 7388.0,
+     "c": 7388.75,
      "v": 0.0
     }
    ]
@@ -1489,10 +1497,10 @@
   {
    "root": "NQ",
    "trading_day": "2026-11-06",
-   "as_of_utc": "2026-11-06T13:40:06.249330+00:00",
+   "as_of_utc": "2026-11-06T13:55:19.323362+00:00",
    "source": "yahoo",
    "delayed": true,
-   "last_price": 27093.75,
+   "last_price": 27092.75,
    "levels": [
     {
      "tag": "wh",
@@ -1541,7 +1549,7 @@
      "label": "Overnight high",
      "price": 27251.5,
      "group": "overnight",
-     "note": "since 18:00 ET, 861 bars"
+     "note": "since 18:00 ET, 876 bars"
     },
     {
      "tag": "rn_major_up",
@@ -1567,7 +1575,7 @@
     {
      "tag": "onvwap",
      "label": "Overnight VWAP",
-     "price": 26960.75,
+     "price": 26968.57,
      "group": "overnight",
      "note": "typical-price VWAP"
     },
@@ -1629,14 +1637,14 @@
     }
    ],
    "stats": {
-    "last_bar_utc": "2026-11-06T13:30:00+00:00",
-    "last_bar_age_min": 10.1,
+    "last_bar_utc": "2026-11-06T13:45:00+00:00",
+    "last_bar_age_min": 10.3,
     "market_state": "open",
     "profile_volume": 987089.9999999999,
     "prior_day": "2026-11-05",
     "prior_day_rth_range": 1510.25,
     "overnight_range": 885.0,
-    "gap_vs_prior_close": 347.25,
+    "gap_vs_prior_close": 346.25,
     "gap_basis": "last price (pre-market)",
     "atr14": 822.5,
     "atr_days": 14,
@@ -2847,10 +2855,18 @@
     },
     {
      "t": "2026-11-06T13:30:00+00:00",
-     "o": 27161.25,
-     "h": 27178.0,
+     "o": 27168.75,
+     "h": 27191.25,
      "l": 27043.0,
-     "c": 27093.75,
+     "c": 27094.25,
+     "v": 12029.0
+    },
+    {
+     "t": "2026-11-06T13:45:00+00:00",
+     "o": 27094.5,
+     "h": 27117.0,
+     "l": 27086.25,
+     "c": 27092.75,
      "v": 0.0
     }
    ]
@@ -2859,22 +2875,22 @@
  "news": {
   "headlines": [
    {
-    "id": "fe67e64a8c",
-    "title": "Nasdaq sell-off batters Asian chip stocks as SK Hynix, Samsung, Softbank, TSMC tumble",
-    "link": "https://www.cnbc.com/2026/11/06/tech-stocks-sk-hynix-samsung-softbank.html",
-    "source": "cnbc_markets",
-    "published_utc": "2026-11-06T11:06:58+00:00",
-    "score": 9.11,
-    "duplicates": 0
+    "id": "179f103f94",
+    "title": "S&P 500 futures pare gains after October non-farm payrolls data - Columbus Ledger-Enquirer",
+    "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPbHZoNnBEeTN6TFJxS0lqRF9JMFlYZ2duOHAzcDUyX3lwVDRpUUpldW5ja0pzUVk1ejN0dzAzYURQNXdjcTZ4dGhGRHh3TFVmLTRhYlIwS0RZOHZhQW95SW9kOWRZZm5KTVRraEJTWDB3VkFMNDZPa0NWWTNRd0JVdTlWSkdfa00?oc=5",
+    "source": "gnews_futures",
+    "published_utc": "2026-11-06T13:48:10+00:00",
+    "score": 9.48,
+    "duplicates": 4
    },
    {
-    "id": "4db7683a1e",
-    "title": "Nasdaq futures rise after steep AI selloff as chip stocks stabilize - Reuters",
-    "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQang5czlMS1c0LVRiTWdNdXItcDlKcTgyOXplSVVGRHljMGVrVG1KVGJTclR0TmtjWjFob0t1QWh6OTdkNzltaDJhTi1fdUdkM2tOb01JaVVlaVRWcWVTdkZFbmdBYlgxY2ktWVh6eFdZRVczekVTdFRCSWtOSzBGVnNCWHpFNFFXWFE2WDVQUjFCa19tbUhzNzdlNksyNFBqek4tcXdrcjVIVTQxMkE?oc=5",
+    "id": "ec5d89c5b8",
+    "title": "Nasdaq futures rise after steep AI selloff as chip stocks stabilize By Reuters - Investing.com",
+    "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQYzZucHoyRUR3UFJfNFhCZXlyYTRrUlVRdnNRU1JEa3VRTkQ0Ry1zcjVBUE1XZUVUZDBaS3paOF9BY29Kd1JWaUIxMGhvNE5KcVQyTVRiMFIzV0dPMmM3WmFIa0hST3RyaERkc3g2Tkh0Sk1EeDFDbVhJVG9vWFF4UTFzOVB0b0k2MXVxODg0MDB0cDN5ZEl5RVJLRzlrVWdwTmR0aEE0QkoyNkN3RFB1TUdUY2hwWGVCMGVieUxlMExjdw?oc=5",
     "source": "gnews_futures",
-    "published_utc": "2026-11-06T12:44:05+00:00",
-    "score": 8.88,
-    "duplicates": 3
+    "published_utc": "2026-11-06T13:41:15+00:00",
+    "score": 9.46,
+    "duplicates": 4
    },
    {
     "id": "c16ec60978",
@@ -2882,17 +2898,26 @@
     "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOMEcxRlBEcDZLR2pOTnVhWTZkSkZJdl82RXFheFJhNzhFQVJYZEJRX216WnRMTm5RaHBUcHhpa0xjYUJFRDA4NUQ1aVh3R3d3M1Q2T09lZU5PUzdaVjA4LWJMZkVXR012OTFwcW5ocXpCWlhXeTZMZkNhTmdlUDNfSTJROHNlcDBoZzhsX1NIVERDQ012dEpXU0FtczFCcnFoRDc5V2lfMDFfV2JPeTdISUJOa3htZ2VXU2MtTmkxUENYVGtR?oc=5",
     "source": "gnews_futures",
     "published_utc": "2026-11-06T11:33:55+00:00",
-    "score": 8.68,
+    "score": 8.61,
     "duplicates": 1
    },
    {
-    "id": "59f396fdc3",
-    "title": "Nasdaq Futures Rally After Asian AI Rout as Investors Brace for Jobs Day -- 2nd Update - marketscreener.com",
-    "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxNS00zX25nVjZCMkJmdlV1RWVlMGlNU3M1SlQ5YkNSeTZ3b3g5eWJBN2YwWmVnUFNYYlljWDBmdkllNkk5MV9KWGJnNlVtTFFKaWxEc3hFN3hFTW5uWlhKOUFrR0FLbFd6RzJVZW5SUndYbHQ2V2VQS2lHNVNwWnFOVDdHcms4MXdVQ2xPeTl1dDdkc08wWFlvSTBhdDhONHBOODJTbWlqUzRNUkxhTnRNc0Q4TWkzZDVJbi1QWHhTVHJLN3diR3JsLTNQNkZYTHB5d0E?oc=5",
+    "id": "e858c11b04",
+    "title": "Nasdaq Futures Rally After Asian AI Rout as Investors Brace for Jobs Day - Yahoo Finance",
+    "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQOHZzRlNUTy1peVlRbVEzRVE0UDBhWkdyQXRNM0RVM3ZQckEta09hampVaEdGSmZBcU1wR1cxRTNZVGstQ0RYRElGQ09GRzY0RWxOeDRyOTBEZGpFRVVVZ256bHQ4d3lBbVFWZnNXRVJ0bDBaaVlTZWlmSVdUSFg1bXdaaW5sVFJzNllTTHJlbjVPVkR0Ym1VV3lR?oc=5",
     "source": "gnews_futures",
-    "published_utc": "2026-11-06T13:19:33+00:00",
-    "score": 8.48,
+    "published_utc": "2026-11-06T13:11:00+00:00",
+    "score": 8.38,
     "duplicates": 2
+   },
+   {
+    "id": "362dc20eab",
+    "title": "Stock market today: Dow, S&P 500, Nasdaq futures wobble after brutal sell-off, with key jobs report on deck - AOL.com",
+    "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE1seEJFQmxWRUIyd1lxLU5jYmhzNENyOGtKSGdZWTVYYVZJRVI2WjI0SWt6WWJ3MWh0OUpvM3I4anNDcUFhZGp3S1hfRlFNLXV6OG9KTjJPNm92WXZlZkh6RmU1a2dzMWFLdHRueWhsQWVSRTNKU3dB?oc=5",
+    "source": "gnews_futures",
+    "published_utc": "2026-11-06T09:19:27+00:00",
+    "score": 8.23,
+    "duplicates": 0
    },
    {
     "id": "c3890e80ce",
@@ -2900,7 +2925,7 @@
     "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPUGdxQlg5RDNfVzMtLXFsVXZKU2RJeUFjZmwwWE9taVN4YUlNTnNlb3FvalpnWFNNUENOcGJIejRWWkp5R0dLZFRSbURaT3BZaTMwSDVQQ3FZbG1JQVBxRm8wa0ozYVFWQUY3VlBsNkNESkpYUndwN1NoNndsMXBfY2J1UmZRTE9oUzh5VkRRWFNrQzA3S0wxZGRYOTBLeG5ncEg2LXVjNEJldDg?oc=5",
     "source": "gnews_macro",
     "published_utc": "2026-11-06T13:06:11+00:00",
-    "score": 7.94,
+    "score": 7.86,
     "duplicates": 1
    },
    {
@@ -2909,7 +2934,7 @@
     "link": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxPcTF5S2huRmxYQ2pYUXBkN1dQa09MWHVQRFNzdUtqMHotblRHNkMxbGZsMmVOdF9ZdV84eDhzTUVZWW10MHdaUVpVSFBZNTVYVWZaV0dtMXM3Nm1VQm5mNUFlanFtTERvVWJQQ1ozT085ckFQNUNEVFFQUUhhXzhuVGtuMzFDVWh0WTdhS2laS0tvQndmRFJ2QlpEYzgzUTB2akZfQ0ZnTm9uVkNVZ3pHNEF4NktYN203NjlnQnQ5a1UxZW4zaGlXTlVLdUlxSTZXVlRSWDVKclpEMFU?oc=5",
     "source": "gnews_macro",
     "published_utc": "2026-11-06T12:14:00+00:00",
-    "score": 7.8,
+    "score": 7.72,
     "duplicates": 0
    },
    {
@@ -2918,7 +2943,7 @@
     "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxOdlUyRzZxV01QTEhhbGpPaDNBVmVwWl8yZkhNcHF2bFlUb293RUNkM3hudF9RYkVlQmZMQTF1ZmZCVnBOd2ZodlJYWFJuOVFmQnJVZkZfc1BfelE5Zzk2RE9zZVExOHVtU3dzcTlzckxnNEVFUnZwMnpJYmZ5VDdaT0cyQzBKVUJUenluSk5uQU1FcUZIZmd5Ym96elpWZWFGTHd1WEFERlZaX1p6LS15a09CR0ZubF9NQ1lQa25fVUVua0VrcXRobEZxenhuZw?oc=5",
     "source": "gnews_futures",
     "published_utc": "2026-11-06T12:10:11+00:00",
-    "score": 7.79,
+    "score": 7.71,
     "duplicates": 1
    },
    {
@@ -2927,7 +2952,7 @@
     "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxOLWJoNFRvOHNLWDdBMlozb1VWSGFsTm9jd0Nzck5LZS1ScG5faTN6dF9tZDhBTXhPYmp5T0tPME5yNnhOQnNyRFJ6QlJMWmhBaGtRTkJtbXh6dDRBQlhaUkhDYVpBUndvcnpIQ2I2bGJ0UGViY0JNU3NxVWtzOGRuT1hLTnR3eENHVTdTYi02ZEROWF94V29icl9hVWIzdzdWcERVYXlLMmkwd05ZUFhqTEo1b181TVQ5WWhEMmpyR19OSGhNZHhSVmxn?oc=5",
     "source": "gnews_futures",
     "published_utc": "2026-11-06T07:49:10+00:00",
-    "score": 7.56,
+    "score": 7.48,
     "duplicates": 0
    },
    {
@@ -2936,16 +2961,7 @@
     "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNenJnNDVkaC0yalNpMFRpSXJzRWdhUk9FalRkb2hsdkpXXzhpSVpvSHphRnpHMkd0OUlMZkNiano5ZFNya1ZCQzNSakFCUGRXSjFwQnB3TnpiNDdHb0dIREpWVnpfTHd2NV9tNHFkZkpXQm4tak01ckJXN1pRWU5CRnItT1Fxa1dZcDAxM01XU3JfX1FXSmpVM0RBMlpCY1F5V3FPaQ?oc=5",
     "source": "gnews_futures",
     "published_utc": "2026-11-06T13:04:54+00:00",
-    "score": 7.44,
-    "duplicates": 0
-   },
-   {
-    "id": "8abce7d09a",
-    "title": "Goldman’s new gold target: Why the Wall Street bank is saying it’s early to buy the yellow metal",
-    "link": "https://www.marketwatch.com/story/goldmans-new-gold-target-why-the-wall-street-bank-is-saying-its-early-to-buy-the-yellow-metal-d8ae35e0?mod=mw_rss_topstories",
-    "source": "marketwatch_top",
-    "published_utc": "2026-11-06T12:47:00+00:00",
-    "score": 7.39,
+    "score": 7.36,
     "duplicates": 0
    },
    {
@@ -2954,7 +2970,7 @@
     "link": "https://news.google.com/rss/articles/CBMi_gFBVV95cUxOX1ItRl94OUZjR01YZzVMLXlyNlNYbmRNb2VWNS1PMHBGY1NuUnppa2dhUW4teHQ5WjVWRm5rcjlEdHdmSWFHN2dFZ013UHZ6VjczcTBpZnNDdzlvelA5ZXZUS0tVUjQ2MWVhbUhKM2JsQmdya0lMOGszck5XT1RFUFFHWWNZUUpUUnlGei1NX21BSmFjdm5ueWd3cWd5N0ZtaFVkUFVZblQwZTJxQ2xYNU5tOWgtWm1UQjRQQVBIYnJUNGZyc2l0YXp2Zzd2YUxfaFNQbmZncEpWZHI5QllQWEk0VVNOU1ctNkNMdjhVbTM5VS1UdVpOU1ItMU1Rdw?oc=5",
     "source": "gnews_futures",
     "published_utc": "2026-11-06T11:45:00+00:00",
-    "score": 7.22,
+    "score": 7.14,
     "duplicates": 0
    },
    {
@@ -2963,17 +2979,17 @@
     "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNR05sbjJYQms1ODBsSHRqR1BMY2VLNTZpRERqb1BuYk5KdGFTdUJfWEdNZFlJT3JsSl9ZWFBGWUJjellkUDJQb1dJQkwwVnlGek1RdS1GQlpZaFJHMHZDMjJUY3FVdVIxT1VHakVJN3ltWkFjc3kya2Uyc241VVhoM3BQbUh6d3BjMjIxNS1SRmZrdWNSUEdVR1RSLURlR044TTF5ajN2ZURXVHQ0OFhB?oc=5",
     "source": "gnews_futures",
     "published_utc": "2026-11-06T11:25:55+00:00",
-    "score": 7.16,
+    "score": 7.08,
     "duplicates": 0
    }
   ],
   "summary": {
    "lines": [
-    "Nasdaq sell-off batters Asian chip stocks as SK Hynix, Samsung, Softbank, TSMC tumble [fe67e64a8c]",
-    "Nasdaq futures rise after steep AI selloff as chip stocks stabilize - Reuters [4db7683a1e]",
+    "S&P 500 futures pare gains after October non-farm payrolls data - Columbus Ledger-Enquirer [179f103f94]",
+    "Nasdaq futures rise after steep AI selloff as chip stocks stabilize By Reuters - Investing.com [ec5d89c5b8]",
     "Nasdaq Futures Climb as Chip Stocks Bounce After Rout; Key U.S. Jobs Report in Focus - Barchart.com [c16ec60978]",
-    "Nasdaq Futures Rally After Asian AI Rout as Investors Brace for Jobs Day -- 2nd Update - marketscreener.com [59f396fdc3]",
-    "US inflation too high; essential to get back to 2%: Fed's Williams - Kitco [c3890e80ce]"
+    "Nasdaq Futures Rally After Asian AI Rout as Investors Brace for Jobs Day - Yahoo Finance [e858c11b04]",
+    "Stock market today: Dow, S&P 500, Nasdaq futures wobble after brutal sell-off, with key jobs report on deck - AOL.com [362dc20eab]"
    ],
    "backend": "none",
    "model": null,
@@ -3045,16 +3061,16 @@
     "reported": true
    },
    {
-    "symbol": "DUK",
-    "name": "Duke Energy Corporation",
+    "symbol": "CNQ",
+    "name": "Canadian Natural Resources Limited",
     "timing": "unknown",
     "date": "2026-11-05",
     "reported_at": "11/5/2026",
     "reported": true
    },
    {
-    "symbol": "CNQ",
-    "name": "Canadian Natural Resources Limited",
+    "symbol": "DUK",
+    "name": "Duke Energy Corporation",
     "timing": "unknown",
     "date": "2026-11-05",
     "reported_at": "11/5/2026",
@@ -3109,8 +3125,24 @@
     "reported": true
    },
    {
+    "symbol": "CMI",
+    "name": "Cummins Inc.",
+    "timing": "unknown",
+    "date": "2026-11-05",
+    "reported_at": "11/5/2026",
+    "reported": true
+   },
+   {
     "symbol": "TRP",
     "name": "TC Energy Corporation",
+    "timing": "unknown",
+    "date": "2026-11-05",
+    "reported_at": "11/5/2026",
+    "reported": true
+   },
+   {
+    "symbol": "TRGP",
+    "name": "Targa Resources, Inc.",
     "timing": "unknown",
     "date": "2026-11-05",
     "reported_at": "11/5/2026",
@@ -3125,24 +3157,8 @@
     "reported": true
    },
    {
-    "symbol": "CMI",
-    "name": "Cummins Inc.",
-    "timing": "unknown",
-    "date": "2026-11-05",
-    "reported_at": "11/5/2026",
-    "reported": true
-   },
-   {
     "symbol": "WPM",
     "name": "Wheaton Precious Metals Corp.",
-    "timing": "unknown",
-    "date": "2026-11-05",
-    "reported_at": "11/5/2026",
-    "reported": true
-   },
-   {
-    "symbol": "TRGP",
-    "name": "Targa Resources, Inc.",
     "timing": "unknown",
     "date": "2026-11-05",
     "reported_at": "11/5/2026",
@@ -3201,6 +3217,14 @@
    {
     "symbol": "BAM",
     "name": "Brookfield Asset Management",
+    "timing": "pre",
+    "date": "2026-11-06",
+    "reported_at": null,
+    "reported": false
+   },
+   {
+    "symbol": "HUM",
+    "name": "Humana Inc.",
     "timing": "pre",
     "date": "2026-11-06",
     "reported_at": null,
