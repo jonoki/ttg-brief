@@ -1,7 +1,7 @@
 {
  "meta": {
-  "generated_at_utc": "2026-11-06T15:40:36.372840+00:00",
-  "generated_at_local": "Fri 06 Nov 2026 11:40 AST",
+  "generated_at_utc": "2026-11-06T15:56:01.799120+00:00",
+  "generated_at_local": "Fri 06 Nov 2026 11:56 AST",
   "trading_day": "2026-11-06",
   "display_tz": "America/Halifax",
   "version": "0.1.0",
@@ -111,10 +111,10 @@
   {
    "root": "ES",
    "trading_day": "2026-11-06",
-   "as_of_utc": "2026-11-06T15:40:36.372840+00:00",
+   "as_of_utc": "2026-11-06T15:56:01.799120+00:00",
    "source": "yahoo",
    "delayed": true,
-   "last_price": 7432.0,
+   "last_price": 7437.0,
    "levels": [
     {
      "tag": "wh",
@@ -272,8 +272,8 @@
     }
    ],
    "stats": {
-    "last_bar_utc": "2026-11-06T15:30:00+00:00",
-    "last_bar_age_min": 10.6,
+    "last_bar_utc": "2026-11-06T15:46:00+00:00",
+    "last_bar_age_min": 10.0,
     "market_state": "open",
     "profile_volume": 2893197.0,
     "prior_day": "2026-11-05",
@@ -1555,20 +1555,28 @@
     {
      "t": "2026-11-06T15:30:00+00:00",
      "o": 7437.0,
-     "h": 7437.5,
-     "l": 7428.75,
-     "c": 7432.0,
-     "v": 0.0
+     "h": 7438.0,
+     "l": 7415.75,
+     "c": 7434.0,
+     "v": 64753.0
+    },
+    {
+     "t": "2026-11-06T15:45:00+00:00",
+     "o": 7433.75,
+     "h": 7445.25,
+     "l": 7430.25,
+     "c": 7437.0,
+     "v": 2880.0
     }
    ]
   },
   {
    "root": "NQ",
    "trading_day": "2026-11-06",
-   "as_of_utc": "2026-11-06T15:40:36.372840+00:00",
+   "as_of_utc": "2026-11-06T15:56:01.799120+00:00",
    "source": "yahoo",
    "delayed": true,
-   "last_price": 27131.75,
+   "last_price": 27182.5,
    "levels": [
     {
      "tag": "wh",
@@ -1641,8 +1649,8 @@
      "note": "09:30 bar open"
     },
     {
-     "tag": "rn_minor_up",
-     "label": "Round 50 above",
+     "tag": "rn_minor_dn",
+     "label": "Round 50 below",
      "price": 27150.0,
      "group": "round",
      "note": ""
@@ -1726,8 +1734,8 @@
     }
    ],
    "stats": {
-    "last_bar_utc": "2026-11-06T15:30:00+00:00",
-    "last_bar_age_min": 10.6,
+    "last_bar_utc": "2026-11-06T15:46:00+00:00",
+    "last_bar_age_min": 10.0,
     "market_state": "open",
     "profile_volume": 987089.9999999999,
     "prior_day": "2026-11-05",
@@ -3009,10 +3017,18 @@
     {
      "t": "2026-11-06T15:30:00+00:00",
      "o": 27168.5,
-     "h": 27169.25,
-     "l": 27115.5,
-     "c": 27131.75,
-     "v": 0.0
+     "h": 27182.25,
+     "l": 27057.25,
+     "c": 27160.25,
+     "v": 33874.0
+    },
+    {
+     "t": "2026-11-06T15:45:00+00:00",
+     "o": 27159.0,
+     "h": 27237.0,
+     "l": 27138.75,
+     "c": 27182.5,
+     "v": 1648.0
     }
    ]
   }
@@ -3020,31 +3036,13 @@
  "news": {
   "headlines": [
    {
-    "id": "b8de4cb753",
-    "title": "S&P 500 futures pare gains after October non-farm payrolls data By Reuters - Investing.com Canada",
-    "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPcGlvOTBmMTk2MTlXR2stLU9IRlpIVDZCVjEyS0RqMGlveHFXcjRUc0JrNmpXMkFZTzRQU0FLbkY3eFdCdlBRTHNRa0YtVERhamxsTEhuSm9pSWRGXzFOT3E1ZnVIdlJ0YWk5WUxTeU9JeVpqbG1tM05LcEg4MnQwRGRVSWlNNkVvRWJlYS1JLU9vNEJ3RkZSdVpJUXRid01zTS1RYjBnWlpwWUp2bFJYY3Fmd0RqS1dq?oc=5",
-    "source": "gnews_futures",
-    "published_utc": "2026-11-06T13:45:11+00:00",
-    "score": 9.68,
-    "duplicates": 5
-   },
-   {
     "id": "db63fbede7",
     "title": "ST LOUIS FED'S MUSALEM Q&A: SHOULD INFLATION EXPECTATIONS RISE BOND YIELDS WOULD RISE TOO; AM AN A.I. OPTIMIST, TO RAISE PRODUCTIVITY - TradingView",
     "link": "https://news.google.com/rss/articles/CBMilwJBVV95cUxNeC0wYVlCcVV4NXZYSjYwY1lVTHVMaGtwTmttU3BKWk1hOHFrdHdLbXN2anZsUjRhX1NQT3RrM0M1blZ2WGlUaV9pak1JVlBVenNwU2ZzaXgwZmFsbXFSdV9iSkJ0MmJGZ3BIMHgwSkxmVkFsVjNyaWV1MzQ0TmZucUJzMW9aYUtLVDRzQWh2U3pkd1pGMjZwUzJ1VW1OT1kyUms2RlV6RWljNmlpUWNZbzdjdm5Rcm9iTkFNOEkwMzBYNTNSd21oMGNxWFZtM1FQT0RueGlmNUh0VGFkLU1TSERQaGVQRDlBUkJPZTFLNGo3Nm00T1B5QXpBYTR2anAxX3RYQXJzSkF3bFRtTGUxNHBBVVdFUm8?oc=5",
     "source": "gnews_macro",
     "published_utc": "2026-11-06T14:41:00+00:00",
-    "score": 9.33,
+    "score": 9.29,
     "duplicates": 0
-   },
-   {
-    "id": "cf9aad24b2",
-    "title": "Traders raise bets of Fed rate hike after jobs report - Reuters",
-    "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQMF93ekZ4N2wtdW4zX1llS2FoZWpNVlhMLTRNOGVJTUktZmpLQUNBSzY2bW16Mm9mb3lrZERqNFZ6WkRmYkhBTG00Z2k2NFYyNTVLcmVBSkV5eVJRU1RwZFc5blM4MkRmcUxYU2hadXRWbVh0VXpjektqM1BGS3ZlZlNMeW43VWxmeE5TQm13d0E3bTVwUnp5dzFFNA?oc=5",
-    "source": "gnews_macro",
-    "published_utc": "2026-11-06T13:51:45+00:00",
-    "score": 9.2,
-    "duplicates": 4
    },
    {
     "id": "51c1a79184",
@@ -3052,8 +3050,35 @@
     "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxOLWJoNFRvOHNLWDdBMlozb1VWSGFsTm9jd0Nzck5LZS1ScG5faTN6dF9tZDhBTXhPYmp5T0tPME5yNnhOQnNyRFJ6QlJMWmhBaGtRTkJtbXh6dDRBQlhaUkhDYVpBUndvcnpIQ2I2bGJ0UGViY0JNU3NxVWtzOGRuT1hLTnR3eENHVTdTYi02ZEROWF94V29icl9hVWIzdzdWcERVYXlLMmkwd05ZUFhqTEo1b181TVQ5WWhEMmpyR19OSGhNZHhSVmxn?oc=5",
     "source": "gnews_futures",
     "published_utc": "2026-11-06T13:45:16+00:00",
-    "score": 9.18,
+    "score": 9.14,
     "duplicates": 0
+   },
+   {
+    "id": "b8de4cb753",
+    "title": "S&P 500 futures pare gains after October non-farm payrolls data By Reuters - Investing.com Canada",
+    "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPcGlvOTBmMTk2MTlXR2stLU9IRlpIVDZCVjEyS0RqMGlveHFXcjRUc0JrNmpXMkFZTzRQU0FLbkY3eFdCdlBRTHNRa0YtVERhamxsTEhuSm9pSWRGXzFOT3E1ZnVIdlJ0YWk5WUxTeU9JeVpqbG1tM05LcEg4MnQwRGRVSWlNNkVvRWJlYS1JLU9vNEJ3RkZSdVpJUXRid01zTS1RYjBnWlpwWUp2bFJYY3Fmd0RqS1dq?oc=5",
+    "source": "gnews_futures",
+    "published_utc": "2026-11-06T13:45:11+00:00",
+    "score": 9.14,
+    "duplicates": 4
+   },
+   {
+    "id": "5d67be32aa",
+    "title": "Traders raise bets of Fed rate hike after jobs report - Merced Sun-Star",
+    "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPWnRza0staUVqQkFpelI3SmhtRVQ3SjlCTVg2NWo2VWlYc05VMUtudkY1OXZ5dEEtSWhwN0p0OU5EalJjLVFLUENKcVVqYTllZmM5QlNleW84ckdTRnJONmFtZUhJelR0UkJjQk9VcGN6dU1ZZmNqdjNaTEpYcHY1V1JxTzY?oc=5",
+    "source": "gnews_fed",
+    "published_utc": "2026-11-06T13:50:00+00:00",
+    "score": 8.65,
+    "duplicates": 3
+   },
+   {
+    "id": "0153ce34e7",
+    "title": "Nasdaq futures rise after steep AI sell-off as chip stocks stabilise - The Business Times",
+    "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPeGNHb3VSX3MtanRyQ1k5S2h2bnRRWDZLazRreGQ2R2RkanJ6aDRLdmJwbGh0SlhzZjRkMjh5YlhhdU14Q3pxdEJTVG91Uzg4ZGN1dTJnUENMR1VaUERkN0dFTFJJeGpXTWU1TTJtRktuTERIQ3FsU0ktcXF4S2hKbXRPMER2NWd3dDAwUW1ZZ0VTMjFlT05wbjlSYVhvWlI0RmFYOThjR3J5R3JvSjRKSUxR?oc=5",
+    "source": "gnews_futures",
+    "published_utc": "2026-11-06T13:41:00+00:00",
+    "score": 8.62,
+    "duplicates": 3
    },
    {
     "id": "55b89d04f1",
@@ -3061,17 +3086,8 @@
     "link": "https://news.google.com/rss/articles/CBMiiAJBVV95cUxPUm40Vzc5ZXFEWV9IX1MtZ0NPQ1VIZGdqcWhldFRxejl5OWpRSHZoeWlzanptcXZTdlVRUkpCY2VCUVhmVG82R0d6ZTZ0aS1PZ2NBMV9faE5iVm5xRnB0ZWhLR3V0WFZCVzhrWUd6YnhUbHpkWlZ5X0VWTE05WWd1OXRRRDlwdFZGeENsaTJ4ekN5YS1QMFc5dmhja21SU0ZaZWYzeUVMQVBfZFl4bGVPNzFiNmlKTF9WSk1xTjBrc1VHOFlwTk5Pdnp1TWtDeXE4RHFTSmxxd21tRzhtQ3pCN3poMTVoMDdLRGNoWktzdENHa1k1ODBlX3RkdUQwUDc1dm9FWjJHRXc?oc=5",
     "source": "gnews_futures",
     "published_utc": "2026-11-06T14:02:00+00:00",
-    "score": 8.23,
+    "score": 8.18,
     "duplicates": 0
-   },
-   {
-    "id": "ec5d89c5b8",
-    "title": "Nasdaq futures rise after steep AI selloff as chip stocks stabilize By Reuters - Investing.com",
-    "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQYzZucHoyRUR3UFJfNFhCZXlyYTRrUlVRdnNRU1JEa3VRTkQ0Ry1zcjVBUE1XZUVUZDBaS3paOF9BY29Kd1JWaUIxMGhvNE5KcVQyTVRiMFIzV0dPMmM3WmFIa0hST3RyaERkc3g2Tkh0Sk1EeDFDbVhJVG9vWFF4UTFzOVB0b0k2MXVxODg0MDB0cDN5ZEl5RVJLRzlrVWdwTmR0aEE0QkoyNkN3RFB1TUdUY2hwWGVCMGVieUxlMExjdw?oc=5",
-    "source": "gnews_futures",
-    "published_utc": "2026-11-06T13:41:15+00:00",
-    "score": 8.17,
-    "duplicates": 2
    },
    {
     "id": "90cfb5ec1c",
@@ -3079,8 +3095,17 @@
     "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPeFByUUZ4blNDWU4zaHpuR2hnNnp2eGJ6bDhMT1pkMXM0UnpHRHhrVndZWFJTNElLMFpUUTVPNE9tYVpsM09XWVRXWXUxUW0tX3Z3QXYwWFMyNGwzTHkzc0MyaV84TjBIeDVlbFZmRE1SeVN0OG1OTzRrNWp1Si1WRzdPbnltaWgtcTQtQmJZamFEeVlEWHI4bUNISU1Fc0oya18wZ01SV3gxUlRTd1JYTEx3YTYyZ1NU?oc=5",
     "source": "gnews_futures",
     "published_utc": "2026-11-06T13:11:00+00:00",
-    "score": 8.08,
+    "score": 8.04,
     "duplicates": 2
+   },
+   {
+    "id": "ede38ca990",
+    "title": "Fed’s Williams says inflation too high, targets 2 percent - The Hill",
+    "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE5xeVNpR3NDODlWakp1RmVYYmRtT0xic0NXdnc4RU1YTFRfdW9uZlhNNnZVN0wzamN6ZXpfelo3OVhYUHBHbXJIZUg5VDdoTFNaR0FEZDhpTFo3TDhsbW1jUmNDc0pDd281c08xZkxyUktQc09MMmhxd9IBfkFVX3lxTE1IeWFOYlN3MGpkMG5PZGtkQ1VMZ2lyZmZRTkEwT3BaRnJ0c3p2OU9hVWZNNGYwcXIwNHl1a1lxNWtHc1FrMHNaZUE5Z2dHRWFfU25ZeDk4Z09BR2NteWVpTDd1N2ZET29mYU9OZHNRYjVOVm5VRmt0SEdJZlZDZw?oc=5",
+    "source": "gnews_fed",
+    "published_utc": "2026-11-06T15:18:00+00:00",
+    "score": 7.89,
+    "duplicates": 1
    },
    {
     "id": "2c7105f3c0",
@@ -3088,7 +3113,7 @@
     "link": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxNRmtVb09LQlBwYmc2RzVjMGxaOWU5RDV6cG1CYXU4VWsyNkExMzV5eldUMVVlRU1RVU92RFV5dUxkTlJGYU5Wb21saVZpbDRGNFBILTI3cFJiYlFVY1NMeW5ZU0VySENaM2ZnamlmSGZBT1RYSXR4UnpPUVdidGVHaTVXbElwblV4SWNxZDNZNnpmcjZhcWZJck5iYkpVM2JIb3hUNmVER3JuOVJrbFNfTzlsRGFSYTVxY25kOXJqQ1pFTkNPYzg1ZkhCSVdSODRjNXByMmkyUjMzX3dpQUVZ?oc=5",
     "source": "gnews_macro",
     "published_utc": "2026-11-06T14:45:00+00:00",
-    "score": 7.85,
+    "score": 7.8,
     "duplicates": 3
    },
    {
@@ -3097,7 +3122,7 @@
     "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOMEcxRlBEcDZLR2pOTnVhWTZkSkZJdl82RXFheFJhNzhFQVJYZEJRX216WnRMTm5RaHBUcHhpa0xjYUJFRDA4NUQ1aVh3R3d3M1Q2T09lZU5PUzdaVjA4LWJMZkVXR012OTFwcW5ocXpCWlhXeTZMZkNhTmdlUDNfSTJROHNlcDBoZzhsX1NIVERDQ012dEpXU0FtczFCcnFoRDc5V2lfMDFfV2JPeTdISUJOa3htZ2VXU2MtTmkxUENYVGtR?oc=5",
     "source": "gnews_futures",
     "published_utc": "2026-11-06T11:33:55+00:00",
-    "score": 7.81,
+    "score": 7.77,
     "duplicates": 0
    },
    {
@@ -3106,7 +3131,7 @@
     "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQVVMtMVVhQWRlTXlGS2pxRU83VWY5Y0xseTEzY3NFcGtBVHctUVJ3cG1tZ1AwQWt2Smp2TEJIZVBKZjFYek9UOTZwN3h2ckk2bWVMZ2ZrZ0RLYlZqaWNEWUNMQUN4dVlMbkNqMWVqLUZKLW0tQWF1VXV5eU5LVEJrenV5OVBFV044Mmlz?oc=5",
     "source": "gnews_futures",
     "published_utc": "2026-11-06T14:13:53+00:00",
-    "score": 7.76,
+    "score": 7.72,
     "duplicates": 1
    },
    {
@@ -3115,26 +3140,17 @@
     "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPUGdxQlg5RDNfVzMtLXFsVXZKU2RJeUFjZmwwWE9taVN4YUlNTnNlb3FvalpnWFNNUENOcGJIejRWWkp5R0dLZFRSbURaT3BZaTMwSDVQQ3FZbG1JQVBxRm8wa0ozYVFWQUY3VlBsNkNESkpYUndwN1NoNndsMXBfY2J1UmZRTE9oUzh5VkRRWFNrQzA3S0wxZGRYOTBLeG5ncEg2LXVjNEJldDg?oc=5",
     "source": "gnews_macro",
     "published_utc": "2026-11-06T13:06:11+00:00",
-    "score": 7.57,
+    "score": 7.53,
     "duplicates": 1
-   },
-   {
-    "id": "6c05c5df18",
-    "title": "St. Louis Fed President Musalem Says Concerns Over Current Inflation Level Persist - bloomingbit",
-    "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE01SFVrN3VEc29GVlpPeWhYU01IQTRsWUROaVdhTldjWjhRQ0oyQ2xWUXJFZm1YN0N2ejhtUHdzV0F4SXBoQk9OYTFjaVZoQkFHeGJvSQ?oc=5",
-    "source": "gnews_fed",
-    "published_utc": "2026-11-06T15:24:11+00:00",
-    "score": 7.45,
-    "duplicates": 0
    }
   ],
   "summary": {
    "lines": [
-    "S&P 500 futures pare gains after October non-farm payrolls data By Reuters - Investing.com Canada [b8de4cb753]",
     "ST LOUIS FED'S MUSALEM Q&A: SHOULD INFLATION EXPECTATIONS RISE BOND YIELDS WOULD RISE TOO; AM AN A.I. OPTIMIST, TO RAISE PRODUCTIVITY - TradingView [db63fbede7]",
-    "Traders raise bets of Fed rate hike after jobs report - Reuters [cf9aad24b2]",
     "U.S. stock futures show little reaction to blockbuster jobs report, yields spike By Investing.com - Investing.com India [51c1a79184]",
-    "MARKETS UPDATE: DJIA FUTURES -519/-0.99%; S&P FUTURES +7.50/+0.10%; NASDAQ FUTURES +1.31%; VIX 26.98, -4.26%; US 10-YR YIELD 4.87%, +0.03 - TradingView [55b89d04f1]"
+    "S&P 500 futures pare gains after October non-farm payrolls data By Reuters - Investing.com Canada [b8de4cb753]",
+    "Traders raise bets of Fed rate hike after jobs report - Merced Sun-Star [5d67be32aa]",
+    "Nasdaq futures rise after steep AI sell-off as chip stocks stabilise - The Business Times [0153ce34e7]"
    ],
    "backend": "none",
    "model": null,
@@ -3206,16 +3222,16 @@
     "reported": true
    },
    {
-    "symbol": "CNQ",
-    "name": "Canadian Natural Resources Limited",
+    "symbol": "DUK",
+    "name": "Duke Energy Corporation",
     "timing": "unknown",
     "date": "2026-11-05",
     "reported_at": "11/5/2026",
     "reported": true
    },
    {
-    "symbol": "DUK",
-    "name": "Duke Energy Corporation",
+    "symbol": "CNQ",
+    "name": "Canadian Natural Resources Limited",
     "timing": "unknown",
     "date": "2026-11-05",
     "reported_at": "11/5/2026",
@@ -3270,24 +3286,8 @@
     "reported": true
    },
    {
-    "symbol": "CMI",
-    "name": "Cummins Inc.",
-    "timing": "unknown",
-    "date": "2026-11-05",
-    "reported_at": "11/5/2026",
-    "reported": true
-   },
-   {
     "symbol": "TRP",
     "name": "TC Energy Corporation",
-    "timing": "unknown",
-    "date": "2026-11-05",
-    "reported_at": "11/5/2026",
-    "reported": true
-   },
-   {
-    "symbol": "TRGP",
-    "name": "Targa Resources, Inc.",
     "timing": "unknown",
     "date": "2026-11-05",
     "reported_at": "11/5/2026",
@@ -3302,8 +3302,24 @@
     "reported": true
    },
    {
+    "symbol": "CMI",
+    "name": "Cummins Inc.",
+    "timing": "unknown",
+    "date": "2026-11-05",
+    "reported_at": "11/5/2026",
+    "reported": true
+   },
+   {
     "symbol": "WPM",
     "name": "Wheaton Precious Metals Corp.",
+    "timing": "unknown",
+    "date": "2026-11-05",
+    "reported_at": "11/5/2026",
+    "reported": true
+   },
+   {
+    "symbol": "TRGP",
+    "name": "Targa Resources, Inc.",
     "timing": "unknown",
     "date": "2026-11-05",
     "reported_at": "11/5/2026",
@@ -3343,6 +3359,22 @@
    }
   ],
   "today": [
+   {
+    "symbol": "BRK.B",
+    "name": "Berkshire Hathaway Inc.",
+    "timing": "unknown",
+    "date": "2026-11-06",
+    "reported_at": null,
+    "reported": false
+   },
+   {
+    "symbol": "BRK.A",
+    "name": "Berkshire Hathaway Inc.",
+    "timing": "unknown",
+    "date": "2026-11-06",
+    "reported_at": null,
+    "reported": false
+   },
    {
     "symbol": "ENB",
     "name": "Enbridge Inc",
