@@ -1,7 +1,7 @@
 {
  "meta": {
-  "generated_at_utc": "2026-11-10T16:43:36.224695+00:00",
-  "generated_at_local": "Tue 10 Nov 2026 12:43 AST",
+  "generated_at_utc": "2026-11-10T16:58:53.696013+00:00",
+  "generated_at_local": "Tue 10 Nov 2026 12:58 AST",
   "trading_day": "2026-11-10",
   "display_tz": "America/Halifax",
   "version": "0.1.0",
@@ -109,7 +109,7 @@
    "time_utc": "2026-11-10T18:00:00+00:00",
    "local": "14:00 AST",
    "et": "13:00 ET",
-   "in": "1h 16m",
+   "in": "1h 01m",
    "consensus": null,
    "prior": null
   },
@@ -120,10 +120,10 @@
   {
    "root": "ES",
    "trading_day": "2026-11-10",
-   "as_of_utc": "2026-11-10T16:43:36.224695+00:00",
+   "as_of_utc": "2026-11-10T16:58:53.696013+00:00",
    "source": "yahoo",
    "delayed": true,
-   "last_price": 7518.0,
+   "last_price": 7505.5,
    "levels": [
     {
      "tag": "pwh",
@@ -288,8 +288,8 @@
     }
    ],
    "stats": {
-    "last_bar_utc": "2026-11-10T16:30:00+00:00",
-    "last_bar_age_min": 13.6,
+    "last_bar_utc": "2026-11-10T16:48:00+00:00",
+    "last_bar_age_min": 10.9,
     "market_state": "open",
     "profile_volume": 1450749.0,
     "prior_day": "2026-11-09",
@@ -1610,21 +1610,29 @@
     },
     {
      "t": "2026-11-10T16:30:00+00:00",
-     "o": 7522.5,
-     "h": 7523.25,
-     "l": 7517.25,
-     "c": 7518.0,
-     "v": 0.0
+     "o": 7522.25,
+     "h": 7529.5,
+     "l": 7510.25,
+     "c": 7518.5,
+     "v": 51874.0
+    },
+    {
+     "t": "2026-11-10T16:45:00+00:00",
+     "o": 7518.25,
+     "h": 7519.0,
+     "l": 7505.0,
+     "c": 7505.5,
+     "v": 9975.0
     }
    ]
   },
   {
    "root": "NQ",
    "trading_day": "2026-11-10",
-   "as_of_utc": "2026-11-10T16:43:36.224695+00:00",
+   "as_of_utc": "2026-11-10T16:58:53.696013+00:00",
    "source": "yahoo",
    "delayed": true,
-   "last_price": 27774.25,
+   "last_price": 27655.75,
    "levels": [
     {
      "tag": "exp_hi",
@@ -1636,7 +1644,7 @@
     {
      "tag": "pwh",
      "label": "Prior-week high",
-     "price": 28792.0,
+     "price": 28776.25,
      "group": "week",
      "note": "3 session(s) of data — PARTIAL"
     },
@@ -1704,20 +1712,6 @@
      "note": "70 % value area"
     },
     {
-     "tag": "rn_major_up",
-     "label": "Round 100 above",
-     "price": 27800.0,
-     "group": "round",
-     "note": ""
-    },
-    {
-     "tag": "rn_minor_dn",
-     "label": "Round 50 below",
-     "price": 27750.0,
-     "group": "round",
-     "note": ""
-    },
-    {
      "tag": "rtho",
      "label": "Today's RTH open",
      "price": 27743.75,
@@ -1725,9 +1719,16 @@
      "note": "09:30 bar open"
     },
     {
-     "tag": "rn_major_dn",
-     "label": "Round 100 below",
+     "tag": "rn_major_up",
+     "label": "Round 100 above",
      "price": 27700.0,
+     "group": "round",
+     "note": ""
+    },
+    {
+     "tag": "rn_minor_dn",
+     "label": "Round 50 below",
+     "price": 27650.0,
      "group": "round",
      "note": ""
     },
@@ -1736,6 +1737,13 @@
      "label": "Today's RTH low",
      "price": 27637.25,
      "group": "today",
+     "note": ""
+    },
+    {
+     "tag": "rn_major_dn",
+     "label": "Round 100 below",
+     "price": 27600.0,
+     "group": "round",
      "note": ""
     },
     {
@@ -1789,8 +1797,8 @@
     }
    ],
    "stats": {
-    "last_bar_utc": "2026-11-10T16:30:00+00:00",
-    "last_bar_age_min": 13.6,
+    "last_bar_utc": "2026-11-10T16:48:00+00:00",
+    "last_bar_age_min": 10.9,
     "market_state": "open",
     "profile_volume": 527044.0,
     "prior_day": "2026-11-09",
@@ -3112,10 +3120,18 @@
     {
      "t": "2026-11-10T16:30:00+00:00",
      "o": 27776.75,
-     "h": 27785.25,
-     "l": 27751.0,
-     "c": 27774.25,
-     "v": 0.0
+     "h": 27811.5,
+     "l": 27694.75,
+     "c": 27728.75,
+     "v": 16083.0
+    },
+    {
+     "t": "2026-11-10T16:45:00+00:00",
+     "o": 27728.5,
+     "h": 27732.0,
+     "l": 27654.0,
+     "c": 27655.75,
+     "v": 3665.0
     }
    ]
   }
@@ -3128,16 +3144,7 @@
     "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQWG1SZHNSX2x0dWRXSHdfYTFSNldVOF92aUplek1POEt3UnkxME45bExhVl9ma2NTMXRLUVk2Nl92OFVqdmxnVnhiOS1YaDVRQTNIQ2JndWsxeXZqN21EeHhMM3dtZUR4ZTNiNk5FTmZkbEVTZnRabjItUV91Mnlia0NrMzN5U3dKeE1BalM1WlVqWHpJRl9mNzdQTTJlQlh6U1g4?oc=5",
     "source": "gnews_macro",
     "published_utc": "2026-11-10T15:53:00+00:00",
-    "score": 11.36,
-    "duplicates": 0
-   },
-   {
-    "id": "63c1b901b0",
-    "title": "US Stock Futures forecast: Dow, S&P 500 and Nasdaq mixed ahead of CPI as investment banks assess Fed Rate hikes - Beinsure",
-    "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPNTVJTkJXV1VqTXRoalRJT0NaTWNNd3RncHprMm9TNzdzZjNSekRFV19zZG5DS1JjaEVRbXVtMFlta2czNkpSNWJhMmU4MnR3YW1fOVYxTzBhRmFfZGNCTDJMbTF3SmcyeTktQUFERi1CZmxDeWdTRFJaN2NTcjhMQlNB?oc=5",
-    "source": "gnews_futures",
-    "published_utc": "2026-11-10T13:11:37+00:00",
-    "score": 10.91,
+    "score": 11.32,
     "duplicates": 0
    },
    {
@@ -3145,8 +3152,26 @@
     "title": "10-year Treasury yield races back to 5% as inflation data, Waller comments drive rate hike expectations",
     "link": "https://www.cnbc.com/2026/11/10/us-bonds-treasurys-yields.html",
     "source": "cnbc_markets",
-    "published_utc": "2026-11-10T16:43:07+00:00",
-    "score": 10.5,
+    "published_utc": "2026-11-10T16:44:11+00:00",
+    "score": 10.96,
+    "duplicates": 1
+   },
+   {
+    "id": "63c1b901b0",
+    "title": "US Stock Futures forecast: Dow, S&P 500 and Nasdaq mixed ahead of CPI as investment banks assess Fed Rate hikes - Beinsure",
+    "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPNTVJTkJXV1VqTXRoalRJT0NaTWNNd3RncHprMm9TNzdzZjNSekRFV19zZG5DS1JjaEVRbXVtMFlta2czNkpSNWJhMmU4MnR3YW1fOVYxTzBhRmFfZGNCTDJMbTF3SmcyeTktQUFERi1CZmxDeWdTRFJaN2NTcjhMQlNB?oc=5",
+    "source": "gnews_futures",
+    "published_utc": "2026-11-10T13:11:37+00:00",
+    "score": 10.87,
+    "duplicates": 0
+   },
+   {
+    "id": "e23ac4ec0b",
+    "title": "Wall Street falls as hot CPI, Waller drive up odds for supersized Fed rate hike By Investing.com - Investing.com India",
+    "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNRFdnM3lyX21fSk9sekQ3SGVZaUNHVS1HM0ZVaURpeDZfMlRrS09uMTVxU3FFYXJKT2QtVEhCQ01YVk9nN2s0SlRaX0NfTTZQek5LdUtGVXNNREdmMUk5YUUyNW40MEdsQngxZ2kteDdtSC05clRSVXhoOElEd0lFZkl3NUZ5M2h3QlY0R0lURXhVLWdvUEdhZ1dtTlFsY1JIY2hhcU81RU80YzduUWR3azFqMmo?oc=5",
+    "source": "gnews_futures",
+    "published_utc": "2026-11-10T16:41:15+00:00",
+    "score": 10.45,
     "duplicates": 0
    },
    {
@@ -3155,8 +3180,17 @@
     "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQNGlIZGYwOERQM19hR3JwM1Z5ZmQta1AtZllqXzhNUzlSUDlRUkxTWmRnSjdReVF3LW1RcEVEeVBEVDYxVXRNSWpSV3A1akhBREMzMWdKN0Y3ajlEd19feDZhT3hCNkRBUTRIUzJHR3o5ZGluUVBwbnlOQklkWjRfdzJ4TnlQbVE?oc=5",
     "source": "gnews_futures",
     "published_utc": "2026-11-10T14:09:28+00:00",
-    "score": 10.07,
+    "score": 10.03,
     "duplicates": 0
+   },
+   {
+    "id": "067feab207",
+    "title": "Hot inflation report has Wall Street eyeing whether the Fed could make a jumbo rate hike next month - Yahoo Finance",
+    "link": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxNZm5wYjNnbDFZal9uVnlMT2xZZERNVWR3TWFSbnBoV1lRQXJiT3l3bWNkZ05SbzB1cjE0VUdIRTdGeFh5OW9JZEFocXBCbElHVWR4MzU1aXpuMVFIdGFtbE1WamVDODU3SVEtYk83c0xwVTJtbTJ0MVBhZi1nMmI5Ym5NeG5YWGNybW5jbmVYYmNzSGFLRTFYQkc2bzZ2N1BFb3RsNk04SDVVVDUwX1pLWF9ELVpMSjdBeko0blFJNnJKTjR1U3NtRV9WTW5jamVuVTNKWkU4M3prTzh3LVZfbVpXb1JFR0x6bS1SRGlfV2NRMlZ0NEE?oc=5",
+    "source": "gnews_macro",
+    "published_utc": "2026-11-10T16:49:42+00:00",
+    "score": 9.97,
+    "duplicates": 1
    },
    {
     "id": "401b2ea17b",
@@ -3164,7 +3198,7 @@
     "link": "https://www.marketwatch.com/story/why-stocks-are-falling-and-10-year-yields-are-climbing-back-near-5-after-tuesdays-inflation-report-389b8392?mod=mw_rss_topstories",
     "source": "marketwatch_top",
     "published_utc": "2026-11-10T16:28:00+00:00",
-    "score": 9.96,
+    "score": 9.91,
     "duplicates": 0
    },
    {
@@ -3173,7 +3207,7 @@
     "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5SX3Q2M0RrejlJQmtva1ZMRnpUNWNMM3FPQ2hwWVlkWEJmb1ZBbHVwbERvUXRONXVrU2tKOGM1QXkwdkV0dkozQmhhNnZFalE0QWsyOUNzY0lrMVFtZGVjbUtINURJVmpGT21RUEVwSks5OXFTNnc?oc=5",
     "source": "gnews_futures",
     "published_utc": "2026-11-10T09:35:00+00:00",
-    "score": 9.81,
+    "score": 9.77,
     "duplicates": 0
    },
    {
@@ -3182,7 +3216,7 @@
     "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQSWVDV1U1NGJSVHVBVktkNmxiSFQwZjVTN19PVnI0REF2R3REMjFzd2lmMjlKVlBOdjVvakh3SXBkZWxoS2VUb1VnaTcyWUFYOXFWUTBLVDNmVTU4cElvOEZnZnNRNGo1cjlhVUd4MGpFOFpLZ2VHb0dST1ZUSGxES3RCd2QwamsyOHV3U1FEU1N3Y3pjWi1rQQ?oc=5",
     "source": "gnews_futures",
     "published_utc": "2026-11-10T10:08:56+00:00",
-    "score": 9.4,
+    "score": 9.36,
     "duplicates": 0
    },
    {
@@ -3191,15 +3225,6 @@
     "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNakhlWTNmM0VfenRXLXZLN3MwVmJLQ2szVXlYemhVZXJHNURHTXNwWFNCVDBPajZuU09JSlpseEFyeHYtSF9wTUdDMHliemNQc2dKc2phVTRKaDBla0xpeWdkUFYwb1hmYWpNMS1NMTZUOTdlVFBXN1Ntbml0WW9VcFhkZkxUQVZVYWtGdUxhS0t6QTdWbHl5LTVnMG9abFA2?oc=5",
     "source": "gnews_macro",
     "published_utc": "2026-11-10T14:08:30+00:00",
-    "score": 9.07,
-    "duplicates": 0
-   },
-   {
-    "id": "e0d39ba544",
-    "title": "Fresh inflation report has Wall Street eyeing whether the Fed could make a jumbo hike next month - Yahoo Finance",
-    "link": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxNZFJWUmNUYnRQV0RVbVQ1UW1mUlUzNmdkQU5hMkE0T3o4V2pIMF9icFdHQ1Z2enBEOVBrRTlyckxSWWNub0Rhel9JQS13V1ROckdNRUo1Q0ozakFkLUtjaEREQ18zT01XRlYxRzM2am42NklRNUtsWU5lQ0x0aEJmVDNyTXNzamFrVklqOWI5blpOTnFucG5ReEY0TzhfNzRTZGNIMHdDNnZtNlNjM09CZk1xMm4zYkwzSE9acENtd0hSOXdBS1p3RXc5YnpfazRsWDl2MWZ4cGxySkwxMW93V1dyLXFCSjlGelhUN2Jiak9vQQ?oc=5",
-    "source": "gnews_macro",
-    "published_utc": "2026-11-10T13:53:31+00:00",
     "score": 9.03,
     "duplicates": 0
    },
@@ -3209,17 +3234,8 @@
     "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQaW1tdkZESEpSV3pqUXdtU0pkTTczQWpxV184ZlM1Ti1nUFdWQ0IwSVYzbi0zLXBFOEpnOXVtdGdfTnZJYk0xcXluNVFpd3Q5WW1iZ1g2VkZkN0VVRUllcDB3UGdCRl84LUVXWUk0WE1xa3NtendWYW9HZWRIa0VKUjJEdzZOdw?oc=5",
     "source": "gnews_megacap",
     "published_utc": "2026-11-10T13:49:50+00:00",
-    "score": 9.02,
+    "score": 8.97,
     "duplicates": 0
-   },
-   {
-    "id": "963e3d90a7",
-    "title": "US Stock Futures Mixed As Investors Await CPI Data — AMD, CRWV, RKLB Stocks In Focus - Stocktwits",
-    "link": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxQajllTGZzSHYxZnR1Zl9FbnpVaUo4NXA4UU1vdGFtNW1yZ0NaX0lVdUtuYWRjMzl0dEZzTVVaTjJWcXVYdG9EeFowY19CdUZHLWxTUEV6Ykh2VFJEQUFpTWN1YlZnYnJjeF84TGNwYjgycFdzM2o1QUFFNDk0VDQ5eWJFS1dpeHZTZU03QnUyZ1VVRGdHWlZaUEVFTWxhZ1V3RHRaOVd4QzVuMUFyeDkxQ0JTVFAtWmpZeXd5S1pnVGxkd011UGRqNjFQYVRFcnUyc0QxNkwycERTU3dq?oc=5",
-    "source": "gnews_futures",
-    "published_utc": "2026-11-10T10:24:07+00:00",
-    "score": 8.95,
-    "duplicates": 1
    },
    {
     "id": "8a7a2d1b7a",
@@ -3227,17 +3243,17 @@
     "link": "https://www.cnbc.com/2026/11/10/chip-stocks-rally-nvidia-scandal.html",
     "source": "cnbc_markets",
     "published_utc": "2026-11-10T13:19:13+00:00",
-    "score": 8.93,
+    "score": 8.89,
     "duplicates": 0
    }
   ],
   "summary": {
    "lines": [
     "Spiking yields and falling stocks: Wall Street thinks hot inflation data clinched a rate hike next month - Business Insider [2a1e27e41f]",
-    "US Stock Futures forecast: Dow, S&P 500 and Nasdaq mixed ahead of CPI as investment banks assess Fed Rate hikes - Beinsure [63c1b901b0]",
     "10-year Treasury yield races back to 5% as inflation data, Waller comments drive rate hike expectations [02785ae48f]",
-    "U.S. Stock Futures Retreat as October CPI Exceeds Forecasts and Fed Rate Hike Expectations Increase: Dow Jones, S&P, Nasdaq, Wall Street - Yahoo Finance UK [79ddc21582]",
-    "Why stocks are falling and the 10-year Treasury yield is back near 5% after Tuesday’s inflation report [401b2ea17b]"
+    "US Stock Futures forecast: Dow, S&P 500 and Nasdaq mixed ahead of CPI as investment banks assess Fed Rate hikes - Beinsure [63c1b901b0]",
+    "Wall Street falls as hot CPI, Waller drive up odds for supersized Fed rate hike By Investing.com - Investing.com India [e23ac4ec0b]",
+    "U.S. Stock Futures Retreat as October CPI Exceeds Forecasts and Fed Rate Hike Expectations Increase: Dow Jones, S&P, Nasdaq, Wall Street - Yahoo Finance UK [79ddc21582]"
    ],
    "backend": "none",
    "model": null,
