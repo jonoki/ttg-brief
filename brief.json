@@ -1,7 +1,7 @@
 {
  "meta": {
-  "generated_at_utc": "2026-11-10T15:27:03.520303+00:00",
-  "generated_at_local": "Tue 10 Nov 2026 11:27 AST",
+  "generated_at_utc": "2026-11-10T15:42:21.072962+00:00",
+  "generated_at_local": "Tue 10 Nov 2026 11:42 AST",
   "trading_day": "2026-11-10",
   "display_tz": "America/Halifax",
   "version": "0.1.0",
@@ -109,7 +109,7 @@
    "time_utc": "2026-11-10T18:00:00+00:00",
    "local": "14:00 AST",
    "et": "13:00 ET",
-   "in": "2h 32m",
+   "in": "2h 17m",
    "consensus": null,
    "prior": null
   },
@@ -120,10 +120,10 @@
   {
    "root": "ES",
    "trading_day": "2026-11-10",
-   "as_of_utc": "2026-11-10T15:27:03.520303+00:00",
+   "as_of_utc": "2026-11-10T15:42:21.072962+00:00",
    "source": "yahoo",
    "delayed": true,
-   "last_price": 7551.25,
+   "last_price": 7546.25,
    "levels": [
     {
      "tag": "pwh",
@@ -154,13 +154,6 @@
      "note": "since 2026-11-09"
     },
     {
-     "tag": "rn_major_up",
-     "label": "Round 50 above",
-     "price": 7600.0,
-     "group": "round",
-     "note": ""
-    },
-    {
      "tag": "vah",
      "label": "Prior-day VAH",
      "price": 7599.75,
@@ -173,13 +166,6 @@
      "price": 7598.75,
      "group": "overnight",
      "note": "since 18:00 ET, 914 bars"
-    },
-    {
-     "tag": "rn_minor_up",
-     "label": "Round 25 above",
-     "price": 7575.0,
-     "group": "round",
-     "note": ""
     },
     {
      "tag": "pdc",
@@ -210,8 +196,8 @@
      "note": "typical-price VWAP"
     },
     {
-     "tag": "rn_major_dn",
-     "label": "Round 50 below",
+     "tag": "rn_major_up",
+     "label": "Round 50 above",
      "price": 7550.0,
      "group": "round",
      "note": ""
@@ -222,6 +208,13 @@
      "price": 7541.5,
      "group": "profile",
      "note": "70 % value area"
+    },
+    {
+     "tag": "rn_minor_dn",
+     "label": "Round 25 below",
+     "price": 7525.0,
+     "group": "round",
+     "note": ""
     },
     {
      "tag": "rtho",
@@ -242,6 +235,13 @@
      "label": "Overnight low",
      "price": 7509.0,
      "group": "overnight",
+     "note": ""
+    },
+    {
+     "tag": "rn_major_dn",
+     "label": "Round 50 below",
+     "price": 7500.0,
+     "group": "round",
      "note": ""
     },
     {
@@ -288,8 +288,8 @@
     }
    ],
    "stats": {
-    "last_bar_utc": "2026-11-10T15:17:00+00:00",
-    "last_bar_age_min": 10.1,
+    "last_bar_utc": "2026-11-10T15:32:00+00:00",
+    "last_bar_age_min": 10.4,
     "market_state": "open",
     "profile_volume": 1450749.0,
     "prior_day": "2026-11-09",
@@ -1572,19 +1572,27 @@
      "t": "2026-11-10T15:15:00+00:00",
      "o": 7556.25,
      "h": 7556.75,
-     "l": 7545.75,
-     "c": 7551.25,
-     "v": 13663.0
+     "l": 7534.5,
+     "c": 7539.75,
+     "v": 68124.0
+    },
+    {
+     "t": "2026-11-10T15:30:00+00:00",
+     "o": 7540.0,
+     "h": 7549.75,
+     "l": 7538.0,
+     "c": 7546.25,
+     "v": 9159.0
     }
    ]
   },
   {
    "root": "NQ",
    "trading_day": "2026-11-10",
-   "as_of_utc": "2026-11-10T15:27:03.520303+00:00",
+   "as_of_utc": "2026-11-10T15:42:21.072962+00:00",
    "source": "yahoo",
    "delayed": true,
-   "last_price": 27988.25,
+   "last_price": 27957.25,
    "levels": [
     {
      "tag": "exp_hi",
@@ -1596,7 +1604,7 @@
     {
      "tag": "pwh",
      "label": "Prior-week high",
-     "price": 28839.75,
+     "price": 28792.0,
      "group": "week",
      "note": "3 session(s) of data — PARTIAL"
     },
@@ -1749,8 +1757,8 @@
     }
    ],
    "stats": {
-    "last_bar_utc": "2026-11-10T15:17:00+00:00",
-    "last_bar_age_min": 10.1,
+    "last_bar_utc": "2026-11-10T15:32:00+00:00",
+    "last_bar_age_min": 10.4,
     "market_state": "open",
     "profile_volume": 527044.0,
     "prior_day": "2026-11-09",
@@ -3033,9 +3041,17 @@
      "t": "2026-11-10T15:15:00+00:00",
      "o": 28018.5,
      "h": 28021.0,
-     "l": 27949.0,
-     "c": 27988.25,
-     "v": 5315.0
+     "l": 27878.0,
+     "c": 27909.5,
+     "v": 29451.0
+    },
+    {
+     "t": "2026-11-10T15:30:00+00:00",
+     "o": 27910.5,
+     "h": 27978.5,
+     "l": 27903.5,
+     "c": 27957.25,
+     "v": 3555.0
     }
    ]
   }
@@ -3048,7 +3064,7 @@
     "link": "https://www.marketwatch.com/story/nvidia-couldnt-derail-the-stock-markets-rally-hot-inflation-might-8a572024?mod=mw_rss_topstories",
     "source": "marketwatch_top",
     "published_utc": "2026-11-10T12:33:00+00:00",
-    "score": 11.52,
+    "score": 11.47,
     "duplicates": 1
    },
    {
@@ -3057,7 +3073,7 @@
     "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPNTVJTkJXV1VqTXRoalRJT0NaTWNNd3RncHprMm9TNzdzZjNSekRFV19zZG5DS1JjaEVRbXVtMFlta2czNkpSNWJhMmU4MnR3YW1fOVYxTzBhRmFfZGNCTDJMbTF3SmcyeTktQUFERi1CZmxDeWdTRFJaN2NTcjhMQlNB?oc=5",
     "source": "gnews_futures",
     "published_utc": "2026-11-10T13:11:37+00:00",
-    "score": 11.12,
+    "score": 11.08,
     "duplicates": 0
    },
    {
@@ -3066,7 +3082,7 @@
     "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQNGlIZGYwOERQM19hR3JwM1Z5ZmQta1AtZllqXzhNUzlSUDlRUkxTWmRnSjdReVF3LW1RcEVEeVBEVDYxVXRNSWpSV3A1akhBREMzMWdKN0Y3ajlEd19feDZhT3hCNkRBUTRIUzJHR3o5ZGluUVBwbnlOQklkWjRfdzJ4TnlQbVE?oc=5",
     "source": "gnews_futures",
     "published_utc": "2026-11-10T14:09:28+00:00",
-    "score": 10.28,
+    "score": 10.24,
     "duplicates": 0
    },
    {
@@ -3075,7 +3091,7 @@
     "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5SX3Q2M0RrejlJQmtva1ZMRnpUNWNMM3FPQ2hwWVlkWEJmb1ZBbHVwbERvUXRONXVrU2tKOGM1QXkwdkV0dkozQmhhNnZFalE0QWsyOUNzY0lrMVFtZGVjbUtINURJVmpGT21RUEVwSks5OXFTNnc?oc=5",
     "source": "gnews_futures",
     "published_utc": "2026-11-10T09:35:00+00:00",
-    "score": 10.02,
+    "score": 9.98,
     "duplicates": 0
    },
    {
@@ -3084,7 +3100,16 @@
     "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQSWVDV1U1NGJSVHVBVktkNmxiSFQwZjVTN19PVnI0REF2R3REMjFzd2lmMjlKVlBOdjVvakh3SXBkZWxoS2VUb1VnaTcyWUFYOXFWUTBLVDNmVTU4cElvOEZnZnNRNGo1cjlhVUd4MGpFOFpLZ2VHb0dST1ZUSGxES3RCd2QwamsyOHV3U1FEU1N3Y3pjWi1rQQ?oc=5",
     "source": "gnews_futures",
     "published_utc": "2026-11-10T10:08:56+00:00",
-    "score": 9.62,
+    "score": 9.57,
+    "duplicates": 0
+   },
+   {
+    "id": "ffb81b000d",
+    "title": "US Treasury yields jump after stronger-than-expected inflation, Fed rate hike signals - Anadolu Ajansı",
+    "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOb3VpUWsyYXk1VXBEQXprQU5kVzB5aXJ2TjVGQTRzX25nblJQbzNMZnFEZk5sd3k3OWJ5Ylk3OFZkbkdBZThrZUFtbUVSVjl2eDNfbzJGeGNoclJWSU1FaWtxQm4teUFkWk9kdzFoS2tNM0VDUTZrdGQ2TE1NUmltSHhGbHptRWZ2Q3MyeHprSjN6VGhweW9kTFVLeWtTbVhjdzZpcnl3alNMa0llcUZqSzBDVW9lSHRFWnVMUVBPZm10QjQ?oc=5",
+    "source": "gnews_macro",
+    "published_utc": "2026-11-10T14:48:31+00:00",
+    "score": 9.35,
     "duplicates": 0
    },
    {
@@ -3093,17 +3118,8 @@
     "link": "https://www.cnbc.com/2026/11/10/cpi-inflation-report-october-2026.html",
     "source": "cnbc_markets",
     "published_utc": "2026-11-10T14:50:03+00:00",
-    "score": 9.4,
+    "score": 9.35,
     "duplicates": 2
-   },
-   {
-    "id": "ffb81b000d",
-    "title": "US Treasury yields jump after stronger-than-expected inflation, Fed rate hike signals - Anadolu Ajansı",
-    "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOb3VpUWsyYXk1VXBEQXprQU5kVzB5aXJ2TjVGQTRzX25nblJQbzNMZnFEZk5sd3k3OWJ5Ylk3OFZkbkdBZThrZUFtbUVSVjl2eDNfbzJGeGNoclJWSU1FaWtxQm4teUFkWk9kdzFoS2tNM0VDUTZrdGQ2TE1NUmltSHhGbHptRWZ2Q3MyeHprSjN6VGhweW9kTFVLeWtTbVhjdzZpcnl3alNMa0llcUZqSzBDVW9lSHRFWnVMUVBPZm10QjQ?oc=5",
-    "source": "gnews_macro",
-    "published_utc": "2026-11-10T14:48:31+00:00",
-    "score": 9.39,
-    "duplicates": 0
    },
    {
     "id": "6387e47971",
@@ -3111,7 +3127,7 @@
     "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNakhlWTNmM0VfenRXLXZLN3MwVmJLQ2szVXlYemhVZXJHNURHTXNwWFNCVDBPajZuU09JSlpseEFyeHYtSF9wTUdDMHliemNQc2dKc2phVTRKaDBla0xpeWdkUFYwb1hmYWpNMS1NMTZUOTdlVFBXN1Ntbml0WW9VcFhkZkxUQVZVYWtGdUxhS0t6QTdWbHl5LTVnMG9abFA2?oc=5",
     "source": "gnews_macro",
     "published_utc": "2026-11-10T14:08:30+00:00",
-    "score": 9.28,
+    "score": 9.24,
     "duplicates": 0
    },
    {
@@ -3120,7 +3136,7 @@
     "link": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxNZFJWUmNUYnRQV0RVbVQ1UW1mUlUzNmdkQU5hMkE0T3o4V2pIMF9icFdHQ1Z2enBEOVBrRTlyckxSWWNub0Rhel9JQS13V1ROckdNRUo1Q0ozakFkLUtjaEREQ18zT01XRlYxRzM2am42NklRNUtsWU5lQ0x0aEJmVDNyTXNzamFrVklqOWI5blpOTnFucG5ReEY0TzhfNzRTZGNIMHdDNnZtNlNjM09CZk1xMm4zYkwzSE9acENtd0hSOXdBS1p3RXc5YnpfazRsWDl2MWZ4cGxySkwxMW93V1dyLXFCSjlGelhUN2Jiak9vQQ?oc=5",
     "source": "gnews_macro",
     "published_utc": "2026-11-10T13:53:31+00:00",
-    "score": 9.24,
+    "score": 9.2,
     "duplicates": 0
    },
    {
@@ -3129,17 +3145,8 @@
     "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQaW1tdkZESEpSV3pqUXdtU0pkTTczQWpxV184ZlM1Ti1nUFdWQ0IwSVYzbi0zLXBFOEpnOXVtdGdfTnZJYk0xcXluNVFpd3Q5WW1iZ1g2VkZkN0VVRUllcDB3UGdCRl84LUVXWUk0WE1xa3NtendWYW9HZWRIa0VKUjJEdzZOdw?oc=5",
     "source": "gnews_megacap",
     "published_utc": "2026-11-10T13:49:50+00:00",
-    "score": 9.23,
+    "score": 9.19,
     "duplicates": 0
-   },
-   {
-    "id": "61ca9bb5e8",
-    "title": "S&P 500 futures fall sharply after October inflation data By Reuters - Investing.com",
-    "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPWVFoY3JrWGhRSF8xS29GTEJSM25MMC1kNFF0cFVhRFJvbDF3NXFIbG13d2MtU0E3YkFnUm1XR2dMWEo3M21NVzZTMk1CTWtaYmlkdFM2LWtqUUdCRkdjRGNjYUJOX2Q4VUk4WVZmOEhibGJPOUgzaGJKSHo3ZG5SdExGOXBxQ2lXZjBPUzV1RFdlcW1iTHlXZFROSThXV1pxVGk1bmVIcFhmWkVO?oc=5",
-    "source": "gnews_futures",
-    "published_utc": "2026-11-10T13:48:31+00:00",
-    "score": 9.23,
-    "duplicates": 4
    },
    {
     "id": "963e3d90a7",
@@ -3147,8 +3154,17 @@
     "link": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxQajllTGZzSHYxZnR1Zl9FbnpVaUo4NXA4UU1vdGFtNW1yZ0NaX0lVdUtuYWRjMzl0dEZzTVVaTjJWcXVYdG9EeFowY19CdUZHLWxTUEV6Ykh2VFJEQUFpTWN1YlZnYnJjeF84TGNwYjgycFdzM2o1QUFFNDk0VDQ5eWJFS1dpeHZTZU03QnUyZ1VVRGdHWlZaUEVFTWxhZ1V3RHRaOVd4QzVuMUFyeDkxQ0JTVFAtWmpZeXd5S1pnVGxkd011UGRqNjFQYVRFcnUyc0QxNkwycERTU3dq?oc=5",
     "source": "gnews_futures",
     "published_utc": "2026-11-10T10:24:07+00:00",
-    "score": 9.16,
+    "score": 9.12,
     "duplicates": 1
+   },
+   {
+    "id": "8a7a2d1b7a",
+    "title": "'Markets bottom on bad news' maxim rings true as chip stocks rally amid Nvidia scandal",
+    "link": "https://www.cnbc.com/2026/11/10/chip-stocks-rally-nvidia-scandal.html",
+    "source": "cnbc_markets",
+    "published_utc": "2026-11-10T13:19:13+00:00",
+    "score": 9.1,
+    "duplicates": 0
    }
   ],
   "summary": {
