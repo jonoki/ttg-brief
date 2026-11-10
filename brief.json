@@ -1,7 +1,7 @@
 {
  "meta": {
-  "generated_at_utc": "2026-11-10T11:40:18.742486+00:00",
-  "generated_at_local": "Tue 10 Nov 2026 07:40 AST",
+  "generated_at_utc": "2026-11-10T11:55:33.417369+00:00",
+  "generated_at_local": "Tue 10 Nov 2026 07:55 AST",
   "trading_day": "2026-11-10",
   "display_tz": "America/Halifax",
   "version": "0.1.0",
@@ -109,7 +109,7 @@
    "time_utc": "2026-11-10T13:30:00+00:00",
    "local": "09:30 AST",
    "et": "08:30 ET",
-   "in": "1h 49m",
+   "in": "1h 34m",
    "consensus": "0.2%",
    "prior": "0.3%"
   },
@@ -120,10 +120,10 @@
   {
    "root": "ES",
    "trading_day": "2026-11-10",
-   "as_of_utc": "2026-11-10T11:40:18.742486+00:00",
+   "as_of_utc": "2026-11-10T11:55:33.417369+00:00",
    "source": "yahoo",
    "delayed": true,
-   "last_price": 7581.0,
+   "last_price": 7577.5,
    "levels": [
     {
      "tag": "pwh",
@@ -172,12 +172,12 @@
      "label": "Overnight high",
      "price": 7598.75,
      "group": "overnight",
-     "note": "since 18:00 ET, 735 bars"
+     "note": "since 18:00 ET, 750 bars"
     },
     {
      "tag": "onvwap",
      "label": "Overnight VWAP",
-     "price": 7581.71,
+     "price": 7581.67,
      "group": "overnight",
      "note": "typical-price VWAP"
     },
@@ -267,14 +267,14 @@
     }
    ],
    "stats": {
-    "last_bar_utc": "2026-11-10T11:30:00+00:00",
-    "last_bar_age_min": 10.3,
+    "last_bar_utc": "2026-11-10T11:45:00+00:00",
+    "last_bar_age_min": 10.6,
     "market_state": "open",
     "profile_volume": 1450749.0,
     "prior_day": "2026-11-09",
     "prior_day_rth_range": 144.75,
     "overnight_range": 32.75,
-    "gap_vs_prior_close": 8.75,
+    "gap_vs_prior_close": 5.25,
     "gap_basis": "last price (pre-market)",
     "atr14": 141.68,
     "atr_days": 14,
@@ -1430,9 +1430,17 @@
     {
      "t": "2026-11-10T11:30:00+00:00",
      "o": 7581.25,
-     "h": 7581.25,
-     "l": 7580.0,
-     "c": 7581.0,
+     "h": 7583.75,
+     "l": 7575.0,
+     "c": 7577.0,
+     "v": 3199.0
+    },
+    {
+     "t": "2026-11-10T11:45:00+00:00",
+     "o": 7577.25,
+     "h": 7578.75,
+     "l": 7577.0,
+     "c": 7577.5,
      "v": 0.0
     }
    ]
@@ -1440,10 +1448,10 @@
   {
    "root": "NQ",
    "trading_day": "2026-11-10",
-   "as_of_utc": "2026-11-10T11:40:18.742486+00:00",
+   "as_of_utc": "2026-11-10T11:55:33.417369+00:00",
    "source": "yahoo",
    "delayed": true,
-   "last_price": 27953.5,
+   "last_price": 27917.0,
    "levels": [
     {
      "tag": "pwh",
@@ -1478,7 +1486,7 @@
      "label": "Overnight high",
      "price": 28109.0,
      "group": "overnight",
-     "note": "since 18:00 ET, 735 bars"
+     "note": "since 18:00 ET, 750 bars"
     },
     {
      "tag": "vah",
@@ -1504,13 +1512,13 @@
     {
      "tag": "onvwap",
      "label": "Overnight VWAP",
-     "price": 27981.88,
+     "price": 27981.02,
      "group": "overnight",
      "note": "typical-price VWAP"
     },
     {
-     "tag": "rn_minor_dn",
-     "label": "Round 50 below",
+     "tag": "rn_minor_up",
+     "label": "Round 50 above",
      "price": 27950.0,
      "group": "round",
      "note": ""
@@ -1587,14 +1595,14 @@
     }
    ],
    "stats": {
-    "last_bar_utc": "2026-11-10T11:30:00+00:00",
-    "last_bar_age_min": 10.3,
+    "last_bar_utc": "2026-11-10T11:45:00+00:00",
+    "last_bar_age_min": 10.6,
     "market_state": "open",
     "profile_volume": 527044.0,
     "prior_day": "2026-11-09",
     "prior_day_rth_range": 813.0,
     "overnight_range": 240.0,
-    "gap_vs_prior_close": -51.25,
+    "gap_vs_prior_close": -87.75,
     "gap_basis": "last price (pre-market)",
     "atr14": 905.88,
     "atr_days": 14,
@@ -2750,9 +2758,17 @@
     {
      "t": "2026-11-10T11:30:00+00:00",
      "o": 27957.75,
-     "h": 27959.0,
-     "l": 27945.25,
-     "c": 27953.5,
+     "h": 27974.75,
+     "l": 27908.25,
+     "c": 27916.0,
+     "v": 1997.0
+    },
+    {
+     "t": "2026-11-10T11:45:00+00:00",
+     "o": 27916.5,
+     "h": 27927.5,
+     "l": 27914.25,
+     "c": 27917.0,
      "v": 0.0
     }
    ]
@@ -2766,7 +2782,7 @@
     "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQSWVDV1U1NGJSVHVBVktkNmxiSFQwZjVTN19PVnI0REF2R3REMjFzd2lmMjlKVlBOdjVvakh3SXBkZWxoS2VUb1VnaTcyWUFYOXFWUTBLVDNmVTU4cElvOEZnZnNRNGo1cjlhVUd4MGpFOFpLZ2VHb0dST1ZUSGxES3RCd2QwamsyOHV3U1FEU1N3Y3pjWi1rQQ?oc=5",
     "source": "gnews_futures",
     "published_utc": "2026-11-10T10:08:56+00:00",
-    "score": 10.75,
+    "score": 10.7,
     "duplicates": 1
    },
    {
@@ -2775,7 +2791,7 @@
     "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5SX3Q2M0RrejlJQmtva1ZMRnpUNWNMM3FPQ2hwWVlkWEJmb1ZBbHVwbERvUXRONXVrU2tKOGM1QXkwdkV0dkozQmhhNnZFalE0QWsyOUNzY0lrMVFtZGVjbUtINURJVmpGT21RUEVwSks5OXFTNnc?oc=5",
     "source": "gnews_futures",
     "published_utc": "2026-11-10T09:35:00+00:00",
-    "score": 10.65,
+    "score": 10.61,
     "duplicates": 0
    },
    {
@@ -2784,7 +2800,7 @@
     "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxPUUg2OFhudmJaRXIwR2RMM3I2MkptSmF2NldYaC11NGFCV1BacXUtdnJRNjUxc0czUW43bzFSY1lTUGtRSmFmR1FIYU0xQmZrX1FkNkRsczB0MXBHVjRqN1lTZllPLVBrQ3N3X2JqR21qVG9CekZ2WExKUG94aW9qWVhHOFdudEEtbU5ELTEwdGtCSmZlTG5ISUU5UjVhdw?oc=5",
     "source": "gnews_futures",
     "published_utc": "2026-11-10T10:20:51+00:00",
-    "score": 9.78,
+    "score": 9.74,
     "duplicates": 1
    },
    {
@@ -2793,7 +2809,7 @@
     "link": "https://news.google.com/rss/articles/CBMiiAJBVV95cUxPTnh5eFpWcTR1X21qd0drUEw3RF9BRnk2X1M3RkUyeTJ3Nk41NFVBSkhZSEQ1ZVpuRjhpb2pQZHJzUWlqcWZKdV9fSEEzQnVRelc5bF9TbFg2UTJmQXhTdVlIWEVNdTl0ODRPQlp5aUZYR1hSTEkzZFhaME9Hbk1SVUotMTQ5aHJyMmdXUS1jaGdmeDNTOUlfZ0Vtbmc2ajktLWVpNUFHMzVnemZlSW5SVGp6Y0pWX2szUTNRR081R0U5WlkybUhzbXJNSHhNSDNjbVV4UFdUZGhfd19pcDc0di1DckRBQzkwZEV2RFlJNW91VTRUTnBjSE93SjVWZHBPMW9iTHBRVUU?oc=5",
     "source": "gnews_futures",
     "published_utc": "2026-11-10T04:36:12+00:00",
-    "score": 9.32,
+    "score": 9.28,
     "duplicates": 0
    },
    {
@@ -2802,7 +2818,7 @@
     "link": "https://www.cnbc.com/2026/11/10/fed-governor-waller-sees-december-hike-likely.html",
     "source": "cnbc_markets",
     "published_utc": "2026-11-10T09:00:01+00:00",
-    "score": 9.05,
+    "score": 9.01,
     "duplicates": 2
    },
    {
@@ -2811,7 +2827,7 @@
     "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOTFY4MmcyY2RON3BrNTc3dDJiWjBBbm5haXd0eFRvV1RYZktCR3FULWw1aDEyVTQteFlhRHk2dmgwSjNKOFRPMWFRU1dkeUs0U0dtQ2lBV1JScmZKejEtQ1d2SWR5aU9sN19xQWxPNUdPd2lLYXdJeDMtaHA3X3hWSzF4ZWhBczlrdUkyRVh3S1RyWWRZcGhLWTliY1QyTlM2cXJtb25tTFBCX1F0RzlHcmY3bzFJR1dVcjdGdFZNaw?oc=5",
     "source": "gnews_macro",
     "published_utc": "2026-11-10T03:06:00+00:00",
-    "score": 8.57,
+    "score": 8.53,
     "duplicates": 0
    },
    {
@@ -2820,7 +2836,7 @@
     "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOMEpwUGlpM2d1eTVBZUNCX1BNQ2dsaDlabGdHWUx5MVVQcEM4QkdJQnc4RlpUQVBSbGV0UXY1Ym1BeHRrWS1PM0stNnZxY1BveFRUWDRfY0RFeEpHSXhVUklVNzVDdHprNTNmb0dWYVd1NTRZQ3BvMi1TUkNpSUNTbXFJdmRBYWZjeHl2WEhhaV9VWXh4NnA3Nzl5X3NlSDhFcTlKNklIM3d6dw?oc=5",
     "source": "gnews_macro",
     "published_utc": "2026-11-10T05:41:49+00:00",
-    "score": 8.5,
+    "score": 8.46,
     "duplicates": 0
    },
    {
@@ -2829,7 +2845,7 @@
     "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxObGdKazB3cGVKLUR0VG45X1hQNEpxeVdwaVdUNEdSUl96YnlaQzRuSVgxa2F6NVE2dHU3SmRpOG5xNHdhT2pKS3RSOTdsbGxGYlVWMmxXQm9EUC1YQ1VudlVYeG5pLUJKbnRiczJDRVg2TXlJQlh0OE81dVNDLW1jdU1vT2tMZGRzV1VOeHR6TlVSbEFBTGNBMjh4Z2Zlc3VUei11SFkxcjI3U2EzS0llOEl1SnE?oc=5",
     "source": "gnews_fed",
     "published_utc": "2026-11-10T10:22:55+00:00",
-    "score": 8.29,
+    "score": 8.24,
     "duplicates": 1
    },
    {
@@ -2838,7 +2854,7 @@
     "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNRkFlUzBtNmFhTWgzWkxnWXNKVWRQVXlvYlVMUDRVaHhYV1NxVVFxOUI4czNzWjVpWUJfd3JJVklLZXBDZTEtYkVFM3NpQjd0YldyUnlZbTVNd0pBaUMyXy1xa18wOHhzakQ1WXI1LTZOS0UzMU1xdVY3Wk16ZEZQMENSS2s?oc=5",
     "source": "gnews_macro",
     "published_utc": "2026-11-10T10:17:01+00:00",
-    "score": 8.27,
+    "score": 8.23,
     "duplicates": 0
    },
    {
@@ -2847,7 +2863,7 @@
     "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNczlpdFNJRUF3YmZQWXF4TlR0VHNhOTJxaW5VZEtPXzdfbXI4NjVyamZPSTlUT0E3LVdsVWxUU0gwS3REa3JpaWtUbVZicXZoSzNlNFZDSExMcHppMXZQNXd6QnJFYnFyS3RXZGQwSHE4a2lQWDY0enN0Z1FIODlHUmtMRmlpTmItMEFtcA?oc=5",
     "source": "gnews_macro",
     "published_utc": "2026-11-10T10:08:12+00:00",
-    "score": 8.24,
+    "score": 8.2,
     "duplicates": 0
    },
    {
@@ -2856,7 +2872,7 @@
     "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNdFd3c185VEYxWl9KSjdsb0pRU2VENzNacklCQ1ZOVGNmcFNhVlZJTF9fVElteGhfX01oVmVhRXJGdlA3Q25ycXBnS0RLVE5laEQwRGI5UlFWM2I3a2ZhRzA3aVFiSHB5X2NrRW9PMHlxMWdkVjB6WDZFOHdhVjljV3FJNA?oc=5",
     "source": "gnews_futures",
     "published_utc": "2026-11-10T10:04:03+00:00",
-    "score": 8.23,
+    "score": 8.19,
     "duplicates": 0
    },
    {
@@ -2865,7 +2881,7 @@
     "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNQXRmcTFWTTlETTZ2ajlUbl9GT3pfcW5hVFU0dXdfZGVQd3FxZDBQekVOLWVWaFN5ZTg0YkFpaFJFOU1RSDRHR2pYRzZSUlhueVlhQ2tmcnBHZGFkUW9lZGstc2poYjJZYnRzRVcyQl9hS1RldXgwWVZKSks1YVdSQnJDWlNieUlGaFdlV3VUYmIzN2VfbEYwbQ?oc=5",
     "source": "gnews_macro",
     "published_utc": "2026-11-10T09:32:00+00:00",
-    "score": 8.14,
+    "score": 8.1,
     "duplicates": 0
    }
   ],
