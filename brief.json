@@ -1,35 +1,17 @@
 {
  "meta": {
-  "generated_at_utc": "2026-11-09T23:00:27.836567+00:00",
-  "generated_at_local": "Mon 09 Nov 2026 19:00 AST",
+  "generated_at_utc": "2026-11-10T11:25:02.297136+00:00",
+  "generated_at_local": "Tue 10 Nov 2026 07:25 AST",
   "trading_day": "2026-11-10",
   "display_tz": "America/Halifax",
   "version": "0.1.0",
-  "run": "post-close",
+  "run": "overnight",
   "variant": "public"
  },
  "calendar": {
-  "start": "2026-11-09",
+  "start": "2026-11-10",
   "days": 2,
   "events": [
-   {
-    "name": "3-Year note auction",
-    "date": "2026-11-09",
-    "time_utc": "2026-11-09T18:00:00+00:00",
-    "kind": "auction",
-    "impact": "low",
-    "explain": {
-     "what": "Treasury sells new debt; results (yield, bid-to-cover, tail) land ~13:01 ET.",
-     "why": "A weak long-bond auction lifts yields and can knock equities in the early afternoon; strong demand does the reverse."
-    },
-    "actual": null,
-    "note": null,
-    "consensus": null,
-    "prior": null,
-    "source": "",
-    "sources_agreeing": [],
-    "source_url": null
-   },
    {
     "name": "FOMC Member Waller Speaks",
     "date": "2026-11-10",
@@ -101,17 +83,35 @@
     "source": "",
     "sources_agreeing": [],
     "source_url": null
+   },
+   {
+    "name": "Bank Holiday",
+    "date": "2026-11-11",
+    "time_utc": "2026-11-11T13:00:00+00:00",
+    "kind": "holiday",
+    "impact": "holiday",
+    "explain": {
+     "what": "US market holiday or early close.",
+     "why": "Thin liquidity: wider spreads, erratic moves, and futures may trade a shortened session."
+    },
+    "actual": null,
+    "note": null,
+    "consensus": null,
+    "prior": null,
+    "source": "",
+    "sources_agreeing": [],
+    "source_url": null
    }
   ],
   "next_event": {
-   "name": "FOMC Member Waller Speaks",
-   "impact": "medium",
-   "time_utc": "2026-11-10T09:00:00+00:00",
-   "local": "05:00 AST",
-   "et": "04:00 ET",
-   "in": "9h 59m",
-   "consensus": null,
-   "prior": null
+   "name": "Core CPI m/m",
+   "impact": "high",
+   "time_utc": "2026-11-10T13:30:00+00:00",
+   "local": "09:30 AST",
+   "et": "08:30 ET",
+   "in": "2h 04m",
+   "consensus": "0.2%",
+   "prior": "0.3%"
   },
   "sources": [],
   "warnings": []
@@ -120,10 +120,10 @@
   {
    "root": "ES",
    "trading_day": "2026-11-10",
-   "as_of_utc": "2026-11-09T23:00:27.836567+00:00",
+   "as_of_utc": "2026-11-10T11:25:02.297136+00:00",
    "source": "yahoo",
    "delayed": true,
-   "last_price": 7580.25,
+   "last_price": 7579.75,
    "levels": [
     {
      "tag": "pwh",
@@ -168,6 +168,20 @@
      "note": "70 % value area"
     },
     {
+     "tag": "onh",
+     "label": "Overnight high",
+     "price": 7598.75,
+     "group": "overnight",
+     "note": "since 18:00 ET, 720 bars"
+    },
+    {
+     "tag": "onvwap",
+     "label": "Overnight VWAP",
+     "price": 7581.74,
+     "group": "overnight",
+     "note": "typical-price VWAP"
+    },
+    {
      "tag": "rn_minor_dn",
      "label": "Round 25 below",
      "price": 7575.0,
@@ -187,6 +201,13 @@
      "price": 7570.12,
      "group": "profile",
      "note": "2026-11-09 RTH, bin 0.25"
+    },
+    {
+     "tag": "onl",
+     "label": "Overnight low",
+     "price": 7566.0,
+     "group": "overnight",
+     "note": ""
     },
     {
      "tag": "rn_major_dn",
@@ -246,13 +267,14 @@
     }
    ],
    "stats": {
-    "last_bar_utc": "2026-11-09T22:00:00+00:00",
-    "last_bar_age_min": 60.5,
+    "last_bar_utc": "2026-11-10T11:15:00+00:00",
+    "last_bar_age_min": 10.0,
     "market_state": "open",
     "profile_volume": 1450749.0,
     "prior_day": "2026-11-09",
     "prior_day_rth_range": 144.75,
-    "gap_vs_prior_close": 8.0,
+    "overnight_range": 32.75,
+    "gap_vs_prior_close": 7.5,
     "gap_basis": "last price (pre-market)",
     "atr14": 141.68,
     "atr_days": 14,
@@ -1004,16 +1026,416 @@
      "l": 7580.0,
      "c": 7580.25,
      "v": 21.0
+    },
+    {
+     "t": "2026-11-09T23:00:00+00:00",
+     "o": 7580.75,
+     "h": 7582.75,
+     "l": 7576.75,
+     "c": 7580.5,
+     "v": 1741.0
+    },
+    {
+     "t": "2026-11-09T23:15:00+00:00",
+     "o": 7580.5,
+     "h": 7583.75,
+     "l": 7575.75,
+     "c": 7578.75,
+     "v": 2326.0
+    },
+    {
+     "t": "2026-11-09T23:30:00+00:00",
+     "o": 7579.0,
+     "h": 7581.25,
+     "l": 7574.75,
+     "c": 7579.75,
+     "v": 2308.0
+    },
+    {
+     "t": "2026-11-09T23:45:00+00:00",
+     "o": 7579.75,
+     "h": 7583.25,
+     "l": 7578.25,
+     "c": 7581.25,
+     "v": 1831.0
+    },
+    {
+     "t": "2026-11-10T00:00:00+00:00",
+     "o": 7581.0,
+     "h": 7585.75,
+     "l": 7579.75,
+     "c": 7582.25,
+     "v": 4045.0
+    },
+    {
+     "t": "2026-11-10T00:15:00+00:00",
+     "o": 7582.5,
+     "h": 7583.5,
+     "l": 7578.25,
+     "c": 7579.5,
+     "v": 2366.0
+    },
+    {
+     "t": "2026-11-10T00:30:00+00:00",
+     "o": 7579.5,
+     "h": 7579.5,
+     "l": 7573.5,
+     "c": 7574.0,
+     "v": 2054.0
+    },
+    {
+     "t": "2026-11-10T00:45:00+00:00",
+     "o": 7573.75,
+     "h": 7574.5,
+     "l": 7568.75,
+     "c": 7570.5,
+     "v": 2606.0
+    },
+    {
+     "t": "2026-11-10T01:00:00+00:00",
+     "o": 7570.75,
+     "h": 7582.25,
+     "l": 7570.5,
+     "c": 7578.25,
+     "v": 5766.0
+    },
+    {
+     "t": "2026-11-10T01:15:00+00:00",
+     "o": 7578.5,
+     "h": 7583.0,
+     "l": 7576.0,
+     "c": 7581.75,
+     "v": 2122.0
+    },
+    {
+     "t": "2026-11-10T01:30:00+00:00",
+     "o": 7581.5,
+     "h": 7586.25,
+     "l": 7577.25,
+     "c": 7583.25,
+     "v": 2519.0
+    },
+    {
+     "t": "2026-11-10T01:45:00+00:00",
+     "o": 7583.25,
+     "h": 7584.0,
+     "l": 7578.0,
+     "c": 7582.0,
+     "v": 1411.0
+    },
+    {
+     "t": "2026-11-10T02:00:00+00:00",
+     "o": 7582.25,
+     "h": 7584.75,
+     "l": 7578.5,
+     "c": 7583.75,
+     "v": 1751.0
+    },
+    {
+     "t": "2026-11-10T02:15:00+00:00",
+     "o": 7584.0,
+     "h": 7586.5,
+     "l": 7583.0,
+     "c": 7584.25,
+     "v": 1509.0
+    },
+    {
+     "t": "2026-11-10T02:30:00+00:00",
+     "o": 7584.0,
+     "h": 7585.25,
+     "l": 7579.0,
+     "c": 7583.0,
+     "v": 1343.0
+    },
+    {
+     "t": "2026-11-10T02:45:00+00:00",
+     "o": 7583.0,
+     "h": 7586.0,
+     "l": 7579.75,
+     "c": 7581.25,
+     "v": 1179.0
+    },
+    {
+     "t": "2026-11-10T03:00:00+00:00",
+     "o": 7581.0,
+     "h": 7582.25,
+     "l": 7577.0,
+     "c": 7577.75,
+     "v": 1254.0
+    },
+    {
+     "t": "2026-11-10T03:15:00+00:00",
+     "o": 7577.75,
+     "h": 7581.75,
+     "l": 7577.0,
+     "c": 7578.75,
+     "v": 936.0
+    },
+    {
+     "t": "2026-11-10T03:30:00+00:00",
+     "o": 7578.75,
+     "h": 7579.5,
+     "l": 7567.25,
+     "c": 7569.75,
+     "v": 3086.0
+    },
+    {
+     "t": "2026-11-10T03:45:00+00:00",
+     "o": 7569.75,
+     "h": 7574.5,
+     "l": 7568.5,
+     "c": 7574.25,
+     "v": 2013.0
+    },
+    {
+     "t": "2026-11-10T04:00:00+00:00",
+     "o": 7574.5,
+     "h": 7578.0,
+     "l": 7572.0,
+     "c": 7573.75,
+     "v": 1638.0
+    },
+    {
+     "t": "2026-11-10T04:15:00+00:00",
+     "o": 7573.5,
+     "h": 7582.25,
+     "l": 7572.0,
+     "c": 7581.75,
+     "v": 2110.0
+    },
+    {
+     "t": "2026-11-10T04:30:00+00:00",
+     "o": 7582.0,
+     "h": 7582.5,
+     "l": 7578.75,
+     "c": 7579.75,
+     "v": 1422.0
+    },
+    {
+     "t": "2026-11-10T04:45:00+00:00",
+     "o": 7579.75,
+     "h": 7582.75,
+     "l": 7578.25,
+     "c": 7582.75,
+     "v": 967.0
+    },
+    {
+     "t": "2026-11-10T05:00:00+00:00",
+     "o": 7583.25,
+     "h": 7586.25,
+     "l": 7581.75,
+     "c": 7585.5,
+     "v": 1293.0
+    },
+    {
+     "t": "2026-11-10T05:15:00+00:00",
+     "o": 7586.0,
+     "h": 7588.5,
+     "l": 7585.0,
+     "c": 7587.0,
+     "v": 1942.0
+    },
+    {
+     "t": "2026-11-10T05:30:00+00:00",
+     "o": 7586.75,
+     "h": 7591.75,
+     "l": 7583.75,
+     "c": 7591.25,
+     "v": 1894.0
+    },
+    {
+     "t": "2026-11-10T05:45:00+00:00",
+     "o": 7591.25,
+     "h": 7593.0,
+     "l": 7589.5,
+     "c": 7590.25,
+     "v": 3082.0
+    },
+    {
+     "t": "2026-11-10T06:00:00+00:00",
+     "o": 7590.0,
+     "h": 7592.25,
+     "l": 7587.25,
+     "c": 7587.75,
+     "v": 2528.0
+    },
+    {
+     "t": "2026-11-10T06:15:00+00:00",
+     "o": 7588.0,
+     "h": 7598.0,
+     "l": 7586.75,
+     "c": 7595.5,
+     "v": 5429.0
+    },
+    {
+     "t": "2026-11-10T06:30:00+00:00",
+     "o": 7595.25,
+     "h": 7598.75,
+     "l": 7590.5,
+     "c": 7592.25,
+     "v": 4026.0
+    },
+    {
+     "t": "2026-11-10T06:45:00+00:00",
+     "o": 7592.25,
+     "h": 7593.25,
+     "l": 7588.25,
+     "c": 7590.25,
+     "v": 1436.0
+    },
+    {
+     "t": "2026-11-10T07:00:00+00:00",
+     "o": 7590.25,
+     "h": 7592.25,
+     "l": 7582.5,
+     "c": 7583.75,
+     "v": 1903.0
+    },
+    {
+     "t": "2026-11-10T07:15:00+00:00",
+     "o": 7583.5,
+     "h": 7588.75,
+     "l": 7582.5,
+     "c": 7588.5,
+     "v": 1323.0
+    },
+    {
+     "t": "2026-11-10T07:30:00+00:00",
+     "o": 7588.5,
+     "h": 7592.25,
+     "l": 7586.5,
+     "c": 7590.5,
+     "v": 2107.0
+    },
+    {
+     "t": "2026-11-10T07:45:00+00:00",
+     "o": 7590.5,
+     "h": 7594.0,
+     "l": 7583.5,
+     "c": 7583.75,
+     "v": 3457.0
+    },
+    {
+     "t": "2026-11-10T08:00:00+00:00",
+     "o": 7583.75,
+     "h": 7594.25,
+     "l": 7583.5,
+     "c": 7589.0,
+     "v": 7322.0
+    },
+    {
+     "t": "2026-11-10T08:15:00+00:00",
+     "o": 7588.5,
+     "h": 7589.0,
+     "l": 7583.5,
+     "c": 7585.75,
+     "v": 4419.0
+    },
+    {
+     "t": "2026-11-10T08:30:00+00:00",
+     "o": 7586.25,
+     "h": 7592.75,
+     "l": 7585.5,
+     "c": 7587.5,
+     "v": 4809.0
+    },
+    {
+     "t": "2026-11-10T08:45:00+00:00",
+     "o": 7587.5,
+     "h": 7592.75,
+     "l": 7584.75,
+     "c": 7591.25,
+     "v": 3870.0
+    },
+    {
+     "t": "2026-11-10T09:00:00+00:00",
+     "o": 7591.0,
+     "h": 7591.0,
+     "l": 7566.0,
+     "c": 7574.5,
+     "v": 20278.0
+    },
+    {
+     "t": "2026-11-10T09:15:00+00:00",
+     "o": 7574.75,
+     "h": 7582.25,
+     "l": 7571.0,
+     "c": 7582.25,
+     "v": 8392.0
+    },
+    {
+     "t": "2026-11-10T09:30:00+00:00",
+     "o": 7582.5,
+     "h": 7586.5,
+     "l": 7579.0,
+     "c": 7584.25,
+     "v": 4689.0
+    },
+    {
+     "t": "2026-11-10T09:45:00+00:00",
+     "o": 7584.25,
+     "h": 7589.0,
+     "l": 7583.5,
+     "c": 7587.25,
+     "v": 4435.0
+    },
+    {
+     "t": "2026-11-10T10:00:00+00:00",
+     "o": 7587.0,
+     "h": 7587.5,
+     "l": 7578.0,
+     "c": 7579.5,
+     "v": 4001.0
+    },
+    {
+     "t": "2026-11-10T10:15:00+00:00",
+     "o": 7579.5,
+     "h": 7582.75,
+     "l": 7576.25,
+     "c": 7577.25,
+     "v": 6851.0
+    },
+    {
+     "t": "2026-11-10T10:30:00+00:00",
+     "o": 7577.25,
+     "h": 7578.75,
+     "l": 7571.5,
+     "c": 7572.25,
+     "v": 4151.0
+    },
+    {
+     "t": "2026-11-10T10:45:00+00:00",
+     "o": 7572.5,
+     "h": 7579.5,
+     "l": 7570.75,
+     "c": 7579.25,
+     "v": 4745.0
+    },
+    {
+     "t": "2026-11-10T11:00:00+00:00",
+     "o": 7579.5,
+     "h": 7581.0,
+     "l": 7572.75,
+     "c": 7580.25,
+     "v": 4174.0
+    },
+    {
+     "t": "2026-11-10T11:15:00+00:00",
+     "o": 7579.75,
+     "h": 7582.0,
+     "l": 7579.75,
+     "c": 7579.75,
+     "v": 0.0
     }
    ]
   },
   {
    "root": "NQ",
    "trading_day": "2026-11-10",
-   "as_of_utc": "2026-11-09T23:00:27.836567+00:00",
+   "as_of_utc": "2026-11-10T11:25:02.297136+00:00",
    "source": "yahoo",
    "delayed": true,
-   "last_price": 28073.25,
+   "last_price": 27945.25,
    "levels": [
     {
      "tag": "pwh",
@@ -1044,11 +1466,11 @@
      "note": "since 2026-11-09"
     },
     {
-     "tag": "rn_major_up",
-     "label": "Round 100 above",
-     "price": 28100.0,
-     "group": "round",
-     "note": ""
+     "tag": "onh",
+     "label": "Overnight high",
+     "price": 28109.0,
+     "group": "overnight",
+     "note": "since 18:00 ET, 720 bars"
     },
     {
      "tag": "vah",
@@ -1058,13 +1480,6 @@
      "note": "70 % value area"
     },
     {
-     "tag": "rn_minor_dn",
-     "label": "Round 50 below",
-     "price": 28050.0,
-     "group": "round",
-     "note": ""
-    },
-    {
      "tag": "pdc",
      "label": "Prior-day close (16:00 bar)",
      "price": 28004.75,
@@ -1072,9 +1487,23 @@
      "note": "2026-11-09"
     },
     {
-     "tag": "rn_major_dn",
-     "label": "Round 100 below",
+     "tag": "rn_major_up",
+     "label": "Round 100 above",
      "price": 28000.0,
+     "group": "round",
+     "note": ""
+    },
+    {
+     "tag": "onvwap",
+     "label": "Overnight VWAP",
+     "price": 27982.15,
+     "group": "overnight",
+     "note": "typical-price VWAP"
+    },
+    {
+     "tag": "rn_minor_up",
+     "label": "Round 50 above",
+     "price": 27950.0,
      "group": "round",
      "note": ""
     },
@@ -1084,6 +1513,20 @@
      "price": 27940.5,
      "group": "profile",
      "note": "2026-11-09 RTH, bin 1.0"
+    },
+    {
+     "tag": "rn_major_dn",
+     "label": "Round 100 below",
+     "price": 27900.0,
+     "group": "round",
+     "note": ""
+    },
+    {
+     "tag": "onl",
+     "label": "Overnight low",
+     "price": 27869.0,
+     "group": "overnight",
+     "note": ""
     },
     {
      "tag": "val",
@@ -1136,13 +1579,14 @@
     }
    ],
    "stats": {
-    "last_bar_utc": "2026-11-09T22:00:00+00:00",
-    "last_bar_age_min": 60.5,
+    "last_bar_utc": "2026-11-10T11:15:00+00:00",
+    "last_bar_age_min": 10.0,
     "market_state": "open",
     "profile_volume": 527044.0,
     "prior_day": "2026-11-09",
     "prior_day_rth_range": 813.0,
-    "gap_vs_prior_close": 68.5,
+    "overnight_range": 240.0,
+    "gap_vs_prior_close": -59.5,
     "gap_basis": "last price (pre-market)",
     "atr14": 905.88,
     "atr_days": 14,
@@ -1894,6 +2338,406 @@
      "l": 28073.25,
      "c": 28073.25,
      "v": 1.0
+    },
+    {
+     "t": "2026-11-09T23:00:00+00:00",
+     "o": 28075.0,
+     "h": 28091.75,
+     "l": 28047.0,
+     "c": 28055.0,
+     "v": 1104.0
+    },
+    {
+     "t": "2026-11-09T23:15:00+00:00",
+     "o": 28055.0,
+     "h": 28075.5,
+     "l": 28031.75,
+     "c": 28046.5,
+     "v": 1296.0
+    },
+    {
+     "t": "2026-11-09T23:30:00+00:00",
+     "o": 28047.25,
+     "h": 28066.25,
+     "l": 28017.75,
+     "c": 28045.75,
+     "v": 1831.0
+    },
+    {
+     "t": "2026-11-09T23:45:00+00:00",
+     "o": 28044.75,
+     "h": 28082.5,
+     "l": 28044.0,
+     "c": 28076.75,
+     "v": 1149.0
+    },
+    {
+     "t": "2026-11-10T00:00:00+00:00",
+     "o": 28072.0,
+     "h": 28109.0,
+     "l": 28055.0,
+     "c": 28078.25,
+     "v": 2633.0
+    },
+    {
+     "t": "2026-11-10T00:15:00+00:00",
+     "o": 28080.0,
+     "h": 28082.5,
+     "l": 28042.75,
+     "c": 28058.25,
+     "v": 1988.0
+    },
+    {
+     "t": "2026-11-10T00:30:00+00:00",
+     "o": 28058.5,
+     "h": 28058.5,
+     "l": 28011.75,
+     "c": 28016.0,
+     "v": 2217.0
+    },
+    {
+     "t": "2026-11-10T00:45:00+00:00",
+     "o": 28015.0,
+     "h": 28018.0,
+     "l": 27969.0,
+     "c": 27986.0,
+     "v": 2950.0
+    },
+    {
+     "t": "2026-11-10T01:00:00+00:00",
+     "o": 27986.75,
+     "h": 28048.25,
+     "l": 27931.25,
+     "c": 27976.0,
+     "v": 5954.0
+    },
+    {
+     "t": "2026-11-10T01:15:00+00:00",
+     "o": 27977.75,
+     "h": 28023.5,
+     "l": 27962.0,
+     "c": 27997.25,
+     "v": 3262.0
+    },
+    {
+     "t": "2026-11-10T01:30:00+00:00",
+     "o": 27996.75,
+     "h": 28026.5,
+     "l": 27972.75,
+     "c": 28009.25,
+     "v": 3349.0
+    },
+    {
+     "t": "2026-11-10T01:45:00+00:00",
+     "o": 28008.0,
+     "h": 28019.25,
+     "l": 27981.0,
+     "c": 28008.75,
+     "v": 1262.0
+    },
+    {
+     "t": "2026-11-10T02:00:00+00:00",
+     "o": 28009.75,
+     "h": 28037.75,
+     "l": 27983.0,
+     "c": 28031.5,
+     "v": 1964.0
+    },
+    {
+     "t": "2026-11-10T02:15:00+00:00",
+     "o": 28031.5,
+     "h": 28041.0,
+     "l": 28011.75,
+     "c": 28019.75,
+     "v": 1606.0
+    },
+    {
+     "t": "2026-11-10T02:30:00+00:00",
+     "o": 28017.25,
+     "h": 28023.25,
+     "l": 27976.0,
+     "c": 28003.75,
+     "v": 1637.0
+    },
+    {
+     "t": "2026-11-10T02:45:00+00:00",
+     "o": 28004.5,
+     "h": 28025.0,
+     "l": 27978.5,
+     "c": 27989.25,
+     "v": 1539.0
+    },
+    {
+     "t": "2026-11-10T03:00:00+00:00",
+     "o": 27988.5,
+     "h": 27992.25,
+     "l": 27959.5,
+     "c": 27961.0,
+     "v": 1516.0
+    },
+    {
+     "t": "2026-11-10T03:15:00+00:00",
+     "o": 27960.5,
+     "h": 27987.75,
+     "l": 27949.75,
+     "c": 27955.75,
+     "v": 1396.0
+    },
+    {
+     "t": "2026-11-10T03:30:00+00:00",
+     "o": 27953.25,
+     "h": 27962.0,
+     "l": 27869.0,
+     "c": 27880.5,
+     "v": 3388.0
+    },
+    {
+     "t": "2026-11-10T03:45:00+00:00",
+     "o": 27881.75,
+     "h": 27915.5,
+     "l": 27871.0,
+     "c": 27911.75,
+     "v": 2951.0
+    },
+    {
+     "t": "2026-11-10T04:00:00+00:00",
+     "o": 27910.75,
+     "h": 27930.75,
+     "l": 27880.75,
+     "c": 27887.25,
+     "v": 1994.0
+    },
+    {
+     "t": "2026-11-10T04:15:00+00:00",
+     "o": 27887.75,
+     "h": 27963.5,
+     "l": 27877.0,
+     "c": 27958.75,
+     "v": 2562.0
+    },
+    {
+     "t": "2026-11-10T04:30:00+00:00",
+     "o": 27960.25,
+     "h": 27962.25,
+     "l": 27935.25,
+     "c": 27945.5,
+     "v": 1150.0
+    },
+    {
+     "t": "2026-11-10T04:45:00+00:00",
+     "o": 27945.0,
+     "h": 27976.75,
+     "l": 27932.0,
+     "c": 27974.0,
+     "v": 941.0
+    },
+    {
+     "t": "2026-11-10T05:00:00+00:00",
+     "o": 27969.75,
+     "h": 27995.75,
+     "l": 27965.0,
+     "c": 27990.25,
+     "v": 809.0
+    },
+    {
+     "t": "2026-11-10T05:15:00+00:00",
+     "o": 27990.0,
+     "h": 28008.75,
+     "l": 27986.5,
+     "c": 28001.75,
+     "v": 1218.0
+    },
+    {
+     "t": "2026-11-10T05:30:00+00:00",
+     "o": 28000.5,
+     "h": 28045.5,
+     "l": 27989.0,
+     "c": 28041.75,
+     "v": 2257.0
+    },
+    {
+     "t": "2026-11-10T05:45:00+00:00",
+     "o": 28042.0,
+     "h": 28050.5,
+     "l": 28021.5,
+     "c": 28034.0,
+     "v": 1364.0
+    },
+    {
+     "t": "2026-11-10T06:00:00+00:00",
+     "o": 28033.0,
+     "h": 28036.75,
+     "l": 27983.0,
+     "c": 27986.5,
+     "v": 1559.0
+    },
+    {
+     "t": "2026-11-10T06:15:00+00:00",
+     "o": 27988.0,
+     "h": 28021.0,
+     "l": 27969.75,
+     "c": 28013.25,
+     "v": 1711.0
+    },
+    {
+     "t": "2026-11-10T06:30:00+00:00",
+     "o": 28010.25,
+     "h": 28012.0,
+     "l": 27975.5,
+     "c": 27985.0,
+     "v": 1381.0
+    },
+    {
+     "t": "2026-11-10T06:45:00+00:00",
+     "o": 27985.25,
+     "h": 28006.25,
+     "l": 27968.5,
+     "c": 27985.25,
+     "v": 1265.0
+    },
+    {
+     "t": "2026-11-10T07:00:00+00:00",
+     "o": 27985.0,
+     "h": 27993.25,
+     "l": 27929.5,
+     "c": 27937.25,
+     "v": 2030.0
+    },
+    {
+     "t": "2026-11-10T07:15:00+00:00",
+     "o": 27936.25,
+     "h": 27971.25,
+     "l": 27927.25,
+     "c": 27967.75,
+     "v": 1530.0
+    },
+    {
+     "t": "2026-11-10T07:30:00+00:00",
+     "o": 27968.25,
+     "h": 27993.0,
+     "l": 27950.0,
+     "c": 27981.0,
+     "v": 1869.0
+    },
+    {
+     "t": "2026-11-10T07:45:00+00:00",
+     "o": 27982.5,
+     "h": 28012.0,
+     "l": 27961.75,
+     "c": 27962.25,
+     "v": 1702.0
+    },
+    {
+     "t": "2026-11-10T08:00:00+00:00",
+     "o": 27962.25,
+     "h": 28044.25,
+     "l": 27959.25,
+     "c": 28007.0,
+     "v": 3250.0
+    },
+    {
+     "t": "2026-11-10T08:15:00+00:00",
+     "o": 28010.0,
+     "h": 28010.0,
+     "l": 27962.75,
+     "c": 27973.75,
+     "v": 1620.0
+    },
+    {
+     "t": "2026-11-10T08:30:00+00:00",
+     "o": 27973.5,
+     "h": 28015.0,
+     "l": 27971.5,
+     "c": 27997.5,
+     "v": 1436.0
+    },
+    {
+     "t": "2026-11-10T08:45:00+00:00",
+     "o": 27998.25,
+     "h": 28033.0,
+     "l": 27981.75,
+     "c": 28024.75,
+     "v": 1260.0
+    },
+    {
+     "t": "2026-11-10T09:00:00+00:00",
+     "o": 28021.0,
+     "h": 28022.0,
+     "l": 27870.0,
+     "c": 27926.25,
+     "v": 5624.0
+    },
+    {
+     "t": "2026-11-10T09:15:00+00:00",
+     "o": 27924.0,
+     "h": 27975.0,
+     "l": 27906.25,
+     "c": 27974.25,
+     "v": 1758.0
+    },
+    {
+     "t": "2026-11-10T09:30:00+00:00",
+     "o": 27976.0,
+     "h": 28000.75,
+     "l": 27958.5,
+     "c": 27996.5,
+     "v": 1621.0
+    },
+    {
+     "t": "2026-11-10T09:45:00+00:00",
+     "o": 27996.75,
+     "h": 28021.75,
+     "l": 27991.5,
+     "c": 28008.5,
+     "v": 1738.0
+    },
+    {
+     "t": "2026-11-10T10:00:00+00:00",
+     "o": 28007.0,
+     "h": 28017.5,
+     "l": 27954.75,
+     "c": 27958.5,
+     "v": 1229.0
+    },
+    {
+     "t": "2026-11-10T10:15:00+00:00",
+     "o": 27958.5,
+     "h": 27977.0,
+     "l": 27928.0,
+     "c": 27938.0,
+     "v": 1414.0
+    },
+    {
+     "t": "2026-11-10T10:30:00+00:00",
+     "o": 27938.5,
+     "h": 27947.0,
+     "l": 27887.0,
+     "c": 27896.75,
+     "v": 2041.0
+    },
+    {
+     "t": "2026-11-10T10:45:00+00:00",
+     "o": 27899.0,
+     "h": 27949.0,
+     "l": 27886.25,
+     "c": 27948.75,
+     "v": 2123.0
+    },
+    {
+     "t": "2026-11-10T11:00:00+00:00",
+     "o": 27947.25,
+     "h": 27953.75,
+     "l": 27900.0,
+     "c": 27945.5,
+     "v": 2060.0
+    },
+    {
+     "t": "2026-11-10T11:15:00+00:00",
+     "o": 27945.5,
+     "h": 27958.25,
+     "l": 27943.75,
+     "c": 27945.25,
+     "v": 0.0
     }
    ]
   }
@@ -1901,121 +2745,121 @@
  "news": {
   "headlines": [
    {
+    "id": "5e2a3c032a",
+    "title": "US Stock Futures Mixed Ahead of Inflation Data as Oil Falls and Nvidia Faces Scrutiny Over CEO Investigation: Dow Jones, S&P, Nasdaq, Wall Street - Yahoo Finance",
+    "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQSWVDV1U1NGJSVHVBVktkNmxiSFQwZjVTN19PVnI0REF2R3REMjFzd2lmMjlKVlBOdjVvakh3SXBkZWxoS2VUb1VnaTcyWUFYOXFWUTBLVDNmVTU4cElvOEZnZnNRNGo1cjlhVUd4MGpFOFpLZ2VHb0dST1ZUSGxES3RCd2QwamsyOHV3U1FEU1N3Y3pjWi1rQQ?oc=5",
+    "source": "gnews_futures",
+    "published_utc": "2026-11-10T10:08:56+00:00",
+    "score": 10.79,
+    "duplicates": 1
+   },
+   {
+    "id": "e3c993f413",
+    "title": "Stock Futures Waver Before CPI as Nvidia Rebounds After Huang Scandal Selloff - BigGo Finance",
+    "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5SX3Q2M0RrejlJQmtva1ZMRnpUNWNMM3FPQ2hwWVlkWEJmb1ZBbHVwbERvUXRONXVrU2tKOGM1QXkwdkV0dkozQmhhNnZFalE0QWsyOUNzY0lrMVFtZGVjbUtINURJVmpGT21RUEVwSks5OXFTNnc?oc=5",
+    "source": "gnews_futures",
+    "published_utc": "2026-11-10T09:35:00+00:00",
+    "score": 10.69,
+    "duplicates": 0
+   },
+   {
+    "id": "8e333d3c8d",
+    "title": "US Stock Futures Mixed As Investors Await CPI Data — AMD, CRWV, RKLB Stocks In Focus - Yahoo Finance",
+    "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxPUUg2OFhudmJaRXIwR2RMM3I2MkptSmF2NldYaC11NGFCV1BacXUtdnJRNjUxc0czUW43bzFSY1lTUGtRSmFmR1FIYU0xQmZrX1FkNkRsczB0MXBHVjRqN1lTZllPLVBrQ3N3X2JqR21qVG9CekZ2WExKUG94aW9qWVhHOFdudEEtbU5ELTEwdGtCSmZlTG5ISUU5UjVhdw?oc=5",
+    "source": "gnews_futures",
+    "published_utc": "2026-11-10T10:20:51+00:00",
+    "score": 9.82,
+    "duplicates": 1
+   },
+   {
+    "id": "aef0befc90",
+    "title": "Dow, S&P 500, Nasdaq Futures Mixed As Traders Weigh AI Rebound, Await Inflation Data: HIMS, TTD, NVDA, MARA In Focus - Stocktwits",
+    "link": "https://news.google.com/rss/articles/CBMiiAJBVV95cUxPTnh5eFpWcTR1X21qd0drUEw3RF9BRnk2X1M3RkUyeTJ3Nk41NFVBSkhZSEQ1ZVpuRjhpb2pQZHJzUWlqcWZKdV9fSEEzQnVRelc5bF9TbFg2UTJmQXhTdVlIWEVNdTl0ODRPQlp5aUZYR1hSTEkzZFhaME9Hbk1SVUotMTQ5aHJyMmdXUS1jaGdmeDNTOUlfZ0Vtbmc2ajktLWVpNUFHMzVnemZlSW5SVGp6Y0pWX2szUTNRR081R0U5WlkybUhzbXJNSHhNSDNjbVV4UFdUZGhfd19pcDc0di1DckRBQzkwZEV2RFlJNW91VTRUTnBjSE93SjVWZHBPMW9iTHBRVUU?oc=5",
+    "source": "gnews_futures",
+    "published_utc": "2026-11-10T04:36:12+00:00",
+    "score": 9.36,
+    "duplicates": 0
+   },
+   {
+    "id": "aa6ea10e32",
+    "title": "Fed Governor Waller sees December hike likely, opens door to possible half-point increase",
+    "link": "https://www.cnbc.com/2026/11/10/fed-governor-waller-sees-december-hike-likely.html",
+    "source": "cnbc_markets",
+    "published_utc": "2026-11-10T09:00:01+00:00",
+    "score": 9.1,
+    "duplicates": 2
+   },
+   {
     "id": "294135ae3f",
     "title": "Dow Jones Soars 1,132 Points As Amazon, Tesla Rally But Nvidia Dives; CPI Inflation Report Next - Investor's Business Daily",
     "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOTFY4MmcyY2RON3BrNTc3dDJiWjBBbm5haXd0eFRvV1RYZktCR3FULWw1aDEyVTQteFlhRHk2dmgwSjNKOFRPMWFRU1dkeUs0U0dtQ2lBV1JScmZKejEtQ1d2SWR5aU9sN19xQWxPNUdPd2lLYXdJeDMtaHA3X3hWSzF4ZWhBczlrdUkyRVh3S1RyWWRZcGhLWTliY1QyTlM2cXJtb25tTFBCX1F0RzlHcmY3bzFJR1dVcjdGdFZNaw?oc=5",
     "source": "gnews_macro",
-    "published_utc": "2026-11-09T22:00:00+00:00",
-    "score": 9.83,
+    "published_utc": "2026-11-10T03:06:00+00:00",
+    "score": 8.61,
     "duplicates": 0
    },
    {
-    "id": "ddb1d3b06d",
-    "title": "The stock-market rally keeps spreading beyond Big Tech. October inflation data could put it to the test.",
-    "link": "https://www.marketwatch.com/story/the-stock-market-rally-keeps-spreading-beyond-big-tech-october-inflation-data-could-put-it-to-the-test-c1b87dcd?mod=mw_rss_topstories",
-    "source": "marketwatch_top",
-    "published_utc": "2026-11-09T21:24:00+00:00",
-    "score": 9.73,
-    "duplicates": 1
-   },
-   {
-    "id": "0766875458",
-    "title": "US Stock Futures Rise, Dow Futures Lead Gains As Wall Street Eyes Inflation Data, AI Earnings — NVDA, TSLA, CRWV In Focus - Yahoo Finance",
-    "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQNWRaX3hDTE9iNzBCdmF3VllXemN0dDA4RGFsTzdkdDh5VWFDcUIyYjRYQTdxeFZ3NlFUVmFROEhXSDB4ME1hdGdfTWpEVGR5eUd0ajJRVU9mdll2LTcyR1kzN0RCbGVGQWgtNG9ZQmlWMFRvNEZmS0NOMFhCOUtSMjlWN0E2aGlzUFFidTdSLTdNZEY1?oc=5",
-    "source": "gnews_futures",
-    "published_utc": "2026-11-09T11:40:52+00:00",
-    "score": 9.61,
-    "duplicates": 0
-   },
-   {
-    "id": "ebe2b0f7a8",
-    "title": "Dow futures rally 500 points as oil drops and traders await inflation data and AI earnings - Quartz",
-    "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQV2p1SmZVbVNDTmRScXRTTG5nUkdIbFFUZS1RNzdfb2owWkI2ODcta24zMWJpRzBJMHJrcFpWUml0MFZLQllWS1ZZOExDODk2Z2FGdTJYS0ZGZlA2eTRCS1V1MU9jTmhncGdaZXA5eXJhR2d2d2FxLXNWay1YWkMwNHJR?oc=5",
+    "id": "7f5ce6bb08",
+    "title": "US CPI preview: Wall Street sees cooler inflation but the Fed may not blink - investingLive",
+    "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOMEpwUGlpM2d1eTVBZUNCX1BNQ2dsaDlabGdHWUx5MVVQcEM4QkdJQnc4RlpUQVBSbGV0UXY1Ym1BeHRrWS1PM0stNnZxY1BveFRUWDRfY0RFeEpHSXhVUklVNzVDdHprNTNmb0dWYVd1NTRZQ3BvMi1TUkNpSUNTbXFJdmRBYWZjeHl2WEhhaV9VWXh4NnA3Nzl5X3NlSDhFcTlKNklIM3d6dw?oc=5",
     "source": "gnews_macro",
-    "published_utc": "2026-11-09T12:41:35+00:00",
-    "score": 9.28,
+    "published_utc": "2026-11-10T05:41:49+00:00",
+    "score": 8.55,
     "duplicates": 0
    },
    {
-    "id": "f40085f518",
-    "title": "Fed’s Goolsbee Says Officials Must Address Inflation Failure - Bloomberg.com",
-    "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNR0Q1dF91TjRsdE8tTy0wZ3hOSEtjYUxwVHJzd2N5YmUxcmFMbG9YMEp2UHZJbUZERUh3cGFrcEthM25rNHF6U0pJTnNuUXJYeGdWRWNvbEJ4TC1yNTNPUGZfT3NRM3JNRjlVOXBhaHRCNDAydEQxQW5hTXFTcXo1NjQ2aXdkRjFhdHNmZDBxUnhjZi11azgwLWJxV2wxTUZPY3dwWmROaE9aX2NJVGlwbw?oc=5",
+    "id": "e4b8513d6c",
+    "title": "Inflation Data to Test Limits of Treasury Rally After Haven Bid - Bloomberg.com",
+    "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxObGdKazB3cGVKLUR0VG45X1hQNEpxeVdwaVdUNEdSUl96YnlaQzRuSVgxa2F6NVE2dHU3SmRpOG5xNHdhT2pKS3RSOTdsbGxGYlVWMmxXQm9EUC1YQ1VudlVYeG5pLUJKbnRiczJDRVg2TXlJQlh0OE81dVNDLW1jdU1vT2tMZGRzV1VOeHR6TlVSbEFBTGNBMjh4Z2Zlc3VUei11SFkxcjI3U2EzS0llOEl1SnE?oc=5",
     "source": "gnews_fed",
-    "published_utc": "2026-11-09T18:46:01+00:00",
-    "score": 8.79,
-    "duplicates": 4
-   },
-   {
-    "id": "fb59253cde",
-    "title": "U.S. Stock Futures Gain as Oil Drop Offsets Nvidia Slump; Inflation Data Awaited - Barchart.com",
-    "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxNbWRTeXFFdnhDV3ZXVkMzZTROQWtJR2xnX3JlTzN5M1V3dzVwcGZIS3FyWWpXWW42bGpNU2NxUExhRXZQUlBlTXpGLXNEY1I1WDhQZzNaZWgycHgxNHlGTUdCdGsyWUpqOGdIOTBPMHJKQTBKc0c1bl8xdVlhNEJTWWxzdTZpU0EwSEd3RlNiZWpqYnBHUkdSV2VQYzVhMnJRRTRmYnBlUmlXdGp1dFNMX0ZzWTg0Z3FaZ2F6NmRwclFzSVg4YzFQZWJldWJrZ2hrZVp3?oc=5",
-    "source": "gnews_futures",
-    "published_utc": "2026-11-09T11:34:39+00:00",
-    "score": 8.59,
-    "duplicates": 0
-   },
-   {
-    "id": "4edd29a717",
-    "title": "S&P 500 Futures Rise as Oil Falls; Nvidia Sinks on Huang Affair - Bloomberg.com",
-    "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQSkRSbWhPaUtmRFBUSy10cUNCTFJFSGFWUGJrYUlZcEF0eE9vLWN4azVnVU1HQmYxRDQ4V1lUbGtzM3czZzBKZTNPVWhONkI5V2lxMUVObXFmczNpMWRmMW1vXzU5S0tfa3pubzlra1V0NmRVMjZPM1oxbjJ1Z3VVNUdjY2VMdWZieEVERjRMWGpSQzcyeHdXc1NpaGtWS1VMRlVQbHdpbnlDRTc1TG5FLXFEOA?oc=5",
-    "source": "gnews_futures",
-    "published_utc": "2026-11-09T21:25:23+00:00",
-    "score": 8.24,
+    "published_utc": "2026-11-10T10:22:55+00:00",
+    "score": 8.33,
     "duplicates": 1
    },
    {
-    "id": "bd49db771a",
-    "title": "How AI and inflation are fueling fears of Fed hikes ahead - Mortgage Professional America",
-    "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNdlVOclVFZXRsTzFKWnlLTER6ajkwbkRIU1F4S3diVHM3RUFIakNMTzlwLWJTVHNqSnN6TzdQZVd4ci1pUVhCTXlySGQ4a2hNNkI2UDhGT05PblYteTFmeWwtRlBLZlRMMjFCMFBMS0FCUHdqZjB5ZENucW82aVFTTllrUlpYQzNVUmlVdmxIY0JmRjl0ZXliSXFaV2toNC13dU56cTZVSU5RZUo5Y0RhWTVISUFOb09vWXlndFc1TEZGZw?oc=5",
+    "id": "ba27ce1366",
+    "title": "Gold Retreats From Recent Gains as US Inflation Report and Fed Rate Outlook Take Centre Stage - Yahoo Finance UK",
+    "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNRkFlUzBtNmFhTWgzWkxnWXNKVWRQVXlvYlVMUDRVaHhYV1NxVVFxOUI4czNzWjVpWUJfd3JJVklLZXBDZTEtYkVFM3NpQjd0YldyUnlZbTVNd0pBaUMyXy1xa18wOHhzakQ1WXI1LTZOS0UzMU1xdVY3Wk16ZEZQMENSS2s?oc=5",
     "source": "gnews_macro",
-    "published_utc": "2026-11-09T20:18:57+00:00",
-    "score": 8.05,
+    "published_utc": "2026-11-10T10:17:01+00:00",
+    "score": 8.31,
     "duplicates": 0
    },
    {
-    "id": "54f4081bfe",
-    "title": "Dow sees its third 1,000-point swing in four days. Why the volatility isn’t over yet.",
-    "link": "https://www.marketwatch.com/story/dow-sees-its-third-1-000-point-swing-in-four-days-why-volatility-isnt-over-yet-5380567b?mod=mw_rss_topstories",
-    "source": "marketwatch_top",
-    "published_utc": "2026-11-09T21:52:00+00:00",
-    "score": 7.81,
-    "duplicates": 0
-   },
-   {
-    "id": "567c3c876d",
-    "title": "Federal Reserve Board announces approval of two applications by Mutual Federal Bancorp, MHC, and MFB Bancorp, Inc.",
-    "link": "https://www.federalreserve.gov/newsevents/pressreleases/orders20261109a.htm",
-    "source": "fed_press",
-    "published_utc": "2026-11-09T21:00:00+00:00",
-    "score": 7.67,
-    "duplicates": 0
-   },
-   {
-    "id": "3ef2902b83",
-    "title": "Factory-gate prices surge while CPI holds steady - China Daily Global Edition",
-    "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQUmxNcU1SYjNEVjNycG5GcXZkZTFyRXRBbFlUbHZnWFZrZWhSS1hXM1FYSjRIWjFNYmlYZm8wRm1MTHFkWmoxSjZNNUVtVVRSZ2JrU0pFdXBYTU4xQ281dUdEUGtDMnFCcV8tM2RwNS1hT3pKNVl4MnNkenZnb3pqcg?oc=5",
+    "id": "3ba99983e0",
+    "title": "Wall Street Futures Mixed as Investors Await US CPI, Oil Nears $90 and AI Stocks Face New Developments: Dow Jones, S&P, Nasdaq - Yahoo Finance UK",
+    "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNczlpdFNJRUF3YmZQWXF4TlR0VHNhOTJxaW5VZEtPXzdfbXI4NjVyamZPSTlUT0E3LVdsVWxUU0gwS3REa3JpaWtUbVZicXZoSzNlNFZDSExMcHppMXZQNXd6QnJFYnFyS3RXZGQwSHE4a2lQWDY0enN0Z1FIODlHUmtMRmlpTmItMEFtcA?oc=5",
     "source": "gnews_macro",
-    "published_utc": "2026-11-09T22:51:10+00:00",
-    "score": 7.47,
+    "published_utc": "2026-11-10T10:08:12+00:00",
+    "score": 8.29,
     "duplicates": 0
    },
    {
-    "id": "9b1ea076c3",
-    "title": "CPI Inflation Data: How the October Report Affects the Fed’s Next Rate Decision - Barron's",
-    "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQb0dpUnNRSjlyNnVNVFJOSjlnLXBPOWFjdGVVNlVuZnM4ckJzRllBSEVPWkdxWTV5Ujl5MHMwa3piNmQtU3lta0xaTE1xNVJfdmdrVzFuS3MxRnBSbWZjSGNoMnA2THJ2NVBHUmVDM2s4UFJnNVNFb3pxcjRmMl9CdFMwRzVYc2l5RTJxSHpwLU8?oc=5",
+    "id": "52fd11a308",
+    "title": "Stock Futures Edge Up As Oil Cools And CPI Looms - Finimize",
+    "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNdFd3c185VEYxWl9KSjdsb0pRU2VENzNacklCQ1ZOVGNmcFNhVlZJTF9fVElteGhfX01oVmVhRXJGdlA3Q25ycXBnS0RLVE5laEQwRGI5UlFWM2I3a2ZhRzA3aVFiSHB5X2NrRW9PMHlxMWdkVjB6WDZFOHdhVjljV3FJNA?oc=5",
+    "source": "gnews_futures",
+    "published_utc": "2026-11-10T10:04:03+00:00",
+    "score": 8.28,
+    "duplicates": 0
+   },
+   {
+    "id": "ab256c5efa",
+    "title": "Oil gets a louder voice in inflation, Fed research finds (CL1:COM:Commodity) - Seeking Alpha",
+    "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNQXRmcTFWTTlETTZ2ajlUbl9GT3pfcW5hVFU0dXdfZGVQd3FxZDBQekVOLWVWaFN5ZTg0YkFpaFJFOU1RSDRHR2pYRzZSUlhueVlhQ2tmcnBHZGFkUW9lZGstc2poYjJZYnRzRVcyQl9hS1RldXgwWVZKSks1YVdSQnJDWlNieUlGaFdlV3VUYmIzN2VfbEYwbQ?oc=5",
     "source": "gnews_macro",
-    "published_utc": "2026-11-09T22:10:00+00:00",
-    "score": 7.36,
+    "published_utc": "2026-11-10T09:32:00+00:00",
+    "score": 8.19,
     "duplicates": 0
    }
   ],
   "summary": {
    "lines": [
-    "Dow Jones Soars 1,132 Points As Amazon, Tesla Rally But Nvidia Dives; CPI Inflation Report Next - Investor's Business Daily [294135ae3f]",
-    "The stock-market rally keeps spreading beyond Big Tech. October inflation data could put it to the test. [ddb1d3b06d]",
-    "US Stock Futures Rise, Dow Futures Lead Gains As Wall Street Eyes Inflation Data, AI Earnings — NVDA, TSLA, CRWV In Focus - Yahoo Finance [0766875458]",
-    "Dow futures rally 500 points as oil drops and traders await inflation data and AI earnings - Quartz [ebe2b0f7a8]",
-    "Fed’s Goolsbee Says Officials Must Address Inflation Failure - Bloomberg.com [f40085f518]"
+    "US Stock Futures Mixed Ahead of Inflation Data as Oil Falls and Nvidia Faces Scrutiny Over CEO Investigation: Dow Jones, S&P, Nasdaq, Wall Street - Yahoo Finance [5e2a3c032a]",
+    "Stock Futures Waver Before CPI as Nvidia Rebounds After Huang Scandal Selloff - BigGo Finance [e3c993f413]",
+    "US Stock Futures Mixed As Investors Await CPI Data — AMD, CRWV, RKLB Stocks In Focus - Yahoo Finance [8e333d3c8d]",
+    "Dow, S&P 500, Nasdaq Futures Mixed As Traders Weigh AI Rebound, Await Inflation Data: HIMS, TTD, NVDA, MARA In Focus - Stocktwits [aef0befc90]",
+    "Fed Governor Waller sees December hike likely, opens door to possible half-point increase [aa6ea10e32]"
    ],
    "backend": "none",
    "model": null,
@@ -2029,75 +2873,24 @@
  },
  "flags": [],
  "earnings": {
-  "reported": [
-   {
-    "symbol": "ENB",
-    "name": "Enbridge Inc",
-    "timing": "unknown",
-    "date": "2026-11-06",
-    "reported_at": "11/6/2026",
-    "reported": true
-   },
-   {
-    "symbol": "MRNA",
-    "name": "Moderna, Inc.",
-    "timing": "unknown",
-    "date": "2026-11-06",
-    "reported_at": "11/6/2026",
-    "reported": true
-   },
-   {
-    "symbol": "BAM",
-    "name": "Brookfield Asset Management",
-    "timing": "unknown",
-    "date": "2026-11-06",
-    "reported_at": "11/6/2026",
-    "reported": true
-   },
-   {
-    "symbol": "HUM",
-    "name": "Humana Inc.",
-    "timing": "unknown",
-    "date": "2026-11-06",
-    "reported_at": "11/6/2026",
-    "reported": true
-   }
-  ],
+  "reported": [],
   "today": [
    {
-    "symbol": "CEG",
-    "name": "Constellation Energy Corporation",
-    "timing": "pre",
-    "date": "2026-11-09",
-    "reported_at": null,
-    "reported": false
-   },
-   {
-    "symbol": "KKR",
-    "name": "KKR & Co. Inc.",
-    "timing": "pre",
-    "date": "2026-11-09",
-    "reported_at": null,
-    "reported": false
-   },
-   {
-    "symbol": "B",
-    "name": "Barrick Mining Corporation",
-    "timing": "pre",
-    "date": "2026-11-09",
-    "reported_at": null,
-    "reported": false
-   },
-   {
-    "symbol": "OXY",
-    "name": "Occidental Petroleum Corporation",
+    "symbol": "PBR",
+    "name": "Petroleo Brasileiro S.A.- Petrobras",
     "timing": "post",
-    "date": "2026-11-09",
+    "date": "2026-11-10",
     "reported_at": null,
     "reported": false
-   }
-  ],
-  "tomorrow_pre": [
+   },
+   {
+    "symbol": "PBR.A",
+    "name": "Petroleo Brasileiro S.A.- Petrobras",
+    "timing": "post",
+    "date": "2026-11-10",
+    "reported_at": null,
+    "reported": false
+   },
    {
     "symbol": "TDG",
     "name": "Transdigm Group Incorporated",
@@ -2107,6 +2900,7 @@
     "reported": false
    }
   ],
+  "tomorrow_pre": [],
   "warnings": []
  }
 }
