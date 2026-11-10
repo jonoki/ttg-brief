@@ -1,7 +1,7 @@
 {
  "meta": {
-  "generated_at_utc": "2026-11-10T13:55:21.625071+00:00",
-  "generated_at_local": "Tue 10 Nov 2026 09:55 AST",
+  "generated_at_utc": "2026-11-10T14:10:37.906559+00:00",
+  "generated_at_local": "Tue 10 Nov 2026 10:10 AST",
   "trading_day": "2026-11-10",
   "display_tz": "America/Halifax",
   "version": "0.1.0",
@@ -109,7 +109,7 @@
    "time_utc": "2026-11-10T18:00:00+00:00",
    "local": "14:00 AST",
    "et": "13:00 ET",
-   "in": "4h 04m",
+   "in": "3h 49m",
    "consensus": null,
    "prior": null
   },
@@ -120,10 +120,10 @@
   {
    "root": "ES",
    "trading_day": "2026-11-10",
-   "as_of_utc": "2026-11-10T13:55:21.625071+00:00",
+   "as_of_utc": "2026-11-10T14:10:37.906559+00:00",
    "source": "yahoo",
    "delayed": true,
-   "last_price": 7531.25,
+   "last_price": 7523.75,
    "levels": [
     {
      "tag": "pwh",
@@ -165,7 +165,7 @@
      "label": "Overnight high",
      "price": 7598.75,
      "group": "overnight",
-     "note": "since 18:00 ET, 870 bars"
+     "note": "since 18:00 ET, 885 bars"
     },
     {
      "tag": "pdc",
@@ -175,18 +175,18 @@
      "note": "2026-11-09"
     },
     {
-     "tag": "onvwap",
-     "label": "Overnight VWAP",
-     "price": 7570.8,
-     "group": "overnight",
-     "note": "typical-price VWAP"
-    },
-    {
      "tag": "poc",
      "label": "Prior-day POC",
      "price": 7570.12,
      "group": "profile",
      "note": "2026-11-09 RTH, bin 0.25"
+    },
+    {
+     "tag": "onvwap",
+     "label": "Overnight VWAP",
+     "price": 7567.91,
+     "group": "overnight",
+     "note": "typical-price VWAP"
     },
     {
      "tag": "rn_major_up",
@@ -203,8 +203,8 @@
      "note": "70 % value area"
     },
     {
-     "tag": "rn_minor_dn",
-     "label": "Round 25 below",
+     "tag": "rn_minor_up",
+     "label": "Round 25 above",
      "price": 7525.0,
      "group": "round",
      "note": ""
@@ -267,14 +267,14 @@
     }
    ],
    "stats": {
-    "last_bar_utc": "2026-11-10T13:45:00+00:00",
-    "last_bar_age_min": 10.4,
+    "last_bar_utc": "2026-11-10T14:00:00+00:00",
+    "last_bar_age_min": 10.6,
     "market_state": "open",
     "profile_volume": 1450749.0,
     "prior_day": "2026-11-09",
     "prior_day_rth_range": 144.75,
     "overnight_range": 89.75,
-    "gap_vs_prior_close": -41.0,
+    "gap_vs_prior_close": -48.5,
     "gap_basis": "last price (pre-market)",
     "atr14": 141.68,
     "atr_days": 14,
@@ -1501,10 +1501,18 @@
     },
     {
      "t": "2026-11-10T13:45:00+00:00",
-     "o": 7527.25,
-     "h": 7532.0,
-     "l": 7526.25,
-     "c": 7531.25,
+     "o": 7527.5,
+     "h": 7536.0,
+     "l": 7515.25,
+     "c": 7516.0,
+     "v": 19017.0
+    },
+    {
+     "t": "2026-11-10T14:00:00+00:00",
+     "o": 7516.0,
+     "h": 7527.25,
+     "l": 7515.25,
+     "c": 7523.75,
      "v": 0.0
     }
    ]
@@ -1512,10 +1520,10 @@
   {
    "root": "NQ",
    "trading_day": "2026-11-10",
-   "as_of_utc": "2026-11-10T13:55:21.625071+00:00",
+   "as_of_utc": "2026-11-10T14:10:37.906559+00:00",
    "source": "yahoo",
    "delayed": true,
-   "last_price": 27706.0,
+   "last_price": 27692.25,
    "levels": [
     {
      "tag": "pwh",
@@ -1550,7 +1558,7 @@
      "label": "Overnight high",
      "price": 28109.0,
      "group": "overnight",
-     "note": "since 18:00 ET, 870 bars"
+     "note": "since 18:00 ET, 885 bars"
     },
     {
      "tag": "vah",
@@ -1576,7 +1584,7 @@
     {
      "tag": "onvwap",
      "label": "Overnight VWAP",
-     "price": 27923.7,
+     "price": 27909.63,
      "group": "overnight",
      "note": "typical-price VWAP"
     },
@@ -1590,21 +1598,21 @@
     {
      "tag": "rn_major_up",
      "label": "Round 100 above",
-     "price": 27800.0,
+     "price": 27700.0,
      "group": "round",
      "note": ""
     },
     {
-     "tag": "rn_minor_up",
-     "label": "Round 50 above",
-     "price": 27750.0,
+     "tag": "rn_minor_dn",
+     "label": "Round 50 below",
+     "price": 27650.0,
      "group": "round",
      "note": ""
     },
     {
      "tag": "rn_major_dn",
      "label": "Round 100 below",
-     "price": 27700.0,
+     "price": 27600.0,
      "group": "round",
      "note": ""
     },
@@ -1659,14 +1667,14 @@
     }
    ],
    "stats": {
-    "last_bar_utc": "2026-11-10T13:45:00+00:00",
-    "last_bar_age_min": 10.4,
+    "last_bar_utc": "2026-11-10T14:00:00+00:00",
+    "last_bar_age_min": 10.6,
     "market_state": "open",
     "profile_volume": 527044.0,
     "prior_day": "2026-11-09",
     "prior_day_rth_range": 813.0,
     "overnight_range": 519.0,
-    "gap_vs_prior_close": -298.75,
+    "gap_vs_prior_close": -312.5,
     "gap_basis": "last price (pre-market)",
     "atr14": 905.88,
     "atr_days": 14,
@@ -2893,10 +2901,18 @@
     },
     {
      "t": "2026-11-10T13:45:00+00:00",
-     "o": 27684.5,
-     "h": 27715.5,
-     "l": 27675.0,
-     "c": 27706.0,
+     "o": 27684.0,
+     "h": 27742.0,
+     "l": 27648.0,
+     "c": 27651.75,
+     "v": 9792.0
+    },
+    {
+     "t": "2026-11-10T14:00:00+00:00",
+     "o": 27651.5,
+     "h": 27713.0,
+     "l": 27644.75,
+     "c": 27692.25,
      "v": 0.0
     }
    ]
@@ -2910,7 +2926,7 @@
     "link": "https://www.marketwatch.com/story/nvidia-couldnt-derail-the-stock-markets-rally-hot-inflation-might-8a572024?mod=mw_rss_topstories",
     "source": "marketwatch_top",
     "published_utc": "2026-11-10T12:33:00+00:00",
-    "score": 11.77,
+    "score": 11.73,
     "duplicates": 1
    },
    {
@@ -2919,17 +2935,8 @@
     "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPNTVJTkJXV1VqTXRoalRJT0NaTWNNd3RncHprMm9TNzdzZjNSekRFV19zZG5DS1JjaEVRbXVtMFlta2czNkpSNWJhMmU4MnR3YW1fOVYxTzBhRmFfZGNCTDJMbTF3SmcyeTktQUFERi1CZmxDeWdTRFJaN2NTcjhMQlNB?oc=5",
     "source": "gnews_futures",
     "published_utc": "2026-11-10T13:11:37+00:00",
-    "score": 11.38,
+    "score": 11.34,
     "duplicates": 0
-   },
-   {
-    "id": "5e2a3c032a",
-    "title": "US Stock Futures Mixed Ahead of Inflation Data as Oil Falls and Nvidia Faces Scrutiny Over CEO Investigation: Dow Jones, S&P, Nasdaq, Wall Street - Yahoo Finance",
-    "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQSWVDV1U1NGJSVHVBVktkNmxiSFQwZjVTN19PVnI0REF2R3REMjFzd2lmMjlKVlBOdjVvakh3SXBkZWxoS2VUb1VnaTcyWUFYOXFWUTBLVDNmVTU4cElvOEZnZnNRNGo1cjlhVUd4MGpFOFpLZ2VHb0dST1ZUSGxES3RCd2QwamsyOHV3U1FEU1N3Y3pjWi1rQQ?oc=5",
-    "source": "gnews_futures",
-    "published_utc": "2026-11-10T10:08:56+00:00",
-    "score": 10.37,
-    "duplicates": 1
    },
    {
     "id": "e3c993f413",
@@ -2937,52 +2944,43 @@
     "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5SX3Q2M0RrejlJQmtva1ZMRnpUNWNMM3FPQ2hwWVlkWEJmb1ZBbHVwbERvUXRONXVrU2tKOGM1QXkwdkV0dkozQmhhNnZFalE0QWsyOUNzY0lrMVFtZGVjbUtINURJVmpGT21RUEVwSks5OXFTNnc?oc=5",
     "source": "gnews_futures",
     "published_utc": "2026-11-10T09:35:00+00:00",
-    "score": 10.28,
+    "score": 10.23,
     "duplicates": 0
    },
    {
-    "id": "fa006952e3",
-    "title": "S&P 500 market positioning risks ahead of CPI and NVIDIA earnings - Investing.com",
-    "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPQk5BZnVQaEMzMEhjVGtDY3RJclB6S0dnUV94SHVDaDBwcTc3ZjNPeHQta0EyTzlOdlkydTFFUUplMC1KREFRdGRwLS0zRjNMUGZZclpIeHh0YW5URkxPc1NtSFNORlNpZEZmOFI0S3BsNTM2OHhNcXdOdHdicFJYZ3MzdEN5ZlhlMVp2RHd0c29pN1h0Vk42dmloMm1NOGw0bllsaUV3T2lUSTJTalZSd1hLUmc5bjlkczNKV2Q0M2Zpc2lB?oc=5",
-    "source": "gnews_megacap",
-    "published_utc": "2026-11-10T13:30:49+00:00",
-    "score": 9.43,
-    "duplicates": 0
-   },
-   {
-    "id": "8a7a2d1b7a",
-    "title": "'Markets bottom on bad news' maxim rings true as chip stocks rally amid Nvidia scandal",
-    "link": "https://www.cnbc.com/2026/11/10/chip-stocks-rally-nvidia-scandal.html",
-    "source": "cnbc_markets",
-    "published_utc": "2026-11-10T13:19:13+00:00",
-    "score": 9.4,
-    "duplicates": 0
-   },
-   {
-    "id": "7ce51e5da8",
-    "title": "Fed to raise rates once more in December as inflation risks stay high: Reuters poll - Reuters",
-    "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQaGgwYzFvYzY1cndpc3FZRGZjLXRQTFp0WlktcmQwS2d6T1VhVVRBWkdpclUxd3Bvd1A4bWZOendzNXdhdmdtTnJ6S3AxMVNJN0hUbnRDZEF0NHE5QWtOZFUxc2JuZm1qbklMRjBtb2xmWlVSWVdNckxNSFQ3cnZLeC1KU1lrb2lBTFNKN2J1Uy1OYmRSczRoQmZsZlBtaHZPYzdnM1NSZTR5ODdsbEVV?oc=5",
-    "source": "gnews_fed",
-    "published_utc": "2026-11-10T13:14:14+00:00",
-    "score": 9.39,
-    "duplicates": 4
-   },
-   {
-    "id": "d8f50c5e74",
-    "title": "Morning Call Sheet: Nvidia scrutiny, CPI, Fed rates and market opportunities - CNBC",
-    "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNcjZTczEzNnFlaE1HckN5cEp4T3JBVUlPM1RmTkY2X1FUN21EbDRCcnpvSld0dVVMdUFzdkVYZWlZRW1jeUV6dnozTTBQVDlyX21kZFU3c3daLXltZVA5WXlIaDZqUG9GbTdwaV9FaV8wY1M0TG5IeVBYRWdTZEVpVmt1aHZIb2pjQTNKbUYyZk80MTBzLTdkdERLcFR3dFFLNFk4VWUwcDhEUWlLcXNjTnBsU3BxMjA?oc=5",
+    "id": "905da10be4",
+    "title": "Stocks cut gains, dollar and yields up as US CPI cements December rate hike bets - Euronext Markets: Real-time Stock Market Data | live",
+    "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNNlpzRGEwczloTThmZUw2bnVFMEhTVXpzQVhLWXA5TkhjTWNoZmpnZEdhQ19oNjJ6bmhfVXZGVTd0a3NSRWZpM09PX0h4T0p1SDNkUjBJNzRuMmQ1TVV5ZjY3RG5tUkpmODRHUnZXQVozVGFXcGJNblF4WTJFVlFXNHpvd3JuWlNndUUzQU96MDRtWWdSalN3bVBlQ2czb01HLVhPbFdKRXFhMmtCZXY5X0JzWEFyZW1f?oc=5",
     "source": "gnews_macro",
-    "published_utc": "2026-11-10T13:09:35+00:00",
-    "score": 9.37,
+    "published_utc": "2026-11-10T13:58:43+00:00",
+    "score": 9.97,
+    "duplicates": 1
+   },
+   {
+    "id": "61ca9bb5e8",
+    "title": "S&P 500 futures fall sharply after October inflation data By Reuters - Investing.com",
+    "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPWVFoY3JrWGhRSF8xS29GTEJSM25MMC1kNFF0cFVhRFJvbDF3NXFIbG13d2MtU0E3YkFnUm1XR2dMWEo3M21NVzZTMk1CTWtaYmlkdFM2LWtqUUdCRkdjRGNjYUJOX2Q4VUk4WVZmOEhibGJPOUgzaGJKSHo3ZG5SdExGOXBxQ2lXZjBPUzV1RFdlcW1iTHlXZFROSThXV1pxVGk1bmVIcFhmWkVO?oc=5",
+    "source": "gnews_futures",
+    "published_utc": "2026-11-10T13:48:31+00:00",
+    "score": 9.94,
+    "duplicates": 5
+   },
+   {
+    "id": "5e2a3c032a",
+    "title": "US Stock Futures Mixed Ahead of Inflation Data as Oil Falls and Nvidia Faces Scrutiny Over CEO Investigation: Dow Jones, S&P, Nasdaq, Wall Street - Yahoo Finance",
+    "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQSWVDV1U1NGJSVHVBVktkNmxiSFQwZjVTN19PVnI0REF2R3REMjFzd2lmMjlKVlBOdjVvakh3SXBkZWxoS2VUb1VnaTcyWUFYOXFWUTBLVDNmVTU4cElvOEZnZnNRNGo1cjlhVUd4MGpFOFpLZ2VHb0dST1ZUSGxES3RCd2QwamsyOHV3U1FEU1N3Y3pjWi1rQQ?oc=5",
+    "source": "gnews_futures",
+    "published_utc": "2026-11-10T10:08:56+00:00",
+    "score": 9.83,
     "duplicates": 0
    },
    {
-    "id": "aef0befc90",
-    "title": "Dow, S&P 500, Nasdaq Futures Mixed As Traders Weigh AI Rebound, Await Inflation Data: HIMS, TTD, NVDA, MARA In Focus - Stocktwits",
-    "link": "https://news.google.com/rss/articles/CBMiiAJBVV95cUxPTnh5eFpWcTR1X21qd0drUEw3RF9BRnk2X1M3RkUyeTJ3Nk41NFVBSkhZSEQ1ZVpuRjhpb2pQZHJzUWlqcWZKdV9fSEEzQnVRelc5bF9TbFg2UTJmQXhTdVlIWEVNdTl0ODRPQlp5aUZYR1hSTEkzZFhaME9Hbk1SVUotMTQ5aHJyMmdXUS1jaGdmeDNTOUlfZ0Vtbmc2ajktLWVpNUFHMzVnemZlSW5SVGp6Y0pWX2szUTNRR081R0U5WlkybUhzbXJNSHhNSDNjbVV4UFdUZGhfd19pcDc0di1DckRBQzkwZEV2RFlJNW91VTRUTnBjSE93SjVWZHBPMW9iTHBRVUU?oc=5",
-    "source": "gnews_futures",
-    "published_utc": "2026-11-10T04:36:12+00:00",
-    "score": 8.95,
+    "id": "bddda9f1f3",
+    "title": "S&P 500 market positioning risks ahead of CPI and NVIDIA earnings - Yahoo Finance Singapore",
+    "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQaW1tdkZESEpSV3pqUXdtU0pkTTczQWpxV184ZlM1Ti1nUFdWQ0IwSVYzbi0zLXBFOEpnOXVtdGdfTnZJYk0xcXluNVFpd3Q5WW1iZ1g2VkZkN0VVRUllcDB3UGdCRl84LUVXWUk0WE1xa3NtendWYW9HZWRIa0VKUjJEdzZOdw?oc=5",
+    "source": "gnews_megacap",
+    "published_utc": "2026-11-10T13:49:50+00:00",
+    "score": 9.44,
     "duplicates": 0
    },
    {
@@ -2991,25 +2989,43 @@
     "link": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxQajllTGZzSHYxZnR1Zl9FbnpVaUo4NXA4UU1vdGFtNW1yZ0NaX0lVdUtuYWRjMzl0dEZzTVVaTjJWcXVYdG9EeFowY19CdUZHLWxTUEV6Ykh2VFJEQUFpTWN1YlZnYnJjeF84TGNwYjgycFdzM2o1QUFFNDk0VDQ5eWJFS1dpeHZTZU03QnUyZ1VVRGdHWlZaUEVFTWxhZ1V3RHRaOVd4QzVuMUFyeDkxQ0JTVFAtWmpZeXd5S1pnVGxkd011UGRqNjFQYVRFcnUyc0QxNkwycERTU3dq?oc=5",
     "source": "gnews_futures",
     "published_utc": "2026-11-10T10:24:07+00:00",
-    "score": 8.91,
+    "score": 9.37,
+    "duplicates": 1
+   },
+   {
+    "id": "8a7a2d1b7a",
+    "title": "'Markets bottom on bad news' maxim rings true as chip stocks rally amid Nvidia scandal",
+    "link": "https://www.cnbc.com/2026/11/10/chip-stocks-rally-nvidia-scandal.html",
+    "source": "cnbc_markets",
+    "published_utc": "2026-11-10T13:19:13+00:00",
+    "score": 9.36,
     "duplicates": 0
    },
    {
-    "id": "61ca9bb5e8",
-    "title": "S&P 500 futures fall sharply after October inflation data By Reuters - Investing.com",
-    "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPWVFoY3JrWGhRSF8xS29GTEJSM25MMC1kNFF0cFVhRFJvbDF3NXFIbG13d2MtU0E3YkFnUm1XR2dMWEo3M21NVzZTMk1CTWtaYmlkdFM2LWtqUUdCRkdjRGNjYUJOX2Q4VUk4WVZmOEhibGJPOUgzaGJKSHo3ZG5SdExGOXBxQ2lXZjBPUzV1RFdlcW1iTHlXZFROSThXV1pxVGk1bmVIcFhmWkVO?oc=5",
-    "source": "gnews_futures",
-    "published_utc": "2026-11-10T13:48:31+00:00",
-    "score": 8.48,
-    "duplicates": 2
+    "id": "d8f50c5e74",
+    "title": "Morning Call Sheet: Nvidia scrutiny, CPI, Fed rates and market opportunities - CNBC",
+    "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNcjZTczEzNnFlaE1HckN5cEp4T3JBVUlPM1RmTkY2X1FUN21EbDRCcnpvSld0dVVMdUFzdkVYZWlZRW1jeUV6dnozTTBQVDlyX21kZFU3c3daLXltZVA5WXlIaDZqUG9GbTdwaV9FaV8wY1M0TG5IeVBYRWdTZEVpVmt1aHZIb2pjQTNKbUYyZk80MTBzLTdkdERLcFR3dFFLNFk4VWUwcDhEUWlLcXNjTnBsU3BxMjA?oc=5",
+    "source": "gnews_macro",
+    "published_utc": "2026-11-10T13:09:35+00:00",
+    "score": 9.33,
+    "duplicates": 0
    },
    {
     "id": "05f01887cc",
     "title": "Consumer prices rose 0.4% in October, more than expected, complicating Fed's inflation fight",
     "link": "https://www.cnbc.com/2026/11/10/cpi-inflation-report-october-2026.html",
     "source": "cnbc_markets",
-    "published_utc": "2026-11-10T13:45:04+00:00",
-    "score": 8.47,
+    "published_utc": "2026-11-10T13:56:04+00:00",
+    "score": 8.96,
+    "duplicates": 1
+   },
+   {
+    "id": "aef0befc90",
+    "title": "Dow, S&P 500, Nasdaq Futures Mixed As Traders Weigh AI Rebound, Await Inflation Data: HIMS, TTD, NVDA, MARA In Focus - Stocktwits",
+    "link": "https://news.google.com/rss/articles/CBMiiAJBVV95cUxPTnh5eFpWcTR1X21qd0drUEw3RF9BRnk2X1M3RkUyeTJ3Nk41NFVBSkhZSEQ1ZVpuRjhpb2pQZHJzUWlqcWZKdV9fSEEzQnVRelc5bF9TbFg2UTJmQXhTdVlIWEVNdTl0ODRPQlp5aUZYR1hSTEkzZFhaME9Hbk1SVUotMTQ5aHJyMmdXUS1jaGdmeDNTOUlfZ0Vtbmc2ajktLWVpNUFHMzVnemZlSW5SVGp6Y0pWX2szUTNRR081R0U5WlkybUhzbXJNSHhNSDNjbVV4UFdUZGhfd19pcDc0di1DckRBQzkwZEV2RFlJNW91VTRUTnBjSE93SjVWZHBPMW9iTHBRVUU?oc=5",
+    "source": "gnews_futures",
+    "published_utc": "2026-11-10T04:36:12+00:00",
+    "score": 8.9,
     "duplicates": 0
    }
   ],
@@ -3017,9 +3033,9 @@
    "lines": [
     "Nvidia couldn’t derail the stock market’s rally. Hot inflation might. [097ad65b0d]",
     "US Stock Futures forecast: Dow, S&P 500 and Nasdaq mixed ahead of CPI as investment banks assess Fed Rate hikes - Beinsure [63c1b901b0]",
-    "US Stock Futures Mixed Ahead of Inflation Data as Oil Falls and Nvidia Faces Scrutiny Over CEO Investigation: Dow Jones, S&P, Nasdaq, Wall Street - Yahoo Finance [5e2a3c032a]",
     "Stock Futures Waver Before CPI as Nvidia Rebounds After Huang Scandal Selloff - BigGo Finance [e3c993f413]",
-    "S&P 500 market positioning risks ahead of CPI and NVIDIA earnings - Investing.com [fa006952e3]"
+    "Stocks cut gains, dollar and yields up as US CPI cements December rate hike bets - Euronext Markets: Real-time Stock Market Data | live [905da10be4]",
+    "S&P 500 futures fall sharply after October inflation data By Reuters - Investing.com [61ca9bb5e8]"
    ],
    "backend": "none",
    "model": null,
