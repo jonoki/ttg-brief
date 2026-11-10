@@ -1,7 +1,7 @@
 {
  "meta": {
-  "generated_at_utc": "2026-11-10T16:28:14.915828+00:00",
-  "generated_at_local": "Tue 10 Nov 2026 12:28 AST",
+  "generated_at_utc": "2026-11-10T16:43:36.224695+00:00",
+  "generated_at_local": "Tue 10 Nov 2026 12:43 AST",
   "trading_day": "2026-11-10",
   "display_tz": "America/Halifax",
   "version": "0.1.0",
@@ -109,7 +109,7 @@
    "time_utc": "2026-11-10T18:00:00+00:00",
    "local": "14:00 AST",
    "et": "13:00 ET",
-   "in": "1h 31m",
+   "in": "1h 16m",
    "consensus": null,
    "prior": null
   },
@@ -120,10 +120,10 @@
   {
    "root": "ES",
    "trading_day": "2026-11-10",
-   "as_of_utc": "2026-11-10T16:28:14.915828+00:00",
+   "as_of_utc": "2026-11-10T16:43:36.224695+00:00",
    "source": "yahoo",
    "delayed": true,
-   "last_price": 7516.0,
+   "last_price": 7518.0,
    "levels": [
     {
      "tag": "pwh",
@@ -288,8 +288,8 @@
     }
    ],
    "stats": {
-    "last_bar_utc": "2026-11-10T16:18:00+00:00",
-    "last_bar_age_min": 10.2,
+    "last_bar_utc": "2026-11-10T16:30:00+00:00",
+    "last_bar_age_min": 13.6,
     "market_state": "open",
     "profile_volume": 1450749.0,
     "prior_day": "2026-11-09",
@@ -1604,19 +1604,27 @@
      "t": "2026-11-10T16:15:00+00:00",
      "o": 7519.75,
      "h": 7529.25,
-     "l": 7515.0,
-     "c": 7516.0,
-     "v": 15270.0
+     "l": 7512.5,
+     "c": 7522.25,
+     "v": 61527.0
+    },
+    {
+     "t": "2026-11-10T16:30:00+00:00",
+     "o": 7522.5,
+     "h": 7523.25,
+     "l": 7517.25,
+     "c": 7518.0,
+     "v": 0.0
     }
    ]
   },
   {
    "root": "NQ",
    "trading_day": "2026-11-10",
-   "as_of_utc": "2026-11-10T16:28:14.915828+00:00",
+   "as_of_utc": "2026-11-10T16:43:36.224695+00:00",
    "source": "yahoo",
    "delayed": true,
-   "last_price": 27779.0,
+   "last_price": 27774.25,
    "levels": [
     {
      "tag": "exp_hi",
@@ -1781,8 +1789,8 @@
     }
    ],
    "stats": {
-    "last_bar_utc": "2026-11-10T16:18:00+00:00",
-    "last_bar_age_min": 10.2,
+    "last_bar_utc": "2026-11-10T16:30:00+00:00",
+    "last_bar_age_min": 13.6,
     "market_state": "open",
     "profile_volume": 527044.0,
     "prior_day": "2026-11-09",
@@ -3097,9 +3105,17 @@
      "t": "2026-11-10T16:15:00+00:00",
      "o": 27800.5,
      "h": 27851.25,
-     "l": 27773.5,
-     "c": 27779.0,
-     "v": 5024.0
+     "l": 27728.0,
+     "c": 27776.5,
+     "v": 19345.0
+    },
+    {
+     "t": "2026-11-10T16:30:00+00:00",
+     "o": 27776.75,
+     "h": 27785.25,
+     "l": 27751.0,
+     "c": 27774.25,
+     "v": 0.0
     }
    ]
   }
@@ -3112,8 +3128,8 @@
     "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQWG1SZHNSX2x0dWRXSHdfYTFSNldVOF92aUplek1POEt3UnkxME45bExhVl9ma2NTMXRLUVk2Nl92OFVqdmxnVnhiOS1YaDVRQTNIQ2JndWsxeXZqN21EeHhMM3dtZUR4ZTNiNk5FTmZkbEVTZnRabjItUV91Mnlia0NrMzN5U3dKeE1BalM1WlVqWHpJRl9mNzdQTTJlQlh6U1g4?oc=5",
     "source": "gnews_macro",
     "published_utc": "2026-11-10T15:53:00+00:00",
-    "score": 11.9,
-    "duplicates": 1
+    "score": 11.36,
+    "duplicates": 0
    },
    {
     "id": "63c1b901b0",
@@ -3121,17 +3137,17 @@
     "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPNTVJTkJXV1VqTXRoalRJT0NaTWNNd3RncHprMm9TNzdzZjNSekRFV19zZG5DS1JjaEVRbXVtMFlta2czNkpSNWJhMmU4MnR3YW1fOVYxTzBhRmFfZGNCTDJMbTF3SmcyeTktQUFERi1CZmxDeWdTRFJaN2NTcjhMQlNB?oc=5",
     "source": "gnews_futures",
     "published_utc": "2026-11-10T13:11:37+00:00",
-    "score": 10.95,
+    "score": 10.91,
     "duplicates": 0
    },
    {
-    "id": "401b2ea17b",
-    "title": "Why stocks are falling and 10-year yields are climbing back near 5% after Tuesday’s inflation report",
-    "link": "https://www.marketwatch.com/story/why-stocks-are-falling-and-10-year-yields-are-climbing-back-near-5-after-tuesdays-inflation-report-389b8392?mod=mw_rss_topstories",
-    "source": "marketwatch_top",
-    "published_utc": "2026-11-10T15:47:00+00:00",
-    "score": 10.39,
-    "duplicates": 1
+    "id": "02785ae48f",
+    "title": "10-year Treasury yield races back to 5% as inflation data, Waller comments drive rate hike expectations",
+    "link": "https://www.cnbc.com/2026/11/10/us-bonds-treasurys-yields.html",
+    "source": "cnbc_markets",
+    "published_utc": "2026-11-10T16:43:07+00:00",
+    "score": 10.5,
+    "duplicates": 0
    },
    {
     "id": "79ddc21582",
@@ -3139,7 +3155,16 @@
     "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQNGlIZGYwOERQM19hR3JwM1Z5ZmQta1AtZllqXzhNUzlSUDlRUkxTWmRnSjdReVF3LW1RcEVEeVBEVDYxVXRNSWpSV3A1akhBREMzMWdKN0Y3ajlEd19feDZhT3hCNkRBUTRIUzJHR3o5ZGluUVBwbnlOQklkWjRfdzJ4TnlQbVE?oc=5",
     "source": "gnews_futures",
     "published_utc": "2026-11-10T14:09:28+00:00",
-    "score": 10.11,
+    "score": 10.07,
+    "duplicates": 0
+   },
+   {
+    "id": "401b2ea17b",
+    "title": "Why stocks are falling and the 10-year Treasury yield is back near 5% after Tuesday’s inflation report",
+    "link": "https://www.marketwatch.com/story/why-stocks-are-falling-and-10-year-yields-are-climbing-back-near-5-after-tuesdays-inflation-report-389b8392?mod=mw_rss_topstories",
+    "source": "marketwatch_top",
+    "published_utc": "2026-11-10T16:28:00+00:00",
+    "score": 9.96,
     "duplicates": 0
    },
    {
@@ -3148,7 +3173,7 @@
     "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5SX3Q2M0RrejlJQmtva1ZMRnpUNWNMM3FPQ2hwWVlkWEJmb1ZBbHVwbERvUXRONXVrU2tKOGM1QXkwdkV0dkozQmhhNnZFalE0QWsyOUNzY0lrMVFtZGVjbUtINURJVmpGT21RUEVwSks5OXFTNnc?oc=5",
     "source": "gnews_futures",
     "published_utc": "2026-11-10T09:35:00+00:00",
-    "score": 9.85,
+    "score": 9.81,
     "duplicates": 0
    },
    {
@@ -3157,7 +3182,7 @@
     "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQSWVDV1U1NGJSVHVBVktkNmxiSFQwZjVTN19PVnI0REF2R3REMjFzd2lmMjlKVlBOdjVvakh3SXBkZWxoS2VUb1VnaTcyWUFYOXFWUTBLVDNmVTU4cElvOEZnZnNRNGo1cjlhVUd4MGpFOFpLZ2VHb0dST1ZUSGxES3RCd2QwamsyOHV3U1FEU1N3Y3pjWi1rQQ?oc=5",
     "source": "gnews_futures",
     "published_utc": "2026-11-10T10:08:56+00:00",
-    "score": 9.45,
+    "score": 9.4,
     "duplicates": 0
    },
    {
@@ -3166,7 +3191,7 @@
     "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNakhlWTNmM0VfenRXLXZLN3MwVmJLQ2szVXlYemhVZXJHNURHTXNwWFNCVDBPajZuU09JSlpseEFyeHYtSF9wTUdDMHliemNQc2dKc2phVTRKaDBla0xpeWdkUFYwb1hmYWpNMS1NMTZUOTdlVFBXN1Ntbml0WW9VcFhkZkxUQVZVYWtGdUxhS0t6QTdWbHl5LTVnMG9abFA2?oc=5",
     "source": "gnews_macro",
     "published_utc": "2026-11-10T14:08:30+00:00",
-    "score": 9.11,
+    "score": 9.07,
     "duplicates": 0
    },
    {
@@ -3175,7 +3200,7 @@
     "link": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxNZFJWUmNUYnRQV0RVbVQ1UW1mUlUzNmdkQU5hMkE0T3o4V2pIMF9icFdHQ1Z2enBEOVBrRTlyckxSWWNub0Rhel9JQS13V1ROckdNRUo1Q0ozakFkLUtjaEREQ18zT01XRlYxRzM2am42NklRNUtsWU5lQ0x0aEJmVDNyTXNzamFrVklqOWI5blpOTnFucG5ReEY0TzhfNzRTZGNIMHdDNnZtNlNjM09CZk1xMm4zYkwzSE9acENtd0hSOXdBS1p3RXc5YnpfazRsWDl2MWZ4cGxySkwxMW93V1dyLXFCSjlGelhUN2Jiak9vQQ?oc=5",
     "source": "gnews_macro",
     "published_utc": "2026-11-10T13:53:31+00:00",
-    "score": 9.07,
+    "score": 9.03,
     "duplicates": 0
    },
    {
@@ -3184,7 +3209,7 @@
     "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQaW1tdkZESEpSV3pqUXdtU0pkTTczQWpxV184ZlM1Ti1nUFdWQ0IwSVYzbi0zLXBFOEpnOXVtdGdfTnZJYk0xcXluNVFpd3Q5WW1iZ1g2VkZkN0VVRUllcDB3UGdCRl84LUVXWUk0WE1xa3NtendWYW9HZWRIa0VKUjJEdzZOdw?oc=5",
     "source": "gnews_megacap",
     "published_utc": "2026-11-10T13:49:50+00:00",
-    "score": 9.06,
+    "score": 9.02,
     "duplicates": 0
    },
    {
@@ -3193,7 +3218,7 @@
     "link": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxQajllTGZzSHYxZnR1Zl9FbnpVaUo4NXA4UU1vdGFtNW1yZ0NaX0lVdUtuYWRjMzl0dEZzTVVaTjJWcXVYdG9EeFowY19CdUZHLWxTUEV6Ykh2VFJEQUFpTWN1YlZnYnJjeF84TGNwYjgycFdzM2o1QUFFNDk0VDQ5eWJFS1dpeHZTZU03QnUyZ1VVRGdHWlZaUEVFTWxhZ1V3RHRaOVd4QzVuMUFyeDkxQ0JTVFAtWmpZeXd5S1pnVGxkd011UGRqNjFQYVRFcnUyc0QxNkwycERTU3dq?oc=5",
     "source": "gnews_futures",
     "published_utc": "2026-11-10T10:24:07+00:00",
-    "score": 8.99,
+    "score": 8.95,
     "duplicates": 1
    },
    {
@@ -3202,16 +3227,7 @@
     "link": "https://www.cnbc.com/2026/11/10/chip-stocks-rally-nvidia-scandal.html",
     "source": "cnbc_markets",
     "published_utc": "2026-11-10T13:19:13+00:00",
-    "score": 8.97,
-    "duplicates": 0
-   },
-   {
-    "id": "7fc248c3ad",
-    "title": "October Inflation Surge Raises Prospect of Another Federal Reserve Rate Hike - Belaaz",
-    "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPQ0dSTWR3d01uLWpFSVVCUGxmamZpVjZSMEhPRVB3Yzc4Q01YY2hqSmVvdFFRTEZGUlMyQmxOSVJwTlFtTjBuMTJER0p4NkJhaFI2Y1plMUZOQm9GcjBXT1JjdXFkVURMQ0RlN0NwMjdKb2kxdDByM2NLOXEwSlR1eXVrNnlfZVhkcEhfSDl5aTJvaVZrOVF2YU8wLTlwVnhnZ3c?oc=5",
-    "source": "gnews_fed",
-    "published_utc": "2026-11-10T14:59:33+00:00",
-    "score": 8.75,
+    "score": 8.93,
     "duplicates": 0
    }
   ],
@@ -3219,9 +3235,9 @@
    "lines": [
     "Spiking yields and falling stocks: Wall Street thinks hot inflation data clinched a rate hike next month - Business Insider [2a1e27e41f]",
     "US Stock Futures forecast: Dow, S&P 500 and Nasdaq mixed ahead of CPI as investment banks assess Fed Rate hikes - Beinsure [63c1b901b0]",
-    "Why stocks are falling and 10-year yields are climbing back near 5% after Tuesday’s inflation report [401b2ea17b]",
+    "10-year Treasury yield races back to 5% as inflation data, Waller comments drive rate hike expectations [02785ae48f]",
     "U.S. Stock Futures Retreat as October CPI Exceeds Forecasts and Fed Rate Hike Expectations Increase: Dow Jones, S&P, Nasdaq, Wall Street - Yahoo Finance UK [79ddc21582]",
-    "Stock Futures Split Before October CPI as Nvidia Stabilizes After Huang Probe Selloff - BigGo Finance [e3c993f413]"
+    "Why stocks are falling and the 10-year Treasury yield is back near 5% after Tuesday’s inflation report [401b2ea17b]"
    ],
    "backend": "none",
    "model": null,
