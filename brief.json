@@ -1,7 +1,7 @@
 {
  "meta": {
-  "generated_at_utc": "2026-11-10T12:26:03.020715+00:00",
-  "generated_at_local": "Tue 10 Nov 2026 08:26 AST",
+  "generated_at_utc": "2026-11-10T12:41:17.876842+00:00",
+  "generated_at_local": "Tue 10 Nov 2026 08:41 AST",
   "trading_day": "2026-11-10",
   "display_tz": "America/Halifax",
   "version": "0.1.0",
@@ -109,7 +109,7 @@
    "time_utc": "2026-11-10T13:30:00+00:00",
    "local": "09:30 AST",
    "et": "08:30 ET",
-   "in": "1h 03m",
+   "in": "48 min",
    "consensus": "0.2%",
    "prior": "0.3%"
   },
@@ -120,10 +120,10 @@
   {
    "root": "ES",
    "trading_day": "2026-11-10",
-   "as_of_utc": "2026-11-10T12:26:03.020715+00:00",
+   "as_of_utc": "2026-11-10T12:41:17.876842+00:00",
    "source": "yahoo",
    "delayed": true,
-   "last_price": 7577.75,
+   "last_price": 7572.75,
    "levels": [
     {
      "tag": "pwh",
@@ -172,18 +172,18 @@
      "label": "Overnight high",
      "price": 7598.75,
      "group": "overnight",
-     "note": "since 18:00 ET, 781 bars"
+     "note": "since 18:00 ET, 796 bars"
     },
     {
      "tag": "onvwap",
      "label": "Overnight VWAP",
-     "price": 7581.55,
+     "price": 7581.46,
      "group": "overnight",
      "note": "typical-price VWAP"
     },
     {
-     "tag": "rn_minor_dn",
-     "label": "Round 25 below",
+     "tag": "rn_minor_up",
+     "label": "Round 25 above",
      "price": 7575.0,
      "group": "round",
      "note": ""
@@ -267,14 +267,14 @@
     }
    ],
    "stats": {
-    "last_bar_utc": "2026-11-10T12:16:00+00:00",
-    "last_bar_age_min": 10.1,
+    "last_bar_utc": "2026-11-10T12:31:00+00:00",
+    "last_bar_age_min": 10.3,
     "market_state": "open",
     "profile_volume": 1450749.0,
     "prior_day": "2026-11-09",
     "prior_day_rth_range": 144.75,
     "overnight_range": 32.75,
-    "gap_vs_prior_close": 5.5,
+    "gap_vs_prior_close": 0.5,
     "gap_basis": "last price (pre-market)",
     "atr14": 141.68,
     "atr_days": 14,
@@ -1454,20 +1454,28 @@
     {
      "t": "2026-11-10T12:15:00+00:00",
      "o": 7576.0,
-     "h": 7578.75,
-     "l": 7575.75,
-     "c": 7577.75,
-     "v": 261.0
+     "h": 7581.0,
+     "l": 7573.5,
+     "c": 7575.25,
+     "v": 3484.0
+    },
+    {
+     "t": "2026-11-10T12:30:00+00:00",
+     "o": 7575.0,
+     "h": 7575.0,
+     "l": 7570.75,
+     "c": 7572.75,
+     "v": 499.0
     }
    ]
   },
   {
    "root": "NQ",
    "trading_day": "2026-11-10",
-   "as_of_utc": "2026-11-10T12:26:03.020715+00:00",
+   "as_of_utc": "2026-11-10T12:41:17.876842+00:00",
    "source": "yahoo",
    "delayed": true,
-   "last_price": 27932.25,
+   "last_price": 27896.75,
    "levels": [
     {
      "tag": "pwh",
@@ -1502,7 +1510,7 @@
      "label": "Overnight high",
      "price": 28109.0,
      "group": "overnight",
-     "note": "since 18:00 ET, 781 bars"
+     "note": "since 18:00 ET, 796 bars"
     },
     {
      "tag": "vah",
@@ -1519,25 +1527,11 @@
      "note": "2026-11-09"
     },
     {
-     "tag": "rn_major_up",
-     "label": "Round 100 above",
-     "price": 28000.0,
-     "group": "round",
-     "note": ""
-    },
-    {
      "tag": "onvwap",
      "label": "Overnight VWAP",
-     "price": 27979.12,
+     "price": 27977.79,
      "group": "overnight",
      "note": "typical-price VWAP"
-    },
-    {
-     "tag": "rn_minor_up",
-     "label": "Round 50 above",
-     "price": 27950.0,
-     "group": "round",
-     "note": ""
     },
     {
      "tag": "poc",
@@ -1547,8 +1541,8 @@
      "note": "2026-11-09 RTH, bin 1.0"
     },
     {
-     "tag": "rn_major_dn",
-     "label": "Round 100 below",
+     "tag": "rn_major_up",
+     "label": "Round 100 above",
      "price": 27900.0,
      "group": "round",
      "note": ""
@@ -1561,11 +1555,25 @@
      "note": ""
     },
     {
+     "tag": "rn_minor_dn",
+     "label": "Round 50 below",
+     "price": 27850.0,
+     "group": "round",
+     "note": ""
+    },
+    {
      "tag": "val",
      "label": "Prior-day VAL",
      "price": 27806.0,
      "group": "profile",
      "note": "70 % value area"
+    },
+    {
+     "tag": "rn_major_dn",
+     "label": "Round 100 below",
+     "price": 27800.0,
+     "group": "round",
+     "note": ""
     },
     {
      "tag": "pdo",
@@ -1611,14 +1619,14 @@
     }
    ],
    "stats": {
-    "last_bar_utc": "2026-11-10T12:16:00+00:00",
-    "last_bar_age_min": 10.1,
+    "last_bar_utc": "2026-11-10T12:31:00+00:00",
+    "last_bar_age_min": 10.3,
     "market_state": "open",
     "profile_volume": 527044.0,
     "prior_day": "2026-11-09",
     "prior_day_rth_range": 813.0,
     "overnight_range": 240.0,
-    "gap_vs_prior_close": -72.5,
+    "gap_vs_prior_close": -108.0,
     "gap_basis": "last price (pre-market)",
     "atr14": 905.88,
     "atr_days": 14,
@@ -2798,10 +2806,18 @@
     {
      "t": "2026-11-10T12:15:00+00:00",
      "o": 27912.75,
-     "h": 27935.0,
-     "l": 27911.5,
-     "c": 27932.25,
-     "v": 167.0
+     "h": 27953.5,
+     "l": 27905.75,
+     "c": 27914.25,
+     "v": 2534.0
+    },
+    {
+     "t": "2026-11-10T12:30:00+00:00",
+     "o": 27909.5,
+     "h": 27911.75,
+     "l": 27890.25,
+     "c": 27896.75,
+     "v": 363.0
     }
    ]
   }
@@ -2809,12 +2825,21 @@
  "news": {
   "headlines": [
    {
+    "id": "097ad65b0d",
+    "title": "Nvidia couldn’t derail the stock market’s rally. Hot inflation might.",
+    "link": "https://www.marketwatch.com/story/nvidia-couldnt-derail-the-stock-markets-rally-hot-inflation-might-8a572024?mod=mw_rss_topstories",
+    "source": "marketwatch_top",
+    "published_utc": "2026-11-10T12:33:00+00:00",
+    "score": 11.98,
+    "duplicates": 1
+   },
+   {
     "id": "5e2a3c032a",
     "title": "US Stock Futures Mixed Ahead of Inflation Data as Oil Falls and Nvidia Faces Scrutiny Over CEO Investigation: Dow Jones, S&P, Nasdaq, Wall Street - Yahoo Finance",
     "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQSWVDV1U1NGJSVHVBVktkNmxiSFQwZjVTN19PVnI0REF2R3REMjFzd2lmMjlKVlBOdjVvakh3SXBkZWxoS2VUb1VnaTcyWUFYOXFWUTBLVDNmVTU4cElvOEZnZnNRNGo1cjlhVUd4MGpFOFpLZ2VHb0dST1ZUSGxES3RCd2QwamsyOHV3U1FEU1N3Y3pjWi1rQQ?oc=5",
     "source": "gnews_futures",
     "published_utc": "2026-11-10T10:08:56+00:00",
-    "score": 10.62,
+    "score": 10.58,
     "duplicates": 1
    },
    {
@@ -2823,7 +2848,7 @@
     "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5SX3Q2M0RrejlJQmtva1ZMRnpUNWNMM3FPQ2hwWVlkWEJmb1ZBbHVwbERvUXRONXVrU2tKOGM1QXkwdkV0dkozQmhhNnZFalE0QWsyOUNzY0lrMVFtZGVjbUtINURJVmpGT21RUEVwSks5OXFTNnc?oc=5",
     "source": "gnews_futures",
     "published_utc": "2026-11-10T09:35:00+00:00",
-    "score": 10.52,
+    "score": 10.48,
     "duplicates": 0
    },
    {
@@ -2832,7 +2857,7 @@
     "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxPUUg2OFhudmJaRXIwR2RMM3I2MkptSmF2NldYaC11NGFCV1BacXUtdnJRNjUxc0czUW43bzFSY1lTUGtRSmFmR1FIYU0xQmZrX1FkNkRsczB0MXBHVjRqN1lTZllPLVBrQ3N3X2JqR21qVG9CekZ2WExKUG94aW9qWVhHOFdudEEtbU5ELTEwdGtCSmZlTG5ISUU5UjVhdw?oc=5",
     "source": "gnews_futures",
     "published_utc": "2026-11-10T10:20:51+00:00",
-    "score": 9.65,
+    "score": 9.61,
     "duplicates": 1
    },
    {
@@ -2841,7 +2866,7 @@
     "link": "https://news.google.com/rss/articles/CBMiiAJBVV95cUxPTnh5eFpWcTR1X21qd0drUEw3RF9BRnk2X1M3RkUyeTJ3Nk41NFVBSkhZSEQ1ZVpuRjhpb2pQZHJzUWlqcWZKdV9fSEEzQnVRelc5bF9TbFg2UTJmQXhTdVlIWEVNdTl0ODRPQlp5aUZYR1hSTEkzZFhaME9Hbk1SVUotMTQ5aHJyMmdXUS1jaGdmeDNTOUlfZ0Vtbmc2ajktLWVpNUFHMzVnemZlSW5SVGp6Y0pWX2szUTNRR081R0U5WlkybUhzbXJNSHhNSDNjbVV4UFdUZGhfd19pcDc0di1DckRBQzkwZEV2RFlJNW91VTRUTnBjSE93SjVWZHBPMW9iTHBRVUU?oc=5",
     "source": "gnews_futures",
     "published_utc": "2026-11-10T04:36:12+00:00",
-    "score": 9.19,
+    "score": 9.15,
     "duplicates": 0
    },
    {
@@ -2850,17 +2875,8 @@
     "link": "https://www.cnbc.com/2026/11/10/fed-governor-waller-sees-december-hike-likely.html",
     "source": "cnbc_markets",
     "published_utc": "2026-11-10T09:00:01+00:00",
-    "score": 8.43,
+    "score": 8.39,
     "duplicates": 1
-   },
-   {
-    "id": "7f5ce6bb08",
-    "title": "US CPI preview: Wall Street sees cooler inflation but the Fed may not blink - investingLive",
-    "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOMEpwUGlpM2d1eTVBZUNCX1BNQ2dsaDlabGdHWUx5MVVQcEM4QkdJQnc4RlpUQVBSbGV0UXY1Ym1BeHRrWS1PM0stNnZxY1BveFRUWDRfY0RFeEpHSXhVUklVNzVDdHprNTNmb0dWYVd1NTRZQ3BvMi1TUkNpSUNTbXFJdmRBYWZjeHl2WEhhaV9VWXh4NnA3Nzl5X3NlSDhFcTlKNklIM3d6dw?oc=5",
-    "source": "gnews_macro",
-    "published_utc": "2026-11-10T05:41:49+00:00",
-    "score": 8.38,
-    "duplicates": 0
    },
    {
     "id": "e4b8513d6c",
@@ -2868,7 +2884,7 @@
     "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxObGdKazB3cGVKLUR0VG45X1hQNEpxeVdwaVdUNEdSUl96YnlaQzRuSVgxa2F6NVE2dHU3SmRpOG5xNHdhT2pKS3RSOTdsbGxGYlVWMmxXQm9EUC1YQ1VudlVYeG5pLUJKbnRiczJDRVg2TXlJQlh0OE81dVNDLW1jdU1vT2tMZGRzV1VOeHR6TlVSbEFBTGNBMjh4Z2Zlc3VUei11SFkxcjI3U2EzS0llOEl1SnE?oc=5",
     "source": "gnews_fed",
     "published_utc": "2026-11-10T10:22:55+00:00",
-    "score": 8.16,
+    "score": 8.12,
     "duplicates": 1
    },
    {
@@ -2877,7 +2893,7 @@
     "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNczlpdFNJRUF3YmZQWXF4TlR0VHNhOTJxaW5VZEtPXzdfbXI4NjVyamZPSTlUT0E3LVdsVWxUU0gwS3REa3JpaWtUbVZicXZoSzNlNFZDSExMcHppMXZQNXd6QnJFYnFyS3RXZGQwSHE4a2lQWDY0enN0Z1FIODlHUmtMRmlpTmItMEFtcA?oc=5",
     "source": "gnews_macro",
     "published_utc": "2026-11-10T10:08:12+00:00",
-    "score": 8.12,
+    "score": 8.07,
     "duplicates": 0
    },
    {
@@ -2886,7 +2902,7 @@
     "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNdFd3c185VEYxWl9KSjdsb0pRU2VENzNacklCQ1ZOVGNmcFNhVlZJTF9fVElteGhfX01oVmVhRXJGdlA3Q25ycXBnS0RLVE5laEQwRGI5UlFWM2I3a2ZhRzA3aVFiSHB5X2NrRW9PMHlxMWdkVjB6WDZFOHdhVjljV3FJNA?oc=5",
     "source": "gnews_futures",
     "published_utc": "2026-11-10T10:04:03+00:00",
-    "score": 8.11,
+    "score": 8.06,
     "duplicates": 0
    },
    {
@@ -2895,7 +2911,7 @@
     "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQWHJsWFA4SGF3dHpWLXcwbVhld3doR2cxdC1VQUN6bGFMeWJGWXp1ZUtZendfQnhyRmdMUDY5Zk5DanAxYkREcm1zenlNakM1TWNwUEFtRkhqR2lnWFZkWkRjeHppYkVhZ1NBN3lFdVpjTS1wclZneGNNWU1leTUyalY4S2FMREhnY2lrWUwyckNEYzQ?oc=5",
     "source": "gnews_fed",
     "published_utc": "2026-11-10T11:56:00+00:00",
-    "score": 7.92,
+    "score": 7.87,
     "duplicates": 1
    },
    {
@@ -2904,7 +2920,7 @@
     "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQNnRBVzctM1RjWUItekZ2dDB2Q0JubDAwdk9vb29VU1l6XzUtQUZKNGhlSzVzdk1qNlBSUVBhYlo1Si05d1pfOUNScWNKbVREcGFpUDdFM0xqXzkxUlkzTnpUd3RiZlVVczF1T2pSS3dfb2hERC04Y2lQakVlS1psLU9MZFBnODhESGFrRTh3NXNrT042d0ZkSGFnZGFiZU5CRlNaUVk1UFA5TV9SdW5yekpaYkN3VHB2bDBMcWRtWHB4bXVkMzVz?oc=5",
     "source": "gnews_futures",
     "published_utc": "2026-11-10T11:32:23+00:00",
-    "score": 7.85,
+    "score": 7.81,
     "duplicates": 1
    },
    {
@@ -2913,17 +2929,17 @@
     "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTFAtUWhkZlNkcmVOQzhpZnRMMS1PUllJRzVMT2M3V0R0dFQzaTNzS1VucElSQlVhUnRSR1JUUkZUcFQ3SkpsdFhpZ0F4X1VfLU9iNUt5TUozZ0pmTGRiZFV1STctZDlDamUwWC1jVWsxdDk2MHJQMXc?oc=5",
     "source": "gnews_futures",
     "published_utc": "2026-11-10T11:09:57+00:00",
-    "score": 7.79,
+    "score": 7.75,
     "duplicates": 0
    }
   ],
   "summary": {
    "lines": [
+    "Nvidia couldn’t derail the stock market’s rally. Hot inflation might. [097ad65b0d]",
     "US Stock Futures Mixed Ahead of Inflation Data as Oil Falls and Nvidia Faces Scrutiny Over CEO Investigation: Dow Jones, S&P, Nasdaq, Wall Street - Yahoo Finance [5e2a3c032a]",
     "Stock Futures Waver Before CPI as Nvidia Rebounds After Huang Scandal Selloff - BigGo Finance [e3c993f413]",
     "US Stock Futures Mixed As Investors Await CPI Data — AMD, CRWV, RKLB Stocks In Focus - Yahoo Finance [8e333d3c8d]",
-    "Dow, S&P 500, Nasdaq Futures Mixed As Traders Weigh AI Rebound, Await Inflation Data: HIMS, TTD, NVDA, MARA In Focus - Stocktwits [aef0befc90]",
-    "Fed Governor Waller sees December hike likely, opens door to possible half-point increase [aa6ea10e32]"
+    "Dow, S&P 500, Nasdaq Futures Mixed As Traders Weigh AI Rebound, Await Inflation Data: HIMS, TTD, NVDA, MARA In Focus - Stocktwits [aef0befc90]"
    ],
    "backend": "none",
    "model": null,
