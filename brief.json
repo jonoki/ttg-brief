@@ -1,11 +1,11 @@
 {
  "meta": {
-  "generated_at_utc": "2026-11-11T13:26:58.395751+00:00",
-  "generated_at_local": "Wed 11 Nov 2026 09:26 AST",
+  "generated_at_utc": "2026-11-11T13:42:12.423815+00:00",
+  "generated_at_local": "Wed 11 Nov 2026 09:42 AST",
   "trading_day": "2026-11-11",
   "display_tz": "America/Halifax",
   "version": "0.1.0",
-  "run": "overnight",
+  "run": "post-data",
   "variant": "public"
  },
  "calendar": {
@@ -73,7 +73,7 @@
    "time_utc": "2026-11-12T13:30:00+00:00",
    "local": "09:30 AST",
    "et": "08:30 ET",
-   "in": "24h 03m",
+   "in": "23h 47m",
    "consensus": "194K",
    "prior": "189K"
   },
@@ -84,15 +84,15 @@
   {
    "root": "ES",
    "trading_day": "2026-11-11",
-   "as_of_utc": "2026-11-11T13:26:58.395751+00:00",
+   "as_of_utc": "2026-11-11T13:42:12.423815+00:00",
    "source": "yahoo",
    "delayed": true,
-   "last_price": 7616.0,
+   "last_price": 7617.5,
    "levels": [
     {
      "tag": "pwh",
      "label": "Prior-week high",
-     "price": 7734.0,
+     "price": 7733.5,
      "group": "week",
      "note": "2 session(s) of data — PARTIAL"
     },
@@ -120,14 +120,14 @@
     {
      "tag": "onh",
      "label": "Overnight high",
-     "price": 7616.25,
+     "price": 7620.0,
      "group": "overnight",
-     "note": "since 18:00 ET, 832 bars"
+     "note": "since 18:00 ET, 848 bars"
     },
     {
      "tag": "wh",
      "label": "Week high",
-     "price": 7616.25,
+     "price": 7620.0,
      "group": "week",
      "note": "since 2026-11-09"
     },
@@ -148,7 +148,7 @@
     {
      "tag": "onvwap",
      "label": "Overnight VWAP",
-     "price": 7592.9,
+     "price": 7593.94,
      "group": "overnight",
      "note": "typical-price VWAP"
     },
@@ -231,14 +231,14 @@
     }
    ],
    "stats": {
-    "last_bar_utc": "2026-11-11T13:16:00+00:00",
-    "last_bar_age_min": 11.0,
+    "last_bar_utc": "2026-11-11T13:32:00+00:00",
+    "last_bar_age_min": 10.2,
     "market_state": "open",
     "profile_volume": 1363419.0,
     "prior_day": "2026-11-10",
     "prior_day_rth_range": 73.25,
-    "overnight_range": 67.0,
-    "gap_vs_prior_close": 71.25,
+    "overnight_range": 70.75,
+    "gap_vs_prior_close": 72.75,
     "gap_basis": "last price (pre-market)",
     "atr14": 144.86,
     "atr_days": 14,
@@ -1442,20 +1442,28 @@
     {
      "t": "2026-11-11T13:15:00+00:00",
      "o": 7614.75,
-     "h": 7616.25,
+     "h": 7620.0,
      "l": 7613.25,
-     "c": 7616.0,
-     "v": 533.0
+     "c": 7617.0,
+     "v": 8506.0
+    },
+    {
+     "t": "2026-11-11T13:30:00+00:00",
+     "o": 7617.0,
+     "h": 7617.75,
+     "l": 7614.25,
+     "c": 7617.5,
+     "v": 1280.0
     }
    ]
   },
   {
    "root": "NQ",
    "trading_day": "2026-11-11",
-   "as_of_utc": "2026-11-11T13:26:58.395751+00:00",
+   "as_of_utc": "2026-11-11T13:42:12.423815+00:00",
    "source": "yahoo",
    "delayed": true,
-   "last_price": 28386.75,
+   "last_price": 28393.5,
    "levels": [
     {
      "tag": "exp_hi",
@@ -1465,25 +1473,25 @@
      "note": "ATR over 14 days"
     },
     {
+     "tag": "onh",
+     "label": "Overnight high",
+     "price": 28406.25,
+     "group": "overnight",
+     "note": "since 18:00 ET, 847 bars"
+    },
+    {
+     "tag": "wh",
+     "label": "Week high",
+     "price": 28406.25,
+     "group": "week",
+     "note": "since 2026-11-09"
+    },
+    {
      "tag": "rn_major_up",
      "label": "Round 100 above",
      "price": 28400.0,
      "group": "round",
      "note": ""
-    },
-    {
-     "tag": "onh",
-     "label": "Overnight high",
-     "price": 28397.5,
-     "group": "overnight",
-     "note": "since 18:00 ET, 831 bars"
-    },
-    {
-     "tag": "wh",
-     "label": "Week high",
-     "price": 28397.5,
-     "group": "week",
-     "note": "since 2026-11-09"
     },
     {
      "tag": "pwh",
@@ -1509,7 +1517,7 @@
     {
      "tag": "onvwap",
      "label": "Overnight VWAP",
-     "price": 28205.11,
+     "price": 28211.32,
      "group": "overnight",
      "note": "typical-price VWAP"
     },
@@ -1599,14 +1607,14 @@
     }
    ],
    "stats": {
-    "last_bar_utc": "2026-11-11T13:16:00+00:00",
-    "last_bar_age_min": 11.0,
+    "last_bar_utc": "2026-11-11T13:32:00+00:00",
+    "last_bar_age_min": 10.2,
     "market_state": "open",
     "profile_volume": 486472.0,
     "prior_day": "2026-11-10",
     "prior_day_rth_range": 574.0,
-    "overnight_range": 541.5,
-    "gap_vs_prior_close": 551.0,
+    "overnight_range": 550.25,
+    "gap_vs_prior_close": 557.75,
     "gap_basis": "last price (pre-market)",
     "atr14": 916.96,
     "atr_days": 14,
@@ -2810,10 +2818,18 @@
     {
      "t": "2026-11-11T13:15:00+00:00",
      "o": 28374.75,
-     "h": 28388.25,
+     "h": 28406.25,
      "l": 28367.75,
-     "c": 28386.75,
-     "v": 306.0
+     "c": 28381.25,
+     "v": 4793.0
+    },
+    {
+     "t": "2026-11-11T13:30:00+00:00",
+     "o": 28381.75,
+     "h": 28394.5,
+     "l": 28369.25,
+     "c": 28393.5,
+     "v": 583.0
     }
    ]
   }
@@ -2821,22 +2837,31 @@
  "news": {
   "headlines": [
    {
+    "id": "8def4149a5",
+    "title": "US Stock Market Today: S&P 500 Futures Firm On Hot CPI Fed Repricing - Simply Wall St",
+    "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxQS1U1UWpvVEZyMW1pYWZQODU1bzVvbmFKUWtuZFJhd0ZBUDlPQWpJeGxEZEYzVU1rejR2RXlQSXJyV3QzRkpMR29vM3FLVENYWVk2NVhaa1ZBSENvRzRCVFRVVHo4ZmYwX2dmaWxMYlNvbEdhbmlGM2Q5djk5Y1Z3RnFQa3FtMkZkRGFwNUZKNXVsbjFObnFwZGxnSW5WeFZWaFFIdFZiSU90ZFBISUFmejF2bnZmUUM5OEF4ZFdMM0Z1S3JMZFJnYk9La2FHdlB0cFJGTNIB2gFBVV95cUxQbElUbUJpR3ZiSTI2WEYyY3BuSWc2bEp6cW5wM2t2ZXVBUVBLOEcxNDJIU3FBTUVkMkRjSWM4aVFwNGNIMzRfdTVNU25taWFrTnJQNjIyNTcxbHhXM1lvRF9RWjRWZ3NkNjIzVnFSbkxQOW9jMmYzVFJwUlRhbFFkb1BzYkU0RzNmZi1XQURza052N2xYVXRqUkdncnc2V3BnQkFQS21tOFpxQXNqYzFaeXZsN1ZlamxXaHdYclltT3pubjI0OVotajlkS29CaUtRWVByOFJfc2NfZw?oc=5",
+    "source": "gnews_futures",
+    "published_utc": "2026-11-11T13:32:01+00:00",
+    "score": 10.47,
+    "duplicates": 0
+   },
+   {
     "id": "309ab919d0",
     "title": "Nasdaq futures surge as CoreWeave results revive AI stocks despite Fed concerns - Traders Union",
     "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE9WVkd1QXdCSUVTWFhGSmpidTBLazFsclk3a3JCVV8yTkxVLWJOQ0VzNjkwdk9EY0VQRE41WENPXzhLWC1SMzE4RlVaNmc2OUVSaHdrMHZiYXZwU3NMbzFJektEX0JmVEF1SlBmUl9MRFpHQUFfa2h0R0IxRQ?oc=5",
     "source": "gnews_futures",
     "published_utc": "2026-11-11T12:47:06+00:00",
-    "score": 10.39,
+    "score": 10.35,
     "duplicates": 0
    },
    {
-    "id": "48306fd9a2",
-    "title": "Goldman adds another rate hike to Fed outlook after hot inflation data - The Lufkin Daily News",
-    "link": "https://news.google.com/rss/articles/CBMi_wFBVV95cUxNLVFXUXRfYmtJYklRd1J0M2ktZG56WUZqMkdHME5ZbUxrSHE5YTlDeEFQcmRyUW0td3dmSVZHZldKb2U3RzVHdlBLM0FCU3g3enNIOWI4QllPUHhlbm1zY0lWLVhFd2lHWlpsWHMxbC12VzNxRTNOaXdVeW1Uak5lVWZVRDZuNGZqZWZRX09IVjhvMFRiR3R0UU9qMjBvX0FJckVxVDBYUlIxNjVRT2dsVVBIV29PSjFXMVJxSElidDJkU2hRemlzX1RKQ1I1VGxGWU12anZ5M0E1NGFDbXNJbUZSSEVkTm84VGtrT2pxOFJZMGZTb090bDlMckhBZU0?oc=5",
-    "source": "gnews_macro",
-    "published_utc": "2026-11-11T12:49:32+00:00",
-    "score": 9.9,
-    "duplicates": 3
+    "id": "b03ff05f5b",
+    "title": "Fed's Goolsbee calls inflation report 'borderline disturbing' as central bank weighs more hikes",
+    "link": "https://www.cnbc.com/2026/11/11/goolsbee-october-inflation-fed-rates-disturbing-distressing.html",
+    "source": "cnbc_markets",
+    "published_utc": "2026-11-11T13:39:55+00:00",
+    "score": 9.49,
+    "duplicates": 2
    },
    {
     "id": "9a5171ac4c",
@@ -2844,16 +2869,16 @@
     "link": "https://www.marketwatch.com/story/why-goldman-sachs-is-now-changing-its-federal-reserve-interest-rate-forecast-3753f968?mod=mw_rss_topstories",
     "source": "marketwatch_top",
     "published_utc": "2026-11-11T10:37:00+00:00",
-    "score": 9.53,
+    "score": 9.49,
     "duplicates": 2
    },
    {
-    "id": "b03ff05f5b",
-    "title": "Fed's Goolsbee calls inflation report 'borderline disturbing' as central bank weighs more hikes",
-    "link": "https://www.cnbc.com/2026/11/11/goolsbee-october-inflation-fed-rates-disturbing-distressing.html",
-    "source": "cnbc_markets",
-    "published_utc": "2026-11-11T13:16:31+00:00",
-    "score": 9.47,
+    "id": "fef6893843",
+    "title": "Goldman adds another rate hike to Fed outlook after hot inflation data - WHBL News",
+    "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQV1hLRkZOazZ3NmxfWV9EZzRORGRhdEhPb0dvVmtQdmxrUkFReGpmVEhKcHljWVdsYmpnYVN0dUZzZU9GS0ZxLXYwcjFtTjFXNm8xX2RGZGNHMGRJdUtMZU1SQXdXUE5LVVA2V2pIZlNvaENvZ0haOHEtd0xiRWRCRXZMUEU?oc=5",
+    "source": "gnews_macro",
+    "published_utc": "2026-11-11T08:03:50+00:00",
+    "score": 8.56,
     "duplicates": 2
    },
    {
@@ -2871,7 +2896,7 @@
     "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPTGJvak5XS2NGcmRWeTN4b19KUUV5XzRONGwzQWFTUmZvLU0tTGdIc1JrNFFFei1aX0VXTjZxejhCM0RWY0xHMDV1Qmcwd05kZDNiSWpVU0hubG9adzdQQ0tydVJaYmx0QkZMMW9rTU9uTjNTWUNSQ2loendqOXNzb1B0WGNQUlNNeXA3SmlWYkxMd09MQlBLQUF3Q2RMclVaOVM3UlJUZmZsQQ?oc=5",
     "source": "gnews_fed",
     "published_utc": "2026-11-11T13:02:32+00:00",
-    "score": 7.93,
+    "score": 7.89,
     "duplicates": 1
    },
    {
@@ -2880,7 +2905,7 @@
     "link": "https://news.google.com/rss/articles/CBMijwJBVV95cUxOZ3NaUDRVaHFPVi1sWWwzdjJNT21Hd2RWR0JONjJhTnV5dXFkR0xCU29oQ0lscEtwQVNnU1pxcGs5bUFhU2JjclFXME81QUo5MWFYTU8yVGhxLUNaV25keXozUkhfRkVHZGxTSGlLeS1lTEdYb21IMU1rVEl3SXBXMmIyVFQ2M05vdXJBeVRydXNJcUtwTE9hbWw3VEN4YXVrekZpOUx2VlhBX1ZDOEp6LWpXZ3JhMVNJNVRueWdIQk5BMGN2U0F2dkt2NzNCNVZmSm1aVXhUSlh0WEx3Sm82VXVLTHdQZkZSN0RqY1RBbDZSbDVyemFxXzVCc1dVemVWS3VFUS1ZdWZlVmJpRzRz?oc=5",
     "source": "gnews_futures",
     "published_utc": "2026-11-11T03:51:00+00:00",
-    "score": 7.9,
+    "score": 7.86,
     "duplicates": 0
    },
    {
@@ -2893,49 +2918,40 @@
     "duplicates": 0
    },
    {
+    "id": "16bbfbb703",
+    "title": "Global bonds reel as hot U.S. CPI and hawkish Fed revive 50-bp hike fears - Investing.com",
+    "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPNFFxb3VONWVqcTN4Z2NSYWdoT3ZFOXY0QXBkeFZwOFAzakJoUlpmOGl0RXZFdDFOcVNXUWVDZWhIZDFUMDE2cmNLWVlvaXVROERZYThXQVU0LXo1bHBYazQ4RXY1Y2N1b3dBN1REbHJxNDVQcjd5TzFzLVFZdnBXMHNJdEJvend3WkNBSnJ4Sk5LZk1mVGEwVU51M1NLU25mNTU0aG1VeUVPWlJMODNIZ1UyN2FSRVRvSWhiMjNfOWg5dw?oc=5",
+    "source": "gnews_macro",
+    "published_utc": "2026-11-11T13:30:00+00:00",
+    "score": 7.47,
+    "duplicates": 0
+   },
+   {
+    "id": "6c5719fec4",
+    "title": "US Equity Futures Rise as AI Enthusiasm Counters Hot Inflation - Bloomberg.com",
+    "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNTWhFb0Z4UU5tNk9GTTVCYW9hallXVDZiRkhNMjFubzVVbmt1RXY4ekdtSFdZSTV4cEhqYkNrMlM0TW9keklFMHBOUDVzTTNhNXhJX2ZuVWRjSTFheURwb1NlU1F5b3Q0SXJWaGdzMzlEZHE5N3UzeE5jSzJIbkpoc2tqdkNKZG0zczBSYndTNm5GUFVUeEM1OHB2LUlnRktreFhueUxleGRwTWp0S1RZcWFQRQ?oc=5",
+    "source": "gnews_macro",
+    "published_utc": "2026-11-11T13:28:45+00:00",
+    "score": 7.46,
+    "duplicates": 0
+   },
+   {
     "id": "b2d400506b",
     "title": "Gold Holds Loss Near $4,000 on Hot US Inflation, Fed Remarks - Bloomberg.com",
     "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPX2tORWxkdHRBenRxSW9hSW4wekZsa3Y5VTA0d3A3NTNzTVhMazhTWnNEWlJvMlMzUFIyenNRVl8xWWJaOTdMN2NQVmNsWjhRYUJKWmplRU8zbGthZGQ0R0NlRzFSWmZObzBRSnVNSHFGM3owd2JpTmZHVEkyaEVIS2dLclc3cGZkWXBUSlFoRnpCUTRKdTFrNzNCb2xwUVJic0RoaGgwZzF0ZktCMWc?oc=5",
     "source": "gnews_fed",
     "published_utc": "2026-11-11T10:12:26+00:00",
-    "score": 7.46,
+    "score": 7.42,
     "duplicates": 1
-   },
-   {
-    "id": "181a4b36e8",
-    "title": "Nasdaq Futures Rally as CoreWeave and Anthropic Fuel AI Optimism - Barchart.com",
-    "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPVkxkYmQ4S3ZKWmpaS3hRb1ROMDVjbTlXTW9IZFJzWlB0TUlRRDJ5ZElBbmFKVVBPTnlrZnVHVl8zdjNLWjhMdXVYVVRLN1U5bG5IV3dJamNndEU3MGJ2MnVvT1FRMFZFRlJnZlNKak5XanItczZPUFlyYkxJUHB5Y29sYW5odFpiYjMxWm9PTHl4TUc0cFVGNUtsY1kySU5QaDNISU5GZFhLR3RD?oc=5",
-    "source": "gnews_futures",
-    "published_utc": "2026-11-11T12:51:59+00:00",
-    "score": 7.4,
-    "duplicates": 0
-   },
-   {
-    "id": "40a4fceab6",
-    "title": "Watch CoreWeave Quiets Doubts, US CPI Fuels Fed-Hike Bets - Bloomberg.com",
-    "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPNFdpMnlkbjBGUmlnZkdLVE1McHhmc3ExREFnWXRHb19iNHR2QVEzaTkzZXh1YzlFbENyNldzQ2R0ZjBwV2oyUi1TMS1oLVk5bTdUanBWSE51RGlmWmc3UkRQcEE3aHhIZU9TTUFUTVEzXzMzM2c2UmlubFVJdlBkZWxQcUxIYjRNWi1Z?oc=5",
-    "source": "gnews_macro",
-    "published_utc": "2026-11-11T12:07:29+00:00",
-    "score": 7.28,
-    "duplicates": 0
-   },
-   {
-    "id": "dc10c7a72d",
-    "title": "AM Markets Need to Know: Fed faces inflation test, Anthropic IPO demand surges, and more - TradingView",
-    "link": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxQMmtOdkIwTy1tOVVhamZXcjRSUWNyQVl3S05hd0djMFltdFprczRDYlBKa2FESmdwLVl5UFdyX3gxMlIwRE5zUUV4TlB6aDExTEI2MTMxM2J3S1JXRVhHRnBPMVFIVFBuSU92Y2R3Y1czY01kUzlIVEhMM0Faa3lsZjZQLXgtYmtmUE1CX3I2SHdhREZYTnRZbDN5M2hOV1NDZ1RvSzBQa3ZXSzBKbDJuRmpneWRhSU41OGlsMFI3OWxyaU05NGxfenExNXp5Tm1NZmJ3dEVtLWZnTE1BaDlwcDln?oc=5",
-    "source": "gnews_fed",
-    "published_utc": "2026-11-11T11:14:28+00:00",
-    "score": 7.13,
-    "duplicates": 0
    }
   ],
   "summary": {
    "lines": [
+    "US Stock Market Today: S&P 500 Futures Firm On Hot CPI Fed Repricing - Simply Wall St [8def4149a5]",
     "Nasdaq futures surge as CoreWeave results revive AI stocks despite Fed concerns - Traders Union [309ab919d0]",
-    "Goldman adds another rate hike to Fed outlook after hot inflation data - The Lufkin Daily News [48306fd9a2]",
-    "Why Goldman Sachs is now changing its Federal Reserve interest-rate forecast [9a5171ac4c]",
     "Fed's Goolsbee calls inflation report 'borderline disturbing' as central bank weighs more hikes [b03ff05f5b]",
-    "U.S. stock futures tick higher after Wall St slips on hot CPI, Nvidia losses - Yahoo Finance [7a7ba21c1a]"
+    "Why Goldman Sachs is now changing its Federal Reserve interest-rate forecast [9a5171ac4c]",
+    "Goldman adds another rate hike to Fed outlook after hot inflation data - WHBL News [fef6893843]"
    ],
    "backend": "none",
    "model": null,
@@ -2949,7 +2965,24 @@
  },
  "flags": [],
  "earnings": {
-  "reported": [],
+  "reported": [
+   {
+    "symbol": "PBR",
+    "name": "Petroleo Brasileiro S.A.- Petrobras",
+    "timing": "unknown",
+    "date": "2026-11-10",
+    "reported_at": "11/10/2026",
+    "reported": true
+   },
+   {
+    "symbol": "TDG",
+    "name": "Transdigm Group Incorporated",
+    "timing": "unknown",
+    "date": "2026-11-10",
+    "reported_at": "11/10/2026",
+    "reported": true
+   }
+  ],
   "today": [
    {
     "symbol": "FNV",
