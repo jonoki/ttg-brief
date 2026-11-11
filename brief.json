@@ -1,7 +1,7 @@
 {
  "meta": {
-  "generated_at_utc": "2026-11-11T11:55:32.513670+00:00",
-  "generated_at_local": "Wed 11 Nov 2026 07:55 AST",
+  "generated_at_utc": "2026-11-11T12:10:46.810709+00:00",
+  "generated_at_local": "Wed 11 Nov 2026 08:10 AST",
   "trading_day": "2026-11-11",
   "display_tz": "America/Halifax",
   "version": "0.1.0",
@@ -73,7 +73,7 @@
    "time_utc": "2026-11-12T13:30:00+00:00",
    "local": "09:30 AST",
    "et": "08:30 ET",
-   "in": "25h 34m",
+   "in": "25h 19m",
    "consensus": "194K",
    "prior": "189K"
   },
@@ -84,15 +84,15 @@
   {
    "root": "ES",
    "trading_day": "2026-11-11",
-   "as_of_utc": "2026-11-11T11:55:32.513670+00:00",
+   "as_of_utc": "2026-11-11T12:10:46.810709+00:00",
    "source": "yahoo",
    "delayed": true,
-   "last_price": 7607.5,
+   "last_price": 7612.75,
    "levels": [
     {
      "tag": "pwh",
      "label": "Prior-week high",
-     "price": 7738.75,
+     "price": 7738.5,
      "group": "week",
      "note": "2 session(s) of data — PARTIAL"
     },
@@ -120,14 +120,14 @@
     {
      "tag": "onh",
      "label": "Overnight high",
-     "price": 7613.0,
+     "price": 7615.75,
      "group": "overnight",
-     "note": "since 18:00 ET, 741 bars"
+     "note": "since 18:00 ET, 756 bars"
     },
     {
      "tag": "wh",
      "label": "Week high",
-     "price": 7613.0,
+     "price": 7615.75,
      "group": "week",
      "note": "since 2026-11-09"
     },
@@ -148,7 +148,7 @@
     {
      "tag": "onvwap",
      "label": "Overnight VWAP",
-     "price": 7588.22,
+     "price": 7589.17,
      "group": "overnight",
      "note": "typical-price VWAP"
     },
@@ -231,14 +231,14 @@
     }
    ],
    "stats": {
-    "last_bar_utc": "2026-11-11T11:45:00+00:00",
-    "last_bar_age_min": 10.5,
+    "last_bar_utc": "2026-11-11T12:00:00+00:00",
+    "last_bar_age_min": 10.8,
     "market_state": "open",
     "profile_volume": 1363419.0,
     "prior_day": "2026-11-10",
     "prior_day_rth_range": 73.25,
-    "overnight_range": 63.75,
-    "gap_vs_prior_close": 62.75,
+    "overnight_range": 66.5,
+    "gap_vs_prior_close": 68.0,
     "gap_basis": "last price (pre-market)",
     "atr14": 144.86,
     "atr_days": 14,
@@ -1394,9 +1394,17 @@
     {
      "t": "2026-11-11T11:45:00+00:00",
      "o": 7607.0,
-     "h": 7608.0,
-     "l": 7606.5,
-     "c": 7607.5,
+     "h": 7615.75,
+     "l": 7606.25,
+     "c": 7609.75,
+     "v": 7233.0
+    },
+    {
+     "t": "2026-11-11T12:00:00+00:00",
+     "o": 7610.5,
+     "h": 7613.25,
+     "l": 7609.75,
+     "c": 7612.75,
      "v": 0.0
     }
    ]
@@ -1404,10 +1412,10 @@
   {
    "root": "NQ",
    "trading_day": "2026-11-11",
-   "as_of_utc": "2026-11-11T11:55:32.513670+00:00",
+   "as_of_utc": "2026-11-11T12:10:46.810709+00:00",
    "source": "yahoo",
    "delayed": true,
-   "last_price": 28354.25,
+   "last_price": 28376.0,
    "levels": [
     {
      "tag": "exp_hi",
@@ -1419,7 +1427,7 @@
     {
      "tag": "pwh",
      "label": "Prior-week high",
-     "price": 28458.5,
+     "price": 28432.5,
      "group": "week",
      "note": "2 session(s) of data — PARTIAL"
     },
@@ -1433,14 +1441,14 @@
     {
      "tag": "onh",
      "label": "Overnight high",
-     "price": 28376.75,
+     "price": 28389.75,
      "group": "overnight",
-     "note": "since 18:00 ET, 740 bars"
+     "note": "since 18:00 ET, 755 bars"
     },
     {
      "tag": "wh",
      "label": "Week high",
-     "price": 28376.75,
+     "price": 28389.75,
      "group": "week",
      "note": "since 2026-11-09"
     },
@@ -1461,7 +1469,7 @@
     {
      "tag": "onvwap",
      "label": "Overnight VWAP",
-     "price": 28176.18,
+     "price": 28181.78,
      "group": "overnight",
      "note": "typical-price VWAP"
     },
@@ -1551,14 +1559,14 @@
     }
    ],
    "stats": {
-    "last_bar_utc": "2026-11-11T11:45:00+00:00",
-    "last_bar_age_min": 10.5,
+    "last_bar_utc": "2026-11-11T12:00:00+00:00",
+    "last_bar_age_min": 10.8,
     "market_state": "open",
     "profile_volume": 486472.0,
     "prior_day": "2026-11-10",
     "prior_day_rth_range": 574.0,
-    "overnight_range": 520.75,
-    "gap_vs_prior_close": 518.5,
+    "overnight_range": 533.75,
+    "gap_vs_prior_close": 540.25,
     "gap_basis": "last price (pre-market)",
     "atr14": 916.96,
     "atr_days": 14,
@@ -2714,9 +2722,17 @@
     {
      "t": "2026-11-11T11:45:00+00:00",
      "o": 28350.25,
-     "h": 28357.25,
-     "l": 28349.0,
-     "c": 28354.25,
+     "h": 28389.75,
+     "l": 28337.0,
+     "c": 28365.0,
+     "v": 3792.0
+    },
+    {
+     "t": "2026-11-11T12:00:00+00:00",
+     "o": 28365.5,
+     "h": 28381.75,
+     "l": 28364.0,
+     "c": 28376.0,
      "v": 0.0
     }
    ]
@@ -2730,7 +2746,7 @@
     "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPbDIwT1A1aVFIMDNGcWZMYmgyWXFQemVUc2hfYm1YSE9UX0I4a3k2OGxWVG5GeEpZX2dhTnR2QWdRYWhSZlZVTjFtSDBmc2lHaEtJcDRmRlZ1MThwTGNWbFJrenlKYnE5TUZFU0oxLVNVZlN1QnduRHVLdGdKSkRQbGtEMjlMdUNIUFZKR2hZaEFabTBsdzJEOVdncWlnbjBvV20wSjBLRVhWZjdfMGJ2Y1NYOW1RME5fa19NdjFfZmQzWUJYNTYzWG5B?oc=5",
     "source": "gnews_futures",
     "published_utc": "2026-11-11T06:41:07+00:00",
-    "score": 10.63,
+    "score": 10.58,
     "duplicates": 0
    },
    {
@@ -2739,7 +2755,7 @@
     "link": "https://www.marketwatch.com/story/why-goldman-sachs-is-now-changing-its-federal-reserve-interest-rate-forecast-3753f968?mod=mw_rss_topstories",
     "source": "marketwatch_top",
     "published_utc": "2026-11-11T10:37:00+00:00",
-    "score": 9.78,
+    "score": 9.74,
     "duplicates": 2
    },
    {
@@ -2748,7 +2764,7 @@
     "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOaEFuYkh0Z1dCVFlfbXpzblNnUFBSczNUTURCVDBEWlM2MXJvY0hpaEhZWEJ5b3IyeThZbmVVc1pIY0ZjRGF5LXhoNWZCSUQyU09RekZFMl91UkM3WFRPYVhHQjhRSVNwelNHY0J0RXZRRTN3TUNITklMdjduUjFmSnE1cw?oc=5",
     "source": "gnews_macro",
     "published_utc": "2026-11-11T09:23:51+00:00",
-    "score": 9.58,
+    "score": 9.54,
     "duplicates": 3
    },
    {
@@ -2775,17 +2791,17 @@
     "link": "https://news.google.com/rss/articles/CBMijwJBVV95cUxOZ3NaUDRVaHFPVi1sWWwzdjJNT21Hd2RWR0JONjJhTnV5dXFkR0xCU29oQ0lscEtwQVNnU1pxcGs5bUFhU2JjclFXME81QUo5MWFYTU8yVGhxLUNaV25keXozUkhfRkVHZGxTSGlLeS1lTEdYb21IMU1rVEl3SXBXMmIyVFQ2M05vdXJBeVRydXNJcUtwTE9hbWw3VEN4YXVrekZpOUx2VlhBX1ZDOEp6LWpXZ3JhMVNJNVRueWdIQk5BMGN2U0F2dkt2NzNCNVZmSm1aVXhUSlh0WEx3Sm82VXVLTHdQZkZSN0RqY1RBbDZSbDVyemFxXzVCc1dVemVWS3VFUS1ZdWZlVmJpRzRz?oc=5",
     "source": "gnews_futures",
     "published_utc": "2026-11-11T03:51:00+00:00",
-    "score": 8.15,
+    "score": 8.11,
     "duplicates": 0
    },
    {
-    "id": "df530ac1fe",
-    "title": "U.S. Treasurys Pause on Market Holiday After Inflation-Fueled Selloff - WSJ",
-    "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQRGUzOXJrMXVra2JXM3BZQ0RpcGNzUkJwckRSYWhKUlo2aktWNHNvRy12aDRFV0NJNXFuTXhMQXQwYURBSnpwdjYzbjJRY3ZPeFVzaWZka0xRZ3pNZFlsS296Vkw1SkFHb2hBZ2Y0ZXdqb1lqcHUwVzVCZTBfZkN3OEtZRWlXaHE5cUhYT0R1by1ZNS1TbnJBcGdYQVRpUVplQS01OHRIS3FwTmo5TWlSMVFSWnpJdw?oc=5",
-    "source": "gnews_macro",
-    "published_utc": "2026-11-11T10:55:52+00:00",
-    "score": 7.83,
-    "duplicates": 0
+    "id": "a824910026",
+    "title": "Inflation jitters throw wrench into US Treasury auction amid jumbo hike fears - South China Morning Post",
+    "link": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxPYlJ2cXpmdkEtM0g5WXRmVFZVWTloWFRaNHQ0NG1pX05Oa0dUSkRSM2h1eVhfcjF3OXppNGEydVNoSFE1WDdSazFvS3dXV0pVbzVtb2FNYklkb3JQU2tndV9nOUhaNnJHR3BhcThmLVJsZzlYQjluSHFvTjFwZEJuUTZLcTFTN0UzTE9pR1BPU1BXSkthV3haVGdad0pWdzQyMzlHRDRkME5sSFJaSXliaEx3RUR0MDZyLVZNanBjdV9CdXRnNDNPcDZkcUVkTWhadXBrWUtQMXc?oc=5",
+    "source": "gnews_fed",
+    "published_utc": "2026-11-11T07:13:56+00:00",
+    "score": 7.68,
+    "duplicates": 1
    },
    {
     "id": "7a7ba21c1a",
@@ -2793,7 +2809,7 @@
     "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPZUNTNGk2aVpBNHQzZXJoaUFTcm5HMTJBOHhGLU5qeGt3T19DN3I4Y21VSl8yVjZDR2VDc0l1RkI0bjUyZm5ZS0NOTzZTN0ZQeGgzYnZTQjd0YzJRMl9BSjFUV3dNV3l2YWx1QXBGOXNlT3ZTWjRKWUpuNDNpUXE4M0c1b0RjTnpGcmE0WkJtMGZudFBVUGYw?oc=5",
     "source": "gnews_futures",
     "published_utc": "2026-11-11T01:12:00+00:00",
-    "score": 7.71,
+    "score": 7.67,
     "duplicates": 0
    },
    {
@@ -2802,7 +2818,7 @@
     "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPX2tORWxkdHRBenRxSW9hSW4wekZsa3Y5VTA0d3A3NTNzTVhMazhTWnNEWlJvMlMzUFIyenNRVl8xWWJaOTdMN2NQVmNsWjhRYUJKWmplRU8zbGthZGQ0R0NlRzFSWmZObzBRSnVNSHFGM3owd2JpTmZHVEkyaEVIS2dLclc3cGZkWXBUSlFoRnpCUTRKdTFrNzNCb2xwUVJic0RoaGgwZzF0ZktCMWc?oc=5",
     "source": "gnews_fed",
     "published_utc": "2026-11-11T10:12:26+00:00",
-    "score": 7.71,
+    "score": 7.67,
     "duplicates": 1
    },
    {
@@ -2824,12 +2840,12 @@
     "duplicates": 0
    },
    {
-    "id": "2d141049b8",
-    "title": "Analysis | Fed chair needs friends in Congress as inflation fight drags on - The Washington Post",
-    "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPTGJvak5XS2NGcmRWeTN4b19KUUV5XzRONGwzQWFTUmZvLU0tTGdIc1JrNFFFei1aX0VXTjZxejhCM0RWY0xHMDV1Qmcwd05kZDNiSWpVU0hubG9adzdQQ0tydVJaYmx0QkZMMW9rTU9uTjNTWUNSQ2loendqOXNzb1B0WGNQUlNNeXA3SmlWYkxMd09MQlBLQUF3Q2RMclVaOVM3UlJUZmZsQQ?oc=5",
+    "id": "40a4fceab6",
+    "title": "Watch CoreWeave Quiets Doubts, US CPI Fuels Fed-Hike Bets - Bloomberg.com",
+    "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPNFdpMnlkbjBGUmlnZkdLVE1McHhmc3ExREFnWXRHb19iNHR2QVEzaTkzZXh1YzlFbENyNldzQ2R0ZjBwV2oyUi1TMS1oLVk5bTdUanBWSE51RGlmWmc3UkRQcEE3aHhIZU9TTUFUTVEzXzMzM2c2UmlubFVJdlBkZWxQcUxIYjRNWi1Z?oc=5",
     "source": "gnews_macro",
-    "published_utc": "2026-11-11T11:32:32+00:00",
-    "score": 7.44,
+    "published_utc": "2026-11-11T12:07:29+00:00",
+    "score": 7.49,
     "duplicates": 0
    }
   ],
