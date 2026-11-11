@@ -1,7 +1,7 @@
 {
  "meta": {
-  "generated_at_utc": "2026-11-11T15:59:25.640924+00:00",
-  "generated_at_local": "Wed 11 Nov 2026 11:59 AST",
+  "generated_at_utc": "2026-11-11T16:14:41.056555+00:00",
+  "generated_at_local": "Wed 11 Nov 2026 12:14 AST",
   "trading_day": "2026-11-11",
   "display_tz": "America/Halifax",
   "version": "0.1.0",
@@ -73,7 +73,7 @@
    "time_utc": "2026-11-12T13:30:00+00:00",
    "local": "09:30 AST",
    "et": "08:30 ET",
-   "in": "21h 30m",
+   "in": "21h 15m",
    "consensus": "194K",
    "prior": "189K"
   },
@@ -84,10 +84,10 @@
   {
    "root": "ES",
    "trading_day": "2026-11-11",
-   "as_of_utc": "2026-11-11T15:59:25.640924+00:00",
+   "as_of_utc": "2026-11-11T16:14:41.056555+00:00",
    "source": "yahoo",
    "delayed": true,
-   "last_price": 7619.0,
+   "last_price": 7631.0,
    "levels": [
     {
      "tag": "exp_hi",
@@ -104,25 +104,25 @@
      "note": ""
     },
     {
-     "tag": "rn_minor_up",
-     "label": "Round 25 above",
-     "price": 7625.0,
-     "group": "round",
-     "note": ""
-    },
-    {
      "tag": "tdh",
      "label": "Today's RTH high",
-     "price": 7624.75,
+     "price": 7633.0,
      "group": "today",
      "note": "so far"
     },
     {
      "tag": "wh",
      "label": "Week high",
-     "price": 7624.75,
+     "price": 7633.0,
      "group": "week",
      "note": "since 2026-11-09"
+    },
+    {
+     "tag": "rn_minor_dn",
+     "label": "Round 25 below",
+     "price": 7625.0,
+     "group": "round",
+     "note": ""
     },
     {
      "tag": "onh",
@@ -252,8 +252,8 @@
     }
    ],
    "stats": {
-    "last_bar_utc": "2026-11-11T15:49:00+00:00",
-    "last_bar_age_min": 10.4,
+    "last_bar_utc": "2026-11-11T16:04:00+00:00",
+    "last_bar_age_min": 10.7,
     "market_state": "open",
     "profile_volume": 1363419.0,
     "prior_day": "2026-11-10",
@@ -1543,20 +1543,28 @@
     {
      "t": "2026-11-11T15:45:00+00:00",
      "o": 7619.75,
-     "h": 7621.25,
+     "h": 7632.5,
      "l": 7615.25,
-     "c": 7619.0,
-     "v": 10900.0
+     "c": 7632.25,
+     "v": 51744.0
+    },
+    {
+     "t": "2026-11-11T16:00:00+00:00",
+     "o": 7632.25,
+     "h": 7633.0,
+     "l": 7627.0,
+     "c": 7631.0,
+     "v": 15461.0
     }
    ]
   },
   {
    "root": "NQ",
    "trading_day": "2026-11-11",
-   "as_of_utc": "2026-11-11T15:59:25.640924+00:00",
+   "as_of_utc": "2026-11-11T16:14:41.056555+00:00",
    "source": "yahoo",
    "delayed": true,
-   "last_price": 28451.25,
+   "last_price": 28524.5,
    "levels": [
     {
      "tag": "exp_hi",
@@ -1568,28 +1576,35 @@
     {
      "tag": "rn_major_up",
      "label": "Round 100 above",
-     "price": 28500.0,
+     "price": 28600.0,
      "group": "round",
      "note": ""
     },
     {
      "tag": "tdh",
      "label": "Today's RTH high",
-     "price": 28467.0,
+     "price": 28554.5,
      "group": "today",
      "note": "so far"
     },
     {
      "tag": "wh",
      "label": "Week high",
-     "price": 28467.0,
+     "price": 28554.5,
      "group": "week",
      "note": "since 2026-11-09"
     },
     {
-     "tag": "rn_minor_dn",
-     "label": "Round 50 below",
-     "price": 28450.0,
+     "tag": "rn_minor_up",
+     "label": "Round 50 above",
+     "price": 28550.0,
+     "group": "round",
+     "note": ""
+    },
+    {
+     "tag": "rn_major_dn",
+     "label": "Round 100 below",
+     "price": 28500.0,
      "group": "round",
      "note": ""
     },
@@ -1599,13 +1614,6 @@
      "price": 28406.25,
      "group": "overnight",
      "note": "since 18:00 ET, 904 bars"
-    },
-    {
-     "tag": "rn_major_dn",
-     "label": "Round 100 below",
-     "price": 28400.0,
-     "group": "round",
-     "note": ""
     },
     {
      "tag": "rtho",
@@ -1721,8 +1729,8 @@
     }
    ],
    "stats": {
-    "last_bar_utc": "2026-11-11T15:49:00+00:00",
-    "last_bar_age_min": 10.4,
+    "last_bar_utc": "2026-11-11T16:04:00+00:00",
+    "last_bar_age_min": 10.7,
     "market_state": "open",
     "profile_volume": 486472.0,
     "prior_day": "2026-11-10",
@@ -3012,10 +3020,18 @@
     {
      "t": "2026-11-11T15:45:00+00:00",
      "o": 28427.75,
-     "h": 28467.0,
+     "h": 28550.25,
      "l": 28413.75,
-     "c": 28451.25,
-     "v": 5958.0
+     "c": 28549.25,
+     "v": 23401.0
+    },
+    {
+     "t": "2026-11-11T16:00:00+00:00",
+     "o": 28549.0,
+     "h": 28554.5,
+     "l": 28510.0,
+     "c": 28524.5,
+     "v": 6276.0
     }
    ]
   }
@@ -3028,7 +3044,7 @@
     "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxQS1U1UWpvVEZyMW1pYWZQODU1bzVvbmFKUWtuZFJhd0ZBUDlPQWpJeGxEZEYzVU1rejR2RXlQSXJyV3QzRkpMR29vM3FLVENYWVk2NVhaa1ZBSENvRzRCVFRVVHo4ZmYwX2dmaWxMYlNvbEdhbmlGM2Q5djk5Y1Z3RnFQa3FtMkZkRGFwNUZKNXVsbjFObnFwZGxnSW5WeFZWaFFIdFZiSU90ZFBISUFmejF2bnZmUUM5OEF4ZFdMM0Z1S3JMZFJnYk9La2FHdlB0cFJGTNIB2gFBVV95cUxQbElUbUJpR3ZiSTI2WEYyY3BuSWc2bEp6cW5wM2t2ZXVBUVBLOEcxNDJIU3FBTUVkMkRjSWM4aVFwNGNIMzRfdTVNU25taWFrTnJQNjIyNTcxbHhXM1lvRF9RWjRWZ3NkNjIzVnFSbkxQOW9jMmYzVFJwUlRhbFFkb1BzYkU0RzNmZi1XQURza052N2xYVXRqUkdncnc2V3BnQkFQS21tOFpxQXNqYzFaeXZsN1ZlamxXaHdYclltT3pubjI0OVotajlkS29CaUtRWVByOFJfc2NfZw?oc=5",
     "source": "gnews_futures",
     "published_utc": "2026-11-11T13:32:01+00:00",
-    "score": 10.09,
+    "score": 10.05,
     "duplicates": 0
    },
    {
@@ -3037,17 +3053,8 @@
     "link": "https://www.cnbc.com/2026/11/11/goolsbee-october-inflation-fed-rates-disturbing-distressing.html",
     "source": "cnbc_markets",
     "published_utc": "2026-11-11T14:24:28+00:00",
-    "score": 9.24,
+    "score": 9.19,
     "duplicates": 2
-   },
-   {
-    "id": "eb0b0bc74a",
-    "title": "US Stock Futures Advance as CoreWeave Earnings Lift Technology Shares Despite Inflation Concerns: Dow Jones, S&P, Nasdaq, Wall Street - Yahoo Finance UK",
-    "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNY0NHU3VDM1lBOHVxT2cwbUtGZXdWRjZGR1lQNGxqd2F6Vk9Yanh2OTBEUkFUUWFzR2FLMlVQcnhhbi1Bd2o0NG1ZaVRmdkluT29YbmVhU3NmdDNSa2lFOWszN0hYOFpxTngzbDdWRjZ5TDRYLVBkRk93MmtvbHEzZTM3Y0dVZTBQb3lZ?oc=5",
-    "source": "gnews_futures",
-    "published_utc": "2026-11-11T14:15:22+00:00",
-    "score": 8.71,
-    "duplicates": 1
    },
    {
     "id": "8f062336b7",
@@ -3055,7 +3062,7 @@
     "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQY2NCTGRDUWRWeEJ2RnJDN2ZBRm1LMld4djAxTUs2STg5MW1IT0VsVzV0am5DQ2dzZS11WE51S0tsUlFXRWNkQ0FwREkwcUE1bTRSRlV0cnhLVkpBZzIzT2VmTTFDZEplbENIb1pxVjFleXhhU20tUU9OVDBYQkpQR2dfQTJkT2VoVzk5a29wSW0ybTFlY2hHUGl2LXJIb0RZbGthcmROV3lEOU9NUkMwc0lyb3otdzdxbndRMGlFS091QQ?oc=5",
     "source": "gnews_fed",
     "published_utc": "2026-11-11T13:48:55+00:00",
-    "score": 8.64,
+    "score": 8.6,
     "duplicates": 0
    },
    {
@@ -3064,7 +3071,7 @@
     "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTFBObjlvTkFUOW05MFhmT1NZS1Y1aWZDQUtnMzFZVXl2SUM1dHJyOUFUOGgwVndwMVBBZUE3dVgtOURJZjNqN0FrdXhLYVZ2U1RLM1ppR1Q5RW00OWxaV2lDOG9hRUQtY19LZXpRTm55a3BEQVY2LXZB?oc=5",
     "source": "gnews_futures",
     "published_utc": "2026-11-11T12:34:45+00:00",
-    "score": 8.43,
+    "score": 8.39,
     "duplicates": 0
    },
    {
@@ -3073,17 +3080,17 @@
     "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQdEQ4eWktTEU2a3FSazhrd0QzUTNuVUVidFNNTmJMRjhwUG1VdFltVUNROEVwTnVaeWo1bUdRRFcyYXJnZmppVm0yREFiNkowbWstY2R5MURubGdHdDh1aHpKVWxNN2Y4UGZuOUx3dEtmbmJrUWpWRmdnSmpJd3FPeGowTU9adVFfc3VTd1JzREtheWNfcG9HZWt0UnBGcjY4WEN2ZHMtdU5yTUFqWERXSFpaV1hHaTM0?oc=5",
     "source": "gnews_macro",
     "published_utc": "2026-11-11T09:03:08+00:00",
-    "score": 8.34,
+    "score": 8.3,
     "duplicates": 2
    },
    {
-    "id": "6dc298aa21",
-    "title": "Stock Market Today: Nasdaq Futures Jump as Nvidia Shares Rebound, CoreWeave Soars After Earnings; Dow, S&P 500 Also Point Higher - Yahoo Finance",
-    "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOOTdqaEhyZTgyRE9BSWMyeWN1TTZGNHJIUExTTTJjdjBJaEJHc3FaM3ZONUs4bVJweUZ6RUV1Mk5OblJyTFJLNmVXVkg3ZF9VWEFFS21kaWNQRFJYOE1BNGpQeXdmNXpGa3BjZFhtekZVSl9YbUZ4QW92Qzl5c1N0TTluODV1ajJqQ0NRLThERVYyQ2hUanU3R2xYVnYtLXc?oc=5",
+    "id": "eb0b0bc74a",
+    "title": "US Stock Futures Advance as CoreWeave Earnings Lift Technology Shares Despite Inflation Concerns: Dow Jones, S&P, Nasdaq, Wall Street - Yahoo Finance UK",
+    "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNY0NHU3VDM1lBOHVxT2cwbUtGZXdWRjZGR1lQNGxqd2F6Vk9Yanh2OTBEUkFUUWFzR2FLMlVQcnhhbi1Bd2o0NG1ZaVRmdkluT29YbmVhU3NmdDNSa2lFOWszN0hYOFpxTngzbDdWRjZ5TDRYLVBkRk93MmtvbHEzZTM3Y0dVZTBQb3lZ?oc=5",
     "source": "gnews_futures",
-    "published_utc": "2026-11-11T13:12:47+00:00",
-    "score": 8.04,
-    "duplicates": 1
+    "published_utc": "2026-11-11T14:15:22+00:00",
+    "score": 8.17,
+    "duplicates": 0
    },
    {
     "id": "7a7ba21c1a",
@@ -3095,22 +3102,31 @@
     "duplicates": 1
    },
    {
-    "id": "ff3d496dca",
-    "title": "Nasdaq futures rise nearly 2% as CoreWeave jumps 15% and Nvidia shrugs off a Baird downgrade before the open - MLQ.ai",
-    "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQRnBNYVB5Zll2b1FqdFJybzV3Q0FFSmdFRUxLd3IwcGxWMjQxOWRqZ0hyZGtQMEs2ZTlfeWJsWVZmQnU5RTNDbVBSczdxZjM2bjNRT2xyclFHYjROWXVqMXgtN0RacS1QeEFJTnl1ZjBGV3c3aG40N1ljeTgxRDhFN2JReS11U2dVTU1EYWg3OFFpUzBIdTZPTmppTnVnUXVFNktwdjJqdw?oc=5",
+    "id": "6dc298aa21",
+    "title": "Stock Market Today: Nasdaq Futures Jump as Nvidia Shares Rebound, CoreWeave Soars After Earnings; Dow, S&P 500 Also Point Higher - Yahoo Finance",
+    "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOOTdqaEhyZTgyRE9BSWMyeWN1TTZGNHJIUExTTTJjdjBJaEJHc3FaM3ZONUs4bVJweUZ6RUV1Mk5OblJyTFJLNmVXVkg3ZF9VWEFFS21kaWNQRFJYOE1BNGpQeXdmNXpGa3BjZFhtekZVSl9YbUZ4QW92Qzl5c1N0TTluODV1ajJqQ0NRLThERVYyQ2hUanU3R2xYVnYtLXc?oc=5",
     "source": "gnews_futures",
-    "published_utc": "2026-11-11T14:36:00+00:00",
-    "score": 7.77,
-    "duplicates": 0
+    "published_utc": "2026-11-11T13:12:47+00:00",
+    "score": 7.99,
+    "duplicates": 1
    },
    {
     "id": "a261902a0d",
     "title": "Analysis | Fed chair needs friends in Congress as inflation fight drags on - The Washington Post",
     "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPTGJvak5XS2NGcmRWeTN4b19KUUV5XzRONGwzQWFTUmZvLU0tTGdIc1JrNFFFei1aX0VXTjZxejhCM0RWY0xHMDV1Qmcwd05kZDNiSWpVU0hubG9adzdQQ0tydVJaYmx0QkZMMW9rTU9uTjNTWUNSQ2loendqOXNzb1B0WGNQUlNNeXA3SmlWYkxMd09MQlBLQUF3Q2RMclVaOVM3UlJUZmZsQQ?oc=5",
     "source": "gnews_fed",
-    "published_utc": "2026-11-11T14:32:32+00:00",
-    "score": 7.76,
+    "published_utc": "2026-11-11T16:02:32+00:00",
+    "score": 7.97,
     "duplicates": 1
+   },
+   {
+    "id": "ff3d496dca",
+    "title": "Nasdaq futures rise nearly 2% as CoreWeave jumps 15% and Nvidia shrugs off a Baird downgrade before the open - MLQ.ai",
+    "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQRnBNYVB5Zll2b1FqdFJybzV3Q0FFSmdFRUxLd3IwcGxWMjQxOWRqZ0hyZGtQMEs2ZTlfeWJsWVZmQnU5RTNDbVBSczdxZjM2bjNRT2xyclFHYjROWXVqMXgtN0RacS1QeEFJTnl1ZjBGV3c3aG40N1ljeTgxRDhFN2JReS11U2dVTU1EYWg3OFFpUzBIdTZPTmppTnVnUXVFNktwdjJqdw?oc=5",
+    "source": "gnews_futures",
+    "published_utc": "2026-11-11T14:36:00+00:00",
+    "score": 7.73,
+    "duplicates": 0
    },
    {
     "id": "ef5932b040",
@@ -3118,7 +3134,7 @@
     "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOVF9ZbThrZjRhSThEMTRzbmpaUHRULTVBWkFtR0FINEliOFRQSi1mQUMyNzhFMkdLQzEwVHRGNlVwRGZfN0pubEI0M24zeXpoUVpxa2d3OEUtLUd5azZfNzJaOTRfOGtONUhnNXROd2ZDQUtsTGhpV1ZpbGNiVU9DcVd0MnNVWkJPaXUzX1ZWZUdLaXBGNDVpLTBXRWJqOEZYUXg3UzNRSWRHQXdraDNz?oc=5",
     "source": "gnews_fed",
     "published_utc": "2026-11-11T14:30:03+00:00",
-    "score": 7.75,
+    "score": 7.71,
     "duplicates": 1
    },
    {
@@ -3135,9 +3151,9 @@
    "lines": [
     "US Stock Market Today: S&P 500 Futures Firm On Hot CPI Fed Repricing - Simply Wall St [8def4149a5]",
     "Fed's Goolsbee calls inflation report 'borderline disturbing' as central bank weighs more hikes [b03ff05f5b]",
-    "US Stock Futures Advance as CoreWeave Earnings Lift Technology Shares Despite Inflation Concerns: Dow Jones, S&P, Nasdaq, Wall Street - Yahoo Finance UK [eb0b0bc74a]",
     "Ed Yardeni Backs 50-Point Fed Hike in December - iShares 1-3 Year Treasury Bond ETF (NASDAQ:SHY) - Benzinga [8f062336b7]",
-    "Stock market today: Dow, S&P 500, Nasdaq futures rise as Nvidia stock recovers, 10-year yield nears 5% - AOL.com [b2b119a8c8]"
+    "Stock market today: Dow, S&P 500, Nasdaq futures rise as Nvidia stock recovers, 10-year yield nears 5% - AOL.com [b2b119a8c8]",
+    "Goldman adds March rate hike to Fed forecast after another hot inflation read - Investing.com [22ba491ebd]"
    ],
    "backend": "none",
    "model": null,
