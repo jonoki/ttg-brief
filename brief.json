@@ -1,7 +1,7 @@
 {
  "meta": {
-  "generated_at_utc": "2026-11-11T15:13:40.813136+00:00",
-  "generated_at_local": "Wed 11 Nov 2026 11:13 AST",
+  "generated_at_utc": "2026-11-11T15:28:55.941010+00:00",
+  "generated_at_local": "Wed 11 Nov 2026 11:28 AST",
   "trading_day": "2026-11-11",
   "display_tz": "America/Halifax",
   "version": "0.1.0",
@@ -73,7 +73,7 @@
    "time_utc": "2026-11-12T13:30:00+00:00",
    "local": "09:30 AST",
    "et": "08:30 ET",
-   "in": "22h 16m",
+   "in": "22h 01m",
    "consensus": "194K",
    "prior": "189K"
   },
@@ -84,7 +84,7 @@
   {
    "root": "ES",
    "trading_day": "2026-11-11",
-   "as_of_utc": "2026-11-11T15:13:40.813136+00:00",
+   "as_of_utc": "2026-11-11T15:28:55.941010+00:00",
    "source": "yahoo",
    "delayed": true,
    "last_price": 7606.75,
@@ -167,13 +167,6 @@
      "note": ""
     },
     {
-     "tag": "pwh",
-     "label": "Prior-week high",
-     "price": 7568.5,
-     "group": "week",
-     "note": "2 session(s) of data — PARTIAL"
-    },
-    {
      "tag": "pdh",
      "label": "Prior-day high (RTH)",
      "price": 7566.25,
@@ -193,6 +186,13 @@
      "price": 7544.75,
      "group": "prior_day",
      "note": "2026-11-10"
+    },
+    {
+     "tag": "pwh",
+     "label": "Prior-week high",
+     "price": 7538.75,
+     "group": "week",
+     "note": "2 session(s) of data — PARTIAL"
     },
     {
      "tag": "vah",
@@ -252,8 +252,8 @@
     }
    ],
    "stats": {
-    "last_bar_utc": "2026-11-11T15:03:00+00:00",
-    "last_bar_age_min": 10.7,
+    "last_bar_utc": "2026-11-11T15:18:00+00:00",
+    "last_bar_age_min": 10.9,
     "market_state": "open",
     "profile_volume": 1363419.0,
     "prior_day": "2026-11-10",
@@ -1520,19 +1520,27 @@
      "t": "2026-11-11T15:00:00+00:00",
      "o": 7609.0,
      "h": 7613.25,
-     "l": 7603.75,
+     "l": 7597.25,
+     "c": 7599.25,
+     "v": 53840.0
+    },
+    {
+     "t": "2026-11-11T15:15:00+00:00",
+     "o": 7599.5,
+     "h": 7608.75,
+     "l": 7598.0,
      "c": 7606.75,
-     "v": 10782.0
+     "v": 8912.0
     }
    ]
   },
   {
    "root": "NQ",
    "trading_day": "2026-11-11",
-   "as_of_utc": "2026-11-11T15:13:40.813136+00:00",
+   "as_of_utc": "2026-11-11T15:28:55.941010+00:00",
    "source": "yahoo",
    "delayed": true,
-   "last_price": 28292.75,
+   "last_price": 28298.25,
    "levels": [
     {
      "tag": "exp_hi",
@@ -1670,7 +1678,7 @@
     {
      "tag": "pwh",
      "label": "Prior-week high",
-     "price": 27428.5,
+     "price": 27425.0,
      "group": "week",
      "note": "2 session(s) of data — PARTIAL"
     },
@@ -1697,8 +1705,8 @@
     }
    ],
    "stats": {
-    "last_bar_utc": "2026-11-11T15:03:00+00:00",
-    "last_bar_age_min": 10.7,
+    "last_bar_utc": "2026-11-11T15:18:00+00:00",
+    "last_bar_age_min": 10.9,
     "market_state": "open",
     "profile_volume": 486472.0,
     "prior_day": "2026-11-10",
@@ -2964,10 +2972,18 @@
     {
      "t": "2026-11-11T15:00:00+00:00",
      "o": 28295.0,
-     "h": 28325.0,
+     "h": 28348.0,
      "l": 28256.5,
-     "c": 28292.75,
-     "v": 5901.0
+     "c": 28276.75,
+     "v": 27409.0
+    },
+    {
+     "t": "2026-11-11T15:15:00+00:00",
+     "o": 28277.25,
+     "h": 28323.75,
+     "l": 28267.25,
+     "c": 28298.25,
+     "v": 4294.0
     }
    ]
   }
@@ -2980,7 +2996,7 @@
     "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxQS1U1UWpvVEZyMW1pYWZQODU1bzVvbmFKUWtuZFJhd0ZBUDlPQWpJeGxEZEYzVU1rejR2RXlQSXJyV3QzRkpMR29vM3FLVENYWVk2NVhaa1ZBSENvRzRCVFRVVHo4ZmYwX2dmaWxMYlNvbEdhbmlGM2Q5djk5Y1Z3RnFQa3FtMkZkRGFwNUZKNXVsbjFObnFwZGxnSW5WeFZWaFFIdFZiSU90ZFBISUFmejF2bnZmUUM5OEF4ZFdMM0Z1S3JMZFJnYk9La2FHdlB0cFJGTNIB2gFBVV95cUxQbElUbUJpR3ZiSTI2WEYyY3BuSWc2bEp6cW5wM2t2ZXVBUVBLOEcxNDJIU3FBTUVkMkRjSWM4aVFwNGNIMzRfdTVNU25taWFrTnJQNjIyNTcxbHhXM1lvRF9RWjRWZ3NkNjIzVnFSbkxQOW9jMmYzVFJwUlRhbFFkb1BzYkU0RzNmZi1XQURza052N2xYVXRqUkdncnc2V3BnQkFQS21tOFpxQXNqYzFaeXZsN1ZlamxXaHdYclltT3pubjI0OVotajlkS29CaUtRWVByOFJfc2NfZw?oc=5",
     "source": "gnews_futures",
     "published_utc": "2026-11-11T13:32:01+00:00",
-    "score": 10.22,
+    "score": 10.18,
     "duplicates": 0
    },
    {
@@ -2989,7 +3005,7 @@
     "link": "https://www.cnbc.com/2026/11/11/goolsbee-october-inflation-fed-rates-disturbing-distressing.html",
     "source": "cnbc_markets",
     "published_utc": "2026-11-11T14:24:28+00:00",
-    "score": 9.36,
+    "score": 9.32,
     "duplicates": 2
    },
    {
@@ -2998,7 +3014,7 @@
     "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQY2NCTGRDUWRWeEJ2RnJDN2ZBRm1LMld4djAxTUs2STg5MW1IT0VsVzV0am5DQ2dzZS11WE51S0tsUlFXRWNkQ0FwREkwcUE1bTRSRlV0cnhLVkpBZzIzT2VmTTFDZEplbENIb1pxVjFleXhhU20tUU9OVDBYQkpQR2dfQTJkT2VoVzk5a29wSW0ybTFlY2hHUGl2LXJIb0RZbGthcmROV3lEOU9NUkMwc0lyb3otdzdxbndRMGlFS091QQ?oc=5",
     "source": "gnews_fed",
     "published_utc": "2026-11-11T13:48:55+00:00",
-    "score": 8.76,
+    "score": 8.72,
     "duplicates": 0
    },
    {
@@ -3007,7 +3023,7 @@
     "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQdEQ4eWktTEU2a3FSazhrd0QzUTNuVUVidFNNTmJMRjhwUG1VdFltVUNROEVwTnVaeWo1bUdRRFcyYXJnZmppVm0yREFiNkowbWstY2R5MURubGdHdDh1aHpKVWxNN2Y4UGZuOUx3dEtmbmJrUWpWRmdnSmpJd3FPeGowTU9adVFfc3VTd1JzREtheWNfcG9HZWt0UnBGcjY4WEN2ZHMtdU5yTUFqWERXSFpaV1hHaTM0?oc=5",
     "source": "gnews_macro",
     "published_utc": "2026-11-11T09:03:08+00:00",
-    "score": 8.47,
+    "score": 8.43,
     "duplicates": 2
    },
    {
@@ -3016,7 +3032,7 @@
     "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNY0NHU3VDM1lBOHVxT2cwbUtGZXdWRjZGR1lQNGxqd2F6Vk9Yanh2OTBEUkFUUWFzR2FLMlVQcnhhbi1Bd2o0NG1ZaVRmdkluT29YbmVhU3NmdDNSa2lFOWszN0hYOFpxTngzbDdWRjZ5TDRYLVBkRk93MmtvbHEzZTM3Y0dVZTBQb3lZ?oc=5",
     "source": "gnews_futures",
     "published_utc": "2026-11-11T14:15:22+00:00",
-    "score": 8.34,
+    "score": 8.3,
     "duplicates": 0
    },
    {
@@ -3025,7 +3041,7 @@
     "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQdXdTT3ExWm92eXhwOEJTMXRvNFdod0xhWnB4UEViSUZMQjMwNUlRUXdlWWtIcEZlOHdFVXFPNEt5bEh0VEdFYkhNMnpMckRqckEzNFdiTm1ITzNhQXlUdGhkQXBoTDRXMUlrOXJrY21ERXc2ckRMT1F4U3JKQVM3OUp2SHZWaF84czJCazZYWlBzWDFGS3dvMlU1RUlQbDAzNUpqYWV2OTM?oc=5",
     "source": "gnews_megacap",
     "published_utc": "2026-11-11T13:57:45+00:00",
-    "score": 8.29,
+    "score": 8.25,
     "duplicates": 0
    },
    {
@@ -3034,7 +3050,7 @@
     "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOOTdqaEhyZTgyRE9BSWMyeWN1TTZGNHJIUExTTTJjdjBJaEJHc3FaM3ZONUs4bVJweUZ6RUV1Mk5OblJyTFJLNmVXVkg3ZF9VWEFFS21kaWNQRFJYOE1BNGpQeXdmNXpGa3BjZFhtekZVSl9YbUZ4QW92Qzl5c1N0TTluODV1ajJqQ0NRLThERVYyQ2hUanU3R2xYVnYtLXc?oc=5",
     "source": "gnews_futures",
     "published_utc": "2026-11-11T13:12:47+00:00",
-    "score": 8.16,
+    "score": 8.12,
     "duplicates": 1
    },
    {
@@ -3047,21 +3063,12 @@
     "duplicates": 1
    },
    {
-    "id": "ea93cac0c9",
-    "title": "Nasdaq opens 1.4% higher as CoreWeave earnings boost AI stocks, Nvidia rebounds - Invezz",
-    "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQcl9GNW91UXk1UnhPZUZOYXgxbTRnM3ctTndCcGxWQmI1aVZnR3l4bVE3MFJTWDhIYVRJakpnb3VDV2J3UGdXMjdyajhSakZOTTAtSEl2X2xrQjBFQXowWktSLTNIVVF3aU9MV1M1Qkx4R1U2eWtHUUVibUhiRXhPRTA2dE1kTmxFR2ItdFZpMXVscjQxVnkxWWo0ZTNKRjFXdlFUcV81R0tTaUh5bEZ3bHNfRTN1Sk5tckktOWRuVQ?oc=5",
-    "source": "gnews_megacap",
-    "published_utc": "2026-11-11T14:45:45+00:00",
-    "score": 7.92,
-    "duplicates": 0
-   },
-   {
     "id": "a261902a0d",
     "title": "Analysis | Fed chair needs friends in Congress as inflation fight drags on - The Washington Post",
     "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPTGJvak5XS2NGcmRWeTN4b19KUUV5XzRONGwzQWFTUmZvLU0tTGdIc1JrNFFFei1aX0VXTjZxejhCM0RWY0xHMDV1Qmcwd05kZDNiSWpVU0hubG9adzdQQ0tydVJaYmx0QkZMMW9rTU9uTjNTWUNSQ2loendqOXNzb1B0WGNQUlNNeXA3SmlWYkxMd09MQlBLQUF3Q2RMclVaOVM3UlJUZmZsQQ?oc=5",
     "source": "gnews_fed",
     "published_utc": "2026-11-11T14:32:32+00:00",
-    "score": 7.89,
+    "score": 7.84,
     "duplicates": 1
    },
    {
@@ -3070,7 +3077,7 @@
     "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOVF9ZbThrZjRhSThEMTRzbmpaUHRULTVBWkFtR0FINEliOFRQSi1mQUMyNzhFMkdLQzEwVHRGNlVwRGZfN0pubEI0M24zeXpoUVpxa2d3OEUtLUd5azZfNzJaOTRfOGtONUhnNXROd2ZDQUtsTGhpV1ZpbGNiVU9DcVd0MnNVWkJPaXUzX1ZWZUdLaXBGNDVpLTBXRWJqOEZYUXg3UzNRSWRHQXdraDNz?oc=5",
     "source": "gnews_fed",
     "published_utc": "2026-11-11T14:30:03+00:00",
-    "score": 7.88,
+    "score": 7.84,
     "duplicates": 1
    },
    {
@@ -3079,7 +3086,16 @@
     "link": "https://news.google.com/rss/articles/CBMijwJBVV95cUxOZ3NaUDRVaHFPVi1sWWwzdjJNT21Hd2RWR0JONjJhTnV5dXFkR0xCU29oQ0lscEtwQVNnU1pxcGs5bUFhU2JjclFXME81QUo5MWFYTU8yVGhxLUNaV25keXozUkhfRkVHZGxTSGlLeS1lTEdYb21IMU1rVEl3SXBXMmIyVFQ2M05vdXJBeVRydXNJcUtwTE9hbWw3VEN4YXVrekZpOUx2VlhBX1ZDOEp6LWpXZ3JhMVNJNVRueWdIQk5BMGN2U0F2dkt2NzNCNVZmSm1aVXhUSlh0WEx3Sm82VXVLTHdQZkZSN0RqY1RBbDZSbDVyemFxXzVCc1dVemVWS3VFUS1ZdWZlVmJpRzRz?oc=5",
     "source": "gnews_futures",
     "published_utc": "2026-11-11T03:51:00+00:00",
-    "score": 7.6,
+    "score": 7.56,
+    "duplicates": 0
+   },
+   {
+    "id": "03e5989412",
+    "title": "Wall Street falls as hot inflation fuels Fed rate hike fears - Honolulu Star-Advertiser",
+    "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPZWdSeHNPMzJna2lQU191NVhEdUdrR2YxY2xzLWs5X1BaZGVLY1JVUnNmdnRhUWZ0Y21mTTRBLWpUU0l2X1Z3V1p0TVMzRDMtSWowa0JuWmplX0g1MGZ1TVhsX19IUmJ2RER2dmM1ODlEVWdjQ0F4TmtsblRFUDA2S3ZJcHdSLU14U0ctV3padjdTV1c2SklyUFozOTRybm9NRWxvc2lKRnZsV3Vuend5ZGxjb3hQS1Fu?oc=5",
+    "source": "gnews_fed",
+    "published_utc": "2026-11-10T22:16:19+00:00",
+    "score": 7.5,
     "duplicates": 0
    }
   ],
