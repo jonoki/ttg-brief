@@ -1,11 +1,11 @@
 {
  "meta": {
-  "generated_at_utc": "2026-11-11T14:27:56.369440+00:00",
-  "generated_at_local": "Wed 11 Nov 2026 10:27 AST",
+  "generated_at_utc": "2026-11-11T14:43:11.272842+00:00",
+  "generated_at_local": "Wed 11 Nov 2026 10:43 AST",
   "trading_day": "2026-11-11",
   "display_tz": "America/Halifax",
   "version": "0.1.0",
-  "run": "post-data",
+  "run": "intraday",
   "variant": "public"
  },
  "calendar": {
@@ -73,7 +73,7 @@
    "time_utc": "2026-11-12T13:30:00+00:00",
    "local": "09:30 AST",
    "et": "08:30 ET",
-   "in": "23h 02m",
+   "in": "22h 46m",
    "consensus": "194K",
    "prior": "189K"
   },
@@ -84,18 +84,11 @@
   {
    "root": "ES",
    "trading_day": "2026-11-11",
-   "as_of_utc": "2026-11-11T14:27:56.369440+00:00",
+   "as_of_utc": "2026-11-11T14:43:11.272842+00:00",
    "source": "yahoo",
    "delayed": true,
-   "last_price": 7617.25,
+   "last_price": 7622.0,
    "levels": [
-    {
-     "tag": "pwh",
-     "label": "Prior-week high",
-     "price": 7712.5,
-     "group": "week",
-     "note": "2 session(s) of data — PARTIAL"
-    },
     {
      "tag": "exp_hi",
      "label": "Expected-range high (close + ATR)",
@@ -111,6 +104,13 @@
      "note": ""
     },
     {
+     "tag": "pwh",
+     "label": "Prior-week high",
+     "price": 7633.25,
+     "group": "week",
+     "note": "2 session(s) of data — PARTIAL"
+    },
+    {
      "tag": "rn_minor_up",
      "label": "Round 25 above",
      "price": 7625.0,
@@ -118,18 +118,39 @@
      "note": ""
     },
     {
-     "tag": "onh",
-     "label": "Overnight high",
-     "price": 7620.0,
-     "group": "overnight",
-     "note": "since 18:00 ET, 893 bars"
+     "tag": "tdh",
+     "label": "Today's RTH high",
+     "price": 7624.75,
+     "group": "today",
+     "note": "so far"
     },
     {
      "tag": "wh",
      "label": "Week high",
-     "price": 7620.0,
+     "price": 7624.75,
      "group": "week",
      "note": "since 2026-11-09"
+    },
+    {
+     "tag": "onh",
+     "label": "Overnight high",
+     "price": 7620.0,
+     "group": "overnight",
+     "note": "since 18:00 ET, 905 bars"
+    },
+    {
+     "tag": "rtho",
+     "label": "Today's RTH open",
+     "price": 7612.5,
+     "group": "today",
+     "note": "09:30 bar open"
+    },
+    {
+     "tag": "tdl",
+     "label": "Today's RTH low",
+     "price": 7611.25,
+     "group": "today",
+     "note": ""
     },
     {
      "tag": "rn_major_dn",
@@ -148,7 +169,7 @@
     {
      "tag": "onvwap",
      "label": "Overnight VWAP",
-     "price": 7596.28,
+     "price": 7597.08,
      "group": "overnight",
      "note": "typical-price VWAP"
     },
@@ -231,15 +252,15 @@
     }
    ],
    "stats": {
-    "last_bar_utc": "2026-11-11T14:17:00+00:00",
-    "last_bar_age_min": 10.9,
+    "last_bar_utc": "2026-11-11T14:33:00+00:00",
+    "last_bar_age_min": 10.2,
     "market_state": "open",
     "profile_volume": 1363419.0,
     "prior_day": "2026-11-10",
     "prior_day_rth_range": 73.25,
     "overnight_range": 70.75,
-    "gap_vs_prior_close": 72.5,
-    "gap_basis": "last price (pre-market)",
+    "gap_vs_prior_close": 67.75,
+    "gap_basis": "RTH open",
     "atr14": 144.86,
     "atr_days": 14,
     "avg_daily_range": 135.8,
@@ -1475,19 +1496,27 @@
      "t": "2026-11-11T14:15:00+00:00",
      "o": 7615.0,
      "h": 7618.75,
-     "l": 7614.0,
-     "c": 7617.25,
-     "v": 1642.0
+     "l": 7611.0,
+     "c": 7612.75,
+     "v": 12504.0
+    },
+    {
+     "t": "2026-11-11T14:30:00+00:00",
+     "o": 7612.5,
+     "h": 7624.75,
+     "l": 7611.25,
+     "c": 7622.0,
+     "v": 28673.0
     }
    ]
   },
   {
    "root": "NQ",
    "trading_day": "2026-11-11",
-   "as_of_utc": "2026-11-11T14:27:56.369440+00:00",
+   "as_of_utc": "2026-11-11T14:43:11.272842+00:00",
    "source": "yahoo",
    "delayed": true,
-   "last_price": 28380.5,
+   "last_price": 28394.75,
    "levels": [
     {
      "tag": "exp_hi",
@@ -1497,18 +1526,25 @@
      "note": "ATR over 14 days"
     },
     {
-     "tag": "onh",
-     "label": "Overnight high",
-     "price": 28406.25,
-     "group": "overnight",
-     "note": "since 18:00 ET, 892 bars"
+     "tag": "tdh",
+     "label": "Today's RTH high",
+     "price": 28426.0,
+     "group": "today",
+     "note": "so far"
     },
     {
      "tag": "wh",
      "label": "Week high",
-     "price": 28406.25,
+     "price": 28426.0,
      "group": "week",
      "note": "since 2026-11-09"
+    },
+    {
+     "tag": "onh",
+     "label": "Overnight high",
+     "price": 28406.25,
+     "group": "overnight",
+     "note": "since 18:00 ET, 904 bars"
     },
     {
      "tag": "rn_major_up",
@@ -1518,10 +1554,24 @@
      "note": ""
     },
     {
+     "tag": "rtho",
+     "label": "Today's RTH open",
+     "price": 28352.75,
+     "group": "today",
+     "note": "09:30 bar open"
+    },
+    {
      "tag": "rn_minor_dn",
      "label": "Round 50 below",
      "price": 28350.0,
      "group": "round",
+     "note": ""
+    },
+    {
+     "tag": "tdl",
+     "label": "Today's RTH low",
+     "price": 28339.0,
+     "group": "today",
      "note": ""
     },
     {
@@ -1532,16 +1582,9 @@
      "note": ""
     },
     {
-     "tag": "pwh",
-     "label": "Prior-week high",
-     "price": 28229.25,
-     "group": "week",
-     "note": "2 session(s) of data — PARTIAL"
-    },
-    {
      "tag": "onvwap",
      "label": "Overnight VWAP",
-     "price": 28222.95,
+     "price": 28227.92,
      "group": "overnight",
      "note": "typical-price VWAP"
     },
@@ -1588,6 +1631,13 @@
      "note": "2026-11-10 RTH, bin 1.0"
     },
     {
+     "tag": "pwh",
+     "label": "Prior-week high",
+     "price": 27774.5,
+     "group": "week",
+     "note": "2 session(s) of data — PARTIAL"
+    },
+    {
      "tag": "pdo",
      "label": "Prior-day RTH open",
      "price": 27743.75,
@@ -1631,15 +1681,15 @@
     }
    ],
    "stats": {
-    "last_bar_utc": "2026-11-11T14:17:00+00:00",
-    "last_bar_age_min": 10.9,
+    "last_bar_utc": "2026-11-11T14:33:00+00:00",
+    "last_bar_age_min": 10.2,
     "market_state": "open",
     "profile_volume": 486472.0,
     "prior_day": "2026-11-10",
     "prior_day_rth_range": 574.0,
     "overnight_range": 550.25,
-    "gap_vs_prior_close": 544.75,
-    "gap_basis": "last price (pre-market)",
+    "gap_vs_prior_close": 517.0,
+    "gap_basis": "RTH open",
     "atr14": 916.96,
     "atr_days": 14,
     "avg_daily_range": 842.8,
@@ -2875,9 +2925,17 @@
      "t": "2026-11-11T14:15:00+00:00",
      "o": 28360.5,
      "h": 28385.0,
-     "l": 28353.0,
-     "c": 28380.5,
-     "v": 909.0
+     "l": 28346.5,
+     "c": 28352.0,
+     "v": 6748.0
+    },
+    {
+     "t": "2026-11-11T14:30:00+00:00",
+     "o": 28352.75,
+     "h": 28426.0,
+     "l": 28339.0,
+     "c": 28394.75,
+     "v": 14261.0
     }
    ]
   }
@@ -2890,16 +2948,7 @@
     "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxQS1U1UWpvVEZyMW1pYWZQODU1bzVvbmFKUWtuZFJhd0ZBUDlPQWpJeGxEZEYzVU1rejR2RXlQSXJyV3QzRkpMR29vM3FLVENYWVk2NVhaa1ZBSENvRzRCVFRVVHo4ZmYwX2dmaWxMYlNvbEdhbmlGM2Q5djk5Y1Z3RnFQa3FtMkZkRGFwNUZKNXVsbjFObnFwZGxnSW5WeFZWaFFIdFZiSU90ZFBISUFmejF2bnZmUUM5OEF4ZFdMM0Z1S3JMZFJnYk9La2FHdlB0cFJGTNIB2gFBVV95cUxQbElUbUJpR3ZiSTI2WEYyY3BuSWc2bEp6cW5wM2t2ZXVBUVBLOEcxNDJIU3FBTUVkMkRjSWM4aVFwNGNIMzRfdTVNU25taWFrTnJQNjIyNTcxbHhXM1lvRF9RWjRWZ3NkNjIzVnFSbkxQOW9jMmYzVFJwUlRhbFFkb1BzYkU0RzNmZi1XQURza052N2xYVXRqUkdncnc2V3BnQkFQS21tOFpxQXNqYzFaeXZsN1ZlamxXaHdYclltT3pubjI0OVotajlkS29CaUtRWVByOFJfc2NfZw?oc=5",
     "source": "gnews_futures",
     "published_utc": "2026-11-11T13:32:01+00:00",
-    "score": 10.34,
-    "duplicates": 0
-   },
-   {
-    "id": "309ab919d0",
-    "title": "Nasdaq futures surge as CoreWeave results revive AI stocks despite Fed concerns - Traders Union",
-    "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE9WVkd1QXdCSUVTWFhGSmpidTBLazFsclk3a3JCVV8yTkxVLWJOQ0VzNjkwdk9EY0VQRE41WENPXzhLWC1SMzE4RlVaNmc2OUVSaHdrMHZiYXZwU3NMbzFJektEX0JmVEF1SlBmUl9MRFpHQUFfa2h0R0IxRQ?oc=5",
-    "source": "gnews_futures",
-    "published_utc": "2026-11-11T12:47:06+00:00",
-    "score": 10.22,
+    "score": 10.3,
     "duplicates": 0
    },
    {
@@ -2908,7 +2957,7 @@
     "link": "https://www.cnbc.com/2026/11/11/goolsbee-october-inflation-fed-rates-disturbing-distressing.html",
     "source": "cnbc_markets",
     "published_utc": "2026-11-11T14:24:28+00:00",
-    "score": 9.49,
+    "score": 9.45,
     "duplicates": 2
    },
    {
@@ -2917,7 +2966,7 @@
     "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQY2NCTGRDUWRWeEJ2RnJDN2ZBRm1LMld4djAxTUs2STg5MW1IT0VsVzV0am5DQ2dzZS11WE51S0tsUlFXRWNkQ0FwREkwcUE1bTRSRlV0cnhLVkpBZzIzT2VmTTFDZEplbENIb1pxVjFleXhhU20tUU9OVDBYQkpQR2dfQTJkT2VoVzk5a29wSW0ybTFlY2hHUGl2LXJIb0RZbGthcmROV3lEOU9NUkMwc0lyb3otdzdxbndRMGlFS091QQ?oc=5",
     "source": "gnews_fed",
     "published_utc": "2026-11-11T13:48:55+00:00",
-    "score": 8.89,
+    "score": 8.85,
     "duplicates": 0
    },
    {
@@ -2926,7 +2975,7 @@
     "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQdEQ4eWktTEU2a3FSazhrd0QzUTNuVUVidFNNTmJMRjhwUG1VdFltVUNROEVwTnVaeWo1bUdRRFcyYXJnZmppVm0yREFiNkowbWstY2R5MURubGdHdDh1aHpKVWxNN2Y4UGZuOUx3dEtmbmJrUWpWRmdnSmpJd3FPeGowTU9adVFfc3VTd1JzREtheWNfcG9HZWt0UnBGcjY4WEN2ZHMtdU5yTUFqWERXSFpaV1hHaTM0?oc=5",
     "source": "gnews_macro",
     "published_utc": "2026-11-11T09:03:08+00:00",
-    "score": 8.6,
+    "score": 8.56,
     "duplicates": 2
    },
    {
@@ -2935,8 +2984,17 @@
     "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQdXdTT3ExWm92eXhwOEJTMXRvNFdod0xhWnB4UEViSUZMQjMwNUlRUXdlWWtIcEZlOHdFVXFPNEt5bEh0VEdFYkhNMnpMckRqckEzNFdiTm1ITzNhQXlUdGhkQXBoTDRXMUlrOXJrY21ERXc2ckRMT1F4U3JKQVM3OUp2SHZWaF84czJCazZYWlBzWDFGS3dvMlU1RUlQbDAzNUpqYWV2OTM?oc=5",
     "source": "gnews_megacap",
     "published_utc": "2026-11-11T13:57:45+00:00",
-    "score": 8.42,
+    "score": 8.37,
     "duplicates": 0
+   },
+   {
+    "id": "6dc298aa21",
+    "title": "Stock Market Today: Nasdaq Futures Jump as Nvidia Shares Rebound, CoreWeave Soars After Earnings; Dow, S&P 500 Also Point Higher - Yahoo Finance",
+    "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOOTdqaEhyZTgyRE9BSWMyeWN1TTZGNHJIUExTTTJjdjBJaEJHc3FaM3ZONUs4bVJweUZ6RUV1Mk5OblJyTFJLNmVXVkg3ZF9VWEFFS21kaWNQRFJYOE1BNGpQeXdmNXpGa3BjZFhtekZVSl9YbUZ4QW92Qzl5c1N0TTluODV1ajJqQ0NRLThERVYyQ2hUanU3R2xYVnYtLXc?oc=5",
+    "source": "gnews_futures",
+    "published_utc": "2026-11-11T13:12:47+00:00",
+    "score": 8.25,
+    "duplicates": 1
    },
    {
     "id": "7a7ba21c1a",
@@ -2952,8 +3010,17 @@
     "title": "Analysis | Fed chair needs friends in Congress as inflation fight drags on - The Washington Post",
     "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPTGJvak5XS2NGcmRWeTN4b19KUUV5XzRONGwzQWFTUmZvLU0tTGdIc1JrNFFFei1aX0VXTjZxejhCM0RWY0xHMDV1Qmcwd05kZDNiSWpVU0hubG9adzdQQ0tydVJaYmx0QkZMMW9rTU9uTjNTWUNSQ2loendqOXNzb1B0WGNQUlNNeXA3SmlWYkxMd09MQlBLQUF3Q2RMclVaOVM3UlJUZmZsQQ?oc=5",
     "source": "gnews_fed",
-    "published_utc": "2026-11-11T13:50:42+00:00",
-    "score": 7.9,
+    "published_utc": "2026-11-11T14:32:32+00:00",
+    "score": 7.97,
+    "duplicates": 1
+   },
+   {
+    "id": "ef5932b040",
+    "title": "US real estate stocks slide as hotter inflation fuels Fed rate-hike bets - Anadolu Ajansı",
+    "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOVF9ZbThrZjRhSThEMTRzbmpaUHRULTVBWkFtR0FINEliOFRQSi1mQUMyNzhFMkdLQzEwVHRGNlVwRGZfN0pubEI0M24zeXpoUVpxa2d3OEUtLUd5azZfNzJaOTRfOGtONUhnNXROd2ZDQUtsTGhpV1ZpbGNiVU9DcVd0MnNVWkJPaXUzX1ZWZUdLaXBGNDVpLTBXRWJqOEZYUXg3UzNRSWRHQXdraDNz?oc=5",
+    "source": "gnews_fed",
+    "published_utc": "2026-11-11T14:30:03+00:00",
+    "score": 7.96,
     "duplicates": 1
    },
    {
@@ -2962,7 +3029,7 @@
     "link": "https://news.google.com/rss/articles/CBMijwJBVV95cUxOZ3NaUDRVaHFPVi1sWWwzdjJNT21Hd2RWR0JONjJhTnV5dXFkR0xCU29oQ0lscEtwQVNnU1pxcGs5bUFhU2JjclFXME81QUo5MWFYTU8yVGhxLUNaV25keXozUkhfRkVHZGxTSGlLeS1lTEdYb21IMU1rVEl3SXBXMmIyVFQ2M05vdXJBeVRydXNJcUtwTE9hbWw3VEN4YXVrekZpOUx2VlhBX1ZDOEp6LWpXZ3JhMVNJNVRueWdIQk5BMGN2U0F2dkt2NzNCNVZmSm1aVXhUSlh0WEx3Sm82VXVLTHdQZkZSN0RqY1RBbDZSbDVyemFxXzVCc1dVemVWS3VFUS1ZdWZlVmJpRzRz?oc=5",
     "source": "gnews_futures",
     "published_utc": "2026-11-11T03:51:00+00:00",
-    "score": 7.73,
+    "score": 7.69,
     "duplicates": 0
    },
    {
@@ -2980,26 +3047,17 @@
     "link": "https://news.google.com/rss/articles/CBMinAJBVV95cUxPZWdSbHUwUHp3b2d6LXhNcWR5NGpEeC1Nd2hsN2pUNHl3aVRrR09oSFhYdGQyNFVSdXVxZkZadDA1TTNwcV9ycF9jUlRJcnpSaUFnenIwdzlpM1g1V0lERE1ScEIwalZZb1JrYXVvVXZySUJyRmZXMmZWYmE5TlFUR2hmcy1Id20ydlB0dElabUtPU0l2WGI1dHZqNExXSmNZSEJCUmZhdnk2SklpeUlENWdwanVtZGFIdndGVXBQSUQ3V0dLbW5JZlktYWRSWlp3RVVnM3R2UlNuUTBqbG5kc0lnZzJpWmJaNFlITExJLVpkM1ZKUTQ4bWU4ekl4eVhod3h5Q0pUUmhobGZHRG05MUFoVU15OG5IUG9Xaw?oc=5",
     "source": "gnews_megacap",
     "published_utc": "2026-11-11T13:54:39+00:00",
-    "score": 7.41,
-    "duplicates": 0
-   },
-   {
-    "id": "d1a7de398b",
-    "title": "Chicago Fed chief calls October inflation 'borderline disturbing' - Quartz",
-    "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQMmxFNFRTLWJPdk5GMEhGSkU3V0JQOXRCdlczbl90cmU1aGVjVm9sMzcydGM1RHR3Q0wyOU1IaC16dzNwTDNpWWxmWTcteGQ0clVxM3NQT2UwMlphRUNXcl9Ick1BeVBtaTFSUVdjTnZMTlJNZnQ5WVVTcjJ4ODAwQl9TVlpNY1pHalE?oc=5",
-    "source": "gnews_macro",
-    "published_utc": "2026-11-11T13:51:06+00:00",
-    "score": 7.4,
+    "score": 7.37,
     "duplicates": 0
    }
   ],
   "summary": {
    "lines": [
     "US Stock Market Today: S&P 500 Futures Firm On Hot CPI Fed Repricing - Simply Wall St [8def4149a5]",
-    "Nasdaq futures surge as CoreWeave results revive AI stocks despite Fed concerns - Traders Union [309ab919d0]",
     "Fed's Goolsbee calls inflation report 'borderline disturbing' as central bank weighs more hikes [b03ff05f5b]",
     "Ed Yardeni Backs 50-Point Fed Hike in December - iShares 1-3 Year Treasury Bond ETF (NASDAQ:SHY) - Benzinga [8f062336b7]",
-    "Goldman adds March rate hike to Fed forecast after another hot inflation read - Investing.com [22ba491ebd]"
+    "Goldman adds March rate hike to Fed forecast after another hot inflation read - Investing.com [22ba491ebd]",
+    "Nvidia: Selloff Into Earnings Sets Up An Upside Guidance Surprise (NASDAQ:NVDA) - Seeking Alpha [12c8593e27]"
    ],
    "backend": "none",
    "model": null,
