@@ -1,7 +1,7 @@
 {
  "meta": {
-  "generated_at_utc": "2026-11-11T12:41:14.712346+00:00",
-  "generated_at_local": "Wed 11 Nov 2026 08:41 AST",
+  "generated_at_utc": "2026-11-11T12:56:29.439823+00:00",
+  "generated_at_local": "Wed 11 Nov 2026 08:56 AST",
   "trading_day": "2026-11-11",
   "display_tz": "America/Halifax",
   "version": "0.1.0",
@@ -73,7 +73,7 @@
    "time_utc": "2026-11-12T13:30:00+00:00",
    "local": "09:30 AST",
    "et": "08:30 ET",
-   "in": "24h 48m",
+   "in": "24h 33m",
    "consensus": "194K",
    "prior": "189K"
   },
@@ -84,10 +84,10 @@
   {
    "root": "ES",
    "trading_day": "2026-11-11",
-   "as_of_utc": "2026-11-11T12:41:14.712346+00:00",
+   "as_of_utc": "2026-11-11T12:56:29.439823+00:00",
    "source": "yahoo",
    "delayed": true,
-   "last_price": 7612.5,
+   "last_price": 7613.5,
    "levels": [
     {
      "tag": "pwh",
@@ -122,7 +122,7 @@
      "label": "Overnight high",
      "price": 7615.75,
      "group": "overnight",
-     "note": "since 18:00 ET, 787 bars"
+     "note": "since 18:00 ET, 802 bars"
     },
     {
      "tag": "wh",
@@ -148,7 +148,7 @@
     {
      "tag": "onvwap",
      "label": "Overnight VWAP",
-     "price": 7590.55,
+     "price": 7591.28,
      "group": "overnight",
      "note": "typical-price VWAP"
     },
@@ -231,14 +231,14 @@
     }
    ],
    "stats": {
-    "last_bar_utc": "2026-11-11T12:31:00+00:00",
-    "last_bar_age_min": 10.2,
+    "last_bar_utc": "2026-11-11T12:46:00+00:00",
+    "last_bar_age_min": 10.5,
     "market_state": "open",
     "profile_volume": 1363419.0,
     "prior_day": "2026-11-10",
     "prior_day_rth_range": 73.25,
     "overnight_range": 66.5,
-    "gap_vs_prior_close": 67.75,
+    "gap_vs_prior_close": 68.75,
     "gap_basis": "last price (pre-market)",
     "atr14": 144.86,
     "atr_days": 14,
@@ -1418,20 +1418,28 @@
     {
      "t": "2026-11-11T12:30:00+00:00",
      "o": 7611.5,
-     "h": 7613.0,
+     "h": 7615.25,
+     "l": 7609.5,
+     "c": 7613.25,
+     "v": 6283.0
+    },
+    {
+     "t": "2026-11-11T12:45:00+00:00",
+     "o": 7613.0,
+     "h": 7613.75,
      "l": 7611.5,
-     "c": 7612.5,
-     "v": 451.0
+     "c": 7613.5,
+     "v": 373.0
     }
    ]
   },
   {
    "root": "NQ",
    "trading_day": "2026-11-11",
-   "as_of_utc": "2026-11-11T12:41:14.712346+00:00",
+   "as_of_utc": "2026-11-11T12:56:29.439823+00:00",
    "source": "yahoo",
    "delayed": true,
-   "last_price": 28377.25,
+   "last_price": 28389.0,
    "levels": [
     {
      "tag": "exp_hi",
@@ -1450,14 +1458,14 @@
     {
      "tag": "onh",
      "label": "Overnight high",
-     "price": 28393.5,
+     "price": 28397.5,
      "group": "overnight",
-     "note": "since 18:00 ET, 786 bars"
+     "note": "since 18:00 ET, 801 bars"
     },
     {
      "tag": "wh",
      "label": "Week high",
-     "price": 28393.5,
+     "price": 28397.5,
      "group": "week",
      "note": "since 2026-11-09"
     },
@@ -1485,7 +1493,7 @@
     {
      "tag": "onvwap",
      "label": "Overnight VWAP",
-     "price": 28191.57,
+     "price": 28195.43,
      "group": "overnight",
      "note": "typical-price VWAP"
     },
@@ -1575,14 +1583,14 @@
     }
    ],
    "stats": {
-    "last_bar_utc": "2026-11-11T12:31:00+00:00",
-    "last_bar_age_min": 10.2,
+    "last_bar_utc": "2026-11-11T12:46:00+00:00",
+    "last_bar_age_min": 10.5,
     "market_state": "open",
     "profile_volume": 486472.0,
     "prior_day": "2026-11-10",
     "prior_day_rth_range": 574.0,
-    "overnight_range": 537.5,
-    "gap_vs_prior_close": 541.5,
+    "overnight_range": 541.5,
+    "gap_vs_prior_close": 553.25,
     "gap_basis": "last price (pre-market)",
     "atr14": 916.96,
     "atr_days": 14,
@@ -2762,10 +2770,18 @@
     {
      "t": "2026-11-11T12:30:00+00:00",
      "o": 28374.0,
-     "h": 28378.0,
-     "l": 28370.25,
-     "c": 28377.25,
-     "v": 144.0
+     "h": 28397.5,
+     "l": 28358.5,
+     "c": 28383.5,
+     "v": 2724.0
+    },
+    {
+     "t": "2026-11-11T12:45:00+00:00",
+     "o": 28381.75,
+     "h": 28390.75,
+     "l": 28380.5,
+     "c": 28389.0,
+     "v": 199.0
     }
    ]
   }
@@ -2773,22 +2789,13 @@
  "news": {
   "headlines": [
    {
-    "id": "abea5d78ad",
-    "title": "Nasdaq futures jump on CoreWeave earnings; hot CPI reinforces Fed hike bets - Investing.com",
-    "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPbDIwT1A1aVFIMDNGcWZMYmgyWXFQemVUc2hfYm1YSE9UX0I4a3k2OGxWVG5GeEpZX2dhTnR2QWdRYWhSZlZVTjFtSDBmc2lHaEtJcDRmRlZ1MThwTGNWbFJrenlKYnE5TUZFU0oxLVNVZlN1QnduRHVLdGdKSkRQbGtEMjlMdUNIUFZKR2hZaEFabTBsdzJEOVdncWlnbjBvV20wSjBLRVhWZjdfMGJ2Y1NYOW1RME5fa19NdjFfZmQzWUJYNTYzWG5B?oc=5",
+    "id": "309ab919d0",
+    "title": "Nasdaq futures surge as CoreWeave results revive AI stocks despite Fed concerns - Traders Union",
+    "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE9WVkd1QXdCSUVTWFhGSmpidTBLazFsclk3a3JCVV8yTkxVLWJOQ0VzNjkwdk9EY0VQRE41WENPXzhLWC1SMzE4RlVaNmc2OUVSaHdrMHZiYXZwU3NMbzFJektEX0JmVEF1SlBmUl9MRFpHQUFfa2h0R0IxRQ?oc=5",
     "source": "gnews_futures",
-    "published_utc": "2026-11-11T06:41:07+00:00",
-    "score": 10.5,
+    "published_utc": "2026-11-11T12:47:06+00:00",
+    "score": 10.47,
     "duplicates": 0
-   },
-   {
-    "id": "df011f936d",
-    "title": "Goldman adds March rate hike to Fed forecast after another hot inflation read - Yahoo Finance Singapore",
-    "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOaEFuYkh0Z1dCVFlfbXpzblNnUFBSczNUTURCVDBEWlM2MXJvY0hpaEhZWEJ5b3IyeThZbmVVc1pIY0ZjRGF5LXhoNWZCSUQyU09RekZFMl91UkM3WFRPYVhHQjhRSVNwelNHY0J0RXZRRTN3TUNITklMdjduUjFmSnE1cw?oc=5",
-    "source": "gnews_macro",
-    "published_utc": "2026-11-11T09:23:51+00:00",
-    "score": 10.45,
-    "duplicates": 5
    },
    {
     "id": "9a5171ac4c",
@@ -2796,7 +2803,7 @@
     "link": "https://www.marketwatch.com/story/why-goldman-sachs-is-now-changing-its-federal-reserve-interest-rate-forecast-3753f968?mod=mw_rss_topstories",
     "source": "marketwatch_top",
     "published_utc": "2026-11-11T10:37:00+00:00",
-    "score": 9.65,
+    "score": 9.61,
     "duplicates": 2
    },
    {
@@ -2809,6 +2816,15 @@
     "duplicates": 0
    },
    {
+    "id": "df011f936d",
+    "title": "Goldman adds March rate hike to Fed forecast after another hot inflation read - Yahoo Finance Singapore",
+    "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOaEFuYkh0Z1dCVFlfbXpzblNnUFBSczNUTURCVDBEWlM2MXJvY0hpaEhZWEJ5b3IyeThZbmVVc1pIY0ZjRGF5LXhoNWZCSUQyU09RekZFMl91UkM3WFRPYVhHQjhRSVNwelNHY0J0RXZRRTN3TUNITklMdjduUjFmSnE1cw?oc=5",
+    "source": "gnews_macro",
+    "published_utc": "2026-11-11T09:23:51+00:00",
+    "score": 9.41,
+    "duplicates": 3
+   },
+   {
     "id": "0a1c8885b4",
     "title": "Nasdaq slides over 1% as hot CPI, Waller drive up odds for supersized Fed hike - Investing.com Australia",
     "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOSWtkdmlUMmZNeGxxZWlEY3d2eTFHQlRpeHlScDBSUFhQSWU1Q3M3U0k3M01fUGRnd1ViV0hXR3Z3Uk9pQm1XZ19rUVZ4Z0p1cHU2ODNvRFQtNDRvQndlajRKWGdkYklrTmtpQzFPXzVmaFhtemRsNWhzMEFOODE4M2VFYTlVR0g3emcwZERWMXBJR1JvbjlaNmpBZ1FSNU9zRlpKXzlZWkptd1VhMkJwbzVybkY?oc=5",
@@ -2818,21 +2834,21 @@
     "duplicates": 0
    },
    {
+    "id": "676bd58b48",
+    "title": "U.S. stock futures tick higher after Wall St slips on hot CPI, Nvidia losses - Yahoo Finance UK",
+    "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNbGtRT19KTnBXblRPZlc4YkpmNW55NjdDT2FZZXk3T2F6MWREczVQSzc1b1V2SVEtUE5pUzdrTjFMVEZ4SWpWWDQ3V2cwckhHRWp6cXJlSVppbnZNOG0yODRTOThJc0p5UlQ2WGJONXZ0ZE01U04wbzNnSngycS1QUlVR?oc=5",
+    "source": "gnews_futures",
+    "published_utc": "2026-11-11T01:18:00+00:00",
+    "score": 8.06,
+    "duplicates": 1
+   },
+   {
     "id": "fe29cbf330",
     "title": "Dow, S&P 500, Nasdaq Futures Edge Higher After Red-Hot Inflation Data And Nvidia Losses: CRWV, TTWO, NLST, NBIS In Focus - Stocktwits",
     "link": "https://news.google.com/rss/articles/CBMijwJBVV95cUxOZ3NaUDRVaHFPVi1sWWwzdjJNT21Hd2RWR0JONjJhTnV5dXFkR0xCU29oQ0lscEtwQVNnU1pxcGs5bUFhU2JjclFXME81QUo5MWFYTU8yVGhxLUNaV25keXozUkhfRkVHZGxTSGlLeS1lTEdYb21IMU1rVEl3SXBXMmIyVFQ2M05vdXJBeVRydXNJcUtwTE9hbWw3VEN4YXVrekZpOUx2VlhBX1ZDOEp6LWpXZ3JhMVNJNVRueWdIQk5BMGN2U0F2dkt2NzNCNVZmSm1aVXhUSlh0WEx3Sm82VXVLTHdQZkZSN0RqY1RBbDZSbDVyemFxXzVCc1dVemVWS3VFUS1ZdWZlVmJpRzRz?oc=5",
     "source": "gnews_futures",
     "published_utc": "2026-11-11T03:51:00+00:00",
-    "score": 8.03,
-    "duplicates": 0
-   },
-   {
-    "id": "7a7ba21c1a",
-    "title": "U.S. stock futures tick higher after Wall St slips on hot CPI, Nvidia losses - Yahoo Finance",
-    "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPZUNTNGk2aVpBNHQzZXJoaUFTcm5HMTJBOHhGLU5qeGt3T19DN3I4Y21VSl8yVjZDR2VDc0l1RkI0bjUyZm5ZS0NOTzZTN0ZQeGgzYnZTQjd0YzJRMl9BSjFUV3dNV3l2YWx1QXBGOXNlT3ZTWjRKWUpuNDNpUXE4M0c1b0RjTnpGcmE0WkJtMGZudFBVUGYw?oc=5",
-    "source": "gnews_futures",
-    "published_utc": "2026-11-11T01:12:00+00:00",
-    "score": 7.59,
+    "score": 7.98,
     "duplicates": 0
    },
    {
@@ -2841,7 +2857,7 @@
     "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPX2tORWxkdHRBenRxSW9hSW4wekZsa3Y5VTA0d3A3NTNzTVhMazhTWnNEWlJvMlMzUFIyenNRVl8xWWJaOTdMN2NQVmNsWjhRYUJKWmplRU8zbGthZGQ0R0NlRzFSWmZObzBRSnVNSHFGM3owd2JpTmZHVEkyaEVIS2dLclc3cGZkWXBUSlFoRnpCUTRKdTFrNzNCb2xwUVJic0RoaGgwZzF0ZktCMWc?oc=5",
     "source": "gnews_fed",
     "published_utc": "2026-11-11T10:12:26+00:00",
-    "score": 7.59,
+    "score": 7.54,
     "duplicates": 1
    },
    {
@@ -2868,7 +2884,7 @@
     "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPNFdpMnlkbjBGUmlnZkdLVE1McHhmc3ExREFnWXRHb19iNHR2QVEzaTkzZXh1YzlFbENyNldzQ2R0ZjBwV2oyUi1TMS1oLVk5bTdUanBWSE51RGlmWmc3UkRQcEE3aHhIZU9TTUFUTVEzXzMzM2c2UmlubFVJdlBkZWxQcUxIYjRNWi1Z?oc=5",
     "source": "gnews_macro",
     "published_utc": "2026-11-11T12:07:29+00:00",
-    "score": 7.41,
+    "score": 7.36,
     "duplicates": 0
    },
    {
@@ -2877,16 +2893,16 @@
     "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPTGJvak5XS2NGcmRWeTN4b19KUUV5XzRONGwzQWFTUmZvLU0tTGdIc1JrNFFFei1aX0VXTjZxejhCM0RWY0xHMDV1Qmcwd05kZDNiSWpVU0hubG9adzdQQ0tydVJaYmx0QkZMMW9rTU9uTjNTWUNSQ2loendqOXNzb1B0WGNQUlNNeXA3SmlWYkxMd09MQlBLQUF3Q2RMclVaOVM3UlJUZmZsQQ?oc=5",
     "source": "gnews_macro",
     "published_utc": "2026-11-11T11:32:32+00:00",
-    "score": 7.31,
+    "score": 7.27,
     "duplicates": 0
    }
   ],
   "summary": {
    "lines": [
-    "Nasdaq futures jump on CoreWeave earnings; hot CPI reinforces Fed hike bets - Investing.com [abea5d78ad]",
-    "Goldman adds March rate hike to Fed forecast after another hot inflation read - Yahoo Finance Singapore [df011f936d]",
+    "Nasdaq futures surge as CoreWeave results revive AI stocks despite Fed concerns - Traders Union [309ab919d0]",
     "Why Goldman Sachs is now changing its Federal Reserve interest-rate forecast [9a5171ac4c]",
     "Fed Falling Behind on Inflation, BofA Eyes Half-Point Hike - iShares 20+ Year Treasury Bond ETF (NASDAQ:T - Benzinga [1ad828e1de]",
+    "Goldman adds March rate hike to Fed forecast after another hot inflation read - Yahoo Finance Singapore [df011f936d]",
     "Nasdaq slides over 1% as hot CPI, Waller drive up odds for supersized Fed hike - Investing.com Australia [0a1c8885b4]"
    ],
    "backend": "none",
