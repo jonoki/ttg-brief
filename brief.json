@@ -1,7 +1,7 @@
 {
  "meta": {
-  "generated_at_utc": "2026-11-11T12:26:00.619305+00:00",
-  "generated_at_local": "Wed 11 Nov 2026 08:26 AST",
+  "generated_at_utc": "2026-11-11T12:41:14.712346+00:00",
+  "generated_at_local": "Wed 11 Nov 2026 08:41 AST",
   "trading_day": "2026-11-11",
   "display_tz": "America/Halifax",
   "version": "0.1.0",
@@ -73,7 +73,7 @@
    "time_utc": "2026-11-12T13:30:00+00:00",
    "local": "09:30 AST",
    "et": "08:30 ET",
-   "in": "25h 03m",
+   "in": "24h 48m",
    "consensus": "194K",
    "prior": "189K"
   },
@@ -84,10 +84,10 @@
   {
    "root": "ES",
    "trading_day": "2026-11-11",
-   "as_of_utc": "2026-11-11T12:26:00.619305+00:00",
+   "as_of_utc": "2026-11-11T12:41:14.712346+00:00",
    "source": "yahoo",
    "delayed": true,
-   "last_price": 7609.75,
+   "last_price": 7612.5,
    "levels": [
     {
      "tag": "pwh",
@@ -122,7 +122,7 @@
      "label": "Overnight high",
      "price": 7615.75,
      "group": "overnight",
-     "note": "since 18:00 ET, 771 bars"
+     "note": "since 18:00 ET, 787 bars"
     },
     {
      "tag": "wh",
@@ -148,7 +148,7 @@
     {
      "tag": "onvwap",
      "label": "Overnight VWAP",
-     "price": 7590.08,
+     "price": 7590.55,
      "group": "overnight",
      "note": "typical-price VWAP"
     },
@@ -231,14 +231,14 @@
     }
    ],
    "stats": {
-    "last_bar_utc": "2026-11-11T12:15:00+00:00",
-    "last_bar_age_min": 11.0,
+    "last_bar_utc": "2026-11-11T12:31:00+00:00",
+    "last_bar_age_min": 10.2,
     "market_state": "open",
     "profile_volume": 1363419.0,
     "prior_day": "2026-11-10",
     "prior_day_rth_range": 73.25,
     "overnight_range": 66.5,
-    "gap_vs_prior_close": 65.0,
+    "gap_vs_prior_close": 67.75,
     "gap_basis": "last price (pre-market)",
     "atr14": 144.86,
     "atr_days": 14,
@@ -1410,20 +1410,28 @@
     {
      "t": "2026-11-11T12:15:00+00:00",
      "o": 7609.0,
-     "h": 7609.75,
-     "l": 7609.0,
-     "c": 7609.75,
-     "v": 189.0
+     "h": 7611.75,
+     "l": 7607.5,
+     "c": 7611.75,
+     "v": 4077.0
+    },
+    {
+     "t": "2026-11-11T12:30:00+00:00",
+     "o": 7611.5,
+     "h": 7613.0,
+     "l": 7611.5,
+     "c": 7612.5,
+     "v": 451.0
     }
    ]
   },
   {
    "root": "NQ",
    "trading_day": "2026-11-11",
-   "as_of_utc": "2026-11-11T12:26:00.619305+00:00",
+   "as_of_utc": "2026-11-11T12:41:14.712346+00:00",
    "source": "yahoo",
    "delayed": true,
-   "last_price": 28367.0,
+   "last_price": 28377.25,
    "levels": [
     {
      "tag": "exp_hi",
@@ -1444,7 +1452,7 @@
      "label": "Overnight high",
      "price": 28393.5,
      "group": "overnight",
-     "note": "since 18:00 ET, 771 bars"
+     "note": "since 18:00 ET, 786 bars"
     },
     {
      "tag": "wh",
@@ -1456,7 +1464,7 @@
     {
      "tag": "pwh",
      "label": "Prior-week high",
-     "price": 28387.0,
+     "price": 28375.25,
      "group": "week",
      "note": "2 session(s) of data — PARTIAL"
     },
@@ -1477,7 +1485,7 @@
     {
      "tag": "onvwap",
      "label": "Overnight VWAP",
-     "price": 28188.01,
+     "price": 28191.57,
      "group": "overnight",
      "note": "typical-price VWAP"
     },
@@ -1567,14 +1575,14 @@
     }
    ],
    "stats": {
-    "last_bar_utc": "2026-11-11T12:16:00+00:00",
-    "last_bar_age_min": 10.0,
+    "last_bar_utc": "2026-11-11T12:31:00+00:00",
+    "last_bar_age_min": 10.2,
     "market_state": "open",
     "profile_volume": 486472.0,
     "prior_day": "2026-11-10",
     "prior_day_rth_range": 574.0,
     "overnight_range": 537.5,
-    "gap_vs_prior_close": 531.25,
+    "gap_vs_prior_close": 541.5,
     "gap_basis": "last price (pre-market)",
     "atr14": 916.96,
     "atr_days": 14,
@@ -2746,10 +2754,18 @@
     {
      "t": "2026-11-11T12:15:00+00:00",
      "o": 28360.25,
-     "h": 28370.0,
-     "l": 28359.5,
-     "c": 28367.0,
-     "v": 148.0
+     "h": 28375.75,
+     "l": 28354.0,
+     "c": 28374.75,
+     "v": 2677.0
+    },
+    {
+     "t": "2026-11-11T12:30:00+00:00",
+     "o": 28374.0,
+     "h": 28378.0,
+     "l": 28370.25,
+     "c": 28377.25,
+     "v": 144.0
     }
    ]
   }
@@ -2762,8 +2778,17 @@
     "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPbDIwT1A1aVFIMDNGcWZMYmgyWXFQemVUc2hfYm1YSE9UX0I4a3k2OGxWVG5GeEpZX2dhTnR2QWdRYWhSZlZVTjFtSDBmc2lHaEtJcDRmRlZ1MThwTGNWbFJrenlKYnE5TUZFU0oxLVNVZlN1QnduRHVLdGdKSkRQbGtEMjlMdUNIUFZKR2hZaEFabTBsdzJEOVdncWlnbjBvV20wSjBLRVhWZjdfMGJ2Y1NYOW1RME5fa19NdjFfZmQzWUJYNTYzWG5B?oc=5",
     "source": "gnews_futures",
     "published_utc": "2026-11-11T06:41:07+00:00",
-    "score": 10.54,
+    "score": 10.5,
     "duplicates": 0
+   },
+   {
+    "id": "df011f936d",
+    "title": "Goldman adds March rate hike to Fed forecast after another hot inflation read - Yahoo Finance Singapore",
+    "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOaEFuYkh0Z1dCVFlfbXpzblNnUFBSczNUTURCVDBEWlM2MXJvY0hpaEhZWEJ5b3IyeThZbmVVc1pIY0ZjRGF5LXhoNWZCSUQyU09RekZFMl91UkM3WFRPYVhHQjhRSVNwelNHY0J0RXZRRTN3TUNITklMdjduUjFmSnE1cw?oc=5",
+    "source": "gnews_macro",
+    "published_utc": "2026-11-11T09:23:51+00:00",
+    "score": 10.45,
+    "duplicates": 5
    },
    {
     "id": "9a5171ac4c",
@@ -2771,7 +2796,7 @@
     "link": "https://www.marketwatch.com/story/why-goldman-sachs-is-now-changing-its-federal-reserve-interest-rate-forecast-3753f968?mod=mw_rss_topstories",
     "source": "marketwatch_top",
     "published_utc": "2026-11-11T10:37:00+00:00",
-    "score": 9.7,
+    "score": 9.65,
     "duplicates": 2
    },
    {
@@ -2784,15 +2809,6 @@
     "duplicates": 0
    },
    {
-    "id": "df011f936d",
-    "title": "Goldman adds March rate hike to Fed forecast after another hot inflation read - Yahoo Finance Singapore",
-    "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOaEFuYkh0Z1dCVFlfbXpzblNnUFBSczNUTURCVDBEWlM2MXJvY0hpaEhZWEJ5b3IyeThZbmVVc1pIY0ZjRGF5LXhoNWZCSUQyU09RekZFMl91UkM3WFRPYVhHQjhRSVNwelNHY0J0RXZRRTN3TUNITklMdjduUjFmSnE1cw?oc=5",
-    "source": "gnews_macro",
-    "published_utc": "2026-11-11T09:23:51+00:00",
-    "score": 8.99,
-    "duplicates": 2
-   },
-   {
     "id": "0a1c8885b4",
     "title": "Nasdaq slides over 1% as hot CPI, Waller drive up odds for supersized Fed hike - Investing.com Australia",
     "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOSWtkdmlUMmZNeGxxZWlEY3d2eTFHQlRpeHlScDBSUFhQSWU1Q3M3U0k3M01fUGRnd1ViV0hXR3Z3Uk9pQm1XZ19rUVZ4Z0p1cHU2ODNvRFQtNDRvQndlajRKWGdkYklrTmtpQzFPXzVmaFhtemRsNWhzMEFOODE4M2VFYTlVR0g3emcwZERWMXBJR1JvbjlaNmpBZ1FSNU9zRlpKXzlZWkptd1VhMkJwbzVybkY?oc=5",
@@ -2802,21 +2818,12 @@
     "duplicates": 0
    },
    {
-    "id": "45ec1710bb",
-    "title": "Stock Futures Slightly Rise After Nvidia’s Decline and Inflation Data - SSBCrack",
-    "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOYzVTMVRIb2wwSFVfZ2s3SHlKM2RINlh0WjFhSmxLTW81VGZJR0JQN0YzRXI3T0FWeWI1QmFjOGEtVnJSY2YxcG13TndVYU9DaVI4Q1huTlo1NHJ6NHhHQm1URFJJSmZYZjNFNktZelNCdDBjVjJORDg1Y1V0cllsRVlUVmlFcnM2aERiR0ZpRXJGVzEza1pMU21iYw?oc=5",
-    "source": "gnews_futures",
-    "published_utc": "2026-11-11T04:15:25+00:00",
-    "score": 8.14,
-    "duplicates": 0
-   },
-   {
     "id": "fe29cbf330",
     "title": "Dow, S&P 500, Nasdaq Futures Edge Higher After Red-Hot Inflation Data And Nvidia Losses: CRWV, TTWO, NLST, NBIS In Focus - Stocktwits",
     "link": "https://news.google.com/rss/articles/CBMijwJBVV95cUxOZ3NaUDRVaHFPVi1sWWwzdjJNT21Hd2RWR0JONjJhTnV5dXFkR0xCU29oQ0lscEtwQVNnU1pxcGs5bUFhU2JjclFXME81QUo5MWFYTU8yVGhxLUNaV25keXozUkhfRkVHZGxTSGlLeS1lTEdYb21IMU1rVEl3SXBXMmIyVFQ2M05vdXJBeVRydXNJcUtwTE9hbWw3VEN4YXVrekZpOUx2VlhBX1ZDOEp6LWpXZ3JhMVNJNVRueWdIQk5BMGN2U0F2dkt2NzNCNVZmSm1aVXhUSlh0WEx3Sm82VXVLTHdQZkZSN0RqY1RBbDZSbDVyemFxXzVCc1dVemVWS3VFUS1ZdWZlVmJpRzRz?oc=5",
     "source": "gnews_futures",
     "published_utc": "2026-11-11T03:51:00+00:00",
-    "score": 8.07,
+    "score": 8.03,
     "duplicates": 0
    },
    {
@@ -2825,7 +2832,7 @@
     "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPZUNTNGk2aVpBNHQzZXJoaUFTcm5HMTJBOHhGLU5qeGt3T19DN3I4Y21VSl8yVjZDR2VDc0l1RkI0bjUyZm5ZS0NOTzZTN0ZQeGgzYnZTQjd0YzJRMl9BSjFUV3dNV3l2YWx1QXBGOXNlT3ZTWjRKWUpuNDNpUXE4M0c1b0RjTnpGcmE0WkJtMGZudFBVUGYw?oc=5",
     "source": "gnews_futures",
     "published_utc": "2026-11-11T01:12:00+00:00",
-    "score": 7.63,
+    "score": 7.59,
     "duplicates": 0
    },
    {
@@ -2834,7 +2841,7 @@
     "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPX2tORWxkdHRBenRxSW9hSW4wekZsa3Y5VTA0d3A3NTNzTVhMazhTWnNEWlJvMlMzUFIyenNRVl8xWWJaOTdMN2NQVmNsWjhRYUJKWmplRU8zbGthZGQ0R0NlRzFSWmZObzBRSnVNSHFGM3owd2JpTmZHVEkyaEVIS2dLclc3cGZkWXBUSlFoRnpCUTRKdTFrNzNCb2xwUVJic0RoaGgwZzF0ZktCMWc?oc=5",
     "source": "gnews_fed",
     "published_utc": "2026-11-11T10:12:26+00:00",
-    "score": 7.63,
+    "score": 7.59,
     "duplicates": 1
    },
    {
@@ -2861,16 +2868,25 @@
     "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPNFdpMnlkbjBGUmlnZkdLVE1McHhmc3ExREFnWXRHb19iNHR2QVEzaTkzZXh1YzlFbENyNldzQ2R0ZjBwV2oyUi1TMS1oLVk5bTdUanBWSE51RGlmWmc3UkRQcEE3aHhIZU9TTUFUTVEzXzMzM2c2UmlubFVJdlBkZWxQcUxIYjRNWi1Z?oc=5",
     "source": "gnews_macro",
     "published_utc": "2026-11-11T12:07:29+00:00",
-    "score": 7.45,
+    "score": 7.41,
+    "duplicates": 0
+   },
+   {
+    "id": "2d141049b8",
+    "title": "Analysis | Fed chair needs friends in Congress as inflation fight drags on - The Washington Post",
+    "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPTGJvak5XS2NGcmRWeTN4b19KUUV5XzRONGwzQWFTUmZvLU0tTGdIc1JrNFFFei1aX0VXTjZxejhCM0RWY0xHMDV1Qmcwd05kZDNiSWpVU0hubG9adzdQQ0tydVJaYmx0QkZMMW9rTU9uTjNTWUNSQ2loendqOXNzb1B0WGNQUlNNeXA3SmlWYkxMd09MQlBLQUF3Q2RMclVaOVM3UlJUZmZsQQ?oc=5",
+    "source": "gnews_macro",
+    "published_utc": "2026-11-11T11:32:32+00:00",
+    "score": 7.31,
     "duplicates": 0
    }
   ],
   "summary": {
    "lines": [
     "Nasdaq futures jump on CoreWeave earnings; hot CPI reinforces Fed hike bets - Investing.com [abea5d78ad]",
+    "Goldman adds March rate hike to Fed forecast after another hot inflation read - Yahoo Finance Singapore [df011f936d]",
     "Why Goldman Sachs is now changing its Federal Reserve interest-rate forecast [9a5171ac4c]",
     "Fed Falling Behind on Inflation, BofA Eyes Half-Point Hike - iShares 20+ Year Treasury Bond ETF (NASDAQ:T - Benzinga [1ad828e1de]",
-    "Goldman adds March rate hike to Fed forecast after another hot inflation read - Yahoo Finance Singapore [df011f936d]",
     "Nasdaq slides over 1% as hot CPI, Waller drive up odds for supersized Fed hike - Investing.com Australia [0a1c8885b4]"
    ],
    "backend": "none",
