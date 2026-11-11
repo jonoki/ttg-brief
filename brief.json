@@ -1,11 +1,11 @@
 {
  "meta": {
-  "generated_at_utc": "2026-11-11T17:00:26.555088+00:00",
-  "generated_at_local": "Wed 11 Nov 2026 13:00 AST",
+  "generated_at_utc": "2026-11-11T21:05:01.336229+00:00",
+  "generated_at_local": "Wed 11 Nov 2026 17:05 AST",
   "trading_day": "2026-11-11",
   "display_tz": "America/Halifax",
   "version": "0.1.0",
-  "run": "intraday",
+  "run": "post-close",
   "variant": "public"
  },
  "calendar": {
@@ -73,7 +73,7 @@
    "time_utc": "2026-11-12T13:30:00+00:00",
    "local": "09:30 AST",
    "et": "08:30 ET",
-   "in": "20h 29m",
+   "in": "16h 24m",
    "consensus": "194K",
    "prior": "189K"
   },
@@ -84,10 +84,10 @@
   {
    "root": "ES",
    "trading_day": "2026-11-11",
-   "as_of_utc": "2026-11-11T17:00:26.555088+00:00",
+   "as_of_utc": "2026-11-11T21:05:01.336229+00:00",
    "source": "yahoo",
    "delayed": true,
-   "last_price": 7642.0,
+   "last_price": 7637.5,
    "levels": [
     {
      "tag": "exp_hi",
@@ -97,6 +97,20 @@
      "note": "ATR over 14 days"
     },
     {
+     "tag": "tdh",
+     "label": "Today's RTH high",
+     "price": 7671.5,
+     "group": "today",
+     "note": "session complete"
+    },
+    {
+     "tag": "wh",
+     "label": "Week high",
+     "price": 7671.5,
+     "group": "week",
+     "note": "since 2026-11-09"
+    },
+    {
      "tag": "rn_major_up",
      "label": "Round 50 above",
      "price": 7650.0,
@@ -104,18 +118,11 @@
      "note": ""
     },
     {
-     "tag": "tdh",
-     "label": "Today's RTH high",
-     "price": 7642.25,
+     "tag": "tdc",
+     "label": "Today's RTH close (16:00 bar)",
+     "price": 7637.5,
      "group": "today",
-     "note": "so far"
-    },
-    {
-     "tag": "wh",
-     "label": "Week high",
-     "price": 7642.25,
-     "group": "week",
-     "note": "since 2026-11-09"
+     "note": "becomes next session's prior-day close"
     },
     {
      "tag": "rn_minor_dn",
@@ -252,8 +259,8 @@
     }
    ],
    "stats": {
-    "last_bar_utc": "2026-11-11T16:50:00+00:00",
-    "last_bar_age_min": 10.4,
+    "last_bar_utc": "2026-11-11T20:55:00+00:00",
+    "last_bar_age_min": 10.0,
     "market_state": "open",
     "profile_volume": 1363419.0,
     "prior_day": "2026-11-10",
@@ -1575,20 +1582,148 @@
     {
      "t": "2026-11-11T16:45:00+00:00",
      "o": 7638.25,
-     "h": 7642.25,
+     "h": 7647.75,
      "l": 7638.0,
-     "c": 7642.0,
-     "v": 10058.0
+     "c": 7646.5,
+     "v": 31137.0
+    },
+    {
+     "t": "2026-11-11T17:00:00+00:00",
+     "o": 7646.75,
+     "h": 7652.0,
+     "l": 7644.5,
+     "c": 7649.0,
+     "v": 38555.0
+    },
+    {
+     "t": "2026-11-11T17:15:00+00:00",
+     "o": 7649.25,
+     "h": 7657.5,
+     "l": 7647.25,
+     "c": 7652.75,
+     "v": 31416.0
+    },
+    {
+     "t": "2026-11-11T17:30:00+00:00",
+     "o": 7653.25,
+     "h": 7660.25,
+     "l": 7651.0,
+     "c": 7657.75,
+     "v": 29693.0
+    },
+    {
+     "t": "2026-11-11T17:45:00+00:00",
+     "o": 7658.0,
+     "h": 7660.25,
+     "l": 7654.5,
+     "c": 7657.75,
+     "v": 26856.0
+    },
+    {
+     "t": "2026-11-11T18:00:00+00:00",
+     "o": 7657.5,
+     "h": 7661.75,
+     "l": 7652.0,
+     "c": 7659.0,
+     "v": 28893.0
+    },
+    {
+     "t": "2026-11-11T18:15:00+00:00",
+     "o": 7659.25,
+     "h": 7668.75,
+     "l": 7659.0,
+     "c": 7667.25,
+     "v": 24894.0
+    },
+    {
+     "t": "2026-11-11T18:30:00+00:00",
+     "o": 7667.25,
+     "h": 7670.5,
+     "l": 7664.25,
+     "c": 7670.0,
+     "v": 25416.0
+    },
+    {
+     "t": "2026-11-11T18:45:00+00:00",
+     "o": 7670.0,
+     "h": 7671.5,
+     "l": 7665.5,
+     "c": 7666.75,
+     "v": 23306.0
+    },
+    {
+     "t": "2026-11-11T19:00:00+00:00",
+     "o": 7666.5,
+     "h": 7667.75,
+     "l": 7647.25,
+     "c": 7651.0,
+     "v": 45554.0
+    },
+    {
+     "t": "2026-11-11T19:15:00+00:00",
+     "o": 7651.0,
+     "h": 7651.75,
+     "l": 7642.75,
+     "c": 7649.0,
+     "v": 49326.0
+    },
+    {
+     "t": "2026-11-11T19:30:00+00:00",
+     "o": 7649.0,
+     "h": 7654.25,
+     "l": 7647.0,
+     "c": 7651.5,
+     "v": 30466.0
+    },
+    {
+     "t": "2026-11-11T19:45:00+00:00",
+     "o": 7651.25,
+     "h": 7654.75,
+     "l": 7649.25,
+     "c": 7650.0,
+     "v": 26421.0
+    },
+    {
+     "t": "2026-11-11T20:00:00+00:00",
+     "o": 7650.0,
+     "h": 7653.5,
+     "l": 7647.0,
+     "c": 7648.25,
+     "v": 29758.0
+    },
+    {
+     "t": "2026-11-11T20:15:00+00:00",
+     "o": 7648.25,
+     "h": 7650.0,
+     "l": 7644.25,
+     "c": 7646.75,
+     "v": 26763.0
+    },
+    {
+     "t": "2026-11-11T20:30:00+00:00",
+     "o": 7646.75,
+     "h": 7650.75,
+     "l": 7644.25,
+     "c": 7645.0,
+     "v": 27101.0
+    },
+    {
+     "t": "2026-11-11T20:45:00+00:00",
+     "o": 7644.75,
+     "h": 7651.0,
+     "l": 7636.75,
+     "c": 7637.5,
+     "v": 38017.0
     }
    ]
   },
   {
    "root": "NQ",
    "trading_day": "2026-11-11",
-   "as_of_utc": "2026-11-11T17:00:26.555088+00:00",
+   "as_of_utc": "2026-11-11T21:05:01.336229+00:00",
    "source": "yahoo",
    "delayed": true,
-   "last_price": 28591.0,
+   "last_price": 28450.5,
    "levels": [
     {
      "tag": "exp_hi",
@@ -1598,37 +1733,37 @@
      "note": "ATR over 14 days"
     },
     {
-     "tag": "rn_major_up",
-     "label": "Round 100 above",
-     "price": 28600.0,
-     "group": "round",
-     "note": ""
-    },
-    {
      "tag": "tdh",
      "label": "Today's RTH high",
-     "price": 28592.0,
+     "price": 28697.0,
      "group": "today",
-     "note": "so far"
+     "note": "session complete"
     },
     {
      "tag": "wh",
      "label": "Week high",
-     "price": 28592.0,
+     "price": 28697.0,
      "group": "week",
      "note": "since 2026-11-09"
     },
     {
-     "tag": "rn_minor_dn",
-     "label": "Round 50 below",
-     "price": 28550.0,
+     "tag": "rn_major_up",
+     "label": "Round 100 above",
+     "price": 28500.0,
      "group": "round",
      "note": ""
     },
     {
-     "tag": "rn_major_dn",
-     "label": "Round 100 below",
-     "price": 28500.0,
+     "tag": "tdc",
+     "label": "Today's RTH close (16:00 bar)",
+     "price": 28450.5,
+     "group": "today",
+     "note": "becomes next session's prior-day close"
+    },
+    {
+     "tag": "rn_minor_dn",
+     "label": "Round 50 below",
+     "price": 28450.0,
      "group": "round",
      "note": ""
     },
@@ -1638,6 +1773,13 @@
      "price": 28406.25,
      "group": "overnight",
      "note": "since 18:00 ET, 904 bars"
+    },
+    {
+     "tag": "rn_major_dn",
+     "label": "Round 100 below",
+     "price": 28400.0,
+     "group": "round",
+     "note": ""
     },
     {
      "tag": "rtho",
@@ -1753,8 +1895,8 @@
     }
    ],
    "stats": {
-    "last_bar_utc": "2026-11-11T16:50:00+00:00",
-    "last_bar_age_min": 10.4,
+    "last_bar_utc": "2026-11-11T20:55:00+00:00",
+    "last_bar_age_min": 10.0,
     "market_state": "open",
     "profile_volume": 486472.0,
     "prior_day": "2026-11-10",
@@ -3076,10 +3218,138 @@
     {
      "t": "2026-11-11T16:45:00+00:00",
      "o": 28560.75,
-     "h": 28592.0,
+     "h": 28619.25,
      "l": 28556.5,
-     "c": 28591.0,
-     "v": 3883.0
+     "c": 28610.0,
+     "v": 12582.0
+    },
+    {
+     "t": "2026-11-11T17:00:00+00:00",
+     "o": 28610.25,
+     "h": 28624.5,
+     "l": 28575.0,
+     "c": 28604.75,
+     "v": 12799.0
+    },
+    {
+     "t": "2026-11-11T17:15:00+00:00",
+     "o": 28604.75,
+     "h": 28660.0,
+     "l": 28593.5,
+     "c": 28633.25,
+     "v": 11552.0
+    },
+    {
+     "t": "2026-11-11T17:30:00+00:00",
+     "o": 28635.0,
+     "h": 28666.25,
+     "l": 28629.75,
+     "c": 28638.75,
+     "v": 9448.0
+    },
+    {
+     "t": "2026-11-11T17:45:00+00:00",
+     "o": 28641.25,
+     "h": 28652.75,
+     "l": 28622.0,
+     "c": 28632.5,
+     "v": 8248.0
+    },
+    {
+     "t": "2026-11-11T18:00:00+00:00",
+     "o": 28633.0,
+     "h": 28651.25,
+     "l": 28601.25,
+     "c": 28641.5,
+     "v": 11705.0
+    },
+    {
+     "t": "2026-11-11T18:15:00+00:00",
+     "o": 28642.5,
+     "h": 28690.5,
+     "l": 28640.0,
+     "c": 28680.5,
+     "v": 10029.0
+    },
+    {
+     "t": "2026-11-11T18:30:00+00:00",
+     "o": 28680.75,
+     "h": 28694.25,
+     "l": 28660.5,
+     "c": 28691.5,
+     "v": 9069.0
+    },
+    {
+     "t": "2026-11-11T18:45:00+00:00",
+     "o": 28693.5,
+     "h": 28697.0,
+     "l": 28661.5,
+     "c": 28661.5,
+     "v": 7018.0
+    },
+    {
+     "t": "2026-11-11T19:00:00+00:00",
+     "o": 28662.25,
+     "h": 28666.0,
+     "l": 28564.0,
+     "c": 28584.75,
+     "v": 16854.0
+    },
+    {
+     "t": "2026-11-11T19:15:00+00:00",
+     "o": 28585.0,
+     "h": 28586.25,
+     "l": 28535.0,
+     "c": 28567.0,
+     "v": 16022.0
+    },
+    {
+     "t": "2026-11-11T19:30:00+00:00",
+     "o": 28567.75,
+     "h": 28588.25,
+     "l": 28554.0,
+     "c": 28566.75,
+     "v": 9910.0
+    },
+    {
+     "t": "2026-11-11T19:45:00+00:00",
+     "o": 28565.5,
+     "h": 28587.5,
+     "l": 28548.75,
+     "c": 28552.25,
+     "v": 8007.0
+    },
+    {
+     "t": "2026-11-11T20:00:00+00:00",
+     "o": 28553.75,
+     "h": 28572.25,
+     "l": 28516.5,
+     "c": 28528.75,
+     "v": 11608.0
+    },
+    {
+     "t": "2026-11-11T20:15:00+00:00",
+     "o": 28528.75,
+     "h": 28543.5,
+     "l": 28499.5,
+     "c": 28518.0,
+     "v": 10658.0
+    },
+    {
+     "t": "2026-11-11T20:30:00+00:00",
+     "o": 28517.25,
+     "h": 28534.25,
+     "l": 28495.0,
+     "c": 28505.25,
+     "v": 10808.0
+    },
+    {
+     "t": "2026-11-11T20:45:00+00:00",
+     "o": 28505.25,
+     "h": 28532.75,
+     "l": 28443.5,
+     "c": 28450.5,
+     "v": 13260.0
     }
    ]
   }
@@ -3092,88 +3362,34 @@
     "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxQS1U1UWpvVEZyMW1pYWZQODU1bzVvbmFKUWtuZFJhd0ZBUDlPQWpJeGxEZEYzVU1rejR2RXlQSXJyV3QzRkpMR29vM3FLVENYWVk2NVhaa1ZBSENvRzRCVFRVVHo4ZmYwX2dmaWxMYlNvbEdhbmlGM2Q5djk5Y1Z3RnFQa3FtMkZkRGFwNUZKNXVsbjFObnFwZGxnSW5WeFZWaFFIdFZiSU90ZFBISUFmejF2bnZmUUM5OEF4ZFdMM0Z1S3JMZFJnYk9La2FHdlB0cFJGTNIB2gFBVV95cUxQbElUbUJpR3ZiSTI2WEYyY3BuSWc2bEp6cW5wM2t2ZXVBUVBLOEcxNDJIU3FBTUVkMkRjSWM4aVFwNGNIMzRfdTVNU25taWFrTnJQNjIyNTcxbHhXM1lvRF9RWjRWZ3NkNjIzVnFSbkxQOW9jMmYzVFJwUlRhbFFkb1BzYkU0RzNmZi1XQURza052N2xYVXRqUkdncnc2V3BnQkFQS21tOFpxQXNqYzFaeXZsN1ZlamxXaHdYclltT3pubjI0OVotajlkS29CaUtRWVByOFJfc2NfZw?oc=5",
     "source": "gnews_futures",
     "published_utc": "2026-11-11T13:32:01+00:00",
-    "score": 9.92,
+    "score": 9.24,
     "duplicates": 0
    },
    {
-    "id": "b03ff05f5b",
-    "title": "Fed's Goolsbee calls inflation report 'borderline disturbing' as central bank weighs more hikes",
-    "link": "https://www.cnbc.com/2026/11/11/goolsbee-october-inflation-fed-rates-disturbing-distressing.html",
-    "source": "cnbc_markets",
-    "published_utc": "2026-11-11T16:49:02+00:00",
-    "score": 9.47,
-    "duplicates": 2
-   },
-   {
-    "id": "eb0b0bc74a",
-    "title": "US Stock Futures Advance as CoreWeave Earnings Lift Technology Shares Despite Inflation Concerns: Dow Jones, S&P, Nasdaq, Wall Street - Yahoo Finance UK",
-    "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNY0NHU3VDM1lBOHVxT2cwbUtGZXdWRjZGR1lQNGxqd2F6Vk9Yanh2OTBEUkFUUWFzR2FLMlVQcnhhbi1Bd2o0NG1ZaVRmdkluT29YbmVhU3NmdDNSa2lFOWszN0hYOFpxTngzbDdWRjZ5TDRYLVBkRk93MmtvbHEzZTM3Y0dVZTBQb3lZ?oc=5",
+    "id": "309ab919d0",
+    "title": "Nasdaq futures surge as CoreWeave results revive AI stocks despite Fed concerns - Traders Union",
+    "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE9WVkd1QXdCSUVTWFhGSmpidTBLazFsclk3a3JCVV8yTkxVLWJOQ0VzNjkwdk9EY0VQRE41WENPXzhLWC1SMzE4RlVaNmc2OUVSaHdrMHZiYXZwU3NMbzFJektEX0JmVEF1SlBmUl9MRFpHQUFfa2h0R0IxRQ?oc=5",
     "source": "gnews_futures",
-    "published_utc": "2026-11-11T14:15:22+00:00",
-    "score": 8.54,
-    "duplicates": 1
+    "published_utc": "2026-11-11T12:47:06+00:00",
+    "score": 9.12,
+    "duplicates": 0
    },
    {
-    "id": "8f062336b7",
-    "title": "Ed Yardeni Backs 50-Point Fed Hike in December - iShares 1-3 Year Treasury Bond ETF (NASDAQ:SHY) - Benzinga",
-    "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQY2NCTGRDUWRWeEJ2RnJDN2ZBRm1LMld4djAxTUs2STg5MW1IT0VsVzV0am5DQ2dzZS11WE51S0tsUlFXRWNkQ0FwREkwcUE1bTRSRlV0cnhLVkpBZzIzT2VmTTFDZEplbENIb1pxVjFleXhhU20tUU9OVDBYQkpQR2dfQTJkT2VoVzk5a29wSW0ybTFlY2hHUGl2LXJIb0RZbGthcmROV3lEOU9NUkMwc0lyb3otdzdxbndRMGlFS091QQ?oc=5",
+    "id": "9965820b9f",
+    "title": "Economists say Fed could go overboard on rate hikes after hot October inflation report - Business Insider",
+    "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOWDRqb2M0ckpxTENJNWhNaDNHRUpYaE9pVlI3Ri1zUDJrdkxiMGFMTG5MY0wtUFAzY3JFZjNuX1Rpb2VoQWJhamJ6ejdwbW9TaGVBM2FwTGdoajNvTGwzUFNmWWxWWGJlRzA1czJQc0VkcUkxaEs2dVYyQTRia2I3NHZleVVleFhEVDRnVEQ4d2NWUHMyWTMyQ2gwaWlKQTNYdk8wQTdVbEZNTG5abkE?oc=5",
     "source": "gnews_fed",
-    "published_utc": "2026-11-11T13:48:55+00:00",
-    "score": 8.47,
-    "duplicates": 0
-   },
-   {
-    "id": "b2b119a8c8",
-    "title": "Stock market today: Dow, S&P 500, Nasdaq futures rise as Nvidia stock recovers, 10-year yield nears 5% - AOL.com",
-    "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTFBObjlvTkFUOW05MFhmT1NZS1Y1aWZDQUtnMzFZVXl2SUM1dHJyOUFUOGgwVndwMVBBZUE3dVgtOURJZjNqN0FrdXhLYVZ2U1RLM1ppR1Q5RW00OWxaV2lDOG9hRUQtY19LZXpRTm55a3BEQVY2LXZB?oc=5",
-    "source": "gnews_futures",
-    "published_utc": "2026-11-11T12:34:45+00:00",
-    "score": 8.26,
-    "duplicates": 0
-   },
-   {
-    "id": "7a7ba21c1a",
-    "title": "U.S. stock futures tick higher after Wall St slips on hot CPI, Nvidia losses - Yahoo Finance",
-    "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPZUNTNGk2aVpBNHQzZXJoaUFTcm5HMTJBOHhGLU5qeGt3T19DN3I4Y21VSl8yVjZDR2VDc0l1RkI0bjUyZm5ZS0NOTzZTN0ZQeGgzYnZTQjd0YzJRMl9BSjFUV3dNV3l2YWx1QXBGOXNlT3ZTWjRKWUpuNDNpUXE4M0c1b0RjTnpGcmE0WkJtMGZudFBVUGYw?oc=5",
-    "source": "gnews_futures",
-    "published_utc": "2026-11-11T01:12:00+00:00",
-    "score": 8.0,
+    "published_utc": "2026-11-11T19:47:00+00:00",
+    "score": 7.78,
     "duplicates": 1
    },
    {
-    "id": "a261902a0d",
-    "title": "Analysis | Fed chair needs friends in Congress as inflation fight drags on - The Washington Post",
-    "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPTGJvak5XS2NGcmRWeTN4b19KUUV5XzRONGwzQWFTUmZvLU0tTGdIc1JrNFFFei1aX0VXTjZxejhCM0RWY0xHMDV1Qmcwd05kZDNiSWpVU0hubG9adzdQQ0tydVJaYmx0QkZMMW9rTU9uTjNTWUNSQ2loendqOXNzb1B0WGNQUlNNeXA3SmlWYkxMd09MQlBLQUF3Q2RMclVaOVM3UlJUZmZsQQ?oc=5",
+    "id": "42db8910b7",
+    "title": "Inflation spreads across economy, putting pressure on Fed to accelerate rate hikes - WGXA",
+    "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOVDE5cUczcXc4S0ttV3UzeVdNTHJmeThOeXhkR2lfZGM2bWNibWxjWVk0U05jY2pzaTVKVkZwclY2ZmpMbm1hc3MxSXpSdU90VEJZWTFVR1ZIcXZQOHZKX3lsTEpNX1hiN2UyZF9uX2ExR1RTRVVOeF9YbUd6RTZRa1QzSU9mUUVBcG5Pd2FlZXd1di1mQUExcnctdW40QlhBMndQNmlseEJOYlR2N2ZmaDFRb2RSdw?oc=5",
     "source": "gnews_fed",
-    "published_utc": "2026-11-11T16:49:48+00:00",
-    "score": 7.97,
-    "duplicates": 1
-   },
-   {
-    "id": "6dc298aa21",
-    "title": "Stock Market Today: Nasdaq Futures Jump as Nvidia Shares Rebound, CoreWeave Soars After Earnings; Dow, S&P 500 Also Point Higher - Yahoo Finance",
-    "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOOTdqaEhyZTgyRE9BSWMyeWN1TTZGNHJIUExTTTJjdjBJaEJHc3FaM3ZONUs4bVJweUZ6RUV1Mk5OblJyTFJLNmVXVkg3ZF9VWEFFS21kaWNQRFJYOE1BNGpQeXdmNXpGa3BjZFhtekZVSl9YbUZ4QW92Qzl5c1N0TTluODV1ajJqQ0NRLThERVYyQ2hUanU3R2xYVnYtLXc?oc=5",
-    "source": "gnews_futures",
-    "published_utc": "2026-11-11T13:12:47+00:00",
-    "score": 7.87,
-    "duplicates": 1
-   },
-   {
-    "id": "ff3d496dca",
-    "title": "Nasdaq futures rise nearly 2% as CoreWeave jumps 15% and Nvidia shrugs off a Baird downgrade before the open - MLQ.ai",
-    "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQRnBNYVB5Zll2b1FqdFJybzV3Q0FFSmdFRUxLd3IwcGxWMjQxOWRqZ0hyZGtQMEs2ZTlfeWJsWVZmQnU5RTNDbVBSczdxZjM2bjNRT2xyclFHYjROWXVqMXgtN0RacS1QeEFJTnl1ZjBGV3c3aG40N1ljeTgxRDhFN2JReS11U2dVTU1EYWg3OFFpUzBIdTZPTmppTnVnUXVFNktwdjJqdw?oc=5",
-    "source": "gnews_futures",
-    "published_utc": "2026-11-11T14:36:00+00:00",
-    "score": 7.6,
-    "duplicates": 0
-   },
-   {
-    "id": "ef5932b040",
-    "title": "US real estate stocks slide as hotter inflation fuels Fed rate-hike bets - Anadolu Ajansı",
-    "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOVF9ZbThrZjRhSThEMTRzbmpaUHRULTVBWkFtR0FINEliOFRQSi1mQUMyNzhFMkdLQzEwVHRGNlVwRGZfN0pubEI0M24zeXpoUVpxa2d3OEUtLUd5azZfNzJaOTRfOGtONUhnNXROd2ZDQUtsTGhpV1ZpbGNiVU9DcVd0MnNVWkJPaXUzX1ZWZUdLaXBGNDVpLTBXRWJqOEZYUXg3UzNRSWRHQXdraDNz?oc=5",
-    "source": "gnews_fed",
-    "published_utc": "2026-11-11T14:30:03+00:00",
-    "score": 7.58,
+    "published_utc": "2026-11-11T18:58:57+00:00",
+    "score": 7.65,
     "duplicates": 1
    },
    {
@@ -3186,22 +3402,76 @@
     "duplicates": 9
    },
    {
-    "id": "6c5719fec4",
-    "title": "US Equity Futures Rise as AI Enthusiasm Counters Hot Inflation - Bloomberg.com",
-    "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNTWhFb0Z4UU5tNk9GTTVCYW9hallXVDZiRkhNMjFubzVVbmt1RXY4ekdtSFdZSTV4cEhqYkNrMlM0TW9keklFMHBOUDVzTTNhNXhJX2ZuVWRjSTFheURwb1NlU1F5b3Q0SXJWaGdzMzlEZHE5N3UzeE5jSzJIbkpoc2tqdkNKZG0zczBSYndTNm5GUFVUeEM1OHB2LUlnRktreFhueUxleGRwTWp0S1RZcWFQRQ?oc=5",
-    "source": "gnews_macro",
-    "published_utc": "2026-11-11T15:07:27+00:00",
+    "id": "a261902a0d",
+    "title": "Analysis | Fed chair needs friends in Congress as inflation fight drags on - The Washington Post",
+    "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPTGJvak5XS2NGcmRWeTN4b19KUUV5XzRONGwzQWFTUmZvLU0tTGdIc1JrNFFFei1aX0VXTjZxejhCM0RWY0xHMDV1Qmcwd05kZDNiSWpVU0hubG9adzdQQ0tydVJaYmx0QkZMMW9rTU9uTjNTWUNSQ2loendqOXNzb1B0WGNQUlNNeXA3SmlWYkxMd09MQlBLQUF3Q2RMclVaOVM3UlJUZmZsQQ?oc=5",
+    "source": "gnews_fed",
+    "published_utc": "2026-11-11T18:00:00+00:00",
+    "score": 7.49,
+    "duplicates": 1
+   },
+   {
+    "id": "b2d400506b",
+    "title": "Gold Holds Loss Near $4,000 on Hot US Inflation, Fed Remarks - Bloomberg.com",
+    "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPX2tORWxkdHRBenRxSW9hSW4wekZsa3Y5VTA0d3A3NTNzTVhMazhTWnNEWlJvMlMzUFIyenNRVl8xWWJaOTdMN2NQVmNsWjhRYUJKWmplRU8zbGthZGQ0R0NlRzFSWmZObzBRSnVNSHFGM3owd2JpTmZHVEkyaEVIS2dLclc3cGZkWXBUSlFoRnpCUTRKdTFrNzNCb2xwUVJic0RoaGgwZzF0ZktCMWc?oc=5",
+    "source": "gnews_fed",
+    "published_utc": "2026-11-11T17:33:27+00:00",
+    "score": 7.41,
+    "duplicates": 1
+   },
+   {
+    "id": "eb0b0bc74a",
+    "title": "US Stock Futures Advance as CoreWeave Earnings Lift Technology Shares Despite Inflation Concerns: Dow Jones, S&P, Nasdaq, Wall Street - Yahoo Finance UK",
+    "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNY0NHU3VDM1lBOHVxT2cwbUtGZXdWRjZGR1lQNGxqd2F6Vk9Yanh2OTBEUkFUUWFzR2FLMlVQcnhhbi1Bd2o0NG1ZaVRmdkluT29YbmVhU3NmdDNSa2lFOWszN0hYOFpxTngzbDdWRjZ5TDRYLVBkRk93MmtvbHEzZTM3Y0dVZTBQb3lZ?oc=5",
+    "source": "gnews_futures",
+    "published_utc": "2026-11-11T14:15:22+00:00",
+    "score": 7.36,
+    "duplicates": 0
+   },
+   {
+    "id": "8aad9627d2",
+    "title": "US stock futures edge higher as Trump Iran comments and AI earnings lift risk appetite - VT Markets",
+    "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxOU1RXdVl1THdpNEFnWjhSM0RvV3VPemw0X1JMZ08wNWZDck1aWGtHOThZLW1Gd2ViZENPblJLUEU2bUU3VTd3dTB1Mmhvc3hLSW5XQkxVYXVCeno3d3R0Z3RaSEVfaC1vYUQ0VktBMldMWXFCekY5eUdxcUhlZTlleTlRb0s5TVBRaDhlVmpVRzlqUzJpZjV1cE9sZndvbDFNbW42Yy1SSVVQdUFXVkx4SUpISTlOLUZSbVZYRmFXdllSaFg5S3BZa1RZU1c?oc=5",
+    "source": "gnews_futures",
+    "published_utc": "2026-11-11T13:36:56+00:00",
+    "score": 7.26,
+    "duplicates": 0
+   },
+   {
+    "id": "6dc298aa21",
+    "title": "Stock Market Today: Nasdaq Futures Jump as Nvidia Shares Rebound, CoreWeave Soars After Earnings; Dow, S&P 500 Also Point Higher - Yahoo Finance",
+    "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOOTdqaEhyZTgyRE9BSWMyeWN1TTZGNHJIUExTTTJjdjBJaEJHc3FaM3ZONUs4bVJweUZ6RUV1Mk5OblJyTFJLNmVXVkg3ZF9VWEFFS21kaWNQRFJYOE1BNGpQeXdmNXpGa3BjZFhtekZVSl9YbUZ4QW92Qzl5c1N0TTluODV1ajJqQ0NRLThERVYyQ2hUanU3R2xYVnYtLXc?oc=5",
+    "source": "gnews_futures",
+    "published_utc": "2026-11-11T13:12:47+00:00",
     "score": 7.19,
+    "duplicates": 1
+   },
+   {
+    "id": "fbc3c03480",
+    "title": "Goldman adds another rate hike to Fed outlook after hot inflation data - Reuters",
+    "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPaGZrcC11RmpmMVp3a09iZl9aR2N6TDVFV2d1eE50MzBMT0hkZFMtbXFteWFvcDBnSEM0MXdhWFJmM0d4eXZNVFMtNDA2VHozS0UyeEdWcGtQanctN3pxdVVVeWRacnFxS2d3N1I1MktUbUVISWhwZ0VibFgtTWVUX0ZtelYwSmJMQXdUbDJqZmxPMklpS2c?oc=5",
+    "source": "gnews_fed",
+    "published_utc": "2026-11-11T04:58:00+00:00",
+    "score": 7.0,
+    "duplicates": 1
+   },
+   {
+    "id": "c7302f5642",
+    "title": "Fed’s Goolsbee flags October inflation data as ‘borderline disturbing’ - Scotsman Guide",
+    "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNa1k3TTBCeHZzUXNTUHpYQ0JTTW5ncU4tNDVWV2EwYUZlQVc1TWNrcUhrOFhmb3pqbmphSmJnRkUxSzloR0dTNy1KMHE3ZlJQeWZkUy1XN2N2eGp2SWgzWkhaQW5SX3QzSWFVbW8ydFgzck1iTlc5SkpGVGNZd1ItQnY4LURrTFdSOUVBS0VFdGNqWEdFUEsyQ3ZmREVEa0ttSFo5OVBB?oc=5",
+    "source": "gnews_macro",
+    "published_utc": "2026-11-11T17:42:09+00:00",
+    "score": 6.94,
     "duplicates": 0
    }
   ],
   "summary": {
    "lines": [
     "US Stock Market Today: S&P 500 Futures Firm On Hot CPI Fed Repricing - Simply Wall St [8def4149a5]",
-    "Fed's Goolsbee calls inflation report 'borderline disturbing' as central bank weighs more hikes [b03ff05f5b]",
-    "US Stock Futures Advance as CoreWeave Earnings Lift Technology Shares Despite Inflation Concerns: Dow Jones, S&P, Nasdaq, Wall Street - Yahoo Finance UK [eb0b0bc74a]",
-    "Ed Yardeni Backs 50-Point Fed Hike in December - iShares 1-3 Year Treasury Bond ETF (NASDAQ:SHY) - Benzinga [8f062336b7]",
-    "Stock market today: Dow, S&P 500, Nasdaq futures rise as Nvidia stock recovers, 10-year yield nears 5% - AOL.com [b2b119a8c8]"
+    "Nasdaq futures surge as CoreWeave results revive AI stocks despite Fed concerns - Traders Union [309ab919d0]",
+    "Economists say Fed could go overboard on rate hikes after hot October inflation report - Business Insider [9965820b9f]",
+    "Inflation spreads across economy, putting pressure on Fed to accelerate rate hikes - WGXA [42db8910b7]",
+    "Federal Reserve - Idaho State Journal [b8c8797135]"
    ],
    "backend": "none",
    "model": null,
