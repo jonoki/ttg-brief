@@ -1,7 +1,7 @@
 {
  "meta": {
-  "generated_at_utc": "2026-11-12T13:55:14.086597+00:00",
-  "generated_at_local": "Thu 12 Nov 2026 09:55 AST",
+  "generated_at_utc": "2026-11-12T14:10:29.518385+00:00",
+  "generated_at_local": "Thu 12 Nov 2026 10:10 AST",
   "trading_day": "2026-11-12",
   "display_tz": "America/Halifax",
   "version": "0.1.0",
@@ -91,7 +91,7 @@
    "time_utc": "2026-11-12T18:00:00+00:00",
    "local": "14:00 AST",
    "et": "13:00 ET",
-   "in": "4h 04m",
+   "in": "3h 49m",
    "consensus": null,
    "prior": null
   },
@@ -102,10 +102,10 @@
   {
    "root": "ES",
    "trading_day": "2026-11-12",
-   "as_of_utc": "2026-11-12T13:55:14.086597+00:00",
+   "as_of_utc": "2026-11-12T14:10:29.518385+00:00",
    "source": "yahoo",
    "delayed": true,
-   "last_price": 7592.75,
+   "last_price": 7596.0,
    "levels": [
     {
      "tag": "exp_hi",
@@ -154,7 +154,7 @@
      "label": "Overnight high",
      "price": 7628.5,
      "group": "overnight",
-     "note": "since 18:00 ET, 876 bars"
+     "note": "since 18:00 ET, 891 bars"
     },
     {
      "tag": "val",
@@ -173,7 +173,7 @@
     {
      "tag": "onvwap",
      "label": "Overnight VWAP",
-     "price": 7605.49,
+     "price": 7603.81,
      "group": "overnight",
      "note": "typical-price VWAP"
     },
@@ -243,20 +243,20 @@
     {
      "tag": "pwl",
      "label": "Prior-week low",
-     "price": 7382.0,
+     "price": 7383.5,
      "group": "week",
      "note": "1 session(s) of data — PARTIAL"
     }
    ],
    "stats": {
-    "last_bar_utc": "2026-11-12T13:45:00+00:00",
-    "last_bar_age_min": 10.2,
+    "last_bar_utc": "2026-11-12T14:00:00+00:00",
+    "last_bar_age_min": 10.5,
     "market_state": "open",
     "profile_volume": 1106332.0,
     "prior_day": "2026-11-11",
     "prior_day_rth_range": 78.25,
     "overnight_range": 56.5,
-    "gap_vs_prior_close": -50.25,
+    "gap_vs_prior_close": -47.0,
     "gap_basis": "last price (pre-market)",
     "atr14": 145.12,
     "atr_days": 14,
@@ -1475,10 +1475,18 @@
     },
     {
      "t": "2026-11-12T13:45:00+00:00",
-     "o": 7592.75,
-     "h": 7593.75,
-     "l": 7589.25,
-     "c": 7592.75,
+     "o": 7593.0,
+     "h": 7597.5,
+     "l": 7578.0,
+     "c": 7595.25,
+     "v": 33873.0
+    },
+    {
+     "t": "2026-11-12T14:00:00+00:00",
+     "o": 7595.0,
+     "h": 7597.5,
+     "l": 7594.25,
+     "c": 7596.0,
      "v": 0.0
     }
    ]
@@ -1486,10 +1494,10 @@
   {
    "root": "NQ",
    "trading_day": "2026-11-12",
-   "as_of_utc": "2026-11-12T13:55:14.086597+00:00",
+   "as_of_utc": "2026-11-12T14:10:29.518385+00:00",
    "source": "yahoo",
    "delayed": true,
-   "last_price": 28150.5,
+   "last_price": 28120.25,
    "levels": [
     {
      "tag": "exp_hi",
@@ -1545,7 +1553,7 @@
      "label": "Overnight high",
      "price": 28368.75,
      "group": "overnight",
-     "note": "since 18:00 ET, 876 bars"
+     "note": "since 18:00 ET, 891 bars"
     },
     {
      "tag": "pdo",
@@ -1557,7 +1565,7 @@
     {
      "tag": "onvwap",
      "label": "Overnight VWAP",
-     "price": 28212.26,
+     "price": 28203.02,
      "group": "overnight",
      "note": "typical-price VWAP"
     },
@@ -1576,8 +1584,8 @@
      "note": "2026-11-11"
     },
     {
-     "tag": "rn_minor_dn",
-     "label": "Round 50 below",
+     "tag": "rn_minor_up",
+     "label": "Round 50 above",
      "price": 28150.0,
      "group": "round",
      "note": ""
@@ -1633,14 +1641,14 @@
     }
    ],
    "stats": {
-    "last_bar_utc": "2026-11-12T13:45:00+00:00",
-    "last_bar_age_min": 10.2,
+    "last_bar_utc": "2026-11-12T14:00:00+00:00",
+    "last_bar_age_min": 10.5,
     "market_state": "open",
     "profile_volume": 443102.0,
     "prior_day": "2026-11-11",
     "prior_day_rth_range": 498.0,
     "overnight_range": 355.0,
-    "gap_vs_prior_close": -333.75,
+    "gap_vs_prior_close": -364.0,
     "gap_basis": "last price (pre-market)",
     "atr14": 908.95,
     "atr_days": 14,
@@ -2860,9 +2868,17 @@
     {
      "t": "2026-11-12T13:45:00+00:00",
      "o": 28149.0,
-     "h": 28152.25,
-     "l": 28128.0,
-     "c": 28150.5,
+     "h": 28169.0,
+     "l": 28055.0,
+     "c": 28126.0,
+     "v": 17518.0
+    },
+    {
+     "t": "2026-11-12T14:00:00+00:00",
+     "o": 28124.5,
+     "h": 28143.5,
+     "l": 28107.75,
+     "c": 28120.25,
      "v": 0.0
     }
    ]
@@ -2876,7 +2892,7 @@
     "link": "https://www.marketwatch.com/story/nvidias-jensen-huang-dilemma-is-a-test-of-the-ai-industrys-dependence-on-one-flawed-man-a9a1d99c?mod=mw_rss_topstories",
     "source": "marketwatch_top",
     "published_utc": "2026-11-12T12:29:00+00:00",
-    "score": 10.76,
+    "score": 10.72,
     "duplicates": 0
    },
    {
@@ -2885,16 +2901,7 @@
     "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxNbi1kOEoySWkzOElFUnlCS0ZDWGJzVVVFS1ZMbF9zN3BXQ3YtUzlpbVAtVGFjczZ3bXJ4ZFMteTJ1dWhMV05IYllzMHltTTRDUzJPcVRhbFpxQ0tweXZuSjM1QmRVNGR5NHFKYVFYc1FGdFBqLUtVSWItbGdQa2xMMGxqWXh0UmJZOF9PSUxyT29HdVBUTVdPQUZSSHJDNXNWWEhCelRoamxmMWRQNW4tVmlfSXhaQndwb0d2OEhXdENLYmE2MnZENU82ZzRJcVk?oc=5",
     "source": "gnews_futures",
     "published_utc": "2026-11-12T11:40:35+00:00",
-    "score": 10.63,
-    "duplicates": 0
-   },
-   {
-    "id": "38373f1ae1",
-    "title": "Jensen Huang affair in DC: Resignation calls and moves to tighten Nvidia China exports",
-    "link": "https://www.cnbc.com/2026/11/11/nvidia-jensen-huang-congress-resign-ai-chips.html",
-    "source": "cnbc_markets",
-    "published_utc": "2026-11-12T12:03:39+00:00",
-    "score": 9.69,
+    "score": 10.58,
     "duplicates": 0
    },
    {
@@ -2903,8 +2910,17 @@
     "link": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxPcFpobVBPcGFhZ19SMUpOMlFHbnotcy1oaEFKVzRUNXBhbS1oVFM5ZDM4WG9tbWN4TU5UNURXOG10TlEtd3otbHdRRFZNRm9TWlBBcXBUWHVXR2VHSlFTbU8zSHE0NmFqTnVkXy1wc2ZOZXk3TExDaVZmeDRDcXdSYXl4ajF1Vmdtd3VXSzZQTmZEVUJXdmF4cE1Vd3BrUlJ3X1BlQ3EzR2JjUzlBMUp2YkY4aDJpa2dHOFJtZ0VLdDVEYzRWSVBNdVIzSFRtWHlULUM2Z0lSanhEMW9rSFZ5bWVBb283Y05u?oc=5",
     "source": "gnews_futures",
     "published_utc": "2026-11-12T11:33:30+00:00",
-    "score": 9.61,
+    "score": 9.56,
     "duplicates": 0
+   },
+   {
+    "id": "fe9c4622ec",
+    "title": "10-year Treasury yield jumps back above 5% as oil gains, more Fed hikes expected",
+    "link": "https://www.cnbc.com/2026/11/12/us-treasurys-bonds-yields.html",
+    "source": "cnbc_markets",
+    "published_utc": "2026-11-12T14:08:21+00:00",
+    "score": 9.49,
+    "duplicates": 1
    },
    {
     "id": "440802f9b5",
@@ -2912,7 +2928,7 @@
     "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxQY01YWkJBY3Roa2hlWkVsbHhpcHplMm5NX09pWEJlMC1rWTY1ZDJoTUh0elc0WTZvdmpDOXJhS04tN2J5Y0N4NmZPdGk0aUhKdVZLT2RMSTk4S2EyZEJMYzY3WnpMMklfRjF3ZEJXZzU3d1VBTmlWS3Y1cllaYURseVQ4Nl93RFVLOXB4M1J6bnM1YVQ5QXBaSDZCOXEwUQ?oc=5",
     "source": "gnews_futures",
     "published_utc": "2026-11-12T12:26:36+00:00",
-    "score": 9.25,
+    "score": 9.21,
     "duplicates": 3
    },
    {
@@ -2921,7 +2937,7 @@
     "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOZFJFM2RNdHpXTjlabFBaem5VWWZuazhjRjFIamd0cE9vU2pZOFVkZFdpeHp6VzRfaHNuaWNDbkJYTk1WcmN0S0hMYzFwQl9oTHJLeFRjUHFTb1I3YlNkaG5qVnZBMElScWx2eHpWeHpUSkRjZlhibzNmLVFyU1NqZTVwYnk5ZXJFNjh4cWk0VQ?oc=5",
     "source": "gnews_futures",
     "published_utc": "2026-11-12T10:04:47+00:00",
-    "score": 8.86,
+    "score": 8.82,
     "duplicates": 0
    },
    {
@@ -2930,7 +2946,7 @@
     "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQdFA2c196U0Ewd255MEZwXzRYX0xlQTZzRV90enFaMGk3REwzVmtQVFVQRFV5Q2Q1WWdOTnVXUlY4VEJ5SjhQanJNckVzcnhxdzloTWMzc095MTk2Q1FWN0xTYl9lbkpPRnliNVFFcngyVjl5ZlVuX05IOFc1ODUzNjRUTzl5YkM2UU9nWGNES1ZRaWRkdFAxMzlBZFd0eW1nTlc2QU11R0tjT2FMZ1NNSVlWOHFJUQ?oc=5",
     "source": "gnews_futures",
     "published_utc": "2026-11-12T13:01:00+00:00",
-    "score": 8.35,
+    "score": 8.31,
     "duplicates": 1
    },
    {
@@ -2939,7 +2955,7 @@
     "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQRHBVMG93dFhCT0Z1b2NLOHpSWm5aSG9uV2JtcGllR1k4VkhmLXhhbDJRTlVwZE4talJnWWdibFpucFYxLXF3c3d6V2VxRU56SGF3UC1zQ1JYVXYyeVFaeGhGUWtOWUpkejlfZHc4Zzkxd2ZIMlRTVDVVR0RpTFQ3WlY4V0RqNWlaZzJaaElzUVlZM1hPQlMyX25GWVNlMDN2eFZndnFoeDJURlR3RWhtQ1kxQVhvN18tQ1k2RFZPZzB1RXNaSHdrbmpGM1lHZld0?oc=5",
     "source": "gnews_futures",
     "published_utc": "2026-11-12T10:49:04+00:00",
-    "score": 7.98,
+    "score": 7.94,
     "duplicates": 0
    },
    {
@@ -2948,7 +2964,7 @@
     "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPWGwwblhoZTRnRUd0d00zVUwwUEdqN2NOQnlQUlVWb3hxRlVRUWJnZlBNTTFOLXBJZXhuWWxGX2FPTWllMFhPWkdIZ2RndkxoTElfWDUwUml1bU5RLUJMbmVfaDU3aGRPbjAtdExjcTNLWFd4eUNvOWw3ajhzNGgwYWJkTXh2U2didk0zdzVhdmhGb0JLUnRBOXdEOVRVb19kcGlGeFNNV1daNGJSMzlEUw?oc=5",
     "source": "gnews_futures",
     "published_utc": "2026-11-12T09:49:57+00:00",
-    "score": 7.82,
+    "score": 7.78,
     "duplicates": 1
    },
    {
@@ -2957,7 +2973,7 @@
     "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE9OdEt6S1RRdmR2VDV3aFBLR1JVT2toTWR4RW43bnpTc3ZpQTFGZVZoem9fVzVBZXpXcGgwQWpGV2VIMGNQUnlIVFNfWlVmZlhnYUozdmZOR09nSm56ZkltSnkyak5tc3dEM242NnctcDNpSlhhbzBtMlRic0F4QQ?oc=5",
     "source": "gnews_futures",
     "published_utc": "2026-11-12T12:48:20+00:00",
-    "score": 7.81,
+    "score": 7.77,
     "duplicates": 0
    },
    {
@@ -2966,7 +2982,7 @@
     "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxORks0enhnTkV3Q2hSYVN6NXp6WUh3Q1phX2VvbzJ3M1N4Z3ZfNmdfQmhJX09HTGw5WHc0Y0Z6WHZVbHRmMm9wbGg4Tm9DQ21talBaa1JscVNuSTZDdDlLN3V3S0g0azhranRBOGZSNlNzRkRQd3lra1RQZ0VrVEU5bEt2dER4VkdlWE1COEpPSC10Z0ViOUFwSzZPVjFHVXlQSm16SWctNmlEWFQ2dFBVOF9n?oc=5",
     "source": "gnews_fed",
     "published_utc": "2026-11-12T11:30:00+00:00",
-    "score": 7.6,
+    "score": 7.55,
     "duplicates": 1
    },
    {
@@ -2975,7 +2991,7 @@
     "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNRjZweTRZblZ2RHN6NkpuX29scXZ5dHY5T05qaUJOdGE5eXdXOS1JY2JEUDNzaXgwbzJoRlVCY0dObVhpeDhBSDhjaU4xVDVvRXhFeXJnWDZhb0hqNGpoTnMxYTNNYnJLXzZjYVNKTTlENDFPYlYzaGdSX1kyUE5RS2JxWndDVGFYaUkxaVJjaHZpcUpXc3VLYzAyUWdJcEtXSlhUcXBYQUlrM3VFNFNMeTZubw?oc=5",
     "source": "gnews_futures",
     "published_utc": "2026-11-12T11:06:24+00:00",
-    "score": 7.53,
+    "score": 7.49,
     "duplicates": 0
    }
   ],
@@ -2983,8 +2999,8 @@
    "lines": [
     "Nvidia’s Jensen Huang crisis tests how much of the AI industry depends on one man [6a0f40bbe5]",
     "Nasdaq Futures Slump as Nvidia Crisis Hits AI Trade; U.S. Economic Data and Fed Speak on Tap - Barchart.com [4eb486440d]",
-    "Jensen Huang affair in DC: Resignation calls and moves to tighten Nvidia China exports [38373f1ae1]",
     "Commerzbank Says Treasury Futures Supported as Nasdaq Futures Fall Amid Nvidia Leadership Uncertainty, Brent Slips - marketscreener.com [6d772e3db4]",
+    "10-year Treasury yield jumps back above 5% as oil gains, more Fed hikes expected [fe9c4622ec]",
     "Nasdaq, S&P 500 futures fall as Nvidia turbulence unsettles AI stocks - Reuters [440802f9b5]"
    ],
    "backend": "none",
