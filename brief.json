@@ -1,7 +1,7 @@
 {
  "meta": {
-  "generated_at_utc": "2026-11-12T16:43:05.620512+00:00",
-  "generated_at_local": "Thu 12 Nov 2026 12:43 AST",
+  "generated_at_utc": "2026-11-12T16:58:20.506875+00:00",
+  "generated_at_local": "Thu 12 Nov 2026 12:58 AST",
   "trading_day": "2026-11-12",
   "display_tz": "America/Halifax",
   "version": "0.1.0",
@@ -91,7 +91,7 @@
    "time_utc": "2026-11-12T18:00:00+00:00",
    "local": "14:00 AST",
    "et": "13:00 ET",
-   "in": "1h 16m",
+   "in": "1h 01m",
    "consensus": null,
    "prior": null
   },
@@ -102,10 +102,10 @@
   {
    "root": "ES",
    "trading_day": "2026-11-12",
-   "as_of_utc": "2026-11-12T16:43:05.620512+00:00",
+   "as_of_utc": "2026-11-12T16:58:20.506875+00:00",
    "source": "yahoo",
    "delayed": true,
-   "last_price": 7650.5,
+   "last_price": 7653.75,
    "levels": [
     {
      "tag": "exp_hi",
@@ -250,7 +250,7 @@
     {
      "tag": "pwh",
      "label": "Prior-week high",
-     "price": 7455.5,
+     "price": 7452.75,
      "group": "week",
      "note": "1 session(s) of data — PARTIAL"
     },
@@ -270,8 +270,8 @@
     }
    ],
    "stats": {
-    "last_bar_utc": "2026-11-12T16:33:00+00:00",
-    "last_bar_age_min": 10.1,
+    "last_bar_utc": "2026-11-12T16:48:00+00:00",
+    "last_bar_age_min": 10.3,
     "market_state": "open",
     "profile_volume": 1106332.0,
     "prior_day": "2026-11-11",
@@ -1586,19 +1586,27 @@
      "t": "2026-11-12T16:30:00+00:00",
      "o": 7663.75,
      "h": 7664.0,
-     "l": 7646.75,
-     "c": 7650.5,
-     "v": 14182.0
+     "l": 7643.5,
+     "c": 7645.25,
+     "v": 61105.0
+    },
+    {
+     "t": "2026-11-12T16:45:00+00:00",
+     "o": 7645.5,
+     "h": 7654.0,
+     "l": 7644.0,
+     "c": 7653.75,
+     "v": 10070.0
     }
    ]
   },
   {
    "root": "NQ",
    "trading_day": "2026-11-12",
-   "as_of_utc": "2026-11-12T16:43:05.620512+00:00",
+   "as_of_utc": "2026-11-12T16:58:20.506875+00:00",
    "source": "yahoo",
    "delayed": true,
-   "last_price": 28515.75,
+   "last_price": 28516.25,
    "levels": [
     {
      "tag": "exp_hi",
@@ -1743,7 +1751,7 @@
     {
      "tag": "pwh",
      "label": "Prior-week high",
-     "price": 27294.0,
+     "price": 27275.0,
      "group": "week",
      "note": "1 session(s) of data — PARTIAL"
     },
@@ -1763,8 +1771,8 @@
     }
    ],
    "stats": {
-    "last_bar_utc": "2026-11-12T16:33:00+00:00",
-    "last_bar_age_min": 10.1,
+    "last_bar_utc": "2026-11-12T16:48:00+00:00",
+    "last_bar_age_min": 10.3,
     "market_state": "open",
     "profile_volume": 443102.0,
     "prior_day": "2026-11-11",
@@ -3079,9 +3087,17 @@
      "t": "2026-11-12T16:30:00+00:00",
      "o": 28576.25,
      "h": 28582.75,
-     "l": 28492.25,
-     "c": 28515.75,
-     "v": 4808.0
+     "l": 28465.75,
+     "c": 28470.5,
+     "v": 20267.0
+    },
+    {
+     "t": "2026-11-12T16:45:00+00:00",
+     "o": 28472.5,
+     "h": 28519.75,
+     "l": 28452.0,
+     "c": 28516.25,
+     "v": 4208.0
     }
    ]
   }
@@ -3094,8 +3110,17 @@
     "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxNbi1kOEoySWkzOElFUnlCS0ZDWGJzVVVFS1ZMbF9zN3BXQ3YtUzlpbVAtVGFjczZ3bXJ4ZFMteTJ1dWhMV05IYllzMHltTTRDUzJPcVRhbFpxQ0tweXZuSjM1QmRVNGR5NHFKYVFYc1FGdFBqLUtVSWItbGdQa2xMMGxqWXh0UmJZOF9PSUxyT29HdVBUTVdPQUZSSHJDNXNWWEhCelRoamxmMWRQNW4tVmlfSXhaQndwb0d2OEhXdENLYmE2MnZENU82ZzRJcVk?oc=5",
     "source": "gnews_futures",
     "published_utc": "2026-11-12T11:40:35+00:00",
-    "score": 11.66,
+    "score": 11.62,
     "duplicates": 0
+   },
+   {
+    "id": "066d9ce102",
+    "title": "Nvidia shares plunge 13% at open after CEO Jensen Huang resigns - WRAL",
+    "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPSEpCSWo0SlRJaDkzUTFwMkhLN3BFdFJoekZBVmFvcGJUQXpUaElhX20xa2FkcnlJZDRpQnVzS3NZckU0Umt4OG8zcFdUVEx5MUFwRndKUHhrX1lNR1Zkdzd5bzdnZzB2VnAtaUVxMHRQbHJmQW5SNmxNSS0wZzk4SkZ6OWpqb3k3QVZ5MjhPdVZfaWdvRGw0bTVmYWxNVHBkRmNaZzJiaWVISkpnQ25Z?oc=5",
+    "source": "gnews_megacap",
+    "published_utc": "2026-11-12T16:38:11+00:00",
+    "score": 9.44,
+    "duplicates": 8
    },
    {
     "id": "fe9c4622ec",
@@ -3103,7 +3128,7 @@
     "link": "https://www.cnbc.com/2026/11/12/us-treasurys-bonds-yields.html",
     "source": "cnbc_markets",
     "published_utc": "2026-11-12T16:04:38+00:00",
-    "score": 9.39,
+    "score": 9.35,
     "duplicates": 1
    },
    {
@@ -3112,17 +3137,8 @@
     "link": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxPcFpobVBPcGFhZ19SMUpOMlFHbnotcy1oaEFKVzRUNXBhbS1oVFM5ZDM4WG9tbWN4TU5UNURXOG10TlEtd3otbHdRRFZNRm9TWlBBcXBUWHVXR2VHSlFTbU8zSHE0NmFqTnVkXy1wc2ZOZXk3TExDaVZmeDRDcXdSYXl4ajF1Vmdtd3VXSzZQTmZEVUJXdmF4cE1Vd3BrUlJ3X1BlQ3EzR2JjUzlBMUp2YkY4aDJpa2dHOFJtZ0VLdDVEYzRWSVBNdVIzSFRtWHlULUM2Z0lSanhEMW9rSFZ5bWVBb283Y05u?oc=5",
     "source": "gnews_futures",
     "published_utc": "2026-11-12T11:33:30+00:00",
-    "score": 9.14,
+    "score": 9.1,
     "duplicates": 0
-   },
-   {
-    "id": "0fd141f33c",
-    "title": "Nvidia shares plunge 13% at open after CEO Jensen Huang resigns - The Globe and Mail",
-    "link": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxQUHJnRXZmb2JNaEQ2dzg4dU41U0ZEWDNqVHBBNXpUY3ByUTlORUFvcS1vVmV6bmpKS29SUzF4dVNqUW4wX0s5clZIazB2cXJ4MGpBZ2s0d2VCY054ZnZVY255WEpMUjVUVnZHSEkwYVpiTHlZRkRfN2FRWUpiUFhFLUdyTWVGVjFKdG5tbkdnZHMteWs3WFVsZFM0ajU2Y2lOU1g3NFM0TkI1ZzlkRDQ4OVF4dEdSaHpCN29TM0JvU2JqQWdwZEp1aE9VYm85WmloMWRVTjlXWEh4N0toS3loVmxR?oc=5",
-    "source": "gnews_megacap",
-    "published_utc": "2026-11-12T14:37:20+00:00",
-    "score": 8.65,
-    "duplicates": 7
    },
    {
     "id": "bf64616c82",
@@ -3130,7 +3146,7 @@
     "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPZFR1MTQySm1aR2VyVlhnRzNhT0NVQWxiZmJ3a0Q1SlZrbWxKRGJkdTJBVk80Z192QU5tUjVqaVZIZGdhMWF4WlZkT3p1aGt5V0NfZ29UY2Q1cnZhNTFMMlVFbFl3NmFvd1RMU2FpRS1mOTVxSnJQaUtWQjMzeXVQV2RCRnhFaHhhdkVsZnpyLUx5SnZtQ2F1SVZLYk1LWXN5ZnA4ZzJzbw?oc=5",
     "source": "gnews_macro",
     "published_utc": "2026-11-12T16:34:32+00:00",
-    "score": 8.48,
+    "score": 8.43,
     "duplicates": 0
    },
    {
@@ -3139,7 +3155,7 @@
     "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOZFJFM2RNdHpXTjlabFBaem5VWWZuazhjRjFIamd0cE9vU2pZOFVkZFdpeHp6VzRfaHNuaWNDbkJYTk1WcmN0S0hMYzFwQl9oTHJLeFRjUHFTb1I3YlNkaG5qVnZBMElScWx2eHpWeHpUSkRjZlhibzNmLVFyU1NqZTVwYnk5ZXJFNjh4cWk0VQ?oc=5",
     "source": "gnews_futures",
     "published_utc": "2026-11-12T10:04:47+00:00",
-    "score": 8.39,
+    "score": 8.35,
     "duplicates": 0
    },
    {
@@ -3148,7 +3164,7 @@
     "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNTS1ha1c3bjhUN3JRb29Ka2NCTGgwRGtQNlVEU3JPTlJFVzRYNmpWUHB4ZDZYN3g0UmxqZ3QzTTRpRTYwdTVKRGJsMVhHaVBMTW5qUk10V3hDMGIxOVA4M3cyUG94ajNnX2U5NFJ6NWdpeUZQTUpoWE82aFRvX0wzOExqRnpmZ3ZBYWR0Mk9LTFl1X1prZ0J3c0ZkRVdPdWpySko3eGQwR1haME4xZk9fUWkwbTRUalRIQjl6Tw?oc=5",
     "source": "gnews_megacap",
     "published_utc": "2026-11-12T15:42:15+00:00",
-    "score": 8.33,
+    "score": 8.29,
     "duplicates": 7
    },
    {
@@ -3157,7 +3173,7 @@
     "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxQY01YWkJBY3Roa2hlWkVsbHhpcHplMm5NX09pWEJlMC1rWTY1ZDJoTUh0elc0WTZvdmpDOXJhS04tN2J5Y0N4NmZPdGk0aUhKdVZLT2RMSTk4S2EyZEJMYzY3WnpMMklfRjF3ZEJXZzU3d1VBTmlWS3Y1cllaYURseVQ4Nl93RFVLOXB4M1J6bnM1YVQ5QXBaSDZCOXEwUQ?oc=5",
     "source": "gnews_futures",
     "published_utc": "2026-11-12T15:26:58+00:00",
-    "score": 8.29,
+    "score": 8.25,
     "duplicates": 1
    },
    {
@@ -3166,7 +3182,7 @@
     "link": "https://www.federalreserve.gov/newsevents/pressreleases/enforcement20261112a.htm",
     "source": "fed_press",
     "published_utc": "2026-11-12T16:00:00+00:00",
-    "score": 7.88,
+    "score": 7.84,
     "duplicates": 0
    },
    {
@@ -3175,7 +3191,7 @@
     "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxNRGkySm81VjBXcUpPR3dfMGVnRG1SYU80ekFpTTNPTVN1REhlV1JpblJPSE9FWGlHTm1EWk9GLW91N213ZjBQdUM1OXprWE82bEtXTVQtb2NwT1VvLS12dU5obVFHeVlNckVRaVNSUFVSalVVeW55SGh6d3ZBRkh5T0hULUdibklnZDgtZ1YwLVFOQWxmV0dlbEpRTGk4dw?oc=5",
     "source": "gnews_futures",
     "published_utc": "2026-11-12T13:01:00+00:00",
-    "score": 7.88,
+    "score": 7.84,
     "duplicates": 1
    },
    {
@@ -3184,7 +3200,7 @@
     "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxOa2dLMFBnREZPSUpiYUJENDljaFVOLUM1M3p1VXVmOXBBU2xrb3BpREhHanZDeEUzQlhEMXZFSW9aM0lvaDFBandiOWVhd2ZUM1hJNVBKaGVPQ21HLWNpVkpXZWRDNHZKY1BuaUdSOUl2V3J0UTJONmd0YVdveURhRmlYNEZEbGltQWx5akFRRl9IZ3lobm9oRUpMejhxRXBmd3F5TUlqNm5hM08xVHY2ems2OFNYRnRTNkpmZTBpWGxpY1hlVFc0LVM1eXcwalY2YW1nWA?oc=5",
     "source": "gnews_futures",
     "published_utc": "2026-11-12T12:25:59+00:00",
-    "score": 7.79,
+    "score": 7.74,
     "duplicates": 1
    },
    {
@@ -3193,16 +3209,16 @@
     "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQaVhwX1BkWnNTcFNmbU5UdmIwZEJaak5IZHlBTTA0SWw1N0VuUDludG5CTkVhU2xfOXJkSWFEM3NrMHMzdU52cjZzUno0V056T09Nb1U4aExHZjRFeExTcDdLcFUtOVAwVzJZX09JSS1xb0d0SkpIRDhHWUI0c000NHpxYVVRWnUtZ0ZiYTVXVkhOb3ZJNzlVZjNLaHJiYmZCSG9scnhSUQ?oc=5",
     "source": "gnews_fed",
     "published_utc": "2026-11-12T14:36:15+00:00",
-    "score": 7.65,
+    "score": 7.61,
     "duplicates": 1
    }
   ],
   "summary": {
    "lines": [
     "Nasdaq Futures Plunge as Nvidia Crisis Hits AI Trade; U.S. Economic Data and Fed Speak on Tap - Barchart.com [4eb486440d]",
+    "Nvidia shares plunge 13% at open after CEO Jensen Huang resigns - WRAL [066d9ce102]",
     "10-year Treasury yield jumps back above 5% as oil gains and more Fed rate hikes expected [fe9c4622ec]",
     "Commerzbank Says Treasury Futures Supported as Nasdaq Futures Fall Amid Nvidia Leadership Uncertainty, Brent Slips - marketscreener.com [6d772e3db4]",
-    "Nvidia shares plunge 13% at open after CEO Jensen Huang resigns - The Globe and Mail [0fd141f33c]",
     "The Fed's inflation dilemma: Wait for oil relief or raise rates? - CNBC [bf64616c82]"
    ],
    "backend": "none",
