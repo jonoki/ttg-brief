@@ -1,11 +1,11 @@
 {
  "meta": {
-  "generated_at_utc": "2026-11-12T16:58:20.506875+00:00",
-  "generated_at_local": "Thu 12 Nov 2026 12:58 AST",
+  "generated_at_utc": "2026-11-12T21:05:01.614087+00:00",
+  "generated_at_local": "Thu 12 Nov 2026 17:05 AST",
   "trading_day": "2026-11-12",
   "display_tz": "America/Halifax",
   "version": "0.1.0",
-  "run": "intraday",
+  "run": "post-close",
   "variant": "public"
  },
  "calendar": {
@@ -86,14 +86,14 @@
    }
   ],
   "next_event": {
-   "name": "30-Year bond auction",
+   "name": "Core PPI m/m",
    "impact": "high",
-   "time_utc": "2026-11-12T18:00:00+00:00",
-   "local": "14:00 AST",
-   "et": "13:00 ET",
-   "in": "1h 01m",
-   "consensus": null,
-   "prior": null
+   "time_utc": "2026-11-13T13:30:00+00:00",
+   "local": "09:30 AST",
+   "et": "08:30 ET",
+   "in": "16h 24m",
+   "consensus": "0.3%",
+   "prior": "0.7%"
   },
   "sources": [],
   "warnings": []
@@ -102,10 +102,10 @@
   {
    "root": "ES",
    "trading_day": "2026-11-12",
-   "as_of_utc": "2026-11-12T16:58:20.506875+00:00",
+   "as_of_utc": "2026-11-12T21:05:01.614087+00:00",
    "source": "yahoo",
    "delayed": true,
-   "last_price": 7653.75,
+   "last_price": 7609.75,
    "levels": [
     {
      "tag": "exp_hi",
@@ -115,25 +115,11 @@
      "note": "ATR over 14 days"
     },
     {
-     "tag": "rn_major_up",
-     "label": "Round 50 above",
-     "price": 7700.0,
-     "group": "round",
-     "note": ""
-    },
-    {
-     "tag": "rn_minor_up",
-     "label": "Round 25 above",
-     "price": 7675.0,
-     "group": "round",
-     "note": ""
-    },
-    {
      "tag": "tdh",
      "label": "Today's RTH high",
      "price": 7674.75,
      "group": "today",
-     "note": "so far"
+     "note": "session complete"
     },
     {
      "tag": "wh",
@@ -157,8 +143,8 @@
      "note": "70 % value area"
     },
     {
-     "tag": "rn_major_dn",
-     "label": "Round 50 below",
+     "tag": "rn_major_up",
+     "label": "Round 50 above",
      "price": 7650.0,
      "group": "round",
      "note": ""
@@ -185,6 +171,13 @@
      "note": "since 18:00 ET, 920 bars"
     },
     {
+     "tag": "rn_minor_up",
+     "label": "Round 25 above",
+     "price": 7625.0,
+     "group": "round",
+     "note": ""
+    },
+    {
      "tag": "val",
      "label": "Prior-day VAL",
      "price": 7613.5,
@@ -199,11 +192,25 @@
      "note": "2026-11-11"
     },
     {
+     "tag": "tdc",
+     "label": "Today's RTH close (16:00 bar)",
+     "price": 7609.75,
+     "group": "today",
+     "note": "becomes next session's prior-day close"
+    },
+    {
      "tag": "onvwap",
      "label": "Overnight VWAP",
      "price": 7602.42,
      "group": "overnight",
      "note": "typical-price VWAP"
+    },
+    {
+     "tag": "rn_major_dn",
+     "label": "Round 50 below",
+     "price": 7600.0,
+     "group": "round",
+     "note": ""
     },
     {
      "tag": "pdl",
@@ -250,14 +257,14 @@
     {
      "tag": "pwh",
      "label": "Prior-week high",
-     "price": 7452.75,
+     "price": 7408.75,
      "group": "week",
      "note": "1 session(s) of data — PARTIAL"
     },
     {
      "tag": "pwl",
      "label": "Prior-week low",
-     "price": 7396.5,
+     "price": 7396.75,
      "group": "week",
      "note": "1 session(s) of data — PARTIAL"
     },
@@ -270,8 +277,8 @@
     }
    ],
    "stats": {
-    "last_bar_utc": "2026-11-12T16:48:00+00:00",
-    "last_bar_age_min": 10.3,
+    "last_bar_utc": "2026-11-12T20:55:00+00:00",
+    "last_bar_age_min": 10.0,
     "market_state": "open",
     "profile_volume": 1106332.0,
     "prior_day": "2026-11-11",
@@ -1593,20 +1600,148 @@
     {
      "t": "2026-11-12T16:45:00+00:00",
      "o": 7645.5,
-     "h": 7654.0,
+     "h": 7658.25,
      "l": 7644.0,
-     "c": 7653.75,
-     "v": 10070.0
+     "c": 7655.25,
+     "v": 42675.0
+    },
+    {
+     "t": "2026-11-12T17:00:00+00:00",
+     "o": 7655.5,
+     "h": 7658.75,
+     "l": 7650.25,
+     "c": 7658.0,
+     "v": 32724.0
+    },
+    {
+     "t": "2026-11-12T17:15:00+00:00",
+     "o": 7658.0,
+     "h": 7658.0,
+     "l": 7644.25,
+     "c": 7653.25,
+     "v": 31853.0
+    },
+    {
+     "t": "2026-11-12T17:30:00+00:00",
+     "o": 7653.25,
+     "h": 7659.75,
+     "l": 7649.25,
+     "c": 7657.25,
+     "v": 25046.0
+    },
+    {
+     "t": "2026-11-12T17:45:00+00:00",
+     "o": 7657.5,
+     "h": 7663.25,
+     "l": 7650.5,
+     "c": 7654.5,
+     "v": 34386.0
+    },
+    {
+     "t": "2026-11-12T18:00:00+00:00",
+     "o": 7654.25,
+     "h": 7655.25,
+     "l": 7641.75,
+     "c": 7646.5,
+     "v": 38009.0
+    },
+    {
+     "t": "2026-11-12T18:15:00+00:00",
+     "o": 7646.5,
+     "h": 7651.25,
+     "l": 7644.25,
+     "c": 7649.5,
+     "v": 25103.0
+    },
+    {
+     "t": "2026-11-12T18:30:00+00:00",
+     "o": 7648.75,
+     "h": 7654.75,
+     "l": 7642.5,
+     "c": 7642.5,
+     "v": 26760.0
+    },
+    {
+     "t": "2026-11-12T18:45:00+00:00",
+     "o": 7642.75,
+     "h": 7643.0,
+     "l": 7627.0,
+     "c": 7634.25,
+     "v": 43719.0
+    },
+    {
+     "t": "2026-11-12T19:00:00+00:00",
+     "o": 7635.0,
+     "h": 7638.0,
+     "l": 7623.25,
+     "c": 7635.25,
+     "v": 45011.0
+    },
+    {
+     "t": "2026-11-12T19:15:00+00:00",
+     "o": 7635.0,
+     "h": 7642.5,
+     "l": 7630.0,
+     "c": 7631.0,
+     "v": 28526.0
+    },
+    {
+     "t": "2026-11-12T19:30:00+00:00",
+     "o": 7631.0,
+     "h": 7631.5,
+     "l": 7618.75,
+     "c": 7621.75,
+     "v": 40042.0
+    },
+    {
+     "t": "2026-11-12T19:45:00+00:00",
+     "o": 7621.75,
+     "h": 7625.5,
+     "l": 7619.0,
+     "c": 7622.5,
+     "v": 31574.0
+    },
+    {
+     "t": "2026-11-12T20:00:00+00:00",
+     "o": 7622.5,
+     "h": 7622.75,
+     "l": 7615.0,
+     "c": 7617.25,
+     "v": 36670.0
+    },
+    {
+     "t": "2026-11-12T20:15:00+00:00",
+     "o": 7617.5,
+     "h": 7625.5,
+     "l": 7612.75,
+     "c": 7617.0,
+     "v": 41584.0
+    },
+    {
+     "t": "2026-11-12T20:30:00+00:00",
+     "o": 7617.0,
+     "h": 7618.0,
+     "l": 7610.0,
+     "c": 7613.5,
+     "v": 40551.0
+    },
+    {
+     "t": "2026-11-12T20:45:00+00:00",
+     "o": 7613.25,
+     "h": 7616.75,
+     "l": 7607.25,
+     "c": 7609.75,
+     "v": 31127.0
     }
    ]
   },
   {
    "root": "NQ",
    "trading_day": "2026-11-12",
-   "as_of_utc": "2026-11-12T16:58:20.506875+00:00",
+   "as_of_utc": "2026-11-12T21:05:01.614087+00:00",
    "source": "yahoo",
    "delayed": true,
-   "last_price": 28516.25,
+   "last_price": 28352.75,
    "levels": [
     {
      "tag": "exp_hi",
@@ -1641,21 +1776,7 @@
      "label": "Today's RTH high",
      "price": 28652.25,
      "group": "today",
-     "note": "so far"
-    },
-    {
-     "tag": "rn_major_up",
-     "label": "Round 100 above",
-     "price": 28600.0,
-     "group": "round",
-     "note": ""
-    },
-    {
-     "tag": "rn_minor_up",
-     "label": "Round 50 above",
-     "price": 28550.0,
-     "group": "round",
-     "note": ""
+     "note": "session complete"
     },
     {
      "tag": "poc",
@@ -1665,18 +1786,18 @@
      "note": "2026-11-11 RTH, bin 1.0"
     },
     {
-     "tag": "rn_major_dn",
-     "label": "Round 100 below",
-     "price": 28500.0,
-     "group": "round",
-     "note": ""
-    },
-    {
      "tag": "pdc",
      "label": "Prior-day close (16:00 bar)",
      "price": 28484.25,
      "group": "prior_day",
      "note": "2026-11-11"
+    },
+    {
+     "tag": "rn_major_up",
+     "label": "Round 100 above",
+     "price": 28400.0,
+     "group": "round",
+     "note": ""
     },
     {
      "tag": "val",
@@ -1698,6 +1819,27 @@
      "price": 28352.75,
      "group": "prior_day",
      "note": "2026-11-11"
+    },
+    {
+     "tag": "tdc",
+     "label": "Today's RTH close (16:00 bar)",
+     "price": 28352.75,
+     "group": "today",
+     "note": "becomes next session's prior-day close"
+    },
+    {
+     "tag": "rn_minor_dn",
+     "label": "Round 50 below",
+     "price": 28350.0,
+     "group": "round",
+     "note": ""
+    },
+    {
+     "tag": "rn_major_dn",
+     "label": "Round 100 below",
+     "price": 28300.0,
+     "group": "round",
+     "note": ""
     },
     {
      "tag": "pdl",
@@ -1751,14 +1893,14 @@
     {
      "tag": "pwh",
      "label": "Prior-week high",
-     "price": 27275.0,
+     "price": 27126.0,
      "group": "week",
      "note": "1 session(s) of data — PARTIAL"
     },
     {
      "tag": "pwl",
      "label": "Prior-week low",
-     "price": 26988.5,
+     "price": 27059.25,
      "group": "week",
      "note": "1 session(s) of data — PARTIAL"
     },
@@ -1771,8 +1913,8 @@
     }
    ],
    "stats": {
-    "last_bar_utc": "2026-11-12T16:48:00+00:00",
-    "last_bar_age_min": 10.3,
+    "last_bar_utc": "2026-11-12T20:55:00+00:00",
+    "last_bar_age_min": 10.0,
     "market_state": "open",
     "profile_volume": 443102.0,
     "prior_day": "2026-11-11",
@@ -3094,10 +3236,138 @@
     {
      "t": "2026-11-12T16:45:00+00:00",
      "o": 28472.5,
-     "h": 28519.75,
+     "h": 28552.5,
      "l": 28452.0,
-     "c": 28516.25,
-     "v": 4208.0
+     "c": 28529.75,
+     "v": 15787.0
+    },
+    {
+     "t": "2026-11-12T17:00:00+00:00",
+     "o": 28529.25,
+     "h": 28544.5,
+     "l": 28472.75,
+     "c": 28515.25,
+     "v": 12211.0
+    },
+    {
+     "t": "2026-11-12T17:15:00+00:00",
+     "o": 28515.0,
+     "h": 28515.0,
+     "l": 28433.5,
+     "c": 28479.5,
+     "v": 12841.0
+    },
+    {
+     "t": "2026-11-12T17:30:00+00:00",
+     "o": 28479.0,
+     "h": 28548.0,
+     "l": 28453.75,
+     "c": 28531.5,
+     "v": 9936.0
+    },
+    {
+     "t": "2026-11-12T17:45:00+00:00",
+     "o": 28532.75,
+     "h": 28575.0,
+     "l": 28495.75,
+     "c": 28518.25,
+     "v": 12691.0
+    },
+    {
+     "t": "2026-11-12T18:00:00+00:00",
+     "o": 28516.5,
+     "h": 28521.75,
+     "l": 28448.5,
+     "c": 28476.0,
+     "v": 11657.0
+    },
+    {
+     "t": "2026-11-12T18:15:00+00:00",
+     "o": 28476.5,
+     "h": 28507.75,
+     "l": 28464.0,
+     "c": 28493.75,
+     "v": 8330.0
+    },
+    {
+     "t": "2026-11-12T18:30:00+00:00",
+     "o": 28492.0,
+     "h": 28527.5,
+     "l": 28466.25,
+     "c": 28467.5,
+     "v": 8004.0
+    },
+    {
+     "t": "2026-11-12T18:45:00+00:00",
+     "o": 28468.0,
+     "h": 28469.75,
+     "l": 28375.5,
+     "c": 28430.0,
+     "v": 16203.0
+    },
+    {
+     "t": "2026-11-12T19:00:00+00:00",
+     "o": 28431.5,
+     "h": 28457.0,
+     "l": 28373.75,
+     "c": 28442.0,
+     "v": 13982.0
+    },
+    {
+     "t": "2026-11-12T19:15:00+00:00",
+     "o": 28441.0,
+     "h": 28466.5,
+     "l": 28407.0,
+     "c": 28419.25,
+     "v": 8537.0
+    },
+    {
+     "t": "2026-11-12T19:30:00+00:00",
+     "o": 28419.75,
+     "h": 28420.5,
+     "l": 28346.25,
+     "c": 28371.25,
+     "v": 11012.0
+    },
+    {
+     "t": "2026-11-12T19:45:00+00:00",
+     "o": 28371.25,
+     "h": 28401.25,
+     "l": 28365.75,
+     "c": 28381.25,
+     "v": 8436.0
+    },
+    {
+     "t": "2026-11-12T20:00:00+00:00",
+     "o": 28379.5,
+     "h": 28381.25,
+     "l": 28331.5,
+     "c": 28350.75,
+     "v": 11117.0
+    },
+    {
+     "t": "2026-11-12T20:15:00+00:00",
+     "o": 28350.25,
+     "h": 28392.0,
+     "l": 28311.5,
+     "c": 28353.25,
+     "v": 12541.0
+    },
+    {
+     "t": "2026-11-12T20:30:00+00:00",
+     "o": 28353.25,
+     "h": 28367.0,
+     "l": 28302.0,
+     "c": 28345.75,
+     "v": 12652.0
+    },
+    {
+     "t": "2026-11-12T20:45:00+00:00",
+     "o": 28343.5,
+     "h": 28377.75,
+     "l": 28336.5,
+     "c": 28352.75,
+     "v": 10021.0
     }
    ]
   }
@@ -3105,31 +3375,31 @@
  "news": {
   "headlines": [
    {
-    "id": "4eb486440d",
-    "title": "Nasdaq Futures Plunge as Nvidia Crisis Hits AI Trade; U.S. Economic Data and Fed Speak on Tap - Barchart.com",
-    "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxNbi1kOEoySWkzOElFUnlCS0ZDWGJzVVVFS1ZMbF9zN3BXQ3YtUzlpbVAtVGFjczZ3bXJ4ZFMteTJ1dWhMV05IYllzMHltTTRDUzJPcVRhbFpxQ0tweXZuSjM1QmRVNGR5NHFKYVFYc1FGdFBqLUtVSWItbGdQa2xMMGxqWXh0UmJZOF9PSUxyT29HdVBUTVdPQUZSSHJDNXNWWEhCelRoamxmMWRQNW4tVmlfSXhaQndwb0d2OEhXdENLYmE2MnZENU82ZzRJcVk?oc=5",
-    "source": "gnews_futures",
-    "published_utc": "2026-11-12T11:40:35+00:00",
-    "score": 11.62,
-    "duplicates": 0
-   },
-   {
     "id": "066d9ce102",
     "title": "Nvidia shares plunge 13% at open after CEO Jensen Huang resigns - WRAL",
     "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPSEpCSWo0SlRJaDkzUTFwMkhLN3BFdFJoekZBVmFvcGJUQXpUaElhX20xa2FkcnlJZDRpQnVzS3NZckU0Umt4OG8zcFdUVEx5MUFwRndKUHhrX1lNR1Zkdzd5bzdnZzB2VnAtaUVxMHRQbHJmQW5SNmxNSS0wZzk4SkZ6OWpqb3k3QVZ5MjhPdVZfaWdvRGw0bTVmYWxNVHBkRmNaZzJiaWVISkpnQ25Z?oc=5",
     "source": "gnews_megacap",
     "published_utc": "2026-11-12T16:38:11+00:00",
-    "score": 9.44,
-    "duplicates": 8
+    "score": 11.26,
+    "duplicates": 13
    },
    {
-    "id": "fe9c4622ec",
-    "title": "10-year Treasury yield jumps back above 5% as oil gains and more Fed rate hikes expected",
-    "link": "https://www.cnbc.com/2026/11/12/us-treasurys-bonds-yields.html",
-    "source": "cnbc_markets",
-    "published_utc": "2026-11-12T16:04:38+00:00",
-    "score": 9.35,
-    "duplicates": 1
+    "id": "4eb486440d",
+    "title": "Nasdaq Futures Plunge as Nvidia Crisis Hits AI Trade; U.S. Economic Data and Fed Speak on Tap - Barchart.com",
+    "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxNbi1kOEoySWkzOElFUnlCS0ZDWGJzVVVFS1ZMbF9zN3BXQ3YtUzlpbVAtVGFjczZ3bXJ4ZFMteTJ1dWhMV05IYllzMHltTTRDUzJPcVRhbFpxQ0tweXZuSjM1QmRVNGR5NHFKYVFYc1FGdFBqLUtVSWItbGdQa2xMMGxqWXh0UmJZOF9PSUxyT29HdVBUTVdPQUZSSHJDNXNWWEhCelRoamxmMWRQNW4tVmlfSXhaQndwb0d2OEhXdENLYmE2MnZENU82ZzRJcVk?oc=5",
+    "source": "gnews_futures",
+    "published_utc": "2026-11-12T11:40:35+00:00",
+    "score": 10.93,
+    "duplicates": 0
+   },
+   {
+    "id": "4e3d0e1230",
+    "title": "The bond market now has an even bigger fear than AI fallout",
+    "link": "https://www.marketwatch.com/story/the-bond-market-now-has-an-even-bigger-fear-than-the-ai-fallout-b6401b54?mod=mw_rss_topstories",
+    "source": "marketwatch_top",
+    "published_utc": "2026-11-12T20:44:00+00:00",
+    "score": 8.44,
+    "duplicates": 0
    },
    {
     "id": "6d772e3db4",
@@ -3137,7 +3407,43 @@
     "link": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxPcFpobVBPcGFhZ19SMUpOMlFHbnotcy1oaEFKVzRUNXBhbS1oVFM5ZDM4WG9tbWN4TU5UNURXOG10TlEtd3otbHdRRFZNRm9TWlBBcXBUWHVXR2VHSlFTbU8zSHE0NmFqTnVkXy1wc2ZOZXk3TExDaVZmeDRDcXdSYXl4ajF1Vmdtd3VXSzZQTmZEVUJXdmF4cE1Vd3BrUlJ3X1BlQ3EzR2JjUzlBMUp2YkY4aDJpa2dHOFJtZ0VLdDVEYzRWSVBNdVIzSFRtWHlULUM2Z0lSanhEMW9rSFZ5bWVBb283Y05u?oc=5",
     "source": "gnews_futures",
     "published_utc": "2026-11-12T11:33:30+00:00",
-    "score": 9.1,
+    "score": 8.41,
+    "duplicates": 0
+   },
+   {
+    "id": "40a8fd5cea",
+    "title": "U.S. inflation is already bad enough. It might get worse.",
+    "link": "https://www.marketwatch.com/story/u-s-inflation-is-already-bad-enough-it-might-get-worse-bae54da9?mod=mw_rss_topstories",
+    "source": "marketwatch_top",
+    "published_utc": "2026-11-12T18:39:00+00:00",
+    "score": 8.09,
+    "duplicates": 1
+   },
+   {
+    "id": "c47f847049",
+    "title": "Nasdaq futures fall as Nvidia turmoil rattles AI stocks - Borneo Bulletin",
+    "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQYlhRaFlXamlZS01FTGl3N1VqYThtRnFnQklBQk51ZnhXUzd6U1Zmdld4Rjd0eUU3M3lOY0VTcmtYOUkxR2xLbG9ndVlFUVNBTEpJZFpnMS1ZUG5GZU45THpGUThReFJoUVBCM2d1U25FVEJ0aVQ3dlU2N2tOWWxlUlZrVDhXeUNmdHkyTTNObw?oc=5",
+    "source": "gnews_futures",
+    "published_utc": "2026-11-12T21:01:57+00:00",
+    "score": 7.99,
+    "duplicates": 0
+   },
+   {
+    "id": "7c116c88e3",
+    "title": "The S&P 500 is shrugging off Nvidia’s selloff. Here’s what’s keeping the rest of the market afloat.",
+    "link": "https://www.marketwatch.com/story/the-s-p-500-is-shrugging-off-nvidias-selloff-heres-whats-keeping-the-rest-of-the-market-afloat-7cdf2f05?mod=mw_rss_topstories",
+    "source": "marketwatch_top",
+    "published_utc": "2026-11-12T19:52:00+00:00",
+    "score": 7.8,
+    "duplicates": 0
+   },
+   {
+    "id": "95355d2dd4",
+    "title": "Jensen Huang's Nvidia exit casts shadow over Wall Street’s $500 billion AI financing bet",
+    "link": "https://www.cnbc.com/2026/11/12/nvidia-ceo-exit-ai-financing.html",
+    "source": "cnbc_markets",
+    "published_utc": "2026-11-12T19:33:50+00:00",
+    "score": 7.75,
     "duplicates": 0
    },
    {
@@ -3146,7 +3452,25 @@
     "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPZFR1MTQySm1aR2VyVlhnRzNhT0NVQWxiZmJ3a0Q1SlZrbWxKRGJkdTJBVk80Z192QU5tUjVqaVZIZGdhMWF4WlZkT3p1aGt5V0NfZ29UY2Q1cnZhNTFMMlVFbFl3NmFvd1RMU2FpRS1mOTVxSnJQaUtWQjMzeXVQV2RCRnhFaHhhdkVsZnpyLUx5SnZtQ2F1SVZLYk1LWXN5ZnA4ZzJzbw?oc=5",
     "source": "gnews_macro",
     "published_utc": "2026-11-12T16:34:32+00:00",
-    "score": 8.43,
+    "score": 7.75,
+    "duplicates": 0
+   },
+   {
+    "id": "0d0b33171d",
+    "title": "Fed’s Daly Says More Rate Hikes Needed to Cool Inflation - Bloomberg.com",
+    "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQVjJpUnJYdWk0dzZkcGp0cG54WTc3Sk84VWtmdmpCNGl1Z1pXZm1rYmowRnU4d2NSWmNXUFgtUFdQZDZ6SWswZDFsanZrODFEb1hfSWM3YTA3OC1qa09ZaTZkQXVGUW8xTmRKRnRURW04dWpPR0xxMXZURUNJVXdXdmRCNi1VeTBTRG0tZmN5cVVsVGZ3Mml2am8weXMxLWthNXVKY2Q2UDZhd2lZaXFlaURuaFU?oc=5",
+    "source": "gnews_fed",
+    "published_utc": "2026-11-12T19:36:07+00:00",
+    "score": 7.75,
+    "duplicates": 1
+   },
+   {
+    "id": "6c80b05570",
+    "title": "Nvidia’s stock selloff may be just beginning, even after shedding 30% from its peak",
+    "link": "https://www.marketwatch.com/story/nvidias-stock-is-on-sale-after-jensen-huangs-exit-but-is-the-selloff-just-beginning-84121513?mod=mw_rss_topstories",
+    "source": "marketwatch_top",
+    "published_utc": "2026-11-12T19:15:00+00:00",
+    "score": 7.69,
     "duplicates": 0
    },
    {
@@ -3155,71 +3479,17 @@
     "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOZFJFM2RNdHpXTjlabFBaem5VWWZuazhjRjFIamd0cE9vU2pZOFVkZFdpeHp6VzRfaHNuaWNDbkJYTk1WcmN0S0hMYzFwQl9oTHJLeFRjUHFTb1I3YlNkaG5qVnZBMElScWx2eHpWeHpUSkRjZlhibzNmLVFyU1NqZTVwYnk5ZXJFNjh4cWk0VQ?oc=5",
     "source": "gnews_futures",
     "published_utc": "2026-11-12T10:04:47+00:00",
-    "score": 8.35,
+    "score": 7.67,
     "duplicates": 0
-   },
-   {
-    "id": "3f72f914fe",
-    "title": "Nvidia shares fall as AI giant rocked by Jensen Huang’s resignation - London Now",
-    "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNTS1ha1c3bjhUN3JRb29Ka2NCTGgwRGtQNlVEU3JPTlJFVzRYNmpWUHB4ZDZYN3g0UmxqZ3QzTTRpRTYwdTVKRGJsMVhHaVBMTW5qUk10V3hDMGIxOVA4M3cyUG94ajNnX2U5NFJ6NWdpeUZQTUpoWE82aFRvX0wzOExqRnpmZ3ZBYWR0Mk9LTFl1X1prZ0J3c0ZkRVdPdWpySko3eGQwR1haME4xZk9fUWkwbTRUalRIQjl6Tw?oc=5",
-    "source": "gnews_megacap",
-    "published_utc": "2026-11-12T15:42:15+00:00",
-    "score": 8.29,
-    "duplicates": 7
-   },
-   {
-    "id": "440802f9b5",
-    "title": "S&P 500, Nasdaq fall as Nvidia CEO's exit rattles AI stocks - Reuters",
-    "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxQY01YWkJBY3Roa2hlWkVsbHhpcHplMm5NX09pWEJlMC1rWTY1ZDJoTUh0elc0WTZvdmpDOXJhS04tN2J5Y0N4NmZPdGk0aUhKdVZLT2RMSTk4S2EyZEJMYzY3WnpMMklfRjF3ZEJXZzU3d1VBTmlWS3Y1cllaYURseVQ4Nl93RFVLOXB4M1J6bnM1YVQ5QXBaSDZCOXEwUQ?oc=5",
-    "source": "gnews_futures",
-    "published_utc": "2026-11-12T15:26:58+00:00",
-    "score": 8.25,
-    "duplicates": 1
-   },
-   {
-    "id": "08cb7cf919",
-    "title": "Federal Reserve Board issues enforcement action with former employee of United Community Bank",
-    "link": "https://www.federalreserve.gov/newsevents/pressreleases/enforcement20261112a.htm",
-    "source": "fed_press",
-    "published_utc": "2026-11-12T16:00:00+00:00",
-    "score": 7.84,
-    "duplicates": 0
-   },
-   {
-    "id": "8a41964588",
-    "title": "Nvidia Leadership Crisis Drags on U.S. Stock Futures, Pressures AI Trade - Yahoo Finance",
-    "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxNRGkySm81VjBXcUpPR3dfMGVnRG1SYU80ekFpTTNPTVN1REhlV1JpblJPSE9FWGlHTm1EWk9GLW91N213ZjBQdUM1OXprWE82bEtXTVQtb2NwT1VvLS12dU5obVFHeVlNckVRaVNSUFVSalVVeW55SGh6d3ZBRkh5T0hULUdibklnZDgtZ1YwLVFOQWxmV0dlbEpRTGk4dw?oc=5",
-    "source": "gnews_futures",
-    "published_utc": "2026-11-12T13:01:00+00:00",
-    "score": 7.84,
-    "duplicates": 1
-   },
-   {
-    "id": "d816720e51",
-    "title": "Nasdaq, S&P 500 futures fall as Nvidia turbulence unsettles AI stocks - TradingView",
-    "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxOa2dLMFBnREZPSUpiYUJENDljaFVOLUM1M3p1VXVmOXBBU2xrb3BpREhHanZDeEUzQlhEMXZFSW9aM0lvaDFBandiOWVhd2ZUM1hJNVBKaGVPQ21HLWNpVkpXZWRDNHZKY1BuaUdSOUl2V3J0UTJONmd0YVdveURhRmlYNEZEbGltQWx5akFRRl9IZ3lobm9oRUpMejhxRXBmd3F5TUlqNm5hM08xVHY2ems2OFNYRnRTNkpmZTBpWGxpY1hlVFc0LVM1eXcwalY2YW1nWA?oc=5",
-    "source": "gnews_futures",
-    "published_utc": "2026-11-12T12:25:59+00:00",
-    "score": 7.74,
-    "duplicates": 1
-   },
-   {
-    "id": "f85989754d",
-    "title": "Fed’s Hammack says inflation is worsening, favors gradual hikes - FXStreet",
-    "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQaVhwX1BkWnNTcFNmbU5UdmIwZEJaak5IZHlBTTA0SWw1N0VuUDludG5CTkVhU2xfOXJkSWFEM3NrMHMzdU52cjZzUno0V056T09Nb1U4aExHZjRFeExTcDdLcFUtOVAwVzJZX09JSS1xb0d0SkpIRDhHWUI0c000NHpxYVVRWnUtZ0ZiYTVXVkhOb3ZJNzlVZjNLaHJiYmZCSG9scnhSUQ?oc=5",
-    "source": "gnews_fed",
-    "published_utc": "2026-11-12T14:36:15+00:00",
-    "score": 7.61,
-    "duplicates": 1
    }
   ],
   "summary": {
    "lines": [
-    "Nasdaq Futures Plunge as Nvidia Crisis Hits AI Trade; U.S. Economic Data and Fed Speak on Tap - Barchart.com [4eb486440d]",
     "Nvidia shares plunge 13% at open after CEO Jensen Huang resigns - WRAL [066d9ce102]",
-    "10-year Treasury yield jumps back above 5% as oil gains and more Fed rate hikes expected [fe9c4622ec]",
+    "Nasdaq Futures Plunge as Nvidia Crisis Hits AI Trade; U.S. Economic Data and Fed Speak on Tap - Barchart.com [4eb486440d]",
+    "The bond market now has an even bigger fear than AI fallout [4e3d0e1230]",
     "Commerzbank Says Treasury Futures Supported as Nasdaq Futures Fall Amid Nvidia Leadership Uncertainty, Brent Slips - marketscreener.com [6d772e3db4]",
-    "The Fed's inflation dilemma: Wait for oil relief or raise rates? - CNBC [bf64616c82]"
+    "U.S. inflation is already bad enough. It might get worse. [40a8fd5cea]"
    ],
    "backend": "none",
    "model": null,
