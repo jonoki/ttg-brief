@@ -1,7 +1,7 @@
 {
  "meta": {
-  "generated_at_utc": "2026-11-12T11:25:15.493156+00:00",
-  "generated_at_local": "Thu 12 Nov 2026 07:25 AST",
+  "generated_at_utc": "2026-11-12T11:40:38.509133+00:00",
+  "generated_at_local": "Thu 12 Nov 2026 07:40 AST",
   "trading_day": "2026-11-12",
   "display_tz": "America/Halifax",
   "version": "0.1.0",
@@ -91,7 +91,7 @@
    "time_utc": "2026-11-12T13:30:00+00:00",
    "local": "09:30 AST",
    "et": "08:30 ET",
-   "in": "2h 04m",
+   "in": "1h 49m",
    "consensus": "194K",
    "prior": "189K"
   },
@@ -102,10 +102,10 @@
   {
    "root": "ES",
    "trading_day": "2026-11-12",
-   "as_of_utc": "2026-11-12T11:25:15.493156+00:00",
+   "as_of_utc": "2026-11-12T11:40:38.509133+00:00",
    "source": "yahoo",
    "delayed": true,
-   "last_price": 7612.5,
+   "last_price": 7609.25,
    "levels": [
     {
      "tag": "exp_hi",
@@ -161,7 +161,7 @@
      "label": "Overnight high",
      "price": 7628.5,
      "group": "overnight",
-     "note": "since 18:00 ET, 726 bars"
+     "note": "since 18:00 ET, 741 bars"
     },
     {
      "tag": "rn_minor_up",
@@ -187,7 +187,7 @@
     {
      "tag": "onvwap",
      "label": "Overnight VWAP",
-     "price": 7611.83,
+     "price": 7611.82,
      "group": "overnight",
      "note": "typical-price VWAP"
     },
@@ -249,14 +249,14 @@
     }
    ],
    "stats": {
-    "last_bar_utc": "2026-11-12T11:15:00+00:00",
-    "last_bar_age_min": 10.3,
+    "last_bar_utc": "2026-11-12T11:30:00+00:00",
+    "last_bar_age_min": 10.6,
     "market_state": "open",
     "profile_volume": 1106332.0,
     "prior_day": "2026-11-11",
     "prior_day_rth_range": 78.25,
     "overnight_range": 28.0,
-    "gap_vs_prior_close": -30.5,
+    "gap_vs_prior_close": -33.75,
     "gap_basis": "last price (pre-market)",
     "atr14": 145.12,
     "atr_days": 14,
@@ -1396,9 +1396,17 @@
     {
      "t": "2026-11-12T11:15:00+00:00",
      "o": 7612.75,
-     "h": 7613.0,
-     "l": 7611.75,
-     "c": 7612.5,
+     "h": 7613.25,
+     "l": 7608.75,
+     "c": 7610.25,
+     "v": 2344.0
+    },
+    {
+     "t": "2026-11-12T11:30:00+00:00",
+     "o": 7610.5,
+     "h": 7610.5,
+     "l": 7609.25,
+     "c": 7609.25,
      "v": 0.0
     }
    ]
@@ -1406,10 +1414,10 @@
   {
    "root": "NQ",
    "trading_day": "2026-11-12",
-   "as_of_utc": "2026-11-12T11:25:15.493156+00:00",
+   "as_of_utc": "2026-11-12T11:40:38.509133+00:00",
    "source": "yahoo",
    "delayed": true,
-   "last_price": 28257.25,
+   "last_price": 28216.5,
    "levels": [
     {
      "tag": "exp_hi",
@@ -1465,7 +1473,7 @@
      "label": "Overnight high",
      "price": 28368.75,
      "group": "overnight",
-     "note": "since 18:00 ET, 726 bars"
+     "note": "since 18:00 ET, 741 bars"
     },
     {
      "tag": "pdo",
@@ -1482,8 +1490,8 @@
      "note": ""
     },
     {
-     "tag": "rn_minor_dn",
-     "label": "Round 50 below",
+     "tag": "rn_minor_up",
+     "label": "Round 50 above",
      "price": 28250.0,
      "group": "round",
      "note": ""
@@ -1491,7 +1499,7 @@
     {
      "tag": "onvwap",
      "label": "Overnight VWAP",
-     "price": 28235.76,
+     "price": 28235.83,
      "group": "overnight",
      "note": "typical-price VWAP"
     },
@@ -1553,14 +1561,14 @@
     }
    ],
    "stats": {
-    "last_bar_utc": "2026-11-12T11:15:00+00:00",
-    "last_bar_age_min": 10.3,
+    "last_bar_utc": "2026-11-12T11:30:00+00:00",
+    "last_bar_age_min": 10.6,
     "market_state": "open",
     "profile_volume": 443102.0,
     "prior_day": "2026-11-11",
     "prior_day_rth_range": 498.0,
     "overnight_range": 237.0,
-    "gap_vs_prior_close": -227.0,
+    "gap_vs_prior_close": -267.75,
     "gap_basis": "last price (pre-market)",
     "atr14": 908.95,
     "atr_days": 14,
@@ -2700,9 +2708,17 @@
     {
      "t": "2026-11-12T11:15:00+00:00",
      "o": 28261.5,
-     "h": 28262.5,
-     "l": 28251.5,
-     "c": 28257.25,
+     "h": 28265.25,
+     "l": 28223.75,
+     "c": 28227.0,
+     "v": 1105.0
+    },
+    {
+     "t": "2026-11-12T11:30:00+00:00",
+     "o": 28229.5,
+     "h": 28229.5,
+     "l": 28214.25,
+     "c": 28216.5,
      "v": 0.0
     }
    ]
@@ -2711,12 +2727,21 @@
  "news": {
   "headlines": [
    {
+    "id": "6d772e3db4",
+    "title": "Commerzbank Says Treasury Futures Supported as Nasdaq Futures Fall Amid Nvidia Leadership Uncertainty, Brent Slips - www.marketscreener.com",
+    "link": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxPcFpobVBPcGFhZ19SMUpOMlFHbnotcy1oaEFKVzRUNXBhbS1oVFM5ZDM4WG9tbWN4TU5UNURXOG10TlEtd3otbHdRRFZNRm9TWlBBcXBUWHVXR2VHSlFTbU8zSHE0NmFqTnVkXy1wc2ZOZXk3TExDaVZmeDRDcXdSYXl4ajF1Vmdtd3VXSzZQTmZEVUJXdmF4cE1Vd3BrUlJ3X1BlQ3EzR2JjUzlBMUp2YkY4aDJpa2dHOFJtZ0VLdDVEYzRWSVBNdVIzSFRtWHlULUM2Z0lSanhEMW9rSFZ5bWVBb283Y05u?oc=5",
+    "source": "gnews_futures",
+    "published_utc": "2026-11-12T11:33:30+00:00",
+    "score": 9.98,
+    "duplicates": 0
+   },
+   {
     "id": "c17a97fbba",
     "title": "Nasdaq Futures Fall as Nvidia Leadership Uncertainty and China Chip Restrictions Weigh on Markets: Dow Jones, S&P, Wall Street - Yahoo Finance UK",
     "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOZFJFM2RNdHpXTjlabFBaem5VWWZuazhjRjFIamd0cE9vU2pZOFVkZFdpeHp6VzRfaHNuaWNDbkJYTk1WcmN0S0hMYzFwQl9oTHJLeFRjUHFTb1I3YlNkaG5qVnZBMElScWx2eHpWeHpUSkRjZlhibzNmLVFyU1NqZTVwYnk5ZXJFNjh4cWk0VQ?oc=5",
     "source": "gnews_futures",
     "published_utc": "2026-11-12T10:04:47+00:00",
-    "score": 9.28,
+    "score": 9.23,
     "duplicates": 0
    },
    {
@@ -2725,7 +2750,7 @@
     "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxQY01YWkJBY3Roa2hlWkVsbHhpcHplMm5NX09pWEJlMC1rWTY1ZDJoTUh0elc0WTZvdmpDOXJhS04tN2J5Y0N4NmZPdGk0aUhKdVZLT2RMSTk4S2EyZEJMYzY3WnpMMklfRjF3ZEJXZzU3d1VBTmlWS3Y1cllaYURseVQ4Nl93RFVLOXB4M1J6bnM1YVQ5QXBaSDZCOXEwUQ?oc=5",
     "source": "gnews_futures",
     "published_utc": "2026-11-12T11:02:25+00:00",
-    "score": 8.94,
+    "score": 8.89,
     "duplicates": 2
    },
    {
@@ -2734,7 +2759,7 @@
     "link": "https://www.marketwatch.com/story/nasdaq-futures-fall-as-nvidia-sinks-8-after-hours-on-report-board-may-oust-huang-e99b898d?mod=mw_rss_topstories",
     "source": "marketwatch_top",
     "published_utc": "2026-11-12T04:41:00+00:00",
-    "score": 8.88,
+    "score": 8.83,
     "duplicates": 2
    },
    {
@@ -2743,7 +2768,7 @@
     "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNVWJOVUNfczJuRFhCMUJkNHMtMWplYV8zdDN3ZXdNaVotam9MOTZHY3lFWVpLbzc5Qm9uOFpaaXF2bmVBNjVseEdYQmV2aUJCaEJVT3JNaTJneTB4TVpRUFVlcGZReTFST0YtYXZHOGdFNXFYZEVDR3dwTXNPUmdZX0d4X2ppTE9DTGpDNWFNU3hHVGdwbjFQYlB0OHUweF9s?oc=5",
     "source": "gnews_futures",
     "published_utc": "2026-11-12T09:39:10+00:00",
-    "score": 8.71,
+    "score": 8.66,
     "duplicates": 2
    },
    {
@@ -2752,7 +2777,7 @@
     "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQRHBVMG93dFhCT0Z1b2NLOHpSWm5aSG9uV2JtcGllR1k4VkhmLXhhbDJRTlVwZE4talJnWWdibFpucFYxLXF3c3d6V2VxRU56SGF3UC1zQ1JYVXYyeVFaeGhGUWtOWUpkejlfZHc4Zzkxd2ZIMlRTVDVVR0RpTFQ3WlY4V0RqNWlaZzJaaElzUVlZM1hPQlMyX25GWVNlMDN2eFZndnFoeDJURlR3RWhtQ1kxQVhvN18tQ1k2RFZPZzB1RXNaSHdrbmpGM1lHZld0?oc=5",
     "source": "gnews_futures",
     "published_utc": "2026-11-12T10:49:04+00:00",
-    "score": 8.4,
+    "score": 8.36,
     "duplicates": 0
    },
    {
@@ -2770,7 +2795,7 @@
     "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNRjZweTRZblZ2RHN6NkpuX29scXZ5dHY5T05qaUJOdGE5eXdXOS1JY2JEUDNzaXgwbzJoRlVCY0dObVhpeDhBSDhjaU4xVDVvRXhFeXJnWDZhb0hqNGpoTnMxYTNNYnJLXzZjYVNKTTlENDFPYlYzaGdSX1kyUE5RS2JxWndDVGFYaUkxaVJjaHZpcUpXc3VLYzAyUWdJcEtXSlhUcXBYQUlrM3VFNFNMeTZubw?oc=5",
     "source": "gnews_futures",
     "published_utc": "2026-11-12T11:06:24+00:00",
-    "score": 7.95,
+    "score": 7.9,
     "duplicates": 0
    },
    {
@@ -2779,7 +2804,7 @@
     "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTFB2Vk94d1BoMk1UMGVWOUdpcGVqZE1PcWk5Z19JY0NaeU5qUW9oek9yWUh2QS1IeHNuSVk1N3ota196c3FXQUlHOXZGTXFaekZZR2V0Rmt4LUMwZ0tsRHktdHVldDFaWS1ibFhlUkFSUVJSLW4yUmxGOW1kTQ?oc=5",
     "source": "gnews_fed",
     "published_utc": "2026-11-12T10:09:48+00:00",
-    "score": 7.79,
+    "score": 7.75,
     "duplicates": 1
    },
    {
@@ -2788,7 +2813,16 @@
     "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQdFA2c196U0Ewd255MEZwXzRYX0xlQTZzRV90enFaMGk3REwzVmtQVFVQRFV5Q2Q1WWdOTnVXUlY4VEJ5SjhQanJNckVzcnhxdzloTWMzc095MTk2Q1FWN0xTYl9lbkpPRnliNVFFcngyVjl5ZlVuX05IOFc1ODUzNjRUTzl5YkM2UU9nWGNES1ZRaWRkdFAxMzlBZFd0eW1nTlc2QU11R0tjT2FMZ1NNSVlWOHFJUQ?oc=5",
     "source": "gnews_futures",
     "published_utc": "2026-11-12T09:53:00+00:00",
-    "score": 7.74,
+    "score": 7.7,
+    "duplicates": 0
+   },
+   {
+    "id": "e03fcc7b79",
+    "title": "October Inflation and the Fed - The American Action Forum",
+    "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPdWRIVzlsVGRjUVo4Ul9JclNvdWFLb2VLdlNYX3FKWjFNY0dOekVaZTdwamZrYUdnNGFNNXkySF84VGx2ZkZFZWg1UDRnbFFJRGlEM09nZEx6bS1VbGgxcGVZcVVObW1WT2cwLTJ1Sjc1Qy1Kc1ZvclNiUC1ubE5IUDRwTQ?oc=5",
+    "source": "gnews_macro",
+    "published_utc": "2026-11-12T11:32:59+00:00",
+    "score": 7.48,
     "duplicates": 0
    },
    {
@@ -2797,35 +2831,17 @@
     "link": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxPSU5qdXZzMVRKN3JRX04wTU9HSTQ4elFZcWladWZkMWhBRnFoTGJhMXR6MkRhc0RjQmNtMnp0Mk1ERnQyR3lfOFZxaVVsYm9Va01PNGpaamY4YllLVEZCT0o0V2pWLUE4U0h4MGxySFJVMjQ1UUFrUzFLbVJLbVhoTlhGLW9WRUNhQ2VBZDNjZ2NwOU1uQ3otUWxFWkNCMnFrQjBiZFJVaTh4OFc3T1MxUUJLMkxEMGUzRXFPeUhVMUpGdzdyWm1EMjQ3dXBWcG9sSFQwOXIweVBGMlBqZkg4Y3N0UnhLQklOMzFoY3hHS2E?oc=5",
     "source": "gnews_macro",
     "published_utc": "2026-11-12T11:00:00+00:00",
-    "score": 7.43,
-    "duplicates": 0
-   },
-   {
-    "id": "fe9c4622ec",
-    "title": "Treasury yields edge higher as investors await fresh inflation and housing data",
-    "link": "https://www.cnbc.com/2026/11/12/us-treasurys-bonds-yields.html",
-    "source": "cnbc_markets",
-    "published_utc": "2026-11-12T07:38:45+00:00",
-    "score": 7.37,
-    "duplicates": 1
-   },
-   {
-    "id": "64981aaf64",
-    "title": "Gold Price Forecast: Gold Drops Below $4,000 as Hot CPI Lifts Yields - FXEmpire",
-    "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPTUdUT19RcTAya0lEYlp4Y3FVRnJEbmpfOUZBdV9nQnNsbTI2bE5iU1VBVV9wOXQtakNGWEI5YVVuU21OdmxoVjFYbjZNRDF2YnFuRE9qMUpfLVhnd3h5cUlkY1M0cXZZcC1ibW1oQkxOOVpUY0hOMml1bXU3MjdYNFpWODNRazIzdDE4YVJYdHhlNGpYWjFDMUpVQWJTYTItZjk5dzdvMnVpc1pYaHlrb29pMUlESVU?oc=5",
-    "source": "gnews_macro",
-    "published_utc": "2026-11-12T10:23:40+00:00",
-    "score": 7.33,
+    "score": 7.39,
     "duplicates": 0
    }
   ],
   "summary": {
    "lines": [
+    "Commerzbank Says Treasury Futures Supported as Nasdaq Futures Fall Amid Nvidia Leadership Uncertainty, Brent Slips - www.marketscreener.com [6d772e3db4]",
     "Nasdaq Futures Fall as Nvidia Leadership Uncertainty and China Chip Restrictions Weigh on Markets: Dow Jones, S&P, Wall Street - Yahoo Finance UK [c17a97fbba]",
     "Nasdaq, S&P 500 futures fall as Nvidia turbulence unsettles AI stocks - Reuters [440802f9b5]",
     "Nasdaq futures fall as Nvidia sinks 8% after hours on report board may oust Huang [7765d045ec]",
-    "Nasdaq futures fall as Nvidia turmoil rattles AI stocks - Yahoo Finance [47e2a3a59a]",
-    "US stock futures edge higher as Trump Iran comments and AI earnings lift risk appetite - VT Markets [482bca3c9e]"
+    "Nasdaq futures fall as Nvidia turmoil rattles AI stocks - Yahoo Finance [47e2a3a59a]"
    ],
    "backend": "none",
    "model": null,
