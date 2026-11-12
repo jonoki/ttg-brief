@@ -1,7 +1,7 @@
 {
  "meta": {
-  "generated_at_utc": "2026-11-12T14:40:58.533314+00:00",
-  "generated_at_local": "Thu 12 Nov 2026 10:40 AST",
+  "generated_at_utc": "2026-11-12T14:56:13.314485+00:00",
+  "generated_at_local": "Thu 12 Nov 2026 10:56 AST",
   "trading_day": "2026-11-12",
   "display_tz": "America/Halifax",
   "version": "0.1.0",
@@ -91,7 +91,7 @@
    "time_utc": "2026-11-12T18:00:00+00:00",
    "local": "14:00 AST",
    "et": "13:00 ET",
-   "in": "3h 19m",
+   "in": "3h 03m",
    "consensus": null,
    "prior": null
   },
@@ -102,10 +102,10 @@
   {
    "root": "ES",
    "trading_day": "2026-11-12",
-   "as_of_utc": "2026-11-12T14:40:58.533314+00:00",
+   "as_of_utc": "2026-11-12T14:56:13.314485+00:00",
    "source": "yahoo",
    "delayed": true,
-   "last_price": 7589.75,
+   "last_price": 7617.5,
    "levels": [
     {
      "tag": "exp_hi",
@@ -136,6 +136,13 @@
      "note": "70 % value area"
     },
     {
+     "tag": "rn_major_up",
+     "label": "Round 50 above",
+     "price": 7650.0,
+     "group": "round",
+     "note": ""
+    },
+    {
      "tag": "poc",
      "label": "Prior-day POC",
      "price": 7649.62,
@@ -155,6 +162,20 @@
      "price": 7628.5,
      "group": "overnight",
      "note": "since 18:00 ET, 920 bars"
+    },
+    {
+     "tag": "rn_minor_up",
+     "label": "Round 25 above",
+     "price": 7625.0,
+     "group": "round",
+     "note": ""
+    },
+    {
+     "tag": "tdh",
+     "label": "Today's RTH high",
+     "price": 7624.5,
+     "group": "today",
+     "note": "so far"
     },
     {
      "tag": "val",
@@ -178,18 +199,11 @@
      "note": "typical-price VWAP"
     },
     {
-     "tag": "rn_major_up",
-     "label": "Round 50 above",
+     "tag": "rn_major_dn",
+     "label": "Round 50 below",
      "price": 7600.0,
      "group": "round",
      "note": ""
-    },
-    {
-     "tag": "tdh",
-     "label": "Today's RTH high",
-     "price": 7594.5,
-     "group": "today",
-     "note": "so far"
     },
     {
      "tag": "pdl",
@@ -213,24 +227,10 @@
      "note": ""
     },
     {
-     "tag": "rn_minor_dn",
-     "label": "Round 25 below",
-     "price": 7575.0,
-     "group": "round",
-     "note": ""
-    },
-    {
      "tag": "onl",
      "label": "Overnight low",
      "price": 7572.0,
      "group": "overnight",
-     "note": ""
-    },
-    {
-     "tag": "rn_major_dn",
-     "label": "Round 50 below",
-     "price": 7550.0,
-     "group": "round",
      "note": ""
     },
     {
@@ -250,7 +250,7 @@
     {
      "tag": "pwh",
      "label": "Prior-week high",
-     "price": 7469.0,
+     "price": 7463.25,
      "group": "week",
      "note": "1 session(s) of data — PARTIAL"
     },
@@ -270,8 +270,8 @@
     }
    ],
    "stats": {
-    "last_bar_utc": "2026-11-12T14:30:00+00:00",
-    "last_bar_age_min": 11.0,
+    "last_bar_utc": "2026-11-12T14:46:00+00:00",
+    "last_bar_age_min": 10.2,
     "market_state": "open",
     "profile_volume": 1106332.0,
     "prior_day": "2026-11-11",
@@ -1521,20 +1521,28 @@
     {
      "t": "2026-11-12T14:30:00+00:00",
      "o": 7584.25,
-     "h": 7594.5,
+     "h": 7624.5,
      "l": 7581.5,
-     "c": 7589.75,
-     "v": 0.0
+     "c": 7618.25,
+     "v": 118258.0
+    },
+    {
+     "t": "2026-11-12T14:45:00+00:00",
+     "o": 7618.25,
+     "h": 7622.75,
+     "l": 7613.25,
+     "c": 7617.5,
+     "v": 6736.0
     }
    ]
   },
   {
    "root": "NQ",
    "trading_day": "2026-11-12",
-   "as_of_utc": "2026-11-12T14:40:58.533314+00:00",
+   "as_of_utc": "2026-11-12T14:56:13.314485+00:00",
    "source": "yahoo",
    "delayed": true,
-   "last_price": 28096.5,
+   "last_price": 28323.25,
    "levels": [
     {
      "tag": "exp_hi",
@@ -1579,6 +1587,20 @@
      "note": "2026-11-11"
     },
     {
+     "tag": "rn_major_up",
+     "label": "Round 100 above",
+     "price": 28400.0,
+     "group": "round",
+     "note": ""
+    },
+    {
+     "tag": "tdh",
+     "label": "Today's RTH high",
+     "price": 28391.0,
+     "group": "today",
+     "note": "so far"
+    },
+    {
      "tag": "val",
      "label": "Prior-day VAL",
      "price": 28371.0,
@@ -1600,6 +1622,20 @@
      "note": "2026-11-11"
     },
     {
+     "tag": "rn_minor_up",
+     "label": "Round 50 above",
+     "price": 28350.0,
+     "group": "round",
+     "note": ""
+    },
+    {
+     "tag": "rn_major_dn",
+     "label": "Round 100 below",
+     "price": 28300.0,
+     "group": "round",
+     "note": ""
+    },
+    {
      "tag": "pdl",
      "label": "Prior-day low (RTH)",
      "price": 28199.0,
@@ -1614,37 +1650,16 @@
      "note": "typical-price VWAP"
     },
     {
-     "tag": "tdh",
-     "label": "Today's RTH high",
-     "price": 28124.25,
-     "group": "today",
-     "note": "so far"
-    },
-    {
-     "tag": "rn_major_up",
-     "label": "Round 100 above",
-     "price": 28100.0,
-     "group": "round",
-     "note": ""
-    },
-    {
      "tag": "rtho",
      "label": "Today's RTH open",
-     "price": 28062.75,
+     "price": 28064.0,
      "group": "today",
      "note": "09:30 bar open"
     },
     {
-     "tag": "rn_minor_dn",
-     "label": "Round 50 below",
-     "price": 28050.0,
-     "group": "round",
-     "note": ""
-    },
-    {
      "tag": "tdl",
      "label": "Today's RTH low",
-     "price": 28048.5,
+     "price": 28044.5,
      "group": "today",
      "note": ""
     },
@@ -1653,13 +1668,6 @@
      "label": "Overnight low",
      "price": 28013.75,
      "group": "overnight",
-     "note": ""
-    },
-    {
-     "tag": "rn_major_dn",
-     "label": "Round 100 below",
-     "price": 28000.0,
-     "group": "round",
      "note": ""
     },
     {
@@ -1679,7 +1687,7 @@
     {
      "tag": "pwh",
      "label": "Prior-week high",
-     "price": 27425.0,
+     "price": 27382.5,
      "group": "week",
      "note": "1 session(s) of data — PARTIAL"
     },
@@ -1699,14 +1707,14 @@
     }
    ],
    "stats": {
-    "last_bar_utc": "2026-11-12T14:30:00+00:00",
-    "last_bar_age_min": 11.0,
+    "last_bar_utc": "2026-11-12T14:46:00+00:00",
+    "last_bar_age_min": 10.2,
     "market_state": "open",
     "profile_volume": 443102.0,
     "prior_day": "2026-11-11",
     "prior_day_rth_range": 498.0,
     "overnight_range": 355.0,
-    "gap_vs_prior_close": -421.5,
+    "gap_vs_prior_close": -420.25,
     "gap_basis": "RTH open",
     "atr14": 908.95,
     "atr_days": 14,
@@ -2949,11 +2957,19 @@
     },
     {
      "t": "2026-11-12T14:30:00+00:00",
-     "o": 28062.75,
-     "h": 28124.25,
-     "l": 28048.5,
-     "c": 28096.5,
-     "v": 0.0
+     "o": 28064.0,
+     "h": 28391.0,
+     "l": 28044.5,
+     "c": 28329.25,
+     "v": 62777.0
+    },
+    {
+     "t": "2026-11-12T14:45:00+00:00",
+     "o": 28327.75,
+     "h": 28374.0,
+     "l": 28289.25,
+     "c": 28323.25,
+     "v": 3439.0
     }
    ]
   }
@@ -2966,7 +2982,7 @@
     "link": "https://www.marketwatch.com/story/nvidias-jensen-huang-dilemma-is-a-test-of-the-ai-industrys-dependence-on-one-flawed-man-a9a1d99c?mod=mw_rss_topstories",
     "source": "marketwatch_top",
     "published_utc": "2026-11-12T12:29:00+00:00",
-    "score": 10.63,
+    "score": 10.59,
     "duplicates": 0
    },
    {
@@ -2975,7 +2991,7 @@
     "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxNbi1kOEoySWkzOElFUnlCS0ZDWGJzVVVFS1ZMbF9zN3BXQ3YtUzlpbVAtVGFjczZ3bXJ4ZFMteTJ1dWhMV05IYllzMHltTTRDUzJPcVRhbFpxQ0tweXZuSjM1QmRVNGR5NHFKYVFYc1FGdFBqLUtVSWItbGdQa2xMMGxqWXh0UmJZOF9PSUxyT29HdVBUTVdPQUZSSHJDNXNWWEhCelRoamxmMWRQNW4tVmlfSXhaQndwb0d2OEhXdENLYmE2MnZENU82ZzRJcVk?oc=5",
     "source": "gnews_futures",
     "published_utc": "2026-11-12T11:40:35+00:00",
-    "score": 10.5,
+    "score": 10.46,
     "duplicates": 0
    },
    {
@@ -2984,7 +3000,7 @@
     "link": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxPcFpobVBPcGFhZ19SMUpOMlFHbnotcy1oaEFKVzRUNXBhbS1oVFM5ZDM4WG9tbWN4TU5UNURXOG10TlEtd3otbHdRRFZNRm9TWlBBcXBUWHVXR2VHSlFTbU8zSHE0NmFqTnVkXy1wc2ZOZXk3TExDaVZmeDRDcXdSYXl4ajF1Vmdtd3VXSzZQTmZEVUJXdmF4cE1Vd3BrUlJ3X1BlQ3EzR2JjUzlBMUp2YkY4aDJpa2dHOFJtZ0VLdDVEYzRWSVBNdVIzSFRtWHlULUM2Z0lSanhEMW9rSFZ5bWVBb283Y05u?oc=5",
     "source": "gnews_futures",
     "published_utc": "2026-11-12T11:33:30+00:00",
-    "score": 9.48,
+    "score": 9.44,
     "duplicates": 0
    },
    {
@@ -2993,26 +3009,8 @@
     "link": "https://www.cnbc.com/2026/11/12/us-treasurys-bonds-yields.html",
     "source": "cnbc_markets",
     "published_utc": "2026-11-12T14:22:19+00:00",
-    "score": 9.45,
+    "score": 9.41,
     "duplicates": 1
-   },
-   {
-    "id": "c17a97fbba",
-    "title": "Nasdaq Futures Fall as Nvidia Leadership Uncertainty and China Chip Restrictions Weigh on Markets: Dow Jones, S&P, Wall Street - Yahoo Finance UK",
-    "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOZFJFM2RNdHpXTjlabFBaem5VWWZuazhjRjFIamd0cE9vU2pZOFVkZFdpeHp6VzRfaHNuaWNDbkJYTk1WcmN0S0hMYzFwQl9oTHJLeFRjUHFTb1I3YlNkaG5qVnZBMElScWx2eHpWeHpUSkRjZlhibzNmLVFyU1NqZTVwYnk5ZXJFNjh4cWk0VQ?oc=5",
-    "source": "gnews_futures",
-    "published_utc": "2026-11-12T10:04:47+00:00",
-    "score": 8.73,
-    "duplicates": 0
-   },
-   {
-    "id": "008ad5270f",
-    "title": "Wall Street set to dip as Nvidia storm continues, Treasury yields bob at 5% - Yahoo Finance",
-    "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNV3B6b0hjZ0hod2RPeGhEbGNER2dVUk1vTU90aUI2V0U0WDJxVW9fUTBFc3NjRzEwXzZaNWYtY3VBcUhpZUlWS056MjItbGE0QTZvS2E1Q2tsdnYwd24yZU5aS1REMzVINTBjWTV3OWYwX1RGM21NdW9BeVBBUjRSMXZkcHRXd0tPUTBpNE5FWnBpdHVMcmhTMkd0bHVodnFxQUpR?oc=5",
-    "source": "gnews_megacap",
-    "published_utc": "2026-11-12T12:57:53+00:00",
-    "score": 8.71,
-    "duplicates": 2
    },
    {
     "id": "d816720e51",
@@ -3020,8 +3018,26 @@
     "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxOa2dLMFBnREZPSUpiYUJENDljaFVOLUM1M3p1VXVmOXBBU2xrb3BpREhHanZDeEUzQlhEMXZFSW9aM0lvaDFBandiOWVhd2ZUM1hJNVBKaGVPQ21HLWNpVkpXZWRDNHZKY1BuaUdSOUl2V3J0UTJONmd0YVdveURhRmlYNEZEbGltQWx5akFRRl9IZ3lobm9oRUpMejhxRXBmd3F5TUlqNm5hM08xVHY2ems2OFNYRnRTNkpmZTBpWGxpY1hlVFc0LVM1eXcwalY2YW1nWA?oc=5",
     "source": "gnews_futures",
     "published_utc": "2026-11-12T12:25:59+00:00",
-    "score": 8.63,
-    "duplicates": 2
+    "score": 9.08,
+    "duplicates": 3
+   },
+   {
+    "id": "c17a97fbba",
+    "title": "Nasdaq Futures Fall as Nvidia Leadership Uncertainty and China Chip Restrictions Weigh on Markets: Dow Jones, S&P, Wall Street - Yahoo Finance UK",
+    "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOZFJFM2RNdHpXTjlabFBaem5VWWZuazhjRjFIamd0cE9vU2pZOFVkZFdpeHp6VzRfaHNuaWNDbkJYTk1WcmN0S0hMYzFwQl9oTHJLeFRjUHFTb1I3YlNkaG5qVnZBMElScWx2eHpWeHpUSkRjZlhibzNmLVFyU1NqZTVwYnk5ZXJFNjh4cWk0VQ?oc=5",
+    "source": "gnews_futures",
+    "published_utc": "2026-11-12T10:04:47+00:00",
+    "score": 8.69,
+    "duplicates": 0
+   },
+   {
+    "id": "0fd141f33c",
+    "title": "Nvidia shares plunge 13% at open after CEO Jensen Huang resigns - The Globe and Mail",
+    "link": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxQUHJnRXZmb2JNaEQ2dzg4dU41U0ZEWDNqVHBBNXpUY3ByUTlORUFvcS1vVmV6bmpKS29SUzF4dVNqUW4wX0s5clZIazB2cXJ4MGpBZ2s0d2VCY054ZnZVY255WEpMUjVUVnZHSEkwYVpiTHlZRkRfN2FRWUpiUFhFLUdyTWVGVjFKdG5tbkdnZHMteWs3WFVsZFM0ajU2Y2lOU1g3NFM0TkI1ZzlkRDQ4OVF4dEdSaHpCN29TM0JvU2JqQWdwZEp1aE9VYm85WmloMWRVTjlXWEh4N0toS3loVmxR?oc=5",
+    "source": "gnews_megacap",
+    "published_utc": "2026-11-12T14:37:20+00:00",
+    "score": 8.45,
+    "duplicates": 6
    },
    {
     "id": "8a41964588",
@@ -3029,7 +3045,25 @@
     "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxNRGkySm81VjBXcUpPR3dfMGVnRG1SYU80ekFpTTNPTVN1REhlV1JpblJPSE9FWGlHTm1EWk9GLW91N213ZjBQdUM1OXprWE82bEtXTVQtb2NwT1VvLS12dU5obVFHeVlNckVRaVNSUFVSalVVeW55SGh6d3ZBRkh5T0hULUdibklnZDgtZ1YwLVFOQWxmV0dlbEpRTGk4dw?oc=5",
     "source": "gnews_futures",
     "published_utc": "2026-11-12T13:01:00+00:00",
-    "score": 8.22,
+    "score": 8.18,
+    "duplicates": 1
+   },
+   {
+    "id": "6caa07754e",
+    "title": "A plunge for Nvidia’s stock drags Wall Street lower - BNN Bloomberg",
+    "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQM3M1YVFyb3dfTWhnYlNyOGFwRVR0QzQtaU1uLVhUMU5MWnBxVGl2em0zeTZVaDZOUEU5UXh0OE9sZDVFbXcyczJzWlV4R3FjeGc0eERmMEpzSG03WG9yN09fckdhcnhmWTNRYVhVZWRYajlpTEN4bDQ5TkVKdlNseUhESlc4dHpNQy1kVy0yR0ZKVjBjS3RFRk16Z2lrcjRVcHhPTU01QUExakJEeFVZ?oc=5",
+    "source": "gnews_megacap",
+    "published_utc": "2026-11-12T14:41:03+00:00",
+    "score": 7.96,
+    "duplicates": 1
+   },
+   {
+    "id": "f85989754d",
+    "title": "Fed’s Hammack says inflation is worsening, favors gradual hikes - FXStreet",
+    "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQaVhwX1BkWnNTcFNmbU5UdmIwZEJaak5IZHlBTTA0SWw1N0VuUDludG5CTkVhU2xfOXJkSWFEM3NrMHMzdU52cjZzUno0V056T09Nb1U4aExHZjRFeExTcDdLcFUtOVAwVzJZX09JSS1xb0d0SkpIRDhHWUI0c000NHpxYVVRWnUtZ0ZiYTVXVkhOb3ZJNzlVZjNLaHJiYmZCSG9scnhSUQ?oc=5",
+    "source": "gnews_fed",
+    "published_utc": "2026-11-12T14:36:15+00:00",
+    "score": 7.94,
     "duplicates": 1
    },
    {
@@ -3038,16 +3072,7 @@
     "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQampDUjkycFFDOFNpS3VmY2c2N0xJRjJLSTF4azdrLXU1U3d3djh5Zlc5aDFuSWhBRzU2YjBPS3FKdUZFS0JxS1JpVm9YMTFNSFRmblQtMjZQNkxqdGo2bDRWQWR6V0xKUW5Wb1NfdWFKb0xfN2tpbEYxZmlpM21nOTFrajIyUTVaOGNLeGthQktWNEhkV24xdEduQktxbHNxVkRGY2loTQ?oc=5",
     "source": "gnews_fed",
     "published_utc": "2026-11-12T14:12:35+00:00",
-    "score": 7.92,
-    "duplicates": 1
-   },
-   {
-    "id": "c1e7d793cf",
-    "title": "Latest inflation reading 'borderline disturbing' says Fed official, suggesting hikes ahead - Mortgage Professional America",
-    "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxOT2kyRjd0UHVLSlBHU1dUUEI0bUhaZzNEVkdZYTdDUGZ0OUZvVnVJYUhWX2x0aE5SYXhCdDRGVWJFTWZjRUZKdzVqUjl1RVZHaFUtNkVld216Z2lpVnNNbDFkZzFIRWdKQVZfcGtQZ3dQenpKRnlveUVnOUxGdThLTy16cGVMQ3IxUUx2MVhTcjUwWENpb0VZTWlhWC00MEdrMVNYbXpfWTJxbHdWZ1lQb0FTeURfVzRMbzk2YnRsbG02Q3FuNHU4WVRuU0pTZw?oc=5",
-    "source": "gnews_fed",
-    "published_utc": "2026-11-12T14:04:39+00:00",
-    "score": 7.9,
+    "score": 7.88,
     "duplicates": 1
    },
    {
@@ -3056,16 +3081,7 @@
     "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQRHBVMG93dFhCT0Z1b2NLOHpSWm5aSG9uV2JtcGllR1k4VkhmLXhhbDJRTlVwZE4talJnWWdibFpucFYxLXF3c3d6V2VxRU56SGF3UC1zQ1JYVXYyeVFaeGhGUWtOWUpkejlfZHc4Zzkxd2ZIMlRTVDVVR0RpTFQ3WlY4V0RqNWlaZzJaaElzUVlZM1hPQlMyX25GWVNlMDN2eFZndnFoeDJURlR3RWhtQ1kxQVhvN18tQ1k2RFZPZzB1RXNaSHdrbmpGM1lHZld0?oc=5",
     "source": "gnews_futures",
     "published_utc": "2026-11-12T10:49:04+00:00",
-    "score": 7.86,
-    "duplicates": 0
-   },
-   {
-    "id": "e77af31575",
-    "title": "Nasdaq futures retreat as Nvidia troubles deepen pressure on AI stocks - Traders Union",
-    "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE9OdEt6S1RRdmR2VDV3aFBLR1JVT2toTWR4RW43bnpTc3ZpQTFGZVZoem9fVzVBZXpXcGgwQWpGV2VIMGNQUnlIVFNfWlVmZlhnYUozdmZOR09nSm56ZkltSnkyak5tc3dEM242NnctcDNpSlhhbzBtMlRic0F4QQ?oc=5",
-    "source": "gnews_futures",
-    "published_utc": "2026-11-12T12:48:20+00:00",
-    "score": 7.69,
+    "score": 7.81,
     "duplicates": 0
    }
   ],
@@ -3075,7 +3091,7 @@
     "Nasdaq Futures Slump as Nvidia Crisis Hits AI Trade; U.S. Economic Data and Fed Speak on Tap - Barchart.com [4eb486440d]",
     "Commerzbank Says Treasury Futures Supported as Nasdaq Futures Fall Amid Nvidia Leadership Uncertainty, Brent Slips - marketscreener.com [6d772e3db4]",
     "10-year Treasury yield jumps back above 5% as oil gains and more Fed rate hikes expected [fe9c4622ec]",
-    "Nasdaq Futures Fall as Nvidia Leadership Uncertainty and China Chip Restrictions Weigh on Markets: Dow Jones, S&P, Wall Street - Yahoo Finance UK [c17a97fbba]"
+    "Nasdaq, S&P 500 futures fall as Nvidia turbulence unsettles AI stocks - TradingView [d816720e51]"
    ],
    "backend": "none",
    "model": null,
