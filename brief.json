@@ -1,7 +1,7 @@
 {
  "meta": {
-  "generated_at_utc": "2026-11-12T14:56:13.314485+00:00",
-  "generated_at_local": "Thu 12 Nov 2026 10:56 AST",
+  "generated_at_utc": "2026-11-12T15:11:33.219468+00:00",
+  "generated_at_local": "Thu 12 Nov 2026 11:11 AST",
   "trading_day": "2026-11-12",
   "display_tz": "America/Halifax",
   "version": "0.1.0",
@@ -91,7 +91,7 @@
    "time_utc": "2026-11-12T18:00:00+00:00",
    "local": "14:00 AST",
    "et": "13:00 ET",
-   "in": "3h 03m",
+   "in": "2h 48m",
    "consensus": null,
    "prior": null
   },
@@ -102,10 +102,10 @@
   {
    "root": "ES",
    "trading_day": "2026-11-12",
-   "as_of_utc": "2026-11-12T14:56:13.314485+00:00",
+   "as_of_utc": "2026-11-12T15:11:33.219468+00:00",
    "source": "yahoo",
    "delayed": true,
-   "last_price": 7617.5,
+   "last_price": 7613.25,
    "levels": [
     {
      "tag": "exp_hi",
@@ -157,6 +157,13 @@
      "note": "2026-11-11"
     },
     {
+     "tag": "tdh",
+     "label": "Today's RTH high",
+     "price": 7633.0,
+     "group": "today",
+     "note": "so far"
+    },
+    {
      "tag": "onh",
      "label": "Overnight high",
      "price": 7628.5,
@@ -169,13 +176,6 @@
      "price": 7625.0,
      "group": "round",
      "note": ""
-    },
-    {
-     "tag": "tdh",
-     "label": "Today's RTH high",
-     "price": 7624.5,
-     "group": "today",
-     "note": "so far"
     },
     {
      "tag": "val",
@@ -270,8 +270,8 @@
     }
    ],
    "stats": {
-    "last_bar_utc": "2026-11-12T14:46:00+00:00",
-    "last_bar_age_min": 10.2,
+    "last_bar_utc": "2026-11-12T15:01:00+00:00",
+    "last_bar_age_min": 10.6,
     "market_state": "open",
     "profile_volume": 1106332.0,
     "prior_day": "2026-11-11",
@@ -1529,20 +1529,28 @@
     {
      "t": "2026-11-12T14:45:00+00:00",
      "o": 7618.25,
-     "h": 7622.75,
+     "h": 7633.0,
      "l": 7613.25,
-     "c": 7617.5,
-     "v": 6736.0
+     "c": 7620.5,
+     "v": 79519.0
+    },
+    {
+     "t": "2026-11-12T15:00:00+00:00",
+     "o": 7620.75,
+     "h": 7621.5,
+     "l": 7609.5,
+     "c": 7613.25,
+     "v": 6433.0
     }
    ]
   },
   {
    "root": "NQ",
    "trading_day": "2026-11-12",
-   "as_of_utc": "2026-11-12T14:56:13.314485+00:00",
+   "as_of_utc": "2026-11-12T15:11:33.219468+00:00",
    "source": "yahoo",
    "delayed": true,
-   "last_price": 28323.25,
+   "last_price": 28312.25,
    "levels": [
     {
      "tag": "exp_hi",
@@ -1596,7 +1604,7 @@
     {
      "tag": "tdh",
      "label": "Today's RTH high",
-     "price": 28391.0,
+     "price": 28398.5,
      "group": "today",
      "note": "so far"
     },
@@ -1687,7 +1695,7 @@
     {
      "tag": "pwh",
      "label": "Prior-week high",
-     "price": 27382.5,
+     "price": 27323.75,
      "group": "week",
      "note": "1 session(s) of data — PARTIAL"
     },
@@ -1707,8 +1715,8 @@
     }
    ],
    "stats": {
-    "last_bar_utc": "2026-11-12T14:46:00+00:00",
-    "last_bar_age_min": 10.2,
+    "last_bar_utc": "2026-11-12T15:01:00+00:00",
+    "last_bar_age_min": 10.6,
     "market_state": "open",
     "profile_volume": 443102.0,
     "prior_day": "2026-11-11",
@@ -2966,10 +2974,18 @@
     {
      "t": "2026-11-12T14:45:00+00:00",
      "o": 28327.75,
-     "h": 28374.0,
-     "l": 28289.25,
-     "c": 28323.25,
-     "v": 3439.0
+     "h": 28398.5,
+     "l": 28258.5,
+     "c": 28359.0,
+     "v": 40332.0
+    },
+    {
+     "t": "2026-11-12T15:00:00+00:00",
+     "o": 28363.5,
+     "h": 28368.25,
+     "l": 28273.0,
+     "c": 28312.25,
+     "v": 2744.0
     }
    ]
   }
@@ -2982,7 +2998,7 @@
     "link": "https://www.marketwatch.com/story/nvidias-jensen-huang-dilemma-is-a-test-of-the-ai-industrys-dependence-on-one-flawed-man-a9a1d99c?mod=mw_rss_topstories",
     "source": "marketwatch_top",
     "published_utc": "2026-11-12T12:29:00+00:00",
-    "score": 10.59,
+    "score": 10.55,
     "duplicates": 0
    },
    {
@@ -2991,7 +3007,7 @@
     "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxNbi1kOEoySWkzOElFUnlCS0ZDWGJzVVVFS1ZMbF9zN3BXQ3YtUzlpbVAtVGFjczZ3bXJ4ZFMteTJ1dWhMV05IYllzMHltTTRDUzJPcVRhbFpxQ0tweXZuSjM1QmRVNGR5NHFKYVFYc1FGdFBqLUtVSWItbGdQa2xMMGxqWXh0UmJZOF9PSUxyT29HdVBUTVdPQUZSSHJDNXNWWEhCelRoamxmMWRQNW4tVmlfSXhaQndwb0d2OEhXdENLYmE2MnZENU82ZzRJcVk?oc=5",
     "source": "gnews_futures",
     "published_utc": "2026-11-12T11:40:35+00:00",
-    "score": 10.46,
+    "score": 10.41,
     "duplicates": 0
    },
    {
@@ -3000,7 +3016,7 @@
     "link": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxPcFpobVBPcGFhZ19SMUpOMlFHbnotcy1oaEFKVzRUNXBhbS1oVFM5ZDM4WG9tbWN4TU5UNURXOG10TlEtd3otbHdRRFZNRm9TWlBBcXBUWHVXR2VHSlFTbU8zSHE0NmFqTnVkXy1wc2ZOZXk3TExDaVZmeDRDcXdSYXl4ajF1Vmdtd3VXSzZQTmZEVUJXdmF4cE1Vd3BrUlJ3X1BlQ3EzR2JjUzlBMUp2YkY4aDJpa2dHOFJtZ0VLdDVEYzRWSVBNdVIzSFRtWHlULUM2Z0lSanhEMW9rSFZ5bWVBb283Y05u?oc=5",
     "source": "gnews_futures",
     "published_utc": "2026-11-12T11:33:30+00:00",
-    "score": 9.44,
+    "score": 9.39,
     "duplicates": 0
    },
    {
@@ -3009,17 +3025,8 @@
     "link": "https://www.cnbc.com/2026/11/12/us-treasurys-bonds-yields.html",
     "source": "cnbc_markets",
     "published_utc": "2026-11-12T14:22:19+00:00",
-    "score": 9.41,
+    "score": 9.36,
     "duplicates": 1
-   },
-   {
-    "id": "d816720e51",
-    "title": "Nasdaq, S&P 500 futures fall as Nvidia turbulence unsettles AI stocks - TradingView",
-    "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxOa2dLMFBnREZPSUpiYUJENDljaFVOLUM1M3p1VXVmOXBBU2xrb3BpREhHanZDeEUzQlhEMXZFSW9aM0lvaDFBandiOWVhd2ZUM1hJNVBKaGVPQ21HLWNpVkpXZWRDNHZKY1BuaUdSOUl2V3J0UTJONmd0YVdveURhRmlYNEZEbGltQWx5akFRRl9IZ3lobm9oRUpMejhxRXBmd3F5TUlqNm5hM08xVHY2ems2OFNYRnRTNkpmZTBpWGxpY1hlVFc0LVM1eXcwalY2YW1nWA?oc=5",
-    "source": "gnews_futures",
-    "published_utc": "2026-11-12T12:25:59+00:00",
-    "score": 9.08,
-    "duplicates": 3
    },
    {
     "id": "c17a97fbba",
@@ -3027,17 +3034,17 @@
     "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOZFJFM2RNdHpXTjlabFBaem5VWWZuazhjRjFIamd0cE9vU2pZOFVkZFdpeHp6VzRfaHNuaWNDbkJYTk1WcmN0S0hMYzFwQl9oTHJLeFRjUHFTb1I3YlNkaG5qVnZBMElScWx2eHpWeHpUSkRjZlhibzNmLVFyU1NqZTVwYnk5ZXJFNjh4cWk0VQ?oc=5",
     "source": "gnews_futures",
     "published_utc": "2026-11-12T10:04:47+00:00",
-    "score": 8.69,
+    "score": 8.65,
     "duplicates": 0
    },
    {
-    "id": "0fd141f33c",
-    "title": "Nvidia shares plunge 13% at open after CEO Jensen Huang resigns - The Globe and Mail",
-    "link": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxQUHJnRXZmb2JNaEQ2dzg4dU41U0ZEWDNqVHBBNXpUY3ByUTlORUFvcS1vVmV6bmpKS29SUzF4dVNqUW4wX0s5clZIazB2cXJ4MGpBZ2s0d2VCY054ZnZVY255WEpMUjVUVnZHSEkwYVpiTHlZRkRfN2FRWUpiUFhFLUdyTWVGVjFKdG5tbkdnZHMteWs3WFVsZFM0ajU2Y2lOU1g3NFM0TkI1ZzlkRDQ4OVF4dEdSaHpCN29TM0JvU2JqQWdwZEp1aE9VYm85WmloMWRVTjlXWEh4N0toS3loVmxR?oc=5",
-    "source": "gnews_megacap",
-    "published_utc": "2026-11-12T14:37:20+00:00",
-    "score": 8.45,
-    "duplicates": 6
+    "id": "d816720e51",
+    "title": "Nasdaq, S&P 500 futures fall as Nvidia turbulence unsettles AI stocks - TradingView",
+    "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxOa2dLMFBnREZPSUpiYUJENDljaFVOLUM1M3p1VXVmOXBBU2xrb3BpREhHanZDeEUzQlhEMXZFSW9aM0lvaDFBandiOWVhd2ZUM1hJNVBKaGVPQ21HLWNpVkpXZWRDNHZKY1BuaUdSOUl2V3J0UTJONmd0YVdveURhRmlYNEZEbGltQWx5akFRRl9IZ3lobm9oRUpMejhxRXBmd3F5TUlqNm5hM08xVHY2ems2OFNYRnRTNkpmZTBpWGxpY1hlVFc0LVM1eXcwalY2YW1nWA?oc=5",
+    "source": "gnews_futures",
+    "published_utc": "2026-11-12T12:25:59+00:00",
+    "score": 8.54,
+    "duplicates": 2
    },
    {
     "id": "8a41964588",
@@ -3045,7 +3052,7 @@
     "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxNRGkySm81VjBXcUpPR3dfMGVnRG1SYU80ekFpTTNPTVN1REhlV1JpblJPSE9FWGlHTm1EWk9GLW91N213ZjBQdUM1OXprWE82bEtXTVQtb2NwT1VvLS12dU5obVFHeVlNckVRaVNSUFVSalVVeW55SGh6d3ZBRkh5T0hULUdibklnZDgtZ1YwLVFOQWxmV0dlbEpRTGk4dw?oc=5",
     "source": "gnews_futures",
     "published_utc": "2026-11-12T13:01:00+00:00",
-    "score": 8.18,
+    "score": 8.14,
     "duplicates": 1
    },
    {
@@ -3054,7 +3061,7 @@
     "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQM3M1YVFyb3dfTWhnYlNyOGFwRVR0QzQtaU1uLVhUMU5MWnBxVGl2em0zeTZVaDZOUEU5UXh0OE9sZDVFbXcyczJzWlV4R3FjeGc0eERmMEpzSG03WG9yN09fckdhcnhmWTNRYVhVZWRYajlpTEN4bDQ5TkVKdlNseUhESlc4dHpNQy1kVy0yR0ZKVjBjS3RFRk16Z2lrcjRVcHhPTU01QUExakJEeFVZ?oc=5",
     "source": "gnews_megacap",
     "published_utc": "2026-11-12T14:41:03+00:00",
-    "score": 7.96,
+    "score": 7.92,
     "duplicates": 1
    },
    {
@@ -3063,8 +3070,17 @@
     "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQaVhwX1BkWnNTcFNmbU5UdmIwZEJaak5IZHlBTTA0SWw1N0VuUDludG5CTkVhU2xfOXJkSWFEM3NrMHMzdU52cjZzUno0V056T09Nb1U4aExHZjRFeExTcDdLcFUtOVAwVzJZX09JSS1xb0d0SkpIRDhHWUI0c000NHpxYVVRWnUtZ0ZiYTVXVkhOb3ZJNzlVZjNLaHJiYmZCSG9scnhSUQ?oc=5",
     "source": "gnews_fed",
     "published_utc": "2026-11-12T14:36:15+00:00",
-    "score": 7.94,
+    "score": 7.9,
     "duplicates": 1
+   },
+   {
+    "id": "0fd141f33c",
+    "title": "Nvidia shares plunge 13% at open after CEO Jensen Huang resigns - The Globe and Mail",
+    "link": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxQUHJnRXZmb2JNaEQ2dzg4dU41U0ZEWDNqVHBBNXpUY3ByUTlORUFvcS1vVmV6bmpKS29SUzF4dVNqUW4wX0s5clZIazB2cXJ4MGpBZ2s0d2VCY054ZnZVY255WEpMUjVUVnZHSEkwYVpiTHlZRkRfN2FRWUpiUFhFLUdyTWVGVjFKdG5tbkdnZHMteWs3WFVsZFM0ajU2Y2lOU1g3NFM0TkI1ZzlkRDQ4OVF4dEdSaHpCN29TM0JvU2JqQWdwZEp1aE9VYm85WmloMWRVTjlXWEh4N0toS3loVmxR?oc=5",
+    "source": "gnews_megacap",
+    "published_utc": "2026-11-12T14:37:20+00:00",
+    "score": 7.9,
+    "duplicates": 5
    },
    {
     "id": "f8041111cc",
@@ -3072,7 +3088,7 @@
     "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQampDUjkycFFDOFNpS3VmY2c2N0xJRjJLSTF4azdrLXU1U3d3djh5Zlc5aDFuSWhBRzU2YjBPS3FKdUZFS0JxS1JpVm9YMTFNSFRmblQtMjZQNkxqdGo2bDRWQWR6V0xKUW5Wb1NfdWFKb0xfN2tpbEYxZmlpM21nOTFrajIyUTVaOGNLeGthQktWNEhkV24xdEduQktxbHNxVkRGY2loTQ?oc=5",
     "source": "gnews_fed",
     "published_utc": "2026-11-12T14:12:35+00:00",
-    "score": 7.88,
+    "score": 7.84,
     "duplicates": 1
    },
    {
@@ -3081,7 +3097,7 @@
     "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQRHBVMG93dFhCT0Z1b2NLOHpSWm5aSG9uV2JtcGllR1k4VkhmLXhhbDJRTlVwZE4talJnWWdibFpucFYxLXF3c3d6V2VxRU56SGF3UC1zQ1JYVXYyeVFaeGhGUWtOWUpkejlfZHc4Zzkxd2ZIMlRTVDVVR0RpTFQ3WlY4V0RqNWlaZzJaaElzUVlZM1hPQlMyX25GWVNlMDN2eFZndnFoeDJURlR3RWhtQ1kxQVhvN18tQ1k2RFZPZzB1RXNaSHdrbmpGM1lHZld0?oc=5",
     "source": "gnews_futures",
     "published_utc": "2026-11-12T10:49:04+00:00",
-    "score": 7.81,
+    "score": 7.77,
     "duplicates": 0
    }
   ],
@@ -3091,7 +3107,7 @@
     "Nasdaq Futures Slump as Nvidia Crisis Hits AI Trade; U.S. Economic Data and Fed Speak on Tap - Barchart.com [4eb486440d]",
     "Commerzbank Says Treasury Futures Supported as Nasdaq Futures Fall Amid Nvidia Leadership Uncertainty, Brent Slips - marketscreener.com [6d772e3db4]",
     "10-year Treasury yield jumps back above 5% as oil gains and more Fed rate hikes expected [fe9c4622ec]",
-    "Nasdaq, S&P 500 futures fall as Nvidia turbulence unsettles AI stocks - TradingView [d816720e51]"
+    "Nasdaq Futures Fall as Nvidia Leadership Uncertainty and China Chip Restrictions Weigh on Markets: Dow Jones, S&P, Wall Street - Yahoo Finance UK [c17a97fbba]"
    ],
    "backend": "none",
    "model": null,
