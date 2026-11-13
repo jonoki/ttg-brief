@@ -1,7 +1,7 @@
 {
  "meta": {
-  "generated_at_utc": "2026-11-13T16:28:13.548516+00:00",
-  "generated_at_local": "Fri 13 Nov 2026 12:28 AST",
+  "generated_at_utc": "2026-11-13T16:43:31.561389+00:00",
+  "generated_at_local": "Fri 13 Nov 2026 12:43 AST",
   "trading_day": "2026-11-13",
   "display_tz": "America/Halifax",
   "version": "0.1.0",
@@ -57,10 +57,10 @@
   {
    "root": "ES",
    "trading_day": "2026-11-13",
-   "as_of_utc": "2026-11-13T16:28:13.548516+00:00",
+   "as_of_utc": "2026-11-13T16:43:31.561389+00:00",
    "source": "yahoo",
    "delayed": true,
-   "last_price": 7531.75,
+   "last_price": 7549.5,
    "levels": [
     {
      "tag": "exp_hi",
@@ -211,8 +211,8 @@
     }
    ],
    "stats": {
-    "last_bar_utc": "2026-11-13T16:18:00+00:00",
-    "last_bar_age_min": 10.2,
+    "last_bar_utc": "2026-11-13T16:33:00+00:00",
+    "last_bar_age_min": 10.5,
     "market_state": "open",
     "profile_volume": 1346183.0,
     "prior_day": "2026-11-12",
@@ -1518,20 +1518,28 @@
     {
      "t": "2026-11-13T16:15:00+00:00",
      "o": 7536.75,
-     "h": 7538.5,
-     "l": 7530.0,
-     "c": 7531.75,
-     "v": 11340.0
+     "h": 7553.25,
+     "l": 7524.75,
+     "c": 7549.75,
+     "v": 60002.0
+    },
+    {
+     "t": "2026-11-13T16:30:00+00:00",
+     "o": 7549.5,
+     "h": 7555.5,
+     "l": 7543.0,
+     "c": 7549.5,
+     "v": 12346.0
     }
    ]
   },
   {
    "root": "NQ",
    "trading_day": "2026-11-13",
-   "as_of_utc": "2026-11-13T16:28:13.548516+00:00",
+   "as_of_utc": "2026-11-13T16:43:31.561389+00:00",
    "source": "yahoo",
    "delayed": true,
-   "last_price": 27722.25,
+   "last_price": 27856.5,
    "levels": [
     {
      "tag": "exp_hi",
@@ -1641,29 +1649,29 @@
     {
      "tag": "rn_major_up",
      "label": "Round 100 above",
-     "price": 27800.0,
+     "price": 27900.0,
      "group": "round",
      "note": ""
     },
     {
-     "tag": "rn_minor_up",
-     "label": "Round 50 above",
-     "price": 27750.0,
+     "tag": "rn_minor_dn",
+     "label": "Round 50 below",
+     "price": 27850.0,
+     "group": "round",
+     "note": ""
+    },
+    {
+     "tag": "rn_major_dn",
+     "label": "Round 100 below",
+     "price": 27800.0,
      "group": "round",
      "note": ""
     },
     {
      "tag": "tdl",
      "label": "Today's RTH low",
-     "price": 27708.25,
+     "price": 27695.25,
      "group": "today",
-     "note": ""
-    },
-    {
-     "tag": "rn_major_dn",
-     "label": "Round 100 below",
-     "price": 27700.0,
-     "group": "round",
      "note": ""
     },
     {
@@ -1682,8 +1690,8 @@
     }
    ],
    "stats": {
-    "last_bar_utc": "2026-11-13T16:18:00+00:00",
-    "last_bar_age_min": 10.2,
+    "last_bar_utc": "2026-11-13T16:33:00+00:00",
+    "last_bar_age_min": 10.5,
     "market_state": "open",
     "profile_volume": 498484.0,
     "prior_day": "2026-11-12",
@@ -2989,10 +2997,18 @@
     {
      "t": "2026-11-13T16:15:00+00:00",
      "o": 27751.75,
-     "h": 27762.0,
-     "l": 27708.25,
-     "c": 27722.25,
-     "v": 4967.0
+     "h": 27874.0,
+     "l": 27695.25,
+     "c": 27848.0,
+     "v": 24246.0
+    },
+    {
+     "t": "2026-11-13T16:30:00+00:00",
+     "o": 27847.75,
+     "h": 27882.0,
+     "l": 27813.0,
+     "c": 27856.5,
+     "v": 5126.0
     }
    ]
   }
@@ -3000,21 +3016,12 @@
  "news": {
   "headlines": [
    {
-    "id": "a3142011fa",
-    "title": "US inflation keeps pressure on the Fed as Nvidia’s selloff spreads - MarketPulse",
-    "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNaW9GRU9jeHFnUVd0QWJsVWxVRWdRRGNqN3AyNV9DV2ctMnhKR01zOHZrVzV0LWhsT0U4a1hZeWoxQVFUX0ZzQ0Z3NzNSRFVzY0JJd1hJdjhWM25rejMwaUNWSmxjWHlpNUdvOGpoODhDcUZlamVlMlNTSjgxc19JRGcya2FTblNoY0tSZGVxcXZ2RWxXckdRXzFCU1BhVkRwY0Y1Vg?oc=5",
-    "source": "gnews_macro",
-    "published_utc": "2026-11-13T15:00:00+00:00",
-    "score": 10.75,
-    "duplicates": 0
-   },
-   {
     "id": "2cd13371ce",
     "title": "Geopolitical complexities drive a surge in real interest rates; Federal Reserve officials collectively highlight inflation concerns, putting pressure on gold prices. - 富途牛牛",
     "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQNFZ3ZXVlVkd5Y2dlVGNtREhMS1psWFNLSnAyNzVuVXBXNmtvcnBDWW5vSkhnTEtVVzBsS3lBSE5uTWRCNDl0NnNSRmhYT0hjbDRlSTZBTUI4LVVUN1VtNkNfMVdScHRvSEd0YmdfMzBGLV9Ta3FTYmdVbnNxSmItc1VmODFCb1dMUUlBUEZraU0yUGl4QmtHOWgzeWZfUVlfc05hdU43cDVvYUdhLWNZT1pIaw?oc=5",
     "source": "gnews_fed",
     "published_utc": "2026-11-13T10:00:36+00:00",
-    "score": 9.42,
+    "score": 9.38,
     "duplicates": 0
    },
    {
@@ -3023,7 +3030,7 @@
     "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQU1M5NjNPTHpWd3gyWEVnX05BY0ljQzRaQUxoS0VEWlN0WGJKb3JTZWJqTTBXUVVIXzZ3blBQUVJMVGlUUGdRaExTZ05BeEtkMXR0YUJhRnVueDlIdjdyYjEzVzVyWXVlbUVzZmdJTzhMcVZfUEV1Y1NLZmRFYm93V2hUOFRaQ2Ftdjltb2NQb3Y0ZVVvQlpIMDJyVW5EeVFhZjFoUGo4anlpU3FNUW1ndVVWSFRuWlFwdHBn?oc=5",
     "source": "gnews_macro",
     "published_utc": "2026-11-13T15:06:55+00:00",
-    "score": 9.27,
+    "score": 9.23,
     "duplicates": 0
    },
    {
@@ -3032,17 +3039,8 @@
     "link": "https://www.cnbc.com/2026/11/13/chicago-feds-goolsbee-says-central-bank-has-definitely-got-work-to-do-on-inflation.html",
     "source": "cnbc_markets",
     "published_utc": "2026-11-13T14:22:07+00:00",
-    "score": 9.15,
+    "score": 9.11,
     "duplicates": 2
-   },
-   {
-    "id": "8cb2cb6dc2",
-    "title": "Nasdaq futures subdued as Nvidia upheaval roils AI trade - The Edge Malaysia",
-    "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE11YnhZUHV6bkVRTlF6cTRta1N4SVNCbUEyQ05vaEFRVXFldC15U0xpeXNBS19WUllWSElJQTBiNndPXzhvWk11UmMwb21QTTBPMHdB?oc=5",
-    "source": "gnews_futures",
-    "published_utc": "2026-11-13T13:22:49+00:00",
-    "score": 8.98,
-    "duplicates": 3
    },
    {
     "id": "19699ddcff",
@@ -3050,7 +3048,7 @@
     "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOYWx2S1gybU5lYjJCbEl5OXkyekl3YXdnd2RuWnJPQU9VODlSSnpLM1ZDeGVfT19LdEF4OThPMGZQM1NDNXloMzFGcjdmZDE4ZU90dDBuX2xsX2lUZTJjLU5HNEZCNnJJRFJQT0tmR2FwZVBXT1Q3cURtZHFTYTJtUDVOVHZESnNfWlBkZXdoT1pQXzNkYldpWklrdEZiRWxiVjJRaHNxOXpMVXhPOFR1ZERmc09uWXJEcWR1dUdKblUzQjdkTkM0?oc=5",
     "source": "gnews_fed",
     "published_utc": "2026-11-13T16:02:24+00:00",
-    "score": 8.93,
+    "score": 8.89,
     "duplicates": 1
    },
    {
@@ -3059,7 +3057,7 @@
     "link": "https://www.cnbc.com/2026/11/13/treasury-yields-fed-rates.html",
     "source": "cnbc_markets",
     "published_utc": "2026-11-13T15:40:10+00:00",
-    "score": 8.87,
+    "score": 8.82,
     "duplicates": 2
    },
    {
@@ -3068,7 +3066,7 @@
     "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxOR0FNcUFWNDdRcEh4amFkUHYyZ1ljR2ltTXNKOEVqR1BoZlFnMURPRmUwYkRxVkFlOUpxZS1Ha0Q0YVVxeTFoM3BTTEstbjBaYlF5eV9EU0ZXVGpQZTBfTTBYV2dwYm5WaUJvUGVuYlpWZjlrdTNDOVJ0RHAwend1YUVyLXowanhkRTVhbTdzTjY3aUQ2UWRPa0NGMmJVUnNRdU5DckswajE1Smd4aW1RQl9wNUpNbFpqamZHVGUtcnYxaFVkR0xkMl9yR19vZw?oc=5",
     "source": "gnews_fed",
     "published_utc": "2026-11-13T11:02:53+00:00",
-    "score": 8.6,
+    "score": 8.55,
     "duplicates": 0
    },
    {
@@ -3077,7 +3075,7 @@
     "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQVXZPS21LbWtNb01nRDdIQm9nbVVVZnRSQXRsLWhEMG0tVnEwMFhXWlBFTTZza0w2aG90am0teWQ0cFZFX1V3UWVleFpyX2gxbldoeGhQb0wzQ1pOWWVlcEFRazdoc2ZTMW1NRlRIRGxNcFIzWTlyYWxMSGZmNTlTQ0ZFVkdpcTZFaGc?oc=5",
     "source": "gnews_macro",
     "published_utc": "2026-11-13T16:02:30+00:00",
-    "score": 8.43,
+    "score": 8.39,
     "duplicates": 0
    },
    {
@@ -3086,7 +3084,16 @@
     "link": "https://www.cnbc.com/2026/11/13/us-inflation-outlook-federal-reserve-rate-hike.html",
     "source": "cnbc_markets",
     "published_utc": "2026-11-13T16:03:42+00:00",
-    "score": 8.43,
+    "score": 8.39,
+    "duplicates": 2
+   },
+   {
+    "id": "24a2826a85",
+    "title": "Nasdaq futures subdued as Nvidia upheaval roils AI trade - Yahoo Finance",
+    "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxOXzBOQUVtbkVkek5raFFhaFJ3MTczWHlJdWgzZC1yZnB2TTAxbC1sUDJYeXBqcXdyYzFiTVljTDRETUNCTFhscDV6YXJJeDV4WHAzdEdUZl9IZXU5V2xPMkJfa0p6RDVqLTRFUVFCclFsOVU3LWVmNkd4Qk1GWWhMSEVLRnlDYWhpOFJUd2tSemhDV0piNkJtczdFTzV5Zw?oc=5",
+    "source": "gnews_futures",
+    "published_utc": "2026-11-13T12:11:03+00:00",
+    "score": 8.24,
     "duplicates": 2
    },
    {
@@ -3095,7 +3102,7 @@
     "link": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxQOUY0QklSMGI5MFhaZTVEc1VRSF93TXhqWDBHRVh4Z2NmZ19jSEIzcWRKd1l5VFZMcTBDQTdTLXhBNXdwTU50cjV6Tmp4NXJXRE4zYk53Nks5SU1hTThYRVVZeTNtRzZWelRpaTBybkJqYXpoVTZIQVE2MFRjSEt2QTMtaW5hbjZiem5TY21VcWtDZlZ0dVVFQXF3UDA5dGNSbzI5V2gtQ1N1OS13WV9TXzFDUDZJaUlzZnEtN2J6Q2ZjTU9xWnJCa3FsVmtIdHZPU0VGWDM0LXY?oc=5",
     "source": "gnews_macro",
     "published_utc": "2026-11-13T14:52:47+00:00",
-    "score": 8.23,
+    "score": 8.19,
     "duplicates": 0
    },
    {
@@ -3104,17 +3111,26 @@
     "link": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxOSnh3MnpzbzJHaGZaVFVjbXpkdkFfRG1QNG5qQzdlUnlSU1Y1MWxIa2d3NnE4RGN6X1ZHaktWVFJQbG9peC1aTWxkamR2eHZjV3JmWktkZW1hZ1JBdmlVdXhiblE4cHhOWkRpRkx2cU5hTXFPX092ei1PQlhNWUxhU0pqRy1uMDAtaEdSVWd0VVNETGJZNDhSYmRITFZsbFFOb29TeC1rTFNCdG54VTByU0tvNk5yRGhlVmtTMkRzT2REU2NYMk1Uam9TdDBLSGtOeE40ODNqVmlfQnV1cWc?oc=5",
     "source": "gnews_megacap",
     "published_utc": "2026-11-13T14:43:30+00:00",
-    "score": 8.21,
+    "score": 8.17,
+    "duplicates": 0
+   },
+   {
+    "id": "4ac2b66f94",
+    "title": "US Treasury chief says Fed should not hike rates over energy shock tied to Iran war - WKZO",
+    "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPM0VpOXBkX0tNNXhoaW1LNmZ2YkI4ZlhZSzA1b1RIOUVhYlB3UmFwQ0IwT2JnTG9JS1dNRE12VnFmV2lpanMxWWh3Y1BITTdYMlVOM2RWQzBqcU9MMUoyN1B3RWdhM3lkb3ZQQmFScXpVT0NvRTgyTG5raENLX3I3dW5ScG51WmFCbnQ2V2NwTk15bU81bHJuSzg5TDJHSDFmM25iUWdBQzVTd256QjZMX2R3?oc=5",
+    "source": "gnews_fed",
+    "published_utc": "2026-11-13T14:26:51+00:00",
+    "score": 8.12,
     "duplicates": 0
    }
   ],
   "summary": {
    "lines": [
-    "US inflation keeps pressure on the Fed as Nvidia’s selloff spreads - MarketPulse [a3142011fa]",
     "Geopolitical complexities drive a surge in real interest rates; Federal Reserve officials collectively highlight inflation concerns, putting pressure on gold prices. - 富途牛牛 [2cd13371ce]",
     "10-Year Treasury yield spikes on hot inflation read, Nvidia leads chip stocks lower: AlphaCheck - Yahoo Finance [37f7381c66]",
     "Chicago Fed's Goolsbee says central bank 'has definitely got work to do' on inflation [c3342637fb]",
-    "Nasdaq futures subdued as Nvidia upheaval roils AI trade - The Edge Malaysia [8cb2cb6dc2]"
+    "The Fed chief said AI would tame inflation. His colleagues disagree. - The Washington Post [19699ddcff]",
+    "10-year Treasury yield moves to 5.15% as traders weigh producer price report [aef4f927f5]"
    ],
    "backend": "none",
    "model": null,
