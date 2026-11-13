@@ -1,7 +1,7 @@
 {
  "meta": {
-  "generated_at_utc": "2026-11-13T14:41:14.873055+00:00",
-  "generated_at_local": "Fri 13 Nov 2026 10:41 AST",
+  "generated_at_utc": "2026-11-13T14:56:30.945384+00:00",
+  "generated_at_local": "Fri 13 Nov 2026 10:56 AST",
   "trading_day": "2026-11-13",
   "display_tz": "America/Halifax",
   "version": "0.1.0",
@@ -57,10 +57,10 @@
   {
    "root": "ES",
    "trading_day": "2026-11-13",
-   "as_of_utc": "2026-11-13T14:41:14.873055+00:00",
+   "as_of_utc": "2026-11-13T14:56:30.945384+00:00",
    "source": "yahoo",
    "delayed": true,
-   "last_price": 7633.0,
+   "last_price": 7608.25,
    "levels": [
     {
      "tag": "exp_hi",
@@ -126,15 +126,8 @@
      "note": "typical-price VWAP"
     },
     {
-     "tag": "tdl",
-     "label": "Today's RTH low",
-     "price": 7631.25,
-     "group": "today",
-     "note": ""
-    },
-    {
-     "tag": "rn_minor_dn",
-     "label": "Round 25 below",
+     "tag": "rn_minor_up",
+     "label": "Round 25 above",
      "price": 7625.0,
      "group": "round",
      "note": ""
@@ -159,6 +152,13 @@
      "price": 7603.25,
      "group": "profile",
      "note": "70 % value area"
+    },
+    {
+     "tag": "tdl",
+     "label": "Today's RTH low",
+     "price": 7600.25,
+     "group": "today",
+     "note": ""
     },
     {
      "tag": "rn_major_dn",
@@ -211,8 +211,8 @@
     }
    ],
    "stats": {
-    "last_bar_utc": "2026-11-13T14:31:00+00:00",
-    "last_bar_age_min": 10.2,
+    "last_bar_utc": "2026-11-13T14:46:00+00:00",
+    "last_bar_age_min": 10.5,
     "market_state": "open",
     "profile_volume": 1346183.0,
     "prior_day": "2026-11-12",
@@ -1463,19 +1463,27 @@
      "t": "2026-11-13T14:30:00+00:00",
      "o": 7642.75,
      "h": 7643.5,
-     "l": 7631.25,
-     "c": 7633.0,
-     "v": 13227.0
+     "l": 7600.25,
+     "c": 7601.5,
+     "v": 124095.0
+    },
+    {
+     "t": "2026-11-13T14:45:00+00:00",
+     "o": 7601.25,
+     "h": 7610.75,
+     "l": 7600.25,
+     "c": 7608.25,
+     "v": 7324.0
     }
    ]
   },
   {
    "root": "NQ",
    "trading_day": "2026-11-13",
-   "as_of_utc": "2026-11-13T14:41:14.873055+00:00",
+   "as_of_utc": "2026-11-13T14:56:30.945384+00:00",
    "source": "yahoo",
    "delayed": true,
-   "last_price": 28309.25,
+   "last_price": 28268.5,
    "levels": [
     {
      "tag": "exp_hi",
@@ -1520,13 +1528,6 @@
      "note": "typical-price VWAP"
     },
     {
-     "tag": "rn_major_up",
-     "label": "Round 100 above",
-     "price": 28400.0,
-     "group": "round",
-     "note": ""
-    },
-    {
      "tag": "tdh",
      "label": "Today's RTH high",
      "price": 28399.0,
@@ -1555,24 +1556,17 @@
      "note": "2026-11-12 RTH, bin 1.0"
     },
     {
-     "tag": "rn_minor_up",
-     "label": "Round 50 above",
-     "price": 28350.0,
-     "group": "round",
-     "note": ""
-    },
-    {
-     "tag": "rn_major_dn",
-     "label": "Round 100 below",
+     "tag": "rn_major_up",
+     "label": "Round 100 above",
      "price": 28300.0,
      "group": "round",
      "note": ""
     },
     {
-     "tag": "tdl",
-     "label": "Today's RTH low",
-     "price": 28293.5,
-     "group": "today",
+     "tag": "rn_minor_dn",
+     "label": "Round 50 below",
+     "price": 28250.0,
+     "group": "round",
      "note": ""
     },
     {
@@ -1587,6 +1581,20 @@
      "label": "Overnight low",
      "price": 28243.25,
      "group": "overnight",
+     "note": ""
+    },
+    {
+     "tag": "rn_major_dn",
+     "label": "Round 100 below",
+     "price": 28200.0,
+     "group": "round",
+     "note": ""
+    },
+    {
+     "tag": "tdl",
+     "label": "Today's RTH low",
+     "price": 28190.25,
+     "group": "today",
      "note": ""
     },
     {
@@ -1626,8 +1634,8 @@
     }
    ],
    "stats": {
-    "last_bar_utc": "2026-11-13T14:31:00+00:00",
-    "last_bar_age_min": 10.2,
+    "last_bar_utc": "2026-11-13T14:46:00+00:00",
+    "last_bar_age_min": 10.5,
     "market_state": "open",
     "profile_volume": 498484.0,
     "prior_day": "2026-11-12",
@@ -2878,9 +2886,17 @@
      "t": "2026-11-13T14:30:00+00:00",
      "o": 28390.5,
      "h": 28399.0,
-     "l": 28293.5,
-     "c": 28309.25,
-     "v": 6207.0
+     "l": 28195.75,
+     "c": 28196.0,
+     "v": 57016.0
+    },
+    {
+     "t": "2026-11-13T14:45:00+00:00",
+     "o": 28195.75,
+     "h": 28286.0,
+     "l": 28190.25,
+     "c": 28268.5,
+     "v": 4221.0
     }
    ]
   }
@@ -2893,7 +2909,7 @@
     "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPRFpWN0F1M2RrcUNPWGlJOFB6R016TUVWU2otV0VYNnVIMmNPM1k2RTMtckdyeEJhU2VEOXFyQjFZLUR1dVYxSGxXWHBYRVh5WmJPZTlUZktRQmtsTE9qNXkwSU9uTWJwNm9ReDdFNHFzMUtRcGpIRVNzR3Fld1VkMlpKdU1tQlpVVUhjRW9XR1ZzSFhiSkZQQkxXeG5UcWhyZmttTUpn?oc=5",
     "source": "gnews_macro",
     "published_utc": "2026-11-13T12:34:23+00:00",
-    "score": 10.15,
+    "score": 10.11,
     "duplicates": 0
    },
    {
@@ -2902,7 +2918,16 @@
     "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQMExYaE14OU54SnktbjduRUVodUVVOVJjSno4cm1yNkk0Wk1lNERmTmdiVTBENDNlM0FCaFgzWmI4VFNPYlkwM0RPU0hid0FIQURWbEluM3VBN0Vib010QmpTSGJiSjdoaWNjQmJuOHp4bmM2dHRYakhlU1h1MjNCd2JUakltRXUwQXJJektxVGM2YmhqcG9TajNvWm05VFY3c1M5NDNCMXZoZDdlWjg2VmtPWHBYZk11NlpjVUNuRTE?oc=5",
     "source": "gnews_megacap",
     "published_utc": "2026-11-13T10:33:23+00:00",
-    "score": 9.81,
+    "score": 9.77,
+    "duplicates": 0
+   },
+   {
+    "id": "2cd13371ce",
+    "title": "Geopolitical complexities drive a surge in real interest rates; Federal Reserve officials collectively highlight inflation concerns, putting pressure on gold prices. - 富途牛牛",
+    "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQNFZ3ZXVlVkd5Y2dlVGNtREhMS1psWFNLSnAyNzVuVXBXNmtvcnBDWW5vSkhnTEtVVzBsS3lBSE5uTWRCNDl0NnNSRmhYT0hjbDRlSTZBTUI4LVVUN1VtNkNfMVdScHRvSEd0YmdfMzBGLV9Ta3FTYmdVbnNxSmItc1VmODFCb1dMUUlBUEZraU0yUGl4QmtHOWgzeWZfUVlfc05hdU43cDVvYUdhLWNZT1pIaw?oc=5",
+    "source": "gnews_fed",
+    "published_utc": "2026-11-13T10:00:36+00:00",
+    "score": 9.68,
     "duplicates": 0
    },
    {
@@ -2911,17 +2936,8 @@
     "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE11YnhZUHV6bkVRTlF6cTRta1N4SVNCbUEyQ05vaEFRVXFldC15U0xpeXNBS19WUllWSElJQTBiNndPXzhvWk11UmMwb21QTTBPMHdB?oc=5",
     "source": "gnews_futures",
     "published_utc": "2026-11-13T13:22:49+00:00",
-    "score": 9.78,
-    "duplicates": 4
-   },
-   {
-    "id": "2cd13371ce",
-    "title": "Geopolitical complexities drive a surge in real interest rates; Federal Reserve officials collectively highlight inflation concerns, putting pressure on gold prices. - 富途牛牛",
-    "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQNFZ3ZXVlVkd5Y2dlVGNtREhMS1psWFNLSnAyNzVuVXBXNmtvcnBDWW5vSkhnTEtVVzBsS3lBSE5uTWRCNDl0NnNSRmhYT0hjbDRlSTZBTUI4LVVUN1VtNkNfMVdScHRvSEd0YmdfMzBGLV9Ta3FTYmdVbnNxSmItc1VmODFCb1dMUUlBUEZraU0yUGl4QmtHOWgzeWZfUVlfc05hdU43cDVvYUdhLWNZT1pIaw?oc=5",
-    "source": "gnews_fed",
-    "published_utc": "2026-11-13T10:00:36+00:00",
-    "score": 9.72,
-    "duplicates": 0
+    "score": 9.24,
+    "duplicates": 3
    },
    {
     "id": "638d4fd5ac",
@@ -2929,7 +2945,7 @@
     "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQaHRkbkhGZEZkQkJROUZRb245c21Hc045c0pjVUF3WEg4YjJoVHBJdFhkTERGRE9lWjdfaldBTHkzWVlqeDg1OG05MDdnb3ZoS2FQNzV1SXNhc3AzZjlLS1FNbWFGNExZNUFMYUJMU3o4c2hHcTFkcFgyQW1nQkt2MHowREtzNXhaT0tRajdNclpMckprYkpvOTFMUQ?oc=5",
     "source": "gnews_macro",
     "published_utc": "2026-11-13T08:46:21+00:00",
-    "score": 9.01,
+    "score": 8.97,
     "duplicates": 0
    },
    {
@@ -2938,7 +2954,7 @@
     "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOYWx2S1gybU5lYjJCbEl5OXkyekl3YXdnd2RuWnJPQU9VODlSSnpLM1ZDeGVfT19LdEF4OThPMGZQM1NDNXloMzFGcjdmZDE4ZU90dDBuX2xsX2lUZTJjLU5HNEZCNnJJRFJQT0tmR2FwZVBXT1Q3cURtZHFTYTJtUDVOVHZESnNfWlBkZXdoT1pQXzNkYldpWklrdEZiRWxiVjJRaHNxOXpMVXhPOFR1ZERmc09uWXJEcWR1dUdKblUzQjdkTkM0?oc=5",
     "source": "gnews_fed",
     "published_utc": "2026-11-13T14:32:24+00:00",
-    "score": 8.98,
+    "score": 8.93,
     "duplicates": 1
    },
    {
@@ -2947,7 +2963,7 @@
     "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxOR0FNcUFWNDdRcEh4amFkUHYyZ1ljR2ltTXNKOEVqR1BoZlFnMURPRmUwYkRxVkFlOUpxZS1Ha0Q0YVVxeTFoM3BTTEstbjBaYlF5eV9EU0ZXVGpQZTBfTTBYV2dwYm5WaUJvUGVuYlpWZjlrdTNDOVJ0RHAwend1YUVyLXowanhkRTVhbTdzTjY3aUQ2UWRPa0NGMmJVUnNRdU5DckswajE1Smd4aW1RQl9wNUpNbFpqamZHVGUtcnYxaFVkR0xkMl9yR19vZw?oc=5",
     "source": "gnews_fed",
     "published_utc": "2026-11-13T11:02:53+00:00",
-    "score": 8.89,
+    "score": 8.85,
     "duplicates": 0
    },
    {
@@ -2956,16 +2972,7 @@
     "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQYVNNQWJyZVhGM0tWeTh5NkVIcmhFOENtN0VNclJqYkJFUUpCSF93NTBvUUtrbUJpdzltMHZpZUxKZUlfdlFzTHM2WF9CZ3E1S0l5OTJWeFVuMVp2XzFJdHR2TFVGNDhROHdjOHpuOFpIcTRPTEEzRlFIRkVJOWNaRnBubXB2Z1RwamZTWWRrbkNmUHlibmN1d2NJUjBmbElNOTVCaDZXeGxpQjJIOFhqNzVB?oc=5",
     "source": "gnews_fed",
     "published_utc": "2026-11-13T14:20:31+00:00",
-    "score": 8.44,
-    "duplicates": 0
-   },
-   {
-    "id": "5aee0d8f16",
-    "title": "China’s Sustainable Aviation Plan; US Inflation; and AI’s Role in EU Investment - S&P Global",
-    "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQdzFLS0NaUGxWcXl4Q2tLcThkem1SekJvbmdMQTE4a3QxdU0tNnpQdFlNX3F1NVhXT1IzdXNTSWtZa2xGRmFFZXpkcWZVSXZTR1lLTl84Z3ZKMVQxTmc1dks3bm81Smx2T2N2TXBaalpSdC1mNHJ2OGVrS3B3Qk5JSnd1UnV0UkpGUHBMOEE3Zw?oc=5",
-    "source": "gnews_macro",
-    "published_utc": "2026-11-13T11:00:45+00:00",
-    "score": 8.39,
+    "score": 8.4,
     "duplicates": 0
    },
    {
@@ -2974,7 +2981,7 @@
     "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQOUg2SEc1NWFEV1oxd3dhbTZkM3dWYTc4dzRDNFlmT2pvemNVRi1DeXppMUVEZm5LdFJsVzR6ZVRpc29GZXYtXzJCNzE0RHVHQ0tEaGNrRTNTVlF5SEl5b1lmMjBkc180eElpd2VKODNrcHl1cWctcEc5ejNXLURXM1RR?oc=5",
     "source": "gnews_futures",
     "published_utc": "2026-11-13T13:11:14+00:00",
-    "score": 8.25,
+    "score": 8.21,
     "duplicates": 0
    },
    {
@@ -2983,7 +2990,7 @@
     "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxObHdUdHU4THB4UDd4OGVhZDVvVTkyYWZtRzRFNnIxVmE3UmlFdmxMNFh0eWNOd0N2cFVGc1N6TXhGSDh3SmtQdWNrSTBrclFuYlRhUDNBSEozLV82b3lzQ1JiQ2w0b2JMLUhzZzJsZVZGVVF3aU8xNW0xY3d4YzBCM2l6VEpEOGw0SmFFVTk1SFJIRk5DV2xtM2ZTTDR1eFVsb2I0SHVOanR1WUlPX3M5S2R0OE94SWswa1BJ0gHAAUFVX3lxTFBWUnlYVUhxY2hRTmN1RUtBZWs2M3lEc0FiWm91bmxtcDBTSktkYkNVRVBndDB3RTFTXzZ4M19hV3VvY0JQT2xXU0ZVMU1zOTRhUmdFaW1Qa19CYlN5UHBvcFhTMGMyQjFiV1N1cUJXUTQwTkZDT1N3S2JSSzZSREhxcDRTVWVPT3B1MTc5YV9zWTRlbHZiQ2Z3TDVrRGFGOWRWNzU5SENxVnNmVTJUR0c4bUJJaGx5VC1kbFhYcmJWdw?oc=5",
     "source": "gnews_fed",
     "published_utc": "2026-11-13T14:22:07+00:00",
-    "score": 7.95,
+    "score": 7.9,
     "duplicates": 1
    },
    {
@@ -2992,16 +2999,25 @@
     "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNcEdLelU4VXpMTmdPeTgxTjBhZkd3NEIyZDg5ZnZCWXdtVnVFd3Fxbm95Z2ZfbkNZRnh2WVppWUhnR0pvZXZsRHdEaWdkaEJ1emVweFpFbG9WUTBPV3B1UktyeVNodWY0SXBtOGNUbXZQWXcyRmNWUnRGR21vYWt0WmxraHFsZ2haSGRCdHZacG1uTkpMTTlNQUpsNEFSRUY4Z2MzaUZn?oc=5",
     "source": "gnews_futures",
     "published_utc": "2026-11-13T11:19:00+00:00",
-    "score": 7.94,
+    "score": 7.9,
     "duplicates": 2
+   },
+   {
+    "id": "efe03f1e9a",
+    "title": "Fed’s Collins Says Inflation Fight Outweighs Housing Woes - Bloomberg.com",
+    "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQdEwzV3pSLU9vQ2tmOXhVYzdoTzhyaEcxUjdBdzM2NXE2VC0xNlFDaFhUOGlXa0ZqeTBDTFByTE1xVlVEejBIdEdSUlYwZlZhZnE0MXhzTUtQUlcyNFZYNE1rcVZKV1RWVHRmUXYydWNvbC03V0RFd3NjZUtpS2VtVFl1Umh2RWxDbzQ5a0hlR2F1bDhIN0paOW5sNFdTaU1lOEUwNVNZaHI?oc=5",
+    "source": "gnews_fed",
+    "published_utc": "2026-11-13T14:10:00+00:00",
+    "score": 7.87,
+    "duplicates": 1
    }
   ],
   "summary": {
    "lines": [
     "The Week Ahead: Fed minutes, Japan CPI, Nvidia earnings - CMC Markets [29160ddd91]",
     "Week ahead – Fed Minutes, inflation data and Nvidia earnings to guide investors [Video] - FXStreet [f4114442a5]",
-    "Nasdaq futures subdued as Nvidia upheaval roils AI trade - The Edge Malaysia [8cb2cb6dc2]",
     "Geopolitical complexities drive a surge in real interest rates; Federal Reserve officials collectively highlight inflation concerns, putting pressure on gold prices. - 富途牛牛 [2cd13371ce]",
+    "Nasdaq futures subdued as Nvidia upheaval roils AI trade - The Edge Malaysia [8cb2cb6dc2]",
     "Rechenberg: Tariffs aren’t driving inflation, ask the Fed - Boston Herald [638d4fd5ac]"
    ],
    "backend": "none",
