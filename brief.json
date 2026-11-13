@@ -1,11 +1,11 @@
 {
  "meta": {
-  "generated_at_utc": "2026-11-13T13:27:04.895371+00:00",
-  "generated_at_local": "Fri 13 Nov 2026 09:27 AST",
+  "generated_at_utc": "2026-11-13T13:30:15.973168+00:00",
+  "generated_at_local": "Fri 13 Nov 2026 09:30 AST",
   "trading_day": "2026-11-13",
   "display_tz": "America/Halifax",
   "version": "0.1.0",
-  "run": "overnight",
+  "run": "post-data",
   "variant": "public"
  },
  "calendar": {
@@ -22,8 +22,8 @@
      "what": "Producer prices excluding food and energy.",
      "why": "Pipeline inflation; feeds into PCE forecasts, so a hot core PPI hardens the inflation narrative."
     },
-    "actual": null,
-    "note": null,
+    "actual": "0.3%",
+    "note": "actual via BLS API",
     "consensus": "0.3%",
     "prior": "0.7%",
     "source": "",
@@ -40,8 +40,8 @@
      "what": "Prices received by producers — inflation upstream of consumers (08:30 ET).",
      "why": "Second-tier inflation print; matters most the day before CPI or when it surprises by a lot."
     },
-    "actual": null,
-    "note": null,
+    "actual": "0.3%",
+    "note": "actual via BLS API",
     "consensus": "0.4%",
     "prior": "1.3%",
     "source": "",
@@ -49,16 +49,7 @@
     "source_url": null
    }
   ],
-  "next_event": {
-   "name": "Core PPI m/m",
-   "impact": "high",
-   "time_utc": "2026-11-13T13:30:00+00:00",
-   "local": "09:30 AST",
-   "et": "08:30 ET",
-   "in": "2 min",
-   "consensus": "0.3%",
-   "prior": "0.7%"
-  },
+  "next_event": null,
   "sources": [],
   "warnings": []
  },
@@ -2903,7 +2894,40 @@
  },
  "flags": [],
  "earnings": {
-  "reported": [],
+  "reported": [
+   {
+    "symbol": "CSCO",
+    "name": "Cisco Systems, Inc.",
+    "timing": "unknown",
+    "date": "2026-11-12",
+    "reported_at": "11/12/2026",
+    "reported": true
+   },
+   {
+    "symbol": "AMAT",
+    "name": "Applied Materials, Inc.",
+    "timing": "unknown",
+    "date": "2026-11-12",
+    "reported_at": "11/12/2026",
+    "reported": true
+   },
+   {
+    "symbol": "BN",
+    "name": "Brookfield Corporation",
+    "timing": "unknown",
+    "date": "2026-11-12",
+    "reported_at": "11/12/2026",
+    "reported": true
+   },
+   {
+    "symbol": "NU",
+    "name": "Nu Holdings Ltd.",
+    "timing": "unknown",
+    "date": "2026-11-12",
+    "reported_at": "11/12/2026",
+    "reported": true
+   }
+  ],
   "today": [
    {
     "symbol": "MUFG",
