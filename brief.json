@@ -1,7 +1,7 @@
 {
  "meta": {
-  "generated_at_utc": "2026-11-13T16:12:56.754601+00:00",
-  "generated_at_local": "Fri 13 Nov 2026 12:12 AST",
+  "generated_at_utc": "2026-11-13T16:28:13.548516+00:00",
+  "generated_at_local": "Fri 13 Nov 2026 12:28 AST",
   "trading_day": "2026-11-13",
   "display_tz": "America/Halifax",
   "version": "0.1.0",
@@ -57,10 +57,10 @@
   {
    "root": "ES",
    "trading_day": "2026-11-13",
-   "as_of_utc": "2026-11-13T16:12:56.754601+00:00",
+   "as_of_utc": "2026-11-13T16:28:13.548516+00:00",
    "source": "yahoo",
    "delayed": true,
-   "last_price": 7541.25,
+   "last_price": 7531.75,
    "levels": [
     {
      "tag": "exp_hi",
@@ -211,8 +211,8 @@
     }
    ],
    "stats": {
-    "last_bar_utc": "2026-11-13T16:02:00+00:00",
-    "last_bar_age_min": 10.9,
+    "last_bar_utc": "2026-11-13T16:18:00+00:00",
+    "last_bar_age_min": 10.2,
     "market_state": "open",
     "profile_volume": 1346183.0,
     "prior_day": "2026-11-12",
@@ -1510,20 +1510,28 @@
     {
      "t": "2026-11-13T16:00:00+00:00",
      "o": 7547.25,
-     "h": 7547.25,
-     "l": 7536.75,
-     "c": 7541.25,
-     "v": 10050.0
+     "h": 7553.0,
+     "l": 7528.5,
+     "c": 7536.75,
+     "v": 68944.0
+    },
+    {
+     "t": "2026-11-13T16:15:00+00:00",
+     "o": 7536.75,
+     "h": 7538.5,
+     "l": 7530.0,
+     "c": 7531.75,
+     "v": 11340.0
     }
    ]
   },
   {
    "root": "NQ",
    "trading_day": "2026-11-13",
-   "as_of_utc": "2026-11-13T16:12:56.754601+00:00",
+   "as_of_utc": "2026-11-13T16:28:13.548516+00:00",
    "source": "yahoo",
    "delayed": true,
-   "last_price": 27793.0,
+   "last_price": 27722.25,
    "levels": [
     {
      "tag": "exp_hi",
@@ -1638,8 +1646,8 @@
      "note": ""
     },
     {
-     "tag": "rn_minor_dn",
-     "label": "Round 50 below",
+     "tag": "rn_minor_up",
+     "label": "Round 50 above",
      "price": 27750.0,
      "group": "round",
      "note": ""
@@ -1647,7 +1655,7 @@
     {
      "tag": "tdl",
      "label": "Today's RTH low",
-     "price": 27719.75,
+     "price": 27708.25,
      "group": "today",
      "note": ""
     },
@@ -1674,8 +1682,8 @@
     }
    ],
    "stats": {
-    "last_bar_utc": "2026-11-13T16:02:00+00:00",
-    "last_bar_age_min": 10.9,
+    "last_bar_utc": "2026-11-13T16:18:00+00:00",
+    "last_bar_age_min": 10.2,
     "market_state": "open",
     "profile_volume": 498484.0,
     "prior_day": "2026-11-12",
@@ -2973,10 +2981,18 @@
     {
      "t": "2026-11-13T16:00:00+00:00",
      "o": 27827.0,
-     "h": 27833.75,
-     "l": 27767.75,
-     "c": 27793.0,
-     "v": 3763.0
+     "h": 27850.0,
+     "l": 27710.5,
+     "c": 27752.0,
+     "v": 30298.0
+    },
+    {
+     "t": "2026-11-13T16:15:00+00:00",
+     "o": 27751.75,
+     "h": 27762.0,
+     "l": 27708.25,
+     "c": 27722.25,
+     "v": 4967.0
     }
    ]
   }
@@ -2989,7 +3005,7 @@
     "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNaW9GRU9jeHFnUVd0QWJsVWxVRWdRRGNqN3AyNV9DV2ctMnhKR01zOHZrVzV0LWhsT0U4a1hZeWoxQVFUX0ZzQ0Z3NzNSRFVzY0JJd1hJdjhWM25rejMwaUNWSmxjWHlpNUdvOGpoODhDcUZlamVlMlNTSjgxc19JRGcya2FTblNoY0tSZGVxcXZ2RWxXckdRXzFCU1BhVkRwY0Y1Vg?oc=5",
     "source": "gnews_macro",
     "published_utc": "2026-11-13T15:00:00+00:00",
-    "score": 10.8,
+    "score": 10.75,
     "duplicates": 0
    },
    {
@@ -2998,7 +3014,7 @@
     "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQNFZ3ZXVlVkd5Y2dlVGNtREhMS1psWFNLSnAyNzVuVXBXNmtvcnBDWW5vSkhnTEtVVzBsS3lBSE5uTWRCNDl0NnNSRmhYT0hjbDRlSTZBTUI4LVVUN1VtNkNfMVdScHRvSEd0YmdfMzBGLV9Ta3FTYmdVbnNxSmItc1VmODFCb1dMUUlBUEZraU0yUGl4QmtHOWgzeWZfUVlfc05hdU43cDVvYUdhLWNZT1pIaw?oc=5",
     "source": "gnews_fed",
     "published_utc": "2026-11-13T10:00:36+00:00",
-    "score": 9.47,
+    "score": 9.42,
     "duplicates": 0
    },
    {
@@ -3007,7 +3023,7 @@
     "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQU1M5NjNPTHpWd3gyWEVnX05BY0ljQzRaQUxoS0VEWlN0WGJKb3JTZWJqTTBXUVVIXzZ3blBQUVJMVGlUUGdRaExTZ05BeEtkMXR0YUJhRnVueDlIdjdyYjEzVzVyWXVlbUVzZmdJTzhMcVZfUEV1Y1NLZmRFYm93V2hUOFRaQ2Ftdjltb2NQb3Y0ZVVvQlpIMDJyVW5EeVFhZjFoUGo4anlpU3FNUW1ndVVWSFRuWlFwdHBn?oc=5",
     "source": "gnews_macro",
     "published_utc": "2026-11-13T15:06:55+00:00",
-    "score": 9.32,
+    "score": 9.27,
     "duplicates": 0
    },
    {
@@ -3016,7 +3032,7 @@
     "link": "https://www.cnbc.com/2026/11/13/chicago-feds-goolsbee-says-central-bank-has-definitely-got-work-to-do-on-inflation.html",
     "source": "cnbc_markets",
     "published_utc": "2026-11-13T14:22:07+00:00",
-    "score": 9.19,
+    "score": 9.15,
     "duplicates": 2
    },
    {
@@ -3025,7 +3041,7 @@
     "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE11YnhZUHV6bkVRTlF6cTRta1N4SVNCbUEyQ05vaEFRVXFldC15U0xpeXNBS19WUllWSElJQTBiNndPXzhvWk11UmMwb21QTTBPMHdB?oc=5",
     "source": "gnews_futures",
     "published_utc": "2026-11-13T13:22:49+00:00",
-    "score": 9.03,
+    "score": 8.98,
     "duplicates": 3
    },
    {
@@ -3034,7 +3050,7 @@
     "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOYWx2S1gybU5lYjJCbEl5OXkyekl3YXdnd2RuWnJPQU9VODlSSnpLM1ZDeGVfT19LdEF4OThPMGZQM1NDNXloMzFGcjdmZDE4ZU90dDBuX2xsX2lUZTJjLU5HNEZCNnJJRFJQT0tmR2FwZVBXT1Q3cURtZHFTYTJtUDVOVHZESnNfWlBkZXdoT1pQXzNkYldpWklrdEZiRWxiVjJRaHNxOXpMVXhPOFR1ZERmc09uWXJEcWR1dUdKblUzQjdkTkM0?oc=5",
     "source": "gnews_fed",
     "published_utc": "2026-11-13T16:02:24+00:00",
-    "score": 8.97,
+    "score": 8.93,
     "duplicates": 1
    },
    {
@@ -3043,7 +3059,7 @@
     "link": "https://www.cnbc.com/2026/11/13/treasury-yields-fed-rates.html",
     "source": "cnbc_markets",
     "published_utc": "2026-11-13T15:40:10+00:00",
-    "score": 8.91,
+    "score": 8.87,
     "duplicates": 2
    },
    {
@@ -3052,7 +3068,7 @@
     "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxOR0FNcUFWNDdRcEh4amFkUHYyZ1ljR2ltTXNKOEVqR1BoZlFnMURPRmUwYkRxVkFlOUpxZS1Ha0Q0YVVxeTFoM3BTTEstbjBaYlF5eV9EU0ZXVGpQZTBfTTBYV2dwYm5WaUJvUGVuYlpWZjlrdTNDOVJ0RHAwend1YUVyLXowanhkRTVhbTdzTjY3aUQ2UWRPa0NGMmJVUnNRdU5DckswajE1Smd4aW1RQl9wNUpNbFpqamZHVGUtcnYxaFVkR0xkMl9yR19vZw?oc=5",
     "source": "gnews_fed",
     "published_utc": "2026-11-13T11:02:53+00:00",
-    "score": 8.64,
+    "score": 8.6,
     "duplicates": 0
    },
    {
@@ -3061,8 +3077,17 @@
     "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQVXZPS21LbWtNb01nRDdIQm9nbVVVZnRSQXRsLWhEMG0tVnEwMFhXWlBFTTZza0w2aG90am0teWQ0cFZFX1V3UWVleFpyX2gxbldoeGhQb0wzQ1pOWWVlcEFRazdoc2ZTMW1NRlRIRGxNcFIzWTlyYWxMSGZmNTlTQ0ZFVkdpcTZFaGc?oc=5",
     "source": "gnews_macro",
     "published_utc": "2026-11-13T16:02:30+00:00",
-    "score": 8.47,
+    "score": 8.43,
     "duplicates": 0
+   },
+   {
+    "id": "7dff6eec2a",
+    "title": "Bessent blames Lutnick’s Commerce as he slams Nvidia chip ‘leakage’ to China",
+    "link": "https://www.cnbc.com/2026/11/13/us-inflation-outlook-federal-reserve-rate-hike.html",
+    "source": "cnbc_markets",
+    "published_utc": "2026-11-13T16:03:42+00:00",
+    "score": 8.43,
+    "duplicates": 2
    },
    {
     "id": "3e1a168c16",
@@ -3070,7 +3095,7 @@
     "link": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxQOUY0QklSMGI5MFhaZTVEc1VRSF93TXhqWDBHRVh4Z2NmZ19jSEIzcWRKd1l5VFZMcTBDQTdTLXhBNXdwTU50cjV6Tmp4NXJXRE4zYk53Nks5SU1hTThYRVVZeTNtRzZWelRpaTBybkJqYXpoVTZIQVE2MFRjSEt2QTMtaW5hbjZiem5TY21VcWtDZlZ0dVVFQXF3UDA5dGNSbzI5V2gtQ1N1OS13WV9TXzFDUDZJaUlzZnEtN2J6Q2ZjTU9xWnJCa3FsVmtIdHZPU0VGWDM0LXY?oc=5",
     "source": "gnews_macro",
     "published_utc": "2026-11-13T14:52:47+00:00",
-    "score": 8.28,
+    "score": 8.23,
     "duplicates": 0
    },
    {
@@ -3079,16 +3104,7 @@
     "link": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxOSnh3MnpzbzJHaGZaVFVjbXpkdkFfRG1QNG5qQzdlUnlSU1Y1MWxIa2d3NnE4RGN6X1ZHaktWVFJQbG9peC1aTWxkamR2eHZjV3JmWktkZW1hZ1JBdmlVdXhiblE4cHhOWkRpRkx2cU5hTXFPX092ei1PQlhNWUxhU0pqRy1uMDAtaEdSVWd0VVNETGJZNDhSYmRITFZsbFFOb29TeC1rTFNCdG54VTByU0tvNk5yRGhlVmtTMkRzT2REU2NYMk1Uam9TdDBLSGtOeE40ODNqVmlfQnV1cWc?oc=5",
     "source": "gnews_megacap",
     "published_utc": "2026-11-13T14:43:30+00:00",
-    "score": 8.25,
-    "duplicates": 0
-   },
-   {
-    "id": "a483734dab",
-    "title": "US Treasury chief says Fed should not hike rates over energy shock tied to Iran war - KELO-AM",
-    "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNdVRzaVdJcXFyWmdUWHpSQnMzQnVBUnNHa2ZQeU1GcVhLbXgwUEg4VXZBd3ItS0VmNXJINDQzYmN0bnJxWEJXUHVucy05MDcySXFxVGVuR1FDNEJKZVZTZlkzODRuVndLSmJjell0czBPcTRZVXlEZnZMS2dQR3pXbmplSHlzSTlFclFrNHFiTTBYcTNvZEduMzU3cDQ3dG5YZEpKQkVNNjh6d2lKWHpKZHlR?oc=5",
-    "source": "gnews_fed",
-    "published_utc": "2026-11-13T14:21:17+00:00",
-    "score": 8.19,
+    "score": 8.21,
     "duplicates": 0
    }
   ],
