@@ -1,7 +1,7 @@
 {
  "meta": {
-  "generated_at_utc": "2026-11-13T13:55:27.369233+00:00",
-  "generated_at_local": "Fri 13 Nov 2026 09:55 AST",
+  "generated_at_utc": "2026-11-13T14:10:43.134094+00:00",
+  "generated_at_local": "Fri 13 Nov 2026 10:10 AST",
   "trading_day": "2026-11-13",
   "display_tz": "America/Halifax",
   "version": "0.1.0",
@@ -57,10 +57,10 @@
   {
    "root": "ES",
    "trading_day": "2026-11-13",
-   "as_of_utc": "2026-11-13T13:55:27.369233+00:00",
+   "as_of_utc": "2026-11-13T14:10:43.134094+00:00",
    "source": "yahoo",
    "delayed": true,
-   "last_price": 7657.25,
+   "last_price": 7645.25,
    "levels": [
     {
      "tag": "exp_hi",
@@ -68,20 +68,6 @@
      "price": 7764.02,
      "group": "range",
      "note": "ATR over 14 days"
-    },
-    {
-     "tag": "rn_major_up",
-     "label": "Round 50 above",
-     "price": 7700.0,
-     "group": "round",
-     "note": ""
-    },
-    {
-     "tag": "rn_minor_up",
-     "label": "Round 25 above",
-     "price": 7675.0,
-     "group": "round",
-     "note": ""
     },
     {
      "tag": "pdh",
@@ -102,7 +88,7 @@
      "label": "Overnight high",
      "price": 7669.25,
      "group": "overnight",
-     "note": "since 18:00 ET, 876 bars"
+     "note": "since 18:00 ET, 891 bars"
     },
     {
      "tag": "vah",
@@ -112,8 +98,8 @@
      "note": "70 % value area"
     },
     {
-     "tag": "rn_major_dn",
-     "label": "Round 50 below",
+     "tag": "rn_major_up",
+     "label": "Round 50 above",
      "price": 7650.0,
      "group": "round",
      "note": ""
@@ -121,9 +107,16 @@
     {
      "tag": "onvwap",
      "label": "Overnight VWAP",
-     "price": 7630.56,
+     "price": 7632.26,
      "group": "overnight",
      "note": "typical-price VWAP"
+    },
+    {
+     "tag": "rn_minor_dn",
+     "label": "Round 25 below",
+     "price": 7625.0,
+     "group": "round",
+     "note": ""
     },
     {
      "tag": "pdc",
@@ -145,6 +138,13 @@
      "price": 7603.25,
      "group": "profile",
      "note": "70 % value area"
+    },
+    {
+     "tag": "rn_major_dn",
+     "label": "Round 50 below",
+     "price": 7600.0,
+     "group": "round",
+     "note": ""
     },
     {
      "tag": "onl",
@@ -190,14 +190,14 @@
     }
    ],
    "stats": {
-    "last_bar_utc": "2026-11-13T13:45:00+00:00",
-    "last_bar_age_min": 10.5,
+    "last_bar_utc": "2026-11-13T14:00:00+00:00",
+    "last_bar_age_min": 10.7,
     "market_state": "open",
     "profile_volume": 1346183.0,
     "prior_day": "2026-11-12",
     "prior_day_rth_range": 93.25,
     "overnight_range": 70.75,
-    "gap_vs_prior_close": 41.0,
+    "gap_vs_prior_close": 29.0,
     "gap_basis": "last price (pre-market)",
     "atr14": 147.77,
     "atr_days": 14,
@@ -1418,8 +1418,16 @@
      "t": "2026-11-13T13:45:00+00:00",
      "o": 7656.75,
      "h": 7658.75,
-     "l": 7656.0,
-     "c": 7657.25,
+     "l": 7642.5,
+     "c": 7646.0,
+     "v": 18613.0
+    },
+    {
+     "t": "2026-11-13T14:00:00+00:00",
+     "o": 7646.0,
+     "h": 7647.25,
+     "l": 7644.5,
+     "c": 7645.25,
      "v": 0.0
     }
    ]
@@ -1427,10 +1435,10 @@
   {
    "root": "NQ",
    "trading_day": "2026-11-13",
-   "as_of_utc": "2026-11-13T13:55:27.369233+00:00",
+   "as_of_utc": "2026-11-13T14:10:43.134094+00:00",
    "source": "yahoo",
    "delayed": true,
-   "last_price": 28489.25,
+   "last_price": 28420.0,
    "levels": [
     {
      "tag": "exp_hi",
@@ -1458,7 +1466,7 @@
      "label": "Overnight high",
      "price": 28607.75,
      "group": "overnight",
-     "note": "since 18:00 ET, 876 bars"
+     "note": "since 18:00 ET, 891 bars"
     },
     {
      "tag": "vah",
@@ -1475,8 +1483,8 @@
      "note": ""
     },
     {
-     "tag": "rn_minor_dn",
-     "label": "Round 50 below",
+     "tag": "rn_minor_up",
+     "label": "Round 50 above",
      "price": 28450.0,
      "group": "round",
      "note": ""
@@ -1484,7 +1492,7 @@
     {
      "tag": "onvwap",
      "label": "Overnight VWAP",
-     "price": 28418.71,
+     "price": 28420.09,
      "group": "overnight",
      "note": "typical-price VWAP"
     },
@@ -1560,14 +1568,14 @@
     }
    ],
    "stats": {
-    "last_bar_utc": "2026-11-13T13:45:00+00:00",
-    "last_bar_age_min": 10.5,
+    "last_bar_utc": "2026-11-13T14:00:00+00:00",
+    "last_bar_age_min": 10.7,
     "market_state": "open",
     "profile_volume": 498484.0,
     "prior_day": "2026-11-12",
     "prior_day_rth_range": 607.75,
     "overnight_range": 364.5,
-    "gap_vs_prior_close": 101.0,
+    "gap_vs_prior_close": 31.75,
     "gap_basis": "last price (pre-market)",
     "atr14": 930.34,
     "atr_days": 14,
@@ -2788,8 +2796,16 @@
      "t": "2026-11-13T13:45:00+00:00",
      "o": 28485.5,
      "h": 28495.75,
-     "l": 28477.25,
-     "c": 28489.25,
+     "l": 28404.0,
+     "c": 28416.75,
+     "v": 9043.0
+    },
+    {
+     "t": "2026-11-13T14:00:00+00:00",
+     "o": 28418.0,
+     "h": 28426.75,
+     "l": 28415.25,
+     "c": 28420.0,
      "v": 0.0
     }
    ]
@@ -2798,12 +2814,21 @@
  "news": {
   "headlines": [
    {
+    "id": "29160ddd91",
+    "title": "The Week Ahead: Fed minutes, Japan CPI, Nvidia earnings - CMC Markets",
+    "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPRFpWN0F1M2RrcUNPWGlJOFB6R016TUVWU2otV0VYNnVIMmNPM1k2RTMtckdyeEJhU2VEOXFyQjFZLUR1dVYxSGxXWHBYRVh5WmJPZTlUZktRQmtsTE9qNXkwSU9uTWJwNm9ReDdFNHFzMUtRcGpIRVNzR3Fld1VkMlpKdU1tQlpVVUhjRW9XR1ZzSFhiSkZQQkxXeG5UcWhyZmttTUpn?oc=5",
+    "source": "gnews_macro",
+    "published_utc": "2026-11-13T12:34:23+00:00",
+    "score": 10.23,
+    "duplicates": 0
+   },
+   {
     "id": "f4114442a5",
     "title": "Week ahead – Fed Minutes, inflation data and Nvidia earnings to guide investors [Video] - FXStreet",
     "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQMExYaE14OU54SnktbjduRUVodUVVOVJjSno4cm1yNkk0Wk1lNERmTmdiVTBENDNlM0FCaFgzWmI4VFNPYlkwM0RPU0hid0FIQURWbEluM3VBN0Vib010QmpTSGJiSjdoaWNjQmJuOHp4bmM2dHRYakhlU1h1MjNCd2JUakltRXUwQXJJektxVGM2YmhqcG9TajNvWm05VFY3c1M5NDNCMXZoZDdlWjg2VmtPWHBYZk11NlpjVUNuRTE?oc=5",
     "source": "gnews_megacap",
     "published_utc": "2026-11-13T10:33:23+00:00",
-    "score": 9.94,
+    "score": 9.9,
     "duplicates": 0
    },
    {
@@ -2812,7 +2837,7 @@
     "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE11YnhZUHV6bkVRTlF6cTRta1N4SVNCbUEyQ05vaEFRVXFldC15U0xpeXNBS19WUllWSElJQTBiNndPXzhvWk11UmMwb21QTTBPMHdB?oc=5",
     "source": "gnews_futures",
     "published_utc": "2026-11-13T13:22:49+00:00",
-    "score": 9.91,
+    "score": 9.87,
     "duplicates": 4
    },
    {
@@ -2821,7 +2846,7 @@
     "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQNFZ3ZXVlVkd5Y2dlVGNtREhMS1psWFNLSnAyNzVuVXBXNmtvcnBDWW5vSkhnTEtVVzBsS3lBSE5uTWRCNDl0NnNSRmhYT0hjbDRlSTZBTUI4LVVUN1VtNkNfMVdScHRvSEd0YmdfMzBGLV9Ta3FTYmdVbnNxSmItc1VmODFCb1dMUUlBUEZraU0yUGl4QmtHOWgzeWZfUVlfc05hdU43cDVvYUdhLWNZT1pIaw?oc=5",
     "source": "gnews_fed",
     "published_utc": "2026-11-13T10:00:36+00:00",
-    "score": 9.85,
+    "score": 9.81,
     "duplicates": 0
    },
    {
@@ -2830,7 +2855,16 @@
     "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQaHRkbkhGZEZkQkJROUZRb245c21Hc045c0pjVUF3WEg4YjJoVHBJdFhkTERGRE9lWjdfaldBTHkzWVlqeDg1OG05MDdnb3ZoS2FQNzV1SXNhc3AzZjlLS1FNbWFGNExZNUFMYUJMU3o4c2hHcTFkcFgyQW1nQkt2MHowREtzNXhaT0tRajdNclpMckprYkpvOTFMUQ?oc=5",
     "source": "gnews_macro",
     "published_utc": "2026-11-13T08:46:21+00:00",
-    "score": 9.14,
+    "score": 9.1,
+    "duplicates": 0
+   },
+   {
+    "id": "09c153a522",
+    "title": "Federal Reserve Highlights Surge in AI-Driven Data-Center Investment, Spotlighting Alphabet (GOOGL) - GuruFocus",
+    "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxOR0FNcUFWNDdRcEh4amFkUHYyZ1ljR2ltTXNKOEVqR1BoZlFnMURPRmUwYkRxVkFlOUpxZS1Ha0Q0YVVxeTFoM3BTTEstbjBaYlF5eV9EU0ZXVGpQZTBfTTBYV2dwYm5WaUJvUGVuYlpWZjlrdTNDOVJ0RHAwend1YUVyLXowanhkRTVhbTdzTjY3aUQ2UWRPa0NGMmJVUnNRdU5DckswajE1Smd4aW1RQl9wNUpNbFpqamZHVGUtcnYxaFVkR0xkMl9yR19vZw?oc=5",
+    "source": "gnews_fed",
+    "published_utc": "2026-11-13T11:02:53+00:00",
+    "score": 8.98,
     "duplicates": 0
    },
    {
@@ -2839,7 +2873,7 @@
     "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOYWx2S1gybU5lYjJCbEl5OXkyekl3YXdnd2RuWnJPQU9VODlSSnpLM1ZDeGVfT19LdEF4OThPMGZQM1NDNXloMzFGcjdmZDE4ZU90dDBuX2xsX2lUZTJjLU5HNEZCNnJJRFJQT0tmR2FwZVBXT1Q3cURtZHFTYTJtUDVOVHZESnNfWlBkZXdoT1pQXzNkYldpWklrdEZiRWxiVjJRaHNxOXpMVXhPOFR1ZERmc09uWXJEcWR1dUdKblUzQjdkTkM0?oc=5",
     "source": "gnews_fed",
     "published_utc": "2026-11-13T13:02:24+00:00",
-    "score": 8.85,
+    "score": 8.81,
     "duplicates": 1
    },
    {
@@ -2848,7 +2882,7 @@
     "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQdzFLS0NaUGxWcXl4Q2tLcThkem1SekJvbmdMQTE4a3QxdU0tNnpQdFlNX3F1NVhXT1IzdXNTSWtZa2xGRmFFZXpkcWZVSXZTR1lLTl84Z3ZKMVQxTmc1dks3bm81Smx2T2N2TXBaalpSdC1mNHJ2OGVrS3B3Qk5JSnd1UnV0UkpGUHBMOEE3Zw?oc=5",
     "source": "gnews_macro",
     "published_utc": "2026-11-13T11:00:45+00:00",
-    "score": 8.51,
+    "score": 8.47,
     "duplicates": 0
    },
    {
@@ -2857,7 +2891,7 @@
     "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQOUg2SEc1NWFEV1oxd3dhbTZkM3dWYTc4dzRDNFlmT2pvemNVRi1DeXppMUVEZm5LdFJsVzR6ZVRpc29GZXYtXzJCNzE0RHVHQ0tEaGNrRTNTVlF5SEl5b1lmMjBkc180eElpd2VKODNrcHl1cWctcEc5ejNXLURXM1RR?oc=5",
     "source": "gnews_futures",
     "published_utc": "2026-11-13T13:11:14+00:00",
-    "score": 8.38,
+    "score": 8.33,
     "duplicates": 0
    },
    {
@@ -2866,7 +2900,16 @@
     "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNcEdLelU4VXpMTmdPeTgxTjBhZkd3NEIyZDg5ZnZCWXdtVnVFd3Fxbm95Z2ZfbkNZRnh2WVppWUhnR0pvZXZsRHdEaWdkaEJ1emVweFpFbG9WUTBPV3B1UktyeVNodWY0SXBtOGNUbXZQWXcyRmNWUnRGR21vYWt0WmxraHFsZ2haSGRCdHZacG1uTkpMTTlNQUpsNEFSRUY4Z2MzaUZn?oc=5",
     "source": "gnews_futures",
     "published_utc": "2026-11-13T11:19:00+00:00",
-    "score": 8.07,
+    "score": 8.02,
+    "duplicates": 2
+   },
+   {
+    "id": "7dff6eec2a",
+    "title": "Bessent: Treasury has wanted Megaspeed restrictions for months, but Commerce is in charge",
+    "link": "https://www.cnbc.com/2026/11/13/us-inflation-outlook-federal-reserve-rate-hike.html",
+    "source": "cnbc_markets",
+    "published_utc": "2026-11-13T14:06:31+00:00",
+    "score": 7.99,
     "duplicates": 2
    },
    {
@@ -2875,44 +2918,17 @@
     "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxNcTZ1SVFjSlk1Z2lPZS1JcW9BZjF0Q0RSOW81azRrelRPc2hJS2VkWUMtaVhoTUhYVjkwNmRmMnJMVUlqVlF4M0NLZ2ZCOHFidkdYSi1kWFBYX2VkVWZqTzc4eHV0U3BtZlpIRFphZHRHTXJOS2EwUndEQ21IQmI1eWZVZTdYYlZmR2hMdWZVOWRXM2M5c2FDYlVoZUdSX1FGODViYzdsZlRpT0ZZeE44SmpWVGs1djZtZWdoUGdGN3U0SlItT0FEUHk3TlE3ZUtwZFNZ?oc=5",
     "source": "gnews_futures",
     "published_utc": "2026-11-13T06:47:00+00:00",
-    "score": 7.81,
-    "duplicates": 0
-   },
-   {
-    "id": "6dcb4fb68d",
-    "title": "Nvidia has shed nearly $500 billion in market value this week. It’s still a $4 trillion AI behemoth.",
-    "link": "https://www.marketwatch.com/story/nvidia-has-shed-nearly-500-billion-in-market-value-this-week-its-still-a-4-trillion-ai-behemoth-2ca6eba7?mod=mw_rss_topstories",
-    "source": "marketwatch_top",
-    "published_utc": "2026-11-13T12:25:00+00:00",
-    "score": 7.75,
-    "duplicates": 0
-   },
-   {
-    "id": "8e7c3b02ba",
-    "title": "S&P 500 Futures Gain With Focus on U.S. PPI Data and Fed Speak - Barchart.com",
-    "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQTEVXLXBPSnVHVUdQNGF6VUhFNXdoaDZLek9SdHhROFdmVG1kUEhINS0taWV5ajVRVEU1RGJ3Qk5RME1hZGd3R01uTUc5Y0FEYTNudDlsZFhSdjlaU0JmMkI0WTlPY0J4OElFaHBMTk9icFFMWHpEVjhfUm5tbEJrNVRTVGNwSUJENG5tV3lxdGFRV3F4dGtyM2E2Znhjb21KZGE5TG1NcjM?oc=5",
-    "source": "gnews_futures",
-    "published_utc": "2026-11-13T11:26:39+00:00",
-    "score": 7.59,
-    "duplicates": 0
-   },
-   {
-    "id": "c7bc74d8af",
-    "title": "U.S. stock futures climb amid upcoming inflation data, Nvidia fallout - Investing.com",
-    "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQdmFvVkpNVVZZU2h5S2xOZElDMktUQWp2SEFDdnJlWGN5ZUtCMWxjTnRhbkpBMzgyUkllcW5HUmVDYkh3RmMxWFYzRlZXU0NtYWdEUERwNE10RlBYaGVkc0JPbnN2NXhYck1NVFp3NWY0MTFHdkJLU1ZNN2gzTXFmNVgxSks5amhKVmxCUmxBRU1RN1BIMGpMbXU0cWNpX29DVmRwOXRMWFd4bWI2Q2hKUDJyVWRjZw?oc=5",
-    "source": "gnews_futures",
-    "published_utc": "2026-11-13T00:15:31+00:00",
-    "score": 7.5,
+    "score": 7.77,
     "duplicates": 0
    }
   ],
   "summary": {
    "lines": [
+    "The Week Ahead: Fed minutes, Japan CPI, Nvidia earnings - CMC Markets [29160ddd91]",
     "Week ahead – Fed Minutes, inflation data and Nvidia earnings to guide investors [Video] - FXStreet [f4114442a5]",
     "Nasdaq futures subdued as Nvidia upheaval roils AI trade - The Edge Malaysia [8cb2cb6dc2]",
     "Geopolitical complexities drive a surge in real interest rates; Federal Reserve officials collectively highlight inflation concerns, putting pressure on gold prices. - 富途牛牛 [2cd13371ce]",
-    "Rechenberg: Tariffs aren’t driving inflation, ask the Fed - Boston Herald [638d4fd5ac]",
-    "Most top Fed officials blame AI for fueling inflation. Not Trump’s Fed chief. - The Washington Post [19699ddcff]"
+    "Rechenberg: Tariffs aren’t driving inflation, ask the Fed - Boston Herald [638d4fd5ac]"
    ],
    "backend": "none",
    "model": null,
