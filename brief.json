@@ -1,7 +1,7 @@
 {
  "meta": {
-  "generated_at_utc": "2026-11-13T12:41:20.794474+00:00",
-  "generated_at_local": "Fri 13 Nov 2026 08:41 AST",
+  "generated_at_utc": "2026-11-13T12:56:35.071688+00:00",
+  "generated_at_local": "Fri 13 Nov 2026 08:56 AST",
   "trading_day": "2026-11-13",
   "display_tz": "America/Halifax",
   "version": "0.1.0",
@@ -55,7 +55,7 @@
    "time_utc": "2026-11-13T13:30:00+00:00",
    "local": "09:30 AST",
    "et": "08:30 ET",
-   "in": "48 min",
+   "in": "33 min",
    "consensus": "0.3%",
    "prior": "0.7%"
   },
@@ -66,10 +66,10 @@
   {
    "root": "ES",
    "trading_day": "2026-11-13",
-   "as_of_utc": "2026-11-13T12:41:20.794474+00:00",
+   "as_of_utc": "2026-11-13T12:56:35.071688+00:00",
    "source": "yahoo",
    "delayed": true,
-   "last_price": 7634.0,
+   "last_price": 7629.5,
    "levels": [
     {
      "tag": "exp_hi",
@@ -111,7 +111,14 @@
      "label": "Overnight high",
      "price": 7649.75,
      "group": "overnight",
-     "note": "since 18:00 ET, 802 bars"
+     "note": "since 18:00 ET, 817 bars"
+    },
+    {
+     "tag": "onvwap",
+     "label": "Overnight VWAP",
+     "price": 7625.15,
+     "group": "overnight",
+     "note": "typical-price VWAP"
     },
     {
      "tag": "rn_minor_dn",
@@ -119,13 +126,6 @@
      "price": 7625.0,
      "group": "round",
      "note": ""
-    },
-    {
-     "tag": "onvwap",
-     "label": "Overnight VWAP",
-     "price": 7624.89,
-     "group": "overnight",
-     "note": "typical-price VWAP"
     },
     {
      "tag": "pdc",
@@ -199,14 +199,14 @@
     }
    ],
    "stats": {
-    "last_bar_utc": "2026-11-13T12:31:00+00:00",
-    "last_bar_age_min": 10.3,
+    "last_bar_utc": "2026-11-13T12:46:00+00:00",
+    "last_bar_age_min": 10.6,
     "market_state": "open",
     "profile_volume": 1346183.0,
     "prior_day": "2026-11-12",
     "prior_day_rth_range": 93.25,
     "overnight_range": 51.25,
-    "gap_vs_prior_close": 17.75,
+    "gap_vs_prior_close": 13.25,
     "gap_basis": "last price (pre-market)",
     "atr14": 147.77,
     "atr_days": 14,
@@ -1386,20 +1386,28 @@
     {
      "t": "2026-11-13T12:30:00+00:00",
      "o": 7633.75,
-     "h": 7634.25,
-     "l": 7632.5,
-     "c": 7634.0,
-     "v": 238.0
+     "h": 7635.5,
+     "l": 7629.75,
+     "c": 7631.75,
+     "v": 4977.0
+    },
+    {
+     "t": "2026-11-13T12:45:00+00:00",
+     "o": 7631.75,
+     "h": 7632.0,
+     "l": 7628.0,
+     "c": 7629.5,
+     "v": 221.0
     }
    ]
   },
   {
    "root": "NQ",
    "trading_day": "2026-11-13",
-   "as_of_utc": "2026-11-13T12:41:20.794474+00:00",
+   "as_of_utc": "2026-11-13T12:56:35.071688+00:00",
    "source": "yahoo",
    "delayed": true,
-   "last_price": 28416.5,
+   "last_price": 28376.5,
    "levels": [
     {
      "tag": "exp_hi",
@@ -1427,7 +1435,7 @@
      "label": "Overnight high",
      "price": 28607.75,
      "group": "overnight",
-     "note": "since 18:00 ET, 802 bars"
+     "note": "since 18:00 ET, 817 bars"
     },
     {
      "tag": "vah",
@@ -1437,29 +1445,15 @@
      "note": "70 % value area"
     },
     {
-     "tag": "rn_major_up",
-     "label": "Round 100 above",
-     "price": 28500.0,
-     "group": "round",
-     "note": ""
-    },
-    {
-     "tag": "rn_minor_up",
-     "label": "Round 50 above",
-     "price": 28450.0,
-     "group": "round",
-     "note": ""
-    },
-    {
      "tag": "onvwap",
      "label": "Overnight VWAP",
-     "price": 28410.35,
+     "price": 28410.2,
      "group": "overnight",
      "note": "typical-price VWAP"
     },
     {
-     "tag": "rn_major_dn",
-     "label": "Round 100 below",
+     "tag": "rn_major_up",
+     "label": "Round 100 above",
      "price": 28400.0,
      "group": "round",
      "note": ""
@@ -1477,6 +1471,20 @@
      "price": 28353.5,
      "group": "profile",
      "note": "2026-11-12 RTH, bin 1.0"
+    },
+    {
+     "tag": "rn_minor_dn",
+     "label": "Round 50 below",
+     "price": 28350.0,
+     "group": "round",
+     "note": ""
+    },
+    {
+     "tag": "rn_major_dn",
+     "label": "Round 100 below",
+     "price": 28300.0,
+     "group": "round",
+     "note": ""
     },
     {
      "tag": "val",
@@ -1529,14 +1537,14 @@
     }
    ],
    "stats": {
-    "last_bar_utc": "2026-11-13T12:31:00+00:00",
-    "last_bar_age_min": 10.3,
+    "last_bar_utc": "2026-11-13T12:46:00+00:00",
+    "last_bar_age_min": 10.6,
     "market_state": "open",
     "profile_volume": 498484.0,
     "prior_day": "2026-11-12",
     "prior_day_rth_range": 607.75,
     "overnight_range": 364.5,
-    "gap_vs_prior_close": 28.25,
+    "gap_vs_prior_close": -11.75,
     "gap_basis": "last price (pre-market)",
     "atr14": 930.34,
     "atr_days": 14,
@@ -2716,10 +2724,18 @@
     {
      "t": "2026-11-13T12:30:00+00:00",
      "o": 28414.0,
-     "h": 28418.75,
-     "l": 28406.75,
-     "c": 28416.5,
-     "v": 121.0
+     "h": 28425.25,
+     "l": 28384.25,
+     "c": 28393.5,
+     "v": 2269.0
+    },
+    {
+     "t": "2026-11-13T12:45:00+00:00",
+     "o": 28395.5,
+     "h": 28396.0,
+     "l": 28372.25,
+     "c": 28376.5,
+     "v": 158.0
     }
    ]
   }
@@ -2727,12 +2743,12 @@
  "news": {
   "headlines": [
    {
-    "id": "bdac3c5f15",
+    "id": "377deb832a",
     "title": "The Week Ahead: Fed minutes, Japan CPI, Nvidia earnings - CMC Markets",
-    "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPRFpWN0F1M2RrcUNPWGlJOFB6R016TUVWU2otV0VYNnVIMmNPM1k2RTMtckdyeEJhU2VEOXFyQjFZLUR1dVYxSGxXWHBYRVh5WmJPZTlUZktRQmtsTE9qNXkwSU9uTWJwNm9ReDdFNHFzMUtRcGpIRVNzR3Fld1VkMlpKdU1tQlpVVUhjRW9XR1ZzSFhiSkZQQkxXeG5UcWhyZmttTUpn?oc=5",
+    "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNUjY1bEhKLVBMbGhfT0tPek5lVTJxMVlIcGdYT2ZMQ3pGaHNYWmxVMjlIWm9xeWlrbGVUS1M0MmRlbzVQMXpwaFVhcFRZbEZsVm1ST1VMYmlkcG5uQjdKU0d5cktlOVlBVk5KejY2TU1VT3IyUURRTHVGTEVPZW9DbEFrWnlYYkdLelBrdXdPeDFlTm9senRxWi13eEwzT1RXVHR3M1pR?oc=5",
     "source": "gnews_megacap",
-    "published_utc": "2026-11-13T12:34:23+00:00",
-    "score": 10.98,
+    "published_utc": "2026-11-13T12:34:14+00:00",
+    "score": 10.94,
     "duplicates": 1
    },
    {
@@ -2741,7 +2757,7 @@
     "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQMExYaE14OU54SnktbjduRUVodUVVOVJjSno4cm1yNkk0Wk1lNERmTmdiVTBENDNlM0FCaFgzWmI4VFNPYlkwM0RPU0hid0FIQURWbEluM3VBN0Vib010QmpTSGJiSjdoaWNjQmJuOHp4bmM2dHRYakhlU1h1MjNCd2JUakltRXUwQXJJektxVGM2YmhqcG9TajNvWm05VFY3c1M5NDNCMXZoZDdlWjg2VmtPWHBYZk11NlpjVUNuRTE?oc=5",
     "source": "gnews_megacap",
     "published_utc": "2026-11-13T10:33:23+00:00",
-    "score": 10.14,
+    "score": 10.1,
     "duplicates": 0
    },
    {
@@ -2750,7 +2766,7 @@
     "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQNFZ3ZXVlVkd5Y2dlVGNtREhMS1psWFNLSnAyNzVuVXBXNmtvcnBDWW5vSkhnTEtVVzBsS3lBSE5uTWRCNDl0NnNSRmhYT0hjbDRlSTZBTUI4LVVUN1VtNkNfMVdScHRvSEd0YmdfMzBGLV9Ta3FTYmdVbnNxSmItc1VmODFCb1dMUUlBUEZraU0yUGl4QmtHOWgzeWZfUVlfc05hdU43cDVvYUdhLWNZT1pIaw?oc=5",
     "source": "gnews_fed",
     "published_utc": "2026-11-13T10:00:36+00:00",
-    "score": 10.05,
+    "score": 10.01,
     "duplicates": 0
    },
    {
@@ -2759,7 +2775,7 @@
     "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQaHRkbkhGZEZkQkJROUZRb245c21Hc045c0pjVUF3WEg4YjJoVHBJdFhkTERGRE9lWjdfaldBTHkzWVlqeDg1OG05MDdnb3ZoS2FQNzV1SXNhc3AzZjlLS1FNbWFGNExZNUFMYUJMU3o4c2hHcTFkcFgyQW1nQkt2MHowREtzNXhaT0tRajdNclpMckprYkpvOTFMUQ?oc=5",
     "source": "gnews_macro",
     "published_utc": "2026-11-13T08:46:21+00:00",
-    "score": 9.35,
+    "score": 9.3,
     "duplicates": 0
    },
    {
@@ -2768,7 +2784,7 @@
     "link": "https://www.cnbc.com/2026/11/13/us-inflation-outlook-federal-reserve-rate-hike.html",
     "source": "cnbc_markets",
     "published_utc": "2026-11-13T11:31:10+00:00",
-    "score": 9.31,
+    "score": 9.26,
     "duplicates": 2
    },
    {
@@ -2777,7 +2793,7 @@
     "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOYWx2S1gybU5lYjJCbEl5OXkyekl3YXdnd2RuWnJPQU9VODlSSnpLM1ZDeGVfT19LdEF4OThPMGZQM1NDNXloMzFGcjdmZDE4ZU90dDBuX2xsX2lUZTJjLU5HNEZCNnJJRFJQT0tmR2FwZVBXT1Q3cURtZHFTYTJtUDVOVHZESnNfWlBkZXdoT1pQXzNkYldpWklrdEZiRWxiVjJRaHNxOXpMVXhPOFR1ZERmc09uWXJEcWR1dUdKblUzQjdkTkM0?oc=5",
     "source": "gnews_fed",
     "published_utc": "2026-11-13T11:32:24+00:00",
-    "score": 8.81,
+    "score": 8.77,
     "duplicates": 1
    },
    {
@@ -2786,7 +2802,7 @@
     "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQdzFLS0NaUGxWcXl4Q2tLcThkem1SekJvbmdMQTE4a3QxdU0tNnpQdFlNX3F1NVhXT1IzdXNTSWtZa2xGRmFFZXpkcWZVSXZTR1lLTl84Z3ZKMVQxTmc1dks3bm81Smx2T2N2TXBaalpSdC1mNHJ2OGVrS3B3Qk5JSnd1UnV0UkpGUHBMOEE3Zw?oc=5",
     "source": "gnews_macro",
     "published_utc": "2026-11-13T11:00:45+00:00",
-    "score": 8.72,
+    "score": 8.68,
     "duplicates": 0
    },
    {
@@ -2795,7 +2811,7 @@
     "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNcEdLelU4VXpMTmdPeTgxTjBhZkd3NEIyZDg5ZnZCWXdtVnVFd3Fxbm95Z2ZfbkNZRnh2WVppWUhnR0pvZXZsRHdEaWdkaEJ1emVweFpFbG9WUTBPV3B1UktyeVNodWY0SXBtOGNUbXZQWXcyRmNWUnRGR21vYWt0WmxraHFsZ2haSGRCdHZacG1uTkpMTTlNQUpsNEFSRUY4Z2MzaUZn?oc=5",
     "source": "gnews_futures",
     "published_utc": "2026-11-13T12:26:26+00:00",
-    "score": 8.46,
+    "score": 8.42,
     "duplicates": 2
    },
    {
@@ -2804,7 +2820,7 @@
     "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxOXzBOQUVtbkVkek5raFFhaFJ3MTczWHlJdWgzZC1yZnB2TTAxbC1sUDJYeXBqcXdyYzFiTVljTDRETUNCTFhscDV6YXJJeDV4WHAzdEdUZl9IZXU5V2xPMkJfa0p6RDVqLTRFUVFCclFsOVU3LWVmNkd4Qk1GWWhMSEVLRnlDYWhpOFJUd2tSemhDV0piNkJtczdFTzV5Zw?oc=5",
     "source": "gnews_futures",
     "published_utc": "2026-11-13T12:11:03+00:00",
-    "score": 8.42,
+    "score": 8.37,
     "duplicates": 1
    },
    {
@@ -2813,7 +2829,7 @@
     "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxNcTZ1SVFjSlk1Z2lPZS1JcW9BZjF0Q0RSOW81azRrelRPc2hJS2VkWUMtaVhoTUhYVjkwNmRmMnJMVUlqVlF4M0NLZ2ZCOHFidkdYSi1kWFBYX2VkVWZqTzc4eHV0U3BtZlpIRFphZHRHTXJOS2EwUndEQ21IQmI1eWZVZTdYYlZmR2hMdWZVOWRXM2M5c2FDYlVoZUdSX1FGODViYzdsZlRpT0ZZeE44SmpWVGs1djZtZWdoUGdGN3U0SlItT0FEUHk3TlE3ZUtwZFNZ?oc=5",
     "source": "gnews_futures",
     "published_utc": "2026-11-13T06:47:00+00:00",
-    "score": 8.02,
+    "score": 7.97,
     "duplicates": 0
    },
    {
@@ -2822,7 +2838,7 @@
     "link": "https://www.marketwatch.com/story/nvidia-has-shed-nearly-500-billion-in-market-value-this-week-its-still-a-4-trillion-ai-behemoth-2ca6eba7?mod=mw_rss_topstories",
     "source": "marketwatch_top",
     "published_utc": "2026-11-13T12:25:00+00:00",
-    "score": 7.95,
+    "score": 7.91,
     "duplicates": 0
    },
    {
@@ -2831,13 +2847,13 @@
     "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPa0xIRkJ1T2xEOU9abUNDYi1vTlpmRWJzd0MyQkFqa2NSb1BkMEdUNDROMmVmaXo3bDVRdThuRDFRaWZySXAyRjN5d1NDNjhCclFJUDVxdG9CQ1dyWWpDbUEwVHVRaHpNWUg5SjdreUtMeHNHXy1feGNBVkFLN3Z4cGNTcGtyYXg2bXFHdlpZQWtneFJDSWVreFROZ09oamc?oc=5",
     "source": "gnews_futures",
     "published_utc": "2026-11-13T11:33:16+00:00",
-    "score": 7.81,
+    "score": 7.77,
     "duplicates": 2
    }
   ],
   "summary": {
    "lines": [
-    "The Week Ahead: Fed minutes, Japan CPI, Nvidia earnings - CMC Markets [bdac3c5f15]",
+    "The Week Ahead: Fed minutes, Japan CPI, Nvidia earnings - CMC Markets [377deb832a]",
     "Week ahead – Fed Minutes, inflation data and Nvidia earnings to guide investors [Video] - FXStreet [f4114442a5]",
     "Geopolitical complexities drive a surge in real interest rates; Federal Reserve officials collectively highlight inflation concerns, putting pressure on gold prices. - 富途牛牛 [2cd13371ce]",
     "Rechenberg: Tariffs aren’t driving inflation, ask the Fed - Boston Herald [638d4fd5ac]",
