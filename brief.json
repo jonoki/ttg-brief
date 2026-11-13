@@ -1,7 +1,7 @@
 {
  "meta": {
-  "generated_at_utc": "2026-11-13T11:25:02.673520+00:00",
-  "generated_at_local": "Fri 13 Nov 2026 07:25 AST",
+  "generated_at_utc": "2026-11-13T11:40:20.622407+00:00",
+  "generated_at_local": "Fri 13 Nov 2026 07:40 AST",
   "trading_day": "2026-11-13",
   "display_tz": "America/Halifax",
   "version": "0.1.0",
@@ -55,7 +55,7 @@
    "time_utc": "2026-11-13T13:30:00+00:00",
    "local": "09:30 AST",
    "et": "08:30 ET",
-   "in": "2h 04m",
+   "in": "1h 49m",
    "consensus": "0.3%",
    "prior": "0.7%"
   },
@@ -66,10 +66,10 @@
   {
    "root": "ES",
    "trading_day": "2026-11-13",
-   "as_of_utc": "2026-11-13T11:25:02.673520+00:00",
+   "as_of_utc": "2026-11-13T11:40:20.622407+00:00",
    "source": "yahoo",
    "delayed": true,
-   "last_price": 7629.5,
+   "last_price": 7628.75,
    "levels": [
     {
      "tag": "exp_hi",
@@ -111,7 +111,7 @@
      "label": "Overnight high",
      "price": 7649.75,
      "group": "overnight",
-     "note": "since 18:00 ET, 726 bars"
+     "note": "since 18:00 ET, 741 bars"
     },
     {
      "tag": "rn_minor_dn",
@@ -123,7 +123,7 @@
     {
      "tag": "onvwap",
      "label": "Overnight VWAP",
-     "price": 7623.81,
+     "price": 7623.88,
      "group": "overnight",
      "note": "typical-price VWAP"
     },
@@ -199,14 +199,14 @@
     }
    ],
    "stats": {
-    "last_bar_utc": "2026-11-13T11:15:00+00:00",
-    "last_bar_age_min": 10.0,
+    "last_bar_utc": "2026-11-13T11:30:00+00:00",
+    "last_bar_age_min": 10.3,
     "market_state": "open",
     "profile_volume": 1346183.0,
     "prior_day": "2026-11-12",
     "prior_day_rth_range": 93.25,
     "overnight_range": 51.25,
-    "gap_vs_prior_close": 13.25,
+    "gap_vs_prior_close": 12.5,
     "gap_basis": "last price (pre-market)",
     "atr14": 147.77,
     "atr_days": 14,
@@ -1347,8 +1347,16 @@
      "t": "2026-11-13T11:15:00+00:00",
      "o": 7629.5,
      "h": 7630.5,
-     "l": 7629.5,
-     "c": 7629.5,
+     "l": 7626.0,
+     "c": 7628.0,
+     "v": 1863.0
+    },
+    {
+     "t": "2026-11-13T11:30:00+00:00",
+     "o": 7628.0,
+     "h": 7629.0,
+     "l": 7628.0,
+     "c": 7628.75,
      "v": 0.0
     }
    ]
@@ -1356,10 +1364,10 @@
   {
    "root": "NQ",
    "trading_day": "2026-11-13",
-   "as_of_utc": "2026-11-13T11:25:02.673520+00:00",
+   "as_of_utc": "2026-11-13T11:40:20.622407+00:00",
    "source": "yahoo",
    "delayed": true,
-   "last_price": 28412.0,
+   "last_price": 28405.0,
    "levels": [
     {
      "tag": "exp_hi",
@@ -1387,7 +1395,7 @@
      "label": "Overnight high",
      "price": 28607.75,
      "group": "overnight",
-     "note": "since 18:00 ET, 726 bars"
+     "note": "since 18:00 ET, 741 bars"
     },
     {
      "tag": "vah",
@@ -1413,7 +1421,7 @@
     {
      "tag": "onvwap",
      "label": "Overnight VWAP",
-     "price": 28408.57,
+     "price": 28408.59,
      "group": "overnight",
      "note": "typical-price VWAP"
     },
@@ -1489,14 +1497,14 @@
     }
    ],
    "stats": {
-    "last_bar_utc": "2026-11-13T11:15:00+00:00",
-    "last_bar_age_min": 10.0,
+    "last_bar_utc": "2026-11-13T11:30:00+00:00",
+    "last_bar_age_min": 10.3,
     "market_state": "open",
     "profile_volume": 498484.0,
     "prior_day": "2026-11-12",
     "prior_day_rth_range": 607.75,
     "overnight_range": 364.5,
-    "gap_vs_prior_close": 23.75,
+    "gap_vs_prior_close": 16.75,
     "gap_basis": "last price (pre-market)",
     "atr14": 930.34,
     "atr_days": 14,
@@ -2636,9 +2644,17 @@
     {
      "t": "2026-11-13T11:15:00+00:00",
      "o": 28411.25,
-     "h": 28418.25,
-     "l": 28410.0,
-     "c": 28412.0,
+     "h": 28422.0,
+     "l": 28393.0,
+     "c": 28400.75,
+     "v": 1293.0
+    },
+    {
+     "t": "2026-11-13T11:30:00+00:00",
+     "o": 28401.5,
+     "h": 28406.75,
+     "l": 28401.0,
+     "c": 28405.0,
      "v": 0.0
     }
    ]
@@ -2652,7 +2668,7 @@
     "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQMExYaE14OU54SnktbjduRUVodUVVOVJjSno4cm1yNkk0Wk1lNERmTmdiVTBENDNlM0FCaFgzWmI4VFNPYlkwM0RPU0hid0FIQURWbEluM3VBN0Vib010QmpTSGJiSjdoaWNjQmJuOHp4bmM2dHRYakhlU1h1MjNCd2JUakltRXUwQXJJektxVGM2YmhqcG9TajNvWm05VFY3c1M5NDNCMXZoZDdlWjg2VmtPWHBYZk11NlpjVUNuRTE?oc=5",
     "source": "gnews_megacap",
     "published_utc": "2026-11-13T10:33:23+00:00",
-    "score": 10.36,
+    "score": 10.31,
     "duplicates": 0
    },
    {
@@ -2661,7 +2677,7 @@
     "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQNFZ3ZXVlVkd5Y2dlVGNtREhMS1psWFNLSnAyNzVuVXBXNmtvcnBDWW5vSkhnTEtVVzBsS3lBSE5uTWRCNDl0NnNSRmhYT0hjbDRlSTZBTUI4LVVUN1VtNkNfMVdScHRvSEd0YmdfMzBGLV9Ta3FTYmdVbnNxSmItc1VmODFCb1dMUUlBUEZraU0yUGl4QmtHOWgzeWZfUVlfc05hdU43cDVvYUdhLWNZT1pIaw?oc=5",
     "source": "gnews_fed",
     "published_utc": "2026-11-13T10:00:36+00:00",
-    "score": 10.27,
+    "score": 10.22,
     "duplicates": 0
    },
    {
@@ -2670,7 +2686,7 @@
     "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQaHRkbkhGZEZkQkJROUZRb245c21Hc045c0pjVUF3WEg4YjJoVHBJdFhkTERGRE9lWjdfaldBTHkzWVlqeDg1OG05MDdnb3ZoS2FQNzV1SXNhc3AzZjlLS1FNbWFGNExZNUFMYUJMU3o4c2hHcTFkcFgyQW1nQkt2MHowREtzNXhaT0tRajdNclpMckprYkpvOTFMUQ?oc=5",
     "source": "gnews_macro",
     "published_utc": "2026-11-13T08:46:21+00:00",
-    "score": 9.56,
+    "score": 9.52,
     "duplicates": 0
    },
    {
@@ -2678,8 +2694,8 @@
     "title": "The Fed expected rate cuts this year. Now it’s bracing for another inflation fight",
     "link": "https://www.cnbc.com/2026/11/13/us-inflation-outlook-federal-reserve-rate-hike.html",
     "source": "cnbc_markets",
-    "published_utc": "2026-11-13T10:00:26+00:00",
-    "score": 9.26,
+    "published_utc": "2026-11-13T11:31:10+00:00",
+    "score": 9.47,
     "duplicates": 2
    },
    {
@@ -2687,9 +2703,27 @@
     "title": "Most top Fed officials blame AI for fueling inflation. Not Trump’s Fed chief. - The Washington Post",
     "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOYWx2S1gybU5lYjJCbEl5OXkyekl3YXdnd2RuWnJPQU9VODlSSnpLM1ZDeGVfT19LdEF4OThPMGZQM1NDNXloMzFGcjdmZDE4ZU90dDBuX2xsX2lUZTJjLU5HNEZCNnJJRFJQT0tmR2FwZVBXT1Q3cURtZHFTYTJtUDVOVHZESnNfWlBkZXdoT1pQXzNkYldpWklrdEZiRWxiVjJRaHNxOXpMVXhPOFR1ZERmc09uWXJEcWR1dUdKblUzQjdkTkM0?oc=5",
     "source": "gnews_fed",
-    "published_utc": "2026-11-13T11:04:43+00:00",
-    "score": 8.94,
+    "published_utc": "2026-11-13T11:32:24+00:00",
+    "score": 8.98,
     "duplicates": 1
+   },
+   {
+    "id": "243c6a910f",
+    "title": "Two Views: Tariffs aren’t driving inflation — the Fed’s numbers say so - The Sun Chronicle",
+    "link": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxQdkNvMG43OG1McHJILUhHa05yN0NwV2Y3bDVVSUVMb0JnQjF3S1dLWEdxbHB6clZwX1VtWjh6MktTMEFSbzIwVS1QVmE5SlFrX2V1ZlVNaTRMRXZQQjRzR1VobGJjay1lTkVEMnI1V2RtZ2ZnamtvU1R3YkdkbTF1ejJULTBzXzFrUE44RFViQTBVVVFPMzRWN3hmZV8wSDB3UGltYXcySmhteGZQUG1OcHNXYjRyaVlwMTBzd2hCQ2FKWHpudWJLVi01SDhjQ1c5dE5yZDVJaVg5aFI0eGhCVFhtSlNlOHN0eWg3Sy15UWEyaGo1QWsxaw?oc=5",
+    "source": "gnews_macro",
+    "published_utc": "2026-11-13T05:15:00+00:00",
+    "score": 8.93,
+    "duplicates": 0
+   },
+   {
+    "id": "0f72f25fd4",
+    "title": "Stock Futures Mixed as Investors Look to U.S. Inflation Data -- Update - marketscreener.com",
+    "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOX3hGMW9qTENYTnVDTmtfYkNDb2JpVlRMWnBFeU0xbmlycnp2N2oxQlMzOHRVV0FlVzRtMk93ZkZsQnVJa3B2WHJndnFUdEZlUXV2dmJKMWxrSndVdUdWaW1EblYxaDB5MXNibkJPVkNabzZGcFROM2R1eGFGQWRmYl90cWQta1RmWnNrSUZRcjl4M1lrMHQyYVpNUkxXRWxtVTdKbVFVcEpvc2o5WnJzanB4UDF0RERnWmFr?oc=5",
+    "source": "gnews_futures",
+    "published_utc": "2026-11-13T11:27:30+00:00",
+    "score": 8.46,
+    "duplicates": 2
    },
    {
     "id": "b8f1eddeeb",
@@ -2697,7 +2731,16 @@
     "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxNcTZ1SVFjSlk1Z2lPZS1JcW9BZjF0Q0RSOW81azRrelRPc2hJS2VkWUMtaVhoTUhYVjkwNmRmMnJMVUlqVlF4M0NLZ2ZCOHFidkdYSi1kWFBYX2VkVWZqTzc4eHV0U3BtZlpIRFphZHRHTXJOS2EwUndEQ21IQmI1eWZVZTdYYlZmR2hMdWZVOWRXM2M5c2FDYlVoZUdSX1FGODViYzdsZlRpT0ZZeE44SmpWVGs1djZtZWdoUGdGN3U0SlItT0FEUHk3TlE3ZUtwZFNZ?oc=5",
     "source": "gnews_futures",
     "published_utc": "2026-11-13T06:47:00+00:00",
-    "score": 8.23,
+    "score": 8.19,
+    "duplicates": 0
+   },
+   {
+    "id": "8e7c3b02ba",
+    "title": "S&P 500 Futures Gain With Focus on U.S. PPI Data and Fed Speak - Barchart.com",
+    "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQTEVXLXBPSnVHVUdQNGF6VUhFNXdoaDZLek9SdHhROFdmVG1kUEhINS0taWV5ajVRVEU1RGJ3Qk5RME1hZGd3R01uTUc5Y0FEYTNudDlsZFhSdjlaU0JmMkI0WTlPY0J4OElFaHBMTk9icFFMWHpEVjhfUm5tbEJrNVRTVGNwSUJENG5tV3lxdGFRV3F4dGtyM2E2Znhjb21KZGE5TG1NcjM?oc=5",
+    "source": "gnews_futures",
+    "published_utc": "2026-11-13T11:26:39+00:00",
+    "score": 7.96,
     "duplicates": 0
    },
    {
@@ -2706,43 +2749,7 @@
     "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQaEJiR1ExZE5HRVNUZWpFUThjQ2tKQkdndS1sYWstRXhjWUxDOElkMWFCSF8tc19KdWVMS3hqZEJYZTVtcWpDX0t4RGtrUGRBUXpWVVd6QU5BRUJtX3JfQldKMGJqRkZQM1N6Zk9oSGpMTFl5ZXZ6TVYwbEdjOVJYZEdydTNqVXFxS2FSMQ?oc=5",
     "source": "gnews_futures",
     "published_utc": "2026-11-13T10:55:27+00:00",
-    "score": 7.92,
-    "duplicates": 0
-   },
-   {
-    "id": "588acf8767",
-    "title": "Stock Futures Lower as Investors Look to U.S. Inflation Data - WSJ",
-    "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNcEdLelU4VXpMTmdPeTgxTjBhZkd3NEIyZDg5ZnZCWXdtVnVFd3Fxbm95Z2ZfbkNZRnh2WVppWUhnR0pvZXZsRHdEaWdkaEJ1emVweFpFbG9WUTBPV3B1UktyeVNodWY0SXBtOGNUbXZQWXcyRmNWUnRGR21vYWt0WmxraHFsZ2haSGRCdHZacG1uTkpMTTlNQUpsNEFSRUY4Z2MzaUZn?oc=5",
-    "source": "gnews_futures",
-    "published_utc": "2026-11-13T09:28:00+00:00",
-    "score": 7.67,
-    "duplicates": 1
-   },
-   {
-    "id": "2ec646c38b",
-    "title": "Rate Hike Fears Set to Test India’s Stock Rally as Inflation Rises - Bloomberg.com",
-    "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNdGRoYnhoNmZMUTVFODRONTJZQmhGTEphQ3NpaVVpMXlGeXR3N05MblVRZU4tRUtsM3Z6czJUbDJfNktJamFJOExMS2V2VVl2ZDN0N2lLdDdzMllzT1NBOXhrc0JsUGg1LS04OTI4Y3I1bE5YM1JSRE9oWVkwTnFuRmZtaXI5VnU5VEVzTXQybndSd0lBTlRPWjNWZVo5ZWFlak9tQ0lTUVFfWS1SUzJCVDl4S01RSXpYNllEWTFscVhfcjZt?oc=5",
-    "source": "gnews_macro",
-    "published_utc": "2026-11-13T02:31:00+00:00",
-    "score": 7.52,
-    "duplicates": 0
-   },
-   {
-    "id": "4432c40db9",
-    "title": "Nvidia scandal draws in Commerce Secretary Lutnick, who reportedly agrees to testify about China chip sales",
-    "link": "https://www.cnbc.com/2026/11/13/nvidia-scandal-lutnick-chip-sales.html",
-    "source": "cnbc_markets",
-    "published_utc": "2026-11-13T10:54:40+00:00",
-    "score": 7.42,
-    "duplicates": 0
-   },
-   {
-    "id": "a5d56fddeb",
-    "title": "Federal Reserve rate hike expectations strengthen as U.S. inflation runs above forecasts - Traders Union",
-    "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPZUdjLUgtXzhlaGpNb015Y3VFcXNzaFU1SHRxRGZjMElZRXdEU0wxYVlLalFKNzBfbWc2dTc1b3k4ZHA4elJoclpFc1ZlT3VwdVdtbk1wX04wUGo0SUFHTXp3Q19iZUo4bW1SOVFXN0duckYwSDZFc0MyUElDZ1R6RkVDX2V5VnI2VjN5cnU5SkNaRHZ0ZGcwcjJn?oc=5",
-    "source": "gnews_fed",
-    "published_utc": "2026-11-13T10:55:29+00:00",
-    "score": 7.42,
+    "score": 7.88,
     "duplicates": 0
    },
    {
@@ -2750,9 +2757,18 @@
     "title": "Nasdaq futures dip as Nvidia tumult keeps investors on edge - Reuters",
     "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPa0xIRkJ1T2xEOU9abUNDYi1vTlpmRWJzd0MyQkFqa2NSb1BkMEdUNDROMmVmaXo3bDVRdThuRDFRaWZySXAyRjN5d1NDNjhCclFJUDVxdG9CQ1dyWWpDbUEwVHVRaHpNWUg5SjdreUtMeHNHXy1feGNBVkFLN3Z4cGNTcGtyYXg2bXFHdlpZQWtneFJDSWVreFROZ09oamc?oc=5",
     "source": "gnews_futures",
-    "published_utc": "2026-11-13T10:39:45+00:00",
-    "score": 7.37,
+    "published_utc": "2026-11-13T11:33:16+00:00",
+    "score": 7.48,
     "duplicates": 1
+   },
+   {
+    "id": "a5d56fddeb",
+    "title": "Federal Reserve rate hike expectations strengthen as U.S. inflation runs above forecasts - Traders Union",
+    "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPZUdjLUgtXzhlaGpNb015Y3VFcXNzaFU1SHRxRGZjMElZRXdEU0wxYVlLalFKNzBfbWc2dTc1b3k4ZHA4elJoclpFc1ZlT3VwdVdtbk1wX04wUGo0SUFHTXp3Q19iZUo4bW1SOVFXN0duckYwSDZFc0MyUElDZ1R6RkVDX2V5VnI2VjN5cnU5SkNaRHZ0ZGcwcjJn?oc=5",
+    "source": "gnews_fed",
+    "published_utc": "2026-11-13T10:55:29+00:00",
+    "score": 7.38,
+    "duplicates": 0
    }
   ],
   "summary": {
