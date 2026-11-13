@@ -1,11 +1,11 @@
 {
  "meta": {
-  "generated_at_utc": "2026-11-13T14:25:58.744369+00:00",
-  "generated_at_local": "Fri 13 Nov 2026 10:25 AST",
+  "generated_at_utc": "2026-11-13T14:41:14.873055+00:00",
+  "generated_at_local": "Fri 13 Nov 2026 10:41 AST",
   "trading_day": "2026-11-13",
   "display_tz": "America/Halifax",
   "version": "0.1.0",
-  "run": "post-data",
+  "run": "intraday",
   "variant": "public"
  },
  "calendar": {
@@ -57,10 +57,10 @@
   {
    "root": "ES",
    "trading_day": "2026-11-13",
-   "as_of_utc": "2026-11-13T14:25:58.744369+00:00",
+   "as_of_utc": "2026-11-13T14:41:14.873055+00:00",
    "source": "yahoo",
    "delayed": true,
-   "last_price": 7650.25,
+   "last_price": 7633.0,
    "levels": [
     {
      "tag": "exp_hi",
@@ -68,20 +68,6 @@
      "price": 7764.02,
      "group": "range",
      "note": "ATR over 14 days"
-    },
-    {
-     "tag": "rn_major_up",
-     "label": "Round 50 above",
-     "price": 7700.0,
-     "group": "round",
-     "note": ""
-    },
-    {
-     "tag": "rn_minor_up",
-     "label": "Round 25 above",
-     "price": 7675.0,
-     "group": "round",
-     "note": ""
     },
     {
      "tag": "pdh",
@@ -102,7 +88,7 @@
      "label": "Overnight high",
      "price": 7669.25,
      "group": "overnight",
-     "note": "since 18:00 ET, 906 bars"
+     "note": "since 18:00 ET, 920 bars"
     },
     {
      "tag": "vah",
@@ -112,18 +98,46 @@
      "note": "70 % value area"
     },
     {
-     "tag": "rn_major_dn",
-     "label": "Round 50 below",
+     "tag": "rn_major_up",
+     "label": "Round 50 above",
      "price": 7650.0,
      "group": "round",
      "note": ""
     },
     {
+     "tag": "tdh",
+     "label": "Today's RTH high",
+     "price": 7643.5,
+     "group": "today",
+     "note": "so far"
+    },
+    {
+     "tag": "rtho",
+     "label": "Today's RTH open",
+     "price": 7642.75,
+     "group": "today",
+     "note": "09:30 bar open"
+    },
+    {
      "tag": "onvwap",
      "label": "Overnight VWAP",
-     "price": 7633.0,
+     "price": 7634.0,
      "group": "overnight",
      "note": "typical-price VWAP"
+    },
+    {
+     "tag": "tdl",
+     "label": "Today's RTH low",
+     "price": 7631.25,
+     "group": "today",
+     "note": ""
+    },
+    {
+     "tag": "rn_minor_dn",
+     "label": "Round 25 below",
+     "price": 7625.0,
+     "group": "round",
+     "note": ""
     },
     {
      "tag": "pdc",
@@ -145,6 +159,13 @@
      "price": 7603.25,
      "group": "profile",
      "note": "70 % value area"
+    },
+    {
+     "tag": "rn_major_dn",
+     "label": "Round 50 below",
+     "price": 7600.0,
+     "group": "round",
+     "note": ""
     },
     {
      "tag": "onl",
@@ -190,15 +211,15 @@
     }
    ],
    "stats": {
-    "last_bar_utc": "2026-11-13T14:15:00+00:00",
-    "last_bar_age_min": 11.0,
+    "last_bar_utc": "2026-11-13T14:31:00+00:00",
+    "last_bar_age_min": 10.2,
     "market_state": "open",
     "profile_volume": 1346183.0,
     "prior_day": "2026-11-12",
     "prior_day_rth_range": 93.25,
     "overnight_range": 70.75,
-    "gap_vs_prior_close": 34.0,
-    "gap_basis": "last price (pre-market)",
+    "gap_vs_prior_close": 26.5,
+    "gap_basis": "RTH open",
     "atr14": 147.77,
     "atr_days": 14,
     "avg_daily_range": 138.7,
@@ -1433,20 +1454,28 @@
     {
      "t": "2026-11-13T14:15:00+00:00",
      "o": 7648.75,
-     "h": 7651.5,
-     "l": 7648.75,
-     "c": 7650.25,
-     "v": 0.0
+     "h": 7653.5,
+     "l": 7642.25,
+     "c": 7642.75,
+     "v": 17065.0
+    },
+    {
+     "t": "2026-11-13T14:30:00+00:00",
+     "o": 7642.75,
+     "h": 7643.5,
+     "l": 7631.25,
+     "c": 7633.0,
+     "v": 13227.0
     }
    ]
   },
   {
    "root": "NQ",
    "trading_day": "2026-11-13",
-   "as_of_utc": "2026-11-13T14:25:58.744369+00:00",
+   "as_of_utc": "2026-11-13T14:41:14.873055+00:00",
    "source": "yahoo",
    "delayed": true,
-   "last_price": 28457.5,
+   "last_price": 28309.25,
    "levels": [
     {
      "tag": "exp_hi",
@@ -1474,7 +1503,7 @@
      "label": "Overnight high",
      "price": 28607.75,
      "group": "overnight",
-     "note": "since 18:00 ET, 906 bars"
+     "note": "since 18:00 ET, 920 bars"
     },
     {
      "tag": "vah",
@@ -1484,32 +1513,32 @@
      "note": "70 % value area"
     },
     {
-     "tag": "rn_major_up",
-     "label": "Round 100 above",
-     "price": 28500.0,
-     "group": "round",
-     "note": ""
-    },
-    {
-     "tag": "rn_minor_dn",
-     "label": "Round 50 below",
-     "price": 28450.0,
-     "group": "round",
-     "note": ""
-    },
-    {
      "tag": "onvwap",
      "label": "Overnight VWAP",
-     "price": 28420.46,
+     "price": 28421.38,
      "group": "overnight",
      "note": "typical-price VWAP"
     },
     {
-     "tag": "rn_major_dn",
-     "label": "Round 100 below",
+     "tag": "rn_major_up",
+     "label": "Round 100 above",
      "price": 28400.0,
      "group": "round",
      "note": ""
+    },
+    {
+     "tag": "tdh",
+     "label": "Today's RTH high",
+     "price": 28399.0,
+     "group": "today",
+     "note": "so far"
+    },
+    {
+     "tag": "rtho",
+     "label": "Today's RTH open",
+     "price": 28390.5,
+     "group": "today",
+     "note": "09:30 bar open"
     },
     {
      "tag": "pdc",
@@ -1524,6 +1553,27 @@
      "price": 28353.5,
      "group": "profile",
      "note": "2026-11-12 RTH, bin 1.0"
+    },
+    {
+     "tag": "rn_minor_up",
+     "label": "Round 50 above",
+     "price": 28350.0,
+     "group": "round",
+     "note": ""
+    },
+    {
+     "tag": "rn_major_dn",
+     "label": "Round 100 below",
+     "price": 28300.0,
+     "group": "round",
+     "note": ""
+    },
+    {
+     "tag": "tdl",
+     "label": "Today's RTH low",
+     "price": 28293.5,
+     "group": "today",
+     "note": ""
     },
     {
      "tag": "val",
@@ -1576,15 +1626,15 @@
     }
    ],
    "stats": {
-    "last_bar_utc": "2026-11-13T14:15:00+00:00",
-    "last_bar_age_min": 11.0,
+    "last_bar_utc": "2026-11-13T14:31:00+00:00",
+    "last_bar_age_min": 10.2,
     "market_state": "open",
     "profile_volume": 498484.0,
     "prior_day": "2026-11-12",
     "prior_day_rth_range": 607.75,
     "overnight_range": 364.5,
-    "gap_vs_prior_close": 69.25,
-    "gap_basis": "last price (pre-market)",
+    "gap_vs_prior_close": 2.25,
+    "gap_basis": "RTH open",
     "atr14": 930.34,
     "atr_days": 14,
     "avg_daily_range": 852.27,
@@ -2818,11 +2868,19 @@
     },
     {
      "t": "2026-11-13T14:15:00+00:00",
-     "o": 28443.75,
-     "h": 28468.0,
-     "l": 28443.75,
-     "c": 28457.5,
-     "v": 0.0
+     "o": 28444.25,
+     "h": 28472.75,
+     "l": 28389.5,
+     "c": 28390.75,
+     "v": 9063.0
+    },
+    {
+     "t": "2026-11-13T14:30:00+00:00",
+     "o": 28390.5,
+     "h": 28399.0,
+     "l": 28293.5,
+     "c": 28309.25,
+     "v": 6207.0
     }
    ]
   }
@@ -2835,7 +2893,7 @@
     "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPRFpWN0F1M2RrcUNPWGlJOFB6R016TUVWU2otV0VYNnVIMmNPM1k2RTMtckdyeEJhU2VEOXFyQjFZLUR1dVYxSGxXWHBYRVh5WmJPZTlUZktRQmtsTE9qNXkwSU9uTWJwNm9ReDdFNHFzMUtRcGpIRVNzR3Fld1VkMlpKdU1tQlpVVUhjRW9XR1ZzSFhiSkZQQkxXeG5UcWhyZmttTUpn?oc=5",
     "source": "gnews_macro",
     "published_utc": "2026-11-13T12:34:23+00:00",
-    "score": 10.19,
+    "score": 10.15,
     "duplicates": 0
    },
    {
@@ -2844,7 +2902,7 @@
     "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQMExYaE14OU54SnktbjduRUVodUVVOVJjSno4cm1yNkk0Wk1lNERmTmdiVTBENDNlM0FCaFgzWmI4VFNPYlkwM0RPU0hid0FIQURWbEluM3VBN0Vib010QmpTSGJiSjdoaWNjQmJuOHp4bmM2dHRYakhlU1h1MjNCd2JUakltRXUwQXJJektxVGM2YmhqcG9TajNvWm05VFY3c1M5NDNCMXZoZDdlWjg2VmtPWHBYZk11NlpjVUNuRTE?oc=5",
     "source": "gnews_megacap",
     "published_utc": "2026-11-13T10:33:23+00:00",
-    "score": 9.85,
+    "score": 9.81,
     "duplicates": 0
    },
    {
@@ -2853,7 +2911,7 @@
     "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE11YnhZUHV6bkVRTlF6cTRta1N4SVNCbUEyQ05vaEFRVXFldC15U0xpeXNBS19WUllWSElJQTBiNndPXzhvWk11UmMwb21QTTBPMHdB?oc=5",
     "source": "gnews_futures",
     "published_utc": "2026-11-13T13:22:49+00:00",
-    "score": 9.82,
+    "score": 9.78,
     "duplicates": 4
    },
    {
@@ -2862,7 +2920,7 @@
     "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQNFZ3ZXVlVkd5Y2dlVGNtREhMS1psWFNLSnAyNzVuVXBXNmtvcnBDWW5vSkhnTEtVVzBsS3lBSE5uTWRCNDl0NnNSRmhYT0hjbDRlSTZBTUI4LVVUN1VtNkNfMVdScHRvSEd0YmdfMzBGLV9Ta3FTYmdVbnNxSmItc1VmODFCb1dMUUlBUEZraU0yUGl4QmtHOWgzeWZfUVlfc05hdU43cDVvYUdhLWNZT1pIaw?oc=5",
     "source": "gnews_fed",
     "published_utc": "2026-11-13T10:00:36+00:00",
-    "score": 9.76,
+    "score": 9.72,
     "duplicates": 0
    },
    {
@@ -2871,16 +2929,16 @@
     "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQaHRkbkhGZEZkQkJROUZRb245c21Hc045c0pjVUF3WEg4YjJoVHBJdFhkTERGRE9lWjdfaldBTHkzWVlqeDg1OG05MDdnb3ZoS2FQNzV1SXNhc3AzZjlLS1FNbWFGNExZNUFMYUJMU3o4c2hHcTFkcFgyQW1nQkt2MHowREtzNXhaT0tRajdNclpMckprYkpvOTFMUQ?oc=5",
     "source": "gnews_macro",
     "published_utc": "2026-11-13T08:46:21+00:00",
-    "score": 9.06,
+    "score": 9.01,
     "duplicates": 0
    },
    {
     "id": "19699ddcff",
-    "title": "Most top Fed officials blame AI for fueling inflation. Not Trump’s Fed chief. - The Washington Post",
+    "title": "The Fed chief said AI would tame inflation. His colleagues disagree. - The Washington Post",
     "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOYWx2S1gybU5lYjJCbEl5OXkyekl3YXdnd2RuWnJPQU9VODlSSnpLM1ZDeGVfT19LdEF4OThPMGZQM1NDNXloMzFGcjdmZDE4ZU90dDBuX2xsX2lUZTJjLU5HNEZCNnJJRFJQT0tmR2FwZVBXT1Q3cURtZHFTYTJtUDVOVHZESnNfWlBkZXdoT1pQXzNkYldpWklrdEZiRWxiVjJRaHNxOXpMVXhPOFR1ZERmc09uWXJEcWR1dUdKblUzQjdkTkM0?oc=5",
     "source": "gnews_fed",
-    "published_utc": "2026-11-13T14:13:05+00:00",
-    "score": 8.96,
+    "published_utc": "2026-11-13T14:32:24+00:00",
+    "score": 8.98,
     "duplicates": 1
    },
    {
@@ -2889,7 +2947,7 @@
     "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxOR0FNcUFWNDdRcEh4amFkUHYyZ1ljR2ltTXNKOEVqR1BoZlFnMURPRmUwYkRxVkFlOUpxZS1Ha0Q0YVVxeTFoM3BTTEstbjBaYlF5eV9EU0ZXVGpQZTBfTTBYV2dwYm5WaUJvUGVuYlpWZjlrdTNDOVJ0RHAwend1YUVyLXowanhkRTVhbTdzTjY3aUQ2UWRPa0NGMmJVUnNRdU5DckswajE1Smd4aW1RQl9wNUpNbFpqamZHVGUtcnYxaFVkR0xkMl9yR19vZw?oc=5",
     "source": "gnews_fed",
     "published_utc": "2026-11-13T11:02:53+00:00",
-    "score": 8.94,
+    "score": 8.89,
     "duplicates": 0
    },
    {
@@ -2898,7 +2956,7 @@
     "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQYVNNQWJyZVhGM0tWeTh5NkVIcmhFOENtN0VNclJqYkJFUUpCSF93NTBvUUtrbUJpdzltMHZpZUxKZUlfdlFzTHM2WF9CZ3E1S0l5OTJWeFVuMVp2XzFJdHR2TFVGNDhROHdjOHpuOFpIcTRPTEEzRlFIRkVJOWNaRnBubXB2Z1RwamZTWWRrbkNmUHlibmN1d2NJUjBmbElNOTVCaDZXeGxpQjJIOFhqNzVB?oc=5",
     "source": "gnews_fed",
     "published_utc": "2026-11-13T14:20:31+00:00",
-    "score": 8.48,
+    "score": 8.44,
     "duplicates": 0
    },
    {
@@ -2907,7 +2965,7 @@
     "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQdzFLS0NaUGxWcXl4Q2tLcThkem1SekJvbmdMQTE4a3QxdU0tNnpQdFlNX3F1NVhXT1IzdXNTSWtZa2xGRmFFZXpkcWZVSXZTR1lLTl84Z3ZKMVQxTmc1dks3bm81Smx2T2N2TXBaalpSdC1mNHJ2OGVrS3B3Qk5JSnd1UnV0UkpGUHBMOEE3Zw?oc=5",
     "source": "gnews_macro",
     "published_utc": "2026-11-13T11:00:45+00:00",
-    "score": 8.43,
+    "score": 8.39,
     "duplicates": 0
    },
    {
@@ -2916,8 +2974,17 @@
     "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQOUg2SEc1NWFEV1oxd3dhbTZkM3dWYTc4dzRDNFlmT2pvemNVRi1DeXppMUVEZm5LdFJsVzR6ZVRpc29GZXYtXzJCNzE0RHVHQ0tEaGNrRTNTVlF5SEl5b1lmMjBkc180eElpd2VKODNrcHl1cWctcEc5ejNXLURXM1RR?oc=5",
     "source": "gnews_futures",
     "published_utc": "2026-11-13T13:11:14+00:00",
-    "score": 8.29,
+    "score": 8.25,
     "duplicates": 0
+   },
+   {
+    "id": "44f722869e",
+    "title": "Chicago Fed's Goolsbee says central bank 'has definitely got work to do' on inflation - CNBC",
+    "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxObHdUdHU4THB4UDd4OGVhZDVvVTkyYWZtRzRFNnIxVmE3UmlFdmxMNFh0eWNOd0N2cFVGc1N6TXhGSDh3SmtQdWNrSTBrclFuYlRhUDNBSEozLV82b3lzQ1JiQ2w0b2JMLUhzZzJsZVZGVVF3aU8xNW0xY3d4YzBCM2l6VEpEOGw0SmFFVTk1SFJIRk5DV2xtM2ZTTDR1eFVsb2I0SHVOanR1WUlPX3M5S2R0OE94SWswa1BJ0gHAAUFVX3lxTFBWUnlYVUhxY2hRTmN1RUtBZWs2M3lEc0FiWm91bmxtcDBTSktkYkNVRVBndDB3RTFTXzZ4M19hV3VvY0JQT2xXU0ZVMU1zOTRhUmdFaW1Qa19CYlN5UHBvcFhTMGMyQjFiV1N1cUJXUTQwTkZDT1N3S2JSSzZSREhxcDRTVWVPT3B1MTc5YV9zWTRlbHZiQ2Z3TDVrRGFGOWRWNzU5SENxVnNmVTJUR0c4bUJJaGx5VC1kbFhYcmJWdw?oc=5",
+    "source": "gnews_fed",
+    "published_utc": "2026-11-13T14:22:07+00:00",
+    "score": 7.95,
+    "duplicates": 1
    },
    {
     "id": "588acf8767",
@@ -2925,16 +2992,7 @@
     "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNcEdLelU4VXpMTmdPeTgxTjBhZkd3NEIyZDg5ZnZCWXdtVnVFd3Fxbm95Z2ZfbkNZRnh2WVppWUhnR0pvZXZsRHdEaWdkaEJ1emVweFpFbG9WUTBPV3B1UktyeVNodWY0SXBtOGNUbXZQWXcyRmNWUnRGR21vYWt0WmxraHFsZ2haSGRCdHZacG1uTkpMTTlNQUpsNEFSRUY4Z2MzaUZn?oc=5",
     "source": "gnews_futures",
     "published_utc": "2026-11-13T11:19:00+00:00",
-    "score": 7.98,
-    "duplicates": 2
-   },
-   {
-    "id": "7dff6eec2a",
-    "title": "Bessent: Treasury has wanted Megaspeed restrictions for months, but Commerce is in charge",
-    "link": "https://www.cnbc.com/2026/11/13/us-inflation-outlook-federal-reserve-rate-hike.html",
-    "source": "cnbc_markets",
-    "published_utc": "2026-11-13T14:06:31+00:00",
-    "score": 7.95,
+    "score": 7.94,
     "duplicates": 2
    }
   ],
