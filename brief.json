@@ -1,7 +1,7 @@
 {
  "meta": {
-  "generated_at_utc": "2026-11-16T16:46:07.977490+00:00",
-  "generated_at_local": "Mon 16 Nov 2026 12:46 AST",
+  "generated_at_utc": "2026-11-16T17:10:05.193792+00:00",
+  "generated_at_local": "Mon 16 Nov 2026 13:10 AST",
   "trading_day": "2026-11-16",
   "display_tz": "America/Halifax",
   "version": "0.1.0",
@@ -68,14 +68,14 @@
    }
   ],
   "next_event": {
-   "name": "Fed Chairman Warsh Speaks",
+   "name": "Core Retail Sales m/m",
    "impact": "high",
-   "time_utc": "2026-11-16T17:00:00+00:00",
-   "local": "13:00 AST",
-   "et": "12:00 ET",
-   "in": "13 min",
-   "consensus": null,
-   "prior": null
+   "time_utc": "2026-11-17T13:30:00+00:00",
+   "local": "09:30 AST",
+   "et": "08:30 ET",
+   "in": "20h 19m",
+   "consensus": "0.4%",
+   "prior": "0.9%"
   },
   "sources": [],
   "warnings": []
@@ -84,10 +84,10 @@
   {
    "root": "ES",
    "trading_day": "2026-11-16",
-   "as_of_utc": "2026-11-16T16:46:07.977490+00:00",
+   "as_of_utc": "2026-11-16T17:10:05.193792+00:00",
    "source": "yahoo",
    "delayed": true,
-   "last_price": 7506.5,
+   "last_price": 7493.75,
    "levels": [
     {
      "tag": "exp_hi",
@@ -160,13 +160,6 @@
      "note": "typical-price VWAP"
     },
     {
-     "tag": "rn_major_up",
-     "label": "Round 50 above",
-     "price": 7550.0,
-     "group": "round",
-     "note": ""
-    },
-    {
      "tag": "poc",
      "label": "Prior-day POC",
      "price": 7541.88,
@@ -195,13 +188,6 @@
      "note": "70 % value area"
     },
     {
-     "tag": "rn_minor_up",
-     "label": "Round 25 above",
-     "price": 7525.0,
-     "group": "round",
-     "note": ""
-    },
-    {
      "tag": "onl",
      "label": "Overnight low",
      "price": 7520.0,
@@ -216,8 +202,8 @@
      "note": "2026-11-13"
     },
     {
-     "tag": "rn_major_dn",
-     "label": "Round 50 below",
+     "tag": "rn_major_up",
+     "label": "Round 50 above",
      "price": 7500.0,
      "group": "round",
      "note": ""
@@ -228,6 +214,13 @@
      "price": 7493.0,
      "group": "week",
      "note": "4 session(s) of data — PARTIAL"
+    },
+    {
+     "tag": "rn_minor_dn",
+     "label": "Round 25 below",
+     "price": 7475.0,
+     "group": "round",
+     "note": ""
     },
     {
      "tag": "tdl",
@@ -244,6 +237,13 @@
      "note": ""
     },
     {
+     "tag": "rn_major_dn",
+     "label": "Round 50 below",
+     "price": 7450.0,
+     "group": "round",
+     "note": ""
+    },
+    {
      "tag": "exp_lo",
      "label": "Expected-range low (close − ATR)",
      "price": 7432.54,
@@ -252,7 +252,7 @@
     }
    ],
    "stats": {
-    "last_bar_utc": "2026-11-16T16:36:00+00:00",
+    "last_bar_utc": "2026-11-16T17:00:00+00:00",
     "last_bar_age_min": 10.1,
     "market_state": "open",
     "profile_volume": 1529102.0,
@@ -1568,19 +1568,35 @@
      "t": "2026-11-16T16:30:00+00:00",
      "o": 7507.5,
      "h": 7509.5,
-     "l": 7503.25,
-     "c": 7506.5,
-     "v": 17744.0
+     "l": 7494.5,
+     "c": 7497.5,
+     "v": 43196.0
+    },
+    {
+     "t": "2026-11-16T16:45:00+00:00",
+     "o": 7497.5,
+     "h": 7498.5,
+     "l": 7484.75,
+     "c": 7494.75,
+     "v": 39367.0
+    },
+    {
+     "t": "2026-11-16T17:00:00+00:00",
+     "o": 7494.5,
+     "h": 7495.75,
+     "l": 7491.25,
+     "c": 7493.75,
+     "v": 0.0
     }
    ]
   },
   {
    "root": "NQ",
    "trading_day": "2026-11-16",
-   "as_of_utc": "2026-11-16T16:46:07.977490+00:00",
+   "as_of_utc": "2026-11-16T17:10:05.193792+00:00",
    "source": "yahoo",
    "delayed": true,
-   "last_price": 27592.25,
+   "last_price": 27543.75,
    "levels": [
     {
      "tag": "exp_hi",
@@ -1702,8 +1718,8 @@
      "note": ""
     },
     {
-     "tag": "rn_minor_dn",
-     "label": "Round 50 below",
+     "tag": "rn_minor_up",
+     "label": "Round 50 above",
      "price": 27550.0,
      "group": "round",
      "note": ""
@@ -1745,7 +1761,7 @@
     }
    ],
    "stats": {
-    "last_bar_utc": "2026-11-16T16:36:00+00:00",
+    "last_bar_utc": "2026-11-16T17:00:00+00:00",
     "last_bar_age_min": 10.1,
     "market_state": "open",
     "profile_volume": 592521.0,
@@ -3061,9 +3077,25 @@
      "t": "2026-11-16T16:30:00+00:00",
      "o": 27595.25,
      "h": 27621.5,
-     "l": 27577.0,
-     "c": 27592.25,
-     "v": 8403.0
+     "l": 27533.25,
+     "c": 27547.25,
+     "v": 19201.0
+    },
+    {
+     "t": "2026-11-16T16:45:00+00:00",
+     "o": 27546.5,
+     "h": 27570.0,
+     "l": 27493.0,
+     "c": 27552.0,
+     "v": 15624.0
+    },
+    {
+     "t": "2026-11-16T17:00:00+00:00",
+     "o": 27552.0,
+     "h": 27554.5,
+     "l": 27530.25,
+     "c": 27543.75,
+     "v": 0.0
     }
    ]
   }
