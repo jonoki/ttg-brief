@@ -1,7 +1,7 @@
 {
  "meta": {
-  "generated_at_utc": "2026-11-16T11:40:18.860478+00:00",
-  "generated_at_local": "Mon 16 Nov 2026 07:40 AST",
+  "generated_at_utc": "2026-11-16T11:55:33.599706+00:00",
+  "generated_at_local": "Mon 16 Nov 2026 07:55 AST",
   "trading_day": "2026-11-16",
   "display_tz": "America/Halifax",
   "version": "0.1.0",
@@ -73,7 +73,7 @@
    "time_utc": "2026-11-16T17:00:00+00:00",
    "local": "13:00 AST",
    "et": "12:00 ET",
-   "in": "5h 19m",
+   "in": "5h 04m",
    "consensus": null,
    "prior": null
   },
@@ -84,10 +84,10 @@
   {
    "root": "ES",
    "trading_day": "2026-11-16",
-   "as_of_utc": "2026-11-16T11:40:18.860478+00:00",
+   "as_of_utc": "2026-11-16T11:55:33.599706+00:00",
    "source": "yahoo",
    "delayed": true,
-   "last_price": 7558.5,
+   "last_price": 7557.0,
    "levels": [
     {
      "tag": "exp_hi",
@@ -129,7 +129,7 @@
      "label": "Overnight high",
      "price": 7614.25,
      "group": "overnight",
-     "note": "since 18:00 ET, 740 bars"
+     "note": "since 18:00 ET, 755 bars"
     },
     {
      "tag": "wh",
@@ -169,7 +169,7 @@
     {
      "tag": "onvwap",
      "label": "Overnight VWAP",
-     "price": 7568.17,
+     "price": 7568.06,
      "group": "overnight",
      "note": "typical-price VWAP"
     },
@@ -231,14 +231,14 @@
     }
    ],
    "stats": {
-    "last_bar_utc": "2026-11-16T11:30:00+00:00",
-    "last_bar_age_min": 10.3,
+    "last_bar_utc": "2026-11-16T11:45:00+00:00",
+    "last_bar_age_min": 10.6,
     "market_state": "open",
     "profile_volume": 1529102.0,
     "prior_day": "2026-11-13",
     "prior_day_rth_range": 124.25,
     "overnight_range": 76.5,
-    "gap_vs_prior_close": -26.25,
+    "gap_vs_prior_close": -27.75,
     "gap_basis": "last price (pre-market)",
     "atr14": 152.21,
     "atr_days": 14,
@@ -1386,9 +1386,17 @@
     {
      "t": "2026-11-16T11:30:00+00:00",
      "o": 7558.25,
-     "h": 7560.0,
-     "l": 7557.75,
-     "c": 7558.5,
+     "h": 7561.0,
+     "l": 7556.25,
+     "c": 7557.0,
+     "v": 1730.0
+    },
+    {
+     "t": "2026-11-16T11:45:00+00:00",
+     "o": 7557.0,
+     "h": 7558.0,
+     "l": 7556.75,
+     "c": 7557.0,
      "v": 0.0
     }
    ]
@@ -1396,10 +1404,10 @@
   {
    "root": "NQ",
    "trading_day": "2026-11-16",
-   "as_of_utc": "2026-11-16T11:40:18.860478+00:00",
+   "as_of_utc": "2026-11-16T11:55:33.599706+00:00",
    "source": "yahoo",
    "delayed": true,
-   "last_price": 27802.75,
+   "last_price": 27778.5,
    "levels": [
     {
      "tag": "exp_hi",
@@ -1441,7 +1449,7 @@
      "label": "Overnight high",
      "price": 28279.25,
      "group": "overnight",
-     "note": "since 18:00 ET, 740 bars"
+     "note": "since 18:00 ET, 755 bars"
     },
     {
      "tag": "wh",
@@ -1467,23 +1475,9 @@
     {
      "tag": "onvwap",
      "label": "Overnight VWAP",
-     "price": 27908.97,
+     "price": 27907.73,
      "group": "overnight",
      "note": "typical-price VWAP"
-    },
-    {
-     "tag": "rn_major_up",
-     "label": "Round 100 above",
-     "price": 27900.0,
-     "group": "round",
-     "note": ""
-    },
-    {
-     "tag": "rn_minor_up",
-     "label": "Round 50 above",
-     "price": 27850.0,
-     "group": "round",
-     "note": ""
     },
     {
      "tag": "poc",
@@ -1493,9 +1487,16 @@
      "note": "2026-11-13 RTH, bin 1.0"
     },
     {
-     "tag": "rn_major_dn",
-     "label": "Round 100 below",
+     "tag": "rn_major_up",
+     "label": "Round 100 above",
      "price": 27800.0,
+     "group": "round",
+     "note": ""
+    },
+    {
+     "tag": "rn_minor_dn",
+     "label": "Round 50 below",
+     "price": 27750.0,
      "group": "round",
      "note": ""
     },
@@ -1505,6 +1506,13 @@
      "price": 27716.0,
      "group": "profile",
      "note": "70 % value area"
+    },
+    {
+     "tag": "rn_major_dn",
+     "label": "Round 100 below",
+     "price": 27700.0,
+     "group": "round",
+     "note": ""
     },
     {
      "tag": "pdl",
@@ -1543,14 +1551,14 @@
     }
    ],
    "stats": {
-    "last_bar_utc": "2026-11-16T11:30:00+00:00",
-    "last_bar_age_min": 10.3,
+    "last_bar_utc": "2026-11-16T11:45:00+00:00",
+    "last_bar_age_min": 10.6,
     "market_state": "open",
     "profile_volume": 592521.0,
     "prior_day": "2026-11-13",
     "prior_day_rth_range": 703.75,
     "overnight_range": 621.25,
-    "gap_vs_prior_close": -235.5,
+    "gap_vs_prior_close": -259.75,
     "gap_basis": "last price (pre-market)",
     "atr14": 956.39,
     "atr_days": 14,
@@ -2698,9 +2706,17 @@
     {
      "t": "2026-11-16T11:30:00+00:00",
      "o": 27797.0,
-     "h": 27809.0,
-     "l": 27796.25,
-     "c": 27802.75,
+     "h": 27810.75,
+     "l": 27773.0,
+     "c": 27779.75,
+     "v": 1593.0
+    },
+    {
+     "t": "2026-11-16T11:45:00+00:00",
+     "o": 27779.75,
+     "h": 27782.5,
+     "l": 27777.5,
+     "c": 27778.5,
      "v": 0.0
     }
    ]
@@ -2714,7 +2730,7 @@
     "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNZ3loNDRFRS1qcXRkNU4zd2dEbEt0VEpENld4UU9ES3pEOXNhMzkteGVfYXVaaHc1ZUZqRWtwckFiT1NfX3BJTHZzQmtGMUV0MmwzT1p0a1FsNFUxQTZMSmlWWVVqa25FNlNxMXFBM1BRc2E3S2hxYnc3WEdiWThDRzRfNEZfUkg0ZVAxMllvdzJmTlZiNUo3WlRjRQ?oc=5",
     "source": "gnews_futures",
     "published_utc": "2026-11-16T09:56:42+00:00",
-    "score": 11.71,
+    "score": 11.67,
     "duplicates": 2
    },
    {
@@ -2732,7 +2748,7 @@
     "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPd2FWcktJLVd2aW9ObWxWUGJ4MVBiNDJ6clFlSmRTSjhNSVZrbHlCamNBYUZfeTJ2cjdtZVFZMU40a1Q0dkdRcHlibDJjS20zdW1jYmtOcnkweEx0QzFOUGpFZ2JWN3Jmc1dNakJITW45VG4waDNGU285TlN3el93ZUxzYWxXdUg3eVk0U2NSUGJySFE?oc=5",
     "source": "gnews_futures",
     "published_utc": "2026-11-16T02:04:00+00:00",
-    "score": 10.4,
+    "score": 10.36,
     "duplicates": 2
    },
    {
@@ -2741,7 +2757,7 @@
     "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxORVVGc25mcm5zb1lnNEI3bDM4elF5M0QzT1lPMWk1OEMxV2xycGUtUnhXV3ZEemVweXV1dUh0WTlGQ090UUdVZjBEVnNieFF6NEw2SkRCSjU3T3J5bnIxQVoybFIzUGpGRV9xWTBNWnVrUkdxYUxQal82YmVlMUlhNQ?oc=5",
     "source": "gnews_fed",
     "published_utc": "2026-11-16T11:00:50+00:00",
-    "score": 10.39,
+    "score": 10.35,
     "duplicates": 2
    },
    {
@@ -2750,7 +2766,7 @@
     "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOUVpUR2MwQVBGLW1ZWE9QR1RncXdBWUhUVWNEdEZnNjEwM1d0YVphWGRzUnhKY054cENXckwyenRxM2xjSVA5cDVSYW1fcHFwOUFtWTRTbGtWN3lqQ01hY0FNMmtPdFlFRUlFeGJldjViNlhuSVRiVTA2cnlxYVhHcXVxM0RtUTZ2?oc=5",
     "source": "gnews_fed",
     "published_utc": "2026-11-16T09:47:54+00:00",
-    "score": 10.19,
+    "score": 10.15,
     "duplicates": 1
    },
    {
@@ -2759,7 +2775,7 @@
     "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOZFhpQzExNXZPcTdwTGZrMEhnLWhFa2U4eWRDamhaM1VlVUlfd3BrSmVkVlEyWmo1Z2FrSENsc1FvNFJ1dnJVTC1SZUVLV29kR1dtdlhJclR2UXQtdElOenRIMDE2OGxqOUt1VmQ1UkJrdTVQUnU3dUJrNlVPSEFjZ2FsTmtpdkExNmJXWUtDOFFUclh1RWtKdmlVY3otZVFZTFR3Ul9pQU1oMXJ4T1lWbUJwYVdIZkRfeXpnZzIyOVdQdw?oc=5",
     "source": "gnews_macro",
     "published_utc": "2026-11-16T07:12:58+00:00",
-    "score": 9.76,
+    "score": 9.72,
     "duplicates": 0
    },
    {
@@ -2768,7 +2784,7 @@
     "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTFBzbFRlWjVON3U5eVk3dW5RWFByRWVQd21ZQVFDenJGRHdDYkd2VXpKYzc2eGp5d0JHbTNiSUppeW9OYlU3djd2azdUTkYzSFlWamctVUszeWo2ZmVjeUNySWJFMUZDUkg3dXBnVVR4ZmhnUkU?oc=5",
     "source": "gnews_megacap",
     "published_utc": "2026-11-16T11:09:31+00:00",
-    "score": 8.91,
+    "score": 8.87,
     "duplicates": 0
    },
    {
@@ -2777,7 +2793,7 @@
     "link": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxQNm92aDRTUEhFWFZlc01ONXo4V25ITzJTdTBhbWNqN21WRlFycW5PWDV5U2VZYmpGelQ0VTNONXM2bjEwSzBVeG51dWNaOHA3WXJiT1VxUTB5UV9mWUNDOWtLZnlsaExnTkFlVEJLTGlTQjA2N3V4enNkUlNwWUNYU3REYjRJYWU3dDFIbHAtYjcydExIZmVuMFhLaXdOdGlCMHktQm5nY2JsUmdsQktDN0VuQ2hXb29jZzB3U3M1QzZYdnBBVVc4SjVZbjFMSlFaQXJIVEprNnZIdEJQ?oc=5",
     "source": "gnews_futures",
     "published_utc": "2026-11-16T06:59:00+00:00",
-    "score": 8.72,
+    "score": 8.68,
     "duplicates": 1
    },
    {
@@ -2786,8 +2802,17 @@
     "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNeVdLUDVlRnY0Wkx1dUFNeEhUWlBOa3ZDNjhsWXBYbUNuMTZPck92VFI0MjBaR2w1ajdyQ200SzlzdkRqNndTMWxBdkJncmRWQzd1UlNBVFd1T3cxMXExRXBhcWZDYUNpVm5xU1JjVGh3ZUZyR0thTldxT21JbUxxOGxSTFEwWklWUDE1ZlJxNnNPaDhPV3pHYWthMjN1WVNkc3J5V3p6VGlZRlp5bVdsUDFKQ0VXSU1ld3RWMV9lZkRRUHNGZkNXNDdjbw?oc=5",
     "source": "gnews_futures",
     "published_utc": "2026-11-16T06:51:19+00:00",
-    "score": 8.7,
+    "score": 8.65,
     "duplicates": 0
+   },
+   {
+    "id": "0e9695367a",
+    "title": "Nvidia Earnings, Anthropic IPO and Federal Reserve Outlook Among Five Key Market Events This Week - Yahoo Finance",
+    "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQZWw1cTVJckJKUEE4LTlkZzBHSkVIRnVWaXRsV3FfTmprX3Z1Qk45RE1hS0g0SFkyLXliV0VOUDRtekVjOUdRbGhkU2Zfamg0LXpzTFFnVEVxbldfOXUtVG9DQmY1WnRodWg2QTdvcXd5eVV6OTlzaEptMEY5eDFRODFZWTNBWV91UjJzR1FkeVNfc0Jvcm0yNHZTbXNyOU1iN2Vvdg?oc=5",
+    "source": "gnews_fed",
+    "published_utc": "2026-11-16T11:27:39+00:00",
+    "score": 8.42,
+    "duplicates": 1
    },
    {
     "id": "16c09c0c63",
@@ -2795,7 +2820,7 @@
     "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOZEJobHpHMl90WUdVbnpzSGxLb1l3bi1BczhrN29iVW9rUzBtQWE4aFNuM2ZGS1RIQThLdEZPWmZjeExVaHhRaXBubkdqR3R3TXJYTlRqUmRYcXZxYS1pV1lyRlExUDdEUWJ3cTg4aktJVWcxbkg5UW9oeVRXLXhCZjdRQmFNeFJlLXhpWTRMM1lEUVlodGwxVHNCSE9ONTlnem0yekw1dDNraElYZGc?oc=5",
     "source": "gnews_futures",
     "published_utc": "2026-11-16T10:44:08+00:00",
-    "score": 8.34,
+    "score": 8.3,
     "duplicates": 1
    },
    {
@@ -2804,17 +2829,8 @@
     "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPZTQ0T1lmRGYwSk9XVTB1M1lJSWUzR1pjTXRvaHN2WXZpc0pjUjE2M2l1VVdHbnpEMGRmcG9tY2ZlZ05JbmxlTS0zRHdkdzlXNmhUYjZSYnREQlJRWnlTdjNicGx3NjBmUnAtUXlSME5vdERTcFUyX1dKdWxBWjRXeHJySmhveUltbEstY0Uwck52OHJaUmlWeEF6TmI0ckEwSGhyN0ExcTdtemZOQ3hKS1V1bndtMWY3ZVJ3Tzd6MFk?oc=5",
     "source": "gnews_futures",
     "published_utc": "2026-11-16T07:29:37+00:00",
-    "score": 8.3,
+    "score": 8.26,
     "duplicates": 2
-   },
-   {
-    "id": "258e6e2511",
-    "title": "Stock Market Today: Dow Jones, S&P 500 Futures Trade Mixed as Scott Bessent Presses Nvidia Over China Chi - Benzinga",
-    "link": "https://news.google.com/rss/articles/CBMikwJBVV95cUxNQUduWDlyekRBMXp1d2NuYUluay1xRkd2N2VFU3VXaElDdmdMaTc5TkhDcmpMdFlkSmVNekVub3lMdVBMLURfTjBhS19zNUtMNlFvbkhuTF9CTnpZaGhyUzhEck45cm5GZm5EOVVjSDFoWG9vSVAwNk83S1JQR2FDQkdfc3FlcFplaXc5VDJseUdDSlc5MEF3STRIMVoxeU9CSTM5eVJ3WnUtT1dIb3FhNnFEc1R3c1FKQUh6M0d6NktsSjJlR3lqUVZ1RWNfN1BjMHhQUEtvYVlLaFR1SEJnMUF6bHNzMzBTSUpoY1JqaU43WEt0LTljMTZnc2NRYWFKX2wyUW41THpRYjdrU1prSWJBQQ?oc=5",
-    "source": "gnews_futures",
-    "published_utc": "2026-11-16T09:57:55+00:00",
-    "score": 8.22,
-    "duplicates": 0
    }
   ],
   "summary": {
