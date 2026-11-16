@@ -1,7 +1,7 @@
 {
  "meta": {
-  "generated_at_utc": "2026-11-16T11:55:33.599706+00:00",
-  "generated_at_local": "Mon 16 Nov 2026 07:55 AST",
+  "generated_at_utc": "2026-11-16T12:10:50.244342+00:00",
+  "generated_at_local": "Mon 16 Nov 2026 08:10 AST",
   "trading_day": "2026-11-16",
   "display_tz": "America/Halifax",
   "version": "0.1.0",
@@ -73,7 +73,7 @@
    "time_utc": "2026-11-16T17:00:00+00:00",
    "local": "13:00 AST",
    "et": "12:00 ET",
-   "in": "5h 04m",
+   "in": "4h 49m",
    "consensus": null,
    "prior": null
   },
@@ -84,10 +84,10 @@
   {
    "root": "ES",
    "trading_day": "2026-11-16",
-   "as_of_utc": "2026-11-16T11:55:33.599706+00:00",
+   "as_of_utc": "2026-11-16T12:10:50.244342+00:00",
    "source": "yahoo",
    "delayed": true,
-   "last_price": 7557.0,
+   "last_price": 7551.5,
    "levels": [
     {
      "tag": "exp_hi",
@@ -129,7 +129,7 @@
      "label": "Overnight high",
      "price": 7614.25,
      "group": "overnight",
-     "note": "since 18:00 ET, 755 bars"
+     "note": "since 18:00 ET, 770 bars"
     },
     {
      "tag": "wh",
@@ -169,7 +169,7 @@
     {
      "tag": "onvwap",
      "label": "Overnight VWAP",
-     "price": 7568.06,
+     "price": 7567.78,
      "group": "overnight",
      "note": "typical-price VWAP"
     },
@@ -231,14 +231,14 @@
     }
    ],
    "stats": {
-    "last_bar_utc": "2026-11-16T11:45:00+00:00",
-    "last_bar_age_min": 10.6,
+    "last_bar_utc": "2026-11-16T12:00:00+00:00",
+    "last_bar_age_min": 10.8,
     "market_state": "open",
     "profile_volume": 1529102.0,
     "prior_day": "2026-11-13",
     "prior_day_rth_range": 124.25,
     "overnight_range": 76.5,
-    "gap_vs_prior_close": -27.75,
+    "gap_vs_prior_close": -33.25,
     "gap_basis": "last price (pre-market)",
     "atr14": 152.21,
     "atr_days": 14,
@@ -1394,9 +1394,17 @@
     {
      "t": "2026-11-16T11:45:00+00:00",
      "o": 7557.0,
-     "h": 7558.0,
-     "l": 7556.75,
-     "c": 7557.0,
+     "h": 7559.25,
+     "l": 7551.5,
+     "c": 7552.25,
+     "v": 3740.0
+    },
+    {
+     "t": "2026-11-16T12:00:00+00:00",
+     "o": 7552.75,
+     "h": 7552.75,
+     "l": 7547.0,
+     "c": 7551.5,
      "v": 0.0
     }
    ]
@@ -1404,10 +1412,10 @@
   {
    "root": "NQ",
    "trading_day": "2026-11-16",
-   "as_of_utc": "2026-11-16T11:55:33.599706+00:00",
+   "as_of_utc": "2026-11-16T12:10:50.244342+00:00",
    "source": "yahoo",
    "delayed": true,
-   "last_price": 27778.5,
+   "last_price": 27738.75,
    "levels": [
     {
      "tag": "exp_hi",
@@ -1449,7 +1457,7 @@
      "label": "Overnight high",
      "price": 28279.25,
      "group": "overnight",
-     "note": "since 18:00 ET, 755 bars"
+     "note": "since 18:00 ET, 770 bars"
     },
     {
      "tag": "wh",
@@ -1475,7 +1483,7 @@
     {
      "tag": "onvwap",
      "label": "Overnight VWAP",
-     "price": 27907.73,
+     "price": 27905.29,
      "group": "overnight",
      "note": "typical-price VWAP"
     },
@@ -1494,8 +1502,8 @@
      "note": ""
     },
     {
-     "tag": "rn_minor_dn",
-     "label": "Round 50 below",
+     "tag": "rn_minor_up",
+     "label": "Round 50 above",
      "price": 27750.0,
      "group": "round",
      "note": ""
@@ -1551,14 +1559,14 @@
     }
    ],
    "stats": {
-    "last_bar_utc": "2026-11-16T11:45:00+00:00",
-    "last_bar_age_min": 10.6,
+    "last_bar_utc": "2026-11-16T12:00:00+00:00",
+    "last_bar_age_min": 10.8,
     "market_state": "open",
     "profile_volume": 592521.0,
     "prior_day": "2026-11-13",
     "prior_day_rth_range": 703.75,
     "overnight_range": 621.25,
-    "gap_vs_prior_close": -259.75,
+    "gap_vs_prior_close": -299.5,
     "gap_basis": "last price (pre-market)",
     "atr14": 956.39,
     "atr_days": 14,
@@ -2714,9 +2722,17 @@
     {
      "t": "2026-11-16T11:45:00+00:00",
      "o": 27779.75,
-     "h": 27782.5,
-     "l": 27777.5,
-     "c": 27778.5,
+     "h": 27789.75,
+     "l": 27734.5,
+     "c": 27736.75,
+     "v": 2695.0
+    },
+    {
+     "t": "2026-11-16T12:00:00+00:00",
+     "o": 27738.25,
+     "h": 27744.25,
+     "l": 27710.25,
+     "c": 27738.75,
      "v": 0.0
     }
    ]
@@ -2730,7 +2746,7 @@
     "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNZ3loNDRFRS1qcXRkNU4zd2dEbEt0VEpENld4UU9ES3pEOXNhMzkteGVfYXVaaHc1ZUZqRWtwckFiT1NfX3BJTHZzQmtGMUV0MmwzT1p0a1FsNFUxQTZMSmlWWVVqa25FNlNxMXFBM1BRc2E3S2hxYnc3WEdiWThDRzRfNEZfUkg0ZVAxMllvdzJmTlZiNUo3WlRjRQ?oc=5",
     "source": "gnews_futures",
     "published_utc": "2026-11-16T09:56:42+00:00",
-    "score": 11.67,
+    "score": 11.63,
     "duplicates": 2
    },
    {
@@ -2743,21 +2759,21 @@
     "duplicates": 0
    },
    {
-    "id": "65a9086fe3",
-    "title": "Dow, S&P 500, Nasdaq Futures Edge Lower As Markets Brace For Nvidia Earnings, Anthropic IPO, Fed Minutes: SMMT, NBIS, HELP, MSTR In Focus - Yahoo Finance",
-    "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPd2FWcktJLVd2aW9ObWxWUGJ4MVBiNDJ6clFlSmRTSjhNSVZrbHlCamNBYUZfeTJ2cjdtZVFZMU40a1Q0dkdRcHlibDJjS20zdW1jYmtOcnkweEx0QzFOUGpFZ2JWN3Jmc1dNakJITW45VG4waDNGU285TlN3el93ZUxzYWxXdUg3eVk0U2NSUGJySFE?oc=5",
-    "source": "gnews_futures",
-    "published_utc": "2026-11-16T02:04:00+00:00",
-    "score": 10.36,
-    "duplicates": 2
-   },
-   {
     "id": "b755cc20c4",
     "title": "Bitcoin’s Week Ahead Hinges on FOMC Minutes, Nvidia Earnings, and Russia's Crypto Rules - Crypto Economy",
     "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxORVVGc25mcm5zb1lnNEI3bDM4elF5M0QzT1lPMWk1OEMxV2xycGUtUnhXV3ZEemVweXV1dUh0WTlGQ090UUdVZjBEVnNieFF6NEw2SkRCSjU3T3J5bnIxQVoybFIzUGpGRV9xWTBNWnVrUkdxYUxQal82YmVlMUlhNQ?oc=5",
     "source": "gnews_fed",
     "published_utc": "2026-11-16T11:00:50+00:00",
-    "score": 10.35,
+    "score": 10.31,
+    "duplicates": 2
+   },
+   {
+    "id": "65a9086fe3",
+    "title": "Dow, S&P 500, Nasdaq Futures Edge Lower As Markets Brace For Nvidia Earnings, Anthropic IPO, Fed Minutes: SMMT, NBIS, HELP, MSTR In Focus - Yahoo Finance",
+    "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPd2FWcktJLVd2aW9ObWxWUGJ4MVBiNDJ6clFlSmRTSjhNSVZrbHlCamNBYUZfeTJ2cjdtZVFZMU40a1Q0dkdRcHlibDJjS20zdW1jYmtOcnkweEx0QzFOUGpFZ2JWN3Jmc1dNakJITW45VG4waDNGU285TlN3el93ZUxzYWxXdUg3eVk0U2NSUGJySFE?oc=5",
+    "source": "gnews_futures",
+    "published_utc": "2026-11-16T02:04:00+00:00",
+    "score": 10.31,
     "duplicates": 2
    },
    {
@@ -2766,7 +2782,7 @@
     "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOUVpUR2MwQVBGLW1ZWE9QR1RncXdBWUhUVWNEdEZnNjEwM1d0YVphWGRzUnhKY054cENXckwyenRxM2xjSVA5cDVSYW1fcHFwOUFtWTRTbGtWN3lqQ01hY0FNMmtPdFlFRUlFeGJldjViNlhuSVRiVTA2cnlxYVhHcXVxM0RtUTZ2?oc=5",
     "source": "gnews_fed",
     "published_utc": "2026-11-16T09:47:54+00:00",
-    "score": 10.15,
+    "score": 10.1,
     "duplicates": 1
    },
    {
@@ -2775,8 +2791,17 @@
     "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOZFhpQzExNXZPcTdwTGZrMEhnLWhFa2U4eWRDamhaM1VlVUlfd3BrSmVkVlEyWmo1Z2FrSENsc1FvNFJ1dnJVTC1SZUVLV29kR1dtdlhJclR2UXQtdElOenRIMDE2OGxqOUt1VmQ1UkJrdTVQUnU3dUJrNlVPSEFjZ2FsTmtpdkExNmJXWUtDOFFUclh1RWtKdmlVY3otZVFZTFR3Ul9pQU1oMXJ4T1lWbUJwYVdIZkRfeXpnZzIyOVdQdw?oc=5",
     "source": "gnews_macro",
     "published_utc": "2026-11-16T07:12:58+00:00",
-    "score": 9.72,
+    "score": 9.67,
     "duplicates": 0
+   },
+   {
+    "id": "c9fa897e4b",
+    "title": "S&P 500, Nasdaq futures slide as Nvidia earnings, Anthropic debut loom - Yahoo Finance",
+    "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNQ2ppQWhNd3BCUHl0amwxSm9PRGJNekVOUFk5ZTcxZkFvcGJ3LVpnS3AwV1BkR3NEcmdaS2QtV1pSMFUxNmlTN05OeVhSRnVCVEkzWjctNDMyb291VGl2UHlQTTdSMU11MnNreVFnNVVMQUx2Z1d4NG5EYV9OVlJ6eVUtU0ZTaXZZODVKa1IzclpBMEU1QlE?oc=5",
+    "source": "gnews_futures",
+    "published_utc": "2026-11-16T10:43:51+00:00",
+    "score": 9.26,
+    "duplicates": 3
    },
    {
     "id": "182487f953",
@@ -2784,7 +2809,7 @@
     "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTFBzbFRlWjVON3U5eVk3dW5RWFByRWVQd21ZQVFDenJGRHdDYkd2VXpKYzc2eGp5d0JHbTNiSUppeW9OYlU3djd2azdUTkYzSFlWamctVUszeWo2ZmVjeUNySWJFMUZDUkg3dXBnVVR4ZmhnUkU?oc=5",
     "source": "gnews_megacap",
     "published_utc": "2026-11-16T11:09:31+00:00",
-    "score": 8.87,
+    "score": 8.83,
     "duplicates": 0
    },
    {
@@ -2793,7 +2818,7 @@
     "link": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxQNm92aDRTUEhFWFZlc01ONXo4V25ITzJTdTBhbWNqN21WRlFycW5PWDV5U2VZYmpGelQ0VTNONXM2bjEwSzBVeG51dWNaOHA3WXJiT1VxUTB5UV9mWUNDOWtLZnlsaExnTkFlVEJLTGlTQjA2N3V4enNkUlNwWUNYU3REYjRJYWU3dDFIbHAtYjcydExIZmVuMFhLaXdOdGlCMHktQm5nY2JsUmdsQktDN0VuQ2hXb29jZzB3U3M1QzZYdnBBVVc4SjVZbjFMSlFaQXJIVEprNnZIdEJQ?oc=5",
     "source": "gnews_futures",
     "published_utc": "2026-11-16T06:59:00+00:00",
-    "score": 8.68,
+    "score": 8.63,
     "duplicates": 1
    },
    {
@@ -2802,7 +2827,7 @@
     "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNeVdLUDVlRnY0Wkx1dUFNeEhUWlBOa3ZDNjhsWXBYbUNuMTZPck92VFI0MjBaR2w1ajdyQ200SzlzdkRqNndTMWxBdkJncmRWQzd1UlNBVFd1T3cxMXExRXBhcWZDYUNpVm5xU1JjVGh3ZUZyR0thTldxT21JbUxxOGxSTFEwWklWUDE1ZlJxNnNPaDhPV3pHYWthMjN1WVNkc3J5V3p6VGlZRlp5bVdsUDFKQ0VXSU1ld3RWMV9lZkRRUHNGZkNXNDdjbw?oc=5",
     "source": "gnews_futures",
     "published_utc": "2026-11-16T06:51:19+00:00",
-    "score": 8.65,
+    "score": 8.61,
     "duplicates": 0
    },
    {
@@ -2811,34 +2836,25 @@
     "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQZWw1cTVJckJKUEE4LTlkZzBHSkVIRnVWaXRsV3FfTmprX3Z1Qk45RE1hS0g0SFkyLXliV0VOUDRtekVjOUdRbGhkU2Zfamg0LXpzTFFnVEVxbldfOXUtVG9DQmY1WnRodWg2QTdvcXd5eVV6OTlzaEptMEY5eDFRODFZWTNBWV91UjJzR1FkeVNfc0Jvcm0yNHZTbXNyOU1iN2Vvdg?oc=5",
     "source": "gnews_fed",
     "published_utc": "2026-11-16T11:27:39+00:00",
-    "score": 8.42,
+    "score": 8.38,
     "duplicates": 1
    },
    {
-    "id": "16c09c0c63",
-    "title": "S&P 500, Nasdaq futures slide as Nvidia earnings, Anthropic debut loom - Reuters",
-    "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOZEJobHpHMl90WUdVbnpzSGxLb1l3bi1BczhrN29iVW9rUzBtQWE4aFNuM2ZGS1RIQThLdEZPWmZjeExVaHhRaXBubkdqR3R3TXJYTlRqUmRYcXZxYS1pV1lyRlExUDdEUWJ3cTg4aktJVWcxbkg5UW9oeVRXLXhCZjdRQmFNeFJlLXhpWTRMM1lEUVlodGwxVHNCSE9ONTlnem0yekw1dDNraElYZGc?oc=5",
+    "id": "258e6e2511",
+    "title": "Stock Market Today: Dow Jones, S&P 500 Futures Trade Mixed as Scott Bessent Presses Nvidia Over China Chi - Benzinga",
+    "link": "https://news.google.com/rss/articles/CBMikwJBVV95cUxNQUduWDlyekRBMXp1d2NuYUluay1xRkd2N2VFU3VXaElDdmdMaTc5TkhDcmpMdFlkSmVNekVub3lMdVBMLURfTjBhS19zNUtMNlFvbkhuTF9CTnpZaGhyUzhEck45cm5GZm5EOVVjSDFoWG9vSVAwNk83S1JQR2FDQkdfc3FlcFplaXc5VDJseUdDSlc5MEF3STRIMVoxeU9CSTM5eVJ3WnUtT1dIb3FhNnFEc1R3c1FKQUh6M0d6NktsSjJlR3lqUVZ1RWNfN1BjMHhQUEtvYVlLaFR1SEJnMUF6bHNzMzBTSUpoY1JqaU43WEt0LTljMTZnc2NRYWFKX2wyUW41THpRYjdrU1prSWJBQQ?oc=5",
     "source": "gnews_futures",
-    "published_utc": "2026-11-16T10:44:08+00:00",
-    "score": 8.3,
-    "duplicates": 1
-   },
-   {
-    "id": "6d17eff3cd",
-    "title": "U.S. stock futures fall as investors await Nvidia earnings By Investing.com - Investing.com",
-    "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPZTQ0T1lmRGYwSk9XVTB1M1lJSWUzR1pjTXRvaHN2WXZpc0pjUjE2M2l1VVdHbnpEMGRmcG9tY2ZlZ05JbmxlTS0zRHdkdzlXNmhUYjZSYnREQlJRWnlTdjNicGx3NjBmUnAtUXlSME5vdERTcFUyX1dKdWxBWjRXeHJySmhveUltbEstY0Uwck52OHJaUmlWeEF6TmI0ckEwSGhyN0ExcTdtemZOQ3hKS1V1bndtMWY3ZVJ3Tzd6MFk?oc=5",
-    "source": "gnews_futures",
-    "published_utc": "2026-11-16T07:29:37+00:00",
-    "score": 8.26,
-    "duplicates": 2
+    "published_utc": "2026-11-16T09:57:55+00:00",
+    "score": 8.13,
+    "duplicates": 0
    }
   ],
   "summary": {
    "lines": [
     "US Stock Futures Decline Ahead of Nvidia Earnings as Investors Await Federal Reserve Signals: Dow Jones, S&P, Nasdaq, Wall Street - Yahoo Finance [f9f616d2d9]",
     "Wall Street Week Ahead: Nvidia earnings, Anthropic IPO, Federal Reserve minutes, retail sales - Top things to watch - TradingView [dcc3c263fb]",
-    "Dow, S&P 500, Nasdaq Futures Edge Lower As Markets Brace For Nvidia Earnings, Anthropic IPO, Fed Minutes: SMMT, NBIS, HELP, MSTR In Focus - Yahoo Finance [65a9086fe3]",
     "Bitcoin’s Week Ahead Hinges on FOMC Minutes, Nvidia Earnings, and Russia's Crypto Rules - Crypto Economy [b755cc20c4]",
+    "Dow, S&P 500, Nasdaq Futures Edge Lower As Markets Brace For Nvidia Earnings, Anthropic IPO, Fed Minutes: SMMT, NBIS, HELP, MSTR In Focus - Yahoo Finance [65a9086fe3]",
     "Eurozone Bond Yields Hold Steady as Investors Await Nvidia Earnings and Federal Reserve Signals - Yahoo Finance UK [b9c11127dd]"
    ],
    "backend": "none",
