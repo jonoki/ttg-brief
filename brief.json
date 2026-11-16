@@ -1,7 +1,7 @@
 {
  "meta": {
-  "generated_at_utc": "2026-11-16T14:43:48.366640+00:00",
-  "generated_at_local": "Mon 16 Nov 2026 10:43 AST",
+  "generated_at_utc": "2026-11-16T14:59:05.038558+00:00",
+  "generated_at_local": "Mon 16 Nov 2026 10:59 AST",
   "trading_day": "2026-11-16",
   "display_tz": "America/Halifax",
   "version": "0.1.0",
@@ -73,7 +73,7 @@
    "time_utc": "2026-11-16T17:00:00+00:00",
    "local": "13:00 AST",
    "et": "12:00 ET",
-   "in": "2h 16m",
+   "in": "2h 00m",
    "consensus": null,
    "prior": null
   },
@@ -84,10 +84,10 @@
   {
    "root": "ES",
    "trading_day": "2026-11-16",
-   "as_of_utc": "2026-11-16T14:43:48.366640+00:00",
+   "as_of_utc": "2026-11-16T14:59:05.038558+00:00",
    "source": "yahoo",
    "delayed": true,
-   "last_price": 7527.75,
+   "last_price": 7520.0,
    "levels": [
     {
      "tag": "exp_hi",
@@ -195,8 +195,8 @@
      "note": "70 % value area"
     },
     {
-     "tag": "rn_minor_dn",
-     "label": "Round 25 below",
+     "tag": "rn_minor_up",
+     "label": "Round 25 above",
      "price": 7525.0,
      "group": "round",
      "note": ""
@@ -218,14 +218,14 @@
     {
      "tag": "tdl",
      "label": "Today's RTH low",
-     "price": 7511.5,
+     "price": 7506.25,
      "group": "today",
      "note": ""
     },
     {
      "tag": "wl",
      "label": "Week low",
-     "price": 7511.5,
+     "price": 7506.25,
      "group": "week",
      "note": ""
     },
@@ -252,8 +252,8 @@
     }
    ],
    "stats": {
-    "last_bar_utc": "2026-11-16T14:33:00+00:00",
-    "last_bar_age_min": 10.8,
+    "last_bar_utc": "2026-11-16T14:49:00+00:00",
+    "last_bar_age_min": 10.1,
     "market_state": "open",
     "profile_volume": 1529102.0,
     "prior_day": "2026-11-13",
@@ -1504,19 +1504,27 @@
      "t": "2026-11-16T14:30:00+00:00",
      "o": 7537.5,
      "h": 7538.75,
-     "l": 7511.5,
-     "c": 7527.75,
-     "v": 37290.0
+     "l": 7506.25,
+     "c": 7533.75,
+     "v": 148047.0
+    },
+    {
+     "t": "2026-11-16T14:45:00+00:00",
+     "o": 7533.75,
+     "h": 7537.5,
+     "l": 7517.0,
+     "c": 7520.0,
+     "v": 26470.0
     }
    ]
   },
   {
    "root": "NQ",
    "trading_day": "2026-11-16",
-   "as_of_utc": "2026-11-16T14:43:48.366640+00:00",
+   "as_of_utc": "2026-11-16T14:59:05.038558+00:00",
    "source": "yahoo",
    "delayed": true,
-   "last_price": 27607.75,
+   "last_price": 27608.75,
    "levels": [
     {
      "tag": "exp_hi",
@@ -1596,6 +1604,13 @@
      "note": "2026-11-13 RTH, bin 1.0"
     },
     {
+     "tag": "tdh",
+     "label": "Today's RTH high",
+     "price": 27716.25,
+     "group": "today",
+     "note": "so far"
+    },
+    {
      "tag": "val",
      "label": "Prior-day VAL",
      "price": 27716.0,
@@ -1615,13 +1630,6 @@
      "price": 27695.25,
      "group": "prior_day",
      "note": "2026-11-13"
-    },
-    {
-     "tag": "tdh",
-     "label": "Today's RTH high",
-     "price": 27675.75,
-     "group": "today",
-     "note": "so far"
     },
     {
      "tag": "rtho",
@@ -1661,14 +1669,14 @@
     {
      "tag": "tdl",
      "label": "Today's RTH low",
-     "price": 27505.0,
+     "price": 27485.75,
      "group": "today",
      "note": ""
     },
     {
      "tag": "wl",
      "label": "Week low",
-     "price": 27505.0,
+     "price": 27485.75,
      "group": "week",
      "note": ""
     },
@@ -1681,8 +1689,8 @@
     }
    ],
    "stats": {
-    "last_bar_utc": "2026-11-16T14:33:00+00:00",
-    "last_bar_age_min": 10.8,
+    "last_bar_utc": "2026-11-16T14:49:00+00:00",
+    "last_bar_age_min": 10.1,
     "market_state": "open",
     "profile_volume": 592521.0,
     "prior_day": "2026-11-13",
@@ -2932,10 +2940,18 @@
     {
      "t": "2026-11-16T14:30:00+00:00",
      "o": 27668.25,
-     "h": 27675.75,
-     "l": 27505.0,
-     "c": 27607.75,
-     "v": 15317.0
+     "h": 27715.5,
+     "l": 27485.75,
+     "c": 27701.5,
+     "v": 76873.0
+    },
+    {
+     "t": "2026-11-16T14:45:00+00:00",
+     "o": 27701.75,
+     "h": 27716.25,
+     "l": 27586.5,
+     "c": 27608.75,
+     "v": 16356.0
     }
    ]
   }
@@ -2948,17 +2964,17 @@
     "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNZ3loNDRFRS1qcXRkNU4zd2dEbEt0VEpENld4UU9ES3pEOXNhMzkteGVfYXVaaHc1ZUZqRWtwckFiT1NfX3BJTHZzQmtGMUV0MmwzT1p0a1FsNFUxQTZMSmlWWVVqa25FNlNxMXFBM1BRc2E3S2hxYnc3WEdiWThDRzRfNEZfUkg0ZVAxMllvdzJmTlZiNUo3WlRjRQ?oc=5",
     "source": "gnews_futures",
     "published_utc": "2026-11-16T09:56:42+00:00",
-    "score": 11.2,
+    "score": 11.16,
     "duplicates": 2
    },
    {
-    "id": "9c4613f3d3",
-    "title": "TradFi News | S&P 500 and Nasdaq Futures Hit Quarterly Lows as Crypto and AI Stocks Lead Pre-Market Selloff Ahead of Nvidia Earnings - Binance",
-    "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFAxMUtBdnZqV2JPMUp2NDdnejdQY2s0dHlOVDZVQnppdjZOTm55VmpfY0xGdTgtVzBTdTZ5TjJjdWI3cXVPRHNSUG8xOWNLVXNyWHF4NWJDYVNQdTA4UGRIU0VxZXg?oc=5",
-    "source": "gnews_futures",
-    "published_utc": "2026-11-16T13:06:26+00:00",
-    "score": 10.73,
-    "duplicates": 1
+    "id": "0748926c6d",
+    "title": "TradFi News | Crypto Week Ahead: FOMC Minutes, Nvidia Earnings and Russia’s Retail Crypto Rules - Binance",
+    "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE9XRDJYdTdSOHFtQ0Jqd1BCSGNoZEJJdnQ5cEdVN2RhUVJQN2MtcWhxVzNfWkltSEFvUTFsTFhONWpvU1AzMmNjSUc1aFE5Z3Q4U0NHRl9JQXVIQlBXeUFVY0EyME8?oc=5",
+    "source": "gnews_fed",
+    "published_utc": "2026-11-16T12:53:32+00:00",
+    "score": 11.15,
+    "duplicates": 4
    },
    {
     "id": "525e4a04b3",
@@ -2966,7 +2982,7 @@
     "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPSktva2NqTGNheXVMRTFYT3RjNWRfUmVEREtXakt2Vk9GNXpxZlF0RmdPbEwyd3g1V2hWay1NQXgyTlMwdjRIaC0ycWpFUG1BdFpuZUhxOE45TjRhRGRybHROT1FLMHFLelFTamVyUUg0dDdRRHNnZmQ3VXQyMk9mbWY4d1kyMDl0TU4yYlg2OWt0S2Z2Rlk5RE5JUDNoUmhsTFhjX21GemFvYm9QdHd0M3UxUQ?oc=5",
     "source": "gnews_futures",
     "published_utc": "2026-11-16T12:40:53+00:00",
-    "score": 10.66,
+    "score": 10.62,
     "duplicates": 6
    },
    {
@@ -2975,16 +2991,16 @@
     "link": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxQdzZ4SlA0OFhVR25LYzAycGhyQ010LW5lMGxucjdrcC1udlRRaWJBNXM2SjY0bG5zd3VqaTBiQWwyS3BCSkNHbTJQWk5hX2xvRzZZdFNsWlZRRldfQjNhMzZsS2ZXb0p2NmE3WVk5dzJlZnJyNW9halMzcDhJWlVlSncyTXBYbGE5ejlyWDN3dy0wdURQWW9ha0FhaGFQX2dGTHNhUF9zdFNaWmhoTElkV0ZQOWMzMWZ0WEphY2wxTG5mdlVHZFd3VnVZUkVYb0h3Vm84RGVGalRiTXZLemZEX2ZHQl9tcjZGcHhhWHV3?oc=5",
     "source": "gnews_megacap",
     "published_utc": "2026-11-16T12:00:06+00:00",
-    "score": 10.05,
+    "score": 10.0,
     "duplicates": 0
    },
    {
-    "id": "b755cc20c4",
-    "title": "Bitcoin’s Week Ahead Hinges on FOMC Minutes, Nvidia Earnings, and Russia's Crypto Rules - Crypto Economy",
-    "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxORVVGc25mcm5zb1lnNEI3bDM4elF5M0QzT1lPMWk1OEMxV2xycGUtUnhXV3ZEemVweXV1dUh0WTlGQ090UUdVZjBEVnNieFF6NEw2SkRCSjU3T3J5bnIxQVoybFIzUGpGRV9xWTBNWnVrUkdxYUxQal82YmVlMUlhNQ?oc=5",
-    "source": "gnews_fed",
-    "published_utc": "2026-11-16T11:00:50+00:00",
-    "score": 9.88,
+    "id": "65a9086fe3",
+    "title": "Dow, S&P 500, Nasdaq Futures Edge Lower As Markets Brace For Nvidia Earnings, Anthropic IPO, Fed Minutes: SMMT, NBIS, HELP, MSTR In Focus - Yahoo Finance",
+    "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPd2FWcktJLVd2aW9ObWxWUGJ4MVBiNDJ6clFlSmRTSjhNSVZrbHlCamNBYUZfeTJ2cjdtZVFZMU40a1Q0dkdRcHlibDJjS20zdW1jYmtOcnkweEx0QzFOUGpFZ2JWN3Jmc1dNakJITW45VG4waDNGU285TlN3el93ZUxzYWxXdUg3eVk0U2NSUGJySFE?oc=5",
+    "source": "gnews_futures",
+    "published_utc": "2026-11-16T02:04:00+00:00",
+    "score": 10.0,
     "duplicates": 2
    },
    {
@@ -2993,7 +3009,7 @@
     "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOUVpUR2MwQVBGLW1ZWE9QR1RncXdBWUhUVWNEdEZnNjEwM1d0YVphWGRzUnhKY054cENXckwyenRxM2xjSVA5cDVSYW1fcHFwOUFtWTRTbGtWN3lqQ01hY0FNMmtPdFlFRUlFeGJldjViNlhuSVRiVTA2cnlxYVhHcXVxM0RtUTZ2?oc=5",
     "source": "gnews_fed",
     "published_utc": "2026-11-16T09:47:54+00:00",
-    "score": 9.18,
+    "score": 9.14,
     "duplicates": 0
    },
    {
@@ -3002,7 +3018,7 @@
     "link": "https://news.google.com/rss/articles/CBMilwJBVV95cUxORG1MeTdic3VCMDFhMEY3MkxyVDYwSndlcS1nWF9iWU9RTm5lUV83OGV1N0Z1eEE1RHpTa0VvUkJtNVJGUTJURDdFTVpXVnBjbGx6aHV4TFYtRkw1NzhKaW0xa2JiMUdwZVV3M1RsblBNQUotTjNibEp4T0o4Nl9pQ29YSFEtczl2NklUeEhhS2ppTzJIQTF4ZC1wY216VC0wdDFMQjI1eUl3a1VXNlU3b2VoWms5QW0yNG9TSHJoUzdTN01qSzJRWnlOc0VZM3dBQ1VaNXNqTllYNldNSFFsQllpWmRyenNkU1liN3BDbGVheWdJNkxSTHRMLUstZ3hMWW8xa1hwVmFNU0tTQXBUdUJnaU1IZ0U?oc=5",
     "source": "gnews_futures",
     "published_utc": "2026-11-16T09:57:55+00:00",
-    "score": 8.71,
+    "score": 8.66,
     "duplicates": 0
    },
    {
@@ -3011,17 +3027,8 @@
     "link": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxPMXlaQzE5cGhKMmdUUEcxVHJBWjkwYXhYTlhWUDhGSmR0VmpCN2RYS0dlQWdqRVhjdnQzQ0pKQ2ZiVjYtb1VXZHgxNm1EeWNQU0I4c1djZW1xVXV4Y1F4VU1NSjRiM1g4TVpvM1JuMXItbHF4TFZkTGVOTUxWaWswSjF3Q1h4UGJVQmUxQTB3eXRkY3FFMWJtSnFmOVFUS2tWYXFJNWwtQ29xVWlSd24zU05iQjRDcl9ZTGk0aGhObDVyVE1aN180eWJGY2FVTU9jQnJLcGxoTmF4dw?oc=5",
     "source": "gnews_futures",
     "published_utc": "2026-11-16T12:17:32+00:00",
-    "score": 8.59,
+    "score": 8.55,
     "duplicates": 4
-   },
-   {
-    "id": "5561075963",
-    "title": "Dow, S&P 500, Nasdaq Futures Edge Lower As Markets Brace For Nvidia Earnings, Anthropic IPO, Fed Minutes: SMMT, NBIS, HELP, MSTR In Focus - TradingView",
-    "link": "https://news.google.com/rss/articles/CBMimgJBVV95cUxPN3VtaG9fdGNRWGRxQmtMU0hOSkY5d0ZkR0ZiOENDcjBTak4yV1d6azBWV21Rdk5CcUVUYUt6c0JMdTNPdjVjc0hwUG8yWGEwVUhzekN6UmNqazh1UFZXWDR1WWd6dTNsclktbi1jLUVzNVlRQjZXNDNGSENyUlE5UGhzc3VpV2EyS2FRclVMRkhNeTVWNVNJTlY5cFl3MWhDVHlQOF9QT0RRUExJYXl2bGxGNHM0UkRaaW9BRjcyNC1SOW9DQ3UzRHEtelFscUljY3FDemdZRng4WXBMTFN4OXkzTjZndlRjSjNaVFhwaktxeWVwVDJTQlhGUkhZZHNQMmN6Q2doaThXWmYxanZUQ0FfTE9aOElrT1E?oc=5",
-    "source": "gnews_fed",
-    "published_utc": "2026-11-16T02:04:00+00:00",
-    "score": 8.5,
-    "duplicates": 1
    },
    {
     "id": "47c864232b",
@@ -3029,7 +3036,7 @@
     "link": "https://www.cnbc.com/2026/11/16/nvidia-commerce-china-lutnick.html",
     "source": "cnbc_markets",
     "published_utc": "2026-11-16T14:39:31+00:00",
-    "score": 8.49,
+    "score": 8.45,
     "duplicates": 0
    },
    {
@@ -3038,7 +3045,7 @@
     "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPc2JpNngwR2NCNUxhQUlRVDdtb0FJeHdLdFcxZVIwRUlRUjhtMEtNUEFJbXJCbkZ5YnBPLTBxTUh6dklCSGV4VmRpODNvcjhVMllTczJGcWUwQ0piZ1I4d2lYNDNlc1VUTk1KVjVWS0hzbDd4X2RYR0U2VjRaX05qZ0hGakRHQjQwUEVWYlYzWi1sSWpxaGZlX0ZjV19FeW9GcXhtZ2dFM1lXbUp6SmFnazFZYjQzWkk?oc=5",
     "source": "gnews_futures",
     "published_utc": "2026-11-16T13:32:18+00:00",
-    "score": 8.3,
+    "score": 8.26,
     "duplicates": 1
    },
    {
@@ -3047,17 +3054,26 @@
     "link": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxQNm92aDRTUEhFWFZlc01ONXo4V25ITzJTdTBhbWNqN21WRlFycW5PWDV5U2VZYmpGelQ0VTNONXM2bjEwSzBVeG51dWNaOHA3WXJiT1VxUTB5UV9mWUNDOWtLZnlsaExnTkFlVEJLTGlTQjA2N3V4enNkUlNwWUNYU3REYjRJYWU3dDFIbHAtYjcydExIZmVuMFhLaXdOdGlCMHktQm5nY2JsUmdsQktDN0VuQ2hXb29jZzB3U3M1QzZYdnBBVVc4SjVZbjFMSlFaQXJIVEprNnZIdEJQ?oc=5",
     "source": "gnews_futures",
     "published_utc": "2026-11-16T06:59:00+00:00",
-    "score": 8.21,
+    "score": 8.17,
     "duplicates": 1
+   },
+   {
+    "id": "36d293458f",
+    "title": "Nasdaq falls 1% at open as Nvidia woes weigh on sentiment ahead of earnings - WTVB",
+    "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQQjlwT3FPQTBHdVJYVVNVdkRfZEZhMS1OZG14V3FiSlEwZ0Q2Z1I3ckNKMWwxWEZjXzBPQTdMc3o5SmIxa3BieHFIVDBLNUNYdy1rb05Ua2s1WVJYekg5NlFIZE51WDRESUh5bTdmbzRkZE9HV1ItUTBuVXhhS193QldwZklBZnlra1pjejd3emhNNzkxeVM4cUFaQlJ2Z1RveGJUUmZxX1Y?oc=5",
+    "source": "gnews_megacap",
+    "published_utc": "2026-11-16T14:52:02+00:00",
+    "score": 7.98,
+    "duplicates": 2
    }
   ],
   "summary": {
    "lines": [
     "US Stock Futures Decline Ahead of Nvidia Earnings as Investors Await Federal Reserve Signals: Dow Jones, S&P, Nasdaq, Wall Street - Yahoo Finance [f9f616d2d9]",
-    "TradFi News | S&P 500 and Nasdaq Futures Hit Quarterly Lows as Crypto and AI Stocks Lead Pre-Market Selloff Ahead of Nvidia Earnings - Binance [9c4613f3d3]",
+    "TradFi News | Crypto Week Ahead: FOMC Minutes, Nvidia Earnings and Russia’s Retail Crypto Rules - Binance [0748926c6d]",
     "S&P 500, Nasdaq futures fall ahead of Nvidia earnings, Anthropic IPO - Kitco [525e4a04b3]",
     "Nvidia Earnings, Fed Minutes, Anthropic’s IPO Put AI Rally To The Test: 3 Charts To Watch This Week - TradingView [c642e98ce8]",
-    "Bitcoin’s Week Ahead Hinges on FOMC Minutes, Nvidia Earnings, and Russia's Crypto Rules - Crypto Economy [b755cc20c4]"
+    "Dow, S&P 500, Nasdaq Futures Edge Lower As Markets Brace For Nvidia Earnings, Anthropic IPO, Fed Minutes: SMMT, NBIS, HELP, MSTR In Focus - Yahoo Finance [65a9086fe3]"
    ],
    "backend": "none",
    "model": null,
